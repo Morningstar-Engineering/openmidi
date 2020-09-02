@@ -1,0 +1,22 @@
+name: Upload Files
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --follow-symlinks
+      env:
+        AWS_S3_BUCKET: openmidi
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+        AWS_REGION: 'ap-southeast-1'   # optional: defaults to us-east-1
+        SOURCE_DIR: 'data'      # optional: defaults to entire repository
+        DEST_DIR: 'data'  
