@@ -1,0 +1,120 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Hold down Switch E while powering up the ML5. Once the ML5 is powered up, release Switch E. The Learn button will flash quickly and continuously.
+    Send a CC or PC message to the ML5 on your desired MIDI channel. The ML5 will read the message and set its MIDI channel to the first message received.
+
+instructions:
+
+pc:
+  description:
+    The ML5 has 128 presets. PC#0 to PC#127 will recall each preset.
+
+cc:
+  - name: 'Bypass All Loops'
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage all Loops'
+    value: 0
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop A'
+    value: 1
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop A'
+    value: 1
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop B'
+    value: 2
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop B'
+    value: 1
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop C'
+    value: 3
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop C'
+    value: 3
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop D'
+    value: 4
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop D'
+    value: 4
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop E'
+    value: 5
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop E'
+    value: 5
+    description: ''
+    type: System
+    min: 64
+    max: 127
+
+  - name: 'Toggle Bypass - Loop A'
+    value: 6
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Toggle Bypass - Loop B'
+    value: 7
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Toggle Bypass - Loop C'
+    value: 8
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Toggle Bypass - Loop D'
+    value: 9
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Toggle Bypass - Loop E'
+    value: 10
+    description: ''
+    type: System
+    min: 0
+    max: 127

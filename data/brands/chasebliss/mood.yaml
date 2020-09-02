@@ -1,0 +1,106 @@
+midi_in: RTS
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+    Mood is set to MIDI channel 2 by default, but it is easy to change if you need to.
+
+    If you want to change it, simply hold down both stomp switches when you provide power
+    to the pedal (hold down both stomp switches simultaneously) and then
+    you can let go. The pedal is now looking for the first “Program Change” message it sees,
+    and it will set itself to whatever channel it gets that first message from,
+    permanently (until you change it again, of course).
+pc:
+  description: |+
+    RECALLING A PRESET VIA MIDI
+
+    You can activate a preset by sending a MIDI Program Change message. For example, sending a Program Change message
+    of 1 activates preset 1. There are 122 total preset slots available. Slots 1 and 2 are the presets that can be saved
+    and activateddirectly from the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+
+    Sending a Program Change message of 0 puts the pedal in “Live” mode which is identical to when the preset toggle
+    switch is in the middle position, in normal pedal operation.
+
+    If you do not save something into presets 3 through 122, nothing will be recalled. There are no factory presets
+    besides the two that come loaded in slots 1 and 2. The idea is for you to create your own.
+
+    SAVING A PRESET VIA MIDI
+
+    You save a preset by sending a MIDI Program Change message while holding down both stomp switches. For example,
+    sending a Program Change message of 45 while holding down both stomp switches will save your current settings to
+    preset 45. There are 122 total slots. Slots 1 and 2 are the presets that can be saved and activated directly from
+    the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+cc:
+  - name: Time
+    value: 14
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix
+    value: 15
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Length
+    value: 16
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modify (Droplet - Live Spatial Effects)
+    value: 17
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Clock
+    value: 18
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modify (Progress Spinner - Micro Looper)
+    value: 19
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Program Select (Droplet - Live Spatial Effects)
+    value: 21
+    description: "1:Left, 2:Center, 3:Right"
+    type: System
+    min: 1
+    max: 3
+  - name: Routing Toggle
+    value: 22
+    description: "1:Left, 2:Center, 3:Right"
+    type: System
+    min: 1
+    max: 3
+  - name: Program Select (Progress Spinner - Micro Looper)
+    value: 23
+    description: "1:Left, 2:Center, 3:Right"
+    type: System
+    min: 1
+    max: 3
+  - name: Expression
+    value: 100
+    description: "(0:Heel Down, 127:Toe Down)"
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass Switch
+    value: 102
+    description: "0:Bypass, 127:Engage last saved bypass state"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass Switch
+    value: 103
+    description: "0:Bypass both channels, 127:Engage both channels, 85:Engage Droplet channel only, 45: Engage Progress Spinner channel only"
+    type: Parameter
+    min: 0
+    max: 127
+    

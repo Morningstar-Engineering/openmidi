@@ -1,0 +1,427 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Push and hold the Value knob to go into the Global Settings Menu.
+    From there, turn the knob until you see MIDICH. Press the Value knob to select that option. You will now be able
+    to select the MIDI channel for your device.
+
+    Turn the knob to your desired channel. Once done, press the Value knob again to save the channel.
+instructions:
+
+pc:
+  description: |+
+    Timeline presets are arranged in a grid of 100 numbered Banks (00-99) with 2 presets (A and B) within each Bank for
+    a total of 200 presets. Because MIDI Program Change messages have a maximum number of 128 (0-127), the presets are
+    grouped into 2 MIDI
+
+    Patch Banks:
+    MIDI BANK 0 = PRESETS 00A-63B
+    MIDI BANK 1 = PRESETS 64A-99B
+
+    The presets are numbered sequentially within each bank:
+    PRESET 00A = MIDI program # 0
+    PRESET 00B = MIDI program # 1
+    PRESET 01A = MIDI program # 2
+    PRESET 01B = MIDI program # 3
+    PRESET 02A = MIDI program # 4 etc. up to #127...
+
+    TimeLine always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets (00A-63B),
+    simply send a standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Bank 1, it is advisable to send a standard MIDI Bank Change message [MIDI CC# 0 with a
+    value equal to the MIDI B
+cc:
+  - name: Boost
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 60
+  - name: dBucket - Range
+    value: 45
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Depth
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Digital - Repeat Dynamics
+    value: 56
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: dTape - Low End
+    value: 59
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: dTape - Tape Speed
+    value: 58
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Dual - Config
+    value: 36
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Dual - Mix 2
+    value: 33
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Dual - Repeats 2
+    value: 34
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Dual - Time 2
+    value: 32
+    description: ''
+    type: Parameter
+    min: 0
+    max: 26
+  - name: Duck - Feedback
+    value: 54
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Duck - Release
+    value: 55
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Duck - Sensitivity
+    value: 37
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Exp On/Off
+    value: 60
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Filter
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter - Depth
+    value: 41
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Filter - LFO
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 10
+  - name: Filter - Location
+    value: 43
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Filter - Q
+    value: 40
+    description: ''
+    type: Parameter
+    min: 0
+    max: 11
+  - name: Filter - Speed
+    value: 42
+    description: ''
+    type: Parameter
+    min: 0
+    max: 34
+  - name: Full/Half Speed (toggle)
+    value: 95
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Grit
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High Pass
+    value: 47
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Ice - Blend
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Ice - Interval
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 29
+  - name: Ice - Slice
+    value: 46
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Lo-Fi - Bit Depth
+    value: 50
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Lo-Fi - Filter
+    value: 53
+    description: ''
+    type: Parameter
+    min: 0
+    max: 8
+  - name: Lo-Fi - Mix
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Lo-Fi - Sample Rate
+    value: 49
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Lo-Fi - Vinyl
+    value: 52
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Looper Level
+    value: 98
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Clock On/Off
+    value: 63
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Mix
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pattern - Pattern
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 15
+  - name: Persist On/Off
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Play
+    value: 86
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pre/Post (toggle)
+    value: 96
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Record
+    value: 87
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Redo
+    value: 90
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Repeats
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverse (toggle)
+    value: 94
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Smear
+    value: 38
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Speed
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Stop
+    value: 85
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Swell - Rise Time
+    value: 44
+    description: ''
+    type: Parameter
+    min: 0
+    max: 27
+  - name: Tap Division
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Time
+    value: 3
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Trem - Depth
+    value: 57
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Trem - LFO
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Trem - Speed
+    value: 61
+    description: ''
+    type: Parameter
+    min: 0
+    max: 34
+  - name: Type Encoder
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 11
+  - name: Undo (to initial loop)
+    value: 89
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: A footswitch Press Down
+    value: 80
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: A footswitch Press Up
+    value: 80
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: B footswitch Press Down
+    value: 82
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: B footswitch Press Up
+    value: 82
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Patch Bank
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 1
+  - name: Phase Reset
+    value: 125
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Remote TAP
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: TAP footswitch Off
+    value: 81
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: TAP footswitch On
+    value: 81
+    description: ''
+    type: System
+    min: 127
+    max: 127

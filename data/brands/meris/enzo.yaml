@@ -1,0 +1,170 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Hold down the left LED switch while powering up to enter Global Configuration mode.
+    Turn the 'MODULATION' knob fully clockwise to activate MIDI in.
+    Turn the 'FILTER ENV' knob to select your desired MIDI channel.
+    No light = Channel 1, Right most light = Channel 2 and so on. Power off and on the pedal to save.
+    Visit the Enzo manual for more information
+    https://www.meris.us/wp-content/uploads/2018/06/Meris_Enzo_full_Manual_v3.pdf.
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: 'Env Type: Triggered'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Env Type: Follower'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Pitch
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sustain
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter Envelope
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modulation
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Portamento
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter Type
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Level
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ring Modulation
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter Bandwidth
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Synth Mode: Dry'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 31
+  - name: 'Synth Mode: Mono'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 32
+    max: 63
+  - name: 'Synth Mode: ARP'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 64
+    max: 95
+  - name: 'Synth Mode: Poly'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 96
+    max: 127
+  - name: 'Synth Waveshape: Sawtooth'
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Synth Waveshape: Mono'
+    value: 30
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Exp Pedal
+    value: 4
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: FX Bypass
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Tempo (10ms interval)
+    value: 15
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Tap
+    value: 28
+    description: ''
+    type: System
+    min: 127
+    max: 127

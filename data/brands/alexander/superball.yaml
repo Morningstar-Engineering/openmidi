@@ -1,0 +1,293 @@
+midi_in: TRS
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+    Power on the Neo Series pedal while holding its center Select button.
+    Release the button when the main LED turns violet.
+    Tap the center Select button until the upper small LED is red, then hold
+    Select to save.
+
+    Power the Neo Series pedal off and back on, again holding the center Select button until the
+    upper LED turns violet.
+    Finally, send a program change message from your controller on the MIDI channel you would
+    like to use. When you see the upper small LED flash, hold the Select button to save and exit.
+    Your Neo Series pedal is now configured!
+
+pc:
+  description: |+
+    Sending PC mesages will load Presets 0-15
+    0-3 are the Red bank, also accessible by holding the Bypass / Preset footswitch
+    4-7 are the Green bank
+    8-11 are the Blue bank
+    12-15 are the White bank
+
+cc:
+  - name: Tap Tempo
+    value: 93
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ramp - Trigger
+    value: 97
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: '0 = Heel Down, 127 = Toe Down'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass
+    value: 102
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Engage
+    value: 102
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: LFO / Expression / Ramp Range - Filter Lo
+    value: 50
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Time Lo
+    value: 51
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Repeat Lo
+    value: 52
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Mix Lo
+    value: 53
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Filter Hi
+    value: 54
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Time Hi
+    value: 55
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Repeat Hi
+    value: 56
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Expression / Ramp Range - Mix Hi
+    value: 57
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO / Sequencer Controls - LFO Shape - No Sync
+    value: 58
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - LFO Shape - Tap
+    value: 58
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - LFO Shape - Bounce/Step
+    value: 58
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+  - name: LFO / Sequencer Controls - LFO Rate - No Sync
+    value: 59
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - LFO Rate - Tap
+    value: 59
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - LFO Rate - Bounce/Step
+    value: 59
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - LFO Depth - No Sync
+    value: 60
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - LFO Depth - Tap
+    value: 60
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - LFO Depth - Bounce/Step
+    value: 60
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - LFO Sync - No Sync
+    value: 61
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - LFO Sync - Tap
+    value: 61
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - LFO Sync - Bounce/Step
+    value: 61
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - Sequencer Pattern - No Sync
+    value: 62
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - Sequencer Pattern - Tap
+    value: 62
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - Sequencer Pattern - Bounce/Step
+    value: 62
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - Sequencer Rate - No Sync
+    value: 63
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - Sequencer Rate - Tap
+    value: 63
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - Sequencer Rate - Bounce/Step
+    value: 63
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - Sequencer Steps - No Sync
+    value: 64
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - Sequencer Steps - Tap
+    value: 64
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - Sequencer Steps - Bounce/Step
+    value: 64
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: LFO / Sequencer Controls - Sequencer Sync - No Sync
+    value: 65
+    description:
+    type: Parameter
+    min: 0
+    max: 42
+  - name: LFO / Sequencer Controls - Sequencer Sync - Tap
+    value: 65
+    description:
+    type: Parameter
+    min: 43
+    max: 87
+  - name: LFO / Sequencer Controls - Sequencer Sync - Bounce/Step
+    value: 65
+    description:
+    type: Parameter
+    min: 88
+    max: 127
+
+  - name: Dry Source - Analog with Trails
+    value: 66
+    description:
+    type: System
+    min: 0
+    max: 42
+  - name: Dry Source - Analog
+    value: 66
+    description:
+    type: System
+    min: 43
+    max: 87
+  - name: Dry Source - DSP
+    value: 66
+    description:
+    type: System
+    min: 88
+    max: 127
+
+  - name: Ramp Rate
+    value: 67
+    description:
+    type: System
+    min: 0
+    max: 127
+
+  - name: External Control Channel
+    value: 68
+    description:
+    type: System
+    min: 0
+    max: 127
+
+  - name: Level
+    value: 69
+    description:
+    type: System
+    min: 0
+    max: 127

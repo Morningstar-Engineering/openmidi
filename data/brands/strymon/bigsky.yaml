@@ -1,0 +1,450 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Push and hold the Value knob to go into the Global Settings Menu.
+
+    From there, turn the knob until you see MIDICH.
+    Press the Value knob to select that option.
+    You will now be able to select the MIDI channel for your device.
+
+    Turn the knob to your desired channel.
+    Once done, press the Value knob again to save the channel.
+instructions:
+  -
+
+pc:
+  description: |+
+    BigSky presets are arranged in a grid of 100 numbered banks (00-99) with
+    3 presets (A,B and C) within each bank for a total of 300 presets.
+
+    Because MIDI Program Change messages have a maximum number of 128 (0-127), the presets are grouped into 3 MIDI
+    Patch Banks:
+    MIDI BANK 0 = PRESETS 00A-42B
+    MIDI BANK 1 = PRESETS 42C-85A
+    MIDI BANK 2 = PRESETS 85B-99C
+
+    The presets are numbered sequentially within each bank:
+    PRESET 00A = MIDI program # 0
+    PRESET 00B = MIDI program # 1
+    PRESET 00C = MIDI program # 2
+    PRESET 01A = MIDI program # 3
+    PRESET 01B = MIDI program # 4 etc. up to #127...
+
+    BigSky always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets (00A-42B),
+    simply send a standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
+    [MIDI CC# 0 with a value equal to the MIDI Bank #] before each MIDI Program Change.
+cc:
+  - name: Bloom - Feedback
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Bloom - Length
+    value: 32
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Bloom - Low End
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Boost
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 60
+  - name: Chorale - Reso
+    value: 34
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Chorale - Vowal
+    value: 33
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Cloud - Diffusion
+    value: 37
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Cloud - Low End
+    value: 38
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Decay
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Exp On/Off
+    value: 60
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Freeze/Infinite
+    value: 70
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Hall - Low End
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Hall - Mid
+    value: 42
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Hall - Size
+    value: 40
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Magneto - Diffusion
+    value: 56
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Magneto - Heads
+    value: 57
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Magneto - Low End
+    value: 55
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Magneto - Spacing
+    value: 54
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: MIDI Clock Off/On
+    value: 71
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Mix
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Nonlinear - Diffusion
+    value: 45
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Nonlinear - Late Decay
+    value: 47
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Nonlinear - Late Level
+    value: 48
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Nonlinear - Low End
+    value: 44
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Nonlinear - Mod Speed
+    value: 43
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Nonlinear - Shape
+    value: 46
+    description: ''
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Param 1
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Param 2
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Persist On/Off
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Plate - Low End
+    value: 69
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Plate - Size
+    value: 68
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Pre-Delay
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reflections - Loc X
+    value: 49
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Reflections - Loc Y
+    value: 50
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Reflections - Low End
+    value: 52
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Reflections - Shape
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Room - Diffusion
+    value: 58
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Room - Low End
+    value: 61
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Room - Size
+    value: 59
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Shimmer - Amount
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Shimmer - Low End
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Shimmer - Mode
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Shimmer - Shift 1
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 27
+  - name: Shimmer - Shift 2
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 28
+  - name: 'Spring - # Springs'
+    value: 62
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Spring - Dwell
+    value: 63
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Spring - Low End
+    value: 64
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Swell - Low End
+    value: 65
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Swell - Mode
+    value: 67
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Swell - Rise
+    value: 66
+    description: ''
+    type: Parameter
+    min: 0
+    max: 22
+  - name: Tone
+    value: 3
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Type Encoder
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 11
+  - name: Value Encoder
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: A footswitch Press Down
+    value: 80
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: A footswitch Press Up
+    value: 80
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: B footswitch Press Down
+    value: 82
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: B footswitch Press Up
+    value: 82
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: C footswitch Press Down
+    value: 81
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: C footswitch Press Up
+    value: 81
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Expression On/Off
+    value: 60
+    description: ''
+    type: Parameters
+    min: 0
+    max: 1   
+  - name: MIDI Patch Bank
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 1
+  - name: Phase Reset
+    value: 125
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Remote TAP
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Press/Hold Switch
+    value: 97
+    description: 'off=0 on=127'
+    type: System
+    min: 0
+    max: 127

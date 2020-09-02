@@ -1,0 +1,111 @@
+midi_in: TRS
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+    Enter configuration mode by holding the Select button and then powering on the pedal.
+    Release the button when the main LED turns violet
+
+    Tap the Select button to choose the MultiJack function. The upper program LED will change
+    colors to indicate the function. Green = Expression Pedal, Orange = Foot Switch, Red = MIDI
+    
+    Connect a MIDI controller to the EXP port and send a program change to set the Neo Pedal’s
+    MIDI channel.
+pc:
+  description: |+
+    Sending PC mesages will load Presets 0-15
+    0-3 are the four Red presets on the pedal itself.
+    4-7 are the Green bank
+    8-11 are the Blue bank
+    12-15 are the White bank
+cc:
+  - name: Tap Tempo
+    value: 93
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ramp - Set Speed
+    value: 97
+    description: ''
+    type: Parameter
+    min: 1
+    max: 8
+  - name: Ramp - Trigger
+    value: 97
+    description: ''
+    type: Parameter
+    min: 9
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: '0 = Heel Down, 127 = Toe Down'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass
+    value: 102
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Engage
+    value: 102
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Pedal Knobs - Lower Right Main
+    value: 50
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Upper Left Main
+    value: 51
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Upper Right Main
+    value: 52
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Lower Left Main
+    value: 53
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Lower Right Alt
+    value: 54
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Upper Left Alt
+    value: 55
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Upper Right Alt
+    value: 56
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pedal Knobs - Lower Left Alt
+    value: 57
+    description: '0 = Counter ClockWise, 127 = Clockwise'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mode Select
+    value: 59
+    description: 'Accepts values 0-7 to select modes 1-8'
+    type: System
+    min: 0
+    max: 7

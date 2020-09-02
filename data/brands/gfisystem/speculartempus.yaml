@@ -1,0 +1,112 @@
+midi_in: DIN5
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    To change the MIDI channel, you need to access the Global Configuration Menu.
+    Hold down footswitch B on power up and release the switch when the display reads: [GLOBAL CONFIG]
+    You can turn the knobs to select the MIDI channel menu.
+    To save the changes, hold down footswitch B unitl LED B flashes 3x.
+instructions:
+
+pc:
+  description: |+
+    PC#0 activates Bank 1 Patch A
+    PC#1 activates Bank 1 Patch B
+    PC#2 activates Bank 2 Patch A
+    PC#3 activates Bank 2 Patch B
+
+    and so on...
+cc:
+  - name: Blend
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Decay/Time
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Param
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Intensity/Repeats
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Load Patch A
+    value: 18
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Load Patch B
+    value: 19
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bank Down
+    value: 20
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bank Up
+    value: 21
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass Pedal
+    value: 22
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage Pedal
+    value: 22
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Kill Dry: Off'
+    value: 23
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Kill Dry: On'
+    value: 23
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Aux-Out: Off'
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Aux-Out: On'
+    value: 24
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Tap Tempo
+    value: 25
+    description: ''
+    type: System
+    min: 0
+    max: 127

@@ -1,0 +1,345 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    To access the Global Settings, start with the pedal unplugged. Press and hold the
+    TAP footswitch and then power the pedal by connecting the 9V power cable.
+
+    Turn the REC LEVEL knob to select. ON LED indicates channel selection.
+    1 = GREEN (default)
+    2 = AMBER
+    3 = RED
+    4-16 = BLUE (channel set by next MIDI message)
+
+    With this option, MIDI Channel is set to the channel of the next incoming MIDI Program Change message received.
+
+    Press the TAP footswitch to exit power up mode.
+instructions:
+
+pc:
+  description: |+
+    Volante contains 300 preset locations, numbered sequentially from 0-299. Because MIDI Program Change messages have
+    a maximum number of 128 (0-127) the presets are grouped into three MIDI patch banks.
+
+    - MIDI BANK 0 = PRESETS 0-127
+    - MIDI BANK 1 = PRESETS 128-255
+    - MIDI BANK 2 = PRESETS 256-299
+
+    Volante always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets, simply send a
+    standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
+    (MIDI CC# 0 with a value equal to the MIDI Bank#) before each MIDI Program Change.
+
+    Selecting bank 0, patch 127 will put Volante into Manual mode. In this mode, the pedal will be set to the current
+    knob and switch settings. No preset data can be stored at this preset location.
+cc:
+  - name: Echo Level
+    value: 12
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 1 Feedback Off/On
+    value: 34
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 1 Level
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 1 Pan
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 1 Playback Off/On
+    value: 21
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 2 Feedback Off/On
+    value: 35
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 2 Level
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 2 Pan
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 2 Playback Off/On
+    value: 22
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 3 Feedback Off/On
+    value: 36
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 3 Level
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 3 Pan
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 3 Playback Off/On
+    value: 23
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 4 Feedback Off/On
+    value: 37
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 4 Level
+    value: 28
+    description: (0=off, 1-127=on) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 4 Pan
+    value: 32
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Head 4 Playback Off/On
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Infinite Hold (w/ oscillation)
+    value: 45
+    description: (0=release, 1-127=hold)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Infinite Hold (w/o oscillation)
+    value: 46
+    description: (0=release, 1-127=hold)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low Cut
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mechanics
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pause (no ramp)
+    value: 42
+    description: (0=unpause, 1-127=pause)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pause (ramp)
+    value: 43
+    description: (0=unpause, 1-127=pause)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pause Ramp Speed
+    value: 38
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Rec Level
+    value: 13
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Repeats
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverse
+    value: 44
+    description: (0=normal, 1-127=reverse)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: SOS Loop Level
+    value: 47
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: SOS Mode
+    value: 41
+    description: (0=normal, 1-127=SOS) 
+    type: Parameter
+    min: 0
+    max: 127
+  - name: SOS Repeats Level
+    value: 48
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Spacing
+    value: 18
+    description: (even=0, triplet=34, golden=94, silver=127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Speed
+    value: 19
+    description: (1=double, 2=half, 3=normal)
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Spring (level)
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Spring Decay
+    value: 40
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Time
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Type
+    value: 11
+    description: (1=studio, 2=drum, 3=tape)
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Wear
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bank Select
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 2
+  - name: Bypass/On
+    value: 102
+    description: (0=bypass, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Echo On/Off
+    value: 78
+    description: (0=off, 127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Exp Pedal
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch Favourite
+    value: 81
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch On
+    value: 80
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch Tap
+    value: 82
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Killdry
+    value: 84
+    description: (0=dry off, 1-127=dry on)
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Clock On/Off
+    value: 63
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Exp On/Off
+    value: 60
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Output Sum
+    value: 85
+    description:  (0=stereo, 1-127=sum)
+    type: System
+    min: 0
+    max: 127
+  - name: Persist
+    value: 83
+    description: (0=persist off, 1-127=persist on)
+    type: System
+    min: 0
+    max: 127
+  - name: Remote Tap
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Reverb On/Off
+    value: 79
+    description: (0=off, 127=on)
+    type: System
+    min: 0
+    max: 127

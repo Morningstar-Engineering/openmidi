@@ -1,0 +1,203 @@
+midi_in: RTS
+midi_thru: No
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Thermae is set to MIDI channel 2 by default, but it is easy to change if you need to.
+
+    If you want to change it, simply hold down both stomp switches when you provide power
+    to the pedal (hold down both stomp switches simultaneously) and then you can let go.
+    The pedal is now looking for the first “Program Change” message it sees, and it will
+    set itself to whatever channel it gets that first message from, permanently
+    (until you change it again, of course).
+
+pc:
+  description: |+
+    RECALLING A PRESET VIA MIDI
+
+    You can activate a preset by sending a MIDI Program Change message. For example, sending a Program Change message
+    of 1 activates preset 1. There are 122 total preset slots available. Slots 1 and 2 are the presets that can be saved
+    and activateddirectly from the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+
+    Sending a Program Change message of 0 puts the pedal in “Live” mode which is identical to when the preset toggle
+    switch is in the middle position, in normal pedal operation.
+
+    If you do not save something into presets 3 through 122, nothing will be recalled. There are no factory presets
+    besides the two that come loaded in slots 1 and 2. The idea is for you to create your own.
+
+    SAVING A PRESET VIA MIDI
+
+    You save a preset by sending a MIDI Program Change message while holding down both stomp switches. For example,
+    sending a Program Change message of 45 while holding down both stomp switches will save your current settings to
+    preset 45. There are 122 total slots. Slots 1 and 2 are the presets that can be saved and activated directly from
+    the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+cc:
+  - name: Mix
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LPF
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Regen
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Glide
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Int 1 (Speed)
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Int 2 (Depth)
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ramp
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: L Toggle Left
+    value: 21
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: L Toggle Center
+    value: 21
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: L Toggle Right
+    value: 21
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: M Toggle Left
+    value: 22
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: M Toggle Center
+    value: 22
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: M Toggle Right
+    value: 22
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: R Toggle Left
+    value: 23
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: R Toggle Center
+    value: 23
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: R Toggle Right
+    value: 23
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: 'Hold Function: Oscillation'
+    value: 24
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Hold Function: Regular Regen knob position'
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Sequence Mode: Slowdown'
+    value: 25
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Sequence Mode: Normal'
+    value: 25
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Step Mode: New base tap tempo'
+    value: 25
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Step Mode: Regular step mode'
+    value: 25
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'MIDI Clock: Ignore'
+    value: 51
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'MIDI Clock: Listen'
+    value: 51
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Tap Switch
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Exp
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Bypass Switch: Bypass'
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: Engage'
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127

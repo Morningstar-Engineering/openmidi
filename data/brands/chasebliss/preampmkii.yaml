@@ -1,0 +1,107 @@
+midi_in: DIN5
+midi_thru: Yes
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Preamp MKII™ is set to MIDI channel 2 by default. This can be changed by holding down both stomp switches simultaneously when
+    you provide power to the pedal and releasing the stomp switches once the seven segment display on the front of the pedal lights up.
+    The pedal is now looking for the first Program Change message it sees and will set itself to whichever channel it receives that message from.
+    This is saved as the new MIDI channel until you decide to change it again.
+pc:
+  description: |+
+    RECALLING A PRESET VIA MIDI
+
+    Presets 0-29 are recalled using Program Changes 0-29. You can do this by sending the corresponding Program Change message
+    from your MIDI controller. For example, sending a Program Change message of “4” loads bank one (left LED off), preset four.
+    Sending a message of “17” loads bank two (left LED red), preset seven. Sending a program change of “20” loads bank three (left LED green), preset zero.
+
+    SAVING A PRESET
+
+    Once you get the tone you want, hold down the Bypass foot switch
+    and your settings will be saved to the current preset slot. 
+cc:
+  - name: Volume (Fader)
+    value: 14
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Treble (Fader)
+    value: 15
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mids (Fader)
+    value: 16
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Frequency (Fader)
+    value: 17
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bass (Fader)
+    value: 18
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Gain (Fader)
+    value: 19
+    description: (Full down is 0, Full up is 127)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Jump (Arcade Button)
+    value: 22
+    description: "(Value Range: 1: Off, 2: 0, 3: 5)"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Mids (Arcade Button)
+    value: 23
+    description: "(Value Range: 1: Off, 2: Pre, 3: Post)"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Q (Arcade Button)
+    value: 24
+    description: "Value Range: 1: Low, 2: Mid, 3: High"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Diode (Arcade Button)
+    value: 25
+    description: "Value Range: 1: Off, 2: Sil, 3: Germ"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Fuzz (Arcade Button)
+    value: 26
+    description: "Value Range: 1: Off, 2: Open, 3: Gated"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Preset Saving
+    value: 27
+    description: "Value Range: CC# is equal to desired preset save slot (0-29)"
+    type: System
+    min: 0
+    max: 29
+  - name: Expression
+    value: 100
+    description: "Value Range: 0-127 (Full down is 0, Full up is 127)"
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass
+    value: 102
+    description: "Value Range: 0: Bypassed, 1 (or >): Engaged"
+    type: System
+    min: 0
+    max: 1

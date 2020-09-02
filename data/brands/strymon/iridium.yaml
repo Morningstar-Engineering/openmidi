@@ -1,0 +1,136 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Press and hold both footswitches while connecting power to the pedal.
+    Once both LEDs flash, release the footswitches.
+
+    Turn the DRIVE knob to set the MIDI communication channel.
+    FAV LED indicates status.
+
+    Channel 1 - GREEN (default)
+    Channel 2 - AMBER Channel 2
+    Channel 3 - RED
+    Channel 4-16 - BLUE (Requires ¼” MIDI connection.) Once the LED
+    turns BLUE, it will blink until the pedal receives a MIDI Program
+    Change message. Once a message is received, the pedal will be
+    set to the MIDI channel that carried the message and the LED will
+    stop blinking.
+
+    Press the ON footswitch again to store the MIDI channel and begin.
+instructions:
+
+pc:
+  description: |+
+    Iridium contains 300 preset locations, numbered sequentially from 0-299. Because MIDI Program Change
+    messages have a maximum number of 128 (0-127) the presets are grouped into three MIDI patch banks.
+
+    - MIDI BANK 0 = PRESETS 0-127
+    - MIDI BANK 1 = PRESETS 128-255
+    - MIDI BANK 2 = PRESETS 256-299
+
+    Iridium always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets,
+    simply send a standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
+    (MIDI CC# 0 with a value equal to the MIDI Bank#) before each MIDI Program Change.
+cc:
+  - name: Level
+    value: 12
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Drive
+    value: 13
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bass
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mid
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Treble
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Room Level
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Room Size
+    value: 18
+    description: (1=small, 2= medium, 3= large)
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Amp
+    value: 19
+    description: (1=round, 2=chime, 3=punch)
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Cab
+    value: 20
+    description: (0-2=round a, b, c; 3-5=chime a, b, c; 6-8=punch a, b, c)
+    type: Parameter
+    min: 0
+    max: 8
+  - name: Footswitch Fav
+    value: 27
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch On
+    value: 28
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Expression Off/On
+    value: 60
+    description: (0=off, 1-127=on) 
+    type: System
+    min: 0
+    max: 127
+  - name: Expression
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass/On
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bank Select
+    value: 0
+    description: '(0=bank 1, 1=bank 2, 2=bank 3)'
+    type: System
+    min: 0
+    max: 2
+  - name: Volume Pedal
+    value: 7
+    description: ''
+    type: System
+    min: 0
+    max: 127

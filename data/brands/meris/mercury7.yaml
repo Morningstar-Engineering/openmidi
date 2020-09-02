@@ -1,0 +1,135 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Hold down the left LED switch while powering up to enter Global Configuration mode.
+    Turn the 'HI FREQUENCY' knob fully clockwise to activate MIDI in.
+    Turn the 'PITCH VECTOR' knob to select your desired MIDI channel.
+    No light = Channel 1, Right most light = Channel 2 and so on.
+    Power off and on the pedal to save.
+    Visit the Mercury 7 manual for more information
+    https://www.meris.us/wp-content/uploads/2017/03/Meris_Mercury7_full_Manual-v4.pdf.
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Exp Pedal
+    value: 4
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: FX Bypass
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Space Decay
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modulate
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Lo Freq
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pitch Vector
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Hi Freq
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Predelay
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod Speed
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pitch Vector Mix
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Density '
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Attack Time
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Vibrato Depth
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Swell Off
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Swell On
+    value: 28
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: 'Algorithm Select: Ultraplate'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Algorithm Select: Cathedra'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127

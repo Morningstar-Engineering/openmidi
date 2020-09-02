@@ -1,0 +1,190 @@
+midi_in: RTS
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+    Blooper is set to MIDI channel 2 by default, but it is easy to change if you need to.
+
+    If you want to change it, simply hold down both stomp switches when you provide power
+    to the pedal (hold down both stomp switches simultaneously) and then
+    you can let go. The pedal is now looking for the first “Program Change” message it sees,
+    and it will set itself to whatever channel it gets that first message from,
+    permanently (until you change it again, of course).
+pc:
+  description: |+
+    RECALLING A PRESET VIA MIDI
+
+    You can activate a preset by sending a MIDI Program Change message. For example, sending a Program Change message
+    of 1 activates preset 1. There are 122 total preset slots available. Slots 1 and 2 are the presets that can be saved
+    and activateddirectly from the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+
+    Sending a Program Change message of 0 puts the pedal in “Live” mode which is identical to when the preset toggle
+    switch is in the middle position, in normal pedal operation.
+
+    If you do not save something into presets 3 through 122, nothing will be recalled. There are no factory presets
+    besides the two that come loaded in slots 1 and 2. The idea is for you to create your own.
+
+    SAVING A PRESET VIA MIDI
+
+    You save a preset by sending a MIDI Program Change message while holding down both stomp switches. For example,
+    sending a Program Change message of 45 while holding down both stomp switches will save your current settings to
+    preset 45. There are 122 total slots. Slots 1 and 2 are the presets that can be saved and activated directly from
+    the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+cc:
+
+  - name: Record
+    value: 1
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Play
+    value: 2
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Overdub
+    value: 3
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Stop
+    value: 4
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Undo
+    value: 5
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Redo
+    value: 6
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Erase
+    value: 7
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 1
+    max: 127
+  - name: Hold Switch B
+    value: 8
+    description: "0, Any value >0 (0 is off, >0 is on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Multi-control
+    value: 11
+    description: "1: Record, 2:Play, 3:Overdub, 4:Stop, 5:Undo, 6:Redo, 7:Erase"
+    type: System
+    min: 1
+    max: 7
+  - name: Volume
+    value: 14
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Layers
+    value: 15
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Repeats
+    value: 16
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod A
+    value: 17
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Stability
+    value: 18
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod B
+    value: 19
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ramp
+    value: 20
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod A
+    value: 21
+    description: "Range: 1:Left, 2:Center, 3:Right"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Looper Mode
+    value: 22
+    description: "Range: 1:Left, 2:Center, 3:Right"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Mod B
+    value: 23
+    description: "1:Left, 2:Center, 3:Right"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Preview/Save-Load
+    value: 24
+    description: "1:Left, 2:Center, 3:Right"
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Mod A
+    value: 30
+    description: "1:Left, 2:Center, 3:Right"
+    type: System
+    min: 0
+    max: 127
+  - name: Mod B
+    value: 31
+    description: "1:Left, 2:Center, 3:Right"
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Clock Ignore
+    value: 51
+    description: "0, Any value >0 (0 is ignore clock, >0 is listen for clock)"
+    type: System
+    min: 0
+    max: 127
+  - name: Ramping On/Off
+    value: 52
+    description: "0, Any value >0 (0 is ramping off, >0 is ramping on)"
+    type: System
+    min: 0
+    max: 127
+  - name: Note Divisions
+    value: 54
+    description: "0:Whole Note, 1:Half Note, 2:Dotted Note, 3:Quarter Note, 4:Eighth Note, 5:Triplet Note, 6:Sixteenth Note, 7:Thirty-second Note"
+    type: System
+    min: 0
+    max: 7
+  - name: Expression
+    value: 100
+    description: "(Full counter-clockwise is 0, Full clockwise is 127)"
+    type: System
+    min: 0
+    max: 127

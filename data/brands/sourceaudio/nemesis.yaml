@@ -1,0 +1,329 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    By default, the Nemesis responds to MIDI Channel 1. The Nemesis ignores all MIDI messages sent to
+    it that are not on its channel, with the exception of MIDI clock messages. The input MIDI channel for
+    the Nemesis can be changed in the Hardware Options menu of the Neuro App. Note that the MIDI
+    Input Channel is a global setting that is NOT saved per preset.
+pc:
+  description:
+
+cc:
+  - name: Factory Delay Engine
+    value: 1
+    description: ''
+    type: Parameter
+    min: 0
+    max: 23
+  - name: Delay Time
+    value: 2
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Maximum Delay Time
+    value: 3
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Feedback
+    value: 5
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Wet/Dry Mix
+    value: 6
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modulation Depth
+    value: 7
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Modulation Rate
+    value: 8
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Intensity (Assignable)
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Output Level
+    value: 10
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Diffusion
+    value: 11
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Distortion
+    value: 12
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High Pass Filter
+    value: 13
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low Pass Filter
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sample Rate Reduction
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sweep Filter Frequency
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sweep Filter Q
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sweep Filter Depth
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sweep Filter Mix
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Wow and Flutter Depth
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Wow and Flutter Rate
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Wow Modulation Noise
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tremolo Depth (Stereo)
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pitch Shift Control
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 125
+  - name: 'Tap 1 Level '
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap 1 Pan
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap 2 Level
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap 2 Pan
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap 2 Delay Time
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Input Low Pass Filter
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Feedback Maximum
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Lock to Delay Time
+    value: 32
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Invert Left Wet Phase
+    value: 33
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Invert Right Wet Phase
+    value: 34
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: I/O Routing Option
+    value: 35
+    description: ''
+    type: Parameter
+    min: 0
+    max: 15
+  - name: Multi-Feedback Mode
+    value: 36
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Merge Stereo Outputs
+    value: 37
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Bypass
+    value: 38
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Intensity Knob Remap
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 14
+  - name: Mod Knob Remap
+    value: 40
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Rate Knob Remap
+    value: 41
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Tempo Division
+    value: 42
+    description: ''
+    type: Parameter
+    min: 0
+    max: 14
+  - name: 'Octave Shift Control '
+    value: 50
+    description: ''
+    type: Parameter
+    min: 0
+    max: 125
+  - name: Delay Send Control
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Preset Down
+    value: 80
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Preset Up
+    value: 82
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Remote Tap
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Infinite Hold
+    value: 97
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass
+    value: 101
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Remote Bypass
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Recall Preset Bypassed
+    value: 103
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Recall Preset Engaged
+    value: 104
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Pitch Shift Table
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 125

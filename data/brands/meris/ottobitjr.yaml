@@ -1,0 +1,153 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Hold down the left LED switch while powering up to enter Global Configuration mode.
+    Turn the 'SEQUENCER MULT' knob fully clockwise to activate MIDI in.
+    Turn the 'SEQUENCER' knob to select your desired MIDI channel.
+    No light = Channel 1, Right most light = Channel 2 and so on.
+    Power off and on the pedal to save.
+    Visit the Mercury 7 manual for more information
+    https://www.meris.us/wp-content/uploads/2017/03/Meris_OttobitJr_full_Manual_v5.pdf.
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Exp Pedal
+    value: 4
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: FX Bypass
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Tempo
+    value: 15
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Sample Rate
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bits
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Stutter
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Mult
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 1
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 2
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 3
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 4
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 5
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Step 6
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap
+    value: 28
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Sequencer Type: Pitch'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 62
+  - name: 'Sequencer Type: Sample Rate'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 63
+    max: 63
+  - name: 'Sequencer Type: Filter'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: 'Stutter Hold: Off'
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Stutter Hold: On'
+    value: 31
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127

@@ -1,0 +1,148 @@
+midi_in: RTS
+midi_thru: No
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Spectre is set to MIDI channel 3 by default, but it is easy to change if you need to.
+
+    If you want to change it, simply hold down both stomp switches when you provide power
+    to the pedal (hold down both stomp switches simultaneously) and then you can let go.
+    The pedal is now looking for the first “Program Change” message it sees, and it will
+    set itself to whatever channel it gets that first message from, permanently
+    (until you change it again, of course).
+pc:
+  description: |+
+    RECALLING A PRESET VIA MIDI
+
+    You can activate a preset by sending a MIDI Program Change message. For example, sending a Program Change message
+    of 1 activates preset 1. There are 122 total preset slots available. Slots 1 and 2 are the presets that can be saved
+    and activateddirectly from the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+
+    Sending a Program Change message of 0 puts the pedal in “Live” mode which is identical to when the preset toggle
+    switch is in the middle position, in normal pedal operation.
+
+    If you do not save something into presets 3 through 122, nothing will be recalled. There are no factory presets
+    besides the two that come loaded in slots 1 and 2. The idea is for you to create your own.
+
+    SAVING A PRESET VIA MIDI
+
+    You save a preset by sending a MIDI Program Change message while holding down both stomp switches. For example,
+    sending a Program Change message of 45 while holding down both stomp switches will save your current settings to
+    preset 45. There are 122 total slots. Slots 1 and 2 are the presets that can be saved and activated directly from
+    the pedal via the preset toggle. Slot 1 is the right slot. Slot 2 is the left slot.
+cc:
+  - name: Mix
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Zero
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Regen
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Rate
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Width
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Shift
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Ramp
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'MIDI Note Division: Whole'
+    value: 21
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'MIDI Note Division: 1/2'
+    value: 21
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: 'MIDI Note Division: 1/4 Triplets'
+    value: 21
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: 'MIDI Note Division: 1/4'
+    value: 21
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: 'MIDI Note Division: 1/8'
+    value: 21
+    description: ''
+    type: System
+    min: 4
+    max: 4
+  - name: 'MIDI Note Division: 1/16'
+    value: 21
+    description: ''
+    type: System
+    min: 5
+    max: 5
+  - name: 'MIDI Clock: Ignore'
+    value: 51
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'MIDI Clock: Listen'
+    value: 51
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Tap Switch
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Exp
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Bypass Switch: Bypass'
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: Engage'
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127

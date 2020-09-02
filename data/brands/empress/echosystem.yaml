@@ -1,0 +1,299 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Enter the Advanced Configuration Menu by holding down both the tap and bypass stompswitches, and then pressing the
+    shift button. All the preset LEDs will blink yellow twice to confirm you’re in.
+
+    Each mode LED represents a different configuration item you can change. For MIDI Channel, it is the Ambient LED.
+
+    Turn the mode knob until the Ambient LED is lit, then turn the delay time knob to modify the value.
+
+    As you turn from left to right the LEDs will illuminate in order to indicate the MIDI channel.
+    (ex. If the 3rd LED is lit, it’s going to listen on MIDI channel 3).
+
+    You will need to set up the Control Port Configuration as well.
+
+    The control port configuration is the Tape LED. LED 5 indicates that MIDI is selected for the control port.
+    1. Expression Pedal*
+    2. Control Voltage Input
+    3. Normally Open Switch
+    4. Normally Closed Switch
+    5. MIDI
+    6. MIDI with Preset Out
+
+    To exit the Advanced Configuration menu, hold down tap and bypass stompswitches.
+    The Preset LEDs will blink yellow twice and the pedal will reboot.
+instructions:
+
+pc:
+  description: |+
+    You can activate a preset by sending a MIDI program change message. For example, sending a program change message
+    of 7 activates preset 7.
+cc:
+  - name: Bypass
+    value: 60
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 60
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Simulate Exp Pedal
+    value: 10
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Routing Mode: Trails'
+    value: 118
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Routing Mode: Parallel'
+    value: 118
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: 'Routing Mode: Serial'
+    value: 118
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: 'Routing Mode: L/R'
+    value: 118
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: 'Left Footswitch (Tap): Quick Tap'
+    value: 35
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Left Footswitch (Tap): Hold'
+    value: 35
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Left Footswitch (Tap): Release'
+    value: 35
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Mid Footswitch (Scroll): Quick Tap'
+    value: 36
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Mid Footswitch (Scroll): Hold'
+    value: 36
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Mid Footswitch (Scroll): Release'
+    value: 36
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Right Footswitch (Bypass): Quick Tap'
+    value: 37
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Right Footswitch (Bypass): Hold'
+    value: 37
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Right Footswitch (Bypass): Release'
+    value: 37
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Shift Button: Quick Tap'
+    value: 38
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Shift Button: Hold'
+    value: 38
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Shift Button: Release'
+    value: 38
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engine Order Swap
+    value: 40
+    description: Any value to swap
+    type: System
+    min: 0
+    max: 127
+  - name: 'Solo Engine: Engine A'
+    value: 41
+    description: 0 un-solos engine. Any other value solos the engine.
+    type: System
+    min: 0
+    max: 127
+  - name: 'Solo Engine: Engine B'
+    value: 42
+    description: 0 un-solos engine. Any other value solos the engine.
+    type: System
+    min: 0
+    max: 127
+  - name: 'MIDI Clock Listener: Engine A'
+    value: 51
+    description: |+
+      Value 0 - ignore MIDI clock messages.
+      Value 127 - listen for MIDI clock messages.
+    type: System
+    min: 0
+    max: 127
+  - name: 'MIDI Clock Listener: Engine B'
+    value: 52
+    description: |+
+      Value 0 - ignore MIDI clock messages.
+      Value 127 - listen for MIDI clock messages.
+    type: System
+    min: 0
+    max: 127
+  - name: Save Preset
+    value: 39
+    description: '0-35 selects which preset the current settings get saved to. In Bank
+      mode the presets that appear are (1,3,5), (6,8,9), etc'
+    type: System
+    min: 0
+    max: 35
+  - name: 'Modes: Engine A'
+    value: 100
+    description:
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Modes: Engine B'
+    value: 109
+    description:
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Delay Time / Ratio: Engine A'
+    value: 101
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Delay Time / Ratio: Engine B'
+    value: 110
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Mix: Engine A'
+    value: 102
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Mix: Engine B'
+    value: 111
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Volume: Engine A'
+    value: 103
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Volume: Engine B'
+    value: 112
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Feedback: Engine A'
+    value: 104
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Feedback: Engine B'
+    value: 113
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Tone: Engine A'
+    value: 105
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Tone: Engine B'
+    value: 114
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Thing 1: Engine A'
+    value: 106
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Thing 1: Engine B'
+    value: 115
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Thing 2: Engine A'
+    value: 107
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Thing 2: Engine B'
+    value: 116
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Delay Source: Engine A'
+    value: 108
+    description: 0 - Global, 1 - Local, 2 - Knob
+    type: Parameters
+    min: 0
+    max: 2
+  - name: 'Delay Source: Engine B'
+    value: 117
+    description: 0 - Global, 1 - Local, 2 - Knob
+    type: Parameters
+    min: 0
+    max: 2

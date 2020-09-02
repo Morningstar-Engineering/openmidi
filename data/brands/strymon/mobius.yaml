@@ -1,0 +1,493 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Push and hold the Value knob to go into the Global Settings Menu.
+    From there, turn the knob until you see MIDICH. Press the Value knob to select that option. You will now be able
+    to select the MIDI channel for your device.
+
+    Turn the knob to your desired channel. Once done, press the Value knob again to save the channel.
+instructions:
+
+pc:
+  description: |+
+    Mobius presets are arranged in a grid of 100 numbered Banks (00-99) with 2 presets (A and B) within each Bank for
+    a total of 200 presets.
+
+    Because MIDI Program Change messages have a maximum number of 128 (0-127), the presets are grouped into 2 MIDI
+    Patch Banks:
+    MIDI BANK 0 = PRESETS 00A-63B
+    MIDI BANK 1 = PRESETS 64A-99B
+
+    The presets are numbered sequentially within each bank:
+    PRESET 00A = MIDI program # 0
+    PRESET 00B = MIDI program # 1
+    PRESET 01A = MIDI program # 2
+    PRESET 01B = MIDI program # 3
+    PRESET 02A = MIDI program # 4 etc. up to #127...
+
+    Mobius always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets (00A-63B),
+    simply send a standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Bank 1, it is advisable to send a standard MIDI Bank Change message [MIDI CC# 0 with a
+    value equal to the MIDI Bank #] before each MIDI Program Change.
+cc:
+  - name: Autoswell - Rise Time
+    value: 57
+    description: ''
+    type: Parameter
+    min: 0
+    max: 22
+  - name: Autoswell - Shape
+    value: 58
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Chorus - Mix
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Chorus - Mode
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Chorus - Tone
+    value: 30
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Depth
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Destroyer - Bit Depth
+    value: 59
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Destroyer - Filter
+    value: 62
+    description: ''
+    type: Parameter
+    min: 0
+    max: 8
+  - name: Destroyer - Mix
+    value: 64
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Destroyer - Sample Rate
+    value: 61
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Destroyer - Vinyl
+    value: 63
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Exp On/Off
+    value: 60
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Filter - Dry Level
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Filter - Frequency Middle
+    value: 52
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Filter - Mode
+    value: 48
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Filter - Resonance
+    value: 50
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Filter - Stereo Spread
+    value: 69
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Filter - Waveshape
+    value: 49
+    description: ''
+    type: Parameter
+    min: 0
+    max: 7
+  - name: Flanger - Manual
+    value: 26
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Flanger - Mode
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Flanger - Regen
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Formant - LFO
+    value: 67
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Formant - Stereo Speed
+    value: 115
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Formant - Vowel 1
+    value: 65
+    description: ''
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Formant - Vowel 2
+    value: 66
+    description: ''
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Level
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Clock Off/On
+    value: 70
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Param 1
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Param 2
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pattern Trem - Beat 1
+    value: 105
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Pattern Trem - Beat 2
+    value: 106
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 3
+    value: 107
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 4
+    value: 108
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 5
+    value: 109
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 6
+    value: 110
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 7
+    value: 111
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Beat 8
+    value: 112
+    description: ''
+    type: Parameter
+    min: 0
+    max: 18
+  - name: Pattern Trem - Pan
+    value: 114
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Pattern Trem - Waveshape
+    value: 113
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Phase Reset
+    value: 125
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Phaser - Headroom
+    value: 68
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Phaser - Mode
+    value: 44
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Phaser - Regen
+    value: 45
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Phaser - Stereo speed
+    value: 47
+    description: ''
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Phaser - Waveshape
+    value: 46
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Pre/Post
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Quadrature - LFO
+    value: 56
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Quadrature - Mix
+    value: 55
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Quadrature - Mode
+    value: 53
+    description: ''
+    type: Parameter
+    min: 0
+    max: 3
+  - name: Quadrature - Shift 1
+    value: 54
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Rotary - Acceleration
+    value: 37
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Rotary - Horn Level
+    value: 34
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Rotary - Preamp Drive
+    value: 35
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Rotary - Slow Rotor Speed
+    value: 36
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Rotary - Tap Select
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Speed
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap Division
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 6
+  - name: Tap Switch Tap/Speed
+    value: 39
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Type Encoder
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 11
+  - name: Vibe - Headroom
+    value: 42
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Vibe - Low End
+    value: 41
+    description: ''
+    type: Parameter
+    min: 0
+    max: 20
+  - name: Vibe - Mode
+    value: 43
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Vibe - Waveshape
+    value: 40
+    description: ''
+    type: Parameter
+    min: 0
+    max: 17
+  - name: Vintage Trem - Mode
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Vintage Trem - Pan
+    value: 32
+    description: ''
+    type: Parameter
+    min: 0
+    max: 1
+  - name: A footswitch Press Down
+    value: 80
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: A footswitch Press Up
+    value: 80
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: B footswitch Press Down
+    value: 82
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: B footswitch Press Up
+    value: 82
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
+    value: 102
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Patch Bank
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 1
+  - name: Remote TAP
+    value: 93
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: TAP footswitch Off
+    value: 81
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: TAP footswitch On
+    value: 81
+    description: ''
+    type: System
+    min: 127
+    max: 127

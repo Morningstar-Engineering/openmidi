@@ -1,0 +1,193 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    MIDI channel can be changed in the H9 Control app.
+    Once your device is connected to the app, select
+
+    Pedal >> MIDI Settings >> MIDI Receive Channel
+
+    and then select your desired channel.
+pc:
+  description:
+
+cc:
+  - name: Increment preset
+    value: User-defined
+    description: All CC messages in H9 are user-defined in the H9 Control App
+    type: System
+    min: 127
+    max: 127
+  - name: Decrement preset
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Increment and load preset
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Tap tempo
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Performance switch (Middle)
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Toggle Tuner
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Activate
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Toggle between Active and Bypass
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Left Footswitch (Active)
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Expression pedal value
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Set parameter 1
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 2
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 3
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 4
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 5
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 6
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 7
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 8
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 9
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 10
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Looper - Record
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Play
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Stop
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Empty
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Flip Direction
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Flip Octave
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Input Volume
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Output Volume
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127

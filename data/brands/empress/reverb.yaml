@@ -1,0 +1,354 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Enter the Advanced Configuration Menu by holding down both the select and bypass stompswitches, and then
+    pressing the shift button. All the preset LEDs will blink yellow twice to confirm you’re in.
+
+    Each mode LED represents a different configuration item you can change. For MIDI Channel, it is the Ambient Swell LED.
+
+    Turn the mode knob until the Ambient Swell LED is lit, then turn the decay time knob to modify the value.
+
+    As you turn from left to right the LEDs will illuminate in order to indicate the MIDI channel. (ex. If the 3rd LED
+    is lit, it’s going to listen on MIDI channel 3).
+
+    You will need to set up the Control Port Configuration as well.
+
+    The control port configuration is the Plate LED. LED 5 indicates that MIDI is selected for the control port.
+    1. Expression Pedal*
+    2. Control Voltage Input
+    3. Normally Open Switch
+    4. Normally Closed Switch
+    5. MIDI
+    6. MIDI with Preset Out
+
+    To exit the Advanced Configuration menu, hold down tap and bypass stompswitches.
+    The Preset LEDs will blink yellow twice and the pedal will reboot.
+instructions:
+
+pc:
+  description: |+
+    You can activate a preset by sending a MIDI program change message. For example, sending a program change message
+    of 7 activates preset 7.
+cc:
+  - name: Bypass
+    value: 60
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 60
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Simulate Exp Pedal
+    value: 10
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Decay Time
+    value: 21
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Mix
+    value: 22
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Volume
+    value: 23
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Low Damp
+    value: 24
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Hi Damp
+    value: 25
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Thing 1
+    value: 26
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Thing 2
+    value: 27
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Left Footswitch (Select): Quick Tap'
+    value: 35
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Left Footswitch (Select): Hold'
+    value: 35
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Left Footswitch (Select): Release'
+    value: 35
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Mid Footswitch (Scroll): Quick Tap'
+    value: 36
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Mid Footswitch (Scroll): Hold'
+    value: 36
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Mid Footswitch (Scroll): Release'
+    value: 36
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Right Footswitch (Bypass): Quick Tap'
+    value: 37
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Right Footswitch (Bypass): Hold'
+    value: 37
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Right Footswitch (Bypass): Release'
+    value: 37
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Save Button: Quick Tap'
+    value: 38
+    description: ''
+    type: System
+    min: 64
+    max: 64
+  - name: 'Save Button: Hold'
+    value: 38
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Save Button: Release'
+    value: 38
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: MIDI Clock Ignore
+    value: 51
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: MIDI Clock Listen
+    value: 51
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Hall (Concert)
+    value: 20
+    description: ''
+    type: ''
+    min: 0
+    max: 0
+  - name: Hall (Modern)
+    value: 20
+    description: ''
+    type: ''
+    min: 1
+    max: 1
+  - name: Plate (Classic)
+    value: 20
+    description: ''
+    type: ''
+    min: 8
+    max: 8
+  - name: Plate (Studio)
+    value: 20
+    description: ''
+    type: ''
+    min: 9
+    max: 9
+  - name: Spring (Bright)
+    value: 20
+    description: ''
+    type: ''
+    min: 16
+    max: 16
+  - name: Spring (Dark)
+    value: 20
+    description: ''
+    type: ''
+    min: 17
+    max: 17
+  - name: Spring (Overdriven)
+    value: 20
+    description: ''
+    type: ''
+    min: 18
+    max: 18
+  - name: Room
+    value: 20
+    description: ''
+    type: ''
+    min: 24
+    max: 24
+  - name: Sparkle
+    value: 20
+    description: ''
+    type: ''
+    min: 32
+    max: 32
+  - name: Sparkle (Gummer)
+    value: 20
+    description: ''
+    type: ''
+    min: 33
+    max: 33
+  - name: Modulation (Mod)
+    value: 20
+    description: ''
+    type: ''
+    min: 40
+    max: 40
+  - name: Modulation (Chorused)
+    value: 20
+    description: ''
+    type: ''
+    min: 41
+    max: 41
+  - name: Modulation (Flanged)
+    value: 20
+    description: ''
+    type: ''
+    min: 42
+    max: 42
+  - name: Modulation (Tremolo)
+    value: 20
+    description: ''
+    type: ''
+    min: 43
+    max: 43
+  - name: Ambient (Triggered Swell)
+    value: 20
+    description: ''
+    type: ''
+    min: 48
+    max: 48
+  - name: Ambient (Gate Swell w/ Octave)
+    value: 20
+    description: ''
+    type: ''
+    min: 49
+    max: 49
+  - name: Delay (Single Tap)
+    value: 20
+    description: ''
+    type: ''
+    min: 56
+    max: 56
+  - name: Delay (Bendable)
+    value: 20
+    description: ''
+    type: ''
+    min: 57
+    max: 57
+  - name: Delay (Filtered Feedback)
+    value: 20
+    description: ''
+    type: ''
+    min: 58
+    max: 58
+  - name: Reverse (Decay)
+    value: 20
+    description: ''
+    type: ''
+    min: 64
+    max: 64
+  - name: Reverse (No Decay)
+    value: 20
+    description: ''
+    type: ''
+    min: 65
+    max: 65
+  - name: Reverse (Delay)
+    value: 20
+    description: ''
+    type: ''
+    min: 66
+    max: 66
+  - name: Ghost (Resonant)
+    value: 20
+    description: ''
+    type: ''
+    min: 72
+    max: 72
+  - name: Ghost (Casper)
+    value: 20
+    description: ''
+    type: ''
+    min: 73
+    max: 73
+  - name: Lo-Fi (50's Radio)
+    value: 20
+    description: ''
+    type: ''
+    min: 80
+    max: 80
+  - name: Lo-Fi (Warble)
+    value: 20
+    description: ''
+    type: ''
+    min: 81
+    max: 81
+  - name: Beer (Glitch)
+    value: 20
+    description: ''
+    type: ''
+    min: 88
+    max: 88
+  - name: Beer (Gated Reverb)
+    value: 20
+    description: ''
+    type: ''
+    min: 89
+    max: 89
+  - name: Beer (Destroyer Pad)
+    value: 20
+    description: ''
+    type: ''
+    min: 90
+    max: 90
