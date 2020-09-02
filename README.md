@@ -1,5 +1,5 @@
 # openmidi
-OpenMIDI is a community driven effort to document MIDI implementations of various MIDI devices. These information are then available at www.openmidi.com for public use.
+OpenMIDI is a community driven effort to document MIDI implementations of various MIDI devices. This information is made available at www.openmidi.com for public use.
 
 # How to contribute
 1. Fork the repository
