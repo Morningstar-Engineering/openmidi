@@ -25,14 +25,14 @@ After a new yaml file is created, the `mapping.json` file needs to be updated to
     phantom_power: [Yes | No]
     midi_clock: [Yes | No]
 
-    midi_channel
+    midi_channel: 
       instructions: |+
         [Description on how to set up the MIDI channel for the device]
 
-    pc
+    pc: 
       description: |+
         [Description on how PC messages work on the device]
-    cc
+    cc: 
       - name: [CC Function Name]
         value: [CC Number 0 - 127]
         description: [Description of function]
