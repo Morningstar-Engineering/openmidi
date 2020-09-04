@@ -15,6 +15,16 @@
             ]
         },
         {
+            "name": "Boss",
+            "value": "boss",
+            "models": [
+                {
+                    "name": "Katana",
+                    "value": "katana"
+                }
+            ]
+        },
+        {
             "name": "Chase Bliss Audio",
             "value": "chasebliss",
             "models": [
