@@ -1,0 +1,66 @@
+midi_in: DIN5
+midi_thru: false
+
+midi_channel:
+  instructions: |+
+    The Katana Head and Artist ship with the default MIDI channel of 1. 
+    
+    You can choose from channels 1 thru 4 only.
+
+    To change the MIDI channel, hold down the corresponding channel button while powering the unit on, e.g. Hold down the [CH 1] button while turning the power on to set the Katana to MIDI channel 1, etc.
+
+pc:
+  description: |+
+    PC#1 (00H) activates BANK A CH1
+    PC#2 (01H) activates BANK A CH2
+    PC#3 (02H) activates BANK A CH3
+    PC#4 (03H) activates BANK A CH4
+    PC#5 (04H) activates the PANEL
+    PC#6 (00H) activates BANK B CH1
+    PC#7 (01H) activates BANK B CH2
+    PC#8 (02H) activates BANK B CH3
+    PC#9 (03H) activates BANK B CH4
+
+cc:
+  - name: FX1 SW Toggle
+    value: 16
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FX2 SW Toggle
+    value: 17
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FX3 SW Toggle
+    value: 18
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: EFFECT LOOP SW Toggle
+    value: 19
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: GA-FC EXP PEDAL (FX) Toggle
+    value: 80
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: GA-FC EXP PEDAL (VOLUME) Toggle
+    value: 81
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: EXP PEDAL Toggle
+    value: 82
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
