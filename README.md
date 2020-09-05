@@ -1,6 +1,9 @@
 # openmidi
 OpenMIDI is a community driven effort to document MIDI implementations of various MIDI devices. This information is made available at www.openmidi.com for public use.
 
+# Contributors
+- [Huevos-y-Bacon](https://github.com/Huevos-y-Bacon)
+
 # How to contribute
 1. Fork the repository
 2. Add your changes
