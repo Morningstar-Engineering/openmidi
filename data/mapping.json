@@ -127,6 +127,16 @@
             ]
         },
         {
+            "name": "Kemper",
+            "value": "kemper",
+            "models": [
+                {
+                    "name": "Profiler",
+                    "value": "profiler"
+                }
+            ]
+        },
+        {
             "name": "Line 6",
             "value": "line6",
             "models": [

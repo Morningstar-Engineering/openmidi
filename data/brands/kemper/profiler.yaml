@@ -1,0 +1,272 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    By default, the PROFILER receives MIDI commands on all sixteen MIDI channels (“Omni”). However, if you want to control multiple devices independently, you can set a specific channel in System Settings on the “MIDI Settings” page. Now, the PROFILER will only receive messages on that channel.
+instructions:
+  -
+
+pc:
+  description: |+
+    Performance Mode:
+    There are 128 program changes available in MIDI and these are assigned to each Slot as they occur within the Performances, in linear fashion:
+
+    Rig in Performance 1, Slot 1 loaded by program change 0
+    Rig in Performance 1, Slot 2 loaded by program change 1
+    ...
+    Rig in Performance 2, Slot 5 loaded by program change 9
+    ...
+    Rig in Performance 26, Slot 3 loaded by program change 127
+
+    You could also use the following formula: (#Performance * 5) - 5 + (#Slot - 1)
+
+    Due to the limit of 128 different program change values you can only address about 25 Performances. If you need more, you must use the MIDI bank select controllers which allow you to address multiple pages of 128 program changes each.
+
+    Instead of calculating the appropriate MIDI bank select, LSB and program change, you could simply read it from the screen. If no PROFILER Remote is connected, both items are displayed for the current Slot on the left-hand side of the home screen in Performance Mode.
+
+    While program changes are required to initiate the Rig load, bank select MSB and LSB are redundant. You don’t need to send bank select MSB because Performance Mode always assumes value “0”. Bank select LSB is not required if you navigate within the same MIDI bank.
+
+    These two MIDI control change numbers are associated with MIDI bank select: #0 Bank select MSB (always 0), #32 Bank select LSB (values 0-4).
+
+    Browser Mode:
+    You can assign up to 128 MIDI program change numbers to Rigs in your browse pool. These assignments are set in the System Settings on page “Browser Mode PrgChg”.
+
+    To assign a program change number to a Rig, first load the Rig in the Browser Mode. Then press the SYSTEM button. Navigate to the page “Browser Mode PrgChg” using the PAGE buttons.
+
+    Select a desired program change number using soft knob “MIDI PrgChg#” and then press the soft button “Assign”. Use the soft button labeled “Unassign” to erase assignments.
+
+    Without leaving this page you can use the RIG navigation cross to load other Rigs from your browse pool and perform more assignments.
+
+    Instead of using MIDI program changes, you can use control changes (#48-54) to load Slots in Performance Mode and Rigs in Browser Mode.
+cc:
+  - name: Wah Pedal
+    value: 1
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Pitch Pedal
+    value: 4
+    description: 'The Pitch Pedal is dedicated to the pitch shifter effects Pedal Pitch and Pedal Vinyl Stop, ideal for creating the classic Whammy effect.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Volume Pedal
+    value: 7
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Panorama
+    value: 10
+    description: 'This parameter allows you to move the signal within the stereo field. The “Panorama” parameter affects the HEADPHONE output plus "Master..." Output Sources of all other stereo outputs.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Morph Pedal
+    value: 11
+    description: 'This pedal controls simultaneous morphing of multiple, continuous Rig parameters.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Mix (Module DLY)
+    value: 68
+    description: 'Controls the level of the delay signal.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Feedback (Module DLY)
+    value: 69
+    description: 'The Feedback parameter determines the amount of delayed signal that is thrown back to the input of the delay, resulting in an "echo of the echo". '
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverb Mix (Module REV)
+    value: 70
+    description: 'Controls the level of the reverb signal.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverb Time (Module REV)
+    value: 71
+    description: 'Determines how fast the reverb decays.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Gain
+    value: 72
+    description: 'The GAIN knob controls the amount of distortion and covers an extremely wide range from ultra-clean to totally distorted.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Monitor (Output) Volume
+    value: 73
+    description: '“Monitor Volume” is a special additional pedal option to control the volume of the MONITOR OUTPUT as well the internal power amplifier of PowerHead and PowerRack. It allows you to generate controlled feedback through your monitor cabinet.'
+    type: System
+    min: 0
+    max: 127
+  - name: Toggle all effecte modules
+    value: 16
+    description: 'All effect modules from A to MOD invert on/off.'
+    type: System
+    min: 0
+    max: 127
+  - name: A module on/off
+    value: 17
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: B module on/off
+    value: 18
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: C module on/off
+    value: 19
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: D module on/off
+    value: 20
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: X module on/off
+    value: 22
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: MOD module on/off
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: DLY module on/off (without spillover)
+    value: 26
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: DLY module on/off (with spillover)
+    value: 27
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: REV module on/off (without spillover)
+    value: 28
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: REV module on/off (with spillover)
+    value: 29
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Tap
+    value: 30
+    description: 'Sets tempo tap. If your floorboard supports separate events on “pressing” and “releasing” a button, send 1 when “pressed” and 0 when “released”. If the floorboard can only send one event, use value 0.
+
+    When value 1 has been sent and no value 0 for 3 seconds, the Beat Scanner is being activated.'
+    type: System
+    min: 0
+    max: 127
+  - name: Tuner Mode
+    value: 31
+    description: '1: Show Tuner, 0: Hide Tuner. Signal muted, if “Mute Signal” is flagged in Tuner Mode.'
+    type: System
+    min: 0
+    max: 1
+  - name: Rotary Speaker Speed
+    value: 33
+    description: '0: Rotary Speaker slow, 1: Rotary Speaker fast'
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Delay Infinity
+    value: 34
+    description: '0: Delay Feedback Infinity off, 1: Delay Feedback infinity on.'
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Freeze
+    value: 35
+    description: 'In all delay and reverb effects (0: Freeze off, 1: Freeze on).'
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Morph Button
+    value: 36
+    description: 'Any value toggles between Base Sound and Morph Sound, values 1-127 activate temporary mode after two seconds, value 0 deactivates temporary mode and latches).'
+    type: System
+    min: 0
+    max: 127
+  - name: Performance Preload
+    value: 47
+    description: 'Values 0-124 preload Performance 1-125. One of the CCs #50-54 then loads one of the Slots, if that Slot is enabled.'
+    type: System
+    min: 0
+    max: 124
+  - name: Step Performance/Rig Up
+    value: 48
+    description: 'In Performance Mode: Value 1 steps one Performance up and starts scrolling after a while. Value 0 stops scrolling, or steps only one Performance up.
+
+    In Browser Mode value 0 steps on Rig up, value 1 steps five Rigs up, value 2 steps to first Rig of next higher bank of five.'
+    type: System
+    min: 0
+    max: 2
+  - name: Step Performance/Rig Down
+    value: 49
+    description: 'In Performance Mode: Value 1 steps one Performance down and starts scrolling after a while. Value 0 stops scrolling, or steps only one Performance down.
+
+    In Browser Mode value 0 steps on Rig down, value 1 steps five Rigs down, value 2 steps to last Rig of next lower bank of five.'
+    type: System
+    min: 0
+    max: 2
+  - name: Slot 1/Rig 1
+    value: 50
+    description: 'Loads Slot 1 of present Performance and in Browser Mode Rig 1 of current bank.'
+    type: System
+    min: 0
+    max: 127
+  - name: Slot 2/Rig 2
+    value: 51
+    description: 'Loads Slot 2 of present Performance and in Browser Mode Rig 2 of current bank.'
+    type: System
+    min: 0
+    max: 127
+  - name: Slot 3/Rig 3
+    value: 52
+    description: 'Loads Slot 3 of present Performance and in Browser Mode Rig 3 of current bank.'
+    type: System
+    min: 0
+    max: 127
+  - name: Slot 4/Rig 4
+    value: 53
+    description: 'Loads Slot 4 of present Performance and in Browser Mode Rig 4 of current bank.'
+    type: System
+    min: 0
+    max: 127
+  - name: Slot 5/Rig 5
+    value: 54
+    description: 'Loads Slot 5 of present Performance and in Browser Mode Rig 5 of current bank.'
+    type: System
+    min: 0
+    max: 127
+  - name: Bank select LSB
+    value: 54
+    description: ''
+    type: System
+    min: 0
+    max: 4
