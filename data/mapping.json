@@ -79,6 +79,16 @@
             ]
         },
         {
+            "name": "Electro Harmonix",
+            "value: "electroharmonix",
+            "models": [
+                {
+                    "name": "HOG2"
+                    "value": "hog2"
+                }
+            ]
+        },
+        {
             "name": "Empress",
             "value": "empress",
             "models": [
