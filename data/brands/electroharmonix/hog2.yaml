@@ -1,0 +1,268 @@
+midi_in: DIN5
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+    1. While power is off, press and hold the EXP. Footswitch. 
+    2. Continue to hold down the EXP. Footswitch while applying power and during the next step.
+    3. Upon applying power, the VOLUME LED should light up for approximately three seconds. After the VOLUME LED shuts off, the HOG2 displays the current MIDI channel setting. The MIDI channel is displayed in binary with the LEDs of the EXP. Modes FREEZE+GLISS, FREEZE+VOL, WAH WAH and FILTER.
+    4. While continuing to hold down the EX. Footswitch, press and release the EXP. MODE button to cycle through the 16 MIDI channels. 
+    5. Release the EXP. Footswitch to sve the new MIDI channel setting and use the HOG2 normally. The MIDI channel setting is saved during power cycles. 
+
+
+pc: 
+  description: |+
+    PC Messages 0 to 119 will load the associated preset. For example, PC3 will load preset number 3. 
+    PC Messages 120 to 127 have special functions.
+    120 - BYPASS/EFFECT toggle
+    121 - EXP. BUTTON Footswitch toggles press/release
+    122 - ENVELOPE On/Off toggle
+    123 - SPECTRAL GATE On/Off toggle
+    124 - EXP. MODE Button Select -> cycles through the 7 Expression modes
+    125 - EXP. REVERSE On/Off toggle
+    126 - Load/Unload Current Preset
+    127 - Bypass/Reset Function -> Puts the HOG2 into a seset state. Enters Bypass, releases EXP. Button footswitch, ENVELOPE set to off, SPECTRAL GATE set to off, EXP. MODE set to OCTAVE BEND, Preset is unloaded - enters WYSIWYG mode. This reset is not a factory reset, it does not overwrite your presets.
+
+cc: 
+  - name: EXPRESSION PEDAL - Coarse
+    value: 4
+    description: Works as expression pedal for parameter selected by EXP. MODE LEDs. For most purposes, this CC will work fine but it also works with CC 36 for a finer expression control.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MASTER VOL Slider
+    value: 7
+    description: Controls the MASTER VOL slider which sets the output volume of the HOG2.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: EXPRESSION PEDAL - fine 
+    value: 36
+    description: A fine tune control over the expression pedal parameter selectred by the EXP. MODE LEDs. This is generally only needed for very fine pitch control. Please see CC 4 for coarse control over the EXP. MODES.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FREEZE + GLISS Expression Control
+    value: 64
+    description: Allows controls over FREEZE+GLISS using MIDI CC 64 which is normally used by keyboard sustain pedals. It also allows FREEZE+GLISS in the following expression modes; OCTAVE BEND, STEP, BEND, VOLUME and both FREEZE modes. It will not work when the EXP. MODE is set to VOLUME, WAH WAH or FILTER.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: BYPASS
+    value: 85
+    description: Toggles to bypass, the STATUS LED will update accordingly.
+    type: Parameter
+    min: 0
+    max: 63
+  - name: ENGAGE
+    value: 85
+    description: Toggles to effect mode, the STATUS LED will update accordingly.
+    type: Parameter
+    min: 64
+    max: 127
+  - name: EXP. Footswitch Release
+    value: 86
+    description: Equivalent to releasing the EXP. Footswitch.
+    type: Parameter
+    min: 0
+    max: 63
+  - name: EXP. Footswitch Press
+    value: 86
+    description: Equivalent to pressing and holding down the EXP. Footswitch.
+    type: Parameter
+    min: 64
+    max: 127
+  - name: ENVELOPE Footswitch Off
+    value: 87
+    description: Toggles ENV. mode off.
+    type: Parameter
+    min: 0
+    max: 63
+  - name: ENVELOPE Footswitch On
+    value: 87
+    description: Toggles ENV. mode on.
+    type: Parameter
+    min: 64
+    max: 127
+  - name: SPECTRAL GATE Button Off
+    value: 88
+    description: Toggles the SPECTRAL GATE mode off.
+    type: Parameter
+    min: 0
+    max: 63
+  - name: SPECTRAL GATE Button On
+    value: 88
+    description: Toggles the SPECTRAL GATE mode on.
+    type: Parameter
+    min: 64
+    max: 127
+  - name: EXP. MODE Button OCTAVE BEND
+    value: 89
+    description: Selects and activates the Expression Mode OCTAVE BEND.
+    type: Parameter
+    min: 0
+    max: 9
+  - name: EXP. MODE Button STEP BEND
+    value: 89
+    description: Selects and activates the Expression Mode STEP BEND.
+    type: Parameter
+    min: 10
+    max: 19
+  - name: EXP. MODE Button VOLUME
+    value: 89
+    description: Selects and activates the Expression Mode VOLUME.
+    type: Parameter
+    min: 20
+    max: 29
+  - name: EXP. MODE Button FREEZE + GLISS
+    value: 89
+    description: Selects and activates the Expression Mode FREEZE+GLISS.
+    type: Parameter
+    min: 30
+    max: 39
+  - name: EXP. MODE Button FREEZE + VOL
+    value: 89
+    description: Selects and activates the Expression Mode FREEZE+VOL.
+    type: Parameter
+    min: 40
+    max: 49
+  - name: EXP. MODE Button WAH WAH
+    value: 89
+    description: Selects and activates the Expression Mode WAH WAH.
+    type: Parameter
+    min: 50
+    max: 59
+  - name: EXP. MODE Button FILTER
+    value: 89
+    description: Selects and activates the Expression Mode FILTER.
+    type: Parameter
+    min: 60
+    max: 127
+  - name: EXP. Reverse Button Off
+    value: 90
+    description: Toggles the EXP. REVERSE function off.
+    type: Parameter
+    min: 0
+    max: 63
+  - name: EXP. Reverse Button On
+    value: 90
+    description: Toggles the EXP. REVERSE function on.
+    type: Parameter
+    min: 64
+    max: 127
+  - name: DRY OUTPUT Slider
+    value: 102
+    description: Controls the DRY OUTPUT slider settung the volume of the un-effected dry signal.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -2 OCTAVES Slider
+    value: 103
+    description: Controls the -2 OCTAVES slider which sets the volume of the sythesized notes 2 octaves below your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -1 OCTAVES Slider
+    value: 104
+    description: Controls the -1 OCTAVES slider which sets the volume of the sythesized notes 1 octave below your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: ORIGINAL Slider
+    value: 105
+    description: Controls the ORIGINAL slider which sets the volume of the dry signal that goes through the expression modes, envelope and filter.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +5TH Slider
+    value: 106
+    description: Controls the +5TH slider which sets the volume of the sythesized notes a perfect fifth above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +1 OCTAVE Slider
+    value: 107
+    description: Controls the +1 OCTAVE slider which sets the volume of the sythesized notes 1 octave above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +1 OCTAVE + 5TH Slider
+    value: 108
+    description: Controls the +1 OCTAVE +5TH slider which sets the volume of the sythesized notes 1 octave and the perfect fifth above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +2 OCTAVES Slider
+    value: 109
+    description: Controls the +2 OCTAVES slider which sets the volume of the sythesized notes 2 octaves above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +2 OCTAVES + 3RD Slider
+    value: 110
+    description: Controls the +2 OCTAVES + 3RD slider which sets the volume of the sythesized notes 2 octaves and the major thirds above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +3 OCTAVES Slider
+    value: 111
+    description: Controls the +3 OCTAVES slider which sets the volume of the sythesized notes 3 octaves above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +4 OCTAVES Slider
+    value: 112
+    description: Controls the +4 OCTAVES slider which sets the volume of the sythesized notes 4 octaves above your original notes.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: ENVELOPE/ LOWER Slider
+    value: 113
+    description: Controls the LOWER slider in the ENVELOPE section.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: ENVELOPE/ UPPER Slider
+    value: 114
+    description: Controls the UPPER slider in the ENVELOPE section.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FILTER/ FREQUENCY Slider
+    value: 115
+    description: Controls the FREQUENCY slider in the FILTER section.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FILTER/ RESONANCE Slider
+    value: 116
+    description: Controls the RESONANCE slider in the FILTER section.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Save Preset
+    value: 117
+    description: Save current settings to preset number specified in data field of this CC message.
+    type: System
+    min: 0
+    max: 119
+  - name: Load Preset
+    value: 118
+    description: Load Preset specified in the data field of this CC message. If the value is above 119, the current preset will be unloaded and the HOG2 will change to What You See Is What You Get Mode.
+    type: System
+    min: 0
+    max: 127
+  - name: OMNI OFF
+    value: 124
+    description: Factory Default Value. When HOG2 is set to OMNI OFF, it will only accept commands that are on its currently assigned channel. The omni setting is saved during power cycles. To change omni modes the command must be sent on the HOG2's current channel setting.
+    type: System
+    min: 1
+    max: 1
+  - name: OMNI ON
+    value: 125
+    description: When set to OMNI ON, the HOG2 will accept commands on all MIDI channels. The omni setting is saved during power cycles. To change omni modes the command must be sent on the HOG2's current channel setting even if OMNI is set to ON.
+    type: System
+    min: 1
+    max: 1
