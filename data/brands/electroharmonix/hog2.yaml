@@ -15,15 +15,15 @@ midi_channel:
 pc: 
   description: |+
     PC Messages 0 to 119 will load the associated preset. For example, PC3 will load preset number 3. 
-PC Messages 120 to 127 have special functions.
-120 - BYPASS/EFFECT toggle
-121 - EXP. BUTTON Footswitch toggles press/release
-122 - ENVELOPE On/Off toggle
-123 - SPECTRAL GATE On/Off toggle
-124 - EXP. MODE Button Select -> cycles through the 7 Expression modes
-125 - EXP. REVERSE On/Off toggle
-126 - Load/Unload Current Preset
-127 - Bypass/Reset Function -> Puts the HOG2 into a seset state. Enters Bypass, releases EXP. Button footswitch, ENVELOPE set to off, SPECTRAL GATE set to off, EXP. MODE set to OCTAVE BEND, Preset is unloaded - enters WYSIWYG mode. This reset is not a factory reset, it does not overwrite your presets.
+    PC Messages 120 to 127 have special functions.
+    120 - BYPASS/EFFECT toggle
+    121 - EXP. BUTTON Footswitch toggles press/release
+    122 - ENVELOPE On/Off toggle
+    123 - SPECTRAL GATE On/Off toggle
+    124 - EXP. MODE Button Select -> cycles through the 7 Expression modes
+    125 - EXP. REVERSE On/Off toggle
+    126 - Load/Unload Current Preset
+    127 - Bypass/Reset Function -> Puts the HOG2 into a seset state. Enters Bypass, releases EXP. Button footswitch, ENVELOPE set to off, SPECTRAL GATE set to off, EXP. MODE set to OCTAVE BEND, Preset is unloaded - enters WYSIWYG mode. This reset is not a factory reset, it does not overwrite your presets.
 
 cc: 
   - name: EXPRESSION PEDAL - Coarse
