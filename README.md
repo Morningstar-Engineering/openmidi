@@ -4,6 +4,7 @@ OpenMIDI is a community driven effort to document MIDI implementations of variou
 # Contributors
 - [Huevos-y-Bacon](https://github.com/Huevos-y-Bacon)
 - [Raphael Hüni](https://github.com/rafhun)
+- [Daniel Gensberger](https://github.com/danielgensberger)
 
 # How to contribute
 1. Fork the repository
