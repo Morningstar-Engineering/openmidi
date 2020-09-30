@@ -83,7 +83,7 @@
             "value": "electroharmonix",
             "models": [
                 {
-                    "name": "HOG2"
+                    "name": "HOG2",
                     "value": "hog2"
                 }
             ]
