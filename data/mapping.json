@@ -193,6 +193,10 @@
                 {
                     "name": "MC6 MKII",
                     "value": "mc6mkii"
+                },
+                {
+                    "name": "MC8",
+                    "value": "mc8"
                 }
             ]
         },
