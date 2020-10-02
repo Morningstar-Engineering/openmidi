@@ -217,6 +217,10 @@
                 {
                     "name": "Nemesis",
                     "value": "nemesis"
+                },
+                {
+                    "name": "Collider",
+                    "value": "collider"
                 }
             ]
         },
