@@ -257,6 +257,16 @@
             ]
         },
         {
+            "name": "TC Electronic"
+            "value": "tcelectronic"
+            "models": [
+                {
+                    "name": "Nova Drive"
+                    "value": "novadrive"
+                }
+            ]
+        },
+        {
             "name": "Walrus Audio",
             "value": "walrusaudio",
             "models": [
