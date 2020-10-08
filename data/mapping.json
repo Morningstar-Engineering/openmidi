@@ -131,6 +131,10 @@
             "value": "jacksonaudio",
             "models": [
                 {
+                    "name": "Bloom",
+                    "value": "bloom"
+                },
+                {
                     "name": "Golden Boy",
                     "value": "goldenboy"
                 }

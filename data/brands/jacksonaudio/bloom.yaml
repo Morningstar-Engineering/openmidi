@@ -1,0 +1,76 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+    By default, the BLOOM v2 – MIDI ships with MIDI Channel 1 being the selected channel. This can be changed by pressing and holding both the COMP and BLOOM footswitches while applying power to the BLOOM. While holding these footswitches down adjust the BLOOM knob. All the way down is MIDI Channel 1…all the way up is MIDI Channel 16 with channels 2-15 being located evenly between those two points as you rotate the BLOOM knob.
+
+    You’ll notice that as you rotate the BLOOM knob, the BLOOM LED will flash to indicate which MIDI channel you have selected. IE – 7 flashes = MIDI Channel 7. After the LED flashes, we inserted a 2-second pause so you could tell when the LED was finished flashing. The LED will continue flashing as long as you are holding down the two footswitches. Once you have selected the MIDI channel you want and have verified it by counting the flashes, simply release the two footswitches and the pedal will save this MIDI Channel to the internal EEPROM on the microprocessor and reboot.
+pc:
+  description: |-
+    PROGRAM CHANGE #1 – LIMITER MODE
+    PROGRAM CHANGE #2 – COUNTRY MODE
+    PROGRAM CHANGE #3 – R&B MODE
+    PROGRAM CHANGE #4 – BALLAD MODE
+    PROGRAM CHANGE #5 – JOEY (SLIDE) MODE
+    PROGRAM CHANGE #6 – AUX MODE
+
+cc:
+  - name: Comp On
+    value: 1
+    description: 'Turn on Comp'
+    type: System
+    min: 127
+    max: 127
+  - name: Comp Off
+    value: 1
+    description: 'Turn off Comp'
+    type: System
+    min: 0
+    max: 0
+  - name: EQ On
+    value: 2
+    description: 'Turn on EQ'
+    type: System
+    min: 127
+    max: 127
+  - name: EQ Off
+    value: 2
+    description: 'Turn off EQ'
+    type: System
+    min: 0
+    max: 0
+  - name: Boost On
+    value: 3
+    description: 'Turn on Boost'
+    type: System
+    min: 127
+    max: 127
+  - name: Boost Off
+    value: 3
+    description: 'Turn off Boost'
+    type: System
+    min: 0
+    max: 0
+  - name: midiBoost On
+    value: 4
+    description: 'midiBoost determines what has control over the boost level; midi or the bloom knob on the pedal.'
+    type: System
+    min: 127
+    max: 127
+  - name: midiBoost Off
+    value: 4
+    description: 'midiBoost determines what has control over the boost level; midi or the bloom knob on the pedal.'
+    type: System
+    min: 0
+    max: 0
+  - name: midiBoost expression
+    value: 5
+    description: 'midiBoost expression determines the boost level. This can be either a set value or can be expressed via a MIDI expression pedal.'
+    type: System
+    min: 0
+    max: 127
