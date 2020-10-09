@@ -127,9 +127,23 @@
             ]
         },
         {
+            "name": "G-LAB",
+            "value": "g-lab",
+            "models": [
+                {
+                    "name": "BC-1",
+                    "value": "bc1"
+                }
+            ]
+        },
+        {
             "name": "Jackson Audio",
             "value": "jacksonaudio",
             "models": [
+                {
+                    "name": "Bloom",
+                    "value": "bloom"
+                },
                 {
                     "name": "Golden Boy",
                     "value": "goldenboy"
@@ -247,6 +261,16 @@
                 {
                     "name": "Iridium",
                     "value": "iridium"
+                }
+            ]
+        },
+        {
+            "name": "TC Electronic",
+            "value": "tcelectronic",
+            "models": [
+                {
+                    "name": "Nova Drive",
+                    "value": "novadrive"
                 }
             ]
         },

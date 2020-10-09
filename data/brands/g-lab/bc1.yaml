@@ -1,0 +1,98 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+    To  set  the  MIDI  channel  on  which  the  BC-1  receives  the  commands  serves the  MIDI  CHANNEL  rotary  switch.  To  set  the  channel  it  is  needed  to  use  a  small  flat screwdriver  and  to  turn  right  or  left  the  middle  part  of  the  switch.  The  arrow-head indicates the set channel.
+
+pc: 
+  description: |+
+    The BC1 responds to following PC messages:
+    PC1 -> BYPASS ON
+    PC2 -> BUFFER ON
+    PC3 -> COMP A ON
+    PC4 -> COMP B ON
+    PC5 -> COMP C ON
+    PC6 -> SELECTED COMP ON
+cc: 
+  - name: COMP OFF
+    value: 108
+    description: [Description of function]
+    type: Parameter 
+    min: 0
+    max: 63
+  - name: COMP ON
+    value: 108
+    description: [Description of function]
+    type: Parameter
+    min: 64
+    max: 127
+  - name: SELECT COMP A
+    value: 109
+    description: [Description of function]
+    type: Parameter 
+    min: 0
+    max: 63
+  - name: SELECT COMP B
+    value: 109
+    description: [Description of function]
+    type: Parameter 
+    min: 64
+    max: 127
+  - name: SELECT COMP A
+    value: 110
+    description: [Description of function]
+    type: Parameter 
+    min: 1
+    max: 1
+  - name: SELECT COMP B
+    value: 110
+    description: [Description of function]
+    type: Parameter 
+    min: 2
+    max: 2
+  - name: SELECT COMP C
+    value: 110
+    description: [Description of function]
+    type: Parameter 
+    min: 3
+    max: 3
+  - name: BYPASS ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 1
+    max: 1
+  - name: BUFFER ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 2
+    max: 2
+  - name: COMP A ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 3
+    max: 3
+  - name: COMP B ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 4
+    max: 4
+  - name: COMP C ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 5
+    max: 5
+  - name: SEL COMP ON
+    value: 111
+    description: [Description of function]
+    type: Parameter 
+    min: 6
+    max: 6
+

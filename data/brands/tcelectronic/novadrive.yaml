@@ -1,0 +1,106 @@
+midi_in: DIN5 
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+    Per default, NOVA Drive sends and receives MIDI messages on MIDI channel 2. To change the MIDI channel:
+    •  Press and hold the SWITCH MODE button forthree seconds.
+    •  Turn the PRESET encoder until the desired MIDIchannel is shown in the display.
+    •  Release the SWITCH MODE button.
+
+pc: 
+  description: |+
+    PC Messages load the corresponding preset. For example PC1 loads Preset 2.
+cc: 
+  - name: OD Off
+    value: 21
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 63
+  - name: OD On
+    value: 21
+    description: [Description of function]
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Dist Off
+    value: 22
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Dist On
+    value: 22
+    description: [Description of function]
+    type: Parameter
+    min: 64
+    max: 127
+  - name: OD Drive
+    value: 23
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: OD Level
+    value: 24
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: OD Tone
+    value: 25
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: OD Mix
+    value: 26
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dist Drive
+    value: 27
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dist Level
+    value: 28
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dist Bass
+    value: 29
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dist Treble
+    value: 30
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Routing OD -> Dist
+    value: 31
+    description: [Description of function]
+    type: Parameter
+    min: 0
+    max: 42
+  - name: Routing Dist -> OD
+    value: 31
+    description: [Description of function]
+    type: Parameter
+    min: 43
+    max: 84
+  - name: Routing Parallel
+    value: 31
+    description: [Description of function]
+    type: Parameter
+    min: 85
+    max: 127
