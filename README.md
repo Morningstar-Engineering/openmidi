@@ -10,7 +10,9 @@ OpenMIDI is a community driven effort to document MIDI implementations of variou
 1. Fork the repository
 2. Add your changes
    - Create a new yaml file
+     - Check that your YAML file is valid: http://www.yamllint.com/
    - Update `mapping.json` file
+     - Check that your JSON updates are valid: https://jsonlint.com/
    
 3. Commit your changes
 4. Create a pull request
