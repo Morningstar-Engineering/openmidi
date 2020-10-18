@@ -261,6 +261,10 @@
                 {
                     "name": "Iridium",
                     "value": "iridium"
+                },
+                {
+                    "name": "Sunset",
+                    "value": "sunset"
                 }
             ]
         },

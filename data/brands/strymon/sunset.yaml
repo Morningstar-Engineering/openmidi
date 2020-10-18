@@ -1,0 +1,173 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Press and hold the B footswitch while powering up the pedal. Once both LEDs flash, release the footswitch.
+
+    Turn the LEVEL knob on the A side to set the MIDI communication channel. The A LED will change color as the MIDI channel is changed.
+    1 = GREEN (default)
+    2 = AMBER
+    3 = RED
+    4-16 = BLUE (channel set by next MIDI message)
+
+    With this option, MIDI Channel is set to the channel of the next incoming MIDI Program Change message received.
+
+    Press the B footswitch again to store the MIDI channel and begin.
+
+instructions:
+
+pc:
+  description: |+
+    Sunset contains 300 preset locations, numbered sequentially from 0-299. Because MIDI Program Change messages have
+    a maximum number of 128 (0-127) the presets are grouped into three MIDI patch banks.
+
+    - MIDI BANK 0 = PRESETS 0-127
+    - MIDI BANK 1 = PRESETS 128-255
+    - MIDI BANK 2 = PRESETS 256-299
+
+    Sunset always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets, simply send a
+    standard MIDI Program Change message to load a preset.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
+    (MIDI CC# 0 with a value equal to the MIDI Bank#) before each MIDI Program Change.
+
+    Selecting bank 0, patch 127 will put Sunset into Manual mode. In this mode, the pedal will be set to the current
+    knob and switch settings. No preset data can be stored at this preset location.
+cc:
+  - name: A - Bypass
+    value: 10
+    description: 0=off, 1-127=on
+    type: Parameter
+    min: 0
+    max: 0
+  - name: A - On
+    value: 10
+    description: 0=off, 1-127=on
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Circuit Select A
+    value: 11
+    description: 1=Treble, 2=Ge, 3=Texas
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Level A
+    value: 12
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Drive A
+    value: 13
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone A
+    value: 14
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: B - Bypass
+    value: 15
+    description: 0=off, 1-127=on
+    type: Parameter
+    min: 0
+    max: 0
+  - name: B - On
+    value: 15
+    description: 0=off, 1-127=on
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Circuit Select B
+    value: 16
+    description: 1=Treble, 2=Ge, 3=Texas
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Level B
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Drive B
+    value: 18
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone B
+    value: 19
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Config [A/B]
+    value: 20
+    description: 1=A>B, 2=B>A, 3=A+B
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Bright
+    value: 21
+    description: 1 = +, 2 = =, 3 = middle
+    type: Parameter
+    min: 1
+    max: 3
+  - name: Noise Gate
+    value: 22
+    description: 0=Off
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass A and B
+    value: 33
+    description:
+    type: Parameter
+    min: 0
+    max: 0
+  - name: On A and B
+    value: 33
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: MIDI Patch Bank
+    value: 0
+    description: ''
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Volume Pedal
+    value: 7
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Expression Off
+    value: 60
+    description:
+    type: Parameter
+    min: 0
+    max: 0
+  - name: MIDI Expression On
+    value: 60
+    description:
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description:
+    type: Parameter
+    min: 0
+    max: 127
