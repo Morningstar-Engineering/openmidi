@@ -265,6 +265,10 @@
                 {
                     "name": "Sunset",
                     "value": "sunset"
+                },
+                {
+                    "name": "NightSky",
+                    "value": "nightsky"
                 }
             ]
         },

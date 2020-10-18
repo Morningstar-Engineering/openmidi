@@ -1,0 +1,381 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Global parameters and functions can be accessed via a power up procedure. All power up functions persist through
+    power cycles.
+    
+    Press and hold the INFINITE footswitch while connecting power to the pedal. Once the three footswitch LEDs light
+    up, release the footswitch.
+
+    Adjust the desired functions with the knobs and buttons noted below.
+
+    Press any footswitch to exit power up mode.
+
+    SET MIDI CHANNEL
+    
+    Turn the REC LEVEL knob to select. ON LED indicates channel selection.
+    1 = GREEN (default)
+    2 = AMBER
+    3 = RED
+    4-16 = BLUE (channel set by next MIDI message) With this option,
+
+    MIDI Channel is set to the channel of the next incoming MIDI Program Change message received.
+instructions:
+
+pc:
+  description: |+
+    NightSky contains 300 preset locations, numbered sequentially from 0-299. Because MIDI Program Change messages have
+    a maximum number of 128 (0-127), the presets are grouped into three MIDI patch banks.
+    
+     - MIDI BANK 0 = PRESETS 0-127
+     - MIDI BANK 1 = PRESETS 128-255
+     - MIDI BANK 2 = PRESETS 256-299
+
+    NightSky always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets, simply send a
+    standard MIDI Program Change message to load a preset.
+
+     - MIDI Program Change #’s 0-7 will illuminate the PRESET BUTTONS GREEN to correspond with presets 1-8.
+     - MIDI Program Change #’s 8-15 will illuminate the PRESET BUTTONS AMBER to correspond with presets 9-16.
+     - MIDI Program Change #’s 16-126 will NOT change the color of the PRESET BUTTONS, but it will change the color of
+       the FAVORITE LED to AMBER.
+    
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message (MIDI CC# 0
+    with a value equal to the MIDI Bank#) before each MIDI Program Change.
+
+    Selecting bank 0, patch 127 will put NightSky into Manual mode. In this mode, the pedal will be set to the current
+    knob and button settings. No preset data can be stored at this preset location.
+cc:
+  - name: Bank Select
+    value: 0
+    description: (0=bank 1, 1=bank 2, 2=bank 3)
+    type: System
+    min: 0
+    max: 2
+  - name: Mix - Reverb Level
+    value: 11
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix - Dry Level
+    value: 12
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod - Speed
+    value: 13
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod - Target
+    value: 14
+    description: (0=verb, 1=pitch, 2=filter)
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Mod - Depth
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod - Shape
+    value: 16
+    description: (0=triangle, 1=square, 2=ramp, 3=saw, 4=random, 5=envelope)
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Decay - Pre-Delay
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Decay - Length
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Decay - Texture
+    value: 19
+    description: (0=sparse, 1=dense, 2=diffuse)
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Decay - Size/Pitch
+    value: 20
+    description: (MIDI Note Range - C-2 to C0, in half steps)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Decay - Quantize
+    value: 21
+    description: (0=smooth, 1=half-step, 2=scale)
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Tone - Low Cut
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone - High Cut
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone - Filter
+    value: 24
+    description: (0=regen, 1=lowpass)
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Tone - Lowpass Q
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Voice - Interval
+    value: 26
+    description: (0=-octave, 1=-major7, 2=-minor7, 3=-major6, 4=-minor6, 5=-perfect5, 6=-tritone, 7=-perfect4, 8=-major3, 9=-minor3, 10=-major2, 11=-minor2, 12=-detune, 13=+detune, 14=+minor2, 15=+major2, 16=+minor3, 17=+major3, 18=+perfect4, 19=++tritone, 20=+perfect5, 21=+minor6, 22=+major6, 23=+minor7, 24=+major7, 25=+octave)
+    type: Parameter
+    min: 0
+    max: 25
+  - name: Voice - Scale Select
+    value: 27
+    description: (0=minor pentatonic, 1=major pentatonic, 2=major, 3=dorian, 4=minor blues, 5=harmonic minor, 6=whole tone, 7=diminished)
+    type: Parameter
+    min: 0
+    max: 7
+  - name: Voice - Shimmer
+    value: 28
+    description: (0=input, 1=regen)
+    type: Parameter
+    min: 0
+    max: 1
+  - name: Voice - Shimmer Level
+    value: 29
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Voice - Glimmer
+    value: 30
+    description: (0=off, 1=high, 2=low)
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Voice - Glimmer Gain
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Voice - Drive
+    value: 33
+    description: (0=off, 1=pre, 2=post)
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Voice - Drive Level
+    value: 34
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Freeze
+    value: 35
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Morph
+    value: 36
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Morph Speed
+    value: 37
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequence Mode
+    value: 41
+    description: (0=preset, 1-127=sequence)
+    type: System
+    min: 0
+    max: 127
+  - name: Sequencer Step 1 Off/On
+    value: 42
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 2 Off/On
+    value: 43
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 3 Off/On
+    value: 44
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 4 Off/On
+    value: 45
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 5 Off/On
+    value: 46
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 6 Off/On
+    value: 47
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 7 Off/On
+    value: 48
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 8 Off/On
+    value: 49
+    description: (0=off, 1-127=on)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 1 Size
+    value: 50
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 2 Size
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 3 Size
+    value: 52
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 4 Size
+    value: 53
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 5 Size
+    value: 54
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 6 Size
+    value: 55
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 7 Size
+    value: 56
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Step 8 Size
+    value: 57
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sequencer Glide
+    value: 58
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Expression Off/On
+    value: 60
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: MIDI Clock Off/On
+    value: 63
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch Favorite
+    value: 80
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch On
+    value: 81
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch Freeze
+    value: 82
+    description: (0=release, 1-127=press)
+    type: System
+    min: 0
+    max: 127
+  - name: Persist
+    value: 83
+    description: (0=off, 1-127=on)
+    type: System
+    min: 0
+    max: 127
+  - name: Output Stereo/Sum
+    value: 85
+    description: (0=stereo, 1-127=sum)
+    type: System
+    min: 0
+    max: 127
+  - name: Sequence Tap
+    value: 93
+    description: (any)
+    type: System
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass/On
+    value: 102
+    description: (0=bypass, 1-127=on)
+    type: System
+    min: 0
+    max: 127
