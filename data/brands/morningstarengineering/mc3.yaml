@@ -1,0 +1,112 @@
+midi_in: None
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    MIDI channel can be set in the Global Config menu or in the Editor.
+
+instructions:
+
+pc:
+  description:
+    Send PC#0 to PC#29 to access Banks 1 - 30.
+
+cc:
+  - name: 'Bank Up'
+    value: 0
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Bank Down'
+    value: 1
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Set Toggle (All Presets)'
+    value: 2
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Set Toggle (Individual Presets)'
+    value: 2
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
+    type: System
+    min: 0
+    max: 11
+  - name: 'Clear Toggle (All Presets)'
+    value: 3
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Clear Toggle (Individual Presets)'
+    value: 3
+    description: 'CC Value 0 clears Preset A, 1 clears Preset B and so on'
+    type: System
+    min: 0
+    max: 11
+  - name: 'Page Toggle'
+    value: 4
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Set MIDI Clock BPM MSB'
+    value: 5
+    description: 'Sets the MSB 2 bits for the MIDI Clock'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Set MIDI Clock BPM LSB'
+    value: 6
+    description: 'Sets the LSB 7 bits for the MIDI Clock'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Engage Preset A'
+    value: 10
+    description: 'Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll'
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset B'
+    value: 11
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset C'
+    value: 12
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset D'
+    value: 13
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset E'
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset F'
+    value: 15
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Expression 1'
+    value: 51
+    description: 'Engages Expression Preset 1'
+    type: System
+    min: 0
+    max: 127
