@@ -205,6 +205,10 @@
                     "value": "ml5"
                 },
                 {
+                    "name": "MC3",
+                    "value": "mc3"
+                },
+                {
                     "name": "MC6 MKII",
                     "value": "mc6mkii"
                 },
