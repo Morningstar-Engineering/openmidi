@@ -46,7 +46,7 @@ cc:
     min: 0
     max: 63
   - name: 'Engage Loop B'
-    value: 1
+    value: 2
     description: ''
     type: System
     min: 64
