@@ -6,6 +6,7 @@ OpenMIDI is a community driven effort to document MIDI implementations of variou
 - [Raphael Hüni](https://github.com/rafhun)
 - [Daniel Gensberger](https://github.com/danielgensberger)
 - [applekor](https://github.com/applekor)
+- [Joel Lang](https://github.com/joellang)
 
 # How to contribute
 1. Fork the repository
