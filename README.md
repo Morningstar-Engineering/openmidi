@@ -1,6 +1,8 @@
 # openmidi
 OpenMIDI is a community driven effort to document MIDI implementations of various MIDI devices. This information is made available at www.openmidi.com for public use.
 
+If you are new to Github, we have some basic instructions on setting up your account and doing your first Pull Request [here](https://morningstarengineering.atlassian.net/wiki/spaces/MMS/pages/219906049/Contributing+to+the+MIDI+Dictionary).
+
 # Contributors
 - [Huevos-y-Bacon](https://github.com/Huevos-y-Bacon)
 - [Raphael Hüni](https://github.com/rafhun)
