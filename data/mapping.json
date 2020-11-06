@@ -167,6 +167,10 @@
                 {
                     "name": "HX Stomp",
                     "value": "hxstomp"
+                },
+                {
+                    "name": "Helix Floor",
+                    "value": "helixfloor"
                 }
             ]
         },
