@@ -9,6 +9,7 @@ If you are new to Github, we have some basic instructions on setting up your acc
 - [Daniel Gensberger](https://github.com/danielgensberger)
 - [applekor](https://github.com/applekor)
 - [Joel Lang](https://github.com/joellang)
+- [andloubry](https://github.com/andloubry)
 
 # How to contribute
 1. Fork the repository
