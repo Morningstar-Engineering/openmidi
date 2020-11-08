@@ -1,0 +1,65 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+    By default, the BROKEN ARROW v2 ships with MIDI Channel 1 being the selected channel. 
+    This can be changed by pressing and holding the DRIVE footswitch while applying power to the BROKEN ARROW. 
+    Press the BOOST footswitch to increment the MIDI channel number.
+
+    You’ll notice that as you continue to hold the DRIVE footswitch, the BOOST LED will flash to indicate which MIDI channel you have selected. 
+    IE – 7 flashes = MIDI Channel 7. After the LED flashes, we inserted a 2-second pause so you could tell when the LED was finished flashing. 
+    The LED will continue flashing as long as you are holding down the DRIVE footswitch. 
+    Once you have selected the MIDI channel you want and have verified it by counting the flashes, simply release the DRIVE footswitch 
+    and the pedal will save this MIDI Channel to the internal EEPROM on the microprocessor and reboot.
+pc:
+  description:
+
+cc:
+  - name: Drive On
+    value: 1
+    description: 'Turn on Drive'
+    type: System
+    min: 127
+    max: 127
+  - name: Drive Off
+    value: 1
+    description: 'Turn off Drive'
+    type: System
+    min: 0
+    max: 0
+  - name: Boost On
+    value: 2
+    description: 'Turn on Boost'
+    type: System
+    min: 127
+    max: 127
+  - name: Boost Off
+    value: 2
+    description: 'Turn off Boost'
+    type: System
+    min: 0
+    max: 0
+  - name: Clipping Diodes
+    value: 3
+    description: '1 = 2x Symetrical Diodes, 2 = 3 x Asymetrical Diodes, 3 = 4x Symetrical Diodes, 4 = 2x Symetrical Red LEDs'
+    type: Parameter
+    min: 1
+    max: 4
+  - name: Gain cycle
+    value: 4
+    description: '1 = 25% Gain, 2 = 50% Gain, 3 = 75% Gain, 4 = 100% Gain'
+    type: Parameter
+    min: 1
+    max: 4
+  - name: Boost EQ
+    value: 5
+    description: '1 = Bright Boost, 2 = Mid Boost, 3 = Tailored Booat, 4 = Full Boost'
+    type: Parameter
+    min: 1
+    max: 4
+    
