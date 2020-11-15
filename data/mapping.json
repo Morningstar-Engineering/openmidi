@@ -29,6 +29,10 @@
             "value": "chasebliss",
             "models": [
                 {
+                    "name": "Bliss Factory",
+                    "value": "blissfactory"
+                },
+				{
                     "name": "Blooper",
                     "value": "blooper"
                 },
