@@ -4,12 +4,14 @@ OpenMIDI is a community driven effort to document MIDI implementations of variou
 If you are new to Github, we have some basic instructions on setting up your account and doing your first Pull Request [here](https://morningstarengineering.atlassian.net/wiki/spaces/MMS/pages/219906049/Contributing+to+the+MIDI+Dictionary).
 
 # Contributors
+Special thanks to all who have contributed!
 - [Huevos-y-Bacon](https://github.com/Huevos-y-Bacon)
 - [Raphael Hüni](https://github.com/rafhun)
 - [Daniel Gensberger](https://github.com/danielgensberger)
 - [applekor](https://github.com/applekor)
 - [Joel Lang](https://github.com/joellang)
 - [andloubry](https://github.com/andloubry)
+- [bzhgeek](https://github.com/bzhgeek)
 
 # How to contribute
 1. Fork the repository
