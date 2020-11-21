@@ -303,7 +303,11 @@
             "value": "walrusaudio",
             "models": [
                 {
-                    "name": "D1",
+                    "name": "D1 (Old version)",
+                    "value": "d1_old"
+                },
+                {
+                    "name": "D1 (New version)",
                     "value": "d1"
                 }
             ]

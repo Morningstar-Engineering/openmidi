@@ -1,0 +1,144 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    1. Hold down both stomp switches at power up until the rate LED starts flashing like normal,
+    then release both switches.
+    2. Now send a MIDI Program Change message on the desired MIDI channel for the pedal.
+    3. The pedal will save that MIDI channel and only respond to messages on that channel until
+    the user changes it again
+pc:
+  description:
+
+cc:
+  - name: Time
+    value: 0
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Repeats
+    value: 1
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix
+    value: 2
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod
+    value: 3
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone
+    value: 4
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Age
+    value: 5
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Prog
+    value: 6
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Attack
+    value: 7
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Tweak Switch: MOD'
+    value: 8
+    description: ''
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'Tweak Switch: TONE'
+    value: 8
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'Tweak Switch: AGE'
+    value: 8
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'A|B|C Switch: A'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'A|B|C Switch: B'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'A|B|C Switch: C'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'Division Switch: QUARTER'
+    value: 10
+    description: ''
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'Division Switch: EIGHTH'
+    value: 10
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'Division Switch: DOTTED EIGHTH'
+    value: 10
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'Bypass Switch: BYPASS'
+    value: 11
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: ENGAGED'
+    value: 11
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Tap Tempo: BYPASS'
+    value: 12
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: 'Tap Tempo: ENGAGED'
+    value: 12
+    description: ''
+    type: System
+    min: 127
+    max: 127
