@@ -241,6 +241,16 @@
             ]
         },
         {
+            "name": "Singular Sound",
+            "value": "singular_sound",
+            "models": [
+                {
+                    "name": "Aeros Looper",
+                    "value": "aeros_looper"
+                }
+            ]
+        },
+        {
             "name": "Source Audio",
             "value": "sourceaudio",
             "models": [

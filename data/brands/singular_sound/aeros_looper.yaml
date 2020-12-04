@@ -1,0 +1,119 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: No
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+
+pc:
+  description: |+
+
+cc:
+  - description: This triggers changing song parts to the selected part in 6x6, or the
+      part not currently playing in 2x2
+    max: 127
+    min: 1
+    name: Next part
+    type: null
+    value: 102
+  - description: null
+    max: 0
+    min: 0
+    name: Save song
+    type: null
+    value: 33
+  - description: Start new 2x2 song (same settings as previously loaded 2x2 song) and
+      enter loop studio
+    max: 0
+    min: 0
+    name: Start new 2x2 song
+    type: null
+    value: 34
+  - description: Start new 6x6 song (same settings as previously loaded 6x6 song) and
+      enter loop studio
+    max: 1
+    min: 1
+    name: Start new 6x6 song
+    type: null
+    value: 34
+  - description: Go to saved songs screen (show currently loaded song)
+    max: 0
+    min: 0
+    name: Go to saved songs screen
+    type: null
+    value: 35
+  - description: Go to Loop Studio screen (if already in Loop Studio screen, ignore)
+    max: 1
+    min: 1
+    name: Go to Loop Studio screen
+    type: null
+    value: 35
+  - description: Scroll down list (songs screen, or otherwise if relevant)
+    max: 0
+    min: 0
+    name: Scroll down list
+    type: null
+    value: 36
+  - description: Scroll up list (songs screen, or otherwise if relevant)
+    max: 1
+    min: 1
+    name: Scroll up list
+    type: null
+    value: 36
+  - description: Select (currently highlighted item in song list)
+    max: 2
+    min: 2
+    name: Select
+    type: null
+    value: 36
+  - description: Undo/Redo currently selected track (6x6 mode)
+    max: 0
+    min: 0
+    name: Undo/Redo (6x6 mode)
+    type: null
+    value: 37
+  - description: 'Undo/Redo track (value #)'
+    max: 6
+    min: 1
+    name: Undo/Redo track
+    type: null
+    value: 37
+  - description: 'Mutes/Unmutes track (value #)'
+    max: 6
+    min: 1
+    name: Mute/Unmute
+    type: null
+    value: 38
+  - description: Stop playback immediately
+    max: 0
+    min: 0
+    name: Stop
+    type: null
+    value: 39
+  - description: Record new song part (6x6)
+    max: 0
+    min: 0
+    name: Record new song part
+    type: null
+    value: 40
+  - description: Record new track (6x6)
+    max: 0
+    min: 0
+    name: Record new track
+    type: null
+    value: 41
+  - description: "Begin transition to part (value #), if part does not exist in song, ignore command"
+    max: 6
+    min: 1
+    name: Begin transition
+    type: null
+    value: 113
+  - description: Complete transition and change song parts at end of the bar (like on
+      BeatBuddy)
+    max: 0
+    min: 0
+    name: Complete transition
+    type: null
+    value: 113
