@@ -247,6 +247,10 @@
                 {
                     "name": "Aeros Looper",
                     "value": "aeros_looper"
+                },
+                {
+                    "name": "BeatBuddy",
+                    "value": "beatbuddy"
                 }
             ]
         },

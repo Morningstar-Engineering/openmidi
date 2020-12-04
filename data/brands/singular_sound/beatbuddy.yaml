@@ -1,0 +1,160 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: No
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+
+pc:
+  description: |+
+cc:
+  - description: 'Change the Mixer Volume (Main Volume knob)'
+    max: 100
+    min: 0
+    name: Mix Volume
+    type: null
+    value: 108
+  - description: Change the Headphone Volume
+    max: 100
+    min: 0
+    name: Headphone Volume
+    type: null
+    value: 109
+  - description: 'Triggers an accent hit with a volume from the value 0 (mute) to 100 (original recorded volume) to 127 (amplified more than the original recorded volume)'
+    max: 127
+    min: 0
+    name: Accent-Hit
+    type: null
+    value: 110
+  - description: Pause / Unpause the current song
+    max: 127
+    min: 1
+    name: Pause/Unpause
+    type: null
+    value: 111
+  - description: Triggers a drum fill
+    max: 127
+    min: 1
+    name: Drum Fill
+    type: null
+    value: 112
+  - description: 'Starts song transition (selects the next part), 1: Starts transition,
+      will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit,
+      3: Starts transition, will jump to Part 3 on exit, 127: Starts transition, will
+      jump to next part on exit. Transition will continue looping until value is changed
+      to 0. It is possible to start a song with a transition.'
+    max: 127
+    min: 1
+    name: Transition
+    type: null
+    value: 113
+  - description: Starts the playback of the current song
+    max: 127
+    min: 1
+    name: Start
+    type: null
+    value: 114
+  - description: Triggers the outro of the song
+    max: 127
+    min: 1
+    name: Outro
+    type: null
+    value: 115
+  - description: Selects a specific drumset
+    max: 127
+    min: 1
+    name: Select Drum Set
+    type: null
+    value: 116
+  - description: null
+    max: 127
+    min: 0
+    name: Tap Tempo
+    type: null
+    value: 117
+  - description: null
+    max: 1
+    min: 1
+    name: Increase Tempo by 1
+    type: null
+    value: 96
+  - description: null
+    max: 1
+    min: 1
+    name: Decrease Tempo by 1
+    type: null
+    value: 97
+  - description: null
+    max: 106
+    min: 106
+    name: Set NRPN to Tempo MSB
+    type: null
+    value: 99
+  - description: null
+    max: 107
+    min: 107
+    name: Set NRPN to Tempo LSB
+    type: null
+    value: 98
+  - description: null
+    max: 127
+    min: 127
+    name: Clear NRPN MSB Register
+    type: null
+    value: 99
+  - description: null
+    max: 127
+    min: 127
+    name: Clear NRPN LSB Register
+    type: null
+    value: 98
+  - description: null
+    max: 127
+    min: 0
+    name: Bank (Song Folder) Select MSB
+    type: null
+    value: 0
+  - description: null
+    max: 127
+    min: 0
+    name: Bank (Song folder) Select LSB
+    type: null
+    value: 32
+  - description: null
+    max: 127
+    min: 1
+    name: "Data increment (+1) \u2013 INC"
+    type: null
+    value: 96
+  - description: null
+    max: 127
+    min: 1
+    name: "Data decrement (-1) \u2013 DEC"
+    type: null
+    value: 87
+  - description: null
+    max: 127
+    min: 0
+    name: NRPN_LSB
+    type: null
+    value: 98
+  - description: null
+    max: 127
+    min: 0
+    name: NRPN_MSB
+    type: null
+    value: 99
+  - description: null
+    max: 127
+    min: 0
+    name: Tempo MSB
+    type: null
+    value: 106
+  - description: null
+    max: 127
+    min: 0
+    name: Tempo LSB
+    type: null
+    value: 107
