@@ -1,0 +1,156 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    To select channel 4-16, you will need to connect Riverside to a
+    MIDI device.
+
+    1. Press and hold the ON footswitch while powering up the pedal. Once both LEDs flash, release the footswitch.
+
+    2. Turn the DRIVE knob on the to set the MIDI receive channel. Both LEDs will flash momentarily as the channel is changed.
+    Green = Channel 1
+    Amber = Channel 2
+    Red = Channel 3
+    Blue = Channel 4-16. Send a PC message to set the MIDI Channel.
+
+    3. Press the ON footswitch again to store the MIDI channel and begin.
+
+
+pc:
+  description: |+
+    Riverside contains 300 preset locations, numbered sequentially from
+    0-299. Because MIDI Program Change messages have a maximum
+    number of 128 (0-127) the presets are grouped into three MIDI patch
+    banks.
+    - MIDI BANK 0 = PRESETS 0-127
+    - MIDI BANK 1 = PRESETS 128-255
+    - MIDI BANK 2 = PRESETS 256-299
+    Riverside always powers up in MIDI Patch Bank 0, so if you plan to
+    stay within the first 127 presets, simply send a standard MIDI Program
+    Change message to load a preset.
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a
+    standard MIDI Bank Change message “MIDI CC# 0 with a value equal
+    to the MIDI Bank#” before each MIDI Program Change.
+    Selecting bank 0, patch 127 will put Riverside into Manual mode. In this
+    mode, the pedal will be set to the current knob and switch settings. No
+    preset data can be stored at this preset location.
+
+cc:
+  - description: 
+    max: 2
+    min: 0
+    name: MIDI Patch Bank
+    value: 0
+  - description: 
+    max: 127
+    min: 0
+    name: Volume Pedal
+    value: 7
+  - description: 
+    max: 127
+    min: 0
+    name: Level
+    value: 12
+  - description: 
+    max: 127
+    min: 0
+    name: Drive
+    value: 13
+  - description: 
+    max: 127
+    min: 0
+    name: Bass
+    value: 14
+  - description: 
+    max: 127
+    min: 0
+    name: Mid
+    value: 15
+  - description: 
+    max: 127
+    min: 0
+    name: Treble
+    value: 16
+  - description: 
+    max: 127
+    min: 0
+    name: Boost Level
+    value: 17
+  - description: 
+    max: 0
+    min: 0
+    name: Boost Off
+    value: 18
+  - description: 
+    max: 127
+    min: 127
+    name: Boost On
+    value: 18
+  - description: 
+    max: 1
+    min: 1
+    name: Gain - Low
+    value: 19
+  - description: 
+    max: 2
+    min: 2
+    name: Gain - High
+    value: 19
+  - description: 
+    max: 1
+    min: 1
+    name: Push - Norm
+    value: 20
+  - description: 
+    max: 2
+    min: 2
+    name: Push - Mid
+    value: 20
+  - description: 
+    max: 1
+    min: 1
+    name: Presence +
+    value: 21
+  - description: 
+    max: 2
+    min: 2
+    name: Presence -
+    value: 21
+  - description: 
+    max: 3
+    min: 3
+    name: Presence Middle
+    value: 21
+  - description: 
+    max: 127
+    min: 0
+    name: Noise Gate
+    value: 22
+  - description: 
+    max: 0
+    min: 0
+    name: MIDI Expression Off
+    value: 60
+  - description: 
+    max: 127
+    min: 127
+    name: MIDI Expression On
+    value: 60
+  - description: 
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 100
+  - description: 
+    max: 0
+    min: 0
+    name: Bypass
+    value: 102
+  - description: 
+    max: 127
+    min: 127
+    name: Engage (On)
+    value: 102
