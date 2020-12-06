@@ -1,5 +1,9 @@
 # openmidi
-OpenMIDI is a community driven effort to document MIDI implementations of various MIDI devices. This information is made available at www.openmidi.com for public use.
+OpenMIDI is a community driven effort to document the MIDI implementations of various MIDI devices for the benefit of all musicians. It aims to be the source of truth and reference via community feedback and contribution. 
+
+This information is made available at www.openmidi.com or in this repository for public use. 
+
+OpenMIDI is hosted free of charge by [Morningstar Engineering](https://www.morningstar.io)
 
 If you are new to Github, we have some basic instructions on setting up your account and doing your first Pull Request [here](https://morningstarengineering.atlassian.net/wiki/spaces/MMS/pages/219906049/Contributing+to+the+MIDI+Dictionary).
 
@@ -14,6 +18,7 @@ Special thanks to all who have contributed!
 - [bzhgeek](https://github.com/bzhgeek)
 
 # How to contribute
+## If you are inclined to contribute via Github
 1. Fork the repository
 2. Add your changes
    - Create a new yaml file
@@ -23,6 +28,13 @@ Special thanks to all who have contributed!
    
 3. Commit your changes
 4. Create a pull request
+
+## If you want to use Microsoft Excel
+We have created a template in Excel if you want to populate. In the repository, you will see a file called `openmidi_template.xlsx`. 
+1. Download the Excel template
+2. Populate the Excel file
+3. Email it to help@morningstarfx.com with the subject `OpenMIDI - <Brand Name> - <Model Name>`
+4. Our team will review the data, covert it to the required format and push it to the repository.
 
 # Instructions
 The MIDI data for each device is saved in [yaml](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) files. 
