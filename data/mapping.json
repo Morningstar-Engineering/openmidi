@@ -321,6 +321,16 @@
             ]
         },
         {
+            "name": "TC Helicon",
+            "value": "tchelicon",
+            "models": [
+                {
+                    "name": "Voicelive 3",
+                    "value": "voicelive_3"
+                }
+            ]
+        },
+        {
             "name": "Walrus Audio",
             "value": "walrusaudio",
             "models": [

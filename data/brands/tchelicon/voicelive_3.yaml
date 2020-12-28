@@ -1,0 +1,142 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+cc:
+- description: ""
+  max: 127
+  min: 0
+  name: Harmony Vibrato Boost
+  value: 1
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Rhythmic
+  value: 16
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Delay
+  value: 17
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Compressor
+  value: 19
+- description: ""
+  max: 127
+  min: 0
+  name: "Guitar - uMod"
+  value: 21
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Octaver
+  value: 23
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Amp
+  value: 25
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Wah
+  value: 27
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Boost
+  value: 29
+- description: Key C, C#, D, D#, E, F, F#, G, G#, A, A#, B are CC Values 0-11 respectively
+  max: 127
+  min: 0
+  name: Vocal Harmony
+  value: 30
+- description: Scale MAJ1, MAJ2, MAJ3, MIN1, MIN2, MIN3, CUST are CC Values 0-7
+    respectively
+  max: 7
+  min: 0
+  name: Vocal Harmony
+  value: 31
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - Reverb
+  value: 46
+- description: ""
+  max: 127
+  min: 0
+  name: Guitar - HIT
+  value: 47
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Vocoder/Synth
+  value: 50
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Rhythmic
+  value: 51
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - HIT
+  value: 56
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Choir
+  value: 104
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Harmony
+  value: 110
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Double
+  value: 111
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Reverb
+  value: 112
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - HardTune
+  value: 113
+- description: CC Value represents Step Number, i.e. 1 = Step 1, 2= Step 2 etc.
+  max: 127
+  min: 0
+  name: Step
+  value: 115
+- description: ""
+  max: 127
+  min: 0
+  name: "Vocal - uMod"
+  value: 116
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Delay
+  value: 117
+- description: ""
+  max: 127
+  min: 0
+  name: Vocal - Transducer
+  value: 118
+- description: ""
+  max: 127
+  min: 0
+  name: Harmony Hold
+  value: 119
+- description: ""
+  max: 127
+  min: 0
+  name: ALL NOTES OFF
+  value: 123
