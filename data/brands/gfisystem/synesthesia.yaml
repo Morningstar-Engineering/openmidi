@@ -37,8 +37,8 @@ cc:
     type: Operation
     min: 0
     max: 0
-  - name: "DSP-X: Engage"
-    value: 14
+  - name: "DSP-Y: Engage"
+    value: 15
     description: ''
     type: Operation
     min: 127
