@@ -103,7 +103,7 @@ cc:
     description: ''
     type: System
     min: 0
-    max:
+    max: 10
   - name: 'Engage Preset G'
     value: 16
     description: ''
