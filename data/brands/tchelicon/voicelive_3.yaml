@@ -3,6 +3,14 @@ midi_thru: Yes
 phantom_power: None
 midi_clock: Yes
 
+midi_channel:
+  instructions: |+
+
+
+pc:
+  description: |+
+
+
 cc:
   - description: ""
     max: 127
