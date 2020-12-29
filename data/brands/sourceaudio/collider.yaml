@@ -404,13 +404,17 @@ cc:
     max: 127
   - name: Recall Preset Both Engaged
     value: 107
-    description: Recalls any preset with Delay (A) & Reverb (B) Engaged
+    description: |-
+      Recalls any preset with Delay (A) & Reverb (B) Engaged.
+      FYI - There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.
     type: System
     min: 0
     max: 127
   - name: Recall Preset Reverb (B) Engaged
     value: 108
-    description: Recalls any preset with Reverb (B) Engaged
+    description: |-
+      Recalls any preset with Reverb (B) Engaged
+      FYI - There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.
     type: System
     min: 0
     max: 127
