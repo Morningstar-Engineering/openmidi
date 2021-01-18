@@ -87,6 +87,16 @@
             ]
         },
         {
+            "name": "Disaster Area",
+            "value": "disasterarea",
+            "models": [
+                {
+                    "name": "DPC-8EZ Gen2",
+                    "value": "dpc8ezgen2"
+                }
+            ]
+        },
+        {
             "name": "Electro Harmonix",
             "value": "electroharmonix",
             "models": [

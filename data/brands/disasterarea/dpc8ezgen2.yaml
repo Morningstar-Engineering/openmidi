@@ -1,0 +1,117 @@
+cc:
+  - description: Bypass Loop 1
+    max: 63
+    min: 0
+    name: Loop 1 Bypass
+    type: null
+    value: 50
+  - description: Engage Loop 1
+    max: 127
+    min: 64
+    name: Loop 1 Engage
+    type: null
+    value: 50
+  - description: Bypass Loop 2
+    max: 63
+    min: 0
+    name: Loop 2 Bypass
+    type: null
+    value: 51
+  - description: Engage Loop 2
+    max: 127
+    min: 64
+    name: Loop 2 Engage
+    type: null
+    value: 51
+  - description: Bypass Loop 3
+    max: 63
+    min: 0
+    name: Loop 3 Bypass
+    type: null
+    value: 52
+  - description: Engage Loop 3
+    max: 127
+    min: 64
+    name: Loop 3 Engage
+    type: null
+    value: 52
+  - description: Bypass Loop 4
+    max: 63
+    min: 0
+    name: Loop 4 Bypass
+    type: null
+    value: 53
+  - description: Engage Loop 4
+    max: 127
+    min: 64
+    name: Loop 4 Engage
+    type: null
+    value: 53
+  - description: Bypass Loop 5
+    max: 63
+    min: 0
+    name: Loop 5 Bypass
+    type: null
+    value: 54
+  - description: Engage Loop 5
+    max: 127
+    min: 64
+    name: Loop 5 Engage
+    type: null
+    value: 54
+  - description: Bypass Loop 6
+    max: 63
+    min: 0
+    name: Loop 6 Bypass
+    type: null
+    value: 55
+  - description: Engage Loop 6
+    max: 127
+    min: 64
+    name: Loop 6 Engage
+    type: null
+    value: 55
+  - description: Bypass Loop 7
+    max: 63
+    min: 0
+    name: Loop 7 Bypass
+    type: null
+    value: 56
+  - description: Engage Loop 7
+    max: 127
+    min: 64
+    name: Loop 7 Engage
+    type: null
+    value: 56
+  - description: Bypass Loop 8
+    max: 63
+    min: 0
+    name: Loop 8 Bypass
+    type: null
+    value: 57
+  - description: Engage Loop 8
+    max: 127
+    min: 64
+    name: Loop 8 Engage
+    type: null
+    value: 57
+  - description: Unmute Signal
+    max: 63
+    min: 0
+    name: Unmute
+    type: null
+    value: 58
+  - description: Mute Signal
+    max: 127
+    min: 64
+    name: Mute
+    type: null
+    value: 58
+  - description: Saves current status of Loops to the Preset Number specified by Value
+    max: 127
+    min: 0
+    name: Save
+    type: null
+    value: 122
+pc:
+  - description: Loads Presets 0 - 127
