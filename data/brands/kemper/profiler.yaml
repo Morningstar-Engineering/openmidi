@@ -150,25 +150,25 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: DLY module on/off (without spillover)
+  - name: DLY module on/off
     value: 26
     description: ''
     type: System
     min: 0
     max: 127
-  - name: DLY module on/off (with spillover)
+  - name: DLY module on/off (with tail)
     value: 27
     description: ''
     type: System
     min: 0
     max: 127
-  - name: REV module on/off (without spillover)
+  - name: REV module on/off
     value: 28
     description: ''
     type: System
     min: 0
     max: 127
-  - name: REV module on/off (with spillover)
+  - name: REV module on/off (with tail)
     value: 29
     description: ''
     type: System
@@ -206,12 +206,6 @@ cc:
     type: Parameter
     min: 0
     max: 1
-  - name: Morph Button
-    value: 36
-    description: 'Any value toggles between Base Sound and Morph Sound, values 1-127 activate temporary mode after two seconds, value 0 deactivates temporary mode and latches).'
-    type: System
-    min: 0
-    max: 127
   - name: Performance Preload
     value: 47
     description: 'Values 0-124 preload Performance 1-125. One of the CCs #50-54 then loads one of the Slots, if that Slot is enabled.'
@@ -264,9 +258,45 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Bank select LSB
-    value: 54
-    description: ''
+  - name: Delay Mix
+    value: 68
+    description: 'Sets delay mix to chosen value'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: 69
+    description: 'Sets delay feedback to chosen value'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverb Mix
+    value: 70
+    description: 'Sets reverb mix to chosen value'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverb Time
+    value: 71
+    description: 'Sets reverb time to chosen value'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Gain
+    value: 72
+    description: 'Sets amplifier gain to chosen value'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Monitor Output Volume
+    value: 73
+    description: 'Sets global Monitor Output Volume'
     type: System
     min: 0
-    max: 4
+    max: 127
+  - name: Morph Button
+    value: 80
+    description: 'Emulates "push" (1) and "release" (0) of the Morph button'
+    type: System
+    min: 0
+    max: 1
