@@ -68,6 +68,18 @@ cc:
     type: System
     min: 0
     max: 127
+  - name: 'Looper Mode'
+    value: 7
+    description: '0 = Toggle Looper Mode, 1 = Engage, 2 = Disengage'
+    type: System
+    min: 0
+    max: 2
+  - name: 'MIDI Clock Tap'
+    value: 8
+    description: 'Engages the Tap Tempo function on the MIDI Clock'
+    type: System
+    min: 0
+    max: 127
   - name: 'Engage Preset A'
     value: 10
     description: 'Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll'
