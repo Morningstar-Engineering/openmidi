@@ -1,0 +1,43 @@
+midi_in: DIN5 
+midi_thru: Yes
+phantom_power: No
+midi_clock: Yes
+
+midi_channel: 
+  instructions: |+
+
+pc: 
+  description: |+
+    You can directly recall any BOARD on PLETHORA by sending it a PC (Program Change) message with the corresponding number.
+cc:
+  - description: '0-63 = Bypass, 64-127 = Engage '
+    max: 127
+    min: 0
+    name: FS1
+    type: System
+    value: 102
+  - description: '0-63 = Bypass, 64-127 = Engage '
+    max: 127
+    min: 0
+    name: FS2
+    type: System
+    value: 103
+  - description: '0-63 = Bypass, 64-127 = Engage '
+    max: 127
+    min: 0
+    name: FS3
+    type: System
+    value: 104
+  - description: '0-63 = Bypass, 64-127 = Engage '
+    max: 127
+    min: 0
+    name: FS4
+    type: System
+    value: 105
+  - description: '0-63 = Bypass, 64-127 = Engage '
+    max: 127
+    min: 0
+    name: FS5
+    type: System
+    value: 106
+
