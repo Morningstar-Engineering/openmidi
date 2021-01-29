@@ -155,6 +155,20 @@
             ]
         },
         {
+            "name": "Hologram Electronics",
+            "value": "hologramelectronics",
+            "models": [
+                {
+                    "name": "Dream Sequence",
+                    "value": "dreamsequence"
+                },
+                {
+                    "name": "Microcosm",
+                    "value": "microcosm"
+                }
+            ]
+        },
+        {
             "name": "Jackson Audio",
             "value": "jacksonaudio",
             "models": [
