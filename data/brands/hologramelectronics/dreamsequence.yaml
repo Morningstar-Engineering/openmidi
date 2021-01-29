@@ -1,0 +1,47 @@
+midi_in: DIN5
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+
+pc:
+  description: |-
+    PROGRAM CHANGE 001-012 – User Bank Presets 1-12
+    PROGRAM CHANGE 013-024 – Factory Bank Presets 1-12
+    PROGRAM CHANGE 025-035 – Saved Bank Presets 1-11
+
+cc:
+  - name: Middle Octave Level
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Octave Up Level
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Octave Down Level
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Bypass
+    value: 23
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: Effect Engage
+    value: 20
+    description: ''
+    type: System
+    min: 64
+    max: 127
