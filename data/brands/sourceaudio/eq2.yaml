@@ -1,0 +1,654 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    By	default, the EQ2 responds to MIDI Channel 1. The setting can be edited in the Neuro Editor.
+pc:
+  description:
+
+cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Master Volume (Output)
+    value: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Input 1 Trim
+    value: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Input 2 Trim
+    value: 2
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 1 - Level
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 2 - Level
+    value: 4
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 3 - Level
+    value: 5
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 4 - Level
+    value: 6
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 5 - Level
+    value: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 6 - Level
+    value: 8
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 7 - Level
+    value: 9
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 8 - Level
+    value: 10
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 9 - Level
+    value: 11
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 10 - Level
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 1 - Level
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 2 - Level
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 3 - Level
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 4 - Level
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 5 - Level
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 6 - Level
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 7 - Level
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 8 - Level
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 9 - Level
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 10 - Level
+    value: 22
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 1 - Frequency
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 2 - Frequency
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 3 - Frequency
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 4 - Frequency
+    value: 26
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 5 - Frequency
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 6 - Frequency
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 7 - Frequency
+    value: 29
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 8 - Frequency
+    value: 30
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 9 - Frequency
+    value: 31
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 10 - Frequency
+    value: 32
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 1 - Frequency
+    value: 33
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 2 - Frequency
+    value: 34
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 3 - Frequency
+    value: 35
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 4 - Frequency
+    value: 36
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 5 - Frequency
+    value: 37
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 6 - Frequency
+    value: 38
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 7 - Frequency
+    value: 39
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 8 - Frequency
+    value: 40
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 9 - Frequency
+    value: 41
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 10 - Frequency
+    value: 42
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 1 - Q
+    value: 43
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 2 - Q
+    value: 44
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 3 - Q
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 4 - Q
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 5 - Q
+    value: 47
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 6 - Q
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 7 - Q
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 8 - Q
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 9 - Q
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1, Band 10 - Q
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 1 - Q
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 2 - Q
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 3 - Q
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 4 - Q
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 5 - Q
+    value: 57
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 6 - Q
+    value: 58
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 7 - Q
+    value: 59
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 8 - Q
+    value: 60
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 9 - Q
+    value: 61
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2, Band 10 - Q
+    value: 62
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 63
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 64
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 65
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 66
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 67
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 68
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1 Gain
+    value: 69
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2 Gain
+    value: 70
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 1 Input High Pass
+    value: 71
+  - description: ''
+    max: 127
+    min: 0
+    name: Channel 2 Input High Pass
+    value: 72
+  - description: ''
+    max: 127
+    min: 0
+    name: Routing Option
+    value: 73
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 74
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 75
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 76
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 77
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 78
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 79
+  - description: ''
+    max: 127
+    min: 0
+    name: Preset Decrement
+    value: 80
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 81
+  - description: ''
+    max: 127
+    min: 0
+    name: Preset Increment
+    value: 82
+  - description: ''
+    max: 127
+    min: 0
+    name: Enable/Disable Tuner
+    value: 83
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 84
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 85
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 86
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 87
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 88
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 89
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 90
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 91
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 92
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Remote Switch Function
+    value: 94
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 95
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 96
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 97
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 98
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 99
+  - description: ''
+    max: 127
+    min: 0
+    name: Remote Expression
+    value: 100
+  - description: ''
+    max: 127
+    min: 0
+    name: Bypass/Engage
+    value: 101
+  - description: ''
+    max: 127
+    min: 0
+    name: Toggle Bypass/Engage
+    value: 102
+  - description: ''
+    max: 127
+    min: 0
+    name: Recall Preset Bypassed
+    value: 103
+  - description: ''
+    max: 127
+    min: 0
+    name: Recall Preset Engaged
+    value: 104
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 105
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 106
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 107
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 108
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 109
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 110
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 111
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 112
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 113
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 114
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 115
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 116
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 117
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 118
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 119
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 120
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 121
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 122
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 123
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 124
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 125
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 126
+  - description: ''
+    max: 127
+    min: 0
+    name: Unassigned
+    value: 127
