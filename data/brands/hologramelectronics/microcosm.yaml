@@ -30,33 +30,179 @@ pc:
     PC #57-60	USER BANK 4 - (A-D)
 
 cc:
-  - name: Middle Octave Level
-    value: 20
-    description: ''
-    type: Parameter
+  - description: (0)=1/4, (1)=1/2, (2)=TAP, (3)=2x, (4)=4x, (5)=8x
+    max: 5
     min: 0
+    name: Subdiv
+    value: 5
+  - description: ''
     max: 127
-  - name: Octave Up Level
+    min: 0
+    name: Activity
+    value: 6
+  - description: 0-31 (Square) , 32-63 (Ramp up), 64-95 (Triangle) , 96-127 (Ramp
+      down)
+    max: 127
+    min: 0
+    name: Shape
+    value: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter
+    value: 8
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 9
+  - description: ''
+    max: 127
+    min: 0
+    name: Time
+    value: 10
+  - description: ''
+    max: 127
+    min: 0
+    name: Repeats
+    value: 11
+  - description: ''
+    max: 127
+    min: 0
+    name: Space
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Loop Level
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod Frequency
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter Resonance
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Effect Volume
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Playback Speed
+    value: 17
+  - description: (0)=1/4, (1)=1/2, (2)=TAP, (3)=2x, (4)=4x, (5)=8x
+    max: 127
+    min: 0
+    name: Looper Playback (Stepped)
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod Depth
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Time
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Fade Time
     value: 21
-    description: ''
-    type: Parameter
-    min: 0
+  - description: 'Off: 0-63, On: 64-127'
     max: 127
-  - name: Octave Down Level
+    min: 0
+    name: Looper On / Off
     value: 22
-    description: ''
-    type: Parameter
-    min: 0
+  - description: 'Fwd: 0-63, Reverse: 64-127'
     max: 127
-  - name: Effect Bypass
+    min: 0
+    name: Looper Playback Dir.
     value: 23
-    description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: Effect Engage
-    value: 20
-    description: ''
-    type: System
-    min: 64
+  - description: 'Post-FX: 0-63, Pre-FX: 64-127'
     max: 127
+    min: 0
+    name: Looper Routing
+    value: 24
+  - description: 'Looper & Effects: 0-63, Looper Only: 64-127'
+    max: 127
+    min: 0
+    name: Looper Only
+    value: 25
+  - description: 'Default: 0-63, Burst: 64-127'
+    max: 127
+    min: 0
+    name: Looper Burst
+    value: 26
+  - description: 'Free: 0-63, Quantize: 64-127'
+    max: 127
+    min: 0
+    name: Looper Quantized
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Record
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Play
+    value: 29
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Overdub
+    value: 30
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Stop
+    value: 31
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Erase
+    value: 34
+  - description: ''
+    max: 127
+    min: 0
+    name: Looper Undo
+    value: 35
+  - description: ''
+    max: 127
+    min: 0
+    name: Copy Preset
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: Save Preset
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverse Effect
+    value: 47
+  - description: 'Off: 0-63, On: 64-127'
+    max: 127
+    min: 0
+    name: Hold Sampler
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: TAP Tempo
+    value: 93
+  - description: 0-63 bypass, 64-127 engage
+    max: 127
+    min: 0
+    name: Bypass
+    value: 102
