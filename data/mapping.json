@@ -368,12 +368,20 @@
             "value": "walrusaudio",
             "models": [
                 {
+                    "name": "ACS1",
+                    "value": "acs1"
+                },
+                {
                     "name": "D1 (Old version)",
                     "value": "d1_old"
                 },
                 {
                     "name": "D1 (New version)",
                     "value": "d1"
+                },
+                {
+                    "name": "R1",
+                    "value": "r1"
                 }
             ]
         }
