@@ -1,0 +1,95 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    1. Hold down both stomp switches at power up until the rate LED starts flashing like normal,
+    then release both switches.
+    2. Now send a MIDI Program Change message on the desired MIDI channel for the pedal.
+    3. The pedal will save that MIDI channel and only respond to messages on that channel until
+    the user changes it again
+pc:
+  description: |-
+      Bank A (Red) PC#0
+      Bank A (Green) PC#1
+      Bank A (Blue) PC#2
+      Bank B (Red) PC#3
+      Bank B (Green) PC#4
+      Bank B (Blue) PC#5
+      Bank C (Red) PC#6
+      Bank C (Green) PC#7
+      Bank C (Blue) PC#8 and so on
+      All presets accessible via PC# 0-127
+
+cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Bass
+    type: ''
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Mid
+    type: ''
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Treb
+    type: ''
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Vol
+    type: ''
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Gain
+    type: ''
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Room
+    type: ''
+    value: 22
+  - description: 'Front A: 0-20, B: 22-42, C: 44-64, Back A: 66-86, B: 88-108, C:
+      110-127'
+    max: 127
+    min: 0
+    name: Cab Switch
+    type: ''
+    value: 27
+  - description: 'Left: 0-42, Middle: 43-85, Right: 86-127'
+    max: 127
+    min: 0
+    name: L + R Switch
+    type: ''
+    value: 28
+  - description: 'Fullerton: 0-42, London: 43-85, Dartford: 86-127'
+    max: 127
+    min: 0
+    name: Amp Switch
+    type: ''
+    value: 29
+  - description: Bypass = 0, Engaged = 127
+    max: 127
+    min: 0
+    name: Bypass Switch
+    type: ''
+    value: 30
+  - description: Bypass = 0, Engaged = 127
+    max: 127
+    min: 0
+    name: Boost Switch
+    type: ''
+    value: 31
