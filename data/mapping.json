@@ -273,13 +273,22 @@
             "value": "sourceaudio",
             "models": [
                 {
-                    "name": "Nemesis",
-                    "value": "nemesis"
-                },
-                {
                     "name": "Collider",
                     "value": "collider"
+                },
+                {
+                    "name": "C4 Synth",
+                    "value": "c4synth"
+                },
+                {
+                    "name": "EQ2",
+                    "value": "eq2"
+                },
+                {
+                    "name": "Nemesis",
+                    "value": "nemesis"
                 }
+
             ]
         },
         {
