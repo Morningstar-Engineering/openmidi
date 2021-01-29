@@ -1,0 +1,62 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |-
+
+pc:
+  description: |-
+    Sending a Program Change message to the pedal will allow the user to switch
+    between any of the 44 effect variations and 16 user presets.
+
+    PC #1-4	    ARP - (A-D)
+    PC #5-8	    INTERRUPT - (A-D)
+    PC #9-12	BLOCKS - (A-D)
+    PC #13-16	GLIDE - (A-D)
+    PC #17-20	SEQ - (A-D)
+    PC #21-24	MOSAIC - (A-D)
+    PC #25-28	HAZE - (A-D)
+    PC #29-32	TUNNEL - (A-D)
+    PC #33-36	STRUM - (A-D)
+    PC #37-40	PATTERN - (A-D)
+    PC #41-44	WARP - (A-D)
+    PC #45-48	USER BANK 1 - (A-D)
+    PC #49-52	USER BANK 2 - (A-D)
+    PC #53-56	USER BANK 3 - (A-D)
+    PC #57-60	USER BANK 4 - (A-D)
+
+cc:
+  - name: Middle Octave Level
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Octave Up Level
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Octave Down Level
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Bypass
+    value: 23
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: Effect Engage
+    value: 20
+    description: ''
+    type: System
+    min: 64
+    max: 127
