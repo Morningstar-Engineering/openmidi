@@ -1,0 +1,438 @@
+midi_in: NULL
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description:
+
+
+cc:
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N1 Pitch 1 control (fine)
+    value: 0
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N1 Pitch 2 control (fine)
+    value: 1
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N1 Pitch 3 control (fine)
+    value: 2
+  - description: Control the amplitude envelope of the notes just as the ENV knob
+      does.
+    max: 127
+    min: 0
+    name: N1 Envelope control
+    value: 3
+  - description: Control the length of the notes just as the LEN knob does.
+    max: 127
+    min: 0
+    name: N1 Length control
+    value: 4
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N1 Pitch 1 control
+    value: 5
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N1 Pitch 2 control
+    value: 6
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N1 Pitch 3 control
+    value: 7
+  - description: Control the gain just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the middle position.
+    max: 127
+    min: 0
+    name: N1 Gain control
+    value: 8
+  - description: monte
+    max: 127
+    min: 0
+    name: N1 Position control
+    value: 9
+  - description: Adjust the position advancement just as the POS knob does with the
+      STRIDE/ABS/UNI switch in the upward position.
+    max: 127
+    min: 0
+    name: N1 Stride control
+    value: 10
+  - description: Adjust the playback offset just as the OFST knob does.
+    max: 127
+    min: 0
+    name: N1 Offset control
+    value: 11
+  - description: Adjust the fade just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the upward position.
+    max: 127
+    min: 0
+    name: N1 Fade control
+    value: 12
+  - description: "Adjust the time between notes just as the \u0394 knob does with\
+      \ the FREE/QUANT/SKIP switch in the upward position. *"
+    max: 127
+    min: 0
+    name: "N1 Free \u0394 control"
+    value: 13
+  - description: Adjust the number of repeats (the number of notes in the arpeggio)
+      just as the TMPO/REP knob does. *
+    max: 127
+    min: 0
+    name: N1 Number of repeats control
+    value: 14
+  - description: If 0, reset the note stride accumulator. This means the next playback
+      will start from where the POS setting was set to. If 1, reset note stride. This
+      means the position of start of playback will not advance every time a note is
+      played (i.e., every beat). If 2, reset repeats stride. This means the position
+      of start of playback will not advance every repeat. If >= 2, do the above 3
+      things. This is provided for convenience.
+    max: 127
+    min: 0
+    name: N1 Stride reset
+    value: 15
+  - description: "Control how often the arpeggio plays just like the \u0394 knob does\
+      \ with the FREE/QUANT/SKIP switch in the downward position."
+    max: 127
+    min: 0
+    name: N1 skip control
+    value: 16
+  - description: Control the swing factor for the time between repeats of notes.
+    max: 127
+    min: 0
+    name: N1 swing control
+    value: 17
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N2 Pitch 1 control (fine)
+    value: 18
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N2 Pitch 2 control (fine)
+    value: 19
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N2 Pitch 3 control (fine)
+    value: 20
+  - description: Control the amplitude envelope of the notes just as the ENV knob
+      does.
+    max: 127
+    min: 0
+    name: N2 Envelope control
+    value: 21
+  - description: Control the length of the notes just as the LEN knob does.
+    max: 127
+    min: 0
+    name: N2 Length control
+    value: 22
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N2 Pitch 1 control
+    value: 23
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N2 Pitch 2 control
+    value: 24
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N2 Pitch 3 control
+    value: 25
+  - description: Control the gain just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the middle position.
+    max: 127
+    min: 0
+    name: N2 Gain control
+    value: 26
+  - description: Adjust the position just as the POS knob does with the STRIDE/ABS/UNI
+      switch in the middle position.
+    max: 127
+    min: 0
+    name: N2 Position control
+    value: 27
+  - description: Adjust the position advancement just as the POS knob does with the
+      STRIDE/ABS/UNI switch in the upward position.
+    max: 127
+    min: 0
+    name: N2 Stride control
+    value: 28
+  - description: Adjust the playback offset just as the OFST knob does.
+    max: 127
+    min: 0
+    name: N2 Offset control
+    value: 29
+  - description: Adjust the fade just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the upward position.
+    max: 127
+    min: 0
+    name: N2 Fade control
+    value: 30
+  - description: "Adjust the time between notes just as the \u0394 knob does with\
+      \ the FREE/QUANT/SKIP switch in the upward position."
+    max: 127
+    min: 0
+    name: "N2 Free \u0394 control"
+    value: 31
+  - description: Adjust the number of repeats (the number of notes in the arpeggio)
+      just as the TMPO/REP knob does.
+    max: 127
+    min: 0
+    name: N2 Number of repeats control
+    value: 32
+  - description: If 0, reset the note stride accumulator. This means the next playback
+      will start from where the POS setting was set to. If 1, reset note stride. This
+      means the position of start of playback will not advance every time a note is
+      played (i.e., every beat). If 2, reset repeats stride. This means the position
+      of start of playback will not advance every repeat. If >= 2, do the above 3
+      things. This is provided for convenience.
+    max: 127
+    min: 0
+    name: N2 Stride reset
+    value: 33
+  - description: "Control how often the arpeggio plays just like the \u0394 knob does\
+      \ with the FREE/QUANT/SKIP switch in the downward position."
+    max: 127
+    min: 0
+    name: N2 skip control
+    value: 34
+  - description: Control the swing factor for the time between repeats of notes.
+    max: 127
+    min: 0
+    name: N2 swing control
+    value: 35
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N3 Pitch 1 control (fine)
+    value: 36
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N3 Pitch 2 control (fine)
+    value: 37
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio from -50 cents to
+      +50 cents (hundreths of a semitone).
+    max: 127
+    min: 0
+    name: N3 Pitch 3 control (fine)
+    value: 38
+  - description: Control the amplitude envelope of the notes just as the ENV knob
+      does.
+    max: 127
+    min: 0
+    name: N3 Envelope control
+    value: 39
+  - description: Control the length of the notes just as the LEN knob does.
+    max: 127
+    min: 0
+    name: N3 Length control
+    value: 40
+  - description: Adjust pitch of 1st, 4th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N3 Pitch 1 control
+    value: 41
+  - description: Adjust pitch of 2nd, 5th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N3 Pitch 2 control
+    value: 42
+  - description: Adjust pitch of 3rd, 6th, ... notes in arpeggio according to the
+      control change value. 60 is no transposition, 48 is an octave below, 72 an octave
+      above, etc. Note that this is more range than is available on the physical interface.
+    max: 127
+    min: 0
+    name: N3 Pitch 3 control
+    value: 43
+  - description: Control the gain just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the middle position.
+    max: 127
+    min: 0
+    name: N3 Gain control
+    value: 44
+  - description: Adjust the position just as the POS knob does with the STRIDE/ABS/UNI
+      switch in the middle position.
+    max: 127
+    min: 0
+    name: N3 Position control
+    value: 45
+  - description: Adjust the position advancement just as the POS knob does with the
+      STRIDE/ABS/UNI switch in the upward position.
+    max: 127
+    min: 0
+    name: N3 Stride control
+    value: 46
+  - description: Adjust the playback offset just as the OFST knob does.
+    max: 127
+    min: 0
+    name: N3 Offset control
+    value: 47
+  - description: Adjust the fade just as the GAIN knob does with the FADE/GAIN/FBK
+      switch in the upward position.
+    max: 127
+    min: 0
+    name: N3 Fade control
+    value: 48
+  - description: "Adjust the time between notes just as the \u0394 knob does with\
+      \ the FREE/QUANT/SKIP switch in the upward position. *"
+    max: 127
+    min: 0
+    name: "N3 Free \u0394 control"
+    value: 49
+  - description: Adjust the number of repeats (the number of notes in the arpeggio)
+      just as the TMPO/REP knob does. *
+    max: 127
+    min: 0
+    name: N3 Number of repeats control
+    value: 50
+  - description: If 0, reset the note stride accumulator. This means the next playback
+      will start from where the POS setting was set to. If 1, reset note stride. This
+      means the position of start of playback will not advance every time a note is
+      played (i.e., every beat). If 2, reset repeats stride. This means the position
+      of start of playback will not advance every repeat. If > 2, do the above 3 things.
+      This is provided for convenience.
+    max: 127
+    min: 0
+    name: N3 Stride reset
+    value: 51
+  - description: "Control how often the arpeggio plays just like the \u0394 knob does\
+      \ with the FREE/QUANT/SKIP switch in the downward position."
+    max: 127
+    min: 0
+    name: N3 skip control
+    value: 52
+  - description: Control the swing factor for the time between repeats of notes.
+    max: 127
+    min: 0
+    name: N3 swing control
+    value: 53
+  - description: Control how often the sequence plays in beats per minute (BPM) from
+      11 BPM to 60 BPM.
+    max: 127
+    min: 0
+    name: Coarse tempo control
+    value: 54
+  - description: Control how often the sequence plays by adding to the current tempo
+      -10 to +10 BPM.
+    max: 127
+    min: 0
+    name: Fine tempo control
+    value: 55
+  - description: "Scale the tempo like the \u0394 knob with N1/N2/N3 in the upward\
+      \ position and FREE/QUANT/SKIP in the middle position."
+    max: 127
+    min: 0
+    name: Tempo scaling
+    value: 56
+  - description: Slightly adjust the tempo like the TMPO/REP knob with N1/N2/N3 in
+      the upward position and FREE/R=B/AREC in the middle position.
+    max: 127
+    min: 0
+    name: Tempo nudge
+    value: 57
+  - description: Store the current settings in a specified register. The message value
+      of 0 stores in the PRE1 register, a value of 1 stores in the PRE2 register and
+      a value of 2 stores in the PRE3 register. If greater than 2, stores in the PRE3
+      register.
+    max: 127
+    min: 0
+    name: Preset store
+    value: 58
+  - description: Recall the current settings from a specified register. The message
+      value of 0 recalls from the PRE1 register, a value of 1 recalls from the PRE2
+      register and a value of 2 recalls from the PRE3 register. If greater than 2,
+      recalls from the PRE3 register.
+    max: 127
+    min: 0
+    name: Preset recall
+    value: 59
+  - description: Start/stop recording. A message value of 0 stops recording. A message
+      value greater than 0 starts or restarts recording depending on whether or not
+      recording is already going on.
+    max: 127
+    min: 0
+    name: Record enable/disable
+    value: 60
+  - description: Start/stop playback. A message value of 0 disables all playback.
+      A message value greater than 0 starts playback. If playback is already going
+      on it will start a new set of notes along side the already playing set.
+    max: 127
+    min: 0
+    name: Play start
+    value: 61
+  - description: Sets the record mode just like the FREE/R=B/AREC switch. A message
+      value of 0 sets the FREE record mode, a value of 1 sets the R=B mode and a value
+      of 2 sets the AREC mode. A value greater than 2 sets the AREC mode.
+    max: 127
+    min: 0
+    name: Record mode
+    value: 62
+  - description: Sets the feedback state. Data byte of 0 means off, 1 just N1 fed
+      back, 2 all notes fed back, otherwise does nothing.
+    max: 127
+    min: 0
+    name: Feedback state
+    value: 63
+  - description: Sets the amount the playback position in the sample moves each time
+      N1 plays (every beat). Like the POS knob when STRIDE/ABS/UNI is the in STRIDE
+      position and N1/N2/N3 is in N1 position.
+    max: 127
+    min: 0
+    name: N1 stride control
+    value: 64
+  - description: Sets the amount the playback position in the sample moves each time
+      N2 plays (every beat). Like the POS knob when STRIDE/ABS/UNI is the in STRIDE
+      position and N1/N2/N3 is in N2 position.
+    max: 127
+    min: 0
+    name: N2 stride control
+    value: 65
+  - description: Sets the amount the playback position in the sample moves each time
+      N3 plays (every beat). Like the POS knob when STRIDE/ABS/UNI is the in STRIDE
+      position and N1/N2/N3 is in N3 position
+    max: 127
+    min: 0
+    name: N3 stride control
+    value: 66
