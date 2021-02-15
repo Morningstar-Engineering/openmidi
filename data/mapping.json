@@ -259,6 +259,16 @@
             ]
         },
         {
+            "name": "Neural DSP",
+            "value": "neuraldsp",
+            "models": [
+                {
+                    "name": "Quad Cortex",
+                    "value": "quadcortex"
+                }
+            ]
+        },
+        {
             "name": "Red Panda",
             "value": "redpanda",
             "models": [

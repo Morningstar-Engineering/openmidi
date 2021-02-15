@@ -1,0 +1,115 @@
+midi_in: DIN5/USB
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description:
+
+
+cc:
+  - description: Preset Group 0 - 127
+    max: 0
+    min: 0
+    name: Bank (MSB) - Preset Group 0 - 127
+    value: 0
+  - description: Preset Group 128 - 256
+    max: 1
+    min: 1
+    name: Bank (MSB) - Preset Group 128 - 256
+    value: 0
+  - description: null
+    max: 127
+    min: 0
+    name: Expression Pedal 1
+    value: 1
+  - description: null
+    max: 127
+    min: 0
+    name: Expression Pedal 2
+    value: 2
+  - description: null
+    max: 127
+    min: 0
+    name: Bank (LSB) - Setlist change (PC)
+    value: 32
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch A
+    value: 35
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch B
+    value: 36
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch C
+    value: 37
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch D
+    value: 38
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch E
+    value: 39
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch F
+    value: 40
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch G
+    value: 41
+  - description: Preset/Stomp/Scene Mode, and Gig View
+    max: 127
+    min: 0
+    name: Enable/Bypass Footswitch H
+    value: 42
+  - description: Scene select (A-H)
+    max: 7
+    min: 0
+    name: Scene Select
+    value: 43
+  - description: null
+    max: 127
+    min: 0
+    name: Tempo BPM
+    value: 44
+  - description: null
+    max: 127
+    min: 0
+    name: Tuner On/Off
+    value: 45
+  - description: null
+    max: 127
+    min: 0
+    name: Open/Close Gig View
+    value: 46
+  - description: null
+    max: 0
+    min: 0
+    name: Change Mode - Preset
+    value: 47
+  - description: null
+    max: 1
+    min: 1
+    name: Change Mode - Scene
+    value: 47
+  - description: null
+    max: 2
+    min: 2
+    name: Change Mode - Stom
+    value: 47
