@@ -1,0 +1,157 @@
+midi_in:
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+    Enter the Boot Menu by pressing and holding the PROGRAM (left) footswitch before powering on the pedal;
+    continue to hold down the footswitch until after the firmware version number and the instrument mode have both been displayed.
+    Turn the PARAMETER dial to “Note Off Level” to see the name of the menu parameter.
+    Step through the parameters by pressing the left footswitch again until you get to "GLb".
+    Turn PARAMETER dial clockwise to any other position to see the parameter’s value. Adjust the value by turning the EDIT dial.
+    Choose channel 1-16 or "ALL" for omni mode. When editing is complete, turn the FI off and on again.
+
+instructions:
+
+pc:
+  description:
+    Responds to PC 1-99. Other values are ignored.
+
+cc:
+  - description: 'Default value: 127 (0 in SYNTH Mode). Modulation (CC1) is routed
+      to both VCF and VCO LFO Modulation. The depth set in the program will be reached
+      if CC1 is at maximum (127). Practically, the modulation value(s) in the program
+      will be multiplied with the MIDI controller value 127. Beware: if you use the
+      FI with a keyboard and set the Mod Wheel to minimum, CC1 will be at zero. If,
+      at this point. you disconnect the MIDI keyboard and instead play the FI with
+      your instrument via the audio input, you will find that there is no LFO modulation
+      in the programs where you would expect it; this is because CC1 is still at zero.
+      You will need to reset CC1 to its default value of 127 by changing program,
+      adjusting a flexi slot in the Editor or powering the FI off and on again.'
+    max: 127
+    min: 0
+    name: LFO depth to VCF and VCO
+    type: Parameter etc. Not important - can just leave blank
+    value: 1
+  - description: "Default value: 127 Adjusts (logarithmically) the VCF volume of the\
+      \ Main Mixer output in the same way as the LFO modulations work; when CC2 is\
+      \ at maximum (127) then VCF volume of Main Mixer corresponds to the preset value\
+      \ in the program. This differs from Volume Control (CC7) in two aspects: 1.\
+      \ It only adjusts the synth volume, it does not change the input instrument\u2019\
+      s volume; 2. It is located before the effects, so delay trails, etc. will not\
+      \ be muted when CC2 is lowered."
+    max: 127
+    min: 0
+    name: VCF volume of Main Mixer
+    type: null
+    value: 2
+  - description: 'Default value: 127 (0 in EWI Mode). Operates in a similar fashion
+      to CC1 and CC2; when CC5 is at maximum (127) then this corresponds to the portamento
+      value set in the program via the PORTA TIME slider in the Editor'
+    max: 127
+    min: 0
+    name: Portamento time
+    type: null
+    value: 5
+  - description: 'Default value: 127. MIDI Volume (CC7) is applied to the final output
+      of the FI. It is independent of all program parameters. It is smoothed and acts
+      logarithmically. Beware: if you use a keyboard or a MIDI pedal to adjust the
+      volume of the FI and you disconnect it, the volume will only return to the default
+      maximum value if you power the FI off and on again, change program or change
+      one of the Flexi sources in the Editor'
+    max: 127
+    min: 0
+    name: Final output volume of FI
+    type: null
+    value: 7
+  - description: Duplication of CC74. See below.
+    max: 127
+    min: 0
+    name: Filter cutoff
+    type: null
+    value: 11
+  - description: "Default value: 0. If \u226564 then it switches ON; If <64, then\
+      \ it switches OFF. Sustain stops upon change of program."
+    max: 127
+    min: 0
+    name: Sustain ON/OFF
+    type: null
+    value: 64
+  - description: "Default value: 127. If \u226564 then it switches ON; If <64, then\
+      \ it switches OFF."
+    max: 127
+    min: 0
+    name: Portamento ON/OFF
+    type: null
+    value: 65
+  - description: "If \u226564 relay switches to ON. If <64, relay switches to OFF.\
+      \ (This message will alsodisengage the Tuner, putting the FI into either the\
+      \ ON or OFF state, depending onthe value of the message sent)"
+    max: 127
+    min: 0
+    name: FI ON/OFF
+    type: null
+    value: 66
+  - description: "If \u226564 then program number first steps down by one, then it\
+      \ starts scrolling (as when holding the Program footswitch). If <64 then it\
+      \ stops again."
+    max: 127
+    min: 0
+    name: Program DOWN
+    type: null
+    value: 67
+  - description: "If \u226564 then the FI flips between ON and OFF. If <64 then the\
+      \ message is ignored. (If the Tuner is active then sending this message will\
+      \ disengage the Tuner and put the FI into the OFF state.)"
+    max: 127
+    min: 0
+    name: FI ON/OFF toggle
+    type: null
+    value: 69
+  - description: "Default value: 64. Deviates \xB11, \xB12 or \xB14 octaves from the\
+      \ cutoff value set by the VCF FRQ slider inthe program. Range is set by VCF\
+      \ CONTROL RANGE in the Boot Menu."
+    max: 127
+    min: 0
+    name: Filter cutoff
+    type: null
+    value: 74
+  - description: "For Program UP, if \u226564 then program number first steps up by\
+      \ one, then it starts scrolling (like when holding the Program footswitch).\
+      \ If <64 then it stops again. When the Tuner is engaged then values of \u2265\
+      64 operate the Tap Tempo function. If <64 then the message is ignored."
+    max: 127
+    min: 0
+    name: Program UP and Tap Tempo
+    type: null
+    value: 88
+  - description: "If \u226564 then the Tuner flips between ON and OFF. If <64 then\
+      \ the message is ignored. Whenever the Tuner is disengaged, the FI reverts to\
+      \ the ON state (just as using the ON/OFF switch does). (CCs 66 and 69 will also\
+      \ disengage the Tuner. See above.)"
+    max: 127
+    min: 0
+    name: Tuner ON/OFF toggle
+    type: null
+    value: 89
+  - description: "If \u226564 then bank number steps up by 1. If <64 then the message\
+      \ is ignored."
+    max: 127
+    min: 0
+    name: Bank UP
+    type: null
+    value: 90
+  - description: "If \u226564 then bank number steps down by 1. If <64 then the message\
+      \ is ignored."
+    max: 127
+    min: 0
+    name: Bank DOWN
+    type: null
+    value: 91
+  - description: 'Default value: 127.'
+    max: 127
+    min: 0
+    name: INSTR volume of Main Mixer
+    type: null
+    value: 92

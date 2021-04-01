@@ -279,6 +279,16 @@
             ]
         },
         {
+            "name": "Panda Audio",
+            "value": "pandaaudio",
+            "models": [
+                {
+                    "name": "Future Impact",
+                    "value": "futureimpact"
+                }
+            ]
+        },
+        {
             "name": "Red Panda",
             "value": "redpanda",
             "models": [
