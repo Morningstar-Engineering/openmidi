@@ -1,0 +1,532 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+    On Global Settings/Midi menu set Externall Midi Channel
+
+pc:
+  description: |-
+
+
+cc:
+  - description:
+    max: 0
+    min: 0
+    name: Start/Stop All
+    type:
+    value: 3
+  - description:
+    max: 1
+    min: 1
+    name: FX 1 Toggle
+    type:
+    value: 3
+  - description:
+    max: 2
+    min: 2
+    name: FX 2 Toggle
+    type:
+    value: 3
+  - description:
+    max: 3
+    min: 3
+    name: FX 3 Toggle
+    type:
+    value: 3
+  - description:
+    max: 4
+    min: 4
+    name: FX 4 Toggle
+    type:
+    value: 3
+  - description:
+    max: 6
+    min: 6
+    name: Tap Tempo
+    type:
+    value: 3
+  - description:
+    max: 7
+    min: 7
+    name: Track 1 Stop
+    type:
+    value: 3
+  - description:
+    max: 8
+    min: 8
+    name: Track 2 Stop
+    type:
+    value: 3
+  - description:
+    max: 9
+    min: 9
+    name: Track 3 Stop
+    type:
+    value: 3
+  - description:
+    max: 10
+    min: 10
+    name: Track 4 Stop
+    type:
+    value: 3
+  - description:
+    max: 11
+    min: 11
+    name: Track 1 Rec/Play/Overd
+    type:
+    value: 3
+  - description:
+    max: 12
+    min: 12
+    name: Track 2 Rec/Play/Overd
+    type:
+    value: 3
+  - description:
+    max: 13
+    min: 13
+    name: Track 3 Rec/Play/Overd
+    type:
+    value: 3
+  - description:
+    max: 14
+    min: 14
+    name: Track 4 Rec/Play/Overd
+    type:
+    value: 3
+  - description:
+    max: 15
+    min: 15
+    name: All Tracks Half Length
+    type:
+    value: 3
+  - description:
+    max: 16
+    min: 16
+    name: All Tracks Double Length
+    type:
+    value: 3
+  - description:
+    max: 17
+    min: 17
+    name: All Tracks Half Speed
+    type:
+    value: 3
+  - description:
+    max: 18
+    min: 18
+    name: All Tracks Double Speed
+    type:
+    value: 3
+  - description:
+    max: 25
+    min: 25
+    name: Track 1 Reverse
+    type:
+    value: 3
+  - description:
+    max: 26
+    min: 26
+    name: Track 2 Reverse
+    type:
+    value: 3
+  - description:
+    max: 27
+    min: 27
+    name: Track 3 Reverse
+    type:
+    value: 3
+  - description:
+    max: 28
+    min: 28
+    name: Track 4 Reverse
+    type:
+    value: 3
+  - description:
+    max: 29
+    min: 29
+    name: All Tracks Reverse
+    type:
+    value: 3
+  - description:
+    max: 30
+    min: 30
+    name: Track 1 Fade
+    type:
+    value: 3
+  - description:
+    max: 31
+    min: 31
+    name: Track 2 Fade
+    type:
+    value: 3
+  - description:
+    max: 32
+    min: 32
+    name: Track 3 Fade
+    type:
+    value: 3
+  - description:
+    max: 33
+    min: 33
+    name: Track 4 Fade
+    type:
+    value: 3
+  - description:
+    max: 34
+    min: 34
+    name: All Tracks Fade
+    type:
+    value: 3
+  - description:
+    max: 35
+    min: 35
+    name: Track 1 Half-Step Up
+    type:
+    value: 3
+  - description:
+    max: 36
+    min: 36
+    name: Track 2 Half-Step Up
+    type:
+    value: 3
+  - description:
+    max: 37
+    min: 37
+    name: Track 3 Half-Step Up
+    type:
+    value: 3
+  - description:
+    max: 38
+    min: 38
+    name: Track 4 Half-Step Up
+    type:
+    value: 3
+  - description:
+    max: 39
+    min: 39
+    name: Track 1 Half-Step Down
+    type:
+    value: 3
+  - description:
+    max: 40
+    min: 40
+    name: Track 2 Half-Step Down
+    type:
+    value: 3
+  - description:
+    max: 41
+    min: 41
+    name: Track 3 Half-Step Down
+    type:
+    value: 3
+  - description:
+    max: 42
+    min: 42
+    name: Track 4 Half-Step Down
+    type:
+    value: 3
+  - description:
+    max: 43
+    min: 43
+    name: All Tracks Half-Step Up
+    type:
+    value: 3
+  - description:
+    max: 44
+    min: 44
+    name: All Tracks Half-Step Down
+    type:
+    value: 3
+  - description:
+    max: 45
+    min: 45
+    name: Track 1 Undo/Redo
+    type:
+    value: 3
+  - description:
+    max: 46
+    min: 46
+    name: Track 2 Undo/Redo
+    type:
+    value: 3
+  - description:
+    max: 47
+    min: 47
+    name: Track 3 Undo/Redo
+    type:
+    value: 3
+  - description:
+    max: 48
+    min: 48
+    name: Track 4 Undo/Redo
+    type:
+    value: 3
+  - description:
+    max: 49
+    min: 49
+    name: Track 1 Clear
+    type:
+    value: 3
+  - description:
+    max: 50
+    min: 50
+    name: Track 2 Clear
+    type:
+    value: 3
+  - description:
+    max: 51
+    min: 51
+    name: Track 3 Clear
+    type:
+    value: 3
+  - description:
+    max: 52
+    min: 52
+    name: Track 4 Clear
+    type:
+    value: 3
+  - description:
+    max: 53
+    min: 53
+    name: Track 1 Peel
+    type:
+    value: 3
+  - description:
+    max: 54
+    min: 54
+    name: Track 2 Peel
+    type:
+    value: 3
+  - description:
+    max: 55
+    min: 55
+    name: Track 3 Peel
+    type:
+    value: 3
+  - description:
+    max: 56
+    min: 56
+    name: Track 4 Peel
+    type:
+    value: 3
+  - description:
+    max: 57
+    min: 57
+    name: B. Track Rewind
+    type:
+    value: 3
+  - description:
+    max: 58
+    min: 58
+    name: B. Track Stop
+    type:
+    value: 3
+  - description:
+    max: 59
+    min: 59
+    name: B. Track Play/Pause
+    type:
+    value: 3
+  - description:
+    max: 60
+    min: 60
+    name: B. Track Fast Forward
+    type:
+    value: 3
+  - description:
+    max: 63
+    min: 63
+    name: B. Track Prev Track
+    type:
+    value: 3
+  - description:
+    max: 64
+    min: 64
+    name: B. Track Next Track
+    type:
+    value: 3
+  - description:
+    max: 65
+    min: 65
+    name: Load Previous Loop
+    type:
+    value: 3
+  - description:
+    max: 66
+    min: 66
+    name: Load Next Loop
+    type:
+    value: 3
+  - description:
+    max: 127
+    min: 0
+    name: Master Level
+    type:
+    value: 7
+  - description:
+    max: 127
+    min: 0
+    name: Phones Level
+    type:
+    value: 9
+  - description:
+    max: 127
+    min: 0
+    name: Track 1 Volume
+    type:
+    value: 14
+  - description:
+    max: 127
+    min: 0
+    name: Track 2 Volume
+    type:
+    value: 15
+  - description:
+    max: 127
+    min: 0
+    name: Track 2 Volume
+    type:
+    value: 20
+  - description:
+    max: 127
+    min: 0
+    name: Track 4 Volume
+    type:
+    value: 21
+  - description:
+    max: 127
+    min: 0
+    name: Track 1 Pan
+    type:
+    value: 22
+  - description:
+    max: 127
+    min: 0
+    name: Track 2 Pan
+    type:
+    value: 23
+  - description:
+    max: 127
+    min: 0
+    name: Track 3 Pan
+    type:
+    value: 24
+  - description:
+    max: 127
+    min: 0
+    name: Track 4 Pan
+    type:
+    value: 25
+  - description:
+    max: 127
+    min: 0
+    name: Backing Track Volume
+    type:
+    value: 26
+  - description:
+    max: 127
+    min: 0
+    name: Backing Track Pan
+    type:
+    value: 27
+  - description:
+    max: 127
+    min: 0
+    name: Click Track Volume
+    type:
+    value: 28
+  - description:
+    max: 127
+    min: 0
+    name: Click Track Pan
+    type:
+    value: 29
+  - description:
+    max: 127
+    min: 0
+    name: Output 1 Volume
+    type:
+    value: 85
+  - description:
+    max: 127
+    min: 0
+    name: Output 2 Volume
+    type:
+    value: 86
+  - description:
+    max: 127
+    min: 0
+    name: Output 3 Volume
+    type:
+    value: 87
+  - description:
+    max: 127
+    min: 0
+    name: Output 4 Volume
+    type:
+    value: 88
+  - description:
+    max: 127
+    min: 0
+    name: Input 1 Pan
+    type:
+    value: 89
+  - description:
+    max: 127
+    min: 0
+    name: Input 2 Pan
+    type:
+    value: 90
+  - description:
+    max: 127
+    min: 0
+    name: Input 3 Pan
+    type:
+    value: 91
+  - description:
+    max: 127
+    min: 0
+    name: Input 4 Pan
+    type:
+    value: 92
+  - description:
+    max: 127
+    min: 0
+    name: Expression Pedal
+    type:
+    value: 93
+  - description:
+    max: 99
+    min: 0
+    name: Fade Rate
+    type:
+    value: 94
+  - description:
+    max: 99
+    min: 0
+    name: Track 1 Feedback (Decay)
+    type:
+    value: 95
+  - description:
+    max: 99
+    min: 0
+    name: Track 2 Feedback (Decay)
+    type:
+    value: 96
+  - description:
+    max: 99
+    min: 0
+    name: Track 3 Feedback (Decay)
+    type:
+    value: 97
+  - description:
+    max: 99
+    min: 0
+    name: Track 4 Feedback (Decay)
+    type:
+    value: 98

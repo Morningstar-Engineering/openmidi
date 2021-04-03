@@ -155,6 +155,16 @@
             ]
         },
         {
+            "name": "Headrush",
+            "value": "headrush",
+            "models": [
+                {
+                    "name": "Looperboard",
+                    "value": "looperboard"
+                }
+            ]
+        },
+        {
             "name": "Hologram Electronics",
             "value": "hologramelectronics",
             "models": [
