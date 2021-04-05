@@ -1,0 +1,181 @@
+midi_in: DIN5
+midi-thru: Yes
+
+midi_channel:
+  instructions: |+
+    Line 6 Powercab 112 Plus and 212 Plus have MIDI. The Powercab does not. The covers both Pus models.  Speaker 2 does not apply to the 112.
+pc:
+  description: |+
+    PC#1 (00H) recalls preset 0
+    PC#2 (01H) recalls preset 1
+    etc through 127
+   
+cc:
+  - name: Input 1/L Gain
+    value: 1
+    description: 'Adjustable input gain level for Input 1 (Left/Mono). 113 = 0.0dB'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Input 1/L Level
+    value: 30
+    description: 'Input level and impedance. 0-63: Line, 64-127: Instrument'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Input 2/R Gain
+    value: 2
+    description: 'Adjustable input gain level for Input 2 (Right/Aux). 113 = 0.0dB'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Input 2/R Level
+    value: 31
+    description: 'Input level and impedance. 0-63: Line, 64-127: Instrument'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Input 2/R Mode
+    value: 3
+    description: '0-4 0: Normal (Processes input and routes signal through the XLR Output.), 41-80: Monitor (No processing, no XLR out), 81-127: USB (Input 2 is routed to the USB 1/2 input and can be used with guitar amp modeling software like Helix Native.)'
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Link Inputs
+    value: 4
+    description: '0-63: Off, 64-127: On'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: HF Trim
+    value: 5
+    description: 'Gain adjustment for the high frequency compression driver'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low Cut
+    value: 111
+    description: 'Applies a global 80 Hz low cut (high pass filter) to speaker. 0-63: Off, 64-127: On. Suspect this only applies to the 212. The 112 has a switch on the back.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: USB Mode
+    value: 6
+    description: '0-63: Normal (for FRFR), 64-127: Processes the USB signal with Flat, Speaker, or User IR modes.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mode
+    value: 20
+    description: '0 = Flat, 1 = Speaker, 2 = User IR, 3 = Dual Speaker (212), 4 = Dual User IR (212)'
+    type: Parameter
+    min: 0
+    max: 4
+  - name: Voicing
+    value: 21
+    description: '0 = FRFR, 1 = LF Flat, 2 = LF Raw'
+    type: Parameter
+    min: 0
+    max: 2
+  - name: Speaker 1
+    value: 22
+    description: '0 = Vintage, 1 = Green, 2 = Cream, 3 = Jarvis, 4 = Bayou, 5 = Essex, 6 = Natural, 7 = Dino, 8 = Lecto, 9 = Herald, 10 = Brown, 11 = Shade, 12 = Jetson'
+    type: Parameter
+    min: 0
+    max: 12
+  - name: Mic Model 1
+    value: 23
+    description: '0 = 57 Dyn, 1 = 409 Dyn, 2 = 421 Dyn, 3 = 30 Dyn, 4 = 20 Dyn, 5 = 121 Ribbon, 6 = 160 Ribbon, 7 = 4038 Ribbon, 8 = 414 Cond, 9 = 84 Cond, 10 = 67 Cond, 11 = 87 Cond, 12 = 47 Cond, 13 = 112 Dyn, 14 = 12 Dyn, 15 = 7 Dyn'
+    type: Parameter
+    min: 0
+    max: 15
+  - name: Mic Distance 1
+    value: 24
+    description: 'Mic distance in 1/2" increments'
+    type: Parameter
+    min: 0
+    max: 22
+  - name: IR 1
+    value: 25
+    description: 'Which User IR is on speaker 1'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low Cut 1
+    value: 26
+    description: '20Hz - 500Hz'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High Cut 1
+    value: 27
+    description: '500Hz - 20kHz'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Level 1
+    value: 28
+    description: 'Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Color 1
+    value: 29
+    description: '0 = Off, 1–18 = White, 19–36 = Red, 37–54 = Blue, 55–72 = Green, 73–90 = Yellow, 91–108 = Cyan, 109–126 = Magenta, 127 = Auto'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Speaker 2
+    value: 102
+    description: '0 = Vintage, 1 = Green, 2 = Cream, 3 = Jarvis, 4 = Bayou, 5 = Essex, 6 = Natural, 7 = Dino, 8 = Lecto, 9 = Herald, 10 = Brown, 11 = Shade, 12 = Jetson'
+    type: Parameter
+    min: 0
+    max: 12
+  - name: Mic Model 2
+    value: 103
+    description: '0 = 57 Dyn, 1 = 409 Dyn, 2 = 421 Dyn, 3 = 30 Dyn, 4 = 20 Dyn, 5 = 121 Ribbon, 6 = 160 Ribbon, 7 = 4038 Ribbon, 8 = 414 Cond, 9 = 84 Cond, 10 = 67 Cond, 11 = 87 Cond, 12 = 47 Cond, 13 = 112 Dyn, 14 = 12 Dyn, 15 = 7 Dyn'
+    type: Parameter
+    min: 0
+    max: 15
+  - name: Mic Distance 2
+    value: 104
+    description: 'Mic distance in 1/2" increments'
+    type: Parameter
+    min: 0
+    max: 22
+  - name: IR 2
+    value: 105
+    description: 'Which User IR is on speaker 1'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low Cut 2
+    value: 106
+    description: '20Hz - 500Hz'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High Cut 2
+    value: 107
+    description: '500Hz - 20kHz'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Level 2
+    value: 108
+    description: 'Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Color 2
+    value: 109
+    description: '0 = Off, 1–18 = White, 19–36 = Red, 37–54 = Blue, 55–72 = Green, 73–90 = Yellow, 91–108 = Cyan, 109–126 = Magenta, 127 = Auto'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Stereo Width
+    value: 110
+    description: 'Collapses to mono at 0%, nominal at 100%, and extra wide at 200%. 50 = 100%, 100 = 200%'
+    type: Parameter
+    min: 0
+    max: 100
