@@ -6,7 +6,7 @@ midi_channel:
     The X Air 12, 16, 18 can be automated via MIDI. Obviously if you use an input channel you don't have on your mixer, it won't have any effect.
     The X Air 18 can also act as an MIDI interface.
     It may need to be enabled in Setup -> Audio/MIDI.
-    It is hardwired to use MIDI channels 1-3. Channel 1 is the Faders, channel 2 the mutes (0 pr 127), and channel 3 PAN/balance (64 = center).
+    It is hardwired to use MIDI channels 1-3. Channel 1 is the Faders, channel 2 the mutes (0 or 127), and channel 3 PAN/balance (64 = center).
     In other words, all the CC messages below will control the fader, mute, or PAN depending what channel you use (1-3.)
     The X Air also supports MIDI SYX messages which are not listed below.
 pc:
