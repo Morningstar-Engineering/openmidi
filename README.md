@@ -16,6 +16,7 @@ Special thanks to all who have contributed!
 - [Joel Lang](https://github.com/joellang)
 - [andloubry](https://github.com/andloubry)
 - [bzhgeek](https://github.com/bzhgeek)
+- [fuzzy-phil](https://github.com/fuzzy-phil)
 
 # How to contribute
 ## If you are inclined to contribute via Github
