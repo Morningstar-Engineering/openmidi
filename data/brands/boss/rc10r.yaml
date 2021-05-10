@@ -1,0 +1,87 @@
+midi_in: TRS
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    The RC-10R ships with the default MIDI control channel of 1 and a Note channel of 10. 
+    The note channel is for playing the drum sounds via MIDI. 
+    MIDI CC commands are OFF by default. You need to program the unit with the CC per command. The CC numbers below are just suggestions. CC can be 1-31 and 64-95.
+    In other words, if you just send the commands below nothing will happen. You need to set the CC value for each command on the RC-10R. 
+    MIDI note mapping is found on the last page the RC-10R MIDI implimentation guide.
+pc:
+  description: |+
+    PC#1 (00H) activates Memory 1
+    PC#2 (01H) activates Memory 2
+    etc
+    can transmit Program Changes from the RC-10R by enabling PC IN/OUT.
+cc:
+  - name: Rhy Start CC - Start the rhythm
+    value: 1
+    description: '1-95'
+    type: Parameter
+    min: 0
+    max: 95
+  - name: Rhy Division - Switch rhythm between PTN1 and PTN2
+    value: 2
+    min: 0
+    max: 127
+  - name: Rhy Fillin - Play a fill-in
+    value: 3
+    min: 0
+    max: 127
+  - name: Rhy Stop - Stops the rhythm
+    value: 4
+    min: 0
+    max: 127
+  - name: Rhy Break - Break the rhythm playback
+    value: 5
+    min: 0
+    max: 127
+  - name: Rhy Level - Adjust the rhythm playback level
+    value: 6
+    min: 0
+    max: 127
+  - name: Loop Start - Start the Looper
+    value: 7
+    min: 0
+    max: 127
+  - name: Loop Stop - Stop the Looper
+    value: 8
+    min: 0
+    max: 127
+  - name: TRK1 Start - Play TRK1
+    value: 9
+    min: 0
+    max: 127
+  - name: TRK1 Stop - Stop TRK1
+    value: 10
+    min: 0
+    max: 127
+  - name: TRK1 UnRedo - Executes undo/redo on TRK1
+    value: 11
+    min: 0
+    max: 127
+  - name: TRK2 Start - Play TRK2
+    value: 12
+    min: 0
+    max: 127
+  - name: TRK2 Stop - Stop TRK2
+    value: 13
+    min: 0
+    max: 127
+  - name: TRK2 UnRedo - Executes undo/redo on TRK2
+    value: 14
+    min: 0
+    max: 127
+  - name: Loop Level - Adjustes the looper plaback level
+    value: 15
+    min: 0
+    max: 127
+  - name: Total Level - Adjusts the playback of the rhythm and looper together
+    value: 16
+    min: 0
+    max: 127
+  - name: All Break - Breaks the Rhythm and looper together
+    value: 17
+    min: 0
+    max: 127

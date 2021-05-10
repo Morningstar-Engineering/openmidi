@@ -15,13 +15,28 @@
             ]
         },
         {
+            "name": "Behringer",
+            "value": "behringer",
+            "models": [
+                {
+                    "name": "X-Air",
+                    "value": "xair"
+                }
+            ]
+        },
+        {
             "name": "Boss",
             "value": "boss",
             "models": [
                 {
                     "name": "Katana",
                     "value": "katana"
+                },
+                {
+                    "name": "RC-10R",
+                    "value": "rc10r"
                 }
+  
             ]
         },
         {
@@ -217,7 +232,12 @@
                 {
                     "name": "Helix Floor",
                     "value": "helixfloor"
+                },
+                {
+                    "name": "Powercab Plus",
+                    "value": "powercab"
                 }
+
             ]
         },
         {
