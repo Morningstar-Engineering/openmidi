@@ -15,73 +15,89 @@ pc:
     etc
     can transmit Program Changes from the RC-10R by enabling PC IN/OUT.
 cc:
-  - name: Rhy Start CC - Start the rhythm
+  - name: Rhythm Start
     value: 1
-    description: '1-95'
+    description: Start the rhythm
     type: Parameter
     min: 0
     max: 95
-  - name: Rhy Division - Switch rhythm between PTN1 and PTN2
+  - name: Rhythm Division
+    description: Switch rhythm between PTN1 and PTN2
     value: 2
     min: 0
     max: 127
-  - name: Rhy Fillin - Play a fill-in
+  - name: Rhythm Fill-in
+    description: Play a fill-in
     value: 3
     min: 0
     max: 127
-  - name: Rhy Stop - Stops the rhythm
+  - name: Rhythm Stop
+    description: Stops the rhythm
     value: 4
     min: 0
     max: 127
-  - name: Rhy Break - Break the rhythm playback
+  - name: Rhythm Break
+    description: Break the rhythm playback
     value: 5
     min: 0
     max: 127
-  - name: Rhy Level - Adjust the rhythm playback level
+  - name: Rhy Level
+    description: Adjust the rhythm playback level
     value: 6
     min: 0
     max: 127
-  - name: Loop Start - Start the Looper
+  - name: Loop Start
+    description: Start the Looper
     value: 7
     min: 0
     max: 127
-  - name: Loop Stop - Stop the Looper
+  - name: Loop Stop
+    description: Stop the Looper
     value: 8
     min: 0
     max: 127
-  - name: TRK1 Start - Play TRK1
+  - name: TRK1 Start
+    description: Play TRK1
     value: 9
     min: 0
     max: 127
-  - name: TRK1 Stop - Stop TRK1
+  - name: TRK1 Stop
+    description: Stop TRK1
     value: 10
     min: 0
     max: 127
-  - name: TRK1 UnRedo - Executes undo/redo on TRK1
+  - name: TRK1 UnRedo
+    description: Executes undo/redo on TRK1
     value: 11
     min: 0
     max: 127
-  - name: TRK2 Start - Play TRK2
+  - name: TRK2 Start
+    description: Play TRK2
     value: 12
     min: 0
     max: 127
-  - name: TRK2 Stop - Stop TRK2
+  - name: TRK2 Stop
+    description: Stop TRK2
     value: 13
     min: 0
     max: 127
-  - name: TRK2 UnRedo - Executes undo/redo on TRK2
+  - name: TRK2 UnRedo
+    description: Executes undo/redo on TRK2
     value: 14
     min: 0
     max: 127
-  - name: Loop Level - Adjustes the looper plaback level
+  - name: Loop Level
+    description: Adjustes the looper plaback level
     value: 15
     min: 0
     max: 127
-  - name: Total Level - Adjusts the playback of the rhythm and looper together
+  - name: Total Level
+    description: Adjusts the playback of the rhythm and looper together
     value: 16
     min: 0
     max: 127
-  - name: All Break - Breaks the Rhythm and looper together
+  - name: All Break
+    description: Breaks the Rhythm and looper together
     value: 17
     min: 0
     max: 127
