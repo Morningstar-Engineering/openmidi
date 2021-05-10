@@ -23,33 +23,65 @@ cc:
     max: 95
   - name: Rhy Division - Switch rhythm between PTN1 and PTN2
     value: 2
+    min: 0
+    max: 127
   - name: Rhy Fillin - Play a fill-in
     value: 3
+    min: 0
+    max: 127
   - name: Rhy Stop - Stops the rhythm
     value: 4
+    min: 0
+    max: 127
   - name: Rhy Break - Break the rhythm playback
     value: 5
+    min: 0
+    max: 127
   - name: Rhy Level - Adjust the rhythm playback level
     value: 6
+    min: 0
+    max: 127
   - name: Loop Start - Start the Looper
     value: 7
+    min: 0
+    max: 127
   - name: Loop Stop - Stop the Looper
     value: 8
+    min: 0
+    max: 127
   - name: TRK1 Start - Play TRK1
     value: 9
+    min: 0
+    max: 127
   - name: TRK1 Stop - Stop TRK1
     value: 10
+    min: 0
+    max: 127
   - name: TRK1 UnRedo - Executes undo/redo on TRK1
     value: 11
+    min: 0
+    max: 127
   - name: TRK2 Start - Play TRK2
     value: 12
+    min: 0
+    max: 127
   - name: TRK2 Stop - Stop TRK2
     value: 13
+    min: 0
+    max: 127
   - name: TRK2 UnRedo - Executes undo/redo on TRK2
     value: 14
+    min: 0
+    max: 127
   - name: Loop Level - Adjustes the looper plaback level
     value: 15
+    min: 0
+    max: 127
   - name: Total Level - Adjusts the playback of the rhythm and looper together
     value: 16
+    min: 0
+    max: 127
   - name: All Break - Breaks the Rhythm and looper together
     value: 17
+    min: 0
+    max: 127
