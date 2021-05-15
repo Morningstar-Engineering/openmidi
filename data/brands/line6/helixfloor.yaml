@@ -229,3 +229,21 @@ cc:
     type: System
     min: 7
     max: 7
+  - name: 'Engage the MODE switch'
+    value: 71
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Increment Preset
+    value: 72
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Decrement Preset
+    value: 72
+    description: ''
+    type: System
+    min: 0
+    max: 63
