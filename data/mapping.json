@@ -236,8 +236,11 @@
                 {
                     "name": "Powercab Plus",
                     "value": "powercab"
+                },
+                {
+                    "name": "HX Stomp XL",
+                    "value": "hxstompxl"
                 }
-
             ]
         },
         {

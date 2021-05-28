@@ -1,0 +1,221 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    Press both '< PAGE' and 'PAGE >' buttons together.
+    Press 'PAGE >' and press Knob 2 to enter Global Settings.
+    Turn the Upper Knob to select 'MIDI/Tempo'.
+    Press 'PAGE >' until you see MIDI Channel and turn the knob to select your desired MIDI channel.
+pc:
+  description:
+
+cc:
+  - name: Emulate Exp 1 Pedal
+    value: 1
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulate Exp 2 Pedal
+    value: 2
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS1
+    value: 49
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS2
+    value: 50
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS3
+    value: 51
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS4
+    value: 52
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS5
+    value: 53
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS6
+    value: 54
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS7
+    value: 55
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates FS8
+    value: 56
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 1 Switch Looper Overdub
+    value: 60
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 1 Switch Looper Record
+    value: 60
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 1 Switch Looper Stop
+    value: 61
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 1 Switch Looper Play
+    value: 61
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 1 Switch Looper Play Once
+    value: 62
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 1 Switch Looper Undo/Redo
+    value: 63
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 1 Switch Looper Forward
+    value: 65
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 1 Switch Looper Reverse
+    value: 65
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 1 Switch Looper Full Speed
+    value: 66
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 1 Switch Looper Half Speed
+    value: 66
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Tap Tempo
+    value: 64
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Tuner Screen On/Off
+    value: 68
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: Snapshot 1
+    value: 69
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Snapshot 2
+    value: 69
+    description: ''
+    type: System
+    min: 1
+    max: 1
+  - name: Snapshot 3
+    value: 69
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: Snapshot 4
+    value: 69
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: Next Snapshot
+    value: 69
+    description: ''
+    type: System
+    min: 8
+    max: 8
+  - name: Previous Snapshot
+    value: 69
+    description: ''
+    type: System
+    min: 9
+    max: 9
+  - name: Bypass
+    value: 70
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: Engage
+    value: 70
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Engage the MODE switch'
+    value: 71
+    description: ''
+    type: System
+    min: 0
+    max: 0
+  - name: Increment Preset
+    value: 72
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: Decrement Preset
+    value: 72
+    description: ''
+    type: System
+    min: 0
+    max: 63
+  - name: 'Toggle Play and Edit View'
+    value: 73
+    description: ''
+    type: System
+    min: 0
+    max: 0
