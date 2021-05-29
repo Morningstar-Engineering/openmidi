@@ -229,6 +229,10 @@
                     "name": "HX Stomp",
                     "value": "hxstomp"
                 },
+		{
+                    "name": "HX Stomp XL",
+                    "value": "hxstompxl"
+                },
                 {
                     "name": "Helix Floor",
                     "value": "helixfloor"
@@ -236,10 +240,6 @@
                 {
                     "name": "Powercab Plus",
                     "value": "powercab"
-                },
-                {
-                    "name": "HX Stomp XL",
-                    "value": "hxstompxl"
                 }
             ]
         },
