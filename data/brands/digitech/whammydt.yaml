@@ -1,0 +1,92 @@
+midi_in: DIN5
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+    1. Disconnect the power from the Whammy pedal.
+    2. Press and hold the WHAMMY Effect Footswitch while reconnecting the power. One of the WHAMMY Effect LEDs should light up and begin to flash indicating the current selected MIDI channel
+    3. Rotate the WHAMMY Effect Knob to select the desired MIDI channel. 
+      WHAMMY 
+        ▲2 OCT    - Channel 1
+        ▲ OCT     - Channel 2 
+        ▲ 5TH     - Channel 3 
+        ▲ 4TH     - Channel 4
+        ▼ 2ND     - Channel 5
+        ▼ 4TH     - Channel 6
+        ▼ 5TH     - Channel 7 
+        ▼ OCT     - Channel 8 
+        ▼2 OCT    - Channel 9 
+        DIVE BOMB - Channel 10 
+      HARMONY
+        ▲2ND▼3RD  - Channel 11
+        ▲♭3RD▲3RD - Channel 12
+        ▲3RD▲4TH  - Channel 13
+        ▲4TH▲5TH  - Channel 14
+        ▲5TH▲6TH  - Channel 15
+        ▲5TH▲7TH  - Channel 16
+        ▼4TH▼3RD  - Omni
+    4. Press the WHAMMY Effect Footswitch again to exit the MIDI set up menu.
+        
+
+
+pc: 
+  description: |+
+    WHAMMY
+    0 - ▲2 OCT (Active) | 21 - (Bypass)
+    1 -  ▲ OCT (Active) | 22 - (Bypass)
+    2 -  ▲ 5TH (Active) | 23 - (Bypass)
+    3 -  ▲ 4TH (Active) | 24 - (Bypass)
+    4 -  ▼ 2ND (Active) | 25 - (Bypass)
+    5 -  ▼ 4TH (Active) | 26 - (Bypass)
+    6 -  ▼ 5TH (Active) | 27 - (Bypass)
+    7 -  ▼ OCT (Active) | 28 - (Bypass)
+    8 - ▼2 OCT (Active) | 29 - (Bypass)
+    9 - DIVE BOMB (Active) | 30 - (Bypass)
+
+    DETUNE    
+    10 - Deep (Active) | 31 (Bypass)
+    11 - Shallow (Active) | 32 (Bypass)
+
+    HAROMONY    
+    12 - ▲2ND▼3RD (Active) | 33 (Bypass)
+    13 - ▲♭3RD▲3RD (Active) | 34 (Bypass)
+    14 - ▲3RD▲4TH (Active) | 35 (Bypass)
+    15 - ▲4TH▲5TH (Active) | 36 (Bypass)
+    16 - ▲5TH▲6TH (Active) | 37 (Bypass)
+    17 - ▲5TH▲7TH (Active) | 38 (Bypass)
+    18 - ▼4TH▼3RD (Active) | 39 (Bypass)
+    19 - ▼5TH▼4TH (Active) | 40 (Bypass)
+    20 - ▼OCT▲OCT (Active) | 41 (Bypass)
+    
+    DROP TUNE 
+    Shift Up: 
+    42 - 1 (Active) | 60 (Bypass)
+    43 - 2 (Active) | 61 (Bypass)
+    44 - 3 (Active) | 62 (Bypass)
+    45 - 4 (Active) | 63 (Bypass)
+    46 - 5 (Active) | 64 (Bypass)
+    47 - 6 (Active) | 65 (Bypass)
+    48 - 7 (Active) | 66 (Bypass)
+    49 - OCT (Active) | 67 (Bypass)
+    50 - OCT + Dry (Active) | 68 (Bypass)
+
+    Shift Down: 
+    51 - OCT + Dry (Active) | 69 (Bypass)
+    52 - OCT (Active) | 70 (Bypass)
+    53 - 7 (Active) | 71 (Bypass)
+    54 - 6 (Active) | 72 (Bypass)
+    55 - 5 (Active) | 73 (Bypass)
+    56 - 4 (Active) | 74 (Bypass)
+    57 - 3 (Active) | 75 (Bypass)
+    58 - 2 (Active) | 76 (Bypass)
+    59 - 1 (Active) | 77 (Bypass)
+
+cc: 
+  - name: Expression Pedal Position
+    value: 11
+    description: Remotely controls the Whammy's expression pedal. 0 corresponds to heel down position and 127 corresponds to toe down position.
+    type: Parameter
+    min: 0
+    max: 127

@@ -102,6 +102,16 @@
             ]
         },
         {
+            "name": "DigiTech",
+            "value": "digitech",
+            "models": [
+                {
+                    "name": "Whammy DT",
+                    "value": "whammydt"
+                }
+            ]
+        },
+        {
             "name": "Disaster Area",
             "value": "disasterarea",
             "models": [
