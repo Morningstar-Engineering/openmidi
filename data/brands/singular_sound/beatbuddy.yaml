@@ -158,3 +158,27 @@ cc:
     name: Tempo LSB
     type: null
     value: 107
+  - description: null
+    max: 127
+    min: 0
+    name: Enter or Exit a folder
+    type: null
+    value: 118
+  - description: 0 scrolls down song/folder list, 1 scrolls up
+    max: 1
+    min: 0
+    name: Scroll through song/folder list
+    type: null
+    value: 119
+  - description: null
+    max: 1
+    min: 1
+    name: Emulate switch press function
+    type: null
+    value: 120
+  - description: null
+    max: 0
+    min: 0
+    name: Emulate switch release function
+    type: null
+    value: 120
