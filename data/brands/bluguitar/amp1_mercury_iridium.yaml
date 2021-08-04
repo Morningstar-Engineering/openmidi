@@ -1,0 +1,56 @@
+midi_in: TR
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+    The BluGuitar Amp1™ receives midi on midi channel 1.
+
+    Every available switching possibility on AMP1™ can be recalled via
+    MIDI program change commands, when the corresponding command is sent
+    from MIDI Channel 1.
+
+    You can create up to 128 presets by "midi learn" assigning.
+
+    EQ and the Custom Control are not programmable (they are analog controls).
+pc:
+  description: |+
+    Sending PC mesages will load Presets 1-127 (Using program change number 0-127)
+
+cc:
+  - name: 2nd Master
+    value: 7
+    description: 'Range -10dB'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Gain / Clean Volume
+    value: 20
+    description: 'Range 1-10'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: PowerSoak
+    value: 30
+    description: 'Step values: 0.15W, 1W, 1.5W, 2W, 7W, 20W, 40W, 100W'
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: FX-LOOP
+    value: 40
+    description: 'on/off'
+    type: System
+    min: 0
+    max: 127
+  - name: Reverb
+    value: 50
+    description: 'on/off'
+    type: System
+    min: 0
+    max: 127
+  - name: Boost
+    value: 60
+    description: 'on/off'
+    type: Parameter
+    min: 0
+    max: 127
