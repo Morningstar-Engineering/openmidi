@@ -290,6 +290,16 @@
             ]
         },
         {
+            "name": "Moog",
+            "value": "moog",
+            "models": [
+                {
+                    "name": "MF-104M",
+                    "value": "mf104m"
+                }
+            ]
+        },
+        {
             "name": "Morningstar Engineering",
             "value": "morningstarengineering",
             "models": [

@@ -1,0 +1,119 @@
+midi_in: DIN5
+
+
+midi_channel:
+  instructions: |+
+    The default MIDI Channel for the MF-104M is Channel one. To change this,
+    press and hold both the TAP TEMPO and BYPASS switches. While holding
+    both, send a MIDI Channel mode message to the Analog Delay on the
+    desired MIDI channel. The TIME LED will flash yellow indicating that the
+    message has been received. The MF-104M will now only receive MIDI messages on that channel. The current MIDI Input channel is stored in memory
+    on power down.
+pc:
+  description: |+
+    The Moogerfooger does not have preset capabilities but you can send multiple CC messages to it to change different parameters simlultaneously.
+    This allows you to create Moogerfooger presets on your Morningstar controller.
+
+cc:
+  - name: LFO Waveform Shape
+    value: 102
+    description: '0-15=Sine, 16-31=Triangle, 32-47=Square, 48-63=Saw, 64-79=Ramp, 80-95=S&H, 96-127=Smooth S&H'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Range(Fast/Slow)
+    value: 86
+    description: '0=Slow, 64=Fast (Moves 1 Octave)'
+    type: Parameter
+    min: 0
+    max: 64
+  - name: Bypass on/off
+    value: 80
+    description: '0-63=Bypassed, 64-127=Active'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Filter Bright/Dark
+    value: 85
+    description: '0-63 = Bright, 64-127 = Dark (Only adjusts filter, does not affect range)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Time Multiplier
+    value: 87
+    description: '0-31=Norm, 32-63=x2, 64-95=x4, 96-127=x8'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Time MIDI Sync Enable/Disable
+    value: 89
+    description: '0-63 = Disabled, 64-127 = Enabled'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Phase Reset
+    value: 105
+    description: 'Any Value=Reset LFO Phase to 0'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Clock Divisions
+    value: 107
+    description: 'See Separate table in Moog manual'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Enable LFO MIDI Sync
+    value: 109
+    description: '0-63 = Disabled, 64-127 = Enabled'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Enable LFO Note Reset
+    value: 9
+    description: '0-63 = Disabled, 64-127 = Enabled'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Enable MIDI Note Spillover
+    value: 110
+    description: '0-63 = Disabled, 64-127 = Enabled'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Note Mode
+    value: 113
+    description: '0-41 = Off, 42-83 = Absolute, 84-127 = Relative'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MIDI Tap Tempo A
+    value: 114
+    description: 'Any CC Value = a tap'
+    type: Parameter
+    min: 63
+    max: 127
+  - name: MIDI Tap Tempo B
+    value: 115
+    description: '> 63 = a tap'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Time/MIDI LED Select
+    value: 117
+    description: '0-63 = Time LED, 64-127 = MIDI LED'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Enable Mod Wheel to LFO Amount
+    value: 119
+    description: '0-63 = Disabled, 64-127 = Enabled'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO CLOCK DIVISIONS (CC#71)
+    value: 71
+    description: '0-5 = 4 whole, 6-11 = 3 whole, 12-17 = 2 whole, 18-23 = WH +1/2 Dot, 24-29 = WH +1/2, 30-34 = WH +1/4, 35-40 = WH, 41-46 = 1/2 Dot, 47-52 = WH T, 53-58 = 1/2, 59-63 = 1/4 Dot, 64-69 = 1/2 T, 70-75 = 1/4, 76-81 = 1/8 Dot, 82-87 = 1/4 T, 88-93 = 1/8, 94-98 = 1/16 Dot, 99-104 = 1/8 T, 105-110 = 1/16, 111-116 =1/16 T, 117-122 = 1/32, 123-127 = 1/32 T'
+    type: Parameter
+    min: 0
+    max: 127
