@@ -1,6 +1,5 @@
 midi_in: DIN5
 
-
 midi_channel:
   instructions: |+
     The default MIDI Channel for the MF-104M is Channel one. To change this,
@@ -45,7 +44,7 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Delay Time MIDI Sync Enable/Disable
+  - name: Delay Time MIDI Sync Enable
     value: 89
     description: '0-63 = Disabled, 64-127 = Enabled'
     type: Parameter
@@ -114,6 +113,78 @@ cc:
   - name: LFO CLOCK DIVISIONS (CC#71)
     value: 71
     description: '0-5 = 4 whole, 6-11 = 3 whole, 12-17 = 2 whole, 18-23 = WH +1/2 Dot, 24-29 = WH +1/2, 30-34 = WH +1/4, 35-40 = WH, 41-46 = 1/2 Dot, 47-52 = WH T, 53-58 = 1/2, 59-63 = 1/4 Dot, 64-69 = 1/2 T, 70-75 = 1/4, 76-81 = 1/8 Dot, 82-87 = 1/4 T, 88-93 = 1/8, 94-98 = 1/16 Dot, 99-104 = 1/8 T, 105-110 = 1/16, 111-116 =1/16 T, 117-122 = 1/32, 123-127 = 1/32 T'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Output Level MSB
+    value: 7
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Output Level LSB
+    value: 39
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Time MSB
+    value: 12
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Time LSB
+    value: 44
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Feedback MSB
+    value: 13
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Feedback LSB
+    value: 45
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix MSB
+    value: 14
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix LSB
+    value: 46
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Rate MSB
+    value: 15
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Rate LSB
+    value: 47
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Amount MSB
+    value: 16
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: LFO Amount LSB
+    value: 48
+    description:
     type: Parameter
     min: 0
     max: 127
