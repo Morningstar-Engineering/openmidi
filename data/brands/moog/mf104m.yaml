@@ -44,7 +44,7 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Delay Time MIDI Sync Enable
+  - name: Delay Time MIDI Sync Enable/Disable
     value: 89
     description: '0-63 = Disabled, 64-127 = Enabled'
     type: Parameter
