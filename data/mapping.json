@@ -25,6 +25,16 @@
             ]
         },
         {
+            "name": "BluGuitar",
+            "value": "bluguitar",
+            "models": [
+                {
+                    "name": "Amp1 (Mercury & Iridium Edition)",
+                    "value": "amp1_mercury_iridium"
+                }
+            ]
+        },
+        {
             "name": "Boss",
             "value": "boss",
             "models": [

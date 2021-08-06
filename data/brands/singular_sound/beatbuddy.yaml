@@ -133,7 +133,7 @@ cc:
     min: 1
     name: "Data decrement (-1) \u2013 DEC"
     type: null
-    value: 87
+    value: 97
   - description: null
     max: 127
     min: 0
