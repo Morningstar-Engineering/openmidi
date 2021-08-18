@@ -332,6 +332,16 @@
             ]
         },
         {
+            "name": "Neunaber",
+            "value": "neunaber",
+            "models": [
+                {
+                    "name": "Illumine",
+                    "value": "illumine"
+                }
+            ]
+        },
+        {
             "name": "Neural DSP",
             "value": "neuraldsp",
             "models": [
