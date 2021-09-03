@@ -17,6 +17,7 @@ Special thanks to all who have contributed!
 - [andloubry](https://github.com/andloubry)
 - [bzhgeek](https://github.com/bzhgeek)
 - [fuzzy-phil](https://github.com/fuzzy-phil)
+- [Harris Novick](https://github.com/lightyrs)
 
 # How to contribute
 ## If you are inclined to contribute via Github
