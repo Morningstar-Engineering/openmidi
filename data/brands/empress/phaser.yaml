@@ -92,5 +92,5 @@ cc:
     value: 51
     description: 'Sending a value of 0 causes the pedal to ignore MIDI Clock messages. Sending a value of 127 causes the pedal to listen for MIDI Clock messages. By default, the pedal listens for MIDI Clock messages.'
     type: System
-    min: 127
+    min: 0
     max: 127
