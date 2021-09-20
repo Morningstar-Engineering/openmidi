@@ -196,7 +196,12 @@
                 {
                     "name": "Looperboard",
                     "value": "looperboard"
+                },
+                {
+                    "name": "MX5",
+                    "value": "mx5"
                 }
+
             ]
         },
         {
