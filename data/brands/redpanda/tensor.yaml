@@ -1,0 +1,123 @@
+midi_in: USB MIDI
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Please refer to the manual at https://www.redpandalab.com/content/docs/Tensor%20Owners%20Manual.pdf
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: 'Expression pedal'
+    value: 4
+    description: 'CTRL input'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Speed'
+    value: 20
+    description: '0: Reverse 100%, 64: Stop, 127: Forward 100% '
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Time'
+    value: 21
+    description: '0: 1-4 Stretch, 64: 1-1, 127: 4-1 Compress'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Pitch'
+    value: 22
+    description: '0: -2 octaves, 64: Unison, 127: +2 octaves'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Blend'
+    value: 23
+    description: '0: 100% dry, 127: 100% wet'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Random'
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Loop Decay'
+    value: 25
+    description: '0: 0dB, 1: -0.25dB ... 126: -31.5dB, 127: Off'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Hold Mode'
+    value: 28
+    description: '0-42: Next, 43-85: Replace, 86-127: Forward'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Loop direction'
+    value: 29
+    description: '0-42: Reverse, 43-85: Alternate, 86-127: Forward'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Pitch Semitones'
+    value: 30
+    description: '40: -2 octaves, 64: unison, 88: +8 octaves'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Pitch glide rate'
+    value: 31
+    description: '0: Minimum, 127: Maximum'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Hold footswitch'
+    value: 80
+    description: '0-63: Off (release), 64-127: On (press)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Effect on Footswitch'
+    value: 81
+    description: '0-63: Off (release), 64-127: On (press)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Hold momentary/latch'
+    value: 85
+    description: '0-63: Momentary, 64-127: Latching'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Effect momentary/latch'
+    value: 86
+    description: '0-63: Momentary, 64-127: Latching'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Hold/Sample (Receive only)'
+    value: 87
+    description: '127: Record, 96: Overdub, 64: Loop play / retrigger, 48: One shot play / retrigger, 24: Stop (save loop), 0: Live (clear loop)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Bypass (Receive only)'
+    value: 88
+    description: '0-63 = Bypass, 64-127 = Effect on'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Drift (Receive only)'
+    value: 90
+    description: '0-63 = Off, 64-127 = On'
+    type: Parameter
+    min: 0
+    max: 127

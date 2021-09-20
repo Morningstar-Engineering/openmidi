@@ -377,6 +377,10 @@
                 {
                     "name": "Particle 2",
                     "value": "particle2"
+                },
+                {
+                    "name": "Tensor",
+                    "value": "tensor"
                 }
             ]
         },
