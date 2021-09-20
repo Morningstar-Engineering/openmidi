@@ -1,0 +1,179 @@
+midi_in:
+midi_thru:
+phantom_power:
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    More info here: https://www.pigtronix.com/uploads/pigtronix/2020/11/Echolution-2_D-manual_15-1.pdf
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Exp pedal input
+    value: 4
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Repeats knob
+    value: 12
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Time knob
+    value: 13
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Mix knob
+    value: 14
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: LFO Speed knob
+    value: 15
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Modulation Depth knob
+    value: 16
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Time Button
+    value: 17
+    description: '3: Short, 4: Med, 5: Long'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: SFX Button
+    value: 18
+    description: '3: Off, 3: Pong, 5: Halo, 6: Pong and Halo'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Taps Button
+    value: 19
+    description: '3: First tap off, 3: First tap 1, 5: First tap 3/4, 6: First tap 2/3, First tap 1/2, 8: First tap PHI, 9: Second tap off, 10: Second tap 1
+                  , 11: Second Tap 3/4, 12: Second Tap 2/3, 13: Second Tap 1/2, 14: Second Tap PHI
+                  '
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Filter Button
+    value: 20
+    description: '3: Filter Off, 4 LP On, 5: Tape On, 6: Comb On, 7: Sweep Off, 8: Sweep On, 9: Crush Off, 10: Crush On'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Bypass Button
+    value: 21
+    description: '3: None, 4: Trails On, 5: Listen On, 6: Dry Kill Off, 7: Dry Kill Off'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Ducking Button
+    value: 22
+    description: '3: Ducking Off, 4: Reverse Only, 5: Duck Only'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Exp Button
+    value: 23
+    description: '3: None, 4: Repeasts, 5: Time, 6: Mix, 7: Speed, 8: Depth, 9: Envelope Selector On, 10: Envelope Selector Off'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: LFO Mod Button
+    value: 24
+    description: '3: Triangle, 4: Square, 5: Saw, 6: Random, 7: Super Triangle, 8: Super Square, 9: Super Saw, 10: Random'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Tap Tempo Footswitch
+    value: 25
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Engage Footswitch
+    value: 27
+    description: '3: Explicitly Engaged, 4: Explicitly Not Engagedd'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Preset Save
+    value: 28
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Jump Footswitch / Preset 1/2
+    value: 29
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Freeze Footswitch / Preset 3/4
+    value: 30
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Loop Open Close
+    value: 31
+    description: '1: Open, 2: Close'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Adjust Filter Cutoff Frequency
+    value: 74
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Second Tap Volume
+    value: 76
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Set Jump Interval for First Tap
+    value: 77
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Set Jump Interval for Second Tap
+    value: 78
+    description: ''
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Enable MIDI Clock In
+    value: 79
+    description: '0: off, 1: on'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Enable MIDI Clock Out
+    value: 80
+    description: '0: off, 1: on'
+    min: 0
+    max: 127
+    type: Parameter
+  - name: Copy MIDI Clock
+    value: 81
+    description: '0: off, 1: on'
+    min: 0
+    max: 127
+    type: Parameter

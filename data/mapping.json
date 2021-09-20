@@ -371,6 +371,16 @@
             ]
         },
         {
+            "name": "Pigtronix",
+            "value": "pigtronix",
+            "models": [
+                {
+                    "name": "Echolution 2 Deluxe",
+                    "value": "echolution2deluxe"
+                }
+            ]
+        },
+        {
             "name": "Red Panda",
             "value": "redpanda",
             "models": [
