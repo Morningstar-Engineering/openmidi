@@ -199,8 +199,8 @@ cc:
     value: 71
     description: ''
     type: System
-    min: 0
-    max: 0
+    min: 64
+    max: 127
   - name: Increment Preset
     value: 72
     description: ''
@@ -217,5 +217,5 @@ cc:
     value: 73
     description: ''
     type: System
-    min: 0
-    max: 0
+    min: 64
+    max: 127

@@ -149,6 +149,10 @@
                     "name": "Echo System",
                     "value": "echosystem"
                 },
+		{
+                    "name": "Phaser",
+                    "value": "phaser"
+                },
                 {
                     "name": "Reverb",
                     "value": "reverb"

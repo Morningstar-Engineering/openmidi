@@ -1,0 +1,96 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    The control port configuration is set using the dip-switch array inside the unit. 
+    When you open the phaser, you’ll see a set of 3 dip-switches labelled ‘CON JACK CONFIG’.
+    On power up, the configuration will be changed to the new setting. 
+    
+    CON JACK CONFIG MIDI Dip Configuration
+    
+    | MODE | DIP1 | DIP2 | DIP3 |
+    |:----:|:----:|:----:|:----:|
+    | MIDI |  OFF |  ON  |  ON  |
+    
+    Configure the unit’s MIDI channel by setting the internal dip switches labelled ‘MIDI CH’.
+    Only MIDI channels 1-8 can be selected.
+    
+    MIDI Channel Dip Configuration
+    
+    | Channel | DIP1 | DIP2 | DIP3 |
+    |:-------:|:----:|:----:|:----:|
+    |    1    |  OFF |  OFF |  OFF |
+    |    2    |  ON  |  OFF |  OFF |
+    |    3    |  OFF |  ON  |  OFF |
+    |    4    |  ON  |  ON  |  OFF |
+    |    5    |  OFF |  OFF |  ON  |
+    |    6    |  ON  |  OFF |  ON  |
+    |    7    |  OFF |  ON  |  ON  |
+    |    8    |  ON  |  ON  |  ON  |
+pc:
+  description: |+
+    Empress Phaser does not support presets or Program Change messages.
+cc:
+  - name: Speed/Ratio/Sensitivity
+    value: 20
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Width/Release
+    value: 21
+    description: ''
+    type: Parameters
+    min: 0
+    max: 127
+  - name: Waveform/AutoMode
+    value: 22
+    description: 'In tap mode or knob mode, the value corresponds to the selected waveform (1-8). In auto mode, the value corresponds to the selected submode (1-8).'
+    type: Parameters
+    min: 1
+    max: 8
+  - name: Mode
+    value: 23
+    description: 'Sending 1 will set it to tap mode, 2 knob mode, and 3 auto mode.'
+    type: Parameters
+    min: 1
+    max: 3
+  - name: Speed Range/Attack
+    value: 24
+    description: 'Sending 1 will set it to slow, 2 medium, 3 fast.'
+    type: Parameters
+    min: 1
+    max: 3
+  - name: Tap Switch
+    value: 35
+    description: 'Sending a value of 127 simulates the switch being pressed. Sending a value of 0 simulates releasing the switch.'
+    type: System
+    min: 0
+    max: 127
+  - name: Bypass Switch
+    value: 36
+    description: 'Sending a value of 127 simulates the switch being pressed. Sending a value of 0 simulates releasing the switch.'
+    type: System
+    min: 0
+    max: 127
+  - name: Direct Control
+    value: 40
+    description: 'Sending this message overrides all other digital settings (speed, width, waveform, mode) and lets you set the amount of phase shift directly with MIDI values. Sending a value of zero would correspond to minimum phase shift and 127 the maximum. This mode would allow you to draw your own waveforms in a digital audio workstation and send them to the phaser.'
+    type: Parameters
+    min: 0
+    max: 127
+  - name: 'Exit Direct Control'
+    value: 50
+    description: 'Sending this message with any value will cause the pedal to exit direct control.'
+    type: System
+    min: 0
+    max: 127
+  - name: 'MIDI Clock Listener'
+    value: 51
+    description: 'Sending a value of 0 causes the pedal to ignore MIDI Clock messages. Sending a value of 127 causes the pedal to listen for MIDI Clock messages. By default, the pedal listens for MIDI Clock messages.'
+    type: System
+    min: 0
+    max: 127
