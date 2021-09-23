@@ -132,6 +132,16 @@
             ]
         },
         {
+            "name": "Dr Scientist",
+            "value": "drscientist",
+            "models": [
+                {
+                    "name": "Dusk",
+                    "value": "dusk"
+                }
+            ]
+        },
+        {
             "name": "Electro Harmonix",
             "value": "electroharmonix",
             "models": [
