@@ -1,0 +1,98 @@
+midi_in:
+
+
+midi_channel:
+  instructions: |+
+    • Disconnect power
+    • Hold down the Engage switch and reconnect power
+    • Send any MIDI command containing the channel number to which to set Neuron
+    • Release the Engage switch
+pc:
+  description: |+
+    Program Change numbers 0 - 24 are recognized; 25 - 127 are ignored.
+
+cc:
+  - name: Gain
+    value: 102
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Compression
+    value: 103
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Level
+    value: 104
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low
+    value: 105
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mid
+    value: 106
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High
+    value: 107
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Low-Pass Filter
+    value: 108
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Gate Threshold
+    value: 109
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: High-Pass Filter
+    value: 110
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Preset LED Color
+    value: 111
+    description: '0: red, 1: blue, 2: green, 3: yellow, 4: magenta, 5: cyan'
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Engage/Bypass
+    value: 112
+    description: '0: bypass, 1-127: engage'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Save Preset
+    value: 113
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Speaker Simulator
+    value: 114
+    description: '0: off, 1-127: on'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tilt EQ
+    value: 115
+    description:
+    type: Parameter
+    min: 0
+    max: 127
