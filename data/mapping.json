@@ -395,6 +395,20 @@
             ]
         },
         {
+            "name": "Positive Grid",
+            "value": "positivegrid",
+            "models": [
+                {
+                    "name": "Bias Distortion Pro",
+                    "value": "biasdistortionpro"
+                },
+                {
+                    "name": "Bias Head",
+                    "value": "biashead"
+                }
+            ]
+        },
+        {
             "name": "Red Panda",
             "value": "redpanda",
             "models": [

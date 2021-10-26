@@ -1,0 +1,177 @@
+midi_in:
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+    Only receives MIDI messages on MIDI Channel 1.
+
+
+instructions:
+  Only receives MIDI messages on MIDI Channel 1.
+pc:
+  description:
+    Responds to PC 0-24. Other values are ignored.
+
+cc:
+  - description: ''
+    max: 127
+    value: 7
+    min: 0
+    name: Gain
+    type: Parameter
+  - description: ''
+    max: 127
+    value: 8
+    min: 0
+    name: Bass
+    type: Parameter
+  - description: ''
+    value: 9
+    max: 127
+    min: 0
+    name: Middle
+    type: Parameter
+  - description: ''
+    value: 12
+    max: 127
+    min: 0
+    name: Treble
+    type: Parameter
+  - description: ''
+    value: 10
+    max: 127
+    min: 0
+    name: Presence
+    type: Parameter
+  - description: ''
+    value: 11
+    max: 127
+    min: 0
+    name: Master
+    type: Parameter
+  - description: ''
+    value: 13
+    max: 127
+    min: 0
+    name: Output
+    type: Parameter
+  - description: ''
+    value: 6
+    max: 127
+    min: 0
+    name: Custom Knob
+    type: Parameter
+  - description: '0-15: 1 Tube, 16-47: 2 Tubes, 48-79: 3 Tubes, 80-111: 4 Tubes, 112-127: 5 Tubes'
+    value: 6
+    max: 127
+    min: 0
+    name: Tube Stages
+    type: Parameter
+  - description: ''
+    value: 3
+    max: 127
+    min: 0
+    name: Distortion
+    type: Parameter
+  - description: '0-21: Single Ended, 22-62 Split Load, 63-104: Push Pull, 105-127: Solid State'
+    value: 4
+    max: 127
+    min: 0
+    name: Topology
+    type: Parameter
+  - description: ''
+    value: 5
+    max: 127
+    min: 0
+    name: Power Amp
+    type: Parameter
+  - description: ''
+    value: 14
+    max: 127
+    min: 0
+    name: Cab/Mic 1 Level
+    type: Parameter
+  - description: ''
+    value: 15
+    max: 127
+    min: 0
+    name: Cab/Mic 2 Level
+    type: Parameter
+  - description: ''
+    value: 16
+    max: 127
+    min: 0
+    name: Cab/Master Level
+    type: Parameter
+  - description: ''
+    value: 20
+    max: 127
+    min: 0
+    name: Reverb On/Off
+    type: Parameter
+  - description: ''
+    value: 21
+    max: 127
+    min: 0
+    name: Reverb/Level
+    type: Parameter
+  - description: ''
+    value: 22
+    max: 127
+    min: 0
+    name: Reverb/Damping
+    type: Parameter
+  - description: ''
+    value: 23
+    max: 127
+    min: 0
+    name: Reverb/Dwell
+    type: Parameter
+  - description: ''
+    value: 24
+    max: 127
+    min: 0
+    name: Reverb/Time
+    type: Parameter
+  - description: ''
+    value: 25
+    max: 127
+    min: 0
+    name: Reverb/Low Cut
+    type: Parameter
+  - description: ''
+    value: 26
+    max: 127
+    min: 0
+    name: Reverb/High Cut
+    type: Parameter
+  - description: ''
+    value: 27
+    max: 127
+    min: 0
+    name: Reverb/Mode
+    type: Parameter
+  - description: ''
+    value: 28
+    max: 127
+    min: 0
+    name: Noise Gate On/Off
+    type: Parameter
+  - description: ''
+    value: 29
+    max: 127
+    min: 0
+    name: Noise Gate Threshold
+    type: Parameter
+  - description: ''
+    value: 30
+    max: 127
+    min: 0
+    name: Noise Gate Decay
+    type: Parameter
+
+
+
+

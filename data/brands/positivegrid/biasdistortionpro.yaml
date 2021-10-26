@@ -1,0 +1,110 @@
+midi_in:
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+    With BIAS Pedal app, you can choose the MIDI channel from 1-16 or Omni (all channels).
+
+instructions:
+
+pc:
+  description:
+    Responds to PC 0-19. Other values are ignored.
+
+cc:
+  - description: ''
+    max: 127
+    value: 20
+    min: 0
+    name: Low
+    type: Parameter
+  - description: ''
+    max: 127
+    value: 21
+    min: 0
+    name: Mid
+    type: Parameter
+  - description: ''
+    value: 22
+    max: 127
+    min: 0
+    name: High
+    type: Parameter
+  - description: ''
+    value: 10
+    max: 127
+    min: 0
+    name: Master (Level)
+    type: Parameter
+  - description: ''
+    value: 11
+    max: 127
+    min: 0
+    name: Gain
+    type: Parameter
+  - description: ''
+    value: 12
+    max: 127
+    min: 0
+    name: Blend
+    type: Parameter
+  - description: ''
+    value: 13
+    max: 127
+    min: 0
+    name: Tone
+    type: Parameter
+  - description: ''
+    value: 50
+    max: 127
+    min: 0
+    name: Boost Knob
+    type: Parameter
+  - description: ''
+    value: 51
+    max: 2
+    min: 0
+    name: Boost Type
+    type: Parameter
+  - description: '0 = Up, 127 = Down'
+    value: 80
+    max: 127
+    min: 0
+    name: A Footswitch
+    type: Parameter
+  - description: '0 = Up, 127 = Down'
+    value: 81
+    max: 127
+    min: 0
+    name: B Footswitch
+    type: Parameter
+  - description: '0 = Up, 127 = Down'
+    value: 82
+    max: 127
+    min: 0
+    name: C Footswitch
+    type: Parameter
+  - description: '0 = Up, 127 = Down'
+    value: 83
+    max: 127
+    min: 0
+    name: Boost Footswitch
+    type: Parameter
+  - description: '0 = Up, 127 = Down'
+    value: 93
+    max: 127
+    min: 0
+    name: Boost Long Press
+    type: Parameter
+  - description: ''
+    value: 100
+    max: 127
+    min: 0
+    name: Expression Pedal
+    type: Parameter
+
+
+
+
