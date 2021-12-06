@@ -20,11 +20,11 @@ Special thanks to all who have contributed!
 - [Harris Novick](https://github.com/lightyrs)
 
 # How to contribute
-## If you are inclined to contribute via Github
+## If you are inclined to contribute via GitHub
 1. Fork the repository
 2. Add your changes
    - Create a new yaml file
-     - Check that your YAML file is valid: http://www.yamllint.com/
+     - Check that your YAML file is valid: http://www.yamllint.com/ (or https://codebeautify.org/yaml-validator)
    - Update `mapping.json` file
      - Check that your JSON updates are valid: https://jsonlint.com/
    
@@ -64,7 +64,7 @@ After a new yaml file is created, the `mapping.json` file needs to be updated to
       - name: [CC Function Name]
         value: [CC Number 0 - 127]
         description: [Description of function]
-        type: [Parameter | System]
+        type: [Parameter | System] # Note: Parameter is a value to change (e.g., volume). System is a command to the device.
         min: [Minimum CC Value]
         max: [ Maximum CC Value]
 
