@@ -1,0 +1,234 @@
+midi_channel:
+  instructions: |+
+
+instructions:
+  -
+
+pc:
+  description: |+
+
+cc:
+  - name: Bank Change
+    value: 0
+    description: |-
+      Send before PC Command.
+      1 to load Presets 128-255
+      2 to load Presets 256-299
+      (0 or do not send for Presets 0-127)
+    min: 0
+    max: '2'
+  - name: Transport Start/Stop
+    value: '3'
+    description: |-
+      Perform a Transport Start or Stop action, or toggle between them.
+      0 = Stop
+      64 = Toggle
+      127 = Start
+    min: 0
+    max: '127'
+  - name: CUE Start/Stop
+    value: '9'
+    description: |-
+      Perform a CUE Start or Stop action, or toggle between them
+      0 = Cue Stop
+      64 = Cue Toggle
+      127 = Cue Start
+    min: 0
+    max: '127'
+  - name: Clock Start/Stop
+    value: '14'
+    description: |-
+      Perform a Clock Start or Stop action, or toggle between them.
+      0 = Clock Stop
+      64 = Clock Toggle
+      127 = Clock Start
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '15'
+    description: Any value sends a Tap for setting a new Tempo
+    min: 0
+    max: '127'
+  - name: BPM
+    value: '16'
+    description: |-
+      Sets a BPM between 40 and 240.
+      For BPM between 40 and 127, send wanted value.
+      For BPM above 127, send 1 first (+100) or 2 first (+200) and then send 0 - 127.  The two values add together.
+    min: 0
+    max: '127'
+  - name: Time Signature
+    value: '17'
+    description: |-
+      Time Signatures can have either quarter or eighth note beats (denominator).
+      Values 1 - 16 sets the numerator with a quarter beat denominator (4 = 4/4)
+      Values 21 = 36 sets the numerator with an eighth beat denominator (25 = 5/8)
+    min: '1'
+    max: '36'
+  - name: USER Switch
+    value: '18'
+    description: Simulates a USER Switch Press.  Any value.
+    min: 0
+    max: '127'
+  - name: Auto Stop Clock
+    value: '19'
+    description: |-
+      0 = Off
+      127 = On
+    min: 0
+    max: '127'
+  - name: Cue In Count
+    value: '20'
+    description: The number of bars to count in when using the CUE switch to start the
+      Transport.
+    min: '1'
+    max: '4'
+  - name: Cue Out Count
+    value: '21'
+    description: The number of bars the count when using the CUE switch to stop the
+      Transport.
+    min: '1'
+    max: '4'
+  - name: Metronome Enabled (Global)
+    value: '22'
+    description: |-
+      0 = Metronome Off
+      64 = Metronome Toggle
+      127 = Metronome On
+    min: 0
+    max: '127'
+  - name: Metronome Beat
+    value: '23'
+    description: |-
+      The rhythmic value of the Metronome beat.
+      0 = None
+      1 = Dotted Whole
+      2 = Whole Note
+      3 = Whole Triplet
+      4 = Dotted Half
+      5 = Half Note
+      6 = Half Triplet
+      7 = Dotted Quarter
+      8 = Quarter Note
+      9 = Quarter Triplet
+      10 = Quarter Shuffle
+      11= Dotted Eighth
+      12 = Eighth Note
+      13= Eighth Triplet
+      14 = Eighth Shuffle
+      15 = Eighth Skipping
+      16 = Dotted Sixteenth
+      17 = Sixteenth Note
+      18 = Sixteenth Triplet
+      19 = Sixteenth Gallop
+      20 = Sixteenth Skipping
+      21 = Thirty-second Note
+    min: 0
+    max: '21'
+  - name: Metronome Accent
+    value: '24'
+    description: |-
+      The rhythmic value of the Metronome Accent.
+      0 = None
+      1 = Dotted Whole
+      2 = Whole Note
+      3 = Whole Triplet
+      4 = Dotted Half
+      5 = Half Note
+      6 = Half Triplet
+      7 = Dotted Quarter
+      8 = Quarter Note
+      9 = Quarter Triplet
+      10 = Quarter Shuffle
+      11= Dotted Eighth
+      12 = Eighth Note
+      13= Eighth Triplet
+      14 = Eighth Shuffle
+      15 = Eighth Skipping
+      16 = Dotted Sixteenth
+      17 = Sixteenth Note
+      18 = Sixteenth Triplet
+      19 = Sixteenth Gallop
+      20 = Sixteenth Skipping
+      21 = Thirty-second Note
+    min: 0
+    max: '21'
+  - name: Metronome First Beat
+    value: '25'
+    description: |-
+      Turns the special note that plays on the first beat of bar on or off
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'
+  - name: Metronome Use
+    value: '26'
+    description: |-
+      0 = Never
+      1 = Always
+      2 = Clock Only
+      3 = Cue In Only
+    min: 0
+    max: '3'
+  - name: Clock Source
+    value: '27'
+    description: |-
+      0 = Internal
+      1 = External
+      2 = External + Start
+      3 = External + Align
+    min: 0
+    max: '3'
+  - name: Send Bar Marker
+    value: '28'
+    description: |-
+      Turns sending the MIDI Bar Marker message on or off.
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'
+  - name: Send Time Signature
+    value: '29'
+    description: |-
+      Turns sending the MID Time Signature message on or off
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'
+  - name: Clock LED Enabled
+    value: '30'
+    description: |-
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'
+  - name: MIDI Thru Enabled
+    value: '31'
+    description: |-
+      0 = On
+      64 = Toggle
+      127 = Off
+    min: 0
+    max: '127'
+  - name: Send MIDI Start
+    value: '32'
+    description: |-
+      Turns the sending of the MIDI Start Message on or off when you press the Transport Switch
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'
+  - name: Send MIDI Stop
+    value: '33'
+    description: |-
+      Turns the sending of the MIDI Stop Message on or off when you press the Transport Switch
+      0 = Off
+      64 = Toggle
+      127 = On
+    min: 0
+    max: '127'

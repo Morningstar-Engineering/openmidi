@@ -251,6 +251,16 @@
             ]
         },
         {
+            "name": "JMK Music Pedals",
+            "value": "jmkmusicpedals",
+            "models": [
+                {
+                    "name": "CLOCKstep",
+                    "value": "clockstep"
+                }
+            ]
+        },
+        {
             "name": "Kemper",
             "value": "kemper",
             "models": [
