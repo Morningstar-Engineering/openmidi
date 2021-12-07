@@ -1,6 +1,6 @@
 midi_in: DIN5
 midi_thru: Yes
-phantom_power: yes
+phantom_power: Yes
 midi_clock: Yes
 
 midi_channel:
