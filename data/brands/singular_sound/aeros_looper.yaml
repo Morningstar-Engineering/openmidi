@@ -4,7 +4,7 @@ phantom_power: Yes
 midi_clock: Yes
 
 midi_channel:
-  instructions: >
+  instructions: |
     Sysex Info:
 
     Start (Sysex Real Time)	- Starts the Aeros depending on the MIDI Start setting. If the part is empty and MIDI Start is set to record, the Aeros will
