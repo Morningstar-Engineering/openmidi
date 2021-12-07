@@ -15,6 +15,16 @@
             ]
         },
         {
+            "name": "Atomic",
+            "value": "atomic",
+            "models": [
+                {
+                    "name": "Amplifire",
+                    "value": "amplifire"
+                }
+            ]
+        },
+        {
             "name": "Behringer",
             "value": "behringer",
             "models": [

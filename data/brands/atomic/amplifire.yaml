@@ -1,0 +1,249 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: Yes
+midi_clock: Yes
+
+midi_channel:
+  instructions: |
+   PC Data Values between 0 and 63 are interpreted as OFF. Values between 64 and 127 are interpreted as ON. For TAP TEMPO and FOOTSWITCH continuous controls, the DATA VALUE is ignored and any message is interpreted as a “press” of that function.
+
+   CC value assignments are configurable to modify from these defaults.
+
+pc:
+  description:  Activates the preset at the OC value MIDI PROGRAM CHANGES are mapped one-to-one, meaning that AMPLIFIRE will switch to the same preset as the incoming MIDI program change message . Likewise, if you change presets in AMPLIFIRE using the ENCODER or FOOTSWITCH, AMPLIFIRE will transmit the same preset number in the outgoing MIDI program change.
+
+cc:
+  - value: 21
+    name: Wah Pedal Enable
+    description: Wah Pedal
+    max: 127
+    min: 0
+    type: system
+  - value: 22
+    name: Volume Pedal Enable
+    description: Volume Pedal
+    max: 127
+    min: 0
+    type: system
+  - value: 23
+    name: Expression A
+    description: Expression A
+    max: 127
+    min: 0
+    type: parameter
+  - value: 24
+    name: Expression B
+    description: Expression B
+    max: 127
+    min: 0
+    type: parameter
+  - value: 18
+    name: Tap Tempo Press
+    description: Tap Tempo Press
+    max: 127
+    min: 0
+    type: system
+  - value: 80
+    name: Bypass Amplifire
+    description: Bypass Amplifire
+    max: 127
+    min: 0
+    type: system
+  - value: 81
+    name: Effect Loop Enable
+    description: Effect Loop Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 20
+    name: Volume Enable
+    description: Volume Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 19
+    name: Wah Enable
+    description: Wah Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 82
+    name: Boost Enable
+    description: Boost Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 83
+    name: Effect Enable
+    description: Effect Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 25
+    name: Chorus Enable
+    description: Chorus Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 26
+    name: Flanger Enable
+    description: Flanger Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 27
+    name: Phaser Enable
+    description: Phaser Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 28
+    name: Tremolo Enable
+    description: Tremolo Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 29
+    name: Pitchshifter Enable
+    description: Pitchshifter Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 84
+    name: Echo Enable
+    description: Echo Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 85
+    name: Reverb Enable
+    description: Reverb Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 86
+    name: Noise Gate enable
+    description: Noise Gate enable
+    max: 127
+    min: 0
+    type: system
+  - value: 17
+    name: Compressor Enable
+    description: Compressor Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 87
+    name: Graphic Eq enable
+    description: Graphic Eq enable
+    max: 127
+    min: 0
+    type: system
+  - value: 12
+    name: Pre-Eq enable
+    description: Pre-Eq enable
+    max: 127
+    min: 0
+    type: system
+  - value: 88
+    name: Parametric #1 enable
+    description: Parametric #1 enable
+    max: 127
+    min: 0
+    type: system
+  - value: 89
+    name: Parametric #2 enable
+    description: Parametric #2 enable
+    max: 127
+    min: 0
+    type: system
+  - value: 90
+    name: Parametric #3 enable
+    description: Parametric #3 enable
+    max: 127
+    min: 0
+    type: system
+  - value: 16
+    name: Amp Enable
+    description: Amp Enable
+    max: 127
+    min: 0
+    type: system
+  - value: 13
+    name: FS1 Press
+    description: FS1 Press
+    max: 127
+    min: 0
+    type: system
+  - value: 14
+    name: FS2 Press
+    description: FS2 Press
+    max: 127
+    min: 0
+    type: system
+  - value: 15
+    name: FS3 Press
+    description: FS3 Press
+    max: 127
+    min: 0
+    type: system
+  - value: 11
+    name: FS4 Press (AA12 only)
+    description: FS4 Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 10
+    name: FS5 Press (AA12 only)
+    description: FS5 Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 9
+    name: FS6 Press (AA12 only)
+    description: FS6 Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 8
+    name: FS7 Press 
+    description: FS7 Press 
+    max: 127
+    min: 0
+    type: system
+  - value: 7
+    name: FS8 Press 
+    description: FS8 Press 
+    max: 127
+    min: 0
+    type: system
+  - value: 6
+    name: FS9 Press 
+    description: FS9 Press 
+    max: 127
+    min: 0
+    type: system
+  - value: 5
+    name: FS0 Press 
+    description: FS0 Press 
+    max: 127
+    min: 0>
+    type: system
+  - value: 4
+    name: FS+ Press 
+    description: FS+ Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 3
+    name: FS- Press 
+    description: FS- Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 84
+    name: Echo Enable
+    description: Echo Enable
+    max: 127
+    min: 0
+    type: system

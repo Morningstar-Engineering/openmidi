@@ -10,35 +10,190 @@ midi_channel:
 pc:
   description: |+
 cc:
+  - description: Bank (Song Folder) Select MSB
+    max: 127
+    min: 0
+    name: Bank (Song Folder) Select MSB
+    type: system
+    value: 0
+  - description: Bank (Song folder) Select LSB
+    max: 127
+    min: 0
+    name: Bank (Song folder) Select LSB
+    type: system
+    value: 32
+  - description: Tempo Increment (NewTmpo = Tempo + value). Added 2.7.0
+    max: 127
+    min: 1
+    name: Tempo Increment
+    type: system
+    value: 80
+  - description: Tempo Decrement (NewTmpo = Tempo - value). Added 2.7.0
+    max: 127
+    min: 1
+    name: Tempo Decrement
+    type: system
+    value: 81
+  - description: Return to normal mode from Half Time. Added 2.7.0
+    max: 0
+    min: 0
+    name: Normal Time
+    type: system
+    value: 82
+  - description: Half Time. Added 2.7.0
+    max: 127
+    min: 1
+    name: Half Time
+    type: system
+    value: 82
+  - description: Return to normal mode from Double Time. Added 2.7.0
+    max: 0
+    min: 0
+    name: Normal Time
+    type: system
+    value: 83
+  - description: Double Time. Added 2.7.0
+    max: 127
+    min: 1
+    name: Double Time
+    type: system
+    value: 83
+  - description: 'Increase Tempo by 1. Also referred to as "Data increment (+1) or INC"'
+    max: 1
+    min: 1
+    name: Increase Tempo (or NRPN target) by 1
+    type: system
+    value: 96
+  - description: 'Decrease Tempo by 1. Also referred to as "Data decrement (-1) or  DEC"'
+    max: 1
+    min: 1
+    name: Decrease Tempo (or NRPN target) by 1
+    type: system
+    value: 97
+
+  - description: |
+      Set the NRPN LSB
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+      series of 3 commands: 2 CC commands and one PC.
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+      Standard protocol to leave room for further control in the future.
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+      DEC message.
+    max: 107
+    min: 107
+    name: Set NRPN to Tempo LSB
+    type: system
+    value: 98
+  - description: Clear NRPN LSB Register
+    max: 127
+    min: 127
+    name: Clear NRPN LSB Register
+    type: system
+    value: 98
+  - description: |
+      Set the NRPN MSB
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+      series of 3 commands: 2 CC commands and one PC.
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+      Standard protocol to leave room for further control in the future.
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+      DEC message.
+    max: 106
+    min: 106
+    name: Set NRPN to Tempo MSB
+    type: system
+    value: 99
+  - description: Clear NRPN MSB Register
+    max: 127
+    min: 127
+    name: Clear NRPN MSB Register
+    type: system
+    value: 99
+  - description: |
+      Set the Tempo MSB
+
+      In order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.
+      - So the order of the message should be:
+        1. MSB value
+        2. LSB value
+      -  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).
+
+      The BeatBuddy's tempo range is from 40-300BPM
+    max: 127
+    min: 0
+    name: Tempo MSB
+    type: system
+    value: 106
+  - description:  |
+      Set the Tempo LSB
+
+      In order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.
+      - So the order of the message should be:
+        1. MSB value
+        2. LSB value
+      -  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).
+
+      The BeatBuddy's tempo range is from 40-300BPM
+    max: 127
+    min: 0
+    name: Tempo LSB
+    type: system
+    value: 107
   - description: 'Change the Mixer Volume (Main Volume knob)'
     max: 100
     min: 0
     name: Mix Volume
-    type: null
+    type: parameter
     value: 108
   - description: Change the Headphone Volume
     max: 100
     min: 0
     name: Headphone Volume
-    type: null
+    type: parameter
     value: 109
   - description: 'Triggers an accent hit with a volume from the value 0 (mute) to 100 (original recorded volume) to 127 (amplified more than the original recorded volume)'
     max: 127
     min: 0
     name: Accent-Hit
-    type: null
+    type: system
     value: 110
-  - description: Pause / Unpause the current song
-    max: 127
+  - description: UnPause the current song
+    max: 0
+    min: 0
+    name: UnPause
+    type: system
+    value: 111
+  - description: Pause the current song
+    max: 1
     min: 1
-    name: Pause/Unpause
-    type: null
+    name: Pause
+    type: system
+    value: 111
+  - description: Toggle Pause/Unpause the current song
+    max: 127
+    min: 2
+    name: Pause Toggle
+    type: system
     value: 111
   - description: Triggers a drum fill
     max: 127
     min: 1
     name: Drum Fill
-    type: null
+    type: system
     value: 112
   - description: 'Starts song transition (selects the next part), 1: Starts transition,
       will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit,
@@ -48,137 +203,66 @@ cc:
     max: 127
     min: 1
     name: Transition
-    type: null
+    type: system
+    value: 113
+  - description: 'Quits the transition and go to specified part'
+    max: 0
+    min: 0
+    name: End Transition
+    type: system
     value: 113
   - description: Starts the playback of the current song
     max: 127
     min: 1
     name: Start
-    type: null
+    type: system
     value: 114
   - description: Triggers the outro of the song
     max: 127
     min: 1
     name: Outro
-    type: null
+    type: system
     value: 115
   - description: Selects a specific drumset
     max: 127
     min: 1
     name: Select Drum Set
-    type: null
+    type: system
     value: 116
-  - description: null
+  - description: Enters Tap Tempo mode and generate Tap Event
     max: 127
     min: 0
     name: Tap Tempo
-    type: null
+    type: system
     value: 117
-  - description: null
-    max: 1
-    min: 1
-    name: Increase Tempo by 1
-    type: null
-    value: 96
-  - description: null
-    max: 1
-    min: 1
-    name: Decrease Tempo by 1
-    type: null
-    value: 97
-  - description: null
-    max: 106
-    min: 106
-    name: Set NRPN to Tempo MSB
-    type: null
-    value: 99
-  - description: null
-    max: 107
-    min: 107
-    name: Set NRPN to Tempo LSB
-    type: null
-    value: 98
-  - description: null
-    max: 127
-    min: 127
-    name: Clear NRPN MSB Register
-    type: null
-    value: 99
-  - description: null
-    max: 127
-    min: 127
-    name: Clear NRPN LSB Register
-    type: null
-    value: 98
-  - description: null
-    max: 127
-    min: 0
-    name: Bank (Song Folder) Select MSB
-    type: null
-    value: 0
-  - description: null
-    max: 127
-    min: 0
-    name: Bank (Song folder) Select LSB
-    type: null
-    value: 32
-  - description: null
-    max: 127
-    min: 1
-    name: "Data increment (+1) \u2013 INC"
-    type: null
-    value: 96
-  - description: null
-    max: 127
-    min: 1
-    name: "Data decrement (-1) \u2013 DEC"
-    type: null
-    value: 97
-  - description: null
-    max: 127
-    min: 0
-    name: NRPN_LSB
-    type: null
-    value: 98
-  - description: null
-    max: 127
-    min: 0
-    name: NRPN_MSB
-    type: null
-    value: 99
-  - description: null
-    max: 127
-    min: 0
-    name: Tempo MSB
-    type: null
-    value: 106
-  - description: null
-    max: 127
-    min: 0
-    name: Tempo LSB
-    type: null
-    value: 107
-  - description: null
+  - description: Enters or Exits a folder
     max: 127
     min: 0
     name: Enter or Exit a folder
-    type: null
+    type: system
     value: 118
-  - description: 0 scrolls down song/folder list, 1 scrolls up
-    max: 1
+  - description: Scroll down song/folder list
+    max: 0
     min: 0
-    name: Scroll through song/folder list
-    type: null
+    name: Scroll down song/folder list
+    type: system
     value: 119
-  - description: null
+  - description: Scroll up song/folder list, 1 scrolls up
     max: 1
     min: 1
-    name: Emulate switch press function
-    type: null
-    value: 120
-  - description: null
+    name: Scroll up song/folder list
+    type: system
+    value: 119
+  - description: Emulates Main Pedal release
     max: 0
     min: 0
     name: Emulate switch release function
-    type: null
+    type: system
     value: 120
+  - description: Emulates Main Pedal press
+    max: 1
+    min: 1
+    name: Emulate switch press function
+    type: system
+    value: 120
+

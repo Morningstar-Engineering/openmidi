@@ -1,119 +1,349 @@
 midi_in: DIN5
 midi_thru: Yes
-phantom_power: No
+phantom_power: Yes
 midi_clock: Yes
 
 midi_channel:
-  instructions: |+
+  instructions: |
+    Sysex Info:
 
+    Start (Sysex Real Time)	- Starts the Aeros depending on the MIDI Start setting. If the part is empty and MIDI Start is set to record, the Aeros will
+    record on the first track. If the song part is empty and the MIDI Start setting is set to only playback, the Aeros will enter a 'scrolling' mode in the empty part.
+
+    Stop (Sysex Real Time) - Stops playback immediately
+
+    Time Signature:	- Time Signature is sent by BeatBuddy whenever a song is loaded as a Sysex midi message and repeatedly every 3 seconds. The Aeros will set it's own internal time signature when receiving these commands if the song is empty.
+        (All values in hex)
+        2/4: F0 - 7F - 7F - 03 - 02 - 04 - 02 - 02 - 18 - 08 - F7
+        3/4: F0 - 7F - 7F - 03 - 02 - 04 - 03 - 02 - 18 - 08 - F7
+        4/4: F0 - 7F - 7F - 03 - 02 - 04 - 04 - 02 - 18 - 08 - F7
+        5/4: F0 - 7F - 7F - 03 - 02 - 04 - 05 - 02 - 18 - 08 - F7
+        3/8: F0 - 7F - 7F - 03 - 02 - 04 - 03 - 03 - 18 - 08 - F7
+        6/8: F0 - 7F - 7F - 03 - 02 - 04 - 06 - 03 - 18 - 08 - F7
 
 pc:
-  description: |+
+  description: |
+    The Aeros can open any song using a combination of MSB and PC commands.  Added in 4.1.2
+
+    MSB value 0-127
+    PC value 0-12
+
+    Pay close attention this is a brain twister: MSB stands for Most Significant Bit, it is a concept used in MIDI that allows a user to do all sorts of things like change parameters, change banks, and—in the Aeros' case—song select .
+
+    MSB is not a traditional MIDI command, it is actually activated by using a CC:0 (Control Change) command, the value decides which MSB bank is chosen. So, CC:0 value 4 represents MSB bank 4.
+
+    PC (Program Change) is another type of MIDI command typically used in conjunction with MSB and/or LSB commands. LSB (Least Significant Bit; CC:32 values 0-127) is not relevant to the Aeros, but is relevant to the BeatBuddy's song select scheme. It is often also used without an MSB (CC:0) and/or LSB (CC:32) command, but that is not the case for the Aeros.
+
+    The Aeros requires the user to send an MSB + and a PC command—in that order—to open a song.
+
+    First, the user must open the song, and edit the song. Then, you will find the MIDI song Select enabled setting. Once enabled, the user can set which MSB (0-127) bank and which PC command will be required to open the song.
+
+    Then, using a MIDI controller capable of sending CC:0 (MSB) + PC commands in a sequence, you can open that song at any time.
+
+    KNOWN BUG v4.1.2: Aeros is currently not responding to commands sent in the Home Screen before a song has been opened, you must open a song before the Aeros can register the commands and open a song via MIDI select.
 
 cc:
-  - description: This triggers changing song parts to the selected part in 6x6, or the
-      part not currently playing in 2x2
-    max: 127
-    min: 1
-    name: Next part
-    type: null
-    value: 102
-  - description: null
+  - description: Saves the currently open Aeros song if a change was made since last saved and the Aeros is currently stopped. Added in 3.0.0
     max: 0
     min: 0
     name: Save song
-    type: null
+    type: system
     value: 33
   - description: Start new 2x2 song (same settings as previously loaded 2x2 song) and
       enter loop studio
     max: 0
     min: 0
     name: Start new 2x2 song
-    type: null
+    type: system
     value: 34
   - description: Start new 6x6 song (same settings as previously loaded 6x6 song) and
       enter loop studio
     max: 1
     min: 1
     name: Start new 6x6 song
-    type: null
+    type: system
     value: 34
   - description: Go to saved songs screen (show currently loaded song)
     max: 0
     min: 0
     name: Go to saved songs screen
-    type: null
+    type: system
     value: 35
   - description: Go to Loop Studio screen (if already in Loop Studio screen, ignore)
     max: 1
     min: 1
     name: Go to Loop Studio screen
-    type: null
+    type: system
+    value: 35
+  - description: Go to Home screen.  Added in 4.1.2
+    max: 2
+    min: 2
+    name: Go to Home screen
+    type: system
+    value: 35
+  - description: Go to Device Setting screen.  Added in 4.1.2
+    max: 3
+    min: 3
+    name: Go to Device Setting screen
+    type: system
+    value: 35
+  - description: Go to Updates screen.  Added in 4.1.2
+    max: 4
+    min: 4
+    name: Go to Updates screen
+    type: system
     value: 35
   - description: Scroll down list (songs screen, or otherwise if relevant)
     max: 0
     min: 0
     name: Scroll down list
-    type: null
+    type: system
     value: 36
   - description: Scroll up list (songs screen, or otherwise if relevant)
     max: 1
     min: 1
     name: Scroll up list
-    type: null
+    type: system
     value: 36
   - description: Select (currently highlighted item in song list)
     max: 2
     min: 2
     name: Select
-    type: null
+    type: system
+    value: 36
+  - description: |
+        Starts the deletion confirmation dialog to delete a song in the Songs List.  Added in 4.1.2
+        KNOWN ISSUE v4.1.2: The Aeros does not have a pop-up confirmation or cancellation MIDI command, the user would still have to use the physical buttons on the Aeros to confirm/cancel a deletion dialog.
+    max: 3
+    min: 3
+    name: Delete Song from list
+    type: system
+    value: 36
+  - description: Goes to the top of the Songs List immediately. Added in 4.1.2
+    max: 6
+    min: 6
+    name: Top of List
+    type: system
+    value: 36
+  - description: Goes to the bottom of the Songs List immediately. Added in 4.1.2
+    max: 7
+    min: 7
+    name: Bottom of List
+    type: system
     value: 36
   - description: Undo/Redo currently selected track (6x6 mode)
     max: 0
     min: 0
     name: Undo/Redo (6x6 mode)
-    type: null
+    type: system
     value: 37
   - description: 'Undo/Redo track (value #)'
     max: 6
     min: 1
     name: Undo/Redo track
-    type: null
+    type: system
     value: 37
-  - description: 'Mutes/Unmutes track (value #)'
+  - description: 'Mutes/Unmutes track depending on current state (track # = value #)'
     max: 6
     min: 1
-    name: Mute/Unmute
-    type: null
+    name: Mute/Unmute Toggle
+    type: system
+    value: 38
+  - description: 'Mutes track, follows the global Mute Settings (track # = value # - 10).  Added in 4.1.2'
+    max: 16
+    min: 11
+    name: Mute Track per global setting
+    type: system
+    value: 38
+  - description: 'UnMutes track, follows the global Mute Settings (track # = value # - 20).  Added in 4.1.2'
+    max: 26
+    min: 21
+    name: UnMute Track per global setting
+    type: system
+    value: 38
+  - description: 'Mutes track at End of Loop (track # = value # - 30).  Added in 4.1.2'
+    max: 36
+    min: 31
+    name: Mute Track at EOL
+    type: system
+    value: 38
+  - description: 'UnMutes track at End of Loop (track # = value # - 40).  Added in 4.1.2'
+    max: 46
+    min: 41
+    name: UnMute Track at EOL
+    type: system
+    value: 38
+  - description: 'Mute track at End of Measure (track # = value # - 50).  Added in 4.1.2'
+    max: 56
+    min: 51
+    name: UnMute Track at EOM
+    type: system
+    value: 38
+  - description: 'UnMute track at End of Measure (track # = value # - 60).  Added in 4.1.2'
+    max: 66
+    min: 61
+    name: UnMute Track at EOM
+    type: system
+    value: 38
+  - description: 'Mute track Immediately (track # = value # - 70).  Added in 4.1.2'
+    max: 76
+    min: 71
+    name: Mute track Immediately
+    type: system
+    value: 38
+  - description: 'UnMute track Immediately, follows the global Mute Settings (track # = value # - 80).  Added in 4.1.2'
+    max: 86
+    min: 81
+    name: UnMute Track Immediately
+    type: system
+    value: 38
+  - description: 'Unmutes all tracks, follows global mute settings.  Added in 3.0.0'
+    max: 127
+    min: 127
+    name: UnMute all Tracks per global setting
+    type: system
     value: 38
   - description: Stop playback immediately
     max: 0
     min: 0
     name: Stop
-    type: null
+    type: system
+    value: 39
+  - description: 'Solos track (track # = value #). This behaves like a XOR solo function, only one track can be soloed at a time in a given song part. Added in 3.0.0'
+    max: 6
+    min: 1
+    name: Solo
+    type: system
+    value: 39
+  - description: 'Un-solos track, this unmutes all other tracks in the song part. Added in 3.0.0'
+    max: 127
+    min: 127
+    name: UnSolo
+    type: system
     value: 39
   - description: Record new song part (6x6)
     max: 0
     min: 0
     name: Record new song part
-    type: null
+    type: system
     value: 40
-  - description: Record new track (6x6)
+  - description: Record new track (6x6).  Begins or sets up a recording on the next available empty track, if no tracks are left to record to in a part, it will be ignored. In 6x6, if a new part is selected, this command will start or set up a recording in the new part. If recording to the last track in a part, sending this command will commit the current recording. If there is an undone track and all other tracks are recorded to, this command will record to the next available undone track in order.
     max: 0
     min: 0
     name: Record new track
-    type: null
+    type: system
     value: 41
-  - description: "Begin transition to part (value #), if part does not exist in song, ignore command"
-    max: 6
-    min: 1
-    name: Begin transition
-    type: null
-    value: 113
-  - description: Complete transition and change song parts at end of the bar (like on
-      BeatBuddy)
+  - description: This commits any current recording or overdub and goes into playback mode. Added in 4.0.0
+    max: 20
+    min: 20
+    name: Commit Recording
+    type: system
+    value: 41
+  - description: Record/Play/Overdub on selected track (6x6)	 Added in 4.1.2
+    max: 100
+    min: 100
+    name: RPO Selected
+    type: system
+    value: 41
+  - description: Record/Play/Overdub on Track 1	 Added in 4.1.2
+    max: 101
+    min: 101
+    name: RPO 1
+    type: system
+    value: 41
+  - description: Record/Play/Overdub on Track 2	 Added in 4.1.2
+    max: 102
+    min: 102
+    name: RPO 2
+    type: system
+    value: 41
+  - description: 'Clears the song (deletes all tracks) with no confirmation when the looper is stopped and in the Loop Studio screen. Note: You CANNOT undo this action. Added in 4.0.0'
     max: 0
     min: 0
-    name: Complete transition
-    type: null
+    name: Clear Song Immediately
+    type: system
+    value: 42
+  - description: 'Stop'
+    max: 0
+    min: 0
+    name: Stop
+    type: system
+    value: 43
+  - description: 'Start'
+    max: 1
+    min: 1
+    name: Stop
+    type: system
+    value: 43
+  - description: 'Cancel Stop'
+    max: 2
+    min: 2
+    name: Cancel Stop
+    type: system
+    value: 43
+  - description: 'Stop Immediately'
+    max: 127
+    min: 127
+    name: Stop Immediately
+    type: system
+    value: 43
+  - description: 'Sets the Action buttons in 2x2 and 6x6 to Record, Play, Overdub. This means that the Aeros will first start/set-up playback and then give the option to overdub. If recordings can be committed immediately, the Aeros will enter playback once the action button is pressed.	Added in 4.1.2'
+    max: 0
+    min: 0
+    name: Set RPO
+    type: system
+    value: 45
+  - description: 'Changes song parts in 2x2 immediately. In 6x6, it will change song parts if a different song part than the one currently playing is selected. Please note: This command overrides the ‘Change Parts: End of Loop’ setting. This command is sent by the BeatBuddy by default when it changes parts. If currently recording, the Aeros will respect any Sync rules and/or finish the measure (in quantized mode).		Added in 4.1.2'
+    max: 0
+    min: 0
+    name: Set ROP
+    type: system
+    value: 45
+  - description: 'Changes song parts in 2x2 immediately. In 6x6, it will change song parts if a different song part than the one currently playing is selected. Please note: This command overrides the ‘Change Parts: End of Loop’ setting. This command is sent by the BeatBuddy by default when it changes parts. If currently recording, the Aeros will respect any Sync rules and/or finish the measure (in quantized mode). Added in 3.0.0'
+    max: 32
+    min: 1
+    name: Next Part Immediately
+    type: system
+    value: 102
+  - description: "Starts transition to the currently selected part in 6x6. This command is used in conjunction with CC113 values 126 and 127 to allow toggling through parts before starting the transition. This is not needed in 2x2.	 Added in 4.1.2"
+    max: 0
+    min: 0
+    name: Transition to Selected Part
+    type: system
     value: 113
+  - description: "Begin the transition to part (part # = value #) according to the Change Part setting (Immediately/End of Measure/End of Loop). If using the BeatBuddy, the CC:102 command will override this command. If the part doesn't exist in the song, the Aeros will ignore the command. This command cannot start the Aeros from a stopped state.	Added in 3.0.0"
+    max: 6
+    min: 1
+    name: Change Part
+    type: system
+    value: 113
+  - description: "Value 101-106: Begin the transition to part (part # = value # minus 100 , so value 102 is part 2) according to the Change Part setting (Immediately/End of Measure/End of Loop). If the part doesn’t exist in the song, the Aeros will ignore the command. This allows you to send a single on-press command for changing parts. This also allows you to switch the part on the Aeros without switching parts on the BeatBuddy (which ignores values 101-106) when they are on the same channel and being controlled by a MIDI controller. This command can start the Aeros from a stopped state. Added in 4.1.2"
+    max: 106
+    min: 101
+    name: Change Part (Aeros Only)
+    type: system
+    value: 113
+  - description: "Cancels any pending transition. Added in 4.1.2"
+    max: 125
+    min: 125
+    name: Cancel Transition
+    type: system
+    value: 113
+  - description: "In 2x2, this will start the transition to the previous part. In 6x6, this will toggle through the available parts from bottom to top. To switch to the selected part, the user must send CC113 value 0 to start the transition. Added in 4.1.2"
+    max: 126
+    min: 126
+    name: Prev Part
+    type: system
+    value: 113
+  - description: "In 2x2, this will start the transition to the next part. In 6x6, this will toggle through the available parts from top to bottom. To switch to the selected part, the user must send CC113 value 0 to start the transition. Added in 4.1.2"
+    max: 127
+    min: 127
+    name: Next Part
+    type: system
+    value: 113
+  - description: "Will save a screenshot of the current Aeros screen to the SD card. Note: Must have SD card inserted in Aeros.	 Added in 3.0.0"
+    max: 127
+    min: 127
+    name: Screenshot
+    type: system
+    value: 127
