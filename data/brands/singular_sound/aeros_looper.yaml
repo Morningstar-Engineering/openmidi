@@ -239,19 +239,19 @@ cc:
     name: Commit Recording
     type: system
     value: 41
-  - description: Record/Play/Overdub on selected track (6x6)	 Added in 4.1.2
+  - description: "Record/Play/Overdub on selected track (6x6)	 Added in 4.1.2"
     max: 100
     min: 100
     name: RPO Selected
     type: system
     value: 41
-  - description: Record/Play/Overdub on Track 1	 Added in 4.1.2
+  - description: "Record/Play/Overdub on Track 1	 Added in 4.1.2"
     max: 101
     min: 101
     name: RPO 1
     type: system
     value: 41
-  - description: Record/Play/Overdub on Track 2	 Added in 4.1.2
+  - description: "Record/Play/Overdub on Track 2	 Added in 4.1.2"
     max: 102
     min: 102
     name: RPO 2
