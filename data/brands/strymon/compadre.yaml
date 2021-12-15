@@ -1,0 +1,93 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Refer to Page14: https://www.strymon.net/manuals/Compadre_UserManual_RevC.pdf
+instructions:
+  -
+
+pc:
+  description: |+
+    Compadre contains 300 preset locations, numbered sequentially from 0-299.
+    Because MIDI Program Change messages have a maximum number of 128 (0-127) the presets are grouped into three MIDI patch
+    banks.
+
+    MIDI BANK 0 = PRESETS 0-127
+    MIDI BANK 1 = PRESETS 128-255
+    MIDI BANK 2 = PRESETS 256-299
+
+    Compadre always powers up in MIDI Patch Bank 0, so if you plan to
+    stay within the first 127 presets, simply send a standard MIDI Program
+    Change message to load a preset.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a
+    standard MIDI Bank Change message (MIDI CC# 0 with a value equal
+    to the MIDI Bank#) before each MIDI Program Change.
+
+    Selecting bank 0, patch 127 will put Compadre into Manual mode.
+    In this mode, the pedal will be set to the current knob and switch
+    settings. No preset data can be stored at this preset location.
+cc:
+  - name: Bank Select
+    value: 0
+    description: ""
+    min: 0
+    max: '2'
+  - name: Compression Type
+    value: '10'
+    description: 1=studio, 2=squeeze
+    min: '1'
+    max: '2'
+  - name: Compression Level
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Compression Off
+    value: '13'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Compression On
+    value: '13'
+    description: ''
+    min: '1'
+    max: '127'
+  - name: Compression
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dry
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Boost EQ
+    value: '17'
+    description: 1=flat, 2=treble, 3=mid
+    min: '1'
+    max: '3'
+  - name: Boost Type
+    value: '18'
+    description: 1=clean, 2=dirty
+    min: '1'
+    max: '2'
+  - name: Boost Amount
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Boost Off
+    value: '20'
+    description: ''
+    min: 0
+    max: 0
+  - name: Boost On
+    value: '20'
+    description: ''
+    min: '1'
+    max: '127'
