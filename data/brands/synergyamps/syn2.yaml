@@ -1,0 +1,48 @@
+midi_in: DIN5 
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+
+
+pc: 
+  description: |+
+
+cc:
+  - name: Select Channel 1A
+    value: '56'
+    description: ''
+    min: 64
+    max: '127'
+  - name: Select Channel 1B
+    value: '57'
+    description: ''
+    min: 64
+    max: '127'
+  - name: Select Channel 2A
+    value: '58'
+    description: ''
+    min: 64
+    max: '127'
+  - name: Select Channel 2B
+    value: '59'
+    description: ''
+    min: 64
+    max: '127'
+  - name: Bypass
+    value: '60'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Unmute
+    value: '64'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Mute
+    value: '64'
+    description: ''
+    min: '64'
+    max: '127'

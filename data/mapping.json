@@ -526,6 +526,16 @@
             ]
         },
         {
+            "name": "Synergy Amps",
+            "value": "synergyamps",
+            "models": [
+                {
+                    "name": "SYN2",
+                    "value": "syn2"
+                }
+            ]
+        },
+        {
             "name": "TC Electronic",
             "value": "tcelectronic",
             "models": [
