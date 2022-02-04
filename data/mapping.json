@@ -526,6 +526,16 @@
             ]
         },
         {
+            "name": "Suhr",
+            "value": "suhr",
+            "models": [
+                {
+                    "name": "Discovery",
+                    "value": "discovery"
+                }
+            ]
+        },
+        {
             "name": "Synergy Amps",
             "value": "synergyamps",
             "models": [

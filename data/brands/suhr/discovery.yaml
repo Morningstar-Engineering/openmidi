@@ -1,0 +1,101 @@
+cc:
+  - name: Mix
+    value: '14'
+    description: Mix
+    min: '0'
+    max: '127'
+  - name: Regen
+    value: '9'
+    description: Regen
+    min: 0
+    max: '127'
+  - name: Time
+    value: '3'
+    description: Time
+    min: 0
+    max: '127'
+  - name: Modulation Speed
+    value: '17'
+    description: Modulation Speed
+    min: 0
+    max: '127'
+  - name: Modulation Depth
+    value: '18'
+    description: Modulation Depth
+    min: 0
+    max: '127'
+  - name: Modulation shape
+    value: '21'
+    description: Modulation shape (0=triangle, 1=sine, 2=square)
+    min: 0
+    max: '2'
+  - name: Hi Cut Filter
+    value: '15'
+    description: Hi Cut Filter
+    min: 0
+    max: '127'
+  - name: Low Cut Filter
+    value: '16'
+    description: Low Cut Filter
+    min: 0
+    max: '127'
+  - name: Divisions
+    value: '20'
+    description:  Divisions (0-25=Quarter Note, 26-50=Dotted Eighth Note, 51-75=Eighth Note, 76-100=Triplet, 101-127=Sixteenth Note)
+    min: 0
+    max: '127'
+  - name: MIDI Sync
+    value: '63'
+    description: MIDI Sync (0=ON, 1=ON quicker, 2=ON slower+more stable)
+    min: 0
+    max: '3'
+  - name: Bypass (Pedal OFF)
+    value: '102'
+    description: Bypass (Pedal OFF)
+    min: 0
+    max: 0
+  - name: Bypass (Pedal ON)
+    value: '102'
+    description: Bypass (Pedal ON)
+    min: '1'
+    max: '127'
+  - name: TAP Tempo
+    value: '81'
+    description: TAP Tempo
+    min: 0
+    max: '127'
+  - name: Expression
+    value: '100'
+    description: Expression
+    min: 0
+    max: '127'
+  - name: Up Arrow
+    value: '52'
+    description: Pedal button - Up arrow
+    min: 0
+    max: '127'
+  - name: Down Arrow
+    value: '53'
+    description: Pedal button - Down arrow
+    min: 0
+    max: '127'
+  - name: Preset Down
+    value: '54'
+    description: Pedal button - Preset down
+    min: 0
+    max: '127'
+  - name: Preset Up
+    value: '55'
+    description: Pedal button - Preset up
+    min: 0
+    max: '127'
+  - name: Display
+    value: '56'
+    description: Display (0=Display Milliseconds, 1=Display BPM, 2=Display Program)
+    min: 0
+    max: '2'
+  - name: Preset Select Button
+    value: '57'
+    description: Preset Select Button
+    min: 0
+    max: '127'
