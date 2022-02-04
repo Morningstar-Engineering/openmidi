@@ -1,3 +1,17 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    https://www.suhr.com/electronics/pedals/discovery-delay/
+instructions:
+  -
+
+pc:
+  description: |+
+    
 cc:
   - name: Mix
     value: '14'
