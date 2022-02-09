@@ -113,3 +113,93 @@ cc:
     min: 2
     name: Change Mode - Stom
     value: 47
+  - name: Open / Close Looper UI
+    value: 48
+    description: ''
+    min: 64
+    max: 127
+  - name: Duplicate / Stop Duplicate
+    value: 49
+    description: ''
+    min: 64
+    max: 127
+  - name: Enable / Disable One Shot
+    value: 50
+    description: ''
+    min: 64
+    max: 127
+  - name: Enable / Disable Half Speed
+    value: 51
+    description: ''
+    min: 64
+    max: 127
+  - name: Punch Feature
+    value: 52
+    description: |-
+      Value 0-63 = Punch Out
+      Value 64-127 = Punch In/Punch Out
+      Value 0-63 works as long as the parameter is set to momentary and value
+      0-63 is sent on MIDI controller footswitch release
+    min: 0
+    max: 127
+  - name: Record / Stop
+    value: 53
+    description: |-
+      • Value 0-63 = Stop recording
+      • Value 64-127 = Record/Overdub/Stop
+      *Value 0-63 works as long as the parameter is set to momentary and value
+      0-63 is sent on MIDI controller footswitch release
+    min: 0
+    max: 127
+  - name: Play / Stop
+    value: 54
+    description: ''
+    min: 64
+    max: 127
+  - name: Enable / Disable Reverse
+    value: 55
+    description: ''
+    min: 64
+    max: 127
+  - name: Undo / Redo
+    value: 56
+    description: ''
+    min: 64
+    max: 127
+  - name: Duplicate Mode Parameter - Free
+    value: 57
+    description: ''
+    min: 0
+    max: 0
+  - name: Duplicate Mode Parameter - Sync
+    value: 57
+    description: ''
+    min: 1
+    max: 1
+  - name: Quantize Parameter
+    value: 58
+    description: |-
+      • Value 0 = OFF
+      • Value 1-8 = 1-8 Beats
+      • Value 9 = 16 Beats
+    min: 0
+    max: 9
+  - name: MIDI Clock Start
+    value: 59
+    description: |-
+      • Value 0 = OFF
+      • Value 1 = ON
+    min: 0
+    max: 1
+  - name: Perform / Params mode
+    value: 60
+    description: |-
+      • Value 0 = Perform Mode
+      • Value 1 = Params Mode
+    min: 0
+    max: 1
+  - name: Routing Mode parameter
+    value: 61
+    description: Value 0-13 = Grid > I/Os > Multi Out
+    min: 0
+    max: 13
