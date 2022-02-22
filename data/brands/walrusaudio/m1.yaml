@@ -1,0 +1,159 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |+
+    1. Hold down both stomp switches at power up until the rate LED starts flashing like normal,
+    then release both switches.
+    2. Now send a MIDI Program Change message on the desired MIDI channel for the pedal.
+    3. The pedal will save that MIDI channel and only respond to messages on that channel until
+    the user changes it again
+pc:
+  description: |-
+    
+
+cc:
+  - name: Rate
+    value: '3'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Depth
+    value: '9'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Lo-Fi
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Shape
+    value: '15'
+    description: ''
+    min: 0
+    max: 2
+  - name: Division
+    value: '16'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Type
+    value: '17'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Prog
+    value: '18'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Tone
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Sym
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: X
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Env
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Drive
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Space
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Age
+    value: '25'
+    description: ''
+    min: 0
+    max: '4'
+  - name: Noise
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Warble
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Bypass
+    value: '31'
+    description: ''
+    min: 0
+    max: 0
+  - name: Engage
+    value: '31'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Tap
+    value: '85'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Rotary Speed
+    value: '86'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Skip Engage/Rotary Break - Disengaged
+    value: '87'
+    description: ''
+    min: 0
+    max: 0
+  - name: Skip Engage/Rotary Break - Engaged
+    value: '87'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Output Volume
+    value: '88'
+    description: ''
+    min: 0
+    max: '127'
+  - name: MIDI Clock Ignore - Disengaged
+    value: '89'
+    description: ''
+    min: 0
+    max: 0
+  - name: MIDI Clock Ignore - Engaged
+    value: '89'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Tweak Switch
+    value: '90'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Bank Switch
+    value: '102'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Tune Switch
+    value: '103'
+    description: ''
+    min: 0
+    max: '2'
