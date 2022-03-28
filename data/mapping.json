@@ -429,6 +429,16 @@
             ]
         },
         {
+            "name": "Ramble FX",
+            "value": "ramblefx",
+            "models": [
+                {
+                    "name": "Kismet",
+                    "value": "kismet"
+                }
+            ]
+        },
+        {
             "name": "Red Panda",
             "value": "redpanda",
             "models": [

@@ -1,0 +1,75 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Refer to manual
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Toggle/Cycle Footswitch
+    value: '102'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Engage
+    value: '103'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Bypass
+    value: '103'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Bypass flip/flop
+    value: '104'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Bass Setting
+    value: '105'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mids Setting
+    value: '106'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Treble Setting
+    value: '107'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Gain Setting
+    value: '108'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Volume Setting
+    value: '109'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Expression
+    value: '110'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Omni mode OFF
+    value: '124'
+    description: ''
+    min: 0
+    max: 0
+  - name: Omni mode ON
+    value: '125'
+    description: ''
+    min: 0
+    max: 0
