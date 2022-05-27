@@ -37,7 +37,7 @@ cc:
     min: 0
     max: '2'
   - name: Compression Type
-    value: '10'
+    value: '11'
     description: 1=studio, 2=squeeze
     min: '1'
     max: '2'
