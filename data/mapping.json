@@ -5,6 +5,10 @@
             "value": "alexander",
             "models": [
                 {
+                    "name": "Fever Pitch",
+                    "value": "feverpitch"
+                },
+                {
                     "name": "Quadrant",
                     "value": "quadrant"
                 },

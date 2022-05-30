@@ -1,0 +1,233 @@
+midi_in: TRS
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+cc:
+  - name: LVLA
+    value: '50'
+    description: Volume level pitch shift A
+    min: 0
+    max: '127'
+  - name: LVLB
+    value: '51'
+    description: Volume level pitch shift B
+    min: 0
+    max: '127'
+  - name: LVLC
+    value: '52'
+    description: Volume level pitch shift C
+    min: 0
+    max: '127'
+  - name: LVLD
+    value: '53'
+    description: Volume level pitch shift D
+    min: 0
+    max: '127'
+  - name: DRY
+    value: '74'
+    description: Volume level for the dry/unaffected input signal
+    min: '0'
+    max: '127'
+  - name: TUNA
+    value: '54'
+    description: Pitch tuning pitch shift A
+    min: 0
+    max: '127'
+  - name: TUNB
+    value: '55'
+    description: Pitch tuning pitch shift B
+    min: 0
+    max: '127'
+  - name: TUNC
+    value: '56'
+    description: Pitch tuning pitch shift C
+    min: 0
+    max: '127'
+  - name: TUND
+    value: '57'
+    description: Pitch tuning pitch shift D
+    min: 0
+    max: '127'
+  - name: SCAL
+    value: '75'
+    description: Scale
+    min: 0
+    max: '127'
+  - name: PANA
+    value: '58'
+    description: Pan mix pitch shift A
+    min: 0
+    max: '127'
+  - name: PANB
+    value: '59'
+    description: Pan mix pitch shift B
+    min: 0
+    max: '127'
+  - name: PANC
+    value: '60'
+    description: Pan mix pitch shift C
+    min: 0
+    max: '127'
+  - name: PAND
+    value: '61'
+    description: Pan mix pitch shift D
+    min: 0
+    max: '127'
+  - name: DRY PAN
+    value: '76'
+    description: Pan mix for the dry/unaffected input signal
+    min: 0
+    max: '127'
+  - name: REVERB (DLY RPT)
+    value: '62'
+    description: Reverb decay time (Reverb mode)/Delay repeat/feedback (Delay mode)
+    min: 0
+    max: '127'
+  - name: PREDELAY (DLY TIME)
+    value: '63'
+    description: Reverb pre-delay time (Reverb mode)/Delay time (Delay mode)
+    min: 0
+    max: '127'
+  - name: RVB TONE (DLY PAN)
+    value: '64'
+    description: Reverb tone and damping (Reverb mode)/Delay signal pan position (Delay
+      mode)
+    min: 0
+    max: '127'
+  - name: RVB MIX (DLY MIX)
+    value: '65'
+    description: Reverb mix (Reverb mode)/Delay mix (Delay mode)
+    min: 0
+    max: '127'
+  - name: DELAY SUBDIVISION
+    value: '77'
+    description: Delay tap division (TRIP, 8TH, DOT8, QTR) or disable MIDI clock (NCLK)
+      (Delay mode only)
+    min: 0
+    max: 0
+  - name: TREM RATE
+    value: '66'
+    description: Tremolo/Pan speed
+    min: 0
+    max: '127'
+  - name: TREM DEPTH
+    value: '67'
+    description: Tremolo/Pan depth
+    min: 0
+    max: '127'
+  - name: CHORUS RATE
+    value: '68'
+    description: Chorus/Vibrato speed
+    min: 0
+    max: '127'
+  - name: CHORUS DEPTH
+    value: '69'
+    description: Chorus/Vibrato depth
+    min: 0
+    max: '127'
+  - name: TREM MODE (TREM)
+    value: '78'
+    description: Tremolo effect on wet signal
+    min: '0'
+    max: '0'
+  - name: TREM MODE (PAN)
+    value: '78'
+    description: Panning effect on wet signal
+    min: '32'
+    max: '32'
+  - name: TREM MODE (TR+D)
+    value: '78'
+    description: Tremolo effect on wet and dry signals
+    min: '64'
+    max: '64'
+  - name: TREM MODE (PN+D)
+    value: '78'
+    description: Panning effect on wet and dry signals
+    min: '96'
+    max: '96'
+  - name: VOLUME
+    value: '70'
+    description: Volume
+    min: 0
+    max: '127'
+  - name: TONE
+    value: '71'
+    description: Tone
+    min: 0
+    max: '127'
+  - name: RAMP RATE
+    value: '72'
+    description: Ramp rate
+    min: 0
+    max: '127'
+  - name: RAMP TRIGGER (MOM)
+    value: '73'
+    description: Momentary ramp - Heel to Toe. Return to heel when released
+    min: 0
+    max: 0
+  - name: RAMP TRIGGER (TOGG)
+    value: '73'
+    description: Toggle ramp will alternate between position when footswitch is held
+    min: '44'
+    max: '44'
+  - name: RAMP TRIGGER (REPT)
+    value: '73'
+    description: Repeat ramp will footswitch is held. Will automatically move from heel
+      to toe until footswitch is held again.
+    min: '88'
+    max: '88'
+  - name: DETUNE (OFF)
+    value: '79'
+    description: Detune is off
+    min: 0
+    max: 0
+  - name: DETUNE (ON)
+    value: '79'
+    description: Detune is on
+    min: '127'
+    max: '127'
+  - name: MODE SELECT (RVB)
+    value: '49'
+    description: Reverb mode is selected
+    min: 0
+    max: 0
+  - name: MODE SELECT (DLY)
+    value: '49'
+    description: Delay mode is selected
+    min: '127'
+    max: '127'
+  - name: TAP TEMPO
+    value: '93'
+    description: Tamp tempo - any CC value
+    min: 0
+    max: '127'
+  - name: RAMP TRIGGER
+    value: '97'
+    description: Ramp trigger - any CC value
+    min: 0
+    max: '127'
+  - name: EXPRESSION PDL (HEEL)
+    value: '100'
+    description: Expression pedal - heel
+    min: 0
+    max: 0
+  - name: EXPRESSION PDL (TOE)
+    value: '100'
+    description: Expression pedal - toe
+    min: '127'
+    max: '127'
+  - name: BYPASS (BYP)
+    value: '102'
+    description: Pedal - bypass
+    min: 0
+    max: 0
+  - name: BYPASS (ON)
+    value: '102'
+    description: Pedal - on
+    min: '127'
+    max: '127'
