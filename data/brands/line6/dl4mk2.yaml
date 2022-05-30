@@ -1,0 +1,197 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description:
+
+cc:
+  - name: Delay Model Select
+    value: '1'
+    description: |-
+      MkII Delays:
+      0 = Vintage Digital
+      1 = Crisscross
+      2 = Euclidean
+      3 = Dual Delay
+      4 = Pitch Echo
+      5 = ADT
+      6 = Ducked
+      7 = Harmony
+      8 = Heliosphere
+      9 = Transistor
+      10 = Cosmos
+      11 = Multi Pass
+      12 = Adriatic
+      13 = Elephant Man
+      14 = Glitch
+  
+      Legacy Delays:
+      15 = Digital
+      16 = Digital w/ Mod
+      17 = Echo Platter
+      18 = Stereo
+      19 = Ping Pong
+      20 = Reverse
+      21 = Dynamic
+      22 = Auto-Vol
+      23 = Tube Echo
+      24 = Tape Echo
+      25 = Multi-Head
+      26 = Sweep
+      27 = Analog
+      28 = Analog Mod
+      29 = Lo Res Delay
+    min: 0
+    max: '29'
+  - name: Reverb Model Select
+    value: '2'
+    description: |-
+      0 = Room
+      1 = Searchlights
+      2 = Particle Verb
+      3 = Double Tank
+      4 = Octo
+      5 = Tile
+      6 = Ducking
+      7 = Plateaux
+      8 = Cave
+      9 = Plate
+      10 = Ganymede
+      11 = Chamber
+      12 = Hot Springs
+      13 = Hall
+      14 = Glitz
+      15 = Reverb Off
+    min: 0
+    max: '15'
+  - name: Emulates Expression pedal
+    value: '3'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preset Bypass
+    value: '4'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Preset Engage
+    value: '3'
+    description: "\n"
+    min: '64'
+    max: '127'
+  - name: Classic Looper Mode On/Off
+    value: '9'
+    description: '0-63 = Off, 64-127 = On
+  
+      '
+    min: 0
+    max: '127'
+  - name: Delay Time
+    value: '10'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Time Subdivisions
+    value: '12'
+    description: |
+      0 = 1/8 Triplet
+      1 = 1/8
+      2 = 1/8 Dotted
+      3 = 1/4 Triplet
+      4 = 1/4
+      5 = 1/4 Dotted
+      6 = 1/2 Triplet
+      7 = 1/2
+      8 = 1/2 Dotted
+    min: 0
+    max: '8'
+  - name: Delay Repeats
+    value: '13'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Tweak
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Tweez
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay/Looper Mix Knob
+    value: '16'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Reverb Decay
+    value: '17'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Reverb Predelay/Diffusion
+    value: '18'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Reverb-Delay Routing
+    value: '19'
+    description: |
+      0 = Reverb before delay
+      1 = Reverb and delay in parallel
+      2 = Reverb after delay
+    min: 0
+    max: '2'
+  - name: Reverb Mix (DSP Dry Path) / Reverb Level (Analog Dry Level)
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '64'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Classic Looper Mode On/Off
+    value: 0
+    description: '0-63 = Off, 64-127 = On'
+    min: 0
+    max: '127'
+  - name: Record/Overdub
+    value: '60'
+    description: '0-63 = Overdub, 64-127 = Record'
+    min: 0
+    max: '127'
+  - name: Play/Stop
+    value: '62'
+    description: '0-63 = Play, 64-127 = Stop'
+    min: 0
+    max: '127'
+  - name: Play Once
+    value: '62'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Undo/Redo Overdub Recordings
+    value: '63'
+    description: '0-63 = Undo, 64-127 = Redo'
+    min: 0
+    max: '127'
+  - name: Forward/Reverse
+    value: '65'
+    description: '0-63 = Forward, 64-127 = Reverse'
+    min: 0
+    max: '127'
+  - name: Full Speed/Half Speed
+    value: '60'
+    description: 0-63 = Full, 64-127 = Half
+    min: 0
+    max: '127'

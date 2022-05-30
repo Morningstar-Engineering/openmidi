@@ -285,6 +285,10 @@
             "value": "line6",
             "models": [
                 {
+                    "name": "DL4 MKII",
+                    "value": "dl4mk2"
+                },
+                {
                     "name": "HX Stomp",
                     "value": "hxstomp"
                 },
