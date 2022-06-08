@@ -457,6 +457,10 @@
                 {
                     "name": "Tensor",
                     "value": "tensor"
+                },
+                {
+                    "name": "Raster 2",
+                    "value": "raster2"
                 }
             ]
         },
