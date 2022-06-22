@@ -455,6 +455,10 @@
                     "value": "particle2"
                 },
                 {
+                    "name": "Raster 2",
+                    "value": "raster2"
+                },
+                {
                     "name": "Tensor",
                     "value": "tensor"
                 }

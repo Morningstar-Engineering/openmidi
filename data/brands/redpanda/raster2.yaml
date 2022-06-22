@@ -1,0 +1,236 @@
+midi_in: USB MIDI
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Expression pedal
+    value: '4'
+    description: CTRL input
+    min: 0
+    max: '127'
+  - name: Blend
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Blend L/R tilt
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Shift
+    value: '16'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Shift L/R tilt
+    value: '17'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay time
+    value: '18'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay time L/R tilt
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback L/R tilt
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Modulation rate
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Modulation phase L/R tilt
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Modulation depth
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Modulation depth L/R tilt
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tone
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: SHIFT/TAP footswitch
+    value: '80'
+    description: "Use gated mode to send 127 on \npress and 0 on release. Matches \nfootswitch
+    behavior.\n0-63      Off (release)\n64-127  On (press)"
+    min: 0
+    max: 0
+  - name: Bypass (Receive only)
+    value: '88'
+    description: 0-63 Bypass         64-127 Effect On
+    min: 0
+    max: 0
+  - name: Tap (Receive only)
+    value: '89'
+    description: 64-127   Remote tap
+    min: 0
+    max: 0
+  - name: ON footswitch
+    value: '81'
+    description: "Use gated mode to send 127 on \npress and 0 on release. Matches \nfootswitch
+    behavior.    0-63 Off (release)   64-127  On (press)"
+    min: 0
+    max: 0
+  - name: Shift on/off (Receive only)
+    value: '90'
+    description: '0-63   Shift off  64-127   Shift on     '
+    min: 0
+    max: 0
+  - name: Modulation waveform
+    value: '102'
+    description: |-
+      0 Sine;
+      1 Triangle;
+      2 Ramp up;
+      3 Ramp down;
+      4 Square;
+      5 Random step;
+      6 Random smooth;
+      7 Envelope;
+      8 Inverse envelope;
+    min: 0
+    max: '8'
+  - name: Modulation destination
+    value: '103'
+    description: |-
+      0 Wet amplitude (tremolo);
+      1 Shift;
+      2 Delay time (default);
+    min: 0
+    max: '2'
+  - name: Shift mode
+    value: '104'
+    description: |-
+      0 Transpose;
+      1 Detune;
+      2 Phase/frequency shift;
+    min: 0
+    max: '2'
+  - name: Delay structure
+    value: '105'
+    description: |-
+      0 Parallel (default);
+      1 Ping pong;
+      2 Series;
+    min: 0
+    max: '2'
+  - name: Feedback mode
+    value: '106'
+    description: |-
+      0 Forward;
+      1 Forward / shift once;
+      2 Reverse;
+      3 Reverse / shift once;
+    min: 0
+    max: '3'
+  - name: Delay range
+    value: '107'
+    description: |-
+      0  400 ms;
+      1  800 ms;
+      2  1600 ms;
+      3  3200 ms (1600 reverse);
+    min: 0
+    max: '3'
+  - name: Delay note division
+    value: '108'
+    description: "0: Off (tap tempo disabled); \n1: 8 measure; \n2: 7 measures; \n3:
+    6 measures; \n4: 5 measures; \n5: 4 measures; \n6: 3 measures; \n7: 2 measures;
+    \n8: 2 measure triplet; \n9: Dotted whole note; \n10: Whole note; \n11: Whole
+    note triplet; \n12: Dotted half note; \n13: Half note; \n14: Half note triplet;
+    \n15: Dotted quarter note; \n16: Quarter note; \n17: Quarter note triplet; \n18:
+    Dotted eighth note; \n19: Eighth note; \n20: Eighth note triplet; \n21: Dotted
+    16th note; \n22: 16th note;\n23: 16th note triplet; \n24: Dotted 32nd note; \n25:
+    32nd note; \n26: 32nd note triplet; \n27: Dotted 64th note; \n28: 64th note; \n29:
+    64th note triplet; \n30: Dotted 128th note; \n31: 128th note;"
+    min: 0
+    max: '31'
+  - name: Modulation note division
+    value: '109'
+    description: "0: Off (tap tempo disabled); \n1: 8 measure; \n2: 7 measures; \n3:
+    6 measures; \n4: 5 measures; \n5: 4 measures; \n6: 3 measures; \n7: 2 measures;
+    \n8: 2 measure triplet; \n9: Dotted whole note; \n10: Whole note; \n11: Whole
+    note triplet; \n12: Dotted half note; \n13: Half note; \n14: Half note triplet;
+    \n15: Dotted quarter note; \n16: Quarter note; \n17: Quarter note triplet; \n18:
+    Dotted eighth note; \n19: Eighth note; \n20: Eighth note triplet; \n21: Dotted
+    16th note; \n22: 16th note;\n23: 16th note triplet; \n24: Dotted 32nd note; \n25:
+    32nd note; \n26: 32nd note triplet; \n27: Dotted 64th note; \n28: 64th note; \n29:
+    64th note triplet; \n30: Dotted 128th note; \n31: 128th note;"
+    min: 0
+    max: '31'
+  - name: Receive MIDI clock (global)
+    value: '110'
+    description: '0-63: Off ; 64-127: On (default)'
+    min: 0
+    max: '127'
+  - name: Trails mode
+    value: '111'
+    description: |-
+      1: Off;
+      2: On;
+      3: Use global setting;
+    min: 0
+    max: '2'
+  - name: Left footswitch mode*
+    value: '112'
+    description: |-
+      0: Shift momentary;
+      1: Shift latch;
+      2: Tap;
+    min: 0
+    max: '2'
+  - name: Right footswitch mode*
+    value: '113'
+    description: |-
+      0: Momentary;
+      1: Latch;
+      2  Mute output in bypass;
+    min: 0
+    max: '2'
+  - name: Shift link left/right channels
+    value: '114'
+    description: |-
+      0: Linked (tilt, default);
+      1: Independent;
+    min: 0
+    max: '1'
+  - name: Feedback invert**
+    value: '119'
+    description: |-
+      0-63: Off;
+      64-127: On;
+    min: 0
+    max: '127'
