@@ -1,0 +1,49 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+    By default, the ASABI ships with MIDI Channel 1 being the selected channel. This
+    can be changed by pressing and holding the DIST footswitch while applying power
+    to the ASABI. Press the DRIVE footswitch to increment the MIDI channel number. 
+    You’ll notice that as you continue to hold the DIST footswitch, the DRIVE LED will
+    flash to indicate which MIDI channel you have selected. IE – 7 flashes = MIDI
+    Channel 7. After the LED flashes, we inserted a 2-second pause so you could tell
+    when the LED was finished flashing. The LED will continue flashing as long as you
+    are holding down the DIST footswitch. Once you have selected the MIDI channel
+    you want and have verified it by counting the flashes, simply release the DIST
+    footswitch and the pedal will save this MIDI Channel to the internal EEPROM on
+    the microprocessor and reboot.
+pc:
+  description:
+
+cc:
+  - name: Dist On/Off
+    value: '1'
+    description: 'On = 127, Off = 0'
+    min: 0
+    max: '127'
+  - name: Drive On/Off
+    value: '2'
+    description: 'On = 127, Off = 0'
+    min: 0
+    max: '127'
+  - name: Distortion Clipping Presets
+    value: '3'
+    description: '1 = Guv''nor, 2 = 808, 3 = Asymmetric High Gain, 4 = Symmetric High Gain'
+    min: '1'
+    max: '4'
+  - name: Gain Cycle
+    value: '4'
+    description: '1 = 25%, 2 = 50%, 3 = 75%, 4 = 100%'
+    min: '1'
+    max: '4'
+  - name: Overdrive Clipping Presets
+    value: '5'
+    description: 1 = Vintage Marshall, 2 = Tube Screamer, 3 = Timmy, 4 = King of Tone
+    min: '1'
+    max: '4'

@@ -251,6 +251,10 @@
             "value": "jacksonaudio",
             "models": [
                 {
+                    "name": "Asabi",
+                    "value": "asabi"
+                },
+                {
                     "name": "Bloom",
                     "value": "bloom"
                 },
