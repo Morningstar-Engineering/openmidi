@@ -1,0 +1,123 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+
+pc: 
+  description: |+
+
+cc: 
+  - name: Primary Speed
+    value: '14'
+    description: Primary speed of the tremolo
+    min: 0
+    max: '127'
+  - name: Depth
+    value: '15'
+    description: Depth of the tremolo
+    min: 0
+    max: '127'
+  - name: Shape Control
+    value: '16'
+    description: Set shape of the tremolo waveform. Depends on position of the Shape
+      switch (controllable by sending a value to the Shape Mode CC)
+    min: 0
+    max: '127'
+  - name: Boost
+    value: '17'
+    description: Boost level for the pedal
+    min: 0
+    max: '127'
+  - name: Tap Division
+    value: '18'
+    description: 0-25 for 1/2 note division, 26-51 for 1/4 note division, 52-76 for
+      dotted 1/8 note, 77-102 for 1/8 note, 103-127 for triplet 1/8 note
+    min: 0
+    max: '127'
+  - name: Harmonic Width
+    value: '19'
+    description: Set distance between low and high harmonic waveforms. Set to 0 for
+      standard tremolo and 127 for full harmonic tremolo.
+    min: 0
+    max: '127'
+  - name: Secondary Speed
+    value: '20'
+    description: Secondary speed of tremolo which is the speed to which the pedal ramps
+      to in one of the ramping modes.
+    min: 0
+    max: '127'
+  - name: Ramping Speed
+    value: '21'
+    description: The speed at which ramping happens between the primary and secondary
+      speeds.
+    min: 0
+    max: '127'
+  - name: Stereo Width
+    value: '22'
+    description: Set the distance between the left and right tremolo waveforms. Set
+      to 0 for them to be in sync and 127 for them to be 180 degrees out of phase.
+    min: 0
+    max: '127'
+  - name: Harmonic Division
+    value: '23'
+    description: Sets relationship between the high and low waveforms. 0-25 for low
+      tremolo to be 2x the speed of the high tremolo. 26-51 for low tremolo to be same
+      speed as high tremolo. 52-76 for low tremolo to be 2/3 the speed of high tremolo.
+      77-102 for low tremolo to be 1/2 the speed of high tremolo. 103-127 for low tremolo
+      to be 1/3 the speed of high tremolo.
+    min: 0
+    max: '127'
+  - name: Drift Speed
+    value: '24'
+    description: Speed at which the primary speed is varied when in Drift mode.
+    min: 0
+    max: '127'
+  - name: Drift Depth
+    value: '25'
+    description: The amount which the speed varies around the primary speed when in
+      Drift mode.
+    min: 0
+    max: '127'
+  - name: Shape Mode
+    value: '26'
+    description: Controls which set of waveforms are available on the Shape knob. 0-42
+      for triangle waveforms. 43-85 for sine waveforms. 86-127 for random waveform.
+    min: 0
+    max: '127'
+  - name: Ramp Mode
+    value: '27'
+    description: 0-42 for latching ramp mode, where a single tap to the Tap/Ramp switch
+      will trigger a ramp to either the primary or secondary speed. 43-85 for momentary
+      ramp mode, where holding down the Tap/Ramp switch will ramp the speed from the
+      primary to the secondary speed and then when the switch is released, the speed
+      will ramp from the secondary speed back to the primary speed. 86-127 for drift
+      mode, where the speed of the tremolo automatically drifts up and down around the
+      primary speed according to the selected Drift Speed, Drift Depth, and Drift Shape
+      settings.
+    min: 0
+    max: '127'
+  - name: Drift Shape
+    value: '28'
+    description: 0-42 for drift waveform to be a triangle shape. 43-85 for drift waveform
+      to be a sine wave. 86-127 for drift waveform to be random.
+    min: 0
+    max: '127'
+  - name: Tempo
+    value: '29'
+    description: Set the speed of the tremolo according to the CC value as a BPM value.
+    min: '10'
+    max: '127'
+  - name: Tempo X2
+    value: '30'
+    description: Set the speed of the tremolo according to the CC value times 2 as a
+      BPM value.
+    min: '1'
+    max: '127'
+  - name: Ramp Engage
+    value: '31'
+    description: 0-63 to engage ramping. 64-127 to disengage ramping.
+    min: 0
+    max: '127'

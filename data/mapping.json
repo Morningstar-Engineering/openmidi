@@ -194,6 +194,16 @@
             ]
         },
         {
+            "name": "Flower Pedals",
+            "value": "flowerpedals",
+            "models": [
+                {
+                    "name": "Sunflower",
+                    "value": "sunflower"
+                }
+            ]
+        },
+        {
             "name": "GFI System",
             "value": "gfisystem",
             "models": [
