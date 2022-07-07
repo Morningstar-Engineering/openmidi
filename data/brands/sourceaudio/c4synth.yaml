@@ -28,14 +28,14 @@ cc:
     value: 102
     description: ''
     type: Parameter
-    min: 65
+    min: 64
     max: 127
   - name: Bypass device
     value: 102
     description: ''
     type: Parameter
     min: 0
-    max: 64
+    max: 63
   - name: Preset Recall Off
     value: 103
     description: 'Recalls any preset in bypass'
