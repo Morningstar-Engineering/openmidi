@@ -121,3 +121,17 @@ cc:
     description: 0-63 to engage ramping. 64-127 to disengage ramping.
     min: 0
     max: '127'
+  - name: Pedal Engage
+    value: '32'
+    description: Set whether the pedal is engaged or bypassed. Set value to 0-42 to
+      engage the pedal. Set value to 43-85 to bypass the pedal. Set value to 86-127
+      to toggle whether the pedal is engaged or bypassed.
+    min: 0
+    max: '127'
+  - name: MIDI Clock Ignore
+    value: '33'
+    description: Sets whether the pedal will sync to MIDI clock commands or ignore them.
+      Set value to 0-63 to allow the pedal to sync to MIDI clock. Set value to 64-127
+      to ignore MIDI clock commands.
+    min: 0
+    max: '127'
