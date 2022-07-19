@@ -53,6 +53,10 @@
             "value": "boss",
             "models": [
                 {
+                    "name": "GT1000 Core",
+                    "value": "gt1000core"
+                },
+                {
                     "name": "Katana",
                     "value": "katana"
                 },

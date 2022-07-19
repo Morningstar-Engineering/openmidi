@@ -1,0 +1,19 @@
+midi_in: TRS
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+cc:
+  - name: Bank Select
+    value: 0
+    description: |-
+      Value 0 Selects Bank 1 (U001-U124)
+      Value 1 Selects Bank 2 (U125-U250)
+      Value 2 Selects Bank 3 (P001-P124)
+      Value 3 Selects Bank 4 (P125-P250)
+    min: 0
+    max: '3'
