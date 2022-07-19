@@ -1,0 +1,39 @@
+midi_in: ''
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description:
+
+cc:
+  - name: Remote Expression Pedal
+    value: '100'
+    description: 'position external expression pedal '
+    min: 0
+    max: '127'
+  - name: Engaged/Bypass
+    value: '102'
+    description: "(0-63) Engaged     (64-127)  Bypass "
+    min: 0
+    max: '127'
+  - name: Preset Recall (OFF)
+    value: '103'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preset Recall (ON)
+    value: '104'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Engaged/Bypass Toggle
+    value: '105'
+    description: ''
+    min: 0
+    max: '127'

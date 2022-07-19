@@ -497,6 +497,10 @@
             "value": "sourceaudio",
             "models": [
                 {
+                    "name": "Atlas",
+                    "value": "atlas"
+                },
+                {
                     "name": "Collider",
                     "value": "collider"
                 },
