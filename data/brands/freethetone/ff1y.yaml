@@ -1,0 +1,244 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions:
+
+pc: 
+  description:
+cc: 
+  - name: Delay Time
+    value: '74'
+    description: Delay A+B
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '70'
+    description: Delay A+B
+    min: 0
+    max: '127'
+  - name: Tone
+    value: '69'
+    description: Delay A+B
+    min: '1'
+    max: '127'
+  - name: Mix Level
+    value: '68'
+    description: Delay A+B
+    min: 0
+    max: '100'
+  - name: Output Level
+    value: '84'
+    description: "(Common to A and B) (-63 = 37, 0 = 100)"
+    min: '37'
+    max: '100'
+  - name: Dry
+    value: '35'
+    description: Delay A+B, Off = 0, On = 127
+    min: 0
+    max: '127'
+  - name: Sub Division
+    value: '75'
+    description: Delay A+B Whole note = 1, Half note = 2, Dotted Quarter note = 3, Triplet
+      in four = 4, Quarter note = 5, Dotted Eighth note = 6, Triplet in two = 7, Eighth
+      note = 8, Triplet in one = 9, Sixteen note = 10
+    min: '1'
+    max: '10'
+  - name: Trail
+    value: '80'
+    description: Delay A+B (Common to A and B) Off = 0, On = 127
+    min: 0
+    max: '127'
+  - name: EQ TREBLE
+    value: '73'
+    description: Delay A+B (-15.0dB = 1, Off = 64, +15.0dB = 127)
+    min: '1'
+    max: '127'
+  - name: EQ Middle
+    value: '72'
+    description: Delay A+B (-15.0dB = 1, Off = 64, +15.0dB = 127)
+    min: '1'
+    max: '127'
+  - name: EQ Bass
+    value: '71'
+    description: Delay A+B (-15.0dB = 1, Off = 64, +15.0dB = 127)
+    min: '1'
+    max: '127'
+  - name: Modulation Depth
+    value: '77'
+    description: Delay A+B
+    min: 0
+    max: '99'
+  - name: Modulation Rate
+    value: '76'
+    description: Delay A+B
+    min: 0
+    max: '127'
+  - name: Pan Depth
+    value: '82'
+    description: "(Common to A and B)"
+    min: 0
+    max: '99'
+  - name: Pan Speed
+    value: '81'
+    description: "(Common to A and B)"
+    min: 0
+    max: '127'
+  - name: Soft clipping
+    value: '88'
+    description: Off = 0, On = 127
+    min: 0
+    max: '127'
+  - name: Signal Mode
+    value: '79'
+    description: Stereo = 0, Series = 127
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '62'
+    description: Delay A+B
+    min: '127'
+    max: '127'
+  - name: Effect On/Off
+    value: '61'
+    description: Off = 0, On = 127
+    min: 0
+    max: '127'
+  - name: Delay Time
+    value: '45'
+    description: Delay A
+    min: 0
+    max: '127'
+  - name: Delay Time
+    value: '56'
+    description: Delay B
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '41'
+    description: Delay A
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '52'
+    description: Delay B
+    min: 0
+    max: '127'
+  - name: Tone
+    value: '40'
+    description: Delay A
+    min: '1'
+    max: '127'
+  - name: Tone
+    value: '51'
+    description: Delay B
+    min: '1'
+    max: '127'
+  - name: Mix Level
+    value: '39'
+    description: Delay A
+    min: 0
+    max: '100'
+  - name: Mix Level
+    value: '50'
+    description: Delay B
+    min: 0
+    max: '100'
+  - name: Dry
+    value: '36'
+    description: 'Delay A Off = 0, On = 127
+  
+      '
+    min: 0
+    max: '127'
+  - name: Dry
+    value: '37'
+    description: 'Delay B Off = 0, On = 127
+  
+      '
+    min: 0
+    max: '127'
+  - name: Sub Division
+    value: '46'
+    description: Delay A Whole note = 1, Half note = 2, Dotted Quarter note = 3, Triplet
+      in four = 4, Quarter note = 5, Dotted Eighth note = 6, Triplet in two = 7, Eighth
+      note = 8, Triplet in one = 9, Sixteen note = 10
+    min: '1'
+    max: '10'
+  - name: Sub Division
+    value: '57'
+    description: Delay B Whole note = 1, Half note = 2, Dotted Quarter note = 3, Triplet
+      in four = 4, Quarter note = 5, Dotted Eighth note = 6, Triplet in two = 7, Eighth
+      note = 8, Triplet in one = 9, Sixteen note = 10
+    min: '1'
+    max: '10'
+  - name: EQ Treble
+    value: '44'
+    description: 'Delay A (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+  
+      '
+    min: '1'
+    max: '127'
+  - name: EQ Treble
+    value: '55'
+    description: 'Delay B (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+  
+      '
+    min: '1'
+    max: '127'
+  - name: Eq middle
+    value: '43'
+    description: 'Delay A (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+  
+      '
+    min: '1'
+    max: '127'
+  - name: EQ Middle
+    value: '54'
+    description: Delay B (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+    min: '1'
+    max: '127'
+  - name: EQ Bass
+    value: '42'
+    description: Delay A (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+    min: '1'
+    max: '127'
+  - name: EQ Bass
+    value: '53'
+    description: 'Delay B (-15.0 dB = 1, Off = 64, +15.0 dB = 127)
+  
+      '
+    min: '1'
+    max: '127'
+  - name: Modulation Depth
+    value: '48'
+    description: Delay A
+    min: 0
+    max: '99'
+  - name: Modulation Depth
+    value: '59'
+    description: Delay B
+    min: 0
+    max: '99'
+  - name: Modulation Rate
+    value: '47'
+    description: Delay A
+    min: 0
+    max: '127'
+  - name: Modulation Rate
+    value: '58'
+    description: Delay B
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '86'
+    description: Delay A
+    min: '127'
+    max: '127'
+  - name: Tap Tempo
+    value: '87'
+    description: Delay B
+    min: '127'
+    max: '127'

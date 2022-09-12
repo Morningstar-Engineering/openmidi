@@ -208,6 +208,16 @@
             ]
         },
         {
+            "name": "Free The Tone",
+            "value": "freethetone",
+            "models": [
+                {
+                    "name": "FF-1Y",
+                    "value": "ff1y"
+                }
+            ]
+        },
+        {
             "name": "GFI System",
             "value": "gfisystem",
             "models": [
