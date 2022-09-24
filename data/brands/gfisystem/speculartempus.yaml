@@ -13,12 +13,17 @@ instructions:
 
 pc:
   description: |+
+    Specular Tempus contains 32 preset locations.
+
     PC#0 activates Bank 1 Patch A
     PC#1 activates Bank 1 Patch B
     PC#2 activates Bank 2 Patch A
     PC#3 activates Bank 2 Patch B
 
     and so on...
+    
+    PC#30 activates Bank 16 Patch A
+    PC#31 activates Bank 16 Patch B  
 cc:
   - name: Blend
     value: 14
