@@ -79,21 +79,56 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Active
+  - name: Pedal Active
     value: 102
-    description: 'Value 0-63 = pedal bypassed, 64-127 = pedal active'
-    min: 0
+    description: 'Activate the pedal'
+    min: 127
     max: 127
-  - name: Boost On/Off
+  - name: Pedal Bypassed
+    value: 102
+    description: 'Bypass the pedal'
+    min: 0
+    max: 0
+  - name: Boost Off
     value: 103
-    description: 'Value 0-63 = boost off, 64-127 = boost on'
+    description: ''
     min: 0
+    max: 0
+  - name: Boost On
+    value: 103
+    description: ''
+    min: 127
     max: 127
-  - name: Drive Mode
+  - name: Drive Mode - Clean Boost
     value: 104
-    description: '0-20: Clean Boost; 21-41: Classic; 42-62: Boutique; 64-84: Versatile; 85-105: Smooth; 106-127: Crunch'
+    description: ''
     min: 0
-    max: 127
+    max: 0
+  - name: Drive Mode - Classic
+    value: 104
+    description: ''
+    min: 21
+    max: 21
+  - name: Drive Mode - Boutique
+    value: 104
+    description: ''
+    min: 42
+    max: 42
+  - name: Drive Mode - Versatile
+    value: 104
+    description: ''
+    min: 64
+    max: 64
+  - name: Drive Mode - Smooth
+    value: 104
+    description: ''
+    min: 85
+    max: 85
+  - name: Drive Mode - Crunch
+    value: 104
+    description: ''
+    min: 106
+    max: 106
   - name: Bank
     value: 105
     description: 'Value 0-63 = first bank (presets 1-4), 64-127 = second bank (presets 5-8)'
