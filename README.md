@@ -22,6 +22,10 @@ Special thanks to all who have contributed!
 List is not updated.
 
 # How to contribute
+## Using the Webform
+We have added a web-based form on OpenMIDI. Submissions will go into a queue which will be reviewed and added.
+<img width="1170" alt="image" src="https://user-images.githubusercontent.com/6988852/193741306-50339e8d-39af-47a4-a33b-5d83af011c30.png">
+
 ## If you are inclined to contribute via GitHub
 1. Fork the repository
 2. Add your changes
@@ -32,17 +36,6 @@ List is not updated.
    
 3. Commit your changes
 4. Create a pull request
-
-## If you want to use Microsoft Excel
-We have created a template in Excel if you want to populate. In the repository, you will see a file called `openmidi_template.xlsx`. 
-1. Download the Excel template
-2. Populate the Excel file
-3. Email it to help@morningstarfx.com with the subject `OpenMIDI - <Brand Name> - <Model Name>`
-4. Our team will review the data, covert it to the required format and push it to the repository.
-
-## Using the Webform
-We have added a web-based form on OpenMIDI. Submissions will go into a queue which will be reviewed and added.
-<img width="1170" alt="image" src="https://user-images.githubusercontent.com/6988852/193741306-50339e8d-39af-47a4-a33b-5d83af011c30.png">
 
 
 # Instructions
