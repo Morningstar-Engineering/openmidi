@@ -10,68 +10,134 @@ pc:
     PC 0-99 recall presets 0-99, respectively.
 
 cc:
-  - name: Level or Level.B / toe / max
+  - name: Level or Level.B / toe / max (MSB)
     value: 7
-    description:
+    description: MSB
     type: Parameter
     min: 0
     max: 127
-  - name: Expression Input
+  - name: Level or Level.B / toe / max (LSB)
+    value: 39
+    description: LSB
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Expression Input (MSB)
     value: 11
-    description:
+    description: MSB
     type: Parameter
     min: 0
     max: 127
-  - name: Mix or Mix.B / toe / max
+  - name: Expression Input (LSB)
+    value: 43
+    description: LSB
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix or Mix.B / toe / max (MSB)
     value: 16
-    description:
+    description: MSB
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 1 or Parameter 1.B / toe / max
+  - name: Mix or Mix.B / toe / max (LSB)
+    value: 48
+    description: LSB
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 1 or Parameter 1.B / toe / max (MSB)
     value: 17
     description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 2 or Parameter 2.B / toe / max
+  - name: Parameter 1 or Parameter 1.B / toe / max (LSB)
+    value: 49
+    description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 2 or Parameter 2.B / toe / max (MSB)
     value: 18
     description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 3 or Parameter 3.B / toe / max
+  - name: Parameter 2 or Parameter 2.B / toe / max (LSB)
+    value: 50
+    description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 3 or Parameter 3.B / toe / max (MSB)
     value: 19
     description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
     type: Parameter
     min: 0
     max: 127
-  - name: Level.A / heel / min
+  - name: Parameter 3 or Parameter 3.B / toe / max (LSB)
+    value: 51
+    description: Parameters 1, 2 and 3 are defined under “Effect-Dependent Parameters.”
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Level.A / heel / min (MSB)
     value: 20
     description:
     type: Parameter
     min: 0
     max: 127
-  - name: Mix.A / heel / min
+  - name: Level.A / heel / min (LSB)
+    value: 52
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix.A / heel / min (MSB)
     value: 21
     description:
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 1.A / heel / min
+  - name: Mix.A / heel / min (LSB)
+    value: 53
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 1.A / heel / min (MSB)
     value: 22
     description:
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 2.A / heel / min
+  - name: Parameter 1.A / heel / min (LSB)
+    value: 54
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 2.A / heel / min (MSB)
     value: 23
     description:
     type: Parameter
     min: 0
     max: 127
-  - name: Parameter 3.A / heel / min
+  - name: Parameter 2.A / heel / min (LSB)
+    value: 55
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 3.A / heel / min (MSB)
     value: 24
+    description:
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Parameter 3.A / heel / min (LSB)
+    value: 56
     description:
     type: Parameter
     min: 0
@@ -79,6 +145,12 @@ cc:
   - name: Engage/Bypass
     value: 80
     description: 0-63 = bypass, 64-127 = engage
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sync Echo Time to Beat Clock
+    value: 81
+    description: 0-63 = do not sync, 64-127 = sync
     type: Parameter
     min: 0
     max: 127
