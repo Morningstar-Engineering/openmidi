@@ -1,0 +1,136 @@
+midi_in: DIN5
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    The MIDI channel can be set by entering setup mode.
+
+    To enter setup mode, hold the ON/OFF button as you power up the pedal. The mode LEDs will spin for 3 seconds.
+    Keep holding until the LEDs stop spinning and all light up in green. Once in setup mode, you can use the MODE
+    button to select a MIDI channel.
+
+    The current MIDI channel is indicated by the four preset LEDs using the following code:
+    | MIDI Channel | LED 1 | LED 2 | LED 3 | LED 4 |
+    | 1 (default)  | off   | off   | off   | off   |
+    | 2            | ON    | off   | off   | off   |
+    | 3            | off   | ON    | off   | off   |
+    | 4            | ON    | ON    | off   | off   |
+    | 5            | off   | off   | ON    | off   |
+    | 6            | ON    | off   | ON    | off   |
+    | 7            | off   | ON    | ON    | off   |
+    | 8            | ON    | ON    | ON    | off   |
+    | 9            | off   | off   | off   | ON    |
+    | 10           | ON    | off   | off   | ON    |
+    | 11           | off   | ON    | off   | ON    |
+    | 12           | ON    | ON    | off   | ON    |
+    | 13           | off   | off   | ON    | ON    |
+    | 14           | ON    | off   | ON    | ON    |
+    | 15           | off   | ON    | ON    | ON    |
+    | 16           | ON    | ON    | ON    | ON    |
+
+    Press the ON/OFF button to save your changes and exit setup mode.
+instructions:
+
+pc:
+  description: |+
+    The Overture responds to standard MIDI program changes on its speciﬁed MIDI channel. Please refer to the Setup 
+    Mode section for details on how to set the MIDI channel. PC numbers 0 through 99 are accepted, for a total of 100 
+    presets. Receiving PC#127 will cause the Overture to bypass itself. After bypassing the Overture using this 
+    method, the next PC message received (in the range of 0-99) will re-activate the pedal.
+
+    Please note that PC numbers are one lower than preset numbers on the Overture. For example, send PC#0 to 
+    recall the ﬁrst preset, send PC#1 to recall the second preset, etc.
+cc:
+  - name: Expression Pedal
+    value: 4
+    description: 'See Expression Pedal section of manual'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Volume
+    value: 7
+    description: 'Value 0=0% volume ... 127=100% volume'
+    min: 0
+    max: 127
+  - name: Expression Volume
+    value: 11
+    description: 'Value 0=0% volume ... 127=current volume knob setting'
+    min: 0
+    max: 127
+  - name: Drive
+    value: 12
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: 13
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: 17
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Level
+    value: 18
+    description: ''
+    min: 0
+    max: 127
+  - name: Pedal Active
+    value: 102
+    description: 'Activate the pedal'
+    min: 127
+    max: 127
+  - name: Pedal Bypassed
+    value: 102
+    description: 'Bypass the pedal'
+    min: 0
+    max: 0
+  - name: Boost Off
+    value: 103
+    description: ''
+    min: 0
+    max: 0
+  - name: Boost On
+    value: 103
+    description: ''
+    min: 127
+    max: 127
+  - name: Drive Mode - Clean Boost
+    value: 104
+    description: ''
+    min: 0
+    max: 0
+  - name: Drive Mode - Classic
+    value: 104
+    description: ''
+    min: 21
+    max: 21
+  - name: Drive Mode - Boutique
+    value: 104
+    description: ''
+    min: 42
+    max: 42
+  - name: Drive Mode - Versatile
+    value: 104
+    description: ''
+    min: 64
+    max: 64
+  - name: Drive Mode - Smooth
+    value: 104
+    description: ''
+    min: 85
+    max: 85
+  - name: Drive Mode - Crunch
+    value: 104
+    description: ''
+    min: 106
+    max: 106
+  - name: Bank
+    value: 105
+    description: 'Value 0-63 = first bank (presets 1-4), 64-127 = second bank (presets 5-8)'
+    min: 0
+    max: 127
