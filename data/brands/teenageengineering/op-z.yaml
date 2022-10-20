@@ -239,3 +239,11 @@ cc:
   min: 1
   name: Note length
   value: 63
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
