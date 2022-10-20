@@ -38,6 +38,16 @@
                 }
             ]
         },
+      {
+        "name": "AVID",
+        "value": "avid",
+        "models": [
+          {
+            "name": "Eleven Rack",
+            "value": "elevenrack"
+          }
+        ]
+      },
         {
             "name": "Behringer",
             "value": "behringer",

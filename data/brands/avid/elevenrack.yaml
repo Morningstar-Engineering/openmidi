@@ -1,0 +1,136 @@
+brand: AVID
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Distortion: Bypass'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Distortion: Engage'
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod: Bypass'
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod: Engage'
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay: Bypass'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay: Engage'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb: Bypass'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb: Engage'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Loop: Bypass'
+  value: 107
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Loop: Engage'
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX 1: Bypass'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX 1: Engage'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX 2: Bypass'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX 2: Engage'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'Wah: Bypass'
+  value: 43
+- description: ''
+  max: 127
+  min: 127
+  name: 'Wah: Engage'
+  value: 43
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp: Bypass'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp: Engage'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Output
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal Position
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Wah Position
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Multi FX Control
+  value: 11
+- description: ''
+  max: 64
+  min: 64
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Cab/Mic: Bypass'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: 'Cab/Mic: Engage'
+  value: 71
+device_name: Eleven Rack
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
