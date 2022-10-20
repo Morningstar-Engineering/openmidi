@@ -49,6 +49,24 @@
             ]
         },
         {
+            "name": "Blackstar Amplification",
+            "value": "blackstaramplification",
+            "models": [
+              {
+                "name": "Silverline Deluxe",
+                "value": "silverlinedeluxe"
+              },
+              {
+                "name": "Silverline Deluxe Head",
+                "value": "silverlinedeluxehead"
+              },
+              {
+                "name": "Silverline Stereo Deluxe",
+                "value": "silverlinestereodeluxe"
+              }
+            ]
+          },
+        {
             "name": "BluGuitar",
             "value": "bluguitar",
             "models": [
