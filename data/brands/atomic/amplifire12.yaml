@@ -1,0 +1,306 @@
+brand: Atomic Amps
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Wah Pedal
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Expression A
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Expression B
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Amplifire
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: Enable Amplifire
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: Effect Loop Enable
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: Effect Loop Disable
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: Volume Enable
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: Volume Disable
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Wah Enable '
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: Wah Disable
+  value: 19
+- description: ''
+  max: 127
+  min: 127
+  name: Boost Enable
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: Boost Disable
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: Effect Enable
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: Effect Disable
+  value: 83
+- description: ''
+  max: 127
+  min: 127
+  name: Chorus Enable
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: Chorus Disable
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: Flanger Enable
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: Flanger Disable
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: Phaser Enable
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: Phaser Disable
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tremolo Enable '
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: Tremolo Disable
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: Pitchshifter Enable
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: Pitchshifter Disable
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: Echo Enable
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: Echo Disable
+  value: 84
+- description: ''
+  max: 127
+  min: 127
+  name: Reverb Enable
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: Reverb Disable
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: Noise Gate Enable
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: Noide Gate Disable
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: Compressor Enable
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: Compressor Disable
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: Graphic EQ Enable
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: Graphic EQ Disable
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: Pre-EQ Enable
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: Pre-EQ Disable
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: Parametric 1 Enable
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: Parametric 1 Disable
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: Paramentric 2 Enable
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: Parametric 2 Disable
+  value: 89
+- description: ''
+  max: 127
+  min: 127
+  name: Parametric 3 Enable
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: Parametric 3 Disable
+  value: 90
+- description: ''
+  max: 127
+  min: 127
+  name: Amp Enable
+  value: 16
+- description: ''
+  max: 0
+  min: 0
+  name: Amp Disable
+  value: 16
+- description: ''
+  max: 127
+  min: 127
+  name: FS1 Press
+  value: 13
+- description: ''
+  max: 127
+  min: 127
+  name: FS2 Press
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: FS3 Press
+  value: 15
+- description: ''
+  max: 127
+  min: 127
+  name: FS4 Press
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: FS5 Press
+  value: 10
+- description: ''
+  max: 127
+  min: 127
+  name: FS6 Press
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: FS7 Press
+  value: 8
+- description: ''
+  max: 127
+  min: 127
+  name: FS8 Press
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: FS9 Press
+  value: 6
+- description: ''
+  max: 127
+  min: 127
+  name: FS0 Press
+  value: 5
+- description: ''
+  max: 127
+  min: 127
+  name: FS+ Press
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: FS- Press
+  value: 3
+device_name: Amplifire 12
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

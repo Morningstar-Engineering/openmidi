@@ -87,6 +87,18 @@
                 {
                     "name": "Amplifire",
                     "value": "amplifire"
+                },
+                {
+                  "name": "Amplifire 12",
+                  "value": "amplifire12"
+                },
+                {
+                  "name": "Amplifire 3",
+                  "value": "amplifire3"
+                },
+                {
+                  "name": "Amplifire 6",
+                  "value": "amplifire6"
                 }
             ]
         },
