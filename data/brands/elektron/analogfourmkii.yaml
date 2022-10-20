@@ -1,0 +1,361 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter A
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter B
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter C
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter D
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter E
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter F
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter G
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter H
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter I
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Performance parameter J
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Modwheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Track level
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pitch
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Level
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Waveform
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Sub oscillator
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pulsewidth
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 PWM speed
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 PWM depth
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Noise S&H
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Noise fade
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Noise level
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pitch
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Waveform
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Sub oscillator
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pulsewidth
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 PWM speed
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 PWM depth
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Sync amount
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Bend amount
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Slide time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato speed
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato depth
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 1 frequency
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 1 resonance
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 1 envelope amount
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 2 frequency
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 2 resonance
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Synth filter 2 envelope amount
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp envA attack time
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp envA decay time
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp envA sustain level
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp envA release time
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp chorus send level
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp delay send level
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp reverb send level
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Synth amp volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF attack time
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF decay time
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF sustain level
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF release time
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF depth A
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Synth envF depth B
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 attack time
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 decay time
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 sustain level
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 release time
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 depth A
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Synth env2 depth B
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO1 speed
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO1 speed multiplier
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO1 depth A
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO1 depth B
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO2 speed
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO2 speed multiplier
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO2 depth A
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO2 depth B
+  value: 27
+device_name: Analog Four MKII
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

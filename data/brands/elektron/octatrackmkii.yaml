@@ -1,0 +1,591 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Track Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Track Balance
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 1
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 2
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 3
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 4
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 5
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 6
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 1
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 2
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 3
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 4
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 5
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Param 6
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 1
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 2
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 3
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 4
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 5
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 6
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 1
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 2
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 3
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 4
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 5
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 6
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Track Level
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Cue Level
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Crossfader
+  value: 48
+- description: ''
+  max: 127
+  min: 127
+  name: Track Mute
+  value: 49
+- description: ''
+  max: 0
+  min: 0
+  name: Track Unmute
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Track Solo
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: Track Unsolo
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: Track Cue
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: Track Uncue
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: Track Arm
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: Track Disarm
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Record Arm
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: Record Disarm
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: All Arm
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: All Disarm
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Scene Select A
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Scene Select B
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Pickup SRC AB Level
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Pickup SRC CD Level
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Note On
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Note Off
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Send Request
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 1 Mute
+  value: 112
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 1 Unmute
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 2 Mute
+  value: 113
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 2 Unmute
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 3 Mute
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 3 Unmute
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 4 Mute
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 4 Unmute
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 5 Mute
+  value: 116
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 5 Unmute
+  value: 116
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 6 Mute
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 6 Unmute
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 7 Mute
+  value: 118
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 7 Unmute
+  value: 118
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 8 Mute
+  value: 119
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 8 Unmute
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 1 Solo
+  value: 120
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 1 Unsolo
+  value: 120
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 2 Solo
+  value: 121
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 2 Unsolo
+  value: 121
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 3 Solo
+  value: 122
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 3 Unsolo
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 4 Solo
+  value: 123
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 4 Unsolo
+  value: 123
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 5 Solo
+  value: 124
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 5 Unsolo
+  value: 124
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 6 Solo
+  value: 125
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 6 Unsolo
+  value: 125
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 7 Solo
+  value: 126
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 7 Unsolo
+  value: 126
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Track 8 Solo
+  value: 127
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Track 8 Unsolo
+  value: 127
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 1 (Note)
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 2 (Velocity)
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 3 (Length)
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 4 (Note 2)
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 5 (Note 3)
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Playback Param 6 (Note 4)
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 1 (Transpose)
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 2 (Legato)
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 3 (Mode)
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Param 4 (Speed) '
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 5 (Octave Range)
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Param 6 (Arp Note Length)
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 1 (Speed 1)
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 2 (Speed 2)
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 3 (Speed 3)
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 4 (Depth 1)
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 5 (Depth 2)
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI LFO Param 6 (Depth 3)
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Aftertouch
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: CC 1 Param
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: CC 2 Param
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: CC 3 Param
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: CC 4 Param
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: CC 5 Param
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: CC 6 Param
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: CC 7 Param
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: CC 8 Param
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: CC 9 Param
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: CC 10 Param
+  value: 45
+device_name: Octatrack MKII
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

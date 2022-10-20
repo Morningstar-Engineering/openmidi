@@ -340,7 +340,52 @@
                   "value": "modrex"
                 }
             ]
-        },
+        },{
+    "name": "Elektron",
+    "value": "elektron",
+    "models": [
+      {
+        "name": "Analog Drive",
+        "value": "analogdrive"
+      },
+      {
+        "name": "Analog Four MKII",
+        "value": "analogfourmkii"
+      },
+      {
+        "name": "Analog Heat MKII",
+        "value": "analogheatmkii"
+      },
+      {
+        "name": "Analog Rytm MKII",
+        "value": "analogrytmmkii"
+      },
+      {
+        "name": "Digitakt",
+        "value": "digitakt"
+      },
+      {
+        "name": "Digitone",
+        "value": "digitone"
+      },
+      {
+        "name": "Digitone Keys",
+        "value": "digitonekeys"
+      },
+      {
+        "name": "Model:Cycles",
+        "value": "modelcycles"
+      },
+      {
+        "name": "Model:Samples",
+        "value": "modelsamples"
+      },
+      {
+        "name": "Octatrack MKII",
+        "value": "octatrackmkii"
+      }
+    ]
+  },
         {
             "name": "Empress",
             "value": "empress",

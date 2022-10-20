@@ -1,0 +1,336 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Circuit: CB'
+  value: 70
+- description: ''
+  max: 1
+  min: 1
+  name: 'Circuit: SA'
+  value: 70
+- description: ''
+  max: 2
+  min: 2
+  name: 'Circuit: EN'
+  value: 70
+- description: ''
+  max: 3
+  min: 3
+  name: 'Circuit: MD'
+  value: 70
+- description: ''
+  max: 4
+  min: 4
+  name: 'Circuit: RC'
+  value: 70
+- description: ''
+  max: 5
+  min: 5
+  name: 'Circuit: CD'
+  value: 70
+- description: ''
+  max: 6
+  min: 6
+  name: 'Circuit: RF'
+  value: 70
+- description: ''
+  max: 7
+  min: 7
+  name: 'Circuit: HG'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Wet Level
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Dry/Wet Mix
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Preset Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Low
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: EQ High
+  value: 10
+- description: ''
+  max: 1
+  min: 1
+  name: 'VCF Mode: LP2'
+  value: 80
+- description: ''
+  max: 3
+  min: 3
+  name: 'VCF Mode: LP1'
+  value: 80
+- description: ''
+  max: 5
+  min: 5
+  name: 'VCF Mode: BP'
+  value: 80
+- description: ''
+  max: 7
+  min: 7
+  name: 'VCF Mode: HP1'
+  value: 80
+- description: ''
+  max: 9
+  min: 9
+  name: 'VCF Mode: HP2'
+  value: 80
+- description: ''
+  max: 11
+  min: 11
+  name: 'VCF Mode: BS'
+  value: 80
+- description: ''
+  max: 13
+  min: 13
+  name: 'VCF Mode: PK'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Frequency Pan
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Dirt
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: ENV to Filter
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to Filter
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Threshold
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Base
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Width
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Mode
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Destination
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Depth
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Destination 2
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: ENV Depth 2
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Wave: Triangle'
+  value: 83
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Wave: Sine'
+  value: 83
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO Wave: Square'
+  value: 83
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO Wave: Saw'
+  value: 83
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO Wave: Exp'
+  value: 83
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO Wave: Ramp'
+  value: 83
+- description: ''
+  max: 6
+  min: 6
+  name: 'LFO Wave: Rnd'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Speed
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Multiplier
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Fade In/Out
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Mode: Free'
+  value: 25
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Mode: Trig'
+  value: 25
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO Mode: Hold'
+  value: 25
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO Mode: One'
+  value: 25
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO Mode: Half'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Start Phase
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Destination
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Depth
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Destination 2
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Depth 2
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: CV A Destination
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: CV A Depth
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Expre. A Destination
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Expre. A Depth
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: CV B Destination
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: CV B Depth
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Expre. B Destination
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Expre. B Depth
+  value: 92
+device_name: Analog Heat MKII
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

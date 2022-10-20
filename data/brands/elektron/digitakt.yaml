@@ -1,0 +1,376 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mute
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Track Level
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Note'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Velocity'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Length'
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Filter Trig'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: LFO Trig'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Tune'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Play Mode'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Bit Reduction'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Sample Slot'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Start'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Length'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Loop Position'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Source: Sample Level'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Frequency'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Type'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Attack Time'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Decay Time'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Sustain Level'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Release Time'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Env. Depth'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Attack Time'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Hold Time'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Decay Time'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Overdrive'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Delay Send'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Reverb Send'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Pan'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Volume'
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Speed'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Multiplier'
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Fade In/Out'
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Destination'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Waveform'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Start Phase'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Trig Mode'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Depth'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Time'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Pingpong'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Stereo Width'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Feedback'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Highpass Filter'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Lowpass Filter'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Reverb Send'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Mix Volume'
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Predelay'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Decay Time'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Shelving Freq'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Shelving Gain'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Highpass Filter'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Lowpass Filter'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Pre/Post Comp'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Mix Volume'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Threshold'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Attack Time'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Release Time'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Makeup Gain'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Pattern Volume'
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Ratio'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Sidechain Source'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Sidechain Filter'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'Comp: Dry/Wet Mix'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL1
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL2
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL3
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL4
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL5
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL6
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL7
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: LFO VAL8
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Pattern Mute
+  value: 66
+device_name: Digitakt
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

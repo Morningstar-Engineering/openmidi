@@ -1,0 +1,141 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Gain MSB
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Gain LSB
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Low MSB
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Low LSB
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Mid Freq MSB
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Mid Freq LSB
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Mid MSB
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Mid LSB
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: High MSB
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: High LSB
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Level MSB
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Level LSB
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Gain MSB
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Gain LSB
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Mid MSB
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression MId LSB
+  value: 33
+- description: ''
+  max: 0
+  min: 0
+  name: 'Circuit: Clean Boost'
+  value: 3
+- description: ''
+  max: 16
+  min: 16
+  name: 'Circuit: Mid Drive'
+  value: 3
+- description: ''
+  max: 32
+  min: 32
+  name: 'Circuit: Dirty Drive'
+  value: 3
+- description: ''
+  max: 48
+  min: 48
+  name: 'Circuit: Big Dist'
+  value: 3
+- description: ''
+  max: 64
+  min: 64
+  name: 'Circuit: Focused Dist'
+  value: 3
+- description: ''
+  max: 80
+  min: 80
+  name: 'Circuit: Harmonic Fuzz'
+  value: 3
+- description: ''
+  max: 96
+  min: 96
+  name: 'Circuit: High Gain'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'Circuit: Thick Gain'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 80
+device_name: Analog Drive
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

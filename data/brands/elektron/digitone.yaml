@@ -1,0 +1,566 @@
+brand: Elektron
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mute
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Track Level
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Root'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Velocity'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Length'
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Filter Trig'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: LFO Trig'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Portamento Time'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'Trig: Portamento On'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Algorithm'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Ratio C'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Ratio A'
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Ratio B'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Harmonics'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Detune'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Feedback'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN1: Mix'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A ENV Attack'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A ENV Decay'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A ENV End'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A ENV Level'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B ENV Attack'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B ENV Decay'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B ENV End'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B Level'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A Delay'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A Trig'
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: A ENV Reset'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B Delay'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B Trig'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: B ENV Reset'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'SYN2: Phase Reset'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Frequency'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Type'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Attack Time'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Decay Time'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Sustain Level'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Release Time'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Env. Depth'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Base'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Width'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Attack Time'
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Decay Time'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Sustain Level'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Release Time'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Drive'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Pan'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Volume'
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Chorus Send'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Delay Send'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Reverb Send'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Env Reset'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Speed LFO1'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Multiplier LFO1'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Fade In/Out LFO1'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Destination LFO1'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Waveform LFO1'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Start Phase LFO1'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Trig Mode LFO1'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Depth LFO1'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Speed LFO2'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Multiplier LFO2'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Fade In/Out LFO2'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Destination LFO2'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Waveform LFO2'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Start Phase LFO2'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Trig Mode LFO2'
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO: Depth LFO2'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL1
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL2
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL3
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL4
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL5
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL6
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL7
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: CC VAL8
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Depth'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Speed'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Highpass'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Width'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Delay Send'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Reverb Send'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Mix Volume'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Time'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Pingpong'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Stereo Width'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Feedback'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Highpass Filter'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Lowpass Filter'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Reverb Send'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Mix Volume'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Predelay'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Decay Time'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Shelving Freq'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Shelving Gain'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Highpass Filter'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Lowpass Filter'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Mix Volume'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Input L Volume
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Input R Volume
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Pan L
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Pan R
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Send
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Send
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Send
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Master Overdrive
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Pattern Volume
+  value: 95
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto
+  value: 66
+device_name: Digitone
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
