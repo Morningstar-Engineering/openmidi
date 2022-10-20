@@ -657,7 +657,15 @@
         {
           "name": "BC-1",
           "value": "bc1"
-        }
+        },
+        {
+        "name": "MIDI 2 X LOOP-er",
+        "value": "midi2xloop-er"
+      },
+      {
+        "name": "MIDI 4 X LOOP-er",
+        "value": "midi4xloop-er"
+      }
       ]
     },
     {
