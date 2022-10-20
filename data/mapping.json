@@ -505,6 +505,24 @@
                 }
             ]
         },
+      {
+    "name": "KSR Amplification",
+    "value": "ksramplification",
+    "models": [
+      {
+        "name": "Artemis 100",
+        "value": "artemis100"
+      },
+      {
+        "name": "Colossus H-100",
+        "value": "colossush-100"
+      },
+      {
+        "name": "Gemini 100",
+        "value": "gemini100"
+      }
+    ]
+  },
         {
             "name": "Line 6",
             "value": "line6",
