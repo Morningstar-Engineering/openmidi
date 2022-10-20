@@ -1,0 +1,16 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Lo Mid: Off'
+  value: 23
+device_name: Steve Morse Signature E662
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,151 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Mute Amp
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: Unmute Amp
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: 'Master A/B: Off'
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'Master A/B: On'
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'Rough/Smooth: Off'
+  value: 15
+- description: ''
+  max: 127
+  min: 127
+  name: 'Rough/Smooth: On'
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: 'Input Lo/Hi: Off'
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Input Lo/Hi: On'
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'Preshape: Off'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Preshape: On'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'Gain Lo/Hi: Off'
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'Gain Lo/Hi: On'
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bright: Off'
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bright: On'
+  value: 23
+- description: ''
+  max: 0
+  min: 0
+  name: 'Noise Gate: Off'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Noise Gate: On'
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'Presence A/B: Off'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Presence A/B: On'
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Depth Boost: Off'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Depth Boost: On'
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Contour - Clean/Crunch I: Off'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Contour - Clean/Crunch I: On'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mid Lean/Bold: Off'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mid Lean/Bold: On'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Contour - Crunch II/Lead: Off'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Contour - Crunch II/Lead: On'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Loop I/II: Off'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Loop I/II: On'
+  value: 30
+device_name: Savage 60 Mark II E630II
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

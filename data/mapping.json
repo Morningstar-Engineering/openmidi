@@ -235,6 +235,88 @@
             ]
         },
         {
+            "name": "ENGL",
+            "value": "engl",
+            "models": [
+              {
+                "name": "Invader II E642II",
+                "value": "invaderiie642ii"
+              },
+              {
+                "name": "Savage 120 Mark II E610II",
+                "value": "savage120markiie610ii"
+              },
+              {
+                "name": "Savage 60 Mark II E630II",
+                "value": "savage60markiie630ii"
+              },
+              {
+                "name": "Steve Morse Signature E656",
+                "value": "stevemorsesignaturee656"
+              },
+              {
+                "name": "Steve Morse Signature E657",
+                "value": "stevemorsesignaturee657"
+              },
+              {
+                "name": "Steve Morse Signature E658",
+                "value": "stevemorsesignaturee658"
+              },
+              {
+                "name": "Steve Morse Signature E659",
+                "value": "stevemorsesignaturee659"
+              },
+              {
+                "name": "Steve Morse Signature E660",
+                "value": "stevemorsesignaturee660"
+              },
+              {
+                "name": "Steve Morse Signature E661",
+                "value": "stevemorsesignaturee661"
+              },
+              {
+                "name": "Steve Morse Signature E662",
+                "value": "stevemorsesignaturee662"
+              },
+              {
+                "name": "Steve Morse Signature E663",
+                "value": "stevemorsesignaturee663"
+              },
+              {
+                "name": "Steve Morse Signature E664",
+                "value": "stevemorsesignaturee664"
+              },
+              {
+                "name": "Steve Morse Signature E665",
+                "value": "stevemorsesignaturee665"
+              },
+              {
+                "name": "Steve Morse Signature E666",
+                "value": "stevemorsesignaturee666"
+              },
+              {
+                "name": "Steve Morse Signature E667",
+                "value": "stevemorsesignaturee667"
+              },
+              {
+                "name": "Steve Morse Signature E668",
+                "value": "stevemorsesignaturee668"
+              },
+              {
+                "name": "Steve Morse Signature E669",
+                "value": "stevemorsesignaturee669"
+              },
+              {
+                "name": "Steve Morse Signature E670",
+                "value": "stevemorsesignaturee670"
+              },
+              {
+                "name": "Steve Morse Signature E671",
+                "value": "stevemorsesignaturee671"
+              }
+            ]
+          },
+        {
             "name": "Eventide",
             "value": "eventide",
             "models": [

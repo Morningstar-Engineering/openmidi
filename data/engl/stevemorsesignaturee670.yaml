@@ -1,0 +1,16 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: FX Loop I
+  value: 30
+device_name: Steve Morse Signature E670
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

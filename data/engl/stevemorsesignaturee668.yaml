@@ -1,0 +1,16 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tone: Off'
+  value: 29
+device_name: Steve Morse Signature E668
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

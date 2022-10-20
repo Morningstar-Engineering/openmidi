@@ -1,0 +1,71 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Mute Amp
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: Unmute Amp
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: 'Master A/B: Off'
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'Master A/B: On'
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'High Gain: Off'
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'High Gain: On'
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'Noise Gate: Off'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Noise Gate: On'
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sound: Off'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sound: On'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Loop I/II: Off'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Loop I/II: On'
+  value: 30
+device_name: Invader II E642II
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

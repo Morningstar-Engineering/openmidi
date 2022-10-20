@@ -1,0 +1,16 @@
+brand: ENGL
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Hi Gain: On'
+  value: 22
+device_name: Steve Morse Signature E661
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
