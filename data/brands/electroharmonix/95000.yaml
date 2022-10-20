@@ -1,0 +1,346 @@
+brand: Electro-Harmonix
+cc:
+- description: ''
+  max: 1
+  min: 1
+  name: Value Knob Press
+  value: 3
+- description: ''
+  max: 2
+  min: 2
+  name: Value Knob Down
+  value: 3
+- description: ''
+  max: 3
+  min: 3
+  name: Value Knob Up
+  value: 3
+- description: ''
+  max: 100
+  min: 100
+  name: Track FSW Press
+  value: 3
+- description: ''
+  max: 101
+  min: 101
+  name: Undo FSW Press
+  value: 3
+- description: ''
+  max: 102
+  min: 102
+  name: Record FSW Press
+  value: 3
+- description: ''
+  max: 103
+  min: 103
+  name: Play/Stop FSW Press
+  value: 3
+- description: ''
+  max: 104
+  min: 104
+  name: Loop Down FSW Press
+  value: 3
+- description: ''
+  max: 105
+  min: 105
+  name: Loop Up FSW Press
+  value: 3
+- description: ''
+  max: 106
+  min: 106
+  name: New Loop Button Press
+  value: 3
+- description: ''
+  max: 107
+  min: 107
+  name: Reverse Button Press
+  value: 3
+- description: ''
+  max: 108
+  min: 108
+  name: Oct Button Press
+  value: 3
+- description: ''
+  max: 109
+  min: 109
+  name: Tap Button Press
+  value: 3
+- description: ''
+  max: 110
+  min: 110
+  name: Track 1 Button Press
+  value: 3
+- description: ''
+  max: 111
+  min: 111
+  name: Track 2 Button Press
+  value: 3
+- description: ''
+  max: 112
+  min: 112
+  name: Track 3 Button Press
+  value: 3
+- description: ''
+  max: 113
+  min: 113
+  name: Track 4 Button Press
+  value: 3
+- description: ''
+  max: 114
+  min: 114
+  name: Track 5 Button Press
+  value: 3
+- description: ''
+  max: 115
+  min: 115
+  name: Track 6 Button Press
+  value: 3
+- description: ''
+  max: 116
+  min: 116
+  name: Mixdown Button Press
+  value: 3
+- description: ''
+  max: 117
+  min: 117
+  name: Punch Button Press
+  value: 3
+- description: ''
+  max: 118
+  min: 118
+  name: Quantize Button Press
+  value: 3
+- description: ''
+  max: 119
+  min: 119
+  name: Page Button Press
+  value: 3
+- description: ''
+  max: 120
+  min: 120
+  name: Mute/Unmute Track 1
+  value: 3
+- description: ''
+  max: 121
+  min: 121
+  name: Mute/Unmute Track 2
+  value: 3
+- description: ''
+  max: 122
+  min: 122
+  name: Mute/Unmute Track 3
+  value: 3
+- description: ''
+  max: 123
+  min: 123
+  name: Mute/Unmute Track 4
+  value: 3
+- description: ''
+  max: 124
+  min: 124
+  name: Mute/Unmute Track 5
+  value: 3
+- description: ''
+  max: 125
+  min: 125
+  name: Mute/Unmute Track 6
+  value: 3
+- description: ''
+  max: 126
+  min: 126
+  name: Mute/Unmute Mixdown
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: Ext. Clock Button Press
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Master Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: CLIX Level
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Output L Volume
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Output R Volume
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Track 1 Volume
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Track 2 Volume
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Track 3 Volume
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Track 4 Volume
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Track 5 Volume
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Track 6 Volume
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Mixdown Volume
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Tempo
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Output L Pan
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Output R Pan
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Track 1 Pan
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Track 2 Pan
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Track 3 Pan
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Track 4 Pan
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Track 5 Pan
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Track 6 Pan
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Track 1 Overdub
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Track 2 Overdub
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Track 3 Overdub
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Track 4 Overdub
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Track 5 Overdub
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Track 6 Overdub
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Mixdown Overdub
+  value: 108
+- description: ''
+  max: 8
+  min: 0
+  name: Count-in Secondary Page
+  value: 109
+- description: ''
+  max: 1
+  min: 0
+  name: Tempo Slider Resolution
+  value: 110
+- description: ''
+  max: 2
+  min: 0
+  name: Clix Mode Secondary Page Mode
+  value: 111
+- description: ''
+  max: 99
+  min: 0
+  name: Fade-out Secondary Page Mode
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: Loop Down
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: Loop Up
+  value: 114
+- description: ''
+  max: 99
+  min: 0
+  name: Loop Direct Select
+  value: 115
+- description: ''
+  max: 8
+  min: 1
+  name: Number of beats per bar
+  value: 116
+device_name: '95000'
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

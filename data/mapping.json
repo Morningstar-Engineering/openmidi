@@ -319,9 +319,25 @@
             "name": "Electro Harmonix",
             "value": "electroharmonix",
             "models": [
+                          {
+                  "name": "45000",
+                  "value": "45000"
+                },
                 {
-                    "name": "HOG2",
-                    "value": "hog2"
+                  "name": "8-Step Program",
+                  "value": "8-stepprogram"
+                },
+                {
+                  "name": "95000",
+                  "value": "95000"
+                },
+                {
+                  "name": "HOG2",
+                  "value": "hog2"
+                },
+                {
+                  "name": "ModRex",
+                  "value": "modrex"
                 }
             ]
         },

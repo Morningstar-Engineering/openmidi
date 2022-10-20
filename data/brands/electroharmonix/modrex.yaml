@@ -1,0 +1,121 @@
+brand: Electro-Harmonix
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 3
+  min: 0
+  name: MOD Type
+  value: 18
+- description: ''
+  max: 2
+  min: 0
+  name: FILTER Type
+  value: 19
+- description: ''
+  max: 3
+  min: 0
+  name: MOD Shape
+  value: 20
+- description: ''
+  max: 2
+  min: 0
+  name: TREM Shape
+  value: 21
+- description: ''
+  max: 2
+  min: 0
+  name: PAN Shape
+  value: 22
+- description: ''
+  max: 3
+  min: 0
+  name: FILTER Shape
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: MOD R-INV On
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: MOD R-INV Off
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: FILTER R-INV On
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: FILTER R-INV Off
+  value: 25
+- description: ''
+  max: 9
+  min: 0
+  name: MOD Division
+  value: 26
+- description: ''
+  max: 9
+  min: 0
+  name: TREM Division
+  value: 27
+- description: ''
+  max: 9
+  min: 0
+  name: PAN Division
+  value: 28
+- description: ''
+  max: 9
+  min: 0
+  name: FILTER Division
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Feedback
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: FILTER Resonance
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: TREM Depth
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Depth
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: PAN Depth
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: FILTER Depth
+  value: 95
+device_name: ModRex
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

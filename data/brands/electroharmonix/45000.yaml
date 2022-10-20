@@ -1,0 +1,156 @@
+brand: Electro-Harmonix
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Clix Level
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Out Slider
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Track 1 Play/Feedback Slider
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Track 2 Play/Feedback Slider
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Track 3 Play/Feedback Slider
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Track 4 Play/Feedback Slider
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Track Play/Feedback Slider
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Tempo Slider
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Out Pan
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Track 1 Pan
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Track 2 Pan
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Track 3 Pan
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Track 4 Pan
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: Push REC Button
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Push NEW Button
+  value: 103
+- description: ''
+  max: 127
+  min: 127
+  name: Push PLAY Button
+  value: 104
+- description: ''
+  max: 127
+  min: 127
+  name: Push TRACK SELECT Button
+  value: 105
+- description: ''
+  max: 127
+  min: 127
+  name: Push EXT SYNC Button
+  value: 106
+- description: ''
+  max: 127
+  min: 127
+  name: Push MIXDOWN Button
+  value: 107
+- description: ''
+  max: 127
+  min: 127
+  name: Push STEREO Button
+  value: 108
+- description: ''
+  max: 127
+  min: 127
+  name: Push REVERSE Button
+  value: 109
+- description: ''
+  max: 127
+  min: 127
+  name: Push OCTAVE Button
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: Push PUNCH-IN Button
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: Push QUANTIZE Button
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: Loop Down
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: Loop Up
+  value: 114
+- description: ''
+  max: 99
+  min: 0
+  name: Loop Select
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: 'OMNI: Off'
+  value: 124
+- description: ''
+  max: 0
+  min: 0
+  name: 'MONI: On'
+  value: 125
+device_name: '45000'
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

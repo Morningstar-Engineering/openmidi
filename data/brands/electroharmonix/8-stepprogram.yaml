@@ -1,0 +1,326 @@
+brand: Electro-Harmonix
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Step 1 Slider
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Step 2 Slider
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Step 3 Slider
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Step 4 Slider
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Step 5 Slider
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Step 6 Slider
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Step 7 Slider
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Step 8 Slider
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Rate Slider
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Direction: Forward'
+  value: 26
+- description: ''
+  max: 1
+  min: 1
+  name: 'Direction: Reverse'
+  value: 26
+- description: ''
+  max: 2
+  min: 2
+  name: 'Direction: Bounce'
+  value: 26
+- description: ''
+  max: 3
+  min: 3
+  name: 'Direction: Random'
+  value: 26
+- description: ''
+  max: 1
+  min: 1
+  name: 'Sequencer Length: 1'
+  value: 27
+- description: ''
+  max: 2
+  min: 2
+  name: 'Sequencer Length: 2'
+  value: 27
+- description: ''
+  max: 3
+  min: 3
+  name: 'Sequencer Length: 3'
+  value: 27
+- description: ''
+  max: 4
+  min: 4
+  name: 'Sequencer Length: 4'
+  value: 27
+- description: ''
+  max: 5
+  min: 5
+  name: 'Sequencer Length: 5'
+  value: 27
+- description: ''
+  max: 6
+  min: 6
+  name: 'Sequencer Length: 6'
+  value: 27
+- description: ''
+  max: 7
+  min: 7
+  name: 'Sequencer Length: 7'
+  value: 27
+- description: ''
+  max: 8
+  min: 8
+  name: 'Sequencer Length: 8'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tap Divide: 1/4'
+  value: 29
+- description: ''
+  max: 1
+  min: 1
+  name: 'Tap Divide: 1/8d'
+  value: 29
+- description: ''
+  max: 2
+  min: 2
+  name: 'Tap Divide: 1/4 T'
+  value: 29
+- description: ''
+  max: 3
+  min: 3
+  name: 'Tap Divide: 1/8'
+  value: 29
+- description: ''
+  max: 4
+  min: 4
+  name: 'Tap Divide: 1/8 T'
+  value: 29
+- description: ''
+  max: 5
+  min: 5
+  name: 'Tap Divide: 1/16'
+  value: 29
+- description: ''
+  max: 6
+  min: 6
+  name: 'Tap Divide: 1/32'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Expression: Off'
+  value: 30
+- description: ''
+  max: 1
+  min: 1
+  name: 'Expression: Rrate'
+  value: 30
+- description: ''
+  max: 2
+  min: 2
+  name: 'Expression: Depth'
+  value: 30
+- description: ''
+  max: 3
+  min: 3
+  name: 'Expression: Glide'
+  value: 30
+- description: ''
+  max: 4
+  min: 4
+  name: 'Expression: Seq. Length'
+  value: 30
+- description: ''
+  max: 5
+  min: 5
+  name: 'Expression: Ext. Clock'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Play Mode: Loop'
+  value: 31
+- description: ''
+  max: 1
+  min: 1
+  name: 'Play Mode: 1-Shot'
+  value: 31
+- description: ''
+  max: 2
+  min: 2
+  name: 'Play Mode: Step-Thru'
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: 'Encoder Mode: Glide'
+  value: 33
+- description: ''
+  max: 1
+  min: 1
+  name: 'Encoder Mode: Direction'
+  value: 33
+- description: ''
+  max: 2
+  min: 2
+  name: 'Encoder Mode: Seq. Length'
+  value: 33
+- description: ''
+  max: 3
+  min: 3
+  name: 'Encoder Mode: Depth'
+  value: 33
+- description: ''
+  max: 4
+  min: 4
+  name: 'Encoder Mode: Preset'
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: 'Play FSW: Start'
+  value: 34
+- description: ''
+  max: 0
+  min: 0
+  name: 'Play FSW: Stop'
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: Reset FSW Press
+  value: 35
+- description: ''
+  max: 127
+  min: 127
+  name: TAP FSW Press
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: TAP Divide Button Press
+  value: 37
+- description: ''
+  max: 127
+  min: 127
+  name: Exp. Mode Button Press
+  value: 39
+- description: ''
+  max: 127
+  min: 127
+  name: Encoder Mode Button Press
+  value: 40
+- description: ''
+  max: 1
+  min: 1
+  name: 'Sequencer Step: 1'
+  value: 41
+- description: ''
+  max: 2
+  min: 2
+  name: 'Sequencer Step: 2'
+  value: 41
+- description: ''
+  max: 3
+  min: 3
+  name: 'Sequencer Step: 3'
+  value: 41
+- description: ''
+  max: 4
+  min: 4
+  name: 'Sequencer Step: 4'
+  value: 41
+- description: ''
+  max: 5
+  min: 5
+  name: 'Sequencer Step: 5'
+  value: 41
+- description: ''
+  max: 6
+  min: 6
+  name: 'Sequencer Step: 6'
+  value: 41
+- description: ''
+  max: 7
+  min: 7
+  name: 'Sequencer Step: 7'
+  value: 41
+- description: ''
+  max: 8
+  min: 8
+  name: 'Sequencer Step: 8'
+  value: 41
+- description: ''
+  max: 99
+  min: 0
+  name: Save Preset
+  value: 117
+- description: ''
+  max: 99
+  min: 0
+  name: Load Preset
+  value: 118
+- description: ''
+  max: 127
+  min: 127
+  name: Unload Preset
+  value: 118
+device_name: 8-Step Program
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
