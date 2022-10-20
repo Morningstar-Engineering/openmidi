@@ -1,0 +1,16 @@
+brand: DigiTech
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+device_name: Whammy
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

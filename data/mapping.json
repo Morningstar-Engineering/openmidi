@@ -277,10 +277,18 @@
             "name": "DigiTech",
             "value": "digitech",
             "models": [
+              {
+        "name": "Bass Whammy",
+        "value": "basswhammy"
+      },
                 {
-                    "name": "Whammy DT",
-                    "value": "whammydt"
-                }
+                    "name": "Whammy",
+                    "value": "whammy"
+                },
+      {
+        "name": "Whammy DT",
+        "value": "whammydt"
+      }
             ]
         },
         {
