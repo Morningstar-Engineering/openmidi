@@ -25,6 +25,58 @@
                 {
                     "name": "Superball",
                     "value": "superball"
+                },
+              {
+                  "name": "Colour Theory ",
+                  "value": "colourtheory"
+                },
+                {
+                  "name": "Defender Neo",
+                  "value": "defenderneo"
+                },
+                {
+                  "name": "F.13 Neo",
+                  "value": "f13neo"
+                },
+                {
+                  "name": "Marshmallow",
+                  "value": "marshmallow"
+                },
+                {
+                  "name": "Oblivion Vintage Delay",
+                  "value": "oblivionvintagedelay"
+                },
+                {
+                  "name": "Quadrant Audio Mirror",
+                  "value": "quadrantaudiomirror"
+                },
+                {
+                  "name": "Radical Delay DX",
+                  "value": "radicaldelaydx"
+                },
+                {
+                  "name": "SKY 5000",
+                  "value": "sky5000"
+                },
+                {
+                  "name": "Space Race",
+                  "value": "spacerace"
+                },
+                {
+                  "name": "Super Neo-Matic",
+                  "value": "superneo-matic"
+                },
+                {
+                  "name": "Super Radical Delay",
+                  "value": "superradicaldelay"
+                },
+                {
+                  "name": "Syntax Error",
+                  "value": "syntaxerror"
+                },
+                {
+                  "name": "Wavelength",
+                  "value": "wavelength"
                 }
             ]
         },

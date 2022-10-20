@@ -1,0 +1,166 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: Ramp
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Lo Knob
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Time Lo Knob
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Repeat Lo Knob
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Lo Knob
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Hi Knob
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Time Hi Knob
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Repeat Hi Knob
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Hi Knob
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Shape
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Depth
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Sync: No Sync'
+  value: 61
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO Sync: Tap'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Sync: Bounce/Step'
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer Pattern
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer Rate
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer Steps
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sequencer Sync: No Sync'
+  value: 65
+- description: ''
+  max: 64
+  min: 64
+  name: 'Sequencer Sync: Tap'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sequencer Sync: Bounce/Step'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Dry Source: Analog w/Trails'
+  value: 66
+- description: ''
+  max: 64
+  min: 64
+  name: 'Dry Source: Analog'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Dry Source: DSP'
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Ramp Rate
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: External Control Channel
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Level
+  value: 69
+device_name: Superball Kinetic Modulator
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

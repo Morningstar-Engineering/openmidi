@@ -1,0 +1,131 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: Ramp
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Repeat Knob
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Knob
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Knob
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Knob
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Level Knob
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Ramp Rate Knob
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'Subdivision: 1/4'
+  value: 56
+- description: ''
+  max: 64
+  min: 64
+  name: 'Subdivision: Dot '
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: 'Subdivisioni: 1/8'
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Level Knob
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mode: RVB + DIG'
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mode: +1 + DIG'
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mode: -1 + DIG'
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mode: RVB + BBD'
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mode: +1 + BBD'
+  value: 59
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mode: -1 + BBD'
+  value: 59
+- description: ''
+  max: 6
+  min: 6
+  name: 'Mode: RVB + OIL'
+  value: 59
+- description: ''
+  max: 7
+  min: 7
+  name: 'Mode: +1 + OIL'
+  value: 59
+- description: ''
+  max: 8
+  min: 8
+  name: 'Mode: -1 + OIL'
+  value: 59
+device_name: SKY 5000
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

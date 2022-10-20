@@ -1,0 +1,111 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Warp
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Mass Knob
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Level Knob
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Drive Knob
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Light Knob
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Tweak Knob
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Warp Speed Knob
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Knob
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mode: OD + PIT'
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mode: OD + SPC'
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mode: OD + FLT'
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mode: DST + PIT'
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mode: DST + SPC'
+  value: 59
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mode: DST + SPC'
+  value: 59
+- description: ''
+  max: 6
+  min: 6
+  name: 'Mode: FZ + PIT'
+  value: 59
+- description: ''
+  max: 7
+  min: 7
+  name: 'Mode: FZ + SPC'
+  value: 59
+- description: ''
+  max: 8
+  min: 8
+  name: 'Mode: FX + FLT'
+  value: 59
+device_name: Defender Neo
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

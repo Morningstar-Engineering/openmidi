@@ -1,0 +1,166 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Step Lag
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Sequence Rate
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Right Alt
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Left Alt
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Left Alt
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: Mode 1
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: Mode 2
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: Mode 3
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: Mode 4
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: Mode 5
+  value: 59
+- description: ''
+  max: 5
+  min: 5
+  name: Mode 6
+  value: 59
+- description: ''
+  max: 6
+  min: 6
+  name: Mode 7
+  value: 59
+- description: ''
+  max: 7
+  min: 7
+  name: Mode 8
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: 'Set Steps: 2'
+  value: 56
+- description: ''
+  max: 3
+  min: 3
+  name: 'Set Steps: 3'
+  value: 56
+- description: ''
+  max: 4
+  min: 4
+  name: 'Set Steps: 4'
+  value: 56
+- description: ''
+  max: 5
+  min: 5
+  name: 'Set Steps: 5'
+  value: 56
+- description: ''
+  max: 6
+  min: 6
+  name: 'Set Steps: 6'
+  value: 56
+- description: ''
+  max: 7
+  min: 7
+  name: 'Set Steps: 7'
+  value: 56
+- description: ''
+  max: 8
+  min: 8
+  name: 'Set Steps: 8'
+  value: 56
+- description: ''
+  max: 8
+  min: 1
+  name: Set Current Step
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: Start Sequence
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: Park Sequence
+  value: 61
+- description: ''
+  max: 0
+  min: 0
+  name: 'Set Sequence Order: Step Up'
+  value: 62
+- description: ''
+  max: 1
+  min: 1
+  name: 'Set Sequence Order: Step Up and Down'
+  value: 62
+- description: ''
+  max: 2
+  min: 2
+  name: 'Set Sequence Order: Random'
+  value: 62
+device_name: 'Colour Theory '
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

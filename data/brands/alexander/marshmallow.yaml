@@ -1,0 +1,121 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Ramp
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Knob
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Knob
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Two Knob
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Knob
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Ramp Rate Knob
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: ALT Knob
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Clock Knob
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Level Knob
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pitch Lock: Unlock'
+  value: 58
+- description: ''
+  max: 1
+  min: 1
+  name: 'Pitch Lock: Chromatic'
+  value: 58
+- description: ''
+  max: 2
+  min: 2
+  name: 'Pitch Lock: Major'
+  value: 58
+- description: ''
+  max: 3
+  min: 3
+  name: 'Pitch Lock: Minor'
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mode: Mod'
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mode: Cloud'
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mode: Ring'
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mode: Rand'
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mode: Arpy'
+  value: 59
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mode: Dyna'
+  value: 59
+device_name: Marshmallow
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

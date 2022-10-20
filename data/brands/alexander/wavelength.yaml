@@ -1,0 +1,101 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: Ramp
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Tweak Knob
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Rate Knob
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Depth/Manual Knob
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Knob
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Shape Knob
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Ramp Speed Knob
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Level Knob
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: Mode 1
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: Mode 2
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: Mode 3
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: Mode 4
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: Mode 5
+  value: 59
+- description: ''
+  max: 5
+  min: 5
+  name: Mode 6
+  value: 59
+device_name: Wavelength
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,131 @@
+brand: Alexander Pedals
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Direct Save Preset
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: Set Mix Control
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Set Delay Time Control
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Set Repeat Control
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Set Modulation Rate
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Set Modulation Depth/Multi Pattern
+  value: 121
+- description: ''
+  max: 13
+  min: 0
+  name: Set Boost Level
+  value: 123
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Wave: Sine'
+  value: 124
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Wave: Square'
+  value: 124
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO Wave: Ramp A'
+  value: 124
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO Wave: Ramp B'
+  value: 124
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO Wave: Random'
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Set Tone Control
+  value: 125
+- description: ''
+  max: 0
+  min: 0
+  name: 'Subdivision: Quarter'
+  value: 126
+- description: ''
+  max: 1
+  min: 1
+  name: 'Subdivision: Dotted Eighth'
+  value: 126
+- description: ''
+  max: 2
+  min: 2
+  name: 'Subdivision: Triplet'
+  value: 126
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Machine: Analog'
+  value: 127
+- description: ''
+  max: 1
+  min: 1
+  name: 'Delay Machine: Tape'
+  value: 127
+- description: ''
+  max: 2
+  min: 2
+  name: 'Delay Machine: Oil Can'
+  value: 127
+- description: ''
+  max: 3
+  min: 3
+  name: 'Delay Machine: Multi'
+  value: 127
+device_name: Oblivion Vintage Delay
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
