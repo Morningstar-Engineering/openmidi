@@ -501,7 +501,15 @@
                 {
                     "name": "H9",
                     "value": "h9"
-                }
+                },
+              {
+        "name": "Blackhole",
+        "value": "blackhole"
+      },
+      {
+        "name": "Rose",
+        "value": "rose"
+      }
             ]
         },
         {

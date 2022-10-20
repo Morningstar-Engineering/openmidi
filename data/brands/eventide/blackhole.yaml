@@ -1,0 +1,96 @@
+brand: Eventide Audio
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: Freeze
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: Unfreeze
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Gravity
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Size
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Lo
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Hi
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Delay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Q
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Out Level
+  value: 31
+device_name: Blackhole
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,216 @@
+brand: Eventide Audio
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Phase/Reverse: On'
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'Phase/Reverse: Off'
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'Multiplier: On'
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: 'Multiplier: Off'
+  value: 15
+- description: ''
+  max: 3
+  min: 0
+  name: Multiplier Factor
+  value: 16
+- description: ''
+  max: 4
+  min: 0
+  name: LFO Shape
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Hold: On'
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Hold: Off'
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Reset: On'
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Reset: Off'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Coarse Delay
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Fine Delay
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: Alt-A
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: Alt-B
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Infinite Repeat: On'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Infinite Repeat: Off'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bypass Type: Buffer'
+  value: 30
+- description: ''
+  max: 1
+  min: 1
+  name: 'Bypass Type: Buffer + Kill Dry'
+  value: 30
+- description: ''
+  max: 2
+  min: 2
+  name: 'Bypass Type: Relay'
+  value: 30
+- description: ''
+  max: 3
+  min: 3
+  name: 'Bypass Type: Relay + Kill Dry'
+  value: 30
+- description: ''
+  max: 4
+  min: 4
+  name: 'Bypass Type: Input-Kill'
+  value: 30
+- description: ''
+  max: 5
+  min: 5
+  name: 'Bypass Type: Input-Kill + Kill Dry'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Expression Jack: Aux'
+  value: 31
+- description: ''
+  max: 1
+  min: 1
+  name: 'Expression Jack: Expression'
+  value: 31
+- description: ''
+  max: 2
+  min: 2
+  name: 'Expression Jack: Mod'
+  value: 31
+- description: ''
+  max: 3
+  min: 3
+  name: 'Expression Jack: MIDI'
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tap Mode: Tap Tempo'
+  value: 80
+- description: ''
+  max: 1
+  min: 1
+  name: 'Tap Mode: Tap LFO'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: Tap (Tempo/LFO)
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tap Divisions: 1/4'
+  value: 82
+- description: ''
+  max: 1
+  min: 1
+  name: 'Tap Divisions: 1/8'
+  value: 82
+- description: ''
+  max: 2
+  min: 2
+  name: 'Tap Divisions: 1/8d'
+  value: 82
+- description: ''
+  max: 3
+  min: 3
+  name: 'Tap Divisions: Triplet'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Direct LFO Modulation
+  value: 85
+device_name: Rose
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
