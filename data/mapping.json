@@ -705,6 +705,16 @@
       ]
     },
     {
+    "name": "Hotone",
+    "value": "hotone",
+    "models": [
+      {
+        "name": "Ampero",
+        "value": "ampero"
+      }
+    ]
+  },
+    {
       "name": "Hughes & Kettner",
       "value": "hughes&kettner",
       "models": [

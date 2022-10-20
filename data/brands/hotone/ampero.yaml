@@ -1,0 +1,311 @@
+brand: Hotone
+cc:
+- description: ''
+  max: 100
+  min: 0
+  name: Patch Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: EXP 1
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: EXP 1 On
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: EXP 1 Off
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 1 MSB
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 1 LSB
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 2 MSB
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 2 LSB
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 3 MSB
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Quick Access Knob 3 LSB
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Back
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Forward
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Patch Back
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Patch Forward
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Back (Wait Mode)
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Forward (Wait Mode)
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: FX1 Module On
+  value: 48
+- description: ''
+  max: 0
+  min: 0
+  name: FX1 Module Off
+  value: 48
+- description: ''
+  max: 127
+  min: 127
+  name: FX2 Module On
+  value: 49
+- description: ''
+  max: 0
+  min: 0
+  name: FX2 Module Off
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Amp Module On
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: Amp Module Off
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: NR Module On
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: NR Module Off
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: CAB Module On
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: CAB Module Off
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: EQ Module On
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: EQ Module Off
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: FX3 Module On
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: FX3 Module Off
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: DLY Module On
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: DLY Module Off
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: RVB Module On
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: RVB Module Off
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner On
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: Tuner Off
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: Drum Machine Menu On
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: Drum Machine Menu Off
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: Drum Machine Play
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: Drum Machine Stop
+  value: 59
+- description: ''
+  max: 99
+  min: 0
+  name: Drum Machine Rhythm Type
+  value: 60
+- description: ''
+  max: 100
+  min: 0
+  name: Drum Machine Volume
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: On'
+  value: 62
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Off'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Stop'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Half-Speed'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Full Speed'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Reverse'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Forward'
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Delete Loop
+  value: 68
+- description: ''
+  max: 99
+  min: 0
+  name: Looper Recording Volume
+  value: 69
+- description: ''
+  max: 99
+  min: 0
+  name: Looper Playback Volume
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper Placement: Rear'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper Placement: Front'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL Footswitch
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: Device Lock
+  value: 76
+- description: ''
+  max: 127
+  min: 127
+  name: Device Unlock
+  value: 76
+device_name: Ampero
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
