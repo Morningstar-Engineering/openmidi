@@ -1,0 +1,241 @@
+data:
+- description: ''
+  max: 127
+  min: 0
+  name: Parameter 1 absolute
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Parameter 2 absolute
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff absolute
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance absolute
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope attack absolute
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope decay absolute
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope sustain absolute
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope release absolute
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: LFO depth absolute
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: LFO speed absolute
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: LFO target absolute
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: LFO shape absolute
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: FX 1 send absolute
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: FX 2 send absolute
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Pan absolute
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Volume absolute
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento absolute
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Note style absolute
+  value: 18
+- description: ''
+  max: 127
+  min: 1
+  name: Parameter 1 relative
+  value: 32
+- description: ''
+  max: 127
+  min: 1
+  name: Parameter 2 relative
+  value: 33
+- description: ''
+  max: 127
+  min: 1
+  name: Filter cutoff relative
+  value: 34
+- description: ''
+  max: 127
+  min: 1
+  name: Filter resonance relative
+  value: 35
+- description: ''
+  max: 127
+  min: 1
+  name: Envelope attack relative
+  value: 36
+- description: ''
+  max: 127
+  min: 1
+  name: Envelope decay relative
+  value: 37
+- description: ''
+  max: 127
+  min: 1
+  name: Envelope sustain relative
+  value: 38
+- description: ''
+  max: 127
+  min: 1
+  name: Envelope release relative
+  value: 39
+- description: ''
+  max: 127
+  min: 1
+  name: LFO depth relative
+  value: 40
+- description: ''
+  max: 127
+  min: 1
+  name: LFO speed relative
+  value: 41
+- description: ''
+  max: 127
+  min: 1
+  name: LFO target relative
+  value: 42
+- description: ''
+  max: 127
+  min: 1
+  name: LFO shape relative
+  value: 43
+- description: ''
+  max: 127
+  min: 1
+  name: FX 1 send relative
+  value: 44
+- description: ''
+  max: 127
+  min: 1
+  name: FX 2 send relative
+  value: 45
+- description: ''
+  max: 127
+  min: 1
+  name: Pan relative
+  value: 46
+- description: ''
+  max: 127
+  min: 1
+  name: Volume relative
+  value: 47
+- description: ''
+  max: 127
+  min: 1
+  name: Portamento relative
+  value: 48
+- description: ''
+  max: 127
+  min: 1
+  name: Note style relative
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Track gain absolute
+  value: 50
+- description: ''
+  max: 127
+  min: 1
+  name: Track gain relative
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Reset track gains
+  value: 52
+- description: ''
+  max: 1
+  min: 0
+  name: Mute
+  value: 53
+- description: ''
+  max: 1
+  min: 0
+  name: Audio mute
+  value: 54
+- description: ''
+  max: 9
+  min: 0
+  name: Mute group
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Tempo
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Swing
+  value: 57
+- description: ''
+  max: 16
+  min: 1
+  name: Track step count
+  value: 60
+- description: ''
+  max: 16
+  min: 1
+  name: Track step length
+  value: 61
+- description: ''
+  max: 16
+  min: 1
+  name: Quantize
+  value: 62
+- description: ''
+  max: 16
+  min: 1
+  name: Note length
+  value: 63

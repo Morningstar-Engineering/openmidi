@@ -638,6 +638,16 @@
             ]
         },
         {
+            "name": "Teenage Engineering",
+            "value": "teenageengineering",
+            "models": [
+                {
+                    "name": "OP-Z",
+                    "value": "op-z"
+                }
+            ]
+        },
+        {
             "name": "Walrus Audio",
             "value": "walrusaudio",
             "models": [
