@@ -1,0 +1,166 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Overdub'
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record'
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Stop'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play Once'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Undo/Redo'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Reverse Toggle'
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Half Speed Toggle'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: Looper On
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: Looper Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 1
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 2
+  value: 2
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 1A: On'
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 1A: Bypass'
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 1B: On'
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 1B: Bypass'
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 2A: On'
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 2A: Bypass'
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 2B: On'
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 2B: Bypass'
+  value: 15
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 3A: On'
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 3A: Bypass'
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Unit 3B: On'
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Unit 3B: Bypass'
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass All + FX Loop
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: Engage All + FX Loop
+  value: 23
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass All excl. FX Loop
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: Engage All excl. FX Loop
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner On
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: Tuner Off
+  value: 69
+device_name: M9 v2.0 Stompbox Modeler
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

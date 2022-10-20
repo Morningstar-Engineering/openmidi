@@ -1,0 +1,551 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Tweak
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Wah Position
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp: Tube Preamp '
+  value: 12
+- description: ''
+  max: 1
+  min: 1
+  name: 'Amp: Line 6 Clean'
+  value: 12
+- description: ''
+  max: 2
+  min: 2
+  name: 'Amp: Line 6 Crunch'
+  value: 12
+- description: ''
+  max: 3
+  min: 3
+  name: 'Amp: Line 6 Drive'
+  value: 12
+- description: ''
+  max: 4
+  min: 4
+  name: 'Amp: Line 6 Layer'
+  value: 12
+- description: ''
+  max: 5
+  min: 5
+  name: 'Amp: Small Tweed '
+  value: 12
+- description: ''
+  max: 6
+  min: 6
+  name: 'Amp: Tweed Blues'
+  value: 12
+- description: ''
+  max: 7
+  min: 7
+  name: 'Amp: Black Panel'
+  value: 12
+- description: ''
+  max: 8
+  min: 8
+  name: 'Amp: Modern Class A '
+  value: 12
+- description: ''
+  max: 9
+  min: 9
+  name: 'Amp: Brit Class A '
+  value: 12
+- description: ''
+  max: 10
+  min: 10
+  name: 'Amp: Brit Blues '
+  value: 12
+- description: ''
+  max: 11
+  min: 11
+  name: 'Amp: Brit Classic'
+  value: 12
+- description: ''
+  max: 12
+  min: 12
+  name: 'Amp: Brit Hi Gain'
+  value: 12
+- description: ''
+  max: 13
+  min: 13
+  name: 'Amp: Treadplate'
+  value: 12
+- description: ''
+  max: 14
+  min: 14
+  name: 'Amp: Modern Hi Gain'
+  value: 12
+- description: ''
+  max: 15
+  min: 15
+  name: 'Amp: Fuzz Box'
+  value: 12
+- description: ''
+  max: 16
+  min: 16
+  name: 'Amp: Jazz Clean '
+  value: 12
+- description: ''
+  max: 17
+  min: 17
+  name: 'Amp: Boutique #1'
+  value: 12
+- description: ''
+  max: 18
+  min: 18
+  name: 'Amp: Boutique #2 '
+  value: 12
+- description: ''
+  max: 19
+  min: 19
+  name: 'Amp: Brit Class A #2'
+  value: 12
+- description: ''
+  max: 20
+  min: 20
+  name: 'Amp: Brit Class A #3 '
+  value: 12
+- description: ''
+  max: 21
+  min: 21
+  name: 'Amp: Small Tweed #2 '
+  value: 12
+- description: ''
+  max: 22
+  min: 22
+  name: 'Amp: Black Panel #2 '
+  value: 12
+- description: ''
+  max: 23
+  min: 23
+  name: 'Amp: Boutique #3'
+  value: 12
+- description: ''
+  max: 24
+  min: 24
+  name: 'Amp: California Crunch #1 '
+  value: 12
+- description: ''
+  max: 25
+  min: 25
+  name: 'Amp: California Crunch #2 '
+  value: 12
+- description: ''
+  max: 26
+  min: 26
+  name: 'Amp: Treadplate #2 '
+  value: 12
+- description: ''
+  max: 27
+  min: 27
+  name: 'Amp: Modern Hi Gain #2'
+  value: 12
+- description: ''
+  max: 28
+  min: 28
+  name: 'Amp: Line 6 Twang'
+  value: 12
+- description: ''
+  max: 29
+  min: 29
+  name: 'Amp: Line 6 Crunch #2'
+  value: 12
+- description: ''
+  max: 30
+  min: 30
+  name: 'Amp: Line 6 Blues'
+  value: 12
+- description: ''
+  max: 31
+  min: 31
+  name: 'Amp: Line 6 INSANE'
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp 1 Drive: On'
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp 1 Drive: Off'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Amp 1 Bass
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Amp 1 Mid
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Amp 1 Treble
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Amp 1 Channel Volume
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Level
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Drive 2
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Amp 1 Presence
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: Noise Gate On
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: Noise Gate Off
+  value: 22
+- description: ''
+  max: 127
+  min: 32
+  name: Gate Threshold
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Gate Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Stomp Enable: On'
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Stomp Enable: Off'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Comp Enable: On'
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Comp Enable: Off'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Presence Boost: On'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'Presence Boost: Off'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay Enable: On'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Enable: Off'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Param 1 MSB
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay Regeneration '
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Mix
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb Enable: On'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb Enable: Off'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Model
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Decay
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Tone
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Diffusion
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Density
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Compression Ratio
+  value: 42
+- description: ''
+  max: 127
+  min: 127
+  name: Wah Enable
+  value: 43
+- description: ''
+  max: 0
+  min: 0
+  name: Wah Disable
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Wah Bottom Frequency
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Wah Top Frequency
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal Minimum
+  value: 46
+- description: ''
+  max: 0
+  min: 0
+  name: Volume Pre Amp Model
+  value: 47
+- description: ''
+  max: 127
+  min: 127
+  name: Volume Post Amp Model
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Swell Enable
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Vol Swell Ramp Time
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Mod Enable
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: Mod Disable
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus/Flange Speed
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus/Flange Depth
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus/Flange Regen
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Pre-Delay
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speed
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Max Speed
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Min Speed
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Tremolo Speed
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Tremolo Depth
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time (Dbl precision)
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Cabinet: 1x8 60 Fender Tweed Champ'
+  value: 71
+- description: ''
+  max: 1
+  min: 1
+  name: 'Cabinet: 1x12 52 Fender Tweed Deluxe'
+  value: 71
+- description: ''
+  max: 2
+  min: 2
+  name: 'Cabinet: 1x12 60 Vo'
+  value: 71
+- description: ''
+  max: 3
+  min: 3
+  name: 'Cabinet: 1x12 64 Fender Blackface '
+  value: 71
+- description: ''
+  max: 4
+  min: 4
+  name: 'Cabinet: 1x12 98 Line 6 Fle'
+  value: 71
+- description: ''
+  max: 5
+  min: 5
+  name: 'Cabinet: 2x12 65 Fender Blackfac'
+  value: 71
+- description: ''
+  max: 6
+  min: 6
+  name: 'Cabinet: 2x12 67 VO'
+  value: 71
+- description: ''
+  max: 7
+  min: 7
+  name: 'Cabinet: 2x12 95 Matchless Chi'
+  value: 71
+- description: ''
+  max: 8
+  min: 8
+  name: 'Cabinet: 2x12 98 Pod custo'
+  value: 71
+- description: ''
+  max: 9
+  min: 9
+  name: 'Cabinet: 4x10 59 Fender B'
+  value: 71
+- description: ''
+  max: 10
+  min: 10
+  name: 'Cabinet: 4x10 98 Pod custom 4x'
+  value: 71
+- description: ''
+  max: 11
+  min: 11
+  name: 'Cabinet: 4x12 96 Marshall wit'
+  value: 71
+- description: ''
+  max: 12
+  min: 12
+  name: 'Cabinet: 4x12 78 Marshall wi'
+  value: 71
+- description: ''
+  max: 13
+  min: 13
+  name: 'Cabinet: 4x12 97 Marshall Basketweave with Gree'
+  value: 71
+- description: ''
+  max: 14
+  min: 14
+  name: 'Cabinet: 4x12 98 Pod custo'
+  value: 71
+- description: ''
+  max: 15
+  min: 15
+  name: 'Cabinet: No Cabinet'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: A.I.R. Ambience Level
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: Bright Switch On
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: Bright Switch Off
+  value: 73
+device_name: Pocket POD
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

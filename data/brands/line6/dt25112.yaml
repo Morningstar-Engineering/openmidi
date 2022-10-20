@@ -1,0 +1,1026 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Select Ch A
+  value: 19
+- description: ''
+  max: 127
+  min: 127
+  name: Select Ch B
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Voicing: I'
+  value: 77
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch A Voicing: II'
+  value: 77
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch A Voicing: III'
+  value: 77
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch A Voicing: IV'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Class: A'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Class: AB'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Tube: Pentode'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Tube: Triode'
+  value: 75
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Reverb: On'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Reverb: Off'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Voicing: I'
+  value: 114
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch B Voicing: II'
+  value: 114
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch B Voicing: III'
+  value: 114
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch B Voicing: IV'
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Class: A'
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Class: AB'
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Tube: Pentode'
+  value: 116
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Tube: Triode'
+  value: 116
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Reverb: On'
+  value: 105
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Reverb: Off'
+  value: 105
+- description: ''
+  max: 1
+  min: 1
+  name: 'XLR Direct Out Mic: 57 Dyn'
+  value: 82
+- description: ''
+  max: 2
+  min: 2
+  name: 'XLR Direct out Mic: 57 Dyn off-axis'
+  value: 82
+- description: ''
+  max: 3
+  min: 3
+  name: 'XLR Direct out Mic: 409 Dyn'
+  value: 82
+- description: ''
+  max: 4
+  min: 4
+  name: 'XLR Direct out Mic: 421 Dyn'
+  value: 82
+- description: ''
+  max: 5
+  min: 5
+  name: 'XLR Direct out Mic: 4038 Ribbon'
+  value: 82
+- description: ''
+  max: 6
+  min: 6
+  name: 'XLR Direct out Mic: 121 Ribbon'
+  value: 82
+- description: ''
+  max: 7
+  min: 7
+  name: 'XLR Direct out Mic: 67 Cond'
+  value: 82
+- description: ''
+  max: 8
+  min: 8
+  name: 'XLR Direct out Mic: 87 Cond'
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: 'XLR Direct out Mic: None'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Low Volume Mode: Enable'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Low Volume Mode: Disable'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Amp: None'
+  value: 11
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch A Amp: Blackface Double Normal'
+  value: 11
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch A Amp: Blackface Double Vib'
+  value: 11
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch A Amp: Hiway 100'
+  value: 11
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch A Amp: Super O'
+  value: 11
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch A Amp: Gibtone 185'
+  value: 11
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch A Amp: Tweed B-Man Normal'
+  value: 11
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch A Amp: Tweed B-Man Bright'
+  value: 11
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch A Amp: Blackface Lux Normal'
+  value: 11
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch A Amp: Blackface Lux Vib'
+  value: 11
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch A Amp: Divide 9/15'
+  value: 11
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch A Amp: Phd Motorway'
+  value: 11
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch A Amp: Class A-15'
+  value: 11
+- description: ''
+  max: 13
+  min: 13
+  name: 'Ch A Amp: Class A-30'
+  value: 11
+- description: ''
+  max: 14
+  min: 14
+  name: 'Ch A Amp: Brit J-45 Normal'
+  value: 11
+- description: ''
+  max: 15
+  min: 15
+  name: 'Ch A Amp: Brit J-45 Bright'
+  value: 11
+- description: ''
+  max: 16
+  min: 16
+  name: 'Ch A Amp: Brit Plexi 100 Normal'
+  value: 11
+- description: ''
+  max: 17
+  min: 17
+  name: 'Ch A Amp: Brit Plexi 100 Bright'
+  value: 11
+- description: ''
+  max: 18
+  min: 18
+  name: 'Ch A Amp: Brit P-75 Normal'
+  value: 11
+- description: ''
+  max: 19
+  min: 19
+  name: 'Ch A Amp: Brit P-75 Bright'
+  value: 11
+- description: ''
+  max: 20
+  min: 20
+  name: 'Ch A Amp: Brit J-800'
+  value: 11
+- description: ''
+  max: 21
+  min: 21
+  name: 'Ch A Amp: Bomber Uber'
+  value: 11
+- description: ''
+  max: 22
+  min: 22
+  name: 'Ch A Amp: Treadplate'
+  value: 11
+- description: ''
+  max: 23
+  min: 23
+  name: 'Ch A Amp: Angel F-Ball'
+  value: 11
+- description: ''
+  max: 24
+  min: 24
+  name: 'Ch A Amp: Line 6 Elektrik'
+  value: 11
+- description: ''
+  max: 25
+  min: 25
+  name: 'Ch A Amp: Flip top'
+  value: 11
+- description: ''
+  max: 26
+  min: 26
+  name: 'Ch A Amp: Solo 100 Clean'
+  value: 11
+- description: ''
+  max: 27
+  min: 27
+  name: 'Ch A Amp: Solo 100 Crunch'
+  value: 11
+- description: ''
+  max: 28
+  min: 28
+  name: 'Ch A Amp: Solo 100 Overdrive'
+  value: 11
+- description: ''
+  max: 29
+  min: 29
+  name: 'Ch A Amp: Line 6 Doom'
+  value: 11
+- description: ''
+  max: 30
+  min: 30
+  name: 'Ch A Amp: Line 6 Epic'
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Amp: None'
+  value: 91
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch B Amp: Blackface Double Normal'
+  value: 91
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch B Amp: Blackface Double Vib'
+  value: 91
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch B Amp: Hiway 100'
+  value: 91
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch B Amp: Super O'
+  value: 91
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch B Amp: Gibtone 185'
+  value: 91
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch B Amp: Tweed B-Man Normal'
+  value: 91
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch B Amp: Tweed B-Man Bright'
+  value: 91
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch B Amp: Blackface Lux Normal'
+  value: 91
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch B Amp: Blackface Lux Vib'
+  value: 91
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch B Amp: Divide 9/15'
+  value: 91
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch B Amp: Phd Motorway'
+  value: 91
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch B Amp: Class A-15'
+  value: 91
+- description: ''
+  max: 13
+  min: 13
+  name: 'Ch B Amp: Class A-30'
+  value: 91
+- description: ''
+  max: 14
+  min: 14
+  name: 'Ch B Amp: Brit J-45 Normal'
+  value: 91
+- description: ''
+  max: 15
+  min: 15
+  name: 'Ch B Amp: Brit J-45 Bright'
+  value: 91
+- description: ''
+  max: 16
+  min: 16
+  name: 'Ch B Amp: Brit Plexi 100 Normal'
+  value: 91
+- description: ''
+  max: 17
+  min: 17
+  name: 'Ch B Amp: Brit Plexi 100 Bright'
+  value: 91
+- description: ''
+  max: 18
+  min: 18
+  name: 'Ch B Amp: Brit P-75 Normal'
+  value: 91
+- description: ''
+  max: 19
+  min: 19
+  name: 'Ch B Amp: Brit P-75 Bright'
+  value: 91
+- description: ''
+  max: 20
+  min: 20
+  name: 'Ch B Amp: Brit J-800'
+  value: 91
+- description: ''
+  max: 21
+  min: 21
+  name: 'Ch B Amp: Bomber Uber'
+  value: 91
+- description: ''
+  max: 22
+  min: 22
+  name: 'Ch B Amp: Treadplate'
+  value: 91
+- description: ''
+  max: 23
+  min: 23
+  name: 'Ch B Amp: Angel F-Ball'
+  value: 91
+- description: ''
+  max: 24
+  min: 24
+  name: 'Ch B Amp: Line 6 Elektrik'
+  value: 91
+- description: ''
+  max: 25
+  min: 25
+  name: 'Ch B Amp: Flip top'
+  value: 91
+- description: ''
+  max: 26
+  min: 26
+  name: 'Ch B Amp: Solo 100 Clean'
+  value: 91
+- description: ''
+  max: 27
+  min: 27
+  name: 'Ch B Amp: Solo 100 Crunch'
+  value: 91
+- description: ''
+  max: 28
+  min: 28
+  name: 'Ch B Amp: Solo 100 Overdrive'
+  value: 91
+- description: ''
+  max: 29
+  min: 29
+  name: 'Ch B Amp: Line 6 Doom'
+  value: 91
+- description: ''
+  max: 30
+  min: 30
+  name: 'Ch B Amp: Line 6 Epic'
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Cab: None'
+  value: 71
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch A Cab: 2x12 Blackface Double'
+  value: 71
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch A Cab: 4x12 Hiway'
+  value: 71
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch A Cab: 1x(6x9) Super O'
+  value: 71
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch A Cab: 1x12 Gibtone F-Coil'
+  value: 71
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch A Cab: 4x10 Tweed B-Man'
+  value: 71
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch A Cab: 1x12 Blackface Lux'
+  value: 71
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch A Cab: 1x12 Brit 12-H'
+  value: 71
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch A Cab: 2x12 PhD Ported'
+  value: 71
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch A Cab: 1x12 Blue Bell'
+  value: 71
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch A Cab: 2x12 Silver Bell'
+  value: 71
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch A Cab: 4x12 Greenback 25'
+  value: 71
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch A Cab: 4x12 Blackback 30'
+  value: 71
+- description: ''
+  max: 13
+  min: 13
+  name: 'Ch A Cab: 4x12 Brit T-75'
+  value: 71
+- description: ''
+  max: 14
+  min: 14
+  name: 'Ch A Cab: 4x12 Uber'
+  value: 71
+- description: ''
+  max: 15
+  min: 15
+  name: 'Ch A Cab: 4x12 Tread V-30'
+  value: 71
+- description: ''
+  max: 16
+  min: 16
+  name: 'Ch A Cab: 4x12 XXL V-30'
+  value: 71
+- description: ''
+  max: 17
+  min: 17
+  name: 'Ch A Cab: 1x15 Flip Top (Bass)'
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Cab: None'
+  value: 110
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch B Cab: 2x12 Blackface Double'
+  value: 110
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch B Cab: 4x12 Hiway'
+  value: 110
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch B Cab: 1x(6x9) Super O'
+  value: 110
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch B Cab: 1x12 Gibtone F-Coil'
+  value: 110
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch B Cab: 4x10 Tweed B-Man'
+  value: 110
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch B Cab: 1x12 Blackface Lux'
+  value: 110
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch B Cab: 1x12 Brit 12-H'
+  value: 110
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch B Cab: 2x12 PhD Ported'
+  value: 110
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch B Cab: 1x12 Blue Bell'
+  value: 110
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch B Cab: 2x12 Silver Bell'
+  value: 110
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch B Cab: 4x12 Greenback 25'
+  value: 110
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch B Cab: 4x12 Blackback 30'
+  value: 110
+- description: ''
+  max: 13
+  min: 13
+  name: 'Ch B Cab: 4x12 Brit T-75'
+  value: 110
+- description: ''
+  max: 14
+  min: 14
+  name: 'Ch B Cab: 4x12 Uber'
+  value: 110
+- description: ''
+  max: 15
+  min: 15
+  name: 'Ch B Cab: 4x12 Tread V-30'
+  value: 110
+- description: ''
+  max: 16
+  min: 16
+  name: 'Ch B Cab: 4x12 XXL V-30'
+  value: 110
+- description: ''
+  max: 17
+  min: 17
+  name: 'Ch B Cab: 1x15 Flip Top (Bass)'
+  value: 110
+- description: ''
+  max: 30
+  min: 0
+  name: Ch A Amp + Defaults
+  value: 12
+- description: ''
+  max: 30
+  min: 0
+  name: Ch B Amp + Defaults
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Drive Knob
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Drive Knob
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Bass Knob
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Bass Knob
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Mid Knob
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Mid Knob
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Treble Knob
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Treble Knob
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Volume Knob
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Volume Knob
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Presence Knob
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Presence Knob
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Topology Type: Tight NFL'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Topology Type: Tight NFL'
+  value: 114
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch A Topology Type: Loose NFL'
+  value: 77
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch B Topology Type: Loose NFL'
+  value: 114
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch A Topology Type: Zero NFL'
+  value: 77
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch B Topology Type: Zero NFL'
+  value: 114
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch A Topology Type: Resonant NFL'
+  value: 77
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch B Topology Type: Resonant NFL'
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Boost Mode: Enable'
+  value: 74
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Boost Mode: Enable'
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Boost Mode: Bypass'
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Boost Mode: Bypass'
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Phase Inv B+ Voltage: Low B+'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Phase Inv B+ Voltage: Low B+'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Phase Inv B+ Voltage: High B+'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Phase Inv B+ Voltage: High B+'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Feedback Cap: X (Tight)'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Feedback Cap: X (Tight)'
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Feedback Cap: Y (Smooth)'
+  value: 79
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Feedback Cap: Y (Smooth)'
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch A Reverb: Enable'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ch B Reverb: Enable'
+  value: 105
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Reverb: Bypass'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Reverb: Bypass'
+  value: 105
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch A Reverb Type: None'
+  value: 37
+- description: ''
+  max: 0
+  min: 0
+  name: 'Ch B Reverb Type: None'
+  value: 107
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch A Reverb Type: Spring'
+  value: 37
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ch B Reverb Type: Spring'
+  value: 107
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch A Reverb Type: 63 Spring'
+  value: 37
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ch B Reverb Type: 63 Spring'
+  value: 107
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch A Reverb Type: Plate'
+  value: 37
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ch B Reverb Type: Plate'
+  value: 107
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch A Reverb Type: Room'
+  value: 37
+- description: ''
+  max: 4
+  min: 4
+  name: 'Ch B Reverb Type: Room'
+  value: 107
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch A Reverb Type: Chamber'
+  value: 37
+- description: ''
+  max: 5
+  min: 5
+  name: 'Ch B Reverb Type: Chamber'
+  value: 107
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch A Reverb Type: Hall'
+  value: 37
+- description: ''
+  max: 6
+  min: 6
+  name: 'Ch B Reverb Type: Hall'
+  value: 107
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch A Reverb Type: Cave'
+  value: 37
+- description: ''
+  max: 7
+  min: 7
+  name: 'Ch B Reverb Type: Cave'
+  value: 107
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch A Reverb Type: Ducking'
+  value: 37
+- description: ''
+  max: 8
+  min: 8
+  name: 'Ch B Reverb Type: Ducking'
+  value: 107
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch A Reverb Type: Octo'
+  value: 37
+- description: ''
+  max: 9
+  min: 9
+  name: 'Ch B Reverb Type: Octo'
+  value: 107
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch A Reverb Type: Tile'
+  value: 37
+- description: ''
+  max: 10
+  min: 10
+  name: 'Ch B Reverb Type: Tile'
+  value: 107
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch A Reverb Type: Echo'
+  value: 37
+- description: ''
+  max: 11
+  min: 11
+  name: 'Ch B Reverb Type: Echo'
+  value: 107
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch A Reverb Type: Particle Verb'
+  value: 37
+- description: ''
+  max: 12
+  min: 12
+  name: 'Ch B Reverb Type: Particle Verb'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Reverb Decay
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Reverb Decay
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Reverb Pre Delay
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Reverb Pre Delay
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Reverb Tone
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Reverb Tone
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Ch A Reverb Mix
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Ch B Reverb Mix
+  value: 59
+device_name: DT25 112
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

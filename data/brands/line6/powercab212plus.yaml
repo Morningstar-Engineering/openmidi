@@ -1,0 +1,581 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mode: Flat'
+  value: 20
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mode: Speaker'
+  value: 20
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mode: User IR'
+  value: 20
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mode: Dual Speaker'
+  value: 20
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mode: Dual User IR'
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'Voicing: FRFR'
+  value: 21
+- description: ''
+  max: 1
+  min: 1
+  name: 'Voicing: LF Flat'
+  value: 21
+- description: ''
+  max: 2
+  min: 2
+  name: 'Voicing: LF Raw'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'Speaker 1: Vintage'
+  value: 22
+- description: ''
+  max: 1
+  min: 1
+  name: 'Speaker 1: Green'
+  value: 22
+- description: ''
+  max: 2
+  min: 2
+  name: 'Speaker 1: Cream'
+  value: 22
+- description: ''
+  max: 3
+  min: 3
+  name: 'Speaker 1: Jarvis'
+  value: 22
+- description: ''
+  max: 4
+  min: 4
+  name: 'Speaker 1: Bayou'
+  value: 22
+- description: ''
+  max: 5
+  min: 5
+  name: 'Speaker 1: Essex'
+  value: 22
+- description: ''
+  max: 6
+  min: 6
+  name: 'Speaker 1: Natural'
+  value: 22
+- description: ''
+  max: 7
+  min: 7
+  name: 'Speaker 1: Dino'
+  value: 22
+- description: ''
+  max: 8
+  min: 8
+  name: 'Speaker 1: Lecto'
+  value: 22
+- description: ''
+  max: 9
+  min: 9
+  name: 'Speaker 1: Herald'
+  value: 22
+- description: ''
+  max: 10
+  min: 10
+  name: 'Speaker 1: Brown'
+  value: 22
+- description: ''
+  max: 11
+  min: 11
+  name: 'Speaker 1: Shade'
+  value: 22
+- description: ''
+  max: 12
+  min: 12
+  name: 'Speaker 1: Jetson'
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'Speaker 2: Vintage'
+  value: 102
+- description: ''
+  max: 1
+  min: 1
+  name: 'Speaker 2: Green'
+  value: 102
+- description: ''
+  max: 2
+  min: 2
+  name: 'Speaker 2: Cream'
+  value: 102
+- description: ''
+  max: 3
+  min: 3
+  name: 'Speaker 2: Jarvis'
+  value: 102
+- description: ''
+  max: 4
+  min: 4
+  name: 'Speaker 2: Bayou'
+  value: 102
+- description: ''
+  max: 5
+  min: 5
+  name: 'Speaker 2: Essex'
+  value: 102
+- description: ''
+  max: 6
+  min: 6
+  name: 'Speaker 2: Natural'
+  value: 102
+- description: ''
+  max: 7
+  min: 7
+  name: 'Speaker 2: Dino'
+  value: 102
+- description: ''
+  max: 8
+  min: 8
+  name: 'Speaker 2: Lecto'
+  value: 102
+- description: ''
+  max: 9
+  min: 9
+  name: 'Speaker 2: Herald'
+  value: 102
+- description: ''
+  max: 10
+  min: 10
+  name: 'Speaker 2: Brown'
+  value: 102
+- description: ''
+  max: 11
+  min: 11
+  name: 'Speaker 2: Shade'
+  value: 102
+- description: ''
+  max: 12
+  min: 12
+  name: 'Speaker 2: Jetson'
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mic 1: 57 Dyn'
+  value: 23
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mic 1: 409 Dyn'
+  value: 23
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mic 1: 421 Dyn'
+  value: 23
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mic 1: 30 Dyn'
+  value: 23
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mic 1: 20 Dyn'
+  value: 23
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mic 1: 121 Ribbon'
+  value: 23
+- description: ''
+  max: 6
+  min: 6
+  name: 'Mic 1: 160 Ribbon'
+  value: 23
+- description: ''
+  max: 7
+  min: 7
+  name: 'Mic 1: 4038 Ribbon'
+  value: 23
+- description: ''
+  max: 8
+  min: 8
+  name: 'Mic 1: 414 Cond'
+  value: 23
+- description: ''
+  max: 9
+  min: 9
+  name: 'Mic 1: 84 Cond'
+  value: 23
+- description: ''
+  max: 10
+  min: 10
+  name: 'Mic 1: 67 Cond'
+  value: 23
+- description: ''
+  max: 11
+  min: 11
+  name: 'Mic 1: 87 Cond'
+  value: 23
+- description: ''
+  max: 12
+  min: 12
+  name: 'Mic 1: 47 Cond'
+  value: 23
+- description: ''
+  max: 13
+  min: 13
+  name: 'Mic 1: 112 Dyn'
+  value: 23
+- description: ''
+  max: 14
+  min: 14
+  name: 'Mic 1: 12 Dyn'
+  value: 23
+- description: ''
+  max: 15
+  min: 15
+  name: 'Mic 1: 7 Dyn'
+  value: 23
+- description: ''
+  max: 22
+  min: 0
+  name: Mic 1 Distance
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mic 2: 57 Dyn'
+  value: 24
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mic 2: 409 Dyn'
+  value: 24
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mic 2: 421 Dyn'
+  value: 24
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mic 2: 30 Dyn'
+  value: 24
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mic 2: 20 Dyn'
+  value: 24
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mic 2: 121 Ribbon'
+  value: 24
+- description: ''
+  max: 6
+  min: 6
+  name: 'Mic 2: 160 Ribbon'
+  value: 24
+- description: ''
+  max: 7
+  min: 7
+  name: 'Mic 2: 4038 Ribbon'
+  value: 24
+- description: ''
+  max: 8
+  min: 8
+  name: 'Mic 2: 414 Cond'
+  value: 24
+- description: ''
+  max: 9
+  min: 9
+  name: 'Mic 2: 84 Cond'
+  value: 24
+- description: ''
+  max: 10
+  min: 10
+  name: 'Mic 2: 67 Cond'
+  value: 24
+- description: ''
+  max: 11
+  min: 11
+  name: 'Mic 2: 87 Cond'
+  value: 24
+- description: ''
+  max: 12
+  min: 12
+  name: 'Mic 2: 47 Cond'
+  value: 24
+- description: ''
+  max: 13
+  min: 13
+  name: 'Mic 2: 112 Dyn'
+  value: 24
+- description: ''
+  max: 14
+  min: 14
+  name: 'Mic 2: 12 Dyn'
+  value: 24
+- description: ''
+  max: 15
+  min: 15
+  name: 'Mic 2: 7 Dyn'
+  value: 24
+- description: ''
+  max: 22
+  min: 0
+  name: Mic 2 Distance
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: IR 1 Location
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: IR 2 Location
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Low Cut 1
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: High Cut 1
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Low Cut 2
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: High Cut 2
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Level 1
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Level 2
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'Color 1: Off'
+  value: 29
+- description: ''
+  max: 1
+  min: 1
+  name: 'Color 1: White'
+  value: 29
+- description: ''
+  max: 20
+  min: 20
+  name: 'Color 1: Red'
+  value: 29
+- description: ''
+  max: 38
+  min: 38
+  name: 'Color 1: Blue'
+  value: 29
+- description: ''
+  max: 56
+  min: 56
+  name: 'Color 1: Green'
+  value: 29
+- description: ''
+  max: 73
+  min: 73
+  name: 'Color 1: Yellow'
+  value: 29
+- description: ''
+  max: 92
+  min: 92
+  name: 'Color 1: Cyan'
+  value: 29
+- description: ''
+  max: 110
+  min: 110
+  name: 'Color 1: Magenta'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Color 1: Auto'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Color 2: Off'
+  value: 109
+- description: ''
+  max: 1
+  min: 1
+  name: 'Color 2: White'
+  value: 109
+- description: ''
+  max: 23
+  min: 23
+  name: 'Color 2: Red'
+  value: 109
+- description: ''
+  max: 38
+  min: 38
+  name: 'Color 2: Blue'
+  value: 109
+- description: ''
+  max: 56
+  min: 56
+  name: 'Color 2: Green'
+  value: 109
+- description: ''
+  max: 73
+  min: 73
+  name: 'Color 2: Yellow'
+  value: 109
+- description: ''
+  max: 92
+  min: 92
+  name: 'Color 2: Cyan'
+  value: 109
+- description: ''
+  max: 110
+  min: 110
+  name: 'Color 2: Magenta'
+  value: 109
+- description: ''
+  max: 127
+  min: 127
+  name: 'Color 2: Auto'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Input 1/L Gain
+  value: 1
+- description: ''
+  max: 0
+  min: 0
+  name: 'Input 1/L Level: Line'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Input 1/L Level: Instrument'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Input 2/R Gain
+  value: 2
+- description: ''
+  max: 0
+  min: 0
+  name: 'Input 2/R Level: Line'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Input 2/R Level: Instrument'
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: 'Input 2/R Mode: Normal'
+  value: 3
+- description: ''
+  max: 64
+  min: 64
+  name: 'Input 2/R Mode: Monitor'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'Input 2/R Mode: USB'
+  value: 3
+- description: ''
+  max: 0
+  min: 0
+  name: 'Link Inputs: Off'
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: 'Link Inputs: On'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: HF Trim
+  value: 5
+- description: ''
+  max: 0
+  min: 0
+  name: 'USB Mode: Normal'
+  value: 6
+- description: ''
+  max: 127
+  min: 127
+  name: 'USB Mode: Processed'
+  value: 6
+- description: ''
+  max: 0
+  min: 0
+  name: 'Low Cut: Off'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Low Cut: On'
+  value: 111
+- description: ''
+  max: 100
+  min: 0
+  name: Stereo Width
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'Stereo Width: Mono'
+  value: 110
+- description: ''
+  max: 50
+  min: 50
+  name: 'Stereo Width: 100%'
+  value: 110
+- description: ''
+  max: 100
+  min: 100
+  name: 'Stereo Width: 200%'
+  value: 110
+device_name: Powercab 212 Plus
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

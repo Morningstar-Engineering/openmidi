@@ -1,0 +1,161 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Factory Setlist
+  value: 32
+- description: ''
+  max: 1
+  min: 1
+  name: User Setlist
+  value: 32
+- description: ''
+  max: 0
+  min: 0
+  name: Snapshot 1
+  value: 69
+- description: ''
+  max: 1
+  min: 1
+  name: Snapshot 2
+  value: 69
+- description: ''
+  max: 2
+  min: 2
+  name: Snapshot 3
+  value: 69
+- description: ''
+  max: 3
+  min: 3
+  name: Snapshot 4
+  value: 69
+- description: ''
+  max: 8
+  min: 8
+  name: Next Snapshot
+  value: 69
+- description: ''
+  max: 9
+  min: 9
+  name: Previous Snapshot
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 1
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 2
+  value: 2
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 1 Toggle
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 2 Toggle
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 3 Toggle
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 4 Toggle
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 5 Toggle
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 6 Toggle
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 7 Toggle
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 8 Toggle
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Overdub'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Stop'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play Once'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Undo'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Reverse'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Forward'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Half Speed'
+  value: 66
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Full Speed'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner Toggle
+  value: 68
+device_name: POD GO
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

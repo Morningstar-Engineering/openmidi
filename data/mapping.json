@@ -528,6 +528,22 @@
             "value": "line6",
             "models": [
                 {
+                "name": "DT25 112",
+                "value": "dt25112"
+              },
+              {
+                "name": "DT25 Head",
+                "value": "dt25head"
+              },
+              {
+                "name": "Powercab 112 Plus",
+                "value": "powercab112plus"
+              },
+              {
+                "name": "Powercab 212 Plus",
+                "value": "powercab212plus"
+              },
+                {
                     "name": "DL4 MKII",
                     "value": "dl4mk2"
                 },
@@ -546,7 +562,47 @@
                 {
                     "name": "Powercab Plus",
                     "value": "powercab"
-                }
+                },
+              {
+        "name": "Helix",
+        "value": "helix"
+      },
+      {
+        "name": "Helix LT",
+        "value": "helixlt"
+      },
+              {
+        "name": "Helix Rack and Control",
+        "value": "helixrackandcontrol"
+      },
+      {
+        "name": "M13 v2.0 Sompbox Modeler",
+        "value": "m13v20sompboxmodeler"
+      },
+      {
+        "name": "M5 Stompbox Modeler",
+        "value": "m5stompboxmodeler"
+      },
+      {
+        "name": "M9 v2.0 Stompbox Modeler",
+        "value": "m9v20stompboxmodeler"
+      },
+      {
+        "name": "POD GO",
+        "value": "podgo"
+      },
+      {
+        "name": "POD HD PRO X",
+        "value": "podhdprox"
+      },
+      {
+        "name": "POD HD500X",
+        "value": "podhd500x"
+      },
+      {
+        "name": "Pocket POD",
+        "value": "pocketpod"
+      }
             ]
         },
         {

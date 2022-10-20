@@ -1,0 +1,46 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Program Change
+  value: 0-24
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: FX On
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: FX Off
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 1
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner On
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: Tuner Off
+  value: 69
+device_name: M5 Stompbox Modeler
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,201 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 1
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 2
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 3
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 1
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 2
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 3
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 4
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 5
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 7
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 8
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 9
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 10
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: Stomp Switch 11
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: Expression Toe Switch
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Overdub'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Stop'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play Once'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Undo'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Forward'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Reverse'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Full Speed'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Half Speed'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: Looper On
+  value: 67
+- description: ''
+  max: 0
+  min: 0
+  name: Looper Off
+  value: 67
+- description: ''
+  max: 7
+  min: 0
+  name: Bank MSB
+  value: 0
+- description: ''
+  max: 7
+  min: 0
+  name: Bank LSB - Setlist Select
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner toggle
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: Snapshot 1
+  value: 69
+- description: ''
+  max: 1
+  min: 1
+  name: Snapshot 2
+  value: 69
+- description: ''
+  max: 2
+  min: 2
+  name: Snapshot 3
+  value: 69
+- description: ''
+  max: 3
+  min: 3
+  name: Snapshot 4
+  value: 69
+- description: ''
+  max: 4
+  min: 4
+  name: Snapshot 5
+  value: 69
+- description: ''
+  max: 5
+  min: 5
+  name: Snapshot 6
+  value: 69
+- description: ''
+  max: 6
+  min: 6
+  name: Snapshot 7
+  value: 69
+- description: ''
+  max: 7
+  min: 7
+  name: Snapshot 8
+  value: 69
+device_name: Helix
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

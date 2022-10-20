@@ -1,0 +1,151 @@
+brand: Line 6
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 1
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal 2
+  value: 2
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 1 Toggle
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 2 Toggle
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 3 Toggle
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 4 Toggle
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 5 Toggle
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 6 Toggle
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 7 Toggle
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: Footswitch 8 Toggle
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: Expression Toe Switch Toggle
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Overdub'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Stop'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Play Once'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Undo'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Reverse'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Forward'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Pre'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Post'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Half Speed'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Looper: Full Speed'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: Looper On
+  value: 99
+- description: ''
+  max: 0
+  min: 0
+  name: Looper Off
+  value: 99
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner On
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: Tuner Off
+  value: 69
+device_name: POD HD PRO X
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
