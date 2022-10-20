@@ -1,0 +1,126 @@
+brand: Hughes & Kettner
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mute: On'
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mute: Off'
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Loop: On'
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Loop: Off'
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX Serial: Serial'
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX Serial: Parallel'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'Stomp Boost: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Stomp  Boost: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Noise Gate: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Noise Gate: Off'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Channels: Amp 1A'
+  value: 31
+- description: ''
+  max: 13
+  min: 13
+  name: 'Channels: Amp 1B'
+  value: 31
+- description: ''
+  max: 40
+  min: 40
+  name: 'Channels: Amp 2A'
+  value: 31
+- description: ''
+  max: 66
+  min: 66
+  name: 'Channels: Amp 2B'
+  value: 31
+- description: ''
+  max: 90
+  min: 90
+  name: 'Channels: Amp 3A'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Channels: Amp 3B'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tube1/2: On'
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tube 1/2: Off'
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tube 3/4: On'
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tube 3/4: Off'
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tube 5/6: On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tube 5/6: Off'
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Panel Brightness
+  value: 88
+device_name: TriAmp Mk3
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

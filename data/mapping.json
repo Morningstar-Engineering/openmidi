@@ -450,6 +450,20 @@
             ]
         },
         {
+            "name": "Hughes & Kettner",
+            "value": "hughes&kettner",
+            "models": [
+              {
+                "name": "GrandMeister Deluxe 40",
+                "value": "grandmeisterdeluxe40"
+              },
+              {
+                "name": "TriAmp Mk3",
+                "value": "triampmk3"
+              }
+            ]
+          },
+        {
             "name": "Jackson Audio",
             "value": "jacksonaudio",
             "models": [

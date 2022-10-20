@@ -1,0 +1,206 @@
+brand: Hughes & Kettner
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Intensity
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Volume (soft)
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mute: On'
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mute: Off'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Mod-FX Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Gain (soft)
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Bass
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Mid
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Treble
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Presence
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Speed
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Volume
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Volume
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Power Soak Switching: 1'
+  value: 30
+- description: ''
+  max: 30
+  min: 30
+  name: 'Power Soak Switching: 2'
+  value: 30
+- description: ''
+  max: 64
+  min: 64
+  name: 'Power Soak Switching: 3'
+  value: 30
+- description: ''
+  max: 85
+  min: 85
+  name: 'Power Soak Switching: 4'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Power Soak Switching: 5'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Channel Switching: 1'
+  value: 31
+- description: ''
+  max: 50
+  min: 50
+  name: 'Channel Switching: 2'
+  value: 31
+- description: ''
+  max: 80
+  min: 80
+  name: 'Channel Switching: 3'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Channel Switching: 4'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod-FX: On'
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod-FX: Off'
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay: On'
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay: Off'
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb: On'
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb: Off'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX-Loop: On'
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX-Loop: Off'
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Gain (hard)
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Volume (hard)
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: 'Noise Gate: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Noise Gate: Off'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'Boost: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Boost: Off'
+  value: 64
+device_name: GrandMeister Deluxe 40
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
