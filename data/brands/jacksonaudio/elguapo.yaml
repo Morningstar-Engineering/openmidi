@@ -1,0 +1,91 @@
+brand: Jackson Audio
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Distortion: On'
+  value: 1
+- description: ''
+  max: 0
+  min: 0
+  name: 'Distortion: Off'
+  value: 1
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drive: On'
+  value: 2
+- description: ''
+  max: 0
+  min: 0
+  name: 'Drive: Off'
+  value: 2
+- description: ''
+  max: 1
+  min: 1
+  name: 'Dist. Clipping: Marshall Guvnor Styles'
+  value: 3
+- description: ''
+  max: 2
+  min: 2
+  name: 'Dist. Clipping: ProCo Rat Style'
+  value: 3
+- description: ''
+  max: 3
+  min: 3
+  name: 'Dist. Clipping: Suhr Riot Style #1'
+  value: 3
+- description: ''
+  max: 4
+  min: 4
+  name: 'Dist. Clipping: Suhr Riot Style #2'
+  value: 3
+- description: ''
+  max: 1
+  min: 1
+  name: 'Gain: 25%'
+  value: 4
+- description: ''
+  max: 2
+  min: 2
+  name: 'Gain: 50%'
+  value: 4
+- description: ''
+  max: 3
+  min: 3
+  name: 'Gain: 75%'
+  value: 4
+- description: ''
+  max: 4
+  min: 4
+  name: 'Gain: 100%'
+  value: 4
+- description: ''
+  max: 1
+  min: 1
+  name: 'Drive Clipping: Vintage Marshall Style'
+  value: 5
+- description: ''
+  max: 2
+  min: 2
+  name: 'Drive Clipping: Tube Screamer Style'
+  value: 5
+- description: ''
+  max: 3
+  min: 3
+  name: 'Drive Clipping: Timmy Style'
+  value: 5
+- description: ''
+  max: 4
+  min: 4
+  name: 'Drive Clipping: King of Tone Style'
+  value: 5
+device_name: El Guapo
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
