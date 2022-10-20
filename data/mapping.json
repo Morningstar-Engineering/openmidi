@@ -711,6 +711,17 @@
                 }
             ]
         },
+      {
+    "name": "Peavey",
+    "value": "peavey",
+    "models": [
+      {
+        "name": "Mini MEGA",
+        "value": "minimega"
+      }
+    ]
+  },
+        ,
         {
             "name": "Pigtronix",
             "value": "pigtronix",

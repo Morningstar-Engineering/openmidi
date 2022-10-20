@@ -1,0 +1,66 @@
+brand: Peavey
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Crunch
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Punch
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Lo Narrow Q
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Hi Narow Q
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Bright
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Kosmos
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mute: On'
+  value: 8
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mute: Off'
+  value: 8
+- description: ''
+  max: 127
+  min: 127
+  name: 'Effects Loop: On'
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects Loop: Off'
+  value: 9
+device_name: Mini MEGA
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
