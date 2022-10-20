@@ -572,6 +572,32 @@
                 }
             ]
         },
+      {
+    "name": "Fractal Audio Systems",
+    "value": "fractalaudiosystems",
+    "models": [
+      {
+        "name": "AX8",
+        "value": "ax8"
+      },
+      {
+        "name": "Axe-Fx II",
+        "value": "axe-fxii"
+      },
+      {
+        "name": "Axe-Fx II XL",
+        "value": "axe-fxiixl"
+      },
+      {
+        "name": "Axe-Fx II XL+",
+        "value": "axe-fxiixl+"
+      },
+      {
+        "name": "FX8",
+        "value": "fx8"
+      }
+    ]
+  },
         {
             "name": "Free The Tone",
             "value": "freethetone",

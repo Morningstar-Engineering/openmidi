@@ -1,0 +1,371 @@
+brand: Fractal Audio Systems
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Select Scene 1
+  value: 34
+- description: ''
+  max: 1
+  min: 1
+  name: Select Scene 2
+  value: 34
+- description: ''
+  max: 2
+  min: 2
+  name: Select Scene 3
+  value: 34
+- description: ''
+  max: 3
+  min: 3
+  name: Select Scene 4
+  value: 34
+- description: ''
+  max: 4
+  min: 4
+  name: Select Scene 5
+  value: 34
+- description: ''
+  max: 5
+  min: 5
+  name: Select Scene 6
+  value: 34
+- description: ''
+  max: 6
+  min: 6
+  name: Select Scene 7
+  value: 34
+- description: ''
+  max: 7
+  min: 7
+  name: Select Scene 8
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: In 1 (Instr) Volume
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Out 1 (Main) Vol
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Out 2 (FX Send) Vol
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Tap Tempo
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Tuner
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 10
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 11
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: External Control 12
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Record
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Play
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Once
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Dub
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Reverse
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Bypass
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Half Speed
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Looper Undo
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Metronome
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: Scene Increment
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Scene Decrement
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Out 1 Vol Incr
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Out 1 Vol Decr
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Bypass
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor Bypass
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Bypass
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Bypass
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Drive 1 Bypass
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Drive 2 Bypass
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Enhancer Bypass
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Bypass
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Bypass
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Flanger Bypass
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Formant Bypass
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Gate/Expander Bypass
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Graphic EQ 1 Bypass
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Graphic EQ 2 Bypass
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Multi-Delay Bypass
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Parametric EQ 1 Bypass
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Parametric EQ 2 Bypass
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Phaser Bypass
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bypass
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bypass
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Ring Modulator Bypass
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Bypass
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Synth
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Trem/Pan Bypass
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Volume/Pan 1 Bypass
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Volume/Pan 2 Bypass
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Wahwah Bypass
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus X/Y
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 X/Y
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 X/Y
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Drive 1 X/Y
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Drive 2 X/Y
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Flanger X/Y
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Phaser X/Y
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch X/Y
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary X/Y
+  value: 125
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb X/Y
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Wahwah X/Y
+  value: 118
+device_name: AX8
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
