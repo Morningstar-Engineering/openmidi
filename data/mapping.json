@@ -63,6 +63,10 @@
             "value": "boss",
             "models": [
                 {
+                    "name": "DD-500",
+                    "value": "dd-500"
+                },
+                {
                     "name": "GT1000 Core",
                     "value": "gt1000core"
                 },
@@ -71,10 +75,25 @@
                     "value": "katana"
                 },
                 {
+                    "name": "Katana Artist",
+                    "value": "katanaartist"
+                },
+                {
+                    "name": "Katana Head",
+                    "value": "katanahead"
+                },
+                {
+                    "name": "MD-500",
+                    "value": "md-500"
+                },
+                {
                     "name": "RC-10R",
                     "value": "rc10r"
+                },
+                {
+                    "name": "RV-500",
+                    "value": "rv-500"
                 }
-  
             ]
         },
         {

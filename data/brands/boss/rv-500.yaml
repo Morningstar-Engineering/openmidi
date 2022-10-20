@@ -1,0 +1,116 @@
+brand: BOSS
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: '[TIME/VALUE] Knob (reverb)'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: '[TIME/VALUE] Knob (delay)'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: '[PRE-DELAY] Knob (reverb)'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: '[PRE-DELAY] Knob (delay)'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: '[E. LEVEL] Knob (reverb)'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: '[E. LEVEL] Knob (delay)'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: '[LOW] Knob (reverb)'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: '[LOW] Knob (delay)'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: '[HIGH] Knob (reverb)'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: '[HIGH] Knob (delay)'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: CTL 1 Switch Press
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: CTL 1 Switch Release
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: CTL 2 Switch Press
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: CTL 2 Switch Release
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 16
+- description: ''
+  max: 127
+  min: 127
+  name: Effect On
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: Effect Bypass
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: Effect A On
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: Effect A Bypass
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: Effect B On
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: Effect B Bypass
+  value: 29
+device_name: RV-500
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,76 @@
+brand: BOSS
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX1 SW: Off'
+  value: 16
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX1 SW: On'
+  value: 16
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX2 SW: Off'
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX2 SW: On'
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX3 SW: Off'
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX3 SW: On'
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effect Loop SW: Off'
+  value: 19
+- description: ''
+  max: 127
+  min: 127
+  name: 'Effect Loop SW: On'
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'GA-FC Exp Pedal (FX): Off'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'GA-FC Exp Pedal (FX): On'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'GA-FC Exp Pedal (VOL): Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'GA-FC Exp Pedal (VOL): On'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 82
+device_name: Katana Head
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
