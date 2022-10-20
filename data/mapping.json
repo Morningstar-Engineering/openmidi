@@ -327,6 +327,56 @@
             ]
         },
         {
+            "name": "EVH",
+            "value": "evh",
+            "models": [
+              {
+                "name": "5150III 100S HEAD",
+                "value": "5150iii100shead"
+              },
+              {
+                "name": "5150III 100W HEAD",
+                "value": "5150iii100whead"
+              },
+              {
+                "name": "5150III 50S 6L6 HEAD",
+                "value": "5150iii50s6l6head"
+              },
+              {
+                "name": "5150III 50W 6L6 1X12 COMBO",
+                "value": "5150iii50w6l61x12combo"
+              },
+              {
+                "name": "5150III 50W 6L6 2X12 COMBO",
+                "value": "5150iii50w6l62x12combo"
+              },
+              {
+                "name": "5150III 50W 6L6 HEAD",
+                "value": "5150iii50w6l6head"
+              },
+              {
+                "name": "5150III 50W EL34 1X12 COMBO",
+                "value": "5150iii50wel341x12combo"
+              },
+              {
+                "name": "5150III 50W EL34 2X12 COMBO",
+                "value": "5150iii50wel342x12combo"
+              },
+              {
+                "name": "5150III 50W EL34 HEAD",
+                "value": "5150iii50wel34head"
+              },
+              {
+                "name": "5150III 50W HEAD",
+                "value": "5150iii50whead"
+              },
+              {
+                "name": "5150IIIS 100W EL34 HEAD",
+                "value": "5150iiis100wel34head"
+              }
+            ]
+          },
+        {
             "name": "Flower Pedals",
             "value": "flowerpedals",
             "models": [

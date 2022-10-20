@@ -1,0 +1,21 @@
+brand: EVH
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb: On'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb: Off'
+  value: 85
+device_name: 5150III 50W EL34 2X12 COMBO
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

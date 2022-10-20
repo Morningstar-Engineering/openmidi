@@ -1,0 +1,21 @@
+brand: EVH
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Effects Loop
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Effects Loop
+  value: 85
+device_name: 5150III 100W HEAD
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
