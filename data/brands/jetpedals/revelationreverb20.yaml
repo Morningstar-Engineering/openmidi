@@ -1,0 +1,86 @@
+brand: Jet Pedals
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Knob
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Decay Knob
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Cntrl 1 Knob
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Preset Switch: On'
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'Preset Switch: Off'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: Preset Increment
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: Preset Decrement
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Algorithm: Sky Blue'
+  value: 27
+- description: ''
+  max: 64
+  min: 64
+  name: 'Algorithm: Ice'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Algorithm: Yellow Sub'
+  value: 27
+- description: ''
+  max: 124
+  min: 3
+  name: CC Snapshot Capture
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Infinite Decay: On'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Infinite Decay: Off'
+  value: 29
+device_name: Revelation Reverb 2.0
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

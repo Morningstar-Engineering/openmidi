@@ -755,6 +755,16 @@
       ]
     },
     {
+    "name": "Jet Pedals",
+    "value": "jetpedals",
+    "models": [
+      {
+        "name": "Revelation Reverb 2.0",
+        "value": "revelationreverb20"
+      }
+    ]
+  },
+    {
       "name": "JMK Music Pedals",
       "value": "jmkmusicpedals",
       "models": [
