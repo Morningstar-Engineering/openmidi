@@ -921,6 +921,24 @@
       ]
     },
     {
+    "name": "Mooer",
+    "value": "mooer",
+    "models": [
+      {
+        "name": "GE300",
+        "value": "ge300"
+      },
+      {
+        "name": "GE300 LITE",
+        "value": "ge300lite"
+      },
+      {
+        "name": "Ocean Machine",
+        "value": "oceanmachine"
+      }
+    ]
+  },
+    {
       "name": "Moog",
       "value": "moog",
       "models": [

@@ -1,0 +1,186 @@
+brand: Mooer
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Select Bank 0
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: Select Bank 1
+  value: 0
+- description: ''
+  max: 127
+  min: 127
+  name: Comp On/Off
+  value: 10
+- description: ''
+  max: 127
+  min: 127
+  name: Wah On/Off
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: FXA On/Off
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: OD/DS On/Off
+  value: 13
+- description: ''
+  max: 127
+  min: 127
+  name: Amp On/Off
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: Cab On/Off
+  value: 15
+- description: ''
+  max: 127
+  min: 127
+  name: NS On/Off
+  value: 16
+- description: ''
+  max: 127
+  min: 127
+  name: Tone Cap On/Off
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: EQ On/Off
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: FXB On/Off
+  value: 19
+- description: ''
+  max: 127
+  min: 127
+  name: FX Loop On/Off
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: Delay On/Off
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: Reverb On/Off
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Enter/Exit'
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tuner: Enter/Exit'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Record/Dub/Play'
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: 'Looper: Once'
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: Stop
+  value: 52
+- description: ''
+  max: 1
+  min: 1
+  name: Play
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Clear
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: Undo/Redo
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Reverse
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: Half Speed
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: Exp1 On/Off
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: Exp 1 Pedal
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: Exp 2 Pedal
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL 1
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL 2
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL 3
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL A
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL B
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: CTRL C
+  value: 65
+device_name: GE300 LITE
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
