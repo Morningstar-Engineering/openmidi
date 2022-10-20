@@ -1,0 +1,56 @@
+brand: Suhr
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Loop Series
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Loop Mix
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Overdrive
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Boost
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Mid
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Bright
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Deep - Low (Green)
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Deep - High (Yellow)
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Mute
+  value: 119
+device_name: Hedgehog
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

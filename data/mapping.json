@@ -878,7 +878,15 @@
                 {
                     "name": "Discovery",
                     "value": "discovery"
-                }
+                },
+              {
+        "name": "Hedgehog",
+        "value": "hedgehog"
+      },
+      {
+        "name": "PT-100",
+        "value": "pt-100"
+      }
             ]
         },
         {

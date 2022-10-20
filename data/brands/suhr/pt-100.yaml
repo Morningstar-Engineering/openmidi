@@ -1,0 +1,86 @@
+brand: Suhr
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mute
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: CH2 / CH1
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: CH3 / CH1
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: CH1 / CH2 / CH3
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: CH2 / CH3
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Boost On/Off
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: CH1
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: CH2
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: CH3
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: CH1 / Boost Off
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: CH2 / Boost Off
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: CH3 / Boost Off
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: CH1 / Boost On
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: CH2 / Boost On
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: CH3 / Boost On
+  value: 119
+device_name: PT-100
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
