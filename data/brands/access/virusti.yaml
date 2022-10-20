@@ -1,0 +1,664 @@
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Waveform'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Pulsewidth'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Wave Select'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Semitone'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Keyboard Tracking'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Waveform'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Pulsewidth'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Wave Select'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Semitone'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Detune'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: FM Amount'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Oscillatory Sync'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Filter Envelope'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Keyboard Tracking'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Oscillator Balance'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Suboscillator Volume'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Oscillator Main Volume'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Noise Volume'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Ring Modulator Volume'
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Noise Color'
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc Global: Suboscillator Shape'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 1: Cutoff'
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 1: Resonance'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 1: Envelope Amount'
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 1: Keyboard Tracking'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 1: Filter Mode'
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 2: Cutoff'
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 2: Resonance'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 2: Envelope Amount'
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 2: Keyboard Tracking'
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter 2: Filter Mode'
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Global: Filter Balance'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Global: Filter Routing'
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Global: Saturation Curve'
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Global: FM > Filter Envelope'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Envelope: Attack'
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Envelope: Decay'
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Envelope: Sustain'
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Envelope: Sustain Time'
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter Envelope: Release'
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Envelope: Attack'
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Envelope: Decay'
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Envelope: Sustain'
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Envelope: Sustain Time'
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Envelope: Release'
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Potamento Time'
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Transpose'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Keyboard Mode'
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Unison Mode'
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Unison Detune'
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Unison Spread'
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: 'Voice/Pitch: Unison LFO Phase'
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Part Volume'
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Part Balance'
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Part Pan'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Patch Volume'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Input Mode'
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: 'Global Mixer: Input Select'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Rate'
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Shape'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Envelope Mode'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: LFO Mode'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Symmetry'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Keyboard Tracking'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Key Trigger'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Rate'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Shape'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Envelope Mode'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: LFO Mode'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Symmetry'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Keyboard Tracking'
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Key Trigger'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO1 > Osc1'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO1 > Osc2'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO1 > Pulsewidth'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO1 > Resonance'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO1 > Filter Gain'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO2 > Osc Shape'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO2 > FM Amount'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO2 > Filter 1 Cutoff'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO2 > Filter 2 Cutoff'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO Routing: LFO2 > Pan'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Mix'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Rate'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Depth'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Delay'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: Feedback'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Chorus: LFO Shape'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Time'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Feedback'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Rate'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Depth'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: LFO Shape'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Color'
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Decay Time'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Room Size'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Damping'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Delay/Reverb Mode
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Effect Send
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select (MSB)
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Data Slider
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select (LSB)
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard On/Off
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 3
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 9
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 12
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 13
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 14
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 15
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 16
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 50
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 92
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 95
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 96
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 103
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 104
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 111
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 120
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 121
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 124
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 125
+  value: 125
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 126
+  value: 126
+- description: ''
+  max: 127
+  min: 0
+  name: Controller 127
+  value: 127
+- description: ''
+  max: 127
+  min: 0
+  name: Breath Controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Pedal
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto Pedal
+  value: 66
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
