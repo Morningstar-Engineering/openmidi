@@ -1,0 +1,386 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Rate
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Seq Rate
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Freq
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: Glide Off
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: Glide On
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp/Seq Hold: Off'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'Arp/Seq Hold: On'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp/Seq Play: Off'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Arp/Seq Play: On'
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1 Octave: 32'
+  value: 74
+- description: ''
+  max: 32
+  min: 32
+  name: 'Osc1 Octave: 16'
+  value: 74
+- description: ''
+  max: 64
+  min: 64
+  name: 'Osc1 Octave: 8'
+  value: 74
+- description: ''
+  max: 96
+  min: 96
+  name: 'Osc1 Octave: 4'
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Octave: 32'
+  value: 75
+- description: ''
+  max: 32
+  min: 32
+  name: 'Osc2 Octave: 16'
+  value: 75
+- description: ''
+  max: 64
+  min: 64
+  name: 'Osc2 Octave: 8'
+  value: 75
+- description: ''
+  max: 96
+  min: 96
+  name: 'Osc2 Octave: 4'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Sync: Off'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc2 Sync: On'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Type: LCR'
+  value: 85
+- description: ''
+  max: 43
+  min: 43
+  name: 'Glide Type: LCT'
+  value: 85
+- description: ''
+  max: 85
+  min: 85
+  name: 'Glide Type: Exp'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Keyboard Octave: -2'
+  value: 89
+- description: ''
+  max: 26
+  min: 26
+  name: 'Keyboard Octave: -1'
+  value: 89
+- description: ''
+  max: 51
+  min: 51
+  name: 'Keyboard Octave: 0'
+  value: 89
+- description: ''
+  max: 77
+  min: 77
+  name: 'Keyboard Octave: +1'
+  value: 89
+- description: ''
+  max: 102
+  min: 102
+  name: 'Keyboard Octave: +2'
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp/Seq Clock Div: 4 Whole'
+  value: 90
+- description: ''
+  max: 5
+  min: 5
+  name: 'Arp/Seq Clock Div: 3 Whole'
+  value: 90
+- description: ''
+  max: 11
+  min: 11
+  name: 'Arp/Seq Clock Div: 2 Whole'
+  value: 90
+- description: ''
+  max: 16
+  min: 16
+  name: 'Arp/Seq Clock Div: WH d'
+  value: 90
+- description: ''
+  max: 21
+  min: 21
+  name: 'Arp/Seq Clock Div: WH'
+  value: 90
+- description: ''
+  max: 27
+  min: 27
+  name: 'Arp/Seq Clock Div: 1/2d'
+  value: 90
+- description: ''
+  max: 32
+  min: 32
+  name: 'Arp/Seq Clock Div: WH t'
+  value: 90
+- description: ''
+  max: 37
+  min: 37
+  name: 'Arp/Seq Clock Div: 1/2'
+  value: 90
+- description: ''
+  max: 43
+  min: 43
+  name: 'Arp/Seq Clock Div: 1/4d'
+  value: 90
+- description: ''
+  max: 48
+  min: 48
+  name: 'Arp/Seq Clock Div: 1/2t'
+  value: 90
+- description: ''
+  max: 53
+  min: 53
+  name: 'Arp/Seq Clock Div: 1/4'
+  value: 90
+- description: ''
+  max: 59
+  min: 59
+  name: 'Arp/Seq Clock Div: 1/8d'
+  value: 90
+- description: ''
+  max: 64
+  min: 64
+  name: 'Arp/Seq Clock Div: 1/4t'
+  value: 90
+- description: ''
+  max: 69
+  min: 69
+  name: 'Arp/Seq Clock Div: 1/8'
+  value: 90
+- description: ''
+  max: 75
+  min: 75
+  name: 'Arp/Seq Clock Div: 1/16d'
+  value: 90
+- description: ''
+  max: 80
+  min: 80
+  name: 'Arp/Seq Clock Div: 1/8t'
+  value: 90
+- description: ''
+  max: 85
+  min: 85
+  name: 'Arp/Seq Clock Div: 1/16'
+  value: 90
+- description: ''
+  max: 91
+  min: 91
+  name: 'Arp/Seq Clock Div: 1/32d'
+  value: 90
+- description: ''
+  max: 96
+  min: 96
+  name: 'Arp/Seq Clock Div: 1/16t'
+  value: 90
+- description: ''
+  max: 101
+  min: 101
+  name: 'Arp/Seq Clock Div: 1/32'
+  value: 90
+- description: ''
+  max: 107
+  min: 107
+  name: 'Arp/Seq Clock Div: 1/64d'
+  value: 90
+- description: ''
+  max: 112
+  min: 112
+  name: 'Arp/Seq Clock Div: 1/32t'
+  value: 90
+- description: ''
+  max: 117
+  min: 117
+  name: 'Arp/Seq Clock Div: 1/64'
+  value: 90
+- description: ''
+  max: 123
+  min: 123
+  name: 'Arp/Seq Clock Div: 1/64t'
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp/Seq Mode: Arp'
+  value: 91
+- description: ''
+  max: 43
+  min: 43
+  name: 'Arp/Seq Mode: Seq'
+  value: 91
+- description: ''
+  max: 85
+  min: 85
+  name: 'Arp/Seq Mode: Rec'
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp/Seq Pattern: Order'
+  value: 92
+- description: ''
+  max: 43
+  min: 43
+  name: 'Arp/Seq Pattern: Forward/Back'
+  value: 92
+- description: ''
+  max: 85
+  min: 85
+  name: 'Arp/Seq Pattern: Random'
+  value: 92
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp Range/Seq Number: 1'
+  value: 93
+- description: ''
+  max: 43
+  min: 43
+  name: 'Arp Range/Seq Number: 2'
+  value: 93
+- description: ''
+  max: 85
+  min: 85
+  name: 'Arp Range/Seq Number: 3'
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'Legato Glide: Off'
+  value: 94
+- description: ''
+  max: 127
+  min: 127
+  name: 'Legato Glide: On'
+  value: 94
+- description: ''
+  max: 0
+  min: 0
+  name: 'Gated Glide: Off'
+  value: 103
+- description: ''
+  max: 127
+  min: 127
+  name: 'Gated Glide: On'
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Up Amount
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Down Amount
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: KB Transpose (Semitones)
+  value: 119
+- description: ''
+  max: 0
+  min: 0
+  name: Sustain Off
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Sustain On
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Local Control: Off'
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: 'Local Control: On'
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: All Sounds Off
+  value: 120
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+device_name: Grandmother
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

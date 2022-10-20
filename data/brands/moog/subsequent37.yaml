@@ -1,0 +1,816 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath Controller
+  value: 2
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Rate: 4 Whole'
+  value: 3
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO1 Rate: 3 Whole'
+  value: 3
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO1 Rate: 2 Whole'
+  value: 3
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO1 Rate: WH + 1/2'
+  value: 3
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO1 Rate: WH'
+  value: 3
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO1 Rate: 1/2d'
+  value: 3
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO1 Rate: WHt'
+  value: 3
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO1 Rate: 1/2'
+  value: 3
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO1 Rate: 1/4d'
+  value: 3
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO1 Rate: 1/2t'
+  value: 3
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO1 Rate: 1/4'
+  value: 3
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO1 Rate: 1/8d'
+  value: 3
+- description: ''
+  max: 74
+  min: 74
+  name: 'LFO1 Rate: 1/4t'
+  value: 3
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO1 Rate: 1/8'
+  value: 3
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO1 Rate: 1/16d'
+  value: 3
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO1 Rate: 1/8t'
+  value: 3
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO1 Rate: 1/16'
+  value: 3
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO1 Rate: 1/16t'
+  value: 3
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO1 Rate: 1/32'
+  value: 3
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO1 Rate: 1/32t'
+  value: 3
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO1 Rate: 1/64t'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 1 Pitch Amount
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Rate: 4 Whole'
+  value: 8
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO2 Rate: 3 Whole'
+  value: 8
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO2 Rate: 2 Whole'
+  value: 8
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO2 Rate: WH + 1/2'
+  value: 8
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO2 Rate: WH'
+  value: 8
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO2 Rate: 1/2d'
+  value: 8
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO2 Rate: WHt'
+  value: 8
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO2 Rate: 1/2'
+  value: 8
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO2 Rate: 1/4d'
+  value: 8
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO2 Rate: 1/2t'
+  value: 8
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO2 Rate: 1/4'
+  value: 8
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO2 Rate: 1/8d'
+  value: 8
+- description: ''
+  max: 74
+  min: 74
+  name: 'LFO2 Rate: 1/4t'
+  value: 8
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 Rate: 1/8'
+  value: 8
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO2 Rate: 1/16d'
+  value: 8
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO2 Rate: 1/8t'
+  value: 8
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO2 Rate: 1/16'
+  value: 8
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO2 Rate: 1/16t'
+  value: 8
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO2 Rate: 1/32'
+  value: 8
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO2 Rate: 1/32t'
+  value: 8
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO2 Rate: 1/64t'
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Wave
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 1 Filter Amount
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Freq
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Beat Freq
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Wave
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 2 Pitch Amount
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 2 Filter Amount
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 2 PGM Dest Amount
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Multidrive
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Cutoff
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 1 PGM Dest Amount
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Filter KB Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Attack Time
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Decay Time
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Sustain Time
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Release Time
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Amount
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Attack Time
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Decay Time
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Sustain Time
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Release Time
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Glide: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp Latch: Off'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'Arp Latch: On'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: Mod 1 > Osc1 + Osc2
+  value: 70
+- description: ''
+  max: 43
+  min: 43
+  name: Mod 1 > Osc1
+  value: 70
+- description: ''
+  max: 85
+  min: 85
+  name: Mod 1 > Osc2
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod 1 Source: Triangle LFO'
+  value: 71
+- description: ''
+  max: 21
+  min: 21
+  name: 'Mod 1 Source: Square LFO'
+  value: 71
+- description: ''
+  max: 43
+  min: 43
+  name: 'Mod 1 Source: Saw LFO'
+  value: 71
+- description: ''
+  max: 64
+  min: 64
+  name: 'Mod 1 Source: Ramp LFO'
+  value: 71
+- description: ''
+  max: 85
+  min: 85
+  name: 'Mod 1 Source: S&H LFO'
+  value: 71
+- description: ''
+  max: 107
+  min: 107
+  name: 'Mod 1 Source: F.EG/PGM'
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod 2 Source: Triangle LFO'
+  value: 72
+- description: ''
+  max: 21
+  min: 21
+  name: 'Mod 2 Source: Square LFO'
+  value: 72
+- description: ''
+  max: 43
+  min: 43
+  name: 'Mod 2 Source: Saw LFO'
+  value: 72
+- description: ''
+  max: 64
+  min: 64
+  name: 'Mod 2 Source: Ramp LFO'
+  value: 72
+- description: ''
+  max: 85
+  min: 85
+  name: 'Mod 2 Source: S&H LFO'
+  value: 72
+- description: ''
+  max: 107
+  min: 107
+  name: 'Mod 2 Source: F.EG/PGM'
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: Arp Off
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: Arp On
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1 Octave: 16'
+  value: 74
+- description: ''
+  max: 32
+  min: 32
+  name: 'Osc1 Octave: 8'
+  value: 74
+- description: ''
+  max: 64
+  min: 64
+  name: 'Osc1 Octave: 4'
+  value: 74
+- description: ''
+  max: 96
+  min: 96
+  name: 'Osc1 Octave: 2'
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Octave: 16'
+  value: 75
+- description: ''
+  max: 32
+  min: 32
+  name: 'Osc2 Octave: 8'
+  value: 75
+- description: ''
+  max: 64
+  min: 64
+  name: 'Osc2 Octave: 4'
+  value: 75
+- description: ''
+  max: 96
+  min: 96
+  name: 'Osc2 Octave: 2'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Range: Low Range'
+  value: 76
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO1 Range: Med Range'
+  value: 76
+- description: ''
+  max: 85
+  min: 85
+  name: 'LFO1 Range: Hi Range'
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Hard Sync: Off'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc2 Hard Sync: On'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Range: Low Range'
+  value: 78
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO2 Range: Med Range'
+  value: 78
+- description: ''
+  max: 85
+  min: 85
+  name: 'LFO2 Range: Hi Range'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG KB Amount
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG KB Amount
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC KB Reset: Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC KB Reset: On'
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Reset: Off'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter EG Reset: On'
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp EG Reset: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp EG Reset: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Type: LCR'
+  value: 85
+- description: ''
+  max: 43
+  min: 43
+  name: 'Glide Type: LCT'
+  value: 85
+- description: ''
+  max: 85
+  min: 85
+  name: 'Glide Type: EXP'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Vel Amount
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Vel Amount
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: Mod 2 > Osc1 + Osc2
+  value: 88
+- description: ''
+  max: 43
+  min: 43
+  name: Mod 2 > Osc1
+  value: 88
+- description: ''
+  max: 85
+  min: 85
+  name: Mod 2 > Osc2
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: KB Octave
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 1 Destination
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 2 Destination
+  value: 92
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 KB Reset: Off'
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 KB Reset: On'
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Legato: Off'
+  value: 94
+- description: ''
+  max: 127
+  min: 127
+  name: 'Glide Legato: On'
+  value: 94
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 KB Reset: Off'
+  value: 95
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 KB Reset: On'
+  value: 95
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Dest: Osc1 + Osc2'
+  value: 102
+- description: ''
+  max: 43
+  min: 43
+  name: 'Glide Dest: Osc1'
+  value: 102
+- description: ''
+  max: 85
+  min: 85
+  name: 'Glide Dest: Osc2'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Delay
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Delay
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Hold
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Hold
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Up Amount
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Down Amount
+  value: 108
+- description: ''
+  max: 96
+  min: 0
+  name: Filter Slopes
+  value: 109
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC Duo Mode: Off'
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC Duo Mode: On'
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'KB CTRL: Neither'
+  value: 111
+- description: ''
+  max: 32
+  min: 32
+  name: 'KB CTRL: LO'
+  value: 111
+- description: ''
+  max: 64
+  min: 64
+  name: 'KB CTRL: HI'
+  value: 111
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Multi Trig: Off'
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter EG Multi Trig: On'
+  value: 112
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp EG Multi Trig: Off'
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp EG Multi Trig: On'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Level
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Sub Level
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Level
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback/Ext Level
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: KB Transpose
+  value: 119
+- description: ''
+  max: 0
+  min: 0
+  name: 'Local Control: Off'
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: 'Local Control: On'
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+device_name: Subsequent 37
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

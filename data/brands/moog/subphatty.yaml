@@ -1,0 +1,706 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Attack
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Decay
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Sustain
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Release
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Sustain
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Release
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Level
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Level
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Sub Level
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Wave
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Wave
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Frequency
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Beat Frequency
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2 Hard Sync: Off'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2 Hard Sync: On'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO Gate Reset: Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO Gate Reset: On'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Cutoff
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Filter KB Tracking Amount
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Multidrive Amount
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Velocity to Amplitude
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Velocity to Amplitude
+  value: 92
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Priority: Global'
+  value: 111
+- description: ''
+  max: 32
+  min: 32
+  name: 'Note Priority: Low Note'
+  value: 111
+- description: ''
+  max: 64
+  min: 64
+  name: 'Note Priority: High Note'
+  value: 111
+- description: ''
+  max: 96
+  min: 96
+  name: 'Note Priority: Last Note'
+  value: 111
+- description: ''
+  max: 0
+  min: 0
+  name: 'Release: Off'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'Release: On'
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Source: Triangle LFO'
+  value: 71
+- description: ''
+  max: 16
+  min: 16
+  name: 'Mod Source: Square LFO'
+  value: 71
+- description: ''
+  max: 32
+  min: 32
+  name: 'Mod Source: Saw LFO'
+  value: 71
+- description: ''
+  max: 48
+  min: 48
+  name: 'Mod Source: Ramp LFO'
+  value: 71
+- description: ''
+  max: 64
+  min: 64
+  name: 'Mod Source: S&H'
+  value: 71
+- description: ''
+  max: 80
+  min: 80
+  name: 'Mod Source: Filter Envelope'
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO MIDI Sync: Off'
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO MIDI Sync: On'
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Gate Reset: Off'
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Gate Reset: On'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mod Amount
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Mod Amount
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Wave Mod Amount
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Up Amount
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Down Amount
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Glide: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Legato: Off'
+  value: 94
+- description: ''
+  max: 127
+  min: 127
+  name: 'Glide Legato: On'
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Rate
+  value: 5
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide Type: LCR'
+  value: 85
+- description: ''
+  max: 43
+  min: 43
+  name: 'Glide Type: LCT'
+  value: 85
+- description: ''
+  max: 85
+  min: 85
+  name: 'Glide Type: Exp'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: LFO KB Tracking Amount
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp EG Reset: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp EG Reset: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Reset: Off'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter EG Reset: On'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: 'Keyboard Octave: -2'
+  value: 89
+- description: ''
+  max: 16
+  min: 16
+  name: 'Keyboard Octave: -1'
+  value: 89
+- description: ''
+  max: 32
+  min: 32
+  name: 'Keyboard Octave: 0'
+  value: 89
+- description: ''
+  max: 48
+  min: 48
+  name: 'Keyboard Octave: +1'
+  value: 89
+- description: ''
+  max: 64
+  min: 64
+  name: 'Keyboard Octave: +2'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Ext Audio Input Level
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Delay
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Hold
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Delay
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Hold
+  value: 105
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pitch Mod Osc2 only: Off'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pitch Mod Osc2 only: On'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 0
+  min: 0
+  name: 'Wave Mod Dest: Osc1'
+  value: 72
+- description: ''
+  max: 63
+  min: 63
+  name: 'Wave Mod Dest: Osc2'
+  value: 72
+- description: ''
+  max: 85
+  min: 85
+  name: 'Wave Mod Dest: Osc1+2'
+  value: 72
+- description: ''
+  max: 16
+  min: 16
+  name: 'VCO1 Octave: 16'
+  value: 74
+- description: ''
+  max: 32
+  min: 32
+  name: 'VCO1 Octave: 8'
+  value: 74
+- description: ''
+  max: 48
+  min: 48
+  name: 'VCO1 Octave: 4'
+  value: 74
+- description: ''
+  max: 64
+  min: 64
+  name: 'VCO1 Octave: 2'
+  value: 74
+- description: ''
+  max: 16
+  min: 16
+  name: 'VCO2 Octave: 16'
+  value: 75
+- description: ''
+  max: 32
+  min: 32
+  name: 'VCO2 Octave: 8'
+  value: 75
+- description: ''
+  max: 48
+  min: 48
+  name: 'VCO2 Octave: 4'
+  value: 75
+- description: ''
+  max: 64
+  min: 64
+  name: 'VCO2 Octave: 2'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Poles: 1'
+  value: 109
+- description: ''
+  max: 32
+  min: 32
+  name: 'Filter Poles: 2'
+  value: 109
+- description: ''
+  max: 64
+  min: 64
+  name: 'Filter Poles: 3'
+  value: 109
+- description: ''
+  max: 96
+  min: 96
+  name: 'Filter Poles: 4'
+  value: 109
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Range: Low'
+  value: 76
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO Range: Mid'
+  value: 76
+- description: ''
+  max: 85
+  min: 85
+  name: 'LFO Range: High'
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'Legato: Off'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'Legato: On'
+  value: 68
+- description: ''
+  max: 24
+  min: 0
+  name: Keyboard Transpose
+  value: 119
+- description: ''
+  max: 0
+  min: 0
+  name: 'Gated Glide: Off'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Gated Glide: On'
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Repeat: Off'
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter EG Repeat: On'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Velocity to Time
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG KB Amount
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Gate Source: On'
+  value: 90
+- description: ''
+  max: 32
+  min: 32
+  name: 'Filter EG Gate Source: Keys Only'
+  value: 90
+- description: ''
+  max: 64
+  min: 64
+  name: 'Filter EG Gate Source: Gate Only'
+  value: 90
+- description: ''
+  max: 96
+  min: 96
+  name: 'Filter EG Gate Source: Keys or Gate'
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp EG Repeat: Off'
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp EG Repeat: On'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG Velocity to Time
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG KB Amount
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'Volume EG Gate Source: On'
+  value: 91
+- description: ''
+  max: 32
+  min: 32
+  name: 'Volume EG Gate Source: Keys Only'
+  value: 91
+- description: ''
+  max: 64
+  min: 64
+  name: 'Volume EG Gate Source: Gate Only'
+  value: 91
+- description: ''
+  max: 96
+  min: 96
+  name: 'Volume EG Gate Source: Keys or Gate'
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter EG Trigger Mode: Off'
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter EG Trigger Mode: On'
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp EG Trigger Mode: Off'
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp EG Trigger Mode: On'
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Rate: 4 WH'
+  value: 3
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO Rate: 3 WH'
+  value: 3
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO Rate: 2 WH'
+  value: 3
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO Rate: WH + 1/2'
+  value: 3
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO Rate: WH'
+  value: 3
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO Rate: 1/2d'
+  value: 3
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO Rate: WH t'
+  value: 3
+- description: ''
+  max: 43
+  min: 43
+  name: 'LFO Rate: 1/2'
+  value: 3
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO Rate: 1/4d'
+  value: 3
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO Rate: 1/2t'
+  value: 3
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO Rate: 1/4'
+  value: 3
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO Rate: 1/8d'
+  value: 3
+- description: ''
+  max: 74
+  min: 74
+  name: 'LFO Rate: 1/4t'
+  value: 3
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO Rate: 1/8'
+  value: 3
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO Rate: 1/16d'
+  value: 3
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO Rate: 1/8t'
+  value: 3
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO Rate: 1/16'
+  value: 3
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO Rate: 1/16t'
+  value: 3
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO Rate: 1/32'
+  value: 3
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO Rate: 1/32t'
+  value: 3
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO Rate: 1/64t'
+  value: 3
+device_name: Sub Phatty
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

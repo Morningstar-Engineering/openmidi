@@ -1,0 +1,941 @@
+brand: Moog
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'MW Source: Tri'
+  value: 68
+- description: ''
+  max: 16
+  min: 16
+  name: 'MW Source: Square'
+  value: 68
+- description: ''
+  max: 32
+  min: 32
+  name: 'MW Source: Osc3'
+  value: 68
+- description: ''
+  max: 48
+  min: 48
+  name: 'MW Source: S&H'
+  value: 68
+- description: ''
+  max: 64
+  min: 64
+  name: 'MW Source: ON/Mod2'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'MW Source: Noise/PGM'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'MW Destination: Pitch'
+  value: 69
+- description: ''
+  max: 16
+  min: 16
+  name: 'MW Destination: Osc2'
+  value: 69
+- description: ''
+  max: 32
+  min: 32
+  name: 'MW Destination: Osc3'
+  value: 69
+- description: ''
+  max: 48
+  min: 48
+  name: 'MW Destination: Filt'
+  value: 69
+- description: ''
+  max: 64
+  min: 64
+  name: 'MW Destination: Wave'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'MW Destination: LFO Rate/PGM'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: 'MW Shaping: Filt'
+  value: 70
+- description: ''
+  max: 32
+  min: 32
+  name: 'MW Shaping: Velocity'
+  value: 70
+- description: ''
+  max: 64
+  min: 64
+  name: 'MW Shaping: Aftertouch'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: 'MW Shaping: ON/PGM'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: MW Amount
+  value: 6
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal Source: Tri'
+  value: 71
+- description: ''
+  max: 16
+  min: 16
+  name: 'Pedal Source: Square'
+  value: 71
+- description: ''
+  max: 32
+  min: 32
+  name: 'Pedal Source: Osc3'
+  value: 71
+- description: ''
+  max: 48
+  min: 48
+  name: 'Pedal Source: S&H'
+  value: 71
+- description: ''
+  max: 64
+  min: 64
+  name: 'Pedal Source: ON/Mod2'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal Source: Noise/PGM'
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal Destination: Tri'
+  value: 72
+- description: ''
+  max: 13
+  min: 13
+  name: 'Pedal Destination: Square'
+  value: 72
+- description: ''
+  max: 32
+  min: 32
+  name: 'Pedal Destination: Osc3'
+  value: 72
+- description: ''
+  max: 48
+  min: 48
+  name: 'Pedal Destination: S&H'
+  value: 72
+- description: ''
+  max: 64
+  min: 64
+  name: 'Pedal Destination: ON/Mod2'
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal Destination: Noise/PGM'
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal Shaping: Filt'
+  value: 73
+- description: ''
+  max: 32
+  min: 32
+  name: 'Pedal Shaping: Velocity'
+  value: 73
+- description: ''
+  max: 64
+  min: 64
+  name: 'Pedal Shaping: Aftertouch'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal Shaping: ON/PGM'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Pedal Amount
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 127
+  name: 'Glide: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Glide: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Release: On'
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: 'Release: Off'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 1 Input
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Mod 2 Input
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate
+  value: 3
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Sync: Off'
+  value: 67
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO Sync: MIDI'
+  value: 67
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO Sync: KB'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Sync: Env Gate'
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Master Rate
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Master Range
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Division: 4 WH'
+  value: 94
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO2 Division: 3 WH'
+  value: 94
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO2 Division: 2 WH'
+  value: 94
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO2 Division: WH dotted'
+  value: 94
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO2 Division: WH'
+  value: 94
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO2 Division: 1/2d'
+  value: 94
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO2 Division: WH triplet'
+  value: 94
+- description: ''
+  max: 44
+  min: 44
+  name: 'LFO2 Division: 1/2'
+  value: 94
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO2 Division: 1/4d'
+  value: 94
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO2 Division: 1/2t'
+  value: 94
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO2 Division: 1/4'
+  value: 94
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO2 Division: 1/8d'
+  value: 94
+- description: ''
+  max: 78
+  min: 78
+  name: 'LFO2 Division: 1/4t'
+  value: 94
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 Division: 1/8'
+  value: 94
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO2 Division: 1/16d'
+  value: 94
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO2 Division: 1/8t'
+  value: 94
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO2 Division: 1/16'
+  value: 94
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO2 Division: 1/32d'
+  value: 94
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO2 Division: 1/32'
+  value: 94
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO2 Division: 1/64d'
+  value: 94
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO2 Division: 1/64'
+  value: 94
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Master Wave: Tri'
+  value: 95
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO2 Master Wave: Square'
+  value: 95
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO2 Master Wave: Ramp'
+  value: 95
+- description: ''
+  max: 48
+  min: 48
+  name: 'LFO2 Master Wave: Saw'
+  value: 95
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO2 Master Wave: S&H'
+  value: 95
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 Master Wave: S&H Smooth'
+  value: 95
+- description: ''
+  max: 96
+  min: 96
+  name: 'LFO2 Master Wave: Sine'
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 (+) Rate
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 (+) Range
+  value: 103
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 (+) Division: 4 WH'
+  value: 104
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO2 (+) Division: 3 WH'
+  value: 104
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO2 (+) Division: 2 WH'
+  value: 104
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO2 (+) Division: WH dotted'
+  value: 104
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO2 (+) Division: WH'
+  value: 104
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO2 (+) Division: 1/2d'
+  value: 104
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO2 (+) Division: WH triplet'
+  value: 104
+- description: ''
+  max: 44
+  min: 44
+  name: 'LFO2 (+) Division: 1/2'
+  value: 104
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO2 (+) Division: 1/4d'
+  value: 104
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO2 (+) Division: 1/2t'
+  value: 104
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO2 (+) Division: 1/4'
+  value: 104
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO2 (+) Division: 1/8d'
+  value: 104
+- description: ''
+  max: 78
+  min: 78
+  name: 'LFO2 (+) Division: 1/4t'
+  value: 104
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 (+) Division: 1/8'
+  value: 104
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO2 (+) Division: 1/16d'
+  value: 104
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO2 (+) Division: 1/8t'
+  value: 104
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO2 (+) Division: 1/16'
+  value: 104
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO2 (+) Division: 1/32d'
+  value: 104
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO2 (+) Division: 1/32'
+  value: 104
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO2 (+) Division: 1/64d'
+  value: 104
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO2 (+) Division: 1/64'
+  value: 104
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 (+) Wave: Tri'
+  value: 105
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO2 (+) Wave: Square'
+  value: 105
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO2 (+) Wave: Ramp'
+  value: 105
+- description: ''
+  max: 48
+  min: 48
+  name: 'LFO2 (+) Wave: Saw'
+  value: 105
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO2 (+) Wave: S&H'
+  value: 105
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 (+) Wave: S&H Smooth'
+  value: 105
+- description: ''
+  max: 96
+  min: 96
+  name: 'LFO2 (+) Wave: Sine'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 (-) Rate
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 (-) Range
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 (-) Division: 4 WH'
+  value: 108
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO2 (-) Division: 3 WH'
+  value: 108
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO2 (-) Division: 2 WH'
+  value: 108
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO2 (-) Division: WH dotted'
+  value: 108
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO2 (-) Division: WH'
+  value: 108
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO2 (-) Division: 1/2d'
+  value: 108
+- description: ''
+  max: 37
+  min: 37
+  name: 'LFO2 (-) Division: WH triplet'
+  value: 108
+- description: ''
+  max: 44
+  min: 44
+  name: 'LFO2 (-) Division: 1/2'
+  value: 108
+- description: ''
+  max: 49
+  min: 49
+  name: 'LFO2 (-) Division: 1/4d'
+  value: 108
+- description: ''
+  max: 55
+  min: 55
+  name: 'LFO2 (-) Division: 1/2t'
+  value: 108
+- description: ''
+  max: 61
+  min: 61
+  name: 'LFO2 (-) Division: 1/4'
+  value: 108
+- description: ''
+  max: 68
+  min: 68
+  name: 'LFO2 (-) Division: 1/8d'
+  value: 108
+- description: ''
+  max: 78
+  min: 78
+  name: 'LFO2 (-) Division: 1/4t'
+  value: 108
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 (-) Division: 1/8'
+  value: 108
+- description: ''
+  max: 86
+  min: 86
+  name: 'LFO2 (-) Division: 1/16d'
+  value: 108
+- description: ''
+  max: 92
+  min: 92
+  name: 'LFO2 (-) Division: 1/8t'
+  value: 108
+- description: ''
+  max: 98
+  min: 98
+  name: 'LFO2 (-) Division: 1/16'
+  value: 108
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO2 (-) Division: 1/32d'
+  value: 108
+- description: ''
+  max: 110
+  min: 110
+  name: 'LFO2 (-) Division: 1/32'
+  value: 108
+- description: ''
+  max: 116
+  min: 116
+  name: 'LFO2 (-) Division: 1/64d'
+  value: 108
+- description: ''
+  max: 122
+  min: 122
+  name: 'LFO2 (-) Division: 1/64'
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 (-) Wave: Tri'
+  value: 109
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO2 (-) Wave: Square'
+  value: 109
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO2 (-) Wave: Ramp'
+  value: 109
+- description: ''
+  max: 48
+  min: 48
+  name: 'LFO2 (-) Wave: Saw'
+  value: 109
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO2 (-) Wave: S&H'
+  value: 109
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO2 (-) Wave: S&H Smooth'
+  value: 109
+- description: ''
+  max: 96
+  min: 96
+  name: 'LFO2 (-) Wave: Sine'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Octave
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wave
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Freq
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Octave
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Wave
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Freq
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Octave
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Wave
+  value: 13
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc1-2 Sync: On'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1-2 Sync: Off'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc3-1 FM: On'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc3-1 FM: Off'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc3 KB Control: On'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc3 KB Control: Off'
+  value: 79
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc3 Freq: On'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc3 Freq: Off'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: External Level
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'External Switch: On'
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'External Switch: Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Level
+  value: 15
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc1: On'
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1: Off'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Level
+  value: 16
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc2: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Level
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc3: On'
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc3: Off'
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: 'Noise: On'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Noise: Off'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Cutoff
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Spacing
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Filter KB Amount
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter: LP/LP'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter: HP/LP'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: FIlter ENV Attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter ENV Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Filter ENV Sustain
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Filter ENV Release
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Amount to Filter
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Volume ENV Attack
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Volume ENV Decay
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Volume ENV Sustain
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Volume ENV Release
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'ENV Gate Switch: On'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'ENV Gate Switch: Off'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+device_name: Minimoog Voyager XL
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

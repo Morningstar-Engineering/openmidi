@@ -1,0 +1,56 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 0
+  min: 0
+  name: Portamento Off
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: Portamento On
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: Sustain Off
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Sustain On
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Generate CV1
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Generate CV2
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Generate CV3
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Generate CV4
+  value: 7
+device_name: Mother-32
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

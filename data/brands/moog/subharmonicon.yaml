@@ -1,0 +1,71 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Frequency
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Sub 1 Frequency
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Sub 2 Frequency
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Frequency
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Sub 1 Frequency
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Sub 2 Frequency
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: VCF (EG) Attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: VCF (EG) Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: VCA (EG) Attack
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCA (EG) Decay
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Rhythm Generator Logic: OR'
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'Rhythm Generator Logic: XOR'
+  value: 113
+device_name: Subharmonicon
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

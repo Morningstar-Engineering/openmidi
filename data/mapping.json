@@ -945,7 +945,51 @@
         {
           "name": "MF-104M",
           "value": "mf104m"
-        }
+        },
+      {
+        "name": "MF-105M MIDI MuRF",
+        "value": "mf-105mmidimurf"
+      },
+      {
+        "name": "MF-108M Cluster Flux",
+        "value": "mf-108mclusterflux"
+      },
+      {
+        "name": "Grandmother",
+        "value": "grandmother"
+      },
+      {
+        "name": "Minimoog Voyager",
+        "value": "minimoogvoyager"
+      },
+      {
+        "name": "Minimoog Voyager XL",
+        "value": "minimoogvoyagerxl"
+      },
+      {
+        "name": "Minitaur",
+        "value": "minitaur"
+      },
+      {
+        "name": "Mother-32",
+        "value": "mother-32"
+      },
+      {
+        "name": "Sub Phatty",
+        "value": "subphatty"
+      },
+      {
+        "name": "Subharmonicon",
+        "value": "subharmonicon"
+      },
+      {
+        "name": "Subsequent 25",
+        "value": "subsequent25"
+      },
+      {
+        "name": "Subsequent 37",
+        "value": "subsequent37"
+      }
       ]
     },
     {

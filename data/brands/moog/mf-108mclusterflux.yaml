@@ -1,0 +1,336 @@
+brand: Moog
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time Portamento
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Control
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Amount
+  value: 16
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Waveform: Sine'
+  value: 70
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO Waveform: Triangle'
+  value: 70
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO Waveform: Square'
+  value: 70
+- description: ''
+  max: 48
+  min: 48
+  name: 'LFO Waveform: Saw'
+  value: 70
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO Waveform: Ramp'
+  value: 70
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO Waveform: Random Stepped'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Waveform: Smoothed Random'
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Range: Flange'
+  value: 74
+- description: ''
+  max: 127
+  min: 127
+  name: 'Range: Chorus'
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 91
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Clock Divisions: 4 Whole'
+  value: 71
+- description: ''
+  max: 6
+  min: 6
+  name: 'LFO Clock Divisions: 3 Whole'
+  value: 71
+- description: ''
+  max: 12
+  min: 12
+  name: 'LFO Clock Divisions: 2 Whole'
+  value: 71
+- description: ''
+  max: 18
+  min: 18
+  name: 'LFO Clock Divisions: WH + 1/2d'
+  value: 71
+- description: ''
+  max: 24
+  min: 24
+  name: 'LFO Clock Divisions: WHd'
+  value: 71
+- description: ''
+  max: 30
+  min: 30
+  name: 'LFO Clock Divisions: WH + 1/4'
+  value: 71
+- description: ''
+  max: 35
+  min: 35
+  name: 'LFO Clock Divisions: WH'
+  value: 71
+- description: ''
+  max: 41
+  min: 41
+  name: 'LFO Clock Divisions: 1/2d'
+  value: 71
+- description: ''
+  max: 47
+  min: 47
+  name: 'LFO Clock Divisions: WH T'
+  value: 71
+- description: ''
+  max: 53
+  min: 53
+  name: 'LFO Clock Divisions: 1/2'
+  value: 71
+- description: ''
+  max: 59
+  min: 59
+  name: 'LFO Clock Divisions: 1/4d'
+  value: 71
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO Clock Divisions: 1/2 T'
+  value: 71
+- description: ''
+  max: 70
+  min: 70
+  name: 'LFO Clock Divisions: 1/4'
+  value: 71
+- description: ''
+  max: 76
+  min: 76
+  name: 'LFO Clock Divisions: 1/8d'
+  value: 71
+- description: ''
+  max: 82
+  min: 82
+  name: 'LFO Clock Divisions: 1/4 T'
+  value: 71
+- description: ''
+  max: 88
+  min: 88
+  name: 'LFO Clock Divisions: 1/8'
+  value: 71
+- description: ''
+  max: 94
+  min: 94
+  name: 'LFO Clock Divisions: 1/16d'
+  value: 71
+- description: ''
+  max: 99
+  min: 99
+  name: 'LFO Clock Divisions: 1/8 T'
+  value: 71
+- description: ''
+  max: 105
+  min: 105
+  name: 'LFO Clock Divisions: 1/16'
+  value: 71
+- description: ''
+  max: 111
+  min: 111
+  name: 'LFO Clock Divisions: 1/16 T'
+  value: 71
+- description: ''
+  max: 117
+  min: 117
+  name: 'LFO Clock Divisions: 1/32'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Clock Divisions: 1/32 T'
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: LFO Phase Reset
+  value: 72
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO Note Reset: Enable'
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Note Reset: Disable'
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Time Range: Normal'
+  value: 75
+- description: ''
+  max: 50
+  min: 50
+  name: 'Delay Time Range: x2'
+  value: 75
+- description: ''
+  max: 75
+  min: 75
+  name: 'Delay Time Range: x4'
+  value: 75
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay Time Range: x8'
+  value: 75
+- description: ''
+  max: 64
+  min: 64
+  name: 'MIDI Sync: Enable'
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Sync: Disable'
+  value: 76
+- description: ''
+  max: 64
+  min: 64
+  name: 'MIDI Note Mode: Enable'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Note Mode: Disable'
+  value: 77
+- description: ''
+  max: 64
+  min: 64
+  name: 'MIDI Note Spillover Mode: Enable'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Note Spillover Mode: Disable'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel to LFO Amount: Enable'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel to LFO Amount: Disable'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pitch Bend Amount: Off'
+  value: 80
+- description: ''
+  max: 16
+  min: 16
+  name: 'Pitch Bend Amount: 2 Semi'
+  value: 80
+- description: ''
+  max: 32
+  min: 32
+  name: 'Pitch Bend Amount: 3 Semi'
+  value: 80
+- description: ''
+  max: 48
+  min: 48
+  name: 'Pitch Bend Amount: 4 Semi'
+  value: 80
+- description: ''
+  max: 64
+  min: 64
+  name: 'Pitch Bend Amount: 5 Semi'
+  value: 80
+- description: ''
+  max: 80
+  min: 80
+  name: 'Pitch Bend Amount: 7 Semi'
+  value: 80
+- description: ''
+  max: 96
+  min: 96
+  name: 'Pitch Bend Amount: 12 Semi'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pitch Bend Amount: 24 Semi'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo Latching
+  value: 92
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo Momentary
+  value: 93
+device_name: MF-108M Cluster Flux
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

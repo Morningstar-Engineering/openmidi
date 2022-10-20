@@ -1,0 +1,221 @@
+brand: Moog
+cc:
+- description: ''
+  max: 1
+  min: 1
+  name: Set MIDI channel to 1
+  value: 102
+- description: ''
+  max: 2
+  min: 2
+  name: Set MIDI channel to 2
+  value: 102
+- description: ''
+  max: 3
+  min: 3
+  name: Set MIDI channel to 3
+  value: 102
+- description: ''
+  max: 4
+  min: 4
+  name: Set MIDI channel to 4
+  value: 102
+- description: ''
+  max: 5
+  min: 5
+  name: Set MIDI channel to 5
+  value: 102
+- description: ''
+  max: 6
+  min: 6
+  name: Set MIDI channel to 6
+  value: 102
+- description: ''
+  max: 7
+  min: 7
+  name: Set MIDI channel to 7
+  value: 102
+- description: ''
+  max: 8
+  min: 8
+  name: Set MIDI channel to 8
+  value: 102
+- description: ''
+  max: 9
+  min: 9
+  name: Set MIDI channel to 9
+  value: 102
+- description: ''
+  max: 10
+  min: 10
+  name: Set MIDI channel to 10
+  value: 102
+- description: ''
+  max: 11
+  min: 11
+  name: Set MIDI channel to 11
+  value: 102
+- description: ''
+  max: 12
+  min: 12
+  name: Set MIDI channel to 12
+  value: 102
+- description: ''
+  max: 13
+  min: 13
+  name: Set MIDI channel to 13
+  value: 102
+- description: ''
+  max: 14
+  min: 14
+  name: Set MIDI channel to 14
+  value: 102
+- description: ''
+  max: 15
+  min: 15
+  name: Set MIDI channel to 15
+  value: 102
+- description: ''
+  max: 16
+  min: 16
+  name: Set MIDI channel to 16
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate/Sweep
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: 'Staccato Mode: On'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Staccato Mode: Off'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Scale
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: LFO On
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: LFO Off
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'Freq: Bass'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'Freq: Mids'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pattern Clock Sync: On'
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pattern Clock Sync: Off'
+  value: 89
+- description: ''
+  max: 127
+  min: 127
+  name: Pattern Reset
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Level
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Level
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 3 Level
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 4 Level
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 5 Level
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 6 Level
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 7 Level
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 8 Level
+  value: 27
+device_name: MF-105M MIDI MuRF
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
