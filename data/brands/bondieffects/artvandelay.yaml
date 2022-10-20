@@ -1,0 +1,76 @@
+brand: Bondi Effects
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Time
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Level
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: 'Subdivision: 1/8'
+  value: 55
+- description: ''
+  max: 50
+  min: 50
+  name: 'Subdivision: 1/4'
+  value: 55
+- description: ''
+  max: 80
+  min: 80
+  name: 'Subdivision: 1/8d'
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: 'Subdivision: Triplet'
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 100
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 93
+device_name: Art Van Delay
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

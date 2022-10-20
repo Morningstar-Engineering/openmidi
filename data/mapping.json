@@ -149,7 +149,18 @@
                     "value": "amp1_mercury_iridium"
                 }
             ]
-        },
+        }
+    ,
+  {
+    "name": "Bondi Effects",
+    "value": "bondieffects",
+    "models": [
+      {
+        "name": "Art Van Delay",
+        "value": "artvandelay"
+      }
+    ]
+  },
         {
             "name": "Boss",
             "value": "boss",
