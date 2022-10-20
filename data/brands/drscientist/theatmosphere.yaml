@@ -1,0 +1,286 @@
+brand: Dr. Scientist
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bypass Type: Trails'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bypass Type: True'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Control
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Control
+  value: 8
+- description: ''
+  max: 127
+  min: 127
+  name: Remote Tap
+  value: 9
+- description: ''
+  max: 10
+  min: 1
+  name: LFO Depth
+  value: 15
+- description: ''
+  max: 8
+  min: 1
+  name: LFO Shape
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'Infinite Reverb: Off'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Infinite Reverb: On'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Save Settings to Preset
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate x1 (in BPM)
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate x2 (in BPM)
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate x3 (in BPM)
+  value: 25
+- description: ''
+  max: 6
+  min: 1
+  name: Left Stomp Press Action
+  value: 29
+- description: ''
+  max: 5
+  min: 1
+  name: Left Stomp Hold Action
+  value: 30
+- description: ''
+  max: 11
+  min: 1
+  name: Bypass Screen Selection
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bypass Footswitch: On'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bypass Footswitch: Off'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: Left Stomp Press
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'Left Stomp Hold: Infinite'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Left Stomp Hold: On'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO State: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO State: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Resolution Control
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Decay Control
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: CTRL 1
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: CTRL 1
+  value: 104
+- description: ''
+  max: 127
+  min: 127
+  name: Patch Up
+  value: 105
+- description: ''
+  max: 127
+  min: 127
+  name: Patch Down
+  value: 106
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Decay to Expression: Off'
+  value: 107
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Decay to Expression: On'
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map CTRL 1 to Expression: Off'
+  value: 108
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map CTRL 1 to Expression: On'
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: Map CTRL 2 to Expression:Off
+  value: 109
+- description: ''
+  max: 127
+  min: 127
+  name: Map CTRL 2 to Expression:On
+  value: 109
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Resolution to Expression: Off'
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Resolution to Expression: On'
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Mix to Expression: Off'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Mix to Expression: On'
+  value: 111
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Volume to Expression: Off'
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Volume to Expression: On'
+  value: 112
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Decay to LFO: Off'
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Decay to LFO: On'
+  value: 113
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map CTRL 1 to LFO: Off'
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map CTRL 1 to LFO: On'
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map CTRL 2 to LFO: Off'
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map CTRL 2 to LFO: On'
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Resolution to LFO: Off'
+  value: 116
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Resolution to LFO: On'
+  value: 116
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Mix to LFO: Off'
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Mix to LFO: On'
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Map Volume to LFO: Off'
+  value: 118
+- description: ''
+  max: 127
+  min: 127
+  name: 'Map Volume to LFO: On'
+  value: 118
+- description: ''
+  max: 0
+  min: 0
+  name: 'Toggle Default/Preset: Default'
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: 'Toggle Default/Preset: Preset'
+  value: 119
+device_name: The Atmosphere
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
