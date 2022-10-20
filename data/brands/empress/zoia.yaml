@@ -1,0 +1,21 @@
+brand: Empress Effects
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 60
+device_name: ZOIA
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

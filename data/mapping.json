@@ -401,7 +401,15 @@
                 {
                     "name": "Reverb",
                     "value": "reverb"
-                }
+                },
+              {
+        "name": "Tremolo2",
+        "value": "tremolo2"
+      },
+      {
+        "name": "ZOIA",
+        "value": "zoia"
+      }
             ]
         },
         {
