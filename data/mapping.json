@@ -203,6 +203,10 @@
             "name": "Chase Bliss Audio",
             "value": "chasebliss",
             "models": [
+              {
+        "name": "Ayahuasca",
+        "value": "ayahuasca"
+      },
                 {
                     "name": "Bliss Factory",
                     "value": "blissfactory"
@@ -258,7 +262,15 @@
                 {
                     "name": "Wombtone MKII",
                     "value": "wombtonemkii"
-                }
+                },
+              {
+        "name": "Habit",
+        "value": "habit"
+      },
+      {
+        "name": "Generation Loss MKII",
+        "value": "generationlossmkii"
+      }
             ]
         },
         {
