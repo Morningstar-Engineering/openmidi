@@ -1,0 +1,56 @@
+brand: Free the Tone
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Hi-cut
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Depth Right
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Depth Center
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Depth Left
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Mix
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Level
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 64
+device_name: TA-1H Tri Avatar
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

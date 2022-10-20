@@ -1,0 +1,386 @@
+brand: Free the Tone
+cc:
+- description: ''
+  max: 99
+  min: 0
+  name: Delay Level
+  value: 81
+- description: ''
+  max: 99
+  min: 0
+  name: Feedback (0-99)
+  value: 82
+- description: ''
+  max: 99
+  min: 11
+  name: Feedback (1.1-9.9)
+  value: 83
+- description: ''
+  max: 99
+  min: 10
+  name: Output Level
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: 'LPF: Off'
+  value: 21
+- description: ''
+  max: 22
+  min: 22
+  name: 'LPF: 22kHz'
+  value: 21
+- description: ''
+  max: 20
+  min: 20
+  name: 'LPF: 20kHz'
+  value: 21
+- description: ''
+  max: 18
+  min: 18
+  name: 'LPF: 18kHz'
+  value: 21
+- description: ''
+  max: 16
+  min: 16
+  name: 'LPF: 16kHz'
+  value: 21
+- description: ''
+  max: 14
+  min: 14
+  name: 'LPF: 14kHz'
+  value: 21
+- description: ''
+  max: 13
+  min: 13
+  name: 'LPF: 13kHz'
+  value: 21
+- description: ''
+  max: 12
+  min: 12
+  name: 'LPF: 12kHz'
+  value: 21
+- description: ''
+  max: 11
+  min: 11
+  name: 'LPF: 11kHz'
+  value: 21
+- description: ''
+  max: 10
+  min: 10
+  name: 'LPF: 10kHz'
+  value: 21
+- description: ''
+  max: 9
+  min: 9
+  name: 'LPF: 9kHz'
+  value: 21
+- description: ''
+  max: 8
+  min: 8
+  name: 'LPF: 8kHz'
+  value: 21
+- description: ''
+  max: 7
+  min: 7
+  name: 'LPF: 7kHz'
+  value: 21
+- description: ''
+  max: 6
+  min: 6
+  name: 'LPF: 6kHz'
+  value: 21
+- description: ''
+  max: 5
+  min: 5
+  name: 'LPF: 5kHz'
+  value: 21
+- description: ''
+  max: 4
+  min: 4
+  name: 'LPF: 4kHz'
+  value: 21
+- description: ''
+  max: 3
+  min: 3
+  name: 'LPF: 3kHz'
+  value: 21
+- description: ''
+  max: 2
+  min: 2
+  name: 'LPF: 2kHz'
+  value: 21
+- description: ''
+  max: 1
+  min: 1
+  name: 'LPF: 1kHz'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'HPF: Off'
+  value: 22
+- description: ''
+  max: 2
+  min: 2
+  name: 'HPF: 20Hz'
+  value: 22
+- description: ''
+  max: 4
+  min: 4
+  name: 'HPF: 40Hz'
+  value: 22
+- description: ''
+  max: 5
+  min: 5
+  name: 'HPF: 50Hz'
+  value: 22
+- description: ''
+  max: 6
+  min: 6
+  name: 'HPF: 60Hz'
+  value: 22
+- description: ''
+  max: 8
+  min: 8
+  name: 'HPF: 80Hz'
+  value: 22
+- description: ''
+  max: 10
+  min: 10
+  name: 'HPF: 100Hz'
+  value: 22
+- description: ''
+  max: 12
+  min: 12
+  name: 'HPF: 120Hz'
+  value: 22
+- description: ''
+  max: 14
+  min: 14
+  name: 'HPF: 140Hz'
+  value: 22
+- description: ''
+  max: 16
+  min: 16
+  name: 'HPF: 160Hz'
+  value: 22
+- description: ''
+  max: 18
+  min: 18
+  name: 'HPF: 180Hz'
+  value: 22
+- description: ''
+  max: 20
+  min: 20
+  name: 'HPF: 200Hz'
+  value: 22
+- description: ''
+  max: 25
+  min: 25
+  name: 'HPF: 250Hz'
+  value: 22
+- description: ''
+  max: 30
+  min: 30
+  name: 'HPF: 300Hz'
+  value: 22
+- description: ''
+  max: 40
+  min: 40
+  name: 'HPF: 400Hz'
+  value: 22
+- description: ''
+  max: 50
+  min: 50
+  name: 'HPF: 500Hz'
+  value: 22
+- description: ''
+  max: 60
+  min: 60
+  name: 'HPF: 600Hz'
+  value: 22
+- description: ''
+  max: 70
+  min: 70
+  name: 'HPF: 700Hz'
+  value: 22
+- description: ''
+  max: 80
+  min: 80
+  name: 'HPF: 800Hz'
+  value: 22
+- description: ''
+  max: 90
+  min: 90
+  name: 'HPF: 900Hz'
+  value: 22
+- description: ''
+  max: 99
+  min: 99
+  name: 'HPF: 1kHz'
+  value: 22
+- description: ''
+  max: 99
+  min: 0
+  name: Rate-Up
+  value: 31
+- description: ''
+  max: 99
+  min: 0
+  name: Rate Down
+  value: 34
+- description: ''
+  max: 99
+  min: 0
+  name: Depth
+  value: 33
+- description: ''
+  max: 1
+  min: 1
+  name: 'Subdivision: 1/1'
+  value: 41
+- description: ''
+  max: 2
+  min: 2
+  name: 'Subdivision: 1/2'
+  value: 41
+- description: ''
+  max: 3
+  min: 3
+  name: 'Subdivision: 1/4d'
+  value: 41
+- description: ''
+  max: 4
+  min: 4
+  name: 'Subdivision: Triplet/4'
+  value: 41
+- description: ''
+  max: 5
+  min: 5
+  name: 'Subdivision: 1/4'
+  value: 41
+- description: ''
+  max: 6
+  min: 6
+  name: 'Subdivision: 1/8d'
+  value: 41
+- description: ''
+  max: 7
+  min: 7
+  name: 'Subdivision: Triplet/2'
+  value: 41
+- description: ''
+  max: 8
+  min: 8
+  name: 'Subdivision: 1/8'
+  value: 41
+- description: ''
+  max: 9
+  min: 9
+  name: 'Subdivision: Triplet/1'
+  value: 41
+- description: ''
+  max: 10
+  min: 10
+  name: 'Subdivision: 1/16'
+  value: 41
+- description: ''
+  max: 99
+  min: 0
+  name: Offset (+)
+  value: 42
+- description: ''
+  max: 99
+  min: 0
+  name: Offset (-)
+  value: 43
+- description: ''
+  max: 0
+  min: 0
+  name: 'Trail: Off'
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: 'Trail: On'
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: 'Rec & Repeat Mode: On'
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: 'Rec & Repeat Mode: Off'
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: 'BPM Analyzer: Off'
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: 'BPM Analyzer: On'
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Phase: Off'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay Phase: On'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Effect On
+  value: 61
+- description: ''
+  max: 0
+  min: 0
+  name: Effect Off
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: Tap
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Hold: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Hold: Off'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: Play
+  value: 71
+- description: ''
+  max: 127
+  min: 127
+  name: Rec
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: Stop
+  value: 73
+device_name: Flight Time FT-2Y
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

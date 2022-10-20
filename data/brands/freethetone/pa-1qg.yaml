@@ -1,0 +1,76 @@
+brand: Free the Tone
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: 50Hz
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: 100Hz
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: 200Hz
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: 400Hz
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: 800Hz
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: 1500Hz
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 2500Hz
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 3500Hz
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 7kHz
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 10kHz
+  value: 106
+device_name: PA-1QG
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

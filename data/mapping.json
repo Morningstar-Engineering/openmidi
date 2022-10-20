@@ -605,7 +605,35 @@
         {
           "name": "FF-1Y",
           "value": "ff1y"
-        }
+        },
+        {
+        "name": "AS-1R Ambi Space",
+        "value": "as-1rambispace"
+      },
+      {
+        "name": "Flight Time FT-2Y",
+        "value": "flighttimeft-2y"
+      },
+      {
+        "name": "Future Factory FF-1Y",
+        "value": "futurefactoryff-1y"
+      },
+      {
+        "name": "PA-1QA",
+        "value": "pa-1qa"
+      },
+      {
+        "name": "PA-1QB",
+        "value": "pa-1qb"
+      },
+      {
+        "name": "PA-1QG",
+        "value": "pa-1qg"
+      },
+      {
+        "name": "TA-1H Tri Avatar",
+        "value": "ta-1htriavatar"
+      }
       ]
     },
     {

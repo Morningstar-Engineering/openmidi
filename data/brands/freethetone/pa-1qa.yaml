@@ -1,0 +1,76 @@
+brand: Free the Tone
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: 31Hz
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: 62Hz
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: 125Hz
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: 250Hz
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: 500Hz
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: 1kHz
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 2kHz
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 4kHz
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 8kHz
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 16kHz
+  value: 106
+device_name: PA-1QA
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
