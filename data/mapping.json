@@ -1672,6 +1672,36 @@
       }
     ]
   },
+     {
+    "name": "Sequential",
+    "value": "sequential",
+    "models": [
+      {
+        "name": "OB-6",
+        "value": "ob-6"
+      },
+      {
+        "name": "Pro 3",
+        "value": "pro3"
+      },
+      {
+        "name": "Prophet 12",
+        "value": "prophet12"
+      },
+      {
+        "name": "Prophet 6",
+        "value": "prophet6"
+      },
+      {
+        "name": "Prophet X",
+        "value": "prophetx"
+      },
+      {
+        "name": "Rev 2",
+        "value": "rev2"
+      }
+    ]
+  },
     {
       "name": "Seymour Duncan",
       "value": "seymourduncan",

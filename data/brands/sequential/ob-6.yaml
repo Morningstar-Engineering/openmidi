@@ -1,0 +1,261 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Octave Level
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Amount
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Volume LSB
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Amt
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Vel Amt
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Loudness Env Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amt
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Arp On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Octave
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Division
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Frequency
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Level
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Shape
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Pulse Width
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Brightness
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Frequency
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Detune
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Level
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Shape
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Pulse Width
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Key Amount
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Velocity On/Off
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mode
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Band-pass On/Off
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local Control On/Off
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode Off
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode On
+  value: 125
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Mode On
+  value: 126
+- description: ''
+  max: 127
+  min: 0
+  name: Poly Mode On
+  value: 127
+device_name: OB-6
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,446 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Oscillator
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Spread
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Volume
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: A/B Mode
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 1 Position
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 2 Position
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 On/Off
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Select
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Mix
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 1
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 2
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 3
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 On/Off
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Select
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Mix
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 1
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 2
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 3
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 16 Voice Mode
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Split Point
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Amount
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to Amp Env
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Delay
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Anv Amount
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to Filter Env
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Delay
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Inst. 1 Glide Amount
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Inst. 2 Glide Amount
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Glide Amount
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Glide Amount
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Relatch
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Clock Divide
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Repeats
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Frequency
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Fine Tune
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Level
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Pan
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Loop On/Off
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 1 Reverse
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Frequency
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Fine Tune
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Level
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Pan
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Loop On/Off
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Inst 2 Reverse
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 > 1 Sync
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Frequency
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Fine Frequency
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Level
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape Mod
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pan
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Frequency
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Fine Frequency
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape Mod
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pan
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Slop
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Hack
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Decimate
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Key Amount
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Drive
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Lowpass Stereo Split
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Unison On/Off
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Mode
+  value: 118
+device_name: Prophet X
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

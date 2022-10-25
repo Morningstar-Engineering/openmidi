@@ -1,0 +1,541 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Sub Octave
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Amount
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Spread
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Volume
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: A/B Mode
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 1 Position
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 2 Position
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 1 Pressure
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 2 Pressure
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Time
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Sync
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Amount
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Feedback
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Time
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Sync
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Amount
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Feedback
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 3 Time
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 3 Sync
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 3 Amount
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 3 Feedback
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 4 Time
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 4 Sync
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 4 Amount
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 4 Feedback
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Amt
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to VCA Env Amt
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Delay
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Envelope Amt
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to LPF Env Amt
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Env Delay
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Env Attack
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Env Decay
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Env Sustain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Env Release
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Glide Amt
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Glide Amt
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Glide Amt
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Glide Amt
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Arp On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Auto Latch On/Off
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Division
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Repeats
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pitch
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Fine Tune
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Level
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape Mod
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 FM
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 AM
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Brightness
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pitch
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Fine Tune
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape Mod
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 FM
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 AM
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Pitch
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Fine Tune
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Level
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Shape
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Shape MOd
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 FM
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 AM
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Pitch
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Fine Tune
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Level
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Shape
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 Shape Mod
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 FM
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: OSC4 AM
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Frequency
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Resonance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Key Amount
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: LPF 2/4 Pole
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: HPF Frequency
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: HPF Resonance
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: HPF Key Amount
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Girth
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Air
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Hack
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Decimate
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback Amount
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback Tuning
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Unison On/Off
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Mode
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Key Assign
+  value: 119
+device_name: Prophet 12
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

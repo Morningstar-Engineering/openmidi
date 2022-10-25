@@ -1,0 +1,581 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Audio In Level
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Audio In Gain
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Volume
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Paraphonic On/Off
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Slider 1 Position
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 On/Off
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Type
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Mix
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 1
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 2
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Param 3
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Sync On/Off
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Sync Rate
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 On/Off
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Select
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Mix
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 1
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 2
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Param 3
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Sync On/Off
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Sync Rate
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Cutoff
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking Amount
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Drive
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Amount
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Velocity On/Off
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Delay
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Amount
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Velocity On/Off
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Delay
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Attack
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Decay
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Sustain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Release
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Glide Rate
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Glide Rate
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Glide Rate
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Swing
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Arp On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Relatch On/Off
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Clock Divide
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Repeats
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Glide On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Octave
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Fine Frequency
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Level
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape Mod
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Sync On/Off
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Slop
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Brightness
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Octave
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Fine Frequency
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape Mod
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Sync On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Slop
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Octave
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Fine Frequency
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Level
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Shape
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Shape Mod
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 LFO Mode On/Off
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: OSC3 Slop
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback Amount
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback Tuning
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Amount
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Grunge On/Off
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Ext. In Env. Follower Attack
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Ext. In Env. Follower Release
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Ext. In Gain Threshold
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Ladder Res Comp
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: State Variable Filter Mode
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: State Variable Filter Normal/Bandpass
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Freq
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Shape
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Sync On/Off
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Freq
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Amount
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Shape
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Sync On/Off
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: LFO3 Freq
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: LFO3 Amount
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: LFO3 Shape
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: LFO3 Sync On/Off
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local Control On/Off
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode Off
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode On
+  value: 125
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Mode On
+  value: 126
+- description: ''
+  max: 127
+  min: 0
+  name: Poly Mode On
+  value: 127
+device_name: Pro 3
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

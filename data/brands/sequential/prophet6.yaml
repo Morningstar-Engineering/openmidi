@@ -1,0 +1,276 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: MIDI Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Oscillator Level
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Amount
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Volume LSB
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Amt
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Vel amt
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Env Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Lowpass Env Amt
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: High-pass Env Amt
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Arp On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Time Signature
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Frequency
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Level
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pulse Width
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Brightness
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Frequency
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Frequency Fine
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pulse Width
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Low-pass Freq
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Low-pass Resonance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Low-pass Key Amt
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Low-pass Vel On/Off
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: High-pass Freq
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: High-pass Resonance
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: High-pass Key Amt
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: High-pass Vel On/Off
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local Control On/Off
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode Off
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Mode On
+  value: 125
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Mode On
+  value: 126
+- description: ''
+  max: 127
+  min: 0
+  name: Poly Mode On
+  value: 127
+device_name: Prophet 6
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,326 @@
+brand: Sequential
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: FX Type
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Oscillator
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Slop
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Mod Mode
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: FX Param 1
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: FX Param 2
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: BPM
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Clock Divide
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: FX On/Off
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: FX Mix
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: A/B Mode
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer Type
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Frequency
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Fine Tune
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Glide Rate/Time
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Frequency
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Fine Tune
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Glide Rate/Time
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: OSC Mix
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Shape Mod
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Shape Mod
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Arp On/Off
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Mode
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Repeats
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Volume
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Split Point
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide On/Off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Sustain
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Release
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Sustain
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Release
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Destination
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Amount
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Velocity
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Delay
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Attack
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 Decay
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Key Amount
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Audio Mod
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Velocity
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Delay
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Attack
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Decay
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Sustain
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Release
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Level
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Spread
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Amount
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Velocity
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Delay
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Attack
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Decay
+  value: 119
+device_name: Rev 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
