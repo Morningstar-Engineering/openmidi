@@ -1,0 +1,111 @@
+brand: Arturia
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Type
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Wave
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Timbre
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Shape
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Cycling env rise
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Cycling env fall
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Cycling env hold
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Cycling env amount
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: ARP/SEQ rate (free)
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: ARP/SEQ rate (sync)
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate (free)
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate (sync)
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope attack
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope decay
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope sustain
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard hold button (toggle)
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard spice
+  value: 2
+device_name: MicroFreak
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

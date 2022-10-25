@@ -11,6 +11,20 @@
       ]
     },
     {
+    "name": "Arturia",
+    "value": "arturia",
+    "models": [
+      {
+        "name": "MatrixBrute",
+        "value": "matrixbrute"
+      },
+      {
+        "name": "MicroFreak",
+        "value": "microfreak"
+      }
+    ]
+  },
+    {
       "name": "Alexander",
       "value": "alexander",
       "models": [
