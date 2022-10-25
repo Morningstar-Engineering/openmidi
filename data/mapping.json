@@ -1105,6 +1105,10 @@
         {
           "name": "Bias Head",
           "value": "biashead"
+        },
+        {
+          "name": "Bias Rack",
+          "value": "biasrack"
         }
       ]
     },
