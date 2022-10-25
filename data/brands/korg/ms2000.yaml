@@ -1,0 +1,336 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 5
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 1 Wave: SAw'
+  value: 77
+- description: ''
+  max: 16
+  min: 16
+  name: 'OSC 1 Wave: Pulse'
+  value: 77
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC 1 Wave: Triangle'
+  value: 77
+- description: ''
+  max: 48
+  min: 48
+  name: 'OSC 1 Wave: Sine'
+  value: 77
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC 1 Wave: Vox Wave'
+  value: 77
+- description: ''
+  max: 80
+  min: 80
+  name: 'OSC 1 Wave: DWGS'
+  value: 77
+- description: ''
+  max: 96
+  min: 96
+  name: 'OSC 1 Wave: Noise'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC 1 Wave: Audio In'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 control 1
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 control 2
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 2 Wave: Saw'
+  value: 78
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC 2 Wave: Square'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC 2 Wave: Triangle'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 2 Mod: Off'
+  value: 82
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC 2 Mod: Ring'
+  value: 82
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC 2 Mod: Sync'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC 2 Mod: Ring Sync'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 semitone
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 tune
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 level
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 level
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Noise level
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter type
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG 1 intensity
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter KBD track
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Amp level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Amp panpot
+  value: 10
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp: EG2'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'Amp: Gate'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Amp distortion
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: EG 1 attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: EG 1 decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: EG 1 sustain
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: EG 1 release
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: EG 2 attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: EG 2 decay
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: EG 2 sustain
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: EG 2 release
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 1 Wave: Saw'
+  value: 87
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO 1 Wave: Square'
+  value: 87
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO 1 Wave: Triangle'
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO 1 Wave: S/H'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 frequency
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 2 Wave: Saw'
+  value: 88
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO 2 Wave: Square+'
+  value: 88
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO 2 Wave: Triangle'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO 2 Wave: S/H'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 frequency
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 1 intensity
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 2 intensity
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 3 intensity
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 4 intensity
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sequencer: On'
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sequencer: Off'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Mod FX LFO speed
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Mod FX depth
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Delay depth
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Audio in 2 HPF level
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Audio in 2 threshold
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Formant shift
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter modulation intensity
+  value: 79
+device_name: MS2000
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

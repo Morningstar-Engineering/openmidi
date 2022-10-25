@@ -1,0 +1,121 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope attack
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope decay
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope intensity
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO depth
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 pitch
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 shape
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 shape
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 level
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 level
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 octave
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 wave
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 wave
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: LFO target
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: LFO wave
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: LFO mode
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Sync/ring
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope generator type
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope generator target
+  value: 62
+device_name: monologue
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

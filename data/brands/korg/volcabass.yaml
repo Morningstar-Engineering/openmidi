@@ -1,0 +1,71 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Slide time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Octave
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: LFO intensity
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: VCO pitch 1
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: VCO pitch 2
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCO pitch 3
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: EG decay/release
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff EG intensity
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Gate time
+  value: 49
+device_name: volca bass
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

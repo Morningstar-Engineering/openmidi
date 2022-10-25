@@ -1,0 +1,66 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Modulator attack
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Modulator decay
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Carrier attack
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Carrier decay
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: LFO pitch depth
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Algorithm
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator type
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator div
+  value: 50
+device_name: volca fm
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

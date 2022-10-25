@@ -775,6 +775,16 @@
       ]
     },
     {
+    "name": "IK Multimedia",
+    "value": "ikmultimedia",
+    "models": [
+      {
+        "name": "UNO Synth",
+        "value": "unosynth"
+      }
+    ]
+  },
+    {
       "name": "Jackson Audio",
       "value": "jacksonaudio",
       "models": [
@@ -837,6 +847,80 @@
       {
         "name": "Ridge",
         "value": "ridge"
+      }
+    ]
+  },
+    {
+    "name": "Korg",
+    "value": "korg",
+    "models": [
+      {
+        "name": "Kaoss Pad 2",
+        "value": "kaosspad2"
+      },
+      {
+        "name": "Kaoss Pad 3",
+        "value": "kaosspad3"
+      },
+      {
+        "name": "MS2000",
+        "value": "ms2000"
+      },
+      {
+        "name": "microKORG",
+        "value": "microkorg"
+      },
+      {
+        "name": "microKORG XL+",
+        "value": "microkorgxlplus"
+      },
+      {
+        "name": "minilogue",
+        "value": "minilogue"
+      },
+      {
+        "name": "minilogue xd",
+        "value": "miniloguexd"
+      },
+      {
+        "name": "monologue",
+        "value": "monologue"
+      },
+      {
+        "name": "volca bass",
+        "value": "volcabass"
+      },
+      {
+        "name": "volca beats",
+        "value": "volcabeats"
+      },
+      {
+        "name": "volca drum",
+        "value": "volcadrum"
+      },
+      {
+        "name": "volca fm",
+        "value": "volcafm"
+      },
+      {
+        "name": "volca keys",
+        "value": "volcakeys"
+      },
+      {
+        "name": "volca kick",
+        "value": "volcakick"
+      },
+      {
+        "name": "volca nubass",
+        "value": "volcanubass"
+      },
+      {
+        "name": "volca sample",
+        "value": "volcasample"
+      },
+      {
+        "name": "wavestate",
+        "value": "wavestate"
       }
     ]
   },

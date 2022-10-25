@@ -1,0 +1,216 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG attack
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG decay
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG sustain
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Amp EG release
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: EG decay
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: EG sustain
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: EG release
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO depth
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Voice depth
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Delay hi-pass
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Delay feedback
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 pitch
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 pitch
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 shape
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 shape
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Noise level
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 level
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 level
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Cross mod depth
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch EG intensity
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG intensity
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 octave
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 octave
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 1 wave
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: VCO 2 wave
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: LFO target
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: LFO EG mod
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: LFO wave
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Sync
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Ring
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity key track
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard track
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter type
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Delay output routing
+  value: 88
+device_name: minilogue
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

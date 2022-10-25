@@ -1,0 +1,166 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Select 1
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Select 2
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Select 1-2
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Level 1
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Level 2
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Level 1-2
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack 1
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack 2
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack 1-2
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: EG release 1
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: EG release 2
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: EG release 1-2
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch 1
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch 2
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch 1-2
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod amount 1
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Mod amount 2
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Mod amount 1-2
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Mod rate 1
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Mod rate 2
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Mod rate 1-2
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Bit reduction
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Fold
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Dry gain
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Send
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Waveguide model
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Body
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Tune
+  value: 119
+device_name: volca drum
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

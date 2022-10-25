@@ -1,0 +1,311 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Data Entry
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Mode Depth
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Wave
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Octave
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Pitch
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Shape
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Wave
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Octave
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Pitch
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Shape
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Type
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Sub-type
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Shape
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Shift Shape
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Multi
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Keytrack
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Attach
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Sustin
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Release
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Attach
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Intensity
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Target
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Wave
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Mode
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Intensity
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Target
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Type
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Sub-type
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Time
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Depth
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Type
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Depth
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Dry/Wet
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Time
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Depth
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Dry/Wet
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Sync On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Ring On/Off
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Cross-mod Depth
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation On/Off
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Damper
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: All sound off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset all Controllers
+  value: 121
+device_name: minilogue xd
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

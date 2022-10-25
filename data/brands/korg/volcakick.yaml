@@ -1,0 +1,61 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Pulse color
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Pulse level
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Amp attack
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Amp decay
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Tone
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Resonator pitch
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Resonator bend
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Resonator time
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Accent
+  value: 49
+device_name: volca kick
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

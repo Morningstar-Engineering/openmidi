@@ -1,0 +1,61 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad X-Axis
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad Y-Axis
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad On/Off
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Level Slider
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: FX Depth Knob
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Hold Button
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Bank A Button
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Bank B Button
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Bank C Button
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Bank D Button
+  value: 39
+device_name: Kaoss Pad 3
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

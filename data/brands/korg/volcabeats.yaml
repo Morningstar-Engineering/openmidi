@@ -1,0 +1,111 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Kick level
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Snare level
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Lo tom level
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Hi tom level
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hat level
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Open hat level
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Clap level
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Claves level
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Agogo level
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Crash level
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Clap PCM speed
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Claves PCM speed
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Agogo PCM speed
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Crash PCM speed
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Stutter time
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Stutter depth
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Tom decay
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hat decay
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Open hat decay
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Hat grain
+  value: 59
+device_name: volca beats
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

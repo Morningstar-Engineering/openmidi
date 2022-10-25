@@ -1,0 +1,471 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Depth
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset All Controllers
+  value: 121
+- description: ''
+  max: 0
+  min: 0
+  name: 'Unison Mode: Off'
+  value: 3
+- description: ''
+  max: 33
+  min: 33
+  name: 'Unison Mode: 2Voice'
+  value: 3
+- description: ''
+  max: 65
+  min: 65
+  name: 'Unison Mode: 3Voice'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'Unison Mode: 4Voice'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Portamento
+  value: 5
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC1 Wave: Saw'
+  value: 8
+- description: ''
+  max: 16
+  min: 16
+  name: 'OSC1 Wave: Pulse'
+  value: 8
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC1 Wave: Triangle'
+  value: 8
+- description: ''
+  max: 48
+  min: 48
+  name: 'OSC1 Wave: Sine'
+  value: 8
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC1 Wave: Formant'
+  value: 8
+- description: ''
+  max: 80
+  min: 80
+  name: 'OSC1 Wave: Noise'
+  value: 8
+- description: ''
+  max: 96
+  min: 96
+  name: 'OSC1 Wave: PCM/DWGS'
+  value: 8
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC1 Wave: Audio In'
+  value: 8
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC1 Mod: Waveform'
+  value: 9
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC1 Mod: Cross'
+  value: 9
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC1 Mod: Unison'
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC1 Mod: VPM'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC1: C1'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC1: C2'
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC2 Wave: Saw'
+  value: 18
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC2 Wave: Pulse'
+  value: 18
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC2 Wave: Triangle'
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC2 Wave: Sine'
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC2 Mod: Off'
+  value: 19
+- description: ''
+  max: 32
+  min: 32
+  name: 'OSC2 Mod: Ring'
+  value: 19
+- description: ''
+  max: 64
+  min: 64
+  name: 'OSC2 Mod: Sync'
+  value: 19
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC2 Mod: Ring Sync'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC2: Semitone'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC2: Tune'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: OSC1 Level'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: OSC2 Level'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Noise Level'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter1: Cutoff'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter1: Reso'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter1: Type Bal'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter1: Routing 1 Single'
+  value: 26
+- description: ''
+  max: 32
+  min: 32
+  name: 'Filter1: Routing 1 Serial'
+  value: 26
+- description: ''
+  max: 64
+  min: 64
+  name: 'Filter1: Routing 1 Parallel'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter1: Routing 1 Indiv'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter1: EG1 INT'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter1: Key Trk'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Cutoff'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Reso'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Type'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: EG1 INT'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Key Trk'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Level'
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Pan'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drive: WS Depth'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG1: Attack'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG1: Decay'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG1: Sustain'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG1: Release'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG2: Attack'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG2: Decay'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG2: Sustain'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'EG2: Release'
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Wave: Saw'
+  value: 89
+- description: ''
+  max: 26
+  min: 26
+  name: 'LFO1 Wave: Square'
+  value: 89
+- description: ''
+  max: 51
+  min: 51
+  name: 'LFO1 Wave: Triangle'
+  value: 89
+- description: ''
+  max: 77
+  min: 77
+  name: 'LFO1 Wave: S/H'
+  value: 89
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Wave: Random'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO1: Freq'
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Wave: Saw'
+  value: 102
+- description: ''
+  max: 26
+  min: 26
+  name: 'LFO2 Wave: Square'
+  value: 102
+- description: ''
+  max: 51
+  min: 51
+  name: 'LFO2 Wave: Sine'
+  value: 102
+- description: ''
+  max: 77
+  min: 77
+  name: 'LFO2 Wave: S/H'
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Wave: Random'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO2: Freq'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 1 Intensity
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 2 Intensity
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 3 Intensity
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 4 Intensity
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 5 Intensity
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Patch 6 Intensity
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'EQ: Lo Gain'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'EQ: Hi Gain'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX1: Dry/Wet'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX1: CTRL1'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX1: CTRL2'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX2: Dry/Wet'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX2: CTRL1'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'MST FX2: CTRL2'
+  value: 113
+device_name: microKORG XL+
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

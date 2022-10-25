@@ -1,0 +1,36 @@
+brand: Korg
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad X-Axis
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad Y-Axis
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Touch Pad On/Off
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: FX Depth
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Mute
+  value: 95
+device_name: Kaoss Pad 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

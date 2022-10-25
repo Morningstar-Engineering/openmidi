@@ -1,0 +1,346 @@
+brand: IK Multimedia
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Glide time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: VCA level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Swing
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain (hold)
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide on/off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato on/off
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Wah on/off
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Tremolo on/off
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Dive on/off
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Dive range
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Scoop on/off
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Scoop range
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel to LFO rate
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel to vibrato
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel to wah
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel to tremelo
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel to filter cutoff
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch bend range
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to VCA amount
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to filter cutoff
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to filter env amount
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity to LFO rate
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff keytrack
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Delay mix
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 level
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 level
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Noise level
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 wave
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 wave
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 tune
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 tune
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Amp attack
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Amp decay
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Amp sustain
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Amp release
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Filter mode
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Filter drive
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter env amount
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter attack
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter decay
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Filter sustain
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter release
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter env to OSC 1 PWM
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Filter env to OSC 2 PWM
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Filter env to OSC 1 wave
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Filter env to OSC 2 wave
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: LFO wave
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to pitch
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to filter cutoff
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to tremelo
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to wah
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to vibr
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to OSC 1 PWM
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to OSC 2 PWM
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to OSC 1 waveform
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to OSC 2 waveform
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator on/off
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator direction
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator range
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator and seq gate time
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Seq direction
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Seq range
+  value: 87
+device_name: UNO Synth
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
