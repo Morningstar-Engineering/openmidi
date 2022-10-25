@@ -1,0 +1,206 @@
+brand: Mutable Instruments
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 shape
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 parameter
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 range
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation operator
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 shape
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 parameter
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 range
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 detune
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator balance
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Sub oscillator volume
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Noise volume
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Sub oscillator/transient generator shape
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope to cutoff modulation amount
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: LFO to cutoff modulation amount
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 1 attack
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 1 decay
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 1 sustain
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 1 release
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 2 attack
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 2 decay
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 2 sustain
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 2 release
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 waveform
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 rate
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 rise time
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 master/slave
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 waveform
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 rate
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 rise time
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 master/slave
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer mode
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Groove template
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Groove amount
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator direction
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator range
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Arpeggiator pattern
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Sequencer clock division
+  value: 81
+device_name: Shruthi
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
