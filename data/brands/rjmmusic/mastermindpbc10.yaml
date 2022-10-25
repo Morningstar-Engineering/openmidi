@@ -1,0 +1,361 @@
+brand: RJM
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 1 Off
+  value: 48
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 1 On
+  value: 48
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 2 Off
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 2 On
+  value: 49
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 3 Off
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 3 On
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 4 Off
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 4 On
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 5 Off
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 5 On
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 6 Off
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 6 On
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 7 Off
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 7 On
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 8 Off
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 8 On
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 9 Off
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 9 On
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: Loop 10 Off
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: Loop 10 On
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'Loop 7: Series'
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: 'Loop 7: Parallel'
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: 'Loop 8: Series'
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: 'Loop 8: Parallel'
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Loop 9: Series'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'Loop 9: Parallel'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Loop 10: Series'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Loop 10: Parallel'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Buffer 1: Enable'
+  value: 62
+- description: ''
+  max: 0
+  min: 0
+  name: 'Buffer 1: Disable'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'Buffer 2: Enable'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Buffer 2: Disable'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'Buffer 3: Enable'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Buffer 3: Disable'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Function Switch 1: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Function Switch 1: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Function Switch 2: On'
+  value: 66
+- description: ''
+  max: 0
+  min: 0
+  name: 'Function Switch 2: Off'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Function Switch 3: On'
+  value: 67
+- description: ''
+  max: 0
+  min: 0
+  name: 'Function Switch 3: Off'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'Function Switch 4: On'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Function Switch 4: Off'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'Output A/Left: On'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: 'Output A/Left: Off'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'Output B/Right: On'
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Output B/Right: Off'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: Output B Invert
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: Output B Normal
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: Mute
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: Unmute
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'Dry Send to Mixer: Mute'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Dry Send to Mixer: Unmuted'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner On
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: Tuner Off
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: Select Page 1
+  value: 75
+- description: ''
+  max: 1
+  min: 1
+  name: Select Page 2
+  value: 75
+- description: ''
+  max: 2
+  min: 2
+  name: Select Page 3
+  value: 75
+- description: ''
+  max: 3
+  min: 3
+  name: Select Page 4
+  value: 75
+- description: ''
+  max: 4
+  min: 4
+  name: Select Page 5
+  value: 75
+- description: ''
+  max: 5
+  min: 5
+  name: Select Page 6
+  value: 75
+- description: ''
+  max: 6
+  min: 6
+  name: Select Page 7
+  value: 75
+- description: ''
+  max: 7
+  min: 7
+  name: Select Page 8
+  value: 75
+- description: ''
+  max: 8
+  min: 8
+  name: Select Page 9
+  value: 75
+- description: ''
+  max: 9
+  min: 9
+  name: Select Page 10
+  value: 75
+- description: ''
+  max: 10
+  min: 10
+  name: Select Page 11
+  value: 75
+- description: ''
+  max: 11
+  min: 11
+  name: Select Page 12
+  value: 75
+- description: ''
+  max: 12
+  min: 12
+  name: Select Page 13
+  value: 75
+- description: ''
+  max: 13
+  min: 13
+  name: Select Page 14
+  value: 75
+- description: ''
+  max: 14
+  min: 14
+  name: Select Page 15
+  value: 75
+- description: ''
+  max: 15
+  min: 15
+  name: Select Page 16
+  value: 75
+device_name: Mastermind PBC/10
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1147,6 +1147,14 @@
         {
           "name": "Overture",
           "value": "overture"
+        },
+        {
+        "name": "Mastermind PBC/10",
+        "value": "mastermindpbc10"
+        },
+        {
+          "name": "Mini Amp Gizmo",
+          "value": "miniampgizmo"
         }
       ]
     },

@@ -1,0 +1,91 @@
+brand: RJM
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 1: On'
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 1: Off'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 2: On'
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 2: Off'
+  value: 89
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 3: On'
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 3: Off'
+  value: 90
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 4: On'
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 4: Off'
+  value: 91
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 5: On'
+  value: 92
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 5: Off'
+  value: 92
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 6: On'
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 6: Off'
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 7: On'
+  value: 94
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 7: Off'
+  value: 94
+- description: ''
+  max: 127
+  min: 127
+  name: 'Switch 8: On'
+  value: 95
+- description: ''
+  max: 0
+  min: 0
+  name: 'Switch 8: Off'
+  value: 95
+device_name: Mini Amp Gizmo
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
