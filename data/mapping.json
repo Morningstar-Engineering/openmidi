@@ -133,7 +133,19 @@
         {
           "name": "X-Air",
           "value": "xair"
-        }
+        },
+        {
+        "name": "Deepmind 12",
+        "value": "deepmind12"
+      },
+      {
+        "name": "Deepmind 12D",
+        "value": "deepmind12d"
+      },
+      {
+        "name": "Deepmind 6",
+        "value": "deepmind6"
+      }
       ]
     },
     {

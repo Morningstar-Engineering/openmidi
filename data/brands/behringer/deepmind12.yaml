@@ -1,0 +1,576 @@
+brand: Behringer
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select (MSB)
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Foot Controller
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Voume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Balance
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Rate
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Gate Time
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Delay Time
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Delay Time
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Pitch Modulation
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 PWM
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pitch Modulation
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Tone Modulation
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Pitch
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Level
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Frequency
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Resonance
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'VCF Envelope Modulation '
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select (LSB)
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: VCF LFO Modulation
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Keyboard Modulation
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: HPF Frequency
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Level
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Attack
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Decay
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Sustain
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Release
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Attack
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Decay
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Sustain
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Release
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Attack
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Decay
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Sustain
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Release
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envleope Attack Curve
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Decay Curve
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Sustain Curve
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Release Curve
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Attack Curve
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Decay Curve
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Envelope Sustain Curve
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Envelope Release Curve
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Attack Curve
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Decay Curve
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Sustain Curve
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: MOD Envelope Release Curve
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 1
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 2
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 3
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 4
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 5
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 6
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 7
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 8
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 9
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 10
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 11
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Parameter 12
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 1
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 2
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 3
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 4
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 5
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 6
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 7
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 8
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 9
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 10
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 11
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Parameter 12
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 1
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 2
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 3
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 4
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 5
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 6
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 7
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 8
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 9
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 10
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 11
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Parameter 12
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Type
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Type
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Type
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 4 Type
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 1 Gain
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 2 Gain
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 3 Gain
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Slot 4 Gain
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Analog Thru
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Mode
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 3D Controller X-Axis
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 3D Controller Y-Axis
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 3D Controller Z-Axis
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 127
+  name: Reset All Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local Control On/Of
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 127
+  name: Omni Mode Off
+  value: 124
+- description: ''
+  max: 127
+  min: 127
+  name: Omni Mode On
+  value: 125
+- description: ''
+  max: 127
+  min: 127
+  name: Poly Mode Off
+  value: 126
+- description: ''
+  max: 127
+  min: 127
+  name: Poly Mode On
+  value: 127
+device_name: Deepmind 12
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
