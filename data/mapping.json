@@ -1067,6 +1067,10 @@
         {
           "name": "Future Impact",
           "value": "futureimpact"
+        },
+        {
+          "name": "Infinity",
+          "value": "infinity"
         }
       ]
     },
