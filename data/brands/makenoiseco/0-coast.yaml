@@ -1,0 +1,376 @@
+brand: 'Make Noise Co. '
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Arpeggiator On
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: Arpeggiator Off
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arpeggiator: Traditional'
+  value: 119
+- description: ''
+  max: 1
+  min: 1
+  name: 'Arpeggiator: Latch'
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: 'Arpeggiator: Shift'
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: Legato On
+  value: 118
+- description: ''
+  max: 0
+  min: 0
+  name: Legato Off
+  value: 118
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI A channel: 1'
+  value: 102
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI A channel: 2'
+  value: 102
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI A channel: 3'
+  value: 102
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI A channel: 4'
+  value: 102
+- description: ''
+  max: 4
+  min: 4
+  name: 'MIDI A channel: 5'
+  value: 102
+- description: ''
+  max: 5
+  min: 5
+  name: 'MIDI A channel: 6'
+  value: 102
+- description: ''
+  max: 6
+  min: 6
+  name: 'MIDI A channel: 7'
+  value: 102
+- description: ''
+  max: 7
+  min: 7
+  name: 'MIDI A channel: 8'
+  value: 102
+- description: ''
+  max: 8
+  min: 8
+  name: 'MIDI A channel: 9'
+  value: 102
+- description: ''
+  max: 9
+  min: 9
+  name: 'MIDI A channel: 10'
+  value: 102
+- description: ''
+  max: 10
+  min: 10
+  name: 'MIDI A channel: 11'
+  value: 102
+- description: ''
+  max: 11
+  min: 11
+  name: 'MIDI A channel: 12'
+  value: 102
+- description: ''
+  max: 12
+  min: 12
+  name: 'MIDI A channel: 13'
+  value: 102
+- description: ''
+  max: 13
+  min: 13
+  name: 'MIDI A channel: 14'
+  value: 102
+- description: ''
+  max: 14
+  min: 14
+  name: 'MIDI A channel: 15'
+  value: 102
+- description: ''
+  max: 15
+  min: 15
+  name: 'MIDI A channel: 16'
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI A channel: Omni'
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI B channel: 1'
+  value: 103
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI B channel: 2'
+  value: 103
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI B channel: 3'
+  value: 103
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI B channel: 4'
+  value: 103
+- description: ''
+  max: 4
+  min: 4
+  name: 'MIDI B channel: 5'
+  value: 103
+- description: ''
+  max: 5
+  min: 5
+  name: 'MIDI B channel: 6'
+  value: 103
+- description: ''
+  max: 6
+  min: 6
+  name: 'MIDI B channel: 7'
+  value: 103
+- description: ''
+  max: 7
+  min: 7
+  name: 'MIDI B channel: 8'
+  value: 103
+- description: ''
+  max: 8
+  min: 8
+  name: 'MIDI B channel: 9'
+  value: 103
+- description: ''
+  max: 9
+  min: 9
+  name: 'MIDI B channel: 10'
+  value: 103
+- description: ''
+  max: 10
+  min: 10
+  name: 'MIDI B channel: 11'
+  value: 103
+- description: ''
+  max: 11
+  min: 11
+  name: 'MIDI B channel: 12'
+  value: 103
+- description: ''
+  max: 12
+  min: 12
+  name: 'MIDI B channel: 13'
+  value: 103
+- description: ''
+  max: 13
+  min: 13
+  name: 'MIDI B channel: 14'
+  value: 103
+- description: ''
+  max: 14
+  min: 14
+  name: 'MIDI B channel: 15'
+  value: 103
+- description: ''
+  max: 15
+  min: 15
+  name: 'MIDI B channel: 16'
+  value: 103
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI B channel: Omni'
+  value: 103
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI chA CV: Note'
+  value: 104
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI chA CV: Velocity'
+  value: 104
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI chA CV: Modulation'
+  value: 104
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI chA CV: LFO'
+  value: 104
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI chB CV: Note'
+  value: 105
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI chB CV: Velocity'
+  value: 105
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI chB CV: Modulation'
+  value: 105
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI chB CV: LFO'
+  value: 105
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI chA Gate: Note On'
+  value: 106
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI chA Gate: Velocity >50%'
+  value: 106
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI chA Gate: Mod Wheel >50%'
+  value: 106
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI chA Gate: LFO'
+  value: 106
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI chB Gate: Note On'
+  value: 107
+- description: ''
+  max: 1
+  min: 1
+  name: 'MIDI chB Gate: Velocity >50%'
+  value: 107
+- description: ''
+  max: 2
+  min: 2
+  name: 'MIDI chB Gate: Mod Wheel >50%'
+  value: 107
+- description: ''
+  max: 3
+  min: 3
+  name: 'MIDI chB Gate: LFO'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch bend scale A
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch bend scale B
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Aftertouch scale A
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Aftertouch scale B
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity scale A
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Velocity scale B
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Clock: On'
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Clock: Off'
+  value: 114
+- description: ''
+  max: 1
+  min: 0
+  name: 'Tempo in divisor: 1/1'
+  value: 116
+- description: ''
+  max: 2
+  min: 2
+  name: 'Tempo in divisor: 1/2'
+  value: 116
+- description: ''
+  max: 3
+  min: 3
+  name: 'Tempo in divisor: 1/3'
+  value: 116
+- description: ''
+  max: 4
+  min: 4
+  name: 'Tempo in divisor: 1/4'
+  value: 116
+- description: ''
+  max: 5
+  min: 5
+  name: 'Tempo in divisor: 1/5'
+  value: 116
+- description: ''
+  max: 6
+  min: 6
+  name: 'Tempo in divisor: 1/6'
+  value: 116
+- description: ''
+  max: 7
+  min: 7
+  name: 'Tempo in divisor: 1/7'
+  value: 116
+- description: ''
+  max: 8
+  min: 8
+  name: 'Tempo in divisor: 1/8'
+  value: 116
+device_name: 0-COAST
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

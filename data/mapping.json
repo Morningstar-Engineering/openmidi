@@ -1025,6 +1025,16 @@
       ]
     },
     {
+    "name": "Make Noise Co.",
+    "value": "makenoiseco",
+    "models": [
+      {
+        "name": "0-COAST",
+        "value": "0-coast"
+      }
+    ]
+  },
+    {
       "name": "Meris",
       "value": "meris",
       "models": [
