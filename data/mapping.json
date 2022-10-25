@@ -1270,6 +1270,20 @@
         }
       ]
     },
+  {
+    "name": "Stone Deaf",
+    "value": "stonedeaf",
+    "models": [
+      {
+        "name": "Syncopy",
+        "value": "syncopy"
+      },
+      {
+        "name": "Tremotron",
+        "value": "tremotron"
+      }
+    ]
+  },
     {
       "name": "Suhr",
       "value": "suhr",

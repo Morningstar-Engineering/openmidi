@@ -1,0 +1,141 @@
+brand: Stone Deaf
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: Modulation On
+  value: 23
+- description: ''
+  max: 0
+  min: 0
+  name: Modulation Off
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Time
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Depth
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: Modulation Shape 1
+  value: 26
+- description: ''
+  max: 20
+  min: 20
+  name: Modulation Shape 2
+  value: 26
+- description: ''
+  max: 40
+  min: 40
+  name: Modulation Shape 3
+  value: 26
+- description: ''
+  max: 50
+  min: 50
+  name: Modulation Shape 4
+  value: 26
+- description: ''
+  max: 60
+  min: 60
+  name: Modulation Shape 5
+  value: 26
+- description: ''
+  max: 80
+  min: 80
+  name: Modulation Shape 6
+  value: 26
+- description: ''
+  max: 90
+  min: 90
+  name: Modulation Shape 7
+  value: 26
+- description: ''
+  max: 100
+  min: 100
+  name: Modulation Shape 8
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: Modulation Shape 9
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tap Division: Crotchet'
+  value: 27
+- description: ''
+  max: 30
+  min: 30
+  name: 'Tap Division: Dotted Quaver'
+  value: 27
+- description: ''
+  max: 60
+  min: 60
+  name: 'Tap Division: Quaver'
+  value: 27
+- description: ''
+  max: 80
+  min: 80
+  name: 'Tap Division: Triplet'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tap Division: Semi-quaver'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: MIDI Beat Clock On
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: MIDI Beat Clock Off
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: Remote Tap
+  value: 93
+device_name: Syncopy
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
