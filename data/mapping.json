@@ -1163,6 +1163,16 @@
       ]
     },
     {
+      "name": "Seymour Duncan",
+      "value": "seymourduncan",
+      "models": [
+        {
+          "name": "Andromeda",
+          "value": "andromeda"
+        }
+      ]
+    },
+    {
       "name": "Singular Sound",
       "value": "singular_sound",
       "models": [

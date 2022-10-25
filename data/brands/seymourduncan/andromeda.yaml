@@ -1,0 +1,136 @@
+brand: Seymour Duncan
+cc:
+- description: ''
+  max: 31
+  min: 0
+  name: Bank Select
+  value: 0
+- description: ''
+  max: 7
+  min: 0
+  name: Delay Type
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Tap Value (Delay Ratio)
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Saturation
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Tone
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Threshold
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Type: Hard'
+  value: 26
+- description: ''
+  max: 1
+  min: 1
+  name: 'Type: Soft'
+  value: 26
+- description: ''
+  max: 2
+  min: 2
+  name: 'Type: Off'
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Destination: Mix'
+  value: 27
+- description: ''
+  max: 1
+  min: 1
+  name: 'Destination: Mod'
+  value: 27
+- description: ''
+  max: 2
+  min: 2
+  name: 'Destination: Saturation'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Trails On
+  value: 97
+- description: ''
+  max: 0
+  min: 0
+  name: Trails Off
+  value: 97
+- description: ''
+  max: 127
+  min: 127
+  name: Remote Tap
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: BPM MSB
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: BPM LSB
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: mS MSB
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: mS LSB
+  value: 63
+device_name: Andromeda
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
