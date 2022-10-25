@@ -1,0 +1,541 @@
+brand: Modor
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath Controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation CC3
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 mod LFO1
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 mod LFO1
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 mod LFO1
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 mod ENV2
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 mod ENV3
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 mod ENV4
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch ENV 1
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch LFO-S&H
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Comb Filter Depth
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Comb Filter Delay
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Speed
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Comb Filter Feedback
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Comb Filter Speed
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Comb Filter Mix
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Filter
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Mix
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Filter ENV2
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Filter LFO2
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Filter KEYB
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Formant ENV3
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Formant LFO2
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 1 Volume
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 2 Volume
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 3 Volume
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 1 Amount
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 2 Amount
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 3 Amount
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 4 Amount
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 5 Amount
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 6 Amount
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Wire 7 Amount
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: LFO3 Speed
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: S&H Speed
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Coarse Tuning
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Coarse Tuning
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Coarse Tuning
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Fine Tuning
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Tuning
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Fine Tuning
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Volume
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Volume
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Volume
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Mod
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Mod
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Mod
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Formant Morph
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Formant Mix
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Speed
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Ring Volume
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 T1
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 T1
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 T1
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 T1
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 T2
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 T2
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 T2
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 T2
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 T3
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 T3
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 T3
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 T3
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 T4
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 T4
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 T4
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 T4
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 L1
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 L1
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 L1
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 L1
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 L2
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 L2
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 L2
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 L2
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: ENV1 L3
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: ENV2 L3
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: ENV3 L3
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: ENV4 L3
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 1 Formant 1
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 1 Formant 2
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 1 Formant 3
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 1 Formant 4
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 2 Formant 1
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 2 Formant 2
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 2 Formant 3
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 2 Formant 4
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 3 Formant 1
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 3 Formant 2
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 3 Formant 3
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Vowel 3 Formant 4
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+device_name: NF-1
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

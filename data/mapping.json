@@ -1141,6 +1141,16 @@
     ]
   },
     {
+    "name": "Modor",
+    "value": "modor",
+    "models": [
+      {
+        "name": "NF-1",
+        "value": "nf-1"
+      }
+    ]
+  },
+    {
       "name": "Mooer",
       "value": "mooer",
       "models": [
