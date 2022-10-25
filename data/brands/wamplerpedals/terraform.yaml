@@ -1,0 +1,16 @@
+brand: Wampler Pedals
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Tap Tempo
+  value: 81
+device_name: Terraform
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
