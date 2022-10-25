@@ -1,0 +1,51 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Data Entry MSB
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Data Entry LSB
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+device_name: D-05
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

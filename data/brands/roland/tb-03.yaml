@@ -1,0 +1,61 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope modulation
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Accent level
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Overdrive
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Delay feedback
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Slide status
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Tuning
+  value: 104
+device_name: TB-03
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,251 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Expression pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Hold
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento time
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Source mix
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Dual switch
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Current part
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Assign mode
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Bend range
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: VCO modulation LFO modulation
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: VCO modulation envelope modulation
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: VCO modulation frequency modulation
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: VCO modulation PWM
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: VCO modulation PWM SEL
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-1 cross modulation
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-1 range
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-1 wave
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-2 sync
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-2 range
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-2 tune
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: VCO-2 wave
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: LFO delay time
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: LFO wave
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: VCA level
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: VCA LFO modulation
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: HPF cutoff
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: VCF slope
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: VCF envelope modulation
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCF envelope modulation SEL
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: VCO LFO modulation
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: VCF key follow
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: VCF resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: VCF cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-1 attack
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-1 decay
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-1 sustain
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-1 release
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-1 polarity
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-2 attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-2 decay
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-2 sustain
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-2 release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: ENV-2 key follow
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Delay feedback
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Delay level
+  value: 91
+device_name: JP-08
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

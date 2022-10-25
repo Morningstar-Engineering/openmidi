@@ -1,0 +1,301 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Control glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Control glide type
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Control WHL
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Octave shift
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose SW
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Patch volume
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Mod sens
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Dynamics
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Aftertouch sensitivity 1
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Aftertouch sensitivity 2
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Bend range
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Xmod 02FLT
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Xmod 03TO
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Xmod 03PW
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 range
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 waveform
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 fine
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 envelope
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 range
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 waveform
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 fine
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 3 range
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 3 waveform
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator sync
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator keyboard
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator xmod to mod wheel
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 1 mix
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 2 mix
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator 3 mix
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Noise mix
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Mix feedback
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 attack
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 sustain
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 decay
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 sustain
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 decay
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter keytrack 13
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Filter keytrack 23
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Filter contour
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Filter MTRIG
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Filter normal/invert
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Filter REL
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Filter gate/LFO
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Filter emphasis
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Delay time
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Delay regen
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Delay amount
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: LFO rate
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: LFO oscillator
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: LFO wave
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: LFO filter
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: LFO modwheel oscillator SW
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: LFO modwheel FLT SW
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: LFO mode SW
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: LFO synch SW
+  value: 109
+device_name: SE-02
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

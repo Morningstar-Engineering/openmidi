@@ -1,0 +1,166 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Portament time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Pitchbend range
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Hold
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Portament on/off
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Strings attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Strings tone
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Human voice attack
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato rate
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato depth
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato delay time
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Tune
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch time
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch set
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch shift
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch shft mode
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Balance direct mic
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Balance human voice
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Balance strings
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Vocodor formant
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Vocoder hold
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Vocoder level
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Vocoder tone
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Vocoder on/off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Human voice male 8
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Vuman voice female 4
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Strings on/off
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Vocoder ensemble
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Human voice ensemble
+  value: 92
+device_name: VP-03
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

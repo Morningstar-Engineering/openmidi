@@ -1,0 +1,281 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: LPF Cutoff
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Pedal Control
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Crusher
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer OSC1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer OSC2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer Sub Oscillator
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer Noise
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Env
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Pitch
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Fade Time
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Filter
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Amp
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Type
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Type
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Range
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Color
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Cross Mod
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Color
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Tune
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Mod
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: OSC1 Type
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Range
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Mod
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Tone
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: HPF Cutoff
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Key
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Attack
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Decay
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Sustain
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Release
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Attack
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Decay
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Delay
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Sustain
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Release
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Ring
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Sync
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer OSC Type
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Mixer Noise Type
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Legato
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Key Trigger
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Tempo Sync
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Mode On
+  value: 119
+device_name: SYSTEM-1
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

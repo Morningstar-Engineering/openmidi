@@ -1163,6 +1163,80 @@
       ]
     },
     {
+    "name": "Roland",
+    "value": "roland",
+    "models": [
+      {
+        "name": "BK-7m",
+        "value": "bk-7m"
+      },
+      {
+        "name": "D-05",
+        "value": "d-05"
+      },
+      {
+        "name": "GAIA SH-01",
+        "value": "gaiash-01"
+      },
+      {
+        "name": "JD-XA",
+        "value": "jd-xa"
+      },
+      {
+        "name": "JD-Xi",
+        "value": "jd-xi"
+      },
+      {
+        "name": "JP-08",
+        "value": "jp-08"
+      },
+      {
+        "name": "JU-06",
+        "value": "ju-06"
+      },
+      {
+        "name": "JX-03",
+        "value": "jx-03"
+      },
+      {
+        "name": "SE-02",
+        "value": "se-02"
+      },
+      {
+        "name": "SH-01A",
+        "value": "sh-01a"
+      },
+      {
+        "name": "SYSTEM-1",
+        "value": "system-1"
+      },
+      {
+        "name": "SYSTEM-8",
+        "value": "system-8"
+      },
+      {
+        "name": "TB-03",
+        "value": "tb-03"
+      },
+      {
+        "name": "TR-08",
+        "value": "tr-08"
+      },
+      {
+        "name": "TR-09",
+        "value": "tr-09"
+      },
+      {
+        "name": "TR-8",
+        "value": "tr-8"
+      },
+      {
+        "name": "VP-03",
+        "value": "vp-03"
+      }
+    ]
+  },
+    {
       "name": "Seymour Duncan",
       "value": "seymourduncan",
       "models": [

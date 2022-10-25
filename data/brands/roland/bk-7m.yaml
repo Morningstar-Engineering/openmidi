@@ -1,0 +1,141 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Play Stability
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Growl Sens
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Hold 1
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Soft
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Hold 2
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Release Time
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Attack Time
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Decay Time
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Rate
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Depth
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Delay
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Staccato
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Fall
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Control
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Depth
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 3 Depth
+  value: 93
+device_name: BK-7m
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,106 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Bank Select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Data entry
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Panpot
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Hold 1
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Attack time
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Decay time
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Release time
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato rate
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato depth
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato delay
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb send level
+  value: 91
+device_name: JD-XA
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

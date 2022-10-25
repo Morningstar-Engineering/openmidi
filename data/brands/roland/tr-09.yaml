@@ -1,0 +1,206 @@
+brand: Roland
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Shuffle
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Total accent
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum tune
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum attack
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum compression
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum decay
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum level
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum tune
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum snappy
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum compression
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum tone
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum level
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Low tom tune
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Low tom decay
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Low tom level
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Mid tom tune
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Mid tom decay
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Mid tom level
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: High tom tune
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: High tom decay
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: High tom level
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Rim shot tune
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Rim shot decay
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Rim shot level
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Hand clap tune
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Hand clap decay
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Hand clap level
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hi hat tune
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hi hat decay
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hi hat level
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Open hi hat tune
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Open hi hat decay
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Open hi hat level
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Crash cymbal tune
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Crash cymbal decay
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Crash cymbal level
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Ride cymbal tune
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Ride cymbal decay
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Ride cymbal level
+  value: 88
+device_name: TR-09
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
