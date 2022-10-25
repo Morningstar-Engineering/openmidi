@@ -1409,6 +1409,32 @@
       ]
     },
     {
+    "name": "Two Notes Audio Engineering",
+    "value": "twonotesaudioengineering",
+    "models": [
+      {
+        "name": "Torpedo C.A.B. (v4 firmware)",
+        "value": "torpedoc.a.b.(v4firmware)"
+      },
+      {
+        "name": "Torpedo Captor X",
+        "value": "torpedocaptorx"
+      },
+      {
+        "name": "Torpedo Live v3 firmware",
+        "value": "torpedolivev3firmware"
+      },
+      {
+        "name": "Torpedo Live v4 firmware",
+        "value": "torpedolivev4firmware"
+      },
+      {
+        "name": "Torpedo Studio",
+        "value": "torpedostudio"
+      }
+    ]
+  },
+    {
       "name": "Walrus Audio",
       "value": "walrusaudio",
       "models": [

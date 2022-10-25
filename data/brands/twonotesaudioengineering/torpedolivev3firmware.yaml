@@ -1,0 +1,711 @@
+brand: Two Notes Audio Engineering
+cc:
+- description: ''
+  max: 1
+  min: 1
+  name: Power Amp On
+  value: 0
+- description: ''
+  max: 0
+  min: 0
+  name: Power Amp Off
+  value: 0
+- description: ''
+  max: 0
+  min: 0
+  name: Amp Model 0
+  value: 1
+- description: ''
+  max: 1
+  min: 1
+  name: Amp Model 1
+  value: 1
+- description: ''
+  max: 2
+  min: 2
+  name: Amp Model 2
+  value: 1
+- description: ''
+  max: 3
+  min: 3
+  name: Amp Model 3
+  value: 1
+- description: ''
+  max: 4
+  min: 4
+  name: Amp Model 4
+  value: 1
+- description: ''
+  max: 5
+  min: 5
+  name: Amp Model 5
+  value: 1
+- description: ''
+  max: 6
+  min: 6
+  name: Amp Model 6
+  value: 1
+- description: ''
+  max: 7
+  min: 7
+  name: Amp Model 7
+  value: 1
+- description: ''
+  max: 30
+  min: 0
+  name: Amp Volume
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Presence
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Depth
+  value: 4
+- description: ''
+  max: 0
+  min: 0
+  name: 'Amp Type: Triode'
+  value: 5
+- description: ''
+  max: 1
+  min: 1
+  name: 'Amp Type: Pentode'
+  value: 5
+- description: ''
+  max: 1
+  min: 1
+  name: Mic On
+  value: 6
+- description: ''
+  max: 0
+  min: 0
+  name: Mic Off
+  value: 6
+- description: ''
+  max: 0
+  min: 0
+  name: 'Miking Mode: Cab/Mic'
+  value: 7
+- description: ''
+  max: 1
+  min: 1
+  name: 'Miking Mode: User 0'
+  value: 7
+- description: ''
+  max: 2
+  min: 2
+  name: 'Miking Mode: User 1'
+  value: 7
+- description: ''
+  max: 3
+  min: 3
+  name: 'Miking Mode: User 2'
+  value: 7
+- description: ''
+  max: 4
+  min: 4
+  name: 'Miking Mode: User 3'
+  value: 7
+- description: ''
+  max: 5
+  min: 5
+  name: 'Miking Mode: User 4'
+  value: 7
+- description: ''
+  max: 6
+  min: 6
+  name: 'Miking Mode: User 5'
+  value: 7
+- description: ''
+  max: 7
+  min: 7
+  name: 'Miking Mode: User 6'
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: Cab 0
+  value: 8
+- description: ''
+  max: 1
+  min: 1
+  name: Cab 1
+  value: 8
+- description: ''
+  max: 2
+  min: 2
+  name: Cab 2
+  value: 8
+- description: ''
+  max: 3
+  min: 3
+  name: Cab 3
+  value: 8
+- description: ''
+  max: 4
+  min: 4
+  name: Cab 4
+  value: 8
+- description: ''
+  max: 5
+  min: 5
+  name: Cab 5
+  value: 8
+- description: ''
+  max: 6
+  min: 6
+  name: Cab 6
+  value: 8
+- description: ''
+  max: 7
+  min: 7
+  name: Cab 7
+  value: 8
+- description: ''
+  max: 8
+  min: 8
+  name: Cab 8
+  value: 8
+- description: ''
+  max: 9
+  min: 9
+  name: Cab 9
+  value: 8
+- description: ''
+  max: 10
+  min: 10
+  name: Cab 10
+  value: 8
+- description: ''
+  max: 11
+  min: 11
+  name: Cab 11
+  value: 8
+- description: ''
+  max: 12
+  min: 12
+  name: Cab 12
+  value: 8
+- description: ''
+  max: 13
+  min: 13
+  name: Cab 13
+  value: 8
+- description: ''
+  max: 14
+  min: 14
+  name: Cab 14
+  value: 8
+- description: ''
+  max: 15
+  min: 15
+  name: Cab 15
+  value: 8
+- description: ''
+  max: 16
+  min: 16
+  name: Cab 16
+  value: 8
+- description: ''
+  max: 17
+  min: 17
+  name: Cab 17
+  value: 8
+- description: ''
+  max: 18
+  min: 18
+  name: Cab 18
+  value: 8
+- description: ''
+  max: 19
+  min: 19
+  name: Cab 19
+  value: 8
+- description: ''
+  max: 20
+  min: 20
+  name: Cab 20
+  value: 8
+- description: ''
+  max: 21
+  min: 21
+  name: Cab 21
+  value: 8
+- description: ''
+  max: 22
+  min: 22
+  name: Cab 22
+  value: 8
+- description: ''
+  max: 23
+  min: 23
+  name: Cab 23
+  value: 8
+- description: ''
+  max: 24
+  min: 24
+  name: Cab 24
+  value: 8
+- description: ''
+  max: 25
+  min: 25
+  name: Cab 25
+  value: 8
+- description: ''
+  max: 26
+  min: 26
+  name: Cab 26
+  value: 8
+- description: ''
+  max: 27
+  min: 27
+  name: Cab 27
+  value: 8
+- description: ''
+  max: 28
+  min: 28
+  name: Cab 28
+  value: 8
+- description: ''
+  max: 29
+  min: 29
+  name: Cab 29
+  value: 8
+- description: ''
+  max: 30
+  min: 30
+  name: Cab 30
+  value: 8
+- description: ''
+  max: 31
+  min: 31
+  name: Cab 31
+  value: 8
+- description: ''
+  max: 32
+  min: 32
+  name: Cab 32
+  value: 8
+- description: ''
+  max: 0
+  min: 0
+  name: User 0 File 0
+  value: 9
+- description: ''
+  max: 1
+  min: 1
+  name: User 0 File 1
+  value: 9
+- description: ''
+  max: 2
+  min: 2
+  name: User 0 File 2
+  value: 9
+- description: ''
+  max: 3
+  min: 3
+  name: User 0 File 3
+  value: 9
+- description: ''
+  max: 4
+  min: 4
+  name: User 0 File 4
+  value: 9
+- description: ''
+  max: 5
+  min: 5
+  name: User 0 File 5
+  value: 9
+- description: ''
+  max: 6
+  min: 6
+  name: User 0 File 6
+  value: 9
+- description: ''
+  max: 7
+  min: 7
+  name: User 0 File 7
+  value: 9
+- description: ''
+  max: 8
+  min: 8
+  name: User 0 File 8
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: User 1 File 0
+  value: 10
+- description: ''
+  max: 1
+  min: 1
+  name: User 1 File 1
+  value: 10
+- description: ''
+  max: 2
+  min: 2
+  name: User 1 File 2
+  value: 10
+- description: ''
+  max: 3
+  min: 3
+  name: User 1 File 3
+  value: 10
+- description: ''
+  max: 4
+  min: 4
+  name: User 1 File 4
+  value: 10
+- description: ''
+  max: 5
+  min: 5
+  name: User 1 File 5
+  value: 10
+- description: ''
+  max: 6
+  min: 6
+  name: User 1 File 6
+  value: 10
+- description: ''
+  max: 7
+  min: 7
+  name: User 1 File 7
+  value: 10
+- description: ''
+  max: 8
+  min: 8
+  name: User 1 File 8
+  value: 10
+- description: ''
+  max: 0
+  min: 0
+  name: User 2 File 0
+  value: 11
+- description: ''
+  max: 1
+  min: 1
+  name: User 2 File 1
+  value: 11
+- description: ''
+  max: 2
+  min: 2
+  name: User 2 File 2
+  value: 11
+- description: ''
+  max: 3
+  min: 3
+  name: User 2 File 3
+  value: 11
+- description: ''
+  max: 4
+  min: 4
+  name: User 2 File 4
+  value: 11
+- description: ''
+  max: 5
+  min: 5
+  name: User 2 File 5
+  value: 11
+- description: ''
+  max: 6
+  min: 6
+  name: User 2 File 6
+  value: 11
+- description: ''
+  max: 7
+  min: 7
+  name: User 2 File 7
+  value: 11
+- description: ''
+  max: 8
+  min: 8
+  name: User 2 File 8
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: User 3 File 0
+  value: 12
+- description: ''
+  max: 1
+  min: 1
+  name: User 3 File 1
+  value: 12
+- description: ''
+  max: 2
+  min: 2
+  name: User 3 File 2
+  value: 12
+- description: ''
+  max: 3
+  min: 3
+  name: User 3 File 3
+  value: 12
+- description: ''
+  max: 4
+  min: 4
+  name: User 3 File 4
+  value: 12
+- description: ''
+  max: 5
+  min: 5
+  name: User 3 File 5
+  value: 12
+- description: ''
+  max: 6
+  min: 6
+  name: User 3 File 6
+  value: 12
+- description: ''
+  max: 7
+  min: 7
+  name: User 3 File 7
+  value: 12
+- description: ''
+  max: 8
+  min: 8
+  name: User 3 File 8
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mic: Dynamic 57'
+  value: 13
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mic: Dynamic 421'
+  value: 13
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mic: Knightfall'
+  value: 13
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mic: Condenser 87'
+  value: 13
+- description: ''
+  max: 4
+  min: 4
+  name: 'Mic: Ribbon 160'
+  value: 13
+- description: ''
+  max: 5
+  min: 5
+  name: 'Mic: Ribbon 121'
+  value: 13
+- description: ''
+  max: 6
+  min: 6
+  name: 'Mic: Bass 20'
+  value: 13
+- description: ''
+  max: 7
+  min: 7
+  name: 'Mic: Bass 5'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mic Distance
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Mic Center
+  value: 15
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mic Position: Back'
+  value: 16
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mic Position: Front'
+  value: 16
+- description: ''
+  max: 1
+  min: 1
+  name: EQ On
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: EQ Off
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: 'EQ Mode: Guitar'
+  value: 18
+- description: ''
+  max: 1
+  min: 1
+  name: 'EQ Mode: Bass'
+  value: 18
+- description: ''
+  max: 40
+  min: 0
+  name: EQ Low
+  value: 19
+- description: ''
+  max: 40
+  min: 0
+  name: EQ Low Mid
+  value: 20
+- description: ''
+  max: 40
+  min: 0
+  name: EQ Mid
+  value: 21
+- description: ''
+  max: 40
+  min: 0
+  name: EQ High Mid
+  value: 22
+- description: ''
+  max: 40
+  min: 0
+  name: EQ High
+  value: 23
+- description: ''
+  max: 95
+  min: 0
+  name: Preset Level
+  value: 24
+- description: ''
+  max: 1
+  min: 1
+  name: Reverb On
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: Reverb Off
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: Reverb Room 0
+  value: 26
+- description: ''
+  max: 1
+  min: 1
+  name: Reverb Room 1
+  value: 26
+- description: ''
+  max: 2
+  min: 2
+  name: Reverb Room 2
+  value: 26
+- description: ''
+  max: 3
+  min: 3
+  name: Reverb Room 3
+  value: 26
+- description: ''
+  max: 4
+  min: 4
+  name: Reverb Room 4
+  value: 26
+- description: ''
+  max: 5
+  min: 5
+  name: Reverb Room 5
+  value: 26
+- description: ''
+  max: 6
+  min: 6
+  name: Reverb Room 6
+  value: 26
+- description: ''
+  max: 7
+  min: 7
+  name: Reverb Room 7
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Dry/Wet
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arcade - Instrument: Guitar'
+  value: 28
+- description: ''
+  max: 1
+  min: 1
+  name: 'Arcade - Instrument: Bass'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Power Amp: Off'
+  value: 29
+- description: ''
+  max: 30
+  min: 1
+  name: Power Amp
+  value: 29
+- description: ''
+  max: 44
+  min: 0
+  name: Arcade - Distance
+  value: 30
+- description: ''
+  max: 44
+  min: 0
+  name: Arcade - Tone
+  value: 31
+- description: ''
+  max: 40
+  min: 0
+  name: Arcade - Contour
+  value: 32
+- description: ''
+  max: 95
+  min: 0
+  name: Arcade - Preset Level
+  value: 33
+- description: ''
+  max: 0
+  min: 0
+  name: 'Preset Mode: Simulation'
+  value: 34
+- description: ''
+  max: 1
+  min: 1
+  name: 'Preset Mode: Arcade'
+  value: 34
+- description: ''
+  max: 95
+  min: 0
+  name: Out Level
+  value: 35
+- description: ''
+  max: 1
+  min: 1
+  name: Mute
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: Unmute
+  value: 36
+device_name: Torpedo Live v3 firmware
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
