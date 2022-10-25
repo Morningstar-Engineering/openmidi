@@ -1,0 +1,331 @@
+brand: Novation
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Patch Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Fine
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Range
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Coarse
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Mod Env Depth
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 LFO 1 Depth
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Mod Env PW Mod Amount
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 LFO 2 PW Mod Amount
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Manual PW Amount
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Fine
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Range
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Coarse
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Mod Env Depth
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 LFO 1 Depth
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Env 2 PW Mod Amount
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 LFO 2 PW Mod Amount
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Manual PW Amount
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Osc Octave
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Sub Osc Wave
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1 Level
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 2 Level
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Sob Osc Level
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Ring Mod Level
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: External Signal Level
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Type'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Slope'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Shape'
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Freq'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Mod Env Depth'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: LFO 2 Depth'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Overdrive'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Time
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 Speed
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 Delay
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 Speed
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 Delay
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 Wave
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 Wave
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Amp Attack'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Amp Decay'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Amp Sustain'
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Amp Release'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Mod Attack'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Mod Decay'
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Mod Sustain'
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 'ENV: Mod Release'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Filter Mod
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'ARP: On'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'ARP: Latch'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'ARP: Rhythm'
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: 'ARP: Note Mode'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: 'ARP: Octaves'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Wheel
+  value: 0
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Bend Amount
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Osc 1-2 Sync
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'Velocity: Amp Env'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'Velocity: Mod Env'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Limit
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Swing
+  value: 116
+device_name: Bass Station II
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,46 @@
+brand: Novation
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mod Depth
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env 1: Attack'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env 1: Decay'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env 2: Attack'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env 2: Decay'
+  value: 115
+device_name: Bass Station Keyboard
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

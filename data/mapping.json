@@ -1437,6 +1437,44 @@
     ]
   },
     {
+    "name": "Novation",
+    "value": "novation",
+    "models": [
+      {
+        "name": "Bass Station II",
+        "value": "bassstationii"
+      },
+      {
+        "name": "Bass Station Keyboard",
+        "value": "bassstationkeyboard"
+      },
+      {
+        "name": "Circuit",
+        "value": "circuit"
+      },
+      {
+        "name": "Circuit Mono Station",
+        "value": "circuitmonostation"
+      },
+      {
+        "name": "MiniNova",
+        "value": "mininova"
+      },
+      {
+        "name": "Peak",
+        "value": "peak"
+      },
+      {
+        "name": "Summit",
+        "value": "summit"
+      },
+      {
+        "name": "UltraNova",
+        "value": "ultranova"
+      }
+    ]
+  },
+    {
       "name": "OTO Machines",
       "value": "otomachines",
       "models": [

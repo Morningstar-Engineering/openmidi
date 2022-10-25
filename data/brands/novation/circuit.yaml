@@ -1,0 +1,576 @@
+brand: Novation
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Polyphony Mode: Mono'
+  value: 3
+- description: ''
+  max: 1
+  min: 1
+  name: 'Polyphony Mode: Mono AG'
+  value: 3
+- description: ''
+  max: 2
+  min: 2
+  name: 'Polyphony Mode: Poly'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Rate
+  value: 5
+- description: ''
+  max: 76
+  min: 52
+  name: Pre-Glide
+  value: 9
+- description: ''
+  max: 69
+  min: 58
+  name: Keyboard Octave
+  value: 13
+- description: ''
+  max: 29
+  min: 0
+  name: 'Osc1: Wave'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Wave Interpolate'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Pulse Width Index'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Virtual Sync Depth'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density Detune'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Semitones'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Cents'
+  value: 27
+- description: ''
+  max: 76
+  min: 52
+  name: 'Osc1: Pitchbend'
+  value: 28
+- description: ''
+  max: 29
+  min: 0
+  name: 'Osc2: Wave'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Wave Interpolate'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Pulse Width Index'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Virtual Sync Depth'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density Detune'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Semitones'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Cents'
+  value: 39
+- description: ''
+  max: 76
+  min: 52
+  name: 'Osc2: Pitchbend'
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Level
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Level
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Ring Mod Level
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 56
+- description: ''
+  max: 82
+  min: 52
+  name: Pre FX Level
+  value: 58
+- description: ''
+  max: 82
+  min: 52
+  name: Post FX Level
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Routing: normal'
+  value: 60
+- description: ''
+  max: 1
+  min: 1
+  name: 'Routing: Osc1 Bypasses Filter'
+  value: 60
+- description: ''
+  max: 2
+  min: 2
+  name: 'Routing: Osc1+2 Bypass Filter'
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Drive'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Drive Type: Diode'
+  value: 65
+- description: ''
+  max: 1
+  min: 1
+  name: 'Drive Type: Valve'
+  value: 65
+- description: ''
+  max: 2
+  min: 2
+  name: 'Drive Type: Clipper'
+  value: 65
+- description: ''
+  max: 3
+  min: 3
+  name: 'Drive Type: Cross-Over'
+  value: 65
+- description: ''
+  max: 4
+  min: 4
+  name: 'Drive Type: Rectify'
+  value: 65
+- description: ''
+  max: 5
+  min: 5
+  name: 'Drive Type: Bit Reducer'
+  value: 65
+- description: ''
+  max: 6
+  min: 6
+  name: 'Drive Type: Rate Reducer'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Type: Low Pass 12dB'
+  value: 68
+- description: ''
+  max: 1
+  min: 1
+  name: 'Filter Type: Low Pass 24dB'
+  value: 68
+- description: ''
+  max: 2
+  min: 2
+  name: 'Filter Type: Band Pass 6/6dB'
+  value: 68
+- description: ''
+  max: 3
+  min: 3
+  name: 'Filter Type: Band Pass 12/12dB'
+  value: 68
+- description: ''
+  max: 4
+  min: 4
+  name: 'Filter Type: High Pass 12dB'
+  value: 68
+- description: ''
+  max: 5
+  min: 5
+  name: 'Filter Type: High Pass 24dB'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Frequency'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Tracking'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Q Normalize'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Env2 to Frequency'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Velocity'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Attack'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Decay'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Sustain'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Release'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Level
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Level
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 1 Pos
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 2 Pos
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 3 Pos
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 4 Pos
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 5 Pos
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 6 Pos
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 7 Pos
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Macro Knob 8 Pos
+  value: 87
+- description: ''
+  max: 63
+  min: 0
+  name: 'Drum 1: Patch Select'
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: Level'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: Pitch'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: Decay'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: Distortion'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: EQ'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 1: Pan'
+  value: 77
+- description: ''
+  max: 63
+  min: 0
+  name: 'Drum 2: Patch Select'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: Level'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: Pitch'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: Decay'
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: Distortion'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: EQ'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 2: Pan'
+  value: 78
+- description: ''
+  max: 63
+  min: 0
+  name: 'Drum 3: Patch Select'
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: Level'
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: Pitch'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: Decay'
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: Distortion'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: EQ'
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 3: Pan'
+  value: 79
+- description: ''
+  max: 63
+  min: 0
+  name: 'Drum 4: Patch Select'
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: Level'
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: Pitch'
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: Decay'
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: Distortion'
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: EQ'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drum 4: Pan'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Synth 1 Send Level'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Synth 2 Send Level'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Drum 1 Send Level'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Drum 2 Send Level'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Drum 3 Send Level'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Reverb: Drum 4 Send Level'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Synth 1 Send Level'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Synth 2 Send Level'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Drum 1 Send Level'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Drum 2 Send Level'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Drum 3 Send Level'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'Delay: Drum 4 Send Level'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'Master Filter: Frequency'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Master Filter: Resonance'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Synth 1 Level'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Synth 2 Level'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Synth 1 Pan'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Synth 2 Pan'
+  value: 118
+device_name: Circuit
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

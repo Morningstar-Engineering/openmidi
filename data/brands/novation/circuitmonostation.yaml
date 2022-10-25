@@ -1,0 +1,761 @@
+brand: Novation
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'OscSync: Off'
+  value: 110
+- description: ''
+  max: 1
+  min: 1
+  name: 'OscSync: On'
+  value: 110
+- description: ''
+  max: 69
+  min: 58
+  name: Osc1 Keyboard Octave
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1 Wave: Sine'
+  value: 80
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc1 Wave: Triangle'
+  value: 80
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc1 Wave: Saw'
+  value: 80
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc1 Wave: Pulse'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Pulse Width
+  value: 39
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1 Range: 16'
+  value: 70
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc1 Range: 8'
+  value: 70
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc1 Range: 4'
+  value: 70
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc1 Range: 2'
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc1 Glide: 0%'
+  value: 5
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc1 Glide: 25%'
+  value: 5
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc1 Glide: 37.5%'
+  value: 5
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc1 Glide: 50%'
+  value: 5
+- description: ''
+  max: 4
+  min: 4
+  name: 'Osc1 Glide: 62.5%'
+  value: 5
+- description: ''
+  max: 5
+  min: 5
+  name: 'Osc1 Glide: 75%'
+  value: 5
+- description: ''
+  max: 6
+  min: 6
+  name: 'Osc1 Glide: 87.5%'
+  value: 5
+- description: ''
+  max: 7
+  min: 7
+  name: 'Osc1 Glide: 100%'
+  value: 5
+- description: ''
+  max: 8
+  min: 8
+  name: 'Osc1 Glide: 200%'
+  value: 5
+- description: ''
+  max: 9
+  min: 9
+  name: 'Osc1 Glide: 300%'
+  value: 5
+- description: ''
+  max: 10
+  min: 10
+  name: 'Osc1 Glide: 400%'
+  value: 5
+- description: ''
+  max: 11
+  min: 11
+  name: 'Osc1 Glide: 500%'
+  value: 5
+- description: ''
+  max: 12
+  min: 12
+  name: 'Osc1 Glide: 600%'
+  value: 5
+- description: ''
+  max: 13
+  min: 13
+  name: 'Osc1 Glide: 700%'
+  value: 5
+- description: ''
+  max: 14
+  min: 14
+  name: 'Osc1 Glide: 800%'
+  value: 5
+- description: ''
+  max: 15
+  min: 15
+  name: 'Osc1 Glide: 900%'
+  value: 5
+- description: ''
+  max: 69
+  min: 58
+  name: Osc2 Keyboard Octave
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Wave: Sine'
+  value: 81
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc2 Wave: Triangle'
+  value: 81
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc2 Wave: Saw'
+  value: 81
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc2 Wave: Pulse'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Pulse Width
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Range: 16'
+  value: 75
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc2 Range: 8'
+  value: 75
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc2 Range: 4'
+  value: 75
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc2 Range: 2'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc2 Glide: 0%'
+  value: 37
+- description: ''
+  max: 1
+  min: 1
+  name: 'Osc2 Glide: 25%'
+  value: 37
+- description: ''
+  max: 2
+  min: 2
+  name: 'Osc2 Glide: 37.5%'
+  value: 37
+- description: ''
+  max: 3
+  min: 3
+  name: 'Osc2 Glide: 50%'
+  value: 37
+- description: ''
+  max: 4
+  min: 4
+  name: 'Osc2 Glide: 62.5%'
+  value: 37
+- description: ''
+  max: 5
+  min: 5
+  name: 'Osc2 Glide: 75%'
+  value: 37
+- description: ''
+  max: 6
+  min: 6
+  name: 'Osc2 Glide: 87.5%'
+  value: 37
+- description: ''
+  max: 7
+  min: 7
+  name: 'Osc2 Glide: 100%'
+  value: 37
+- description: ''
+  max: 8
+  min: 8
+  name: 'Osc2 Glide: 200%'
+  value: 37
+- description: ''
+  max: 9
+  min: 9
+  name: 'Osc2 Glide: 300%'
+  value: 37
+- description: ''
+  max: 10
+  min: 10
+  name: 'Osc2 Glide: 400%'
+  value: 37
+- description: ''
+  max: 11
+  min: 11
+  name: 'Osc2 Glide: 500%'
+  value: 37
+- description: ''
+  max: 12
+  min: 12
+  name: 'Osc2 Glide: 600%'
+  value: 37
+- description: ''
+  max: 13
+  min: 13
+  name: 'Osc2 Glide: 700%'
+  value: 37
+- description: ''
+  max: 14
+  min: 14
+  name: 'Osc2 Glide: 800%'
+  value: 37
+- description: ''
+  max: 15
+  min: 15
+  name: 'Osc2 Glide: 900%'
+  value: 37
+- description: ''
+  max: 0-127
+  min: 0-127
+  name: Master Level
+  value: 7
+- description: ''
+  max: 0-127
+  min: 0-127
+  name: Filter Overdrive
+  value: 114
+- description: ''
+  max: 0-127
+  min: 0-127
+  name: Filter Resonance
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Shape: Low Pass'
+  value: 84
+- description: ''
+  max: 1
+  min: 1
+  name: 'Filter Shape: Band Pass'
+  value: 84
+- description: ''
+  max: 2
+  min: 2
+  name: 'Filter Shape: High Pass'
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Slope: Low Pass'
+  value: 40
+- description: ''
+  max: 1
+  min: 1
+  name: 'Filter Slope: Band Pass'
+  value: 40
+- description: ''
+  max: 2
+  min: 2
+  name: 'Filter Slope: High Pass'
+  value: 40
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Bypass: Off'
+  value: 83
+- description: ''
+  max: 1
+  min: 1
+  name: 'Filter Bypass: Noise'
+  value: 83
+- description: ''
+  max: 2
+  min: 2
+  name: 'Filter Bypass: Osc2'
+  value: 83
+- description: ''
+  max: 3
+  min: 3
+  name: 'Filter Bypass: Noise and Osc2'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter Key Tracking: 0%'
+  value: 69
+- description: ''
+  max: 1
+  min: 1
+  name: 'Filter Key Tracking: 15%'
+  value: 69
+- description: ''
+  max: 2
+  min: 2
+  name: 'Filter Key Tracking: 30%'
+  value: 69
+- description: ''
+  max: 3
+  min: 3
+  name: 'Filter Key Tracking: 45%'
+  value: 69
+- description: ''
+  max: 4
+  min: 4
+  name: 'Filter Key Tracking: 60%'
+  value: 69
+- description: ''
+  max: 5
+  min: 5
+  name: 'Filter Key Tracking: 75%'
+  value: 69
+- description: ''
+  max: 6
+  min: 6
+  name: 'Filter Key Tracking: 90%'
+  value: 69
+- description: ''
+  max: 7
+  min: 7
+  name: 'Filter Key Tracking: 100%'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Attack
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Decay
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Sustain
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Release
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Waveform: Triangle'
+  value: 88
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Waveform: Descending Saw'
+  value: 88
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO Waveform: Square'
+  value: 88
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO Waveform: Sample and Hold'
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Sync Rate: 64 Beats'
+  value: 87
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Sync Rate: 48 Beats'
+  value: 87
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO Sync Rate: 42 Beats'
+  value: 87
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO Sync Rate: 36 Beats'
+  value: 87
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO Sync Rate: 32 Beats'
+  value: 87
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO Sync Rate: 30 Beats'
+  value: 87
+- description: ''
+  max: 6
+  min: 6
+  name: 'LFO Sync Rate: 28 Beats'
+  value: 87
+- description: ''
+  max: 7
+  min: 7
+  name: 'LFO Sync Rate: 24 Beats'
+  value: 87
+- description: ''
+  max: 8
+  min: 8
+  name: 'LFO Sync Rate: 21 +2/3 Beats'
+  value: 87
+- description: ''
+  max: 9
+  min: 9
+  name: 'LFO Sync Rate: 20 Beats'
+  value: 87
+- description: ''
+  max: 10
+  min: 10
+  name: 'LFO Sync Rate: 18 +2/3 Beats'
+  value: 87
+- description: ''
+  max: 11
+  min: 11
+  name: 'LFO Sync Rate: 18 Beats'
+  value: 87
+- description: ''
+  max: 12
+  min: 12
+  name: 'LFO Sync Rate: 16 Beats'
+  value: 87
+- description: ''
+  max: 13
+  min: 13
+  name: 'LFO Sync Rate: 13 + 1/3 Beats'
+  value: 87
+- description: ''
+  max: 14
+  min: 14
+  name: 'LFO Sync Rate: 12 Beats'
+  value: 87
+- description: ''
+  max: 15
+  min: 15
+  name: 'LFO Sync Rate: 10 + 2/3 Beats'
+  value: 87
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO Sync Rate: 8 Beats'
+  value: 87
+- description: ''
+  max: 17
+  min: 17
+  name: 'LFO Sync Rate: 6 Beats'
+  value: 87
+- description: ''
+  max: 18
+  min: 18
+  name: 'LFO Sync Rate: 5 + 1/3 Beats'
+  value: 87
+- description: ''
+  max: 19
+  min: 19
+  name: 'LFO Sync Rate: 4 Beats'
+  value: 87
+- description: ''
+  max: 20
+  min: 20
+  name: 'LFO Sync Rate: 3 Beats'
+  value: 87
+- description: ''
+  max: 21
+  min: 21
+  name: 'LFO Sync Rate: 2 + 2/3 Beats'
+  value: 87
+- description: ''
+  max: 22
+  min: 22
+  name: 'LFO Sync Rate: 2nd'
+  value: 87
+- description: ''
+  max: 23
+  min: 23
+  name: 'LFO Sync Rate: 4th Dotted'
+  value: 87
+- description: ''
+  max: 24
+  min: 24
+  name: 'LFO Sync Rate: 1 + 1/3 Beats'
+  value: 87
+- description: ''
+  max: 25
+  min: 25
+  name: 'LFO Sync Rate: 4th'
+  value: 87
+- description: ''
+  max: 26
+  min: 26
+  name: 'LFO Sync Rate: 8th Dotted'
+  value: 87
+- description: ''
+  max: 27
+  min: 27
+  name: 'LFO Sync Rate: 4th Triplet'
+  value: 87
+- description: ''
+  max: 28
+  min: 28
+  name: 'LFO Sync Rate: 8th'
+  value: 87
+- description: ''
+  max: 29
+  min: 29
+  name: 'LFO Sync Rate: 16th Dotted'
+  value: 87
+- description: ''
+  max: 30
+  min: 30
+  name: 'LFO Sync Rate: 8th Triplet'
+  value: 87
+- description: ''
+  max: 31
+  min: 31
+  name: 'LFO Sync Rate: 16th'
+  value: 87
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO Sync Rate: 16th Triplet'
+  value: 87
+- description: ''
+  max: 33
+  min: 33
+  name: 'LFO Sync Rate: 32nd'
+  value: 87
+- description: ''
+  max: 34
+  min: 34
+  name: 'LFO Sync Rate: 32nd Triplet'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Clock Sync: Off'
+  value: 86
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Clock Sync: On'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Key Sync: Off'
+  value: 43
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO Key Sync: On'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Level
+  value: 94
+- description: ''
+  max: 0
+  min: 0
+  name: Distortion Type I
+  value: 95
+- description: ''
+  max: 1
+  min: 1
+  name: Distortion Type II
+  value: 95
+- description: ''
+  max: 2
+  min: 2
+  name: Distortion Type III
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: EnvToOsc1PWM'
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: EnvToOsc2PWM'
+  value: 33
+- description: ''
+  max: 1
+  min: 0
+  name: 'Mod Matrix: EnvToAmp'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: EnvToDist'
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: EnvToAuxCV'
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: LFOToOsc1PWM'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: LFOToOsc2PWM'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: LFOToAmp'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: LFOToDist'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: LFOToAuxCV'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: ModSeqToOsc1PWM'
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: ModSeqToOsc2PWM'
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: ModSeqToAmp'
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: ModSeqRoDist'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: ModSeqToAuxCV'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToOsc1Pitch'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToOsc1PWM'
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToOsc2Pitch'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToOsc2PWM'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToAmp'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToFilterFreq'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToDist'
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Matrix: VelocityToAuxCV'
+  value: 89
+- description: ''
+  max: 31
+  min: 0
+  name: 'Mod Matrix: Selected Routing'
+  value: 102
+device_name: Circuit Mono Station
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

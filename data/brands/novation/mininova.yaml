@@ -1,0 +1,531 @@
+brand: Novation
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath Controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Polyphony Mode
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Wet Level
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: PreGlide
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Position
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: 'Portamento Mode: Expo'
+  value: 12
+- description: ''
+  max: 1
+  min: 1
+  name: 'Portamento Mode: Linear'
+  value: 12
+- description: ''
+  max: 4
+  min: 1
+  name: Keyboard Octave Up
+  value: 13
+- description: ''
+  max: 127
+  min: 124
+  name: Keyboard Octave Down
+  value: 13
+- description: ''
+  max: 4
+  min: 0
+  name: Unison
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Drift
+  value: 16
+- description: ''
+  max: 120
+  min: 0
+  name: Osc Phase
+  value: 17
+- description: ''
+  max: 120
+  min: 0
+  name: Osc Fixed Transpose
+  value: 18
+- description: ''
+  max: 71
+  min: 0
+  name: 'Osc1: Wave'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Wave Interpolate'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Pulse Width Index'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Virtual Sync Depth'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Hardness'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density Detune'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Semitones'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Cents'
+  value: 27
+- description: ''
+  max: 76
+  min: 52
+  name: 'Osc1: Pitch Bend'
+  value: 28
+- description: ''
+  max: 71
+  min: 0
+  name: 'Osc2: Wave'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Wave Interpolate'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Pulse Width Index'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Virtual Sync Depth'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Hardness'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density Detune'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Semitones'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Cents'
+  value: 39
+- description: ''
+  max: 76
+  min: 52
+  name: 'Osc2: Pitchbend'
+  value: 40
+- description: ''
+  max: 71
+  min: 0
+  name: 'Osc3: Wave'
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Wave Interpolate'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Pulse Width Index'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Virtual Sync Depth'
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Hardness'
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Density'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Density Detune'
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Semitones'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Cents'
+  value: 49
+- description: ''
+  max: 76
+  min: 52
+  name: 'Osc3: Pitchbend'
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Level
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Level
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Level
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Rind Mod Level13
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Ring Mod Level23
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Level
+  value: 56
+- description: ''
+  max: 3
+  min: 0
+  name: Noise Color
+  value: 57
+- description: ''
+  max: 82
+  min: 52
+  name: PreFX Level
+  value: 58
+- description: ''
+  max: 82
+  min: 52
+  name: PostFX Level
+  value: 59
+- description: ''
+  max: 5
+  min: 0
+  name: 'Filter: Routing'
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Balance'
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Drive'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 6
+  min: 0
+  name: 'Filter: Drive Type'
+  value: 65
+- description: ''
+  max: 13
+  min: 0
+  name: Filter Type
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Track'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Sustain'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Release'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Attack'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Frequency'
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Decay'
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc: Vibrato Speed'
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc: Vibrato Depth'
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Q Normalize'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Env2ToFreq'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Drive'
+  value: 80
+- description: ''
+  max: 6
+  min: 0
+  name: 'Filter2: Drive Type'
+  value: 81
+- description: ''
+  max: 13
+  min: 0
+  name: 'Filter2: Type'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Freq'
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Track'
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Resonance'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Q Normalize'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter2: Env2ToFreq'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: FX Pan Rate
+  value: 88
+- description: ''
+  max: 35
+  min: 0
+  name: FX Pan Sync
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: FX Pan Mod Depth
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: FX1 Level
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: FX2 Level
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: FX3 Level
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: FX4 Level
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: FX5 Level
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env: Track Centre'
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Velocity'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Sustain Rate'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Sustain Time'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: AD Repeats'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Attack Track'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Decay Track'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Level Track'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Attack Slope'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'Env1: Decay Slope'
+  value: 116
+- description: ''
+  max: 8
+  min: 0
+  name: 'Env1: Anim Trigger'
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: All Sounds Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Local Off/On
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+device_name: MiniNova
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

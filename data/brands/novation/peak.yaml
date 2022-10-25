@@ -1,0 +1,306 @@
+brand: Novation
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Time
+  value: 5
+- description: ''
+  max: 1
+  min: 1
+  name: Glide On
+  value: 35
+- description: ''
+  max: 0
+  min: 0
+  name: Glide Off
+  value: 35
+- description: ''
+  max: 66
+  min: 63
+  name: Osc1 Range
+  value: 3
+- description: ''
+  max: 127
+  min: 1
+  name: Osc1 ModEnv2 > Pitch
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Manual Shape
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 ModEnv1 > Shape
+  value: 119
+- description: ''
+  max: 127
+  min: 1
+  name: Osc1 LFO1 > Shape
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Vsync
+  value: 34
+- description: ''
+  max: 66
+  min: 63
+  name: Osc2 Range
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 ModEnv2 > Pitch
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Manual Shape
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 ModEnv1 > Shape
+  value: 40
+- description: ''
+  max: 127
+  min: 1
+  name: Osc2 LFO1 > Shape
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Vsync
+  value: 42
+- description: ''
+  max: 66
+  min: 63
+  name: Osc3 Range
+  value: 65
+- description: ''
+  max: 127
+  min: 1
+  name: Osc3 ModEnv2 > Pitch
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Manual Shape
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 ModEnv1 > Shape
+  value: 72
+- description: ''
+  max: 127
+  min: 1
+  name: Osc3 LFO1 > Shape
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Vsync
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Overdrive
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Post Drive
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Key Tracking
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Osc3 > Filter
+  value: 76
+- description: ''
+  max: 127
+  min: 1
+  name: Filter AmpEnv > Filter
+  value: 77
+- description: ''
+  max: 127
+  min: 1
+  name: Filter ModEnv1 > Filter
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Env: Attack'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Env: Decay'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Env: Sustain'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp Env: Release'
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env1: Attack'
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env1: Decay'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env1: Sustain'
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env1: Release'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env2: Attack'
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env2: Decay'
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env2: Sustain'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Env2: Release'
+  value: 103
+- description: ''
+  max: 34
+  min: 0
+  name: LFO1 Sync Rate
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Fade Time
+  value: 82
+- description: ''
+  max: 2
+  min: 0
+  name: LFO2 Range
+  value: 83
+- description: ''
+  max: 34
+  min: 0
+  name: LFO2 Sync Rate
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Fade Time
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion Level
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Level
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Level
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Time
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Level
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Rate
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus Feedback
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Gate
+  value: 116
+- description: ''
+  max: 1
+  min: 1
+  name: 'Animate 1 Hold: On'
+  value: 114
+- description: ''
+  max: 0
+  min: 0
+  name: 'Animate 1 Hold: Off'
+  value: 114
+- description: ''
+  max: 1
+  min: 1
+  name: 'Animate 2 Hold: On'
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: 'Animate 2 Hold: Off'
+  value: 115
+device_name: Peak
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,581 @@
+brand: Novation
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modwheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath Controller
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Polyphony Mode
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Dry/Wet Balance
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Pre-Glide
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Position
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: 'Portamento: Expo'
+  value: 12
+- description: ''
+  max: 1
+  min: 1
+  name: 'Portamento: Linear'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Octave
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Count
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Osc123 Drift
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Osc123 Start Phase
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Osc123 Fixed Note
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: WAveform'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Wavetable interpolate'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Pulsewidth Index'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Sync Depth'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Hardness'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Density Detune'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Semitones'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Cents'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc1: Pitch Bend'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Waveform'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Wavetable Interpolate'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Pulsewidth Index'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Sync Depth'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Hardness'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Density Detune'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Semitone'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Cents'
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc2: Pitchbend'
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Waveform'
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Wavetable Interpolate'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Pulsewidth Index'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Sync Depth'
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Hardness'
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Density'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Density Detune'
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Semitones'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Cents'
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: 'Osc3: Pitchbend'
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Mix Level
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Mix Level
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Osc3 Mix Level
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Osc13 Ringmod Mix Level
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Osc23 Ringmod Mix Level
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Mix Level
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Type
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Pre-FX Level
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Post-FX Level
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Config
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Balance
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Packed Data
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Filter1 Drive
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Off
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain On
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Drive Type
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Type
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Track
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: AmpEnv Sustain Level
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: AmpEnv Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: AmpEnv Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: AmpEnv Decay
+  value: 775
+- description: ''
+  max: 127
+  min: 0
+  name: Easy Vibrato Rate
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Easy Vibrato Depth
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Q Normalize
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: FiltEnv > Filter1 Freq
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Drive
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Drive Type
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Type
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Frequency
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Track
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Resonance
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 Q Normalise
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: FiltEnv > Filter2 Freq
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Mod Rate
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Mod Rate Sync
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Mod Depth
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: FX Slot1 Level
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: FX Slot2 Level
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: FX Slot3 Level
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: FX Slot4 Level
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: FX Slot5 Level
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Pan L/R Phase Offset
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: L/R Width Enhance
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Pan Spare
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Anv Packed MonoMulti Triggers
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Env Level Track Centre
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Drum Time
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Velocity'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Sustain Rate'
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Sustain Time'
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: A/D Repeats'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Attack Track'
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Decay Track'
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Level Track'
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Attack Slope'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Decay Slope'
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: 'AmpEnv: Touch Trigger'
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: All Sounds Off
+  value: 120
+- description: ''
+  max: 127
+  min: 127
+  name: Reset All Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local Control
+  value: 122
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 0
+  min: 0
+  name: Omni Mode Off
+  value: 124
+- description: ''
+  max: 127
+  min: 127
+  name: Omni Mode On
+  value: 125
+- description: ''
+  max: 127
+  min: 127
+  name: Mono Mode On
+  value: 126
+- description: ''
+  max: 127
+  min: 127
+  name: Poly Mode On
+  value: 127
+device_name: UltraNova
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
