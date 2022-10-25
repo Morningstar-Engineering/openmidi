@@ -11,19 +11,19 @@
       ]
     },
     {
-    "name": "Arturia",
-    "value": "arturia",
-    "models": [
-      {
-        "name": "MatrixBrute",
-        "value": "matrixbrute"
-      },
-      {
-        "name": "MicroFreak",
-        "value": "microfreak"
-      }
-    ]
-  },
+      "name": "Arturia",
+      "value": "arturia",
+      "models": [
+        {
+          "name": "MatrixBrute",
+          "value": "matrixbrute"
+        },
+        {
+          "name": "MicroFreak",
+          "value": "microfreak"
+        }
+      ]
+    },
     {
       "name": "Alexander",
       "value": "alexander",
@@ -135,17 +135,17 @@
           "value": "xair"
         },
         {
-        "name": "Deepmind 12",
-        "value": "deepmind12"
-      },
-      {
-        "name": "Deepmind 12D",
-        "value": "deepmind12d"
-      },
-      {
-        "name": "Deepmind 6",
-        "value": "deepmind6"
-      }
+          "name": "Deepmind 12",
+          "value": "deepmind12"
+        },
+        {
+          "name": "Deepmind 12D",
+          "value": "deepmind12d"
+        },
+        {
+          "name": "Deepmind 6",
+          "value": "deepmind6"
+        }
       ]
     },
     {
@@ -327,19 +327,19 @@
       ]
     },
     {
-    "name": "Dreadbox",
-    "value": "dreadbox",
-    "models": [
-      {
-        "name": "Medusa",
-        "value": "medusa"
-      },
-      {
-        "name": "Typhoon",
-        "value": "typhoon"
-      }
-    ]
-  },
+      "name": "Dreadbox",
+      "value": "dreadbox",
+      "models": [
+        {
+          "name": "Medusa",
+          "value": "medusa"
+        },
+        {
+          "name": "Typhoon",
+          "value": "typhoon"
+        }
+      ]
+    },
     {
       "name": "Dr Scientist",
       "value": "drscientist",
@@ -673,15 +673,15 @@
       ]
     },
     {
-    "name": "Freds Labs",
-    "value": "fredslabs",
-    "models": [
-      {
-        "name": "Buzzy!",
-        "value": "buzzy!"
-      }
-    ]
-  },
+      "name": "Freds Labs",
+      "value": "fredslabs",
+      "models": [
+        {
+          "name": "Buzzy!",
+          "value": "buzzy!"
+        }
+      ]
+    },
     {
       "name": "GFI System",
       "value": "gfisystem",
@@ -775,15 +775,15 @@
       ]
     },
     {
-    "name": "IK Multimedia",
-    "value": "ikmultimedia",
-    "models": [
-      {
-        "name": "UNO Synth",
-        "value": "unosynth"
-      }
-    ]
-  },
+      "name": "IK Multimedia",
+      "value": "ikmultimedia",
+      "models": [
+        {
+          "name": "UNO Synth",
+          "value": "unosynth"
+        }
+      ]
+    },
     {
       "name": "Jackson Audio",
       "value": "jacksonaudio",
@@ -841,89 +841,89 @@
       ]
     },
     {
-    "name": "Kernom",
-    "value": "kernom",
-    "models": [
-      {
-        "name": "Ridge",
-        "value": "ridge"
-      }
-    ]
-  },
+      "name": "Kernom",
+      "value": "kernom",
+      "models": [
+        {
+          "name": "Ridge",
+          "value": "ridge"
+        }
+      ]
+    },
     {
-    "name": "Korg",
-    "value": "korg",
-    "models": [
-      {
-        "name": "Kaoss Pad 2",
-        "value": "kaosspad2"
-      },
-      {
-        "name": "Kaoss Pad 3",
-        "value": "kaosspad3"
-      },
-      {
-        "name": "MS2000",
-        "value": "ms2000"
-      },
-      {
-        "name": "microKORG",
-        "value": "microkorg"
-      },
-      {
-        "name": "microKORG XL+",
-        "value": "microkorgxlplus"
-      },
-      {
-        "name": "minilogue",
-        "value": "minilogue"
-      },
-      {
-        "name": "minilogue xd",
-        "value": "miniloguexd"
-      },
-      {
-        "name": "monologue",
-        "value": "monologue"
-      },
-      {
-        "name": "volca bass",
-        "value": "volcabass"
-      },
-      {
-        "name": "volca beats",
-        "value": "volcabeats"
-      },
-      {
-        "name": "volca drum",
-        "value": "volcadrum"
-      },
-      {
-        "name": "volca fm",
-        "value": "volcafm"
-      },
-      {
-        "name": "volca keys",
-        "value": "volcakeys"
-      },
-      {
-        "name": "volca kick",
-        "value": "volcakick"
-      },
-      {
-        "name": "volca nubass",
-        "value": "volcanubass"
-      },
-      {
-        "name": "volca sample",
-        "value": "volcasample"
-      },
-      {
-        "name": "wavestate",
-        "value": "wavestate"
-      }
-    ]
-  },
+      "name": "Korg",
+      "value": "korg",
+      "models": [
+        {
+          "name": "Kaoss Pad 2",
+          "value": "kaosspad2"
+        },
+        {
+          "name": "Kaoss Pad 3",
+          "value": "kaosspad3"
+        },
+        {
+          "name": "MS2000",
+          "value": "ms2000"
+        },
+        {
+          "name": "microKORG",
+          "value": "microkorg"
+        },
+        {
+          "name": "microKORG XL+",
+          "value": "microkorgxlplus"
+        },
+        {
+          "name": "minilogue",
+          "value": "minilogue"
+        },
+        {
+          "name": "minilogue xd",
+          "value": "miniloguexd"
+        },
+        {
+          "name": "monologue",
+          "value": "monologue"
+        },
+        {
+          "name": "volca bass",
+          "value": "volcabass"
+        },
+        {
+          "name": "volca beats",
+          "value": "volcabeats"
+        },
+        {
+          "name": "volca drum",
+          "value": "volcadrum"
+        },
+        {
+          "name": "volca fm",
+          "value": "volcafm"
+        },
+        {
+          "name": "volca keys",
+          "value": "volcakeys"
+        },
+        {
+          "name": "volca kick",
+          "value": "volcakick"
+        },
+        {
+          "name": "volca nubass",
+          "value": "volcanubass"
+        },
+        {
+          "name": "volca sample",
+          "value": "volcasample"
+        },
+        {
+          "name": "wavestate",
+          "value": "wavestate"
+        }
+      ]
+    },
     {
       "name": "KSR Amplification",
       "value": "ksramplification",
@@ -1025,29 +1025,29 @@
       ]
     },
     {
-    "name": "Make Noise Co.",
-    "value": "makenoiseco",
-    "models": [
-      {
-        "name": "0-COAST",
-        "value": "0-coast"
-      }
-    ]
-  },
+      "name": "Make Noise Co.",
+      "value": "makenoiseco",
+      "models": [
+        {
+          "name": "0-COAST",
+          "value": "0-coast"
+        }
+      ]
+    },
     {
-    "name": "Meeblip",
-    "value": "meeblip",
-    "models": [
-      {
-        "name": "Geode",
-        "value": "geode"
-      },
-      {
-        "name": "Triode",
-        "value": "triode"
-      }
-    ]
-  },
+      "name": "Meeblip",
+      "value": "meeblip",
+      "models": [
+        {
+          "name": "Geode",
+          "value": "geode"
+        },
+        {
+          "name": "Triode",
+          "value": "triode"
+        }
+      ]
+    },
     {
       "name": "Meris",
       "value": "meris",
@@ -1075,15 +1075,15 @@
       ]
     },
     {
-    "name": "MFB",
-    "value": "mfb",
-    "models": [
-      {
-        "name": "Tanzbar Lite",
-        "value": "tanzbarlite"
-      }
-    ]
-  },
+      "name": "MFB",
+      "value": "mfb",
+      "models": [
+        {
+          "name": "Tanzbar Lite",
+          "value": "tanzbarlite"
+        }
+      ]
+    },
     {
       "name": "the montreal assembly",
       "value": "mtlasm",
@@ -1095,61 +1095,61 @@
       ]
     },
     {
-    "name": "Modal Electronics",
-    "value": "modalelectronics",
-    "models": [
-      {
-        "name": "002R",
-        "value": "002r"
-      },
-      {
-        "name": "008R",
-        "value": "008r"
-      },
-      {
-        "name": "1",
-        "value": "1"
-      },
-      {
-        "name": "2",
-        "value": "2"
-      },
-      {
-        "name": "8",
-        "value": "8"
-      },
-      {
-        "name": "ARGON 8",
-        "value": "argon8"
-      },
-      {
-        "name": "ARGON 8M",
-        "value": "argon8m"
-      },
-      {
-        "name": "ARGON 8X",
-        "value": "argon8x"
-      },
-      {
-        "name": "CRAFTsynth 2.0",
-        "value": "craftsynth20"
-      },
-      {
-        "name": "SKULPTsynthesiser",
-        "value": "skulptsynthesiser"
-      }
-    ]
-  },
+      "name": "Modal Electronics",
+      "value": "modalelectronics",
+      "models": [
+        {
+          "name": "002R",
+          "value": "002r"
+        },
+        {
+          "name": "008R",
+          "value": "008r"
+        },
+        {
+          "name": "1",
+          "value": "1"
+        },
+        {
+          "name": "2",
+          "value": "2"
+        },
+        {
+          "name": "8",
+          "value": "8"
+        },
+        {
+          "name": "ARGON 8",
+          "value": "argon8"
+        },
+        {
+          "name": "ARGON 8M",
+          "value": "argon8m"
+        },
+        {
+          "name": "ARGON 8X",
+          "value": "argon8x"
+        },
+        {
+          "name": "CRAFTsynth 2.0",
+          "value": "craftsynth20"
+        },
+        {
+          "name": "SKULPTsynthesiser",
+          "value": "skulptsynthesiser"
+        }
+      ]
+    },
     {
-    "name": "Modor",
-    "value": "modor",
-    "models": [
-      {
-        "name": "NF-1",
-        "value": "nf-1"
-      }
-    ]
-  },
+      "name": "Modor",
+      "value": "modor",
+      "models": [
+        {
+          "name": "NF-1",
+          "value": "nf-1"
+        }
+      ]
+    },
     {
       "name": "Mooer",
       "value": "mooer",
@@ -1249,15 +1249,15 @@
       ]
     },
     {
-    "name": "Mutable Instruments",
-    "value": "mutableinstruments",
-    "models": [
-      {
-        "name": "Shruthi",
-        "value": "shruthi"
-      }
-    ]
-  },
+      "name": "Mutable Instruments",
+      "value": "mutableinstruments",
+      "models": [
+        {
+          "name": "Shruthi",
+          "value": "shruthi"
+        }
+      ]
+    },
     {
       "name": "Neunaber",
       "value": "neunaber",
@@ -1283,197 +1283,197 @@
       ]
     },
     {
-    "name": "Nord",
-    "value": "nord",
-    "models": [
-      {
-        "name": "C1",
-        "value": "c1"
-      },
-      {
-        "name": "C2",
-        "value": "c2"
-      },
-      {
-        "name": "C2D",
-        "value": "c2d"
-      },
-      {
-        "name": "Drum 2",
-        "value": "drum2"
-      },
-      {
-        "name": "Electro 2",
-        "value": "electro2"
-      },
-      {
-        "name": "Electro 3",
-        "value": "electro3"
-      },
-      {
-        "name": "Electro 3 HP",
-        "value": "electro3hp"
-      },
-      {
-        "name": "Electro 4 HP",
-        "value": "electro4hp"
-      },
-      {
-        "name": "Electro 4 SW",
-        "value": "electro4sw"
-      },
-      {
-        "name": "Electro 4D",
-        "value": "electro4d"
-      },
-      {
-        "name": "Electro 5D 61",
-        "value": "electro5d61"
-      },
-      {
-        "name": "Electro 5D 61 ",
-        "value": "electro5d61"
-      },
-      {
-        "name": "Electro 5D 73",
-        "value": "electro5d73"
-      },
-      {
-        "name": "Electro 5HP 73",
-        "value": "electro5hp73"
-      },
-      {
-        "name": "Electro 6",
-        "value": "electro6"
-      },
-      {
-        "name": "Grand",
-        "value": "grand"
-      },
-      {
-        "name": "Lead",
-        "value": "lead"
-      },
-      {
-        "name": "Lead 2",
-        "value": "lead2"
-      },
-      {
-        "name": "Lead 2X",
-        "value": "lead2x"
-      },
-      {
-        "name": "Lead 3",
-        "value": "lead3"
-      },
-      {
-        "name": "Lead 4",
-        "value": "lead4"
-      },
-      {
-        "name": "Lead 4R",
-        "value": "lead4r"
-      },
-      {
-        "name": "Lead A1",
-        "value": "leada1"
-      },
-      {
-        "name": "Lead A1R",
-        "value": "leada1r"
-      },
-      {
-        "name": "Piano",
-        "value": "piano"
-      },
-      {
-        "name": "Piano 2 HA88",
-        "value": "piano2ha88"
-      },
-      {
-        "name": "Piano 2 HP",
-        "value": "piano2hp"
-      },
-      {
-        "name": "Piano 3",
-        "value": "piano3"
-      },
-      {
-        "name": "Piano 4",
-        "value": "piano4"
-      },
-      {
-        "name": "Rack 3",
-        "value": "rack3"
-      },
-      {
-        "name": "Stage",
-        "value": "stage"
-      },
-      {
-        "name": "Stage 2",
-        "value": "stage2"
-      },
-      {
-        "name": "Stage 2 EX",
-        "value": "stage2ex"
-      },
-      {
-        "name": "Stage 3",
-        "value": "stage3"
-      },
-      {
-        "name": "Stage EX",
-        "value": "stageex"
-      },
-      {
-        "name": "Wave",
-        "value": "wave"
-      },
-      {
-        "name": "Wave 2",
-        "value": "wave2"
-      }
-    ]
-  },
+      "name": "Nord",
+      "value": "nord",
+      "models": [
+        {
+          "name": "C1",
+          "value": "c1"
+        },
+        {
+          "name": "C2",
+          "value": "c2"
+        },
+        {
+          "name": "C2D",
+          "value": "c2d"
+        },
+        {
+          "name": "Drum 2",
+          "value": "drum2"
+        },
+        {
+          "name": "Electro 2",
+          "value": "electro2"
+        },
+        {
+          "name": "Electro 3",
+          "value": "electro3"
+        },
+        {
+          "name": "Electro 3 HP",
+          "value": "electro3hp"
+        },
+        {
+          "name": "Electro 4 HP",
+          "value": "electro4hp"
+        },
+        {
+          "name": "Electro 4 SW",
+          "value": "electro4sw"
+        },
+        {
+          "name": "Electro 4D",
+          "value": "electro4d"
+        },
+        {
+          "name": "Electro 5D 61",
+          "value": "electro5d61"
+        },
+        {
+          "name": "Electro 5D 61 ",
+          "value": "electro5d61"
+        },
+        {
+          "name": "Electro 5D 73",
+          "value": "electro5d73"
+        },
+        {
+          "name": "Electro 5HP 73",
+          "value": "electro5hp73"
+        },
+        {
+          "name": "Electro 6",
+          "value": "electro6"
+        },
+        {
+          "name": "Grand",
+          "value": "grand"
+        },
+        {
+          "name": "Lead",
+          "value": "lead"
+        },
+        {
+          "name": "Lead 2",
+          "value": "lead2"
+        },
+        {
+          "name": "Lead 2X",
+          "value": "lead2x"
+        },
+        {
+          "name": "Lead 3",
+          "value": "lead3"
+        },
+        {
+          "name": "Lead 4",
+          "value": "lead4"
+        },
+        {
+          "name": "Lead 4R",
+          "value": "lead4r"
+        },
+        {
+          "name": "Lead A1",
+          "value": "leada1"
+        },
+        {
+          "name": "Lead A1R",
+          "value": "leada1r"
+        },
+        {
+          "name": "Piano",
+          "value": "piano"
+        },
+        {
+          "name": "Piano 2 HA88",
+          "value": "piano2ha88"
+        },
+        {
+          "name": "Piano 2 HP",
+          "value": "piano2hp"
+        },
+        {
+          "name": "Piano 3",
+          "value": "piano3"
+        },
+        {
+          "name": "Piano 4",
+          "value": "piano4"
+        },
+        {
+          "name": "Rack 3",
+          "value": "rack3"
+        },
+        {
+          "name": "Stage",
+          "value": "stage"
+        },
+        {
+          "name": "Stage 2",
+          "value": "stage2"
+        },
+        {
+          "name": "Stage 2 EX",
+          "value": "stage2ex"
+        },
+        {
+          "name": "Stage 3",
+          "value": "stage3"
+        },
+        {
+          "name": "Stage EX",
+          "value": "stageex"
+        },
+        {
+          "name": "Wave",
+          "value": "wave"
+        },
+        {
+          "name": "Wave 2",
+          "value": "wave2"
+        }
+      ]
+    },
     {
-    "name": "Novation",
-    "value": "novation",
-    "models": [
-      {
-        "name": "Bass Station II",
-        "value": "bassstationii"
-      },
-      {
-        "name": "Bass Station Keyboard",
-        "value": "bassstationkeyboard"
-      },
-      {
-        "name": "Circuit",
-        "value": "circuit"
-      },
-      {
-        "name": "Circuit Mono Station",
-        "value": "circuitmonostation"
-      },
-      {
-        "name": "MiniNova",
-        "value": "mininova"
-      },
-      {
-        "name": "Peak",
-        "value": "peak"
-      },
-      {
-        "name": "Summit",
-        "value": "summit"
-      },
-      {
-        "name": "UltraNova",
-        "value": "ultranova"
-      }
-    ]
-  },
+      "name": "Novation",
+      "value": "novation",
+      "models": [
+        {
+          "name": "Bass Station II",
+          "value": "bassstationii"
+        },
+        {
+          "name": "Bass Station Keyboard",
+          "value": "bassstationkeyboard"
+        },
+        {
+          "name": "Circuit",
+          "value": "circuit"
+        },
+        {
+          "name": "Circuit Mono Station",
+          "value": "circuitmonostation"
+        },
+        {
+          "name": "MiniNova",
+          "value": "mininova"
+        },
+        {
+          "name": "Peak",
+          "value": "peak"
+        },
+        {
+          "name": "Summit",
+          "value": "summit"
+        },
+        {
+          "name": "UltraNova",
+          "value": "ultranova"
+        }
+      ]
+    },
     {
       "name": "OTO Machines",
       "value": "otomachines",
@@ -1503,10 +1503,6 @@
         {
           "name": "Future Impact",
           "value": "futureimpact"
-        },
-        {
-          "name": "Infinity",
-          "value": "infinity"
         }
       ]
     },
@@ -1527,6 +1523,10 @@
         {
           "name": "Echolution 2 Deluxe",
           "value": "echolution2deluxe"
+        },
+        {
+          "name": "Infinity",
+          "value": "infinity"
         }
       ]
     },
@@ -1599,109 +1599,109 @@
       ]
     },
     {
-    "name": "Roland",
-    "value": "roland",
-    "models": [
-      {
-        "name": "BK-7m",
-        "value": "bk-7m"
-      },
-      {
-        "name": "D-05",
-        "value": "d-05"
-      },
-      {
-        "name": "GAIA SH-01",
-        "value": "gaiash-01"
-      },
-      {
-        "name": "JD-XA",
-        "value": "jd-xa"
-      },
-      {
-        "name": "JD-Xi",
-        "value": "jd-xi"
-      },
-      {
-        "name": "JP-08",
-        "value": "jp-08"
-      },
-      {
-        "name": "JU-06",
-        "value": "ju-06"
-      },
-      {
-        "name": "JX-03",
-        "value": "jx-03"
-      },
-      {
-        "name": "SE-02",
-        "value": "se-02"
-      },
-      {
-        "name": "SH-01A",
-        "value": "sh-01a"
-      },
-      {
-        "name": "SYSTEM-1",
-        "value": "system-1"
-      },
-      {
-        "name": "SYSTEM-8",
-        "value": "system-8"
-      },
-      {
-        "name": "TB-03",
-        "value": "tb-03"
-      },
-      {
-        "name": "TR-08",
-        "value": "tr-08"
-      },
-      {
-        "name": "TR-09",
-        "value": "tr-09"
-      },
-      {
-        "name": "TR-8",
-        "value": "tr-8"
-      },
-      {
-        "name": "VP-03",
-        "value": "vp-03"
-      }
-    ]
-  },
-     {
-    "name": "Sequential",
-    "value": "sequential",
-    "models": [
-      {
-        "name": "OB-6",
-        "value": "ob-6"
-      },
-      {
-        "name": "Pro 3",
-        "value": "pro3"
-      },
-      {
-        "name": "Prophet 12",
-        "value": "prophet12"
-      },
-      {
-        "name": "Prophet 6",
-        "value": "prophet6"
-      },
-      {
-        "name": "Prophet X",
-        "value": "prophetx"
-      },
-      {
-        "name": "Rev 2",
-        "value": "rev2"
-      }
-    ]
-  },
+      "name": "Roland",
+      "value": "roland",
+      "models": [
+        {
+          "name": "BK-7m",
+          "value": "bk-7m"
+        },
+        {
+          "name": "D-05",
+          "value": "d-05"
+        },
+        {
+          "name": "GAIA SH-01",
+          "value": "gaiash-01"
+        },
+        {
+          "name": "JD-XA",
+          "value": "jd-xa"
+        },
+        {
+          "name": "JD-Xi",
+          "value": "jd-xi"
+        },
+        {
+          "name": "JP-08",
+          "value": "jp-08"
+        },
+        {
+          "name": "JU-06",
+          "value": "ju-06"
+        },
+        {
+          "name": "JX-03",
+          "value": "jx-03"
+        },
+        {
+          "name": "SE-02",
+          "value": "se-02"
+        },
+        {
+          "name": "SH-01A",
+          "value": "sh-01a"
+        },
+        {
+          "name": "SYSTEM-1",
+          "value": "system-1"
+        },
+        {
+          "name": "SYSTEM-8",
+          "value": "system-8"
+        },
+        {
+          "name": "TB-03",
+          "value": "tb-03"
+        },
+        {
+          "name": "TR-08",
+          "value": "tr-08"
+        },
+        {
+          "name": "TR-09",
+          "value": "tr-09"
+        },
+        {
+          "name": "TR-8",
+          "value": "tr-8"
+        },
+        {
+          "name": "VP-03",
+          "value": "vp-03"
+        }
+      ]
+    },
+    {
+      "name": "Sequential",
+      "value": "sequential",
+      "models": [
+        {
+          "name": "OB-6",
+          "value": "ob-6"
+        },
+        {
+          "name": "Pro 3",
+          "value": "pro3"
+        },
+        {
+          "name": "Prophet 12",
+          "value": "prophet12"
+        },
+        {
+          "name": "Prophet 6",
+          "value": "prophet6"
+        },
+        {
+          "name": "Prophet X",
+          "value": "prophetx"
+        },
+        {
+          "name": "Rev 2",
+          "value": "rev2"
+        }
+      ]
+    },
     {
       "name": "Seymour Duncan",
       "value": "seymourduncan",
@@ -1773,9 +1773,9 @@
       "value": "strymon",
       "models": [
         {
-        "name": "blueSky",
-        "value": "bluesky"
-      },
+          "name": "blueSky",
+          "value": "bluesky"
+        },
         {
           "name": "Bigsky",
           "value": "bigsky"
@@ -1793,8 +1793,8 @@
           "value": "mobius"
         },
         {
-        "name": "El Capistan",
-        "value": "elcapistan"
+          "name": "El Capistan",
+          "value": "elcapistan"
         },
         {
           "name": "Deco",
@@ -1805,13 +1805,13 @@
           "value": "dig"
         },
         {
-        "name": "Lex",
-        "value": "lex"
-      },
-      {
-        "name": "Flint",
-        "value": "flint"
-      },
+          "name": "Lex",
+          "value": "lex"
+        },
+        {
+          "name": "Flint",
+          "value": "flint"
+        },
         {
           "name": "Volante",
           "value": "volante"
@@ -1833,35 +1833,35 @@
           "value": "nightsky"
         },
         {
-        "name": "Zelzah",
-        "value": "zelzah"
-      }
+          "name": "Zelzah",
+          "value": "zelzah"
+        }
       ]
     },
     {
-    "name": "Studiologic",
-    "value": "studiologic",
-    "models": [
-      {
-        "name": "Sledge",
-        "value": "sledge"
-      }
-    ]
-  },
-  {
-    "name": "Stone Deaf",
-    "value": "stonedeaf",
-    "models": [
-      {
-        "name": "Syncopy",
-        "value": "syncopy"
-      },
-      {
-        "name": "Tremotron",
-        "value": "tremotron"
-      }
-    ]
-  },
+      "name": "Studiologic",
+      "value": "studiologic",
+      "models": [
+        {
+          "name": "Sledge",
+          "value": "sledge"
+        }
+      ]
+    },
+    {
+      "name": "Stone Deaf",
+      "value": "stonedeaf",
+      "models": [
+        {
+          "name": "Syncopy",
+          "value": "syncopy"
+        },
+        {
+          "name": "Tremotron",
+          "value": "tremotron"
+        }
+      ]
+    },
     {
       "name": "Suhr",
       "value": "suhr",
@@ -1881,33 +1881,33 @@
       ]
     },
     {
-    "name": "Sunday Sounds",
-    "value": "sundaysounds",
-    "models": [
-      {
-        "name": "Sunday Guitar 2",
-        "value": "sundayguitar2"
-      },
-      {
-        "name": "Sunday Keys 2020",
-        "value": "sundaykeys2020"
-      }
-    ]
-  },
+      "name": "Sunday Sounds",
+      "value": "sundaysounds",
+      "models": [
+        {
+          "name": "Sunday Guitar 2",
+          "value": "sundayguitar2"
+        },
+        {
+          "name": "Sunday Keys 2020",
+          "value": "sundaykeys2020"
+        }
+      ]
+    },
     {
-    "name": "Swindler Effects",
-    "value": "swindlereffects",
-    "models": [
-      {
-        "name": "Red Mountain Tremolo V2",
-        "value": "redmountaintremolov2"
-      },
-      {
-        "name": "The Gulf Chorus V2",
-        "value": "thegulfchorusv2"
-      }
-    ]
-  },
+      "name": "Swindler Effects",
+      "value": "swindlereffects",
+      "models": [
+        {
+          "name": "Red Mountain Tremolo V2",
+          "value": "redmountaintremolov2"
+        },
+        {
+          "name": "The Gulf Chorus V2",
+          "value": "thegulfchorusv2"
+        }
+      ]
+    },
     {
       "name": "Synergy Amps",
       "value": "synergyamps",
@@ -1931,25 +1931,25 @@
           "value": "plethorax5"
         },
         {
-        "name": "Flashback 2 X4 Delay",
-        "value": "flashback2x4delay"
-      },
-      {
-        "name": "Hall of Fame 2 X4 Reverb",
-        "value": "halloffame2x4reverb"
-      }
+          "name": "Flashback 2 X4 Delay",
+          "value": "flashback2x4delay"
+        },
+        {
+          "name": "Hall of Fame 2 X4 Reverb",
+          "value": "halloffame2x4reverb"
+        }
       ]
     },
     {
-    "name": "TastyChips",
-    "value": "tastychips",
-    "models": [
-      {
-        "name": "GR1",
-        "value": "gr1"
-      }
-    ]
-  },
+      "name": "TastyChips",
+      "value": "tastychips",
+      "models": [
+        {
+          "name": "GR1",
+          "value": "gr1"
+        }
+      ]
+    },
     {
       "name": "TC Helicon",
       "value": "tchelicon",
@@ -1958,18 +1958,18 @@
           "name": "Voicelive 3",
           "value": "voicelive_3"
         },
-      {
-        "name": "Voicelive 3 Extreme",
-        "value": "voicelive3extreme"
-      },
-      {
-        "name": "Voicelive Rack",
-        "value": "voiceliverack"
-      },
-      {
-        "name": "Voicelive Touch 2",
-        "value": "voicelivetouch2"
-      }
+        {
+          "name": "Voicelive 3 Extreme",
+          "value": "voicelive3extreme"
+        },
+        {
+          "name": "Voicelive Rack",
+          "value": "voiceliverack"
+        },
+        {
+          "name": "Voicelive Touch 2",
+          "value": "voicelivetouch2"
+        }
       ]
     },
     {
@@ -1983,55 +1983,55 @@
       ]
     },
     {
-    "name": "That Worship Sound",
-    "value": "thatworshipsound",
-    "models": [
-      {
-        "name": "Worship Essentials 2",
-        "value": "worshipessentials2"
-      },
-      {
-        "name": "Worship Guitar Essentials 2",
-        "value": "worshipguitaressentials2"
-      }
-    ]
-  },
+      "name": "That Worship Sound",
+      "value": "thatworshipsound",
+      "models": [
+        {
+          "name": "Worship Essentials 2",
+          "value": "worshipessentials2"
+        },
+        {
+          "name": "Worship Guitar Essentials 2",
+          "value": "worshipguitaressentials2"
+        }
+      ]
+    },
     {
-    "name": "Two Notes Audio Engineering",
-    "value": "twonotesaudioengineering",
-    "models": [
-      {
-        "name": "Torpedo C.A.B. (v4 firmware)",
-        "value": "torpedoc.a.b.(v4firmware)"
-      },
-      {
-        "name": "Torpedo Captor X",
-        "value": "torpedocaptorx"
-      },
-      {
-        "name": "Torpedo Live v3 firmware",
-        "value": "torpedolivev3firmware"
-      },
-      {
-        "name": "Torpedo Live v4 firmware",
-        "value": "torpedolivev4firmware"
-      },
-      {
-        "name": "Torpedo Studio",
-        "value": "torpedostudio"
-      }
-    ]
-  },
+      "name": "Two Notes Audio Engineering",
+      "value": "twonotesaudioengineering",
+      "models": [
+        {
+          "name": "Torpedo C.A.B. (v4 firmware)",
+          "value": "torpedoc.a.b.(v4firmware)"
+        },
+        {
+          "name": "Torpedo Captor X",
+          "value": "torpedocaptorx"
+        },
+        {
+          "name": "Torpedo Live v3 firmware",
+          "value": "torpedolivev3firmware"
+        },
+        {
+          "name": "Torpedo Live v4 firmware",
+          "value": "torpedolivev4firmware"
+        },
+        {
+          "name": "Torpedo Studio",
+          "value": "torpedostudio"
+        }
+      ]
+    },
     {
-    "name": "Waldorf",
-    "value": "waldorf",
-    "models": [
-      {
-        "name": "Blofeld",
-        "value": "blofeld"
-      }
-    ]
-  },
+      "name": "Waldorf",
+      "value": "waldorf",
+      "models": [
+        {
+          "name": "Blofeld",
+          "value": "blofeld"
+        }
+      ]
+    },
     {
       "name": "Walrus Audio",
       "value": "walrusaudio",
@@ -2059,46 +2059,46 @@
       ]
     },
     {
-    "name": "Wampler Pedals",
-    "value": "wamplerpedals",
-    "models": [
-      {
-        "name": "Terraform",
-        "value": "terraform"
-      }
-    ]
-  },
+      "name": "Wampler Pedals",
+      "value": "wamplerpedals",
+      "models": [
+        {
+          "name": "Terraform",
+          "value": "terraform"
+        }
+      ]
+    },
     {
-    "name": "WMD",
-    "value": "wmd",
-    "models": [
-      {
-        "name": "Geiger Counter Pro",
-        "value": "geigercounterpro"
-      }
-    ]
-  },
+      "name": "WMD",
+      "value": "wmd",
+      "models": [
+        {
+          "name": "Geiger Counter Pro",
+          "value": "geigercounterpro"
+        }
+      ]
+    },
     {
-    "name": "Yamaha",
-    "value": "yamaha",
-    "models": [
-      {
-        "name": "reface CP",
-        "value": "refacecp"
-      },
-      {
-        "name": "reface CS",
-        "value": "refacecs"
-      },
-      {
-        "name": "reface DX",
-        "value": "refacedx"
-      },
-      {
-        "name": "reface YC",
-        "value": "refaceyc"
-      }
-    ]
-  }
+      "name": "Yamaha",
+      "value": "yamaha",
+      "models": [
+        {
+          "name": "reface CP",
+          "value": "refacecp"
+        },
+        {
+          "name": "reface CS",
+          "value": "refacecs"
+        },
+        {
+          "name": "reface DX",
+          "value": "refacedx"
+        },
+        {
+          "name": "reface YC",
+          "value": "refaceyc"
+        }
+      ]
+    }
   ]
 }
