@@ -1035,6 +1035,20 @@
     ]
   },
     {
+    "name": "Meeblip",
+    "value": "meeblip",
+    "models": [
+      {
+        "name": "Geode",
+        "value": "geode"
+      },
+      {
+        "name": "Triode",
+        "value": "triode"
+      }
+    ]
+  },
+    {
       "name": "Meris",
       "value": "meris",
       "models": [

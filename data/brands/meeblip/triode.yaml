@@ -1,0 +1,151 @@
+brand: Meeblip
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Depth
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Detune
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Decay
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Amplitude Decay
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Accent
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope Modulation
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Pulse Width
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Attack
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Amplitude Attack
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sub-oscillator: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sub-oscillator: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'PWM Sweep: On'
+  value: 66
+- description: ''
+  max: 0
+  min: 0
+  name: 'PWM Sweep: Off'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Destination: On'
+  value: 67
+- description: ''
+  max: 0
+  min: 0
+  name: 'Destination: Off'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'Wave: On'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Wave: Off'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'Randomize: On'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: 'Randomize: Off'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note retrigger: On'
+  value: 70
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note retrigger: Off'
+  value: 70
+device_name: Triode
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

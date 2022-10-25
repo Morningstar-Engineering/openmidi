@@ -1,0 +1,121 @@
+brand: Meeblip
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Waveform A
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Waveform B
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Detune
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Rate
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Amplitude attack
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Amplitude decay
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Modulation Amount
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Pulse width
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Oscillator B Octave Shift: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'Oscillator B Octave Shift: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'Destination: On'
+  value: 66
+- description: ''
+  max: 0
+  min: 0
+  name: 'Destination: Off'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Randomize: On'
+  value: 67
+- description: ''
+  max: 0
+  min: 0
+  name: 'Randomize: Off'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'Retrigger: On'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Retrigger: Off'
+  value: 68
+device_name: Geode
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
