@@ -327,6 +327,20 @@
       ]
     },
     {
+    "name": "Dreadbox",
+    "value": "dreadbox",
+    "models": [
+      {
+        "name": "Medusa",
+        "value": "medusa"
+      },
+      {
+        "name": "Typhoon",
+        "value": "typhoon"
+      }
+    ]
+  },
+    {
       "name": "Dr Scientist",
       "value": "drscientist",
       "models": [

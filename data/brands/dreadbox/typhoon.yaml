@@ -1,0 +1,106 @@
+brand: Dreadbox
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: CC2
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Offset
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Waveshape
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: VCO Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Attack
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Decay
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Sustain
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Filter EG Release
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Time
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: EG Level
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Attack
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Decay
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Sustain
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Release
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Time
+  value: 34
+device_name: Typhoon
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
