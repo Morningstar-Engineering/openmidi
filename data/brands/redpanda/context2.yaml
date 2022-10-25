@@ -1,0 +1,686 @@
+brand: Red Panda
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Blend
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Predelay
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Decay
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Low Response
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: High Response
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Amount
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation Rate
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb/Delay Balance
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Dynamics Threshold
+  value: 23
+- description: ''
+  max: 0
+  min: 0
+  name: 'Dynamics Recovery Time: Ducking'
+  value: 24
+- description: ''
+  max: 64
+  min: 64
+  name: 'Dynamics Recovery Time: Off'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Dynamics Recovery Time: Expansion'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Preset Footswitch: Press'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'Preset Footswitch: Release'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'On Footswitch: Press'
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'On Footswitch: Release'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb Hold (Left): On'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb Hold (Left): Off'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb Hold (Right): On'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb Hold (Right): Off'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: Tap
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'Algorithm: Room'
+  value: 102
+- description: ''
+  max: 1
+  min: 1
+  name: 'Algorithm: Hall'
+  value: 102
+- description: ''
+  max: 2
+  min: 2
+  name: 'Algorithm: Cathedral'
+  value: 102
+- description: ''
+  max: 3
+  min: 3
+  name: 'Algorithm: Gated'
+  value: 102
+- description: ''
+  max: 4
+  min: 4
+  name: 'Algorithm: Reverse'
+  value: 102
+- description: ''
+  max: 5
+  min: 5
+  name: 'Algorithm: Plate'
+  value: 102
+- description: ''
+  max: 6
+  min: 6
+  name: 'Alogrithm: Spring'
+  value: 102
+- description: ''
+  max: 7
+  min: 7
+  name: 'Algorithm: Grain'
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Division: Off'
+  value: 106
+- description: ''
+  max: 1
+  min: 1
+  name: 'Delay Division: 8 Measures'
+  value: 106
+- description: ''
+  max: 2
+  min: 2
+  name: 'Delay Division: 7 Measures'
+  value: 106
+- description: ''
+  max: 3
+  min: 3
+  name: 'Delay Division: 6 Measures'
+  value: 106
+- description: ''
+  max: 4
+  min: 4
+  name: 'Delay Division: 5 Measures'
+  value: 106
+- description: ''
+  max: 5
+  min: 5
+  name: 'Delay Division: 4 Measures'
+  value: 106
+- description: ''
+  max: 6
+  min: 6
+  name: 'Delay Division: 3 Measures'
+  value: 106
+- description: ''
+  max: 7
+  min: 7
+  name: 'Delay Division: 2 Measures'
+  value: 106
+- description: ''
+  max: 8
+  min: 8
+  name: 'Delay Division: 2 Measure Triplet'
+  value: 106
+- description: ''
+  max: 9
+  min: 9
+  name: 'Delay Division: Dotted Whole'
+  value: 106
+- description: ''
+  max: 10
+  min: 10
+  name: 'Delay Division: Whole'
+  value: 106
+- description: ''
+  max: 11
+  min: 11
+  name: 'Delay Division: Whole Triplet'
+  value: 106
+- description: ''
+  max: 12
+  min: 12
+  name: 'Delay Division: Dotted 1/2'
+  value: 106
+- description: ''
+  max: 13
+  min: 13
+  name: 'Delay Division: 1/2'
+  value: 106
+- description: ''
+  max: 14
+  min: 14
+  name: 'Delay Division: 1/2t'
+  value: 106
+- description: ''
+  max: 15
+  min: 15
+  name: 'Delay Division: 1/4d'
+  value: 106
+- description: ''
+  max: 16
+  min: 16
+  name: 'Delay Division: 1/4'
+  value: 106
+- description: ''
+  max: 17
+  min: 17
+  name: 'Delay Division: 1/4t'
+  value: 106
+- description: ''
+  max: 18
+  min: 18
+  name: 'Delay Division: 1/8d'
+  value: 106
+- description: ''
+  max: 19
+  min: 19
+  name: 'Delay Division: 1/8'
+  value: 106
+- description: ''
+  max: 20
+  min: 20
+  name: 'Delay Division: 1/8t'
+  value: 106
+- description: ''
+  max: 21
+  min: 21
+  name: 'Delay Division: 1/16d'
+  value: 106
+- description: ''
+  max: 22
+  min: 22
+  name: 'Delay Division: 1/16'
+  value: 106
+- description: ''
+  max: 23
+  min: 23
+  name: 'Delay Division: 1/16t'
+  value: 106
+- description: ''
+  max: 24
+  min: 24
+  name: 'Delay Division: 1/32d'
+  value: 106
+- description: ''
+  max: 25
+  min: 25
+  name: 'Delay Division: 1/32'
+  value: 106
+- description: ''
+  max: 26
+  min: 26
+  name: 'Delay Division: 1/32t'
+  value: 106
+- description: ''
+  max: 27
+  min: 27
+  name: 'Delay Division: 1/64d'
+  value: 106
+- description: ''
+  max: 28
+  min: 28
+  name: 'Delay Division: 1/64'
+  value: 106
+- description: ''
+  max: 29
+  min: 29
+  name: 'Delay Division: 1/64t'
+  value: 106
+- description: ''
+  max: 30
+  min: 30
+  name: 'Delay Division: 1/128d'
+  value: 106
+- description: ''
+  max: 31
+  min: 31
+  name: 'Delay Division: 1/128'
+  value: 106
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pre-Delay Division: Off'
+  value: 107
+- description: ''
+  max: 1
+  min: 1
+  name: 'Pre-Delay Division: 8 Measures'
+  value: 107
+- description: ''
+  max: 2
+  min: 2
+  name: 'Pre-Delay Division: 7 Measures'
+  value: 107
+- description: ''
+  max: 3
+  min: 3
+  name: 'Pre-Delay Division: 6 Measures'
+  value: 107
+- description: ''
+  max: 4
+  min: 4
+  name: 'Pre-Delay Division: 5 Measures'
+  value: 107
+- description: ''
+  max: 5
+  min: 5
+  name: 'Pre-Delay Division: 4 Measures'
+  value: 107
+- description: ''
+  max: 6
+  min: 6
+  name: 'Pre-Delay Division: 3 Measures'
+  value: 107
+- description: ''
+  max: 7
+  min: 7
+  name: 'Pre-Delay Division: 2 Measures'
+  value: 107
+- description: ''
+  max: 8
+  min: 8
+  name: 'Pre-Delay Division: 2 Measure Triplet'
+  value: 107
+- description: ''
+  max: 9
+  min: 9
+  name: 'Pre-Delay Division: Dotted Whole'
+  value: 107
+- description: ''
+  max: 10
+  min: 10
+  name: 'Pre-Delay Division: Whole'
+  value: 107
+- description: ''
+  max: 11
+  min: 11
+  name: 'Pre-Delay Division: Whole Triplet'
+  value: 107
+- description: ''
+  max: 12
+  min: 12
+  name: 'Pre-Delay Division: Dotted 1/2'
+  value: 107
+- description: ''
+  max: 13
+  min: 13
+  name: 'Pre-Delay Division: 1/2'
+  value: 107
+- description: ''
+  max: 14
+  min: 14
+  name: 'Pre-Delay Division: 1/2t'
+  value: 107
+- description: ''
+  max: 15
+  min: 15
+  name: 'Pre-Delay Division: 1/4d'
+  value: 107
+- description: ''
+  max: 16
+  min: 16
+  name: 'Pre-Delay Division: 1/4'
+  value: 107
+- description: ''
+  max: 17
+  min: 17
+  name: 'Pre-Delay Division: 1/4t'
+  value: 107
+- description: ''
+  max: 18
+  min: 18
+  name: 'Pre-Delay Division: 1/8d'
+  value: 107
+- description: ''
+  max: 19
+  min: 19
+  name: 'Pre-Delay Division: 1/8'
+  value: 107
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pre-Delay Division: 1/8t'
+  value: 107
+- description: ''
+  max: 21
+  min: 21
+  name: 'Pre-Delay Division: 1/16d'
+  value: 107
+- description: ''
+  max: 22
+  min: 22
+  name: 'Pre-Delay Division: 1/16'
+  value: 107
+- description: ''
+  max: 23
+  min: 23
+  name: 'Pre-Delay Division: 1/16t'
+  value: 107
+- description: ''
+  max: 24
+  min: 24
+  name: 'Pre-Delay Division: 1/32d'
+  value: 107
+- description: ''
+  max: 25
+  min: 25
+  name: 'Pre-Delay Division: 1/32'
+  value: 107
+- description: ''
+  max: 26
+  min: 26
+  name: 'Pre-Delay Division: 1/32t'
+  value: 107
+- description: ''
+  max: 27
+  min: 27
+  name: 'Pre-Delay Division: 1/64d'
+  value: 107
+- description: ''
+  max: 28
+  min: 28
+  name: 'Pre-Delay Division: 1/64'
+  value: 107
+- description: ''
+  max: 29
+  min: 29
+  name: 'Pre-Delay Division: 1/64t'
+  value: 107
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pre-Delay Division: 1/128d'
+  value: 107
+- description: ''
+  max: 31
+  min: 31
+  name: 'Pre-Delay Division: 1/128'
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tremolo Division: Off'
+  value: 108
+- description: ''
+  max: 1
+  min: 1
+  name: 'Tremolo Division: 8 Measures'
+  value: 108
+- description: ''
+  max: 2
+  min: 2
+  name: 'Tremolo Division: 7 Measures'
+  value: 108
+- description: ''
+  max: 3
+  min: 3
+  name: 'Tremolo Division: 6 Measures'
+  value: 108
+- description: ''
+  max: 4
+  min: 4
+  name: 'Tremolo Division: 5 Measures'
+  value: 108
+- description: ''
+  max: 5
+  min: 5
+  name: 'Tremolo Division: 4 Measures'
+  value: 108
+- description: ''
+  max: 6
+  min: 6
+  name: 'Tremolo Division: 3 Measures'
+  value: 108
+- description: ''
+  max: 7
+  min: 7
+  name: 'Tremolo Division: 2 Measures'
+  value: 108
+- description: ''
+  max: 8
+  min: 8
+  name: 'Tremolo Division: 2 Measure Triplet'
+  value: 108
+- description: ''
+  max: 9
+  min: 9
+  name: 'Tremolo Division: Dotted Whole'
+  value: 108
+- description: ''
+  max: 10
+  min: 10
+  name: 'Tremolo Division: Whole'
+  value: 108
+- description: ''
+  max: 11
+  min: 11
+  name: 'Tremolo Division: Whole Triplet'
+  value: 108
+- description: ''
+  max: 12
+  min: 12
+  name: 'Tremolo Division: Dotted 1/2'
+  value: 108
+- description: ''
+  max: 13
+  min: 13
+  name: 'Tremolo Division: 1/2'
+  value: 108
+- description: ''
+  max: 14
+  min: 14
+  name: 'Tremolo Division: 1/2t'
+  value: 108
+- description: ''
+  max: 15
+  min: 15
+  name: 'Tremolo Division: 1/4d'
+  value: 108
+- description: ''
+  max: 16
+  min: 16
+  name: 'Tremolo Division: 1/4'
+  value: 108
+- description: ''
+  max: 17
+  min: 17
+  name: 'Tremolo Division: 1/4t'
+  value: 108
+- description: ''
+  max: 18
+  min: 18
+  name: 'Tremolo Division: 1/8d'
+  value: 108
+- description: ''
+  max: 19
+  min: 19
+  name: 'Tremolo Division: 1/8'
+  value: 108
+- description: ''
+  max: 20
+  min: 20
+  name: 'Tremolo Division: 1/8t'
+  value: 108
+- description: ''
+  max: 21
+  min: 21
+  name: 'Tremolo Division: 1/16d'
+  value: 108
+- description: ''
+  max: 22
+  min: 22
+  name: 'Tremolo Division: 1/16'
+  value: 108
+- description: ''
+  max: 23
+  min: 23
+  name: 'Tremolo Division: 1/16t'
+  value: 108
+- description: ''
+  max: 24
+  min: 24
+  name: 'Tremolo Division: 1/32d'
+  value: 108
+- description: ''
+  max: 25
+  min: 25
+  name: 'Tremolo Division: 1/32'
+  value: 108
+- description: ''
+  max: 26
+  min: 26
+  name: 'Tremolo Division: 1/32t'
+  value: 108
+- description: ''
+  max: 27
+  min: 27
+  name: 'Tremolo Division: 1/64d'
+  value: 108
+- description: ''
+  max: 28
+  min: 28
+  name: 'Tremolo Division: 1/64'
+  value: 108
+- description: ''
+  max: 29
+  min: 29
+  name: 'Tremolo Division: 1/64t'
+  value: 108
+- description: ''
+  max: 30
+  min: 30
+  name: 'Tremolo Division: 1/128d'
+  value: 108
+- description: ''
+  max: 31
+  min: 31
+  name: 'Tremolo Division: 1/128'
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'Receive MIDI Clock: Off'
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: 'Receive MIDI Clock: On'
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'Trails: Off'
+  value: 111
+- description: ''
+  max: 64
+  min: 64
+  name: 'Trails: On'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Trails: Global'
+  value: 111
+device_name: Context 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
