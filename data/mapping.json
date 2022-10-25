@@ -1415,6 +1415,20 @@
       ]
     },
     {
+    "name": "Sunday Sounds",
+    "value": "sundaysounds",
+    "models": [
+      {
+        "name": "Sunday Guitar 2",
+        "value": "sundayguitar2"
+      },
+      {
+        "name": "Sunday Keys 2020",
+        "value": "sundaykeys2020"
+      }
+    ]
+  },
+    {
     "name": "Swindler Effects",
     "value": "swindlereffects",
     "models": [

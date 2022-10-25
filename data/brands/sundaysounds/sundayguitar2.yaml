@@ -1,0 +1,636 @@
+brand: Sunday Sounds
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 1: Compressor'
+  value: 44
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 1: Green Drive'
+  value: 44
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 1: Glory Drive'
+  value: 44
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 1: Mouse Rat'
+  value: 44
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 1: Octave'
+  value: 44
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 1: Tremolo'
+  value: 44
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 1: Chorus'
+  value: 44
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 1: Tape Delay'
+  value: 44
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 1: DD- Delay'
+  value: 44
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 1: Sky Verb'
+  value: 44
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 1: Boost'
+  value: 44
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 2: Compressor'
+  value: 38
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 2: Green Drive'
+  value: 38
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 2: Glory Drive'
+  value: 38
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 2: Mouse Rat'
+  value: 38
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 2: Octave'
+  value: 38
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 2: Tremolo'
+  value: 38
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 2: Chorus'
+  value: 38
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 2: Tape Delay'
+  value: 38
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 2: DD- Delay'
+  value: 38
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 2: Sky Verb'
+  value: 38
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 2: Boost'
+  value: 38
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 3: Compressor'
+  value: 36
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 3: Green Drive'
+  value: 36
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 3: Glory Drive'
+  value: 36
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 3: Mouse Rat'
+  value: 36
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 3: Octave'
+  value: 36
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 3: Tremolo'
+  value: 36
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 3: Chorus'
+  value: 36
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 3: Tape Delay'
+  value: 36
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 3: DD- Delay'
+  value: 36
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 3: Sky Verb'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 3: Boost'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 4: Compressor'
+  value: 30
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 4: Green Drive'
+  value: 30
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 4: Glory Drive'
+  value: 30
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 4: Mouse Rat'
+  value: 30
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 4: Octave'
+  value: 30
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 4: Tremolo'
+  value: 30
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 4: Chorus'
+  value: 30
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 4: Tape Delay'
+  value: 30
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 4: DD- Delay'
+  value: 30
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 4: Sky Verb'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 4: Boost'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 5: Compressor'
+  value: 42
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 5: Green Drive'
+  value: 42
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 5: Glory Drive'
+  value: 42
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 5: Mouse Rat'
+  value: 42
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 5: Octave'
+  value: 42
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 5: Tremolo'
+  value: 42
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 5: Chorus'
+  value: 42
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 5: Tape Delay'
+  value: 42
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 5: DD- Delay'
+  value: 42
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 5: Sky Verb'
+  value: 42
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 5: Boost'
+  value: 42
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 6: Compressor'
+  value: 40
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 6: Green Drive'
+  value: 40
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 6: Glory Drive'
+  value: 40
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 6: Mouse Rat'
+  value: 40
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 6: Octave'
+  value: 40
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 6: Tremolo'
+  value: 40
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 6: Chorus'
+  value: 40
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 6: Tape Delay'
+  value: 40
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 6: DD- Delay'
+  value: 40
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 6: Sky Verb'
+  value: 40
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 6: Boost'
+  value: 40
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 7: Compressor'
+  value: 34
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 7: Green Drive'
+  value: 34
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 7: Glory Drive'
+  value: 34
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 7: Mouse Rat'
+  value: 34
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 7: Octave'
+  value: 34
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 7: Tremolo'
+  value: 34
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 7: Chorus'
+  value: 34
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 7: Tape Delay'
+  value: 34
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 7: DD- Delay'
+  value: 34
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 7: Sky Verb'
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 7: Boost'
+  value: 34
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pedal 8: Compressor'
+  value: 32
+- description: ''
+  max: 20
+  min: 20
+  name: 'Pedal 8: Green Drive'
+  value: 32
+- description: ''
+  max: 30
+  min: 30
+  name: 'Pedal 8: Glory Drive'
+  value: 32
+- description: ''
+  max: 40
+  min: 40
+  name: 'Pedal 8: Mouse Rat'
+  value: 32
+- description: ''
+  max: 50
+  min: 50
+  name: 'Pedal 8: Octave'
+  value: 32
+- description: ''
+  max: 60
+  min: 60
+  name: 'Pedal 8: Tremolo'
+  value: 32
+- description: ''
+  max: 75
+  min: 75
+  name: 'Pedal 8: Chorus'
+  value: 32
+- description: ''
+  max: 85
+  min: 85
+  name: 'Pedal 8: Tape Delay'
+  value: 32
+- description: ''
+  max: 95
+  min: 95
+  name: 'Pedal 8: DD- Delay'
+  value: 32
+- description: ''
+  max: 110
+  min: 110
+  name: 'Pedal 8: Sky Verb'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 8: Boost'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 1: Engage'
+  value: 45
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 2: Engage'
+  value: 39
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 3: Engage'
+  value: 37
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 4: Engage'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 5: Engage'
+  value: 43
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 6: Engage'
+  value: 41
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 7: Engage'
+  value: 35
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pedal 8: Engage'
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: Favourite 1
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: Favourite 2
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: Favourite 3
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: Favourite 4
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Vol/Wah Pedal
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: Previous Patch
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: Next Patch
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: On'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tonic: Off'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: Motion Button'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: Shift Up Button'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic: Speed Knob'
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: A'
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Bb'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: B'
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: C'
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Db'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: D'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Eb'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: E'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: F'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Gb'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: G'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Ab'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Tonic Volume Knob
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic XY Pad: X Axis'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic XY Pad: Y Axis'
+  value: 34
+device_name: Sunday Guitar 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

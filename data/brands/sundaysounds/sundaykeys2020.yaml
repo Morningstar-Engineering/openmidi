@@ -1,0 +1,341 @@
+brand: Sunday Sounds
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 1: Knob 1'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 1: Knob 2'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 1: Slider 1'
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 1: Slider 2'
+  value: 1
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 1'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 2'
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 3'
+  value: 48
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 4'
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 5'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 1: Button 6'
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 2: Knob 1'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 2: Knob 2'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 2: Slider 1'
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 2: Slider 2'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 1'
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 2'
+  value: 35
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 3'
+  value: 50
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 4'
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 5'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 2: Button 6'
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 3: Knob 1'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 3: Knob 2'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 3: Slider 1'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 3: Slider 2'
+  value: 5
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 1'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 2'
+  value: 37
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 3'
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 4'
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 5'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 3: Button 6'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 4: Knob 1'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 4: Knob 2'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 4: Slider 1'
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: 'Sec 4: Slider 2'
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 1'
+  value: 38
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 2'
+  value: 39
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 3'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 4'
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 5'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sec 4: Button 6'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Extra Section Slider
+  value: 42
+- description: ''
+  max: 127
+  min: 127
+  name: Next Patch
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: Previous Patch
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: Panic
+  value: 46
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 45
+- description: ''
+  max: 127
+  min: 127
+  name: Sum to Mono
+  value: 40
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: On'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tonic: Off'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: Motion Button'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic: Shift Up Button'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic: Speed Knob'
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: A'
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Bb'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: B'
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: C'
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Db'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: D'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Eb'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: E'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: F'
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Gb'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: G'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tonic Key: Ab'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Tonic Volume Knob
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic XY Pad: X Axis'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Tonic XY Pad: Y Axis'
+  value: 34
+device_name: Sunday Keys 2020
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
