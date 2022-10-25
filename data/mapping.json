@@ -1051,6 +1051,16 @@
       ]
     },
     {
+    "name": "MFB",
+    "value": "mfb",
+    "models": [
+      {
+        "name": "Tanzbar Lite",
+        "value": "tanzbarlite"
+      }
+    ]
+  },
+    {
       "name": "the montreal assembly",
       "value": "mtlasm",
       "models": [

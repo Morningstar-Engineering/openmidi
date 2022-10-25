@@ -1,0 +1,136 @@
+brand: MFB
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum tune
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum tone
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Bass drum decay
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum tone
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum decay
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Snare drum noise
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Claps decay
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Claps filter
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Claps attack
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Claps trigger
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Toms tune
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Toms decay
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Conga tune
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Conga decay
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Conga pan
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Toms pan
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Cowbell tune
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Cowbell decay
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Claves tune
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Claves decay
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Cymbal tune
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Cymbal tone
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Cymbal decay
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Open hi hat decay
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Closed hi hat decay
+  value: 91
+device_name: Tanzbar Lite
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
