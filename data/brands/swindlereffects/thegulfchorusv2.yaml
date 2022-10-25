@@ -1,0 +1,86 @@
+brand: Swindler Effects
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Footswitch
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Speed
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Depth
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Blend
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Delay
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: 'Division: 1/4'
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: 'Division: 1/8d'
+  value: 59
+- description: ''
+  max: 2
+  min: 2
+  name: 'Division: 1/8'
+  value: 59
+- description: ''
+  max: 3
+  min: 3
+  name: 'Division: Triplet'
+  value: 59
+- description: ''
+  max: 4
+  min: 4
+  name: 'Division: 1/16'
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'Waveform: Sine'
+  value: 60
+- description: ''
+  max: 1
+  min: 1
+  name: 'Waveform: Triangle'
+  value: 60
+- description: ''
+  max: 2
+  min: 2
+  name: 'Waveform: Square'
+  value: 60
+device_name: The Gulf Chorus V2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1331,6 +1331,20 @@
       ]
     },
     {
+    "name": "Swindler Effects",
+    "value": "swindlereffects",
+    "models": [
+      {
+        "name": "Red Mountain Tremolo V2",
+        "value": "redmountaintremolov2"
+      },
+      {
+        "name": "The Gulf Chorus V2",
+        "value": "thegulfchorusv2"
+      }
+    ]
+  },
+    {
       "name": "Synergy Amps",
       "value": "synergyamps",
       "models": [
