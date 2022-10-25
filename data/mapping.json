@@ -2077,6 +2077,28 @@
         "value": "geigercounterpro"
       }
     ]
+  },
+    {
+    "name": "Yamaha",
+    "value": "yamaha",
+    "models": [
+      {
+        "name": "reface CP",
+        "value": "refacecp"
+      },
+      {
+        "name": "reface CS",
+        "value": "refacecs"
+      },
+      {
+        "name": "reface DX",
+        "value": "refacedx"
+      },
+      {
+        "name": "reface YC",
+        "value": "refaceyc"
+      }
+    ]
   }
   ]
 }

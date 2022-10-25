@@ -1,0 +1,221 @@
+brand: Yamaha
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Algorithm 1
+  value: 80
+- description: ''
+  max: 12
+  min: 12
+  name: Algorithm 2
+  value: 80
+- description: ''
+  max: 22
+  min: 22
+  name: Algorithm 3
+  value: 80
+- description: ''
+  max: 33
+  min: 33
+  name: Algorithm 4
+  value: 80
+- description: ''
+  max: 43
+  min: 43
+  name: Algorithm 5
+  value: 80
+- description: ''
+  max: 54
+  min: 54
+  name: Algorithm 6
+  value: 80
+- description: ''
+  max: 65
+  min: 65
+  name: Algorithm 7
+  value: 80
+- description: ''
+  max: 75
+  min: 75
+  name: Algorithm 8
+  value: 80
+- description: ''
+  max: 86
+  min: 86
+  name: Algorithm 9
+  value: 80
+- description: ''
+  max: 96
+  min: 96
+  name: Algorithm 10
+  value: 80
+- description: ''
+  max: 107
+  min: 107
+  name: Algorithm 11
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: Algorithm 12
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Op 1 output level
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Op 1 feedback level
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 1 feedback type: saw'
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 1 feedback type: square'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 1 freq mode: freq/ratio'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 1 freq mode: fixed freq/Hz'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Op 1 frequency ratio/freq (coarse)
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Op 1 frequency ratio/freq (fine)
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 output level
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 feedback level
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 feedback type
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 frequency mode
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 frequency ratio/freq (coarse)
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Op 2 frequency ratio/freq (fine)
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Op 3 output level
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Op 3 feedback level
+  value: 109
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 3 feedback type: saw'
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 3 feedback type: square'
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 3 freq mode: freq/ratio'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 3 freq mode: fixed freq/Hz'
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Op 3 frequency ratio/freq (coarse)
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Op 3 frequency ratio/freq (fine)
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Op 4 output level
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Op 4 feedback level
+  value: 115
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 4 feedback type: saw'
+  value: 116
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 4 feedback type: square'
+  value: 116
+- description: ''
+  max: 0
+  min: 0
+  name: 'Op 4 freq mode: freq/ratio'
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: 'Op 4 freq mode: fixed freq/Hz'
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Op 4 frequency ratio/freq (coarse)
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Op 4 frequency ratio/freq (fine)
+  value: 119
+device_name: reface DX
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

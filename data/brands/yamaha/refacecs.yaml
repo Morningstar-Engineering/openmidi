@@ -1,0 +1,161 @@
+brand: Yamaha
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Portamento: poly'
+  value: 20
+- description: ''
+  max: 127
+  min: 1
+  name: 'Portamento: mono with port'
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO Assign: Off'
+  value: 78
+- description: ''
+  max: 26
+  min: 26
+  name: 'LFO Assign: Amp'
+  value: 78
+- description: ''
+  max: 52
+  min: 52
+  name: 'LFO Assign: Filter'
+  value: 78
+- description: ''
+  max: 77
+  min: 77
+  name: 'LFO Assign: Pitch'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO Assign: Oscillator'
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: LFO depth
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: LFO speed
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'Osc Type: Multi-Saw'
+  value: 80
+- description: ''
+  max: 26
+  min: 26
+  name: 'Osc Type: Pulse'
+  value: 80
+- description: ''
+  max: 52
+  min: 52
+  name: 'Osc Type: Osc Sync'
+  value: 80
+- description: ''
+  max: 77
+  min: 77
+  name: 'Osc Type: Ring Mod'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'Osc Type: Freq Mod'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator texture
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator mod
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Filter cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: EG FEG-AEG balance
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: EG attack time
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: EG decay time
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: EG sustain level
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: EG release time
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effect Type: Distortion'
+  value: 17
+- description: ''
+  max: 26
+  min: 26
+  name: 'Effect Type: Chorus/Flange'
+  value: 17
+- description: ''
+  max: 52
+  min: 52
+  name: 'Effect Type: Phaser'
+  value: 17
+- description: ''
+  max: 77
+  min: 77
+  name: 'Effect Type: Delay'
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'Effect Type: Off'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Effect depth
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Effect rate
+  value: 19
+device_name: reface CS
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

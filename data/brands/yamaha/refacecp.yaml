@@ -1,0 +1,126 @@
+brand: Yamaha
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Type: Rd I'
+  value: 80
+- description: ''
+  max: 22
+  min: 22
+  name: 'Type: Rd II'
+  value: 80
+- description: ''
+  max: 63
+  min: 63
+  name: 'Type: Wr'
+  value: 80
+- description: ''
+  max: 65
+  min: 65
+  name: 'Type: Clv'
+  value: 80
+- description: ''
+  max: 86
+  min: 86
+  name: 'Type: Toy'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'Type: CP'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tremolo/wah: Off'
+  value: 17
+- description: ''
+  max: 64
+  min: 64
+  name: 'Tremolo/wah: Trem'
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tremolo/wah: Wah'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Tremolo/wah depth
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Tremolo/wah rate
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'Chorus/phaser: Off'
+  value: 85
+- description: ''
+  max: 64
+  min: 64
+  name: 'Chorus/phaser: Chorus'
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: 'Chorus/phaser: Phaser'
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus/phaser depth
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus/phaser speed
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay: Off'
+  value: 88
+- description: ''
+  max: 64
+  min: 64
+  name: 'Delay: Digital'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay: Analog'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Digital delay/analog delay depth
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Digital delay/analog delay time
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb depth
+  value: 91
+device_name: reface CP
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
