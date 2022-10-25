@@ -1,0 +1,401 @@
+brand: OTO Machines
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Drive
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Naked
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Dressed
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Q
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Clock
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Freq
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 1: Off'
+  value: 20
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 1: On'
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 1: Inverse'
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 2: Off'
+  value: 21
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 2: On'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 2: Inverse'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 3: Off'
+  value: 22
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 3: On'
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 3: Inverse'
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 4: Off'
+  value: 23
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 4: On'
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 4: Inverse'
+  value: 23
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 5: Off'
+  value: 24
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 5: On'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 5: Inverse'
+  value: 24
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 6: Off'
+  value: 25
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 6: On'
+  value: 25
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 6: Inverse'
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 7: Off'
+  value: 26
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 7: On'
+  value: 26
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 7: Inverse'
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bit 8: Off'
+  value: 27
+- description: ''
+  max: 64
+  min: 64
+  name: 'Bit 8: On'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Bit 8: Inverse'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Biscuit
+  value: 28
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Biscuit
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Filter: Low Pass'
+  value: 29
+- description: ''
+  max: 64
+  min: 64
+  name: 'Filter: Band Pass'
+  value: 29
+- description: ''
+  max: 127
+  min: 127
+  name: 'Filter: Hi Pass'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'FX: Off'
+  value: 30
+- description: ''
+  max: 30
+  min: 30
+  name: 'FX: Wave Shaping'
+  value: 30
+- description: ''
+  max: 64
+  min: 64
+  name: 'FX: Delay'
+  value: 30
+- description: ''
+  max: 85
+  min: 85
+  name: 'FX: Pitch Shifter'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'FX: Step Filter'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Wave: Hi Rect'
+  value: 31
+- description: ''
+  max: 17
+  min: 17
+  name: 'Wave: Alt. Rect'
+  value: 31
+- description: ''
+  max: 33
+  min: 33
+  name: 'Wave: Bat Fuzz'
+  value: 31
+- description: ''
+  max: 49
+  min: 49
+  name: 'Wave: Biscuit'
+  value: 31
+- description: ''
+  max: 65
+  min: 65
+  name: 'Wave: Swap'
+  value: 31
+- description: ''
+  max: 81
+  min: 81
+  name: 'Wave: Saw Osc.'
+  value: 31
+- description: ''
+  max: 97
+  min: 97
+  name: 'Wave: Lo Saw Osc.'
+  value: 31
+- description: ''
+  max: 127
+  min: 127
+  name: 'Wave: Lo Squar Osc.'
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: 'Division: 1/4'
+  value: 32
+- description: ''
+  max: 23
+  min: 23
+  name: 'Division: 1/4d'
+  value: 32
+- description: ''
+  max: 44
+  min: 44
+  name: 'Division: 1/8'
+  value: 32
+- description: ''
+  max: 67
+  min: 67
+  name: 'Division: 1/8d'
+  value: 32
+- description: ''
+  max: 87
+  min: 87
+  name: 'Division: 1/16'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Division: 1/16d'
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 33
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay Free Clock: Off'
+  value: 34
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay Free Clock: On'
+  value: 34
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pitch Shift: 2 Oct Down'
+  value: 35
+- description: ''
+  max: 17
+  min: 17
+  name: 'Pitch Shift: 1 Oct Down'
+  value: 35
+- description: ''
+  max: 33
+  min: 33
+  name: 'Pitch Shift: 1 5th Down'
+  value: 35
+- description: ''
+  max: 49
+  min: 49
+  name: 'Pitch Shift: Detune'
+  value: 35
+- description: ''
+  max: 65
+  min: 65
+  name: 'Pitch Shift: 1 Minor 3rd Up'
+  value: 35
+- description: ''
+  max: 81
+  min: 81
+  name: 'Pitch Shift: 1 Major 3rd Up'
+  value: 35
+- description: ''
+  max: 97
+  min: 97
+  name: 'Pitch Shift: 1 5th Up'
+  value: 35
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pitch Shift: 1 Oct Up'
+  value: 35
+- description: ''
+  max: 0
+  min: 0
+  name: 'Step Filter Mode: FWD'
+  value: 36
+- description: ''
+  max: 64
+  min: 64
+  name: 'Step Filter Mode: ALT'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'Step Filter Mode: RAND'
+  value: 36
+- description: ''
+  max: 0
+  min: 0
+  name: 'Step Filter Speed: x1'
+  value: 37
+- description: ''
+  max: 27
+  min: 27
+  name: 'Step Filter Speed: x2'
+  value: 37
+- description: ''
+  max: 52
+  min: 52
+  name: 'Step Filter Speed: x4'
+  value: 37
+- description: ''
+  max: 77
+  min: 77
+  name: 'Step Filter Speed: x8'
+  value: 37
+- description: ''
+  max: 127
+  min: 127
+  name: 'Step Filter Speed: x24'
+  value: 37
+- description: ''
+  max: 0
+  min: 0
+  name: 'Step Filter No.: 2'
+  value: 38
+- description: ''
+  max: 27
+  min: 27
+  name: 'Step Filter No.: 3'
+  value: 38
+- description: ''
+  max: 52
+  min: 52
+  name: 'Step Filter No.: 4'
+  value: 38
+- description: ''
+  max: 77
+  min: 77
+  name: 'Step Filter No.: 6'
+  value: 38
+- description: ''
+  max: 127
+  min: 127
+  name: 'Step Filter No.: 8'
+  value: 38
+device_name: Biscuit
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

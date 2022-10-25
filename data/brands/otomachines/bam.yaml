@@ -1,0 +1,71 @@
+brand: OTO Machines
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Size
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Pre Delay
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Time
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Damping
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Active
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Type
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: In Gain
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Low-cut
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: High-cut
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Freeze
+  value: 23
+device_name: BAM
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1039,6 +1039,28 @@
       ]
     },
     {
+    "name": "OTO Machines",
+    "value": "otomachines",
+    "models": [
+        {
+          "name": "BAM",
+          "value": "bam"
+        },
+        {
+          "name": "BIM",
+          "value": "bim"
+        },
+        {
+          "name": "BOUM",
+          "value": "boum"
+        },
+        {
+          "name": "Biscuit",
+          "value": "biscuit"
+        }
+      ]
+    },
+    {
       "name": "Panda Audio",
       "value": "pandaaudio",
       "models": [
