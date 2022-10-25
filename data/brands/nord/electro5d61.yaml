@@ -1,0 +1,31 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Part Lower Sound Engine Select
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Part upper Sound Engine Select
+  value: 40
+device_name: 'Electro 5D 61 '
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

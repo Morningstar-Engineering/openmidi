@@ -1,0 +1,556 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Soft Pedal
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Live Mode
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Song Mode
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Song Part
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Panel Enable
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Panel Focus
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Enable
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Octave Shift
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Level
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Model
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Preset
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar 9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Percussion Enable
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Type
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Enable
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Percussion Harmonic
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Percussion Speed
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Percussion Level
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Enable
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Level
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Octave Shift
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Variation
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Layer Detune
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Piano EQ
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Enable
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Level
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Octave Shift
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Config
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Bank
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Wave
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Glide Rate
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Voice Mode
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Unison
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Vibrato Mode
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Mod Envelope Attack
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Mod Envelope Decay
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Mod Envelope Velocity
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Pitch
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Ctrl
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Sytnh Mod Envelope Release
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Osc Modulation
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter Frequency
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter Resonance
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter Drive
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter LFO Amount
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter KB Tracking
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter Type
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Amp Envelope Attack
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Amp Envelope Decay
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Amp Envelope Release
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Amp Envelope Velocity
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Filter Modulation
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Arp Rate
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Arp Pattern
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Arp Range
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Arp Run
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Keyboard Hold
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO Rate
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Synth LFO Waveform
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Enable
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Source
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Amount
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Source
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Amount
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Enable
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Source
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Amount
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Rate
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Mode
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Enable
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong On/Off
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Filter Type
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Type
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Drive
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Bass
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Mid
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Treble
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Enable
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Source
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/EQ Mid Frequency
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speed
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Source
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Drive
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Enable
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bright
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Amount
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Enable
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor Amount
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor Enable
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor Mode
+  value: 119
+device_name: Stage 3
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

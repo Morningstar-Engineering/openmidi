@@ -1,0 +1,411 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Part Lower Sound Engine Select
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Part upper Sound Engine Select
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Part Lower Enable
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Part Upper Enable
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Part Mix Level
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Ctrl Pedal Enable Part Lower
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Ctrl Pedal Enable Part Upper
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Split Mode
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Split Point
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose Enable
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose Value
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Part Lower
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Part Upper
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal Enable Part Lower
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal Enable Part Upper
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Program/Set List/Live Mode Toggle
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Set List Slot Select
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Variation
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Keyboard Touch
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Acoustic
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Mono Mode
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Preset Select
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Model Select
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Drawbar Live
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Enable
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Speed/Level
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Harmonic
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Type
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Enable
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Attack
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Release
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Sample
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Dynamics
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Filter Velocity
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Enable
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Part Select
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Ctrl Pedal
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Enable
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Part Select
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Deep Mode
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Type
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Enable
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Drive
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Part Select
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Stop Mode
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speed
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Rotor Pedal
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong On/Off
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Enable
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Dry/Wet
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Part Select
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Enable
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Dry/Wet
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Enable
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Part Select
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Gain Level
+  value: 7
+device_name: Electro 5HP 73
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

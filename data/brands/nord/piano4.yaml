@@ -1,0 +1,281 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Soft Pedal
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Ctrl Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Split
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Enable
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Level
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Octave Shift
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Sustain Pedal
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Ctrl Pedal
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Piano EQ
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Acoustics
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Keyboard Touch
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Pedal Noise
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Enable
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Level
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Octave Shift
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Sustain Pedal
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Ctrl Pedal
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Attack
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Decay/Release
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Amp
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Filter
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Enable
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Source
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Ctrl Pedal
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Source
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Deep
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Enable
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Source
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Dry/Wet
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Rate
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Enable
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Type
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Drive
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Enable
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Source
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Enable
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Source
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Enable
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Dry/Wet
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bright
+  value: 112
+device_name: Piano 4
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

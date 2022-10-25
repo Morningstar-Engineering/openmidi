@@ -1,0 +1,231 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Gain
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel Destination
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Unison
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Poly/Legato/Mono
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Portmaneto Auto
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Portamento TIme
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Waveform
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Destination
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2/Arp Rate
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 DEstination/Arp Mode
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 AMount/Arp Range
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Destination
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Amount
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Waveform
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Waveform
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Semitones
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Tune
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator FM Depth
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Keyboard Tracking
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Pulse Width
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Sync
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Oscillator Mix '
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mode
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Velocity
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+device_name: Lead
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

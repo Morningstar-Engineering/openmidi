@@ -1,0 +1,246 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Split
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Transpose
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Touch
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Sustped Off
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Level
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Piano On/Off
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Clav Model
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Acoustic Model String Resonance
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Acoustic Model Pedal Noise
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Octave Shift
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Level
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Select
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Attack
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Release
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Synth On/Off
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Octave Shift
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 On/Off
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Source
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Source
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Mix
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Source
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: EQ On/Off
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Source
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp On/Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Amount
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Sel
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Source
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Wet/Dry
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Sel
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Soft Pedal
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto Pedal
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal
+  value: 11
+device_name: Piano 2 HP
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

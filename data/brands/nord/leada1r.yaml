@@ -1,0 +1,301 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Run On/Off
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Tempo/Clock Divisions
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Master Clock
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Direction
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Selector
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Mode Unison
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Range
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Select
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate/Clock Divisions
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Waveform Selector
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Master Clock Enable
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Envelope Selector
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay/Sustain
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Release
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Invert
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Velocity
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Osc LFO Modulation Amount
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Amount
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Control
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Waveform Selector
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Configuration
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Filter LFO Modulation Amount
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mod Env Amount
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking On/Off
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Drive
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Velocity
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: FX Amount
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: FX Selection
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: FX On/Off
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo/Clock Divisions
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Master Clock
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Amount
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Amount
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Selector
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Hold
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Hold Enable
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Slot Focus
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Slot Enable
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+device_name: Lead A1R
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,461 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Mode Unison
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch Bend Range
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Vib Select
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Selector
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Hold
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Hold Enable
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Chord Enable
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Impulse Morph Buttons
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Waveform
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Destination
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Master Clock
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Clock Divisions
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 KBS
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 ImpSync
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1/Arp On/Off
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Tempo
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Master Clock
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Division
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Direction
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Run On/Off
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Range
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Arp KBS
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Arp ImpSync
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Waveform
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Destination
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Amount
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Master Clock
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Clock Divisions
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 KBS
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 ImpSync
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Destination
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Amount
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Rel Mode
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env ImpSync
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Waveform
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wavetable Selection
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Waveform
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Semitones
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Tune
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 KBT
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Noise Resonance
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Noise Frequency
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Noise KBT
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Amount
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Select
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mix
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Velocity
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking On/Off
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Velocity
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Drive
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: FX Selection
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: FX On/Off
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: FX Amount
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Clock Division
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Delay/Reverb Amount
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Master Clock
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Delay/Reverb Selection
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bright
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Model
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Delay/Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Pattern Selection
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Slot Focus
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Slot Enable
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Volume Pedal
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+device_name: Lead 4R
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

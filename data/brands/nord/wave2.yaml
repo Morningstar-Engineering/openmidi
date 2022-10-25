@@ -1,0 +1,436 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Hold
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Hold Enable
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: PStick Enable
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Program Level
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Voice Mode
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Rate
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Range/Env
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Mode
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Direction
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Zig-Zag
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Run
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Keyboard Sync
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Arp/Gate Master Clock
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Amount
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Rate
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Master Clock
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Waveform
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: LFO Destination
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Attack
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Decay/Release
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Amount
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Destination
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env Velocity
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Env AR Mode
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Unison
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Semitones
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Fine Tune
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Layer A Level
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Layer B Level
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Layer C Level
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Layer D Level
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Layer A Pan
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Layer B Pan
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Layer C Pan
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Layer D Pan
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack Transient
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Velocity
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Drive
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Velocity
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Invert
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Filter On/Off
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Effects On/Off
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Type
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Amount
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Rate
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Rate Master Clock
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: EQ/Drive On/Off
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Drive Amount
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass/Gain
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble/Freq
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Parametric On/Off
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Master Clock
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Dry/Wet
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo Tap/Set
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Analog On/Off
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Rate
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback Effect Type
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback Effect Deep
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback Filter Type
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong On/Off
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Chorale
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bright/Dark
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Dry/Wet
+  value: 113
+device_name: Wave 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,351 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Upper Drawbar 9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 1
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 2
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 3
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 4
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 5
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 6
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 7
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 8
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Lower Drawbar 9
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Model Select
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Preset/Manual Select
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Decay
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Level
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speed
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Stop Mode
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Vib Mode
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Vib On/Off Upper
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Vib On/Off Lower (B3 Model)
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Perc On/Off
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Third
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Samp Attack Sel
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Samp Release Sel
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Clav EQ Brill On/Off
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Clav EQ Treble On/Off
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Clav EQ Medium On/Off
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Clav EQ Soft On/Off
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Inst Sel (Organ/Piano)
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Clav Select
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Mono
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Dynamics
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: Acoustics
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Organ Upper
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Organ Lower
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Piano
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: EQ On/Off
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Gain
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Sel
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 On/Off
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Sel
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Drive
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp Sel
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker/Comp On/Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Wet/Dry
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Sel
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Rate
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong On/Off
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 94
+device_name: Electro 4 SW
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

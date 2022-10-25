@@ -1,0 +1,296 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Upper Man (Organ)
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift Lower Man (Organ)
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift (Piano)
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 16 Upper Drawbar
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 5 1/3 Upper Drawbar
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 8 Upper Drawbar
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 4 Upper Drawbar
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 2 2/3 Upper Drawbar
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 2 Upper Drawbar
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 1 3/5 Upper Drawbar
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 1 1/3 Upper Drawbar
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 1 Upper Drawbar
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 16 Lower Drawbar
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 5 1/3 Lower Drawbar
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 8 Lower Drawbar
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 4 Lower Drawbar
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 2 2/3 Lower Drawbar
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: 2 Lower Drawbar
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: 1 3/5 Lower Drawbar
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: 1 1/3 Lower Drawbar
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: 1 Lower Drawbar
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Percussion Upper On/Off
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Perc. Upper Fast/Slow, Normal/Soft
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Perc. Upper 2nd/3rd
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Upper On/Off
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Lower On/Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Type
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Manual Split On/Off
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Manual Lower/Upper
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Instrument Select Organ/Piano
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Sub Type
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Presence On/Off
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Presence Freq
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Presence Amount
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Modulations Type
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Modulations Rate
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Modulations Amount
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Modulations On/Off (Organ)
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Modulations On/Off (Piano)
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Type
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Rate
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Effects Amount
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Effects On/Off (Organ)
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Effects On/Off (Piano)
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Overdrive On/Off (Organ)
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Overdrive On/Off (Piano)
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Overdrive Amount
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speaker On/Off (Organ)
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speaker On/Off (Piano)
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speaker Fast/Slow
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speaker Run/Stop
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Treble & Bass EQ On/Off (Organ)
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Treble & Bass EQ On/Off (Piano)
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Bass
+  value: 114
+device_name: Electro 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

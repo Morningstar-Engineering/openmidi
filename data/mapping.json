@@ -1283,6 +1283,160 @@
       ]
     },
     {
+    "name": "Nord",
+    "value": "nord",
+    "models": [
+      {
+        "name": "C1",
+        "value": "c1"
+      },
+      {
+        "name": "C2",
+        "value": "c2"
+      },
+      {
+        "name": "C2D",
+        "value": "c2d"
+      },
+      {
+        "name": "Drum 2",
+        "value": "drum2"
+      },
+      {
+        "name": "Electro 2",
+        "value": "electro2"
+      },
+      {
+        "name": "Electro 3",
+        "value": "electro3"
+      },
+      {
+        "name": "Electro 3 HP",
+        "value": "electro3hp"
+      },
+      {
+        "name": "Electro 4 HP",
+        "value": "electro4hp"
+      },
+      {
+        "name": "Electro 4 SW",
+        "value": "electro4sw"
+      },
+      {
+        "name": "Electro 4D",
+        "value": "electro4d"
+      },
+      {
+        "name": "Electro 5D 61",
+        "value": "electro5d61"
+      },
+      {
+        "name": "Electro 5D 61 ",
+        "value": "electro5d61"
+      },
+      {
+        "name": "Electro 5D 73",
+        "value": "electro5d73"
+      },
+      {
+        "name": "Electro 5HP 73",
+        "value": "electro5hp73"
+      },
+      {
+        "name": "Electro 6",
+        "value": "electro6"
+      },
+      {
+        "name": "Grand",
+        "value": "grand"
+      },
+      {
+        "name": "Lead",
+        "value": "lead"
+      },
+      {
+        "name": "Lead 2",
+        "value": "lead2"
+      },
+      {
+        "name": "Lead 2X",
+        "value": "lead2x"
+      },
+      {
+        "name": "Lead 3",
+        "value": "lead3"
+      },
+      {
+        "name": "Lead 4",
+        "value": "lead4"
+      },
+      {
+        "name": "Lead 4R",
+        "value": "lead4r"
+      },
+      {
+        "name": "Lead A1",
+        "value": "leada1"
+      },
+      {
+        "name": "Lead A1R",
+        "value": "leada1r"
+      },
+      {
+        "name": "Piano",
+        "value": "piano"
+      },
+      {
+        "name": "Piano 2 HA88",
+        "value": "piano2ha88"
+      },
+      {
+        "name": "Piano 2 HP",
+        "value": "piano2hp"
+      },
+      {
+        "name": "Piano 3",
+        "value": "piano3"
+      },
+      {
+        "name": "Piano 4",
+        "value": "piano4"
+      },
+      {
+        "name": "Rack 3",
+        "value": "rack3"
+      },
+      {
+        "name": "Stage",
+        "value": "stage"
+      },
+      {
+        "name": "Stage 2",
+        "value": "stage2"
+      },
+      {
+        "name": "Stage 2 EX",
+        "value": "stage2ex"
+      },
+      {
+        "name": "Stage 3",
+        "value": "stage3"
+      },
+      {
+        "name": "Stage EX",
+        "value": "stageex"
+      },
+      {
+        "name": "Wave",
+        "value": "wave"
+      },
+      {
+        "name": "Wave 2",
+        "value": "wave2"
+      }
+    ]
+  },
+    {
       "name": "OTO Machines",
       "value": "otomachines",
       "models": [

@@ -1,0 +1,146 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Clav Model
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Touch
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Output
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Acoustic Model String Resonance
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Acoustic Model Pedal Noise
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: EQ On/Off
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 On/Off
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Amount
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp Sel
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Comp On/Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Wet/Dry
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Sel
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Soft Pedal
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto Pedal
+  value: 66
+device_name: Piano
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

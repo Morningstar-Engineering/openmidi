@@ -1,0 +1,176 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Filter Frequency
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Filter Type
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Filter Envelope
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Filter Resonance
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Attack/Rate
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Attack Mode
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Decay Type (E,L,G)
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Decay
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Noise Decay Lo
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Dist Amount
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Dist Type
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Frequency
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Gain
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Echo Feedback
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Echo Amount
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Spectra
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Wave
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Timbre Decay
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Punch
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Decay Type (L,E)
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Decay
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Dec Lo
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Timbre
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Timbre Envelope
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Bend Amount
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Tone Bend Time
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Click Level
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Click Type
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Balance
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Mute Group
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Channel Focus
+  value: 70
+device_name: Drum 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

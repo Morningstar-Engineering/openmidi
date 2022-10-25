@@ -1,0 +1,476 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Chord Memory On/Off
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Unison On/Off
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Unison Detune
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Mono On/Off
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Hi/Lo Note Priority
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Legato On/Off
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Mode (Normal/Auto)
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Glide Rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Rate
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Amount
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Source
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Run On/Off
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Rate
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Sync On/Off
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Arp Clock Sync Divisor
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Waveform
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Destination
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Clock Sync On/Off
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Keyboard Sync/Single Cycle
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Mono Mode On/Off
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount Invert On/Off
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Clock Sync Divisor
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Waveform
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Destination
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Amount
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Clock Sync On/Off
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Keyboard Sync/Single Cycle
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Mono Mode On/Off
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Amount Invert On/Off
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Clock Sync Divisor
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack Type
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay/Release
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Destination
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Amount
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Amount Invert On/Off
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay/Release On/Off
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Repeat On/Off
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Waveform
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Sync On/Off
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Shape
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Sync Detune
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Sync Noise Timbre
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 FM Amount
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Coarse Tuning
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Tuning
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Waveform
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Keyboard Tracking On/Off
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Shape
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Sync On/Off
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Partial On/Off
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Dual Sine Carrier
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Dual Sine Modulator
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Noise Type
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Noise Frequency
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Sync Detune
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Sync Noise Timbre
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 FM Amount
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Mix
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Modulation Amount
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Modulation Type
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Oscillator Modulation Noise
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack Type
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Level
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack Type
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Velocity
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Amount Invert On/Off
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Type
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Slope
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency 1
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency 2
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking On/Off
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Oscillator Bypass On/Off
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: FIlter 2 Env Control
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 Distortion
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+device_name: Lead 3
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

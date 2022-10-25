@@ -1,0 +1,276 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Model Select
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Synth Bass On/Off
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Speaker Select
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Swell Only
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Amount
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Delay On/Off
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: EQ On/Off
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Drive Amount
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Drive On/Off
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Amount
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Selection
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb On/Off
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Vib/Chorus/Trem Mode
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato On/Off
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar Presets
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Ped Great Man
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Rotary Speaker: Slow'
+  value: 82
+- description: ''
+  max: 64
+  min: 64
+  name: 'Rotary Speaker: Stop'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Rotary Speaker: Fast'
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Ped/GR Low Coupler
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: SW 16/GR - SW/GR
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar A9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B1
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B2
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B3
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B4
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B5
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B6
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B7
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B8
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar B9
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Perc On/Off
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Soft
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Fast
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Perc Third
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Swell 16 & 4 Coupler
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Swell/Ped & Gr/Ped Coupler
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Swell Pedal
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Control
+  value: 82
+device_name: C2D
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

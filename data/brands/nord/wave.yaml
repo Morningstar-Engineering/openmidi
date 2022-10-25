@@ -1,0 +1,356 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Octave Shift
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Mono Mode
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrate
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Wave
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Destination
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Poly
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Wave
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Destination
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Single
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Amount
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Amount
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Destination
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Env Rel Mode
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wave
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wave FM Selection
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Misc Selection
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wavetable Selection
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Shape
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Waveform
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Wave FM Selection
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Misc Selection
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Samp. Instr. Select
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Skip Attack
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Sample Decay
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Semitones
+  value: 78
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Tune
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Shape
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Sync
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Selector
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mod Amount
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mix
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Decay
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Sustain
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Amp Env Release
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Attack
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Decay
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Sustain
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Env Release
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Mode
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Keyboard Tracking
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Slope
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Velocity
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Frequency
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Resonance
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Filter Envelope Amount
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Chorus
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Tube Amp Enable
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Tube Amp Drive
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Tempo
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Stereo
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Amount
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Enable
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Model
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Amount
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Enable
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Slot Focus
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: Layer Mode
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Chord Enable
+  value: 112
+device_name: Wave
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

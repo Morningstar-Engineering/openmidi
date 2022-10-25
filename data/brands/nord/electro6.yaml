@@ -1,0 +1,396 @@
+brand: Nord
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Control Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Keyboard Split
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Enable
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Octave Shift
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Sustain Pedal
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Control Pedal
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Level
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Model Select
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Preset Select
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 1
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 3
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 4
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 5
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 6
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 7
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 8
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Drawbar 9
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Enable
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Type
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Vibrato Enable
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Harmonic
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Speed
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Perc Level
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Organ Edit Lower Manual
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Enable
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Level
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Octave Shift
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Sustain Pedal
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Control Pedal
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Type
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Model
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Variation
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Piano EQ
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Enable
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Level
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Octave Shift
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Sustain Pedal
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Control Pedal
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Attack
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Decay/Release
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Dynamics
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Synth Filter
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Enable
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Type
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Source
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Control Pedal
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 1 Rate
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Type
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Source
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Deep Mode
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Rate
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Effect 2 Enable
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Source
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Amount
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Rate
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Enable
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Ping Pong On/Off
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Speaker Type
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Speaker Drive
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Speaker Enable
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Amp/Speaker Source
+  value: 119
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Bass
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Treble
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Enable
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Source
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Mid Frequency
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Rotary Speed
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Bright
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Amount
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Type
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Enable
+  value: 116
+device_name: Electro 6
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
