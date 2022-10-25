@@ -1365,7 +1365,15 @@
         {
           "name": "Plethora X5",
           "value": "plethorax5"
-        }
+        },
+        {
+        "name": "Flashback 2 X4 Delay",
+        "value": "flashback2x4delay"
+      },
+      {
+        "name": "Hall of Fame 2 X4 Reverb",
+        "value": "halloffame2x4reverb"
+      }
       ]
     },
     {

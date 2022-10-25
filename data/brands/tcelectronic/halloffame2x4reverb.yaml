@@ -1,0 +1,51 @@
+brand: TC Electronic
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Decay (mod 3)
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Pre Delay (mod 4)
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Tone (mod 1)
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Level (mod 2)
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: MASH Switch (active FX engine)
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: Bypass Pedal (active FX engine)
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: Engage Pedal (active FX engine)
+  value: 12
+device_name: Hall of Fame 2 X4 Reverb
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

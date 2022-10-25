@@ -1,0 +1,81 @@
+brand: TC Electronic
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Sudivision Knob (mod 2)
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time (mod 3)
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Feedback Knob (mod 4)
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Level Knob (mod 1)
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 13
+- description: ''
+  max: 127
+  min: 127
+  name: MASH Switch (active FX engine)
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: Bypass Pedal (active FX engine)
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: Engage Pedal (active FX engine)
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: Looper Record
+  value: 6
+- description: ''
+  max: 127
+  min: 127
+  name: Looper Play/Pause
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: Looper Play Once
+  value: 8
+- description: ''
+  max: 127
+  min: 127
+  name: Looper Undo/Redo
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: Looper Stop+Clear
+  value: 10
+device_name: Flashback 2 X4 Delay
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
