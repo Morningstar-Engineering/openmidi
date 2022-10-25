@@ -607,29 +607,29 @@
           "value": "ff1y"
         },
         {
-        "name": "AS-1R Ambi Space",
-        "value": "as-1rambispace"
-      },
-      {
-        "name": "Flight Time FT-2Y",
-        "value": "flighttimeft-2y"
-      },
-      {
-        "name": "PA-1QA",
-        "value": "pa-1qa"
-      },
-      {
-        "name": "PA-1QB",
-        "value": "pa-1qb"
-      },
-      {
-        "name": "PA-1QG",
-        "value": "pa-1qg"
-      },
-      {
-        "name": "TA-1H Tri Avatar",
-        "value": "ta-1htriavatar"
-      }
+          "name": "AS-1R Ambi Space",
+          "value": "as-1rambispace"
+        },
+        {
+          "name": "Flight Time FT-2Y",
+          "value": "flighttimeft-2y"
+        },
+        {
+          "name": "PA-1QA",
+          "value": "pa-1qa"
+        },
+        {
+          "name": "PA-1QB",
+          "value": "pa-1qb"
+        },
+        {
+          "name": "PA-1QG",
+          "value": "pa-1qg"
+        },
+        {
+          "name": "TA-1H Tri Avatar",
+          "value": "ta-1htriavatar"
+        }
       ]
     },
     {
@@ -655,13 +655,13 @@
           "value": "bc1"
         },
         {
-        "name": "MIDI 2 X LOOP-er",
-        "value": "midi2xloop-er"
-      },
-      {
-        "name": "MIDI 4 X LOOP-er",
-        "value": "midi4xloop-er"
-      }
+          "name": "MIDI 2 X LOOP-er",
+          "value": "midi2xloop-er"
+        },
+        {
+          "name": "MIDI 4 X LOOP-er",
+          "value": "midi4xloop-er"
+        }
       ]
     },
     {
@@ -676,14 +676,14 @@
           "name": "MX5",
           "value": "mx5"
         },
-         {
-        "name": "Gigboard",
-        "value": "gigboard"
-      },
-      {
-        "name": "Pedalbaord",
-        "value": "pedalbaord"
-      }
+        {
+          "name": "Gigboard",
+          "value": "gigboard"
+        },
+        {
+          "name": "Pedalbaord",
+          "value": "pedalbaord"
+        }
       ]
     },
     {
@@ -701,15 +701,15 @@
       ]
     },
     {
-    "name": "Hotone",
-    "value": "hotone",
-    "models": [
-      {
-        "name": "Ampero",
-        "value": "ampero"
-      }
-    ]
-  },
+      "name": "Hotone",
+      "value": "hotone",
+      "models": [
+        {
+          "name": "Ampero",
+          "value": "ampero"
+        }
+      ]
+    },
     {
       "name": "Hughes & Kettner",
       "value": "hughes&kettner",
@@ -744,22 +744,22 @@
           "name": "Golden Boy",
           "value": "goldenboy"
         },
-      {
-        "name": "El Guapo",
-        "value": "elguapo"
-      }
+        {
+          "name": "El Guapo",
+          "value": "elguapo"
+        }
       ]
     },
     {
-    "name": "Jet Pedals",
-    "value": "jetpedals",
-    "models": [
-      {
-        "name": "Revelation Reverb 2.0",
-        "value": "revelationreverb20"
-      }
-    ]
-  },
+      "name": "Jet Pedals",
+      "value": "jetpedals",
+      "models": [
+        {
+          "name": "Revelation Reverb 2.0",
+          "value": "revelationreverb20"
+        }
+      ]
+    },
     {
       "name": "JMK Music Pedals",
       "value": "jmkmusicpedals",
@@ -917,23 +917,23 @@
       ]
     },
     {
-    "name": "Mooer",
-    "value": "mooer",
-    "models": [
-      {
-        "name": "GE300",
-        "value": "ge300"
-      },
-      {
-        "name": "GE300 LITE",
-        "value": "ge300lite"
-      },
-      {
-        "name": "Ocean Machine",
-        "value": "oceanmachine"
-      }
-    ]
-  },
+      "name": "Mooer",
+      "value": "mooer",
+      "models": [
+        {
+          "name": "GE300",
+          "value": "ge300"
+        },
+        {
+          "name": "GE300 LITE",
+          "value": "ge300lite"
+        },
+        {
+          "name": "Ocean Machine",
+          "value": "oceanmachine"
+        }
+      ]
+    },
     {
       "name": "Moog",
       "value": "moog",
@@ -942,50 +942,50 @@
           "name": "MF-104M",
           "value": "mf104m"
         },
-      {
-        "name": "MF-105M MIDI MuRF",
-        "value": "mf-105mmidimurf"
-      },
-      {
-        "name": "MF-108M Cluster Flux",
-        "value": "mf-108mclusterflux"
-      },
-      {
-        "name": "Grandmother",
-        "value": "grandmother"
-      },
-      {
-        "name": "Minimoog Voyager",
-        "value": "minimoogvoyager"
-      },
-      {
-        "name": "Minimoog Voyager XL",
-        "value": "minimoogvoyagerxl"
-      },
-      {
-        "name": "Minitaur",
-        "value": "minitaur"
-      },
-      {
-        "name": "Mother-32",
-        "value": "mother-32"
-      },
-      {
-        "name": "Sub Phatty",
-        "value": "subphatty"
-      },
-      {
-        "name": "Subharmonicon",
-        "value": "subharmonicon"
-      },
-      {
-        "name": "Subsequent 25",
-        "value": "subsequent25"
-      },
-      {
-        "name": "Subsequent 37",
-        "value": "subsequent37"
-      }
+        {
+          "name": "MF-105M MIDI MuRF",
+          "value": "mf-105mmidimurf"
+        },
+        {
+          "name": "MF-108M Cluster Flux",
+          "value": "mf-108mclusterflux"
+        },
+        {
+          "name": "Grandmother",
+          "value": "grandmother"
+        },
+        {
+          "name": "Minimoog Voyager",
+          "value": "minimoogvoyager"
+        },
+        {
+          "name": "Minimoog Voyager XL",
+          "value": "minimoogvoyagerxl"
+        },
+        {
+          "name": "Minitaur",
+          "value": "minitaur"
+        },
+        {
+          "name": "Mother-32",
+          "value": "mother-32"
+        },
+        {
+          "name": "Sub Phatty",
+          "value": "subphatty"
+        },
+        {
+          "name": "Subharmonicon",
+          "value": "subharmonicon"
+        },
+        {
+          "name": "Subsequent 25",
+          "value": "subsequent25"
+        },
+        {
+          "name": "Subsequent 37",
+          "value": "subsequent37"
+        }
       ]
     },
     {
@@ -1039,9 +1039,9 @@
       ]
     },
     {
-    "name": "OTO Machines",
-    "value": "otomachines",
-    "models": [
+      "name": "OTO Machines",
+      "value": "otomachines",
+      "models": [
         {
           "name": "BAM",
           "value": "bam"
@@ -1127,8 +1127,8 @@
       "value": "redpanda",
       "models": [
         {
-        "name": "Context 2",
-        "value": "context2"
+          "name": "Context 2",
+          "value": "context2"
         },
         {
           "name": "Particle 2",
@@ -1153,8 +1153,8 @@
           "value": "overture"
         },
         {
-        "name": "Mastermind PBC/10",
-        "value": "mastermindpbc10"
+          "name": "Mastermind PBC/10",
+          "value": "mastermindpbc10"
         },
         {
           "name": "Mini Amp Gizmo",
@@ -1209,6 +1209,18 @@
         {
           "name": "Nemesis",
           "value": "nemesis"
+        },
+        {
+          "name": "Programmable EQ",
+          "value": "programmableeq"
+        },
+        {
+          "name": "Spectrum Intelligence Filter",
+          "value": "spectrumintelligencefilter"
+        },
+        {
+          "name": "Ultrawave",
+          "value": "ultrawave"
         },
         {
           "name": "Ventris",

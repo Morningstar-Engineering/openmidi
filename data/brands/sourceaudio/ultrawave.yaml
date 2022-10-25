@@ -1,0 +1,101 @@
+brand: Source Audio
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: External Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: External Expression Control
+  value: 100
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Preset Recall (Off)
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Preset Recall (On)
+  value: 104
+- description: ''
+  max: 127
+  min: 127
+  name: Engage/Bypass Toggle
+  value: 105
+- description: ''
+  max: 127
+  min: 127
+  name: Increment Preset
+  value: 106
+- description: ''
+  max: 127
+  min: 127
+  name: Decrement Preset
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: External Tap Tempo
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: External Expression Control
+  value: 100
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 102
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Preset Recall (Off)
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Preset Recall (On)
+  value: 104
+- description: ''
+  max: 127
+  min: 127
+  name: Engage/Bypass Toggle
+  value: 105
+- description: ''
+  max: 127
+  min: 127
+  name: Increment Preset
+  value: 106
+- description: ''
+  max: 127
+  min: 127
+  name: Decrement Preset
+  value: 107
+device_name: Ultrawave
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

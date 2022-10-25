@@ -1,0 +1,86 @@
+brand: Source Audio
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Output
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 31
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Output (limited to unity)
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Auto Scroll Speed
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: Auto Scroll On
+  value: 34
+- description: ''
+  max: 0
+  min: 0
+  name: Auto Scroll Off
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 1 Level
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 2 Level
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 3 Level
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 4 Level
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 5 Level
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 6 Level
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 7 Level
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: EQ Band 8 Level
+  value: 42
+device_name: Programmable EQ
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
