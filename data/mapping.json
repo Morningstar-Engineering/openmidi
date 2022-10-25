@@ -781,6 +781,16 @@
       ]
     },
     {
+    "name": "Kernom",
+    "value": "kernom",
+    "models": [
+      {
+        "name": "Ridge",
+        "value": "ridge"
+      }
+    ]
+  },
+    {
       "name": "KSR Amplification",
       "value": "ksramplification",
       "models": [
