@@ -1,0 +1,166 @@
+brand: Freds Labs
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modwheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Coarse
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Fine
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Tempo
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Division
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Repeat
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Gate
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Wave
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Attack
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Engine
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Filter mod.
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Space mix
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Delay mix
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Space model
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Delay model
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Filter type
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Arp. mode
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Env. mode
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Env. loop
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Space decay
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Space diffuse
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Delay feedback
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Delay length
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: All sounds off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset all controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: All notes off
+  value: 123
+device_name: Buzzy!
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

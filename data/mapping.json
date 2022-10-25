@@ -673,6 +673,16 @@
       ]
     },
     {
+    "name": "Freds Labs",
+    "value": "fredslabs",
+    "models": [
+      {
+        "name": "Buzzy!",
+        "value": "buzzy!"
+      }
+    ]
+  },
+    {
       "name": "GFI System",
       "value": "gfisystem",
       "models": [
