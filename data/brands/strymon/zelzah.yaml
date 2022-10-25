@@ -1,0 +1,191 @@
+brand: Strymon
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bank Select: 0'
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: 'Bank Select: 1'
+  value: 0
+- description: ''
+  max: 2
+  min: 2
+  name: 'Bank Select: 2'
+  value: 0
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 10
+- description: ''
+  max: 127
+  min: 127
+  name: On 4-Stage
+  value: 10
+- description: ''
+  max: 1
+  min: 1
+  name: 'Sweep: Classic'
+  value: 11
+- description: ''
+  max: 2
+  min: 2
+  name: 'Sweep: Barber'
+  value: 11
+- description: ''
+  max: 3
+  min: 3
+  name: 'Sweep: Envelope'
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Speed 4-Stage
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Depth 4-Stage
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mix 4-Stage
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'Polarity 4-Stage: Negative'
+  value: 15
+- description: ''
+  max: 1
+  min: 1
+  name: 'Polarity 4-Stage: Positive'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Stereo Spread 4-Stage
+  value: 16
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass 6-Stage
+  value: 17
+- description: ''
+  max: 127
+  min: 127
+  name: On 6-Stage
+  value: 17
+- description: ''
+  max: 1
+  min: 1
+  name: 'Resonance 6-Stage: Off'
+  value: 18
+- description: ''
+  max: 2
+  min: 2
+  name: 'Resonance 6-Stage: Mid'
+  value: 18
+- description: ''
+  max: 3
+  min: 3
+  name: 'Resonance 6-Stage: Strong'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Speed 6-Stage
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Depth 6-Stage
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Voice 6-Stage
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Stereo Spread 6-Stage
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: Series
+  value: 23
+- description: ''
+  max: 1
+  min: 1
+  name: Parallel
+  value: 23
+- description: ''
+  max: 2
+  min: 2
+  name: Split
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: 'Footswitch A: Press'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'Footswitch A: Release'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Footswitch B: Press'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'Footswitch B: Release'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: On A and B
+  value: 33
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Expression: On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Expression: Off'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: Remote Tap
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+device_name: Zelzah
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1,0 +1,166 @@
+brand: Strymon
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Preset Bank 0
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: Preset Bank 1
+  value: 0
+- description: ''
+  max: 2
+  min: 2
+  name: Preset Bank 2
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mic: Front'
+  value: 11
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mic: Rear'
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Speed
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Speed (Full Range)
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mic Distance
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Horn Level
+  value: 15
+- description: ''
+  max: 1
+  min: 1
+  name: 'Ramp: Slow'
+  value: 16
+- description: ''
+  max: 2
+  min: 2
+  name: 'Ramp: Medium'
+  value: 16
+- description: ''
+  max: 3
+  min: 3
+  name: 'Ramp: Fast'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Volume
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Dry
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Preamp Drive
+  value: 19
+- description: ''
+  max: 0
+  min: 0
+  name: 'Bi-Amp Mode: Stereo'
+  value: 20
+- description: ''
+  max: 1
+  min: 1
+  name: 'Bi-Amp Mode: Bi-Amp'
+  value: 20
+- description: ''
+  max: 0
+  min: 0
+  name: 'Cab Filter: Guitar Amp'
+  value: 21
+- description: ''
+  max: 1
+  min: 1
+  name: 'Cab Filter: Full Range'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: Slow
+  value: 22
+- description: ''
+  max: 127
+  min: 1
+  name: Fast
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Expression: On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Expression: Off'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Clock: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Clock: Off'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: Remote Tap
+  value: 93
+- description: ''
+  max: 0
+  min: 0
+  name: 'Brake: Release'
+  value: 97
+- description: ''
+  max: 127
+  min: 1
+  name: 'Brake: Hold'
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+device_name: Lex
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

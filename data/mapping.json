@@ -1233,6 +1233,10 @@
       "value": "strymon",
       "models": [
         {
+        "name": "blueSky",
+        "value": "bluesky"
+      },
+        {
           "name": "Bigsky",
           "value": "bigsky"
         },
@@ -1248,6 +1252,26 @@
           "name": "Mobius",
           "value": "mobius"
         },
+        {
+        "name": "El Capistan",
+        "value": "elcapistan"
+        },
+        {
+          "name": "Deco",
+          "value": "deco"
+        },
+        {
+          "name": "DIG",
+          "value": "dig"
+        },
+        {
+        "name": "Lex",
+        "value": "lex"
+      },
+      {
+        "name": "Flint",
+        "value": "flint"
+      },
         {
           "name": "Volante",
           "value": "volante"
@@ -1267,7 +1291,11 @@
         {
           "name": "NightSky",
           "value": "nightsky"
-        }
+        },
+        {
+        "name": "Zelzah",
+        "value": "zelzah"
+      }
       ]
     },
   {

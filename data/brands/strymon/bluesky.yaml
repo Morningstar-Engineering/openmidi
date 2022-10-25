@@ -1,0 +1,121 @@
+brand: Strymon
+cc:
+- description: ''
+  max: 0
+  min: 0
+  name: Preset Bank 0
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: Preset Bank 1
+  value: 0
+- description: ''
+  max: 2
+  min: 2
+  name: Preset Bank 2
+  value: 0
+- description: ''
+  max: 1
+  min: 1
+  name: 'Verb Type: Plate'
+  value: 11
+- description: ''
+  max: 2
+  min: 2
+  name: 'Verb Type: Room'
+  value: 11
+- description: ''
+  max: 3
+  min: 3
+  name: 'Verb Type: Spring'
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Decay
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Low
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Pre-Delay
+  value: 14
+- description: ''
+  max: 1
+  min: 1
+  name: 'Mod Type: Off'
+  value: 15
+- description: ''
+  max: 2
+  min: 2
+  name: 'Mod Type: Light'
+  value: 15
+- description: ''
+  max: 3
+  min: 3
+  name: 'Mod Type: Deep'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: High
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Shimmer
+  value: 18
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Expression: On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Expression: Off'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'MIDI Clock: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'MIDI Clock: Off'
+  value: 63
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 100
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass Pedal
+  value: 102
+- description: ''
+  max: 127
+  min: 127
+  name: Engage Pedal
+  value: 102
+device_name: blueSky
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
