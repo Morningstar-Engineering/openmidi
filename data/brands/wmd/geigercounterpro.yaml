@@ -1,0 +1,251 @@
+brand: WMD
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Level
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Gain
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Tone
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Mix
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Filter MSB
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Filter LSB
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Bit Depth MSB
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Bit Depth LSB
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Rate MSB
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Sample Rate LSB
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: Bank MSB
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Table MSB
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Table LSB
+  value: 59
+- description: ''
+  max: 1
+  min: 1
+  name: Bypass Pedal
+  value: 28
+- description: ''
+  max: 2
+  min: 2
+  name: Engage Pedal
+  value: 28
+- description: ''
+  max: 11
+  min: 11
+  name: Tone Off
+  value: 28
+- description: ''
+  max: 12
+  min: 12
+  name: Tone On
+  value: 28
+- description: ''
+  max: 17
+  min: 17
+  name: Dry On
+  value: 28
+- description: ''
+  max: 18
+  min: 18
+  name: Dry Off
+  value: 28
+- description: ''
+  max: 21
+  min: 21
+  name: 'Sample Rate: Normal'
+  value: 28
+- description: ''
+  max: 22
+  min: 22
+  name: 'Sample Rate: Fine'
+  value: 28
+- description: ''
+  max: 31
+  min: 31
+  name: Bit Depth Post Table
+  value: 28
+- description: ''
+  max: 32
+  min: 32
+  name: Bit Depth Pre Table
+  value: 28
+- description: ''
+  max: 33
+  min: 33
+  name: Bit Depth Mode (Mask Disable)
+  value: 28
+- description: ''
+  max: 34
+  min: 34
+  name: Bit Depth Mode (Mask Enable)
+  value: 28
+- description: ''
+  max: 35
+  min: 35
+  name: Full Bit Depth (12 bit w/ no Gate)
+  value: 28
+- description: ''
+  max: 41
+  min: 41
+  name: Morph Off
+  value: 28
+- description: ''
+  max: 42
+  min: 42
+  name: Morph On
+  value: 28
+- description: ''
+  max: 50
+  min: 50
+  name: Randomize
+  value: 28
+- description: ''
+  max: 60
+  min: 60
+  name: Save to Active Preset
+  value: 28
+- description: ''
+  max: 70
+  min: 70
+  name: 'CV 1 Route to: Nothing'
+  value: 28
+- description: ''
+  max: 71
+  min: 71
+  name: 'CV 1 Route to: Gain'
+  value: 28
+- description: ''
+  max: 72
+  min: 72
+  name: 'CV 1 Route to: Tone'
+  value: 28
+- description: ''
+  max: 73
+  min: 73
+  name: 'CV 1 Route to: Samples'
+  value: 28
+- description: ''
+  max: 74
+  min: 74
+  name: 'CV 1 Route to: Bits'
+  value: 28
+- description: ''
+  max: 75
+  min: 75
+  name: 'CV 1 Route to: Bank'
+  value: 28
+- description: ''
+  max: 76
+  min: 76
+  name: 'CV 1 Route to: Table'
+  value: 28
+- description: ''
+  max: 77
+  min: 77
+  name: 'CV 1 Route to: Blend'
+  value: 28
+- description: ''
+  max: 78
+  min: 78
+  name: 'CV 1 Route to: Filter'
+  value: 28
+- description: ''
+  max: 80
+  min: 80
+  name: 'CV 2 Route to: Nothing'
+  value: 28
+- description: ''
+  max: 81
+  min: 81
+  name: 'CV 2 Route to: Gain'
+  value: 28
+- description: ''
+  max: 82
+  min: 82
+  name: 'CV 2 Route to: Tone'
+  value: 28
+- description: ''
+  max: 83
+  min: 83
+  name: 'CV 2 Route to: Samples'
+  value: 28
+- description: ''
+  max: 84
+  min: 84
+  name: 'CV 2 Route to: Bits'
+  value: 28
+- description: ''
+  max: 85
+  min: 85
+  name: 'CV 2 Route to: Bank'
+  value: 28
+- description: ''
+  max: 86
+  min: 86
+  name: 'CV 2 Route to: Table'
+  value: 28
+- description: ''
+  max: 87
+  min: 87
+  name: 'CV 2 Route to: Blend'
+  value: 28
+- description: ''
+  max: 88
+  min: 88
+  name: 'CV 2 Route to: Filter'
+  value: 28
+device_name: Geiger Counter Pro
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

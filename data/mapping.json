@@ -1459,6 +1459,16 @@
           "value": "r1"
         }
       ]
-    }
+    },
+    {
+    "name": "WMD",
+    "value": "wmd",
+    "models": [
+      {
+        "name": "Geiger Counter Pro",
+        "value": "geigercounterpro"
+      }
+    ]
+  }
   ]
 }
