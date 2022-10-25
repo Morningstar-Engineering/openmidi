@@ -1,0 +1,411 @@
+brand: That Worship Sound
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: Previous Patch
+  value: 22
+- description: ''
+  max: 127
+  min: 127
+  name: Next Patch
+  value: 23
+- description: ''
+  max: 127
+  min: 127
+  name: Panic
+  value: 0
+- description: ''
+  max: 127
+  min: 127
+  name: Sum to Mono
+  value: 1
+- description: ''
+  max: 127
+  min: 127
+  name: Mute
+  value: 2
+- description: ''
+  max: 127
+  min: 127
+  name: 'Cloud Verb: On/Off'
+  value: 7
+- description: ''
+  max: 127
+  min: 127
+  name: 'Cloud Verb: Shimmer On/Off'
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Shimmer Knob'
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Pre Delay Knob'
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Reflectivity Knob'
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Density Knob'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Mix Knob'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Low Cut Knob'
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: High Cut Knob'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Room Size Knob'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Cloud Verb: Mod Knob'
+  value: 14
+- description: ''
+  max: 127
+  min: 127
+  name: 'DualDelay: On/Off'
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Feedback Knob'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: High Cut Knob'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Mix Left Knob'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Mix Right Knob'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Low Cut Knob'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Time Left Knob'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'DualDelay: Time Right Knob'
+  value: 21
+- description: ''
+  max: 127
+  min: 127
+  name: 'Klone: On/Off'
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: 'Klone: Gain Knob'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Klone: Treble Knob'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Klone: Output Knob'
+  value: 24
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mouse Drive: On/Off'
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mouse Drive: Drive Knob'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mouse Drive: Level Knob'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mouse Drive: Tone Knob'
+  value: 27
+- description: ''
+  max: 127
+  min: 127
+  name: 'Big Moth: On/Off'
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: 'Big Moth: Fuzz Knob'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'Big Moth: Level Knob'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Big Moth: Tone Knob'
+  value: 30
+- description: ''
+  max: 127
+  min: 127
+  name: 'Kiwi Compressor: On/Off'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: 'Kiwi Compressor: Sustain Knob'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Kiwi Compressor: Level Knob'
+  value: 32
+- description: ''
+  max: 127
+  min: 127
+  name: 'Echo Delay: On/Off'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: 'Echo Delay: Feedback Knob'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Echo Delay: Wet Knob'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'Echo Delay: Color Knob'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'Echo Delay: Time Knob'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'El Capitan: On/Off'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: 'El Capitan: Time Knob'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'El Capitan: Hi Cut Knob'
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: 'El Capitan: Mix Knob'
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: 'El Capitan: Feedback Knob'
+  value: 40
+- description: ''
+  max: 127
+  min: 127
+  name: 'El Capitan: Freeze Button'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'El Capitan: Flutter Knob'
+  value: 41
+- description: ''
+  max: 127
+  min: 127
+  name: 'Pulsar: On/Off'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'Pulsar: Rate Knob'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'Pulsar: Depth Knob'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'Pulsar: Smoothing Knob'
+  value: 44
+- description: ''
+  max: 127
+  min: 127
+  name: 'Vibe: On/Off'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'Vibe: Rate Knob'
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: 'Vibe: Depth Knob'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'Vibe: Type Knob'
+  value: 47
+- description: ''
+  max: 127
+  min: 127
+  name: 'Julius: On/Off'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'Julius: Rate Knob'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Julius: Depth Knob'
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: 'Julius: Feedback Knob'
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: 'Julius: Density Knob'
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: 'Ovtavia: On/Off'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'Octavia: Oct Down Knob'
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: 'Octavia: Oct Up Knob'
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: 'Boost: On/Off'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'Boost: Gain Knob'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: Tuner
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: Tap Tempo
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Wah/Vol Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: On/Off'
+  value: 5
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: Motion 1'
+  value: 4
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: Motion 2'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drone: Volume Knob'
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drone: Cutoff Knob'
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drone: Layer 2 Knob'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drone: Intervals Knob'
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: 'Drone: Octave Knob'
+  value: 1
+device_name: Worship Guitar Essentials 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

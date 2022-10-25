@@ -1,0 +1,251 @@
+brand: That Worship Sound
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Verb Knob
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Pad Verb Knob
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Shimmer Knob
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 Knob
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 Knob
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor Knob
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Piano Verb On/Off
+  value: 38
+- description: ''
+  max: 127
+  min: 0
+  name: Pad Verb On/Off
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Shimmer On/Off
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 1 On/Off
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Delay 2 On/Off
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Compressor On/Off
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 1 Knob
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 6 Knob
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 1 Slider
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 2 Slider
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 3 Slider
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 4 Slider '
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 5 Slider
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Layer 6 Slider
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 1: Button 1'
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 1: Button 2'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 1: Button 3'
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 2: Button 1'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 2: Button 2'
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 2: Button 3'
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 3: Button 1'
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 3: Button 2'
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 3: Button 3'
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 4: Button 1'
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 4: Button 2'
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 4: Button 3'
+  value: 67
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 5: Button 1'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 5: Button 2'
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 5: Button 3'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 6: Button 1'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 6: Button 2'
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: 'Layer 6: Button 3'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Drone Pad Volume
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Tap Tempo
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: Previous Patch
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: Next Patch
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain Pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: On/Off'
+  value: 41
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: Motion 1'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'Drone: Motion 2'
+  value: 62
+device_name: Worship Essentials 2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

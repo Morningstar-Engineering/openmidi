@@ -1507,6 +1507,20 @@
       ]
     },
     {
+    "name": "That Worship Sound",
+    "value": "thatworshipsound",
+    "models": [
+      {
+        "name": "Worship Essentials 2",
+        "value": "worshipessentials2"
+      },
+      {
+        "name": "Worship Guitar Essentials 2",
+        "value": "worshipguitaressentials2"
+      }
+    ]
+  },
+    {
     "name": "Two Notes Audio Engineering",
     "value": "twonotesaudioengineering",
     "models": [
