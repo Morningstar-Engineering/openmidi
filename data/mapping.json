@@ -1838,6 +1838,16 @@
       }
       ]
     },
+    {
+    "name": "Studiologic",
+    "value": "studiologic",
+    "models": [
+      {
+        "name": "Sledge",
+        "value": "sledge"
+      }
+    ]
+  },
   {
     "name": "Stone Deaf",
     "value": "stonedeaf",

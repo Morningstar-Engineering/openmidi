@@ -1,0 +1,346 @@
+brand: Studiologic
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: 'Glide: Rate'
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Master Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Expression
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Shape'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Speed'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Destination'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 1: Depth'
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Shape'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Speed'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Destination'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: 'LFO 2: Depth'
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Wheel: Shape'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Wheel: Speed'
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Wheel: Destination'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mod Wheel: Depth'
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: Octave'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: Semitone'
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: Waveform'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: wave/PW'
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: Wavetable'
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: Octave'
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: Semitone'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: Detune'
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: waveform'
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: FM/PW'
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: Octave'
+  value: 42
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: Semitone'
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: Detune'
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: Waveform'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: FM/PW'
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: Sync to OSC 3'
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: Volume'
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 1: On/Off'
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 2: Volume'
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2:On/Off
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: Volume'
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: 'OSC 3: On/Off'
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: 'Noise: Volume'
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: 'Noise: On/Off'
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: 'Noise: Color'
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: 'Glide: On/Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Type/slope'
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Cutoff'
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Resonance'
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Drive'
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Keytrack'
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Amount'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 1: Type'
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 1: Rate'
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 1: Depth'
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 2: Time'
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 2: Level'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 2: Type'
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Velocity'
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: 'Effect 1: On/Off'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Attack'
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Decay'
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Sustain'
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mode: Trigger'
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mode: Mono'
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: 'Filter: Release'
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Attack'
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Decay'
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Sustain'
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: 'Amp: Release'
+  value: 106
+device_name: Sledge
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
