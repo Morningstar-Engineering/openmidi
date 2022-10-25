@@ -1,0 +1,266 @@
+brand: TC Helicon
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Harmony Vibrato Boost
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Rhythmic
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Delay
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Compressor
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - uMod
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Octaver
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Amp
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Wah
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Boost
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'Vocal Harmony (Key): C'
+  value: 30
+- description: ''
+  max: 1
+  min: 1
+  name: 'Vocal Harmony (Key): C#'
+  value: 30
+- description: ''
+  max: 2
+  min: 2
+  name: 'Vocal Harmony (Key): D'
+  value: 30
+- description: ''
+  max: 3
+  min: 3
+  name: 'Vocal Harmony (Key): D#'
+  value: 30
+- description: ''
+  max: 4
+  min: 4
+  name: 'Vocal Harmony (Key): E'
+  value: 30
+- description: ''
+  max: 5
+  min: 5
+  name: 'Vocal Harmony (Key): F'
+  value: 30
+- description: ''
+  max: 6
+  min: 6
+  name: 'Vocal Harmony (Key): F#'
+  value: 30
+- description: ''
+  max: 7
+  min: 7
+  name: 'Vocal Harmony (Key): G'
+  value: 30
+- description: ''
+  max: 8
+  min: 8
+  name: 'Vocal Harmony (Key): G#'
+  value: 30
+- description: ''
+  max: 9
+  min: 9
+  name: 'Vocal Harmony (Key): A'
+  value: 30
+- description: ''
+  max: 10
+  min: 10
+  name: 'Vocal Harmony (Key): A#'
+  value: 30
+- description: ''
+  max: 11
+  min: 11
+  name: 'Vocal Harmony (Key): B'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Vocal Harmony (Scale): MAJ1 '
+  value: 31
+- description: ''
+  max: 1
+  min: 1
+  name: 'Vocal Harmony (Scale): MAJ2'
+  value: 31
+- description: ''
+  max: 2
+  min: 2
+  name: 'Vocal Harmony (Scale): MAJ3'
+  value: 31
+- description: ''
+  max: 3
+  min: 3
+  name: 'Vocal Harmony (Scale): MIN1'
+  value: 31
+- description: ''
+  max: 4
+  min: 4
+  name: 'Vocal Harmony (Scale): MIN2'
+  value: 31
+- description: ''
+  max: 5
+  min: 5
+  name: 'Vocal Harmony (Scale): MIN3'
+  value: 31
+- description: ''
+  max: 6
+  min: 6
+  name: 'Vocal Harmony (Scale): CUST'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - Reverb
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar - HIT
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Vocoder/Synth
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Rhythmic
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - HIT
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Choir
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Harmony
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Double
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Reverb
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - HardTune
+  value: 113
+- description: ''
+  max: 1
+  min: 1
+  name: 'Step Number: 1'
+  value: 115
+- description: ''
+  max: 2
+  min: 2
+  name: 'Step Number: 2'
+  value: 115
+- description: ''
+  max: 3
+  min: 3
+  name: 'Step Number: 3'
+  value: 115
+- description: ''
+  max: 4
+  min: 4
+  name: 'Step Number: 4'
+  value: 115
+- description: ''
+  max: 5
+  min: 5
+  name: 'Step Number: 5'
+  value: 115
+- description: ''
+  max: 6
+  min: 6
+  name: 'Step Number: 6'
+  value: 115
+- description: ''
+  max: 7
+  min: 7
+  name: 'Step Number: 7'
+  value: 115
+- description: ''
+  max: 8
+  min: 8
+  name: 'Step Number: 8'
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - uMod
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Delay
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Vocal - Transducer
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: Harmony Hold
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+device_name: Voicelive 3 Extreme
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

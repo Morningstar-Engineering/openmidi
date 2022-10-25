@@ -1383,7 +1383,19 @@
         {
           "name": "Voicelive 3",
           "value": "voicelive_3"
-        }
+        },
+      {
+        "name": "Voicelive 3 Extreme",
+        "value": "voicelive3extreme"
+      },
+      {
+        "name": "Voicelive Rack",
+        "value": "voiceliverack"
+      },
+      {
+        "name": "Voicelive Touch 2",
+        "value": "voicelivetouch2"
+      }
       ]
     },
     {

@@ -1,0 +1,576 @@
+brand: TC Helicon
+cc:
+- description: ''
+  max: 127
+  min: 127
+  name: 'Harmony: On'
+  value: 110
+- description: ''
+  max: 0
+  min: 0
+  name: 'Harmony: Off'
+  value: 110
+- description: ''
+  max: 127
+  min: 127
+  name: 'Double: On'
+  value: 111
+- description: ''
+  max: 0
+  min: 0
+  name: 'Double: Off'
+  value: 111
+- description: ''
+  max: 127
+  min: 127
+  name: 'Reverb: On'
+  value: 112
+- description: ''
+  max: 0
+  min: 0
+  name: 'Reverb: Off'
+  value: 112
+- description: ''
+  max: 127
+  min: 127
+  name: 'HardTune: On'
+  value: 113
+- description: ''
+  max: 0
+  min: 0
+  name: 'HardTune: Off'
+  value: 113
+- description: ''
+  max: 127
+  min: 127
+  name: 'uMod: On'
+  value: 116
+- description: ''
+  max: 0
+  min: 0
+  name: 'uMod: Off'
+  value: 116
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay: On'
+  value: 117
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay: Off'
+  value: 117
+- description: ''
+  max: 127
+  min: 127
+  name: 'Trans: On'
+  value: 118
+- description: ''
+  max: 0
+  min: 0
+  name: 'Trans: Off'
+  value: 118
+- description: ''
+  max: 127
+  min: 127
+  name: 'Rhythmic: On'
+  value: 104
+- description: ''
+  max: 0
+  min: 0
+  name: 'Rhythmic: Off'
+  value: 104
+- description: ''
+  max: 24
+  min: 0
+  name: uMod Style
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: uMod Level
+  value: 90
+- description: ''
+  max: 12
+  min: 0
+  name: Delay Style
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Level
+  value: 62
+- description: ''
+  max: 30
+  min: 0
+  name: Reverb Style
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: Reverb Level
+  value: 91
+- description: ''
+  max: 5
+  min: 0
+  name: Double Style
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Double Level
+  value: 15
+- description: ''
+  max: 15
+  min: 0
+  name: Transducer Style
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: Transducer Out Gain
+  value: 105
+- description: ''
+  max: 15
+  min: 0
+  name: Harmony Style
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: Harmony Level
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: 'Harmony Key: C'
+  value: 30
+- description: ''
+  max: 1
+  min: 1
+  name: 'Harmony Key: C#'
+  value: 30
+- description: ''
+  max: 2
+  min: 2
+  name: 'Harmony Key: D'
+  value: 30
+- description: ''
+  max: 3
+  min: 3
+  name: 'Harmony Key: D#'
+  value: 30
+- description: ''
+  max: 4
+  min: 4
+  name: 'Harmony Key: E'
+  value: 30
+- description: ''
+  max: 5
+  min: 5
+  name: 'Harmony Key: F'
+  value: 30
+- description: ''
+  max: 6
+  min: 6
+  name: 'Harmony Key: F#'
+  value: 30
+- description: ''
+  max: 7
+  min: 7
+  name: 'Harmony Key: G'
+  value: 30
+- description: ''
+  max: 8
+  min: 8
+  name: 'Harmony Key: G#'
+  value: 30
+- description: ''
+  max: 9
+  min: 9
+  name: 'Harmony Key: A'
+  value: 30
+- description: ''
+  max: 10
+  min: 10
+  name: 'Harmony Key: A#'
+  value: 30
+- description: ''
+  max: 11
+  min: 11
+  name: 'Harmony Key: B'
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'Harmony Scale: Maj1'
+  value: 31
+- description: ''
+  max: 1
+  min: 1
+  name: 'Harmony Scale: Maj2'
+  value: 31
+- description: ''
+  max: 2
+  min: 2
+  name: 'Harmony Scale: Maj3'
+  value: 31
+- description: ''
+  max: 3
+  min: 3
+  name: 'Harmony Scale: Min1'
+  value: 31
+- description: ''
+  max: 4
+  min: 4
+  name: 'Harmony Scale: Min2'
+  value: 31
+- description: ''
+  max: 5
+  min: 5
+  name: 'Harmony Scale: Min3'
+  value: 31
+- description: ''
+  max: 6
+  min: 6
+  name: 'Harmony Scale: Custom'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: Voicing - Voice 1
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Voicing - Voice 2
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Voicing - Voice 3
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Voicing - Voice 4
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Level - Voice 1
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: Level - Voice 2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Level - Voice 3
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: Level - Voice 4
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Gender - Voice 1
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Gender - Voice 2
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: Gender - Voice 3
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Gender - Voice 4
+  value: 27
+- description: ''
+  max: 6
+  min: 0
+  name: Humanize Style
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Human Level
+  value: 20
+- description: ''
+  max: 7
+  min: 0
+  name: Vibrato Style
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Vibrato Amount
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Doubling Level
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: Choir Level
+  value: 72
+- description: ''
+  max: 14
+  min: 0
+  name: Choir Style
+  value: 73
+- description: ''
+  max: 0
+  min: 0
+  name: 'HardTune Key: C'
+  value: 47
+- description: ''
+  max: 1
+  min: 1
+  name: 'HardTune Key: C#'
+  value: 47
+- description: ''
+  max: 2
+  min: 2
+  name: 'HardTune Key: D'
+  value: 47
+- description: ''
+  max: 3
+  min: 3
+  name: 'HardTune Key: D#'
+  value: 47
+- description: ''
+  max: 4
+  min: 4
+  name: 'HardTune Key: E'
+  value: 47
+- description: ''
+  max: 5
+  min: 5
+  name: 'HardTune Key: F'
+  value: 47
+- description: ''
+  max: 6
+  min: 6
+  name: 'HardTune Key: F#'
+  value: 47
+- description: ''
+  max: 7
+  min: 7
+  name: 'HardTune Key: G'
+  value: 47
+- description: ''
+  max: 8
+  min: 8
+  name: 'HardTune Key: G#'
+  value: 47
+- description: ''
+  max: 9
+  min: 9
+  name: 'HardTune Key: A'
+  value: 47
+- description: ''
+  max: 10
+  min: 10
+  name: 'HardTune Key: A#'
+  value: 47
+- description: ''
+  max: 11
+  min: 11
+  name: 'HardTune Key: B'
+  value: 47
+- description: ''
+  max: 0
+  min: 0
+  name: 'Hardtune Scale: Major'
+  value: 48
+- description: ''
+  max: 1
+  min: 1
+  name: 'Hardtune Scale: Harmonic Minor'
+  value: 48
+- description: ''
+  max: 2
+  min: 2
+  name: 'Hardtune Scale: Natural Minor'
+  value: 48
+- description: ''
+  max: 3
+  min: 3
+  name: 'Hardtune Scale: Minor Asc.'
+  value: 48
+- description: ''
+  max: 4
+  min: 4
+  name: 'Hardtune Scale: Chromatic'
+  value: 48
+- description: ''
+  max: 5
+  min: 5
+  name: 'Hardtune Scale: Custom'
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: HardTune Rate
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: HardTune Amount
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: HardTune Window
+  value: 49
+- description: ''
+  max: 127
+  min: 127
+  name: 'Tone: On'
+  value: 106
+- description: ''
+  max: 0
+  min: 0
+  name: 'Tone: Off'
+  value: 106
+- description: ''
+  max: 0
+  min: 0
+  name: 'Pitch: Off'
+  value: 107
+- description: ''
+  max: 127
+  min: 1
+  name: Pitch
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Step
+  value: 115
+- description: ''
+  max: 127
+  min: 127
+  name: 'Guitar FX: On'
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'Guitar FX: Off'
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar Level
+  value: 109
+- description: ''
+  max: 30
+  min: 0
+  name: Guitar Rev Style
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar Rev Level
+  value: 22
+- description: ''
+  max: 24
+  min: 0
+  name: Guitar Mod Style
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: Guitar Mod Level
+  value: 28
+- description: ''
+  max: 1
+  min: 1
+  name: 'Lead Mute: On'
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: 'Lead Mute: Off'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Voices Level
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Delay/Reverb Level
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Dry Pan
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Output Level
+  value: 7
+- description: ''
+  max: 0
+  min: 0
+  name: Bypass
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: Engage
+  value: 114
+- description: ''
+  max: 127
+  min: 127
+  name: 'Harmony Hold: On'
+  value: 119
+- description: ''
+  max: 0
+  min: 0
+  name: 'Harmony Hold: Off'
+  value: 119
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Aux Level
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: All Notes Off
+  value: 123
+device_name: Voicelive Rack
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
