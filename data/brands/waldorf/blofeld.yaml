@@ -1,0 +1,896 @@
+brand: Waldorf
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Bank select MSB
+  value: 0
+- description: ''
+  max: 127
+  min: 0
+  name: Bank select LSB
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Mod wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Breath control
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Foot control
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Glide rate
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Channel volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Pan
+  value: 10
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp Range: 1 Oct'
+  value: 12
+- description: ''
+  max: 1
+  min: 1
+  name: 'Arp Range: 2 Oct'
+  value: 12
+- description: ''
+  max: 2
+  min: 2
+  name: 'Arp Range: 3 Oct'
+  value: 12
+- description: ''
+  max: 3
+  min: 3
+  name: 'Arp Range: 4 Oct'
+  value: 12
+- description: ''
+  max: 4
+  min: 4
+  name: 'Arp Range: 5 Oct'
+  value: 12
+- description: ''
+  max: 5
+  min: 5
+  name: 'Arp Range: 6 Oct'
+  value: 12
+- description: ''
+  max: 6
+  min: 6
+  name: 'Arp Range: 7 Oct'
+  value: 12
+- description: ''
+  max: 7
+  min: 7
+  name: 'Arp Range: 8 Oct'
+  value: 12
+- description: ''
+  max: 8
+  min: 8
+  name: 'Arp Range: 9 Oct'
+  value: 12
+- description: ''
+  max: 9
+  min: 9
+  name: 'Arp Range: 10 Oct'
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp Length: 1 Step'
+  value: 13
+- description: ''
+  max: 1
+  min: 1
+  name: 'Arp Length: 2 Steps'
+  value: 13
+- description: ''
+  max: 2
+  min: 2
+  name: 'Arp Length: 3 Steps'
+  value: 13
+- description: ''
+  max: 3
+  min: 3
+  name: 'Arp Length: 4 Steps'
+  value: 13
+- description: ''
+  max: 4
+  min: 4
+  name: 'Arp Length: 5 Steps'
+  value: 13
+- description: ''
+  max: 5
+  min: 5
+  name: 'Arp Length: 6 Steps'
+  value: 13
+- description: ''
+  max: 6
+  min: 6
+  name: 'Arp Length: 7 Steps'
+  value: 13
+- description: ''
+  max: 7
+  min: 7
+  name: 'Arp Length: 8 Steps'
+  value: 13
+- description: ''
+  max: 8
+  min: 8
+  name: 'Arp Length: 9 Steps'
+  value: 13
+- description: ''
+  max: 9
+  min: 9
+  name: 'Arp Length: 10 Steps'
+  value: 13
+- description: ''
+  max: 10
+  min: 10
+  name: 'Arp Length: 11 Steps'
+  value: 13
+- description: ''
+  max: 11
+  min: 11
+  name: 'Arp Length: 12 Steps'
+  value: 13
+- description: ''
+  max: 12
+  min: 12
+  name: 'Arp Length: 13 Steps'
+  value: 13
+- description: ''
+  max: 13
+  min: 13
+  name: 'Arp Length: 14 Steps'
+  value: 13
+- description: ''
+  max: 14
+  min: 14
+  name: 'Arp Length: 15 Steps'
+  value: 13
+- description: ''
+  max: 15
+  min: 15
+  name: 'Arp Length: 16 Steps'
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp: Off'
+  value: 14
+- description: ''
+  max: 1
+  min: 1
+  name: 'Arp: On'
+  value: 14
+- description: ''
+  max: 2
+  min: 2
+  name: 'Arp: One Shot'
+  value: 14
+- description: ''
+  max: 3
+  min: 3
+  name: 'Arp: Hold'
+  value: 14
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 1 Shape: Sine'
+  value: 15
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 1 Shape: Triangle'
+  value: 15
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO 1 Shape: Square'
+  value: 15
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO 1 Shape: Sawtooth'
+  value: 15
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO 1 Shape: Random'
+  value: 15
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO 1 Shape: S&H'
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 Speed
+  value: 16
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 1 Sync: On'
+  value: 17
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 1 Sync: Off'
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 delay
+  value: 18
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 2 Shape: Sine'
+  value: 19
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 2 Shape: Triangle'
+  value: 19
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO 2 Shape: Square'
+  value: 19
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO 2 Shape: Sawtooth'
+  value: 19
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO 2 Shape: Random'
+  value: 19
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO 2 Shape: S&H'
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 speed
+  value: 20
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 2 Sync: On'
+  value: 21
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 2 Sync: Off'
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 delay
+  value: 22
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 3 Shape: Sine'
+  value: 23
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 3 Shape: Triangle'
+  value: 23
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO 3 Shape: Square'
+  value: 23
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO 3 Shape: Sawtooth'
+  value: 23
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO 3 Shape: Random'
+  value: 23
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO 3 Shape: S&H'
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 3 speed
+  value: 24
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 3 Sync: On'
+  value: 25
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 3 Sync: Off'
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 3 delay
+  value: 26
+- description: ''
+  max: 112
+  min: 16
+  name: OSC 1 octave
+  value: 27
+- description: ''
+  max: 76
+  min: 52
+  name: OSC 1 semitone
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 detune
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 FM
+  value: 30
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 1 Shape: Pulse'
+  value: 31
+- description: ''
+  max: 1
+  min: 1
+  name: 'OSC 1 Shape: Saw'
+  value: 31
+- description: ''
+  max: 2
+  min: 2
+  name: 'OSC 1 Shape: Triangle'
+  value: 31
+- description: ''
+  max: 3
+  min: 3
+  name: 'OSC 1 Shape: Sine'
+  value: 31
+- description: ''
+  max: 4
+  min: 4
+  name: 'OSC 1 Shape: Alt 1'
+  value: 31
+- description: ''
+  max: 5
+  min: 5
+  name: 'OSC 1 Shape: Alt 2'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 pulsewidth
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 PWM
+  value: 34
+- description: ''
+  max: 112
+  min: 16
+  name: OSC 2 octave
+  value: 35
+- description: ''
+  max: 76
+  min: 52
+  name: OSC 2 semitone
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 detune
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 FM
+  value: 38
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 2 Shape: Pulse'
+  value: 39
+- description: ''
+  max: 1
+  min: 1
+  name: 'OSC 2 Shape: Saw'
+  value: 39
+- description: ''
+  max: 2
+  min: 2
+  name: 'OSC 2 Shape: Triangle'
+  value: 39
+- description: ''
+  max: 3
+  min: 3
+  name: 'OSC 2 Shape: Sine'
+  value: 39
+- description: ''
+  max: 4
+  min: 4
+  name: 'OSC 2 Shape: Alt 1'
+  value: 39
+- description: ''
+  max: 5
+  min: 5
+  name: 'OSC 2 Shape: Alt 2'
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 pulsewidth
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 PWM
+  value: 41
+- description: ''
+  max: 112
+  min: 16
+  name: OSC 3 octave
+  value: 42
+- description: ''
+  max: 76
+  min: 52
+  name: OSC 3 semitone
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 detune
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 FM
+  value: 45
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC 3 Shape: Pulse'
+  value: 46
+- description: ''
+  max: 1
+  min: 1
+  name: 'OSC 3 Shape: Saw'
+  value: 46
+- description: ''
+  max: 2
+  min: 2
+  name: 'OSC 3 Shape: Triangle'
+  value: 46
+- description: ''
+  max: 3
+  min: 3
+  name: 'OSC 3 Shape: Sine'
+  value: 46
+- description: ''
+  max: 4
+  min: 4
+  name: 'OSC 3 Shape: Alt 1'
+  value: 46
+- description: ''
+  max: 5
+  min: 5
+  name: 'OSC 3 Shape: Alt 2'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 pulsewidth
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 PWM
+  value: 48
+- description: ''
+  max: 1
+  min: 0
+  name: Sync
+  value: 49
+- description: ''
+  max: 127
+  min: 0
+  name: Pitchmod
+  value: 50
+- description: ''
+  max: 9
+  min: 0
+  name: Glide mode
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 level
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 1 balance
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: Ringmod level
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: Ringmod balance
+  value: 55
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 level
+  value: 56
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 2 balance
+  value: 57
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 level
+  value: 58
+- description: ''
+  max: 127
+  min: 0
+  name: OSC 3 balance
+  value: 59
+- description: ''
+  max: 127
+  min: 0
+  name: Noise level
+  value: 60
+- description: ''
+  max: 127
+  min: 0
+  name: Noise balance
+  value: 61
+- description: ''
+  max: 127
+  min: 0
+  name: Noise color
+  value: 62
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain pedal
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: Glide active
+  value: 65
+- description: ''
+  max: 127
+  min: 0
+  name: Sostenuto
+  value: 66
+- description: ''
+  max: 127
+  min: 0
+  name: Routing
+  value: 67
+- description: ''
+  max: 10
+  min: 0
+  name: Filter 1 type
+  value: 68
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 cutoff
+  value: 69
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 resonance
+  value: 70
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 drive
+  value: 71
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 keytrack
+  value: 72
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 envelope amount
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 envelope velocity
+  value: 74
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 cutoff modulation
+  value: 75
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 FM
+  value: 76
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 pan
+  value: 77
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 1 pan modulation
+  value: 78
+- description: ''
+  max: 10
+  min: 0
+  name: Filter 2 type
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 cutoff
+  value: 80
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 resonance
+  value: 81
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 drive
+  value: 82
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 keytrack
+  value: 83
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 envelope amount
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 envelope velocity
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 cutoff modulation
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 FM
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 pan
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Filter 2 pan modulation
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Amp volume
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Amp velocity
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Amp modulation
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: FX 1 mix
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: FX 2 mix
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope attack
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope decay
+  value: 96
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope sustain
+  value: 97
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope decay 2
+  value: 98
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope sustain 2
+  value: 99
+- description: ''
+  max: 127
+  min: 0
+  name: Filter envelope release
+  value: 100
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope attack
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope decay
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope sustain
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope decay 2
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope sustain 2
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Amp envelope release
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 attack
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 decay
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 sustain
+  value: 109
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 decay 2
+  value: 110
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 sustain 2
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 3 release
+  value: 112
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 attack
+  value: 113
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 decay
+  value: 114
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 sustain
+  value: 115
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 decay 2
+  value: 116
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 sustain 2
+  value: 117
+- description: ''
+  max: 127
+  min: 0
+  name: Envelope 4 release
+  value: 118
+- description: ''
+  max: 127
+  min: 0
+  name: All sound off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset all controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: Local control on/off
+  value: 122
+- description: ''
+  max: 127
+  min: 0
+  name: All notes off
+  value: 123
+device_name: Blofeld
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -2023,6 +2023,16 @@
     ]
   },
     {
+    "name": "Waldorf",
+    "value": "waldorf",
+    "models": [
+      {
+        "name": "Blofeld",
+        "value": "blofeld"
+      }
+    ]
+  },
+    {
       "name": "Walrus Audio",
       "value": "walrusaudio",
       "models": [
