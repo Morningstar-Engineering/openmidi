@@ -1,0 +1,546 @@
+brand: Modal Electronics
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: Headphone Volume
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Expression Pedal
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Distortion
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Delay
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Time
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Delay Feedback
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Osc1 Wave
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Wave
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Osc Mix
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: Osc-Mod Amount
+  value: 19
+- description: ''
+  max: 63
+  min: 0
+  name: 'Spread: Unison'
+  value: 20
+- description: ''
+  max: 64
+  min: 64
+  name: 'Spread: Major'
+  value: 20
+- description: ''
+  max: 71
+  min: 71
+  name: 'Spread: Minor'
+  value: 20
+- description: ''
+  max: 78
+  min: 78
+  name: 'Spread: Major 6th'
+  value: 20
+- description: ''
+  max: 85
+  min: 85
+  name: 'Spread: Sus 4th'
+  value: 20
+- description: ''
+  max: 92
+  min: 92
+  name: 'Spread: 5ths'
+  value: 20
+- description: ''
+  max: 99
+  min: 99
+  name: 'Spread: 5th + Oct'
+  value: 20
+- description: ''
+  max: 106
+  min: 106
+  name: 'Spread: Oct +1 +2'
+  value: 20
+- description: ''
+  max: 113
+  min: 113
+  name: 'Spread: Oct +1 -1'
+  value: 20
+- description: ''
+  max: 127
+  min: 127
+  name: 'Spread: Oct -1 -2'
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: FEG Attack
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: FEG Decay
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: FEG Sustain
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: FEG Release
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: AEG Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: AEG Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: AEG Sustain
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: AEG Release
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Coarse Detune
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: Osc2 Fine Detune
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: FEG Amount
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Morph
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 35
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Rate: 1/16'
+  value: 36
+- description: ''
+  max: 8
+  min: 8
+  name: 'LFO1 Rate: 1/8'
+  value: 36
+- description: ''
+  max: 16
+  min: 16
+  name: 'LFO1 Rate: 3/16'
+  value: 36
+- description: ''
+  max: 24
+  min: 24
+  name: 'LFO1 Rate: 1/4'
+  value: 36
+- description: ''
+  max: 32
+  min: 32
+  name: 'LFO1 Rate: 3/8'
+  value: 36
+- description: ''
+  max: 40
+  min: 40
+  name: 'LFO1 Rate: 1/2'
+  value: 36
+- description: ''
+  max: 48
+  min: 48
+  name: 'LFO1 Rate: 3/4'
+  value: 36
+- description: ''
+  max: 56
+  min: 56
+  name: 'LFO1 Rate: 1'
+  value: 36
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO1 Rate: 3/2'
+  value: 36
+- description: ''
+  max: 72
+  min: 72
+  name: 'LFO1 Rate: 2'
+  value: 36
+- description: ''
+  max: 80
+  min: 80
+  name: 'LFO1 Rate: 3'
+  value: 36
+- description: ''
+  max: 88
+  min: 88
+  name: 'LFO1 Rate: 4'
+  value: 36
+- description: ''
+  max: 96
+  min: 96
+  name: 'LFO1 Rate: 6'
+  value: 36
+- description: ''
+  max: 104
+  min: 104
+  name: 'LFO1 Rate: 8'
+  value: 36
+- description: ''
+  max: 112
+  min: 112
+  name: 'LFO1 Rate: 12'
+  value: 36
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Rate: 16'
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Depth
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Shape
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Octave
+  value: 40
+- description: ''
+  max: 127
+  min: 0
+  name: Osc-Mod Mode
+  value: 41
+- description: ''
+  max: 127
+  min: 0
+  name: MEG Attack
+  value: 43
+- description: ''
+  max: 127
+  min: 0
+  name: MEG Decay
+  value: 44
+- description: ''
+  max: 127
+  min: 0
+  name: MEG Sustain
+  value: 45
+- description: ''
+  max: 127
+  min: 0
+  name: MEG Release
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Depth
+  value: 48
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Shape
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: AEG Amount
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 MIDI Sync: Off'
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 MIDI Sync: On'
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 MIDI Sync: Off'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 MIDI Sync: On'
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: 'Delay MIDI Sync: Off'
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: 'Delay MIDI Sync: On'
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Mode: Retrigger'
+  value: 56
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO1 Mode: Free'
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Mode: Single'
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Mode: Retrigger'
+  value: 57
+- description: ''
+  max: 64
+  min: 64
+  name: 'LFO2 Mode: Free'
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Mode: Single'
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'Arp Status: Off'
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: 'Arp Status: On'
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 7
+  min: 0
+  name: Scale
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: Root Note
+  value: 79
+- description: ''
+  max: 127
+  min: 0
+  name: All Envelope Attack
+  value: 84
+- description: ''
+  max: 127
+  min: 0
+  name: All Envelope Decay
+  value: 85
+- description: ''
+  max: 127
+  min: 0
+  name: All Envelope Sustain
+  value: 86
+- description: ''
+  max: 127
+  min: 0
+  name: All Envelope Release
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 1 Depth
+  value: 88
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 2 Depth
+  value: 89
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 3 Depth
+  value: 90
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 4 Depth
+  value: 91
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 5 Depth
+  value: 92
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 6 Depth
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 7 Depth
+  value: 94
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 8 Depth
+  value: 95
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 1 Dest
+  value: 101
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 2 Dest
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 3 Dest
+  value: 103
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 4 Dest
+  value: 104
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 5 Dest
+  value: 105
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 6 Dest
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 7 Dest
+  value: 107
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Slot 8 Dest
+  value: 108
+- description: ''
+  max: 127
+  min: 0
+  name: All Sound Off
+  value: 120
+- description: ''
+  max: 127
+  min: 0
+  name: Reset All Controllers
+  value: 121
+- description: ''
+  max: 127
+  min: 0
+  name: All Notes Off
+  value: 123
+- description: ''
+  max: 127
+  min: 0
+  name: Omni Off
+  value: 124
+- description: ''
+  max: 127
+  min: 0
+  name: Omni On
+  value: 125
+device_name: CRAFTsynth 2.0
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

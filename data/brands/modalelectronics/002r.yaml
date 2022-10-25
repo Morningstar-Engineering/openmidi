@@ -1,0 +1,841 @@
+brand: Modal Electronics
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 55
+  min: 0
+  name: OSC1 Wave
+  value: 2
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC1 PW: Off'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC1 PW: On'
+  value: 3
+- description: ''
+  max: 48
+  min: 0
+  name: OSC1 Note
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: KEYB Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Amount
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: OSC2 Detune
+  value: 8
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC2 PW: Off'
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC2 PW: On'
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC Sync: Off'
+  value: 10
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC Sync: On'
+  value: 10
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC SubWav: Off'
+  value: 11
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC SubWav: On'
+  value: 11
+- description: ''
+  max: 0
+  min: 0
+  name: 'OSC DeRez: Off'
+  value: 12
+- description: ''
+  max: 127
+  min: 127
+  name: 'OSC DeRez: On'
+  value: 12
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Drive
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mix OSC1
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Sub1
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mix OSC2
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Sub2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Ext In
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Resonance
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Velocity
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Attack
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Decay
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Sustain
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Release
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Sustain
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Release
+  value: 29
+- description: ''
+  max: 48
+  min: 0
+  name: OSC2 Note
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Note
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: VELO Depth
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Note Depth
+  value: 34
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel Depth
+  value: 35
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Depth
+  value: 37
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Osc1: Off'
+  value: 39
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Osc1: On'
+  value: 39
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Osc2: Off'
+  value: 40
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Osc2: On'
+  value: 40
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Wave 1: Off'
+  value: 41
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Wave 1: On'
+  value: 41
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Wave 2: Off'
+  value: 42
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Wave 2: On'
+  value: 42
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Slope: Off'
+  value: 43
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Slope: On'
+  value: 43
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Cutoff: Off'
+  value: 44
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Cutoff: On'
+  value: 44
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Drive: Off'
+  value: 45
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Drive: On'
+  value: 45
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 VCA: Off'
+  value: 46
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 VCA: On'
+  value: 46
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Depth
+  value: 48
+- description: ''
+  max: 113
+  min: 13
+  name: LFO2 Note
+  value: 49
+- description: ''
+  max: 3
+  min: 0
+  name: LFO2 Wave
+  value: 50
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Osc1: Off'
+  value: 51
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Osc1: On'
+  value: 51
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Osc2: Off'
+  value: 52
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Osc2: On'
+  value: 52
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Wave 1: Off'
+  value: 53
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Wave 1: On'
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Wave 2: Off'
+  value: 54
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Wave 2: On'
+  value: 54
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Slope: Off'
+  value: 55
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Slope: On'
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Resonance: Off'
+  value: 56
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Resonance: On'
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Drive: Off'
+  value: 57
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Drive: On'
+  value: 57
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 VCA: Off'
+  value: 58
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 VCA: On'
+  value: 58
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Sngl: Off'
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Sngl: On'
+  value: 59
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Osc1: Off'
+  value: 60
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Osc1: On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Osc2: Off'
+  value: 61
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Osc2: On'
+  value: 61
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Wave 1: Off'
+  value: 62
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Wave 1: On'
+  value: 62
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Wave 2: Off'
+  value: 63
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Wave 2: On'
+  value: 63
+- description: ''
+  max: 0
+  min: 0
+  name: 'Sustain Pedal: Off'
+  value: 64
+- description: ''
+  max: 127
+  min: 127
+  name: 'Sustain Pedal: On'
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Resonance: Off'
+  value: 65
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Resonance: On'
+  value: 65
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Drive: Off'
+  value: 66
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Drive: On'
+  value: 66
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO VCA: Off'
+  value: 67
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO VCA: On'
+  value: 67
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note OSC1: Off'
+  value: 68
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note OSC1: On'
+  value: 68
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note OSC2: Off'
+  value: 69
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note OSC2: On'
+  value: 69
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Wave 1: Off'
+  value: 70
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note Wave 1: On'
+  value: 70
+- description: ''
+  max: 123
+  min: 3
+  name: Joy X+ Depth
+  value: 71
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Wave 2: Off'
+  value: 72
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note Wave 2: On'
+  value: 72
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Slope: Off'
+  value: 73
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note Slope: On'
+  value: 73
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Cutoff
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Resonance: Off'
+  value: 75
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note Resonance: On'
+  value: 75
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note Drive: Off'
+  value: 76
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note Drive: On'
+  value: 76
+- description: ''
+  max: 0
+  min: 0
+  name: 'Note VCA: Off'
+  value: 77
+- description: ''
+  max: 127
+  min: 127
+  name: 'Note VCA: On'
+  value: 77
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel OSC1: Off'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel OSC1: On'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel OSC2: Off'
+  value: 79
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel OSC2: On'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel Wave 1: Off'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel Wave 1: On'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel Wave 2: Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel Wave 2: On'
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel Slope: Off'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel Slope: On'
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel Cutoff: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel Cutoff: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel Drive: Off'
+  value: 84
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel Drive: On'
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: 'Mod Wheel VCA: Off'
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: 'Mod Wheel VCA: On'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Osc1: Off'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Osc1: On'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: AFTT Osc2:Off
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Osc2: On'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Wave 1: Off'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Wave 1: On'
+  value: 88
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Wave 2: Off'
+  value: 89
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Wave 2: On'
+  value: 89
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Slope: Off'
+  value: 90
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Slope: On'
+  value: 90
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Cutoff: Off'
+  value: 91
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Cutoff: On'
+  value: 91
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT Drive: Off'
+  value: 92
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT Drive: On'
+  value: 92
+- description: ''
+  max: 0
+  min: 0
+  name: 'AFTT VCA: Off'
+  value: 93
+- description: ''
+  max: 127
+  min: 127
+  name: 'AFTT VCA: On'
+  value: 93
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Slope
+  value: 94
+- description: ''
+  max: 11
+  min: 0
+  name: ARP Mode
+  value: 95
+- description: ''
+  max: 96
+  min: 0
+  name: ARP Note Length
+  value: 96
+- description: ''
+  max: 3
+  min: 0
+  name: KEYB Mode
+  value: 100
+- description: ''
+  max: 12
+  min: 0
+  name: KEYB Size
+  value: 101
+- description: ''
+  max: 1
+  min: 0
+  name: ANIM status
+  value: 102
+- description: ''
+  max: 55
+  min: 0
+  name: OSC2 Wave
+  value: 103
+- description: ''
+  max: 3
+  min: 0
+  name: LFO1 Wave
+  value: 104
+- description: ''
+  max: 0
+  min: 0
+  name: 'VELO Slope: Off'
+  value: 105
+- description: ''
+  max: 127
+  min: 127
+  name: 'VELO Slope: On'
+  value: 105
+- description: ''
+  max: 84
+  min: 24
+  name: KEYB Transpose
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Delay
+  value: 107
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCA EG Shape: Linear'
+  value: 108
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCA EG Shape: Exponential'
+  value: 108
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCF EG Shape: Linear'
+  value: 109
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCF EG Shape: Exponential'
+  value: 109
+- description: ''
+  max: 123
+  min: 3
+  name: JOY Y+ Depth
+  value: 110
+- description: ''
+  max: 123
+  min: 3
+  name: JOY X- Depth
+  value: 111
+- description: ''
+  max: 127
+  min: 0
+  name: VCF LFO2
+  value: 112
+- description: ''
+  max: 63
+  min: 0
+  name: KEYB Spread
+  value: 113
+- description: ''
+  max: 4
+  min: 0
+  name: KEYB Octave
+  value: 114
+- description: ''
+  max: 123
+  min: 3
+  name: JOY Y- Depth
+  value: 117
+device_name: 002R
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

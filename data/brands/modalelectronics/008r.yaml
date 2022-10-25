@@ -1,0 +1,411 @@
+brand: Modal Electronics
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Mod Wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 PW
+  value: 2
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO1 Square: Off'
+  value: 3
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO1 Square: On'
+  value: 3
+- description: ''
+  max: 48
+  min: 0
+  name: 'VCO1: Note'
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: KEYB Glide
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: VCA Amount
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Fine
+  value: 8
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2 Square: Off'
+  value: 9
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2 Square: On'
+  value: 9
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO Sync: Off'
+  value: 10
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO Sync: On'
+  value: 10
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCA Drive: Off'
+  value: 13
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCA Drive: On'
+  value: 13
+- description: ''
+  max: 127
+  min: 0
+  name: Mix VCO1
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Sub1
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: Mix VCO2
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Sub2
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: Mix Ext In L/R
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Resonance
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Amount
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Attack
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Decay
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Sustain
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Release
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Attack
+  value: 26
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Decay
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Sustain
+  value: 28
+- description: ''
+  max: 127
+  min: 0
+  name: VCA EG Release
+  value: 29
+- description: ''
+  max: 48
+  min: 0
+  name: VCO2 Note
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: VCO1 Fine
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Rate
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Depth
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Rate
+  value: 47
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Depth
+  value: 48
+- description: ''
+  max: 3
+  min: 0
+  name: LFO2 Wave
+  value: 50
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 Mod Depth
+  value: 51
+- description: ''
+  max: 127
+  min: 0
+  name: VCF EG Delay
+  value: 52
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Delay
+  value: 53
+- description: ''
+  max: 127
+  min: 0
+  name: LFO1 Release
+  value: 54
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Release
+  value: 55
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Sngl: Off'
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Sngl: On'
+  value: 59
+- description: ''
+  max: 127
+  min: 127
+  name: Sustain On
+  value: 64
+- description: ''
+  max: 0
+  min: 0
+  name: Sustain Off
+  value: 64
+- description: ''
+  max: 127
+  min: 0
+  name: VCF Cutoff
+  value: 74
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO1 Saw: Off'
+  value: 78
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO1 Saw: On'
+  value: 78
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO1 Triange: Off'
+  value: 79
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO1 Triangle: On'
+  value: 79
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2 Saw: Off'
+  value: 80
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2 Saw: On'
+  value: 80
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2 Triangle: Off'
+  value: 81
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2 Triangle: On'
+  value: 81
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2 Noise: Off'
+  value: 82
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2 Noise: On'
+  value: 82
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2>VCO1 Mod: Off'
+  value: 83
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2>VCO1 Mod: On'
+  value: 83
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCO2>VCF Mod: Off'
+  value: 84
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCO2>VCF Mod: On'
+  value: 84
+- description: ''
+  max: 0
+  min: 0
+  name: 'VCF Constant: Off'
+  value: 85
+- description: ''
+  max: 127
+  min: 127
+  name: 'VCF Constant: On'
+  value: 85
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Sngl: Off'
+  value: 86
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Sngl: On'
+  value: 86
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO1 Reset: Off'
+  value: 87
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO1 Reset: On'
+  value: 87
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO2 Reset: Off'
+  value: 88
+- description: ''
+  max: 127
+  min: 127
+  name: 'LFO2 Reset: On'
+  value: 88
+- description: ''
+  max: 15
+  min: 0
+  name: VCF Mode
+  value: 94
+- description: ''
+  max: 11
+  min: 0
+  name: ARP Mode
+  value: 95
+- description: ''
+  max: 96
+  min: 0
+  name: ARP Note Length
+  value: 96
+- description: ''
+  max: 3
+  min: 0
+  name: KEYB Mode
+  value: 100
+- description: ''
+  max: 12
+  min: 0
+  name: KEYB Size
+  value: 101
+- description: ''
+  max: 1
+  min: 0
+  name: ANIM Status
+  value: 102
+- description: ''
+  max: 127
+  min: 0
+  name: VCO2 PW
+  value: 103
+- description: ''
+  max: 3
+  min: 0
+  name: LFO1 Wave
+  value: 104
+- description: ''
+  max: 84
+  min: 24
+  name: KEYB Transpose
+  value: 106
+- description: ''
+  max: 127
+  min: 0
+  name: LFO2 Delay
+  value: 107
+- description: ''
+  max: 63
+  min: 0
+  name: KEYB Spread
+  value: 113
+- description: ''
+  max: 4
+  min: 0
+  name: KEYB Octave
+  value: 114
+device_name: 008R
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

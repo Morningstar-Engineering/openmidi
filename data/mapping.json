@@ -1095,6 +1095,52 @@
       ]
     },
     {
+    "name": "Modal Electronics",
+    "value": "modalelectronics",
+    "models": [
+      {
+        "name": "002R",
+        "value": "002r"
+      },
+      {
+        "name": "008R",
+        "value": "008r"
+      },
+      {
+        "name": "1",
+        "value": "1"
+      },
+      {
+        "name": "2",
+        "value": "2"
+      },
+      {
+        "name": "8",
+        "value": "8"
+      },
+      {
+        "name": "ARGON 8",
+        "value": "argon8"
+      },
+      {
+        "name": "ARGON 8M",
+        "value": "argon8m"
+      },
+      {
+        "name": "ARGON 8X",
+        "value": "argon8x"
+      },
+      {
+        "name": "CRAFTsynth 2.0",
+        "value": "craftsynth20"
+      },
+      {
+        "name": "SKULPTsynthesiser",
+        "value": "skulptsynthesiser"
+      }
+    ]
+  },
+    {
       "name": "Mooer",
       "value": "mooer",
       "models": [
