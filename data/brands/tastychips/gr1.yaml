@@ -1,0 +1,326 @@
+brand: TastyChips
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: Modulation wheel
+  value: 1
+- description: ''
+  max: 127
+  min: 0
+  name: Position
+  value: 2
+- description: ''
+  max: 127
+  min: 0
+  name: Density
+  value: 3
+- description: ''
+  max: 127
+  min: 0
+  name: Grain size
+  value: 4
+- description: ''
+  max: 127
+  min: 0
+  name: Spray
+  value: 5
+- description: ''
+  max: 127
+  min: 0
+  name: NRPN value MSB
+  value: 6
+- description: ''
+  max: 127
+  min: 0
+  name: Tune
+  value: 7
+- description: ''
+  max: 127
+  min: 0
+  name: Cutoff
+  value: 8
+- description: ''
+  max: 127
+  min: 0
+  name: Resonance
+  value: 9
+- description: ''
+  max: 127
+  min: 0
+  name: Panspray
+  value: 10
+- description: ''
+  max: 127
+  min: 0
+  name: Scan
+  value: 11
+- description: ''
+  max: 127
+  min: 0
+  name: Window sides
+  value: 12
+- description: ''
+  max: 0
+  min: 0
+  name: 'Window Title: Sine'
+  value: 13
+- description: ''
+  max: 1
+  min: 1
+  name: 'Window Title: Random'
+  value: 13
+- description: ''
+  max: 2
+  min: 2
+  name: 'Window Title: Saw'
+  value: 13
+- description: ''
+  max: 3
+  min: 3
+  name: 'Window Title: Square'
+  value: 13
+- description: ''
+  max: 0
+  min: 0
+  name: 'Window Curve: Sine'
+  value: 14
+- description: ''
+  max: 1
+  min: 1
+  name: 'Window Curve: Random'
+  value: 14
+- description: ''
+  max: 2
+  min: 2
+  name: 'Window Curve: Saw'
+  value: 14
+- description: ''
+  max: 3
+  min: 3
+  name: 'Window Curve: Square'
+  value: 14
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 waveform
+  value: 15
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 waveform
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 frequency
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 amount
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 frequency
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 amount
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: CV 1 amount
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: CV 2 amount
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: Attack time
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: Decay time
+  value: 24
+- description: ''
+  max: 127
+  min: 0
+  name: Sustain amplitude
+  value: 25
+- description: ''
+  max: 127
+  min: 0
+  name: Release time
+  value: 26
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 1 dest: Tune'
+  value: 27
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 1 dest: Pos'
+  value: 27
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO 1 dest: Spray'
+  value: 27
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO 1 dest: Size'
+  value: 27
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO 1 dest: Dens'
+  value: 27
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO 1 dest: Cutoff'
+  value: 27
+- description: ''
+  max: 0
+  min: 0
+  name: 'LFO 2 dest: Tune'
+  value: 28
+- description: ''
+  max: 1
+  min: 1
+  name: 'LFO 2 dest: Pos'
+  value: 28
+- description: ''
+  max: 2
+  min: 2
+  name: 'LFO 2 dest: Spray'
+  value: 28
+- description: ''
+  max: 3
+  min: 3
+  name: 'LFO 2 dest: Size'
+  value: 28
+- description: ''
+  max: 4
+  min: 4
+  name: 'LFO 2 dest: Dens'
+  value: 28
+- description: ''
+  max: 5
+  min: 5
+  name: 'LFO 2 dest: Cutoff'
+  value: 28
+- description: ''
+  max: 0
+  min: 0
+  name: 'CV 1 dest: Tune'
+  value: 29
+- description: ''
+  max: 1
+  min: 1
+  name: 'CV 1 dest: Pos'
+  value: 29
+- description: ''
+  max: 2
+  min: 2
+  name: 'CV 1 dest: Spray'
+  value: 29
+- description: ''
+  max: 3
+  min: 3
+  name: 'CV 1 dest: Size'
+  value: 29
+- description: ''
+  max: 4
+  min: 4
+  name: 'CV 1 dest: Dens'
+  value: 29
+- description: ''
+  max: 5
+  min: 5
+  name: 'CV 1 dest: Cutoff'
+  value: 29
+- description: ''
+  max: 0
+  min: 0
+  name: 'CV 2 dest: Tune'
+  value: 30
+- description: ''
+  max: 1
+  min: 1
+  name: 'CV 2 dest: Pos'
+  value: 30
+- description: ''
+  max: 2
+  min: 2
+  name: 'CV 2 dest: Spray'
+  value: 30
+- description: ''
+  max: 3
+  min: 3
+  name: 'CV 2 dest: Size'
+  value: 30
+- description: ''
+  max: 4
+  min: 4
+  name: 'CV 2 dest: Dens'
+  value: 30
+- description: ''
+  max: 5
+  min: 5
+  name: 'CV 2 dest: Cutoff'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 1 key sync
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: LFO 2 key sync
+  value: 32
+- description: ''
+  max: 127
+  min: 0
+  name: Scan key sync
+  value: 33
+- description: ''
+  max: 127
+  min: 0
+  name: Patch volume
+  value: 36
+- description: ''
+  max: 127
+  min: 0
+  name: Resample antialias on/off
+  value: 37
+- description: ''
+  max: 127
+  min: 0
+  name: Master volume
+  value: 39
+- description: ''
+  max: 127
+  min: 0
+  name: Pitch bend range
+  value: 60
+device_name: GR1
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

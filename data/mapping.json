@@ -1941,6 +1941,16 @@
       ]
     },
     {
+    "name": "TastyChips",
+    "value": "tastychips",
+    "models": [
+      {
+        "name": "GR1",
+        "value": "gr1"
+      }
+    ]
+  },
+    {
       "name": "TC Helicon",
       "value": "tchelicon",
       "models": [
