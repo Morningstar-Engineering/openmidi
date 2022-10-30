@@ -9,6 +9,7 @@ If you are new to Github, we have some basic instructions on setting up your acc
 
 # Contributors
 Special thanks to all who have contributed! 
+- [Simon Glover @ PIRATE MIDI](https://piratemidi.com)
 - [Huevos-y-Bacon](https://github.com/Huevos-y-Bacon)
 - [Raphael Hüni](https://github.com/rafhun)
 - [Daniel Gensberger](https://github.com/danielgensberger)
