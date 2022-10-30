@@ -1,0 +1,532 @@
+midi_in: DIN5
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+
+instructions:
+
+pc:
+  description:
+
+cc:
+  - name: Mix
+    value: '1'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dry Trim
+    value: '2'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Wet Trim
+    value: '3'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Expression Pedal
+    value: '4'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Type
+    value: '5'
+    description: '0-18: Off, 19-36: Volume Pedal, 37-54: Tube, 55-73: Transistor, 74-91:
+      Opamp, 92-109: Drive, 110-127: Bitcrusher'
+    min: 0
+    max: '127'
+  - name: Preamp Location
+    value: '6'
+    description: '0-31: Pre + Dry, 32-63: Pre, 64-95: Feedback, 96-127: Post'
+    min: 0
+    max: '127'
+  - name: Premp Parameter 1
+    value: '7'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Parameter 2
+    value: '8'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Parameter 3
+    value: '9'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Parameter 4
+    value: '10'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Parameter 5
+    value: '10'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Preamp Parameter 6
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Structure
+    value: '13'
+    description: '0-21: Standard, 22-42: Multitap, 43-63: Multiplier, 64-85: Poly, 86-106:
+      Reverse, 107-127: Series'
+    min: 0
+    max: '127'
+  - name: Bypass
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Time
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Type
+    value: '16'
+    description: '0-42: Digital, 43-85: BBD, 86-127: Tape'
+    min: 0
+    max: '127'
+  - name: Left Note Division
+    value: '17'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Right Note Division
+    value: '18'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Cross Feedback
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Mod
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 1
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 2
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 3
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 4
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 5
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 6
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 7
+    value: '28'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 8
+    value: '29'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 9
+    value: '30'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 10
+    value: '31'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 11
+    value: '32'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 12
+    value: '33'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 13
+    value: '34'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 14
+    value: '35'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 15
+    value: '36'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 16
+    value: '37'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 17
+    value: '38'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 18
+    value: '39'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 19
+    value: '40'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 20
+    value: '41'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 21
+    value: '42'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 22
+    value: '43'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 23
+    value: '44'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 24
+    value: '45'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 25
+    value: '46'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 26
+    value: '47'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 27
+    value: '48'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 28
+    value: '49'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 29
+    value: '50'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 30
+    value: '51'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 31
+    value: '52'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 32
+    value: '53'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 33
+    value: '54'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 34
+    value: '50'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 35
+    value: '56'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 36
+    value: '57'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 37
+    value: '58'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 38
+    value: '59'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 39
+    value: '60'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Parameter 40
+    value: '61'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Type
+    value: '62'
+    description: '0-25: Off, 26-51: Compressor, 52-76: Swell, 77-102: Diffusion, 103-127:
+      Limiter'
+    min: 0
+    max: '127'
+  - name: Dynamic Location
+    value: '63'
+    description: '0-31: Pre + Dry, 32-63: Pre, 64-95: Feedback, 96-127: Post'
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 1
+    value: '64'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 2
+    value: '65'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 3
+    value: '66'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 4
+    value: '67'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 5
+    value: '68'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Dynamic Parameter 6
+    value: '69'
+    description: '0-21: Off, 22-42: Poly Chroma, 43-63: Harmony, 64-85: Micro Tune,
+      86-106: Mono Chroma, 107-127: Lo-fi'
+    min: 0
+    max: '127'
+  - name: Pitch Type
+    value: '70'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Location
+    value: '71'
+    description: '0-31: Pre + Dry, 32-63: Pre, 64-95: Feedback, 96-127: Post'
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 1
+    value: '72'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 2
+    value: '73'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 3
+    value: '74'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 4
+    value: '75'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 5
+    value: '76'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch Parameter 6
+    value: '77'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Type
+    value: '78'
+    description: '0-25: Off, 26-53: Ladder, 54-76: State Var, 77-102: Comb, 103-127:
+      Parametric'
+    min: 0
+    max: '127'
+  - name: Filter Location
+    value: '79'
+    description: '0-31: Pre + Dry, 32-63: Pre, 64-95: Feedback, 96-127: Post'
+    min: 0
+    max: '127'
+  - name: Filter Parameter 1
+    value: '80'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Parameter 2
+    value: '81'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Parameter 3
+    value: '82'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Parameter 4
+    value: '83'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Parameter 5
+    value: '84'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Parameter 6
+    value: '85'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod Type
+    value: '86'
+    description: '0-15: Off, 16-31: Chorus, 32-47: Flanger, 48-63: Dyn Flanger, 64-79:
+      Cassette, 80-95: Barberpole, 96-111: Granulize, 112-127: Ring Mod'
+    min: 0
+    max: '127'
+  - name: Mod Location
+    value: '87'
+    description: '0-31: Pre + Dry, 32-63: Pre, 64-95: Feedback, 96-127: Post'
+    min: 0
+    max: '127'
+  - name: Mod Parameter 1
+    value: '80'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod Parameter 2
+    value: '89'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod Parameter 3
+    value: '90'
+    description: ''
+    min: 0
+    max: '127'
+  - name: 'Mod Parameter 4 '
+    value: '91'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod Parameter 5
+    value: '92'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod Parameter 6
+    value: '93'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Looper Location
+    value: '94'
+    description: '0-25: Pre + Dry, 26-51: Pre, 52-76: Feedback, 77-102: Post, 103-127:
+      Post Mix'
+    min: 0
+    max: '127'
+  - name: Looper Level
+    value: '95'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Looper Feedback
+    value: '96'
+    description: ''
+    min: '0'
+    max: '127'
+  - name: Looper FX1 Select
+    value: '97'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Looper FX2 Select
+    value: '98'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Looper Record/Overdub Press
+    value: '100'
+    description: 'Press = 127'
+    min: 0
+    max: '127'
+  - name: Looper Play/Stop Press
+    value: '101'
+    description: 'Press = 127'
+    min: 0
+    max: '127'
+  - name: Looper FX1 Press
+    value: '102'
+    description: 'Press = 127'
+    min: 0
+    max: '127'
+  - name: Looper FX2 Press
+    value: '103'
+    description: 'Press = 127'
+    min: 0
+    max: '127'
+  
