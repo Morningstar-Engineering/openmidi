@@ -18,6 +18,7 @@ Special thanks to all who have contributed!
 - [bzhgeek](https://github.com/bzhgeek)
 - [fuzzy-phil](https://github.com/fuzzy-phil)
 - [Harris Novick](https://github.com/lightyrs)
+- [Wincent Ek](https://github.com/wincentek)
 
 List is not updated.
 

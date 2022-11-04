@@ -1,0 +1,162 @@
+midi_in: TRS
+midi_thru: No
+
+midi_channel:
+  instructions: |+
+    The default for receiving MIDI messages via the MIDI In is channel 1.
+    The MIDI channel can be changed using Blackstar’s Architect software
+pc:
+  description: |+
+    The Amped 1 has no support for Program Change. Only CC messages can be used.
+
+cc:
+  - name: 'Voice: USA'
+    value: 1
+    description: '127 = On'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Voice: UK'
+    value: 2
+    description: '127 = On'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Voice: Flat'
+    value: 3
+    description: '127 = On'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Preamp: Bass'
+    value: 4
+    description: 'Preamp bass amount'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Preamp: Middle'
+    value: 5
+    description: 'Preamp middle amount'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Preamp: Treble'
+    value: 6
+    description: 'Preamp treble amount'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Preamp: Gain'
+    value: 7
+    description: 'Preamp gain amount'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Response: EL84'
+    value: 8
+    description: 'Tube response type EL84 (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Response: EL34'
+    value: 10
+    description: 'Tube response type EL34 (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Response: 6L6'
+    value: 12
+    description: 'Tube response type 6L6 (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Response: KT88'
+    value: 18
+    description: 'Tube response type KT88 (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Response: 6V6'
+    value: 20
+    description: 'Tube response type 6V6 (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Response: LINEAR'
+    value: 22
+    description: 'Tube response type LINEAR (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Master Volume'
+    value: 16
+    description: 'The master volume'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'FXLoop - Pre'
+    value: 75
+    description: 'Set FX loop to Pre (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'FXLoop: Post'
+    value: 76
+    description: 'Set FX loop to Post (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'FXLoop: Series'
+    value: 77
+    description: 'Set FX loop to Series (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'FXLoop: Parallel'
+    value: 78
+    description: 'Set FX loop to Parallel (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Reverb: Footswicth'
+    value: 86
+    description: 'Reverb footswicth (0 = Off, 127 = On)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Reverb: Level'
+    value: 91
+    description: 'Level of reverb'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Reverb: Hold'
+    value: 92
+    description: 'Hold reverb on/off (0 = Off, 127 = On)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Preset Footswitch'
+    value: 99
+    description: 'Preset footswitch on/off (0 = Off, 127 = On)'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: 'Power Level: 1W'
+    value: 110
+    description: 'Use 1W power level (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Power Level: 20W'
+    value: 111
+    description: 'Use 20W power level (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
+  - name: 'Power Level: 100W'
+    value: 112
+    description: 'Use 100W power level (127 = On)'
+    type: Parameter
+    min: 127
+    max: 127
