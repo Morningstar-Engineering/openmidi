@@ -94,7 +94,7 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: 'FXLoop - Pre'
+  - name: 'FXLoop: Pre'
     value: 75
     description: 'Set FX loop to Pre (127 = On)'
     type: Parameter
