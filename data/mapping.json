@@ -153,6 +153,10 @@
       "value": "blackstaramplification",
       "models": [
         {
+            "name": "Blackstar Amped 1",
+            "value": "amped_1"
+        },
+        {
           "name": "Silverline Deluxe",
           "value": "silverlinedeluxe"
         },
