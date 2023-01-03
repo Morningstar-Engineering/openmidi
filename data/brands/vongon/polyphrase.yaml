@@ -1,0 +1,114 @@
+midi_in: 3.5mm TRS
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    By default, Polyphrase listens to midi channel 1. You can change the midi channel by
+    following the steps below.
+
+      1. Power on the pedal while holding the “SYNC” button and continue holding until
+      the sync LED starts blinking.
+      2. Now send a midi CC message on the desired channel. The sync LED will stop
+      blinking and the pedal will now listen to messages on that midi channel. This
+      setting will be remembered between power cycles.
+instructions:
+
+pc:
+  description: |+
+    Polyphrase has 9 onboard user preset slots that can be read and written to via MIDI
+    PROGRAM CHANGE (PC) messages. These presets are saved between power cycles.
+    PC #1 to read corresponds to PC #11 for write, #2 to read and #12 for write, and so on
+    through #9 to read and #19 to write at the end.
+    
+    Example Read/Write to preset 1:
+      ● Write to Preset 1: Adjust pedal to desired sound, send a MIDI PC# 11. That
+      sound is now saved into preset slot #1.
+      ● Recall Preset 1: Send a MIDI PC#1 message, the pedal will read the sound
+      stored in preset slot #1 and internally reset parameters.
+cc:
+  - name: Repeats
+    value: 1
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tone
+    value: 2
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Depth
+    value: 3
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Rate
+    value: 4
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Slider L
+    value: 5
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Slider R
+    value: 6
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mix
+    value: 7
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Time
+    value: 8
+    description: '0-8: 85ms, 9-22: 170ms, 23-37: 341ms, 38-56: 682ms, 57-74: 1.3s, 75-91: 2.7s, 92-106: 5.5s, 107-120: 11s, 121-127: 22s'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Echo Style
+    value: 9
+    description: '0-43: DUAL STEREO, 44-87: PING PONG, 88-127: MONO'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Sync
+    value: 10
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Trig Mode
+    value: 11
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Bypass
+    value: 13
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Infinite
+    value: 14
+    description: '0-63: OFF, 64-127: ON'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: 15
+    description: 'Any CC value triggers tap'
+    type: Parameter
+    min: 0
+    max: 127
