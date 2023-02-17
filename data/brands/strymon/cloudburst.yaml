@@ -1,0 +1,91 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    Refer to https://www.strymon.net/manuals/cloudburst_UserManual_RevC.pdf
+instructions:
+  -
+
+pc:
+  description: |+
+    Your cloudburst pedal contains 300 preset locations, numbered
+    sequentially from 0-299. Because MIDI Program Change messages have
+    a maximum number of 128 (0-127), the presets are grouped into three
+    MIDI patch banks
+    MIDI BANK 0 = PRESETS 0-127
+    MIDI BANK 1 = PRESETS 128-255
+    MIDI BANK 2 = PRESETS 256-299
+cc:
+  - name: Bank Select
+    value: 0
+    description: '0 = Bank1, 1 = Bank 2, 2 = Bank 3'
+    min: 0
+    max: '2'
+  - name: Esemble
+    value: 11
+    description: '1 = Off, 2 = MP, 3 = Forte'
+    min: '1'
+    max: '3'
+  - name: Decay
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pre-Delay
+    value: '13'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tone
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mod
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mix
+    value: '16'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Footswitch
+    value: '27'
+    description: "\n"
+    min: 0
+    max: '127'
+  - name: MIDI Expression Off/On
+    value: '60'
+    description: '0 = Off, 1-127 = On'
+    min: 0
+    max: '127'
+  - name: Freeze
+    value: '97'
+    description: '0 = Release, 1-127 = Hold'
+    min: 0
+    max: '127'
+  - name: Infinite
+    value: '98'
+    description: '0 = Release, 1-127 = Hold'
+    min: 0
+    max: '127'
+  - name: Expression Pedal
+    value: '100'
+    description: '0 = Heel, 127 = Toe'
+    min: 0
+    max: '127'
+  - name: Bypass
+    value: '102'
+    description: ''
+    min: 0
+    max: 0
+  - name: Engage
+    value: '102'
+    description: ''
+    min: '1'
+    max: '127'
