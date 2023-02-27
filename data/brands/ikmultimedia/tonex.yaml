@@ -1,0 +1,206 @@
+brand: IK Multimedia
+cc:
+- name: PRESET ON/OFF
+  value: '12'
+  description: OFF = 0, ON = 127
+  min: 0
+  max: '127'
+- name: Expression Pedal
+  value: '11'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIDI Patch Bank
+  value: 0
+  description: ''
+  min: 0
+  max: '1'
+- name: GAIN
+  value: '102'
+  description: ''
+  min: 0
+  max: '127'
+- name: BASS
+  value: '23'
+  description: ''
+  min: 0
+  max: '127'
+- name: MID
+  value: '24'
+  description: ''
+  min: 0
+  max: '127'
+- name: TREBLE
+  value: '25'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB
+  value: '79'
+  description: ''
+  min: 0
+  max: '127'
+- name: COMPRESSOR
+  value: '19'
+  description: ''
+  min: 0
+  max: '127'
+- name: 'NOISE-GATE #15'
+  value: '15'
+  description: ''
+  min: 0
+  max: '127'
+- name: PRESENCE
+  value: '106'
+  description: ''
+  min: 0
+  max: '127'
+- name: DEPTH
+  value: '107'
+  description: ''
+  min: 0
+  max: '127'
+- name: MODEL.VOL
+  value: '103'
+  description: ''
+  min: 0
+  max: '127'
+- name: NOISE GT
+  value: '14'
+  description: ''
+  min: 0
+  max: '127'
+- name: NG REL
+  value: '14'
+  description: ''
+  min: 0
+  max: '127'
+- name: NG DEPTH
+  value: '17'
+  description: ''
+  min: 0
+  max: '127'
+- name: COMP
+  value: '18'
+  description: ''
+  min: 0
+  max: '127'
+- name: CMP GAIN
+  value: '20'
+  description: ''
+  min: 0
+  max: '127'
+- name: CMP ATK
+  value: '21'
+  description: ''
+  min: 0
+  max: '127'
+- name: CMP PATC
+  value: '22'
+  description: ''
+  min: 0
+  max: '127'
+- name: BASS FRQ
+  value: '24'
+  description: ''
+  min: 0
+  max: '127'
+- name: MID Q
+  value: '26'
+  description: ''
+  min: 0
+  max: '127'
+- name: MID FRQ
+  value: '27'
+  description: ''
+  min: 0
+  max: '127'
+- name: TRBL FREQ
+  value: '29'
+  description: ''
+  min: 0
+  max: '127'
+- name: EQ PATCH
+  value: '30'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIX
+  value: '104'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB
+  value: '75'
+  description: ''
+  min: 0
+  max: '127'
+- name: REV TYPE
+  value: '85'
+  description: ''
+  min: 0
+  max: '127'
+- name: TIME
+  value: '76'
+  description: ''
+  min: 0
+  max: '127'
+- name: PREDELAY
+  value: '77'
+  description: ''
+  min: 0
+  max: '127'
+- name: COLOR
+  value: '78'
+  description: ''
+  min: 0
+  max: '127'
+- name: RESO
+  value: '108'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 1
+  value: '109'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 1 X
+  value: '110'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 1 Z
+  value: '111'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 2
+  value: '112'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 2 X
+  value: '113'
+  description: ''
+  min: 0
+  max: '127'
+- name: MIC 2 Z
+  value: '114'
+  description: ''
+  min: 0
+  max: '127'
+- name: MICS MIX
+  value: '115'
+  description: ''
+  min: 0
+  max: '127'
+device_name: ToneX
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
