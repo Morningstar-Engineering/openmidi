@@ -66,13 +66,23 @@ cc:
     max: 60
   - name: Chorale - Reso
     value: 34
-    description: ''
+    description: |+
+      Value 0 - Mild
+      Value 1 - Medium
+      Value 2 - High
     type: Parameter
     min: 0
     max: 2
-  - name: Chorale - Vowal
+  - name: Chorale - Vowel
     value: 33
-    description: ''
+    description: |+
+      Value 0 - AAHHOO
+      Value 1 - AAHH
+      Value 2 - AAHHOH
+      Value 3 - OH
+      Value 4 - OOOHOH
+      Value 5 - OOOO
+      Value 6 - Random
     type: Parameter
     min: 0
     max: 6
@@ -120,7 +130,9 @@ cc:
     max: 20
   - name: Hall - Size
     value: 40
-    description: ''
+    description: |+
+      Value 0 - Concert
+      Value 1 - Arena
     type: Parameter
     min: 0
     max: 1
@@ -144,7 +156,9 @@ cc:
     max: 20
   - name: Magneto - Spacing
     value: 54
-    description: ''
+    description: |+
+      Value 0 - Even
+      Value 1 - Uneven
     type: Parameter
     min: 0
     max: 1
@@ -198,7 +212,13 @@ cc:
     max: 17
   - name: Nonlinear - Shape
     value: 46
-    description: ''
+    description: |+
+      Value 0 - Swoosh
+      Value 1 - Reverse
+      Value 2 - Ramp
+      Value 3 - Gate
+      Value 4 - Gauss
+      Value 5 - Bounce
     type: Parameter
     min: 0
     max: 5
@@ -228,7 +248,9 @@ cc:
     max: 20
   - name: Plate - Size
     value: 68
-    description: ''
+    description: |+
+      Value 0 - Small
+      Value 1 - Large
     type: Parameter
     min: 0
     max: 1
@@ -258,7 +280,10 @@ cc:
     max: 20
   - name: Reflections - Shape
     value: 51
-    description: ''
+    description: |+
+      Value 0 - Square
+      Value 1 - Rectangle
+      Value 2 - Oblong
     type: Parameter
     min: 0
     max: 2
@@ -276,7 +301,9 @@ cc:
     max: 20
   - name: Room - Size
     value: 59
-    description: ''
+    description: |+
+      Value 0 - Studio
+      Value 1 - Club
     type: Parameter
     min: 0
     max: 1
@@ -294,19 +321,79 @@ cc:
     max: 20
   - name: Shimmer - Mode
     value: 28
-    description: ''
+    description: |+
+      Value 0 - Input
+      Value 1 - Regen
+      Value 2 - Input + Regen
     type: Parameter
     min: 0
     max: 2
   - name: Shimmer - Shift 1
     value: 25
-    description: ''
+    description: |+
+      Value 0 - -Octave
+      Value 1 - -Major 7th
+      Value 2 - -minor 7th
+      Value 3 - -Major 6th
+      Value 4 - -minor 6th
+      Value 5 - -Perfect 5th
+      Value 6 - -Tritone
+      Value 7 - -Perfect 4th
+      Value 8 - -Major 3rd
+      Value 9 - -minor 3rd
+      Value 10 - -Major 2nd
+      Value 11 - -minor 2nd
+      Value 12 - -10 cents
+      Value 13 - +10 cents
+      Value 14 - +minor 2nd
+      Value 15 - +Major 2nd
+      Value 16 - +minor 3rd
+      Value 17 - +Major 3rd
+      Value 18 - +Perfect 4th
+      Value 19 - +Tritone
+      Value 20 - +Perfect 5th
+      Value 21 - +minor 6th
+      Value 22 - +Major 6th
+      Value 23 - +minor 7th
+      Value 24 - +Major 7th
+      Value 25 - +Octave
+      Value 26 - +Octave & 5th
+      Value 27 - +2 Octaves
     type: Parameter
     min: 0
     max: 27
   - name: Shimmer - Shift 2
     value: 26
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - -Octave
+      Value 2 - -Major 7th
+      Value 3 - -minor 7th
+      Value 4 - -Major 6th
+      Value 5 - -minor 6th
+      Value 6 - -Perfect 5th
+      Value 7 - -Tritone
+      Value 8 - -Perfect 4th
+      Value 9 - -Major 3rd
+      Value 10 - -minor 3rd
+      Value 11 - -Major 2nd
+      Value 12 - -minor 2nd
+      Value 13 - -10 cents
+      Value 14 - +10 cents
+      Value 15 - +minor 2nd
+      Value 16 - +Major 2nd
+      Value 17 - +minor 3rd
+      Value 18 - +Major 3rd
+      Value 19 - +Perfect 4th
+      Value 20 - +Tritone
+      Value 21 - +Perfect 5th
+      Value 22 - +minor 6th
+      Value 23 - +Major 6th
+      Value 24 - +minor 7th
+      Value 25 - +Major 7th
+      Value 26 - +Octave
+      Value 27 - +Octave & 5th
+      Value 28 - +2 Octaves
     type: Parameter
     min: 0
     max: 28
@@ -318,7 +405,11 @@ cc:
     max: 2
   - name: Spring - Dwell
     value: 63
-    description: ''
+    description: |+
+      Value 0 - Clean
+      Value 1 - Combo
+      Value 2 - Tube
+      Value 3 - Overdrive
     type: Parameter
     min: 0
     max: 3
@@ -336,13 +427,38 @@ cc:
     max: 20
   - name: Swell - Mode
     value: 67
-    description: ''
+    description: |+
+      Value 0 - Wet
+      Value 1 - Dry
     type: Parameter
     min: 0
     max: 1
   - name: Swell - Rise
     value: 66
-    description: ''
+    description: |+
+      Value 0 - 0.08
+      Value 1 - 0.10
+      Value 2 - 0.12
+      Value 3 - 0.14
+      Value 4 - 0.17
+      Value 5 - 0.20
+      Value 6 - 0.25
+      Value 7 - 0.30
+      Value 8 - 0.35
+      Value 9 - 0.40
+      Value 10 - 0.50
+      Value 11 - 0.60
+      Value 12 - 0.70
+      Value 13 - 0.80
+      Value 14 - 0.90
+      Value 15 - 1.00
+      Value 16 - 1.20
+      Value 17 - 1.40
+      Value 18 - 1.70
+      Value 19 - 2.00
+      Value 20 - 2.50
+      Value 21 - 3.00
+      Value 22 - 4.00
     type: Parameter
     min: 0
     max: 22
@@ -354,7 +470,19 @@ cc:
     max: 127
   - name: Type Encoder
     value: 19
-    description: ''
+    description: |+
+      Value 0 - Room
+      Value 1 - Hall
+      Value 2 - Plate
+      Value 3 - Spring
+      Value 4 - Swell
+      Value 5 - Bloom
+      Value 6 - Cloud
+      Value 7 - Chorale
+      Value 8 - Shimmer
+      Value 9 - Magneto
+      Value 10 - NonLinear
+      Value 11 - Reflections
     type: Parameter
     min: 0
     max: 11
@@ -423,7 +551,7 @@ cc:
     description: ''
     type: Parameters
     min: 0
-    max: 1   
+    max: 1
   - name: MIDI Patch Bank
     value: 0
     description: ''

@@ -43,7 +43,9 @@ cc:
     max: 60
   - name: dBucket - Range
     value: 45
-    description: ''
+    description: |+
+      Value 0 - Single
+      Value 1 - Double
     type: Parameter
     min: 0
     max: 1
@@ -67,13 +69,17 @@ cc:
     max: 20
   - name: dTape - Tape Speed
     value: 58
-    description: ''
+    description: |+
+      Value 0 - Fast
+      Value 1 - Normal
     type: Parameter
     min: 0
     max: 1
   - name: Dual - Config
     value: 36
-    description: ''
+    description: |+
+      Value 0 - Series
+      Value 1 - Parallel
     type: Parameter
     min: 0
     max: 1
@@ -97,13 +103,36 @@ cc:
     max: 26
   - name: Duck - Feedback
     value: 54
-    description: ''
+    description: |+
+      Value 0 - Normal
+      Value 1 - Gate
     type: Parameter
     min: 0
     max: 1
   - name: Duck - Release
     value: 55
-    description: ''
+    description: |+
+      Value 0 - 0.01s
+      Value 1 - 0.05s
+      Value 2 - 0.10s
+      Value 3 - 0.15s
+      Value 4 - 0.20s
+      Value 5 - 0.25s
+      Value 6 - 0.30s
+      Value 7 - 0.35s
+      Value 8 - 0.40s
+      Value 9 - 0.45s
+      Value 10 - 0.50s
+      Value 11 - 0.55s
+      Value 12 - 0.60s
+      Value 13 - 0.65s
+      Value 14 - 0.70s
+      Value 15 - 0.75s
+      Value 16 - 0.80s
+      Value 17 - 0.85s
+      Value 18 - 0.90s
+      Value 19 - 0.95s
+      Value 20 - 1.00s
     type: Parameter
     min: 0
     max: 20
@@ -133,28 +162,87 @@ cc:
     max: 18
   - name: Filter - LFO
     value: 28
-    description: ''
+    description: |+
+      Value 0 - +Triangle
+      Value 1 - -Triangle
+      Value 2 - +Square
+      Value 3 - -Square
+      Value 4 - +Sine
+      Value 5 - -Sine
+      Value 6 - Ramp
+      Value 7 - Saw
+      Value 8 - Random
+      Value 9 - Down
+      Value 10 - Up
     type: Parameter
     min: 0
     max: 10
   - name: Filter - Location
     value: 43
-    description: ''
+    description: |+
+      Value 0 - Pre
+      Value 1 - Post
     type: Parameter
     min: 0
     max: 1
   - name: Filter - Q
     value: 40
-    description: ''
+    description: |+
+      Value 0 - 0.5
+      Value 1 - 0.7
+      Value 2 - 1.0
+      Value 3 - 1.2
+      Value 4 - 1.5
+      Value 5 - 2.0
+      Value 6 - 2.5
+      Value 7 - 3.0
+      Value 8 - 4.0
+      Value 9 - 5.0
+      Value 10 - 7.0
+      Value 11 - 10.0
     type: Parameter
     min: 0
     max: 11
   - name: Filter - Speed
     value: 42
-    description: ''
+    description: |+
+      Value 0 - 1/32
+      Value 1 - 1/24
+      Value 2 - 1/18
+      Value 3 - 1/16
+      Value 4 - 1/12
+      Value 5 - 1/10
+      Value 6 - 1/9
+      Value 7 - 1/8
+      Value 8 - 1/7
+      Value 9 - 1/6
+      Value 10 - 1/5
+      Value 11 - 1/4
+      Value 12 - 1/3
+      Value 13 - 1/2
+      Value 14 - 2/3
+      Value 15 - 3/4
+      Value 16 - 1/1
+      Value 17 - 4/3
+      Value 18 - 3/2
+      Value 19 - 5/2
+      Value 20 - 3/1
+      Value 21 - 7/2
+      Value 22 - 4/1
+      Value 23 - 5/1
+      Value 24 - 6/1
+      Value 25 - 7/1
+      Value 26 - 8/1
+      Value 27 - 9/1
+      Value 28 - 10/1
+      Value 29 - 12/1
+      Value 30 - 16/1
+      Value 31 - 18/1
+      Value 32 - 24/1
+      Value 33 - 32/1
     type: Parameter
     min: 0
-    max: 34
+    max: 33
   - name: Full/Half Speed (toggle)
     value: 95
     description: ''
@@ -169,7 +257,28 @@ cc:
     max: 127
   - name: High Pass
     value: 47
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - 20Hz
+      Value 2 - 40Hz
+      Value 3 - 60Hz
+      Value 4 - 80Hz
+      Value 5 - 100Hz
+      Value 6 - 120Hz
+      Value 7 - 140Hz
+      Value 8 - 160Hz
+      Value 9 - 180Hz
+      Value 10 - 200Hz
+      Value 11 - 230Hz
+      Value 12 - 260Hz
+      Value 13 - 300Hz
+      Value 14 - 350Hz
+      Value 15 - 400Hz
+      Value 16 - 500Hz
+      Value 17 - 600Hz
+      Value 18 - 700Hz
+      Value 19 - 800Hz
+      Value 20 - 900Hz
     type: Parameter
     min: 0
     max: 20
@@ -181,25 +290,88 @@ cc:
     max: 20
   - name: Ice - Interval
     value: 30
-    description: ''
+    description: |+
+      Value 0 - -Octave
+      Value 1 - -Major 7th
+      Value 2 - -minor 7th
+      Value 3 - -Major 6th
+      Value 4 - -minor 6th
+      Value 5 - -Perfect 5th
+      Value 6 - -Tritone
+      Value 7 - -Perfect 4th
+      Value 8 - -Major 3rd
+      Value 9 - -minor 3rd
+      Value 10 - -Major 2nd
+      Value 11 - -minor 2nd
+      Value 12 - -50 cents
+      Value 13 - -25 cents
+      Value 14 - +25 cents
+      Value 15 - +50 cents
+      Value 16 - +minor 2nd
+      Value 17 - +Major 2nd
+      Value 18 - +minor 3rd
+      Value 19 - +Major 3rd
+      Value 20 - +Perfect 4th
+      Value 21 - +Tritone
+      Value 22 - +Perfect 5th
+      Value 23 - +minor 6th
+      Value 24 - +Major 6th
+      Value 25 - +minor 7th
+      Value 26 - +Major 7th
+      Value 27 - +Octave
+      Value 28 - +Octave & 5th
+      Value 29 - +2 Octaves
     type: Parameter
     min: 0
     max: 29
   - name: Ice - Slice
     value: 46
-    description: ''
+    description: |+
+      Value 0 - Short
+      Value 1 - Medium
+      Value 2 - Long
     type: Parameter
     min: 0
     max: 2
   - name: Lo-Fi - Bit Depth
     value: 50
-    description: ''
+    description: |+
+      Value 0 - 4 bits
+      Value 1 - 4.5 bits
+      Value 2 - 5 bits
+      Value 3 - 5.5 bits
+      Value 4 - 6 bits
+      Value 5 - 6.5 bits
+      Value 6 - 7 bits
+      Value 7 - 7.5 bits
+      Value 8 - 8 bits
+      Value 9 - 9 bits
+      Value 10 - 10 bits
+      Value 11 - 11 bits
+      Value 12 - 12 bits
+      Value 13 - 13 bits
+      Value 14 - 14 bits
+      Value 15 - 15 bits
+      Value 16 - 16 bits
+      Value 17 - 18 bits
+      Value 18 - 20 bits
+      Value 19 - 24 bits
+      Value 20 - 32 bits
     type: Parameter
     min: 0
     max: 20
   - name: Lo-Fi - Filter
     value: 53
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - Portable Vintage Amp
+      Value 2 - Victrola Phonograph
+      Value 3 - 70s Clock Radio
+      Value 4 - Bullhorn Megaphone
+      Value 5 - Cheerleader’s Plastic Megaphone
+      Value 6 - Antique Telephone Ear Piece
+      Value 7 - Cell Phone
+      Value 8 - Apartment Intercom
     type: Parameter
     min: 0
     max: 8
@@ -211,7 +383,28 @@ cc:
     max: 20
   - name: Lo-Fi - Sample Rate
     value: 49
-    description: ''
+    description: |+
+      Value 0 - 750Hz
+      Value 1 - 1kHz
+      Value 2 - 1.5kHz
+      Value 3 - 2kHz
+      Value 4 - 3kHz
+      Value 5 - 4kHz
+      Value 6 - 5kHz
+      Value 7 - 6kHz
+      Value 8 - 7kHz
+      Value 9 - 8kHz
+      Value 10 - 9kHz
+      Value 11 - 10kHz
+      Value 12 - 11kHz
+      Value 13 - 12kHz
+      Value 14 - 14kHz
+      Value 15 - 16kHz
+      Value 16 - 19kHz
+      Value 17 - 24kHz
+      Value 18 - 32kHz
+      Value 19 - 48kHz
+      Value 20 - 96kHz
     type: Parameter
     min: 0
     max: 20
@@ -307,7 +500,35 @@ cc:
     max: 127
   - name: Swell - Rise Time
     value: 44
-    description: ''
+    description: |+
+      Value 0 - 0.10s
+      Value 1 - 0.15s
+      Value 2 - 0.20s
+      Value 3 - 0.25s
+      Value 4 - 0.30s
+      Value 5 - 0.40s
+      Value 6 - 0.50s
+      Value 7 - 0.60s
+      Value 8 - 0.70s
+      Value 9 - 0.80s
+      Value 10 - 0.90s
+      Value 11 - 1.00s
+      Value 12 - 1.10s
+      Value 13 - 1.20s
+      Value 14 - 1.30s
+      Value 15 - 1.40s
+      Value 16 - 1.50s
+      Value 17 - 1.60s
+      Value 18 - 1.70s
+      Value 19 - 1.80s
+      Value 20 - 1.90s
+      Value 21 - 2.00s
+      Value 22 - 2.20s
+      Value 23 - 2.40s
+      Value 24 - 2.60s
+      Value 25 - 2.80s
+      Value 26 - 3.00s
+      Value 27 - 4.00s
     type: Parameter
     min: 0
     max: 27
@@ -331,19 +552,70 @@ cc:
     max: 18
   - name: Trem - LFO
     value: 29
-    description: ''
+    description: |+
+      Value 0 - Triangle
+      Value 1 - Square
+      Value 2 - Sine
+      Value 3 - Ramp
+      Value 4 - Saw
     type: Parameter
     min: 0
     max: 4
   - name: Trem - Speed
     value: 61
-    description: ''
+    description: |+
+      Value 0 - 1/32
+      Value 1 - 1/24
+      Value 2 - 1/18
+      Value 3 - 1/16
+      Value 4 - 1/12
+      Value 5 - 1/10
+      Value 6 - 1/9
+      Value 7 - 1/8
+      Value 8 - 1/7
+      Value 9 - 1/6
+      Value 10 - 1/5
+      Value 11 - 1/4
+      Value 12 - 1/3
+      Value 13 - 1/2
+      Value 14 - 2/3
+      Value 15 - 3/4
+      Value 16 - 1/1
+      Value 17 - 4/3
+      Value 18 - 3/2
+      Value 19 - 5/2
+      Value 20 - 3/1
+      Value 21 - 7/2
+      Value 22 - 4/1
+      Value 23 - 5/1
+      Value 24 - 6/1
+      Value 25 - 7/1
+      Value 26 - 8/1
+      Value 27 - 9/1
+      Value 28 - 10/1
+      Value 29 - 12/1
+      Value 30 - 16/1
+      Value 31 - 18/1
+      Value 32 - 24/1
+      Value 33 - 32/1
     type: Parameter
     min: 0
-    max: 34
+    max: 33
   - name: Type Encoder
     value: 19
-    description: ''
+    description: |+
+      Value 0 - dTape
+      Value 1 - dBucket
+      Value 2 - Digital
+      Value 3 - Dual
+      Value 4 - Pattern
+      Value 5 - Reverse
+      Value 6 - Ice
+      Value 7 - Duck
+      Value 8 - Swell
+      Value 9 - Trem
+      Value 10 - Filter
+      Value 11 - Lo-Fi
     type: Parameter
     min: 0
     max: 11
