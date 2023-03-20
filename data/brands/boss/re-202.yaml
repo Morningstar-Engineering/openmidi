@@ -1,0 +1,86 @@
+brand: BOSS
+cc:
+- description: ''
+  max: 127
+  min: 0
+  name: 'TAP TIME (MSB)'
+  value: 16
+- description: ''
+  max: 127
+  min: 0
+  name: REPEAT RATE
+  value: 17
+- description: ''
+  max: 127
+  min: 0
+  name: INTENSITY
+  value: 18
+- description: ''
+  max: 127
+  min: 0
+  name: ECHO VOL
+  value: 19
+- description: ''
+  max: 127
+  min: 0
+  name: BASS
+  value: 20
+- description: ''
+  max: 127
+  min: 0
+  name: TREBLE
+  value: 21
+- description: ''
+  max: 127
+  min: 0
+  name: REVERB VOL
+  value: 22
+- description: ''
+  max: 127
+  min: 0
+  name: SATURATION
+  value: 23
+- description: ''
+  max: 127
+  min: 0
+  name: 'WOW & FLUTTER'
+  value: 24
+- description: '0-63=OFF, 64-127=ON'
+  max: 127
+  min: 0
+  name: 'EFFECT ON/OFF'
+  value: 27
+- description: ''
+  max: 127
+  min: 0
+  name: 'TAP TIME (LSB)'
+  value: 48
+- description: '0-63=OFF, 64-127=ON'
+  max: 127
+  min: 0
+  name: 'TAP TEMPO'
+  value: 82
+- description: '0-63=OFF, 64-127=ON'
+  max: 127
+  min: 0
+  name: 'TWIST'
+  value: 83
+- description: '0-63=OFF, 64-127=ON'
+  max: 127
+  min: 0
+  name: 'WARP'
+  value: 84
+pc:
+  description: ''
+
+
+
+
+device_name: 'RE-202'
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: 'TRS'
+midi_thru: 'Yes'
+
+phantom_power: 'No'

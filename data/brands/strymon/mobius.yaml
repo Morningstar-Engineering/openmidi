@@ -37,13 +37,40 @@ pc:
 cc:
   - name: Autoswell - Rise Time
     value: 57
-    description: ''
+    description: |+
+      Value 0 - 0.08s
+      Value 1 - 0.10s
+      Value 2 - 0.12s
+      Value 3 - 0.14s
+      Value 4 - 0.17s
+      Value 5 - 0.20s
+      Value 6 - 0.25s
+      Value 7 - 0.30s
+      Value 8 - 0.35s
+      Value 9 - 0.40s
+      Value 10 - 0.50s
+      Value 11 - 0.60s
+      Value 12 - 0.70s
+      Value 13 - 0.80s
+      Value 14 - 0.90s
+      Value 15 - 1.00s
+      Value 16 - 1.20s
+      Value 17 - 1.40s
+      Value 18 - 1.70s
+      Value 19 - 2.00s
+      Value 20 - 2.50s
+      Value 21 - 3.00s
+      Value 22 - 4.00s
     type: Parameter
     min: 0
     max: 22
   - name: Autoswell - Shape
     value: 58
-    description: ''
+    description: |+
+      Value 0 - Exponential
+      Value 1 - Quadratic
+      Value 2 - Ramp
+      Value 3 - Logarithmic
     type: Parameter
     min: 0
     max: 3
@@ -55,7 +82,13 @@ cc:
     max: 17
   - name: Chorus - Mode
     value: 28
-    description: ''
+    description: |+
+      Value 0 - Silver
+      Value 1 - Grey
+      Value 2 - Black +
+      Value 3 - Black -
+      Value 4 - Zero +
+      Value 5 - Zero -
     type: Parameter
     min: 0
     max: 4
@@ -73,13 +106,43 @@ cc:
     max: 127
   - name: Destroyer - Bit Depth
     value: 59
-    description: ''
+    description: |+
+      Value 0 - 4 Bit
+      Value 1 - 4.5 Bit
+      Value 2 - 5 Bit
+      Value 3 - 5.5 Bit
+      Value 4 - 6 Bit
+      Value 5 - 6.5 Bit
+      Value 6 - 7 Bit
+      Value 7 - 7.5 Bit
+      Value 8 - 8 Bit
+      Value 9 - 9 Bit
+      Value 10 - 10 Bit
+      Value 11 - 11 Bit
+      Value 12 - 12 Bit
+      Value 13 - 13 Bit
+      Value 14 - 14 Bit
+      Value 15 - 15 Bit
+      Value 16 - 16 Bit
+      Value 17 - 18 Bit
+      Value 18 - 20 Bit
+      Value 19 - 24 Bit
+      Value 20 - 32 Bit
     type: Parameter
     min: 0
     max: 20
   - name: Destroyer - Filter
     value: 62
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - Portable Vintage Amp
+      Value 2 - Victrola Phonograph
+      Value 3 - 70s Clock Radio
+      Value 4 - Bullhorn Megaphone
+      Value 5 - Cheerleader’s Plastic Megaphone
+      Value 6 - Antique Telephone Ear Piece
+      Value 7 - Cell Phone
+      Value 8 - Apartment Intercom
     type: Parameter
     min: 0
     max: 8
@@ -91,7 +154,28 @@ cc:
     max: 20
   - name: Destroyer - Sample Rate
     value: 61
-    description: ''
+    description: |+
+      Value 0 - 750Hz
+      Value 1 - 1 kHz
+      Value 2 - 1.5 kHz
+      Value 3 - 2 kHz
+      Value 4 - 3 kHz
+      Value 5 - 4 kHz
+      Value 6 - 5 kHz
+      Value 7 - 6 kHz
+      Value 8 - 7 kHz
+      Value 9 - 8 kHz
+      Value 10 - 9 kHz
+      Value 11 - 10 kHz
+      Value 12 - 11 kHz
+      Value 13 - 12 kHz
+      Value 14 - 14 kHz
+      Value 15 - 16 kHz
+      Value 16 - 19 kHz
+      Value 17 - 24 kHz
+      Value 18 - 32 kHz
+      Value 19 - 48 kHz
+      Value 20 - 96 kHz
     type: Parameter
     min: 0
     max: 20
@@ -121,7 +205,10 @@ cc:
     max: 20
   - name: Filter - Mode
     value: 48
-    description: ''
+    description: |+
+      Value 0 - Low Pass
+      Value 1 - Wah
+      Value 2 - High Pass
     type: Parameter
     min: 0
     max: 2
@@ -133,13 +220,26 @@ cc:
     max: 18
   - name: Filter - Stereo Spread
     value: 69
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - 1/4
+      Value 2 - 1/2
+      Value 3 - 3/4
+      Value 4 - Full
     type: Parameter
     min: 0
     max: 4
   - name: Filter - Waveshape
     value: 49
-    description: ''
+    description: |+
+      Value 0 - Sine
+      Value 1 - Triangle
+      Value 2 - Square
+      Value 3 - Ramp
+      Value 4 - Saw
+      Value 5 - Random
+      Value 6 - Envelope +
+      Value 7 - Envelope -
     type: Parameter
     min: 0
     max: 7
@@ -151,7 +251,13 @@ cc:
     max: 17
   - name: Flanger - Mode
     value: 24
-    description: ''
+    description: |+
+      Value 0 - Silver
+      Value 1 - Grey
+      Value 2 - Black +
+      Value 3 - Black -
+      Value 4 - Zero +
+      Value 5 - Zero -
     type: Parameter
     min: 0
     max: 5
@@ -163,25 +269,49 @@ cc:
     max: 17
   - name: Formant - LFO
     value: 67
-    description: ''
+    description: |+
+      Value 0 - Sine
+      Value 1 - Square
+      Value 2 - Ramp
+      Value 3 - Saw
+      Value 4 - Random
+      Value 5 - Envelope
+      Value 6 - Expression
     type: Parameter
     min: 0
     max: 6
   - name: Formant - Stereo Speed
     value: 115
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - 1/4
+      Value 2 - 1/2
+      Value 3 - 3/4
+      Value 4 - Full
     type: Parameter
     min: 0
     max: 4
   - name: Formant - Vowel 1
     value: 65
-    description: ''
+    description: |+
+      Value 0 - AA
+      Value 1 - EE
+      Value 2 - EYE
+      Value 3 - OH
+      Value 4 - OOH
+      Value 5 - Random
     type: Parameter
     min: 0
     max: 5
   - name: Formant - Vowel 2
     value: 66
-    description: ''
+    description: |+
+      Value 0 - AA
+      Value 1 - EE
+      Value 2 - EYE
+      Value 3 - OH
+      Value 4 - OOH
+      Value 5 - Random
     type: Parameter
     min: 0
     max: 5
@@ -265,7 +395,14 @@ cc:
     max: 1
   - name: Pattern Trem - Waveshape
     value: 113
-    description: ''
+    description: |+
+      Value 0 - Sine
+      Value 1 - Triangle
+      Value 2 - Square
+      Value 3 - Rectangle
+      Value 4 - Pulse
+      Value 5 - Ramp
+      Value 6 - Saw
     type: Parameter
     min: 0
     max: 6
@@ -283,7 +420,14 @@ cc:
     max: 17
   - name: Phaser - Mode
     value: 44
-    description: ''
+    description: |+
+      Value 0 - 2 Stage
+      Value 1 - 4 Stage
+      Value 2 - 6 Stage
+      Value 3 - 8 Stage
+      Value 4 - 12 Stage
+      Value 5 - 16 Stage
+      Value 6 - Barber Pole
     type: Parameter
     min: 0
     max: 6
@@ -295,13 +439,23 @@ cc:
     max: 17
   - name: Phaser - Stereo speed
     value: 47
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - 1/4
+      Value 2 - Half
+      Value 3 - 3/4
+      Value 4 - Full
     type: Parameter
     min: 0
     max: 4
   - name: Phaser - Waveshape
     value: 46
-    description: ''
+    description: |+
+      Value 0 - Sine
+      Value 1 - Square
+      Value 2 - Ramp
+      Value 3 - Tri
+      Value 4 - Saw
     type: Parameter
     min: 0
     max: 3
@@ -313,7 +467,14 @@ cc:
     max: 1
   - name: Quadrature - LFO
     value: 56
-    description: ''
+    description: |
+      Value 0 - Sine
+      Value 1 - Triangle
+      Value 2 - Square
+      Value 3 - Ramp
+      Value 4 - Saw
+      Value 5 - Random
+      Value 6 - Envelope
     type: Parameter
     min: 0
     max: 6
@@ -325,7 +486,11 @@ cc:
     max: 20
   - name: Quadrature - Mode
     value: 53
-    description: ''
+    description: |+
+      Value 0 - AM
+      Value 1 - FM
+      Value 2 - Frequency Shifter +
+      Value 3 - Frequency Shifter -
     type: Parameter
     min: 0
     max: 3
@@ -361,7 +526,9 @@ cc:
     max: 17
   - name: Rotary - Tap Select
     value: 39
-    description: ''
+    description: |+
+      Value 0 - Tap
+      Value 1 - Speed
     type: Parameter
     min: 0
     max: 1
@@ -385,7 +552,19 @@ cc:
     max: 1
   - name: Type Encoder
     value: 19
-    description: ''
+    description: |+
+      Value 0 - Chorus
+      Value 1 - Flanger
+      Value 2 - Rotary
+      Value 3 - Vibe
+      Value 4 - Phaser
+      Value 5 - Filter
+      Value 6 - Formant
+      Value 7 - Vintage Trem
+      Value 8 - Pattern Trem
+      Value 9 - Autoswell
+      Value 10 - Destroyer
+      Value 11 - Quadrature
     type: Parameter
     min: 0
     max: 11
@@ -403,7 +582,9 @@ cc:
     max: 20
   - name: Vibe - Mode
     value: 43
-    description: ''
+    description: |+
+      Value 0 - Vibrato
+      Value 1 - Chorus
     type: Parameter
     min: 0
     max: 1
@@ -415,13 +596,19 @@ cc:
     max: 17
   - name: Vintage Trem - Mode
     value: 31
-    description: ''
+    description: |+
+      Value 0 - Tube
+      Value 1 - Harmonic
+      Value 2 - Photoresistor
     type: Parameter
     min: 0
     max: 2
   - name: Vintage Trem - Pan
     value: 32
-    description: ''
+    description: |+
+      Value 0 - Off
+      Value 1 - Half
+      Value 2 - Full
     type: Parameter
     min: 0
     max: 1

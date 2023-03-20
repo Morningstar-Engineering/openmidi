@@ -1,0 +1,54 @@
+brand: Wampler Pedals
+cc:
+- description: 'Sets the on/off state of Channel 1 (Ch1)'
+  max: 127
+  min: 0
+  name: 'Channel 1 on/off State'
+  value: 0
+- description: 'Sets the on/off state of Channel 2 (Ch2)'
+  max: 127
+  min: 0
+  name: 'Channel 2 on/off State'
+  value: 1
+- description: 'Sets Ch1 off and Ch2 off when this command is received'
+  max: 127
+  min: 0
+  name: 'Ch1 off, Ch2 off'
+  value: 2
+- description: 'Sets Ch1 on and Ch2 off when this command is received'
+  max: 127
+  min: 0
+  name: 'Ch1 on, Ch2 off'
+  value: 3
+- description: 'Sets Ch1 off and Ch2 on when this command is received'
+  max: 127
+  min: 0
+  name: 'Ch1 off, Ch2 on'
+  value: 4
+- description: 'Increments the preset number by <value>'
+  max: 127
+  min: 0
+  name: Preset Increment
+  value: 16
+- description: 'Decrements the preset number by <value>'
+  max: 127
+  min: 0
+  name: Preset Decrement
+  value: 17
+- description: '0-15 = channel 1-16, 16 = omni mode'
+  max: 16
+  min: 0
+  name: MIDI Channel Assign
+  value: 32
+
+
+
+device_name: Pantheon
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: 'TRS'
+midi_thru: 'Yes'
+pc:
+  description: ''
+phantom_power: ''
