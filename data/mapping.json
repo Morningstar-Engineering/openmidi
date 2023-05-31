@@ -301,6 +301,10 @@
           "value": "habit"
         },
         {
+          "name": "Generation Loss MKI",
+          "value": "generationlossmki"
+        },
+        {
           "name": "Generation Loss MKII",
           "value": "generationlossmkii"
         }
@@ -1517,6 +1521,16 @@
         {
           "name": "Biscuit",
           "value": "biscuit"
+        }
+      ]
+    },
+    {
+      "name": "OPFXS",
+      "value": "OPFXS",
+      "models": [
+        {
+          "name": "V-Uno",
+          "value": "v-uno"
         }
       ]
     },
