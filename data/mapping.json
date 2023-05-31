@@ -1965,6 +1965,10 @@
       "value": "tcelectronic",
       "models": [
         {
+          "name": "Ditto X4",
+          "value": "dittox4"
+        },
+        {
           "name": "Nova Drive",
           "value": "novadrive"
         },
