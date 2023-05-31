@@ -1,0 +1,135 @@
+brand: Chase Bliss Audio
+cc:
+- name: Wow
+  value: '14'
+  description: |-
+    This control refers to the lower frequency pitch fluctuation that can affect audio played back on tape machines. Turning the control clockwise will increase
+    the depth and speed of the random pitch fluctuations
+    allowing for random vibrato and chorus sounds.
+  min: 0
+  max: '127'
+- name: Wet
+  value: '15'
+  description: 'When there are no dip switches assigned to ramp any controls, this
+    knob controls the level of the wet signal. The volume of the wet signal increases
+    as the user turns the knob clockwise. This is useful to make up for signal loss
+    due to use of the filters. If a dip switch is engaged for ramping, you can set
+    this knob to control any of the five parameters individually or simultaneously
+    (Wow, Flutter, Gen, LP, HP), and have it either modulate (Bounce) or ramp-and-hold
+    (rise or fall) via dip switches in the back of the pedal. In this case, this knob
+    controls the ramp time in which this takes place. '
+  min: 0
+  max: '127'
+- name: HP
+  value: '16'
+  description: Sets the cutoff frequency for a resonant high-pass filter. Turn clockwise
+    to sweep from no hi pass filtering, to heavy filtering. This has a “brightening”
+    effect on the audio.
+  min: 0
+  max: '127'
+- name: Flutter
+  value: '17'
+  description: While WOW describes the slow gentle pitch fluctuations, Flutter refers
+    to the relatively fast, random pitch fluctuations that are in large part responsible
+    for “that” tape sound. Instead of sounding like vibrato, flutter causes more of
+    a timbral change to the incoming audio.
+  min: 0
+  max: '127'
+- name: Gen
+  value: '18'
+  description: Gen controls the sample rate of the wet signal. At its max, the audio
+    quality is as pristine as it gets, but as you turn the knob counterclockwise,
+    the audio becomes increasingly lower quality. While not truly an aspect of analog
+    tape degradation, this control is useful to have in any lo-fi effect.
+  min: 0
+  max: '127'
+- name: LP
+  value: '19'
+  description: Sets the cutoff frequency for a resonant low pass filter. The sweep
+    is the opposite of the high pass filter, in that more of the audio is filtered
+    as you turn the knob counter clockwise. Used in conjunction with the HP knob,
+    the user can really narrow in on the high and low frequency signal attenuation
+    to get that tape sound.
+  min: 0
+  max: '127'
+- name: AUX FUNC Select
+  value: '21'
+  description: This toggle selects the function applied to the signal when the AUX
+    stomp is pressed. When the toggle is set to the MOD setting, both the WOW and
+    FLUTTER controls will be maxed out when the footswitch is activated. Setting the
+    toggle to GEN will allow the user to change between the max Gen setting and the
+    knob defined Gen setting each time the footswitch is activated. Finally, the AUX
+    stomp can be used to bypass the filters by setting the AUX FUNC toggle to FILTER.
+    Sending value 1 selects the left toggle position(MOD). Sending value 2 selects
+    the middle toggle position(Gen). Sending value 3 selects the right toggle position(Filter).
+  min: '1'
+  max: '3'
+- name: DRY Select
+  value: '22'
+  description: This toggle selects the amount of dry signal that is mixed in with
+    the wet signal. The user can select from NONE, SMALL, or UNITY. When set to SMALL,
+    a little bit of the dry signal will be mixed in. There is a trim pot that allows
+    the user to select how present the dry signal will be. When set to UNITY, the
+    dry signal will be set to the same level as your bypassed tone. This can also
+    be adjusted via internal trimmer.Sending value 1 selects the left toggle position(None).
+    Sending value 2 selects the middle toggle position(Small). Sending value 3 selects
+    the right toggle position(Unity).
+  min: '1'
+  max: '3'
+- name: HISS Select
+  value: '23'
+  description: Selects between three levels of noise, from none, to quite a bit. These
+    noise generators are a mixture of white noise and flutter distortion and can be
+    sculpted with the high pass and low pass filters.Sending value 1 selects the left
+    toggle position(None). Sending value 2 selects the middle toggle position(Mild).
+    Sending value 3 selects the right toggle position(Heavy).
+  min: '1'
+  max: '3'
+- name: Expression
+  value: '100'
+  description: The Wow, HP, Flutter, Gen, and LP dip switches in the left bank allow
+    you to control parameters via Expression Pedal / CV. If you have something plugged
+    into the EXP / CV jack but do not have any parameters selected via dip switch,
+    you can control the Wet knob via expression or CV. It behaves like it has “rise”
+    and “bottom” sweep dip switches engaged. The range of the expression / CV is controlled
+    by the parameter knob position and the “Sweep” dip switch. For example, if you
+    wanted an expression pedal to control the WOW parameter from the least possible
+    to halfway, you would make sure the “Sweep” dip switch is in the bottom position
+    and set the WOW knob around noon. If you need more WOW, you simply turn the WOW
+    knob clockwise. This will increase the maximum range of the expression pedal.
+    This allows you to control multiple parameters with an expression pedal, but you
+    can fine tune the range that you want for each parameter. Sending a value 0 would
+    be equivalent to an expression pedal being completely “off”, while sending 127
+    is equivalent to a fully depressed expression pedal. All numbers in between correspond
+    to knob positions in between those extremes. As always, the dip switches on the
+    pedal select which parameter(s) are being controlled via expression.
+  min: 0
+  max: '127'
+- name: AUX FUNC
+  value: '101'
+  description: Activates the auxiliary function defined by the AUX FUNC toggle. This
+    stomp can also be set to latching or momentary active via a dip switch on the
+    back. Sending value 127 engages AUX FUNC. Sending value 0 bypasses.
+  min: 0
+  max: '127'
+- name: Bypass Switch
+  value: '102'
+  description: Sending value 127 engages pedal. Sending value 0 bypasses.
+  min: 0
+  max: '127'
+- name: Both Stomps
+  value: '103'
+  description: Sending value 127 engages pedal and AUX FUNC. Sending value 85 engages
+    AUX FUNC, and bypasses pedal. Sending value 45 engages pedal and bypasses AUX
+    FUNC. Sending value 0 bypasses both.
+  min: 0
+  max: '127'
+device_name: Generation Loss MKI
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
