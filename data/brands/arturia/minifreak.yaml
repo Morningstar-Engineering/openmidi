@@ -1,0 +1,216 @@
+brand: Arturia
+cc:
+- name: Mod Wheel
+  value: '1'
+  description: ''
+  min: 0
+  max: '127'
+- name: Pedal Sustain
+  value: '64'
+  description: ''
+  min: 0
+  max: '127'
+- name: Pedal Glide
+  value: '5'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 1 Tune
+  value: '70'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 1 Wave
+  value: '14'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 1 Timbre
+  value: '15'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 1 Shape
+  value: '16'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 1 Volume
+  value: '17'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 2 Tune
+  value: '73'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 2 Wave
+  value: '18'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 2 Timbre
+  value: '19'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 2 Shape
+  value: '20'
+  description: ''
+  min: 0
+  max: '127'
+- name: Osc 2 Volume
+  value: '21'
+  description: ''
+  min: 0
+  max: '127'
+- name: Analog Filter Cutoff
+  value: '74'
+  description: ''
+  min: 0
+  max: '127'
+- name: Analog Filter Resonance
+  value: '71'
+  description: ''
+  min: 0
+  max: '127'
+- name: Analog Filter VCF Envelope
+  value: '24'
+  description: ''
+  min: 0
+  max: '127'
+- name: Analog Filter Vel Env Mod
+  value: '94'
+  description: ''
+  min: 0
+  max: '127'
+- name: Cycling Env Rise Shape
+  value: '68'
+  description: ''
+  min: 0
+  max: '127'
+- name: Cycling Env Rise
+  value: '76'
+  description: ''
+  min: 0
+  max: '127'
+- name: Cycling Env Fall
+  value: '77'
+  description: ''
+  min: 0
+  max: '127'
+- name: Cycling Env Hold
+  value: '78'
+  description: ''
+  min: 0
+  max: '127'
+- name: Cycling Env Fall Shape
+  value: '69'
+  description: ''
+  min: 0
+  max: '127'
+- name: Envelope Attack
+  value: '80'
+  description: ''
+  min: 0
+  max: '127'
+- name: Envelope Decay
+  value: '81'
+  description: ''
+  min: 0
+  max: '127'
+- name: Envelope Sustain
+  value: '82'
+  description: ''
+  min: 0
+  max: '127'
+- name: Envelope Release
+  value: '83'
+  description: ''
+  min: 0
+  max: '127'
+- name: LFO 1 Rate
+  value: '85'
+  description: ''
+  min: 0
+  max: '127'
+- name: LFO 2 Rate
+  value: '87'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 1 Time
+  value: '22'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 1 Intensity
+  value: '23'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 1 Amount
+  value: '25'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 2 Time
+  value: '26'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 2 Intensity
+  value: '27'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 2 Amount
+  value: '28'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 3 Time
+  value: '29'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 3 Intensity
+  value: '30'
+  description: ''
+  min: 0
+  max: '127'
+- name: Effect 3 Amount
+  value: '31'
+  description: ''
+  min: 0
+  max: '127'
+- name: Sequencer Gate
+  value: '115'
+  description: ''
+  min: 0
+  max: '127'
+- name: Sequencer Spice
+  value: '116'
+  description: ''
+  min: 0
+  max: '127'
+- name: Macro 1
+  value: '117'
+  description: ''
+  min: 0
+  max: '127'
+- name: Macro 2
+  value: '118'
+  description: ''
+  min: 0
+  max: '127'
+device_name: MiniFreak
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

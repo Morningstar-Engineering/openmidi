@@ -21,6 +21,10 @@
         {
           "name": "MicroFreak",
           "value": "microfreak"
+        },
+        {
+          "name": "MiniFreak",
+          "value": "minifreak"
         }
       ]
     },
