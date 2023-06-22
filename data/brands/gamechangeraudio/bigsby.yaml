@@ -1,0 +1,204 @@
+brand: Gamechanger Audio
+midi_in: ''
+midi_thru: ''
+phantom_power: ''
+midi_clock: ''
+cc:
+  - name: 'Rate MSB'
+    value: 14
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Rate LSB'
+    value: 46
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Detune MSB'
+    value: 15
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Detune LSB'
+    value: 47
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Blend MSB'
+    value: 20
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Blend LSB'
+    value: 52
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pitch down range'
+    value: 21
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pitch up range'
+    value: 22
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Tone MSB'
+    value: 23
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Tone LSB'
+    value: 55
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out range MSB'
+    value: 24
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out range LSB'
+    value: 56
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out offset MSB'
+    value: 25
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out offset LSB'
+    value: 57
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out direction'
+    value: 108
+    min: 0
+    max: 127
+    description: '0-63 normal, 64-127 inverted'
+  - name: 'Pedal position (full range)'
+    value: 27
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal position MSB'
+    value: 28
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal position LSB'
+    value: 60
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal downward MSB'
+    value: 29
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal downward LSB'
+    value: 61
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal upward MSB'
+    value: 30
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Pedal upward LSB'
+    value: 62
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Flutter trigger & amount'
+    value: 31
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Auto Mode phase offset'
+    value: 102
+    min: 0
+    max: 127
+    description: '0 deg - 180 deg'
+  - name: 'EXP out Auto Mode'
+    value: 103
+    min: 0
+    max: 127
+    description: '0-63 = OFF, 64-127 = on'
+  - name: 'EXP out override enable'
+    value: 104
+    min: 0
+    max: 127
+    description: '0-63 = OFF, 64-127 = override'
+  - name: 'EXP out override value'
+    value: 105
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out override value MSB'
+    value: 26
+    min: 0
+    max: 127
+    description: ''
+  - name: 'EXP out override value LSB'
+    value: 58
+    min: 0
+    max: 127
+    description: ''
+  - name: 'Latch'
+    value: 106
+    min: 0
+    max: 127
+    description: '106 0-63 = OFF, 64-127 = on'
+  - name: 'Latch direction'
+    value: 107
+    min: 0
+    max: 127
+    description: '0-63 = down, 64-127 up'
+device_name: Bigsby
+pc:
+  description: |+
+    List of Program Change options with associated values
+    EXP out modulated toggle (Auto Mode) 80
+    EXP out MIDI override ON 81
+    EXP out MIDI override OFF 82
+    EXP out MIDI override toggle 83
+    Synced beat division OFF 84
+    Synced beat division 2 notes 85
+    Synced beat division 1.5 notes 86
+    Synced beat division whole note 87
+    Synced beat division 3/4 88
+    Synced beat division 1/2 89
+    Synced beat division 3/8 90
+    Synced beat division 1/3 91
+    Synced beat division 1/4 92
+    Synced beat division 3/16 93
+    Synced beat division 1/6 94
+    Synced beat division 1/8 95
+    Synced beat division 1/12 96
+    Synced beat division 1/16 97
+    Synced beat division 1/24 98
+    Synced beat division 1/32 99
+    Audio bypass ON 100
+    Audio bypass OFF 101
+    Audio bypass toggle 102
+    EXP bypass ON 103
+    EXP bypass OFF 104
+    EXP bypass toggle 105
+    Audio and EXP bypass ON 106
+    Audio and EXP bypass OFF 107
+    Audio and EXP bypass toggle 108
+    Toggle between audio and EXP bypass 109
+    Latch ON 110
+    Latch OFF 111
+    Latch toggle 112
+    Latch direction up 113
+    Latch direction down 114
+    Latch direction toggle 115
+    Knob lock ON 116
+    Knob lock OFF 117
+    Knob lock toggle 118

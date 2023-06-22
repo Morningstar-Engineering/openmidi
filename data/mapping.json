@@ -699,6 +699,16 @@
       ]
     },
     {
+      "name": "Gamechanger Audio",
+      "value": "gamechangeraudio",
+      "models": [
+        {
+          "name": "Bigsby",
+          "value": "bigsby"
+        }
+      ]
+    },
+    {
       "name": "GFI System",
       "value": "gfisystem",
       "models": [
@@ -2085,7 +2095,7 @@
           "value": "polyphrase"
         }
       ]
-    },    
+    },
     {
       "name": "Waldorf",
       "value": "waldorf",
