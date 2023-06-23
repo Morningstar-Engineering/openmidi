@@ -3,6 +3,8 @@ midi_in: ''
 midi_thru: ''
 phantom_power: ''
 midi_clock: ''
+midi_channel:
+  instructions: ''
 cc:
   - name: 'Rate MSB'
     value: 14
