@@ -1,0 +1,175 @@
+brand: Behringer
+cc: 
+  - name: Volume
+    value: 7
+    description: |+
+      Adjusts the input sensitivity of the Effects module. 
+      Since this has no impact on the Master volume, set the maximum volume with master on the unit 
+      and use this control to reduce the volume below the set maximum. 
+    type: Parameter
+    min: 0
+    max: 127
+    
+  - name: Channel
+    value: 10
+    description: |+
+      Clean Channel = 0 
+      Overdrive Channel = 1
+    type: System
+    min: 0
+    max: 1
+  
+  - name: Effect Bypass
+    value: 11
+    description: 'Turns on and off the effects channel. OFF = 0, ON = 1'
+    type: System
+    min: 0
+    max: 1
+    
+  - name: Parameter Control
+    value: 12
+    description: 'Adjusts the "Parameter" control on the top panel.'
+    type: Parameter
+    min: 0
+    max: 127
+    
+  - name: Effect A Control
+    value: 13
+    description: Adjusts the "Effect A" control on the top panel. 
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Effect B Control
+    value: 14
+    description: Adjusts the "Effect B" control on the top panel. 
+    type: Parameter
+    min: 0
+    max: 127
+    
+  - name: Wah/Modulation
+    value: 15
+    description: Wah/Modulation control
+    type: Parameter
+    min: 0
+    max: 127
+    
+  - name: Store Enable
+    value: 18
+    description: Saves parameter changes to the current active preset
+    type: System
+    min: 0
+    max: 127
+
+midi_channel: 
+  instructions: |+
+    By default, the AC112 is set to receive Midi on all channels (Omni). 
+    To select a specific channel, press UP and Down buttons on the unit for about 2 seconds. 
+    Then scroll to the desired midi channel, from 1 to 16, ON=Omni, OF = Off. 
+    Press the enter button to confirm your selection. The midi LED flashes when receiving data. 
+
+pc: 
+  description: |+
+    The list below shows the PC number and the accompanied Description of the effect, based on Factory Defaults. 
+    The default settings can be modified by the user, which may impact the accuracy of adjectives like "short" or "long". 
+    However the Effect type should be accurate regardless. 
+    Number     Description   
+    0          1 - Spring Reverb - Short Pre-Delay
+    1          2 - Spring Reverb - Long Pre-Delay
+    2          3 - Studio - Short Pre-Delay
+    3          4 - Studio - Long Pre-Delay
+    4          5 - Chamber - Short Pre-Delay
+    5          6 - Chamber - Long Pre-Delay
+    6          7 - Stage - Short Pre-Delay
+    7          8 - Stage - Long Pre-Delay
+    8          9 - Concert - Short Pre-Delay
+    9          10 - Concert - Long Pre-Delay
+    10         11 - Plate - Short Pre-Delay
+    11         12 - Plate - Long Pre-Delay
+    12         13 - Gated Reverb - Min. Density
+    13         14 - Gated Reverb - Max. Density
+    14         15 - Ambience - Min. Reflections
+    15         16 - Ambience - Max. Reflections
+    16         17 - Wah/Delay/Distortion - Feedback 0%
+    17         18 - Wah/Delay/Distortion - Feedback 10%
+    18         19 - Wah/Delay/Distortion - Feedback 30%
+    19         20 - Delay/Reverb
+    20         21 - Delay (Stereo) - Min. Feedback
+    21         22 - Delay (Stereo) - Low Feedback
+    22         23 - Delay (Stereo) - High Feedback
+    23         24 - Delay (Stereo) - Max. Feedback
+    24         25 - Delay (long mono) A
+    25         26 - Delay (long mono) B
+    26         27 - Delay (long mono) C
+    27         28 - Delay (long mono) D
+    28         29 - Delay (long mono) E
+    29         30- Phaser - Feedback 0%
+    30         31- Phaser - Feedback 62% A
+    31         32 - Phaser - Feedback 62% B
+    32         33 - Phaser - Feedback 77%
+    33         34 - Chorus - Fat
+    34         35 - Chorus - Slow
+    35         36 - Chorus - Stereo Fast
+    36         37 - Chorus - Stereo Slow
+    37         38 - Chorus/Reverb - Ultra
+    38         39 - Chorus/Reverb - Slow
+    39         40 - Chorus/Reverb - Medium I
+    40         41 - Chorus/Reverb - Medium II
+    41         42 - Chorus/Reverb - Fast
+    42         43 - Chorus/Delay - Ultra
+    43         44 - Chorus/Delay - Slow
+    44         45 - Chorus/Delay - Medium I
+    45         46 - Chorus/Delay - Medium II
+    46         47 - Chorus/Delay - Hold
+    47         48 - Flanger - Fat
+    48         49 - Flanger - Classic
+    49         50 - Flanger - Stereo Fast
+    50         51 - Flanger - Stereo Slow
+    51         52 - Flanger/Reverb - Ultra
+    52         53 - Flanger/Reverb - Slow
+    53         54 - Flanger/Reverb - Medium I
+    54         55 - Flanger/Reverb - Medium II
+    55         56 - Flanger/Reverb - Fast
+    56         57 - Flanger/Delay - Ultra
+    57         58 - Flanger/Delay - Slow
+    58         59 - Flanger/Delay - Medium I
+    59         60 - Flanger/Delay - Medium II
+    60         61 - Flanger/Delay - Fast
+    61         62 - Stereo Tremolo - Slow
+    62         63 - Stereo Tremolo - Fast
+    63         64 - Tremolo/Delay - Slow
+    64         65 - Tremolo/Delay - Ultra
+    65        66 - Tremolo/Delay - Medium
+    66         67 - Rotary Speaker - Slow
+    67         68 - Rotary Speaker - Fast
+    68         69 - Magic Drive - Fast
+    69         70 - Magic Drive - Slow
+    70         71 - Auto Wah - Fast
+    71         72 - Auto Wah - Slow
+    72         73 - LFO Wah - Slow
+    73         74 - LFO Wah - Fast
+    74         75 - Pitch Shifter (-12)
+    75         76 - Pitch Shifter (-5)
+    76         77 - Pitch Shifter (+3)
+    77         78 - Pitch Shifter (+4)
+    78         79 - Pitch Shifter (+9)
+    79         80 - Pitch Shifter (+4%)
+    80         81 - Pitch Shifter (+8%)
+    81         82 - Pitch Shifter/Reverb (-12)
+    82         83 - Pitch Shifter/Reverb (+3)
+    83         84 - Pitch Shifter/Reverb (+4%)
+    84         85 - Pitch Shifter/Reverb (+8%)
+    85         86 - Pitch Shifter/Delay (-12)
+    86         87 - Pitch Shifter/Delay (-5)
+    87         88 - Pitch Shifter/Delay (+4)
+    88         89 - Pitch Shifter/Delay (+7)
+    89         90 - Compressor - Fast
+    90         91 - Compressor - Slow
+    91         92 - Expander - Hell
+    92         93 - Expander - Heaven
+    93         94 - Guitar Combo A
+    94         95 - Guitar Combo B
+    95         96 - Guitar Combo C
+    96         97 - Speaker Cabinet - Stack A
+    97         98 - Speaker Cabinet - Stack B
+    98         99 - Speaker Cabinet - Combo

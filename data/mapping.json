@@ -135,10 +135,6 @@
       "value": "behringer",
       "models": [
         {
-          "name": "X-Air",
-          "value": "xair"
-        },
-        {
           "name": "Deepmind 12",
           "value": "deepmind12"
         },
@@ -149,6 +145,14 @@
         {
           "name": "Deepmind 6",
           "value": "deepmind6"
+        },
+        {
+          "name": "Vintager AC112",
+          "value": "AC112"
+        },
+        {
+          "name": "X-Air",
+          "value": "xair"
         }
       ]
     },
