@@ -111,7 +111,7 @@ cc:
   - description: null
     max: 2
     min: 2
-    name: Change Mode - Stom
+    name: Change Mode - Stomp
     value: 47
   - name: Open / Close Looper UI
     value: 48
