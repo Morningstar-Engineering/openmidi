@@ -859,6 +859,10 @@
       "value": "jetpedals",
       "models": [
         {
+          "name": "Lamb",
+          "value": "lamb"
+        },
+        {
           "name": "Revelation Reverb 2.0",
           "value": "revelationreverb20"
         }
