@@ -1,0 +1,54 @@
+brand: Decibel Eleven
+cc:
+- name: " Loop 1 On"
+  value: '80'
+  description: 'The Loop Expander works either by receiving Program Changes to recall
+    loop(s) (in "mode 1"), while it can turn off and on loops via Control Changes
+    in "modes" 2, 3, 4 and 5. Above is "mode" 2. '
+  min: '127'
+  max: '127'
+- name: Loop 1 Off
+  value: '80'
+  description: ''
+  min: 0
+  max: 0
+- name: Loop 2 On
+  value: '81'
+  description: ''
+  min: '127'
+  max: '127'
+- name: Loop 2 Off
+  value: '81'
+  description: ''
+  min: 0
+  max: 0
+- name: Loop 3 On
+  value: '82'
+  description: ''
+  min: '127'
+  max: '127'
+- name: Loop 3 Off
+  value: '82'
+  description: ''
+  min: 0
+  max: 0
+- name: Loop 4 On
+  value: '83'
+  description: ''
+  min: '127'
+  max: '127'
+- name: Loop 4 Off
+  value: '83'
+  description: ''
+  min: 0
+  max: 0
+
+device_name: Loop Expander
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -319,6 +319,16 @@
       ]
     },
     {
+      "name": "Decibel Eleven",
+      "value": "decibeleleven",
+      "models": [
+        {
+          "name": "Loop Expander",
+          "value": "loopexpander"
+        }
+      ]
+    },
+    {
       "name": "DigiTech",
       "value": "digitech",
       "models": [
