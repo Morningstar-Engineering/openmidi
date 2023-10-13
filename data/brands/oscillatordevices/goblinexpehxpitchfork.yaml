@@ -1,0 +1,90 @@
+brand: Oscillator Devices
+cc:
+- description: 'Turn off (with Latch mode activated)'
+  max: 0
+  min: 0
+  name: Turn Off
+  type: System
+  value: 10
+- description: 'Turn on (with Latch mode activated)'
+  max: 1
+  min: 1
+  name: Turn On
+  type: System
+  value: 10
+- description: 'Toggle (with Latch mode activated)'
+  max: 2
+  min: 2
+  name: Toggle
+  type: System
+  value: 10
+- description: 'Hold (with Latch mode deactivated)'
+  max: 3
+  min: 3
+  name: Hold
+  type: System
+  value: 10
+- description: 'Release (with Latch mode deactivated)'
+  max: 4
+  min: 4
+  name: Release
+  type: System
+  value: 10
+- description: 'Unity (0) to full shift (127)'
+  max: 127
+  min: 0
+  name: Pitch Full
+  type: Parameter
+  value: 50
+- description: 'Full shift (0) to unity (127)'
+  max: 127
+  min: 0
+  name: Pitch Full Reverse
+  type: Parameter
+  value: 51
+- description: 'Unity (0) to half shift (127) with full resolution'
+  max: 127
+  min: 0
+  name: Pitch to Half
+  type: Parameter
+  value: 52
+- description: 'Half shift (0) to full shift (127) with full resolution'
+  max: 127
+  min: 0
+  name: Pitch Half to Full
+  type: Parameter
+  value: 53
+- description: 'Dual (Shift up and down)'
+  max: 0
+  min: 0
+  name: Dual Mode
+  type: System
+  value: 30
+- description: 'Shift up'
+  max: 1
+  min: 1
+  name: Up Mode
+  type: System
+  value: 30
+- description: 'Shift down'
+  max: 5
+  min: 5
+  name: Down Mode
+  type: System
+  value: 30
+device_name: Goblin-EXP in EHX Pitch Fork
+midi_channel:
+  instructions: |+
+    The Goblin's MIDI channel is adjustable. To change the MIDI channel, proceed as follows
+    1. Disconnect the device from the power supply
+    2. Press the bypass button and restore the power supply while it is pressed. The device starts to flash its LED after the startup delay has elapsed.
+    3. Press the button according to the number of the desired channel (e.g. twice for channel 2). The Goblin acknowledges this by emitting short flashing impulses according to the number of the channel.
+    4. Once the desired channel is set, press the button and hold it down until the Goblin switches off completely.
+    5. Disconnect supply voltage. The next time the Goblin is started, it reacts to the selected MIDI channel.
+    To put the Goblin in omni mode (i.e. it responds to every channel) skip step 3.
+midi_clock: 'No'
+midi_in: 'TRS'
+midi_thru: 'Yes'
+pc:
+  description: ''
+phantom_power: 'No'

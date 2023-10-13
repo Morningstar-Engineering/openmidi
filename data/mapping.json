@@ -1567,6 +1567,16 @@
       ]
     },
     {
+      "name": "Oscillator Devices",
+      "value": "oscillatordevices",
+      "models": [
+        {
+          "name": "Goblin-EXP in EHX Pitch Fork",
+          "value": "goblinexpehxpitchfork"
+        }
+      ]
+    },
+    {
       "name": "Panda Audio",
       "value": "pandaaudio",
       "models": [
