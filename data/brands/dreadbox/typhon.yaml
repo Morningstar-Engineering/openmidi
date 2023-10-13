@@ -95,7 +95,7 @@ cc:
   min: 0
   name: VCA EG Time
   value: 34
-device_name: Typhoon
+device_name: Typhon
 midi_channel:
   instructions: ''
 midi_clock: ''
