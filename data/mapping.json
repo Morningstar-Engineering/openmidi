@@ -1611,6 +1611,16 @@
       ]
     },
     {
+      "name": "Poly Effects",
+      "value": "polyeffects",
+      "models": [
+        {
+          "name": "Flat V",
+          "value": "flatv"
+        }
+      ]
+    },
+    {
       "name": "Positive Grid",
       "value": "positivegrid",
       "models": [

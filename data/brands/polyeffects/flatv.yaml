@@ -1,0 +1,145 @@
+midi_in: 3.5mm TRS Type A
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    To set the MIDI channel, tap the LED diode icon three times quickly.   
+ 
+    The preset number buttons will light, press one of these to set a MIDI channel from 1-6.
+instructions:
+
+pc:
+  description: |+
+    Send a program change message to change presets from MIDI. 
+    PC 5 will change to preset 5 bank 1, 
+    PC 7 will change to preset 1 bank 2.  
+    The PC number is (bank number - 1)  * 6 + preset number.
+cc:
+  - name: Diode - Schottky
+    value: 38
+    description: 'Set Channel A Diode'
+    type: Parameter
+    min: 0
+    max: 31
+  - name: Diode - Germanium
+    value: 38
+    description: 'Set Channel A Diode'
+    type: Parameter
+    min: 32
+    max: 63
+  - name: Diode - Silicon
+    value: 38
+    description: 'Set Channel A Diode'
+    type: Parameter
+    min: 64
+    max: 95
+  - name: Diode - LED
+    value: 38
+    description: 'Set Channel A Diode'
+    type: Parameter
+    min: 96
+    max: 127
+  - name: Set LFO - Sine
+    value: 39
+    description: 'Set Channel B LFO'
+    type: Parameter
+    min: 0
+    max: 31
+  - name: Set LFO - Triangle
+    value: 39
+    description: 'Set Channel B LFO'
+    type: Parameter
+    min: 32
+    max: 63
+  - name: Set LFO - Square
+    value: 39
+    description: 'Set Channel B LFO'
+    type: Parameter
+    min: 63
+    max: 95
+  - name: Set LFO - Envelope
+    value: 39
+    description: 'Set Channel B LFO'
+    type: Parameter
+    min: 96
+    max: 127
+  - name: Channel B - Side 1
+    value: 40
+    description: 'Activate Side 1 of Channel B'
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Channel B - Side 2
+    value: 10
+    description: 'Activate Side 2 of Channel B'
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Channel - Bypass Both
+    value: 41
+    description: 'Set active/bypass of Channels A and B'
+    type: Parameter
+    min: 0
+    max: 31
+  - name: Channel - A Active
+    value: 41
+    description: 'Set active/bypass of Channels A and B'
+    type: Parameter
+    min: 32
+    max: 63
+  - name: Channel - B Active
+    value: 41
+    description: 'Set active/bypass of Channels A and B'
+    type: Parameter
+    min: 64
+    max: 95
+  - name: Channel - A and B Active
+    value: 41
+    description: 'Set active/bypass of Channels A and B'
+    type: Parameter
+    min: 96
+    max: 127
+  - name: Routing - A to B
+    value: 42
+    description: 'Set routing of Channels A and B'
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Routing - B to A
+    value: 42
+    description: 'Set routing of Channels A and B'
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Visualisation Mode
+    value: 43
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Battery Mode
+    value: 44
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Is Blending
+    value: 45
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dump Presets
+    value: 85
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Blend Override
+    value: 1
+    description: '0-127 is A to B blend. Use this connected to an expression pedal or mod wheel.'
+    type: Parameter
+    min: 0
+    max: 127
