@@ -1,0 +1,210 @@
+brand: Melbourne Instruments
+cc:
+- name: bank Select (MSB)
+  value: 0
+  description: bank Select (MSB)
+  min: 0
+  max: '127'
+- name: Mod Wheel
+  value: '1'
+  description: 'Mod Wheel '
+  min: 0
+  max: '127'
+- name: Mod Matrix MIDI Source
+  value: '2'
+  description: Mod Matrix MIDI Source
+  min: 0
+  max: '127'
+- name: 'Glide Rate '
+  value: '5'
+  description: 'Glide Rate '
+  min: 0
+  max: '127'
+- name: Patch Volume
+  value: '7'
+  description: Patch Volume
+  min: 0
+  max: '127'
+- name: 'Pan '
+  value: '10'
+  description: 'Pan '
+  min: 0
+  max: '127'
+- name: 'Expression Source '
+  value: '11'
+  description: Expression Source CC11
+  min: 0
+  max: '127'
+- name: 'Effect Level '
+  value: '12'
+  description: Effect Level CC12
+  min: 0
+  max: '127'
+- name: Osc 1 tune
+  value: '14'
+  description: Osc 1 tune CC14
+  min: 0
+  max: '127'
+- name: 'Osc 2 tune '
+  value: '15'
+  description: Osc 2 tune CC15
+  min: 0
+  max: '127'
+- name: Osc 3 tune
+  value: '16'
+  description: Osc 3 tune CC16
+  min: 0
+  max: '127'
+- name: 'Osc 1 width '
+  value: '17'
+  description: Osc 1 width CC17
+  min: 0
+  max: '127'
+- name: 'Osc 2 width '
+  value: '18'
+  description: Osc 2 width CC18
+  min: 0
+  max: '127'
+- name: Osc 3 width
+  value: '19'
+  description: Osc 3 width CC19
+  min: 0
+  max: '127'
+- name: Osc 1 Blend
+  value: '20'
+  description: Osc 1 Blend CC20
+  min: 0
+  max: '127'
+- name: 'Osc 2 Blend '
+  value: '21'
+  description: Osc 2 Blend CC21
+  min: 0
+  max: '127'
+- name: 'Osc 3 Level '
+  value: '22'
+  description: Osc 3 Level cc22
+  min: 0
+  max: '127'
+- name: 'LFO 1 Rate '
+  value: '23'
+  description: LFO 1 Rate cc23
+  min: 0
+  max: '127'
+- name: 'Osc 1 Level '
+  value: '24'
+  description: Osc 1 Level cc24
+  min: 0
+  max: '127'
+- name: 'Osc 2 Level '
+  value: '25'
+  description: Osc 2 Level cc25
+  min: 0
+  max: '127'
+- name: 'Noise Level '
+  value: '26'
+  description: Noise Level cc26
+  min: 0
+  max: '127'
+- name: 'LFO 1 Level '
+  value: '27'
+  description: LFO 1 Level cc27
+  min: 0
+  max: '127'
+- name: 'Resonance '
+  value: '28'
+  description: Resonance cc28
+  min: 0
+  max: '127'
+- name: 'Cutoff '
+  value: '29'
+  description: Cutoff cc29
+  min: 0
+  max: '127'
+- name: 'Drive '
+  value: '30'
+  description: Drive cc30
+  min: 0
+  max: '127'
+- name: " Env Amount "
+  value: '31'
+  description: " Env Amount cc31"
+  min: 0
+  max: '127'
+- name: 'Param. 0 Bank Select (MSB) 32 Bank Select (LSB) 00-31 selects Banks 1-32 '
+  value: '32'
+  description: |
+    Param.
+    0 Bank Select (MSB) 32 Bank Select (LSB) 00-31 selects Banks 1-32 cc32
+  min: 0
+  max: '127'
+- name: 'EG1 Attack '
+  value: '33'
+  description: EG1 Attack cc33
+  min: 0
+  max: '127'
+- name: 'EG1 Decay '
+  value: '34'
+  description: EG1 Decay cc34
+  min: 0
+  max: '127'
+- name: EG1 Sustain
+  value: '35'
+  description: EG1 Sustain cc35
+  min: 0
+  max: '127'
+- name: " EG1 Release "
+  value: '36'
+  description: " EG1 Release cc36"
+  min: 0
+  max: '127'
+- name: 'EG2 Attack '
+  value: '37'
+  description: EG2 Attack cc37
+  min: 0
+  max: '127'
+- name: "(Reserved) Data Entry LSB for RPN/NRPN "
+  value: '38'
+  description: "(Reserved) Data Entry LSB for RPN/NRPN cc38"
+  min: 0
+  max: '127'
+- name: 'EG2 Decay '
+  value: '39'
+  description: EG2 Decay cc39
+  min: 0
+  max: '127'
+- name: 'EG2 Sustain '
+  value: '40'
+  description: EG2 Sustain cc40
+  min: 0
+  max: '127'
+- name: " EG2 Release "
+  value: '41'
+  description: " EG2 Release cc41"
+  min: 0
+  max: '127'
+- name: 'Spin '
+  value: '42'
+  description: Spin cc42
+  min: 0
+  max: '127'
+- name: 'Morph '
+  value: '43'
+  description: Morph cc43
+  min: 0
+  max: '127'
+- name: 'Morph '
+  value: '44'
+  description: Morph cc44
+  min: '127'
+  max: 0
+
+device_name: Nina
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
+url: 'https://static1.squarespace.com/static/61516d07b4fcfe7439d39b38/t/650d374b978f574d1d21fa85/1695364971077/NINA-UserManual-1-3-2-Sept-2023.pdf'

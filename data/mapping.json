@@ -1309,6 +1309,16 @@
       ]
     },
     {
+      "name": "Melbourne Instruments",
+      "value": "melbourneinstruments",
+      "models": [
+        {
+          "name": "Nina",
+          "value": "nina"
+        }
+      ]
+    },
+    {
       "name": "Mutable Instruments",
       "value": "mutableinstruments",
       "models": [
