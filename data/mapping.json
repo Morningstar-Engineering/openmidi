@@ -281,6 +281,10 @@
           "value": "mood"
         },
         {
+          "name": "Mood MkII",
+          "value": "moodmkii"
+        },
+        {
           "name": "Preamp MkII",
           "value": "preampmkii"
         },
@@ -1577,6 +1581,16 @@
       ]
     },
     {
+      "name": "Oscillator Devices",
+      "value": "oscillatordevices",
+      "models": [
+        {
+          "name": "Goblin-EXP in EHX Pitch Fork",
+          "value": "goblinexpehxpitchfork"
+        }
+      ]
+    },
+    {
       "name": "Panda Audio",
       "value": "pandaaudio",
       "models": [
@@ -1607,6 +1621,16 @@
         {
           "name": "Infinity",
           "value": "infinity"
+        }
+      ]
+    },
+    {
+      "name": "Poly Effects",
+      "value": "polyeffects",
+      "models": [
+        {
+          "name": "Flat V",
+          "value": "flatv"
         }
       ]
     },
