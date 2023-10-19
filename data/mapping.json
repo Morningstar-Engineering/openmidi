@@ -207,6 +207,10 @@
           "value": "dd-500"
         },
         {
+          "name": "DM-101",
+          "value": "dm-101"
+        },
+        {
           "name": "GT1000 Core",
           "value": "gt1000core"
         },

@@ -1,0 +1,52 @@
+brand: BOSS
+cc:
+- name: DELAY TIME
+  value: '17'
+  description: ''
+  min: 0
+  max: '127'
+- name: INTENSITY
+  value: '18'
+  description: ''
+  min: 0
+  max: '127'
+- name: VOLUME
+  value: '19'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD. RATE
+  value: '20'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD. DEPTH
+  value: '21'
+  description: ''
+  min: 0
+  max: '127'
+- name: VARIATION
+  value: '20'
+  description: ''
+  min: 0
+  max: '127'
+- name: EFFECT ON / OFF
+  value: '27'
+  description: 0-63=OFF, 64-127=ON
+  min: 0
+  max: '127'
+- name: TAP
+  value: '82'
+  description: 0-63=OFF, 64-127=ON
+  min: 0
+  max: '127'
+device_name: DM-101
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
+url: https://static.roland.com/assets/media/pdf/DM-101_MIDI_Implementation_eng01_W.pdf
