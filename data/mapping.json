@@ -11,6 +11,16 @@
       ]
     },
     {
+      "name": "Aerospace Audio",
+      "value": "aerospaceaudio",
+      "models": [
+        {
+          "name": "Atmosphere v2",
+          "value": "atmospherev2"
+        }
+      ]
+    },
+    {
       "name": "Arturia",
       "value": "arturia",
       "models": [

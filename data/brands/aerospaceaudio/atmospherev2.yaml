@@ -1,0 +1,181 @@
+cc:
+- name: Abort
+  value: 0
+  description: Stops engaged soundscape
+  min: 0
+  max: 0
+- name: Engage
+  value: 0
+  description: Engages cued soundscape
+  min: '1'
+  max: '1'
+- name: Bank -
+  value: '1'
+  description: Decrements Bank
+  min: 0
+  max: 0
+- name: Select Bank
+  value: '1'
+  description: Cues Bank 1-10
+  min: '1'
+  max: '10'
+- name: Bank +
+  value: '1'
+  description: Increments Bank
+  min: '11'
+  max: '11'
+- name: Patch -
+  value: '2'
+  description: Decrements Patch
+  min: 0
+  max: 0
+- name: Select Patch
+  value: '2'
+  description: Cues Patch 1-5
+  min: '1'
+  max: '5'
+- name: Patch +
+  value: '2'
+  description: Increments Patch
+  min: '6'
+  max: '6'
+- name: Key -
+  value: '3'
+  description: Increments Key
+  min: 0
+  max: 0
+- name: A
+  value: '3'
+  description: Cues Key of A
+  min: '1'
+  max: '1'
+- name: A#
+  value: '3'
+  description: Cues Key of A#
+  min: '2'
+  max: '2'
+- name: B
+  value: '3'
+  description: Cues Key of B
+  min: '3'
+  max: '3'
+- name: C
+  value: '3'
+  description: Cues Key of C
+  min: '4'
+  max: '4'
+- name: C#
+  value: '3'
+  description: Cues Key of C#
+  min: '5'
+  max: '5'
+- name: D
+  value: '3'
+  description: Cues Key of D
+  min: '6'
+  max: '6'
+- name: D#
+  value: '3'
+  description: Cues Key of D#
+  min: '7'
+  max: '7'
+- name: E
+  value: '3'
+  description: Cues Key of E
+  min: '8'
+  max: '8'
+- name: F
+  value: '3'
+  description: Cues Key of F
+  min: '9'
+  max: '9'
+- name: F#
+  value: '3'
+  description: Cues Key of F#
+  min: '10'
+  max: '10'
+- name: G
+  value: '3'
+  description: Cues Key of G
+  min: '11'
+  max: '11'
+- name: G#
+  value: '3'
+  description: Cues Key of G#
+  min: '12'
+  max: '12'
+- name: Key +
+  value: '3'
+  description: Increments Key
+  min: '13'
+  max: '13'
+- name: Song -
+  value: '4'
+  description: Decrements setlist selection
+  min: 0
+  max: 0
+- name: Select Song
+  value: '4'
+  description: 'Cues setlist selection: Song 1-10'
+  min: '1'
+  max: '10'
+- name: Song +
+  value: '4'
+  description: Increments setlist selection
+  min: '11'
+  max: '11'
+- name: Toggle View
+  value: '4'
+  description: Toggles between Live View and Setlist View
+  min: '12'
+  max: '12'
+- name: Live View
+  value: '4'
+  description: Cues Live View
+  min: '13'
+  max: '13'
+- name: Setlist View
+  value: '4'
+  description: Cues Setlist View
+  min: '14'
+  max: '14'
+- name: Clear Setlist
+  value: '4'
+  description: Clears setlist
+  min: '15'
+  max: '15'
+- name: 'Adjust Volume: Instant'
+  value: '10'
+  description: Instantly sets volume to value (best for dynamic / expression mapped
+    value)
+  min: 0
+  max: '127'
+- name: 'Adjust Volume: Smooth'
+  value: '11'
+  description: Smoothly fades volume to value (best for static / button triggered
+    value)
+  min: 0
+  max: '127'
+- name: Crossfade
+  value: '12'
+  description: Adjusts crossfade duration
+  min: 0
+  max: '127'
+- name: 'Loop: Off'
+  value: '13'
+  description: Turns off soft-looping of soundscapes
+  min: 0
+  max: 0
+- name: 'Loop: On'
+  value: '13'
+  description: "Turns on soft-looping of soundscapes\t"
+  min: '1'
+  max: '1'
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
