@@ -1,0 +1,43 @@
+brand: 'Marshall'
+cc:
+- name: Effect loop off
+  value: '13'
+  description: Turns off the effect loop
+  min: 0
+  max: 0
+- name: Effect loop on
+  value: '13'
+  description: Turns on the effect loop
+  min: '1'
+  max: '1'
+- name: Effect loop toggle on/off
+  value: '13'
+  description: Toggles between "Effect loop on" and "Effect loop off"
+  min: '2'
+  max: '127'
+- name: Master Volume Green
+  value: '14'
+  description: Sets the "Master Volume" to green (Master Volume 1)
+  min: 0
+  max: 0
+- name: Master Volume Red
+  value: '14'
+  description: Sets the "Master Volume" to red (Master Volume 2)
+  min: '1'
+  max: '1'
+- name: Master Volume Toggle
+  value: '14'
+  description: Toggles between "Master Volume green (Master Volume 1)" and Master
+    Volume red (Master Volume 2)
+  min: '2'
+  max: '127'
+
+device_name: DSL40CR
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -1105,6 +1105,16 @@
       ]
     },
     {
+      "name": "Marshall",
+      "value": "marshall",
+      "models": [
+        {
+          "name": "DSL40CR",
+          "value": "dsl40cr"
+        }
+      ]
+    },
+    {
       "name": "Meeblip",
       "value": "meeblip",
       "models": [
