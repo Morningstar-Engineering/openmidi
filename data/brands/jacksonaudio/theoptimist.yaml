@@ -1,0 +1,30 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+pc:
+  description: |-
+
+cc:
+  - name: OD 1 ON/OFF
+    value: '1'
+    description: 'Overdrive #1 (127 = ON, 0 = OFF)'
+    min: 0
+    max: '127'
+  - name: OD 2 ON/OFF
+    value: '2'
+    description: 'Overdrive #2 (127 = ON, 0 = OFF)'
+    min: 0
+    max: '127'
+  - name: EQ ON/OFF
+    value: '3'
+    description: EQ (127 = ON, 0 = OFF)
+    min: 0
+    max: '127'
+
+    
