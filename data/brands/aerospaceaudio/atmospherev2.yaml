@@ -14,10 +14,55 @@ cc:
   description: Decrements Bank
   min: 0
   max: 0
-- name: Select Bank
+- name: Select Bank 1
   value: '1'
-  description: Cues Bank 1-10
+  description: Cues Bank 1
   min: '1'
+  max: '1'
+- name: Select Bank 2
+  value: '1'
+  description: Cues Bank 2
+  min: '2'
+  max: '2'
+- name: Select Bank 3
+  value: '1'
+  description: Cues Bank 3
+  min: '3'
+  max: '3'
+- name: Select Bank 4
+  value: '1'
+  description: Cues Bank 4
+  min: '4'
+  max: '4'
+- name: Select Bank 5
+  value: '1'
+  description: Cues Bank 5
+  min: '5'
+  max: '5'
+- name: Select Bank 6
+  value: '1'
+  description: Cues Bank 6
+  min: '6'
+  max: '6'
+- name: Select Bank 7
+  value: '1'
+  description: Cues Bank 7
+  min: '7'
+  max: '7'
+- name: Select Bank 8
+  value: '1'
+  description: Cues Bank 8
+  min: '8'
+  max: '8'
+- name: Select Bank 9
+  value: '1'
+  description: Cues Bank 9
+  min: '9'
+  max: '9'
+- name: Select Bank 10
+  value: '1'
+  description: Cues Bank 10
+  min: '10'
   max: '10'
 - name: Bank +
   value: '1'
@@ -29,10 +74,30 @@ cc:
   description: Decrements Patch
   min: 0
   max: 0
-- name: Select Patch
+- name: Select Patch 1
   value: '2'
-  description: Cues Patch 1-5
+  description: Cues Patch 1
   min: '1'
+  max: '1'
+- name: Select Patch 2
+  value: '2'
+  description: Cues Patch 2
+  min: '2'
+  max: '2'
+- name: Select Patch 3
+  value: '2'
+  description: Cues Patch 3
+  min: '3'
+  max: '3'
+- name: Select Patch 4
+  value: '2'
+  description: Cues Patch 4
+  min: '4'
+  max: '4'
+- name: Select Patch 5
+  value: '2'
+  description: Cues Patch 5
+  min: '5'
   max: '5'
 - name: Patch +
   value: '2'
@@ -114,10 +179,55 @@ cc:
   description: Decrements setlist selection
   min: 0
   max: 0
-- name: Select Song
+- name: Select Song 1
   value: '4'
-  description: 'Cues setlist selection: Song 1-10'
+  description: Cues Song 1 in setlist
   min: '1'
+  max: '1'
+- name: Select Song 2
+  value: '4'
+  description: Cues Song 2 in setlist
+  min: '2'
+  max: '2'
+- name: Select Song 3
+  value: '4'
+  description: Cues Song 3 in setlist
+  min: '3'
+  max: '3'
+- name: Select Song 4
+  value: '4'
+  description: Cues Song 4 in setlist
+  min: '4'
+  max: '4'
+- name: Select Song 5
+  value: '4'
+  description: Cues Song 5 in setlist
+  min: '5'
+  max: '5'
+- name: Select Song 6
+  value: '4'
+  description: Cues Song 6 in setlist
+  min: '6'
+  max: '6'
+- name: Select Song 7
+  value: '4'
+  description: Cues Song 7 in setlist
+  min: '7'
+  max: '7'
+- name: Select Song 8
+  value: '4'
+  description: Cues Song 8 in setlist
+  min: '8'
+  max: '8'
+- name: Select Song 9
+  value: '4'
+  description: Cues Song 9 in setlist
+  min: '9'
+  max: '9'
+- name: Select Song 10
+  value: '4'
+  description: Cues Song 10 in setlist
+  min: '10'
   max: '10'
 - name: Song +
   value: '4'
