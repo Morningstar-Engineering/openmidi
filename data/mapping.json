@@ -2145,6 +2145,10 @@
       "value": "twonotesaudioengineering",
       "models": [
         {
+          "name": "Opus",
+          "value": "opus"
+        },
+        {
           "name": "Torpedo C.A.B. (v4 firmware)",
           "value": "torpedocabv4firmware"
         },
