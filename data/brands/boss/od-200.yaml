@@ -1,0 +1,82 @@
+brand: BOSS
+device_name: OD-200
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
+
+cc:
+- name: Drive
+  value: '17'
+  description: adjust amount of gain/drive
+  min: 0
+  max: '127'
+- name: Level
+  value: '18'
+  description: Volume
+  min: 0
+  max: '127'
+- name: Low
+  value: '19'
+  description: Adjust amount of bass
+  min: 0
+  max: '127'
+- name: Middle
+  value: '20'
+  description: Adjust amount of middle
+  min: 0
+  max: '127'
+- name: High
+  value: '21'
+  description: Adjust amount of treble
+  min: 0
+  max: '127'
+- name: Booster pre level
+  value: '22'
+  description: ''
+  min: 0
+  max: '127'
+- name: Booster post level
+  value: '23'
+  description: ''
+  min: 0
+  max: '127'
+- name: ON/OFF switch
+  value: '28'
+  description: Bypass/engage
+  min: 0
+  max: '127'
+- name: Booster ON/OFF
+  value: '83'
+  description: Booster On/OFF
+  min: 0
+  max: '127'
+- name: Memory/boost switch
+  value: '82'
+  description: ''
+  min: 0
+  max: '127'
+- name: CTL1
+  value: '80'
+  description: ''
+  min: 0
+  max: '127'
+- name: CTL2
+  value: '81'
+  description: ''
+  min: 0
+  max: '127'
+- name: Expression
+  value: '16'
+  description: Expression pedal
+  min: 0
+  max: '127'
+- name: Effect ON/OFF
+  value: '27'
+  description: Effect On/OFF
+  min: 0
+  max: '127'
