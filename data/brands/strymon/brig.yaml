@@ -1,0 +1,76 @@
+brand: Strymon
+cc:
+- name: Bank Select
+  value: 0
+  description: ''
+  min: 0
+  max: '2'
+- name: Voice
+  value: '11'
+  description: ''
+  min: '1'
+  max: '3'
+- name: Time
+  value: '12'
+  description: ''
+  min: 0
+  max: '127'
+- name: Filter
+  value: '13'
+  description: ''
+  min: 0
+  max: '127'
+- name: Repeats
+  value: '14'
+  description: ''
+  min: 0
+  max: '127'
+- name: Mod
+  value: '15'
+  description: ''
+  min: 0
+  max: '127'
+- name: Mix
+  value: '16'
+  description: ''
+  min: 0
+  max: '127'
+- name: Tap Division
+  value: '17'
+  description: ''
+  min: 0
+  max: '3'
+- name: Footswitch
+  value: '27'
+  description: ''
+  min: 0
+  max: '1'
+- name: Tap
+  value: '93'
+  description: ''
+  min: 0
+  max: '1'
+- name: Infinite
+  value: '97'
+  description: ''
+  min: 0
+  max: '1'
+- name: Expression Pedal
+  value: '100'
+  description: ''
+  min: 0
+  max: '127'
+- name: Bypass/Engage
+  value: '102'
+  description: ''
+  min: 0
+  max: '1'
+device_name: brig
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
