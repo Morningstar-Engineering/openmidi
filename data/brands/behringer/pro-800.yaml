@@ -1,0 +1,121 @@
+midi_in: DIN5
+
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+   
+cc:
+  - name: Bank Select
+    value: 0
+    description: ''
+    min: 0
+    max: '4'
+  - name: Mod Wheel
+    value: '1'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Main Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OCS A Freq
+    value: '8'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC A Vol
+    value: '9'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC A PW
+    value: '10'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC B Freq
+    value: '11'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC B Vol
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC B PW
+    value: '13'
+    description: ''
+    min: 0
+    max: '127'
+  - name: OSC B Fine
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Freq
+    value: '15'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Reso
+    value: '16'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Env Amount
+    value: '17'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Release
+    value: '18'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Sustain
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Decay
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCF Attack
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCA Release
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCA Sustain
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCA Dcay
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: VCA Attack
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: All Sounds Off
+    value: '120'
+    description: ''
+    min: 0
+    max: 0
