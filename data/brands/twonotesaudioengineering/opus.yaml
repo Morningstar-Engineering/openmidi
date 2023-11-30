@@ -107,7 +107,7 @@ cc:
   description: '0 = Mic #1 ; 1 = Mic #2…'
   min: 0
   max: '7'
-- name: 'Mic A : Model (DynIR Engine only)'
+- name: 'Mic B : Model (DynIR Engine only)'
   value: '19'
   description: '0 = Mic #1 ; 1 = Mic #2…'
   min: 0
@@ -121,6 +121,11 @@ cc:
   max: '127'
 - name: "Mic A : Bypass\t(Both Modes)"
   value: '21'
+  description: 0 = Off ; 1 = On
+  min: 0
+  max: '1'
+- name: "Mic A : Mute\t(Both Modes)"
+  value: '22'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
