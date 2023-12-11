@@ -1,0 +1,377 @@
+midi_in: DIN5
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+  GLOBALS settings page
+
+instructions:
+
+pc:
+  description: |+
+  PC 1-99 selects presets
+
+cc:
+  - name: mix
+    value: 1
+  description:
+    min: 0
+    max: 127
+  - name: dry trim
+    value: 2
+  description:
+    min: 0
+    max: 127
+  - name: wet trim
+    value: 3
+  description:
+    min: 0
+    max: 127
+  - name: expression pedal
+    value: 4
+  description:
+    min: 0
+    max: 127
+  - name: preamp type
+    value: 5
+    description: '0 to 25 = off, 26 to 51 = volume pedal, 52 to 76 = tube,
+    77 to 102 = transistor, 103 to 127 = op-amp'
+    min: 0
+    max: 127
+  - name: preamp location
+    value: 6
+    description: '0 to 25 = pre + dry,  26 to 51 = pre, 52 to 76 = fdbk, 
+    77 to 102 = pre tank,  103 to 127 = post'
+    min: 0
+    max: 127
+  - name: gain/volume pedal level
+    value: 7
+  description:
+    min: 0
+    max: 127
+  - name: balance
+    value: 8
+  description:
+    min: 0
+    max: 127
+  - name: preamp level
+    value: 11
+  description:
+    min: 0
+    max: 127
+  - name: delay structure
+    value: 13
+    description: '0 to 63 = standard, 64 to 127 = reverse'
+    min: 0
+    max: 127
+  - name: bypass
+    value: 14
+    description: '0 to 63 = fx bypass 64 to 127 = fx enable'
+    min: 0
+    max: 127
+  - name: time
+    value: 15
+  description:
+    min: 0
+    max: 127
+  - name: type
+    value: 16
+    description: '0 to 42 = digital, 43 to 85 bbd, 86 to 127 = magnetic'
+    min: 0
+    max: 127
+  - name: left note division
+    value: 17
+    description: 
+    min: 0
+    max: 127
+  - name: right note division
+    value: 18
+  description:
+    min: 0
+    max: 127
+  - name: feedback
+    value: 19
+  description:
+    min: 0
+    max: 127
+  - name: cross feedback
+    value: 20
+  description:
+    min: 0
+    max: 127
+  - name: modulation
+    value: 21
+  description:
+    min: 0
+    max: 127
+  - name: damping
+    value: 22
+  description:
+    min: 0
+    max: 127
+  - name: dry blend
+    value: 23
+  description:
+    min: 0
+    max: 127
+  - name: half speed
+    value: 24
+  description:
+    min: 0
+    max: 127
+  - name: reverb structure
+    value: 32
+    description: '0 to 15 = ultraplate, 16 to 31 = cathedra, 
+    32 to 47 = sprint, 48 to 63 = room, 64 to 79 = plate, 
+    80 to 95 = hall, 96 to 111 = prism, 112 to 127 = gravity'
+    min: 0
+    max: 127
+  - name: reverb parameter 1
+    value: 33
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 2
+    value: 34
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 3
+    value: 35
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 4
+    value: 36
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 5
+    value: 37
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 6
+    value: 38
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 7
+    value: 39
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 8
+    value: 40
+  description:
+    min: 0
+    max: 127
+  - name: reverb parameter 9
+    value: 41
+  description:
+    min: 0
+    max: 127
+  - name: predelay blend
+    value: 42
+  description:
+    min: 0
+    max: 127
+  - name: gate attack
+    value: 43
+  description:
+    min: 0
+    max: 127
+  - name: gate hold
+    value: 44
+    description: ' 22
+    '
+    min: 0
+    max: 127
+  - name: gate decay
+    value: 45
+  description:
+    min: 0
+    max: 127
+  - name: dynamics type
+    value: 62
+    description: '0 to 15 = off, 16 to 31 = compressor, 
+    32 to 47 = compressor link,  48 to 63 = swell, 
+    64 to 79 = diffusion, 80 to 95 = limiter, 
+    96 to 111 limiter link, 112 to 127 = freeze'
+    min: 0
+    max: 127
+  - name: dynamics location
+    value: 63
+    description: '0 to 25 = pre + dry,  26 to 51 = pre,
+    52 to 76 = feedback,  77 to 102 = pre tank,  103 to 127 = post'
+    min: 0
+    max: 127
+  - name: dynamics parameter 1
+    value: 64
+  description:
+    min: 0
+    max: 127
+  - name: dynamics parameter 2
+    value: 65
+  description:
+    min: 0
+    max: 127
+  - name: dynamics parameter 3
+    value: 66
+  description:
+    min: 0
+    max: 127
+  - name: dynamics parameter 4
+    value: 67
+  description:
+    min: 0
+    max: 127
+  - name: dynamics parameter 5
+    value: 68
+  description:
+    min: 0
+    max: 127
+  - name: dynamics parameter 6
+    value: 69
+  description:
+    min: 0
+    max: 127
+  - name: pitch type
+    value: 70
+    description: '0 to 31 = off, 32 to 63 = poly chroma,  64 to 95 = micro shift, 96 to 127 = lo-fi'
+    min: 0
+    max: 127
+  - name: pitch location
+    value: 71
+    description: '0 to 25 = pre + dry, 26 to 51 = pre,
+    52 to 76 = feedback, 77 to 102 = pre tank, 103 to 127 = post'
+    min: 0
+    max: 127
+  - name: pitch parameter 1
+    value: 72
+  description:
+    min: 0
+    max: 127
+  - name: pitch parameter 2
+    value: 73
+    description: ' 23
+    '
+    min: 0
+    max: 127
+  - name: pitch parameter 3
+    value: 74
+  description:
+    min: 0
+    max: 127
+  - name: pitch parameter 4
+    value: 75
+  description:
+    min: 0
+    max: 127
+  - name: pitch parameter 5
+    value: 76
+  description:
+    min: 0
+    max: 127
+  - name: pitch parameter 6
+    value: 77
+  description:
+    min: 0
+    max: 127
+  - name: filter type
+    value: 78
+    description: '0 to 31 = off, 64 to 95 = state var, 96 to 127 = parametric'
+    min: 0
+    max: 127
+  - name: filter location
+    value: 79
+    description: '0 to 25 = pre + dry,  26 to 51 = pre, 52 to 76 = feedback, 
+    77 to 102 = pre tank, 103 to 127 = post'
+    min: 0
+    max: 127
+  - name: filter parameter 1
+    value: 80
+  description:
+    min: 0
+    max: 127
+  - name: filter parameter 2
+    value: 81
+  description:
+    min: 0
+    max: 127
+  - name: filter parameter 3
+    value: 82
+  description:
+    min: 0
+    max: 127
+  - name: filter parameter 4
+    value: 83
+  description:
+    min: 0
+    max: 127
+  - name: filter parameter 5
+    value: 84
+  description:
+    min: 0
+    max: 127
+  - name: filter parameter 6
+    value: 85
+  description:
+    min: 0
+    max: 127
+  - name: mod type
+    value: 86
+    description: '0 to 21 = off, 22 to 42 = 79 chorus, 43 to 63 = vibrato, 
+    64 to 85 = vowel mod, 86 to 106 = tremelo, 107 to 127 = hazy'
+    min: 0
+    max: 127
+  - name: mod location
+    value: 87
+    description: '0 to 25 = pre + dry, 26 to 51 = pre,
+    52 to 76 = feedback, 77 to 102 = pre tank, 103 to 127 = post'
+    min: 0
+    max: 127
+  - name: mod parameter 1
+    value: 88
+  description:
+    min: 0
+    max: 127
+  - name: mod parameter 2
+    value: 89
+  description:
+    min: 0
+    max: 127
+  - name: mod parameter 3
+    value: 90
+    description: ' 24
+    '
+    min: 0
+    max: 127
+  - name: mod parameter 4
+    value: 91
+  description:
+    min: 0
+    max: 127
+  - name: mod parameter 5
+    value: 92
+  description:
+    min: 0
+    max: 127
+  - name: mod parameter 6
+    value: 93
+  description:
+    min: 0
+    max: 127
+  - name: toggle tuner mode
+    value: 117
+    description: 'press = 127' 
+    min: 0
+    max: 127
+  - name: trigger hold modifier
+    value: 118
+    description: 'press = 127 release = 0
+    note: be sure to send a release after every press'
+    min: 0
+    max: 127
