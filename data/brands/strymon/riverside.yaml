@@ -89,12 +89,12 @@ cc:
     min: 127
     name: Boost On
     value: 18
-  - description:  Note: Might be wrongly documented in the Riverside Manual, where value 2 should be the correct value for Gain - Low
+  - description:  (Note) Might be wrongly documented in the Riverside Manual, where value 2 should be the correct value for Gain - Low
     max: 1
     min: 1
     name: Gain - Low
     value: 19
-  - description: Note: Might be wrongly documented in the Riverside Manual, where value 1 should be the correct value for Gain - High
+  - description: (Note) Might be wrongly documented in the Riverside Manual, where value 1 should be the correct value for Gain - High
     max: 2
     min: 2
     name: Gain - High
