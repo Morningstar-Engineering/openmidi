@@ -14,22 +14,22 @@ pc:
 cc:
   - name: mix
     value: 1
-    description:
+    description: wet/dry mix
     min: 0
     max: 127
   - name: dry trim
     value: 2
-    description:
+    description: 'dry mix trim'
     min: 0
     max: 127
-  - name: wet trim
+  - name: wet mix
     value: 3
-    description:
+    description: 'wet mix trim'
     min: 0
     max: 127
   - name: expression pedal
     value: 4
-    description:
+    description: 'per-preset mod routing via EXPRESSION PEDAL'
     min: 0
     max: 127
   - name: preamp type
@@ -119,52 +119,87 @@ cc:
     max: 127
   - name: reverb structure
     value: 32
-    description: '0 to 15 = ultraplate, 16 to 31 = cathedra, 32 to 47 = sprint, 48 to 63 = room, 64 to 79 = plate, 80 to 95 = hall, 96 to 111 = prism, 112 to 127 = gravity'
+    description: |-
+      0 to 15 = ultraplate,
+      16 to 31 = cathedra,
+      32 to 47 = sprint,
+      48 to 63 = room,
+      64 to 79 = plate,
+      80 to 95 = hall,
+      96 to 111 = prism,
+      112 to 127 = gravity
     min: 0
     max: 127
   - name: reverb parameter 1
     value: 33
-    description:
+    description: |-
+      decay: ultraplate, cathedra, prism, gravity
+      mids: room, plate, hall
+      dwell: spring
     min: 0
     max: 127
   - name: reverb parameter 2
     value: 34
-    description:
+    description: |-
+      lo freq: ultraplate, cathedra, spring
+      bass: room, plate, hall
+      size: prism
+      tilt eq: gravity
     min: 0
     max: 127
   - name: reverb parameter 3
     value: 35
-    description:
+    description: |-
+      hi freq: ultraplate, cathedra, spring
+      treble: room, plate, hall
+      dispresion: prism
+      mod speed: gravity
     min: 0
     max: 127
   - name: reverb parameter 4
     value: 36
-    description:
+    description: |-
+      mod depth: ultraplate, cathedra, gravity
+      cross: room, plate, hall
+      distance: prism
+      mod speed: gravity
     min: 0
     max: 127
   - name: reverb parameter 5
     value: 37
-    description:
+    description: |-
+      mod speed: ultraplate, cathedra, prism
+      tank mod: room, plate, hall
+      mod feedback: gravity
     min: 0
     max: 127
   - name: reverb parameter 6
     value: 38
-    description:
+    description: |-
+      pitch: ultraplate, cathedra
+      diffusion: room, plate, hall
+      mod phase: prism
+      gain: gravity
     min: 0
     max: 127
   - name: reverb parameter 7
     value: 39
-    description:
+    description: |-
+      pitch mix: ultraplate, cathedra
+      diffusion: room, plate, hall
+      mod depth: prism
     min: 0
     max: 127
   - name: reverb parameter 8
     value: 40
-    description:
+    description: |-
+      lo cut: prism
     min: 0
     max: 127
   - name: reverb parameter 9
     value: 41
-    description:
+    description: |-
+      hi cut: prism
     min: 0
     max: 127
   - name: predelay blend
@@ -189,52 +224,87 @@ cc:
     max: 127
   - name: dynamics type
     value: 62
-    description: '0 to 15 = off, 16 to 31 = compressor, 32 to 47 = compressor link,  48 to 63 = swell, 64 to 79 = diffusion, 80 to 95 = limiter, 96 to 111 limiter link, 112 to 127 = freeze'
+    description: |-
+      0 to 15 = off,
+      16 to 31 = compressor,
+      32 to 47 = compressor link,
+      48 to 63 = swell,
+      64 to 79 = diffusion,
+      80 to 95 = limiter,
+      96 to 111 limiter link,
+      112 to 127 = freeze
     min: 0
     max: 127
   - name: dynamics location
     value: 63
-    description: '0 to 25 = pre + dry,  26 to 51 = pre, 52 to 76 = feedback,  77 to 102 = pre tank,  103 to 127 = post'
+    description: |- 
+      0 to 25 = pre + dry,
+      26 to 51 = pre,
+      52 to 76 = feedback,
+      77 to 102 = pre tank,
+      103 to 127 = post'
     min: 0
     max: 127
   - name: dynamics parameter 1
     value: 64
-    description:
+    description: |-
+      threshold: compressor, compressor link, limiter, limiter link,
+      attack time: swell,
+      density: deffusion,
+      gain: freeze
     min: 0
     max: 127
   - name: dynamics parameter 2
     value: 65
-    description:
+    description: |-
+      ratio: compressor, compressor link, 
+      gain: swell, limiter, limiter link,
+      low pass filter: diffusion,
+      mix: freeze
     min: 0
     max: 127
   - name: dynamics parameter 3
     value: 66
-    description:
+    description: |-
+      gain: compressor, compressor link,
+      release: limiter, limiter link
     min: 0
     max: 127
   - name: dynamics parameter 4
     value: 67
-    description:
+    description: |-
+      attack: compressor, compressor link
     min: 0
     max: 127
   - name: dynamics parameter 5
     value: 68
-    description:
+    description: |-
+      release: compressor, compressor link
     min: 0
     max: 127
   - name: dynamics parameter 6
     value: 69
-    description:
+    description: |-
+      mix: compressor, compressor link
     min: 0
     max: 127
   - name: pitch type
     value: 70
-    description: '0 to 31 = off, 32 to 63 = poly chroma,  64 to 95 = micro shift, 96 to 127 = lo-fi'
+    description: |-
+      0 to 31 = off,
+      32 to 63 = poly chroma,
+      64 to 95 = micro shift,
+      96 to 127 = lo-fi
     min: 0
     max: 127
   - name: pitch location
     value: 71
-    description: '0 to 25 = pre + dry, 26 to 51 = pre, 52 to 76 = feedback, 77 to 102 = pre tank, 103 to 127 = post'
+    description: |-
+      0 to 25 = pre + dry,
+      26 to 51 = pre,
+      52 to 76 = feedback,
+      77 to 102 = pre tank,
+      103 to 127 = post
     min: 0
     max: 127
   - name: pitch parameter 1
