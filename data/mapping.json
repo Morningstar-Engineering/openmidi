@@ -813,6 +813,10 @@
         {
           "name": "Microcosm",
           "value": "microcosm"
+        },
+        {
+          "name": "Chroma Console",
+          "value": "chromaconsole"
         }
       ]
     },
