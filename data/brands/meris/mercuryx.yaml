@@ -32,15 +32,55 @@ cc:
     description: 'per-preset mod routing via EXPRESSION PEDAL'
     min: 0
     max: 127
-  - name: preamp type
+  - name: preamp off
     value: 5
-    description: '0 to 25 = off, 26 to 51 = volume pedal, 52 to 76 = tube, 77 to 102 = transistor, 103 to 127 = op-amp'
+    description:
     min: 0
+    max: 25
+  - name: preamp volume pedal
+    value: 5
+    description:
+    min: 26
+    max: 51
+  - name: preamp tube
+    value: 5
+    description:
+    min: 52
+    max: 76
+  - name: preamp transistor
+    value: 5
+    description:
+    min: 77
+    max: 102
+  - name: preamp op-amp
+    value: 5
+    description:
+    min: 103
     max: 127
-  - name: preamp location
+  - name: preamp location pre + dry
     value: 6
-    description: '0 to 25 = pre + dry,  26 to 51 = pre, 52 to 76 = fdbk, 77 to 102 = pre tank,  103 to 127 = post'
+    description:
     min: 0
+    max: 25
+  - name: preamp location pre
+    value: 6
+    description:
+    min: 26
+    max: 51
+  - name: preamp location fdbk
+    value: 6
+    description:
+    min: 52
+    max: 76
+  - name: preamp location pre tank
+    value: 6
+    description:
+    min: 77
+    max: 102
+  - name: preamp location post
+    value: 6
+    description:
+    min: 103
     max: 127
   - name: gain/volume pedal level
     value: 7
@@ -57,29 +97,49 @@ cc:
     description:
     min: 0
     max: 127
-  - name: delay structure
+  - name: delay structure standard
     value: 13
-    description: '0 to 63 = standard, 64 to 127 = reverse'
+    description:
     min: 0
+    max: 63
+  - name: delay structure reverse
+    value: 13
+    description:
+    min: 64
     max: 127
   - name: bypass
     value: 14
-    description: '0 to 63 = fx bypass 64 to 127 = fx enable'
+    description: bypassed
     min: 0
+    max: 63
+  - name: enable
+    value: 14
+    description: enabled
+    min: 64
     max: 127
   - name: time
     value: 15
     description:
     min: 0
     max: 127
-  - name: type
+  - name: delay type digital
     value: 16
-    description: '0 to 42 = digital, 43 to 85 bbd, 86 to 127 = magnetic'
+    description:
     min: 0
+    max: 42
+  - name: delay type bbd
+    value: 16
+    description:
+    min: 43
+    max: 85
+  - name: delay type magnetic
+    value: 16
+    description:
+    min: 86
     max: 127
   - name: left note division
     value: 17
-    description: 
+    description:
     min: 0
     max: 127
   - name: right note division
@@ -117,18 +177,45 @@ cc:
     description:
     min: 0
     max: 127
-  - name: reverb structure
+  - name: reverb structure ultraplate
     value: 32
-    description: |-
-      0 to 15 = ultraplate,
-      16 to 31 = cathedra,
-      32 to 47 = sprint,
-      48 to 63 = room,
-      64 to 79 = plate,
-      80 to 95 = hall,
-      96 to 111 = prism,
-      112 to 127 = gravity
+    description:
     min: 0
+    max: 15
+  - name: reverb structure cathedra
+    value: 32
+    description:
+    min: 16
+    max: 31
+  - name: reverb structure spring
+    value: 32
+    description:
+    min: 32
+    max: 47
+  - name: reverb structure room
+    value: 32
+    description:
+    min: 48
+    max: 63
+  - name: reverb structure plate
+    value: 32
+    description:
+    min: 64
+    max: 79
+  - name: reverb structure hall
+    value: 32
+    description:
+    min: 80
+    max: 95
+  - name: reverb structure prism
+    value: 32
+    description:
+    min: 96
+    max: 111
+  - name: reverb structure gravity
+    value: 32
+    description:
+    min: 96
     max: 127
   - name: reverb parameter 1
     value: 33
@@ -214,7 +301,7 @@ cc:
     max: 127
   - name: gate hold
     value: 44
-    description: 
+    description:
     min: 0
     max: 127
   - name: gate decay
@@ -222,27 +309,74 @@ cc:
     description:
     min: 0
     max: 127
-  - name: dynamics type
+  - name: dynamics type off
     value: 62
-    description: |-
-      0 to 15 = off,
-      16 to 31 = compressor,
-      32 to 47 = compressor link,
-      48 to 63 = swell,
-      64 to 79 = diffusion,
-      80 to 95 = limiter,
-      96 to 111 limiter link,
-      112 to 127 = freeze
+    description:
     min: 0
+    max: 15
+  - name: dynamics type compressor
+    value: 62
+    description:
+    min: 16
+    max: 31
+  - name: dynamics type compressor link
+    value: 62
+    description:
+    min: 32
+    max: 47
+  - name: dynamics type swell
+    value: 62
+    description:
+    min: 48
+    max: 63
+  - name: dynamics type diffusion
+    value: 62
+    description:
+    min: 64
+    max: 79
+  - name: dynamics type limiter
+    value: 62
+    description:
+    min: 80
+    max: 95
+  - name: dynamics type limiter link
+    value: 62
+    description:
+    min: 96
+    max: 111
+  - name: dynamics type freeze
+    value: 62
+    description:
+    min: 112
     max: 127
-  - name: dynamics location
+  - name: dynamics location pre + dry
     value: 63
-    description: |- 
-      0 to 25 = pre + dry,
-      26 to 51 = pre,
-      52 to 76 = feedback,
-      77 to 102 = pre tank,
-      103 to 127 = post'
+    description:
+    min: 0
+    max: 25
+  - name: dynamics location pre
+    value: 63
+    description:
+    min: 26
+    max: 51
+  - name: dynamics location feedback
+    value: 63
+    description:
+    min: 52
+    max: 76
+  - name: dynamics location pre tank
+    value: 63
+    description:
+    min: 77
+    max: 102
+  - name: dynamics location post
+    value: 63
+    description:
+    min: 103
+    max: 127
+  - name: gain/volume pedal level
+    value: 7
+    description:
     min: 0
     max: 127
   - name: dynamics parameter 1
@@ -288,24 +422,50 @@ cc:
       mix: compressor, compressor link
     min: 0
     max: 127
-  - name: pitch type
+  - name: pitch type off
     value: 70
-    description: |-
-      0 to 31 = off,
-      32 to 63 = poly chroma,
-      64 to 95 = micro shift,
-      96 to 127 = lo-fi
+    description:
     min: 0
+    max: 31
+  - name: pitch type poly chroma
+    value: 70
+    description:
+    min: 32
+    max: 63
+  - name: pitch type micro shift
+    value: 70
+    description:
+    min: 64
+    max: 95
+  - name: pitch type lo-fi
+    value: 70
+    description:
+    min: 96
     max: 127
-  - name: pitch location
+  - name: pitch location pre + dry
     value: 71
-    description: |-
-      0 to 25 = pre + dry,
-      26 to 51 = pre,
-      52 to 76 = feedback,
-      77 to 102 = pre tank,
-      103 to 127 = post
+    description:
     min: 0
+    max: 25
+  - name: pitch location pre
+    value: 71
+    description:
+    min: 26
+    max: 51
+  - name: pitch location feedback
+    value: 71
+    description:
+    min: 52
+    max: 76
+  - name: pitch location pre tank
+    value: 71
+    description:
+    min: 77
+    max: 102
+  - name: pitch location post
+    value: 71
+    description:
+    min: 103
     max: 127
   - name: pitch parameter 1
     value: 72
@@ -337,15 +497,50 @@ cc:
     description:
     min: 0
     max: 127
-  - name: filter type
+  - name: filter type off
     value: 78
-    description: '0 to 31 = off, 64 to 95 = state var, 96 to 127 = parametric'
+    description:
     min: 0
+    max: 31
+  - name: filter type ladder
+    value: 78
+    description:
+    min: 32
+    max: 63
+  - name: filter type state var
+    value: 78
+    description:
+    min: 64
+    max: 95
+  - name: filter type parameteric
+    value: 78
+    description:
+    min: 96
     max: 127
-  - name: filter location
+  - name: filter location pre + dry
     value: 79
-    description: '0 to 25 = pre + dry,  26 to 51 = pre, 52 to 76 = feedback, 77 to 102 = pre tank, 103 to 127 = post'
+    description:
     min: 0
+    max: 25
+  - name: filter location pre
+    value: 79
+    description:
+    min: 26
+    max: 51
+  - name: filter location feedback
+    value: 79
+    description:
+    min: 52
+    max: 76
+  - name: filter location pre tank
+    value: 79
+    description:
+    min: 77
+    max: 102
+  - name: filter location post
+    value: 79
+    description:
+    min: 103
     max: 127
   - name: filter parameter 1
     value: 80
@@ -377,15 +572,60 @@ cc:
     description:
     min: 0
     max: 127
-  - name: mod type
+  - name: mod type off
     value: 86
-    description: '0 to 21 = off, 22 to 42 = 79 chorus, 43 to 63 = vibrato, 64 to 85 = vowel mod, 86 to 106 = tremelo, 107 to 127 = hazy'
+    description:
     min: 0
+    max: 21
+  - name: mod type chorus
+    value: 86
+    description:
+    min: 22
+    max: 42
+  - name: mod type vibrato
+    value: 86
+    description:
+    min: 43
+    max: 63
+  - name: mod type vowel mod
+    value: 86
+    description:
+    min: 64
+    max: 85
+  - name: mod type tremelo
+    value: 86
+    description:
+    min: 86
+    max: 106
+  - name: mod type hazy
+    value: 86
+    description:
+    min: 107
     max: 127
-  - name: mod location
+  - name: mod location pre + dry
     value: 87
-    description: '0 to 25 = pre + dry, 26 to 51 = pre, 52 to 76 = feedback, 77 to 102 = pre tank, 103 to 127 = post'
+    description:
     min: 0
+    max: 25
+  - name: mod location pre
+    value: 87
+    description:
+    min: 26
+    max: 51
+  - name: mod location fdbk
+    value: 87
+    description:
+    min: 52
+    max: 76
+  - name: mod location pre tank
+    value: 87
+    description:
+    min: 77
+    max: 102
+  - name: mod location post
+    value: 87
+    description:
+    min: 103
     max: 127
   - name: mod parameter 1
     value: 88
@@ -399,7 +639,7 @@ cc:
     max: 127
   - name: mod parameter 3
     value: 90
-    description: 
+    description:
     min: 0
     max: 127
   - name: mod parameter 4
@@ -422,8 +662,13 @@ cc:
     description: 'press = 127' 
     min: 0
     max: 127
-  - name: trigger hold modifier
+  - name: trigger hold modifier press
     value: 118
     description: 'press = 127 release = 0 note: be sure to send a release after every press'
-    min: 0
+    min: 127
     max: 127
+  - name: trigger hold modifier release
+    value: 118
+    description:
+    min: 0
+    max: 0
