@@ -1,3 +1,37 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |-
+    To enter Chroma Console’s GLOBAL SETTINGS MENU, press all buttons (A, B, C, and D) simultaneously and release., 
+    The tilt knob sets channel 1-16, 
+pc:
+  description: |-
+    bank A, 1-4 PC# 0-3
+    bank A, 5-8 PC# 4-7
+    bank A, 9-12 PC# 8-11
+    bank A, 13-16 PC# 12-15
+    bank A, 17-20 PC# 16-19
+    bank B, 1-4 PC# 20-23
+    bank B, 5-8 PC# 24-27
+    bank B, 9-12 PC# 28-31
+    bank B, 13-16 PC# 32-35
+    bank B, 17-20 PC# 36-39
+    bank C, 1-4 PC# 40-43
+    bank C, 5-8 PC# 44-47
+    bank C, 9-12 PC# 48-51
+    bank C, 13-16 PC# 52-55
+    bank C, 17-20 PC# 56-59
+    bank D, 1-4 PC# 60-63
+    bank D, 5-8 PC# 64-67
+    bank D, 9-12 PC# 68-71
+    bank D, 13-16 PC# 72-75
+    bank D, 17-20PC# 76-79
+
 cc:
   - name: tilt
     value: 64
