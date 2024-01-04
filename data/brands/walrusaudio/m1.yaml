@@ -131,7 +131,7 @@ cc:
     max: '127'
   - name: Lo-Fi Env
     value: '22'
-    description: Lo-Fi tone envolope depth
+    description: Lo-Fi tone envelope depth
     min: 0
     max: '127'
   - name: Lo-Fi Drive
