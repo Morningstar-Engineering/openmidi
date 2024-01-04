@@ -14,92 +14,154 @@ midi_channel:
     the user changes it again
 pc:
   description: |-
+    Bank A: Red 0, Green 1, Blue 2
+    Bank B: Red 3, Green 4, Blue 5
+    Bank C: Red 6, Green 7, Blue 8
     
 
 cc:
   - name: Rate
     value: '3'
-    description: ''
+    description: sets the speed of the main LFO
     min: 0
     max: '127'
   - name: Depth
     value: '9'
-    description: ''
+    description: the amplitude of the main LFO.
     min: 0
     max: '127'
   - name: Lo-Fi
     value: '14'
-    description: ''
+    description: lo-fi effects level
     min: 0
     max: '127'
-  - name: Shape
+  - name: Shape - Sine
     value: '15'
     description: ''
     min: 0
+    max: 0
+  - name: Shape - Triangle
+    value: '15'
+    description: ''
+    min: 1
+    max: 1
+  - name: Shape - Square
+    value: '15'
+    description: ''
+    min: 2
     max: 2
-  - name: Division
+  - name: Division  - quarter note
     value: '16'
     description: ''
     min: 0
-    max: '2'
-  - name: Type
-    value: '17'
+    max: 0
+  - name: Division - quarter triplet
+    value: '16'
     description: ''
+    min: 1
+    max: 1
+  - name: Division - eight note
+    value: '16'
+    description: ''
+    min: 2
+    max: 2
+  - name: Program Type 1
+    value: '17'
+    description: |-
+      Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional,  Vibrato:  Traditional, Rotary: Horn & Drum, Filter: Lowpass
     min: 0
-    max: '2'
-  - name: Prog
+    max: 0
+  - name: Program Type 2
+    value: '17'
+    description: |-
+      Chorus: Series, Phaser: 4-stage, Termolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass
+    min: 1
+    max: 1
+  - name: Program Type 3
+    value: '17'
+    description: |-
+      Chorus: Tri-Chorus, Phaser: Univibe, Termolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass
+    min: 2
+    max: 2
+  - name: Prog Chorus
     value: '18'
     description: ''
     min: 0
-    max: '5'
+    max: 0
+  - name: Prog Phaser
+    value: '18'
+    description: ''
+    min: 1
+    max: 1
+  - name: Prog Tremolo
+    value: '18'
+    description: ''
+    min: 2
+    max: 2
+  - name: Prog Vibrato
+    value: '18'
+    description: ''
+    min: 3
+    max: 3
+  - name: Prog Rotary
+    value: '18'
+    description: ''
+    min: 4
+    max: 4
+  - name: Prog Filter
+    value: '18'
+    description: ''
+    min: 5
+    max: 5
   - name: Tone
     value: '19'
-    description: ''
+    description: Tone control for the modulation program
     min: 0
     max: '127'
-  - name: Sym
+  - name: Symetry
     value: '20'
-    description: ''
+    description: Modulation LFO Wave Symetry
     min: 0
     max: '127'
-  - name: X
+  - name: X Modulation Control
     value: '21'
-    description: ''
+    description: |-
+      Chorus: Lag, Phaser: Feedback, Termolo: Stereo Phase, Vibrato: Flutter, Rotary: Cab Simulation, Filter: Resonance
     min: 0
     max: '127'
-  - name: Env
+  - name: Lo-Fi Env
     value: '22'
-    description: ''
+    description: Lo-Fi tone envolope depth
     min: 0
     max: '127'
-  - name: Drive
+  - name: Lo-Fi Drive
     value: '23'
     description: ''
     min: 0
     max: '127'
-  - name: Space
+  - name: Lo-Fi Space
     value: '24'
-    description: ''
+    description: Reverb
     min: 0
     max: '127'
-  - name: Age
+  - name: Lo-Fi Age
     value: '25'
     description: ''
     min: 0
     max: '4'
-  - name: Noise
+  - name: Lo-Fi Noise
     value: '26'
     description: ''
     min: 0
     max: '127'
-  - name: Warble
+  - name: Lo-Fi Warble
     value: '27'
     description: ''
     min: 0
     max: '127'
   - name: Bypass
     value: '31'
-    description: ''
+    description:
     min: 0
     max: 0
   - name: Engage
@@ -134,12 +196,12 @@ cc:
     max: '127'
   - name: MIDI Clock Ignore - Disengaged
     value: '89'
-    description: ''
+    description: follow MIDI Clock
     min: 0
     max: 0
   - name: MIDI Clock Ignore - Engaged
     value: '89'
-    description: ''
+    description: ignore MIDI Clock
     min: '127'
     max: '127'
   - name: Tweak Switch
