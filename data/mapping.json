@@ -919,6 +919,10 @@
         {
           "name": "Profiler",
           "value": "profiler"
+        },
+        {
+          "name": "Profiler Player",
+          "value": "profiler_player"
         }
       ]
     },
