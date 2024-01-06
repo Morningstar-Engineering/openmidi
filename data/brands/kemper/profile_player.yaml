@@ -1,6 +1,6 @@
 midi_in: USB
 midi_thru: No
-phantom_power: None
+phantom_power: No
 midi_clock: Yes
 
 
