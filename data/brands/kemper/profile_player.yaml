@@ -1,0 +1,192 @@
+midi_in: USB
+midi_thru: No
+phantom_power: No
+midi_clock: Yes
+
+
+
+midi_channel:
+  instructions: |+
+    By default, the PROFILER receives MIDI commands on all sixteen MIDI channels (“Omni”). However, if you want to control multiple devices independently, you can set a specific channel in System Settings on the “MIDI Settings” page. Now, the PROFILER will only receive messages on that channel.
+    The Player is compatible with universal MIDI foot controllers, which were designed for the KEMPER PROFILER use its “relative” method based on CC# 47-54 to load sounds. This includes the application of the global parameter Bank Load which can be found in System Settings.
+
+pc:
+  description: |+
+    The PROFILER Player storage offers ten banks with five Rigs each - fifty Rigs overall. These can be loaded via MIDI program changes # 1-50 respectively.
+
+cc:
+  - name: Wah Pedal
+    value: 1
+    description: |
+      This pedal controls the Wah Wah effect.
+      Again, the assignment of the wah controller to an expression pedal is global. In addition, you need a Rig with a wah-
+      wah effect, and the settings of Pedal Mode and Pedal Range within must be set up for pedal control. As a quick
+      start, you might choose a preset from the list of factory presets. For example, open module B in Rig Manager, and
+      select the wah-wah preset “Cry” from the menu – your Wah Pedal should simulate a Cry Baby™ now.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Volume Pedal
+    value: 7
+    description: |
+      The Volume Pedal is also assigned globally. However, its location in the signal flow (e.g. “Input”) and its consequent impact on amplifier gain or delay spillover, can be customized by Rig. It’s also possible to limit its minimum range by Rig, or even transform it into a booster pedal in specific Rigs.
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Panorama
+    value: 10
+    description: |
+      This parameter allows you to move the signal within the stereo field. The “Panorama” parameter affects the Headphones Output plus "Master…” Output Sources of Monitor Output and USB audio.
+    type: Parameter
+    min: 0
+    max: 127
+
+
+  - name: Toggle All
+    value: 16
+    description: All effect modules from A to REV invert on/off. Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle A
+    value: 17
+    description: A module on/off. Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle B
+    value: 18
+    description: B module on/off. Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle Delay - Dry
+    value: 26
+    description: DLY module on/off (without spillover). Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle Delay
+    value: 27
+    description: DLY module on/off (with spillover). Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle Reverb - Dry
+    value: 28
+    description: REV module on/off (without spillover). Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Toggle Reverb
+    value: 29
+    description: REV module on/off (with spillover). Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap tempo
+    value: 30
+    description: Any value triggers tempo
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tuner
+    value: 30
+    description: Enter/Leave Tuner mode. Non-zero values (1-127) trigger “on”, while zero triggers “off”.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Rotary Speed
+    value: 33
+    description: Rotary Speaker Speed. Any value toggles between "slow" and "fast".
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Global Delay Inifnity
+    value: 34
+    description: Delay Infinity in all delay effects. Any value toggles between on and off.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Global Delay/Reverb Freeze
+    value: 35
+    description: Freeze in all delay and reverb effects. Any value toggles between on and off.
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay Mix
+    value: 68
+    description: |
+      Controls the level of the delay signal. At the middle position, the delay is as loud as the direct signal; beyond this point it will start to attenuate the dry signal. With “Mix” turned all the way to the right, you will hear only the pure, delayed signal.
+      Mix Location is also relevant if you use the Grit parameter or the Infinity Feedback, as we'll see further below.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: 69
+    description: |
+      The Feedback parameter determines the amount of delayed signal that is thrown back to the input of the delay, resulting in an "echo of the echo”. When Feedback is at zero, there will only be one audible repeat. As you increase the Feedback, the number of repeats increases until, at “100%” (center position), the delayed signal will continue to repeat indefinitely.
+      Above the “Feedback” soft knob you will find the Freeze soft button and, on several delay types, an Infinity soft button. Both buttons are so-called "Action & Freeze” functions. These can be assigned to the Effect Buttons of the PROFILER for performance applications.
+    type: Parameter
+    min: 0
+    max: 127
+
+
+  - name: Reverb Mix
+    value: 70
+    description: |
+      Reverb “Mix” works exactly like the delay “Mix” parameter and can be controlled with the dedicated knob in the upper half of the panel.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Reverb Time
+    value: 71
+    description: |
+      Determines how fast the reverb decays. In a way, the Decay Time sets the size of the room, as small rooms decay faster, and large rooms decay slower.
+      The Decay Time is analogous to the Feedback parameter of a delay. It is measured in seconds (s) and reflects the time the reverb has decayed by 60 dB, which is well below the hearing threshold.
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Gain
+    value: 72
+    description: |
+      The GAIN controls the amount of distortion and covers an extremely wide range from ultra-clean to totally distorted. The Gain control allows for the same large range on all PROFILEs, even if the original amp has a more limited gain range. Exception: At a KEMPER Liquid Profile™ the GAIN Knob reflects the original range of the selected amp model.
+      The "Gain” parameter always compensates for loss in level, no matter how much you reduce it by. You can turn the gain value to zero for every Amp PROFILE, and the result will be a totally undistorted and uncompressed sound that has the same perceived loudness as the fully distorted version.
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Monitor (Output) Volume
+    value: 73
+    description: Controls the PROFILER's output volume
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Effect Button I
+    value: 75
+    description: Node for Effect Button I
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Button II
+    value: 76
+    description: Node for Effect Button II
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Button III
+    value: 77
+    description: Node for Effect Button III
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Button IV
+    value: 75
+    description: Node for Effect Button IV
+    type: Parameter
+    min: 0
+    max: 127

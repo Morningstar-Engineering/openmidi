@@ -1,6 +1,6 @@
 midi_in: DIN5
 midi_thru: Yes
-phantom_power: None
+phantom_power: No
 midi_clock: Yes
 
 midi_channel:
@@ -176,9 +176,9 @@ cc:
     max: 127
   - name: Tap
     value: 30
-    description: 'Sets tempo tap. If your floorboard supports separate events on “pressing” and “releasing” a button, send 1 when “pressed” and 0 when “released”. If the floorboard can only send one event, use value 0.
-
-    When value 1 has been sent and no value 0 for 3 seconds, the Beat Scanner is being activated.'
+    description: |
+        Sets tempo tap. If your floorboard supports separate events on “pressing” and “releasing” a button, send 1 when “pressed” and 0 when “released”. If the floorboard can only send one event, use value 0.
+        When value 1 has been sent and no value 0 for 3 seconds, the Beat Scanner is being activated.
     type: System
     min: 0
     max: 127
