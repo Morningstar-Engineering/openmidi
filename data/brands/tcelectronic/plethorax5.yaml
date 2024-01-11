@@ -10,34 +10,255 @@ pc:
   description: |+
     You can directly recall any BOARD on PLETHORA by sending it a PC (Program Change) message with the corresponding number.
 cc:
-  - description: '0-63 = Bypass, 64-127 = Engage '
+  - description: ''
+    max: 127
+    min: 1
+    name: Global Tap Tempo
+    type: System
+    value: 92
+  - description: '0-63 = Off, 64-127 = On'
+    max: 127
+    min: 0
+    name: Tuner On/Off  
+    type: System
+    value: 93
+  - description: ''
+    max: 127
+    min: 64
+    name: Board Down
+    type: System
+    value: 94
+  - description: ''
+    max: 127
+    min: 64
+    name: Board Up
+    type: System
+    value: 95
+  - description: ''
+    max: 125
+    min: 0
+    name: Global Expression
+    type: System
+    value: 100
+  - description: ''
+    max: 127
+    min: 0
+    name: Hot Knob 1
+    type: System
+    value: 107
+  - description: ''
+    max: 127
+    min: 0
+    name: Hot Knob 2
+    type: System
+    value: 108
+  - description: ''
+    max: 127
+    min: 0
+    name: Hot Knob 3
+    type: System
+    value: 109
+  - description: '0-63 = Bypass, 64-127 = Engage'
     max: 127
     min: 0
     name: FS1
     type: System
     value: 102
-  - description: '0-63 = Bypass, 64-127 = Engage '
+  - description: ''
+    max: 127
+    min: 0
+    name: FS1 Pot1
+    type: System
+    value: 67
+  - description: ''
+    max: 127
+    min: 0
+    name: FS1 Pot2
+    type: System
+    value: 68
+  - description: ''
+    max: 127
+    min: 0
+    name: FS1 Pot3
+    type: System
+    value: 69
+  - description: '0 = Off, 1-127 = 0-100%'
+    max: 127
+    min: 0
+    name: FS1 Mash
+    type: System
+    value: 70
+  - description: ''
+    max: 127
+    min: 0
+    name: FS1 Expression
+    type: System
+    value: 71
+  - description: '0-63 = Bypass, 64-127 = Engage'
     max: 127
     min: 0
     name: FS2
     type: System
     value: 103
-  - description: '0-63 = Bypass, 64-127 = Engage '
+  - description: ''
+    max: 127
+    min: 0
+    name: FS2 Pot1
+    type: System
+    value: 72
+  - description: ''
+    max: 127
+    min: 0
+    name: FS2 Pot2
+    type: System
+    value: 73
+  - description: ''
+    max: 127
+    min: 0
+    name: FS2 Pot3
+    type: System
+    value: 74
+  - description: '0 = Off, 1-127 = 0-100%'
+    max: 127
+    min: 0
+    name: FS2 Mash
+    type: System
+    value: 75
+  - description: ''
+    max: 127
+    min: 0
+    name: FS2 Expression
+    type: System
+    value: 76
+  - description: '0-63 = Bypass, 64-127 = Engage'
     max: 127
     min: 0
     name: FS3
     type: System
     value: 104
-  - description: '0-63 = Bypass, 64-127 = Engage '
+  - description: ''
+    max: 127
+    min: 0
+    name: FS3 Pot1
+    type: System
+    value: 77
+  - description: ''
+    max: 127
+    min: 0
+    name: FS3 Pot2
+    type: System
+    value: 78
+  - description: ''
+    max: 127
+    min: 0
+    name: FS3 Pot3
+    type: System
+    value: 79
+  - description: '0 = Off, 1-127 = 0-100%'
+    max: 127
+    min: 0
+    name: FS3 Mash
+    type: System
+    value: 80
+  - description: ''
+    max: 127
+    min: 0
+    name: FS3 Expression
+    type: System
+    value: 81
+  - description: '0-63 = Bypass, 64-127 = Engage'
     max: 127
     min: 0
     name: FS4
     type: System
     value: 105
-  - description: '0-63 = Bypass, 64-127 = Engage '
+  - description: ''
+    max: 127
+    min: 0
+    name: FS4 Pot1
+    type: System
+    value: 82
+  - description: ''
+    max: 127
+    min: 0
+    name: FS4 Pot2
+    type: System
+    value: 83
+  - description: ''
+    max: 127
+    min: 0
+    name: FS4 Pot3
+    type: System
+    value: 84
+  - description: '0 = Off, 1-127 = 0-100%'
+    max: 127
+    min: 0
+    name: FS4 Mash
+    type: System
+    value: 85
+  - description: ''
+    max: 127
+    min: 0
+    name: FS4 Expression
+    type: System
+    value: 86
+  - description: '0-63 = Bypass, 64-127 = Engage'
     max: 127
     min: 0
     name: FS5
     type: System
     value: 106
-
+  - description: ''
+    max: 127
+    min: 0
+    name: FS5 Pot1
+    type: System
+    value: 87
+  - description: ''
+    max: 127
+    min: 0
+    name: FS5 Pot2
+    type: System
+    value: 88
+  - description: ''
+    max: 127
+    min: 0
+    name: FS5 Pot3
+    type: System
+    value: 89
+  - description: '0 = Off, 1-127 = 0-100%'
+    max: 127
+    min: 0
+    name: FS5 Mash
+    type: System
+    value: 90
+  - description: ''
+    max: 127
+    min: 0
+    name: FS5 Expression
+    type: System
+    value: 91
+  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3, 77-102 = FS4, 103-127 = FS5'
+    max: 127
+    min: 0
+    name: Looper Record
+    type: System
+    value: 110
+  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3, 77-102 = FS4, 103-127 = FS5'
+    max: 127
+    min: 0
+    name: Looper Play
+    type: System
+    value: 111
+  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3, 77-102 = FS4, 103-127 = FS5'
+    max: 127
+    min: 0
+    name: Looper Clear
+    type: System
+    value: 112
+  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3, 77-102 = FS4, 103-127 = FS5'
+    max: 127
+    min: 0
+    name: Looper Pause
+    type: System
+    value: 113
