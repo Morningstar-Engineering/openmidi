@@ -16,10 +16,16 @@ cc:
     name: Global Tap Tempo
     type: System
     value: 92
-  - description: '0-63 = Off, 64-127 = On'
+  - description: ''
     max: 127
+    min: 64
+    name: Tuner On  
+    type: System
+    value: 93
+  - description: ''
+    max: 63
     min: 0
-    name: Tuner On/Off  
+    name: Tuner Off
     type: System
     value: 93
   - description: ''
@@ -58,10 +64,16 @@ cc:
     name: Hot Knob 3
     type: System
     value: 109
-  - description: '0-63 = Bypass, 64-127 = Engage'
+  - description: ''
     max: 127
+    min: 64
+    name: FS1 Engage
+    type: System
+    value: 102
+  - description: ''
+    max: 63
     min: 0
-    name: FS1
+    name: FS1 Bypass
     type: System
     value: 102
   - description: ''
@@ -82,10 +94,16 @@ cc:
     name: FS1 Pot3
     type: System
     value: 69
-  - description: '0 = Off, 1-127 = 0-100%'
+  - description: ''
     max: 127
-    min: 0
+    min: 1
     name: FS1 Mash
+    type: System
+    value: 70
+  - description: ''
+    max: 0
+    min: 0
+    name: FS1 Mash Off
     type: System
     value: 70
   - description: ''
@@ -94,10 +112,16 @@ cc:
     name: FS1 Expression
     type: System
     value: 71
-  - description: '0-63 = Bypass, 64-127 = Engage'
+  - description: ''
     max: 127
+    min: 64
+    name: FS2 Engage
+    type: System
+    value: 103
+  - description: ''
+    max: 63
     min: 0
-    name: FS2
+    name: FS2 Bypass
     type: System
     value: 103
   - description: ''
@@ -118,10 +142,16 @@ cc:
     name: FS2 Pot3
     type: System
     value: 74
-  - description: '0 = Off, 1-127 = 0-100%'
+  - description: ''
     max: 127
-    min: 0
+    min: 1
     name: FS2 Mash
+    type: System
+    value: 75
+  - description: ''
+    max: 0
+    min: 0
+    name: FS2 Mash Off
     type: System
     value: 75
   - description: ''
@@ -130,10 +160,16 @@ cc:
     name: FS2 Expression
     type: System
     value: 76
-  - description: '0-63 = Bypass, 64-127 = Engage'
+  - description: ''
     max: 127
+    min: 64
+    name: FS3 Engage
+    type: System
+    value: 104
+  - description: ''
+    max: 63
     min: 0
-    name: FS3
+    name: FS3 Bypass
     type: System
     value: 104
   - description: ''
@@ -154,10 +190,16 @@ cc:
     name: FS3 Pot3
     type: System
     value: 79
-  - description: '0 = Off, 1-127 = 0-100%'
+  - description: ''
     max: 127
-    min: 0
+    min: 1
     name: FS3 Mash
+    type: System
+    value: 80
+  - description: ''
+    max: 0
+    min: 0
+    name: FS3 Mash Off
     type: System
     value: 80
   - description: ''
@@ -166,28 +208,76 @@ cc:
     name: FS3 Expression
     type: System
     value: 81
-  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3'
-    max: 127
+  - description: ''
+    max: 24
     min: 0
-    name: Looper Record
+    name: FS1 Looper Record
     type: System
     value: 110
-  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3'
-    max: 127
+  - description: ''
+    max: 50
+    min: 25
+    name: FS2 Looper Record
+    type: System
+    value: 110
+  - description: ''
+    max: 76
+    min: 51
+    name: FS3 Looper Record
+    type: System
+    value: 110
+  - description: ''
+    max: 24
     min: 0
-    name: Looper Play
+    name: FS1 Looper Play
     type: System
     value: 111
-  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3'
-    max: 127
+  - description: ''
+    max: 50
+    min: 25
+    name: FS2 Looper Play
+    type: System
+    value: 111
+  - description: ''
+    max: 76
+    min: 51
+    name: FS3 Looper Play
+    type: System
+    value: 111
+  - description: ''
+    max: 24
     min: 0
-    name: Looper Clear
+    name: FS1 Looper Clear
     type: System
     value: 112
-  - description: '0-24 = FS1, 25-50 = FS2, 51-76 = FS3'
-    max: 127
+  - description: ''
+    max: 50
+    min: 25
+    name: FS2 Looper Clear
+    type: System
+    value: 112
+  - description: ''
+    max: 76
+    min: 51
+    name: FS3 Looper Clear
+    type: System
+    value: 112
+  - description: ''
+    max: 24
     min: 0
-    name: Looper Pause
+    name: FS1 Looper Pause
+    type: System
+    value: 113
+  - description: ''
+    max: 50
+    min: 25
+    name: FS2 Looper Pause
+    type: System
+    value: 113
+  - description: ''
+    max: 76
+    min: 51
+    name: FS3 Looper Pause
     type: System
     value: 113
 
