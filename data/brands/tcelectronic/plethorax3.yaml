@@ -2,10 +2,9 @@ midi_in: DIN5
 midi_thru: Yes
 phantom_power: No
 midi_clock: Yes
-
 midi_channel: 
   instructions: |+
-
+    SETTINGS > GLOBAL > MIDI > CHANNEL SELECT
 pc: 
   description: |+
     You can directly recall any BOARD on PLETHORA by sending it a PC (Program Change) message with the corresponding number.
