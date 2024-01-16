@@ -2,9 +2,6 @@ midi_in: USB
 midi_thru: No
 phantom_power: No
 midi_clock: Yes
-
-
-
 midi_channel:
   instructions: |+
     By default, the PROFILER receives MIDI commands on all sixteen MIDI channels (“Omni”). However, if you want to control multiple devices independently, you can set a specific channel in System Settings on the “MIDI Settings” page. Now, the PROFILER will only receive messages on that channel.
