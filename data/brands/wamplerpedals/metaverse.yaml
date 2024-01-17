@@ -1,0 +1,212 @@
+brand: Wampler Pedals
+device_name: Metaverse
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
+cc:
+  - name: Delay State
+    value: '1'
+    description: Turns the delay on/off
+    min: 0
+    max: '127'
+  - name: Delay Program
+    value: '2'
+    description: |-
+      Selects the delay program;
+      Send the corresponding MIDI CC value to select the
+      delay program:
+      0 - ANLG - Analog style delay
+      1 - WET - Modulated analog delay
+      2 - BBD - Bucket Brigade delay
+      3- JET - Analog flanger delay
+      4 - DOC - Wampler ‘The Doctor’
+      5 - FTE - Wampler ‘Faux Tape Echo’
+      6 - ETH - Wampler ‘Ethereal’ delay
+      7 - MOD - Digital flanger delay
+      8 - SPC - Space Echo delay
+      9 - TAPE - Multi head Tape delay
+      10 - DIGI - Digital delay
+    min: 0
+    max: '10'
+  - name: Delay Time (knob)
+    value: '3'
+    description: Emulates the Delay Time knob, 25ms to 2000ms
+    min: 0
+    max: '127'
+  - name: Delay Feedback (knob)
+    value: '4'
+    description: Emulates the Delay Feedback knob
+    min: 0
+    max: '127'
+  - name: Tone (knob)
+    value: '5'
+    description: Emulates the Tone knob
+    min: 0
+    max: '127'
+  - name: Mix (knob)
+    value: '6'
+    description: |-
+      Emulates the Output Mix knob;
+      0 = dry 100% + wet 0%
+      95 = dry 100% + wet 100%
+      127 = dry 0% + wet 100%
+    min: 0
+    max: '127'
+  - name: Level (knob)
+    value: '7'
+    description: |-
+      Emulates the Output Level knob;
+      0 = -6dB
+      63 = 0dB
+      127 = +6dB
+    min: 0
+    max: '127'
+  - name: Mod Depth (knob)
+    value: '8'
+    description: Emulates the Mod Depth knob
+    min: 0
+    max: '127'
+  - name: Mod Rate (knob)
+    value: '9'
+    description: Emulates the Mod Rate knob
+    min: 0
+    max: '127'
+  - name: Mod Feedback (knob)
+    value: '10'
+    description: |-
+      Emulates the Mod Feedback knob - only affects JET
+      and MOD Programs
+    min: 0
+    max: '127'
+  - name: TAPE Mode
+    value: '11'
+    description: |-
+      Selects head combination for TAPE Program ->
+      Value range selects heads in binary representation:
+      1000 (binary) = 8 (decimal) = head 1 (quarter)
+      0100 (binary) = 4 (decimal) = head 2 (dotted eighth)
+      0010 (binary) = 2 (decimal) = head 3 (eighth)
+      0001 (binary) = 1 (decimal) = head 4 (sixteenth)
+    min: '1'
+    max: '15'
+  - name: ETH Mode
+    value: '12'
+    description: |-
+      Select the delay mode for the Ethereal Delay
+      0 = quarter
+      1 = quarter + quarter triplet overlay
+      2 = quarter + dotted eighth overlay
+      3 = quarter + dotted eighth
+    min: 0
+    max: '3'
+  - name: Subdivision
+    value: '13'
+    description: |-
+      Sets the tap tempo subdivision (0-7 are accessible via
+      the front panel) Select the Subdivision setting for the
+      Tap Tempo Switch and MIDI Clock
+      0 = Quarter
+      1 = Dotted Eighth
+      2 = Eighth
+      3 = Sixteenth
+      4 = Half
+      5 = Whole
+      6 = Dotted Quarter
+      7 = Triplet Quarter
+      8 = Dotted Sixteenth
+      9 = Dotted Half
+      10 = Dotted Whole
+      11 = Triplet Sixteenth
+      12 = Triplet Eighth
+      13 = Triplet Half
+      14 = Triplet Whole
+    min: 0
+    max: '14'
+  - name: Delay Time (high ms)
+    value: '14'
+    description: |-
+      A Time High message followed by a Time Low message
+      will set the delay time to a specific ms value. It is possi-
+      ble to set very specific delay times (with 1ms resolution)
+      using two sequential MIDI commands.
+      First, send CC 14 with the high byte (calculated below)
+      Second, send CC 15 with the low byte (calculated
+      below)
+    min: 0
+    max: '15'
+  - name: Delay Time (low ms)
+    value: '15'
+    description: |-
+      Each message is a 7-bit value, and sent together will
+      be interpreted as a 14-bit value. To set a specific delay
+      time in milliseconds using MIDI CC 14 and 15:
+      1. Determine high byte: take delay time in
+      milliseconds and divide by 128. The number left of
+      the decimal is the high byte. (eg. 400ms delay time ->
+      400/128 = 3.125 -> high byte = 3
+      2. Determine low byte: multiply the number right of
+      the decimal by 128. This is the low byte.
+      (eg. 400ms delay time -> 400/128 = 3.125 -> 0.125 ->
+      0.125 * 128 = 16 -> low byte = 16
+      3. Send MIDI CC 14 val=highbyte (3) first, and then
+      MIDI CC 15 val=lowbyte (16) second.
+      4. After receiving both bytes, the device will update
+      the delay time to match the received messages.
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '81'
+    description: |-
+      Emulates the tap tempo function of the tap tempo
+      switch
+    min: 0
+    max: 0
+  - name: Preset Decrement
+    value: '82'
+    description: Decrements the Preset number by <value>
+    min: 0
+    max: '127'
+  - name: Preset Increment
+    value: '83'
+    description: Increments the Preset number by <value>
+    min: 0
+    max: '127'
+  - name: Tempo Switch Mode
+    value: '84'
+    description: " Selects the mode of the tempo switch"
+    min: 0
+    max: '127'
+  - name: Trails Mode
+    value: '85'
+    description: Trails Off
+    min: 0
+    max: 0
+  - name: Trails mode On
+    value: '85'
+    description: Turns on Trails mode
+    min: '1'
+    max: '127'
+  - name: Midi clock disable
+    value: '99'
+    description: 'Enable or disable the MIDI Clock Sync:
+
+      '
+    min: 0
+    max: 0
+  - name: Midi clock enable
+    value: '99'
+    description: 'Set Tempo based on MIDI Clock
+
+      '
+    min: '1'
+    max: '127'
+  - name: Expression Pedal
+    value: '100'
+    description: Emulates the expression pedal input
+    min: 0
+    max: '127'

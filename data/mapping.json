@@ -2253,6 +2253,9 @@
       "value": "wamplerpedals",
       "models": [
         {
+          "name": "Metaverse",
+          "value": "metaverse"
+        },{
           "name": "Terraform",
           "value": "terraform"
         },
