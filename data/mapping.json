@@ -2239,6 +2239,10 @@
           "value": "m1"
         },
         {
+          "name": "Meraki (Stereo Analog Delay)",
+          "value": "meraki"
+        },
+        {
           "name": "R1",
           "value": "r1"
         }
