@@ -265,11 +265,17 @@ cc:
     type: System
     min: 0
     max: 2
-  - name: Bypass/On
+  - name: Bypass
     value: 102
     description: (0=bypass, 1-127=on)
     type: System
     min: 0
+    max: 0
+  - name: Engage
+    value: 102
+    description: (0=bypass, 1-127=on)
+    type: System
+    min: 127
     max: 127
   - name: Echo On/Off
     value: 78
