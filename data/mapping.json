@@ -595,16 +595,20 @@
       "value": "eventide",
       "models": [
         {
-          "name": "H9",
-          "value": "h9"
-        },
-        {
           "name": "Blackhole",
           "value": "blackhole"
         },
         {
+          "name": "H9",
+          "value": "h9"
+        },
+        {
           "name": "Rose",
           "value": "rose"
+        },
+        {
+          "name": "Tricerachorus",
+          "value": "tricerachorus"
         }
       ]
     },

@@ -1,0 +1,102 @@
+brand: Eventide Audio
+cc:
+  - name: Expression Pedal
+    value: '4'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Engage Pedal
+    value: '14'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Bypass Pedal
+    value: '14'
+    description: ''
+    min: 0
+    max: 0
+  - name: Swirl On
+    value: '15'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Swirl Off
+    value: '15'
+    description: ''
+    min: 0
+    max: 0
+  - name: Mix
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Rate
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Detune
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Left Vol
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Centre Vol
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Right Vol
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mix Env
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Rate Env
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Pitch
+    value: '28'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay
+    value: '29'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter
+    value: '30'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Out Level
+    value: '31'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tap Rate
+    value: '9'
+    description: ''
+    min: '127'
+    max: '127'
+
+device_name: Tricerachorus
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
