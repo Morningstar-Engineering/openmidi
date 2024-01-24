@@ -931,6 +931,10 @@
       "value": "kernom",
       "models": [
         {
+          "name": "Moho",
+          "value": "moho"
+        },
+        {
           "name": "Ridge",
           "value": "ridge"
         }
