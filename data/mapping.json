@@ -671,6 +671,10 @@
       "value": "flowerpedals",
       "models": [
         {
+          "name": "Dahlia Dual Analog Delay",
+          "value": "dahlia"
+        },
+        {
           "name": "Sunflower",
           "value": "sunflower"
         }

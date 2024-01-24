@@ -1,0 +1,207 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+
+pc: 
+  description: |+
+
+cc:
+  - name: Time 1
+    value: '14'
+    description: Set the delay time knob for Delay 1
+    min: 0
+    max: '127'
+  - name: Time 2
+    value: '15'
+    description: Set the delay time knob for Delay 2
+    min: 0
+    max: '127'
+  - name: Feedback 1
+    value: '16'
+    description: Set the delay feedback for Delay 1
+    min: 0
+    max: '127'
+  - name: Feedback 2
+    value: '127'
+    description: Set the delay feedback for Delay 2
+    min: 0
+    max: '127'
+  - name: Mix 1
+    value: '18'
+    description: Set the level of the delay signal mixed in with the dry signal for
+      Delay 1
+    min: 0
+    max: '127'
+  - name: Mix 2
+    value: '19'
+    description: Set the level of the delay signal mixed in with the dry signal for
+      Delay 2
+    min: 0
+    max: '127'
+  - name: Tone 1
+    value: '20'
+    description: Set the low pass filter applied to the repeats for Delay 1
+    min: 0
+    max: '127'
+  - name: Tone 2
+    value: '21'
+    description: Set the low pass filter applied to the repeats for Delay 2
+    min: 0
+    max: '127'
+  - name: Tap Division 1
+    value: '22'
+    description: 'Set tap division for Delay 1: 0-25 for 1/4 note, 26-51 for dotted
+      1/8 note, 52-76 for 1/8 note, 77-102 for triplet 1/8 note, 103-127 for 1/16 note.'
+    min: 0
+    max: '127'
+  - name: Tap Division 2
+    value: '23'
+    description: 'Set tap division for Delay 1: 0-25 for 1/4 note, 26-51 for dotted
+      1/8 note, 52-76 for 1/8 note, 77-102 for triplet 1/8 note, 103-127 for 1/16 note.'
+    min: 0
+    max: '127'
+  - name: Mod Depth 1
+    value: '24'
+    description: Set the modulation depth for Delay 1
+    min: 0
+    max: '127'
+  - name: Mod Depth 2
+    value: '25'
+    description: Set the modulation depth for Delay 2
+    min: 0
+    max: '127'
+  - name: Mod Speed 1
+    value: '26'
+    description: Set the modulation speed for Delay 1
+    min: 0
+    max: '127'
+  - name: Mod Speed 2
+    value: '27'
+    description: Set the modulation speed for Delay 2
+    min: 0
+    max: '127'
+  - name: Gain 1
+    value: '28'
+    description: Set the gain to the signal before it goes into the delay lines for
+      Delay 1
+    min: 0
+    max: '127'
+  - name: Gain 2
+    value: '29'
+    description: Set the gain to the signal before it goes into the delay lines for
+      Delay 2
+    min: 0
+    max: '127'
+  - name: Time Lock (Width Mode)
+    value: '30'
+    description: When in width mode for time lock, set the amount of time difference
+      (or stereo width) between the two delays.
+    min: 0
+    max: '127'
+  - name: Time Lock (Div Mode)
+    value: '30'
+    description: 'When in division time lock mode, set the division relationship between
+      the two delays: 0-25 for 1/4 note, 26-51 for dotted 1/8 note, 52-76 for 1/8 note,
+      77-102 for triplet 1/8 note, and 103-127 for 1/16 note'
+    min: 0
+    max: '127'
+  - name: Ramp Speed 1
+    value: '31'
+    description: Set the speed that ramping happens for Delay 1
+    min: 0
+    max: '127'
+  - name: Ramp Speed 2
+    value: '32'
+    description: Set the speed that ramping happens for Delay 2
+    min: 0
+    max: '127'
+  - name: Time Ramp 1
+    value: '33'
+    description: Set whether Delay 1 ramps the time to twice the speed (0-42), half
+      the speed (85-127), or no time ramping (43-84).
+    min: 0
+    max: '127'
+  - name: Time Ramp 2
+    value: '34'
+    description: Set whether Delay 2 ramps the time to twice the speed (0-42), half
+      the speed (85-127), or no time ramping (43-84).
+    min: 0
+    max: '127'
+  - name: Feedback Ramp 1
+    value: '35'
+    description: Set the feedback level to ramp to for Delay 1
+    min: 0
+    max: '127'
+  - name: Feedback Ramp 2
+    value: '36'
+    description: Set the feedback level to ramp to for Delay 2
+    min: 0
+    max: '127'
+  - name: Delay Mode
+    value: '37'
+    description: 'Set how the two delays are being routed: 0-42 for stereo mode, 43-85
+      for parallel mode, 86-127 for series mode'
+    min: 0
+    max: '127'
+  - name: Time Lock Mode
+    value: '38'
+    description: 'Sets how the delay times  of the two delays are locked or not: 0-42
+      for independent operation, 43-85 for width mode, 86-127 for division mode'
+    min: 0
+    max: '127'
+  - name: Mod Shape 1
+    value: '39'
+    description: 'Set the modulation wave shape for Delay 1: 0-42 for triangle, 43-85
+      for sine, 86-127 for random'
+    min: 0
+    max: '127'
+  - name: Mod Shape 2
+    value: '40'
+    description: 'Set the modulation wave shape for Delay 2: 0-42 for triangle, 43-85
+      for sine, 86-127 for random'
+    min: 0
+    max: '127'
+  - name: Tempo
+    value: '41'
+    description: Sets the tap tempo speed to where the CC number is the BPM
+    min: '78'
+    max: '127'
+  - name: Tempo x2
+    value: '42'
+    description: Sets the tap tempo speed to where the CC number x2 is the BPM
+    min: '39'
+    max: '127'
+  - name: Ramp Engage
+    value: '43'
+    description: Send value 0-63 to engage the ramping (same as holding ramp footswitch).
+      Send value 64-127 to disengage ramping (same as releasing the ramp footswitch)
+    min: 0
+    max: '127'
+  - name: Pedal Engage
+    value: '44'
+    description: Send 0-42 to engage the pedal. Send 43-85 to disengage the pedal. Send
+      86-127 to toggle the pedal on/off.
+    min: 0
+    max: '127'
+  - name: MIDI Clock Ignore
+    value: '45'
+    description: Send 0-63 to enable MIDI clock and the pedal will sync to incoming
+      MIDI clock. Send 64-127 to ignore MIDI clock.
+    min: 0
+    max: '127'
+  - name: Expression
+    value: '46'
+    description: Engage the expression preset and set the position of a virtual expression
+      pedal (0 is heel, 127 is toe)
+    min: 0
+    max: '127'
+  - name: Tap
+    value: '47'
+    description: Message acts as a tap on the tap tempo footswitch. Send multiple messages
+      to set tempo.
+    min: 0
+    max: '127'
