@@ -1,0 +1,91 @@
+brand: Eventide Audio
+cc:
+  - name: Expression Pedal
+    value: '4'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tap Tempo
+    value: '9'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Engage Pedal
+    value: '14'
+    description: ''
+    min: '127'
+    max: '127'
+  - name: Bypass Pedal
+    value: '14'
+    description: ''
+    min: 0
+    max: 0
+  - name: Mix
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Amount Of Taps
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Length
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Spread
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Taper
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tone
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slurm
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: 'Predelay '
+    value: '28'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Chop
+    value: '29'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Spread/Rise/Release
+    value: '30'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Output Level
+    value: '31'
+    description: ''
+    min: 0
+    max: '127'
+device_name: Ultratap
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
