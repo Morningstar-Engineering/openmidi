@@ -1,6 +1,16 @@
 {
   "brands": [
     {
+      "name": "3 Degrees Audio",
+      "value": "3degreesaudio",
+      "models": [
+        {
+          "name": "Hue Stereo Multi Effect Pedal",
+          "value": "huestereo"
+        }
+      ]
+    },
+    {
       "name": "Access",
       "value": "access",
       "models": [
