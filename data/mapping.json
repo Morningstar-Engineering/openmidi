@@ -375,6 +375,16 @@
       ]
     },
     {
+      "name": "Dave Smith Instruments",
+      "value": "davesmithinstruments",
+      "models": [
+        {
+          "name": "Evolver",
+          "value": "evolver"
+        }
+      ]
+    },
+    {
       "name": "Decibel Eleven",
       "value": "decibeleleven",
       "models": [
@@ -1100,6 +1110,10 @@
         },
         {
           "name": "HX Effects",
+          "value": "hxeffects"
+        },
+        {
+          "name": "HX One",
           "value": "hxeffects"
         },
         {

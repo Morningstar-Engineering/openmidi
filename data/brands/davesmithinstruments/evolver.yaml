@@ -1,0 +1,276 @@
+brand: Dave Smith Instruments
+cc:
+  - name: Mod Wheel
+    value: '1'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Breath Controller
+    value: '2'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Foot Controller
+    value: '4'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Volume
+    value: '7'
+    description: Combined with Master Volume and Program Volume
+    min: 0
+    max: '127'
+  - name: Expression Controller
+    value: '11'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Bank Select
+    value: '32'
+    description: 0 to 3 selects banks 1 to 4; others ignored
+    min: 0
+    max: '3'
+  - name: Damper Pedal
+    value: '64'
+    description: Holds envelopes in Sustain if 100 or higher
+    min: 0
+    max: '127'
+  - name: Brightness
+    value: '74'
+    description: Added to lowpass filter cutoff frequency
+    min: 0
+    max: '127'
+  - name: Reset All Controllers
+    value: '121'
+    description: clears all MIDI controllers to 0; MIDI volume to maximum
+    min: 0
+    max: '127'
+  - name: All Notes Off
+    value: '123'
+    description: clear all MIDI notes
+    min: 0
+    max: '127'
+  - name: Oscillator 1 Frequency
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 2 Frequency
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 3 Frequency
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 4 Frequency
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 1 Level
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 2 Level
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 3 Level
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 4 Level
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 1 Shape
+    value: '28'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 2 Shape
+    value: '29'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 3 Shape
+    value: '30'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Oscillator 4 Shape
+    value: '31'
+    description: ''
+    min: 0
+    max: '127'
+  - name: FM 4 -> 3
+    value: '40'
+    description: ''
+    min: 0
+    max: '127'
+  - name: FM 3 -> 4
+    value: '41'
+    description: ''
+    min: 0
+    max: '127'
+  - name: RM 4 -> 3
+    value: '42'
+    description: ''
+    min: 0
+    max: '127'
+  - name: RM 3 -> 4
+    value: '43'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Noise Level
+    value: '62'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Low Pass Filter Frequency
+    value: '52'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Resonance
+    value: '53'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Envelope Amount
+    value: '54'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Attack
+    value: '55'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Decay
+    value: '56'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Sustain
+    value: '57'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Release
+    value: '58'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Audio Mod
+    value: '59'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Split
+    value: '60'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Filter Key Amount
+    value: '61'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Amp Attack
+    value: '75'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Amp Decay
+    value: '76'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Amp Sustain
+    value: '77'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Amp Release
+    value: '78'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Highpass Filter Cutoff
+    value: '13'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback Frequency
+    value: '85'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Feedback Level
+    value: '86'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Distortion
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 1 Time
+    value: '102'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 2 Time
+    value: '103'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 3 Time
+    value: '104'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 1 Amount
+    value: '105'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 2 Amount
+    value: '106'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay 3 Amount
+    value: '107'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Feedback 1
+    value: '108'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Delay Feedback 2
+    value: '109'
+    description: ''
+    min: 0
+    max: '127'
+device_name: Evolver
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
