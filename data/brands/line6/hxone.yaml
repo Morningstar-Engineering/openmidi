@@ -1,0 +1,211 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+instructions:
+
+midi_channel:
+  instructions: |+
+pc:
+  description:
+cc:
+  - name: Emulate ON switch
+    value: '1'
+    description: If effect is off, any CC value will turn it on; if effect is on, any
+      CC value will turn it off.
+    min: 0
+    max: '127'
+  - name: Emulate FLUX switch
+    value: '2'
+    description: HX One does not need to be in FLUX Mode for this to work.
+    min: 0
+    max: '127'
+  - name: Emulate Expression Pedal
+    value: '3'
+    description: Settings > Pedal Jack must be set to "ExpFS4"
+    min: 0
+    max: '127'
+  - name: Bypass/Engage
+    value: '4'
+    description: '0-63: Bypass; 64-127: Engage'
+    min: 0
+    max: '127'
+  - name: View
+    value: '5'
+    description: '0: Home; 1: Preset List; 2: Tuner'
+    min: 0
+    max: '2'
+  - name: Enter Tap Tempo
+    value: '93'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 1
+    value: '21'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 2
+    value: '22'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 3
+    value: '23'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 4
+    value: '24'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 5
+    value: '25'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 6
+    value: '26'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 7
+    value: '27'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 8
+    value: '28'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 9
+    value: '29'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 10
+    value: '30'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 11
+    value: '31'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 12
+    value: '33'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 13
+    value: '34'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 14
+    value: '35'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 15
+    value: '36'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 16
+    value: '37'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 17
+    value: '38'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 18
+    value: '39'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 20
+    value: '41'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 21
+    value: '42'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 22
+    value: '43'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 23
+    value: '44'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Parameter 24
+    value: '45'
+    description: ''
+    min: 0
+    max: '127'
+  - name: FLUX - OnTime
+    value: '46'
+    description: ''
+    min: 0
+    max: '127'
+  - name: FLUX - OnCurve
+    value: '47'
+    description: '0~4: Slow 5 to Slow 1; 5: Linear; 6~10: Fast 1 to Fast 5'
+    min: 0
+    max: '10'
+  - name: FLUX - OffTime
+    value: '48'
+    description: ''
+    min: 0
+    max: '127'
+  - name: FLUX - OffCurve
+    value: '49'
+    description: '0~4: Slow 5 to Slow 1; 5: Linear; 6~10: Fast 1 to Fast 5'
+    min: 0
+    max: '10'
+  - name: Looper OVERDUB
+    value: '60'
+    description: '0-63: Overdub; 64-127: Record - Overdub is enabled only if device
+      is currently playing or recording a loop. Record is enabled only if no loop exists
+      in memory or if playback or recording is stopped.'
+    min: 0
+    max: '127'
+  - name: Looper PLAY/STOP
+    value: '61'
+    description: '0-63: Stop; 64-127: Play'
+    min: 0
+    max: '127'
+  - name: Looper PLAY ONCE
+    value: '63'
+    description: " (note that values 0-63 do nothing)"
+    min: '64'
+    max: '127'
+  - name: Looper UNDO/REDO
+    value: '63'
+    description: Toggle on each press between Undo and Redo for the most recent overdub
+      recording (note that 0-63 do nothing)
+    min: '64'
+    max: '127'
+  - name: Looper FORWARD/REVERSE
+    value: '65'
+    description: '0-63: Forward; 64-127: Reverse'
+    min: 0
+    max: '127'
+  - name: Looper FULL/HALF SPEED
+    value: '66'
+    description: '0-63: Full; 64-127: Half'
+    min: 0
+    max: '127'
