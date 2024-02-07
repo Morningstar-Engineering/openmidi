@@ -1909,6 +1909,16 @@
       ]
     },
     {
+      "name": "Sound Sculpture",
+      "value": "soundsculpture",
+      "models": [
+        {
+          "name": "Switchblade 8F",
+          "value": "switchblade8f"
+        }
+      ]
+    },
+    {
       "name": "Source Audio",
       "value": "sourceaudio",
       "models": [

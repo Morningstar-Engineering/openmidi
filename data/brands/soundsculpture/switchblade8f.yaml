@@ -1,0 +1,73 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: No
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+
+
+pc:
+  description: |+
+cc:
+  - name: Relay 1 ON/OFF
+    value: '113'
+    description: TOGGLE RELAY 1 (OR PULSE IF SET TO PULSE TYPE)
+    min: 0
+    max: '127'
+  - name: Relay 2 ON/OFF
+    value: '114'
+    description: TOGGLE RELAY 2 (OR PULSE IF SET TO PULSE TYPE)
+    min: 0
+    max: '127'
+  - name: Autosweep Tap tempo LFO A
+    value: '117'
+    description: TAP TEMPO FOR AUTOSWEEP LFO A
+    min: 0
+    max: '127'
+  - name: Autosweep Tap tempo LFO B
+    value: '118'
+    description: TAP TEMPO FOR AUTOSWEEP LFO B
+    min: 0
+    max: '127'
+  - name: Autosweep Tap tempo LFO C
+    value: '119'
+    description: AP TEMPO FOR AUTOSWEEP LFO C
+    min: 0
+    max: '127'
+  - name: Tap tempo all 2 LFOs
+    value: '120'
+    description: "TAP TEMPO FOR ALL 3 LFOs (FASTEST IS SET TO TAP AND \nOTHERS SYNC
+      IN PROPORTION"
+    min: 0
+    max: '127'
+  - name: Autosweep LFO A ON/OFF
+    value: '121'
+    description: 'AUTOSWEEP LFO A ON/OFF'
+    min: 0
+    max: '127'
+  - name: Autosweep LFO B ON/OFF
+    value: '122'
+    description: AUTOSWEEP LFO B ON/OFF
+    min: 0
+    max: '127'
+  - name: Autosweep LFO C ON/OFF
+    value: '123'
+    description: AUTOSWEEP LFO C ON/OFF
+    min: 0
+    max: '127'
+  - name: All Autosweep LFOs ON/OFF
+    value: '124'
+    description: ALL AUTOSWEEP LFOS ON/OFF
+    min: 0
+    max: '127'
+  - name: Boost out 3dB ON/OFF
+    value: '125'
+    description: BOOST SIGNAL AT FINAL OUTPUT BY 3dB (ADDS TO CC 126)
+    min: 0
+    max: '127'
+  - name: Boost out 6dB ON/OFF
+    value: '126'
+    description: BOOST SIGNAL AT FINAL OUTPUT BY 6dB (ADDS TO CC 125)
+    min: 0
+    max: '127'
