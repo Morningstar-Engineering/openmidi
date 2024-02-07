@@ -1,0 +1,92 @@
+brand: Darkglass Electronics
+cc:
+  - name: Compression
+    value: 0
+    description: ''
+    min: 0
+    max: '127'
+  - name: Drive
+    value: '1'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Character
+    value: '2'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Blend
+    value: '3'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Level
+    value: '4'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Headphone volume
+    value: '5'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slider 1
+    value: '6'
+    description: leftmost
+    min: 0
+    max: '127'
+  - name: Slider 2
+    value: '7'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slider 3
+    value: '8'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slider 4
+    value: '9'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slider 5
+    value: '10'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Slider 6
+    value: '11'
+    description: rightmost
+    min: 0
+    max: '127'
+  - name: Compression ratio
+    value: '12'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Distortion mode
+    value: '13'
+    description: |-
+      0-21       Bypass distortion
+      22-42     Clean tube preamp
+      43-63     Vintage Microtubes
+      64-85     Microtubes B3K
+      86-106   Vintage Microtubes multi-band
+      107-127 Microtubes B3K multi-band
+    min: 0
+    max: '127'
+  - name: Active cabsim
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+device_name: Microtubes Infinity
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

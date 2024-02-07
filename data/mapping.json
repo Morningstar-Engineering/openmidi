@@ -365,6 +365,16 @@
       ]
     },
     {
+      "name": "Darkglass Electronics",
+      "value": "darkglass",
+      "models": [
+        {
+          "name": "Microtubes Infinity",
+          "value": "microtubesinfinity"
+        }
+      ]
+    },
+    {
       "name": "Decibel Eleven",
       "value": "decibeleleven",
       "models": [
