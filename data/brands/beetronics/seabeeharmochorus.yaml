@@ -1,0 +1,132 @@
+brand: Beetronics
+cc:
+  - name: Expression Pedal
+    value: '4'
+    description: 'Emulates the expression pedal control'
+    min: 0
+    max: '127'
+  - name: Ramp
+    value: '14'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Tone/Pattern
+    value: '15'
+    description: 'Tone: 0, off: 1, HP: 2, BP: 3, LP | Pattern: 0-11'
+    min: 0
+    max: '10'
+  - name: Rate 1
+    value: '16'
+    description: 'Rate 1 on every mode but STING = Delay Time 1'
+    min: 0
+    max: '127'
+  - name: Depth 1 / Harmony 1
+    value: '17'
+    description: 'ROTO = Depth 1, Dual = Harmony 1 (0 = no harmonie 1-12 = each step),
+      STING = Delay Time 2 (0-11 = each step), ARP/MAD = Harmonies (0-11 to select chord)'
+    min: 0
+    max: '10'
+  - name: Feedback
+    value: '18'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mix
+    value: '19'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Rate 2
+    value: '20'
+    description: 'on modes ROTO and DUAL (0-11)'
+    min: 0
+    max: '127'
+  - name: Depth 2 / Harmony 2
+    value: '21'
+    description: 'Depth 2 on ROTO Mode / Harmony 2 on DUAL mode'
+    min: 0
+    max: '127'
+  - name: Manual Ramp
+    value: '20'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Mode
+    value: '23'
+    description: '0 - ROTO, 1 - DEPTH, 2 - STING, 3 - DUAL, 4 - ARP, 5 - MAD'
+    min: 0
+    max: '127'
+  - name: Ramp Type
+    value: '24'
+    description: '0 - A to B, 1 - Up and Down, 2 - Only Up'
+    min: 0
+    max: '127'
+  - name: Bypass
+    value: '102'
+    description: ''
+    min: '63'
+    max: '127'
+  - name: Engage
+    value: '102'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Extra Tap (any_value)
+    value: '103'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Extra Tap - Press
+    value: '104'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Extra Tap - Release
+    value: '104'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Reset LFO (any value)
+    value: '105'
+    description: ''
+    min: 0
+    max: '127'
+  - name: Double click action (any value)
+    value: '106'
+    description: 'Alternate between ramp up and ramp down position'
+    min: 0
+    max: '127'
+  - name: Ramp Trigger (any value)
+    value: '107'
+    description: 'first value emulates a press and the second value emulates a release'
+    min: 0
+    max: '127'
+  - name: Ramp Trigger - Press
+    value: '108'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Ramp Trigger - Release
+    value: '108'
+    description: ''
+    min: 0
+    max: '63'
+  - name: MIDI Clock Enable - On
+    value: '109'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: MIDI Clock Enable - Off
+    value: '109'
+    description: ''
+    min: 0
+    max: '63'
+device_name: Seabee Harmochorus
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

@@ -151,6 +151,16 @@
       ]
     },
     {
+      "name": "Beetronics",
+      "value": "beetronics",
+      "models": [
+        {
+          "name": "Seabee Harmochorus",
+          "value": "seabeeharmochorus"
+        }
+      ]
+    },
+    {
       "name": "Behringer",
       "value": "behringer",
       "models": [
