@@ -805,6 +805,10 @@
       "value": "gfisystem",
       "models": [
         {
+          "name": "Enieqma",
+          "value": "enieqma"
+        },
+        {
           "name": "Specular Tempus",
           "value": "speculartempus"
         },
