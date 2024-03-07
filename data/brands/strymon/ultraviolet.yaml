@@ -1,0 +1,69 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+
+instructions:
+
+pc:
+  description: |+
+
+cc:
+  - name: Bank Select
+    value: 0
+    description: 0=Bank 1, 1=Bank 2, 3=Bank 3
+    min: 0
+    max: '2'
+  - name: Mode
+    value: '11'
+    description: 1=chorus, 2=blend, 3=vibrato
+    min: '1'
+    max: '3'
+  - name: Bias
+    value: '12'
+    description: 1=low, 2=mid, 3=high
+    min: 0
+    max: 127
+  - name: Speed
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Intensity
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Volume
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Footswitch
+    value: '27'
+    description: 0=release, 1-127=press
+    min: 0
+    max: 127
+  - name: MIDI Expression Off/On
+    value: '60'
+    description: 0=off, 1-127=on
+    min: 0
+    max: 127
+  - name: Tap
+    value: '93'
+    description: Any value
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: '100'
+    description: 0=heel, 127=toe
+    min: 0
+    max: 127
+  - name: Bypass/Engage
+    value: '102'
+    description: 0=bypass, 1-127=engage
+    min: 0
+    max: 127

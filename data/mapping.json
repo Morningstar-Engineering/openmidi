@@ -2067,6 +2067,10 @@
           "value": "sunset"
         },
         {
+          "name": "Ultraviolet",
+          "value": "ultraviolet"
+        },
+        {
           "name": "NightSky",
           "value": "nightsky"
         },
