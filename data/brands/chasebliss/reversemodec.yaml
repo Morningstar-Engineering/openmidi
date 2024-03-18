@@ -211,31 +211,31 @@ cc:
     type: Parameter
     min: 0
     max: 0
- - name: Knobs - Balance - Region 2
+  - name: 'Knobs - Balance - Region 2'
     value: 18
     description: ''
     type: Parameter
     min: 1
     max: 24
- - name: Knobs - Balance - Reverse
+  - name: 'Knobs - Balance - Reverse'
     value: 18
     description: ''
     type: Parameter
     min: 25
     max: 35
- - name: Knobs - Balance - Region 4
+  - name: 'Knobs - Balance - Region 4'
     value: 18
     description: ''
     type: Parameter
     min: 36
     max: 54
- - name: Knobs - Balance - Forward
+  - name: 'Knobs - Balance - Forward'
     value: 18
     description: ''
     type: Parameter
     min: 55
     max: 67
- - name: Knobs - Balance - All
+  - name: 'Knobs - Balance - All'
     value: 18
     description: ''
     type: Parameter
@@ -259,43 +259,43 @@ cc:
     type: Parameter
     min: 0
     max: 15
- name: Hidden Options - X8 Seqencer Subdivision
+  - name: Hidden Options - X8 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 16
     max: 31
-name: Hidden Options - X4 Seqencer Subdivision
+  - name: Hidden Options - X4 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 32
     max: 47
-name: Hidden Options - X2 Seqencer Subdivision
+  - name: Hidden Options - X2 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 48
     max: 63
-name: Hidden Options - X1 Seqencer Subdivision
+  - name: Hidden Options - X1 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 64
     max: 79
-    name: Hidden Options - X1/2 Seqencer Subdivision
+  - name: Hidden Options - X1/2 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 80
     max: 95
-name: Hidden Options - X1/4 Seqencer Subdivision
+  - name: Hidden Options - X1/4 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter
     min: 96
     max: 111
-name: Hidden Options - X1/8 Seqencer Subdivision
+  - name: Hidden Options - X1/8 Seqencer Subdivision
     value: 24
     description: ''
     type: Parameter

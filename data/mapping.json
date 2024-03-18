@@ -331,6 +331,10 @@
           "value": "preampmkii"
         },
         {
+          "name": "Reverse Mode C",
+          "value": "reversemodec"
+        },
+        {
           "name": "Spectre",
           "value": "spectre"
         },
