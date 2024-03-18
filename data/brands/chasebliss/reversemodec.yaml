@@ -1,0 +1,687 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+    Reverse Mode C is set to MIDI channel 2 by default, but it is easy to change.
+    Simply hold down both stomp switches when you power up the pedal. 
+    The pedal is now looking for the first “Program Change” message it sees,
+    and it will set itself to that channel.
+instructions:
+
+pc:
+  description: |+
+    SAVING A PRESET VIA MIDI
+    Presets are both saved and recalled by using Program Change (PC) messages.
+    To save a preset, send a PC messag  while holding down both foot switches.
+    Sending a Program Change message of 45, for example,
+    will save your current settings to preset 45.
+    There are 122 total slots.
+    Slots 1 and 2 correspond to the preset toggle on the pedal.
+    Slot 1 is the right slot. Slot 2 is the left slot.
+
+    RECALLING A PRESET VIA MIDI
+    To recall a preset, simply send Reverse Mode C a Program Change message.
+    If the target slot is empty, then nothing will be recalled.
+    There are no factory presets besides
+    the two that come loaded in slots 1 and 2.
+    Sending a Program Change message of 0 puts the pedal in “Live” mode,
+    matching the current settings of the pedal.
+
+cc:
+  - name: Bypass - Off
+    value: 102
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Bypass - On
+    value: 102
+    description: ''
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Alt Menu - Off
+    value: 104
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Alt Menu - Of
+    value: 104
+    description: ''
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Freeze - Off
+    value: 105
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Freeze - On
+    value: 105
+    description: ''
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Half Speed - Off
+    value: 106
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Half Speed - On
+    value: 106
+    description: ''
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Tap Tempo
+    value: 103
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Tap Tempo - Legacy
+    value: 93
+    description: 'CC93 is also Tap Tempo for continuity between past pedals.'
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Mod Sync - Sync
+    value: 21
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Mod Sync - Off
+    value: 21
+    description: ''
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Mod Sync - Free
+    value: 21
+    description: ''
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Mod Type - Vibrato
+    value: 22
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Mod Type - Tremolo
+    value: 22
+    description: ''
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Mod Type - Freq Shift Up
+    value: 22
+    description: ''
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Sequencer Mode - Run
+    value: 23
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Sequencer Mode - Off
+    value: 23
+    description: ''
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Sequencer Mode - Env
+    value: 23
+    description: ''
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Knobs - Time
+    value: 14
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Knobs - Mix
+    value: 15
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Knobs - Feedback
+    value: 16
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Knobs - Offset - Region 1
+    value: 17
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Knobs - Offset - Region 2
+    value: 17
+    description: ''
+    type: Parameter
+    min: 1
+    max: 31
+  - name: Knobs - Offset - Region 3
+    value: 17
+    description: ''
+    type: Parameter
+    min: 32
+    max: 47    
+  - name: Knobs - Offset - Region 4
+    value: 17
+    description: ''
+    type: Parameter
+    min: 48
+    max: 79
+  - name: Knobs - Offset - Region 5
+    value: 17
+    description: ''
+    type: Parameter
+    min: 80
+    max: 95
+  - name: Knobs - Offset - Region 6
+    value: 17
+    description: ''
+    type: Parameter
+    min: 96
+    max: 126
+  - name: Knobs - Offset - Region 7
+    value: 17
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Knobs - Balance - Reverse Octave
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+ - name: Knobs - Balance - Region 2
+    value: 18
+    description: ''
+    type: Parameter
+    min: 1
+    max: 24
+ - name: Knobs - Balance - Reverse
+    value: 18
+    description: ''
+    type: Parameter
+    min: 25
+    max: 35
+ - name: Knobs - Balance - Region 4
+    value: 18
+    description: ''
+    type: Parameter
+    min: 36
+    max: 54
+ - name: Knobs - Balance - Forward
+    value: 18
+    description: ''
+    type: Parameter
+    min: 55
+    max: 67
+ - name: Knobs - Balance - All
+    value: 18
+    description: ''
+    type: Parameter
+    min: 68
+    max: 127            
+  - name: Knobs - Filter
+    value: 19
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Knobs - Ramp Speed
+    value: 20
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Hidden Options - X16 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 0
+    max: 15
+ name: Hidden Options - X8 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 16
+    max: 31
+name: Hidden Options - X4 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 32
+    max: 47
+name: Hidden Options - X2 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 48
+    max: 63
+name: Hidden Options - X1 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 64
+    max: 79
+    name: Hidden Options - X1/2 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 80
+    max: 95
+name: Hidden Options - X1/4 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 96
+    max: 111
+name: Hidden Options - X1/8 Seqencer Subdivision
+    value: 24
+    description: ''
+    type: Parameter
+    min: 112
+    max: 127
+  - name: Hidden Options - Ramping Waveform - Triangle
+    value: 25
+    description: ''
+    type: Parameter
+    min: 0
+    max: 14
+  - name: Hidden Options - Ramping Waveform - Square
+    value: 25
+    description: ''
+    type: Parameter
+    min: 15
+    max: 54
+  - name: Hidden Options - Ramping Waveform - Sine
+    value: 25
+    description: ''
+    type: Parameter
+    min: 55
+    max: 80
+  - name: Hidden Options - Ramping Waveform - Sample & Hold
+    value: 25
+    description: ''
+    type: Parameter
+    min: 81
+    max: 126
+  - name: Hidden Options - Ramping Waveform - Smooth Random
+    value: 25
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Hidden Options - Modulation Depth
+    value: 27
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Hidden Options - 0.25X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 0
+    max: 9
+  - name: Hidden Options - 0.33X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 10
+    max: 19
+  - name: Hidden Options - 0.5X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 20
+    max: 29
+  - name: Hidden Options - 0.75X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 30
+    max: 39
+  - name: Hidden Options - 1X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 40
+    max: 49
+  - name: Hidden Options - 1.5X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 50
+    max: 58   
+  - name: Hidden Options - 2X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 59
+    max: 68        
+  - name: Hidden Options - 3X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 69
+    max: 78                   
+  - name: Hidden Options - 4X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 79
+    max: 88   
+  - name: Hidden Options - 8X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 89
+    max: 98   
+  - name: Hidden Options - 16X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 99
+    max: 107
+  - name: Hidden Options - 32X Mod Speed
+    value: 28
+    description: ''
+    type: Parameter
+    min: 108
+    max: 117         
+  - name: Hidden Options - Octave Type - Oct Down
+    value: 31
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Hidden Options - Octave Type - Both Oct
+    value: 31
+    description: ''
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Hidden Options - Octave Type - Oct Up
+    value: 31
+    description: ''
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Hidden Options - Sequence Spacing - Rest
+    value: 33
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Hidden Options - Sequence Spacing - Skip
+    value: 33
+    description: ''
+    type: Parameter
+    min: 2
+    max: 2
+  - name: MIDI Clock Ignore - Ignore
+    value: 51
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: MIDI Clock Ignore - Follow
+    value: 51
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Stop Ramping - Stop
+    value: 52
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Stop Ramping - Resume
+    value: 52
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Factory Reset
+    value: 56
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Dry Kill - Off
+    value: 57
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dry Kill - On
+    value: 57
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Time - Off
+    value: 61
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Time - On
+    value: 61
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Offset - Off
+    value: 62
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Offset - On
+    value: 62
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Balence - Off
+    value: 63
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Balence - On
+    value: 63
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Filter - Off
+    value: 64
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Filter - On
+    value: 64
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Feedback - Off
+    value: 65
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Feedback - On
+    value: 65
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Bounce - Off
+    value: 66
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Bounce - On
+    value: 66
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Sweep - Off
+    value: 67
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Sweep - On
+    value: 67
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (L) - Polarity - F
+    value: 68
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (L) - Polarity - R
+    value: 68
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Swap - Off
+    value: 71
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Swap - On
+    value: 71
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Miso - Off
+    value: 72
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Miso - On
+    value: 72
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Spread - Off
+    value: 73
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Spread - On
+    value: 73
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Trails - Off
+    value: 74
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Trails - On
+    value: 74
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Latch - Off
+    value: 75
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Latch - On
+    value: 75
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Feed Type - Off
+    value: 76
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Feed Type - On
+    value: 76
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Fade Type - Off
+    value: 77
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Fade Type - On
+    value: 77
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Dip Switches (R) - Mod Type - Off
+    value: 78
+    description: ''
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Dip Switches (R) - Mod Type - On
+    value: 78
+    description: ''
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Preset Save
+    value: 111
+    description: ''
+    type: Parameter
+    min: 0
+    max: 122
+  - name: Expression over Midi
+    value: 100
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
