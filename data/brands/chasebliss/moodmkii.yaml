@@ -24,7 +24,7 @@ pc:
 
     RECALLING A PRESET VIA MIDI
     To recall a preset, simply send MOOD MKII a Program Change message.
-    If the target slot is empty, then nothing will be recalled.
+    If the target slot is empty, then nothing  gwill be recalled.
     There are no factory presets besides
     the two that come loaded in slots 1 and 2.
     Sending a Program Change message of 0 puts the pedal in “Live” mode,
@@ -73,7 +73,7 @@ cc:
     type: Parameter
     min: 0
     max: 0
-  - name: Hidden Menu - Of
+  - name: Hidden Menu - On
     value: 104
     description: ''
     type: Parameter
