@@ -283,6 +283,16 @@
       ]
     },
     {
+      "name": "Chaos Audio",
+      "value": "chaosaudio",
+      "models": [
+        {
+          "name": "Stratus",
+          "value": "stratus"
+        }
+      ]
+    },
+    {
       "name": "Chase Bliss Audio",
       "value": "chasebliss",
       "models": [

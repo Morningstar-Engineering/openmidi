@@ -1,0 +1,42 @@
+brand: Chaos Audio
+cc:
+  - name: Master Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass Effect
+    value: '14'
+    description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
+    min: 0
+    max: 127
+  - name: Enable Effect
+    value: '15'
+    description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
+    min: 0
+    max: 127
+  - name: Toggle Effect
+    value: '16'
+    description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
+    min: 0
+    max: 127
+  - name: Looper
+    value: '17'
+    description: 0 = Clear; 1 = Record; 2 = Play; 3 = Overdub; 4 = Pause
+    min: 0
+    max: 127
+  - name: Mode Change
+    value: '18'
+    description: 0 = Master Mode (Default); 1= Live Mode
+    min: 0
+    max: '1'
+
+device_name: Stratus
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
