@@ -1,0 +1,27 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+
+
+cc:
+  - name: Loop A
+    value: '50'
+    description: 'Loop Off: 0-63, Loop On: 64-127'
+    min: 0
+    max: 127
+  - name: Loop B
+    value: '51'
+    description: 'Loop Off: 0-63, Loop On: 64-127'
+    min: 0
+    max: 127
+  - name: Loop C
+    value: '52'
+    description: 'Loop Off: 0-63, Loop On: 64-127'
+    min: 0
+    max: 127
+
+pc:
