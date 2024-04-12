@@ -12,18 +12,18 @@ pc:
 cc:
   - name: Emulate ON switch
     value: '1'
-    description: If effect is off, any CC value will turn it on; if effect is on, any
-      CC value will turn it off.
+    description: 'If effect is off, any CC value will turn it on; if effect is on, any
+      CC value will turn it off.'
     min: 0
     max: '127'
   - name: Emulate FLUX switch
     value: '2'
-    description: HX One does not need to be in FLUX Mode for this to work.
+    description: 'HX One does not need to be in FLUX Mode for this to work.'
     min: 0
     max: '127'
   - name: Emulate Expression Pedal
     value: '3'
-    description: Settings > Pedal Jack must be set to "ExpFS4"
+    description: 'Settings > Pedal Jack must be set to "ExpFS4"'
     min: 0
     max: '127'
   - name: Bypass/Engage
@@ -195,8 +195,8 @@ cc:
     max: '127'
   - name: Looper UNDO/REDO
     value: '63'
-    description: Toggle on each press between Undo and Redo for the most recent overdub
-      recording (note that 0-63 do nothing)
+    description: 'Toggle on each press between Undo and Redo for the most recent overdub
+      recording (note that 0-63 do nothing)'
     min: '64'
     max: '127'
   - name: Looper FORWARD/REVERSE
