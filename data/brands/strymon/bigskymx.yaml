@@ -1,0 +1,653 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+instructions:
+  -
+
+pc:
+  description: |+
+
+cc:
+- name: Reverb 1 Type Encoder
+  value: '1'
+  description: ''
+  min: 0
+  max: '11'
+- name: Reverb 1 Decay Knob
+  value: '3'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Pre-Delay Knob
+  value: '5'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Output Level
+  value: '7'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 1 Pan
+  value: '9'
+  description: 0 = Full Left; 8 = Center; 16 = Full Right
+  min: 0
+  max: '16'
+- name: Reverb 1 Tone Knob
+  value: '11'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Mod Knob
+  value: '13'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Mix Knob
+  value: '15'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Infinite Mode
+  value: '17'
+  description: 0 = Freeze; 1 = Infinite; 2 = Off
+  min: 0
+  max: '2'
+- name: Reverb 1 Param 1 Knob
+  value: '19'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Param 2 Knob
+  value: '21'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 1 Low End
+  value: '23'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Room - Size
+  value: '25'
+  description: 0 = Studio; 1 = Club
+  min: 0
+  max: '1'
+- name: Reverb 1 Room - Diffusion
+  value: '27'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Room - Voice
+  value: '29'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 1 Hall - Mid
+  value: '35'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Hall - Size
+  value: '37'
+  description: 0 = Concert; 1 = Arena
+  min: 0
+  max: '1'
+- name: Reverb 1 Hall - Swell Rise
+  value: '39'
+  description: ''
+  min: 0
+  max: '22'
+- name: Reverb 1 Hall - Swell Type
+  value: '41'
+  description: 0 = Wet; 1 = Dry
+  min: 0
+  max: '1'
+- name: Reverb 1 Hall - Voice
+  value: '43'
+  description: 0 = MX; 1= Classic
+  min: 0
+  max: '1'
+- name: Reverb 1 Chamber - Color
+  value: '45'
+  description: 0 = Neutral; 1 = Clear; 2 = Smooth; 3 = Crisp; 4 = Deep
+  min: 0
+  max: '4'
+- name: Reverb 1 Plate - Size
+  value: '47'
+  description: 0 = Small; 1 = Large
+  min: 0
+  max: '1'
+- name: Reverb 1 Plate - Voice
+  value: '49'
+  description: 0 = MX; 1= Classic
+  min: 0
+  max: '1'
+- name: Reverb 1 Spring - Dwell
+  value: '51'
+  description: 0 = Clean; 1 = Combo; 2 = Tube; 3 = Overdrive
+  min: 0
+  max: '3'
+- name: Reverb 1 Spring Number
+  value: '53'
+  description: 0 = One Spring; 1 = Two Springs; 2 = Three Springs
+  min: 0
+  max: '2'
+- name: Reverb 1 Spring - Voice
+  value: '55'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 1 Impulse - Attack
+  value: '57'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 1 Impulse - Stretch
+  value: '59'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 1 Impulse - Tail
+  value: '61'
+  description: 0 = Envelope; 1 = Gate
+  min: 0
+  max: '1'
+- name: Reverb 1 Impulse - Direction
+  value: '63'
+  description: 0 = Forward; 1 = Reverse
+  min: 0
+  max: '1'
+- name: Reverb 1 Impulse - Feedback
+  value: '65'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 1 Cloud - Diffusion
+  value: '67'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Cloud - Ensemble
+  value: '69'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 1 Shimmer - Shift 1
+  value: '71'
+  description: 0 = - Octave; 1 = - Major 7; 2 = - Minor 7; 3 = - Major 6; 4 = - Minor
+    6; 5 = - Perfect 5; 6 = - Tritone; 7 = - Perfect 4; 8 = Major 3; 9 = - Minor 3;
+    10 = - Major 2; 11 = - Minor 2; 12 = - 10 Cents; 13 = + 10 Cents; 14 = + Minor
+    2; 15 = + Major 2; 16 = + Minor; 17 = + Major 3; 18 = + Perfect 4; 19 = + Tritone;
+    20 = + Perfect 5; 21 = + Minor 6; 22 = + Major 6; 23 = + Minor 7; 24 = + Major
+    7; 25 = + Octave; 26 = + Octave + 5th; 27 = + 2 Octaves
+  min: 0
+  max: '27'
+- name: Reverb 1 Shimmer - Shift 2
+  value: '72'
+  description: 0 = - Off; 1 = - Octave; 2 = - Major 7; 3 = - Minor 7; 4 = - Major
+    6; 5 = - Minor 6; 6 = - Perfect 5; 7 = - Tritone; 8 = - Perfect 4; 9 = Major 3;
+    10 = - Minor 3; 11 = - Major 2; 12 = - Minor 2; 13 = - 10 Cents; 14 = + 10 Cents;
+    15 = + Minor 2; 16 = + Major 2; 17 = + Minor 3; 18 = + Major 3; 19 = + Perfect
+    4; 20 = + Tritone; 21 = + Perfect 5; 22 = + Minor 6; 23 = + Major 6; 24 = + Minor
+    7; 25 = + Major 7; 26 = + Octave; 27 = + Octave + 5th; 28 = + 2 Octaves
+  min: 0
+  max: '28'
+- name: Reverb 1 Shimmer - Amount
+  value: '75'
+  description: ''
+  min: 0
+  max: '18'
+- name: Reverb 1 Shimmer -  Feedback
+  value: '77'
+  description: 0 = Input; 1 = Regeneration; 2 = Input + Regeneration
+  min: 0
+  max: '2'
+- name: Reverb 1 Shimmer - Voice
+  value: '85'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 1 Bloom - Length
+  value: '87'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 1 Bloom - Feedback
+  value: '89'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 1 Bloom - Harmonics
+  value: '91'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 1 Chorale - Vowel
+  value: '93'
+  description: 0 = AAHHOO; 1 = AAHH; 2 = AAHHOH; 3 = OH; 4 = OOOHOH; 5 = OOO; 6 =
+    Random
+  min: 0
+  max: '6'
+- name: Reverb 1 Chorale - Resonance
+  value: '95'
+  description: 0 = Mild; 1 = Medium; 2 = High
+  min: 0
+  max: '2'
+- name: Reverb 1 Chorale - Choir
+  value: '103'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 1 Chorale - Choir Voice
+  value: '105'
+  description: 0 = Tenor; 1 = Baritone
+  min: 0
+  max: '1'
+- name: Reverb 1 Magneto -  Diffusion
+  value: '107'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Magneto -  Heads
+  value: '109'
+  description: 0 = One; 1 = Two; 2 = Three; 3 = Four; 4 = Six
+  min: 0
+  max: '4'
+- name: Reverb 1 Magneto - Spacing
+  value: '111'
+  description: 0 = Even; 1 = Uneven
+  min: 0
+  max: '1'
+- name: Reverb 1 Magneto - Ping Pong
+  value: '113'
+  description: 0 = Off; 1 = On
+  min: 0
+  max: '1'
+- name: Reverb 1 Nonlinear - Shape
+  value: '115'
+  description: 0 = Swoosh; 1 = Reverse; 2 = Ramp; 3 = Gate; 4 = Gauss; 5 = Bounce
+  min: 0
+  max: '5'
+- name: Reverb 1 Nonlinear - Chop
+  value: '117'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 1 Nonlinear - Diffusion
+  value: '119'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 1 Nonlinear - Decay
+  value: '121'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 1 Nonlinear - Level
+  value: '123'
+  description: ''
+  min: 0
+  max: '18'
+- name: Reverb 1 Nonlinear - Mod Speed
+  value: '125'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 2 Type Encoder
+  value: '2'
+  description: ''
+  min: 0
+  max: '11'
+- name: Reverb 2 Decay Knob
+  value: '4'
+  description: ''
+  min: 0
+  max: '127'
+- name: Reverb 2 Pre-Delay Knob
+  value: '6'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Output Level
+  value: '8'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 2 Pan
+  value: '10'
+  description: 0 = Full Left; 8 = Center; 16 = Full Right
+  min: 0
+  max: '16'
+- name: Reverb 2 Tone Knob
+  value: '12'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Mod Knob
+  value: '14'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Mix Knob
+  value: '16'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Infinite Mode
+  value: '18'
+  description: '0 = Freeze; 1 = Infinite; 2 = Off '
+  min: 0
+  max: '2'
+- name: Reverb 2 Param 1 Knob
+  value: '20'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Param 2 Knob
+  value: '22'
+  description: ''
+  min: 0
+  max: 127
+- name: Reverb 2 Low End
+  value: '24'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Room - Size
+  value: '26'
+  description: 0 = Studio; 1 = Club
+  min: 0
+  max: '1'
+- name: Reverb 2 Room - Diffusion
+  value: '28'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Room - Voice
+  value: '30'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 2 Hall - Mid
+  value: '36'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Hall - Size
+  value: '38'
+  description: 0 = Concert; 1 = Arena
+  min: 0
+  max: '1'
+- name: Reverb 2 Hall - Swell Rise
+  value: '40'
+  description: ''
+  min: 0
+  max: '22'
+- name: Reverb 2 Hall - Swell Type
+  value: '42'
+  description: 0 = Wet; 1 = Dry
+  min: 0
+  max: '1'
+- name: Reverb 2 Hall - Voice
+  value: '44'
+  description: 0 = MX; 1= Classic
+  min: 0
+  max: '1'
+- name: Reverb 2 Chamber - Color
+  value: '46'
+  description: 0 = Neutral; 1 = Clear; 2 = Smooth; 3 = Crisp; 4 = Deep
+  min: 0
+  max: '4'
+- name: Reverb 2 Plate - Size
+  value: '48'
+  description: 0 = Small; 1 = Large
+  min: 0
+  max: '1'
+- name: Reverb 2 Plate - Voice
+  value: '50'
+  description: 0 = MX; 1= Classic
+  min: 0
+  max: '1'
+- name: Reverb 2 Spring - Dwell
+  value: '52'
+  description: 0 = Clean; 1 = Combo; 2 = Tube; 3 = Overdrive
+  min: 0
+  max: '3'
+- name: Reverb 2 Spring Number
+  value: '54'
+  description: 0 = One Spring; 1 = Two Springs; 2 = Three Springs
+  min: 0
+  max: '2'
+- name: Reverb 2 Spring - Voice
+  value: '56'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 2 Impulse - Attack
+  value: '58'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 2 Impulse - Stretch
+  value: '60'
+  description: ''
+  min: 0
+  max: '16'
+- name: Reverb 2 Impulse - Tail
+  value: '62'
+  description: 0 = Envelope; 1 = Gate
+  min: 0
+  max: '1'
+- name: Reverb 2 Impulse - Direction
+  value: '64'
+  description: 0 = Forward; 1 = Reverse
+  min: 0
+  max: '1'
+- name: Reverb 2 Impulse - Feedback
+  value: '66'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 2 Cloud - Diffusion
+  value: '68'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Cloud - Ensemble
+  value: '70'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 2 Shimmer - Shift 1
+  value: '73'
+  description: 0 = - Octave; 1 = - Major 7; 2 = - Minor 7; 3 = - Major 6; 4 = - Minor
+    6; 5 = - Perfect 5; 6 = - Tritone; 7 = - Perfect 4; 8 = Major 3; 9 = - Minor 3;
+    10 = - Major 2; 11 = - Minor 2; 12 = - 10 Cents; 13 = + 10 Cents; 14 = + Minor
+    2; 15 = + Major 2; 16 = + Minor; 17 = + Major 3; 18 = + Perfect 4; 19 = + Tritone;
+    20 = + Perfect 5; 21 = + Minor 6; 22 = + Major 6; 23 = + Minor 7; 24 = + Major
+    7; 25 = + Octave; 26 = + Octave + 5th; 27 = + 2 Octaves
+  min: 0
+  max: '27'
+- name: Reverb 2 Shimmer - Shift 2
+  value: '74'
+  description: 0 = - Off; 1 = - Octave; 2 = - Major 7; 3 = - Minor 7; 4 = - Major
+    6; 5 = - Minor 6; 6 = - Perfect 5; 7 = - Tritone; 8 = - Perfect 4; 9 = Major 3;
+    10 = - Minor 3; 11 = - Major 2; 12 = - Minor 2; 13 = - 10 Cents; 14 = + 10 Cents;
+    15 = + Minor 2; 16 = + Major 2; 17 = + Minor 3; 18 = + Major 3; 19 = + Perfect
+    4; 20 = + Tritone; 21 = + Perfect 5; 22 = + Minor 6; 23 = + Major 6; 24 = + Minor
+    7; 25 = + Major 7; 26 = + Octave; 27 = + Octave + 5th; 28 = + 2 Octaves
+  min: 0
+  max: '28'
+- name: Reverb 2 Shimmer - Amount
+  value: '76'
+  description: ''
+  min: 0
+  max: '18'
+- name: Reverb 2 Shimmer -  Feedback
+  value: '78'
+  description: 0 = Input; 1 = Regeneration; 2 = Input + Regeneration
+  min: 0
+  max: '2'
+- name: Reverb 2 Shimmer - Voice
+  value: '86'
+  description: 0 = MX; 1 = Classic
+  min: 0
+  max: '1'
+- name: Reverb 2 Bloom - Length
+  value: '88'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 2 Bloom - Feedback
+  value: '90'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 2 Bloom - Harmonics
+  value: '92'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 2 Chorale - Vowel
+  value: '94'
+  description: 0 = AAHHOO; 1 = AAHH; 2 = AAHHOH; 3 = OH; 4 = OOOHOH; 5 = OOO; 6 =
+    Random
+  min: 0
+  max: '6'
+- name: Reverb 2 Chorale - Resonance
+  value: '96'
+  description: 0 = Mild; 1 = Medium; 2 = High
+  min: 0
+  max: '2'
+- name: Reverb 2 Chorale - Choir
+  value: '104'
+  description: ''
+  min: 0
+  max: '15'
+- name: Reverb 2 Chorale - Choir Voice
+  value: '106'
+  description: 0 = Tenor; 1 = Baritone
+  min: 0
+  max: '1'
+- name: Reverb 2 Magneto -  Diffusion
+  value: '108'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Magneto -  Heads
+  value: '110'
+  description: 0 = One; 1 = Two; 2 = Three; 3 = Four; 4 = Six
+  min: 0
+  max: '4'
+- name: Reverb 2 Magneto - Spacing
+  value: '112'
+  description: 0 = Even; 1 = Uneven
+  min: 0
+  max: '1'
+- name: Reverb 2 Magneto - Ping Pong
+  value: '114'
+  description: 0 = Off; 1 = On
+  min: 0
+  max: '1'
+- name: Reverb 2 Nonlinear - Shape
+  value: '116'
+  description: 0 = Swoosh; 1 = Reverse; 2 = Ramp; 3 = Gate; 4 = Gauss; 5 = Bounce
+  min: 0
+  max: '5'
+- name: Reverb 2 Nonlinear - Chop
+  value: '118'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 2 Nonlinear - Diffusion
+  value: '120'
+  description: ''
+  min: 0
+  max: '20'
+- name: Reverb 2 Nonlinear - Decay
+  value: '122'
+  description: ''
+  min: 0
+  max: '17'
+- name: Reverb 2 Nonlinear - Level
+  value: '124'
+  description: ''
+  min: 0
+  max: '18'
+- name: Reverb 2 Nonlinear - Mod Speed
+  value: '126'
+  description: ''
+  min: 0
+  max: '17'
+- name: Infinite Latch
+  value: '98'
+  description: 0 = Momentary; 1 - 127 = Latching
+  min: 0
+  max: '127'
+- name: Boost
+  value: '79'
+  description: 0 = -3dB; 30 = 0dB; 60 = +3dB
+  min: 0
+  max: '60'
+- name: Persist
+  value: '84'
+  description: 0 = Off; 1-127= On
+  min: 0
+  max: 127
+- name: Dual Mode
+  value: '99'
+  description: 0 = Off; 1= Parallel; 2 = Series 1 >> 2; 3 = Series 1 << 2; 4 = Split
+    L | R; 5 = Split R | L
+  min: 0
+  max: '5'
+- name: A Footswitch
+  value: '80'
+  description: 0 = Press; 127 = Release
+  min: 0
+  max: 127
+- name: B Footswitch
+  value: '81'
+  description: 0 = Press; 127 = Release
+  min: 0
+  max: 127
+- name: Infinite Footswitch
+  value: '82'
+  description: 0 = Press; 127 = Release
+  min: 0
+  max: 127
+- name: Value Encoder
+  value: '83'
+  description: 0 = Scroll counter-clockwise; 1 = Scroll clockwise
+  min: 0
+  max: '1'
+- name: Infinite Off/On
+  value: '97'
+  description: 0 = Off; 1-127 = On
+  min: 0
+  max: 127
+- name: Expression Pedal
+  value: '100'
+  description: CC 100 will control the per-preset knob assignments you create using
+    the PARAM menu's - EXP Setup screen. The EXP Setup - MIDI EXP option must also
+    be set to ON to allow MIDI control.
+  min: 0
+  max: 127
+- name: Bypass
+  value: '102'
+  description: 0 = Bypassed; 1-127 = Engaged
+  min: 0
+  max: 127
+- name: MIDI Patch Bank
+  value: 0
+  description: 0 = Bank 0 (Preset locations 00A - 63B); 1 = Bank 1 (Preset locations
+    064A - 127B); 2 = Bank 2 (Preset locations 128A - 149B) - Send CC 0 with the value
+    of 0, 1, or 2 to select the respective Bank 0, 1, or 2, followed by MIDI PC to
+    select a Preset location within the Bank.
+  min: 0
+  max: '2'
