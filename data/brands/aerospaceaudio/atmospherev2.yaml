@@ -69,6 +69,11 @@ cc:
   description: Increments Bank
   min: '11'
   max: '11'
+- name: Toggle Available Banks
+  value: '1'
+  description: Toggles between available Banks [Requires FW 3.0+]
+  min: '12'
+  max: '12'
 - name: Patch -
   value: '2'
   description: Decrements Patch
@@ -174,6 +179,21 @@ cc:
   description: Increments Key
   min: '13'
   max: '13'
+- name: 'Tonality: Major'
+  value: '3'
+  description: Cues Major Tonality [Requires FW 3.0+]
+  min: '14'
+  max: '14'
+- name: 'Tonality: Minor'
+  value: '3'
+  description: Cues Minor Tonality [Requires FW 3.0+]
+  min: '15'
+  max: '15'
+- name: 'Tonality: Neutral'
+  value: '3'
+  description: Cues Neutral Tonality [Requires FW 3.0+]
+  min: '16'
+  max: '16'
 - name: Song -
   value: '4'
   description: Decrements setlist selection
