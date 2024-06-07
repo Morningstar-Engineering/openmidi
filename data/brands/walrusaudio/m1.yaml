@@ -219,3 +219,8 @@ cc:
     description: ''
     min: 0
     max: '2'
+  - name: Dry/Wet Mix
+    value: '104'
+    description: ''
+    min: 0
+    max: 127
