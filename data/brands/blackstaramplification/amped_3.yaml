@@ -1,0 +1,190 @@
+midi_in: TRS
+midi_thru: No
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+cc:
+  - name: Preamp Volume
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp ISF
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp Bass
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp Middle
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp Treble
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp Gain
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Response EL84
+    value: '8'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Response EL34
+    value: '10'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Response 6L6
+    value: '12'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Response Presence
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Volume
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Clean Patch
+    value: '25'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Clean - Warm Voice
+    value: '26'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Clean - Bright Voice
+    value: '27'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: 'Crunch Patch '
+    value: '38'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: 'Crunch Voice '
+    value: '39'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Super Crunch Voice
+    value: '40'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: 'Overdrive Patch '
+    value: '51'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Overdrive - OD1 Voice
+    value: '52'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Overdrive - OD2 Voice
+    value: '53'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: 'Boost Footswitch '
+    value: '59'
+    description: 0 = Off - 127 = On
+    min: 0
+    max: 127
+  - name: Boost Post
+    value: '60'
+    description: 127 = On - Boost after preamp
+    min: '127'
+    max: 127
+  - name: Boost Pre
+    value: '61'
+    description: 127 - On - Boost before preamp
+    min: '127'
+    max: 127
+  - name: Boost Level
+    value: '64'
+    description: ''
+    min: 0
+    max: 127
+  - name: FX Loop Pre
+    value: '75'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: 'FX Loop Post '
+    value: '76'
+    description: ''
+    min: '127'
+    max: 127
+  - name: FX Loop Series
+    value: '77'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: FX Loop Parallel
+    value: '78'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Reverb Footswitch
+    value: '86'
+    description: 0 = Off - 127 = On
+    min: 0
+    max: 127
+  - name: Reverb Bright
+    value: '87'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Reverb Dark
+    value: '88'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Reverb Level
+    value: '91'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Hold
+    value: '92'
+    description: 0 = Off - 127 = On
+    min: 0
+    max: 127
+  - name: Power Level - 1W
+    value: '110'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Power Level - 20W
+    value: '111'
+    description: 127 = On
+    min: '127'
+    max: 127
+  - name: Power Level - 100W
+    value: '112'
+    description: 127 = On
+    min: '127'
+    max: 127
