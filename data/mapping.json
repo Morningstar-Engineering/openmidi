@@ -1679,6 +1679,10 @@
           "value": "circuitmonostation"
         },
         {
+          "name": "Circuit Rhythm",
+          "value": "circuit-rhythm"
+        },
+        {
           "name": "MiniNova",
           "value": "mininova"
         },
