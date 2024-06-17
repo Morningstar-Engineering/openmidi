@@ -1,6 +1,13 @@
 brand: Novation
 midi_thru: Yes
 midi_clock: Yes
+midi_channel: 
+      instructions: |
+        You can change the MIDI channel which each track uses in Setup View. Each track can be set to any of MIDI channels 1-15. Channel 16 is reserved for the Project.
+
+        To change the MIDI channel that will be used by a track, press the track select button or the required track. The top two rows of pads in Setup View represent the MIDI channels 1-16. Press the pad for the required MIDI channel.
+
+        No two tracks can transmit on the same MIDI channel.
 pc:
   description:
     PC messages need to be send to MIDI channel 16.
