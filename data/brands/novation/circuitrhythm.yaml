@@ -1,0 +1,336 @@
+brand: Novation
+midi_thru: Yes
+midi_clock: Yes
+midi_channel: 
+      instructions: |
+        You can change the MIDI channel which each track uses in Setup View. Each track can be set to any of MIDI channels 1-15. Channel 16 is reserved for the Project.
+
+        To change the MIDI channel that will be used by a track, press the track select button or the required track. The top two rows of pads in Setup View represent the MIDI channels 1-16. Press the pad for the required MIDI channel.
+
+        No two tracks can transmit on the same MIDI channel.
+pc:
+  description:
+    PC messages need to be send to MIDI channel 16.
+    Values 0 - 63 will select projects instantly
+    Values 64 - 127 will select projects queued
+cc:
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Macro: Tune'
+  value: 21
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Macro: Start'
+  value: 22
+- description: 'default: 127'
+  max: 127
+  min: 0
+  name: 'Macro: Length'
+  value: 23
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Macro: Slope'
+  value: 24
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Macro: Distortion'
+  value: 25
+- description: 'default: 0' 
+  max: 127
+  min: 0
+  name: 'Macro: HP Filter'
+  value: 26
+- description: 'default: 127'
+  max: 127
+  min: 0
+  name: 'Macro: LP Filter'
+  value: 27
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Macro: Resonance'
+  value: 28
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Voice: SampleChoice'
+  value: 8
+- description: 'default: 0'
+  max: 2
+  min: 0
+  name: 'Voice: PlaybackMode'
+  value: 12
+- description: 'default: 0'
+  max: 1
+  min: 0
+  name: 'Voice: Reverse'
+  value: 14
+- description: 'default: 0'
+  max: 1
+  min: 0
+  name: 'Voice: Choke'
+  value: 15
+- description: 'default: 0'
+  max: 1
+  min: 0
+  name: 'Voice: Slice'
+  value: 16
+- description: 'default: 16'
+  max: 16
+  min: 0
+  name: 'Voice: Number of Slices'
+  value: 17
+- description: 'Automatable using Macro Knobs'
+  max: 124
+  min: 4
+  name: 'Sampler: Pitch'
+  value: 21
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: StartCoarse'
+  value: 22
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: LengthCoarse'
+  value: 23
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: Slope'
+  value: 24
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: Distortion'
+  value: 25
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: HP Filter'
+  value: 26
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: LP Filter'
+  value: 27
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: Resonance'
+  value: 28
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: StartFine'
+  value: 86
+- description: 'Automatable using Macro Knobs'
+  max: 127
+  min: 0
+  name: 'Sampler: LengthFine'
+  value: 87
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Level'
+  value: 29
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: Pan'
+  value: 30
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: ReverbSend'
+  value: 31
+- description: ''
+  max: 127
+  min: 0
+  name: 'Mixer: DelaySend'
+  value: 32
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: BeatRepeat On'
+  value: 39
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: BeatRepeat Off'
+  value: 39
+- description: 'default: 5'
+  max: 10
+  min: 0
+  name: 'Effects: BeatRepeat Rate'
+  value: 40
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Effects: BeatRepeat DryWet'
+  value: 41
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: Reverser On'
+  value: 42
+- description: 'default: 0'
+  max: 0
+  min: 0
+  name: 'Effects: Reverser Off'
+  value: 42
+- description: 'default: 2'
+  max: 3
+  min: 0
+  name: 'Effects: Reverser Rate'
+  value: 43
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: Gator On'
+  value: 44
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: Gator Off'
+  value: 44
+- description: 'default: 5'
+  max: 11
+  min: 0
+  name: 'Effects: Gator Rate'
+  value: 45
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: AutoFilter On'
+  value: 46
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: AutoFilter Off'
+  value: 46
+- description: 'default: 0'
+  max: 3
+  min: 0
+  name: 'Effects: AutoFilter FilterType'
+  value: 47
+- description: 'default: 80'
+  max: 127
+  min: 0
+  name: 'Effects: AutoFilter Frequency'
+  value: 48
+- description: 'default: 40'
+  max: 127
+  min: 0
+  name: 'Effects: AutoFilter LFO amount'
+  value: 49
+- description: 'default: 0'
+  max: 2
+  min: 0
+  name: 'Effects: AutoFilter LFO shape'
+  value: 50
+- description: 'default: 8'
+  max: 13
+  min: 0
+  name: 'Effects: AutoFilter LFO rate'
+  value: 51
+- description: 'default: 63'
+  max: 127
+  min: 0
+  name: 'Effects: AutoFilter Resonance'
+  value: 52
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: DigitalLofi On'
+  value: 53
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: DigitalLofi Off'
+  value: 53
+- description: 'default: 30'
+  max: 127
+  min: 0
+  name: 'Effects: DigitalLofi Bits'
+  value: 54
+- description: 'default: 30'
+  max: 127
+  min: 0
+  name: 'Effects: DigitalLofi SampleRate'
+  value: 55
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: Phaser On'
+  value: 56
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: Phaser Off'
+  value: 56
+- description: 'default: 7'
+  max: 13
+  min: 0
+  name: 'Effects: Phaser Rate'
+  value: 57
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Effects: Phaser Depth'
+  value: 58
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Effects: Phaser Feedback'
+  value: 59
+- description: 'default: 0'
+  max: 127
+  min: 0
+  name: 'Effects: Phaser Centre'
+  value: 64
+- description: ''
+  max: 1
+  min: 1
+  name: 'Effects: Vinyl On'
+  value: 60
+- description: ''
+  max: 0
+  min: 0
+  name: 'Effects: Vinyl Off'
+  value: 60
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Effects: Vinyl Noise'
+  value: 61
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Effects: Vinyl Wobble'
+  value: 62
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Effects: Vinyl Crackle'
+  value: 63
+- description: 'default: 64'
+  max: 127
+  min: 0
+  name: 'Effects: Vinyl Hiss'
+  value: 65
+- description: 'default: 64 - Affects Master filter'
+  max: 127
+  min: 0
+  name: 'Global: LP HP Filter Frequency'
+  value: 79
+- description: 'default: 30 - Affects Master filter'
+  max: 127
+  min: 0
+  name: 'Global: LP HP Filter Resonance'
+  value: 71
