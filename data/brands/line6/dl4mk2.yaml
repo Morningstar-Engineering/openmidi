@@ -6,10 +6,36 @@ midi_clock: Yes
 instructions:
 
 midi_channel:
-  instructions: |+
+  instructions: |-
+    Follow these steps to change the DL4 midi channel (default is channel 1).
+  
+    1. To enter Global Settings mode, press and hold the ALT/LEGACY button, press the TAP footswitch, and then release both.
+
+    2. Turn the device’s Selector knob to SWEEP / MULTI PASS.
+
+    3. Push and release the ALT/LEGACY button repeatedly to cycle through the different options to choose the one you prefer:
+    - red = Channel 1
+    - white = Channel 2
+    - blue = Channel 3
+    - orange = Channel 4
+    - yellow = Assigned based on next received PC message
+
+    4. Press any footswitch to exit Global Settings and your changes are automatically retained.
 
 pc:
-  description:
+  description: |-
+    Access any of the 128 preset locations.
+
+    PC 000 = Preset A
+    PC 001 = Preset B
+    PC 002 = Preset C
+    PC 003 = Preset D
+    PC 004 = Preset E
+    PC 005 = Preset F
+    PC 006 ~ 127 = Presets 7 ~ 128
+    
+    NOTE: Presets 7 through 128 are not accessible on the DL4 MkII
+    device itself—only via MIDI!
 
 cc:
   - name: Delay Model Select
@@ -73,29 +99,27 @@ cc:
     max: '15'
   - name: Emulates Expression pedal
     value: '3'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
-  - name: Preset Bypass
-    value: '4'
-    description: ''
-    min: 0
-    max: '63'
   - name: Preset Engage
     value: '4'
-    description: "\n"
+    description: '0-63: Enables preset (Bypass Off)'
+    min: 0
+    max: '63'
+  - name: Preset Bypass
+    value: '4'
+    description: '64-127: Bypasses preset (Bypass On)'
     min: '64'
     max: '127'
   - name: Classic Looper Mode On/Off
     value: '9'
-    description: '0-63 = Off, 64-127 = On
-  
-      '
+    description: '0-63 = Off, 64-127 = On'
     min: 0
     max: '127'
   - name: Delay Time
-    value: '10'
-    description: ''
+    value: '11'
+    description: '0-127 = 0-100%'
     min: 0
     max: '127'
   - name: Time Subdivisions
@@ -112,34 +136,34 @@ cc:
       8 = 1/2 Dotted
     min: 0
     max: '8'
-  - name: Delay Repeats
+  - name: Delay Repeats (Feedback)
     value: '13'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Delay Tweak
     value: '14'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Delay Tweez
     value: '15'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Delay/Looper Mix Knob
     value: '16'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Reverb Decay
     value: '17'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Reverb Predelay/Diffusion
     value: '18'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Reverb-Delay Routing
@@ -152,18 +176,13 @@ cc:
     max: '2'
   - name: Reverb Mix (DSP Dry Path) / Reverb Level (Analog Dry Level)
     value: '20'
-    description: ''
+    description: '0-127'
     min: 0
     max: '127'
   - name: Tap Tempo
     value: '64'
-    description: ''
+    description: '64-127'
     min: '64'
-    max: '127'
-  - name: Classic Looper Mode On/Off
-    value: 0
-    description: '0-63 = Off, 64-127 = On'
-    min: 0
     max: '127'
   - name: Record/Overdub
     value: '60'
@@ -171,16 +190,16 @@ cc:
     min: 0
     max: '127'
   - name: Play/Stop
-    value: '62'
-    description: '0-63 = Play, 64-127 = Stop'
+    value: '61'
+    description: '0-63 = Stop, 64-127 = Play'
     min: 0
     max: '127'
   - name: Play Once
     value: '62'
-    description: ''
+    description: '64-127'
     min: '64'
     max: '127'
-  - name: Undo/Redo Overdub Recordings
+  - name: Undo/Redo the most recent overdub recording
     value: '63'
     description: '0-63 = Undo, 64-127 = Redo'
     min: 0
@@ -191,7 +210,7 @@ cc:
     min: 0
     max: '127'
   - name: Full Speed/Half Speed
-    value: '60'
+    value: '66'
     description: 0-63 = Full, 64-127 = Half
     min: 0
     max: '127'
