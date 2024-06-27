@@ -1,0 +1,59 @@
+cc:
+  - name: Custom 64
+    value: '64'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 65
+    value: '65'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 66
+    value: '66'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 67
+    value: '67'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 68
+    value: '68'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 69
+    value: '69'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 80
+    value: '80'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 81
+    value: '81'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 82
+    value: '82'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+  - name: Custom 83
+    value: '83'
+    description: Default adaptable CC
+    min: 0
+    max: 127
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

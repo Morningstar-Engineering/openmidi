@@ -21,6 +21,16 @@
       ]
     },
     {
+      "name": "Adrenalinn",
+      "value": "adrenalinn",
+      "models": [
+        {
+          "name": "III",
+          "value": "iii"
+        }
+      ]
+    },
+    {
       "name": "Aerospace Audio",
       "value": "aerospaceaudio",
       "models": [
