@@ -97,29 +97,101 @@ cc:
     value: 79
     min: 0
     max: 127
-  - name: character module
+  - name: character module - drive
     value: 16
-    description: |-
-      drive (0-21) sweeten (22-43) fuzz (44-65) howl (66-87) swell (88-109) off (110-127)
     min: 0
+    max: 21
+  - name: character module - sweeten
+    value: 16
+    min: 22
+    max: 43
+  - name: character module - fuzz
+    value: 16
+    min: 44
+    max: 65
+  - name: character module - howl
+    value: 16
+    min: 66
+    max: 87
+  - name: character module - swell
+    value: 16
+    min: 88
+    max: 109
+  - name: character module - off
+    value: 16
+    min: 110
     max: 127
-  - name: movement module
+  - name: movement module - doubler
     value: 17
-    description: |-
-      doubler (0-21) vibrato (22-43) phaser (44-65) tremolo (66-87) pitch (88-109) off (110-127)
     min: 0
+    max: 21
+  - name: movement module - vibrato
+    value: 17
+    min: 22
+    max: 43
+  - name: movement module - phaser
+    value: 17
+    min: 44
+    max: 65
+  - name: movement module - termolo
+    value: 17
+    min: 66
+    max: 87
+  - name: movement module - pitch
+    value: 17
+    min: 88
+    max: 109
+  - name: movement module - off
+    value: 17
+    min: 110
     max: 127
-  - name: diffusion module
+  - name: diffusion module - cascade
     value: 18
-    description: |-
-      cascade (0-21) reels (22-43) space (44-65) collage (66-87) reverse (88-109) off (110-127)
     min: 0
+    max: 21
+  - name: diffusion module - reels
+    value: 18
+    min: 22
+    max: 43
+  - name: diffusion module - space
+    value: 18
+    min: 44
+    max: 65
+  - name: diffusion module - collage
+    value: 18
+    min: 66
+    max: 87
+  - name: diffusion module - reverse
+    value: 18
+    min: 88
+    max: 109
+  - name: diffusion module - off
+    value: 18
+    min: 110
     max: 127
-  - name: texture module
+  - name: texture module - filter
     value: 19
-    description: |-
-      filter (0-21) squash (22-43) cassette (44-65) broken (66-87) interference (88-109) off (110-127)
     min: 0
+    max: 21
+  - name: texture module - squash
+    value: 19
+    min: 22
+    max: 43
+  - name: texture module - cassette
+    value: 19
+    min: 44
+    max: 65
+  - name: texture module - broken
+    value: 19
+    min: 66
+    max: 87
+  - name: texture module - interference
+    value: 19
+    min: 88
+    max: 109
+  - name: texture module - off
+    value: 19
+    min: 110
     max: 127
   - name: standard bypass
     value: 91
@@ -127,11 +199,17 @@ cc:
       bypass (0-64) engage (65-127)
     min: 0
     max: 127
-  - name: dual bypass controls
+  - name: total bypass
     value: 92
-    description: |-
-      total bypass (0-31) dual bypass (32-64) total engage (65-127)
     min: 0
+    max: 31
+  - name: dual bypass
+    value: 92
+    min: 32
+    max: 64
+  - name: total engage
+    value: 92
+    min: 65
     max: 127
   - name: gesture play/rec
     value: 80
@@ -143,17 +221,25 @@ cc:
     value: 81
     min: 0
     max: 127
-  - name: capture
+  - name: capture stop/clear
     value: 82
-    description: |-
-      stop/clear (0-43) play (44-87) record (88-127)
     min: 0
+    max: 43
+  - name: capture play
+    value: 82
+    min: 44
+    max: 87
+  - name: capture record
+    value: 82
+    min: 88
     max: 127
-  - name: capture routing
+  - name: capture routing post-fx
     value: 83
-    description: |-
-      post-fx (0-64) pre-fx (65-127)
     min: 0
+    max: 64
+  - name: capture routing pre-fx
+    value: 83
+    min: 65
     max: 127
   - name: tap tempo
     value: 93
@@ -161,21 +247,39 @@ cc:
       bypass (0-64)
     min: 0
     max: 127
-  - name: filter mode
+  - name: filter mode low pass
     value: 84
-    description: |-
-      lpf (0-43) tilt (44-87) hpf (88-127)
     min: 0
+    max: 43
+  - name: filter mode tilt
+    value: 84
+    min: 44
+    max: 87
+  - name: filter mode high pass
+    value: 84
+    min: 88
     max: 127
-  - name: calibration level
+  - name: calibration level low
     value: 94
-    description: |-
-      low (0-31) medium (32-63) high (64-95) very high (96-127)
     min: 0
+    max: 31
+  - name: calibration level medium
+    value: 94
+    min: 32
+    max: 65
+  - name: calibration level high
+    value: 94
+    min: 64
+    max: 95
+  - name: calibration level very high
+    value: 94
+    min: 95
     max: 127
-  - name: calibration menu (enter)
+  - name: calibration menu exit
     value: 95
-    description: |-
-      exit (0-64) enter (65-127)
     min: 0
+    max: 64
+  - name: calibration menu enter
+    value: 95
+    min: 65
     max: 127
