@@ -1753,6 +1753,10 @@
         {
           "name": "Goblin-EXP in EHX Pitch Fork",
           "value": "goblinexpehxpitchfork"
+        },
+        {
+          "name": "Minerva",
+          "value": "minerva"
         }
       ]
     },

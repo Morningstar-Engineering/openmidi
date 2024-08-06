@@ -1,0 +1,181 @@
+brand: Oscillator Devices
+cc:
+  - name: Playback Modes
+    value: '102'
+    description: Stop playback
+    min: 0
+    max: '0'
+  - name: Playback Modes
+    value: '102'
+    description: Resume playback
+    min: '1'
+    max: '1'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: Single. Playback is ended with the end of the track (Default)'
+    min: '2'
+    max: '2'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: Repeat. The track starts over at the end.'
+    min: '3'
+    max: '3'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: All. All tracks in the respective folder are played alphabetically.
+      After the end of the last track, playback is ended'
+    min: '4'
+    max: '4'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: Repeat All. Like Play Mode All, but after the end of the
+      last track the playback continues at the first track in the folder'
+    min: '5'
+    max: '5'
+  - name: Playback Modes
+    value: '102'
+    description: Set playback to forward direction
+    min: '6'
+    max: '6'
+  - name: Playback Modes
+    value: '102'
+    description: Reverse playback
+    min: '7'
+    max: '7'
+  - name: Playback Modes
+    value: '102'
+    description: Reverse playback temporarily (sets back to forward with next start
+      of file)
+    min: '8'
+    max: '8'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock 1/4th notes. The playback restarts the file
+      in the beat of MIDI clock 1/4th notes'
+    min: '10'
+    max: '10'
+  - name: 'Playback Modes '
+    value: '102'
+    description: 'Play Mode: MIDI Clock 1/8th notes. The playback restarts the file
+      in the beat of MIDI clock 1/8th notes'
+    min: '11'
+    max: '11'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock triplet notes. The playback restarts the file
+      in the beat of MIDI clock triplet notes'
+    min: '12'
+    max: '12'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock dotted 1/8th notes. The playback restarts the
+      file in the beat of MIDI clock dotted 1/8th notes'
+    min: '13'
+    max: '13'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock half notes. The playback restarts the file in
+      the beat of MIDI clock half notes'
+    min: '14'
+    max: '14'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock whole notes. The playback restarts the file
+      in the beat of MIDI clock whole notes'
+    min: '15'
+    max: '15'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock 2 whole notes. The playback restarts the file
+      in the beat of MIDI clock 2 whole notes'
+    min: '16'
+    max: '16'
+  - name: Playback Modes
+    value: '102'
+    description: 'Play Mode: MIDI Clock 4 whole notes. The playback restarts the file
+      in the beat of MIDI clock 4 whole notes'
+    min: '17'
+    max: '17'
+  - name: Playback Volume
+    value: '103'
+    description: Set volume of both tracks (0=mute, 127=full volume)
+    min: 0
+    max: 127
+  - name: Playback Volume
+    value: '104'
+    description: Set volume of left track (0=mute, 127=full volume)
+    min: 0
+    max: 127
+  - name: Playback Volume
+    value: '105'
+    description: Set volume of right track (0=mute, 127=full volume)
+    min: 0
+    max: 127
+  - name: Fade Out
+    value: '106'
+    description: Fade Out currently played back track in steps of 100ms (1=100ms, 2=200ms,
+      127=12.7s)
+    min: 0
+    max: 127
+  - name: Fade Out
+    value: '107'
+    description: Fade Out left channel of currently played back track in steps of 100ms
+      (1=100ms, 2=200ms, 127=12.7s)
+    min: 0
+    max: 127
+  - name: Fade Out
+    value: '108'
+    description: Fade Out right channel of currently played back track in steps of 100ms
+      (1=100ms, 2=200ms, 127=12.7s)
+    min: 0
+    max: 127
+  - name: PC Increment
+    value: '109'
+    description: Reset counter (Reset all in local mode)
+    min: 0
+    max: '0'
+  - name: PC Increment
+    value: '109'
+    description: Increment counter (Increment all in local mode)
+    min: '1'
+    max: '1'
+  - name: PC Increment
+    value: '109'
+    description: Decrement counter (Decrement all in local mode)
+    min: '2'
+    max: '2'
+  - name: Sampling Rate
+    value: '110'
+    description: Interval Sampling Rate (49 = -15 semitones, 64 = 0 semitones, 71 =
+      7 semitones)
+    min: '49'
+    max: '71'
+  - name: Sampling Rate
+    value: '111'
+    description: Sampling Rate in steps of 409Hz starting at 20kHz (0 = 20kHz, 127 =
+      72kHz)
+    min: 0
+    max: 127
+  - name: Sampling Rate
+    value: '112'
+    description: Master Interval Sampling Rate. Like CC 110, but stays at this rate
+      and ignores the sampling rate from the files
+    min: '49'
+    max: '71'
+  - name: Sampling Rate
+    value: '113'
+    description: Master Sampling Rate. Like CC 111, but stays at this rate and ignores
+      the sampling rate from the files.
+    min: 0
+    max: 127
+
+device_name: Minerva
+midi_channel:
+  instructions: |+
+
+midi_clock: 'No'
+midi_in: 'TRS'
+midi_thru: 'Yes'
+pc:
+  description: ''
+phantom_power: 'No'
