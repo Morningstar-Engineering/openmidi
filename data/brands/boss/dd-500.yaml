@@ -1,115 +1,135 @@
 brand: BOSS
 cc:
-- description: ''
-  max: 127
-  min: 127
-  name: '[A] Switch Press'
-  value: 82
-- description: ''
-  max: 0
-  min: 0
-  name: '[A] Switch Release'
-  value: 82
-- description: ''
-  max: 127
-  min: 127
-  name: '[B] Switch Press'
-  value: 83
-- description: ''
-  max: 0
-  min: 0
-  name: '[B] Switch Release'
-  value: 83
-- description: ''
-  max: 127
-  min: 127
-  name: '[TAP/CTL] Switch Press'
-  value: 84
-- description: ''
-  max: 0
-  min: 0
-  name: '[TAP/CTL] Switch Release'
-  value: 84
-- description: ''
-  max: 127
-  min: 0
-  name: Expression Pedal
-  value: 16
-- description: ''
-  max: 127
-  min: 127
-  name: CTL 1 Switch Press
-  value: 80
-- description: ''
-  max: 0
-  min: 0
-  name: CTL 1 Switch Release
-  value: 80
-- description: ''
-  max: 127
-  min: 127
-  name: CTL 2 Switch Press
-  value: 81
-- description: ''
-  max: 0
-  min: 0
-  name: CTL 2 Switch Release
-  value: 81
-- description: ''
-  max: 127
-  min: 0
-  name: '[FEEDBACK] Knob'
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: '[TONE] Knob'
-  value: 19
-- description: ''
-  max: 127
-  min: 0
-  name: '[E. LEVEL] Knob'
-  value: 18
-- description: ''
-  max: 127
-  min: 0
-  name: '[MOD DEPTH] Knob'
-  value: 20
-- description: ''
-  max: 127
-  min: 127
-  name: Delay On
-  value: 21
-- description: ''
-  max: 0
-  min: 0
-  name: Delay Bypass
-  value: 21
-- description: ''
-  max: 127
-  min: 127
-  name: Phrase Loop
-  value: 22
-- description: ''
-  max: 127
-  min: 127
-  name: Record/Overdub
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: Loop playback
-  value: 24
-- description: ''
-  max: 127
-  min: 127
-  name: Stop
-  value: 25
-- description: ''
-  max: 127
-  min: 127
-  name: Clear
-  value: 26
+  - description: ''
+    max: 127
+    min: 127
+    name: '[A] Switch Press'
+    value: 82
+  - description: ''
+    max: 0
+    min: 0
+    name: '[A] Switch Release'
+    value: 82
+  - description: ''
+    max: 127
+    min: 127
+    name: '[B] Switch Press'
+    value: 83
+  - description: ''
+    max: 0
+    min: 0
+    name: '[B] Switch Release'
+    value: 83
+  - description: ''
+    max: 127
+    min: 127
+    name: '[TAP/CTL] Switch Press'
+    value: 84
+  - description: ''
+    max: 0
+    min: 0
+    name: '[TAP/CTL] Switch Release'
+    value: 84
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 16
+  - description: ''
+    max: 127
+    min: 127
+    name: CTL 1 Switch Press
+    value: 80
+  - description: ''
+    max: 0
+    min: 0
+    name: CTL 1 Switch Release
+    value: 80
+  - description: ''
+    max: 127
+    min: 127
+    name: CTL 2 Switch Press
+    value: 81
+  - description: ''
+    max: 0
+    min: 0
+    name: CTL 2 Switch Release
+    value: 81
+  - description: ''
+    max: 127
+    min: 0
+    name: '[FEEDBACK] Knob'
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: '[TONE] Knob'
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: '[E. LEVEL] Knob'
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: '[MOD DEPTH] Knob'
+    value: 20
+  - description: ''
+    max: 127
+    min: 127
+    name: Delay On
+    value: 21
+  - description: ''
+    max: 0
+    min: 0
+    name: Delay Bypass
+    value: 21
+  - description: ''
+    max: 127
+    min: 127
+    name: Phrase Loop
+    value: 22
+  - description: ''
+    max: 127
+    min: 127
+    name: Record/Overdub
+    value: 23
+  - description: ''
+    max: 127
+    min: 127
+    name: Loop playback
+    value: 24
+  - description: ''
+    max: 127
+    min: 127
+    name: Stop
+    value: 25
+  - description: ''
+    max: 127
+    min: 127
+    name: Clear
+    value: 26
+  - name: Delay On Channel A
+    value: '28'
+    description: Turns on Channel A of the Boss DD-500 in Simul Mode
+    min: '127'
+    max: 127
+  - name: Bypass Channel A
+    value: '28'
+    description: Turns off Channel A of the Boss DD-500 in Simul Mode
+    min: 0
+    max: '0'
+  - name: Delay On Channel B
+    value: '29'
+    description: Turns on Channel B of the Boss DD-500 in Simul Mode
+    min: '127'
+    max: 127
+  - name: Bypass Channel B
+    value: '29'
+    description: Turns off Channel B of the Boss DD-500 in Simul Mode
+    min: 0
+    max: '0'
 device_name: DD-500
 midi_channel:
   instructions: ''
