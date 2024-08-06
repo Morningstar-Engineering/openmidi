@@ -841,6 +841,10 @@
       "value": "gfisystem",
       "models": [
         {
+          "name": "Duophony",
+          "value": "duophony"
+        },
+        {
           "name": "Enieqma",
           "value": "enieqma"
         },

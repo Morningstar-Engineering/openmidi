@@ -1,0 +1,155 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+instructions:
+
+pc:
+  description: |+
+
+cc:
+  - name: Loop X
+    value: '14'
+    description: Off = 0, On = 127
+    min: 0
+    max: 127
+  - name: Loop Y
+    value: '15'
+    description: Off = 0, On = 127
+    min: 0
+    max: 127
+  - name: Modes
+    value: '16'
+    description: XY Mix = 0, Y plus X = 1, X plus Y = 2
+    min: 0
+    max: '2'
+  - name: Routing
+    value: '17'
+    description: Parallel = 0, Series = 127
+    min: 0
+    max: 127
+  - name: Phase X
+    value: '18'
+    description: Normal = 0, Inverted = 127
+    min: 0
+    max: 127
+  - name: Expression
+    value: '19'
+    description: 0 - 127
+    min: 0
+    max: 127
+  - name: Tap-Tempo
+    value: '20'
+    description: Any
+    min: 0
+    max: 127
+  - name: Subdivision
+    value: '21'
+    description: |-
+      Whole.2 = 0 Dotted = 5
+       Whole.4 = 1 8th Note = 6
+       Whole = 2 Triplet = 7
+       Half = 3 16th Note = 8
+       Quarter = 4
+    min: 0
+    max: '8'
+  - name: Bypass / Engage
+    value: '20'
+    description: Bypass = 0, Engage = 127
+    min: 0
+    max: 127
+  - name: Mix
+    value: '23'
+    description: 0 - 127
+    min: 0
+    max: 127
+  - name: Mix (Left)
+    value: '24'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: 'Mix (Right) '
+    value: '25'
+    description: 0 - 127
+    min: 0
+    max: 127
+  - name: Dry Level
+    value: '26'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Dry Level (Left)
+    value: '27'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Dry Level (Right)
+    value: '28'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: LFO Speed
+    value: '29'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: LFO Depth
+    value: '30'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: LFO
+    value: '31'
+    description: Off = 0, On = 127
+    min: 0
+    max: 127
+  - name: 'Gain X '
+    value: '32'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Gain Y
+    value: '30'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Mute L
+    value: '34'
+    description: |-
+      0 = mutes Left output, 127 = unmutes Left output
+      (in both cases Right output will be unmuted)
+    min: 0
+    max: 127
+  - name: Mute R
+    value: '35'
+    description: |-
+      0 = mutes Right output, 127 = unmutes Right output
+      (in both cases Left output will be unmuted)
+    min: 0
+    max: 127
+  - name: Mute LR
+    value: '36'
+    description: 0 = mutes both outputs, 127 = unmutes both outputs
+    min: 0
+    max: 127
+  - name: 'Wet Mute L '
+    value: '37'
+    description: |-
+      0 = mutes Wet (Left), 127 = unmutes Wet (Left)
+      (in both cases Wet Right will be unmuted)
+    min: 0
+    max: 127
+  - name: Wet Mute R
+    value: '38'
+    description: |-
+      0 = mutes Wet (Right), 127 = unmutes Wet (Right)
+      (in both cases Wet Left will be unmuted)
+    min: 0
+    max: 127
+
+    
+
