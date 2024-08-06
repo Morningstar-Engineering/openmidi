@@ -1,0 +1,69 @@
+midi_in: TRS
+midi_thru: No
+phantom_power: None
+midi_clock: No
+
+instructions:
+
+midi_channel:
+  instructions: |-
+pc:
+  description: |-
+
+cc:
+  - name: Bypass
+    value: '1'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Engage
+    value: '1'
+    description: ''
+    min: '127'
+    max: 127
+  - name: LFO Wave Shape
+    value: '2'
+    description: 'Value: 1 = Sine, 2 = Triangle, 3 = Square, 4 = Solina, 5 = Triplet
+      Solina'
+    min: '1'
+    max: '5'
+  - name: Depth
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Speed
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Phase
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ratio
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Set Speed in Hz
+    value: '8'
+    description: 0 = 0.2 Hz, 100 = 10 Hz
+    min: 0
+    max: '100'
+  - name: RAMP Up or Down
+    value: '9'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Tap Tempo
+    value: '10'
+    description: Need to send value 127 followed by value 0 for one tap
+    min: 0
+    max: 127
