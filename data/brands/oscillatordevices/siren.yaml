@@ -1,0 +1,522 @@
+brand: Oscillator Devices
+cc:
+  - name: Volume Control Channel A
+    value: '20'
+    description: |-
+      Volume of respective channel. 0 = Mute, 64 = Unitiy Gain, 127 = +32dB (at +6dB input sensitivity)
+      Overrides the setting of the knob.
+    min: 0
+    max: 127
+  - name: Volume Control Channel A
+    value: '29'
+    description: |-
+      Volume of respective channel relative to the setting of the knob, i.e. CC 69 127 results in the volume according
+      to the setting of the knobs. For example: Knob at 12 o clock, CC 69 127 results in unity gain. (only version 1.0.1)
+    min: 0
+    max: 127
+  - name: Volume Control Channel B
+    value: '40'
+    description: |-
+      Volume of respective channel. 0 = Mute, 64 = Unitiy Gain, 127 = +32dB (at +6dB input sensitivity)
+      Overrides the setting of the knob.
+    min: 0
+    max: 127
+  - name: Volume Control Channel B
+    value: '49'
+    description: 'Volume of respective channel relative to the setting of the knob,
+      i.e. CC 69 127 results in the volume according to the setting of the knobs. For
+      example: Knob at 12 o clock, CC 69 127 results in unity gain. (only version 1.0.1)'
+    min: 0
+    max: 127
+  - name: Volume Control Channel A+B
+    value: '60'
+    description: Volume of respective channel. 0 = Mute, 64 = Unitiy Gain, 127 = +32dB
+      (at +6dB input sensitivity) Overrides the setting of the knob.
+    min: 0
+    max: 127
+  - name: Volume Control Channel A+B
+    value: '69'
+    description: 'Volume of respective channel relative to the setting of the knob,
+      i.e. CC 69 127 results in the volume according to the setting of the knobs. For
+      example: Knob at 12 o clock, CC 69 127 results in unity gain. (only version 1.0.1)'
+    min: 0
+    max: 127
+  - name: Tremolo Channel A
+    value: '21'
+    description: Sine Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel B
+    value: '41'
+    description: Sine Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A+B
+    value: '61'
+    description: Sine Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A
+    value: '22'
+    description: Triangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel B
+    value: '42'
+    description: Triangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A+B
+    value: '62'
+    description: Triangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A
+    value: '23'
+    description: Rectangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel B
+    value: '43'
+    description: Rectangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A+B
+    value: '63'
+    description: Rectangular Wave Tremolo (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A
+    value: '24'
+    description: Sawtooth Tremolo, Ramp Forward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel B
+    value: '44'
+    description: Sawtooth Tremolo, Ramp Forward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A+B
+    value: '64'
+    description: Sawtooth Tremolo, Ramp Forward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A
+    value: '25'
+    description: Sawtooth Tremolo, Ramp Backward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel B
+    value: '45'
+    description: Sawtooth Tremolo, Ramp Backward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Tremolo Channel A+B
+    value: '65'
+    description: Sawtooth Tremolo, Ramp Backward (0 = 0ff, 127 = Full Depth)
+    min: 0
+    max: 127
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Tremolo off
+    min: 0
+    max: '0'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/4th note (Default)
+    min: '1'
+    max: '1'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/8th note
+    min: '2'
+    max: '2'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock triplets
+    min: '3'
+    max: '3'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/16th note
+    min: '4'
+    max: '4'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock dotted 1/8th note
+    min: '5'
+    max: '5'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock half note
+    min: '6'
+    max: '6'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock whole note
+    min: '7'
+    max: '7'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/32th note (only version 1.0.1)
+    min: '8'
+    max: '8'
+  - name: Trem Speed Channel A
+    value: '30'
+    description: Free Running from 100ms (=10) to 1.27s (=127)
+    min: '10'
+    max: 127
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Tremolo off
+    min: 0
+    max: '0'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/4th note (Default)
+    min: '1'
+    max: '1'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/8th note
+    min: '2'
+    max: '2'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock triplets
+    min: '3'
+    max: '3'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/16th note
+    min: '4'
+    max: '4'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock dotted 1/8th note
+    min: '5'
+    max: '5'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock half note
+    min: '6'
+    max: '6'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock whole note
+    min: '7'
+    max: '7'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/32th note (only version 1.0.1)
+    min: '8'
+    max: '8'
+  - name: Trem Speed Channel B
+    value: '50'
+    description: Free Running from 100ms (=10) to 1.27s (=127)
+    min: '10'
+    max: 127
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Tremolo off
+    min: 0
+    max: '0'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/4th note (Default)
+    min: '1'
+    max: '1'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/8th note
+    min: '2'
+    max: '2'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock triplets
+    min: '3'
+    max: '3'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/16th note
+    min: '4'
+    max: '4'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock dotted 1/8th note
+    min: '5'
+    max: '5'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock half note
+    min: '6'
+    max: '6'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock whole note
+    min: '7'
+    max: '7'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/32th note (only version 1.0.1)
+    min: '8'
+    max: '8'
+  - name: Trem Speed Channel A+B
+    value: '70'
+    description: Free Running from 100ms (=10) to 1.27s (=127)
+    min: '10'
+    max: 127
+  - name: Stereo Trem Delay Channel A
+    value: '31'
+    description: Delay the tremolo by 1/24th of a full duration
+    min: 0
+    max: '24'
+  - name: Stereo Trem Delay Channel B
+    value: '51'
+    description: Delay the tremolo by 1/24th of a full duration
+    min: 0
+    max: '24'
+  - name: Stereo Trem Delay Channel A+B
+    value: '71'
+    description: Delay the tremolo by 1/24th of a full duration
+    min: 0
+    max: '24'
+  - name: Trem Depth Channel A
+    value: '32'
+    description: Depth of currently running Tremolo (0=off, 127 = Full)
+    min: 0
+    max: 127
+  - name: Trem Depth Channel B
+    value: '52'
+    description: Depth of currently running Tremolo (0=off, 127 = Full)
+    min: 0
+    max: 127
+  - name: Trem Depth Channel A+B
+    value: '72'
+    description: Depth of currently running Tremolo (0=off, 127 = Full)
+    min: 0
+    max: 127
+  - name: Swell Channel A
+    value: '26'
+    description: One Shot Swell. Starts at current volume ends at the CC value of this
+      command
+    min: 0
+    max: 127
+  - name: Swell Channel B
+    value: '46'
+    description: One Shot Swell. Starts at current volume ends at the CC value of this
+      command
+    min: 0
+    max: 127
+  - name: Swell Channel A+B
+    value: '66'
+    description: One Shot Swell. Starts at current volume ends at the CC value of this
+      command
+    min: 0
+    max: 127
+  - name: Fade Channel A
+    value: '27'
+    description: Fade. Fade to CC value of this command (e.g. 0 for a fade out, or 127
+      to fade to full volume)
+    min: 0
+    max: 127
+  - name: Fade Channel B
+    value: '47'
+    description: Fade. Fade to CC value of this command (e.g. 0 for a fade out, or 127
+      to fade to full volume)
+    min: 0
+    max: 127
+  - name: Fade Channel A+B
+    value: '67'
+    description: Fade. Fade to CC value of this command (e.g. 0 for a fade out, or 127
+      to fade to full volume)
+    min: 0
+    max: 127
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/4th note (Default). The Fade/Swell takes 4 quarter
+      notes to complete
+    min: '1'
+    max: '1'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/8th note . The Fade/Swell takes 4 eight notes
+      to complete.
+    min: '2'
+    max: '2'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock triplets. The Fade/Swell takes 4 triplets to complete.
+    min: '3'
+    max: '3'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock 1/16th note. . The Fade/Swell takes 4 sixteenth
+      notes to complete
+    min: '4'
+    max: '4'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock dotted 1/8th note. The Fade/Swell takes 4 dotted
+      eight notes to complete.
+    min: '5'
+    max: '5'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock half note. The Fade/Swell takes 4 half notes notes
+      to complete.
+    min: '6'
+    max: '6'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: Synced to MIDI Clock whole note. The Fade/Swell takes 4 whole notes
+      to complete.
+    min: '7'
+    max: '7'
+  - name: Fade/Swell Time Channel A
+    value: '30'
+    description: The fade/swell takes from 100ms (=10) to 1.27s (=127) to complete.
+    min: '10'
+    max: 127
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/4th note (Default). The Fade/Swell takes 4 quarter
+      notes to complete
+    min: '1'
+    max: '1'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: "Synced to MIDI Clock 1/8th note . The Fade/Swell takes 4 eight notes
+      to complete.\t"
+    min: '2'
+    max: '2'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock triplets. The Fade/Swell takes 4 triplets to complete.
+    min: '3'
+    max: '3'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock 1/16th note. . The Fade/Swell takes 4 sixteenth
+      notes to complete
+    min: '4'
+    max: '4'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock dotted 1/8th note. The Fade/Swell takes 4 dotted
+      eight notes to complete.
+    min: '5'
+    max: '5'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock half note. The Fade/Swell takes 4 half notes notes
+      to complete.
+    min: '6'
+    max: '6'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: Synced to MIDI Clock whole note. The Fade/Swell takes 4 whole notes
+      to complete.
+    min: '7'
+    max: '7'
+  - name: Fade/Swell Time Channel B
+    value: '50'
+    description: The fade/swell takes from 100ms (=10) to 1.27s (=127) to complete.
+    min: '10'
+    max: 127
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/4th note (Default). The Fade/Swell takes 4 quarter
+      notes to complete
+    min: '1'
+    max: '1'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/8th note . The Fade/Swell takes 4 eight notes
+      to complete.
+    min: '2'
+    max: '2'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock triplets. The Fade/Swell takes 4 triplets to complete.
+    min: '3'
+    max: '3'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock 1/16th note. . The Fade/Swell takes 4 sixteenth
+      notes to complete
+    min: '4'
+    max: '4'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock dotted 1/8th note. The Fade/Swell takes 4 dotted
+      eight notes to complete.
+    min: '5'
+    max: '5'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock half note. The Fade/Swell takes 4 half notes notes
+      to complete.
+    min: '6'
+    max: '6'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: Synced to MIDI Clock whole note. The Fade/Swell takes 4 whole notes
+      to complete.
+    min: '7'
+    max: '7'
+  - name: Fade/Swell Time Channel A+B
+    value: '70'
+    description: The fade/swell takes from 100ms (=10) to 1.27s (=127) to complete.
+    min: '10'
+    max: 127
+  - name: Mix/Split Modes
+    value: '102'
+    description: Mix = Off, Split = Of
+    min: 0
+    max: '0'
+  - name: Mix/Split Modes
+    value: '102'
+    description: Mix = On, Split = Off
+    min: '1'
+    max: '1'
+  - name: Mix/Split Modes
+    value: '102'
+    description: Mix = Off, Split = On
+    min: '2'
+    max: '2'
+  - name: Mix/Split Modes
+    value: '102'
+    description: Mix = On, Split = On
+    min: '3'
+    max: '3'
+  - name: Phase Switch
+    value: '103'
+    description: 0 = Phase of channel A normal
+    min: 0
+    max: '0'
+  - name: Phase Switch
+    value: '103'
+    description: 1 = Phase of channel A inverted
+    min: '1'
+    max: '1'
+  - name: Set Midi Channel
+    value: '119'
+    description: Set MIDI channel 1-16, 0 for Omni
+    min: 0
+    max: '16'
+  - name: Save Midi Channel
+    value: '119'
+    description: Saving the MIDI channel. The Device restarts.
+    min: '70'
+    max: '127'
+device_name: Siren
+midi_channel:
+  instructions: |+
+
+midi_clock: 'No'
+midi_in: 'TRS'
+midi_thru: 'Yes'
+pc:
+  description: ''
+phantom_power: 'No'
