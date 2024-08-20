@@ -2013,6 +2013,16 @@
       ]
     },
     {
+      "name": "Sheeran",
+      "value": "sheeran",
+      "models": [
+        {
+          "name": "Looper+",
+          "value": "looperplus"
+        }
+      ]
+    },
+    {
       "name": "Singular Sound",
       "value": "singular_sound",
       "models": [
