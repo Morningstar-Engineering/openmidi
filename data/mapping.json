@@ -513,6 +513,16 @@
       ]
     },
     {
+      "name": "Electronic Audio Experiments",
+      "value": "electronicaudioexperiments",
+      "models": [
+        {
+          "name": "Sending v2",
+          "value": "sendingv2"
+        }
+      ]
+    },
+    {
       "name": "Elektron",
       "value": "elektron",
       "models": [

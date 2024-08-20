@@ -1,0 +1,141 @@
+brand: EAE
+cc:
+  - name: Color
+    value: '12'
+    description: |
+      The Color knob controls the preamplifier gain and output level in tandem. This allows the user to overload the preamp and delay line elements while maintaining a consistent output volume level. This knob has three effective regions. In the first region of its rotation, the preamp adds a subtle warming effect. In the second region, the delay line begins to overload gracefully while the dry signal remains relatively clean. In the third region, both the delay
+      5
+      line and the preamp will overload with a full-bodied and clear overdrive texture. The exact onset of clipping will depend on the strength of the input signal. Note that when in Trails bypass mode, the preamp is still active. This means you can use the Color knob on its own when the delay is off. Secondary function: Volume Trim. Use this setting to adjust the output level, from -6dB to +6dB. At halfway the volume is even with the bypass level.
+    min: 0
+    max: 127
+  - name: Mix
+    value: '13'
+    description: This control sets the mix of dry and delayed signals, with two operational
+      modes. In the default PAN mode, the Mix knob functions as a crossfader. Turning
+      clockwise increases the level of delayed signal while decreasing the level of
+      the unaffected signal, or vice versa. This mode is more commonly found in rackmount
+      or desktop processors, and is handy if you use a parallel effects loop. In NORM
+      mode, the dry level is fixed and the Mix knob only affects the delay level. This
+      behavior is similar to a traditional stompbox.
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '14'
+    description: This knob sets the number of repeats by controlling how much of the
+      delayed signal is fed back into the input. The taper is optimized to easily dial
+      in an infinite bed of echoes at the threshold of self-oscillation but, of course,
+      also capable of achieving runaway feedback and self-oscillation.
+    min: 0
+    max: 127
+  - name: Filter
+    value: '15'
+    description: 'This controls a dual mode filter located at the output of the delay
+      line. Changing the tone of the delay changes how the repeats evolve over time.
+      At the center position, the filter is effectively out of the circuit. Clockwise
+      from center engages a high pass filter and increases its cutoff frequency to attenuate
+      bass frequencies so that each repeat becomes successively brighter. Rotating counter-clockwise
+      from center engages a low pass filter and decreases its cutoff frequency to attenuate
+      treble frequencies for a murky sound where each repeat gets successively darker. '
+    min: 0
+    max: 127
+  - name: Rate
+    value: '16'
+    description: The Rate knob sets the frequency of the delay time modulation LFO,
+      from imperceptibly slow to low audio rates.
+    min: 0
+    max: 127
+  - name: 'Amount '
+    value: '17'
+    description: Unclear from the manual. Perhaps, based on a search of the PDF, "The
+      Feedback VCA changes the amount of delayed signal fed into the input."
+    min: 0
+    max: 127
+  - name: Time
+    value: '18'
+    description: 'This knob controls the delay time, smoothly adjustable from approximately
+      5ms to 1 second as it is turned clockwise. '
+    min: 0
+    max: 127
+  - name: Level Trim
+    value: '20'
+    description: "? Note 100% positive as the manual uses \"Volume Trim\" instead of
+      \"Level Trim,\" (p6 of manual) but seems likely it's the same thing. \nUse this
+      setting to adjust the output level, from -6dB to +6dB. At halfway the volume is
+      even with the bypass level."
+    min: 0
+    max: 127
+  - name: Mix Mode
+    value: '21'
+    description: 0-63 = crossfade, 64-127 = effect only
+    min: 0
+    max: 127
+  - name: Ramp Time
+    value: '21'
+    description: '? Seems like it is likely for "Swell time" (secondary function= in
+      the manual (p6): Swell Time. Set the feedback swell ramp time (when holding the
+      Tap footswitch) from virtually instant to very gradual. '
+    min: 0
+    max: 127
+  - name: Chaos
+    value: '24'
+    description: Adjusts randomization level of LFO.
+    min: 0
+    max: 127
+  - name: LFO Shape
+    value: '25'
+    description: "0-42 = sine\n43-85 = square \n86-127 = triangle"
+    min: 0
+    max: 127
+  - name: Tap Divisions
+    value: '26'
+    description: |-
+      0-22 = dotted eighth
+      23-44 = eighth
+      45-67 = quarter note triplet 68-89 = dotted eighth 90-111 = quarter note 112-127 = half note
+    min: 0
+    max: 127
+  - name: Clock Divisor
+    value: '27'
+    description: 0-63 = normal, 64-127 = half speed
+    min: 0
+    max: 127
+  - name: MIDI Clock Ignore
+    value: '89'
+    description: 0-63 = normal, 64-127 = ignore clock
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: 0
+    description: Value > 63 is registered as a tap
+    min: 0
+    max: 127
+  - name: Feedback Swell
+    value: '97'
+    description: Value > 63 activates feedback swell
+    min: 0
+    max: 127
+  - name: Expression
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '102'
+    description: 0-63 = bypass, 64-127 = active
+    min: 0
+    max: 127
+  - name: Bypass Mode
+    value: '103'
+    description: 0-63 = standard, 64-127 = bypass
+    min: 0
+    max: 127
+
+device_name: Sending v2
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
