@@ -1,0 +1,218 @@
+brand: Chase Bliss
+model: Lossy
+data:
+  - name: FILTER
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: GLOBAL
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: REVERB
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: FREQ
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPEED
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: LOSS
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: RAMP SPEED
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: BYPASS
+    value: '102'
+    description: Pedal off = 0 ; Pedal on = 1 or >
+    min: 0
+    max: 127
+  - name: FREEZE SLUSHIE (PRESS LEFT SWITCH)
+    value: '103'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: ALT MENU (HOLD BOTH SWITCHES)
+    value: '104'
+    description: ALT exit = 0 ; ALT enter = 1 or >
+    min: 0
+    max: 127
+  - name: FREEZE SOLID (HOLD LEFT SWITCH)
+    value: '105'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: GATE (HOLD RIGHT SWITCH)
+    value: '106'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: GATE
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: FREEZER
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: VERB DECAY
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: LIMITER THRESHOLD
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: AUTO GAIN
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: LOSS GAIN
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: WEIGHTING
+    value: '33'
+    description: 'DARK = 0, 1 ; NEUTRAL = 2 ; BRIGHT = 3 OR >'
+    min: 0
+    max: 127
+  - name: FILTER SLOPE
+    value: '21'
+    description: '6 b = 0, 1 ; 24db = 2 ; 96db = 3 OR >'
+    min: 0
+    max: 127
+  - name: PACKET MODE
+    value: '22'
+    description: 'REPEAT = 0, 1 ; CLEAN = 2 ; LOSS = 3 OR >'
+    min: 0
+    max: 127
+  - name: LOSS MODE
+    value: '23'
+    description: 'INVERSE = 0, 1 ; STANDARD = 2 ; JITTER = 3 OR >'
+    min: 0
+    max: 127
+  - name: FILTER
+    value: '61'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: FREQ
+    value: '62'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SPEED
+    value: '63'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: LOSS
+    value: '64'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: VERB
+    value: '65'
+    description: off = 0 ;  on = 1 or >
+    min: 0
+    max: 127
+  - name: BOUNCE
+    value: '66'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SWEEP
+    value: '67'
+    description: B = 0 ;  T = 1 or >
+    min: 0
+    max: 127
+  - name: POLARITY
+    value: '68'
+    description: F = 0 ; R = 1 or >
+    min: 0
+    max: 127
+  - name: MISO
+    value: '71'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SPREAD
+    value: '72'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: TRAILS
+    value: '73'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: LATCH
+    value: '74'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: PRE/POST
+    value: '75'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SLOW
+    value: '76'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: INVERT
+    value: '77'
+    description: off = 0 ; on = 1 or
+    min: 0
+    max: 127
+  - name: ALL WET
+    value: '78'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: EOM (EXPRESSION OVER MIDI)
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: PRESET SAVE
+    value: '111'
+    description: ''
+    min: 0
+    max: '122'
+  - name: RAMP/BOUNCE (ON/OFF)
+    value: '52'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: FACTORY RESET
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'DRY KILL '
+    value: '57'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127

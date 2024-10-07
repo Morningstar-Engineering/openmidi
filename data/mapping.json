@@ -391,6 +391,10 @@
           "value": "habit"
         },
         {
+          "name": "Lossy",
+          "value": "lossy"
+        },
+        {
           "name": "Generation Loss MKI",
           "value": "generationlossmki"
         },
