@@ -767,6 +767,16 @@
       ]
     },
     {
+      "name": "Fender",
+      "value": "fender",
+      "models": [
+        {
+          "name": "Tone Master Pro",
+          "value": "tonemasterpro"
+        }
+      ]
+    },
+    {
       "name": "Flower Pedals",
       "value": "flowerpedals",
       "models": [

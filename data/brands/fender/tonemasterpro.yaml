@@ -1,0 +1,94 @@
+brand: 'Fender'
+model: Tone Master Pro
+url: https://www.fender.com/en/guitar-amplifiers/contemporary-digital/tone-master-pro/2274906000.html
+data:
+  - name: Bank Change
+    value: 0
+    description: ''
+    min: 0
+    max: '3'
+  - name: Expression Pedal 1
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Expression Pedal 2
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIDI Expression Pedal 3
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIDI Expression Pedal 4
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '64'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Toe Switch
+    value: '65'
+    description: '0-63: OFF, 64-127: ON'
+    min: 0
+    max: 127
+  - name: Amp Control 1 (Tip)
+    value: '66'
+    description: '0-63: OFF, 64-127: ON'
+    min: 0
+    max: 127
+  - name: Amp Control 1 (Ring)
+    value: '67'
+    description: '0-63: OFF, 64-127: ON'
+    min: 0
+    max: 127
+  - name: Looper REC/DUB
+    value: '103'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Looper PLAY/STOP
+    value: '104'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Looper 1-SHOT
+    value: '105'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Looper UNDO
+    value: '106'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Looper 1/2 SPEED
+    value: '107'
+    description: '0-63: FULL, 64-127: HALF'
+    min: 0
+    max: 127
+  - name: Looper REVERSE
+    value: '108'
+    description: '0-63: FWD, 64-127: REV'
+    min: 0
+    max: 127
+  - name: Looper VOLUME UP
+    value: '109'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Looper VOLUME DOWN
+    value: '110'
+    description: ''
+    min: '64'
+    max: 127
