@@ -1,0 +1,67 @@
+brand: 'Chase Bliss'
+model: Billy Strings Wombtone
+data:
+  - name: FEED
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: VOLUME
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIX
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: RATE
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: DEPTH
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: FORM
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: RAMP
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: BYPASS
+    value: '102'
+    description: Pedal off = 0 - 63 ; Pedal on = 64 - 127
+    min: 0
+    max: 127
+  - name: TAP
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: EOM (EXPRESSION OVER MIDI)
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIDI CLOCK IGNORE
+    value: '51'
+    description: off = 0 ; listening = 127
+    min: 0
+    max: 127
+  - name: MIDI NOTE DIVISIONS
+    value: '21'
+    description: >-
+      0 = whole note ; 1 = half note ; 2 = quarter triplet ; 3 = quarter note ;
+      4 = eighth note
+
+      5 = sixteenth note
+    min: 0
+    max: 127
