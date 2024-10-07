@@ -1,0 +1,44 @@
+brand: EM Custom
+model: AMI Universal Dual TRS
+url: 'https://emcustom.eu/downloads/AMI_MI.pdf'
+data:
+  - name: Tip 1 Off
+    value: '80'
+    description: Turns TRS switch 1 tip off
+    min: 0
+    max: '62'
+  - name: Tip 1 On
+    value: '80'
+    description: Turns TRS switch 1 tip on
+    min: '64'
+    max: 127
+  - name: Ring 1 Off
+    value: '81'
+    description: "Turns TRS switch 1 ring off\t"
+    min: 0
+    max: '62'
+  - name: Ring 1 On
+    value: '81'
+    description: Turns TRS switch 1 ring on
+    min: '64'
+    max: 127
+  - name: Tip 2 Off
+    value: '82'
+    description: "Turns TRS switch 2 tip off\t"
+    min: 0
+    max: '62'
+  - name: Tip 2 On
+    value: '82'
+    description: Turns TRS switch 2 tip on
+    min: '64'
+    max: 127
+  - name: Ring 2 Off
+    value: '83'
+    description: Turns TRS switch 2 ring off
+    min: 0
+    max: '62'
+  - name: Ring 2 On
+    value: '83'
+    description: Turns TRS switch 2 ring on
+    min: '64'
+    max: 127

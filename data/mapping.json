@@ -569,6 +569,16 @@
       ]
     },
     {
+      "name": "EM Custom",
+      "value": "emcustom",
+      "models": [
+        {
+          "name": "AMI Universal Dual TRS",
+          "value": "amiuniversaldualtrs"
+        }
+      ]
+    },
+    {
       "name": "Empress",
       "value": "empress",
       "models": [
