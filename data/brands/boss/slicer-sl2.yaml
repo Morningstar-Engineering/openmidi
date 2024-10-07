@@ -1,0 +1,29 @@
+brand: Boss
+model: Slicer SL-2
+url: 'https://static.roland.com/assets/media/pdf/SL-2_eng01_W.pdf'
+data:
+  - name: EXP
+    value: '16'
+    description: >-
+      Controls the output level of the effect sound.
+
+      This gives the same effect as when you're operating an
+      externally-connected expression
+
+      pedal.
+    min: 0
+    max: '0'
+  - name: EFFECTS ON/OFF
+    value: '80'
+    description: Turns the effects of the SL-2 on/off.
+    min: 0
+    max: '0'
+  - name: Tap Tempo
+    value: '81'
+    description: >-
+      Sets the tempo of the SL-2 in time with the interval in which control
+      change messages
+
+      are received.
+    min: 0
+    max: '0'

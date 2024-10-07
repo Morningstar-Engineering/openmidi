@@ -293,6 +293,10 @@
          {
           "name": "RE-202",
           "value": "re-202"
+        },
+         {
+          "name": "Slicer SL-2",
+          "value": "slicer-sl2"
         }
       ]
     },
