@@ -1,0 +1,223 @@
+brand: Kinotone
+model: Ribbons
+data:
+  - name: High Pass Filter
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Low Pass Filter
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compression / Saturation
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wow Frequency
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wow Depth
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Flutter Depth
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Flutter Frequency
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dropouts Frequency
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dropouts Depth
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Crinkle
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
+  - name: Noise
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Decay
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Mix & Placement
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Touch Param 1
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Touch Param 2
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Touch Footswitch
+    value: '16'
+    description: 0=Off ; ≥1=On
+    min: 0
+    max: 127
+  - name: Bypass Footswitch
+    value: '17'
+    description: 0=Off ; ≥1=On
+    min: 0
+    max: 127
+  - name: Touch Mode Select
+    value: '18'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Ribbons Mode Select
+    value: '19'
+    description: 0=Tape Effects ; 1=Looper
+    min: 0
+    max: 127
+  - name: Change Looper Track
+    value: '20'
+    description: 0=Track 1 ; 1=Track 2 ; etc.
+    min: 0
+    max: 127
+  - name: Clear Current Looper Track
+    value: '21'
+    description: 0=False ; ≥1=True
+    min: 0
+    max: 127
+  - name: Clear All Looper Tracks
+    value: '22'
+    description: 0=False ; ≥1=True
+    min: 0
+    max: 127
+  - name: Track 1 Direction
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 1 Speed
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 1 Volume
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 1 Scale
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Direction
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Speed
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Volume
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Scale
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 3 Direction
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 3 Speed
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 3 Volume
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 3 Scale
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 4 Direction
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 4 Speed
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 4 Volume
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 4 Scale
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ignore MIDI Clock
+    value: '51'
+    description: 0=Ignore ; ≥1=Listen
+    min: 0
+    max: 127
+  - name: Compression / Saturation
+    value: '52'
+    description: 0=Comp ; ≥1=Sat
+    min: 0
+    max: 127
+  - name: Synth Attack
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Release
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Volume
+    value: '55'
+    description: ''
+    min: 0
+    max: 127

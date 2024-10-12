@@ -1083,6 +1083,16 @@
       ]
     },
     {
+      "name": "Kinotone",
+      "value": "kinotone",
+      "models": [
+        {
+          "name": "Ribbons",
+          "value": "ribbons"
+        }
+      ]
+    },
+    {
       "name": "Korg",
       "value": "korg",
       "models": [
