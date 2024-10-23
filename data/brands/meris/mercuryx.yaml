@@ -6,7 +6,7 @@ midi_clock:
 midi_channel:
   instructions: GLOBALS settings page
 
-instructions:
+instructions: refer to Manual v1.1.1
 
 pc:
   description: PC 1-99 selects presets
@@ -176,6 +176,21 @@ cc:
     value: 24
     description:
     min: 0
+    max: 127
+  - name: midi clock use global
+    value: 28
+    description:
+    min: 0
+    max: 42
+  - name: midi clock force listen
+    value: 24
+    description:
+    min: 43
+    max: 85
+  - name: midi clock force ignore
+    value: 24
+    description:
+    min: 86
     max: 127
   - name: reverb structure ultraplate
     value: 32
