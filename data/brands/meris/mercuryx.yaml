@@ -6,7 +6,7 @@ midi_clock:
 midi_channel:
   instructions: GLOBALS settings page
 
-instructions: ref: Manual v1.1.1
+instructions: refer to Manual v1.1.1
 
 pc:
   description: PC 1-99 selects presets
