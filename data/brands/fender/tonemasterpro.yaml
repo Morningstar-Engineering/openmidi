@@ -1,7 +1,17 @@
 brand: 'Fender'
 model: Tone Master Pro
-url: https://www.fender.com/en/guitar-amplifiers/contemporary-digital/tone-master-pro/2274906000.html
-data:
+midi_in: TRS
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+cc:
   - name: Bank Change
     value: 0
     description: ''
