@@ -983,6 +983,16 @@
       ]
     },
     {
+      "name": "Idoru",
+      "value": "idoru",
+      "models": [
+        {
+          "name": "P1",
+          "value": "p1"
+        }
+      ]
+    },
+    {
       "name": "IK Multimedia",
       "value": "ikmultimedia",
       "models": [

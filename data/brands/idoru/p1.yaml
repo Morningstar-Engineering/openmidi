@@ -1,0 +1,56 @@
+midi_in: ''
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+
+pc: 
+  description: |+
+
+cc: 
+  - name: Previous song
+    value: '21'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Next song
+    value: '22'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Play / Pause
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Stop
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Direct select & play song
+    value: '20'
+    description: |-
+      CC 20 or Program change message.
+      Value of 1-40 equals song position in playlist, 0 is ignored
+    min: 0
+    max: 127
+  - name: Direct select song
+    value: '19'
+    description: 'Value of 1-40 equals song position in playlist, 0 is ignored. '
+    min: 0
+    max: 127
+  - name: Direct select setlist
+    value: '18'
+    description: "(value of 1-7 equals setlist, 0 is ignored)"
+    min: 0
+    max: 127
+  - name: Direct select setlist & play song
+    value: 0
+    description: |-
+      CC0 : Value of 1-7 equals setlist number, 0 is ignored.
+      PC: value of 1-40 equals song position in playlist, 0 is ignored.
+    min: 0
+    max: 127
