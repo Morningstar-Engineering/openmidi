@@ -1,6 +1,15 @@
 brand: Chase Bliss
 model: Lossy
-data:
+midi_in: Type B
+midi_thru: None
+
+midi_channel:
+  instructions: |+
+
+pc:
+  description: |+
+
+cc:
   - name: FILTER
     value: '14'
     description: ''

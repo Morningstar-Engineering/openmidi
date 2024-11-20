@@ -313,100 +313,32 @@
     {
       "name": "Chase Bliss Audio",
       "value": "chasebliss",
-      "models": [
-        {
-          "name": "Ayahuasca",
-          "value": "ayahuasca"
-        },
-        {
-          "name": "Billy Strings Wombtone",
-          "value": "billystringswombtone"
-        },
-        {
-          "name": "Bliss Factory",
-          "value": "blissfactory"
-        },
-        {
-          "name": "Blooper",
-          "value": "blooper"
-        },
-        {
-          "name": "Brothers",
-          "value": "brothers"
-        },
-        {
-          "name": "Condor",
-          "value": "condor"
-        },
-        {
-          "name": "CXM 1978",
-          "value": "cxm1978"
-        },
-        {
-          "name": "Dark World",
-          "value": "darkworld"
-        },
-        {
-          "name": "Gravitas",
-          "value": "gravitas"
-        },
-        {
-          "name": "Mood",
-          "value": "mood"
-        },
-        {
-          "name": "Mood MkII",
-          "value": "moodmkii"
-        },
-        {
-          "name": "Onward",
-          "value": "onward"
-        },
-        {
-          "name": "Preamp MkII",
-          "value": "preampmkii"
-        },
-        {
-          "name": "Reverse Mode C",
-          "value": "reversemodec"
-        },
-        {
-          "name": "Spectre",
-          "value": "spectre"
-        },
-        {
-          "name": "Thermae",
-          "value": "thermae"
-        },
-        {
-          "name": "Tonal Recall",
-          "value": "tonalrecall"
-        },
-        {
-          "name": "Warped Vinyl HiFi",
-          "value": "warpedvinyl"
-        },
-        {
-          "name": "Wombtone MKII",
-          "value": "wombtonemkii"
-        },
-        {
-          "name": "Habit",
-          "value": "habit"
-        },
-        {
-          "name": "Lossy",
-          "value": "lossy"
-        },
-        {
-          "name": "Generation Loss MKI",
-          "value": "generationlossmki"
-        },
-        {
-          "name": "Generation Loss MKII",
-          "value": "generationlossmkii"
-        }
-      ]
+      "models":
+              [
+                {"name": "Ayahuasca", "value": "ayahuasca"},
+                {"name": "Billy Strings Wombtone", "value": "billystringswombtone"},
+                {"name": "Bliss Factory", "value": "blissfactory"},
+                {"name": "Blooper", "value": "blooper"},
+                {"name": "Brothers", "value": "brothers"},
+                {"name": "CXM 1978", "value": "cxm1978"},
+                {"name": "Condor", "value": "condor"},
+                {"name": "Dark World", "value": "darkworld"},
+                {"name": "Generation Loss MKI", "value": "generationlossmki"},
+                {"name": "Generation Loss MKII", "value": "generationlossmkii"},
+                {"name": "Gravitas", "value": "gravitas"},
+                {"name": "Habit", "value": "habit"},
+                {"name": "Lossy", "value": "lossy"},
+                {"name": "Mood", "value": "mood"},
+                {"name": "Mood MkII", "value": "moodmkii"},
+                {"name": "Onward", "value": "onward"},
+                {"name": "Preamp MkII", "value": "preampmkii"},
+                {"name": "Reverse Mode C", "value": "reversemodec"},
+                {"name": "Spectre", "value": "spectre"},
+                {"name": "Thermae", "value": "thermae"},
+                {"name": "Tonal Recall", "value": "tonalrecall"},
+                {"name": "Warped Vinyl HiFi", "value": "warpedvinyl"},
+                {"name": "Wombtone MKII", "value": "wombtonemkii"}
+              ]
     },
     {
       "name": "Darkglass Electronics",
