@@ -89,7 +89,7 @@ cc:
     min: 0
     max: 127
   - name: Tuner
-    value: 30
+    value: 31
     description: Enter/Leave Tuner mode. Non-zero values (1-127) trigger “on”, while zero triggers “off”.
     type: Parameter
     min: 0
