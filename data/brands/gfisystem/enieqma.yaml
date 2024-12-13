@@ -1,5 +1,5 @@
-midi_in: DIN5
-midi_thru: No
+midi_in: Tip Active
+midi_thru: Yes
 phantom_power: None
 midi_clock: Yes
 
