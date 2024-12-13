@@ -1,0 +1,407 @@
+midi_in: Tip Active
+midi_thru: Yes
+phantom_power: None
+midi_clock: Yes
+
+midi_channel:
+  instructions: |+
+
+instructions:
+
+pc:
+  description: |+
+
+cc:
+# Page 1 - Algorithms
+  - name: Load a Delay algorithm to X
+    value: '0'
+    description: 0-14
+    min: 0
+    max: 14
+  - name: Load a Reverb algorithm to X
+    value: '1'
+    description: 0-8
+    min: 0
+    max: 8
+  - name: Load a Delay algorithm to Y
+    value: '2'
+    description: 0-14
+    min: 0
+    max: 14
+  - name: Load a Reverb algorithm to Y
+    value: '3'
+    description: 0-8
+    min: 0
+    max: 8
+
+# Page 2 - Params-1
+  - name: Set Time on X
+    value: '4'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Wet Level on X
+    value: '5'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dry Level on X
+    value: '6'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param1 value on X
+    value: '7'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param2 value on X
+    value: '8'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param3 value on X
+    value: '9'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param4 value on X
+    value: '10'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param5 value on X
+    value: '11'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param6 value on X
+    value: '12'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param7 value on X
+    value: '13'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param8 value on X
+    value: '14'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics on X
+    value: '15'
+    description: 0 = DSP-Y Dynamics Off, 127 = DSP-Y Dynamics On
+    min: 0
+    max: 127
+  - name: Set Dynamics Mode on X
+    value: '16'
+    description: 0 = Ducker, 1 = Gate
+    min: 0
+    max: 1
+  - name: Set Dynamics Attack on X
+    value: '17'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Release on X
+    value: '18'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Threshold on X
+    value: '19'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Intensity on X
+    value: '20'
+    description: 0-127
+    min: 0
+    max: 127
+    
+# Page 3 - Params-2
+  - name: Set Time on Y
+    value: '21'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Wet Level on Y
+    value: '22'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dry Level on Y
+    value: '23'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param1 value on Y
+    value: '24'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param2 value on Y
+    value: '25'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param3 value on Y
+    value: '26'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param4 value on Y
+    value: '27'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param5 value on Y
+    value: '28'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param6 value on Y
+    value: '29'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param7 value on Y
+    value: '30'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Param8 value on Y
+    value: '31'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics on Y
+    value: '32'
+    description: 0 = DSP-Y Dyanamics Off, 127 = DSP-Y Dyanamics On
+    min: 0
+    max: 127
+  - name: Set Dynamics Mode on Y
+    value: '33'
+    description: 0 = Ducker, 1 = Gate
+    min: 0
+    max: 1
+  - name: Set Dynamics Attack on Y
+    value: '34'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Release on Y
+    value: '35'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Threshold on Y
+    value: '36'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Dynamics Intensity on Y
+    value: '37'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Set Crossover
+    value: '38'
+    description: 0 = Crossover Off, 127 = Crossover On
+    min: 0
+    max: 127
+  - name: Set Crossover Mode
+    value: '39'
+    description: 0 = LPF on X HPF on Y, 127 = HPF on X LPF on Y
+    min: 0
+    max: 127
+  - name: Set Crossover Frequency
+    value: '40'
+    description: 0-127
+    min: 0
+    max: 127
+    
+# Page 4 - Tempo
+  - name: Set Tempo Mode on X
+    value: '41'
+    description: 0 = Free, 127 = Synced
+    min: 0
+    max: 127
+  - name: Set Tempo Subdivision on X
+    value: '42'
+    description: 0-9
+    min: 0
+    max: 9
+  - name: Set Tempo Display on X
+    value: '43'
+    description: 0 = ms, 127 = BPM
+    min: 0
+    max: 127
+  - name: Set Tempo Change on X
+    value: '44'
+    description: 0 = Instant, 127 = Warped
+    min: 0
+    max: 127
+  - name: Set Tempo Mode on Y
+    value: '45'
+    description: 0 = Free, 127 = Synced
+    min: 0
+    max: 127
+  - name: Set Tempo Subdivision on Y
+    value: '46'
+    description: 0-9
+    min: 0
+    max: 9
+  - name: Set Tempo Display on Y
+    value: '47'
+    description: 0 = ms, 127 = BPM
+    min: 0
+    max: 127
+  - name: Set Tempo Change on Y
+    value: '48'
+    description: 0 = Instant, 127 = Warped
+    min: 0
+    max: 127
+    
+# Page 5 - General
+  - name: Set XY Routing
+    value: '49'
+    description: 0 = Series, 1 = Parallel, 2 = Dual Mono
+    min: 0
+    max: 2
+  - name: Set Volume Trim
+    value: '50'
+    description: 0-6
+    min: 0
+    max: 6
+  - name: Set Bypass Trails
+    value: '51'
+    description: 0 = Bypass trails Off, 127 = Bypass trails On
+    min: 0
+    max: 127
+  - name: Set Spillover
+    value: '52'
+    description: 0 = Off, 1 = 0.5s, 2 = 1s, 3 = 2s, 4 = 4s, 5 = 8s, 6 = 16s, 7 = Inf
+    min: 0
+    max: 7
+  - name: Set Trails on X
+    value: '53'
+    description: 0 = DSP-X trails Off, 127 = DSP-X trails On
+    min: 0
+    max: 127
+  - name: Set Trails on Y
+    value: '54'
+    description: 0 = DSP-X trails Off, 127 = DSP-X trails On
+    min: 0
+    max: 127
+
+# Page 6 - Controls-1
+  - name: Set DSP X
+    value: '55'
+    description: 0 = Off, 127 = On
+    min: 0
+    max: 127
+  - name: Set DSP Y
+    value: '56'
+    description: 0 = Off, 127 = On
+    min: 0
+    max: 127
+  - name: Bypass / Engage
+    value: '57'
+    description: 0 = Bypass, 127 = Engage
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '58'
+    description: any
+    min: 0
+    max: 127
+  - name: Expression 1
+    value: '59'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Expression 2
+    value: '60'
+    description: 0-127
+    min: 0
+    max: 127
+  - name: Swap XY
+    value: '61'
+    description: any
+    min: 0
+    max: 127
+  - name: Load Patch
+    value: '62'
+    description: 0 = Patch A, 1 = Patch B, 2 = Patch C
+    min: 0
+    max: 2
+  - name: Patch Scroll
+    value: '63'
+    description: 0 = Previous patch, 127 = Next patch
+    min: 0
+    max: 127
+  - name: Display Update Inhibit
+    value: '64'
+    description: 0 = Disabled, 127 = Enabled
+    min: 0
+    max: 127
+  - name: Auto-Ramp
+    value: '65'
+    description: 0 = Release, 127 = Trigger
+    min: 0
+    max: 127
+  - name: Auto-Ramp X
+    value: '66'
+    description: 0 = Release, 127 = Trigger
+    min: 0
+    max: 127
+  - name: Auto-Ramp Y
+    value: '67'
+    description: 0 = Release, 127 = Trigger
+    min: 0
+    max: 127
+    
+# Page 6 - Controls-2
+  - name: Looper Record
+    value: '68'
+    description: any
+    min: 0
+    max: 127
+  - name: Looper Play
+    value: '69'
+    description: any
+    min: 0
+    max: 127
+  - name: Looper Stop
+    value: '70'
+    description: any
+    min: 0
+    max: 127
+  - name: Looper Erase
+    value: '71'
+    description: any
+    min: 0
+    max: 127
+  - name: Looper 2X Speed
+    value: '72'
+    description: 0 = Off, 127 = On
+    min: 0
+    max: 127
+  - name: Looper Reverse
+    value: '73'
+    description: 0 = Off, 127 = On
+    min: 0
+    max: 127
+  - name: Looper AscendDub
+    value: '74'
+    description: 0 = Off, 127 = On
+    min: 0
+    max: 127
+  - name: Bank Scroll
+    value: '75'
+    description: 0 = Bank down, 127 = Bank up
+    min: 0
+    max: 127
