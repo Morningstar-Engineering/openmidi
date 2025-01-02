@@ -47,7 +47,7 @@ cc:
     min: 0
     max: '127'
   - name: Manual Ramp
-    value: '20'
+    value: '22'
     description: ''
     min: 0
     max: '127'
