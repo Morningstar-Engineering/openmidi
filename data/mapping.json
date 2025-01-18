@@ -2042,6 +2042,10 @@
         {
           "name": "Looper+",
           "value": "looperplus"
+        },
+        {
+          "name": "Looper X",
+          "value": "looperX"
         }
       ]
     },
