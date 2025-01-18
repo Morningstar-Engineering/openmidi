@@ -1,0 +1,287 @@
+brand: Hotone
+cc:
+- name: Patch Volume
+  value: '7'
+  description: ''
+  min: 0
+  max: '100'
+- name: Expression Pedal (EXP 1/2)
+  value: '11'
+  description: ''
+  min: 0
+  max: 127
+- name: EXP 1/2 Switch
+  value: '13'
+  description: '0-63: EXP1, 64-127 EXP2'
+  min: 0
+  max: '127'
+- name: Bank MSB
+  value: 0
+  description: "\tP00-1 to P42-2: CC 0=0, PC=0-127; P42-3 to P85-1: CC 0=1, PC=0-127;
+    P85-2 to P99-3: CC 0=2, PC=0-43"
+  min: 0
+  max: '2'
+- name: Quick Acccess Para 1
+  value: '16'
+  description: ''
+  min: 0
+  max: 127
+- name: QA Para1 parameter adjustment
+  value: '17'
+  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  min: 0
+  max: 127
+- name: Quick Acccess Para 2
+  value: '18'
+  description: ''
+  min: 0
+  max: 127
+- name: QA Para2 parameter adjustment
+  value: '19'
+  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  min: 0
+  max: 127
+- name: Quick Acccess Para 3
+  value: '20'
+  description: ''
+  min: 0
+  max: 127
+- name: QA Para3 parameter adjustment
+  value: '21'
+  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  min: 0
+  max: 127
+- name: Bank -
+  value: '22'
+  description: ''
+  min: 0
+  max: 127
+- name: Bank +
+  value: '23'
+  description: ''
+  min: 0
+  max: 127
+- name: Pre-Select Menu
+  value: '24'
+  description: ''
+  min: 0
+  max: 127
+- name: Choose a scene in current patch
+  value: '25'
+  description: '1: Scene 1; 2: Scene 2; 3: Scene 3'
+  min: '1'
+  max: '5'
+- name: Patch -
+  value: '26'
+  description: ''
+  min: 0
+  max: 127
+- name: Patch +
+  value: '27'
+  description: ''
+  min: 0
+  max: 127
+- name: Unit Mode
+  value: '28'
+  description: '0-63: Patch Mode; 64-127 Stomp Mode'
+  min: 0
+  max: 127
+- name: Main Display Mode
+  value: '29'
+  description: '0-63: Mode 1 (Patch Mode) or Footswitch (Stomp Mode); 64-127: Mode
+    2 (Patch Mode) or FX Chain (Stomp Mode)'
+  min: 0
+  max: 127
+- name: Drum Machine Menu On/Off
+  value: '36'
+  description: '0-63 Off; 64-127: On'
+  min: 0
+  max: 127
+- name: 'Drum Machine Play/Stop:'
+  value: '37'
+  description: '0-63: Stop; 64-127: Play'
+  min: 0
+  max: 127
+- name: Drum machine rythm type
+  value: '38'
+  description: ''
+  min: '1'
+  max: '100'
+- name: Drum Machine Volume
+  value: '39'
+  description: ''
+  min: 0
+  max: '100'
+- name: Slot A1 On/Off
+  value: '48'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot A2 On/Off
+  value: '49'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot A3 On/Off
+  value: '50'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot A4 On/Off
+  value: '51'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot A5 On/Off
+  value: '52'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot A6 On/Off
+  value: '53'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B1 On/Off
+  value: '54'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B2 On/Off
+  value: '55'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B3 On/Off
+  value: '56'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B4 On/Off
+  value: '57'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B5 On/Off
+  value: '58'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Slot B6 On/Off
+  value: '59'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Tuner On/Off
+  value: '60'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Looper Menu On/Off
+  value: '62'
+  description: '0-63: Off; 64-127: On'
+  min: 0
+  max: 127
+- name: Looper Rec/Overdub
+  value: '63'
+  description: ''
+  min: 0
+  max: 127
+- name: Looper Play/Stop
+  value: '64'
+  description: '0-63: Stop; 64-127: Play'
+  min: 0
+  max: 127
+- name: Looper Speed
+  value: '65'
+  description: '0-63: 1/2 Speed; 64-127: Normal'
+  min: 0
+  max: 127
+- name: Looper Playback
+  value: '66'
+  description: '0-63: Reverse; 64-127: Normal'
+  min: 0
+  max: 127
+- name: Looper Undo/Redo
+  value: '67'
+  description: ''
+  min: 0
+  max: 127
+- name: Looper Clear
+  value: '68'
+  description: ''
+  min: 0
+  max: 127
+- name: Looper Rec Level
+  value: '69'
+  description: ''
+  min: 0
+  max: '100'
+- name: Looper Loop Level
+  value: '70'
+  description: ''
+  min: 0
+  max: '100'
+- name: Looper Pre/Post
+  value: '71'
+  description: '0-63: Post; 64-127: Pre'
+  min: 0
+  max: 127
+- name: Looper A/B Chain
+  value: '72'
+  description: '0-63: Chain A; 64-127: Chain B'
+  min: 0
+  max: 127
+- name: Tempo MSB
+  value: '74'
+  description: |-
+    CC74=0, CC75=40-127: 40BPM-127BPM
+    CC74=1, CC75=0-127: 128BPM-255BPM
+    CC74=2, CC75=0-44: 256BPM-300BPM
+  min: 0
+  max: '2'
+- name: Tempo LSB
+  value: '75'
+  description: ''
+  min: 0
+  max: 127
+- name: Tap Tempo
+  value: '76'
+  description: ''
+  min: 0
+  max: 127
+- name: Screen Lock/Unlock
+  value: '77'
+  description: '0-63: Lock; 64-127: Unlock'
+  min: 0
+  max: 127
+- name: Unit Engage/Bypass
+  value: '78'
+  description: '0: Analog Bypass; 1: DSP Bypass; 2: Engage'
+  min: 0
+  max: '2'
+- name: FS 1 Effect Slot On/Off
+  value: '79'
+  description: ''
+  min: 0
+  max: 127
+- name: FS 2 Effect Slot On/Off
+  value: '80'
+  description: ''
+  min: 0
+  max: 127
+- name: FS 3 Effect Slot On/Off
+  value: '81'
+  description: ''
+  min: 0
+  max: 127
+
+device_name: Ampero 2 Stomp
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

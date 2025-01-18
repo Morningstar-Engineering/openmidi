@@ -911,6 +911,9 @@
         {
           "name": "Ampero",
           "value": "ampero"
+        },{
+          "name": "Ampero 2 Stomp",
+          "value": "ampero2stomp"
         }
       ]
     },
