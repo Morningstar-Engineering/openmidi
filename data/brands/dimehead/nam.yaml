@@ -1,0 +1,257 @@
+brand: Dimehead
+cc:
+  - name: Volume
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Room
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Frequency
+    value: '114'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Q
+    value: '115'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mids
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mids Frequency
+    value: '115'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mids
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mids Frequency
+    value: '116'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mids Q
+    value: '117'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Frequency
+    value: '118'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Q
+    value: '119'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bank Down
+    value: '12'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Bank Up
+    value: '13'
+    description: ''
+    min: '127'
+    max: 127
+  - name: FX Loop OFF
+    value: '21'
+    description: "\n"
+    min: 0
+    max: '0'
+  - name: FX Loop ON
+    value: '21'
+    description: ''
+    min: '127'
+    max: 127
+  - name: FX Loop Toggle
+    value: '22'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Disable Boost/FX
+    value: '21'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Enable Boost/FX
+    value: '25'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Toggle Boost/FX
+    value: '30'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Boost/FX Gain
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost/FX Bass
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost/FX Mids
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost/FX Treble
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Disable Reverb
+    value: '35'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Enable Reverb
+    value: '35'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Toggle Reverb
+    value: '37'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Reverb Mix
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Disable Delay
+    value: '40'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Enable Delay
+    value: '40'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Toggle Delay
+    value: '48'
+    description: ''
+    min: '127'
+    max: 127
+  - name: TAP Tempo
+    value: '49'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Delay Mix
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Time
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay LFO Speed
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay LFO Depth
+    value: '45'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Highpass
+    value: '46'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Lowpass
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: Disable Tremolo
+    value: '50'
+    description: "\n"
+    min: 0
+    max: '0'
+  - name: Enable Tremolo
+    value: '50'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Toggle Tremolo
+    value: '53'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Tremolo Depth
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tremolo Speed
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: IR Highpass
+    value: '120'
+    description: ''
+    min: 0
+    max: 127
+  - name: IR Lowpasw
+    value: '121'
+    description: ''
+    min: 0
+    max: 127
+
+device_name: NAM
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
