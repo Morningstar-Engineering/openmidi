@@ -1,0 +1,117 @@
+brand: Old Blood Noise Endeavors
+cc:
+- name: Volume
+  value: '7'
+  description: ''
+  min: 0
+  max: 127
+- name: Mix
+  value: '14'
+  description: ''
+  min: 0
+  max: 127
+- name: Decay
+  value: '15'
+  description: ''
+  min: 0
+  max: 127
+- name: Pitch 1
+  value: '16'
+  description: Adjust pitch 1; 0=2 octaves down; 127=2 octaves up
+  min: 0
+  max: 127
+- name: Pitch 2
+  value: '17'
+  description: Adjust pitch 2; 0=2 octaves down; 127=2 octaves up
+  min: 0
+  max: 127
+- name: Lag
+  value: '18'
+  description: Pre-delay
+  min: 0
+  max: 127
+- name: Crush
+  value: '19'
+  description: Bitcrush and distortion parameters; 0=full bitcrush; 127=full soft-clipping
+    distortion; 63=clean (no bitcrush or distortion)
+  min: 0
+  max: 127
+- name: Filter
+  value: '20'
+  description: ''
+  min: 0
+  max: 127
+- name: Feedback
+  value: '21'
+  description: ''
+  min: 0
+  max: 127
+- name: Spread
+  value: '22'
+  description: Stereo spread; 0-62=reversed left-right; 63=unity; 64-127=normal stereo
+    spread
+  min: 0
+  max: 127
+- name: Expression
+  value: '11'
+  description: ''
+  min: 0
+  max: 127
+- name: Bypass Switch
+  value: '23'
+  description: 'Off: 0-63; On: 64-127
+
+    '
+  min: 0
+  max: 127
+- name: Aux Switch
+  value: '24'
+  description: 'Off: 0-63; On: 64-127
+
+    '
+  min: 0
+  max: 127
+- name: Preset Saving Switch
+  value: '25'
+  description: 'Start save: 0-63; Confirm save: 64-127
+
+    '
+  min: 0
+  max: 127
+- name: Aux Setting
+  value: '80'
+  description: 'Set parameter ramped/held by aux switch. Filter: 0-42; Hold: 43-85;
+    Pitch: 86-127
+
+    '
+  min: 0
+  max: 127
+- name: Trails Setting
+  value: '81'
+  description: 'Off: 0-63; On: 64-127
+
+    '
+  min: 0
+  max: 127
+- name: Stereo Setting
+  value: '82'
+  description: 'Mono: 0-42; Mono In Stereo Out: 43-85; Stereo: 86-127
+
+    '
+  min: 0
+  max: 127
+- name: MIDI Channel
+  value: '102'
+  description: ''
+  min: 0
+  max: '16'
+
+device_name: Dark Star Stereo Soundscape Reverb
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
