@@ -1,0 +1,158 @@
+midi_in:
+midi_thru:
+phantom_power:
+midi_clock:
+
+midi_channel:
+  instructions: |+
+    
+
+instructions:
+
+pc:
+  description:
+
+
+cc:
+  - name: Expression pedal
+    value: '4'
+    description: Control Input
+    min: 0
+    max: 127
+  - name: Mix
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Crush
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Freq
+    value: '14'
+    description: sample reduction
+    min: 0
+    max: 127
+  - name: modulation depth
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: modulation rate
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Envelope mod amount
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: filter cutoff
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: filter resonance
+    value: '22'
+    description: |-
+      this settings are saved to presets, but they are not remembered when power is off (since
+      there is no way to see or change them using the pedal controls
+    min: 0
+    max: 127
+  - name: drive
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: aux footswitch
+    value: '80'
+    description: |-
+      Use gated mode to send 127 on
+      press and 0 on release. Matches
+      footswitch behavior.
+      0-63   Off (release)
+      64-127   On (press)
+    min: 0
+    max: 127
+  - name: ON footswitch
+    value: '81'
+    description: 'Use gated mode to send 127 on press and 0 on release. Matches footswitch
+      behavior. 0-63: Off (release)--- 64-127: On (press)'
+    min: 0
+    max: 127
+  - name: "Bypass (receive only)\t"
+    value: '88'
+    description: '0-63 : Bypass --- 64-127 : effect On'
+    min: 0
+    max: 127
+  - name: tap (receive only)
+    value: '89'
+    description: Remote tap
+    min: '64'
+    max: 127
+  - name: Modulation waveform
+    value: '102'
+    description: 0 = triangle ; 1 = square ; 2 = random ; 3 = Wave folder ; 4 = Wave
+      window ; 5 = Waveshaper
+    min: 0
+    max: '5'
+  - name: Modulation destination (Receive only)
+    value: '103'
+    description: 1 = Freq (default) ; 2 = filter cutoff ; 3 = Mix --- (this settings
+      are saved to presets, but they are not remembered when power is off (since there
+      is no way to see or change them using the pedal controls)
+    min: 0
+    max: '3'
+  - name: envelope destination
+    value: '104'
+    description: 0 = Off ; 1 = Mix ; 2 = Mix - (towards dry *) ; 3 = Freq up ; 4 = Freq
+      down ; 5 = Filter cutoff (*) ----- (*) this settings are saved to presets, but
+      they are not remembered when power is off (since there is no way to see or change
+      them using the pedal controls)
+    min: 0
+    max: '5'
+  - name: LFO hold
+    value: '105'
+    description: '0-63 : Off ---- 64-127 : On'
+    min: 0
+    max: 127
+  - name: Modulation note division
+    value: '108'
+    description: |-
+      See note division table : CC Value Note Division
+      0 Off (tap tempo disabled)
+      1 - 8 measure
+      2 - 7 measures
+      3 - 6 measures
+      4 - 5 measures
+      5 - 4 measures
+      6 - 3 measures
+      7 - 2 measures
+      8 - 2 measure triplet
+      9 - Dotted whole note
+      10 - Whole note
+      11 - Whole note triplet
+      12 - Dotted half note
+      13 - Half note
+      14 - Half note triplet
+      15 - Dotted quarter note
+      16 - Quarter note
+      17 - Quarter note triplet
+      18 - Dotted eighth note
+      19 - Eighth note
+      20 - Eighth note triplet
+      21 - Dotted 16th note
+      22 - 16th note
+      23 - 16th note triplet
+      24 - Dotted 32nd note
+      25 - 32nd note
+      26 - 32nd note triple
+    min: 0
+    max: '26'
+  - name: receive midi clock (global)
+    value: '110'
+    description: '0-63 : Off ---- 64-127 : On (default)'
+    min: 0
+    max: 127

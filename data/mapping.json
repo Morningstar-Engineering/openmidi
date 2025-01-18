@@ -1847,6 +1847,10 @@
       "value": "redpanda",
       "models": [
         {
+          "name": "Bitmap 2",
+          "value": "bitmap2"
+        },
+        {
           "name": "Context 2",
           "value": "context2"
         },
