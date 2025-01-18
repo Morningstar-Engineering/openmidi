@@ -473,6 +473,10 @@
         {
           "name": "Sending v2",
           "value": "sendingv2"
+        },
+        {
+          "name": "Sending v2 (Firmware 2.0)",
+          "value": "sendingv2firmware2-0"
         }
       ]
     },

@@ -1,0 +1,270 @@
+brand: EAE
+cc:
+  - name: Expression MSB (14 bit)
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Color
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Rate
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Depth
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chaos Sample/Hold
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level Trim
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix Mode
+    value: '21'
+    description: 0-63 = crossfade / 64-127 = effect only
+    min: 0
+    max: 127
+  - name: Ramp Time
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Arp Mode
+    value: '23'
+    description: 0-22 = Normal / 23-44 = Octaves / 45-67 = Octaves + 5ths / 68-89 =
+      Stacked 5ths / 90-111 = Stacked 4ths / 112-127 = Glitch Mode
+    min: 0
+    max: 127
+  - name: Chaos
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Shape
+    value: '25'
+    description: 0-42 = sine / 43-85 = square / 86-127 = triangle
+    min: 0
+    max: 127
+  - name: Tap Divisions
+    value: '26'
+    description: 0-22 = dotted eighth / 23-44 = eighth note / 45-67 = quarter note triplet
+      / 68-89 = dotted eighth / 90-111 = quarter note / 112-127 = half note
+    min: 0
+    max: 127
+  - name: LFO Skew
+    value: '27'
+    description: Ramp down from 63 to 0 / Ramp up from 64 to 127
+    min: 0
+    max: 127
+  - name: Color Mod ±
+    value: '28'
+    description: Negative mod from 63 to 0 / Positive mod from 64 to 127
+    min: 0
+    max: 127
+  - name: Mix Mod ±
+    value: '29'
+    description: Negative mod from 63 to 0 / Positive mod from 64 to 127
+    min: 0
+    max: 127
+  - name: Feedback Mod ±
+    value: '30'
+    description: Negative mod from 63 to 0 / Positive mod from 64 to 127
+    min: 0
+    max: 127
+  - name: Filter Mod ±
+    value: '31'
+    description: Negative mod from 63 to 0 / Positive mod from 64 to 127
+    min: 0
+    max: 127
+  - name: Time Mod ±
+    value: '32'
+    description: Negative mod from 63 to 0 / Positive mod from 64 to 127
+    min: 0
+    max: 127
+  - name: Expression LSB (14 bit)
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Color Expression
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix Expression
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback Expression
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Expression
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Rate Expression
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Depth Expression
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time Expression
+    value: '40'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level Trim Expression
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Swell Time Expression
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Arp Expression
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chaos Expression
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Shape Expression
+    value: '45'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time Div Expression
+    value: '46'
+    description: ''
+    min: 0
+    max: 127
+  - name: Trails Level (Input Swell)
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time LSB
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: Clock Divisor
+    value: '88'
+    description: '0-63 = normal / 64-127 = half speed / Note: previously CC27.'
+    min: 0
+    max: 127
+  - name: MIDI Clock Ignore
+    value: '89'
+    description: 0-63 = normal / 64-127 = ignore clock
+    min: 0
+    max: 127
+  - name: LFO Sync
+    value: '90'
+    description: ">64 to activate"
+    min: 0
+    max: 127
+  - name: LFO Phase Reset
+    value: '91'
+    description: ">64 to activate"
+    min: 0
+    max: 127
+  - name: LFO Phase Offset
+    value: '92'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '93'
+    description: "> 63 is registered as a tap"
+    min: 0
+    max: 127
+  - name: CV Clock Mode
+    value: '94'
+    description: 0-63 = disabled / 64-127 = enabled
+    min: 0
+    max: 127
+  - name: Tempo Skew
+    value: '95'
+    description: Negative skew from 63 to 0 / Positive skew from 64 to 127
+    min: 0
+    max: 127
+  - name: Feedback Swell
+    value: '97'
+    description: "> 63 to activate"
+    min: 0
+    max: 127
+  - name: Expression (7-bit)
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '102'
+    description: 0-63 = bypass / 64-127 = active
+    min: 0
+    max: 127
+  - name: Bypass Mode
+    value: '103'
+    description: 0-63 = standard / 64-127 = bypass
+    min: 0
+    max: 127
+  - name: Swell mode
+    value: '104'
+    description: 0-63 = standard / 64-127 = hold
+    min: 0
+    max: 127
+
+
+device_name: Sending v2 (Firmware 2.0)
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
