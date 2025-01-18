@@ -28,7 +28,7 @@ cc:
   max: 127
 - name: QA Para1 parameter adjustment
   value: '17'
-  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  description: '0-63: Turn down by 1 step; 64-127: Turn up by 1 step'
   min: 0
   max: 127
 - name: Quick Acccess Para 2
@@ -38,7 +38,7 @@ cc:
   max: 127
 - name: QA Para2 parameter adjustment
   value: '19'
-  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  description: '0-63: Turn down by 1 step; 64-127: Turn up by 1 step'
   min: 0
   max: 127
 - name: Quick Acccess Para 3
@@ -48,7 +48,7 @@ cc:
   max: 127
 - name: QA Para3 parameter adjustment
   value: '21'
-  description: '0-63: Turn own by 1 step; 64-127: Turn up by 1 step'
+  description: '0-63: Turn down by 1 step; 64-127: Turn up by 1 step'
   min: 0
   max: 127
 - name: Bank -
