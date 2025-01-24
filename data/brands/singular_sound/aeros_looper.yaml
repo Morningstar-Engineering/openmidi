@@ -43,6 +43,96 @@ pc:
     KNOWN BUG v4.1.2: Aeros is currently not responding to commands sent in the Home Screen before a song has been opened, you must open a song before the Aeros can register the commands and open a song via MIDI select.
 
 cc:
+  - description: When the MSB bank (0-127) is selected and is followed by a PC command, this opens an Aeros song.
+    max: 127
+    min: 0
+    name: Bank (Song folder) Select MSB
+    type: system
+    value: 0
+  - description: Controls the fader for Track 4's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Main L Input Level
+    type: system
+    value: 11
+  - description: Controls the input level of the Main R input. Value 0 = - inf dB, Value 113 = 0dB (no gain added), Value 127 = +6 dB
+    max: 127
+    min: 0
+    name: Main R Input Level
+    type: system
+    value: 12  
+  - description: Controls the input level of the Aux L input. Value 0 = - inf dB, Value 113 = 0dB (no gain added), Value 127 = +6 dB
+    max: 127
+    min: 0
+    name: Aux L Input Level
+    type: system
+    value: 13
+  - description: Controls the input level of the Aux R input. Value 0 = - inf dB, Value 113 = 0dB (no gain added), Value 127 = +6 dB
+    max: 127
+    min: 0
+    name: Aux R Input Level
+    type: system
+    value: 14
+  - description: Controls the fader for the Master Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Master Fader
+    type: system
+    value: 20   
+  - description: Controls the fader for Track 1's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 1 Fader
+    type: system
+    value: 21       
+  - description: Controls the fader for Track 2's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 2 Fader
+    type: system
+    value: 22
+  - description:  Controls the fader for Track 3's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 3 Fader
+    type: system
+    value: 23  
+  - description:  Controls the fader for Track 4's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 4 Fader
+    type: system
+    value: 24
+  - description:  Controls the fader for Track 5's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 5 Fader
+    type: system
+    value: 25
+  - description:  Controls the fader for Track 6's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Track 6 Fader
+    type: system
+    value: 26   
+  - description: Controls the fader for the currently selected track's Volume. Value 0 = - inf dBFS, Value 113 = 0dBFS, Value 127 = +6 dBFS
+    max: 127
+    min: 0
+    name: Currently Selected Track Fader
+    type: system
+    value: 27  
+  - description: Sets the volume of the click
+    max: 100
+    min: 0
+    name: Click Volume
+    type: system
+    value: 28  
+  - description: Controls the Loop Decay Rate. Can be used live while recording, the Loop Decay must be enabled in the individual song’s settings to work.
+    max: 127
+    min: 0
+    name: Loop Decay Rate
+    type: system
+    value: 29  
   - description: Saves the currently open Aeros song if a change was made since last saved and the Aeros is currently stopped. Added in 3.0.0
     max: 0
     min: 0
@@ -93,6 +183,24 @@ cc:
     name: Go to Updates screen
     type: system
     value: 35
+  - description: Opens the Mixer screen
+    max: 5
+    min: 5
+    name: Open Mixer
+    type: system
+    value: 35  
+  - description: Opens or closes the Loop Studio Hands Free Slideout Menu
+    max: 6
+    min: 6
+    name: Open/Close Slideout Menu (Loop Studio)
+    type: system
+    value: 35    
+  - description: Opens the Mixer 2 screen
+    max: 7
+    min: 7
+    name: Open Mixer 2
+    type: system
+    value: 35   
   - description: Scroll down list (songs screen, or otherwise if relevant)
     max: 0
     min: 0
@@ -197,6 +305,18 @@ cc:
     name: UnMute Track Immediately
     type: system
     value: 38
+  - description: Mute Selected Track
+    max: 100
+    min: 100
+    name: Mute Selected Track
+    type: system
+    value: 38
+  - description: Mutes all tracks according to the mute Behavior device settings. This makes it easy to mute all tracks at the same place regardless of their individual lengths.
+    max: 110
+    min: 110
+    name: Mute Pause
+    type: system
+    value: 38
   - description: 'Unmutes all tracks, follows global mute settings.  Added in 3.0.0'
     max: 127
     min: 127
@@ -257,6 +377,18 @@ cc:
     name: RPO 2
     type: system
     value: 41
+  - description: Selects the Next Track in 6x6. If the track is empty, a recording will start in the empty track either immediately or at the next sync point (if there are sync rules). To return to the first track without starting a recording send the CC43 value 103 command twice quickly to cancel the recording and select track 1.
+    max: 103
+    min: 103
+    name: Select Next Track
+    type: system
+    value: 41
+  - description: Selects the previous track in 6x6
+    max: 104
+    min: 104
+    name: Select Previous Track
+    type: system
+    value: 41
   - description: 'Clears the song (deletes all tracks) with no confirmation when the looper is stopped and in the Loop Studio screen. Note: You CANNOT undo this action. Added in 4.0.0'
     max: 0
     min: 0
@@ -281,37 +413,246 @@ cc:
     name: Cancel Stop
     type: system
     value: 43
+  - description: Stops the song at the end of the current measure
+    max: 3
+    min: 3
+    name: Stop End of Measure
+    type: system
+    value: 43
+  - description: Cancel Stop Stops the song at the end of the longest loop in the current song part
+    min: 4
+    name: Stop End of Loop
+    type: system
+    value: 43
+  - description: Open Previous song in album
+    max: 10
+    min: 10
+    name: Open Previous song in album
+    type: system
+    value: 43
+  - description: Open Next song in album
+    max: 20
+    min: 20
+    name: Open Next song in album
+    type: system
+    value: 43
   - description: 'Stop Immediately'
     max: 127
     min: 127
     name: Stop Immediately
     type: system
     value: 43
-  - description: 'Sets the Action buttons in 2x2 and 6x6 to Record, Play, Overdub. This means that the Aeros will first start/set-up playback and then give the option to overdub. If recordings can be committed immediately, the Aeros will enter playback once the action button is pressed.	Added in 4.1.2'
+  - description: Sets the Action buttons in 2x2 and 6x6 to Record, Play, Overdub. This means that the Aeros will first start/set-up playback and then give the option to overdub. If recordings can be committed immediately, the Aeros will enter playback once the action button is pressed.
     max: 0
     min: 0
     name: Set RPO
     type: system
     value: 45
-  - description: 'Changes song parts in 2x2 immediately. In 6x6, it will change song parts if a different song part than the one currently playing is selected. Please note: This command overrides the ‘Change Parts: End of Loop’ setting. This command is sent by the BeatBuddy by default when it changes parts. If currently recording, the Aeros will respect any Sync rules and/or finish the measure (in quantized mode).		Added in 4.1.2'
-    max: 0
-    min: 0
+  - description: Sets the Action buttons in 2x2 and 6x6 to Record,  Overdub, Play. This means that the Aeros will first start/set-up an overdub and then give the option to commit the overdub and playback. If recordings can be committed immediately, the Aeros will begin overdubbing once the action button is pressed.
+    max: 1
+    min: 1
     name: Set ROP
     type: system
     value: 45
+  - description: Toggles the Recording Source Toggle Main In setting
+    max: 2
+    min: 2
+    name: Recording Source Toggle Main In Off/On
+    type: system
+    value: 45
+  - description: Toggles the Recording Source Toggle Aux In setting
+    max: 3
+    min: 3
+    name: Recording Source Toggle Aux In Off/On
+    type: system
+    value: 45
+  - description: Toggles the Main Input Routing Toggle Main Out setting
+    max: 4
+    min: 4
+    name: Main Input Routing Toggle Main Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Main Input Routing Toggle Aux Out setting
+    max: 5
+    min: 5
+    name: Main Input Routing Toggle Aux Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Aux Input Routing Toggle Main Out setting
+    max: 6
+    min: 6
+    name: Aux Input Routing Toggle Main Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Aux Input Routing Toggle Aux Out setting
+    max: 7
+    min: 7
+    name: Recording Source Aux Input Routing Toggle Aux Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Click Routing Toggle Main Out setting
+    max: 8
+    min: 8
+    name: Click Routing Toggle Main Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Click Routing Toggle Aux Out setting
+    max: 9
+    min: 9
+    name: Click Routing Toggle Aux Out Off/On
+    type: system
+    value: 45
+  - description: Toggles the Toggle VU Meter setting
+    max: 10
+    min: 10
+    name: Toggle VU Meter
+    type: system
+    value: 45
+  - description: Toggles the RPO/ROP setting
+    max: 11
+    min: 11
+    name: Toggle RPO/ROP
+    type: system
+    value: 45
+  - description: Toggles the Click setting
+    max: 12
+    min: 12
+    name: Click Toggle
+    type: system
+    value: 45
+  - description: Toggles the Count in setting
+    max: 13
+    min: 13
+    name: Toggle Count In
+    type: system
+    value: 45
+  - description: Toggles the Count In 1st Track setting
+    max: 14
+    min: 14
+    name: Count In 1st Track
+    type: system
+    value: 45
+  - description: Toggles the Toggle Cancel Recording setting
+    max: 15
+    min: 15
+    name: Toggle Cancel Recording
+    type: system
+    value: 45
+  - description: Toggles the Stop Song setting
+    max: 16
+    min: 16
+    name: Toggle Stop Song
+    type: system
+    value: 45
+  - description: Toggles the Change Part setting
+    max: 17
+    min: 17
+    name: Toggle Change Part
+    type: system
+    value: 45
+  - description: TToggles the Mute/Unmute setting
+    max: 18
+    min: 18
+    name: Toggle Mute/Unmute
+    type: system
+    value: 45
+  - description: Toggles the MIDI Mode setting
+    max: 19
+    min: 19
+    name: Toggle MIDI Mode
+    type: system
+    value: 45
+  - description: Toggles the MIDI In Start setting
+    max: 20
+    min: 20
+    name: Toggle MIDI In Start
+    type: system
+    value: 45
+  - description: Toggles the Start 1st Recording setting
+    max: 21
+    min: 21
+    name: Start 1st Recording toggle
+    type: system
+    value: 45
+  - description: Toggles the Send Stop at Empty Part setting
+    max: 22
+    min: 22
+    name: Toggle Send Stop at Empty Part
+    type: system
+    value: 45
+  - description: Toggles the Expression Pedal setting
+    max: 23
+    min: 23
+    name: Toggle Expression Pedal
+    type: system
+    value: 45
+  - description: Toggles the Stop Fade Out setting
+    max: 24
+    min: 24
+    name: Toggle Stop Fade Out
+    type: system
+    value: 45
+  - description: Toggles the Start Fade in setting
+    max: 25
+    min: 25
+    name: Toggle Start Fade in 
+    type: system
+    value: 45
+  - description: Toggles the Mute/Unmute Fade setting
+    max: 26
+    min: 26
+    name: Toggle Mute/Unmute Fade 
+    type: system
+    value: 45
+  - description: 'Reverses the selected track at the end of the loop. If currently recording the track will either commit immediately or commit once the sync rules are satiated. If currentlyoverdubbing, it will commit the overdub and reverse the track at the end of the loop. Sending this command while selecting a reversed track will unreverse it'
+    max: 0
+    min: 0
+    name: Reverse selected track
+    type: system
+    value: 46
+  - description: 'Reverses the track number that corresponds to the value number (track # = value #). If currently recording the track will either commit immediately or commit once the sync rules are satiated. If currently overdubbing, it will commit the overdub and reverse the track at the end of the loop. Sending this command while the track is reversed will unreverse it.'
+    max: 6
+    min: 1
+    name: Reverse selected track
+    type: system
+    value: 46
+  - description: Locks or Unlocks the selected track, will toggle the current state. If it is not lockable a pop up will appear on screen to notify you that locking failed.
+    max: 26
+    min: 26
+    name: Lock/Unlock Track
+    type: system
+    value: 47
+  - description: Increases tempo by value received (NewTmpo = Tempo + value)
+    max: 26
+    min: 26
+    name: Increase tempo
+    type: system
+    value: 80
+  - description: Decreases tempo by value received (NewTmpo = Tempo - value)
+    max: 26
+    min: 26
+    name: Decrease tempo
+    type: system
+    value: 81
   - description: 'Changes song parts in 2x2 immediately. In 6x6, it will change song parts if a different song part than the one currently playing is selected. Please note: This command overrides the ‘Change Parts: End of Loop’ setting. This command is sent by the BeatBuddy by default when it changes parts. If currently recording, the Aeros will respect any Sync rules and/or finish the measure (in quantized mode). Added in 3.0.0'
     max: 32
-    min: 1
+    min: 0
     name: Next Part Immediately
     type: system
     value: 102
+  - description: The Aeros can be set to receive Time Signature commands using CC:103 instead of a sysex command, the corresponding commands are below. Please reach out to us if you have a specific time signature you need a value for that is not listed here.
+    max: 82
+    min: 0
+    name: Time Signature
+    type: system
+    value: 103
   - description: "Starts transition to the currently selected part in 6x6. This command is used in conjunction with CC113 values 126 and 127 to allow toggling through parts before starting the transition. This is not needed in 2x2.	 Added in 4.1.2"
     max: 0
     min: 0
-    name: Transition to Selected Part
+    name: Transistion
     type: system
     value: 113
-  - description: "Begin the transition to part (part # = value #) according to the Change Part setting (Immediately/End of Measure/End of Loop). If using the BeatBuddy, the CC:102 command will override this command. If the part doesn't exist in the song, the Aeros will ignore the command. This command cannot start the Aeros from a stopped state.	Added in 3.0.0"
+  - description: "Selects the part according to the value number sent (part # = value #). The Aeros will not transition until it receives CC113 value 0 (shown above). . If using the BeatBuddy, the CC:102 command will change the part to the selected Aeros part immediately. If the part doesn’t exist in the song, the Aeros will ignore the command. This command cannot start the Aeros from a stopped state."
     max: 6
     min: 1
     name: Change Part
@@ -321,6 +662,24 @@ cc:
     max: 106
     min: 101
     name: Change Part (Aeros Only)
+    type: system
+    value: 113
+  - description: "Switches parts immediately when receiving this command, this command does not require a CC113 value 0 command to transition. (Part # = value # - 70)"
+    max: 76
+    min: 71
+    name: Switch Parts Immediately
+    type: system
+    value: 113
+  - description: "Switches parts at the next end of measure (EOM) when receiving this command, this command does not require a CC113 value 0 command to transition."
+    max: 86
+    min: 81
+    name: Switch Parts End of Measure
+    type: system
+    value: 113
+  - description: "Switches parts at the next end of loop (EOL) when receiving this command, this command does not require a CC113 value 0 command to transition."
+    max: 96
+    min: 91
+    name: Switch Parts End of Loop
     type: system
     value: 113
   - description: "Cancels any pending transition. Added in 4.1.2"
@@ -337,10 +696,16 @@ cc:
     value: 113
   - description: "In 2x2, this will start the transition to the next part. In 6x6, this will toggle through the available parts from top to bottom. To switch to the selected part, the user must send CC113 value 0 to start the transition. Added in 4.1.2"
     max: 127
-    min: 127
+    min: 0
     name: Next Part
     type: system
     value: 113
+  - description: "Enters Tap Tempo mode and generate Tap Event"
+    max: 127
+    min: 0
+    name: Tap Tempo
+    type: system
+    value: 117
   - description: "Will save a screenshot of the current Aeros screen to the SD card. Note: Must have SD card inserted in Aeros.	 Added in 3.0.0"
     max: 127
     min: 127
