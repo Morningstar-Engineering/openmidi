@@ -15,6 +15,41 @@ cc:
   description: ''
   min: 0
   max: '1'
+- name: PRESET DOWN
+  value: '86'
+  description: 'Toggle'
+  min: 0
+  max: '127'
+- name: PRESET UP
+  value: '87'
+  description: 'Toggle'
+  min: 0
+  max: '127'
+- name: BPM
+  value: '88'
+  description: ''
+  min: 0
+  max: '127'
+- name: BANK DOWN
+  value: '89'
+  description: 'Toggle'
+  min: 0
+  max: '127'
+- name: BANK UP
+  value: '90'
+  description: 'Toggle'
+  min: 0
+  max: '127'
+- name: TUNER
+  value: '9'
+  description: 'Toggle'
+  min: 0
+  max: '127'
+- name: TAP TEMPO
+  value: '10'
+  description: 'Toggle'
+  min: 0
+  max: '127'
 - name: GAIN
   value: '102'
   description: ''
@@ -26,26 +61,21 @@ cc:
   min: 0
   max: '127'
 - name: MID
-  value: '24'
-  description: ''
-  min: 0
-  max: '127'
-- name: TREBLE
   value: '25'
   description: ''
   min: 0
   max: '127'
-- name: REVERB
-  value: '79'
+- name: TREBLE
+  value: '28'
   description: ''
   min: 0
   max: '127'
-- name: COMPRESSOR
+- name: COMP/ THRESHOLD
   value: '19'
   description: ''
   min: 0
   max: '127'
-- name: 'NOISE-GATE #15'
+- name: GATE/ THRESHOLD
   value: '15'
   description: ''
   min: 0
@@ -60,73 +90,78 @@ cc:
   description: ''
   min: 0
   max: '127'
-- name: MODEL.VOL
+- name: MODEL/ MODEL.VOL
   value: '103'
   description: ''
   min: 0
   max: '127'
-- name: NOISE GT
-  value: '14'
+- name: MODEL/ MODEL.MIX
+  value: '104'
   description: ''
   min: 0
   max: '127'
-- name: NG REL
+- name: GATE/ POWER
   value: '14'
+  description: 'OFF = 0, ON = 127'
+  min: 0
+  max: '127'
+- name: GATE/ RELEASE
+  value: '16'
   description: ''
   min: 0
   max: '127'
-- name: NG DEPTH
+- name: GATE/ DEPTH
   value: '17'
   description: ''
   min: 0
   max: '127'
-- name: COMP
-  value: '18'
-  description: ''
+- name: GATE/ POSITION
+  value: '17'
+  description: '0=FIRST, 127=POST AMP'
   min: 0
   max: '127'
-- name: CMP GAIN
+- name: COMP/ POWER
+  value: '18'
+  description: 'OFF = 0, ON = 127'
+  min: 0
+  max: '127'
+- name: COMP/ GAIN
   value: '20'
   description: ''
   min: 0
   max: '127'
-- name: CMP ATK
+- name: COMP/ ATTACK
   value: '21'
   description: ''
   min: 0
   max: '127'
-- name: CMP PATC
+- name: COMP/ POSITION
   value: '22'
   description: ''
   min: 0
   max: '127'
-- name: BASS FRQ
+- name: EQ/ BASS HZ
   value: '24'
   description: ''
   min: 0
   max: '127'
-- name: MID Q
+- name: EQ/ MID Q
   value: '26'
   description: ''
   min: 0
   max: '127'
-- name: MID FRQ
+- name: EQ/ MID HZ
   value: '27'
   description: ''
   min: 0
   max: '127'
-- name: TRBL FREQ
+- name: EQ/ TREBLE HZ
   value: '29'
   description: ''
   min: 0
   max: '127'
-- name: EQ PATCH
+- name: EQ/ POSITION
   value: '30'
-  description: ''
-  min: 0
-  max: '127'
-- name: MIX
-  value: '104'
   description: ''
   min: 0
   max: '127'
@@ -155,43 +190,348 @@ cc:
   description: ''
   min: 0
   max: '127'
-- name: RESO
+- name: VIR/ RESO
   value: '108'
   description: ''
   min: 0
   max: '127'
-- name: MIC 1
+- name: VIR/ MIC 1
   value: '109'
   description: ''
   min: 0
   max: '127'
-- name: MIC 1 X
+- name: VIR/ MIC 1 X
   value: '110'
   description: ''
   min: 0
   max: '127'
-- name: MIC 1 Z
+- name: VIR/ MIC 1 Z
   value: '111'
   description: ''
   min: 0
   max: '127'
-- name: MIC 2
+- name: VIR/ MIC 2
   value: '112'
   description: ''
   min: 0
   max: '127'
-- name: MIC 2 X
+- name: VIR/ MIC 2 X
   value: '113'
   description: ''
   min: 0
   max: '127'
-- name: MIC 2 Z
+- name: VIR/ MIC 2 Z
   value: '114'
   description: ''
   min: 0
   max: '127'
-- name: MICS MIX
+- name: VIR/ BLEND
   value: '115'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ POWER
+  value: '32'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: MOD/ TYPE
+  value: '33'
+  description: '0=CHORUS, 1=TREMOLO, 2=PHASER, 3=FLANGER, 4=ROTARY'
+  min: 0
+  max: '4'
+- name: MOD/ POSITION
+  value: '34'
+  description: '0=PRE AMP, 127=POST AMP'
+  min: 0
+  max: '127'
+- name: MOD/ CHORUS/ SYNC
+  value: '0=OFF, 127=ON'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ CHORUS/ RATE
+  value: '35'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ CHORUS/ DEPTH
+  value: '36'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ CHORUS/ LEVEL
+  value: '37'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ TREMOLO/ SYNC
+  value: '38'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: MOD/ TREMOLO/ RATE
+  value: '39'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ TREMOLO/ SHAPE
+  value: '40'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ TREMOLO/ SPREAD
+  value: '41'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ TREMOLO/ LEVEL
+  value: '42'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ PHASER/ SYNC
+  value: '43'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: MOD/ PHASER/ RATE
+  value: '44'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ PHASER/ DEPTH
+  value: '45'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ PHASER/ LEVEL
+  value: '46'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ FLANGER/ SYNC
+  value: '47'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: MOD/ ROTARY/ SPEED
+  value: '53'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ ROTARY/ RADIUS
+  value: '54'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ ROTARY/ SPREAD
+  value: '55'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ ROTARY/ LEVEL
+  value: '56'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ POWER
+  value: '2'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: DELAY/ TYPE
+  value: '3'
+  description: '0=DIGITAL, 1=TAPE'
+  min: 0
+  max: '1'
+- name: DELAY/ POSITION
+  value: '1'
+  description: '0=PRE AMP, 127=POST AMP'
+  min: 0
+  max: '127'
+- name: DELAY/ DIGITAL/ SYNC
+  value: '4'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: DELAY/ DIGITAL/ TIME
+  value: '5'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ DIGITAL/ FEEDBACK
+  value: '6'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ DIGITAL/ MODE
+  value: '0=NORMAL, 1=PING.PONG'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ DIGITAL/ MIX
+  value: '8'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ TAPE/ SYNC
+  value: '91'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: DELAY/ TAPE/ TIME
+  value: '91'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ TAPE / FEEDBACK
+  value: '93'
+  description: ''
+  min: 0
+  max: '127'
+- name: DELAY/ TAPE / MODE
+  value: '94'
+  description: '0=NORMAL, 1=PING.PONG'
+  min: 0
+  max: '127'
+- name: DELAY/ TAPE / MIX
+  value: '95'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ POWER
+  value: '75'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
+- name: REVERB/ TYPE
+  value: '85'
+  description: '0=SPRING 1, 1=SPRING 2, 2=SPRING 3, 3=SPRING 4, 4=ROOM, 5=PLATE'
+  min: 0
+  max: '5'
+- name: REVERB/ POSITION
+  value: '84'
+  description: '0=POST AMP, 127=LAST'
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 1/ TIME
+  value: '59'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 1/ PRE.DELAY
+  value: '60'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 1/ COLOR
+  value: '61'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 1/ MIX
+  value: '62'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 2/ TIME
+  value: '63'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 2/ PRE.DELAY
+  value: '64'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 2/ COLOR
+  value: '65'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 2/ MIX
+  value: '66'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 3/ TIME
+  value: '67'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 3/ PRE.DELAY
+  value: '68'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 3/ COLOR
+  value: '69'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 3/ MIX
+  value: '70'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 4/ TIME
+  value: '80'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 4/ PRE.DELAY
+  value: '81'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 4/ COLOR
+  value: '82'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ SPRING 4/ MIX
+  value: '83'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ ROOM/ TIME
+  value: '71'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ ROOM/ PRE.DELAY
+  value: '72'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ ROOM/ COLOR
+  value: '73'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ ROOM/ MIX
+  value: '74'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ PLATE/ TIME
+  value: '76'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ PLATE / PRE.DELAY
+  value: '77'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ PLATE / COLOR
+  value: '78'
+  description: ''
+  min: 0
+  max: '127'
+- name: REVERB/ PLATE / MIX
+  value: '79'
   description: ''
   min: 0
   max: '127'
