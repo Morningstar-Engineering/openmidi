@@ -1,0 +1,140 @@
+midi_in: DIN5
+midi_thru: Yes
+phantom_power: None
+midi_clock: No
+
+midi_channel:
+  instructions: |+
+    To set the MIDI channel on the ML5R, power up the ML5R while holding down the TRAILS button. After releasing the button, the ML5R Red LED will be blinking to indicate that it is waiting for the MIDI channel to be set.
+
+instructions:
+
+pc:
+  description:
+    The ML5R has 128 presets. PC#0 to PC#127 will recall each preset.
+
+cc:
+  - name: Decrease Preset
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Increase Preset
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass Loop A
+    value: '2'
+    description: ''
+    min: 0
+    max: '41'
+  - name: Bypass Loop B
+    value: '3'
+    description: ''
+    min: 0
+    max: '41'
+  - name: Bypass Loop C
+    value: '4'
+    description: ''
+    min: 0
+    max: '41'
+  - name: Bypass Loop D
+    value: '5'
+    description: ''
+    min: 0
+    max: '41'
+  - name: Bypass Loop E
+    value: '6'
+    description: ''
+    min: 0
+    max: '41'
+  - name: Engage Loop A
+    value: '2'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop B
+    value: '3'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop C
+    value: '4'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop D
+    value: '5'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop E
+    value: '6'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Toggle Loop A
+    value: '2'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop B
+    value: '3'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop C
+    value: '4'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop D
+    value: '5'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop E
+    value: '6'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Set Loop Order
+    value: '10'
+    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder
+      Table'
+    min: 0
+    max: 127
+  - name: Set Loop Order but do not update connection until CC#12 is sent
+    value: '11'
+    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder
+      Table'
+    min: 0
+    max: 127
+  - name: Set Loop Bypass
+    value: '12'
+    description: 'Refer to Binary Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-BinaryTable'
+    min: 0
+    max: 127
+  - name: Loop Bypass Persist
+    value: '20'
+    description: '0-63: Off, 64-127: On - Keep bypass states of loops unchanged when
+      you switch presets on the ML5R. Setting is only temporary and will be disabled
+      after a power cycle.'
+    min: 0
+    max: 127
+  - name: Master Mute
+    value: '21'
+    description: '64-127: Mute, 0-63: Unmute'
+    min: 0
+    max: 127
+  - name: Show Loop Order
+    value: '126'
+    description: ''
+    min: 0
+    max: 127
+  - name: Save Preset with current settings
+    value: '127'
+    description: There will be a 3-second timeout after saving.
+    min: 0
+    max: 127
