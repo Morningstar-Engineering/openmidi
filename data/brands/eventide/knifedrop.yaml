@@ -1,0 +1,68 @@
+brand: Eventide Audio
+cc:
+  - name: Expression Pedal
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Pedal Active / Bypass
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Octaves On / Off
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Position
+    value: '54'
+    description: Filter Pre-distortion / Post-distortion
+    min: 0
+    max: 127
+  - name: Octaves Type
+    value: '55'
+    description: Upper Octave Only / Upper & Lower Octaves
+    min: 0
+    max: 127
+  - name: Synth knob
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drive knob
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level knob
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Attack knob
+    value: '26'
+    description: Secondary function
+    min: 0
+    max: 127
+  - name: Resonance knob
+    value: '27'
+    description: Secondary function
+    min: 0
+    max: 127
+  - name: Cutoff knob
+    value: '28'
+    description: Secondary function
+    min: 0
+    max: 127
+
+
+device_name: Knifedrop
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
