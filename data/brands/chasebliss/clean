@@ -1,0 +1,390 @@
+brand: Chase Bliss
+model: Clean
+email: jason@morningstarfx.com
+url: >-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/6707595e5e6c8b1edaec6134/1728534882056/Clean_Midi+Manual_Pedal_Chase+Bliss.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Dynamics
+    value: '14'
+    description: Control the Dynamics knob (0 - 127)
+    min: 0
+    max: 127
+  - name: Sensitivity
+    value: '15'
+    description: Control the Sensitivity Knob (0-127)
+    min: 0
+    max: 127
+  - name: Wet
+    value: '16'
+    description: Control the Wet knob (0-127)
+    min: 0
+    max: 127
+  - name: Attack
+    value: '17'
+    description: Control the Attack knob (0-127)
+    min: 0
+    max: 127
+  - name: EQ
+    value: '18'
+    description: Control the EQ knob (0-127)
+    min: 0
+    max: 127
+  - name: Dry
+    value: '19'
+    description: Control the Dry knob (0-127)
+    min: 0
+    max: 127
+  - name: Ramp Speed
+    value: '20'
+    description: Control the Ramp Speed knob (0-127)
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '102'
+    description: Bypass footswitch (off = 0 ; on = 1-127)
+    min: 0
+    max: '0'
+  - name: Engage
+    value: '102'
+    description: Bypass footswitch (off = 0 ; on = 1-127)
+    min: '1'
+    max: 127
+  - name: Swell (off)
+    value: '103'
+    description: Turn off swell
+    min: 0
+    max: '0'
+  - name: Swell (on)
+    value: '103'
+    description: Turn on swell
+    min: '1'
+    max: 127
+  - name: Alt menu (exit)
+    value: '104'
+    description: Exit the alt menu (hold both footswitches)
+    min: 0
+    max: '0'
+  - name: Alt menu (enter)
+    value: '104'
+    description: Enter the alt menu (hold both footswitches)
+    min: '1'
+    max: 127
+  - name: Dynamics Max (off)
+    value: '106'
+    description: Turn off Dynamics Max (hold right switch)
+    min: 0
+    max: '0'
+  - name: Dynamics Max (on)
+    value: '106'
+    description: Turn on Dynamics Max (hold right switch)
+    min: '1'
+    max: 127
+  - name: Release (fast)
+    value: '21'
+    description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
+    min: 0
+    max: '1'
+  - name: Release (user)
+    value: '21'
+    description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
+    min: '2'
+    max: '2'
+  - name: Release (slow)
+    value: '21'
+    description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
+    min: '3'
+    max: 127
+  - name: Mode (shifty)
+    value: '22'
+    description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
+    min: 0
+    max: '1'
+  - name: Mode (manual)
+    value: '22'
+    description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
+    min: '2'
+    max: '2'
+  - name: Mode (modulated)
+    value: '22'
+    description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
+    min: '3'
+    max: 127
+  - name: Physics (wobbly)
+    value: '23'
+    description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
+    min: 0
+    max: '1'
+  - name: Physics (off)
+    value: '23'
+    description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
+    min: '2'
+    max: '2'
+  - name: Physics (twitchy)
+    value: '23'
+    description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
+    min: '3'
+    max: 127
+  - name: Expression over MIDI
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preset Save
+    value: '111'
+    description: Save to preset slots 1 through 122
+    min: '1'
+    max: '122'
+  - name: Ramp / Bounce (off)
+    value: '52'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Ramp / Bounce (on)
+    value: '52'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Factory Reset
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dynamics (off)
+    value: '61'
+    description: Dynamics (Left Dip Switches)
+    min: 0
+    max: '0'
+  - name: Dynamics (on)
+    value: '61'
+    description: Dynamics (Left Dip Switches)
+    min: '1'
+    max: 127
+  - name: Attack (off)
+    value: '62'
+    description: Attack (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Attack (on)
+    value: '62'
+    description: Attack (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: EQ (off)
+    value: '63'
+    description: EQ (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: EQ (on)
+    value: '63'
+    description: EQ (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: Dry (off)
+    value: '64'
+    description: Dry (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Dry (on)
+    value: '64'
+    description: Dry (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: Wet (off)
+    value: '65'
+    description: Wet (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Wet (on)
+    value: '65'
+    description: Wet (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: Bounce (off)
+    value: '66'
+    description: Bounce (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Bounce (on)
+    value: '66'
+    description: Bounce (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: Sweep (B)
+    value: '67'
+    description: Sweep (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Sweep (T)
+    value: '67'
+    description: Sweep (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: Polarity (F)
+    value: '68'
+    description: Polarity (Left DIP Switches)
+    min: 0
+    max: '0'
+  - name: Polarity (R)
+    value: '68'
+    description: Polarity (Left DIP Switches)
+    min: '1'
+    max: 127
+  - name: MISO (off)
+    value: '71'
+    description: 'MISO - Mono in, Stereo Out (Right DIP Switches)'
+    min: 0
+    max: '0'
+  - name: MISO (on)
+    value: '71'
+    description: 'MISO - Mono in, Stereo Out (Right DIP Switches)'
+    min: '1'
+    max: 127
+  - name: Spread (off)
+    value: '72'
+    description: Spread (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Spread (on)
+    value: '72'
+    description: Spread (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Latch (off)
+    value: '73'
+    description: Latch (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Latch (on)
+    value: '73'
+    description: Latch (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Sidechain (off)
+    value: '74'
+    description: Sidechain (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Sidechain (on)
+    value: '74'
+    description: Sidechain (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Noise gate (off)
+    value: '75'
+    description: Noise gate (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Noise gate (on)
+    value: '75'
+    description: Noise gate (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Motion (off)
+    value: '76'
+    description: Motion (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Motion (on)
+    value: '76'
+    description: Motion (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Swell Aux (off)
+    value: '77'
+    description: Swell Aux (Right DIP Switches)
+    min: '0'
+    max: '0'
+  - name: Swell Aux (on)
+    value: '77'
+    description: Swell Aux (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Dusty (off)
+    value: '78'
+    description: Dusty (Right DIP Switches)
+    min: 0
+    max: '0'
+  - name: Dusty (on)
+    value: '78'
+    description: Dusty (Right DIP Switches)
+    min: '1'
+    max: 127
+  - name: Noise gate release
+    value: '24'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: Noise gate sens
+    value: '25'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: Swell in
+    value: '26'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: User release
+    value: '27'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: Balance filter
+    value: '28'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: Swell out
+    value: '29'
+    description: Hidden options
+    min: 0
+    max: 127
+  - name: Envelope Mode (Analog)
+    value: '31'
+    description: Hidden options
+    min: 0
+    max: '1'
+  - name: Envelope Mode (Hybrid)
+    value: '31'
+    description: Hidden options
+    min: '2'
+    max: '2'
+  - name: Envelop Mode (Adaptive)
+    value: '31'
+    description: Hidden options
+    min: '3'
+    max: 127
+  - name: Shifty Mode (ASR)
+    value: '32'
+    description: Hidden options
+    min: 0
+    max: '1'
+  - name: Shifty Mode (Env)
+    value: '32'
+    description: Hidden options
+    min: '3'
+    max: '3'
+  - name: Spread Routing (EQ)
+    value: '33'
+    description: Hidden options
+    min: 0
+    max: '1'
+  - name: Spread Routing (Both)
+    value: '33'
+    description: Hidden options
+    min: '2'
+    max: '2'
+  - name: Spread Routing (vol/comp)
+    value: '33'
+    description: Hidden options
+    min: '3'
+    max: 127
