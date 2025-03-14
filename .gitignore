@@ -1,5 +1,5 @@
 
 data/.DS_Store
-compile_yaml.py
+#compile_yaml.py
 *.xml
 *.iml
