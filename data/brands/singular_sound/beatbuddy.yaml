@@ -70,9 +70,48 @@ cc:
     name: Decrease Tempo (or NRPN target) by 1
     type: system
     value: 97
-
   - description: |
-      Set the NRPN LSB
+      Set the NRPN LSB for Mix control
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+      series of 3 commands: 2 CC commands and one PC.
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+      Standard protocol to leave room for further control in the future.
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+      DEC message.
+    max: 108
+    min: 108
+    name: Set NRPN to Mix LSB
+    type: system
+    value: 98
+  - description: |
+      Set the NRPN LSB for headphone control
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+      series of 3 commands: 2 CC commands and one PC.
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+      Standard protocol to leave room for further control in the future.
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+      DEC message.
+    max: 109
+    min: 109
+    name: Set NRPN to Level LSB
+    type: system
+    value: 98
+  - description: |
+      Set the NRPN LSB for Tempo control
 
       We use the “NRPN Register” (Non-Registered Parameter Number) which is a
       general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
@@ -115,6 +154,26 @@ cc:
     max: 106
     min: 106
     name: Set NRPN to Tempo MSB
+    type: system
+    value: 99
+  - description: |
+      Set the NRPN MSB for headphone or Mix control
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+      series of 3 commands: 2 CC commands and one PC.
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+      Standard protocol to leave room for further control in the future.
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+      DEC message.
+    max: 0
+    min: 0
+    name: Set NRPN to Headphone/Mix MSB
     type: system
     value: 99
   - description: Clear NRPN MSB Register
