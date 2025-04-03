@@ -57,6 +57,10 @@ After a new yaml file is created, the `mapping.json` file needs to be updated to
     midi_channel: 
       instructions: |+
         [Description on how to set up the MIDI channel for the device]
+    
+    midi_mapping: [Yes | No]
+      description: |+
+        [Description of how MIDI is mapped on devices like Boss pedals, which require every MIDI CC to be user-defined]
 
     pc: 
       description: |+
