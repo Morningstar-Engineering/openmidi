@@ -14,7 +14,7 @@ pc:
     PC#2 (01H) activates Memory 2
     etc
     can transmit Program Changes from the RC-10R by enabling PC IN/OUT.
-midi_mapping: Yes
+midi_mapping:
   description: |+
     MIDI CCs on the RC-10R are all customizable, so the MIDI mappings here are just a suggestion. The RC-10R ships with no default MIDI CCs.
     You can go into the MIDI menu on the RC-10R to link each CC to a desired function (e.g. LOOP START).
