@@ -1,6 +1,6 @@
 brand: Kinotone
-model: Ribbons
-data:
+device_name: Ribbons
+cc:
   - name: High Pass Filter
     value: 0
     description: ''
