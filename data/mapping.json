@@ -1902,6 +1902,10 @@
           "name": "Particle 2",
           "value": "particle2"
         },
+         {
+          "name": "Radius",
+          "value": "radius"
+        },
         {
           "name": "Raster 2",
           "value": "raster2"
