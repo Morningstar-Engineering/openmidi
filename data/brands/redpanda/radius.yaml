@@ -1,0 +1,165 @@
+brand: Red Panda
+model: Radius
+email: kristine@morningstarfx.com
+url: 'https://www.redpandalab.com/content/docs/Radius%20Owners%20Manual.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Expression
+    value: '4'
+    description: |-
+      Sending CC 4 is the same as having an expression
+      pedal connected to the CTRL input (which does not
+      have to be configured for “expression”). 
+    min: 0
+    max: 127
+  - name: Mix
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ring mod/freq shift mix
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Carrier frequency
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Carrier pitch tracking
+    value: '18'
+    description: 0 = -100% ; 64 = Off ; 127 = +100%
+    min: 0
+    max: 127
+  - name: Modulation rate
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation depth
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 1
+    value: '70'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 2
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 3
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 4
+    value: '73'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 5
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 6
+    value: '75'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 7
+    value: '76'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step modulator step 8
+    value: '77'
+    description: ''
+    min: 0
+    max: 127
+  - name: Step mod last step
+    value: '78'
+    description: ''
+    min: '1'
+    max: '8'
+  - name: Step mod ramp
+    value: '79'
+    description: 0 - 63 = Off (step) ; 64 - 127 = On (ramp)
+    min: 0
+    max: 127
+  - name: AUX footswitch
+    value: '80'
+    description: >-
+      Use gated (momentary) mode to send 127 on press and 0 on release. Matches
+      footswitch behavior. 0 - 63 = Release ; 64 - 127 = Press
+    min: 0
+    max: 127
+  - name: ON footswitch
+    value: '81'
+    description: >-
+      Use gated (momentary) mode to send 127 on press and 0 on release. Matches
+      footswitch behavior. 0 - 63 = Release ; 64 - 127 = Press
+    min: 0
+    max: 127
+  - name: Mod envelope trigger
+    value: '82'
+    description: 0 - 63 = Off ; 64 - 127 = On
+    min: 0
+    max: 127
+  - name: Modulation waveform
+    value: '85'
+    description: >-
+      0 = Triangle ; 1 = Square ; 2 = Random step ; 3 = Random 2 ; 4 = Step
+      modulator ; 5 = X- ; 6 = X+ ; 7 = Envelope follower
+    min: 0
+    max: '7'
+  - name: Shift 2X
+    value: '86'
+    description: 0 = Down ; 1 = Off ; 2 = Up
+    min: 0
+    max: '2'
+  - name: Shift range
+    value: '87'
+    description: 0 = Low ; 1 = High ; 2 = Stepped
+    min: 0
+    max: '2'
+  - name: Bypass (receive only)
+    value: '80'
+    description: 0 - 63 = Bypass ; 64 - 127 = Effect on
+    min: 0
+    max: 127
+  - name: Tap (receive only)
+    value: '89'
+    description: 64 - 127 = Tap
+    min: '64'
+    max: 127
+  - name: Modulation note division
+    value: '109'
+    description: >-
+      See Radius “Note Divisions” table:
+      https://www.redpandalab.com/content/docs/Radius%20Owners%20Manual.pdf 
+    min: 0
+    max: '26'
+  - name: Receive MIDI clock (global)
+    value: '110'
+    description: 0 - 63 = Off ; 64 - 127 = Receive MIDI clock
+    min: 0
+    max: 127
+  - name: Play carrier by MIDI note
+    value: '111'
+    description: 0 = Off ; 1 = On ; 2 = Use global setting
+    min: 0
+    max: '2'
