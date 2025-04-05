@@ -1295,6 +1295,10 @@
           "value": "enzo"
         },
         {
+          "name": "Enzo X",
+          "value": "enzox"
+        },
+        {
           "name": "Hedra",
           "value": "hedra"
         },
@@ -1897,6 +1901,10 @@
         {
           "name": "Particle 2",
           "value": "particle2"
+        },
+         {
+          "name": "Radius",
+          "value": "radius"
         },
         {
           "name": "Raster 2",

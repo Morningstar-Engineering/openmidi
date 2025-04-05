@@ -1,0 +1,384 @@
+brand: Meris
+model: Enzo X
+email: kristine@morningstarfx.com
+url: >-
+  https://www.meris.us/wp-content/uploads/2025/01/Meris-Enzo-X-Full-Manual-v1.pdf?srsltid=AfmBOorPdQW9cj8Zm5-jLVz60GNYEIR_jU8-OA1h0JbwrRePPkcp9PMZ
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: 'Mix '
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dry Trim
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wet Trim
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drive Type
+    value: '5'
+    description: >-
+      0 - 21 = Off ; 22 - 42 = Volume Pedal ; 43 - 63 = Tube ; 64 - 85 =
+      Transistor ; 86 - 106 = Op-Amp ; 107 - 127 = Bitcrusher
+    min: 0
+    max: 127
+  - name: 'Drive Location '
+    value: '6'
+    description: >-
+      0 - 31 = Pre + Dry ; 32 - 63 = Dry ; 64 - 95 = Pre Ambience ; 96 - 127 =
+      Post Ambience
+    min: 0
+    max: 127
+  - name: Gain/Volume/Sample Rate
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Balance/Bits
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drive Level
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ambience Type
+    value: '10'
+    description: >-
+      0 - 25 = Off ; 26 - 51 = Echo ; 52 - 76 = Small ; 77 - 102 = Medium ; 103
+      - 127 = Large
+    min: 0
+    max: 127
+  - name: Feedback/Decay
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Half Speed
+    value: '12'
+    description: 0 - 63 = Half Speed OFF ; 64 - 127 = Half Speed ON
+    min: 0
+    max: 127
+  - name: 'Ambience Mod '
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '14'
+    description: 0 - 63 = FX Bypass ; 64 - 127 = FX Enable
+    min: 0
+    max: 127
+  - name: 'Time (Clock, 7 Bit Tempo)'
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ambience Highs
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Echo Left Division
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Echo Right Division
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ambience + Echo Mix
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ambience Lows
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Midi Clock
+    value: '21'
+    description: 0 - 42 = Use Global ; 43 - 85 = Force Listen ; 86 - 127 = Force Ignore
+    min: 0
+    max: 127
+  - name: Synth Mode
+    value: '22'
+    description: >-
+      0 - 25 = Mono Synth ; 26 - 51 = Poly Synth ; 52 - 76 = Arp Synth ; 77 -
+      102 = Dry Mono ; 103 - 127 = Dry Poly
+    min: 0
+    max: 127
+  - name: 'Synth Pitch '
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Osc 1 Wave Shape '
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Osc 2 Wave Shape
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Osc 2 Pitch Offset
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Osc 2 Detune
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Glide (Portamento)
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Osc 1 Gain
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Osc 2 Gain
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Xmod
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Arp Mode
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Arp Steps
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Arp Octaves
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dry Blend
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Arp Cycle Latch
+    value: '37'
+    description: 0 - 63 = Off ; 64 - 127 = On
+    min: 0
+    max: 127
+  - name: Filter Type
+    value: '38'
+    description: 0 - 42 = Ladder ; 43 - 85 = State Variable ; 86 - 127 = Twin
+    min: 0
+    max: 127
+  - name: Filter Frequency
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Typology
+    value: 0
+    description: 0 - 42 = LowPass ; 43 - 85 = BandPass ; 86 - 127 = HighPass
+    min: 0
+    max: 127
+  - name: Filter Resonance
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Noise
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: Twin Filter Spread
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Envelope Amount
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Envelope Type
+    value: '46'
+    description: 0 - 63 = ADSR ; 64 - 127 = Envelope
+    min: 0
+    max: 127
+  - name: Filter Attack Time
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Filter Decay Time '
+    value: '48'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Sustain Time
+    value: '49'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Sustain Level
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Release Time
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Direction
+    value: '52'
+    description: 0 - 63 = Up ; 64 - 127 = Down
+    min: 0
+    max: 127
+  - name: Depth
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Note Persist
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amplitude Attack Time
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amplitude Decay Time
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amplitude Sustain Level
+    value: '57'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Amplitude Sustain Time '
+    value: '58'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amplitude Release Time
+    value: '59'
+    description: ''
+    min: 0
+    max: 127
+  - name: Oscillator Mod Speed
+    value: '60'
+    description: ''
+    min: 0
+    max: 127
+  - name: Oscillator Mod Depth
+    value: '61'
+    description: ''
+    min: 0
+    max: 127
+  - name: Oscillator Mod Ramp Time
+    value: '62'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Type
+    value: '86'
+    description: >-
+      0 - 21 = Off ; 22 - 42 = Chorus ; 43 - 63 = Flanger ; 64 - 85 = Vibrato ;
+      86 - 106 = Phaser ; 107 - 127 = Ring Mod
+    min: 0
+    max: 127
+  - name: 'Mod Location '
+    value: '87'
+    description: >-
+      0 - 31 = Pre + Dry ; 32 - 63 = Dry ; 64 - 95 = Pre Ambience ; 96 - 127 =
+      Post Ambience
+    min: 0
+    max: 127
+  - name: Mod Speed/Frequency
+    value: '88'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Depth
+    value: '89'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Mode/WaveShape/Stages
+    value: '90'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Feedback
+    value: '91'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Mix
+    value: '92'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Note Div
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: Toggle Tuner Mode
+    value: '117'
+    description: Press = 127
+    min: '127'
+    max: 127
+  - name: Trigger Hold Modifier
+    value: '118'
+    description: >-
+      Press = 127 ; Release = 0 ; Note: Be sure to send a release after every
+      press
+    min: 0
+    max: 127
