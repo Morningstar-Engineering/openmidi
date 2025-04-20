@@ -1,0 +1,43 @@
+---
+midi_in: DIN7
+midi_thru: No
+phantom_power: Yes
+midi_clock: No
+
+midi_channel: |+
+  Out of the box, the SYN-20IR is set up to receive MIDI program changes on MIDI channel OMNI.
+  You can change the MIDI channel using the free Synergy editor software.
+
+  Values and descriptions are based on the official Synergy Amps documentation (SYNERGY-SYN-20IR-MANUAL-FINAL-2-13-2025)
+
+cc:
+  - name: Select channel
+    value: "24"
+    description: "0: CH1, 1:CH2, 2: CH3"
+    min: 0
+    max: 2
+  - name: Select Structure
+    value: "25"
+    description: "0: A , 1: B, 2: C"
+    min: 0
+    max: 2
+  - name: IR Bypass
+    value: "27"
+    description: "0: OFF, 127: ON, X: Toggle"
+    min: 0
+    max: 127
+  - name: Select IR
+    value: "28"
+    description: "0: IR1, 1: IR2, 2: IR2, 3: IR4"
+    min: 0
+    max: 3
+  - name: Lowpass Level
+    value: "29"
+    description: "0: Level1, 1: Level2, 2: Level3"
+    min: 0
+    max: 2
+  - name: Highpass Level
+    value: "30"
+    description: "0: Level1, 1: Level2, 2: Level3"
+    min: 0
+    max: 2

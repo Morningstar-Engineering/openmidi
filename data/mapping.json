@@ -2299,6 +2299,10 @@
         {
           "name": "SYN2",
           "value": "syn2"
+        },
+        {
+          "name": "SYN20-IR",
+          "value": "syn20ir"
         }
       ]
     },
