@@ -2447,6 +2447,10 @@
           "value": "acs1"
         },
         {
+          "name": "ACS1 MK2",
+          "value": "acs1mk2"
+        },
+        {
           "name": "D1 (Old version)",
           "value": "d1_old"
         },

@@ -1,0 +1,134 @@
+brand: Walrus Audio
+model: ACS1 MKII
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/ACS1_MKII_Digital_Manual.pdf?v=1737133804
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bass Left
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Right
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid Left
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid Right
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Left
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Right
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vol Left
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vol Right
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain Left
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain Right
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Cab Left
+    value: '26'
+    description: ''
+    min: 0
+    max: '11'
+  - name: Cab Right
+    value: '27'
+    description: ''
+    min: 0
+    max: '11'
+  - name: Amp Left
+    value: '28'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Amp Right
+    value: '29'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Bypass
+    value: '30'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Boost Engage
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ir Bypass
+    value: '85'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amp Bypass
+    value: '86'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Threshold
+    value: '89'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Release
+    value: '90'
+    description: ''
+    min: 0
+    max: 127
+  - name: Room Select
+    value: '102'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Room Decay
+    value: '103'
+    description: ''
+    min: 0
+    max: 127
+  - name: Presence
+    value: '104'
+    description: ''
+    min: 0
+    max: 127
+  - name: Resonance
+    value: '105'
+    description: ''
+    min: 0
+    max: 127
