@@ -1,0 +1,124 @@
+brand: Old Blood Noise Endeavors
+model: Black Fountain
+email: t.cuozzo@gmail.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/67e2298047f93f7ea5fc861d/1742875011380/20250321+-+Instruction+Manual+-+Black+Fountain+-+OL2.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Dry Volume
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wet Volume
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Space
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rate
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Depth
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tone
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grit
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time L
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Subdivisions L
+    value: '22'
+    description: >-
+      0-21 sixteenth, 22-42 dotted sixteenth, 43-63 eighth, 64-84 triplet,
+      85-105 dotted eighth, 106-127 quarter
+    min: 0
+    max: 127
+  - name: Time R
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Subdivisions R
+    value: '24'
+    description: >-
+      0-21 sixteenth, 22-42 dotted sixteenth, 43-63 eighth, 64-84 triplet,
+      85-105 dotted eighth, 106-127 quarter
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Expression
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass Switch
+    value: '26'
+    description: 'OFF: 0-63, ON:64-127'
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '27'
+    description: 'Tap Pulse: 0 (no response to 1-127)'
+    min: 0
+    max: '0'
+  - name: Preset Saving Switch
+    value: '28'
+    description: '0-42 Cancel Save, 43-85 Start Save, 86-127 Confirm Save'
+    min: 0
+    max: 127
+  - name: MIDI Clock Input Mode
+    value: '29'
+    description: |-
+      Accept Clock In and Send
+      Clock Thru: 0-31
+      Accept Clock In Only: 32-63
+      Send Clock Out Only: 64-95
+      Deactivate Clock: 96-127
+    min: 0
+    max: 127
+  - name: Trails Setting
+    value: '81'
+    description: 'OFF: 0-63, ON: 64-127'
+    min: 0
+    max: 127
+  - name: Stereo Setting
+    value: '82'
+    description: '0-42 mono, 43-85 mono in, stereo out, 86-127 stereo'
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: ''
+    min: '1'
+    max: '16'
