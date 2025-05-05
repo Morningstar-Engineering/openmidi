@@ -1,39 +1,139 @@
-midi_in: ''
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
-instructions:
-
+brand: Source Audio
+model: Atlas
+email: kristine@morningstarfx.com
+url: ''
 midi_channel:
-  instructions: |+
-
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
 pc:
-  description:
-
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
 cc:
   - name: Remote Expression Pedal
-    value: '100'
-    description: 'position external expression pedal '
-    min: 0
-    max: '127'
-  - name: Engaged/Bypass
-    value: '102'
-    description: "(0-63) Engaged     (64-127)  Bypass "
-    min: 0
-    max: '127'
-  - name: Preset Recall (OFF)
-    value: '103'
+    value: '0'
+    description: ''
+    min: '0'
+    max: 127
+  - name: Ratio A
+    value: '1'
     description: ''
     min: 0
-    max: '127'
-  - name: Preset Recall (ON)
-    value: '104'
+    max: 127
+  - name: Threshold A
+    value: '2'
     description: ''
     min: 0
-    max: '127'
-  - name: Engaged/Bypass Toggle
-    value: '105'
+    max: 127
+  - name: Attack A
+    value: '3'
     description: ''
     min: 0
-    max: '127'
+    max: 127
+  - name: Release A
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Output A
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix A
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Side Chain High Pass A
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ratio B
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Threshold B
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Attack B
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
+  - name: Release B
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Output B
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix B
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Side Chain High Pass B
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: A/B Crossfade
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Channel 1 Input Gain
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Channel 2 Input Gain
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Level
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Frequency
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid Frequency
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble (Tone) Level
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Frequency
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Noise Gate
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Noise Gate
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
