@@ -209,3 +209,10 @@ cc:
     description: '0-63: Full; 64-127: Half'
     min: 0
     max: '127'
+  - name: Preset Navigation
+    value: '72'
+    description: >-
+      0-63: Previous preset; 64-127: Next preset (added in firmware version
+      3.80)
+    min: 0
+    max: 127
