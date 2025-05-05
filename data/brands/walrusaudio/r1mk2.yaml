@@ -1,0 +1,100 @@
+brand: Walrus Audio
+model: R1 MKII
+email: kristine@morningstarfx.com
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/R1_MKII_Digital_Manual_8ac85e3f-fb45-4121-b3b0-74316a2ba05e.pdf?v=1732311674
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Decay
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Pre Delay
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rate
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Depth
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Swell
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Duck
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: EQ Low
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: EQ High
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Size
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Diffuse
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback EQ
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Program
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Sustain
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time
+    value: '80'
+    description: ''
+    min: 0
+    max: 127
+  - name: Octave Type
+    value: '81'
+    description: ''
+    min: 0
+    max: 127
