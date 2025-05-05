@@ -870,6 +870,10 @@
         {
           "name": "MIDI 4 X LOOP-er",
           "value": "midi4xloop-er"
+        },
+        {
+          "name": "MIDI WOWEE WAH MWW-1",
+          "value": "MIDIWOWEEWAHMWW1"
         }
       ]
     },

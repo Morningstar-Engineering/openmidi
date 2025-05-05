@@ -1,0 +1,54 @@
+brand: G-LAB
+model: MIDI WOWEE WAH MWW-1
+email: artkrz@gmail.com
+url: 'https://glab.com.pl/wp-content/uploads/2019/06/um_mww1.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: BASS
+    value: '104'
+    description: LOW
+    min: 0
+    max: '63'
+  - name: BASS
+    value: '104'
+    description: HI
+    min: '64'
+    max: 127
+  - name: DEEP
+    value: '105'
+    description: LOW
+    min: 0
+    max: '63'
+  - name: DEEP
+    value: '105'
+    description: HI
+    min: '64'
+    max: 127
+  - name: Q FACT.
+    value: '106'
+    description: LOW
+    min: 0
+    max: '63'
+  - name: Q FACT.
+    value: '106'
+    description: HI
+    min: '64'
+    max: 127
+  - name: VOLUME
+    value: '107'
+    description: LOW
+    min: 0
+    max: '63'
+  - name: VOLUME
+    value: '107'
+    description: HI
+    min: '64'
+    max: 127
