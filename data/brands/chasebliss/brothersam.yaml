@@ -1,6 +1,6 @@
-brand: Chase Bliss Audio
+brand: Chase Bliss
 model: Brothers AM
-email: kristine@morningstarfx.com
+email: t.cuozzo@gmail.com
 url: >-
   https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/67fd54d41a39143df84b920d/1744655572913/Brothers+AM_MIDI+Manual_Pedal_Chase+Bliss.pdf
 midi_channel:
@@ -13,148 +13,153 @@ pc:
 phantom_power: unknown
 midi_mapping: not applicable
 cc:
-  - name: GAIN 2
+  - name: Gain 2
     value: '14'
     description: ''
     min: 0
     max: 127
-  - name: VOLUME 2
+  - name: Volume 2
     value: '15'
     description: ''
     min: 0
     max: 127
-  - name: GAIN 1
+  - name: Gain 1
     value: '16'
     description: ''
     min: 0
     max: 127
-  - name: TONE 2
+  - name: Tone 2
     value: '17'
     description: ''
     min: 0
     max: 127
-  - name: VOLUME 1
+  - name: Volume 1
     value: '18'
     description: ''
     min: 0
     max: 127
-  - name: TONE 1
+  - name: Tone 1
     value: '19'
     description: ''
     min: 0
     max: 127
-  - name: PRESENCE 2
+  - name: Presence 2
     value: '27'
     description: ''
     min: 0
     max: 127
-  - name: PRESENCE 1
+  - name: Presence 1
     value: '29'
     description: ''
     min: 0
     max: 127
-  - name: GAIN 2 TYPE
+  - name: Gain 2 Type
     value: '21'
-    description: BOOST = 0 - 1 ; OD = 2 ; DIST = 3 OR >
+    description: '0, 1 Boost, 2 OD, 3-127 Dist'
     min: 0
     max: 127
-  - name: TREBLE BOOST
+  - name: Treble Boost
     value: '22'
-    description: FULL SUN = 0 - 1 ; OFF = 2 ; HALF SUN = 3 OR >
+    description: '0,1 Full Sun, 2 Off, 3-127 Half Sun'
     min: 0
     max: 127
-  - name: GAIN 1 TYPE
+  - name: Gain 1 Type
     value: '23'
-    description: DIST = 0 - 1 ; OD = 2 ; BOOST = 3 OR >
+    description: '0, 1 Dist, 2 OD, 3-127 Boost'
     min: 0
     max: 127
-  - name: CHANNEL 2 BYPASS
+  - name: Channel 2 Bypass
     value: '102'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: CHANNEL 1 BYPASS
+  - name: Channel 1 Bypass
     value: '103'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: EOM (EXPRESSION OVER MIDI)
+  - name: EOM (Expression Over MIDI)
     value: '100'
     description: ''
     min: 0
     max: 127
-  - name: PRESET SAVE
+  - name: Preset Save
     value: '111'
     description: ''
-    min: '1'
+    min: 0
     max: '122'
-  - name: VOLUME 1
+  - name: Volume 1 DIP
     value: '61'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: VOLUME 2
+  - name: Volume 2 DIP
     value: '62'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: GAIN 1
+  - name: Gain 1 DIP
     value: '63'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: TONE 1
+  - name: Gain 2 DIP
+    value: '64'
+    description: '0 off, 1-127 on'
+    min: 0
+    max: 127
+  - name: Tone 1 DIP
     value: '65'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: TONE 2
+  - name: Tone 2 DIP
     value: '66'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: SWEEP
+  - name: Sweep DIP
     value: '67'
-    description: B = 0 ; T = 1 or >
+    description: '0 = B, 1-127 = T'
     min: 0
     max: 127
-  - name: POLARITY
+  - name: Polarity DIP
     value: '68'
-    description: F = 0 ; R = 1 or >
+    description: '0 = F, 1-127 = R'
     min: 0
     max: 127
-  - name: HI GAIN 1
+  - name: Hi Gain 1 DIP
     value: '71'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: HI GAIN 2
+  - name: Hi Gain 2 DIP
     value: '72'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: MOTOBYP 1
+  - name: MOTOBYP 1 DIP
     value: '73'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: MOTOBYP 2
+  - name: MOTOBYP 2 DIP
     value: '74'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: PRES LINK 1
+  - name: Pres Link 1 DIP
     value: '75'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: PRES LINK 2
+  - name: Pres Link 2 DIP
     value: '76'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
-  - name: MASTER
+  - name: Master DIP
     value: '77'
-    description: OFF = 0 ; ON = 1 or >
+    description: '0 off, 1-127 on'
     min: 0
     max: 127
