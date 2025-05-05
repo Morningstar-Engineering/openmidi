@@ -410,6 +410,10 @@
         {
           "name": "DPC Micro",
           "value": "dpcmicro"
+        },
+        {
+          "name": "Micro Clock Gen4",
+          "value": "microclockgen4"
         }
       ]
     },

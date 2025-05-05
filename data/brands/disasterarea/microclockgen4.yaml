@@ -1,0 +1,51 @@
+brand: Disaster Area
+model: micro.clock Gen4
+email: joseph.j.tam@gmail.com
+url: >-
+  https://static1.squarespace.com/static/5ffa32e2e3802f025d87246d/t/67cf07be16996148a4ff90d6/1741621184247/micro.clock+Gen4+Manual+v1.03a.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Tap Tempo
+    value: '93'
+    description: Any value triggers tap tempo
+    min: 0
+    max: 127
+  - name: Set BPM
+    value: '103'
+    description: 'Sets tempo in BPM, value + 30 (range 30-157)'
+    min: 0
+    max: 127
+  - name: Set BPM
+    value: '104'
+    description: 'Sets tempo in BPM, value + 150 (range 150-277)'
+    min: 0
+    max: 127
+  - name: Output A Subdivision
+    value: '106'
+    description: >-
+      Sets subdivision for output A. 0 whole, 1 half, 2 qtr trip, 3 qtr, 4 dot
+      8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
+    min: 0
+    max: '9'
+  - name: Output B Subdivision
+    value: '107'
+    description: >-
+      Sets subdivision for output B. 0 whole, 1 half, 2 qtr trip, 3 qtr, 4 dot
+      8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
+    min: 0
+    max: '9'
+  - name: Output C Subdivision
+    value: '108'
+    description: >-
+      Sets subdivision for output C. 0 whole, 1 half, 2 qtr trip, 3 qtr, 4 dot
+      8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
+    min: 0
+    max: '9'
