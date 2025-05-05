@@ -1,8 +1,8 @@
-brand: Chase Bliss
+brand: Chase Bliss Audio
 model: Brothers AM
-email: t.cuozzo@gmail.com
+email: ' midi@chasebliss.com'
 url: >-
-  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/67fd54d41a39143df84b920d/1744655572913/Brothers+AM_MIDI+Manual_Pedal_Chase+Bliss.pdf
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/680fe764927e6f67744e8dea/1745872741052/Brothers-AM_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_channel:
   instructions: ''
 midi_clock: unknown
@@ -15,151 +15,266 @@ midi_mapping: not applicable
 cc:
   - name: Gain 2
     value: '14'
-    description: ''
+    description: Channel 2 Gain
     min: 0
     max: 127
   - name: Volume 2
     value: '15'
-    description: ''
+    description: Channel 2 Volume
     min: 0
     max: 127
   - name: Gain 1
     value: '16'
-    description: ''
+    description: Channel 1 Gain
     min: 0
     max: 127
   - name: Tone 2
     value: '17'
-    description: ''
+    description: Channel 2 Tone
     min: 0
     max: 127
   - name: Volume 1
     value: '18'
-    description: ''
+    description: Channel 1 Volume
     min: 0
     max: 127
   - name: Tone 1
     value: '19'
-    description: ''
+    description: Channel 1 Tone
     min: 0
     max: 127
   - name: Presence 2
     value: '27'
-    description: ''
+    description: Channel 2 Presence
     min: 0
     max: 127
   - name: Presence 1
     value: '29'
-    description: ''
+    description: Channel 1 Presence
     min: 0
     max: 127
-  - name: Gain 2 Type
+  - name: 'Gain 2 Type: Boost'
     value: '21'
-    description: '0, 1 Boost, 2 OD, 3-127 Dist'
+    description: Channel 2 Gain Type (Boost)
     min: 0
+    max: '1'
+  - name: 'Gain 2 Type: OD'
+    value: '21'
+    description: Channel 2 Gain Type (Overdrive)
+    min: '2'
+    max: '2'
+  - name: 'Gain 2 Type: DIST'
+    value: '21'
+    description: Channel 2 Gain Type (Distortion)
+    min: '3'
     max: 127
-  - name: Treble Boost
-    value: '22'
-    description: '0,1 Full Sun, 2 Off, 3-127 Half Sun'
-    min: 0
-    max: 127
-  - name: Gain 1 Type
+  - name: 'Gain 1 Type: Boost'
     value: '23'
-    description: '0, 1 Dist, 2 OD, 3-127 Boost'
+    description: Channel 1 Gain Type (Boost)
     min: 0
+    max: '1'
+  - name: 'Gain 1 Type: OD'
+    value: '23'
+    description: Channel 1 Gain Type (Overdrive)
+    min: '2'
+    max: '2'
+  - name: 'Gain 1 Type: DIST'
+    value: '23'
+    description: Channel 1 Gain Type (Distortion)
+    min: '3'
     max: 127
-  - name: Channel 2 Bypass
+  - name: 'Treble Boost: Full Sun'
+    value: '22'
+    description: Treble Boost (Full Sun)
+    min: 0
+    max: '1'
+  - name: 'Treble Boost: Off'
+    value: '22'
+    description: Treble Boost (Off)
+    min: '2'
+    max: '2'
+  - name: 'Treble Boost: Half Sun'
+    value: '22'
+    description: Treble Boost (Half Sun)
+    min: '3'
+    max: '127'
+  - name: 'Channel 1 Bypass: On'
     value: '102'
-    description: '0 off, 1-127 on'
-    min: 0
+    description: Bypass Channel 1 (On)
+    min: '1'
     max: 127
-  - name: Channel 1 Bypass
+  - name: 'Channel 1 Bypass: Off'
+    value: '102'
+    description: Bypass Channel 1 (Off)
+    min: 0
+    max: '0'
+  - name: 'Channel 2 Bypass: On'
     value: '103'
-    description: '0 off, 1-127 on'
-    min: 0
+    description: Bypass Channel 2 (On)
+    min: '1'
     max: 127
-  - name: EOM (Expression Over MIDI)
+  - name: 'Channel 2 Bypass: Off'
+    value: '103'
+    description: Bypass Channel 2 (Off)
+    min: 0
+    max: '0'
+  - name: EOM
     value: '100'
-    description: ''
+    description: Expression Over Midi
     min: 0
     max: 127
   - name: Preset Save
     value: '111'
-    description: ''
-    min: 0
+    description: Save a preset
+    min: '1'
     max: '122'
-  - name: Volume 1 DIP
+  - name: 'Left Bank: Volume 1 (Off)'
     value: '61'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 1 Volume (Off)
     min: 0
-    max: 127
-  - name: Volume 2 DIP
+    max: '0'
+  - name: 'Left Bank: Volume 2 (Off)'
     value: '62'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 2 Volume (Off)
     min: 0
-    max: 127
-  - name: Gain 1 DIP
+    max: '0'
+  - name: 'Left Bank: Gain 1 (Off)'
     value: '63'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 1 Gain (Off)
     min: 0
-    max: 127
-  - name: Gain 2 DIP
+    max: '0'
+  - name: 'Left Bank: Gain 2 (Off)'
     value: '64'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 2 Gain (Off)
     min: 0
-    max: 127
-  - name: Tone 1 DIP
+    max: '0'
+  - name: 'Left Bank: Tone 1 (Off)'
     value: '65'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 1 Tone (Off)
     min: 0
-    max: 127
-  - name: Tone 2 DIP
+    max: '0'
+  - name: 'Left Bank: Tone 2 (Off)'
     value: '66'
-    description: '0 off, 1-127 on'
+    description: Left Bank Dip Switch Channel 2 Tone (Off)
     min: 0
-    max: 127
-  - name: Sweep DIP
+    max: '0'
+  - name: 'Left Bank: Sweep (B)'
     value: '67'
-    description: '0 = B, 1-127 = T'
+    description: Left Bank Dip Switch Sweep (Bottom)
     min: 0
-    max: 127
-  - name: Polarity DIP
+    max: '0'
+  - name: 'Left Bank: Polarity (F)'
     value: '68'
-    description: '0 = F, 1-127 = R'
+    description: Left Bank Dip Switch Polarity (Fall)
     min: 0
+    max: '0'
+  - name: 'Left Bank: Volume 1 (On)'
+    value: '61'
+    description: Left Bank Dip Switch Channel 1 Volume (On)
+    min: '1'
     max: 127
-  - name: Hi Gain 1 DIP
+  - name: 'Left Bank: Volume 2 (On)'
+    value: '62'
+    description: Left Bank Dip Switch Channel 2 Volume (On)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Gain 1 (On)'
+    value: '63'
+    description: Left Bank Dip Switch Channel 1 Gain (On)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Gain 2 (On)'
+    value: '64'
+    description: Left Bank Dip Switch Channel 2 Gain (On)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Tone 1 (On)'
+    value: '65'
+    description: Left Bank Dip Switch Channel 1 Tone (On)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Tone 2 (On)'
+    value: '66'
+    description: Left Bank Dip Switch Channel 2 Tone (On)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Sweep (T)'
+    value: '67'
+    description: Left Bank Dip Switch Sweep (Top)
+    min: '1'
+    max: 127
+  - name: 'Left Bank: Polarity (R)'
+    value: '68'
+    description: Left Bank Dip Switch Polarity (Rise)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: Hi Gain 1 (Off)'
     value: '71'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 1 Hi Gain (Off)
     min: 0
-    max: 127
-  - name: Hi Gain 2 DIP
+    max: '0'
+  - name: 'Right Bank: Hi Gain 2 (Off)'
     value: '72'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 2 Hi Gain (Off)
     min: 0
-    max: 127
-  - name: MOTOBYP 1 DIP
+    max: '0'
+  - name: 'Right Bank: MoToByp 1 (Off)'
     value: '73'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 1 Momentary to Bypass (Off)
     min: 0
-    max: 127
-  - name: MOTOBYP 2 DIP
+    max: '0'
+  - name: 'Right Bank: MoToByp 2 (Off)'
     value: '74'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 2 Momentary to Bypass (Off)
     min: 0
-    max: 127
-  - name: Pres Link 1 DIP
+    max: '0'
+  - name: 'Right Bank: Pres Link 1 (Off)'
     value: '75'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 1 Link Presence to Tone (Off)
     min: 0
-    max: 127
-  - name: Pres Link 2 DIP
+    max: '0'
+  - name: 'Right Bank: Pres Link 2 (Off)'
     value: '76'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 2 Link Presence to Tone (Off)
     min: 0
-    max: 127
-  - name: Master DIP
+    max: '0'
+  - name: 'Right Bank: Master (Off)'
     value: '77'
-    description: '0 off, 1-127 on'
+    description: Right Bank Dip Switch Channel 2 Volume to Master (Off)
     min: 0
+    max: '0'
+  - name: 'Right Bank: Hi Gain 1 (On)'
+    value: '71'
+    description: Right Bank Dip Switch Channel 1 Hi Gain (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: Hi Gain 2 (On)'
+    value: '72'
+    description: Right Bank Dip Switch Channel 2 Hi Gain (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: MoToByp 1 (On)'
+    value: '73'
+    description: Right Bank Dip Switch Channel 1 Momentary to Bypass (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: MoToByp 2 (On)'
+    value: '74'
+    description: Right Bank Dip Switch Channel 2 Momentary to Bypass (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: Pres Link 1 (On)'
+    value: '75'
+    description: Right Bank Dip Switch Channel 1 Link Presence to Tone (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: Pres Link 2 (On)'
+    value: '76'
+    description: Right Bank Dip Switch Channel 2 Link Presence to Tone (On)
+    min: '1'
+    max: 127
+  - name: 'Right Bank: Master (On)'
+    value: '77'
+    description: Right Bank Dip Switch Channel 2 Volume to Master (On)
+    min: '1'
     max: 127
