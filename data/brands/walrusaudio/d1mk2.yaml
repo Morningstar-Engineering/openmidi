@@ -1,0 +1,125 @@
+brand: Walrus Audio
+model: D1 MKII
+email: kristine@morningstarfx.com
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/D1-MKII-DigitalManual.pdf?v=1735676837
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Div Left
+    value: '28'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Div Right
+    value: '31'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Feedback Mode
+    value: '32'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Mod Shape
+    value: '33'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Grain Pitch
+    value: '34'
+    description: ''
+    min: 0
+    max: '4'
+  - name: Reverse Mode
+    value: '35'
+    description: ''
+    min: 0
+    max: '1'
+  - name: Ramp
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Rate
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain Size
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain X
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: Time
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Repeats
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Duck
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tone
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Age
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Midi Clock Ignore
+    value: '89'
+    description: ''
+    min: 0
+    max: 127
+  - name: Spread
+    value: '98'
+    description: ''
+    min: 0
+    max: 127
+  - name: Program
+    value: '24'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Tap
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
