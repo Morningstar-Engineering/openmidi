@@ -1,0 +1,145 @@
+brand: Walrus Audio
+model: M1 MKII
+email: kristine@morningstarfx.com
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/M1_MKII_Digital_Manual_476b26f6-0e3d-4dd1-b3ba-f46d89c29619.pdf?v=1734364093
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Rate
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Depth
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lo-Fi Mix
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Shape
+    value: '15'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Div
+    value: '16'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Type
+    value: '17'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Tone
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Sym
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: X
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lofi Env
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lofi Drive
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lofi Space
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lofi Age
+    value: '25'
+    description: ''
+    min: 0
+    max: '4'
+  - name: Lofi Noise
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lofi Warble
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Program
+    value: '18'
+    description: ''
+    min: 0
+    max: '5'
+  - name: Tap
+    value: '85'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tap Held
+    value: '87'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rotary Speed
+    value: '86'
+    description: ''
+    min: 0
+    max: 127
+  - name: Output Gain
+    value: '88'
+    description: ''
+    min: 0
+    max: 127
+  - name: Midi Clock Ignore
+    value: '89'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wet Dry Mix
+    value: '104'
+    description: ''
+    min: 0
+    max: 127
+  - name: Flange Feedback
+    value: '105'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rotary Slow Rate
+    value: '106'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rotary Fast Rate
+    value: '107'
+    description: ''
+    min: 0
+    max: 127

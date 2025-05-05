@@ -2467,12 +2467,20 @@
           "value": "m1"
         },
         {
+          "name": "M1 MK2",
+          "value": "m1mk2"
+        },
+        {
           "name": "Meraki (Stereo Analog Delay)",
           "value": "meraki"
         },
         {
           "name": "R1",
           "value": "r1"
+        },
+        {
+          "name": "R1 MK2",
+          "value": "r1mk2"
         }
       ]
     },
