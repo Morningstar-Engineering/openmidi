@@ -1,0 +1,111 @@
+brand: Tone King
+cc:
+  - number: 24
+    value: 1
+    type: 2
+    channel: 1
+    description: BYPASS ON
+  - number: 24
+    value: 0
+    type: 2
+    channel: 1
+    description: BYPASS OFF
+  - number: 26
+    value: 1
+    type: 2
+    channel: 1
+    description: LOOP BYPASS ON
+  - number: 26
+    value: 0
+    type: 2
+    channel: 1
+    description: LOOP BYPASS OFF
+  - number: 27
+    value: 127
+    type: 2
+    channel: 1
+    description: IR BYPASS ON
+  - number: 27
+    value: 0
+    type: 2
+    channel: 1
+    description: IR BYPASS OFF
+  - number: 29
+    value: 1
+    type: 2
+    channel: 1
+    description: HF COMP ON
+  - number: 29
+    value: 0
+    type: 2
+    channel: 1
+    description: HF COMP OFF
+  - number: 30
+    value: 0
+    type: 2
+    channel: 1
+    description: LOWPASS 0
+  - number: 30
+    value: 1
+    type: 2
+    channel: 1
+    description: LOWPASS 1
+  - number: 30
+    value: 2
+    type: 2
+    channel: 1
+    description: LOWPASS 2
+  - number: 31
+    value: 1
+    type: 2
+    channel: 1
+    description: REVERB ON
+  - number: 31
+    value: 0
+    type: 2
+    channel: 1
+    description: REVERB OFF
+  - number: 32
+    value: 1
+    type: 2
+    channel: 1
+    description: TREMELO ON
+  - number: 32
+    value: 0
+    type: 2
+    channel: 1
+    description: TREMELO OFF
+  - number: 25
+    value: 0
+    type: 2
+    channel: 1
+    description: RHYTHM CHANNEL
+  - number: 25
+    value: 1
+    type: 2
+    channel: 1
+    description: LEAD CHANNEL
+  - number: 28
+    value: 2
+    type: 2
+    channel: 1
+    description: IR 2
+  - number: 28
+    value: 0
+    type: 2
+    channel: 1
+    description: IR 0
+  - number: 28
+    value: 1
+    type: 2
+    channel: 1
+    description: IR 1
+device_name: Imperial Tri Tube Preamp
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''

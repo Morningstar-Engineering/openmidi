@@ -2402,6 +2402,16 @@
       ]
     },
     {
+      "name": "Tone King",
+      "value": "toneking",
+      "models": [
+        {
+          "name": "Imperial Tri-Tube Preamp",
+          "value": "imperialtritubepreamp"
+        }
+      ]
+    },
+    {
       "name": "Two Notes Audio Engineering",
       "value": "twonotesaudioengineering",
       "models": [
