@@ -1,0 +1,135 @@
+brand: Walrus Audio
+model: Qi Etherealizer
+email: kristine@morningstarfx.com
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/Qi_Digital_Manual.pdf?v=1736953131
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Flow
+    value: '3'
+    description: 0 = Series ;  1 = Parallel
+    min: 0
+    max: '1'
+  - name: Mix/Dry
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tone
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Space
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chorus Mode
+    value: '16'
+    description: 0 = Tri ; 1 = Stereo
+    min: 0
+    max: '1'
+  - name: Chorus Mix/Level
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chorus Depth
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chorus Rate
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Mode
+    value: '20'
+    description: 0 = Quarter ; 1 = Dotted Eighth ; 2 = Eighth
+    min: 0
+    max: '2'
+  - name: Delay Mix/Level
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Time
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain Mode
+    value: '24'
+    description: 0 = Grain Cloud ; 1 = Phrase Sample
+    min: 0
+    max: '1'
+  - name: Grain Mix/Level
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain X
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain Phrase
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Grain Playback
+    value: '28'
+    description: 0 = x1 ; 1 = x2 ; 2 = x.5 ; 3 = Reverse ; 4 = Random
+    min: 0
+    max: '4'
+  - name: Freeze Mode
+    value: '29'
+    description: 0 = Off ; 1 = Grain Freeze ; 2 = Reverb Pad + Grain Freeze
+    min: 0
+    max: '2'
+  - name: Delay Oscillation
+    value: '30'
+    description: 0 = Off ; 1 = On
+    min: 0
+    max: '1'
+  - name: Bypass
+    value: '31'
+    description: 0 = Off ; 1 = On
+    min: 0
+    max: '1'
+  - name: Grain Bypass
+    value: '32'
+    description: 0 = Off ; 1 = On
+    min: 0
+    max: '1'
+  - name: Delay Bypass
+    value: '33'
+    description: 0 = Off ; 1 = On
+    min: 0
+    max: '1'
+  - name: Chorus Bypass
+    value: '34'
+    description: 0 = Off ; 1 = On
+    min: 0
+    max: '1'
+  - name: Tap Tempo
+    value: '85'
+    description: 0 = Release ; 1 = Tap Down
+    min: 0
+    max: '1'

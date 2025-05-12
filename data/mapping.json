@@ -2324,7 +2324,7 @@
           "value": "dittox4"
         },
         {
-          "name": "Nova Drive",
+          "name": "Nova Drive NDR-1",
           "value": "novadrive"
         },
         {
@@ -2496,6 +2496,10 @@
         {
           "name": "Meraki (Stereo Analog Delay)",
           "value": "meraki"
+        },
+        {
+          "name": "Qi Ethereralizer)",
+          "value": "qi"
         },
         {
           "name": "R1",
