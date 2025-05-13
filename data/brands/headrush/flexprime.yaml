@@ -1,0 +1,230 @@
+brand: Headrush
+model: Flex Prime
+email: kristine@morningstarfx.com
+url: >-
+  https://cdn.inmusicbrands.com/HeadRush/FW/4/Finalized%20User%20Guides/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v4.0.0.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Expression Pedal
+    value: '1'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Footswitch 1 '
+    value: '49'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Footswitch 2
+    value: '50'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Footswitch 3 '
+    value: '51'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Tap Tempo '
+    value: '64'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper 1/2 Speed '
+    value: '65'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Looper 2X Speed
+    value: '66'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper 1/2 Loop '
+    value: '67'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper 2X Loop '
+    value: '68'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Start/Stop '
+    value: '69'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Record '
+    value: '70'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Insert '
+    value: '71'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Peel '
+    value: '72'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Looper Mute
+    value: '73'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Reverse '
+    value: '74'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Looper Insert '
+    value: '71'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 1 Toggle ON/OFF '
+    value: '75'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 2 Toggle ON/OFF '
+    value: '76'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 3 Toggle ON/OFF '
+    value: '77'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Block 4 Toggle ON/OFF
+    value: '78'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 5 Toggle ON/OFF '
+    value: '79'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 6 Toggle ON/OFF '
+    value: '80'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 7 Toggle ON/OFF '
+    value: '81'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 9 Toggle ON/OFF '
+    value: '83'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 10 Toggle ON/OFF '
+    value: '84'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 11 Toggle ON/OFF '
+    value: '85'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 12 Toggle ON/OFF '
+    value: '86'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 13 Toggle ON/OFF '
+    value: '87'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Block 14 Toggle ON/OFF '
+    value: '88'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Open '
+    value: '102'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Practice Tool – Play
+    value: '103'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Volume Down '
+    value: '104'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Volume Up '
+    value: '105'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Loop In '
+    value: '106'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Loop Out '
+    value: '107'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Speed Down '
+    value: '108'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Speed Up '
+    value: '109'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Pitch Down '
+    value: '110'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Practice Tool – Pitch Up '
+    value: '111'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Practice Tool – Previous
+    value: '112'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Practice Tool – Next
+    value: '113'
+    description: ''
+    min: '127'
+    max: 127
+  - name: 'Practice Tool – Loop On/Off '
+    value: '114'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Metronome On
+    value: '115'
+    description: ''
+    min: '127'
+    max: 127

@@ -891,16 +891,20 @@
       "value": "headrush",
       "models": [
         {
+          "name": "Flex Prime",
+          "value": "flexprime"
+        },
+        {
+          "name": "Gigboard",
+          "value": "gigboard"
+        },
+        {
           "name": "Looperboard",
           "value": "looperboard"
         },
         {
           "name": "MX5",
           "value": "mx5"
-        },
-        {
-          "name": "Gigboard",
-          "value": "gigboard"
         },
         {
           "name": "Pedalbaord",
