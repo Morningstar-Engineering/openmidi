@@ -451,12 +451,16 @@
       "value": "electroharmonix",
       "models": [
         {
-          "name": "45000",
-          "value": "45000"
-        },
-        {
           "name": "8-Step Program",
           "value": "8-stepprogram"
+        },
+        {
+          "name": "1440 Stereo Looper",
+          "value": "1440"
+        },
+        {
+          "name": "45000",
+          "value": "45000"
         },
         {
           "name": "95000",

@@ -114,13 +114,14 @@ cc:
     max: 20
   - name: EXTC setting
     value: 116
-    description: Select EXTC setting: 0 = CX.4B, 1 = XT.4B, 2 = CX.3B, 3 = XT.3B
+    description: |+
+      Select EXTC setting: 0 = CX.4B, 1 = XT.4B, 2 = CX.3B, 3 = XT.3B
     type: Parameter
     min: 0
     max: 3
   - name: SWFX setting 
     value: 117
-    description: Selext SWFX setting - 0 = STOP, 1 = OCT, 2 = REV, 3 = RV.OC, 4 = TRIG
+    description: Select SWFX setting - 0 = STOP, 1 = OCT, 2 = REV, 3 = RV.OC, 4 = TRIG
     type: Parameter
     min: 0
     max: 4
