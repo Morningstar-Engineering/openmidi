@@ -10,6 +10,10 @@ midi_channel: |+
 
   Values and descriptions are based on the official Synergy Amps documentation (SYNERGY-SYN-20IR-MANUAL-FINAL-2-13-2025)
 
+pc: 
+  description: |+
+    SYN-20IR do not respond to PC messages. Only CC messages are used.
+
 cc:
   - name: Select channel
     value: "24"
