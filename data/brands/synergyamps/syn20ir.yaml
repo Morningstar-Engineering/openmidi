@@ -1,5 +1,5 @@
----
-midi_in: DIN7
+brand: Synergy Amps
+midi_in: DIN5
 midi_thru: No
 phantom_power: Yes
 midi_clock: No
