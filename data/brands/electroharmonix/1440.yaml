@@ -1,0 +1,126 @@
+brand: Electro-Harmonix
+model: 1440 Stereo Looper
+midi_in: DIN5
+midi_thru: No
+phantom_power: No
+midi_clock: No
+
+midi_channel: 
+  instructions: |+
+    1. Turn on device
+    2. Press Mode knob, display text starts to blink
+    3. Turn Mode knob until "MIDI" blinks on screen
+    4. Press Mode knob, the text "MD.XX" (XX is a placeholder for the Midi Channel) appears
+    5. Turn Mode knob until desired MIDI channel is displayed
+    6. Press Mode knob to confirm channel
+    7. MIDI setup is done
+
+pc: 
+  description: |+
+    PC Messages 1 to 20: select desired Loop
+    PC Message 21: Initiates a press of the LOOP footswitch 
+    PC Message 22: Initiates a press of the STOP footswitch
+    PC Message 23: Initiates the undo/redo function
+    PC Message 24: Initiates a press of the REVERSE button
+    PC Message 25: Initiates a press of the OCTAVE button
+    PC Message 26: Initiates a press of the 1 SHOT button
+    PC Message 27: Initiates a press of the EXT CLK button
+    PC Message 28: Initiates a press of the MODE knob
+    PC Message 29: Equivalent to turning the MODE knob clockwise by one click
+    PC Message 30: Equivalent to turning the MODE knob counterclockwise by one click
+    PC Message 31: Always stops the current loop no matter the setting for SW.FX. If fade is enabled then this command starts the fadeout.
+    PC Message 32: Always toggles Reverse and Octave modes, no matter the setting for SW.FX.
+    PC Message 33: Always performs the retrigger function, no matter the setting for SW.FX.
+    PC Message 34: Must receive three (3) consecutive Loop Erase PC 34 commands to initiate loop erase function, otherwise PC 34 is ignored.
+    PC Message 35: Loop Select Down -  Increments the current loop bank by one
+    PC Message 36: Loop Select Up - Decrements the current loop bank by one
+    PC Message 37: Selects CX.4B for the EXTC mode setting
+    PC Message 38: Selects XT.4B for the EXTC mode setting
+    PC Message 39: Selects CX.3B for the EXTC mode setting
+    PC Message 40: Selects XT.3B for the EXTC mode setting
+    PC Message 41: Selects STOP for the SW.FX mode setting
+    PC Message 42: Selects OCT for the SW.FX mode setting
+    PC Message 43: Selects REV for the SW.FX mode setting
+    PC Message 44: Selects RV.OC for the SW.FX mode setting
+    PC Message 45: Selects TRIG for the SW.FX mode setting
+    PC Message 46: Selects COAR for the TM.KN mode setting
+    PC Message 47: Selects FINE for the TM.KN mode setting
+    PC Message 48: Disables fadeout
+    PC Message 49: Sets fadeout to 2 seconds
+    PC Message 50: Sets fadeout to 4 seconds
+    PC Message 51: Disables fadeout
+    PC Message 52: Sets fadeout to 1 second
+    PC Message 53: Sets fadeout to 3 seconds
+    PC Message 54: Sets fadeout to 5 seconds
+    PC Message 55: Sets fadeout to 6 seconds
+    PC Message 56: Sets fadeout to 7 seconds
+    PC Message 57: Sets fadeout to 8 seconds
+    PC Message 58: Sets fadeout to 9 seconds
+    PC Message 59: Sets fadeout to 10 seconds
+    PC Message 60: Sets fadeout to 15 seconds
+    PC Message 61: Disables fadeout
+    PC Message 62: Sets fadeout to 20 seconds
+    PC Message 63: Sets fadeout to 30 seconds
+    PC Message 64: Sets fadeout to 40 seconds
+    PC Message 65: Sets fadeout to 50 seconds
+    PC Message 66: Sets fadeout to 60 seconds
+    PC Message 67: Sets fadeout to 70 seconds
+    PC Message 68: Sets fadeout to 80 seconds
+    PC Message 69: Sets fadeout to 90 seconds
+    PC Message 70: Sets fadeout to 99 seconds
+
+cc: 
+  - name: Button Presses
+    value: 3
+    description: Mimic all MIDI PC functions when CC message of matching value is received (check PC Message list)
+    type: Parameter
+    min: 1
+    max: 70
+  - name: LEVEL knob
+    value: 7
+    description: Adjust loop volume level
+    type: Parameter
+    min: 0
+    max: 127
+  - name: OVERDUB knob
+    value: 26
+    description: Adjust overdub feedback level
+    type: Parameter
+    min: 0
+    max: 127
+  - name: TEMPO knob
+    value: 27
+    description: Adjust tempo if applicable
+    type: Parameter
+    min: 0
+    max: 127
+  - name: TEMPO knob resolution
+    value: 110
+    description: TM.KN setting  0 = Coarse, 1 = Fine
+    type: Parameter
+    min: 0
+    max: 1      
+  - name: Fadeout Time setting
+    value: 112
+    description: 0 = Fadeout disabled, 1 = 1 second fadeout, 2 = 2 second fadeout, etc.
+    type: Parameter
+    min: 0
+    max: 99
+  - name: Loop Direct Select
+    value: 115
+    description: 1 = Loop 1, 2 = Loop 2, etc.
+    type: Parameter
+    min: 1
+    max: 20
+  - name: EXTC setting
+    value: 116
+    description: Select EXTC setting: 0 = CX.4B, 1 = XT.4B, 2 = CX.3B, 3 = XT.3B
+    type: Parameter
+    min: 0
+    max: 3
+  - name: SWFX setting 
+    value: 117
+    description: Selext SWFX setting - 0 = STOP, 1 = OCT, 2 = REV, 3 = RV.OC, 4 = TRIG
+    type: Parameter
+    min: 0
+    max: 4
