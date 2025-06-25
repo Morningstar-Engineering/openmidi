@@ -1,111 +1,114 @@
 brand: Tone King
-cc:
-  - number: 24
-    value: 1
-    type: 2
-    channel: 1
-    description: BYPASS ON
-  - number: 24
-    value: 0
-    type: 2
-    channel: 1
-    description: BYPASS OFF
-  - number: 26
-    value: 1
-    type: 2
-    channel: 1
-    description: LOOP BYPASS ON
-  - number: 26
-    value: 0
-    type: 2
-    channel: 1
-    description: LOOP BYPASS OFF
-  - number: 27
-    value: 127
-    type: 2
-    channel: 1
-    description: IR BYPASS ON
-  - number: 27
-    value: 0
-    type: 2
-    channel: 1
-    description: IR BYPASS OFF
-  - number: 29
-    value: 1
-    type: 2
-    channel: 1
-    description: HF COMP ON
-  - number: 29
-    value: 0
-    type: 2
-    channel: 1
-    description: HF COMP OFF
-  - number: 30
-    value: 0
-    type: 2
-    channel: 1
-    description: LOWPASS 0
-  - number: 30
-    value: 1
-    type: 2
-    channel: 1
-    description: LOWPASS 1
-  - number: 30
-    value: 2
-    type: 2
-    channel: 1
-    description: LOWPASS 2
-  - number: 31
-    value: 1
-    type: 2
-    channel: 1
-    description: REVERB ON
-  - number: 31
-    value: 0
-    type: 2
-    channel: 1
-    description: REVERB OFF
-  - number: 32
-    value: 1
-    type: 2
-    channel: 1
-    description: TREMELO ON
-  - number: 32
-    value: 0
-    type: 2
-    channel: 1
-    description: TREMELO OFF
-  - number: 25
-    value: 0
-    type: 2
-    channel: 1
-    description: RHYTHM CHANNEL
-  - number: 25
-    value: 1
-    type: 2
-    channel: 1
-    description: LEAD CHANNEL
-  - number: 28
-    value: 2
-    type: 2
-    channel: 1
-    description: IR 2
-  - number: 28
-    value: 0
-    type: 2
-    channel: 1
-    description: IR 0
-  - number: 28
-    value: 1
-    type: 2
-    channel: 1
-    description: IR 1
-device_name: Imperial Tri Tube Preamp
+model: Tri Tube Preamp
+email: ecmaj7@gmail.com
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: ''
-midi_in: ''
-midi_thru: ''
+midi_clock: Unknown
+midi_in: Unknown
+midi_thru: Unknown
 pc:
   description: ''
-phantom_power: ''
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Bypass On
+    value: '24'
+    description: Pre-amp Bypassed
+    min: '1'
+    max: '1'
+  - name: Bypass Off
+    value: '24'
+    description: Pre-amp Engaged
+    min: 0
+    max: '0'
+  - name: Rhythm Channel
+    value: '25'
+    description: Rhythm Channel On
+    min: 0
+    max: '0'
+  - name: Lead Channel
+    value: '25'
+    description: Lead Channel On
+    min: '1'
+    max: '1'
+  - name: Loop Bypass On
+    value: '26'
+    description: Effects Loop Bypassed
+    min: '1'
+    max: '1'
+  - name: Loop Bypass Off
+    value: '26'
+    description: Effects Loop Engaged
+    min: 0
+    max: '0'
+  - name: IR Bypass On
+    value: '27'
+    description: Speaker Impulse Response Bypassed
+    min: '127'
+    max: 127
+  - name: IR Bypass Off
+    value: '27'
+    description: Speaker Impulse Response Engaged
+    min: 0
+    max: '0'
+  - name: Cab 1
+    value: '28'
+    description: Speaker Cab 1
+    min: 0
+    max: '0'
+  - name: Cab 2
+    value: '28'
+    description: Speaker Cab 2
+    min: '1'
+    max: '1'
+  - name: Cab 3
+    value: '28'
+    description: Speaker Cab 3
+    min: '2'
+    max: '2'
+  - name: HF Comp On
+    value: '29'
+    description: High Frequency Compensation On
+    min: '1'
+    max: '1'
+  - name: HF Comp Off
+    value: '29'
+    description: High Frequency Compensation Off
+    min: 0
+    max: '0'
+  - name: Lowpass 1
+    value: '30'
+    description: Lowpass Filter 1
+    min: 0
+    max: '0'
+  - name: Lowpass 2
+    value: '30'
+    description: Lowpass Filter 2
+    min: '1'
+    max: '1'
+  - name: Lowpass 3
+    value: '30'
+    description: Lowpass Filter 3
+    min: '2'
+    max: '2'
+  - name: Reverb On
+    value: '31'
+    description: Reverb On
+    min: '1'
+    max: '1'
+  - name: Reverb Off
+    value: '31'
+    description: Reverb Off
+    min: 0
+    max: '0'
+  - name: Tremolo On
+    value: '32'
+    description: Tremolo On
+    min: '1'
+    max: '1'
+  - name: Tremolo Off
+    value: '32'
+    description: Tremolo Off
+    min: 0
+    max: '0'
