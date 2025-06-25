@@ -2510,6 +2510,10 @@
           "value": "meraki"
         },
         {
+          "name": "Qi",
+          "value": "qi"
+        },
+        {
           "name": "R1",
           "value": "r1"
         },
