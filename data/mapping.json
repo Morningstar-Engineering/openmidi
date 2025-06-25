@@ -891,6 +891,10 @@
       "value": "headrush",
       "models": [
         {
+          "name": "Core",
+          "value": "core"
+        },
+        {
           "name": "Flex Prime",
           "value": "flexprime"
         },
