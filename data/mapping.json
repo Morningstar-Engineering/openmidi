@@ -1058,6 +1058,10 @@
       "value": "kernom",
       "models": [
         {
+          "name": "Elipse",
+          "value": "elipse"
+        },
+        {
           "name": "Moho",
           "value": "moho"
         },
