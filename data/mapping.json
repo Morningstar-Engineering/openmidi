@@ -1522,6 +1522,11 @@
           "value": "mc8"
         },
         {
+          "name": "MC8 PRO",
+          "value": "mc8pro"
+        },
+
+        {
           "name": "ML5",
           "value": "ml5"
         },
