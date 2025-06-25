@@ -1,0 +1,70 @@
+brand: Kernom
+model: Elipse
+email: kevin@rossen.net
+url: >-
+  https://kernom.com/en-us/products/elipse?srsltid=AfmBOorQ56_WOcKMPJpsw1i90e51syccD2vR6gMy4ETtU62EiYhnRMif#USERMANUALS
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Shape
+    value: '20'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Mood
+    value: '21'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Speed
+    value: '22'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Depth
+    value: '23'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Mix
+    value: '24'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Swirl
+    value: '25'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Exp
+    value: '26'
+    description: ''
+    min: '1'
+    max: 127
+  - name: FS Preset
+    value: '27'
+    description: ''
+    min: '1'
+    max: 127
+  - name: FS On/Off
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '85'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tempo Subdivision
+    value: '86'
+    description: ''
+    min: 0
+    max: 127
