@@ -1,0 +1,99 @@
+brand: Strymon
+model: EC-1
+email: kristine@morningstarfx.com
+url: 'https://www.strymon.net/manuals/EC-1_UserManual_RevB.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank Select
+    value: 0
+    description: 0 = Bank 1 ; 1 = Bank 2 ; 3 = Bank 3
+    min: 0
+    max: '2'
+  - name: Rec Level
+    value: '11'
+    description: 1 = low ; 2 = med ;  3 = high
+    min: '1'
+    max: '3'
+  - name: Time
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tape Age
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Repeats
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mechanics
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mix
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preamp Select
+    value: '17'
+    description: 1 = off ; 2 = modded EP ; 3 = original EP ;
+    min: 0
+    max: '3'
+  - name: Tap Division
+    value: '18'
+    description: 0 = eighth triplet ; 1 = eighth ; 2 = dotted eighth ; 3 = quarter ;
+    min: 0
+    max: '3'
+  - name: Preamp Boost
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Footswitch
+    value: '27'
+    description: 0 = release ; 1 - 127 = press
+    min: 0
+    max: 127
+  - name: MIDI Expression Off/On
+    value: '60'
+    description: 0 = off ; 1 - 127 = on ;
+    min: 0
+    max: 127
+  - name: MIDI Clock Off/On
+    value: '63'
+    description: 0 = off ; 1 - 127 = on ;
+    min: 0
+    max: 127
+  - name: Tap
+    value: '93'
+    description: any value
+    min: 0
+    max: 127
+  - name: 'Infinite '
+    value: '97'
+    description: 0 = release ; 1 - 127 = hold ;
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: '100'
+    description: 0 = heel ; 127 = toe ;
+    min: 0
+    max: 127
+  - name: Bypass/Engage
+    value: '102'
+    description: 0 = bypass ; 1 - 127 = engage ;
+    min: 0
+    max: 127
