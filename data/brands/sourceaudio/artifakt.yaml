@@ -1,0 +1,484 @@
+brand: Source Audio
+model: Artifakt
+email: jason@morningstarfx.com
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: 'These are default settings. All MIDI parameters are freely assignable in Source Audio''s Neuro editor.'
+cc:
+  - name: Master Controls - Mix
+    value: '0'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Controls - Bass Level
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Controls - Mid Level
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Controls - Treble Level
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Master Controls - Output
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tremolo - Enable
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tremolo - Depth
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Signal Failure - Enable
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Signal Failure - Dropouts
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vinyl Noise - Enable
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vinyl Noise - Vinyl RPM
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vinyl Noise - Vinyl Output Level
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Hum/Noise Generator - Enable
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Hum/Noise Generator - Hum/Noise Level
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ladder Filter - Enable
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ladder Filter - Frequency
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ladder Filter - Q
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ladder Filter - LFO Depth
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ladder Filter - Self-Modulation
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compressor - Enable
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compressor - Compression
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compressor - Speed
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Old Gear/EQ - Enable
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Old Gear/EQ - Low Cut
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Old Gear/EQ - High Cut
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Old Gear/EQ - Output Gain
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Old Gear/EQ - Type
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Enable
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Clean Level
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Wet/Dry Mix
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Ring Mod Enable
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Ring Mod Pitch
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Ring Mod LFO Depth
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Ring Mod Level OR Wet/Dry
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion Enable
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion Type
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion Drive
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion Tone
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion LFO Depth
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Distortion Level OR Wet/Dry
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Quantizer Enable
+    value: '40'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Quantizer Type
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Quantizer Intensity
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Quantizer Tone
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Quantizer Level OR Wet/Dry
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Sample Rate Enable
+    value: '45'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Sample Rate Sample Rate
+    value: '46'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Sample Rate LFO Depth
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Sample Rate Level OR Wet/Dry
+    value: '48'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Enable
+    value: '49'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Type
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Wet/Dry Mix
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Level
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Delay Time
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Feedback
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Diffusion
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Modulation Depth
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Modulation Rate
+    value: '57'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Modulation Shape
+    value: '58'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Modulation Random Noise
+    value: '59'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Feedback High Cut
+    value: '60'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Feedback Low Cut Gain
+    value: '61'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay/Reverb - Saturation
+    value: '62'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Enable
+    value: '63'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Loop Length
+    value: '64'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Shift Pattern
+    value: '65'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Shift Pitch Min
+    value: '66'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Shift Pitch Max
+    value: '67'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Wet/Dry Mix
+    value: '68'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Output Level
+    value: '69'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Auto LFO Rate
+    value: '70'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Auto On/Off Ratio
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Envelope Threshold Up
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Envelope Threshold Down
+    value: '73'
+    description: ''
+    min: 0
+    max: 127
+  - name: Main LFO - Main LFO Rate
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: Main LFO - Main LFO Shape
+    value: '75'
+    description: ''
+    min: 0
+    max: 127
+  - name: Envelope Control - Envelope Control Enable
+    value: '76'
+    description: ''
+    min: 0
+    max: 127
+  - name: Envelope Control - Envelope Sensitivity
+    value: '77'
+    description: ''
+    min: 0
+    max: 127
+  - name: Envelope Control - Envelope Speed
+    value: '78'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Envelope Control - Envelope Depth - Main LFO Depth'
+    value: '79'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Envelope Control - Envelope Depth - Delay/Reverb LFO ...'
+    value: '80'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Envelope Control - Envelope Depth - Ladder Filter Frequ...'
+    value: '81'
+    description: ''
+    min: 0
+    max: 127
+  - name: Destruction Mixer - Destruction Mixer Output
+    value: '82'
+    description: ''
+    min: 0
+    max: 127
+  - name: External Controls - External Control Enable
+    value: '83'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Hold
+    value: '84'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Stop
+    value: '85'
+    description: ''
+    min: 0
+    max: 127
+  - name: Glitch - Expression
+    value: '86'
+    description: ''
+    min: 0
+    max: 127
+  - name: Remote Expression Pedal
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: Engaged/Bypass
+    value: '102'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preset Recall (OFF)
+    value: '103'
+    description: ''
+    min: 0
+    max: 127
+  - name: Preset Recall (ON)
+    value: '104'
+    description: ''
+    min: 0
+    max: 127
+  - name: Engaged/Bypass Toggle
+    value: '105'
+    description: ''
+    min: 0
+    max: 127
+  - name: Increment Preset
+    value: '106'
+    description: ''
+    min: 0
+    max: 127
+  - name: Decrement Preset
+    value: '107'
+    description: ''
+    min: 0
+    max: 127
