@@ -2133,6 +2133,10 @@
       "value": "sourceaudio",
       "models": [
         {
+          "name": "Artifakt",
+          "value": "artifakt"
+        },
+        {
           "name": "Atlas",
           "value": "atlas"
         },
