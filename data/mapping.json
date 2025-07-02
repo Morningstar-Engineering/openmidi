@@ -1791,6 +1791,10 @@
         {
           "name": "Dark Star Stereo Soundscape Reverb",
           "value": "darkstarstereosoundscapereverb"
+        },
+        {
+          "name": "Signal Blender Stereo",
+          "value": "signalblenderstereo"
         }
       ]
     },
