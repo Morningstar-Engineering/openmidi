@@ -1,0 +1,95 @@
+brand: Old Blood Noise Endeavors
+model: Signal Blender Stereo
+email: contact@oldbloodnoise.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/6849de58e81a9539cac4fdf3/1749671512709/20250607+-+Instruction+Manual+-+Signal+Blender+Stereo+-+04.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: A Switch On
+    value: '15'
+    description: ''
+    min: 0
+    max: '63'
+  - name: A Switch Off
+    value: '15'
+    description: ''
+    min: '64'
+    max: 127
+  - name: B Switch On
+    value: '16'
+    description: ''
+    min: 0
+    max: '63'
+  - name: B Switch Off
+    value: '16'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Clean Switch On
+    value: '17'
+    description: ''
+    min: '0'
+    max: '63'
+  - name: Clean Switch Off
+    value: '17'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Clean Switch Off
+    value: '17'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Trails A Switch On
+    value: '18'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Trails A Switch Off
+    value: '18'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Trails B Switch On
+    value: '19'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Trails B Switch Off
+    value: '19'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Assign All Bypass Switches
+    value: '20'
+    description: >
+      0: Clean Off, B Off, A Off 1: Clean Off, B Off, A On 2: Clean Off, B On, A
+      Off 3: Clean Off, B On, A On, 4: Clean On, B Off, A Off 5: Clean On, B
+      Off, A On 6: Clean On, B On, A Off 7: Clean On, B On, A On
+    min: 0
+    max: '7'
+  - name: Allow Kill Dry Off
+    value: '21'
+    description: >-
+      Default mode, clean turns on automatically when all sections are off in
+      trails modw.
+    min: 0
+    max: '63'
+  - name: Allow Kill Dry On
+    value: '21'
+    description: Clean always matches user assignment
+    min: '64'
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: ''
+    min: '1'
+    max: '16'
