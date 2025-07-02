@@ -2416,6 +2416,16 @@
       ]
     },
     {
+      "name": "Valeton",
+      "value": "valeton",
+      "models": [
+        {
+          "name": "GP-5",
+          "value": "gp5"
+        }
+      ]
+    },
+    {
       "name": "Vongon",
       "value": "vongon",
       "models": [
