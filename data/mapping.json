@@ -1192,6 +1192,10 @@
       "value": "line6",
       "models": [
         {
+          "name": "Catalyst CX",
+          "value": "catalystcx"
+        },
+        {
           "name": "DT25 112",
           "value": "dt25112"
         },
