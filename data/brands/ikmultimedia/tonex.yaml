@@ -241,13 +241,13 @@ cc:
   min: 0
   max: '4'
 - name: MOD/ POSITION
-  value: '34'
+  value: '31'
   description: '0=PRE AMP, 127=POST AMP'
   min: 0
   max: '127'
 - name: MOD/ CHORUS/ SYNC
-  value: '0=OFF, 127=ON'
-  description: ''
+  value: '34'
+  description: '0=OFF, 127=ON'
   min: 0
   max: '127'
 - name: MOD/ CHORUS/ RATE
@@ -366,8 +366,8 @@ cc:
   min: 0
   max: '127'
 - name: DELAY/ DIGITAL/ MODE
-  value: '0=NORMAL, 1=PING.PONG'
-  description: ''
+  value: '7'
+  description: '0=NORMAL, 1=PING.PONG'
   min: 0
   max: '127'
 - name: DELAY/ DIGITAL/ MIX
