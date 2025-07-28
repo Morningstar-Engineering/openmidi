@@ -1,0 +1,70 @@
+brand: Neural DSP
+model: Nano Cortex
+email: kristine@morningstarfx.com
+url: >-
+  https://neuraldsp.com/manual/nano-cortex?srsltid=AfmBOoqTbi34WOmzzhqxTQ27RfkfXa6U1r2wBMDNlMgOvztqoiXroifz#Incoming-MIDI-CC-List
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Expression Pedal position.
+    value: '1'
+    description: '0 : Heel Position ; 127 : Toe Position ;'
+    min: 0
+    max: 127
+  - name: INPUT GATE Slot bypass
+    value: '34'
+    description: '0 - 63 : Off ;  64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: CAPTURE Slot bypass
+    value: '35'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: CAB/IR Slot bypass
+    value: '36'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: FX Slot 1 bypass
+    value: '37'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: FX Slot 2 bypass
+    value: '38'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: FX Slot 3 bypass
+    value: '39'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: FX Slot 4 bypass
+    value: '40'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: FX Slot 5 bypass
+    value: '41'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: Tap Tempo control
+    value: '42'
+    description: '0 - 127 : Tap ;'
+    min: 0
+    max: 127
+  - name: Tuner access
+    value: '43'
+    description: '0 - 63 : Tuner Off ; 64 - 127 : Tuner On ;'
+    min: 0
+    max: 127
