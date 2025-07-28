@@ -1579,6 +1579,10 @@
       "value": "neuraldsp",
       "models": [
         {
+          "name": "Nano Cortex",
+          "value": "nanocortex"
+        },
+        {
           "name": "Quad Cortex",
           "value": "quadcortex"
         }
