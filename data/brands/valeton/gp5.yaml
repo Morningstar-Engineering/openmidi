@@ -1,0 +1,115 @@
+brand: Valeton
+model: GP-5
+email: kristine@morningstarfx.com
+url: >-
+  https://res.valeton.net/Uploads/wp/download/1748936007255.GP-5_Online%C2%A0Manual_EN_Firmware%20V1.0.3.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Patch
+    value: 0
+    description: 'Patch 00 - 99 : CC0 = 0 - 99'
+    min: 0
+    max: '99'
+  - name: Patch Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: '100'
+  - name: BANK - (ten digit of the patch number)
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: BANK + (ten digit of the patch number)
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch -
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch +
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch (in the song list) -
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch (in the song list) +
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'NR Module On/Off: '
+    value: '48'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'PRE Module On/Off: '
+    value: '49'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'DST Module On/Off: '
+    value: '50'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'N→S Module On/Off: '
+    value: '51'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'AMP Module On/Off: '
+    value: '52'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'CAB Module On/Off: '
+    value: '53'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'EQ Module On/Off: '
+    value: '54'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'MOD Module On/Off: '
+    value: '55'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'DLY Module On/Off:'
+    value: '56'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'RVB Module On/Off: '
+    value: '57'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: 'Tuner On/Off: '
+    value: '58'
+    description: '0 - 63 : Off ; 64 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: CTL
+    value: '69'
+    description: ''
+    min: 0
+    max: 127

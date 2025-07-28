@@ -1,0 +1,232 @@
+brand: Line 6
+model: Catalyst CX
+email: kristine@morningstarfx.com
+url: >-
+  https://line6.com/data/6/0a00050b258a6643a695354da/application/pdf/Catalyst%20CX%20Pilot's%20Guide%20-%20English%20.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Expression
+    value: '4'
+    description: >-
+      Controls the value of the Expression (Expression can be mapped to the
+      desired parameter using Catalyst Edit app)
+    min: 0
+    max: 127
+  - name: Amp Voicing Type
+    value: '5'
+    description: >-
+      Selects Amp Voicings 1-12 ; 0-11 ; 0 - 5 = Amp Group models ; 6 - 11 = Amp
+      Group 2 models ;
+    min: 0
+    max: '11'
+  - name: Volume Pedal Bypass/Enable
+    value: '6'
+    description: Controls bypass state of the Volume Pedal ; 0 - 63 = Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
+  - name: Volume Pedal Level
+    value: '7'
+    description: Controls the Volume Pedal level value
+    min: 0
+    max: 127
+  - name: Gain
+    value: '13'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Bass
+    value: '14'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Mid
+    value: '15'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Treble
+    value: '16'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Channel Volume
+    value: '17'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Effect 2 Amount
+    value: '18'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Effect 1 Model Select
+    value: '19'
+    description: >-
+      Selects the model loaded for Effect 1 ;
+
+      NOTE: The six values that correspond to the category that is currently in
+      use with
+
+      Effect 2 will not perform any action for Effect 1 ; 
+
+      0 - 5 = Delay models ;
+
+      6 - 11 = Modulation models ;
+
+      12 - 17 = Pitch / Filter models ;
+
+      18 - 23 = Reverb models ;
+    min: 0
+    max: '23'
+  - name: Presence
+    value: '21'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Gate Bypass/Enable
+    value: '22'
+    description: Controls bypass state of the Gate ; 0 - 63 = Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
+  - name: Gate Threshold
+    value: '23'
+    description: |-
+      Controls the Threshold of the Gate ; 0 <> 31 = -96dB ;
+      32 = 96dB...127 = 0dB ; 
+    min: 0
+    max: 127
+  - name: Gate Decay
+    value: '24'
+    description: Controls the Decay time of the Gate ; 0 =.1 ms ; 127 = 3000 ms ;
+    min: 0
+    max: 127
+  - name: Boost Bypass/Enable
+    value: '25'
+    description: >-
+      Controls bypass state of the Boost (matches button behavior) ; 0 - 63 =
+      Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
+  - name: Boost Level
+    value: '26'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Effect 1 Bypass/Enable
+    value: '28'
+    description: 'Controls bypass state of Effect 1 ; 0 - 63 = Off ; 64 - 127 = On ; '
+    min: 0
+    max: 127
+  - name: Effect 2 Bypass/Enable
+    value: '29'
+    description: 'Controls bypass state of Effect 2 ; 0 - 63 = Off ; 64 - 127 = On ; '
+    min: 0
+    max: 127
+  - name: Preset Channel A/B Select
+    value: '30'
+    description: >-
+      Selects the amplifier’s Preset Channel A or B ; 0 - 63 = A ; 64 - 127 = B
+      ; 
+    min: 0
+    max: 127
+  - name: Effect 1 Amount
+    value: '34'
+    description: Matches physical knob
+    min: 0
+    max: 127
+  - name: Effect 2 Model Select
+    value: '37'
+    description: >-
+      Selects the model loaded for Effect 2 ;
+
+      NOTE: The six values that correspond to the category that is currently in
+      use with
+
+      Effect 1 will not perform any action for Effect 2 ; 
+
+      0 - 5 = Delay models ;
+
+      6 - 11 = Modulation models ;
+
+      12 - 17 = Pitch / Filter models ;
+
+      18 - 23 = Reverb models ;
+    min: 0
+    max: '23'
+  - name: Effect 2 Pre/Post Amp
+    value: '41'
+    description: "Controls position of Effect 2, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ;\n64 - 127 = Post\_;"
+    min: 0
+    max: 127
+  - name: Expression Bypass/Enable
+    value: '43'
+    description: "Controls bypass state of Expression ;\n0 - 63 = Off ; \n64 - 127 = On\_;"
+    min: 0
+    max: 127
+  - name: Volume Pedal Pre/Post Amp
+    value: '47'
+    description: "Controls position of the Volume Pedal, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ; \n64 - 127 = Post\_;"
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '64'
+    description: |-
+      Each press simulates a Tap Tempo button press ;
+      64 - 127 = one Tap ;
+    min: '64'
+    max: 127
+  - name: Direct Out Mic Select
+    value: '70'
+    description: >-
+      Selects Mic type 1-15 (utilized on the XLR Direct, Phones, and USB 1-2
+      outputs): 
+
+      0 = 4038;
+      1 = C414 ; 
+      2 = D112 ; 
+      3 = D12 ;
+      4 = KM84 ;
+      5 = M160 ;
+      6 = MD409 ;
+      7 = MD421U ;
+      8 = PR30 ;
+      9 = R121 ;
+      10 = RE20 ;
+      11 = SM57 ;
+      12 = SM7 ;
+      13 = U47 ;
+      14 = U67 ;
+      15 = U87;
+    min: 0
+    max: '14'
+  - name: Cabinet Select
+    value: '71'
+    description: >-
+      Selects Speaker Cabinet 1-3 (utilized on the XLR Direct, Phones, and USB
+      1-2 outputs) ;
+      0 = 1 x 12 ;
+      1 = 2 x 12 ;
+      2 = 4 x 12;
+    min: 0
+    max: '2'
+  - name: Effect 1 Pre/Post Amp
+    value: '74'
+    description: "Controls position of Effect 1, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ; \n64 - 127 = Post\_;"
+    min: 0
+    max: 127
+  - name: FX Loop Bypass/Enable
+    value: '107'
+    description: |-
+      Toggles FX Loop On/Off (regardless of jack sensing) ;
+      0 - 63 = Off ; 
+      64 - 127 = On ;
+    min: 0
+    max: 127

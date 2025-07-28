@@ -1192,6 +1192,10 @@
       "value": "line6",
       "models": [
         {
+          "name": "Catalyst CX",
+          "value": "catalystcx"
+        },
+        {
           "name": "DT25 112",
           "value": "dt25112"
         },
@@ -1795,6 +1799,10 @@
         {
           "name": "Dark Star Stereo Soundscape Reverb",
           "value": "darkstarstereosoundscapereverb"
+        },
+        {
+          "name": "Signal Blender Stereo",
+          "value": "signalblenderstereo"
         }
       ]
     },
@@ -1875,6 +1883,10 @@
         {
           "name": "Echolution 2 Deluxe",
           "value": "echolution2deluxe"
+        },
+        {
+          "name": "Echolution 3",
+          "value": "echolution3"
         },
         {
           "name": "Infinity",
@@ -2137,6 +2149,10 @@
       "value": "sourceaudio",
       "models": [
         {
+          "name": "Artifakt",
+          "value": "artifakt"
+        },
+        {
           "name": "Atlas",
           "value": "atlas"
         },
@@ -2178,86 +2194,27 @@
       "name": "Strymon",
       "value": "strymon",
       "models": [
-        {
-          "name": "blueSky",
-          "value": "bluesky"
-        },
-        {
-          "name": "Bigsky",
-          "value": "bigsky"
-        },
-        {
-          "name": "Bigsky MX",
-          "value": "bigskymx"
-        },
-        {
-          "name": "Brig",
-          "value": "brig"
-        },
-        {
-          "name": "Cloudburst",
-          "value": "cloudburst"
-        },
-        {
-          "name": "Compadre",
-          "value": "compadre"
-        },
-        {
-          "name": "Timeline",
-          "value": "timeline"
-        },
-        {
-          "name": "Mobius",
-          "value": "mobius"
-        },
-        {
-          "name": "El Capistan",
-          "value": "elcapistan"
-        },
-        {
-          "name": "Deco",
-          "value": "deco"
-        },
-        {
-          "name": "DIG",
-          "value": "dig"
-        },
-        {
-          "name": "Lex",
-          "value": "lex"
-        },
-        {
-          "name": "Flint",
-          "value": "flint"
-        },
-        {
-          "name": "Volante",
-          "value": "volante"
-        },
-        {
-          "name": "Iridium",
-          "value": "iridium"
-        },
-        {
-          "name": "Riverside",
-          "value": "riverside"
-        },
-        {
-          "name": "Sunset",
-          "value": "sunset"
-        },
-        {
-          "name": "Ultraviolet",
-          "value": "ultraviolet"
-        },
-        {
-          "name": "NightSky",
-          "value": "nightsky"
-        },
-        {
-          "name": "Zelzah",
-          "value": "zelzah"
-        }
+        { "name": "Bigsky", "value": "bigsky" },
+        { "name": "Bigsky MX", "value": "bigskymx" },
+        { "name": "blueSky", "value": "bluesky" },
+        { "name": "Brig", "value": "brig" },
+        { "name": "Cloudburst", "value": "cloudburst" },
+        { "name": "Compadre", "value": "compadre" },
+        { "name": "Deco", "value": "deco" },
+        { "name": "DIG", "value": "dig" },
+        { "name": "EC-1", "value": "ec1" },
+        { "name": "El Capistan", "value": "elcapistan" },
+        { "name": "Flint", "value": "flint" },
+        { "name": "Iridium", "value": "iridium" },
+        { "name": "Lex", "value": "lex" },
+        { "name": "Mobius", "value": "mobius" },
+        { "name": "NightSky", "value": "nightsky" },
+        { "name": "Riverside", "value": "riverside" },
+        { "name": "Sunset", "value": "sunset" },
+        { "name": "Timeline", "value": "timeline" },
+        { "name": "Ultraviolet", "value": "ultraviolet" },
+        { "name": "Volante", "value": "volante" },
+        { "name": "Zelzah", "value": "zelzah" }
       ]
     },
     {
@@ -2467,6 +2424,16 @@
         {
           "name": "Torpedo Studio",
           "value": "torpedostudio"
+        }
+      ]
+    },
+    {
+      "name": "Valeton",
+      "value": "valeton",
+      "models": [
+        {
+          "name": "GP-5",
+          "value": "gp5"
         }
       ]
     },
