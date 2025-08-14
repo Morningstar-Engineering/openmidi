@@ -1,0 +1,158 @@
+brand: Noise Engineering
+model: Batverb
+email: t.cuozzo@gmail.com
+url: 'https://manuals.noiseengineering.us/batverb/#midi-specification'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: EXP
+    value: '11'
+    description: EXP pedal value
+    min: 0
+    max: 127
+  - name: Input Gain
+    value: '14'
+    description: Sets input gain level
+    min: 0
+    max: 127
+  - name: DOOM
+    value: '15'
+    description: Sets DOOM amount
+    min: 0
+    max: 127
+  - name: Shimmer
+    value: '16'
+    description: Sets Shimmer amount
+    min: 0
+    max: 127
+  - name: Blend
+    value: '17'
+    description: Sets dry/wet Blend amount
+    min: 0
+    max: 127
+  - name: Time
+    value: '18'
+    description: Sets the delay time
+    min: 0
+    max: 127
+  - name: Regen
+    value: '19'
+    description: Sets the amount of feedback
+    min: 0
+    max: 127
+  - name: Output Gain
+    value: '20'
+    description: Sets the output gain level
+    min: 0
+    max: 127
+  - name: HPF
+    value: '21'
+    description: |-
+      Sets the amount of low-frequency
+      damping
+    min: 0
+    max: 127
+  - name: LPF
+    value: '22'
+    description: |-
+      Sets the amount of high-frequency
+      damping
+    min: 0
+    max: 127
+  - name: 'EXP: Default'
+    value: '23'
+    description: Maps EXP to the default Regen parameter
+    min: 0
+    max: '0'
+  - name: 'EXP: Doom'
+    value: '23'
+    description: Maps EXP to DOOM
+    min: '15'
+    max: '15'
+  - name: 'EXP: Shimmer'
+    value: '23'
+    description: Maps EXP to Shimmer
+    min: '30'
+    max: '30'
+  - name: 'EXP: Blend'
+    value: '23'
+    description: Maps EXP to Blend
+    min: '45'
+    max: '45'
+  - name: 'EXP: Time'
+    value: '23'
+    description: Maps EXP to Time
+    min: '60'
+    max: '60'
+  - name: 'EXP: Regen'
+    value: '23'
+    description: Maps EXP to Regen
+    min: '75'
+    max: '75'
+  - name: 'EXP: HPF'
+    value: '23'
+    description: Maps EXP to HPF
+    min: '90'
+    max: '90'
+  - name: 'EXP: LPF'
+    value: '23'
+    description: Maps EXP to LPF
+    min: '105'
+    max: '105'
+  - name: 'EXP: Duck'
+    value: '23'
+    description: Maps EXP to Duck Amount
+    min: '120'
+    max: '120'
+  - name: Duck Amt
+    value: '25'
+    description: Sets the amount of tail ducking
+    min: 0
+    max: 127
+  - name: Focus switch Left
+    value: '26'
+    description: Set Focus switch position to Left
+    min: 0
+    max: '0'
+  - name: Focus switch Center
+    value: '26'
+    description: Sets Focus switch position to Center
+    min: '64'
+    max: '64'
+  - name: Focus switch Right
+    value: '26'
+    description: Sets Focus switch position to Right
+    min: '127'
+    max: 127
+  - name: Duck switch Left
+    value: '28'
+    description: Sets Duck switch position to Left
+    min: 0
+    max: '0'
+  - name: Duck switch Center
+    value: '28'
+    description: Sets Duck switch position to Center
+    min: '64'
+    max: '64'
+  - name: Duck switch Right
+    value: '28'
+    description: Sets Duck switch position to Right
+    min: '127'
+    max: 127
+  - name: Hold
+    value: '102'
+    description: 'Engage: 127 / Disengage: 0'
+    min: 0
+    max: 127
+  - name: Bypass
+    value: '103'
+    description: 'Engage: 127 / Disengage: 0'
+    min: '0'
+    max: 127
