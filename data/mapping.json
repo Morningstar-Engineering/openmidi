@@ -1082,6 +1082,10 @@
         {
           "name": "Ribbons",
           "value": "ribbons"
+        },
+        {
+          "name": "Sparks",
+          "value": "sparks"
         }
       ]
     },
