@@ -343,6 +343,16 @@
               ]
     },
     {
+      "name": "Cornerstone Music Gear",
+      "value": "cornerstonemusicgear",
+      "models": [
+        {
+          "name": "Nucleo",
+          "value": "nucleo"
+        }
+      ]
+    },
+    {
       "name": "Darkglass Electronics",
       "value": "darkglass",
       "models": [
