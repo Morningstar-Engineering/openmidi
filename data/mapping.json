@@ -1094,6 +1094,10 @@
           "value": "ribbons"
         },
         {
+          "name": "Ribbons Firmware 2.0",
+          "value": "ribbonsfw2"
+        },
+        {
           "name": "Sparks",
           "value": "sparks"
         }
