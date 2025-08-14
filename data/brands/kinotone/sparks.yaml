@@ -1,0 +1,369 @@
+brand: Kinotone
+model: Sparks
+email: tahhdd@gmail.com
+url: 'https://kinotoneaudio.com/sparks-manual/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Synth Attack
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Decay
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Sustain
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Release
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Waveform
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Bits
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Mod Option
+    value: '20'
+    description: 0 = LFO Pitch 1 = LFO Pulse Width 2 = Glide
+    min: 0
+    max: '2'
+  - name: Synth Mod Depth
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Synth Hard Sync / Ring Mod
+    value: '22'
+    description: |-
+      0 = None
+      1 = Hard Sync
+      2 = Ring Mod
+    min: 0
+    max: '2'
+  - name: Synth Voice Mode
+    value: '23'
+    description: |-
+      0 = Poly
+      1 = Mono
+    min: 0
+    max: '1'
+  - name: Filter Cutoff
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Mode
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Resonance
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drive / Fold
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Blend
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Low Cut
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: ENV Attack
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: ENV Sens
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Rate
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: LFO Shape
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Spin
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: Map LFO Filter Cutoff
+    value: '38'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Filter
+    value: '39'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map Filter Resonance
+    value: '40'
+    description: |
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Gain
+    value: '41'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Level
+    value: '42'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Drive / Fold
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Map LFO Blend
+    value: '44'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Low Cut
+    value: '45'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Gate
+    value: '46'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO ENV Attack
+    value: '47'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO ENV Sens
+    value: '48'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map LFO Spin
+    value: '49'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: ENV Style
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ignore MIDI Clock
+    value: '51'
+    description: 0 = Ignore. ≥1 = Listen
+    min: 0
+    max: 127
+  - name: Map ENV Filter Cutoff
+    value: '52'
+    description: |
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Filter Mode
+    value: '53'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Filter Resonance
+    value: '54'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Gain
+    value: '55'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Level
+    value: '56'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Drive / Fold
+    value: '57'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Blend
+    value: '58'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Low Cut
+    value: '59'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Gate
+    value: '60'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV LFO Rate
+    value: '61'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV LFO Shape
+    value: '62'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Map ENV Spin
+    value: '63'
+    description: |-
+      0-64 [-]
+      65-127 [+]
+    min: 0
+    max: 127
+  - name: Preset Footswitch
+    value: '80'
+    description: |-
+      0 = OFF
+      ≥1 = ON
+    min: 0
+    max: 127
+  - name: Bypass Footswitch
+    value: '81'
+    description: |-
+      0 = OFF
+      ≥1 = ON
+    min: 0
+    max: 127
+  - name: LFO Range
+    value: '82'
+    description: ''
+    min: 0
+    max: '2'
+  - name: Reset Black + White Controls
+    value: '85'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Currently Selected Preset
+    value: '83'
+    description: ''
+    min: 0
+    max: '31'
+  - name: Clear LFO Mappings
+    value: '86'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Clear ENV Mappings
+    value: '87'
+    description: ''
+    min: 0
+    max: '0'
+  - name: GATE Dry Signal
+    value: '89'
+    description: |-
+      0 = No
+      ≥1 = Yes
+    min: 0
+    max: 127
+  - name: Gate Response Style
+    value: '90'
+    description: |-
+      0 = Smooth
+      (default)
+      ≥1 = Choppy
+    min: 0
+    max: 127
