@@ -1593,6 +1593,16 @@
       ]
     },
     {
+      "name": "Noise Engineering",
+      "value": "noiseengineering",
+      "models": [
+        {
+          "name": "Batverb",
+          "value": "batverb"
+        }
+      ]
+    },
+    {
       "name": "Nord",
       "value": "nord",
       "models": [
