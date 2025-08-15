@@ -56,7 +56,7 @@ cc:
     min: 0
     max: 127
   - name: Dropouts Frequency
-    value: '20'
+    value: '22'
     description: Control value of Dropouts Frequency
     min: 0
     max: 127
