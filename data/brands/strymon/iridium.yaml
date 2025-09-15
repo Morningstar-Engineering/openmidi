@@ -116,12 +116,18 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Bypass/On
+  - name: Engage
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
     value: 102
     description: ''
     type: System
     min: 0
-    max: 127
+    max: 0
   - name: Bank Select
     value: 0
     description: '(0=bank 1, 1=bank 2, 2=bank 3)'
