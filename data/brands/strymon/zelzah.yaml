@@ -18,12 +18,12 @@ cc:
 - description: ''
   max: 0
   min: 0
-  name: Bypass
+  name: Bypass 4-Stage
   value: 10
 - description: ''
   max: 127
   min: 127
-  name: On 4-Stage
+  name: Engage 4-Stage
   value: 10
 - description: ''
   max: 1
@@ -78,7 +78,7 @@ cc:
 - description: ''
   max: 127
   min: 127
-  name: On 6-Stage
+  name: Engage 6-Stage
   value: 17
 - description: ''
   max: 1
@@ -153,12 +153,12 @@ cc:
 - description: ''
   max: 0
   min: 0
-  name: Bypass Pedal
+  name: Bypass A and B
   value: 33
 - description: ''
   max: 127
   min: 127
-  name: On A and B
+  name: Engage A and B
   value: 33
 - description: ''
   max: 127
