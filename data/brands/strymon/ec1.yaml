@@ -92,7 +92,7 @@ cc:
     description: 0 = heel ; 127 = toe ;
     min: 0
     max: 127
-   - name: Engage
+  - name: Engage
     value: '102'
     description: ''
     min: 127
