@@ -267,13 +267,13 @@ cc:
     max: 2
   - name: Bypass
     value: 102
-    description: (0=bypass, 1-127=on)
+    description: ''
     type: System
     min: 0
     max: 0
   - name: Engage
     value: 102
-    description: (0=bypass, 1-127=on)
+    description: ''
     type: System
     min: 127
     max: 127
