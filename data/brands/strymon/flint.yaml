@@ -141,6 +141,11 @@ cc:
   name: 'Footswitch B: Release'
   value: 28
 - description: ''
+  max: 127
+  min: 127
+  name: 'A&B: Engage'
+  value: 33
+- description: ''
   max: 0
   min: 0
   name: 'A&B: Bypass'
