@@ -1,0 +1,112 @@
+brand: Alexander
+model: Now We Are Ghosts
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Decay knob
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: Space knob
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Blend knob
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level knob
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Sense knob
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: Rate knob
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
+  - name: Noise knob
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dirt knob
+    value: '57'
+    description: ''
+    min: 0
+    max: 127
+  - name: Freq knob
+    value: '58'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reso knob
+    value: '59'
+    description: ''
+    min: 0
+    max: 127
+  - name: Swell switch
+    value: '60'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Dir switch
+    value: '61'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Type switch
+    value: '62'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Warble switch
+    value: '63'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Filter switch
+    value: '64'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Trails switch
+    value: '65'
+    description: '0 = switch down, 63 = switch middle, 127 = switch up'
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '93'
+    description: 'any value > 0, works when Dir = LFO only'
+    min: 0
+    max: 127
+  - name: Expression pedal
+    value: '100'
+    description: '(0 heel, 127 toe)'
+    min: 0
+    max: 127
+  - name: Bypass pedal
+    value: '102'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Engage pedal
+    value: '102'
+    description: ''
+    min: '127'
+    max: 127
