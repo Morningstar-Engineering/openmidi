@@ -640,12 +640,12 @@ cc:
   max: 127
 - name: Engage
   value: '102'
-  description:''
+  description: ''
   min: 127
   max: 127
 - name: Bypass
   value: '102'
-  description:''
+  description: ''
   min: 0
   max: 0
 - name: MIDI Patch Bank
