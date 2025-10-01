@@ -1,0 +1,18 @@
+brand: 'Sheeran '
+model: Sheeran Looper X
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Tap Tempo
+    value: '3'
+    description: Fix the Tap Tempo as it is in the Midi Dictionary
+    min: '6'
+    max: 127
