@@ -1,0 +1,99 @@
+brand: Walrus
+model: Xero
+url: >-
+  https://cdn.shopify.com/s/files/1/0906/8480/files/Xero_Digital_Manual.pdf?v=1752589748
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Track 1 Pan
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Pan
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 1 Volume
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 2 Volume
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Track 1 Speed
+    value: '4'
+    description: 0 = x0.5; 1 = x1; 2 = x2
+    min: 0
+    max: '2'
+  - name: Track 2 Speed
+    value: '5'
+    description: 0 = x0.5; 1 = x1; 2 = x2
+    min: 0
+    max: '2'
+  - name: Track 1 Direction
+    value: '6'
+    description: 0 = Forward; 1 = Reverse
+    min: 0
+    max: '1'
+  - name: Track 2 Direction
+    value: '7'
+    description: 0 = Forward; 1 = Reverse
+    min: 0
+    max: '1'
+  - name: Track 1 FX On
+    value: '8'
+    description: 0 = Off; 1 = On
+    min: 0
+    max: '1'
+  - name: Track 2 FX On
+    value: '9'
+    description: 0 = Off; 1 = On
+    min: 0
+    max: '1'
+  - name: Loop Mode
+    value: '10'
+    description: 0 = Sync Mode; 1 = Unsynced Mode; 2 = Poly Mode
+    min: 0
+    max: '2'
+  - name: Channel Select
+    value: '11'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'
+  - name: Play
+    value: '20'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'
+  - name: Stop
+    value: '21'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'
+  - name: Record
+    value: '22'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'
+  - name: Stop Record
+    value: '23'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'
+  - name: Undo
+    value: '24'
+    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
+    min: 0
+    max: '2'

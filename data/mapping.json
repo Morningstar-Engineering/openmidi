@@ -2504,6 +2504,10 @@
         {
           "name": "R1 MK2",
           "value": "r1mk2"
+        },
+        {
+          "name": "Xero",
+          "value": "xero"
         }
       ]
     },
