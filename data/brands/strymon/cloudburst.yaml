@@ -79,13 +79,13 @@ cc:
     description: '0 = Heel, 127 = Toe'
     min: 0
     max: '127'
-  - name: Bypass
-    value: '102'
-    description: ''
-    min: 0
-    max: 0
   - name: Engage
     value: '102'
     description: ''
-    min: '1'
-    max: '127'
+    min: 127
+    max: 127
+  - name: Bypass
+    value: '102'
+    description: ''
+    min: '0'
+    max: '0'

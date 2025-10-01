@@ -1,0 +1,145 @@
+brand: Cornerstone Music Gear
+model: Nucleo
+email: kristine@morningstarfx.com
+url: >-
+  https://www.cornerstonemusicgear.com/wp-content/uploads/2025/07/NUCLEO-MANUAL-REV1-PUBLIC.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bypass
+    value: 0
+    description: '0 - 63 : Effect off ; 64 - 127 : Effect On ;'
+    min: 0
+    max: 127
+  - name: Bypass Type
+    value: '1'
+    description: '0 - 63 : True Bypass ; 64 - 127 : Buffered Bypass ;'
+    min: 0
+    max: 127
+  - name: Bypass on Change
+    value: '2'
+    description: '0 - 63 : Off ; 65 - 127 : On ;'
+    min: 0
+    max: 127
+  - name: Dry Mode
+    value: '3'
+    description: '0 : Analog Dry ; 1: Hybrid Dry ; 2: Digital Dry ;'
+    min: 0
+    max: 127
+  - name: Volume On Bypass
+    value: '4'
+    description: '0 - 63: Fixed Unity ; 65 - 127 : User setting ;'
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '5'
+    description: Selects the MIDI Channel between 1-16
+    min: 0
+    max: '16'
+  - name: Bypass Switch
+    value: '7'
+    description: '0 : Switch Released ; 1 - 63 : Switch Pressed ; 64 - 127 : Switch Held ;'
+    min: 0
+    max: 127
+  - name: Freeze Switch
+    value: '8'
+    description: '0 : Switch Released ; 1 - 63 : Switch Pressed ; 64 - 127 : Switch Held ;'
+    min: 0
+    max: 127
+  - name: Mode Switch
+    value: '9'
+    description: '0 : Room ; 1 : Hall ; 2 : Reactor ;'
+    min: 0
+    max: '2'
+  - name: Blend Knob
+    value: '11'
+    description: Blend parameter of reverb
+    min: 0
+    max: 127
+  - name: Mod Knob
+    value: '12'
+    description: Modulation parameter of reverb
+    min: 0
+    max: 127
+  - name: Air Knob
+    value: '13'
+    description: Air parameter of reverb
+    min: 0
+    max: 127
+  - name: Flux Knob
+    value: '14'
+    description: Flux parameter of reverb
+    min: 0
+    max: 127
+  - name: Decay Knob
+    value: '15'
+    description: Decay parameter of reverb
+    min: 0
+    max: 127
+  - name: Tone Knob
+    value: '16'
+    description: Master Tone parameter of reverb
+    min: 0
+    max: 127
+  - name: Frz Pch Knob
+    value: '17'
+    description: Freeze Pitch parameter of reverb
+    min: 0
+    max: 127
+  - name: Rate
+    value: '18'
+    description: Ranges from 0.5Hz to 20Hz
+    min: 0
+    max: 127
+  - name: Pitch
+    value: '19'
+    description: Blends between -1 octave and +1 octave in Air Knob
+    min: 0
+    max: 127
+  - name: Speed
+    value: '20'
+    description: Speed of Granular
+    min: 0
+    max: 127
+  - name: Pre Delay
+    value: '21'
+    description: Pre Delay parameter of reverb (max 290mS)
+    min: 0
+    max: 127
+  - name: Diffusion
+    value: '22'
+    description: Reverb's diffusion parameter
+    min: 0
+    max: 127
+  - name: Freeze Level
+    value: '23'
+    description: Volume of frozen signal
+    min: 0
+    max: 127
+  - name: Output Volume
+    value: '24'
+    description: Overall Output Volume
+    min: 0
+    max: 127
+  - name: Character
+    value: '25'
+    description: '0 : Lo-Fi ; 1 : Vintage ; 2 : Normal ;'
+    min: 0
+    max: '2'
+  - name: Speed BPM
+    value: '26'
+    description: 0 - 256BPM
+    min: 0
+    max: 127
+  - name: Freeze Pitch Reset
+    value: '27'
+    description: '0 - 63 : Off ; 65 - 127 : On ;'
+    min: 0
+    max: 127

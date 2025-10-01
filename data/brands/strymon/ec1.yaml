@@ -92,8 +92,13 @@ cc:
     description: 0 = heel ; 127 = toe ;
     min: 0
     max: 127
-  - name: Bypass/Engage
+  - name: Engage
     value: '102'
-    description: 0 = bypass ; 1 - 127 = engage ;
+    description: ''
+    min: 127
+    max: 127 
+  - name: Bypass
+    value: '102'
+    description: ''
     min: 0
-    max: 127
+    max: 0

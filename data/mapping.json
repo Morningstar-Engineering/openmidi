@@ -343,6 +343,16 @@
               ]
     },
     {
+      "name": "Cornerstone Music Gear",
+      "value": "cornerstonemusicgear",
+      "models": [
+        {
+          "name": "Nucleo",
+          "value": "nucleo"
+        }
+      ]
+    },
+    {
       "name": "Darkglass Electronics",
       "value": "darkglass",
       "models": [
@@ -1082,6 +1092,14 @@
         {
           "name": "Ribbons",
           "value": "ribbons"
+        },
+        {
+          "name": "Ribbons Firmware 2.0",
+          "value": "ribbonsfw2"
+        },
+        {
+          "name": "Sparks",
+          "value": "sparks"
         }
       ]
     },
@@ -1589,6 +1607,16 @@
         {
           "name": "Quad Cortex",
           "value": "quadcortex"
+        }
+      ]
+    },
+    {
+      "name": "Noise Engineering",
+      "value": "noiseengineering",
+      "models": [
+        {
+          "name": "Batverb",
+          "value": "batverb"
         }
       ]
     },
