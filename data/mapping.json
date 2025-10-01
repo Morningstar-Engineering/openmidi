@@ -2480,6 +2480,10 @@
         {
           "name": "GP-5",
           "value": "gp5"
+        },
+        {
+          "name": "GP-200LT",
+          "value": "gp200lt"
         }
       ]
     },
