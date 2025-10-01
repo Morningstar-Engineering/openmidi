@@ -863,6 +863,10 @@
         {
           "name": "Bigsby",
           "value": "bigsby"
+        },
+        {
+          "name": "Motor Pedal",
+          "value": "motorpedal"
         }
       ]
     },
