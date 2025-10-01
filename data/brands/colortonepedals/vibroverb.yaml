@@ -1,0 +1,93 @@
+brand: Colortone Pedals
+model: VibroVerb
+url: 'https://morningstar.freshdesk.com/a/tickets/23698'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Modulation Blend
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Speed
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Saturation Blend
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Phase
+    value: '23'
+    description: 64 = Unity ;
+    min: 0
+    max: 127
+  - name: Reverb Blend Amount
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Mode
+    value: '25'
+    description: 0 = Harmonic ; 64 = Vibe ; 127 = Photo ;
+    min: 0
+    max: 127
+  - name: Modulation Shape
+    value: '26'
+    description: 0 = Square ; 64 = Triangle ; 127 = Sine ;
+    min: 0
+    max: 127
+  - name: Output Boost
+    value: '27'
+    description: 64 = Unity ;
+    min: 0
+    max: 127
+  - name: SineWave Shaper
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Saturation Gain
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Stereo Spread
+    value: '30'
+    description: 0 = Mono ;
+    min: 0
+    max: 127
+  - name: Saturation Tilt EQ
+    value: '31'
+    description: 64 = Unity ;
+    min: 0
+    max: 127
+  - name: Presets
+    value: '33'
+    description: 0 = P2 ; 64 = P1 ; 127 = P3 ;
+    min: 0
+    max: 127
+  - name: Bypass_FxOn
+    value: '37'
+    description: 0 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Midi Clock Override
+    value: '40'
+    description: 0 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Midi Clock Division
+    value: '41'
+    description: 0 = 0.25 ; 32 = 0.5 ; 64 = 1 ; 96 = 2 ; 127 = 4 ;
+    min: 0
+    max: 127

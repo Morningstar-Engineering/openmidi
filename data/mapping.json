@@ -343,6 +343,16 @@
               ]
     },
     {
+      "name": "Colortone Pedals",
+      "value": "colortonepedals",
+      "models": [
+        {
+          "name": "VibroVerb",
+          "value": "vibroverb"
+        }
+      ]
+    },
+    {
       "name": "Cornerstone Music Gear",
       "value": "cornerstonemusicgear",
       "models": [
