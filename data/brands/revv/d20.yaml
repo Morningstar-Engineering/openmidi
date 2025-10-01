@@ -1,0 +1,291 @@
+brand: 'REVV '
+model: D20 MIDI
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Power Amp On/Off
+    value: 0
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Model
+    value: '1'
+    description: '0 = Model #0 ; 1=Model #1 ; 2 = Model #2 …'
+    min: 0
+    max: '7'
+  - name: Volume
+    value: '2'
+    description: 0 = 0 dB ; 30 = 30 dB ;
+    min: 0
+    max: '30'
+  - name: Presence
+    value: '3'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Depth
+    value: '4'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Type
+    value: '5'
+    description: 0 = Triode ; 1 = Pentode ;
+    min: 0
+    max: '1'
+  - name: Miking On/Off
+    value: '6'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Cab
+    value: '8'
+    description: '0 = Cab #0 ; 1 = Cab #1 ; 2 = Cab #2 …'
+    min: 0
+    max: 127
+  - name: File (A)
+    value: '9'
+    description: '0 = File #0 ; 1 = File #1 ; 2 = File #2 …'
+    min: 0
+    max: 127
+  - name: File (B)
+    value: '10'
+    description: '0 = File #0 ; 1 = File #1 ; 2 = File #2 …'
+    min: 0
+    max: 127
+  - name: Folder (A)
+    value: '11'
+    description: 0 = User 0 ; 1 = User 1 ; 2 = User 2 ; 3 = User 3 ;
+    min: 0
+    max: '3'
+  - name: Folder (B)
+    value: '12'
+    description: 0 = User 0 ; 1 = User 1 ; 2 = User 2 ; 3 = User 3 ;
+    min: 0
+    max: '3'
+  - name: Mic (A)
+    value: '13'
+    description: '0 = Mic #0 ; 1 = Mic #1; 2 = Mic #2 …'
+    min: 0
+    max: '7'
+  - name: Distance (A)
+    value: '14'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Center (A)
+    value: '15'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Position (A)
+    value: '16'
+    description: 0 = Back ; 1 = Front ;
+    min: 0
+    max: '1'
+  - name: Level (A)
+    value: '35'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Phase (A)
+    value: '36'
+    description: 0 = Normal ; 1 = Inverted ;
+    min: 0
+    max: '1'
+  - name: Mute (A)
+    value: '37'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Mic (B)
+    value: '38'
+    description: '0 = Mic #0 ; 1 = Mic #1; 2 = Mic #2 …'
+    min: 0
+    max: '7'
+  - name: Distance (B)
+    value: '39'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Center (B)
+    value: '40'
+    description: |
+      0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Position (B)
+    value: '41'
+    description: 0 = Back ; 1 = Front ;
+    min: 0
+    max: '1'
+  - name: Level (B)
+    value: '42'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Phase (B)
+    value: '43'
+    description: 0 = Normal ; 1 = Inverted ;
+    min: 0
+    max: '1'
+  - name: Mute (B)
+    value: '44'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Equalization On/Off
+    value: '17'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Mode
+    value: '18'
+    description: 0 = Guitar ; 1 = Bass ; 2 = Custom ;
+    min: 0
+    max: '2'
+  - name: 'Gain: Low'
+    value: '19'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: Low/Mid'
+    value: '20'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: Mid'
+    value: '21'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: High/Mid'
+    value: '22'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: High'
+    value: '23'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Freq: Low Cut'
+    value: '45'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Low'
+    value: '46'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Low/Mid'
+    value: '47'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Mid'
+    value: '48'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: High/Mid'
+    value: '49'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: High'
+    value: '50'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: Preset Level
+    value: '24'
+    description: 0 = -95 dB ; 95 = 0 dB ;
+    min: 0
+    max: '95'
+  - name: Reverb On/Off
+    value: '25'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Room
+    value: '26'
+    description: '0 = Room #1 ; 1 = Room #2 ; 2 = Room #3 …'
+    min: 0
+    max: '7'
+  - name: Dry/Wet
+    value: '27'
+    description: |
+      0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Cab
+    value: '8'
+    description: '0 = Cab #0 ; 1 = Cab #1 ; 2 = Cab #2 …'
+    min: 0
+    max: 127
+  - name: Mic
+    value: '13'
+    description: '0 = Mic #0 ; 1 = Mic #1; 2 = Mic #2 …'
+    min: 0
+    max: '7'
+  - name: Room
+    value: '26'
+    description: '0 = Room #1 ; 1 = Room #2 ; 2 = Room #3 …'
+    min: 0
+    max: '7'
+  - name: Power Amp
+    value: '29'
+    description: |
+      0 = Off ; 1 = Min ; 30 = Max ;
+    min: 0
+    max: '30'
+  - name: Distance
+    value: '30'
+    description: 0 = Min ; 44 = Max ;
+    min: 0
+    max: '44'
+  - name: Tone
+    value: '31'
+    description: 0 = Min ; 44 = Max ;
+    min: 0
+    max: '44'
+  - name: Contour
+    value: '32'
+    description: |
+      0 = Min ; 40 = Max ;
+    min: 0
+    max: '40'
+  - name: Preset Level
+    value: '33'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Preset Mode
+    value: '34'
+    description: '0 = Simulation ; 1 = Arcade ; 2 = IR Loader ; '
+    min: 0
+    max: '2'
+  - name: Output Level
+    value: '51'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Mute
+    value: '52'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Preset
+    value: '54'
+    description: '0 = Preset #1 ; 1 = Preset #2 ; 2 = Preset #3 ;'
+    min: 0
+    max: 127
