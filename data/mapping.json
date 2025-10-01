@@ -349,6 +349,10 @@
         {
           "name": "VibroVerb",
           "value": "vibroverb"
+        },
+        {
+          "name": "ZeroSum",
+          "value": "zerosum"
         }
       ]
     },

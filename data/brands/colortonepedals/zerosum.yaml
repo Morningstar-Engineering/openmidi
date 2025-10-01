@@ -1,0 +1,92 @@
+brand: Colortone Pedals
+model: ZeroSum
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Delay Blend
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Rate
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback/Repeats
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Tone
+    value: '23'
+    description: 64 = Unity ;
+    min: 0
+    max: 127
+  - name: Stereo Spread
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Mode
+    value: '25'
+    description: 0 = Dual ; 64 = PPong ; 127 = Single ;
+    min: 0
+    max: 127
+  - name: Delay Rhythm
+    value: '26'
+    description: 0 = P1 ; 64 = P2 ; 127 = P3 ;
+    min: 0
+    max: 127
+  - name: Output Boost
+    value: '27'
+    description: 64 = Unity ;
+    min: 0
+    max: 127
+  - name: TTempo Multiplier
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Repeats Tape Saturation
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tape Age Warble
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback EQ Q Factor
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Presets
+    value: '33'
+    description: 0 = P2 ; 64 = P1 ; 127 = P3 ;
+    min: 0
+    max: 127
+  - name: Bypass_FxOn
+    value: '37'
+    description: 0 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Midi Clock Override
+    value: '40'
+    description: 0 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Midi Clock Division
+    value: '41'
+    description: 0 = 0.25 ; 32 = 0.5 ; 64 = 1 ; 96 = 2 ; 127 = 4 ;
+    min: 0
+    max: 127
