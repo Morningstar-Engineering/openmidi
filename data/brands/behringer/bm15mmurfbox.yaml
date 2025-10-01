@@ -1,0 +1,159 @@
+brand: Behringer
+model: BM-15M MURF Box
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: 'Override ENVELOPE duration '
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Override DRIVE
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Override LFO frequency '
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Override OUTPUT
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Override MIX
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Override Rate
+    value: '9'
+    description: ' (if not in MIDI sync)'
+    min: 0
+    max: 127
+  - name: Set MIDI Clock Division
+    value: '9'
+    description: >-
+      (when not in MIDI sync) 0-6 Four Wholes, 7-12 Three Wholes, 13-19 Two
+      wholes, 20-25 Dotted whole, 26-32 Whole, 33-38 Dotted 1/2, 39-44 Whole
+      note triplet, 45-51 1/2 note, 52-57 Dotted 1/4, 58-64 1/2 note triplet,
+      65-70 1/4 note, 71-76 Dotted 1/8, 77-83 1/4 note triplet, 84-89 1/8 note,
+      90-96 Dotted 1/16, 97-102 1/16 note, 103-108 Dotted 1/32, 109-115 1/32
+      note, 116-121 Dotted 1/64, 122-127 1/64 note
+    min: 0
+    max: 127
+  - name: Enable staccato mode
+    value: '68'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Disable staccato mode
+    value: '68'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Override Envelope duration
+    value: '70'
+    description: ''
+    min: 0
+    max: 127
+  - name: Enable LFO
+    value: '85'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Disable LFO
+    value: '85'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Toggle frequency (Bass/Mids) voicing
+    value: '86'
+    description: '0-63 Bass, 64-127 Mids'
+    min: 0
+    max: 127
+  - name: Enable bypass
+    value: '87'
+    description: '0-63 off, 64-127 on'
+    min: 0
+    max: '127'
+  - name: Enable pattern MIDI clock sync
+    value: '89'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Disable pattern MIDI clock sync
+    value: '89'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Reset current pattern to step 1
+    value: '90'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 1 level
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 2 level
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 3 level
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 4 level
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 5 level
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 6 level
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 7 level
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter 8 level
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Set the MIDI channel
+    value: '102'
+    description: ''
+    min: '1'
+    max: '16'
+  - name: Triplets disable
+    value: '66'
+    description: '0-63 off, 64-127 on'
+    min: 0
+    max: 127
+  - name: MIDI tap tempo
+    value: '92'
+    description: CC92 / CC93 as a pair
+    min: 0
+    max: 127

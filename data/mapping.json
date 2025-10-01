@@ -175,6 +175,10 @@
       "value": "behringer",
       "models": [
         {
+          "name": "BM-15M MURF Box",
+          "value": "bm15mmurfbox"
+        },
+        {
           "name": "Deepmind 12",
           "value": "deepmind12"
         },
