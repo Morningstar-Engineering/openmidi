@@ -1,0 +1,57 @@
+brand: REVV
+model: G20 MIDI
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Chanel 1
+    value: '16'
+    description: 0 - 63 = On (Can only Switch)
+    min: 0
+    max: '63'
+  - name: Channel 2 Low Aggression
+    value: '18'
+    description: 0 - 63 = On (Can only Switch)
+    min: 0
+    max: '63'
+  - name: Channel 2 Med Aggression
+    value: '19'
+    description: 0 - 63 = On (Can only Switch)
+    min: 0
+    max: '63'
+  - name: Channel 2 High Aggression
+    value: '20'
+    description: 0 - 63 = On (Can only Switch)
+    min: 0
+    max: '63'
+  - name: 'Channel 2 Plus Aggression Toggle '
+    value: '24'
+    description: 0 - 63 = On/Switch
+    min: 0
+    max: '63'
+  - name: Reverb
+    value: '26'
+    description: 0 - 63 = Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
+  - name: 4W / 20W
+    value: '27'
+    description: 0 - 63 = 4W ; 64 - 127 = 20W ;
+    min: 0
+    max: 127
+  - name: Wide
+    value: '28'
+    description: 0 - 63 = Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
+  - name: Pre/Post
+    value: '29'
+    description: 0 - 63 = Off ; 64 - 127 = On ;
+    min: 0
+    max: 127
