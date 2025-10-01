@@ -1,0 +1,327 @@
+brand: ASHDOWN
+model: LB 30 2.N MIDI
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Power Amp On/Off
+    value: 0
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Model
+    value: '1'
+    description: '0 = Model #0 ; 1=Model #1 ; 2 = Model #2 …'
+    min: 0
+    max: '7'
+  - name: Volume
+    value: '2'
+    description: 0 = 0 dB ; 30 = 30 dB ;
+    min: 0
+    max: '30'
+  - name: Presence
+    value: '3'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Depth
+    value: '4'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Character
+    value: '5'
+    description: 0 = Triode ; 1 = Pentode ;
+    min: 0
+    max: '1'
+  - name: Cab/Mic On/Off
+    value: '6'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Cab
+    value: '8'
+    description: '0 = Cab #0 ; 1 = Cab #1 ; 2 = Cab #2 …'
+    min: 0
+    max: 127
+  - name: File (A)
+    value: '9'
+    description: '0 = File #0 ; 1 = File #1 ; 2 = File #2 …'
+    min: 0
+    max: 127
+  - name: File (B)
+    value: '10'
+    description: '0 = File #0 ; 1 = File #1 ; 2 = File #2 …'
+    min: 0
+    max: 127
+  - name: Folder (A)
+    value: '11'
+    description: 0 = User 0 ; 1 = User 1 ; 2 = User 2 ; 3 = User 3 ;
+    min: 0
+    max: '3'
+  - name: Folder (B)
+    value: '12'
+    description: 0 = User 0 ; 1 = User 1 ; 2 = User 2 ; 3 = User 3 ;
+    min: 0
+    max: '3'
+  - name: Mic (A)
+    value: '13'
+    description: '0 = Mic #0 ; 1 = Mic #1; 2 = Mic #2 …'
+    min: 0
+    max: '7'
+  - name: Distance (A)
+    value: '14'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Center (A)
+    value: '15'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Position (A)
+    value: '16'
+    description: 0 = Back ; 1 = Front ;
+    min: 0
+    max: '1'
+  - name: Level (A)
+    value: '35'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Phase (A)
+    value: '36'
+    description: 0 = Normal ; 1 = Inverted ;
+    min: 0
+    max: '1'
+  - name: Mute (A)
+    value: '37'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Mic (B)
+    value: '38'
+    description: '0 = Mic #0 ; 1 = Mic #1; 2 = Mic #2 …'
+    min: 0
+    max: '7'
+  - name: Distance (B)
+    value: '39'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Center (B)
+    value: '40'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Position (B)
+    value: '41'
+    description: 0 = Back ; 1 = Front ;
+    min: 0
+    max: '1'
+  - name: Level (B)
+    value: '42'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Phase (B)
+    value: '43'
+    description: 0 = Normal ; 1 = Inverted ;
+    min: 0
+    max: '1'
+  - name: Mute (B)
+    value: '44'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Bypass (A)
+    value: '51'
+    description: 0 = Off (Mic On) ; 1 = On (Mic Bypass) ;
+    min: 0
+    max: '1'
+  - name: Bypass (B)
+    value: '52'
+    description: 0 = Off (Mic On) ; 1 = On (Mic Bypass) ;
+    min: 0
+    max: '1'
+  - name: Equalization On/Off
+    value: '17'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Mode
+    value: '18'
+    description: 0 = Guitar ; 1 = Bass ; 2 = Custom ;
+    min: 0
+    max: '2'
+  - name: 'Gain: Low'
+    value: '19'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: Low/Mid'
+    value: '20'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: Mid'
+    value: '21'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: High/Mid'
+    value: '22'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Gain: High'
+    value: '23'
+    description: 0 = -20 dB ; 20 = 0 dB ; 40 = 20 dB ;
+    min: 0
+    max: '40'
+  - name: 'Freq: Low Cut'
+    value: '45'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Low'
+    value: '46'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Low/Mid'
+    value: '47'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: Mid'
+    value: '48'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: High/Mid'
+    value: '49'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: 'Freq: High'
+    value: '50'
+    description: Specific mapping to Hz
+    min: 0
+    max: 127
+  - name: Preset Level
+    value: '24'
+    description: 0 = -95 dB ; 95 = 0 dB ;
+    min: 0
+    max: '95'
+  - name: Reverb On/Off
+    value: '25'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Preset
+    value: '26'
+    description: '0 = Room #0 ; 1 = Room #1 ; 2 = Room #2 …'
+    min: 0
+    max: '7'
+  - name: Dry/Wet
+    value: '27'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Size
+    value: '53'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Echo
+    value: '54'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Color
+    value: '55'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Type
+    value: '56'
+    description: 0 = Room ; 1 = Ambience ;
+    min: 0
+    max: '1'
+  - name: Noise Gate On/Off
+    value: '57'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Mode
+    value: '58'
+    description: 0 = Soft ; 1 = Hard ;
+    min: 0
+    max: '1'
+  - name: Threshold
+    value: '59'
+    description: 0 = -80 dB ; 80 = 0 dB ;
+    min: 0
+    max: '80'
+  - name: Enhancer On/Off
+    value: '60'
+    description: 0 = Off ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Instrument
+    value: '61'
+    description: 0 = Guitar ; 1 = Bass ; 2 = Custom ;
+    min: 0
+    max: '2'
+  - name: Body
+    value: '62'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Thickness
+    value: '63'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Brilliance
+    value: '64'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: Dry/Wet
+    value: '65'
+    description: 0 = 0% ; 63 = 50% ; 127 = 100% ;
+    min: 0
+    max: 127
+  - name: General Preset Mode
+    value: '34'
+    description: 0 = Simulation ; 1 = Arcade ; 2 = IR Loader ;
+    min: 0
+    max: '2'
+  - name: Output Level
+    value: '66'
+    description: 0 = -95 dB ; 95 = 0 dB ; 107 = 12 dB ;
+    min: 0
+    max: '107'
+  - name: Mute
+    value: '67'
+    description: 0 = Off (no mute) ; 1 = On (mute) ;
+    min: 0
+    max: '1'
+  - name: Bypass
+    value: '68'
+    description: 0 = Bypass ; 1 = On ;
+    min: 0
+    max: '1'
+  - name: Preset
+    value: '69'
+    description: '0 = Preset #1 ; 1 = Preset #2 ; 2 = Preset #3 ;'
+    min: 0
+    max: 127
