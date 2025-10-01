@@ -371,6 +371,10 @@
       "value": "darkglass",
       "models": [
         {
+          "name": "Anagram",
+          "value": "anagram"
+        },
+        {
           "name": "Microtubes Infinity",
           "value": "microtubesinfinity"
         }

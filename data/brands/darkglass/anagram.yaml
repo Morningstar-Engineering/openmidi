@@ -1,0 +1,108 @@
+brand: Darkglass Electronics
+model: Anagram
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank Select
+    value: '102'
+    description: Calls bank preview screen for bank 1 - 42.
+    min: '1'
+    max: '42'
+  - name: 'Bank Increment '
+    value: '103'
+    description: Calls bank preview screen for the next bank.
+    min: '1'
+    max: 127
+  - name: 'Bank Decrement '
+    value: '104'
+    description: Calls bank preview screen for the previous bank.
+    min: '1'
+    max: 127
+  - name: Scene Select
+    value: '107'
+    description: >-
+      1 : activates scene A ; 2 : activates scene B ; 3 : activates scene C ;
+      127 : activates the default scene ;
+    min: '1'
+    max: 127
+  - name: Scene Increment
+    value: '108'
+    description: Activates the next scene.
+    min: '1'
+    max: 127
+  - name: Scene Decrement
+    value: '109'
+    description: Activates the previous scene.
+    min: '1'
+    max: 127
+  - name: Mode Select
+    value: '85'
+    description: >-
+      1 : activates Preset mode ; 2 : activates Stomp mode ; 3 : activates Scene
+      mode ;
+    min: '1'
+    max: '3'
+  - name: Tuner Enter/Exit
+    value: '86'
+    description: Enters/Exits the tuner screen.
+    min: '1'
+    max: 127
+  - name: 'Binding Stomp Mode Foot A '
+    value: '17'
+    description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    min: 0
+    max: 127
+  - name: Binding Stomp Mode Foot B
+    value: '18'
+    description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    min: 0
+    max: 127
+  - name: Binding Stomp Mode Foot C
+    value: '19'
+    description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    min: 0
+    max: 127
+  - name: 'Binding Knob 1 '
+    value: '20'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Knob 2 '
+    value: '21'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Knob 3 '
+    value: '22'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Knob 4 '
+    value: '23'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Knob 5 '
+    value: '24'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Knob 6 '
+    value: '25'
+    description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    min: 0
+    max: 127
+  - name: 'Binding Expression Pedal '
+    value: '89'
+    description: >-
+      Knob : sets binding to (CC Value / 127) * (binding value end - binding
+      value start) ;
+    min: 0
+    max: 127
