@@ -2482,6 +2482,10 @@
           "value": "gp5"
         },
         {
+          "name": "GP-200",
+          "value": "gp200"
+        },
+        {
           "name": "GP-200LT",
           "value": "gp200lt"
         }

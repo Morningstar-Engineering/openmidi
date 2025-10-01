@@ -1,0 +1,305 @@
+brand: Valeton
+model: GP-200
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: BANK MSB
+    value: 0
+    description: |-
+      01 - A ~ 32 - D : CC0 = 1 ; PC = 0 - 127 ;
+      33 - A ~ 64 - D : CC0 = 0 ; PC = 0 - 127 ;
+    min: 0
+    max: '1'
+  - name: Patch Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: '100'
+  - name: EXP 1
+    value: '11'
+    description: ''
+    min: 0
+    max: '100'
+  - name: EXP1 A/B
+    value: '13'
+    description: '0 - 63 : A ; 64 - 127 : B ;'
+    min: 0
+    max: 127
+  - name: Quick Access Para 1
+    value: '16'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Quick Access Knob 1 parameter adjustment
+    value: '17'
+    description: |-
+      0 - 63 : Turn down by 1 step ;
+      64 - 127 : Turn up by 1 step ;
+    min: 0
+    max: 127
+  - name: Quick Access Knob 2
+    value: '18'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Quick Access Knob 2 parameter adjustment
+    value: '19'
+    description: |-
+      0 - 63 : Turn down by 1 step ;
+      64 - 127 : Turn up by 1 step ;
+    min: 0
+    max: 127
+  - name: Quick Access Knob 3
+    value: '20'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Quick Access Knob 3 parameter adjustment
+    value: '21'
+    description: |-
+      0 - 63 : Turn down by 1 step ;
+      64 - 127: Turn up by 1 step ;
+    min: 0
+    max: 127
+  - name: BANK - (initial mode)
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: BANK + (initial mode)
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch -
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Patch +
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: BANK - (wait mode)
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: BANK +(wait mode)
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: BANK (wait mode)
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: PRE Module on/off
+    value: '48'
+    description: |-
+      0 - 63 : off ;
+      64 - 127 : on ;
+    min: 0
+    max: 127
+  - name: DST Module on/off
+    value: '49'
+    description: |-
+      0 - 63 : off ;
+      64 - 127 : on ;
+    min: 0
+    max: 127
+  - name: AMP Module on/off
+    value: '50'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: NR Module on/off
+    value: '51'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: CAB Module on/off
+    value: '52'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: EQ Module on/off
+    value: '53'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: MOD Module on/off
+    value: '54'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: DLY Module on/off
+    value: '55'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: RVB Module on/off
+    value: '56'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: WAH Module on/off
+    value: '57'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: TUNER on/off
+    value: '58'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: LOOPER on/off
+    value: '59'
+    description: '0 - 63 : off ; 64 - 127 : on ;'
+    min: 0
+    max: 127
+  - name: LOOPER Record
+    value: '60'
+    description: ''
+    min: 0
+    max: 127
+  - name: LOOPER Auto Record
+    value: '61'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Looper Play/Stop '
+    value: '62'
+    description: |-
+      0 - 63 : Stop ;
+      64 - 127 : Play ;
+    min: 0
+    max: 127
+  - name: Looper Tempo
+    value: '63'
+    description: |-
+      0 - 63 : Half-speed ;
+      64 - 127 : Normal Speed ;
+    min: 0
+    max: 127
+  - name: Looper Playback Status
+    value: '64'
+    description: |-
+      0 - 63: Reverse ;
+      64 - 127: Normal ;
+    min: 0
+    max: 127
+  - name: Delete Loop
+    value: '65'
+    description: ''
+    min: 0
+    max: 127
+  - name: Looper Recording Volume
+    value: '66'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Looper Playback Volume
+    value: '67'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Looper Placement
+    value: '68'
+    description: |-
+      0 - 63 : Rear ;
+      64 - 127 : Front ;
+    min: 0
+    max: 127
+  - name: CTRL 1
+    value: '69'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 2
+    value: '70'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 3
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 4
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Tempo MSB, Used with Cc74'
+    value: '73'
+    description: ''
+    min: 0
+    max: '1'
+  - name: 'CC73=0,CC74=40-127'
+    value: '74'
+    description: |-
+      CC73 = 0, CC74 = 40 - 127 :
+      40BPM - 127BPM
+      CC73 = 1, CC74 = 0 - 122 :
+      128BPM - 250BPM
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '75'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 5
+    value: '76'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 6
+    value: '77'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 7
+    value: '78'
+    description: ''
+    min: 0
+    max: 127
+  - name: CTRL 8
+    value: '79'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drum Machine Menu on/off
+    value: '92'
+    description: |-
+      0 - 63 : off ;
+      64 - 127 : on ;
+    min: 0
+    max: '100'
+  - name: Drum Machine Play/Stop
+    value: '93'
+    description: |-
+      0 - 63 : Stop ;
+      64 - 127 : Play ;
+    min: 0
+    max: 127
+  - name: Drum Machine Type
+    value: '94'
+    description: ''
+    min: 0
+    max: '99'
+  - name: Drum Machine Volume
+    value: '95'
+    description: ''
+    min: 0
+    max: '100'
