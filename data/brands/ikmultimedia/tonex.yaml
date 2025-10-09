@@ -116,7 +116,7 @@ cc:
   min: 0
   max: '127'
 - name: GATE/ POSITION
-  value: '17'
+  value: '13'
   description: '0=FIRST, 127=POST AMP'
   min: 0
   max: '127'
@@ -162,31 +162,6 @@ cc:
   max: '127'
 - name: EQ/ POSITION
   value: '30'
-  description: ''
-  min: 0
-  max: '127'
-- name: REVERB
-  value: '75'
-  description: ''
-  min: 0
-  max: '127'
-- name: REV TYPE
-  value: '85'
-  description: ''
-  min: 0
-  max: '127'
-- name: TIME
-  value: '76'
-  description: ''
-  min: 0
-  max: '127'
-- name: PREDELAY
-  value: '77'
-  description: ''
-  min: 0
-  max: '127'
-- name: COLOR
-  value: '78'
   description: ''
   min: 0
   max: '127'
@@ -315,6 +290,31 @@ cc:
   description: '0=OFF, 127=ON'
   min: 0
   max: '127'
+- name: MOD/ FLANGER/ RATE
+  value: '48'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ FLANGER/ DEPTH
+  value: '49'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ FLANGER/ FEEDBACK
+  value: '50'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ FLANGER/ LEVEL
+  value: '51'
+  description: ''
+  min: 0
+  max: '127'
+- name: MOD/ ROTARY/ SYNC
+  value: '52'
+  description: '0=OFF, 127=ON'
+  min: 0
+  max: '127'
 - name: MOD/ ROTARY/ SPEED
   value: '53'
   description: ''
@@ -381,7 +381,7 @@ cc:
   min: 0
   max: '127'
 - name: DELAY/ TAPE/ TIME
-  value: '91'
+  value: '92'
   description: ''
   min: 0
   max: '127'
