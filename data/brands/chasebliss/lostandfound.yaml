@@ -1,0 +1,294 @@
+brand: Chase Bliss
+model: Lost + Found
+url: >-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/68a37898aed0676fd5a4b436/1755543704259/Lost+%2B+Found_MIDI+Manual_Pedal_Chase+Bliss.pdf
+midi_in: TRS
+
+midi_channel:
+  instructions: |+
+    Lost + Found is set to MIDI channel 2 by default,
+    but it's easy to change. Simply hold down both
+    stomp switches when you power up the pedal.
+    The pedal is now looking for the first “Program
+    Change” message it sees, and it will set itself to
+    that channel.
+
+pc:
+  description: |+
+    SAVING A PRESET VIA MIDI
+    Presets are both saved and recalled by using Program Change (PC) messages.
+    To save a preset, send a PC message while holding down both footswitches.
+    Sending a Program Change message of 45, for example,
+    will save your current settings to preset 45.
+    There are 122 total slots.
+    Slots 1 and 2 correspond to the preset toggle on the pedal.
+    Slot 1 is the right slot. Slot 2 is the left slot.
+    
+    RECALLING A PRESET VIA MIDI
+    To recall a preset, simply send Lost + Found a Program Change message.
+    If the target slot is empty, then nothing will be recalled.
+    There are no factory presets besides
+    the two that come loaded in slots 1 and 2.
+    Sending a Program Change message of 0 puts the pedal in “Live” mode,
+    matching the pedal's current settings.
+
+cc:
+  - name: L TIME
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIX
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: R TIME
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: L MODIFY
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: BLEND
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: R MODIFY
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: R FOOTSWITCH
+    value: '102'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: L FOOTSWITCH
+    value: '103'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: ALT MENU (HOLD BOTH SWITCHES)
+    value: '104'
+    description: 'ALT exit = 0 ; ALT enter = 1 or >'
+    min: 0
+    max: 127
+  - name: L HOLD (HOLD LEFT SWITCH)
+    value: '105'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: R HOLD (HOLD RIGHT SWITCH)
+    value: '106'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: RAMP SPEED
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: L ALT
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPILL
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: R ALT
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: L EQ
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: GLUE
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: R EQ
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: MASTER WET VOLUME
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: L EFFECTS MODE
+    value: '21'
+    description: '1 = 0, 1 ; 2 = 2 ; 3 = 3 OR >'
+    min: 0
+    max: 127
+  - name: ROUTING
+    value: '22'
+    description: 'L > R = 0, 1 ; L + R = 2 ; L < R = 3 OR >'
+    min: 0
+    max: 127
+  - name: R EFFECTS MODE
+    value: '23'
+    description: '4 = 0, 1 ; 5 = 2 ; 6 = 3 OR >'
+    min: 0
+    max: 127
+  - name: SPREAD
+    value: '32'
+    description: 'L ONLY = 0, 1 ; BOTH = 2 ; R ONLY = 3 OR >'
+    min: 0
+    max: 127
+  - name: L TIME
+    value: '61'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: L MODIFY
+    value: '62'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: BLEND
+    value: '63'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: R MODIFY
+    value: '64'
+    description: off = 0 ;  on = 1 or >
+    min: 0
+    max: 127
+  - name: R TIME
+    value: '65'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: BOUNCE
+    value: '66'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SWEEP
+    value: '67'
+    description: B = 0 ; T = 1 or >
+    min: 0
+    max: 127
+  - name: POLARITY
+    value: '68'
+    description: F = 0 ; R = 1 or >
+    min: 0
+    max: 127
+  - name: MISO
+    value: '71'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: SPREAD
+    value: '72'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: LATCH
+    value: '73'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127    
+  - name: L SWAP
+    value: '74'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127    
+  - name: R SWAP
+    value: '75'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127    
+  - name: UNSYNC
+    value: '76'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127    
+  - name: TRAILS
+    value: '77'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: BANK
+    value: '78'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: MIDI CLOCK IGNORE
+    value: '51'
+    description: 'ignore = 0 ; follow = 1 or >'
+    min: 0
+    max: 127
+  - name: STOP RAMPING
+    value: '52'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: L TAP SUBDIVISION
+    value: '53'
+    description: |+
+      0 through > 11 determine tempo subdivision increasing from thirty-second to double whole respectively.
+      Refer to Lost + Found MIDI manual pg 07 for subdivision CC values table.
+    min: 0
+    max: 127
+  - name: R TAP SUBDIVISION
+    value: '54'
+    description: |+
+      0 through > 11 determine tempo subdivision increasing from thirty-second to double whole respectively.
+      Refer to Lost + Found MIDI manual pg 07 for subdivision CC values table.
+    min: 0
+    max: 127
+  - name: FACTORY RESET
+    value: '56'
+    description: 'Send any value'
+    min: 0
+    max: 127
+  - name: DRY KILL
+    value: '57'
+    description: off = 0 ; on = 1 or >
+    min: 0
+    max: 127
+  - name: TAP TEMPO
+    value: '93'
+    description: 'Send any value'
+    min: 0
+    max: 127
+  - name: EOM (EXPRESSION OVER MIDI)
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: SAVE PRESET
+    value: '111'
+    description: 'Preset # = value'
+    min: 0
+    max: 127
+  - name: RANDOM L MODE
+    value: '112'
+    description: 'Send any value'
+    min: 0
+    max: 127
+  - name: RANDOM R MODE
+    value: '113'
+    description: 'Send any value'
+    min: 0
+    max: 127
+  - name: RANDOM BOTH MODES
+    value: '114'
+    description: 'Send any value'
+    min: 0
+    max: 127
