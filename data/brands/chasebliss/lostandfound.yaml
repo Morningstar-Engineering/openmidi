@@ -33,262 +33,538 @@ pc:
     matching the pedal's current settings.
 
 cc:
-  - name: L TIME
-    value: '14'
+  - name: Bypass Right Channel - Off
+    value: '102'
     description: ''
     min: 0
+    max: 0
+  - name: Bypass Right Channel - On
+    value: '102'
+    description: ''
+    min: 127
     max: 127
-  - name: MIX
+  - name: Bypass Left Channel - Off
+    value: '103'
+    description: ''
+    min: 0
+    max: 0
+  - name: Bypass Left Channel - On
+    value: '103'
+    description: ''
+    min: 127
+    max: 127
+  - name: Knobs - Mix
     value: '15'
     description: ''
     min: 0
     max: 127
-  - name: R TIME
-    value: '16'
-    description: ''
-    min: 0
-    max: 127
-  - name: L MODIFY
-    value: '17'
-    description: ''
-    min: 0
-    max: 127
-  - name: BLEND
+  - name: Knobs - Blend
     value: '18'
     description: ''
     min: 0
     max: 127
-  - name: R MODIFY
-    value: '19'
+  - name: Knobs - Left Time
+    value: '14'
     description: ''
     min: 0
     max: 127
-  - name: R FOOTSWITCH
-    value: '102'
-    description: off = 0 ; on = 1 or >
-    min: 0
-    max: 127
-  - name: L FOOTSWITCH
-    value: '103'
-    description: off = 0 ; on = 1 or >
-    min: 0
-    max: 127
-  - name: ALT MENU (HOLD BOTH SWITCHES)
-    value: '104'
-    description: 'ALT exit = 0 ; ALT enter = 1 or >'
-    min: 0
-    max: 127
-  - name: L HOLD (HOLD LEFT SWITCH)
-    value: '105'
-    description: off = 0 ; on = 1 or >
-    min: 0
-    max: 127
-  - name: R HOLD (HOLD RIGHT SWITCH)
-    value: '106'
-    description: off = 0 ; on = 1 or >
-    min: 0
-    max: 127
-  - name: RAMP SPEED
-    value: '20'
+  - name: Knobs - Left Modify
+    value: '17'
     description: ''
     min: 0
     max: 127
-  - name: L ALT
+  - name: Knobs - Left Alt (Hidden Option)
     value: '24'
     description: ''
     min: 0
     max: 127
-  - name: SPILL
-    value: '25'
+  - name: Knobs - Right Time
+    value: '16'
     description: ''
     min: 0
     max: 127
-  - name: R ALT
+  - name: Knobs - Right Modify
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knobs - Right Alt (Hidden Option)
     value: '26'
     description: ''
     min: 0
     max: 127
-  - name: L EQ
-    value: '27'
+  - name: Toggles - Left Effects Mode 1
+    value: '21'
+    description: ''
+    min: 1
+    max: 1
+  - name: Toggles - Left Effects Mode 2
+    value: '21'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Left Effects Mode 3
+    value: '21'
+    description: ''
+    min: 3
+    max: 3
+  - name: Toggles - Right Effects Mode 4
+    value: '23'
+    description: ''
+    min: 1
+    max: 1
+  - name: Toggles - Right Effects Mode 5
+    value: '23'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Right Effects Mode 6
+    value: '23'
+    description: ''
+    min: 3
+    max: 3
+  - name: Toggles - Routing - L > R
+    value: '22'
+    description: ''
+    min: 1
+    max: 1
+  - name: Toggles - Routing - L + R
+    value: '22'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Routing - L < R
+    value: '22'
+    description: ''
+    min: 3
+    max: 3
+  - name: Toggles - Spread Left Only
+    value: '32'
+    description: ''
+    min: 1
+    max: 1
+  - name: Toggles - Spread Both
+    value: '32'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Spread Right Only
+    value: '32'
+    description: ''
+    min: 3
+    max: 3
+  - name: Alt Menu - Exit
+    value: '104'
+    description: ''
+    min: 0
+    max: 0
+  - name: Alt Menu - Enter
+    value: '104'
+    description: ''
+    min: 127
+    max: 127
+  - name: Hold Left Channel - Off
+    value: '105'
+    description: ''
+    min: 0
+    max: 0
+  - name: Hold Left Channel - On
+    value: '105'
+    description: ''
+    min: 127
+    max: 127
+  - name: Hold Right Channel - Off
+    value: '106'
+    description: ''
+    min: 0
+    max: 0
+  - name: Hold Right Channel - On
+    value: '106'
+    description: ''
+    min: 127
+    max: 127
+  - name: Hidden Options - Ramp Speed
+    value: '20'
     description: ''
     min: 0
     max: 127
-  - name: GLUE
+  - name: Hidden Options - Spill
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Hidden Options - Glue
     value: '28'
     description: ''
     min: 0
     max: 127
-  - name: R EQ
+  - name: Hidden Options - Left EQ
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Hidden Options - Right EQ
     value: '29'
     description: ''
     min: 0
     max: 127
-  - name: MASTER WET VOLUME
+  - name: Hidden Options - Master Wet Volume
     value: '30'
     description: ''
     min: 0
     max: 127
-  - name: L EFFECTS MODE
-    value: '21'
-    description: '1 = 0, 1 ; 2 = 2 ; 3 = 3 OR >'
-    min: 0
-    max: 127
-  - name: ROUTING
-    value: '22'
-    description: 'L > R = 0, 1 ; L + R = 2 ; L < R = 3 OR >'
-    min: 0
-    max: 127
-  - name: R EFFECTS MODE
-    value: '23'
-    description: '4 = 0, 1 ; 5 = 2 ; 6 = 3 OR >'
-    min: 0
-    max: 127
-  - name: SPREAD
-    value: '32'
-    description: 'L ONLY = 0, 1 ; BOTH = 2 ; R ONLY = 3 OR >'
-    min: 0
-    max: 127
-  - name: L TIME
+  - name: Dip Switches - Left Time - Off
     value: '61'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Left Time - On
+    value: '61'
+    description: ''
+    min: 127
     max: 127
-  - name: L MODIFY
+  - name: Dip Switches - Left Modify - Off
     value: '62'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Left Modify - On
+    value: '62'
+    description: ''
+    min: 127
     max: 127
-  - name: BLEND
+  - name: Dip Switches - Blend - Off
     value: '63'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Blend - On
+    value: '63'
+    description: ''
+    min: 127
     max: 127
-  - name: R MODIFY
+  - name: Dip Switches - Right Modify - Off
     value: '64'
-    description: off = 0 ;  on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Right Modify - On
+    value: '64'
+    description: ''
+    min: 127
     max: 127
-  - name: R TIME
+  - name: Dip Switches - Right Time - Off
     value: '65'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Right Time - On
+    value: '65'
+    description: ''
+    min: 127
     max: 127
-  - name: BOUNCE
+  - name: Dip Switches - Bounce - Off
     value: '66'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Bounce - On
+    value: '66'
+    description: ''
+    min: 127
     max: 127
-  - name: SWEEP
+  - name: Dip Switches - Sweep - Bottom
     value: '67'
-    description: B = 0 ; T = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Sweep - Top
+    value: '67'
+    description: ''
+    min: 127
     max: 127
-  - name: POLARITY
+  - name: Dip Switches - Polarity - Forward
     value: '68'
-    description: F = 0 ; R = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Polarity - Reverse
+    value: '68'
+    description: ''
+    min: 127
     max: 127
-  - name: MISO
+  - name: Dip Switches - MISO - Off
     value: '71'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - MISO - On
+    value: '71'
+    description: ''
+    min: 127
     max: 127
-  - name: SPREAD
+  - name: Dip Switches - Spread - Off
     value: '72'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Spread - On
+    value: '72'
+    description: ''
+    min: 127
     max: 127
-  - name: LATCH
+  - name: Dip Switches - Latch - Off
     value: '73'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0    
+  - name: Dip Switches - Latch - On
+    value: '73'
+    description: ''
+    min: 127
     max: 127    
-  - name: L SWAP
+  - name: Dip Switches - Left Swap - Off
     value: '74'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
-    max: 127    
-  - name: R SWAP
+    max: 0
+  - name: Dip Switches - Left Swap - On
+    value: '74'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Right Swap - Off
     value: '75'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
-    max: 127    
-  - name: UNSYNC
+    max: 0
+  - name: Dip Switches - Right Swap - On
+    value: '75'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Unsync - Off
     value: '76'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
-    max: 127    
-  - name: TRAILS
+    max: 0
+  - name: Dip Switches - Unsync - On
+    value: '76'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Trails - Off
     value: '77'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Trails - On
+    value: '77'
+    description: ''
+    min: 127
     max: 127
-  - name: BANK
+  - name: Dip Switches - Bank - Off
     value: '78'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dip Switches - Bank - On
+    value: '78'
+    description: ''
+    min: 127
     max: 127
-  - name: MIDI CLOCK IGNORE
+  - name: MIDI Clock Ignore - Ignore
     value: '51'
-    description: 'ignore = 0 ; follow = 1 or >'
+    description: ''
     min: 0
+    max: 0
+  - name: MIDI Clock Ignore - Follow
+    value: '51'
+    description: ''
+    min: 127
     max: 127
-  - name: STOP RAMPING
+  - name: Stop Ramping - Stop
     value: '52'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Stop Ramping - Resume
+    value: '52'
+    description: ''
+    min: 127
     max: 127
-  - name: L TAP SUBDIVISION
+  - name: Tap Tempo
+    value: '93'
+    description: ''
+    min: 127
+    max: 127
+  - name: Left Tap Subdivision - Thirty-Second
     value: '53'
-    description: |+
-      0 through > 11 determine tempo subdivision increasing from thirty-second to double whole respectively.
-      Refer to Lost + Found MIDI manual pg 07 for subdivision CC values table.
+    description: ''
     min: 0
-    max: 127
-  - name: R TAP SUBDIVISION
+    max: 0
+  - name: Left Tap Subdivision - Sixteenth
+    value: '53'
+    description: ''
+    min: 1
+    max: 1
+  - name: Left Tap Subdivision - Triplet Sixteenth
+    value: '53'
+    description: ''
+    min: 2
+    max: 2
+  - name: Left Tap Subdivision - Eigth
+    value: '53'
+    description: ''
+    min: 3
+    max: 3
+  - name: Left Tap Subdivision - Triplet Eigth
+    value: '53'
+    description: ''
+    min: 4
+    max: 4
+  - name: Left Tap Subdivision - Dotted Eigth
+    value: '53'
+    description: ''
+    min: 5
+    max: 5
+  - name: Left Tap Subdivision - Quarter
+    value: '53'
+    description: ''
+    min: 6
+    max: 6
+  - name: Left Tap Subdivision - Triplet Quarter
+    value: '53'
+    description: ''
+    min: 7
+    max: 7
+  - name: Left Tap Subdivision - Dotted Quarter
+    value: '53'
+    description: ''
+    min: 8
+    max: 8
+  - name: Left Tap Subdivision - Half
+    value: '53'
+    description: ''
+    min: 9
+    max: 9
+  - name: Left Tap Subdivision - Dotted Half
+    value: '53'
+    description: ''
+    min: 10
+    max: 10
+  - name: Left Tap Subdivision - Whole
+    value: '53'
+    description: ''
+    min: 11
+    max: 11
+  - name: Left Tap Subdivision - Double Whole
+    value: '53'
+    description: ''
+    min: 12
+    max: 12
+  - name: Right Tap Subdivision - Thirty-Second
     value: '54'
-    description: |+
-      0 through > 11 determine tempo subdivision increasing from thirty-second to double whole respectively.
-      Refer to Lost + Found MIDI manual pg 07 for subdivision CC values table.
+    description: ''
     min: 0
-    max: 127
-  - name: FACTORY RESET
+    max: 0
+  - name: Right Tap Subdivision - Sixteenth
+    value: '54'
+    description: ''
+    min: 1
+    max: 1
+  - name: Right Tap Subdivision - Triplet Sixteenth
+    value: '54'
+    description: ''
+    min: 2
+    max: 2
+  - name: Right Tap Subdivision - Eigth
+    value: '54'
+    description: ''
+    min: 3
+    max: 3
+  - name: Right Tap Subdivision - Triplet Eigth
+    value: '54'
+    description: ''
+    min: 4
+    max: 4
+  - name: Right Tap Subdivision - Dotted Eigth
+    value: '54'
+    description: ''
+    min: 5
+    max: 5
+  - name: Right Tap Subdivision - Quarter
+    value: '54'
+    description: ''
+    min: 6
+    max: 6
+  - name: Right Tap Subdivision - Triplet Quarter
+    value: '54'
+    description: ''
+    min: 7
+    max: 7
+  - name: Right Tap Subdivision - Dotted Quarter
+    value: '54'
+    description: ''
+    min: 8
+    max: 8
+  - name: Right Tap Subdivision - Half
+    value: '54'
+    description: ''
+    min: 9
+    max: 9
+  - name: Right Tap Subdivision - Dotted Half
+    value: '54'
+    description: ''
+    min: 10
+    max: 10
+  - name: Right Tap Subdivision - Whole
+    value: '54'
+    description: ''
+    min: 11
+    max: 11
+  - name: Right Tap Subdivision - Double Whole
+    value: '54'
+    description: ''
+    min: 12
+    max: 12
+  - name: Factory Reset
     value: '56'
     description: 'Send any value'
-    min: 0
+    min: 127
     max: 127
-  - name: DRY KILL
+  - name: Dry Kill - Off
     value: '57'
-    description: off = 0 ; on = 1 or >
+    description: ''
     min: 0
+    max: 0
+  - name: Dry Kill - On
+    value: '57'
+    description: ''
+    min: 127
     max: 127
-  - name: TAP TEMPO
-    value: '93'
-    description: 'Send any value'
-    min: 0
-    max: 127
-  - name: EOM (EXPRESSION OVER MIDI)
+  - name: Expression Over MIDI
     value: '100'
     description: ''
     min: 0
     max: 127
-  - name: SAVE PRESET
+  - name: Save Preset
     value: '111'
     description: 'Preset # = value'
     min: 0
-    max: 127
-  - name: RANDOM L MODE
+    max: 122
+  - name: Random Left Mode
     value: '112'
-    description: 'Send any value'
-    min: 0
+    description: ''
+    min: 127
     max: 127
-  - name: RANDOM R MODE
+  - name: Random Right Mode
     value: '113'
-    description: 'Send any value'
-    min: 0
+    description: ''
+    min: 127
     max: 127
-  - name: RANDOM BOTH MODES
+  - name: Random Both Modes
     value: '114'
-    description: 'Send any value'
-    min: 0
+    description: ''
+    min: 127
     max: 127
