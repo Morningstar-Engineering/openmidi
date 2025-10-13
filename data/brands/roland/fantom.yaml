@@ -1,0 +1,223 @@
+brand: Roland
+model: Fantom
+url: 'https://static.roland.com/assets/media/pdf/FANTOM_MI.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank Select MSB
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Bank Select LSB
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Breath type
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Foot type
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Portamento Time
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Data Entry MSB
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Data Entry LSB
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: Volume
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Balance
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Panpot '
+    value: '10'
+    description: 'Left : 0 ; Center : 64 ; Right : 7 ;'
+    min: 0
+    max: 127
+  - name: Expression
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Hold 1
+    value: '64'
+    description: ' 0 - 63 = OFF ; 64 - 127 = ON ;'
+    min: 0
+    max: 127
+  - name: Portamento
+    value: '65'
+    description: 0 - 63 = OFF ; 64 - 127 = ON ;
+    min: 0
+    max: 127
+  - name: Sostenuto
+    value: '66'
+    description: 0 - 63 = OFF ; 64 - 127 = ON ;
+    min: 0
+    max: 127
+  - name: Soft
+    value: '67'
+    description: 0 - 63 = OFF ; 64 - 127 = ON ;
+    min: 0
+    max: 127
+  - name: Legato Foot Switch
+    value: '68'
+    description: 0 - 63 = OFF ; 64 - 127 = ON ;
+    min: 0
+    max: 127
+  - name: Hold-2
+    value: '69'
+    description: ''
+    min: 0
+    max: 127
+  - name: Resonance
+    value: '71'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Release Time
+    value: '72'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Attack time
+    value: '73'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Cutoff
+    value: '74'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: 'Decay Time '
+    value: '75'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Vibrato Rate
+    value: '76'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Vibrato Depth (
+    value: '77'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: Vibrato Delay
+    value: '78'
+    description: 0 = -64 ; 64 = 0 ; 127 = +63 ;
+    min: 0
+    max: 127
+  - name: General Purpose Controller 5
+    value: '80'
+    description: ''
+    min: 0
+    max: 127
+  - name: General Purpose Controller 6
+    value: '81'
+    description: ''
+    min: 0
+    max: 127
+  - name: General Purpose Controller 7
+    value: '82'
+    description: ''
+    min: 0
+    max: 127
+  - name: General Purpose Controller 8
+    value: '83'
+    description: ''
+    min: 0
+    max: 127
+  - name: Portamento control
+    value: '84'
+    description: ''
+    min: 0
+    max: 127
+  - name: Effect 1 (Reverb Send Level)
+    value: '91'
+    description: ''
+    min: 0
+    max: 127
+  - name: Effect 3 (Chorus Send Level)
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: RPN MSB
+    value: '100'
+    description: ''
+    min: 0
+    max: 127
+  - name: RPN LSB
+    value: '101'
+    description: ''
+    min: 0
+    max: 127
+  - name: All Sounds Off
+    value: '120'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reset All Controllers
+    value: '121'
+    description: ''
+    min: 0
+    max: 127
+  - name: All Notes Off
+    value: '123'
+    description: ''
+    min: 0
+    max: 127
+  - name: OMNI OFF
+    value: '124'
+    description: ''
+    min: 0
+    max: 127
+  - name: OMNI ON
+    value: '125'
+    description: ''
+    min: 0
+    max: 127
+  - name: MONO
+    value: '126'
+    description: ''
+    min: 0
+    max: 127
+  - name: POLY
+    value: '127'
+    description: ''
+    min: 0
+    max: 127
