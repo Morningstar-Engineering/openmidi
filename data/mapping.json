@@ -964,6 +964,10 @@
         {
           "name": "Pedalbaord",
           "value": "pedalbaord"
+        },
+        {
+          "name": "VX5",
+          "value": "vx5"
         }
       ]
     },
