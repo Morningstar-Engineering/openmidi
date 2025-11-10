@@ -1,0 +1,84 @@
+brand: Universal Audio
+model: Del-Verb
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: FS Left
+    value: '12'
+    description: 1= toggles footswitch
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1= toggles footswitch
+    min: 0
+    max: '1'
+  - name: Delay Select
+    value: '14'
+    description: '0 = Tape EP-III, 1 = Analog DMM, 2 = Precision Delay ; '
+    min: 0
+    max: '2'
+  - name: Reverb Select
+    value: '15'
+    description: '0 = Spring 65, 1 = Plate 140, 2-Hall 224'
+    min: 0
+    max: '2'
+  - name: Delay Bypass
+    value: '19'
+    description: >-
+      0 = bypass, 1 = unbypass (always only does Delay regardless of footswitch
+      mode)
+    min: 0
+    max: '1'
+  - name: Reverb Bypass
+    value: '20'
+    description: >-
+      0 = bypass, 1 = unbypass  (always only does Reverb regardless of
+      footswitch mode)
+    min: 0
+    max: '1'
+  - name: Mix
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Division
+    value: '25'
+    description: >-
+      0 = Quarter Note, 1 = Dotted eighth note, 2 = Eighth note, 3 = Eighth note
+      triplet, 4 = Dual: quarter + dotted eighth, 5 = Dual: quarter+eigth
+    min: 0
+    max: '5'
+  - name: Color
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb
+    value: '28'
+    description: ''
+    min: 0
+    max: 127

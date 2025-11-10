@@ -1,0 +1,145 @@
+brand: Universal Audio
+model: Lion
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Output
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Cab Up
+    value: '14'
+    description: Cycles up through Cabs
+    min: 0
+    max: '1'
+  - name: Cab Down
+    value: '15'
+    description: Cycles down through Cabs
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: Model Select
+    value: '17'
+    description: '0 = Lead, 1 = Bass, 2 = Brown ;'
+    min: 0
+    max: '2'
+  - name: Cab Select
+    value: '18'
+    description: >-
+      0 = Strpped, 1 = GB30, 2 = Brown JB, 3 = EV12, 4 = DB12, 5 = Vee30, 6 =
+      External ;
+    min: 0
+    max: '6'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Input
+    value: '21'
+    description: '0 = Low Input, 1 = High Input, 2 = Jumped ;'
+    min: 0
+    max: '2'
+  - name: Volume I
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Volume II
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Room
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Middle
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Presence
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bright
+    value: '35'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Ghost Notes
+    value: '36'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost Enable
+    value: '40'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Enable
+    value: '70'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Gate Threshold
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Hold
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Release
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Attenuation
+    value: '75'
+    description: ''
+    min: 0
+    max: 127

@@ -1,0 +1,87 @@
+brand: Universal Audio
+model: Golden
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Effect Up
+    value: '14'
+    description: Cycles up through Reverb Types
+    min: 0
+    max: '1'
+  - name: Effect Down
+    value: '15'
+    description: Cycles down through Reverb Types
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: 1 = long press stores preset ; 0 = Cancel
+    min: 0
+    max: '1'
+  - name: A B C Select
+    value: '17'
+    description: |-
+      if Spring 65 (0 = Bright, 1= Smooth, 2 = Ambient) ;
+      if Plate 140 (0 = Plate 1, 1 = Plate 2, 2 = Plate 3) ;
+      if Hall 224 (0 = Room, 1= Small Hall A, 2 = Large Hall B) ;
+      if Chamber (0 = Perc Plate, 1 = Const Plate, 2 = Chamber) ;
+    min: 0
+    max: '2'
+  - name: Effect Select
+    value: '18'
+    description: '0 = Spring65, 1 = Plate140, 2 = Hall 224, 3 = Chamber ;'
+    min: 0
+    max: '3'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Mix
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Decay
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Predelay
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod
+    value: '27'
+    description: ''
+    min: 0
+    max: 127

@@ -1,0 +1,91 @@
+brand: Universal Audio
+model: Starlight
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Effect Up
+    value: '14'
+    description: Cycles up through Delay Types
+    min: 0
+    max: '1'
+  - name: Effect Down
+    value: '15'
+    description: Cycles down through Delay Types
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: A B C Select
+    value: '17'
+    description: |-
+      if Tape EP-III (0=Minty Clean, 1=Used Warm, 2=Dark Worn)
+      if Analog DMM (0=Vibrato,1=Mod Off, 2= Chorus)
+      if Precision Delay (0=Flanger, 1=Mod off, 2=Chorus)
+      if Cooper Time Cube (0=Filter Off, 1=Mid, 2=Hi)
+    min: 0
+    max: '2'
+  - name: Effect Select
+    value: '18'
+    description: >-
+      0 = Tape EP-III, 1 = Analog DMM, 2 = Precision Delay, 3 = Cooper Time Cube
+      ;
+    min: 0
+    max: '3'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Mix
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Division
+    value: '25'
+    description: >-
+      0 = Quarter Note, 1 = Dotted eighth note, 2 = Eighth note, 3 = Eighth note
+      triplet, 4 = Dual: quarter + dotted eighth, 5 = Dual: quarter+eigth ;
+    min: 0
+    max: '5'
+  - name: Color
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod
+    value: '27'
+    description: ''
+    min: 0
+    max: 127

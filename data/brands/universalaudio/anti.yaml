@@ -1,0 +1,170 @@
+brand: Universal Audio
+model: ANTI
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Output
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Cab Up
+    value: '14'
+    description: Cycles up through Cabs
+    min: 0
+    max: '1'
+  - name: Cab Down
+    value: '15'
+    description: Cycles down through Cabs
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: Channel Select
+    value: '17'
+    description: '0 = Rythm, 1 = Crunch, 2 = Lead ;'
+    min: 0
+    max: '2'
+  - name: Cab Select
+    value: '18'
+    description: >-
+      0 = Vee30, 1 = 4X12 CA Vee30, 2 = White75, 3 = D65, 4 = Super 80, 5 =
+      Brown JB, 6 = External ;
+    min: 0
+    max: '6'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Input
+    value: '21'
+    description: '0 = High, 1 = Low ;'
+    min: 0
+    max: '1'
+  - name: Pre
+    value: '22'
+    description: Adjusts the level of preamp gain
+    min: 0
+    max: 127
+  - name: Post
+    value: '25'
+    description: Adds another level of output gain with some harmonic content
+    min: 0
+    max: 127
+  - name: Bias
+    value: '26'
+    description: '0 = Cool, 1 = Warm, 2 = Cool Choke, 3 = Warm Choke ;'
+    min: 0
+    max: '3'
+  - name: Room
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Middle
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Presence
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Resonance
+    value: '35'
+    description: Adds low bass content
+    min: 0
+    max: 127
+  - name: Bright
+    value: '36'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost Enable
+    value: '40'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost Level
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Drive
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Tone
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Type
+    value: '45'
+    description: '0 = TS, 1 = TC ;'
+    min: 0
+    max: '1'
+  - name: Gate Enable
+    value: '70'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Gate Threshold
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Hold
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Attack
+    value: '73'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Release
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Attenuation
+    value: '75'
+    description: ''
+    min: 0
+    max: 127

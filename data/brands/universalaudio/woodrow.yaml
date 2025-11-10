@@ -1,0 +1,90 @@
+brand: Universal Audio
+model: Woodrow
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Output
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Cab Up
+    value: '14'
+    description: Cycles up through Cabs
+    min: 0
+    max: '1'
+  - name: Cab Down
+    value: '15'
+    description: Cycles down through Cabs
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: Boost Select
+    value: '17'
+    description: '0 = KP-3k, 1 = Stock, 2 = EP-III ;'
+    min: 0
+    max: '2'
+  - name: Cab Select
+    value: '18'
+    description: >-
+      0 = Blu15, 1 = JP12, 2 = GB25, 3 = Vee30, 4 = B-Man, 5 = JP120, 6 =
+      External ;
+    min: 0
+    max: '6'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Instrument Volume
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mic Volume
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Room
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tone
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Enable
+    value: '40'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost Gain
+    value: '41'
+    description: ''
+    min: 0
+    max: 127

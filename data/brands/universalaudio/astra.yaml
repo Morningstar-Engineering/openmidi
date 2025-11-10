@@ -1,0 +1,93 @@
+brand: Universal Audio
+model: Astra
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: FS Left
+    value: '12'
+    description: 1= toggles footswitch
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1= toggles footswitch
+    min: 0
+    max: '1'
+  - name: Effect Up
+    value: '14'
+    description: Cycles up through Modulation Types
+    min: 0
+    max: '1'
+  - name: Effect Down
+    value: '15'
+    description: Cycles down through Modulation Types
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: A B Select
+    value: '17'
+    description: |-
+      if Chorus(0=Chorus, 1=Vibrato)
+      if Flanger(0=Flanger, 1=Doubler)
+      if Tremelo(0=Sine, 1=Square)
+      if Phaser(0=Script, 1=Block)
+      if Dharma Trem (0=Classic, 1=Vibe-y)
+    min: 0
+    max: '1'
+  - name: Effect Select
+    value: '18'
+    description: '0 = Chorus, 1 = Flanger, 2 = Tremelo, 3 = Phaser, 4 = Dharma Trem ;'
+    min: 0
+    max: '4'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Speed
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Depth
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Intensity
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Shade
+    value: '25'
+    description: Adjusts Modulation Character
+    min: 0
+    max: 127
+  - name: Shape
+    value: '26'
+    description: Adjusts Modulation Character
+    min: 0
+    max: 127
+  - name: Mode
+    value: '27'
+    description: |-
+      if Chorus(0=Classic, 1=Dual)
+      if Flanger(0=Normal, 1=Invert)
+      if Tremelo(0=Mono, 1=Stereo Panned)
+      if Phaser(0=Dual Mono, 1=180 stereo offset)
+      if Dharma Trem (0=Dual Mono, 1=LFO stereo phase)
+    min: 0
+    max: '1'

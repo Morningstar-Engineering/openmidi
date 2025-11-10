@@ -2518,6 +2518,68 @@
         }
       ]
     },
+        {
+      "name": "Universal Audio",
+      "value": "universalaudio",
+      "models": [
+        {
+          "name": "ANTI",
+          "value": "anti"
+        },
+        {
+          "name": "Astra",
+          "value": "astra"
+        },
+        {
+          "name": "Del-Verb",
+          "value": "delverb"
+        },
+        {
+          "name": "Dream",
+          "value": "dream"
+        },
+        {
+          "name": "Enigmatic",
+          "value": "enigmatic"
+        },
+        {
+          "name": "Galaxy",
+          "value": "galaxy"
+        },
+        {
+          "name": "Golden",
+          "value": "golden"
+        },
+        {
+          "name": "Knuckles",
+          "value": "knuckles"
+        },
+        {
+          "name": "Lion",
+          "value": "lion"
+        },
+        {
+          "name": "Max",
+          "value": "max"
+        },
+        {
+          "name": "OX Stomp",
+          "value": "oxstomp"
+        },
+        {
+          "name": "Ruby",
+          "value": "ruby"
+        },
+        {
+          "name": "Starlight",
+          "value": "starlight"
+        },
+        {
+          "name": "Woodrow",
+          "value": "woodrow"
+        }
+      ]
+    },
     {
       "name": "Valeton",
       "value": "valeton",

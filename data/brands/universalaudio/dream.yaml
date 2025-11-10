@@ -1,0 +1,110 @@
+brand: Universal Audio
+model: Dream
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Output
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: FS Left
+    value: '12'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: FS Right
+    value: '13'
+    description: 1 = Switch Down ; 0 = Switch Up ;
+    min: 0
+    max: '1'
+  - name: Cab Up
+    value: '14'
+    description: Cycles up through Cabs
+    min: 0
+    max: '1'
+  - name: Cab Down
+    value: '15'
+    description: Cycles down through Cabs
+    min: 0
+    max: '1'
+  - name: Store
+    value: '16'
+    description: '1 = long press stores preset, 0 = Cancel ;'
+    min: 0
+    max: '1'
+  - name: Mod Select
+    value: '17'
+    description: '0 = Lead, 1 = Normal, 2 = D-Tex ;'
+    min: 0
+    max: '2'
+  - name: Cab Select
+    value: '18'
+    description: >-
+      0 = GB25, 1 = Oxford, 2 = Ev12, 3 = D65, 4 = S-Verb, 5 = JBF120, 6 =
+      External ;
+    min: 0
+    max: '6'
+  - name: Bypass
+    value: '19'
+    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
+    min: 0
+    max: '2'
+  - name: Volume
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost Enable
+    value: '40'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Boost Gain
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Enable
+    value: '50'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Reverb
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vib Enable
+    value: '60'
+    description: '0 = Off, 1 = On ;'
+    min: 0
+    max: '1'
+  - name: Vib Speed
+    value: '61'
+    description: ''
+    min: 0
+    max: 127
+  - name: Vib Intensity
+    value: '62'
+    description: ''
+    min: 0
+    max: 127
