@@ -1,0 +1,244 @@
+cc:
+- name: Abort
+  value: '1'
+  description: Stops engaged soundscape
+  min: 0
+  max: 0
+- name: Engage
+  value: '1'
+  description: Engages cued soundscape
+  min: '1'
+  max: '1'
+- name: 'Abort (Instant)'
+  value: '1'
+  description: Stops engaged soundscape with a 0ms release
+  min: '2'
+  max: '2'
+- name: 'Engage (Instant)'
+  value: '1'
+  description: Engages cued soundscape with a 0ms attack
+  min: '3'
+  max: '3'
+- name: 'PatchPage -'
+  value: '2'
+  description: Decrements Patch Page
+  min: 0
+  max: 0
+- name: PatchPage1
+  value: '2'
+  description: Set to Patch Page 1
+  min: '1'
+  max: '1'
+- name: PatchPage2
+  value: '2'
+  description: Set to Patch Page 2
+  min: '2'
+  max: '2'
+- name: PatchPage3
+  value: '2'
+  description: Set to Patch Page 3
+  min: '3'
+  max: '3'
+- name: PatchPage4
+  value: '2'
+  description: Set to Patch Page 4
+  min: '4'
+  max: '4'
+- name: PatchPage5
+  value: '2'
+  description: Set to Patch Page 5
+  min: '5'
+  max: '5'
+- name: 'PatchPage +'
+  value: '2'
+  description: Increments Patch Page
+  min: '127'
+  max: '127'
+- name: 'PatchSlot -'
+  value: '3'
+  description: Decrements Patch Slot
+  min: 0
+  max: 0
+- name: PatchSlot1
+  value: '3'
+  description: Set to Patch Slot 1
+  min: '1'
+  max: '1'
+- name: PatchSlot2
+  value: '3'
+  description: Set to Patch Slot 2
+  min: '2'
+  max: '2'
+- name: PatchSlot3
+  value: '3'
+  description: Set to Patch Slot 3
+  min: '3'
+  max: '3'
+- name: PatchSlot4
+  value: '3'
+  description: Set to Patch Slot 4
+  min: '4'
+  max: '4'
+- name: PatchSlot5
+  value: '3'
+  description: Set to Patch Slot 5
+  min: '5'
+  max: '5'
+- name: 'PatchSlot +'
+  value: '3'
+  description: Increments Patch Slot
+  min: '127'
+  max: '127'
+- name: 'Tonality -'
+  value: '4'
+  description: Decrements Tonality
+  min: 0
+  max: 0
+- name: 'Tonality: Major'
+  value: '4'
+  description: Set Tonality to Major
+  min: '1'
+  max: '1'
+- name: 'Tonality: Minor'
+  value: '4'
+  description: Set Tonality to Minor
+  min: '2'
+  max: '2'
+- name: 'Tonality: Neutral'
+  value: '4'
+  description: Set Tonality to Neutral
+  min: '3'
+  max: '3'
+- name: 'Tonality +'
+  value: '4'
+  description: Increments Tonality
+  min: '127'
+  max: '127'
+- name: 'Key -'
+  value: '5'
+  description: Decrements Key
+  min: 0
+  max: 0
+- name: A
+  value: '5'
+  description: Set Key to A
+  min: '1'
+  max: '1'
+- name: A#
+  value: '5'
+  description: Set Key to A#
+  min: '2'
+  max: '2'
+- name: B
+  value: '5'
+  description: Set Key to B
+  min: '3'
+  max: '3'
+- name: C
+  value: '5'
+  description: Set Key to C
+  min: '4'
+  max: '4'
+- name: C#
+  value: '5'
+  description: Set Key to C#
+  min: '5'
+  max: '5'
+- name: D
+  value: '5'
+  description: Set Key to D
+  min: '6'
+  max: '6'
+- name: D#
+  value: '5'
+  description: Set Key to D#
+  min: '7'
+  max: '7'
+- name: E
+  value: '5'
+  description: Set Key to E
+  min: '8'
+  max: '8'
+- name: F
+  value: '5'
+  description: Set Key to F
+  min: '9'
+  max: '9'
+- name: F#
+  value: '5'
+  description: Set Key to F#
+  min: '10'
+  max: '10'
+- name: G
+  value: '5'
+  description: Set Key to G
+  min: '11'
+  max: '11'
+- name: G#
+  value: '5'
+  description: Set Key to G#
+  min: '12'
+  max: '12'
+- name: 'Key +'
+  value: '5'
+  description: Increments Key
+  min: '127'
+  max: '127'
+- name: 'Song -'
+  value: '6'
+  description: Decrements Song
+  min: 0
+  max: 0
+- name: 'Song #'
+  value: '6'
+  description: Sets Song selection
+  min: '1'
+  max: '126'
+- name: 'Song +'
+  value: '6'
+  description: Increments Song
+  min: '127'
+  max: '127'
+- name: Toggle View
+  value: '7'
+  description: Toggles between Live View and Setlist View
+  min: 0
+  max: 0
+- name: Live View
+  value: '7'
+  description: Sets view to Live View
+  min: '1'
+  max: '1'
+- name: Setlist View
+  value: '7'
+  description: Sets view to Setlist View
+  min: '2'
+  max: '2'
+- name: Clear Setlist
+  value: '8'
+  description: Clears setlist
+  min: 0
+  max: 0
+- name: 'Volume Instant'
+  value: '10'
+  description: Instantly sets volume to value (best for dynamic / expression mapped value)
+  min: 0
+  max: '127'
+- name: 'Volume Smooth'
+  value: '11'
+  description: Smoothly fades volume to value (best for static / button triggered value)
+  min: 0
+  max: '127'
+- name: Crossfade
+  value: '13'
+  description: Sets the duration of the Crossfade
+  min: 0
+  max: '127'
+midi_channel:
+  instructions: ''
+midi_clock: ''
+midi_in: ''
+midi_thru: ''
+pc:
+  description: ''
+phantom_power: ''
