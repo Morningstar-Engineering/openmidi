@@ -37,6 +37,10 @@
         {
           "name": "Atmosphere v2",
           "value": "atmospherev2"
+        },
+        {
+          "name": "Atmosphere v3",
+          "value": "atmospherev3"
         }
       ]
     },
