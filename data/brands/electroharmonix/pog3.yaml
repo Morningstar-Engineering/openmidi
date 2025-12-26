@@ -1,0 +1,308 @@
+brand: Electro-Harmonix
+model: POG3 Polyphonic Octave Generator
+pc:
+  description: |+
+    PC Messages 1 to 100: Loads the preset associated with the MIDI PC number
+    PC Message 122: Equivalent to pressing the EFFECT footswitch
+    PC Message 123: Equivalent to a press on the PRESET Down footswitch
+    PC Message 124: Equivalent to a press on the PRESET Up footswitch
+    PC Message 125: Put the POG3 into bypass no matter the state of the POG3
+    PC Message 126: Enable Effect mode no matter the state of the POG3
+    PC Message 127: Toggle between loading the current preset or Live mode
+    PC Message 128: Go to Live mode, no matter the state of the POG3
+
+cc:
+  - name: DETUNE slider
+    value: 1
+    description: The mod wheel takes control of the Detune slider.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Expression pedal MSB
+    value: 4
+    description: Works in conjunction with MIDI CC 36 to provide detailed control over the expression pedal function.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: MASTER VOL knob
+    value: 7
+    description: Controls POG3’s output volume.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: INPUT GAIN slider
+    value: 9
+    description: Controls the INPUT GAIN slider.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Expression pedal LSB
+    value: 36
+    description: Works in conjunction with MIDI CC 4 to provide detailed control over the expression pedal function.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Disable LEFT output
+    value: 70
+    description: Disable the Left Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable LEFT output
+    value: 70
+    description: Enable the Left Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable RIGHT output
+    value: 71
+    description: Disable the Right Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable RIGHT output
+    value: 71
+    description: Enable the Right Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DIRECT output
+    value: 72
+    description: Disable the Direct Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DIRECT output
+    value: 72
+    description: Enable the Direct Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable EXP pedal
+    value: 73
+    description: Disable the Expression pedal.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable EXP pedal
+    value: 73
+    description: Enable the Expression pedal.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable FOCUS
+    value: 74
+    description: Disable FOCUS function.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable FOCUS
+    value: 74
+    description: Enable FOCUS function.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY ATTACK
+    value: 75
+    description: Disable the DRY ATTACK button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY ATTACK
+    value: 75
+    description: Enable the DRY ATTACK button (routes DRY signal through Attack effect).
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY FILTER
+    value: 76
+    description: Disable the DRY FILTER button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY FILTER
+    value: 76
+    description: Enable the DRY FILTER button (routes DRY signal through Filter).
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY DETUNE
+    value: 77
+    description: Disable the DRY DETUNE button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY DETUNE
+    value: 77
+    description: Enable the DRY DETUNE button (routes DRY signal through Detune effect).
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Home Screen
+    value: 78
+    description: Choose home screen view (0-4).
+    type: Parameter
+    min: 0
+    max: 4
+  - name: EFFECT Bypass
+    value: 79
+    description: Bypass the POG3 effect.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: EFFECT Enable
+    value: 79
+    description: Enable the POG3 effect.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Save to preset
+    value: 80
+    description: Save current POG3 settings to preset number (CC data value + 1). E.g., value 00 saves to Preset 1.
+    type: Parameter
+    min: 0
+    max: 99
+  - name: Load Preset and Effect On
+    value: 81
+    description: Load preset (CC data value + 1) and Enable POG3 effect. E.g., value 00 loads Preset 1.
+    type: Parameter
+    min: 0
+    max: 99
+  - name: Load Preset and Effect Off
+    value: 82
+    description: Load preset (CC data value + 1) and bypass POG3. E.g., value 00 loads Preset 1.
+    type: Parameter
+    min: 0
+    max: 99
+  - name: DRY Pan knob
+    value: 102
+    description: DRY L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -2 Pan knob
+    value: 103
+    description: -2 L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -1 Pan knob
+    value: 104
+    description: -1 L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +5th Pan knob
+    value: 105
+    description: +5th L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +1 Pan knob
+    value: 106
+    description: +1 L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +2 Pan knob
+    value: 107
+    description: +2 L/R position
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Q knob
+    value: 108
+    description: Q knob setting
+    type: Parameter
+    min: 0
+    max: 127
+  - name: ENV knob
+    value: 109
+    description: ENV knob setting
+    type: Parameter
+    min: 0
+    max: 127
+  - name: SPREAD knob
+    value: 110
+    description: SPREAD knob setting
+    type: Parameter
+    min: 0
+    max: 127
+  - name: DRY Level slider
+    value: 111
+    description: DRY volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -2 Level slider
+    value: 112
+    description: -2 volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: -1 Level slider
+    value: 113
+    description: -1 volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +5th Level slider
+    value: 114
+    description: +5th volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +1 Level slider
+    value: 115
+    description: +1 volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: +2 Level slider
+    value: 116
+    description: +2 volume
+    type: Parameter
+    min: 0
+    max: 127
+  - name: ATTACK slider
+    value: 117
+    description: Attack time
+    type: Parameter
+    min: 0
+    max: 127
+  - name: FILTER slider
+    value: 118
+    description: Filter frequency sweep
+    type: Parameter
+    min: 0
+    max: 127
+  - name: DETUNE slider
+    value: 119
+    description: Detune depth
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Local Control Off
+    value: 122
+    description: Disables physical control of sliders/knobs. Must be sent on Channel 16.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Local Control On
+    value: 122
+    description: Enables physical control of sliders/knobs. Must be sent on Channel 16.
+    type: Parameter
+    min: 1
+    max: 1
+  - name: OMNI OFF
+    value: 124
+    description: Disables OMNI MIDI Channel control. Must be sent on Channel 16.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: OMNI ON
+    value: 125
+    description: Enables OMNI MIDI Channel control. Must be sent on Channel 16.
+    type: Parameter
+    min: 0
+    max: 127
