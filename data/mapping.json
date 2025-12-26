@@ -524,6 +524,10 @@
         {
           "name": "ModRex",
           "value": "modrex"
+        },
+        {
+          "name": "POG3",
+          "value": "pog3"
         }
       ]
     },
