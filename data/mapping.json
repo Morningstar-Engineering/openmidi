@@ -1884,6 +1884,10 @@
         {
           "name": "Signal Blender Stereo",
           "value": "signalblenderstereo"
+        },
+        {
+          "name": "Sunlight Stereo Reverb",
+          "value": "sunlightstereo"
         }
       ]
     },
