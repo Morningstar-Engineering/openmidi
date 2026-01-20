@@ -1111,6 +1111,16 @@
       ]
     },
     {
+      "name": "Keeley Electronics",
+      "value": "keeleyelectronics",
+      "models": [
+        {
+          "name": "Nocturne",
+          "value": "nocturne"
+        }
+      ]
+    },
+    {
       "name": "Kemper",
       "value": "kemper",
       "models": [
