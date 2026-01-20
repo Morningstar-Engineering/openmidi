@@ -1910,6 +1910,16 @@
       ]
     },
     {
+      "name": "One Control",
+      "value": "onecontrol",
+      "models": [
+        {
+          "name": "Midi Solo Stereo Loop ",
+          "value": "midisolostereoloop"
+        }
+      ]
+    },
+    {
       "name": "OPFXS",
       "value": "OPFXS",
       "models": [
