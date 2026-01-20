@@ -811,6 +811,10 @@
           "name": "Dahlia Dual Analog Delay",
           "value": "dahlia"
         },
+       {
+          "name": "Hosta Wah Filter",
+          "value": "hostawahfilter"
+        },
         {
           "name": "Sunflower",
           "value": "sunflower"
