@@ -121,6 +121,10 @@
           "value": "radicaldelaydx"
         },
         {
+          "name": "Rewind",
+          "value": "rewind"
+        },
+        {
           "name": "SKY 5000",
           "value": "sky5000"
         },
