@@ -1,0 +1,102 @@
+brand: Keeley Electronics
+model: Nocturne
+email: joseph.j.tam@gmail.com
+url: 'https://robertkeeley.com/nocturne-instructions/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Reverb Input Level
+    value: '11'
+    description: Controls the input level to the reverb
+    min: 0
+    max: 127
+  - name: Reverb Tone
+    value: '12'
+    description: Controls the tone of the reverb
+    min: 0
+    max: 127
+  - name: Reverb Level
+    value: '13'
+    description: Controls the output level of the reverb
+    min: 0
+    max: 127
+  - name: Reverb Decay
+    value: '14'
+    description: Controls the decay of the reverb trails
+    min: 0
+    max: 127
+  - name: Reverb Modulation
+    value: '15'
+    description: Controls the depth of reverb modulation
+    min: 0
+    max: 127
+  - name: Reverb HPF
+    value: '16'
+    description: Controls the low end response of the reverb
+    min: 0
+    max: 127
+  - name: Reverb Pre-Delay Time
+    value: '17'
+    description: Controls the pre-delay time of the reverb
+    min: 0
+    max: 127
+  - name: Midi Clock Sync
+    value: '51'
+    description: >-
+      0-63 = off, 64-127= on. Sync tempo to Midi Clock. The unit will listen for
+      Midi Clock by default.
+    min: 0
+    max: 127
+  - name: Reverb Bypass
+    value: '102'
+    description: '0-63 = off, 64-127 = on. Turn the effect on or off.'
+    min: 0
+    max: 127
+  - name: Preset Bypass
+    value: '103'
+    description: '0-63 = off, 64-127 = on. Turn the preset on or off.'
+    min: 0
+    max: 127
+  - name: Reverb Mode
+    value: '104'
+    description: '0 = Nocturne, 1 = Spring, 2 = Plate. Switch between the reverb modes.'
+    min: 0
+    max: '2'
+  - name: Buffered/True-Bypass
+    value: '105'
+    description: >-
+      0-63 = buffered, 64-127 = true. Switch between buffered bypass or true
+      bypass.
+    min: 0
+    max: 127
+  - name: Trails
+    value: '106'
+    description: '0-63 = off, 64-127 = on. Toggle trails on or off.'
+    min: 0
+    max: 127
+  - name: Dry Signal
+    value: '107'
+    description: '0-63 = off, 64-127 = on. Toggle dry signal on or off.'
+    min: 0
+    max: 127
+  - name: Momentary/Latching
+    value: '108'
+    description: >-
+      0-63 = Momentary, 64-127 = Latching. Toggle between Momentary or Latching
+      switches for remote switching jack.
+    min: 0
+    max: 127
+  - name: Left Wet/Right Dry
+    value: '109'
+    description: >-
+      0-63 = off, 64-127 = on. When on, Left output is all wet and Right output
+      is all dry.
+    min: 0
+    max: 127
