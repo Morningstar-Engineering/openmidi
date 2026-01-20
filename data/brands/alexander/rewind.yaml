@@ -1,0 +1,96 @@
+brand: Alexander
+model: Rewind
+email: jandrewy@gmail.com
+url: 'https://www.alexanderpedals.com/s/Rewind-Manual-Web-101.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Knob 0 (PG1 upper L)
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 1 (PG1 upper R)
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 2 (PG1 lower L)
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 4 (PG2 upper L)
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 5 (PG2 upper R)
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 6 (PG2 lower L)
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 7 (PG2 lower R)
+    value: '57'
+    description: ''
+    min: 0
+    max: 127
+  - name: Knob 8 (PG3 upper L)
+    value: '58'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ramp Rate
+    value: '59'
+    description: ''
+    min: 0
+    max: 127
+  - name: Level
+    value: '60'
+    description: ''
+    min: 0
+    max: 127
+  - name: Ramp Trigger Mode
+    value: '61'
+    description: '0-50 TOGG, 51-110 MOM, 111-127 CLR*'
+    min: 0
+    max: 127
+  - name: SOUND MODE
+    value: '53'
+    description: >-
+      0-12 TAPE 13-25 ANALOG 26-37 DIGITAL 38-50 PITCH 51-63 DUAL 64-75 DIFFUSE
+      76-88 REVERSE 89-101 DYNAMIC 102-113 FILTER 114-127 LO-FI
+    min: 0
+    max: 127
+  - name: TAP TEMPO
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: RAMP TRIGGER
+    value: '97'
+    description: ''
+    min: 0
+    max: 127
+  - name: EXPRESSION PDL
+    value: '100'
+    description: '0 HEEL, 127 TOE'
+    min: 0
+    max: 127
+  - name: BYPASS
+    value: '102'
+    description: '0 BYP, 127 ON'
+    min: 0
+    max: 127
