@@ -1924,6 +1924,10 @@
           "value": "aby"
         },
         {
+          "name": "Hydra 4X",
+          "value": "hydra4x"
+        },
+        {
           "name": "Goblin-EXP in EHX Pitch Fork",
           "value": "goblinexpehxpitchfork"
         },
