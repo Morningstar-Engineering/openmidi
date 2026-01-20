@@ -1,0 +1,26 @@
+brand: One Control
+model: Minimal Series MIDI Solo Stereo Loop
+url: >-
+  https://cdn.shopify.com/s/files/1/0487/4731/5358/files/manual_minimalseriesmidisolostereoloopinspiredbyjoshsmith_v1.01_English_201224.pdf?v=1608790155
+midi_channel:
+  instructions: 'The side encode switch allows users to assign midi channel 1 through 4 to the loop.'
+midi_clock: No
+midi_in: Yes
+midi_thru: No
+pc:
+  description: |-
+    off: PC#0
+    on:  PC#1
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: off
+    value: '102'
+    description: 'disengage loop'
+    min: 0
+    max: 63
+  - name: on
+    value: '102'
+    description: 'engage loop'
+    min: 64
+    max: 127
