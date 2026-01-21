@@ -1,0 +1,71 @@
+brand: Disaster Area
+model: NNB Expanse Bridge
+url: https://static1.squarespace.com/static/5ffa32e2e3802f025d87246d/t/5ffbb69d3e841732519a4464/1610331807037/NNB+Manual+v1.0.pdf
+midi_in: DIN5
+
+midi_channel:
+  instructions: >
+    Power the NNB using the CAT5 or USB cable. Wait until the LED
+    starts flashing, then hold the switch to enter the config mode. 
+    Send a MIDI program change message from your controller on the channel you wish to use.
+    The NNB will set itself to that channel and save the setting. 
+    Unplug the NNB to restart.
+pc:
+  description: |
+    PC  | Effect    | Preset
+    ----------------------------------------
+    0   | No Change | Sets left knob to zero
+    1   | White     | Yellow
+    2   | White     | Violet
+    3   | Blue      | Yellow
+    4   | Blue      | Violet
+    5   | Green     | Yellow
+    6   | Green     | Violet
+    7   | Red       | Yellow
+    8   | Red       | Violet
+
+    Please note that sending MIDI Program 0 (zero) does not change the effect or preset option, but rather sets the left knob (Mix) to its minimum position.
+    This allows for a type of “bypass” even though the Expanse pedals do not support an actual bypass command.
+cc:
+  - name: Preset Morph
+    value: "7"
+    description: Allows you to morph between your two presets (Yellow and Violet). A
+      "preset" is how the knobs are set.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Left Knob
+    value: "16"
+    description: When using MIDI CC to control the Expanse pedal knob settings, note
+      that the maximum setting of the knob is controlled by the position of the
+      physical knob on the pedal itself. If you wish to access the entire range
+      of the knob using MIDI commands, set the knobs on the pedal to their
+      maximum positions.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Center Knob
+    value: "17"
+    description: When using MIDI CC to control the Expanse pedal knob settings, note
+      that the maximum setting of the knob is controlled by the position of the
+      physical knob on the pedal itself. If you wish to access the entire range
+      of the knob using MIDI commands, set the knobs on the pedal to their
+      maximum positions.
+    min: 0
+    max: 127
+  - name: Right Knob
+    value: "18"
+    description: When using MIDI CC to control the Expanse pedal knob settings, note
+      that the maximum setting of the knob is controlled by the position of the
+      physical knob on the pedal itself. If you wish to access the entire range
+      of the knob using MIDI commands, set the knobs on the pedal to their
+      maximum positions.
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Effect Select
+    value: "19"
+    description: 0 = White, 1 = Blue, 2 = Green, 3 = Red
+    type: Parameter
+    min: 0
+    max: 3

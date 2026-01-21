@@ -468,6 +468,10 @@
           "value": "dpcmicro"
         },
         {
+          "name": "NNB Expanse Bridge",
+          "value": "nnb"
+        },
+        {
           "name": "Micro Clock Gen4",
           "value": "microclockgen4"
         }
