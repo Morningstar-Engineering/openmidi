@@ -1,8 +1,7 @@
 brand: Morningstar Engineering
 model: MC8 PRO
 email: kristine@morningstarfx.com
-url: >-
-  https://manuals.morningstar.io/mc-midi-controller/MC8-PRO.1476657154.html#MC8PRO-CCMessages
+url:
 midi_channel:
   instructions: ''
 midi_clock: unknown
@@ -312,13 +311,4 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Engage Expression 3
-    value: '53'
-    description: ''
-    min: 0
-    max: 127
-  - name: Engage Expression 4
-    value: '54'
-    description: ''
-    min: 0
-    max: 127
+
