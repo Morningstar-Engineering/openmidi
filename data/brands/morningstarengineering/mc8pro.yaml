@@ -30,14 +30,7 @@ cc:
     max: 127
   - name: Set Toggle (Individual)
     value: '2'
-    description: |-
-      0 = Preset A
-      1 = Preset B
-      2 = Preset C
-      .
-      .
-      .
-      11 = Preset L
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
     min: 0
     max: '11'
   - name: Clear Toggle (All)
@@ -47,14 +40,7 @@ cc:
     max: 127
   - name: Clear Toggle (Individual)
     value: '3'
-    description: |-
-      0 = Preset A
-      1 = Preset B
-      2 = Preset C
-      .
-      .
-      .
-      11 = Preset L
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
     min: 0
     max: '11'
   - name: Toggle Page
@@ -124,6 +110,150 @@ cc:
       0 = Last used Bank. Ignore bank presets
     min: 0
     max: 127
+  - name: 'Engage Preset A'
+    value: 10
+    description: 'Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll'
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset B'
+    value: 11
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset C'
+    value: 12
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset D'
+    value: 13
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset E'
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset F'
+    value: 15
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset G'
+    value: 16
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset H'
+    value: 17
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset I'
+    value: 18
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset J'
+    value: 19
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset K'
+    value: 20
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset L'
+    value: 21
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset M'
+    value: 22
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset N'
+    value: 23
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset O'
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset P'
+    value: 25
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset Q'
+    value: 26
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset R'
+    value: 27
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset S'
+    value: 28
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset T'
+    value: 29
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset U'
+    value: 30
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset V'
+    value: 31
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset W'
+    value: 32
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset X'
+    value: 33
+    description: ''
+    type: System
+    min: 0
+    max: 10
   - name: Control Relay A Tip
     value: '40'
     description: |-
