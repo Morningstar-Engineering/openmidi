@@ -1,0 +1,840 @@
+brand: Oscillator Devices
+model: Hydra 4x
+email: kristine@morningstarfx.com
+url: >-
+  https://oscillatordevices.com/doc/oscillator_devices_hydra4x_user_manual_en.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Loop Red
+    value: '20'
+    description: Disable Loop
+    min: 0
+    max: '0'
+  - name: Loop Red
+    value: '20'
+    description: Enable Loop
+    min: '1'
+    max: '1'
+  - name: Loop Red
+    value: '20'
+    description: Toogle Loop (On to Off and Off to On)
+    min: '2'
+    max: '2'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 1 and keep state
+    min: '10'
+    max: '10'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 1 and enable it
+    min: '11'
+    max: '11'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 2 and keep state
+    min: '20'
+    max: '20'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 2 and enable it
+    min: '21'
+    max: '21'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 3 and keep state
+    min: '30'
+    max: '30'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 3 and enable it
+    min: '31'
+    max: '31'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 4 and keep state
+    min: '40'
+    max: '40'
+  - name: Loop Red
+    value: '20'
+    description: Set Loop to Position 4 and enable it
+    min: '41'
+    max: '41'
+  - name: Loop Green
+    value: '21'
+    description: Disable Loop
+    min: 0
+    max: '0'
+  - name: Loop Green
+    value: '21'
+    description: Enable Loop
+    min: '1'
+    max: '1'
+  - name: Loop Green
+    value: '21'
+    description: Toogle Loop (On to Off and Off to On)
+    min: '2'
+    max: '2'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 1 and keep state
+    min: '10'
+    max: '10'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 1 and enable it
+    min: '11'
+    max: '11'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 2 and keep state
+    min: '20'
+    max: '20'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 2 and enable it
+    min: '21'
+    max: '21'
+  - name: Loop Green
+    value: '21'
+    description: ' Set Loop to Position 3 and keep state'
+    min: '30'
+    max: '30'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 3 and enable it
+    min: '31'
+    max: '31'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 4 and keep state
+    min: '40'
+    max: '40'
+  - name: Loop Green
+    value: '21'
+    description: Set Loop to Position 4 and enable it
+    min: '41'
+    max: '41'
+  - name: Loop Blue
+    value: '22'
+    description: Disable Loop
+    min: 0
+    max: '0'
+  - name: Loop Blue
+    value: '22'
+    description: Enable Loop
+    min: 0
+    max: '1'
+  - name: Loop Blue
+    value: '22'
+    description: Toogle Loop (On to Off and Off to On)
+    min: '2'
+    max: '2'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 1 and keep state
+    min: '10'
+    max: '10'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 1 and enable it
+    min: '11'
+    max: '11'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 2 and keep state
+    min: '20'
+    max: '20'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 2 and enable it
+    min: '21'
+    max: '21'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 3 and keep state
+    min: '30'
+    max: '30'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 3 and enable it
+    min: '31'
+    max: '31'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 4 and keep state
+    min: '40'
+    max: '40'
+  - name: Loop Blue
+    value: '22'
+    description: Set Loop to Position 4 and enable it
+    min: '41'
+    max: '41'
+  - name: Loop Yellow
+    value: '23'
+    description: Disable Loop
+    min: 0
+    max: '0'
+  - name: Loop Yellow
+    value: '23'
+    description: Enable Loop
+    min: '1'
+    max: '1'
+  - name: Loop Yellow
+    value: '23'
+    description: Toogle Loop (On to Off and Off to On)
+    min: '2'
+    max: '2'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 1 and keep state
+    min: '10'
+    max: '10'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 1 and enable it
+    min: '11'
+    max: '11'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 2 and keep state
+    min: '20'
+    max: '20'
+  - name: Loop Yellow
+    value: '23'
+    description: ' Set Loop to Position 2 and enable it'
+    min: '21'
+    max: '21'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 3 and keep state
+    min: '30'
+    max: '30'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 3 and enable it
+    min: '31'
+    max: '31'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 4 and keep state
+    min: '40'
+    max: '40'
+  - name: Loop Yellow
+    value: '23'
+    description: Set Loop to Position 4 and enable it
+    min: '41'
+    max: '41'
+  - name: CC 25
+    value: '25'
+    description: Red ↔ Green
+    min: 0
+    max: '0'
+  - name: CC 25
+    value: '25'
+    description: 'Red ↔ Blue '
+    min: '1'
+    max: '1'
+  - name: CC 25
+    value: '25'
+    description: Red ↔ Yellow
+    min: '2'
+    max: '2'
+  - name: CC 25
+    value: '25'
+    description: Green ↔ Blue
+    min: '3'
+    max: '3'
+  - name: CC 25
+    value: '25'
+    description: Green ↔ Yellow
+    min: '4'
+    max: '4'
+  - name: CC 25
+    value: '25'
+    description: Blue ↔ Yellow
+    min: '5'
+    max: '5'
+  - name: Loop Vol
+    value: '26'
+    description: Mute
+    min: 0
+    max: '0'
+  - name: Loop Vol
+    value: '26'
+    description: '-24dB '
+    min: '1'
+    max: '1'
+  - name: Loop Vol
+    value: '26'
+    description: '-21dB '
+    min: '2'
+    max: '2'
+  - name: Loop Vol
+    value: '26'
+    description: '-18dB'
+    min: '3'
+    max: '3'
+  - name: Loop Vol
+    value: '26'
+    description: '-15dB '
+    min: '4'
+    max: '4'
+  - name: Loop Vol
+    value: '6'
+    description: '-12dB '
+    min: '5'
+    max: '5'
+  - name: Loop Vol
+    value: '26'
+    description: '-9dB '
+    min: '6'
+    max: '6'
+  - name: Loop Vol
+    value: '26'
+    description: '-6dB'
+    min: '7'
+    max: '7'
+  - name: Loop Vol
+    value: '26'
+    description: '-3dB'
+    min: '8'
+    max: '8'
+  - name: Loop Vol
+    value: '26'
+    description: 'Unity Gain '
+    min: '9'
+    max: '9'
+  - name: Loop Vol
+    value: '26'
+    description: +2dB
+    min: '10'
+    max: '10'
+  - name: Loop Vol
+    value: '26'
+    description: +4dB
+    min: '11'
+    max: '11'
+  - name: Loop Vol
+    value: '26'
+    description: +6dB
+    min: '12'
+    max: '12'
+  - name: Loop Vol
+    value: '26'
+    description: +8dB
+    min: '13'
+    max: '13'
+  - name: Loop Vol
+    value: '26'
+    description: +10dB
+    min: '14'
+    max: '14'
+  - name: Loop Vol
+    value: '26'
+    description: +12dB
+    min: '15'
+    max: '15'
+  - name: Post Vol
+    value: '27'
+    description: Mute
+    min: 0
+    max: '0'
+  - name: Post Vol
+    value: '27'
+    description: '-24dB'
+    min: '1'
+    max: '1'
+  - name: Post Vol
+    value: '27'
+    description: '-21dB'
+    min: '2'
+    max: '2'
+  - name: Post Vol
+    value: '27'
+    description: '-18dB '
+    min: '3'
+    max: '3'
+  - name: Post Vol
+    value: '27'
+    description: '-15dB '
+    min: '4'
+    max: '4'
+  - name: Post Vol
+    value: '27'
+    description: '-12dB'
+    min: '5'
+    max: '5'
+  - name: Post Vol
+    value: '27'
+    description: '-9dB '
+    min: '6'
+    max: '6'
+  - name: Post Vol
+    value: '27'
+    description: '-6dB'
+    min: 0
+    max: '7'
+  - name: Post Vol
+    value: '27'
+    description: '-3dB'
+    min: '8'
+    max: '8'
+  - name: Post Vol
+    value: '27'
+    description: 'Unity Gain '
+    min: '9'
+    max: '9'
+  - name: Post Vol
+    value: '27'
+    description: '+2dB '
+    min: '10'
+    max: '10'
+  - name: Post Vol
+    value: '27'
+    description: '+4dB '
+    min: '11'
+    max: '11'
+  - name: Post Vol
+    value: '27'
+    description: +6dB
+    min: '12'
+    max: '12'
+  - name: Post Vol
+    value: '27'
+    description: +8dB
+    min: '13'
+    max: '13'
+  - name: Post Vol
+    value: '27'
+    description: +10dB
+    min: '14'
+    max: '14'
+  - name: Post Vol
+    value: '27'
+    description: +12dB
+    min: '15'
+    max: '15'
+  - name: CC 28
+    value: '28'
+    description: 'After the input buffer, before all loops'
+    min: 0
+    max: '0'
+  - name: CC 28
+    value: '28'
+    description: Before loop Red
+    min: '1'
+    max: '1'
+  - name: CC 28
+    value: '28'
+    description: 'Before loop Green '
+    min: '2'
+    max: '2'
+  - name: CC 28
+    value: '28'
+    description: Before loop Blue
+    min: '3'
+    max: '3'
+  - name: CC 28
+    value: '28'
+    description: Before loop Yellow
+    min: '4'
+    max: '4'
+  - name: CC 28
+    value: '28'
+    description: After loop Red
+    min: '9'
+    max: '9'
+  - name: CC 28
+    value: '28'
+    description: After loop Green
+    min: '10'
+    max: '10'
+  - name: CC 28
+    value: '28'
+    description: After loop Blue
+    min: '11'
+    max: '11'
+  - name: CC 28
+    value: '28'
+    description: After loop Yellow
+    min: '12'
+    max: '12'
+  - name: CC 29
+    value: '29'
+    description: 'Off'
+    min: 0
+    max: '0'
+  - name: CC 29
+    value: '29'
+    description: Red
+    min: '1'
+    max: '1'
+  - name: CC 29
+    value: '29'
+    description: Green
+    min: '2'
+    max: '2'
+  - name: CC 29
+    value: '29'
+    description: 'Red + Green '
+    min: '3'
+    max: '3'
+  - name: CC 29
+    value: '29'
+    description: Blue
+    min: '4'
+    max: '4'
+  - name: CC 29
+    value: '29'
+    description: 'Blue + Red '
+    min: '5'
+    max: '5'
+  - name: CC 29
+    value: '29'
+    description: 'Blue + Green '
+    min: '6'
+    max: '6'
+  - name: CC 29
+    value: '29'
+    description: 'Blue + Red + Green '
+    min: '7'
+    max: '7'
+  - name: CC 29
+    value: '29'
+    description: Yellow
+    min: '8'
+    max: '8'
+  - name: CC 29
+    value: '29'
+    description: 'Yellow + Red '
+    min: '9'
+    max: '9'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Green
+    min: '10'
+    max: '10'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Red + Green
+    min: '11'
+    max: '11'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Blue
+    min: '12'
+    max: '12'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Blue + Red
+    min: '13'
+    max: '13'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Blue + Green
+    min: '14'
+    max: '14'
+  - name: CC 29
+    value: '29'
+    description: Yellow + Blue + Green + Red
+    min: '15'
+    max: '15'
+  - name: CC 30
+    value: '30'
+    description: 'Off'
+    min: 0
+    max: '0'
+  - name: CC 30
+    value: '30'
+    description: Red
+    min: '1'
+    max: '1'
+  - name: CC 30
+    value: '30'
+    description: 'Green '
+    min: '2'
+    max: '2'
+  - name: CC 30
+    value: '30'
+    description: 'Red + Green '
+    min: '3'
+    max: '3'
+  - name: CC 30
+    value: '30'
+    description: 'Blue '
+    min: '4'
+    max: '4'
+  - name: CC 30
+    value: '30'
+    description: Blue + Red
+    min: '5'
+    max: '5'
+  - name: CC 30
+    value: '30'
+    description: Blue + Green
+    min: '6'
+    max: '6'
+  - name: CC 30
+    value: '30'
+    description: 'Blue + Red + Green '
+    min: '7'
+    max: '7'
+  - name: CC 30
+    value: '30'
+    description: 'Yellow '
+    min: '8'
+    max: '8'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Red
+    min: '9'
+    max: '9'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Green
+    min: '10'
+    max: '10'
+  - name: CC 30
+    value: '30'
+    description: 'Yellow + Red + Green '
+    min: '11'
+    max: '11'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Blue
+    min: '12'
+    max: '12'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Blue + Red
+    min: '13'
+    max: '13'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Blue + Green
+    min: '14'
+    max: '14'
+  - name: CC 30
+    value: '30'
+    description: Yellow + Blue + Green + Red
+    min: '15'
+    max: '15'
+  - name: CC 31
+    value: '31'
+    description: '- || - '
+    min: 0
+    max: '0'
+  - name: CC 31
+    value: '31'
+    description: Red || Green
+    min: '1'
+    max: '1'
+  - name: CC 31
+    value: '31'
+    description: 'Green || Blue '
+    min: '2'
+    max: '2'
+  - name: CC 31
+    value: '31'
+    description: Blue || Yellow
+    min: '3'
+    max: '3'
+  - name: CC 31
+    value: '31'
+    description: 'Green || Yellow '
+    min: '4'
+    max: '4'
+  - name: CC 31
+    value: '31'
+    description: Red || Blue
+    min: '5'
+    max: '5'
+  - name: CC 31
+    value: '31'
+    description: Red || Yellow
+    min: '6'
+    max: '6'
+  - name: CC 31
+    value: '31'
+    description: Red || Green + Blue
+    min: '7'
+    max: '7'
+  - name: CC 31
+    value: '31'
+    description: Red || Green + Yellow
+    min: '8'
+    max: '8'
+  - name: CC 31
+    value: '31'
+    description: 'Red || Blue + Yellow '
+    min: '9'
+    max: '9'
+  - name: CC 31
+    value: '31'
+    description: 'Green || Red + Blue '
+    min: '10'
+    max: '10'
+  - name: CC 31
+    value: '31'
+    description: 'Green || Red + Yellow '
+    min: '11'
+    max: '11'
+  - name: CC 31
+    value: '31'
+    description: 'Green || Blue + Yellow '
+    min: '12'
+    max: '12'
+  - name: CC 31
+    value: '31'
+    description: Blue || Red + Yellow
+    min: '13'
+    max: '13'
+  - name: CC 31
+    value: '31'
+    description: Blue || Green + Yellow
+    min: '14'
+    max: '14'
+  - name: CC 31
+    value: '31'
+    description: Blue || Red + Green
+    min: '15'
+    max: '15'
+  - name: CC 31
+    value: '31'
+    description: Yellow || Red + Green
+    min: '16'
+    max: '16'
+  - name: CC 31
+    value: '31'
+    description: Yellow || Red + Blue
+    min: '17'
+    max: '17'
+  - name: CC 31
+    value: '31'
+    description: Yellow || Green + Blue
+    min: '18'
+    max: '18'
+  - name: CC 31
+    value: '31'
+    description: Red + Green || Blue + Yellow
+    min: '19'
+    max: '19'
+  - name: CC 31
+    value: '31'
+    description: Red + Blue || Green + Yellow
+    min: '20'
+    max: '20'
+  - name: CC 31
+    value: '31'
+    description: Yellow + Red || Green + Blue
+    min: '21'
+    max: '21'
+  - name: CC 31
+    value: '31'
+    description: Red || Green + Blue + Yellow
+    min: '22'
+    max: '22'
+  - name: CC 31
+    value: '31'
+    description: Green || Red + Blue + Yellow
+    min: '23'
+    max: '23'
+  - name: CC 31
+    value: '31'
+    description: Blue || Red + Green + Yellow
+    min: '24'
+    max: '24'
+  - name: CC 31
+    value: '31'
+    description: Yellow || Red + Green + Blue
+    min: '25'
+    max: '25'
+  - name: CC 32
+    value: '32'
+    description: 'No Split Loops '
+    min: 0
+    max: '0'
+  - name: CC 32
+    value: '32'
+    description: Loop 1
+    min: '1'
+    max: '1'
+  - name: CC 32
+    value: '32'
+    description: 'Loop 2 '
+    min: '2'
+    max: '2'
+  - name: CC 32
+    value: '32'
+    description: ' Loop 1 + 2 '
+    min: '3'
+    max: '3'
+  - name: CC 32
+    value: '32'
+    description: Loop 3
+    min: '4'
+    max: '4'
+  - name: CC 32
+    value: '32'
+    description: Loop 1 + 3
+    min: '5'
+    max: '5'
+  - name: CC 32
+    value: '32'
+    description: Loop 2 + 3
+    min: '6'
+    max: '6'
+  - name: CC 32
+    value: '32'
+    description: 'Loop 1 + 2 + 3 '
+    min: '7'
+    max: '7'
+  - name: CC 32
+    value: '32'
+    description: 'Loop 4 '
+    min: '8'
+    max: '8'
+  - name: CC 32
+    value: '32'
+    description: Loop 1 + 4
+    min: '9'
+    max: '9'
+  - name: CC 32
+    value: '32'
+    description: 'Loop 2 + 4 '
+    min: '10'
+    max: '10'
+  - name: CC 32
+    value: '32'
+    description: Loop 1 + 2 + 4
+    min: '11'
+    max: '11'
+  - name: CC 32
+    value: '32'
+    description: Loop 3 + 4
+    min: '12'
+    max: '12'
+  - name: CC 32
+    value: '32'
+    description: Loop 1 + 3 + 4
+    min: '13'
+    max: '13'
+  - name: CC 32
+    value: '32'
+    description: Loop 2 + 3 + 4
+    min: '14'
+    max: '14'
+  - name: CC 32
+    value: '32'
+    description: All Loops
+    min: '15'
+    max: '15'

@@ -1,0 +1,226 @@
+brand: Flower Pedals
+model: Hosta Wah Filter
+email: mattkauff@flower-pedals.com
+url: flower-pedals.com/hosta
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Auto Mode
+    value: '14'
+    description: Set the wah mode to Auto
+    min: 0
+    max: '42'
+  - name: Fixed Mode
+    value: '14'
+    description: Set the wah mode to Fixed
+    min: '43'
+    max: '85'
+  - name: Envelope Mode
+    value: '14'
+    description: Set the wah mode to Envelope
+    min: '86'
+    max: 127
+  - name: Momentary Ramp (Auto)
+    value: '15'
+    description: Set the ramping mode (in auto wah mode) to momentary
+    min: 0
+    max: '42'
+  - name: Latch Ramp (Auto
+    value: '15'
+    description: Set the ramping mode (in auto wah mode) to latching
+    min: '43'
+    max: '85'
+  - name: Drift Mode (Auto)
+    value: '15'
+    description: Enable drift mode (in auto wah mode)
+    min: '86'
+    max: 127
+  - name: Ramp Up (Fixed)
+    value: '16'
+    description: Ramp up momentarily when holding ramp footswitch (in fixed wah mode)
+    min: 0
+    max: '42'
+  - name: Ramp Latch (Fixed
+    value: '16'
+    description: Wah will ramp to toe or heel position and latch (in fixed wah mode)
+    min: '43'
+    max: '85'
+  - name: Ramp Down (Fixed)
+    value: '16'
+    description: Ramp down momentarily when holding ramp footswitch (in fixed wah mode)
+    min: '86'
+    max: '127'
+  - name: Ramp Up (Env)
+    value: '17'
+    description: >-
+      Envelope will start at heel position and rise with signal strength (in
+      envelop mode)
+    min: 0
+    max: '64'
+  - name: Ramp Down (Env)
+    value: '17'
+    description: >-
+      Envelope will start at toe position and fall with signal strength (in
+      envelope mode)
+    min: '65'
+    max: '127'
+  - name: Level
+    value: '18'
+    description: Output level of pedal
+    min: 0
+    max: 127
+  - name: Depth
+    value: '19'
+    description: Sets how wide the frequency sweep of the wah is
+    min: 0
+    max: 127
+  - name: Q
+    value: '20'
+    description: Sets the Q value for the filter
+    min: 0
+    max: 127
+  - name: Frequency
+    value: '21'
+    description: Sets the center frequency of the wah filter
+    min: 0
+    max: 127
+  - name: Speed (Auto)
+    value: '22'
+    description: Sets the speed of the auto wah LFO (in auto mode)
+    min: 0
+    max: 127
+  - name: Speed (Fixed)
+    value: '23'
+    description: Sets how fast the ramping from heel to toe happens (in fixed mode)
+    min: 0
+    max: 127
+  - name: Sensitivity (Env)
+    value: '24'
+    description: >-
+      Sets the sensitivity of the envelope detector to the incoming signal (in
+      envelope mode)
+    min: 0
+    max: 127
+  - name: Shape (Auto)
+    value: '25'
+    description: Sets the shape of the LFO (in auto mode)
+    min: 0
+    max: 127
+  - name: Release (Env)
+    value: '27'
+    description: Sets the speed of the release on the envelope follower (in envelope mode)
+    min: 0
+    max: 127
+  - name: Ramp To (Auto)
+    value: '28'
+    description: Sets the speed to which the LFO will ramp to (in auto mode)
+    min: 0
+    max: 127
+  - name: Drift Speed (Auto)
+    value: '29'
+    description: >-
+      Sets the speed at which the LFO speed will drift up and down (in auto
+      mode)
+    min: 0
+    max: 127
+  - name: Drift Depth (Auto)
+    value: '30'
+    description: Sets how far the speed of the LFO will drift (in auto mode)
+    min: 0
+    max: 127
+  - name: Ramp Speed (Auto)
+    value: '31'
+    description: >-
+      Sets the speed at which the LFO speed will ramp from one setting to
+      another (in auto mode)
+    min: 0
+    max: 127
+  - name: Division 1/2 (Auto)
+    value: '32'
+    description: Sets tap division to a half note (in auto mode)
+    min: 0
+    max: '25'
+  - name: Division 1/4 (Auto)
+    value: '32'
+    description: Sets tap division to a quarter note (in auto mode)
+    min: '26'
+    max: '51'
+  - name: Division Dotted 1/8 (Auto)
+    value: '32'
+    description: Sets tap division to a dotted eighth note (in auto mode)
+    min: '52'
+    max: '76'
+  - name: Division 1/8 (Auto)
+    value: '32'
+    description: Sets tap division to an eighth note (in auto mode)
+    min: '77'
+    max: '102'
+  - name: Division Triplet 1/8 (Auto)
+    value: '32'
+    description: Sets tap division to a triplet eighth note (in auto mode)
+    min: '103'
+    max: '127'
+  - name: Attack (Env)
+    value: '33'
+    description: Sets the attach speed for the envelope follower (in envelope mode)
+    min: 0
+    max: 127
+  - name: Tempo (Auto)
+    value: '34'
+    description: Sets the speed of the LFO according to the tempo (in BPM) (in auto mode)
+    min: '1'
+    max: 127
+  - name: Tempo X2 (Auto)
+    value: '35'
+    description: Sets the speed of the LFO according to the tempo in BPM x2 (in auto mode)
+    min: '1'
+    max: 127
+  - name: Ramp Engage
+    value: '36'
+    description: Engages the ramp function
+    min: 0
+    max: '63'
+  - name: Ramp Disengage
+    value: '36'
+    description: Disengages the ramp function
+    min: '64'
+    max: 127
+  - name: Pedal Engage
+    value: '37'
+    description: Engages the pedal
+    min: 0
+    max: '42'
+  - name: Pedal Disengage
+    value: '37'
+    description: Disengages the pedal
+    min: '43'
+    max: '85'
+  - name: Pedal Toggle
+    value: '37'
+    description: Toggles the pedal on or off
+    min: '86'
+    max: 127
+  - name: MIDI Clock Sync
+    value: '38'
+    description: Pedal LFO will sync to MIDI (in auto mode)
+    min: 0
+    max: '63'
+  - name: MIDI Clock Ignore
+    value: '38'
+    description: Pedal will ignore MIDI clock signal
+    min: '64'
+    max: 127
+  - name: Expression
+    value: '39'
+    description: >-
+      Operates the expression function of the pedal where 0 is heel and 127 is
+      toe
+    min: 0
+    max: 127

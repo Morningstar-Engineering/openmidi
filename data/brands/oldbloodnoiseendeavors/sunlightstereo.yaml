@@ -1,0 +1,206 @@
+brand: Old Blood Noise Endeavors
+model: Sunlight Stereo
+email: marklarssen@gmail.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/68f705e439fb6a682aaa9201/1761019364706/Instruction+Manual+-+Sunlight+-+02.1.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Expression
+    value: '11'
+    description: Expression
+    min: 0
+    max: 127
+  - name: Dry
+    value: '14'
+    description: Dry signal level
+    min: 0
+    max: 127
+  - name: Dynamics
+    value: '15'
+    description: >-
+      0 - 63: your signal strength causes the LFO to go faster or slower
+      (depending
+
+      on the Rate setting) with increasing intensity. 
+
+      64: no dynamics are engaged. 
+
+      65 - 127: a dynamic element is introduced to
+
+      the reverb, where only signals above a certain threshold are let in, and
+      while those signals are
+
+      let in, the decay of the reverb is decreased as well to clear out existing
+      trail
+    min: 0
+    max: 127
+  - name: '   Decay'
+    value: '16'
+    description: >-
+      Decay sets the length of the reverb trail by feeding some of it back into
+      itself
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '17'
+    description: Feedback sets the feedback of the post-reverb delay.
+    min: 0
+    max: 127
+  - name: Rate
+    value: '18'
+    description: 'Rate sets the rate of the LFO, from slow to fast.'
+    min: 0
+    max: 127
+  - name: Depth
+    value: '19'
+    description: >-
+      Depth sets the depth of the LFO. All the way down means no movement will
+      occur
+    min: 0
+    max: 127
+  - name: Shape
+    value: '20'
+    description: |-
+      Tape: 0 - 10.
+      Triangle: 11 - 29
+      Square: 30 - 63
+      Ramp Up: 64 - 102
+      Ramp Down: 103 - 118
+      Random: 119 - 127
+    min: 0
+    max: 127
+  - name: Time
+    value: '21'
+    description: >-
+      Time sets the delay time of the post-reverb delay, focused on very short
+      times and going up to
+
+      218ms.
+    min: 0
+    max: 127
+  - name: Freq
+    value: '22'
+    description: "Freq sets the cuto\x1E frequency of the post-delay \x1Flter, from 0Hz to 5kHz. The further this knob is\nturned up, the more the \x1Flter is allowed to modulate when the LFO is on, going up to 10kHz at full\nmodulation."
+    min: 0
+    max: 127
+  - name: Wet
+    value: '23'
+    description: Wet sets the volume of the wet signal.
+    min: 0
+    max: 127
+  - name: Subdivisions
+    value: '24'
+    description: |-
+      ÷4: 0 - 18.
+      ÷3: 19 - 36
+      ÷2: 37 - 54
+      X1: 55 - 72
+      X2: 73 - 90
+      X3: 91 - 108
+      X4: 109 - 127
+    min: 0
+    max: 127
+  - name: Filter Type
+    value: '25'
+    description: |-
+      Low Pass: 0 - 31
+      Band Pass: 32 - 63
+      High Pass: 64 - 95
+      Band Reject: 96 - 127
+    min: 0
+    max: 127
+  - name: On/Off switch
+    value: '26'
+    description: |-
+      Off: 0 - 63
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '27'
+    description: |-
+      Tap Pulse: 0
+      (no response for 1 - 127)
+    min: 0
+    max: '0'
+  - name: Hold Switch
+    value: '28'
+    description: |
+      Off: 0 - 63
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: LFO Time Switch
+    value: '29'
+    description: |-
+      Off: 0 - 63 
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: LFO Freq Switch
+    value: '30'
+    description: |-
+      Off: 0 - 63 
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: LFO Wet Switch
+    value: '31'
+    description: |-
+      Off: 0 - 63 
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: Trails Setting
+    value: '85'
+    description: |-
+      Off: 0 - 63 
+      On: 64 - 127
+    min: 0
+    max: 127
+  - name: "Routing (Mono, Mono to Stereo, Stereo)\t"
+    value: '86'
+    description: 'Mono: 0 - 42 Mono in Stereo Out: 43 - 85 Stereo: 86 - 127'
+    min: 0
+    max: 127
+  - name: Midi Clock Input Mode
+    value: '87'
+    description: |-
+      Accept Clock In and Send Clock Thru: 0 - 31
+      Accept Clock In Only: 32 - 63
+      Send Clock Out Only: 64 - 95
+      Deactivate Clock: 96 - 127
+    min: 0
+    max: 127
+  - name: Aux Switch Function setting
+    value: '89'
+    description: |-
+      Freeze: 0 - 42
+      Tap Tempo: 43 - 85
+      Confirm Save: 86 - 127
+    min: 0
+    max: 127
+  - name: Preset Saving Switch Function setting
+    value: '90'
+    description: |-
+      Cancel Save: 0 - 42
+      Start Save: 43 - 85
+      Confirm Save: 86 - 127
+    min: 0
+    max: 127
+  - name: Set Midi Channel
+    value: '102'
+    description: >-
+      By default, Sunlight is on Channel 1. The Channel can be changed via CC
+      102, value 1 - 16 for whichever midi channel you want (value 7 for midi
+      channel 7 - for example!)
+    min: '1'
+    max: '16'

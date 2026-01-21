@@ -37,6 +37,10 @@
         {
           "name": "Atmosphere v2",
           "value": "atmospherev2"
+        },
+        {
+          "name": "Atmosphere v3",
+          "value": "atmospherev3"
         }
       ]
     },
@@ -115,6 +119,10 @@
         {
           "name": "Radical Delay DX",
           "value": "radicaldelaydx"
+        },
+        {
+          "name": "Rewind",
+          "value": "rewind"
         },
         {
           "name": "SKY 5000",
@@ -520,6 +528,10 @@
         {
           "name": "ModRex",
           "value": "modrex"
+        },
+        {
+          "name": "POG3",
+          "value": "pog3"
         }
       ]
     },
@@ -798,6 +810,10 @@
         {
           "name": "Dahlia Dual Analog Delay",
           "value": "dahlia"
+        },
+       {
+          "name": "Hosta Wah Filter",
+          "value": "hostawahfilter"
         },
         {
           "name": "Sunflower",
@@ -1095,6 +1111,16 @@
         {
           "name": "CLOCKstep",
           "value": "clockstep"
+        }
+      ]
+    },
+    {
+      "name": "Keeley Electronics",
+      "value": "keeleyelectronics",
+      "models": [
+        {
+          "name": "Nocturne",
+          "value": "nocturne"
         }
       ]
     },
@@ -1880,6 +1906,20 @@
         {
           "name": "Signal Blender Stereo",
           "value": "signalblenderstereo"
+        },
+        {
+          "name": "Sunlight Stereo Reverb",
+          "value": "sunlightstereo"
+        }
+      ]
+    },
+    {
+      "name": "One Control",
+      "value": "onecontrol",
+      "models": [
+        {
+          "name": "Midi Solo Stereo Loop ",
+          "value": "midisolostereoloop"
         }
       ]
     },
@@ -1897,6 +1937,14 @@
       "name": "Oscillator Devices",
       "value": "oscillatordevices",
       "models": [
+        {
+          "name": "ABY",
+          "value": "aby"
+        },
+        {
+          "name": "Hydra 4X",
+          "value": "hydra4x"
+        },
         {
           "name": "Goblin-EXP in EHX Pitch Fork",
           "value": "goblinexpehxpitchfork"

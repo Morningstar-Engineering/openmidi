@@ -1,0 +1,47 @@
+brand: Oscillator Devices
+model: ABY
+email: kristine@morningstarfx.com
+url: 'https://oscillatordevices.com/doc/oscillator_devices_aby_user_manual_en.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Set all switches in the ABY to a certain state
+    value: '20'
+    description: |-
+      0 : IN/OUT disconnected from both A and B ; 
+      1 : IN/OUT only connected to A ; 
+      2 : IN/OUT only connected to B ;
+      3 : IN/OUT connected to both A and B ;
+    min: 0
+    max: '3'
+  - name: Skips through the states of the ABY
+    value: '21'
+    description: |-
+      0 : A → B → A+B → Disconnected ;
+      1 : A → B → A+B ;
+      2 : A → B ;
+    min: 0
+    max: '2'
+  - name: Control the switch IN/OUT to A
+    value: '22'
+    description: |-
+      0 : Connect A to IN/OUT ;
+      1 : Disconnect A from IN/OUT ;
+      2 :Toggle A ;
+    min: 0
+    max: '2'
+  - name: Control the switch IN/OUT to B
+    value: '23'
+    description: |-
+      0 : Connect B to IN/OUT ;
+      1 : Disconnect B from IN/OUT ;
+      2 : Toggle B ;
+    min: 0
+    max: '2'
