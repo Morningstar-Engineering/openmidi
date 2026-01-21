@@ -1,0 +1,314 @@
+brand: Morningstar Engineering
+model: MC8 PRO
+email: kristine@morningstarfx.com
+url:
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank Up
+    value: '0'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Bank Down
+    value: '1'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Set Toggle (All)
+    value: '2'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Set Toggle (Individual)
+    value: '2'
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
+    min: 0
+    max: '11'
+  - name: Clear Toggle (All)
+    value: '3'
+    description: ''
+    min: '127'
+    max: 127
+  - name: Clear Toggle (Individual)
+    value: '3'
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
+    min: 0
+    max: '11'
+  - name: Toggle Page
+    value: '4'
+    description: |-
+      0 = Toggle Page
+      1 = Page Up
+      2 = Page Down
+      3 = Page 1
+      4 = Page 2
+      5 = Page 3
+    min: 0
+    max: '5'
+  - name: Engage Preset
+    value: '10'
+    description: |-
+      CC Numbers:
+      10 = Preset A
+      11 = Preset B
+      12 = Preset C
+      .
+      .
+      .
+      33 = Preset X;
+
+      CC Values:
+      0 = Do Nothing
+      1 = Press
+      2 = Release
+      3 = Long Press
+      4 = Long Press Release
+      5 = Double Tap
+      6 = Double Tap Release
+      7 = Long Double Tap
+      8 = Long Double Tap Release
+      9 = Release All
+      10 = Long Press Scroll
+    min: 0
+    max: '10'
+  - name: Set MIDI BPM (MSB 2 bits)
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Set MIDI BPM (LSB 7 bits)
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Looper Mode
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIDI Clock Tap
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Jump to last used bank/page
+    value: '9'
+    description: |-
+      127 = Last used Bank. Execute bank presets
+      126 = Last used Bank/Page. Execute bank presets
+
+      1 = Last used Bank/Page. Ignore bank presets
+      0 = Last used Bank. Ignore bank presets
+    min: 0
+    max: 127
+  - name: 'Engage Preset A'
+    value: 10
+    description: 'Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll'
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset B'
+    value: 11
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset C'
+    value: 12
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset D'
+    value: 13
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset E'
+    value: 14
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset F'
+    value: 15
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset G'
+    value: 16
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset H'
+    value: 17
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset I'
+    value: 18
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset J'
+    value: 19
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset K'
+    value: 20
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset L'
+    value: 21
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset M'
+    value: 22
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset N'
+    value: 23
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset O'
+    value: 24
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset P'
+    value: 25
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset Q'
+    value: 26
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset R'
+    value: 27
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset S'
+    value: 28
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset T'
+    value: 29
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset U'
+    value: 30
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset V'
+    value: 31
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset W'
+    value: 32
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: 'Engage Preset X'
+    value: 33
+    description: ''
+    type: System
+    min: 0
+    max: 10
+  - name: Control Relay A Tip
+    value: '40'
+    description: |-
+      1 = Tap, Normally Open
+      2 = Tap, Normally Closed
+      3 = Activate (Close relay)
+      4 = Deactivate (Open relay)
+      5 = Toggle between open and close
+      6 = Sync to BPM 8x
+      7 = Sync to BPM 4x
+    min: '1'
+    max: '7'
+  - name: Control Relay A Ring
+    value: '41'
+    description: |-
+      1 = Tap, Normally Open
+      2 = Tap, Normally Closed
+      3 = Activate (Close relay)
+      4 = Deactivate (Open relay)
+      5 = Toggle between open and close
+      6 = Sync to BPM 8x
+      7 = Sync to BPM 4x
+    min: '1'
+    max: '7'
+  - name: Control Relay B Tip
+    value: '42'
+    description: |-
+      1 = Tap, Normally Open
+      2 = Tap, Normally Closed
+      3 = Activate (Close relay)
+      4 = Deactivate (Open relay)
+      5 = Toggle between open and close
+      6 = Sync to BPM 8x
+      7 = Sync to BPM 4x
+    min: '1'
+    max: '7'
+  - name: Control Relay B Ring
+    value: '43'
+    description: |-
+      1 = Tap, Normally Open
+      2 = Tap, Normally Closed
+      3 = Activate (Close relay)
+      4 = Deactivate (Open relay)
+      5 = Toggle between open and close
+      6 = Sync to BPM 8x
+      7 = Sync to BPM 4x
+    min: '1'
+    max: '7'
+  - name: Engage Expression 1
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: Engage Expression 2
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+
