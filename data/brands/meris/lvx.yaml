@@ -79,10 +79,15 @@ cc:
       Reverse, 107-127: Series'
     min: 0
     max: '127'
-  - name: Bypass
+  - name: FX Bypass
     value: '14'
     description: ''
     min: 0
+    max: '63'
+  - name: FX Enable
+    value: '14'
+    description: ''
+    min: '64'
     max: '127'
   - name: Time
     value: '15'
@@ -529,4 +534,4 @@ cc:
     description: 'Press = 127'
     min: 0
     max: '127'
-  
+
