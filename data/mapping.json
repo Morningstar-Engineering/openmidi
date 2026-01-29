@@ -1686,6 +1686,10 @@
         {
           "name": "Quad Cortex",
           "value": "quadcortex"
+        },
+        {
+          "name": "Quad Cortex Mini",
+          "value": "quadcortexmini"
         }
       ]
     },
