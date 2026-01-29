@@ -1,0 +1,236 @@
+brand: Neural DSP
+model: Quad Cortex Mini
+email: kristine@morningstarfx.com
+url: 'https://neuraldsp.com/manual/quad-cortex-mini#Incoming-MIDI-CC-List'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank (MSB) Preset Groups
+    value: 0
+    description: |-
+      • Value 0: Presets 0
+      • Value 1: Presets 128 to 256.
+    min: 0
+    max: '1'
+  - name: Bank (LSB) Setlists Recall
+    value: '32'
+    description: |-
+      Value 0: ‘Factory Presets’ folder.
+      Value 1: ‘My Presets’ folder.
+      Value 2-12: ‘User’ folders.
+    min: 0
+    max: '12'
+  - name: Expression Pedal 1 position
+    value: '1'
+    description: |-
+      Value 0: Heel Position.
+      Value 127: Toe Position.
+    min: 0
+    max: 127
+  - name: Expression Pedal 2 position (MIDI Exclusive)
+    value: '2'
+    description: |-
+      • Value 0: Heel Position.
+      • Value 127: Toe Position.
+    min: 0
+    max: 127
+  - name: Footswitch A (Page I)
+    value: '35'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch B (Page I)
+    value: '36'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch C (Page I)
+    value: '37'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch D (Page I)
+    value: '38'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch A (Page II)
+    value: '39'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch B (Page II)
+    value: '40'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch C (Page II)
+    value: '41'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Footswitch D (Page II)
+    value: '42'
+    description: 'Value 0-127: Footswitch Press'
+    min: 0
+    max: 127
+  - name: Scenes
+    value: '43'
+    description: |-
+      • Value 0: Scene A.
+      • Value 1: Scene B.
+      • Value 2: Scene C.
+      • Value 3: Scene D.
+      • Value 4: Scene E.
+      • Value 5: Scene F.
+      • Value 6: Scene G.
+      • Value 7: Scene H.
+    min: 0
+    max: '7'
+  - name: Tap Tempo
+    value: '44'
+    description: 'Value 0-127: Tap Tempo press emulation'
+    min: 0
+    max: 127
+  - name: Tuner
+    value: '45'
+    description: |-
+      Value 0-63: Closes the Tuner menu.
+      Value 64-127: Opens the Tuner menu.
+    min: 0
+    max: 127
+  - name: Gig View
+    value: '46'
+    description: |-
+      • Value 0-63: Closes Gig View.
+      • Value 64-127: Opens Gig View.
+    min: 0
+    max: 127
+  - name: Modes
+    value: '47'
+    description: |-
+      Value 0: Mode Slot 1 (PRESET Mode by default).
+      Value 1: Mode Slot 2 (SCENE Mode by default).
+      Value 2: Mode Slot 3 (STOMP Mode by default).
+    min: 0
+    max: '2'
+  - name: Looper X
+    value: '48'
+    description: |-
+      • Value 0-63: Opens the Looper X parameter editor (‘Perform’ Mode).
+      • Value 64-127: Closes the Looper X parameter editor.
+    min: 0
+    max: 127
+  - name: Duplicate (Looper X)
+    value: '49'
+    description: '• Value 64-127: Toggles DUPLICATE on and off.'
+    min: '64'
+    max: 127
+  - name: One Shot (Looper X)
+    value: '50'
+    description: 'Value 64-127: Toggles ONE SHOT on and off.'
+    min: '64'
+    max: 127
+  - name: Half Speed (Looper X)
+    value: '51'
+    description: '• Value 64-127: Toggles HALF SPEED on and off.'
+    min: '64'
+    max: 127
+  - name: Punch In/Out (Looper X)
+    value: '52'
+    description: '• Value 64-127: Toggles PUNCH IN / PUNCH OUT.'
+    min: '64'
+    max: 127
+  - name: Record/Overdub (Looper X)
+    value: '53'
+    description: '• Value 64-127: Toggles RECORD / OVERDUB.'
+    min: '64'
+    max: 127
+  - name: Play/Stop (Looper X)
+    value: '54'
+    description: '• Value 64-127: Toggles PLAY / STOP.'
+    min: '64'
+    max: 127
+  - name: Reverse (Looper X)
+    value: '55'
+    description: '• Value 64-127: Toggles REVERSE on and off.'
+    min: '64'
+    max: 127
+  - name: Undo/Redo (Looper X)
+    value: '56'
+    description: '• Value 64-127: Toggles UNDO / REDO.'
+    min: '64'
+    max: 127
+  - name: Duplicate Mode (Looper X)
+    value: '57'
+    description: |-
+      • Value 0: Free.
+      • Value 1: Sync.
+    min: 0
+    max: '1'
+  - name: Quantize (Looper X)
+    value: '58'
+    description: |-
+      • Value 0: Off.
+      • Value 1-8: 1-8 beats.
+      • Value 9: 16 beats.
+    min: 0
+    max: '9'
+  - name: MIDI Clock Start (Looper X)
+    value: '59'
+    description: |-
+      • Value 0: Free.
+      • Value 1: Sync.
+    min: 0
+    max: '1'
+  - name: Perform/Parameters Mode Swap (Looper X)
+    value: '60'
+    description: |-
+      • Value 0: Perform Mode.
+      • Value 1: Parameters Mode.
+    min: 0
+    max: '1'
+  - name: Routing Mode (Looper X)
+    value: '61'
+    description: |-
+      • Value 0: Grid.
+      • Value 1: Input 1.
+      • Value 2: Input 2.
+      • Value 3: Return 1.
+      • Value 4: Return 2.
+      • Value 5: Inputs 1/2.
+      • Value 6: Returns 1/2.
+      • Value 7: Output 1.
+      • Value 8: Output 2.
+      • Value 9: Output 3.
+      • Value 10: Output 4.
+      • Value 11: Outputs 1/2.
+      • Value 12: Outputs 3/4.
+      • Value 13: ‘Multiple Outputs’ block.
+    min: 0
+    max: '13'
+  - name: Ignore Duplicate PC
+    value: '62'
+    description: >-
+      • Value 0-63: Off. Presets will be reloaded each time the corresponding
+      MIDI Program Change (PC) message is received.
+
+      • Value 64-127: On. Prevents Presets from being reloaded if the same MIDI
+      Program Change (PC) message is received repeatedly. Related messages such
+      as CC#0 and CC#32 will also be ignored.
+    min: 0
+    max: 127
+  - name: Footswitch Page Swap
+    value: '64'
+    description: |-
+      • Value 0-63: Page I.
+      • Value 64-127: Page II.
+    min: 0
+    max: 127
