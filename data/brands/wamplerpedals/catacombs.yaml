@@ -1,0 +1,226 @@
+brand: wampler
+model: Catacombs
+url: >-
+  https://www.wamplerpedals.com/wp-content/uploads/2024/11/Catacombs_Manual_Download_Nov24_5.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: 'Bypass State '
+    value: '1'
+    description: |-
+      value=0 turns off delay and reverb
+      value=1-127 turns on delay and reverb
+    min: 0
+    max: 127
+  - name: 'Delay State '
+    value: '2'
+    description: |-
+      value=0 turns off delay
+      value=1-127 turns on delay
+    min: 0
+    max: 127
+  - name: 'Reverb State '
+    value: '3'
+    description: |-
+      value=0 turns off reverb
+      value=1-127 turns on reverb
+    min: 0
+    max: 127
+  - name: Delay Program
+    value: 0
+    description: |-
+      Select Delay Program
+      Send the corresponding MIDI CC value to select the
+      delay program:
+      0 = ANLG
+      1 = BBD
+      2 = FTE
+      3 = SPC
+      4 = TAPE
+      5 = DIGI
+    min: 0
+    max: '5'
+  - name: Delay Time (knob)
+    value: '5'
+    description: |-
+      Emulate the Delay Time knob.
+      Value=0 is 20ms
+      Value=127 is 2000ms
+    min: 0
+    max: 127
+  - name: 'Delay Time (high ms) '
+    value: '6'
+    description: |-
+      A Time High message followed by a Time Low message
+      will set the delay time to a specific ms value.
+      it is possible to set very specific delay times (with 1ms
+      resolution) using two sequential MIDI commands.
+      First, send CC 5 with the high byte (calculated below)
+      Second, send CC 6 with the low byte (calculated
+      below)
+    min: 0
+    max: '15'
+  - name: 'Delay Time (low ms) '
+    value: '7'
+    description: |-
+      To set a specific delay time in milliseconds using MIDI
+      CC 5 and 6:
+      1. Determine high byte: take delay time in milliseconds
+      and divide by 128. The number left of the decimal is
+      the high byte.
+      (example: 400ms delay time -> 400/128 = 3.125 ->
+      high byte = 3
+      2. Determine low byte: multiply the number right of the
+      decimal by 128. This is the low byte.
+      (example: 400ms delay time -> 400/128 = 3.125 ->
+      0.125 -> 0.125 * 128 = 16 -> low byte = 16
+      3. Send MIDI CC 5 val=highbyte (3) first, and then MIDI
+      CC 6 val=lowbyte (16) second.
+      4. After receiving both bytes, the device will update the
+      delay time to match the received messages.
+    min: 0
+    max: 127
+  - name: 'Delay Feedback (knob) '
+    value: '8'
+    description: Emulates the Delay Feedback knob
+    min: 0
+    max: 127
+  - name: 'Delay Tone (knob) '
+    value: '9'
+    description: Emulates the Delay Tone knob
+    min: 0
+    max: 127
+  - name: 'Delay Level (knob) '
+    value: '10'
+    description: Emulates the Delay Level knob
+    min: 0
+    max: 127
+  - name: 'Reverb Program '
+    value: '11'
+    description: |-
+      Send the corresponding MIDI CC value to select the
+      reverb program:
+      6= Shimmer
+      7 = Plate
+      8 = Spring
+      9 = Room
+      10 = Hall
+    min: '6'
+    max: '10'
+  - name: Reverb Shimmer (knob)
+    value: '12'
+    description: Emulates the Reverb Shimmer knob
+    min: 0
+    max: 127
+  - name: 'Reverb Decay (knob) '
+    value: '13'
+    description: Emulates the Reverb Decay knob
+    min: 0
+    max: 127
+  - name: 'Reverb Tone (knob) '
+    value: '14'
+    description: Emulates the Reverb Tone knob
+    min: 0
+    max: 127
+  - name: 'Reverb Level (knob) '
+    value: '15'
+    description: Emulates the Reverb Level knob
+    min: 0
+    max: 127
+  - name: 'Mod Depth (knob) '
+    value: '16'
+    description: Emulates the Mod Depth knob
+    min: 0
+    max: 127
+  - name: 'Mod Rate (knob) '
+    value: '17'
+    description: Emulates the Mod Rate knob
+    min: 0
+    max: 127
+  - name: Subdivision
+    value: '18'
+    description: |-
+      Sets the tap tempo subdivision (0-7 are accessible via
+      the front panel)
+      Select the Subdivision setting for the Tap Tempo
+      Switch and MIDI Clock
+      0 = Quarter
+      1 = Dotted Eighth
+      2 = Eighth
+      3 = Sixteenth
+      4 = Half
+      5 = Whole
+      6 = Dotted Quarter
+      7 = Triplet Quarter
+      8 = Dotted Sixteenth
+      9 = Dotted Half
+      10 = Dotted Whole
+      11 = Triplet Sixteenth
+      12 = Triplet Eighth
+      13 = Triplet Half
+      14 = Triplet Whole
+    min: 0
+    max: '14'
+  - name: Tap Tempo
+    value: '81'
+    description: |-
+      Emulate the tap tempo function of the tap tempo
+      switch when val=0
+    min: 0
+    max: '0'
+  - name: 'Preset Decrement '
+    value: '82'
+    description: |-
+      Decrement the current preset number by <value> and
+      load preset.
+      Special case: value=0 will reload the current preset
+    min: 0
+    max: 127
+  - name: 'Preset Increment '
+    value: '83'
+    description: |-
+      Increment the current preset number by <value> and
+      load preset.
+      Special case: value=0 will reload the current preset
+    min: 0
+    max: 127
+  - name: 'Footswitch Mode '
+    value: '84'
+    description: |-
+      Configure the Right Switch mode between “Tap
+      Tempo”, “Preset Increment”, and “Reverb Bypass”
+      0, 3-127 = Right Switch will trigger tap tempo
+      1 = Right Switch will increment the preset
+      2 = Right Switch will bypass/engage the reverb, and
+      Left Switch will only bypass/engage the delay
+    min: 0
+    max: 127
+  - name: 'Routing Mode '
+    value: '86'
+    description: |-
+      Sets the routing mode
+      0=parallel
+      1=series D->R
+      2=series R->D
+    min: 0
+    max: '2'
+  - name: 'MIDI Clock Enable '
+    value: '99'
+    description: |-
+      Enable or disable the MIDI Clock Sync:
+      0 = ignore MIDI Clock
+      1-127 = set tempo based on MIDI Clock
+    min: 0
+    max: 127
+  - name: 'Expression Pedal '
+    value: '100'
+    description: Emulate Expression pedal input
+    min: 0
+    max: 127

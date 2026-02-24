@@ -2741,15 +2741,20 @@
       "value": "wamplerpedals",
       "models": [
         {
+          "name": "Catacombs",
+          "value": "catacombs"
+        },
+        {
           "name": "Metaverse",
           "value": "metaverse"
-        },{
-          "name": "Terraform",
-          "value": "terraform"
         },
          {
           "name": "Pantheon",
           "value": "Pantheon"
+        },
+        {
+          "name": "Terraform",
+          "value": "terraform"
         }
       ]
     },
