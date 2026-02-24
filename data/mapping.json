@@ -2128,6 +2128,10 @@
         {
           "name": "Mini Amp Gizmo",
           "value": "miniampgizmo"
+        },
+        {
+          "name": "Mini Effect Gizmo X",
+          "value": "minieffectgizmox"
         }
       ]
     },

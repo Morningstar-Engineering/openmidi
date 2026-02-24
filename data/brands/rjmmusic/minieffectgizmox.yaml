@@ -1,0 +1,233 @@
+brand: RJM
+model: Mini Effect Gizmo X
+url: 'https://www.rjmmusic.com/mini-effect-gizmo-x-audio-loop-switcher/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Loop 1 Off
+    value: '80'
+    description: Loop 1 Off
+    min: 0
+    max: '63'
+  - name: Loop 1 On
+    value: '80'
+    description: Loop 1 On
+    min: '64'
+    max: 127
+  - name: Loop 2 Off
+    value: '81'
+    description: Loop 2 Off
+    min: 0
+    max: '63'
+  - name: Loop 2 On
+    value: '81'
+    description: Loop 2 On
+    min: '64'
+    max: 127
+  - name: Loop 3 Off
+    value: '82'
+    description: Loop 3 Off
+    min: 0
+    max: '63'
+  - name: Loop 3 On
+    value: '82'
+    description: Loop 3 On
+    min: '64'
+    max: 127
+  - name: Loop 4 Off
+    value: '83'
+    description: Loop 4 Off
+    min: 0
+    max: '63'
+  - name: Loop 4 On
+    value: '83'
+    description: Loop 4 On
+    min: '64'
+    max: 127
+  - name: Loop 5 Off
+    value: '84'
+    description: Loop 5 Off
+    min: 0
+    max: '63'
+  - name: Loop 5 On
+    value: '84'
+    description: Loop 5 On
+    min: '64'
+    max: 127
+  - name: Loop 6 Off
+    value: '85'
+    description: Loop 6 Off
+    min: 0
+    max: '63'
+  - name: Loop 6 On
+    value: '85'
+    description: Loop 6 On
+    min: '64'
+    max: 127
+  - name: Loop 7 Off
+    value: '86'
+    description: Loop 7 Off
+    min: 0
+    max: '63'
+  - name: Loop 7 On
+    value: '86'
+    description: Loop 7 On
+    min: '64'
+    max: 127
+  - name: Loop 8 Off
+    value: '87'
+    description: Loop 8 Off
+    min: 0
+    max: '63'
+  - name: Loop 8 On
+    value: '87'
+    description: Loop 8 On
+    min: '64'
+    max: 127
+  - name: Loop 9 Off
+    value: '88'
+    description: Loop 9 Off
+    min: 0
+    max: '63'
+  - name: Loop 9 On
+    value: '88'
+    description: Loop 9 On
+    min: '64'
+    max: 127
+  - name: Loop 10 Off
+    value: '89'
+    description: Loop 10 Off
+    min: 0
+    max: '63'
+  - name: Loop 10 On
+    value: '89'
+    description: Loop 10 On
+    min: '64'
+    max: 127
+  - name: Loop 11 Off
+    value: '90'
+    description: Loop 11 Off
+    min: 0
+    max: '63'
+  - name: Loop 11 On
+    value: '90'
+    description: Loop 11 On
+    min: '64'
+    max: 127
+  - name: Loop 12 Off
+    value: '91'
+    description: Loop 12 Off
+    min: 0
+    max: '63'
+  - name: Loop 12 On
+    value: '91'
+    description: Loop 12 On
+    min: '64'
+    max: 127
+  - name: Function Switch 1 Off
+    value: '102'
+    description: Function Switch 1 Off
+    min: 0
+    max: '63'
+  - name: Function Switch 1 On
+    value: '102'
+    description: Function Switch 1 On
+    min: '64'
+    max: 127
+  - name: Function Switch 2 Off
+    value: '103'
+    description: Function Switch 2 Off
+    min: 0
+    max: '63'
+  - name: Function Switch 2 On
+    value: '103'
+    description: Function Switch 2 On
+    min: '64'
+    max: 127
+  - name: Input Off
+    value: '110'
+    description: Input Off
+    min: 0
+    max: '63'
+  - name: Input On
+    value: '110'
+    description: Input On
+    min: '64'
+    max: 127
+  - name: Output(s) Off
+    value: '112'
+    description: Output(s) Off
+    min: 0
+    max: '63'
+  - name: Output(s) On
+    value: '112'
+    description: Output(s) On
+    min: '64'
+    max: 127
+  - name: Output 1 (left) Off
+    value: '113'
+    description: Output 1 (left) Off
+    min: 0
+    max: '63'
+  - name: Output 1 (left) On
+    value: '113'
+    description: Output 1 (left) On
+    min: '64'
+    max: 127
+  - name: Output 2 (right) Off
+    value: '114'
+    description: Output 2 (right) Off
+    min: 0
+    max: '63'
+  - name: Output 2 (right) On
+    value: '114'
+    description: Output 2 (right) On
+    min: '64'
+    max: 127
+  - name: 'Output 1 (left) On, Output 2 (right) Off'
+    value: '115'
+    description: 'Output 1 (left) On, Output 2 (right) Off'
+    min: 0
+    max: '63'
+  - name: 'Output 1 (left) Off, Output 2 (right) On'
+    value: '115'
+    description: 'Output 1 (left) Off, Output 2 (right) On'
+    min: '64'
+    max: 127
+  - name: Tuner Output Off
+    value: '116'
+    description: Tuner Output Off
+    min: 0
+    max: '63'
+  - name: Tuner Output On
+    value: '116'
+    description: Tuner Output On
+    min: '64'
+    max: 127
+  - name: Buffer Off
+    value: '117'
+    description: Buffer Off
+    min: 0
+    max: '63'
+  - name: Buffer On
+    value: '117'
+    description: Buffer On
+    min: '64'
+    max: 127
+  - name: Internal Tuner Off
+    value: '119'
+    description: Internal Tuner Off
+    min: 0
+    max: '63'
+  - name: Internal Tuner On
+    value: '119'
+    description: Internal Tuner On
+    min: '64'
+    max: 127
