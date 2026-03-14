@@ -504,10 +504,20 @@ cc:
     description: ''
     min: '0'
     max: '127'
-  - name: Looper FX1 Select
+  - name: Looper FX1 Select Play Once
     value: '97'
     description: ''
     min: 0
+    max: '42'
+  - name: Looper FX1 Select Retrigger
+    value: '97'
+    description: ''
+    min: 43
+    max: '85'
+  - name: Looper FX1 Select Exp Pedal Warp
+    value: '97'
+    description: ''
+    min: 86
     max: '127'
   - name: Looper FX2 Select
     value: '98'
@@ -534,4 +544,43 @@ cc:
     description: 'Press = 127'
     min: 0
     max: '127'
-
+  - name: Toggle Tuner Mode
+    value: '117'
+    description: 'Press = 127'
+    min: '127'
+    max: '127'
+  - name: Trigger Hold Modifier
+    value: '118'
+    description: 'Press = 127'
+    min: '127'
+    max: '127'
+  - name: Delay Half Speed Off
+    value: '119'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Delay Half Speed On
+    value: '119'
+    description: ''
+    min: '64'
+    max: '127'
+  - name: Delay Dampening
+    value: '120'
+    description: ''
+    min: 0
+    max: '127'
+  - name: MIDI Clock Use Global
+    value: '121'
+    description: ''
+    min: 0
+    max: '42'
+  - name: MIDI Clock Force Listen
+    value: '121'
+    description: ''
+    min: '43'
+    max: '85'
+  - name: MIDI Clock Force Ignore
+    value: '121'
+    description: ''
+    min: '86'
+    max: '127'
