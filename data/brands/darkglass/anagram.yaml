@@ -25,6 +25,16 @@ cc:
     description: Calls bank preview screen for the previous bank.
     min: '1'
     max: 127
+  - name: 'Preset Increment '
+    value: '105'
+    description: Loads the next preset
+    min: '1'
+    max: 127
+  - name: 'Preset Decrement '
+    value: '106'
+    description: Loads the previous preset
+    min: '1'
+    max: 127
   - name: Scene Select
     value: '107'
     description: >-
