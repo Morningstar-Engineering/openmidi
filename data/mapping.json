@@ -1329,6 +1329,10 @@
           "value": "helixfloor"
         },
         {
+          "name": "Helix Stadium",
+          "value": "helixstadium"
+        },
+        {
           "name": "Powercab Plus",
           "value": "powercab"
         },
