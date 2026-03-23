@@ -1,0 +1,177 @@
+midi_in: [DIN5, USB]
+midi_thru: Yes
+phantom_power: No
+midi_clock: Yes
+
+midi_channel: 
+  instructions: |+
+    Navigate to Global Settings > MIDI to configure your MIDI channels. Because the Helix Stadium reserves many specific MIDI CC messages for global functions, it requires two separate MIDI channels:
+    1. Global MIDI Channel (Default Ch 1): Reserved for global functions such as hardware emulation, looper controls, and snapshot selection.
+    2. Bypass/Ctrl MIDI Channel (Default Ch 2): Used for user-assignable bypass and parameter controls.
+    Ensure that the Global MIDI Channel and the Bypass/Ctrl MIDI Channel are NOT set to the same channel.
+
+midi_mapping: Yes
+  description: |+
+    Bypass/Control MIDI CCs are highly user-assignable. You can assign block bypass states or specific parameters to MIDI CCs using the Bypass/Control screen's MIDI CC and MIDI Learn options. These custom bypass and controller assignments receive messages via the Bypass/Ctrl MIDI Channel and are saved per preset.
+
+pc: 
+  description: |+
+    Program Change (PC) messages are used to recall presets. Generally, you only need to send a PC message to recall a preset within the active setlist and folder. If you want to select a preset in a different folder or setlist, you must send a CC32 (Bank Select) message first, immediately followed by the preset's PC message.
+
+cc: 
+  - name: Emulates EXP 1 Pedal
+    value: 1
+    description: Emulates the physical EXP 1 Pedal
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates EXP 2 Pedal
+    value: 2
+    description: Emulates the physical EXP 2 Pedal
+    type: Parameter
+    min: 0
+    max: 127
+  - name: XY Controller, X-Axis
+    value: 7
+    description: Controls the X-Axis of the touchscreen XY Controller (0 = bottom of the screen)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: XY Controller, Y-Axis
+    value: 8
+    description: Controls the Y-Axis of the touchscreen XY Controller (0 = left edge of the screen)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Top Panel / UI Control
+    value: 9
+    description: Emulates pressing a top panel button or screen icon (e.g., 0=Home, 1=Song View, 2=Amp, 34=Tuner Open/Close, etc.)
+    type: System
+    min: 0
+    max: 34
+  - name: Setlist Select (Bank Select)
+    value: 32
+    description: Selects the setlist prior to sending a PC message. (0 = FACTORY PRESETS, 1-4 = USER PRESETS, 5+ = Custom setlists)
+    type: System
+    min: 0
+    max: 127
+  - name: Emulates Toe Switch
+    value: 36
+    description: Alternates the toe switch state on each send of any value
+    type: System
+    min: 0
+    max: 127
+  - name: Footswitch Mode
+    value: 37
+    description: Changes the active footswitch layout mode (0=Stomp A, 1=Stomp B, 2=Preset, 3=Snapshot, 4=Combo, 5=N/A, 6=Transport)
+    type: System
+    min: 0
+    max: 6
+  - name: Emulates Knob 1
+    value: 38
+    description: Emulates turning Knob 1 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 2
+    value: 39
+    description: Emulates turning Knob 2 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 3
+    value: 40
+    description: Emulates turning Knob 3 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 4
+    value: 41
+    description: Emulates turning Knob 4 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 5
+    value: 42
+    description: Emulates turning Knob 5 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 6
+    value: 43
+    description: Emulates turning Knob 6 under the screen
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 7
+    value: 44
+    description: Emulates turning Knob 7 on the hardware
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Emulates Knob 8
+    value: 45
+    description: Emulates turning Knob 8 on the hardware
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Looper Clear Loop
+    value: 52
+    description: Clears the currently recorded loop
+    type: System
+    min: 0
+    max: 127
+  - name: Looper Undo/Redo
+    value: 53
+    description: Undoes or redoes the last looper action
+    type: System
+    min: 0
+    max: 127
+  - name: Looper Full/Half Speed
+    value: 54
+    description: Toggles loop playback speed (0-63 = Full Speed, 64-127 = Half Speed)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Looper Forward/Reverse
+    value: 55
+    description: Toggles loop playback direction (0-63 = Forward, 64-127 = Reverse)
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Looper Record/Overdub
+    value: 58
+    description: Controls looper recording states (0-63 = Overdub, 64-127 = Record)
+    type: System
+    min: 0
+    max: 127
+  - name: Looper Play/Stop
+    value: 59
+    description: Controls loop playback (0-63 = Stop, 64-127 = Play)
+    type: System
+    min: 0
+    max: 127
+  - name: Looper Play Once
+    value: 60
+    description: Triggers the looper to play the loop exactly one time
+    type: System
+    min: 0
+    max: 127
+  - name: Looper Block On/Off
+    value: 62
+    description: Toggles the Looper block bypass state (0-63 = Off, 64-127 = On). For the Deluxe Looper, this also enters Looper footswitch mode.
+    type: System
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: 64
+    description: Taps the global tempo
+    type: System
+    min: 64
+    max: 127
+  - name: Snapshot Select
+    value: 69
+    description: Recalls a specific snapshot or navigates them (0-7 = Selects Snapshot 1-8, 8 = Next Snapshot, 9 = Previous Snapshot)
+    type: System
+    min: 0
+    max: 9
