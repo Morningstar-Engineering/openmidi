@@ -10,7 +10,7 @@ midi_channel:
     2. Bypass/Ctrl MIDI Channel (Default Ch 2): Used for user-assignable bypass and parameter controls.
     Ensure that the Global MIDI Channel and the Bypass/Ctrl MIDI Channel are NOT set to the same channel.
 
-midi_mapping: Yes
+midi_mapping:
   description: |+
     Bypass/Control MIDI CCs are highly user-assignable. You can assign block bypass states or specific parameters to MIDI CCs using the Bypass/Control screen's MIDI CC and MIDI Learn options. These custom bypass and controller assignments receive messages via the Bypass/Ctrl MIDI Channel and are saved per preset.
 
