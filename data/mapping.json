@@ -1277,6 +1277,10 @@
         {
           "name": "BBC The Difference Engine",
           "value": "bbcthedifferenceengine"
+        },
+        {
+          "name": "Ironheart - Loudpedal",
+          "value": "loudpedal"
         }
       ]
     },
