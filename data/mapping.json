@@ -1,2802 +1,2942 @@
 {
-  "brands": [
-    {
-      "name": "3 Degrees Audio",
-      "value": "3degreesaudio",
-      "models": [
-        {
-          "name": "Hue Stereo Multi Effect Pedal",
-          "value": "huestereo"
-        }
-      ]
-    },
-    {
-      "name": "Access",
-      "value": "access",
-      "models": [
-        {
-          "name": "Virus TI",
-          "value": "virusti"
-        }
-      ]
-    },
-    {
-      "name": "Adrenalinn",
-      "value": "adrenalinn",
-      "models": [
-        {
-          "name": "III",
-          "value": "iii"
-        }
-      ]
-    },
-    {
-      "name": "Aerospace Audio",
-      "value": "aerospaceaudio",
-      "models": [
-        {
-          "name": "Atmosphere v2",
-          "value": "atmospherev2"
-        },
-        {
-          "name": "Atmosphere v3",
-          "value": "atmospherev3"
-        }
-      ]
-    },
-    {
-      "name": "Arturia",
-      "value": "arturia",
-      "models": [
-        {
-          "name": "MatrixBrute",
-          "value": "matrixbrute"
-        },
-        {
-          "name": "MicroFreak",
-          "value": "microfreak"
-        },
-        {
-          "name": "MiniFreak",
-          "value": "minifreak"
-        }
-      ]
-    },
-    {
-      "name": "Ashdown",
-      "value": "ashdown",
-      "models": [
-        {
-          "name": "LB 30 2.N",
-          "value": "lb302n"
-        }
-      ]
-    },
-    {
-      "name": "Alexander",
-      "value": "alexander",
-      "models": [
-        {
-          "name": "Fever Pitch",
-          "value": "feverpitch"
-        },
-        {
-          "name": "Quadrant",
-          "value": "quadrant"
-        },
-        {
-          "name": "Superball",
-          "value": "superball"
-        },
-        {
-          "name": "Colour Theory ",
-          "value": "colourtheory"
-        },
-        {
-          "name": "Defender Neo",
-          "value": "defenderneo"
-        },
-        {
-          "name": "F.13 Neo",
-          "value": "f13neo"
-        },
-        {
-          "name": "Marshmallow",
-          "value": "marshmallow"
-        },
-        {
-          "name": "Now We Are Ghosts",
-          "value": "nowweareghosts"
-        },
-        {
-          "name": "Oblivion Vintage Delay",
-          "value": "oblivionvintagedelay"
-        },
-        {
-          "name": "Quadrant Audio Mirror",
-          "value": "quadrantaudiomirror"
-        },
-        {
-          "name": "Radical Delay DX",
-          "value": "radicaldelaydx"
-        },
-        {
-          "name": "Rewind",
-          "value": "rewind"
-        },
-        {
-          "name": "SKY 5000",
-          "value": "sky5000"
-        },
-        {
-          "name": "Space Race",
-          "value": "spacerace"
-        },
-        {
-          "name": "Super Neo-Matic",
-          "value": "superneo-matic"
-        },
-        {
-          "name": "Super Radical Delay",
-          "value": "superradicaldelay"
-        },
-        {
-          "name": "Syntax Error",
-          "value": "syntaxerror"
-        },
-        {
-          "name": "Wavelength",
-          "value": "wavelength"
-        }
-      ]
-    },
-    {
-      "name": "Atomic",
-      "value": "atomic",
-      "models": [
-        {
-          "name": "Amplifire",
-          "value": "amplifire"
-        },
-        {
-          "name": "Amplifire 12",
-          "value": "amplifire12"
-        },
-        {
-          "name": "Amplifire 3",
-          "value": "amplifire3"
-        },
-        {
-          "name": "Amplifire 6",
-          "value": "amplifire6"
-        }
-      ]
-    },
-    {
-      "name": "AVID",
-      "value": "avid",
-      "models": [
-        {
-          "name": "Eleven Rack",
-          "value": "elevenrack"
-        }
-      ]
-    },
-    {
-      "name": "Beetronics",
-      "value": "beetronics",
-      "models": [
-        {
-          "name": "Seabee Harmochorus",
-          "value": "seabeeharmochorus"
-        }
-      ]
-    },
-    {
-      "name": "Behringer",
-      "value": "behringer",
-      "models": [
-        {
-          "name": "BM-15M MURF Box",
-          "value": "bm15mmurfbox"
-        },
-        {
-          "name": "Deepmind 12",
-          "value": "deepmind12"
-        },
-        {
-          "name": "Deepmind 12D",
-          "value": "deepmind12d"
-        },
-        {
-          "name": "Deepmind 6",
-          "value": "deepmind6"
-        },
-        {
-          "name": "Pro-800",
-          "value": "pro-800"
-        },
-        {
-          "name": "Vintager AC112",
-          "value": "AC112"
-        },
-        {
-          "name": "X-Air",
-          "value": "xair"
-        }
-      ]
-    },
-    {
-      "name": "Blackstar Amplification",
-      "value": "blackstaramplification",
-      "models": [
-        {
-            "name": "Amped 1",
-            "value": "amped_1"
-        },
-        {
-            "name": "Amped 3",
-            "value": "amped_3"
-        },
-        {
-          "name": "Silverline Deluxe",
-          "value": "silverlinedeluxe"
-        },
-        {
-          "name": "Silverline Deluxe Head",
-          "value": "silverlinedeluxehead"
-        },
-        {
-          "name": "Silverline Stereo Deluxe",
-          "value": "silverlinestereodeluxe"
-        }
-      ]
-    },
-    {
-      "name": "BluGuitar",
-      "value": "bluguitar",
-      "models": [
-        {
-          "name": "Amp1 (Mercury & Iridium Edition)",
-          "value": "amp1_mercury_iridium"
-        }
-      ]
-    },
-    {
-      "name": "Bondi Effects",
-      "value": "bondieffects",
-      "models": [
-        {
-          "name": "Art Van Delay",
-          "value": "artvandelay"
-        }
-      ]
-    },
-    {
-      "name": "Boss",
-      "value": "boss",
-      "models": [
-        {
-          "name": "DD-500",
-          "value": "dd-500"
-        },
-        {
-          "name": "DM-101",
-          "value": "dm-101"
-        },
-        {
-          "name": "GT1000 Core",
-          "value": "gt1000core"
-        },
-        {
-          "name": "Katana",
-          "value": "katana"
-        },
-        {
-          "name": "Katana Artist",
-          "value": "katanaartist"
-        },
-        {
-          "name": "Katana Head",
-          "value": "katanahead"
-        },
-        {
-          "name": "MD-500",
-          "value": "md-500"
-        },
-        {
-          "name": "OD-200",
-          "value": "od-200"
-        },
-        {
-          "name": "RC-10R",
-          "value": "rc10r"
-        },
-        {
-          "name": "RV-500",
-          "value": "rv-500"
-        },
-         {
-          "name": "RE-202",
-          "value": "re-202"
-        },
-         {
-          "name": "Slicer SL-2",
-          "value": "slicer-sl2"
-        }
-      ]
-    },
-    {
-      "name": "Chaos Audio",
-      "value": "chaosaudio",
-      "models": [
-        {
-          "name": "Stratus",
-          "value": "stratus"
-        }
-      ]
-    },
-    {
-      "name": "Chase Bliss Audio",
-      "value": "chasebliss",
-      "models":
-              [
-                {"name": "Ayahuasca", "value": "ayahuasca"},
-                {"name": "Billy Strings Wombtone", "value": "billystringswombtone"},
-                {"name": "Bliss Factory", "value": "blissfactory"},
-                {"name": "Blooper", "value": "blooper"},
-                {"name": "Brothers", "value": "brothers"},
-                {"name": "Brothers AM", "value": "brothersam"},
-                {"name": "Clean", "value": "clean"},
-                {"name": "CXM 1978", "value": "cxm1978"},
-                {"name": "Condor", "value": "condor"},
-                {"name": "Dark World", "value": "darkworld"},
-                {"name": "Generation Loss MKI", "value": "generationlossmki"},
-                {"name": "Generation Loss MKII", "value": "generationlossmkii"},
-                {"name": "Gravitas", "value": "gravitas"},
-                {"name": "Habit", "value": "habit"},
-                {"name": "Lossy", "value": "lossy"},
-                {"name": "Lost + Found", "value": "lostandfound"},
-                {"name": "Mood", "value": "mood"},
-                {"name": "Mood MkII", "value": "moodmkii"},
-                {"name": "Onward", "value": "onward"},
-                {"name": "Preamp MkII", "value": "preampmkii"},
-                {"name": "Reverse Mode C", "value": "reversemodec"},
-                {"name": "Spectre", "value": "spectre"},
-                {"name": "Thermae", "value": "thermae"},
-                {"name": "Tonal Recall", "value": "tonalrecall"},
-                {"name": "Warped Vinyl HiFi", "value": "warpedvinyl"},
-                {"name": "Wombtone MKII", "value": "wombtonemkii"}
-              ]
-    },
-    {
-      "name": "Colortone Pedals",
-      "value": "colortonepedals",
-      "models": [
-        {
-          "name": "VibroVerb",
-          "value": "vibroverb"
-        },
-        {
-          "name": "ZeroSum",
-          "value": "zerosum"
-        }
-      ]
-    },
-    {
-      "name": "Cornerstone Music Gear",
-      "value": "cornerstonemusicgear",
-      "models": [
-        {
-          "name": "Nucleo",
-          "value": "nucleo"
-        }
-      ]
-    },
-    {
-      "name": "Darkglass Electronics",
-      "value": "darkglass",
-      "models": [
-        {
-          "name": "Anagram",
-          "value": "anagram"
-        },
-        {
-          "name": "Microtubes Infinity",
-          "value": "microtubesinfinity"
-        }
-      ]
-    },
-    {
-      "name": "Dave Smith Instruments",
-      "value": "davesmithinstruments",
-      "models": [
-        {
-          "name": "Evolver",
-          "value": "evolver"
-        }
-      ]
-    },
-    {
-      "name": "Decibel Eleven",
-      "value": "decibeleleven",
-      "models": [
-        {
-          "name": "Loop Expander",
-          "value": "loopexpander"
-        }
-      ]
-    },
-    {
-      "name": "DigiTech",
-      "value": "digitech",
-      "models": [
-        {
-          "name": "Bass Whammy",
-          "value": "basswhammy"
-        },
-        {
-          "name": "Whammy",
-          "value": "whammy"
-        },
-        {
-          "name": "Whammy DT",
-          "value": "whammydt"
-        }
-      ]
-    },
-    {
-      "name": "Dimehead",
-      "value": "dimehead",
-      "models": [
-        {
-          "name": "NAM",
-          "value": "nam"
-        }
-      ]
-    },
-    {
-      "name": "Disaster Area",
-      "value": "disasterarea",
-      "models": [
-        {
-          "name": "DPC-8EZ Gen2",
-          "value": "dpc8ezgen2"
-        },
-        {
-          "name": "DPC Micro",
-          "value": "dpcmicro"
-        },
-        {
-          "name": "NNB Expanse Bridge",
-          "value": "nnb"
-        },
-        {
-          "name": "Micro Clock Gen4",
-          "value": "microclockgen4"
-        }
-      ]
-    },
-    {
-      "name": "Dreadbox",
-      "value": "dreadbox",
-      "models": [
-        {
-          "name": "Medusa",
-          "value": "medusa"
-        },
-        {
-          "name": "Typhon",
-          "value": "typhon"
-        }
-      ]
-    },
-    {
-      "name": "Dr Scientist",
-      "value": "drscientist",
-      "models": [
-        {
-          "name": "Dusk",
-          "value": "dusk"
-        },
-        {
-          "name": "The Atmosphere",
-          "value": "theatmosphere"
-        }
-      ]
-    },
-    {
-      "name": "Electro Harmonix",
-      "value": "electroharmonix",
-      "models": [
-        {
-          "name": "8-Step Program",
-          "value": "8-stepprogram"
-        },
-        {
-          "name": "1440 Stereo Looper",
-          "value": "1440"
-        },
-        {
-          "name": "45000",
-          "value": "45000"
-        },
-        {
-          "name": "95000",
-          "value": "95000"
-        },
-        {
-          "name": "HOG2",
-          "value": "hog2"
-        },
-        {
-          "name": "ModRex",
-          "value": "modrex"
-        },
-        {
-          "name": "POG3",
-          "value": "pog3"
-        }
-      ]
-    },
-    {
-      "name": "Electronic Audio Experiments",
-      "value": "electronicaudioexperiments",
-      "models": [
-        {
-          "name": "Sending v2",
-          "value": "sendingv2"
-        },
-        {
-          "name": "Sending v2 (Firmware 2.0)",
-          "value": "sendingv2firmware2-0"
-        }
-      ]
-    },
-    {
-      "name": "Elektron",
-      "value": "elektron",
-      "models": [
-        {
-          "name": "Analog Drive",
-          "value": "analogdrive"
-        },
-        {
-          "name": "Analog Four MKII",
-          "value": "analogfourmkii"
-        },
-        {
-          "name": "Analog Heat MKII",
-          "value": "analogheatmkii"
-        },
-        {
-          "name": "Analog Rytm MKII",
-          "value": "analogrytmmkii"
-        },
-        {
-          "name": "Digitakt",
-          "value": "digitakt"
-        },
-        {
-          "name": "Digitone",
-          "value": "digitone"
-        },
-        {
-          "name": "Digitone Keys",
-          "value": "digitonekeys"
-        },
-        {
-          "name": "Model:Cycles",
-          "value": "modelcycles"
-        },
-        {
-          "name": "Model:Samples",
-          "value": "modelsamples"
-        },
-        {
-          "name": "Octatrack MKII",
-          "value": "octatrackmkii"
-        }
-      ]
-    },
-    {
-      "name": "EM Custom",
-      "value": "emcustom",
-      "models": [
-        {
-          "name": "AMI Universal Dual TRS",
-          "value": "amiuniversaldualtrs"
-        }
-      ]
-    },
-    {
-      "name": "Empress",
-      "value": "empress",
-      "models": [
-        {
-          "name": "Echo System",
-          "value": "echosystem"
-        },
-        {
-          "name": "Phaser",
-          "value": "phaser"
-        },
-        {
-          "name": "Reverb",
-          "value": "reverb"
-        },
-        {
-          "name": "Tremolo2",
-          "value": "tremolo2"
-        },
-        {
-          "name": "ZOIA",
-          "value": "zoia"
-        }
-      ]
-    },
-    {
-      "name": "ENGL",
-      "value": "engl",
-      "models": [
-        {
-          "name": "Invader II E642II",
-          "value": "invaderiie642ii"
-        },
-        {
-          "name": "Savage 120 Mark II E610II",
-          "value": "savage120markiie610ii"
-        },
-        {
-          "name": "Savage 60 Mark II E630II",
-          "value": "savage60markiie630ii"
-        },
-        {
-          "name": "Steve Morse Signature E656",
-          "value": "stevemorsesignaturee656"
-        },
-        {
-          "name": "Steve Morse Signature E657",
-          "value": "stevemorsesignaturee657"
-        },
-        {
-          "name": "Steve Morse Signature E658",
-          "value": "stevemorsesignaturee658"
-        },
-        {
-          "name": "Steve Morse Signature E659",
-          "value": "stevemorsesignaturee659"
-        },
-        {
-          "name": "Steve Morse Signature E660",
-          "value": "stevemorsesignaturee660"
-        },
-        {
-          "name": "Steve Morse Signature E661",
-          "value": "stevemorsesignaturee661"
-        },
-        {
-          "name": "Steve Morse Signature E662",
-          "value": "stevemorsesignaturee662"
-        },
-        {
-          "name": "Steve Morse Signature E663",
-          "value": "stevemorsesignaturee663"
-        },
-        {
-          "name": "Steve Morse Signature E664",
-          "value": "stevemorsesignaturee664"
-        },
-        {
-          "name": "Steve Morse Signature E665",
-          "value": "stevemorsesignaturee665"
-        },
-        {
-          "name": "Steve Morse Signature E666",
-          "value": "stevemorsesignaturee666"
-        },
-        {
-          "name": "Steve Morse Signature E667",
-          "value": "stevemorsesignaturee667"
-        },
-        {
-          "name": "Steve Morse Signature E668",
-          "value": "stevemorsesignaturee668"
-        },
-        {
-          "name": "Steve Morse Signature E669",
-          "value": "stevemorsesignaturee669"
-        },
-        {
-          "name": "Steve Morse Signature E670",
-          "value": "stevemorsesignaturee670"
-        },
-        {
-          "name": "Steve Morse Signature E671",
-          "value": "stevemorsesignaturee671"
-        }
-      ]
-    },
-    {
-      "name": "Eventide",
-      "value": "eventide",
-      "models": [
-        {
-          "name": "Blackhole",
-          "value": "blackhole"
-        },
-        {
-          "name": "H9",
-          "value": "h9"
-        },
-        {
-          "name": "Knifedrop",
-          "value": "knifedrop"
-        },
-        {
-          "name": "Rose",
-          "value": "rose"
-        },
-        {
-          "name": "Tricerachorus",
-          "value": "tricerachorus"
-        },
-        {
-          "name": "Ultratap",
-          "value": "ultratap"
-        }
-      ]
-    },
-    {
-      "name": "EVH",
-      "value": "evh",
-      "models": [
-        {
-          "name": "5150III 100S HEAD",
-          "value": "5150iii100shead"
-        },
-        {
-          "name": "5150III 100W HEAD",
-          "value": "5150iii100whead"
-        },
-        {
-          "name": "5150III 50S 6L6 HEAD",
-          "value": "5150iii50s6l6head"
-        },
-        {
-          "name": "5150III 50W 6L6 1X12 COMBO",
-          "value": "5150iii50w6l61x12combo"
-        },
-        {
-          "name": "5150III 50W 6L6 2X12 COMBO",
-          "value": "5150iii50w6l62x12combo"
-        },
-        {
-          "name": "5150III 50W 6L6 HEAD",
-          "value": "5150iii50w6l6head"
-        },
-        {
-          "name": "5150III 50W EL34 1X12 COMBO",
-          "value": "5150iii50wel341x12combo"
-        },
-        {
-          "name": "5150III 50W EL34 2X12 COMBO",
-          "value": "5150iii50wel342x12combo"
-        },
-        {
-          "name": "5150III 50W EL34 HEAD",
-          "value": "5150iii50wel34head"
-        },
-        {
-          "name": "5150III 50W HEAD",
-          "value": "5150iii50whead"
-        },
-        {
-          "name": "5150IIIS 100W EL34 HEAD",
-          "value": "5150iiis100wel34head"
-        }
-      ]
-    },
-    {
-      "name": "Fender",
-      "value": "fender",
-      "models": [
-        {
-          "name": "Tone Master Pro",
-          "value": "tonemasterpro"
-        }
-      ]
-    },
-    {
-      "name": "Flower Pedals",
-      "value": "flowerpedals",
-      "models": [
-        {
-          "name": "Dahlia Dual Analog Delay",
-          "value": "dahlia"
-        },
-       {
-          "name": "Hosta Wah Filter",
-          "value": "hostawahfilter"
-        },
-        {
-          "name": "Sunflower",
-          "value": "sunflower"
-        }
-      ]
-    },
-    {
-      "name": "Fractal Audio Systems",
-      "value": "fractalaudiosystems",
-      "models": [
-        {
-          "name": "AX8",
-          "value": "ax8"
-        },
-        {
-          "name": "Axe-Fx II",
-          "value": "axe-fxii"
-        },
-        {
-          "name": "Axe-Fx II XL",
-          "value": "axe-fxiixl"
-        },
-        {
-          "name": "Axe-Fx II XL+",
-          "value": "axe-fxiixlplus"
-        },
-        {
-          "name": "FX8",
-          "value": "fx8"
-        }
-      ]
-    },
-    {
-      "name": "Free The Tone",
-      "value": "freethetone",
-      "models": [
-        {
-          "name": "FF-1Y",
-          "value": "ff1y"
-        },
-        {
-          "name": "AS-1R Ambi Space",
-          "value": "as-1rambispace"
-        },
-        {
-          "name": "Flight Time FT-2Y",
-          "value": "flighttimeft-2y"
-        },
-        {
-          "name": "PA-1QA",
-          "value": "pa-1qa"
-        },
-        {
-          "name": "PA-1QB",
-          "value": "pa-1qb"
-        },
-        {
-          "name": "PA-1QG",
-          "value": "pa-1qg"
-        },
-        {
-          "name": "TA-1H Tri Avatar",
-          "value": "ta-1htriavatar"
-        }
-      ]
-    },
-    {
-      "name": "Freds Labs",
-      "value": "fredslabs",
-      "models": [
-        {
-          "name": "Buzzy!",
-          "value": "buzzy!"
-        }
-      ]
-    },
-    {
-      "name": "Gamechanger Audio",
-      "value": "gamechangeraudio",
-      "models": [
-        {
-          "name": "Bigsby",
-          "value": "bigsby"
-        },
-        {
-          "name": "Motor Pedal",
-          "value": "motorpedal"
-        }
-      ]
-    },
-    {
-      "name": "GFI System",
-      "value": "gfisystem",
-      "models": [
-        {
-          "name": "Duophony",
-          "value": "duophony"
-        },
-        {
-          "name": "Enieqma",
-          "value": "enieqma"
-        },
-        {
-          "name": "Specular Tempus",
-          "value": "speculartempus"
-        },
-        {
-          "name": "Synesthesia",
-          "value": "synesthesia"
-        },
-        {
-          "name": "Solis Ventus",
-          "value": "solisventus"
-        }
-      ]
-    },
-    {
-      "name": "G-LAB",
-      "value": "g-lab",
-      "models": [
-        {
-          "name": "BC-1",
-          "value": "bc1"
-        },
-        {
-          "name": "MIDI 2 X LOOP-er",
-          "value": "midi2xloop-er"
-        },
-        {
-          "name": "MIDI 4 X LOOP-er",
-          "value": "midi4xloop-er"
-        },
-        {
-          "name": "MIDI WOWEE WAH MWW-1",
-          "value": "MIDIWOWEEWAHMWW1"
-        }
-      ]
-    },
-    {
-      "name": "Headrush",
-      "value": "headrush",
-      "models": [
-        {
-          "name": "Core",
-          "value": "core"
-        },
-        {
-          "name": "Flex Prime",
-          "value": "flexprime"
-        },
-        {
-          "name": "Gigboard",
-          "value": "gigboard"
-        },
-        {
-          "name": "Looperboard",
-          "value": "looperboard"
-        },
-        {
-          "name": "MX5",
-          "value": "mx5"
-        },
-        {
-          "name": "Pedalbaord",
-          "value": "pedalbaord"
-        },
-        {
-          "name": "VX5",
-          "value": "vx5"
-        }
-      ]
-    },
-    {
-      "name": "Hologram Electronics",
-      "value": "hologramelectronics",
-      "models": [
-        {
-          "name": "Dream Sequence",
-          "value": "dreamsequence"
-        },
-        {
-          "name": "Microcosm",
-          "value": "microcosm"
-        },
-        {
-          "name": "Chroma Console",
-          "value": "chromaconsole"
-        }
-      ]
-    },
-    {
-      "name": "Hotone",
-      "value": "hotone",
-      "models": [
-        {
-          "name": "Ampero",
-          "value": "ampero"
-        },{
-          "name": "Ampero 2 Stomp",
-          "value": "ampero2stomp"
-        }
-      ]
-    },
-    {
-      "name": "Hughes & Kettner",
-      "value": "hughes&kettner",
-      "models": [
-        {
-          "name": "GrandMeister Deluxe 40",
-          "value": "grandmeisterdeluxe40"
-        },
-        {
-          "name": "TriAmp Mk3",
-          "value": "triampmk3"
-        }
-      ]
-    },
-    {
-      "name": "Idoru",
-      "value": "idoru",
-      "models": [
-        {
-          "name": "P1",
-          "value": "p1"
-        }
-      ]
-    },
-    {
-      "name": "IK Multimedia",
-      "value": "ikmultimedia",
-      "models": [
-        {
-          "name": "ToneX",
-          "value": "tonex"
-        },
-        {
-          "name": "UNO Synth",
-          "value": "unosynth"
-        }
-      ]
-    },
-    {
-      "name": "Jackson Audio",
-      "value": "jacksonaudio",
-      "models": [
-        {
-          "name": "Asabi",
-          "value": "asabi"
-        },
-        {
-          "name": "Bloom",
-          "value": "bloom"
-        },
-        {
-          "name": "Broken Arrow",
-          "value": "brokenarrow"
-        },
-        {
-          "name": "El Guapo",
-          "value": "elguapo"
-        },
-        {
-          "name": "Golden Boy",
-          "value": "goldenboy"
-        },
-        {
-          "name": "New Wave",
-          "value": "newwave"
-        },
-        {
-          "name": "The Optimist",
-          "value": "theoptimist"
-        }
-      ]
-    },
-    {
-      "name": "Jet Pedals",
-      "value": "jetpedals",
-      "models": [
-        {
-          "name": "Lamb",
-          "value": "lamb"
-        },
-        {
-          "name": "Revelation Reverb 2.0",
-          "value": "revelationreverb20"
-        }
-      ]
-    },
-    {
-      "name": "JMK Music Pedals",
-      "value": "jmkmusicpedals",
-      "models": [
-        {
-          "name": "CLOCKstep",
-          "value": "clockstep"
-        }
-      ]
-    },
-    {
-      "name": "Keeley Electronics",
-      "value": "keeleyelectronics",
-      "models": [
-        {
-          "name": "Nocturne",
-          "value": "nocturne"
-        }
-      ]
-    },
-    {
-      "name": "Kemper",
-      "value": "kemper",
-      "models": [
-        {
-          "name": "Profiler",
-          "value": "profiler"
-        },
-        {
-          "name": "Profiler Player",
-          "value": "profiler_player"
-        }
-      ]
-    },
-    {
-      "name": "Kernom",
-      "value": "kernom",
-      "models": [
-        {
-          "name": "Elipse",
-          "value": "elipse"
-        },
-        {
-          "name": "Moho",
-          "value": "moho"
-        },
-        {
-          "name": "Ridge",
-          "value": "ridge"
-        }
-      ]
-    },
-    {
-      "name": "Kinotone",
-      "value": "kinotone",
-      "models": [
-        {
-          "name": "Ribbons",
-          "value": "ribbons"
-        },
-        {
-          "name": "Ribbons Firmware 2.0",
-          "value": "ribbonsfw2"
-        },
-        {
-          "name": "Sparks",
-          "value": "sparks"
-        }
-      ]
-    },
-    {
-      "name": "Korg",
-      "value": "korg",
-      "models": [
-        {
-          "name": "Kaoss Pad 2",
-          "value": "kaosspad2"
-        },
-        {
-          "name": "Kaoss Pad 3",
-          "value": "kaosspad3"
-        },
-        {
-          "name": "MS2000",
-          "value": "ms2000"
-        },
-        {
-          "name": "microKORG",
-          "value": "microkorg"
-        },
-        {
-          "name": "microKORG XL+",
-          "value": "microkorgxlplus"
-        },
-        {
-          "name": "minilogue",
-          "value": "minilogue"
-        },
-        {
-          "name": "minilogue xd",
-          "value": "miniloguexd"
-        },
-        {
-          "name": "monologue",
-          "value": "monologue"
-        },
-        {
-          "name": "volca bass",
-          "value": "volcabass"
-        },
-        {
-          "name": "volca beats",
-          "value": "volcabeats"
-        },
-        {
-          "name": "volca drum",
-          "value": "volcadrum"
-        },
-        {
-          "name": "volca fm",
-          "value": "volcafm"
-        },
-        {
-          "name": "volca keys",
-          "value": "volcakeys"
-        },
-        {
-          "name": "volca kick",
-          "value": "volcakick"
-        },
-        {
-          "name": "volca nubass",
-          "value": "volcanubass"
-        },
-        {
-          "name": "volca sample",
-          "value": "volcasample"
-        },
-        {
-          "name": "wavestate",
-          "value": "wavestate"
-        }
-      ]
-    },
-    {
-      "name": "KSR Amplification",
-      "value": "ksramplification",
-      "models": [
-        {
-          "name": "Artemis 100",
-          "value": "artemis100"
-        },
-        {
-          "name": "Colossus H-100",
-          "value": "colossush-100"
-        },
-        {
-          "name": "Gemini 100",
-          "value": "gemini100"
-        }
-      ]
-    },
-    {
-      "name": "Laney",
-      "value": "laney",
-      "models": [
-        {
-          "name": "BBC The Difference Engine",
-          "value": "bbcthedifferenceengine"
-        },
-        {
-          "name": "Ironheart - Loudpedal",
-          "value": "loudpedal"
-        }
-      ]
-    },
-    {
-      "name": "Line 6",
-      "value": "line6",
-      "models": [
-        {
-          "name": "Catalyst CX",
-          "value": "catalystcx"
-        },
-        {
-          "name": "DT25 112",
-          "value": "dt25112"
-        },
-        {
-          "name": "DT25 Head",
-          "value": "dt25head"
-        },
-        {
-          "name": "Powercab 112 Plus",
-          "value": "powercab112plus"
-        },
-        {
-          "name": "Powercab 212 Plus",
-          "value": "powercab212plus"
-        },
-        {
-          "name": "DL4 MKII",
-          "value": "dl4mk2"
-        },
-        {
-          "name": "HX Effects",
-          "value": "hxeffects"
-        },
-        {
-          "name": "HX One",
-          "value": "hxone"
-        },
-        {
-          "name": "HX Stomp",
-          "value": "hxstomp"
-        },
-        {
-          "name": "HX Stomp XL",
-          "value": "hxstompxl"
-        },
-        {
-          "name": "Helix Floor",
-          "value": "helixfloor"
-        },
-        {
-          "name": "Helix Stadium",
-          "value": "helixstadium"
-        },
-        {
-          "name": "Powercab Plus",
-          "value": "powercab"
-        },
-        {
-          "name": "Helix",
-          "value": "helix"
-        },
-        {
-          "name": "Helix LT",
-          "value": "helixlt"
-        },
-        {
-          "name": "Helix Rack and Control",
-          "value": "helixrackandcontrol"
-        },
-        {
-          "name": "M13 v2.0 Sompbox Modeler",
-          "value": "m13v20sompboxmodeler"
-        },
-        {
-          "name": "M5 Stompbox Modeler",
-          "value": "m5stompboxmodeler"
-        },
-        {
-          "name": "M9 v2.0 Stompbox Modeler",
-          "value": "m9v20stompboxmodeler"
-        },
-        {
-          "name": "POD GO",
-          "value": "podgo"
-        },
-        {
-          "name": "POD HD PRO X",
-          "value": "podhdprox"
-        },
-        {
-          "name": "POD HD500X",
-          "value": "podhd500x"
-        },
-        {
-          "name": "Pocket POD",
-          "value": "pocketpod"
-        }
-      ]
-    },
-    {
-      "name": "Make Noise Co.",
-      "value": "makenoiseco",
-      "models": [
-        {
-          "name": "0-COAST",
-          "value": "0-coast"
-        }
-      ]
-    },
-    {
-      "name": "Marshall",
-      "value": "marshall",
-      "models": [
-        {
-          "name": "DSL40CR",
-          "value": "dsl40cr"
-        }
-      ]
-    },
-    {
-      "name": "Meeblip",
-      "value": "meeblip",
-      "models": [
-        {
-          "name": "Geode",
-          "value": "geode"
-        },
-        {
-          "name": "Triode",
-          "value": "triode"
-        }
-      ]
-    },
-    {
-      "name": "Meris",
-      "value": "meris",
-      "models": [
-        {
-          "name": "Enzo",
-          "value": "enzo"
-        },
-        {
-          "name": "Enzo X",
-          "value": "enzox"
-        },
-        {
-          "name": "Hedra",
-          "value": "hedra"
-        },
-        {
-          "name": "LVX",
-          "value": "lvx"
-        },
-        {
-          "name": "Mercury 7",
-          "value": "mercury7"
-        },
-        {
-          "name": "Mercury X",
-          "value": "mercuryx"
-        },
-        {
-          "name": "Ottobit JR",
-          "value": "ottobitjr"
-        },
-        {
-          "name": "Polymoon",
-          "value": "polymoon"
-        }
-      ]
-    },
-    {
-      "name": "MFB",
-      "value": "mfb",
-      "models": [
-        {
-          "name": "Tanzbar Lite",
-          "value": "tanzbarlite"
-        }
-      ]
-    },
-    {
-      "name": "the montreal assembly",
-      "value": "mtlasm",
-      "models": [
-        {
-          "name": "856 for ZELLERSASN",
-          "value": "856forZELLERSASN"
-        }
-      ]
-    },
-    {
-      "name": "Modal Electronics",
-      "value": "modalelectronics",
-      "models": [
-        {
-          "name": "002R",
-          "value": "002r"
-        },
-        {
-          "name": "008R",
-          "value": "008r"
-        },
-        {
-          "name": "1",
-          "value": "1"
-        },
-        {
-          "name": "2",
-          "value": "2"
-        },
-        {
-          "name": "8",
-          "value": "8"
-        },
-        {
-          "name": "ARGON 8",
-          "value": "argon8"
-        },
-        {
-          "name": "ARGON 8M",
-          "value": "argon8m"
-        },
-        {
-          "name": "ARGON 8X",
-          "value": "argon8x"
-        },
-        {
-          "name": "CRAFTsynth 2.0",
-          "value": "craftsynth20"
-        },
-        {
-          "name": "SKULPTsynthesiser",
-          "value": "skulptsynthesiser"
-        }
-      ]
-    },
-    {
-      "name": "Modor",
-      "value": "modor",
-      "models": [
-        {
-          "name": "NF-1",
-          "value": "nf-1"
-        }
-      ]
-    },
-    {
-      "name": "Mooer",
-      "value": "mooer",
-      "models": [
-        {
-          "name": "GE300",
-          "value": "ge300"
-        },
-        {
-          "name": "GE300 LITE",
-          "value": "ge300lite"
-        },
-        {
-          "name": "Ocean Machine",
-          "value": "oceanmachine"
-        }
-      ]
-    },
-    {
-      "name": "Moog",
-      "value": "moog",
-      "models": [
-        {
-          "name": "MF-104M",
-          "value": "mf104m"
-        },
-        {
-          "name": "MF-105M MIDI MuRF",
-          "value": "mf-105mmidimurf"
-        },
-        {
-          "name": "MF-108M Cluster Flux",
-          "value": "mf-108mclusterflux"
-        },
-        {
-          "name": "Grandmother",
-          "value": "grandmother"
-        },
-        {
-          "name": "Matriarch",
-          "value": "matriarch"
-        },
-        {
-          "name": "Minimoog Voyager",
-          "value": "minimoogvoyager"
-        },
-        {
-          "name": "Minimoog Voyager XL",
-          "value": "minimoogvoyagerxl"
-        },
-        {
-          "name": "Minitaur",
-          "value": "minitaur"
-        },
-        {
-          "name": "Mother-32",
-          "value": "mother-32"
-        },
-        {
-          "name": "Sub Phatty",
-          "value": "subphatty"
-        },
-        {
-          "name": "Subharmonicon",
-          "value": "subharmonicon"
-        },
-        {
-          "name": "Subsequent 25",
-          "value": "subsequent25"
-        },
-        {
-          "name": "Subsequent 37",
-          "value": "subsequent37"
-        }
-      ]
-    },
-    {
-      "name": "Morningstar Engineering",
-      "value": "morningstarengineering",
-      "models": [
-        {
-          "name": "MC3",
-          "value": "mc3"
-        },
-        {
-          "name": "MC4 PRO",
-          "value": "mc4pro"
-        },
-        {
-          "name": "MC6 MKII",
-          "value": "mc6mkii"
-        },
-        {
-          "name": "MC6 PRO",
-          "value": "mc6pro"
-        },
-        {
-          "name": "MC8",
-          "value": "mc8"
-        },
-        {
-          "name": "MC8 PRO",
-          "value": "mc8pro"
-        },
-
-        {
-          "name": "ML5",
-          "value": "ml5"
-        },
-        {
-          "name": "ML5R",
-          "value": "ml5r"
-        },
-        {
-          "name": "ML10X",
-          "value": "ml10x"
-        }
-      ]
-    },
-    {
-      "name": "Melbourne Instruments",
-      "value": "melbourneinstruments",
-      "models": [
-        {
-          "name": "Nina",
-          "value": "nina"
-        }
-      ]
-    },
-    {
-      "name": "Mutable Instruments",
-      "value": "mutableinstruments",
-      "models": [
-        {
-          "name": "Shruthi",
-          "value": "shruthi"
-        }
-      ]
-    },
-    {
-      "name": "Neunaber",
-      "value": "neunaber",
-      "models": [
-        {
-          "name": "Illumine",
-          "value": "illumine"
-        },
-        {
-          "name": "Neuron",
-          "value": "neuron"
-        }
-      ]
-    },
-    {
-      "name": "Neural DSP",
-      "value": "neuraldsp",
-      "models": [
-        {
-          "name": "Nano Cortex",
-          "value": "nanocortex"
-        },
-        {
-          "name": "Quad Cortex",
-          "value": "quadcortex"
-        },
-        {
-          "name": "Quad Cortex Mini",
-          "value": "quadcortexmini"
-        }
-      ]
-    },
-    {
-      "name": "Noise Engineering",
-      "value": "noiseengineering",
-      "models": [
-        {
-          "name": "Batverb",
-          "value": "batverb"
-        }
-      ]
-    },
-    {
-      "name": "Nord",
-      "value": "nord",
-      "models": [
-        {
-          "name": "C1",
-          "value": "c1"
-        },
-        {
-          "name": "C2",
-          "value": "c2"
-        },
-        {
-          "name": "C2D",
-          "value": "c2d"
-        },
-        {
-          "name": "Drum 2",
-          "value": "drum2"
-        },
-        {
-          "name": "Electro 2",
-          "value": "electro2"
-        },
-        {
-          "name": "Electro 3",
-          "value": "electro3"
-        },
-        {
-          "name": "Electro 3 HP",
-          "value": "electro3hp"
-        },
-        {
-          "name": "Electro 4 HP",
-          "value": "electro4hp"
-        },
-        {
-          "name": "Electro 4 SW",
-          "value": "electro4sw"
-        },
-        {
-          "name": "Electro 4D",
-          "value": "electro4d"
-        },
-        {
-          "name": "Electro 5D 61",
-          "value": "electro5d61"
-        },
-        {
-          "name": "Electro 5D 61 ",
-          "value": "electro5d61"
-        },
-        {
-          "name": "Electro 5D 73",
-          "value": "electro5d73"
-        },
-        {
-          "name": "Electro 5HP 73",
-          "value": "electro5hp73"
-        },
-        {
-          "name": "Electro 6",
-          "value": "electro6"
-        },
-        {
-          "name": "Grand",
-          "value": "grand"
-        },
-        {
-          "name": "Lead",
-          "value": "lead"
-        },
-        {
-          "name": "Lead 2",
-          "value": "lead2"
-        },
-        {
-          "name": "Lead 2X",
-          "value": "lead2x"
-        },
-        {
-          "name": "Lead 3",
-          "value": "lead3"
-        },
-        {
-          "name": "Lead 4",
-          "value": "lead4"
-        },
-        {
-          "name": "Lead 4R",
-          "value": "lead4r"
-        },
-        {
-          "name": "Lead A1",
-          "value": "leada1"
-        },
-        {
-          "name": "Lead A1R",
-          "value": "leada1r"
-        },
-        {
-          "name": "Piano",
-          "value": "piano"
-        },
-        {
-          "name": "Piano 2 HA88",
-          "value": "piano2ha88"
-        },
-        {
-          "name": "Piano 2 HP",
-          "value": "piano2hp"
-        },
-        {
-          "name": "Piano 3",
-          "value": "piano3"
-        },
-        {
-          "name": "Piano 4",
-          "value": "piano4"
-        },
-        {
-          "name": "Rack 3",
-          "value": "rack3"
-        },
-        {
-          "name": "Stage",
-          "value": "stage"
-        },
-        {
-          "name": "Stage 2",
-          "value": "stage2"
-        },
-        {
-          "name": "Stage 2 EX",
-          "value": "stage2ex"
-        },
-        {
-          "name": "Stage 3",
-          "value": "stage3"
-        },
-        {
-          "name": "Stage EX",
-          "value": "stageex"
-        },
-        {
-          "name": "Wave",
-          "value": "wave"
-        },
-        {
-          "name": "Wave 2",
-          "value": "wave2"
-        }
-      ]
-    },
-    {
-      "name": "Novation",
-      "value": "novation",
-      "models": [
-        {
-          "name": "Bass Station II",
-          "value": "bassstationii"
-        },
-        {
-          "name": "Bass Station Keyboard",
-          "value": "bassstationkeyboard"
-        },
-        {
-          "name": "Circuit",
-          "value": "circuit"
-        },
-        {
-          "name": "Circuit Mono Station",
-          "value": "circuitmonostation"
-        },
-        {
-          "name": "Circuit Rhythm",
-          "value": "circuitrhythm"
-        },
-        {
-          "name": "MiniNova",
-          "value": "mininova"
-        },
-        {
-          "name": "Peak",
-          "value": "peak"
-        },
-        {
-          "name": "Summit",
-          "value": "summit"
-        },
-        {
-          "name": "UltraNova",
-          "value": "ultranova"
-        }
-      ]
-    },
-    {
-      "name": "Old Blood Noise Endeavors",
-      "value": "oldbloodnoiseendeavors",
-      "models": [
-        {
-          "name": "Black Fountain",
-          "value": "blackfountain"
-        },
-        {
-          "name": "Dark Star Stereo Soundscape Reverb",
-          "value": "darkstarstereosoundscapereverb"
-        },
-        {
-          "name": "Signal Blender Stereo",
-          "value": "signalblenderstereo"
-        },
-        {
-          "name": "Sunlight Stereo Reverb",
-          "value": "sunlightstereo"
-        }
-      ]
-    },
-    {
-      "name": "One Control",
-      "value": "onecontrol",
-      "models": [
-        {
-          "name": "Midi Solo Stereo Loop ",
-          "value": "midisolostereoloop"
-        }
-      ]
-    },
-    {
-      "name": "OPFXS",
-      "value": "OPFXS",
-      "models": [
-        {
-          "name": "V-Uno",
-          "value": "v-uno"
-        }
-      ]
-    },
-    {
-      "name": "Oscillator Devices",
-      "value": "oscillatordevices",
-      "models": [
-        {
-          "name": "ABY",
-          "value": "aby"
-        },
-        {
-          "name": "Hydra 4X",
-          "value": "hydra4x"
-        },
-        {
-          "name": "Goblin-EXP in EHX Pitch Fork",
-          "value": "goblinexpehxpitchfork"
-        },
-        {
-          "name": "Minerva",
-          "value": "minerva"
-        },
-        {
-          "name": "Siren",
-          "value": "siren"
-        }
-      ]
-    },
-    {
-      "name": "OTO Machines",
-      "value": "otomachines",
-      "models": [
-        {
-          "name": "BAM",
-          "value": "bam"
-        },
-        {
-          "name": "BIM",
-          "value": "bim"
-        },
-        {
-          "name": "BOUM",
-          "value": "boum"
-        },
-        {
-          "name": "Biscuit",
-          "value": "biscuit"
-        }
-      ]
-    },
-    {
-      "name": "Panda Audio",
-      "value": "pandaaudio",
-      "models": [
-        {
-          "name": "Future Impact",
-          "value": "futureimpact"
-        }
-      ]
-    },
-    {
-      "name": "Peavey",
-      "value": "peavey",
-      "models": [
-        {
-          "name": "Mini MEGA",
-          "value": "minimega"
-        }
-      ]
-    },
-    {
-      "name": "Pigtronix",
-      "value": "pigtronix",
-      "models": [
-        {
-          "name": "Echolution 2 Deluxe",
-          "value": "echolution2deluxe"
-        },
-        {
-          "name": "Echolution 3",
-          "value": "echolution3"
-        },
-        {
-          "name": "Infinity",
-          "value": "infinity"
-        }
-      ]
-    },
-    {
-      "name": "Poly Effects",
-      "value": "polyeffects",
-      "models": [
-        {
-          "name": "Flat V",
-          "value": "flatv"
-        },
-        {
-          "name": "Verbs",
-          "value": "verbs"
-        }
-      ]
-    },
-    {
-      "name": "Positive Grid",
-      "value": "positivegrid",
-      "models": [
-        {
-          "name": "Bias Distortion Pro",
-          "value": "biasdistortionpro"
-        },
-        {
-          "name": "Bias Head",
-          "value": "biashead"
-        },
-        {
-          "name": "Bias Rack",
-          "value": "biasrack"
-        }
-      ]
-    },
-    {
-      "name": "Ramble FX",
-      "value": "ramblefx",
-      "models": [
-        {
-          "name": "Kismet",
-          "value": "kismet"
-        }
-      ]
-    },
-    {
-      "name": "Red Panda",
-      "value": "redpanda",
-      "models": [
-        {
-          "name": "Bitmap 2",
-          "value": "bitmap2"
-        },
-        {
-          "name": "Context 2",
-          "value": "context2"
-        },
-        {
-          "name": "Particle 2",
-          "value": "particle2"
-        },
-         {
-          "name": "Radius",
-          "value": "radius"
-        },
-        {
-          "name": "Raster 2",
-          "value": "raster2"
-        },
-        {
-          "name": "Tensor",
-          "value": "tensor"
-        }
-      ]
-    },
-    {
-      "name": "Revv",
-      "value": "revv",
-      "models": [
-        {
-          "name": "D20",
-          "value": "d20"
-        },
-        {
-          "name": "G20",
-          "value": "g20"
-        }
-      ]
-    },
-    {
-      "name": "RJM Music",
-      "value": "rjmmusic",
-      "models": [
-        {
-          "name": "Overture",
-          "value": "overture"
-        },
-        {
-          "name": "Mastermind PBC/10",
-          "value": "mastermindpbc10"
-        },
-        {
-          "name": "Mini Amp Gizmo",
-          "value": "miniampgizmo"
-        },
-        {
-          "name": "Mini Effect Gizmo X",
-          "value": "minieffectgizmox"
-        }
-      ]
-    },
-    {
-      "name": "Roland",
-      "value": "roland",
-      "models": [
-        {
-          "name": "BK-7m",
-          "value": "bk-7m"
-        },
-        {
-          "name": "D-05",
-          "value": "d-05"
-        },
-        {
-          "name": "Fantom",
-          "value": "fantom"
-        },
-        {
-          "name": "FR-06/07/08",
-          "value": "fa-06-07-08"
-        },
-        {
-          "name": "FR-18D",
-          "value": "fr-18d"
-        },
-        {
-          "name": "GAIA SH-01",
-          "value": "gaiash-01"
-        },
-        {
-          "name": "JD-XA",
-          "value": "jd-xa"
-        },
-        {
-          "name": "JD-Xi",
-          "value": "jd-xi"
-        },
-        {
-          "name": "JP-08",
-          "value": "jp-08"
-        },
-        {
-          "name": "JU-06",
-          "value": "ju-06"
-        },
-        {
-          "name": "JX-03",
-          "value": "jx-03"
-        },
-        {
-          "name": "SE-02",
-          "value": "se-02"
-        },
-        {
-          "name": "SH-01A",
-          "value": "sh-01a"
-        },
-        {
-          "name": "SYSTEM-1",
-          "value": "system-1"
-        },
-        {
-          "name": "SYSTEM-8",
-          "value": "system-8"
-        },
-        {
-          "name": "TB-03",
-          "value": "tb-03"
-        },
-        {
-          "name": "TR-08",
-          "value": "tr-08"
-        },
-        {
-          "name": "TR-09",
-          "value": "tr-09"
-        },
-        {
-          "name": "TR-8",
-          "value": "tr-8"
-        },
-        {
-          "name": "VP-03",
-          "value": "vp-03"
-        }
-      ]
-    },
-    {
-      "name": "Sequential",
-      "value": "sequential",
-      "models": [
-        {
-          "name": "OB-6",
-          "value": "ob-6"
-        },
-        {
-          "name": "Pro 3",
-          "value": "pro3"
-        },
-        {
-          "name": "Prophet 12",
-          "value": "prophet12"
-        },
-        {
-          "name": "Prophet 6",
-          "value": "prophet6"
-        },
-        {
-          "name": "Prophet X",
-          "value": "prophetx"
-        },
-        {
-          "name": "Rev 2",
-          "value": "rev2"
-        }
-      ]
-    },
-    {
-      "name": "Seymour Duncan",
-      "value": "seymourduncan",
-      "models": [
-        {
-          "name": "Andromeda",
-          "value": "andromeda"
-        }
-      ]
-    },
-    {
-      "name": "Sheeran",
-      "value": "sheeran",
-      "models": [
-        {
-          "name": "Looper+",
-          "value": "looperplus"
-        },
-        {
-          "name": "Looper X",
-          "value": "looperX"
-        }
-      ]
-    },
-    {
-      "name": "Singular Sound",
-      "value": "singular_sound",
-      "models": [
-        {
-          "name": "Aeros Looper",
-          "value": "aeros_looper"
-        },
-        {
-          "name": "BeatBuddy",
-          "value": "beatbuddy"
-        }
-      ]
-    },
-    {
-      "name": "Sound Sculpture",
-      "value": "soundsculpture",
-      "models": [
-        {
-          "name": "Switchblade 8F",
-          "value": "switchblade8f"
-        }
-      ]
-    },
-    {
-      "name": "Source Audio",
-      "value": "sourceaudio",
-      "models": [
-        {
-          "name": "Artifakt",
-          "value": "artifakt"
-        },
-        {
-          "name": "Atlas",
-          "value": "atlas"
-        },
-        {
-          "name": "Collider",
-          "value": "collider"
-        },
-        {
-          "name": "C4 Synth",
-          "value": "c4synth"
-        },
-        {
-          "name": "EQ2",
-          "value": "eq2"
-        },
-        {
-          "name": "Nemesis",
-          "value": "nemesis"
-        },
-        {
-          "name": "Programmable EQ",
-          "value": "programmableeq"
-        },
-        {
-          "name": "Spectrum Intelligence Filter",
-          "value": "spectrumintelligencefilter"
-        },
-        {
-          "name": "Ultrawave",
-          "value": "ultrawave"
-        },
-        {
-          "name": "Ventris",
-          "value": "ventris"
-        }
-      ]
-    },
-    {
-      "name": "Strymon",
-      "value": "strymon",
-      "models": [
-        { "name": "Bigsky", "value": "bigsky" },
-        { "name": "Bigsky MX", "value": "bigskymx" },
-        { "name": "blueSky", "value": "bluesky" },
-        { "name": "Brig", "value": "brig" },
-        { "name": "Cloudburst", "value": "cloudburst" },
-        { "name": "Compadre", "value": "compadre" },
-        { "name": "Deco", "value": "deco" },
-        { "name": "DIG", "value": "dig" },
-        { "name": "EC-1", "value": "ec1" },
-        { "name": "El Capistan", "value": "elcapistan" },
-        { "name": "Flint", "value": "flint" },
-        { "name": "Iridium", "value": "iridium" },
-        { "name": "Lex", "value": "lex" },
-        { "name": "Mobius", "value": "mobius" },
-        { "name": "NightSky", "value": "nightsky" },
-        { "name": "Riverside", "value": "riverside" },
-        { "name": "Sunset", "value": "sunset" },
-        { "name": "Timeline", "value": "timeline" },
-        { "name": "Ultraviolet", "value": "ultraviolet" },
-        { "name": "Volante", "value": "volante" },
-        { "name": "Zelzah", "value": "zelzah" }
-      ]
-    },
-    {
-      "name": "Studiologic",
-      "value": "studiologic",
-      "models": [
-        {
-          "name": "Sledge",
-          "value": "sledge"
-        }
-      ]
-    },
-    {
-      "name": "Stone Deaf",
-      "value": "stonedeaf",
-      "models": [
-        {
-          "name": "Syncopy",
-          "value": "syncopy"
-        },
-        {
-          "name": "Tremotron",
-          "value": "tremotron"
-        }
-      ]
-    },
-    {
-      "name": "Suhr",
-      "value": "suhr",
-      "models": [
-        {
-          "name": "Discovery",
-          "value": "discovery"
-        },
-        {
-          "name": "Hedgehog",
-          "value": "hedgehog"
-        },
-        {
-          "name": "PT-100",
-          "value": "pt-100"
-        }
-      ]
-    },
-    {
-      "name": "Sunday Sounds",
-      "value": "sundaysounds",
-      "models": [
-        {
-          "name": "Sunday Guitar 2",
-          "value": "sundayguitar2"
-        },
-        {
-          "name": "Sunday Keys 2020",
-          "value": "sundaykeys2020"
-        }
-      ]
-    },
-    {
-      "name": "Swindler Effects",
-      "value": "swindlereffects",
-      "models": [
-        {
-          "name": "Red Mountain Tremolo V2",
-          "value": "redmountaintremolov2"
-        },
-        {
-          "name": "The Gulf Chorus V2",
-          "value": "thegulfchorusv2"
-        }
-      ]
-    },
-    {
-      "name": "Synergy Amps",
-      "value": "synergyamps",
-      "models": [
-        {
-          "name": "SYN2",
-          "value": "syn2"
-        },
-        {
-          "name": "SYN20-IR",
-          "value": "syn20ir"
-        }
-      ]
-    },
-    {
-      "name": "TC Electronic",
-      "value": "tcelectronic",
-      "models": [
-        {
-          "name": "Ditto X4",
-          "value": "dittox4"
-        },
-        {
-          "name": "Nova Drive",
-          "value": "novadrive"
-        },
-        {
-          "name": "Plethora X3",
-          "value": "plethorax3"
-        },
-        {
-          "name": "Plethora X5",
-          "value": "plethorax5"
-        },
-        {
-          "name": "Flashback 2 X4 Delay",
-          "value": "flashback2x4delay"
-        },
-        {
-          "name": "Hall of Fame 2 X4 Reverb",
-          "value": "halloffame2x4reverb"
-        }
-      ]
-    },
-    {
-      "name": "TastyChips",
-      "value": "tastychips",
-      "models": [
-        {
-          "name": "GR1",
-          "value": "gr1"
-        }
-      ]
-    },
-    {
-      "name": "TC Helicon",
-      "value": "tchelicon",
-      "models": [
-        {
-          "name": "Voicelive 3",
-          "value": "voicelive_3"
-        },
-        {
-          "name": "Voicelive 3 Extreme",
-          "value": "voicelive3extreme"
-        },
-        {
-          "name": "Voicelive Rack",
-          "value": "voiceliverack"
-        },
-        {
-          "name": "Voicelive Touch 2",
-          "value": "voicelivetouch2"
-        }
-      ]
-    },
-    {
-      "name": "Teenage Engineering",
-      "value": "teenageengineering",
-      "models": [
-        {
-          "name": "OP-Z",
-          "value": "op-z"
-        }
-      ]
-    },
-    {
-      "name": "That Worship Sound",
-      "value": "thatworshipsound",
-      "models": [
-        {
-          "name": "Worship Essentials 2",
-          "value": "worshipessentials2"
-        },
-        {
-          "name": "Worship Guitar Essentials 2",
-          "value": "worshipguitaressentials2"
-        }
-      ]
-    },
-    {
-      "name": "Tone King",
-      "value": "toneking",
-      "models": [
-        {
-          "name": "Imperial Tri-Tube Preamp",
-          "value": "imperialtritubepreamp"
-        }
-      ]
-    },
-    {
-      "name": "Two Notes Audio Engineering",
-      "value": "twonotesaudioengineering",
-      "models": [
-        {
-          "name": "Opus",
-          "value": "opus"
-        },
-        {
-          "name": "Torpedo C.A.B. (v4 firmware)",
-          "value": "torpedocabv4firmware"
-        },
-        {
-          "name": "Torpedo Captor X",
-          "value": "torpedocaptorx"
-        },
-        {
-          "name": "Torpedo Live v3 firmware",
-          "value": "torpedolivev3firmware"
-        },
-        {
-          "name": "Torpedo Live v4 firmware",
-          "value": "torpedolivev4firmware"
-        },
-        {
-          "name": "Torpedo Studio",
-          "value": "torpedostudio"
-        }
-      ]
-    },
-        {
-      "name": "Universal Audio",
-      "value": "universalaudio",
-      "models": [
-        {
-          "name": "ANTI",
-          "value": "anti"
-        },
-        {
-          "name": "Astra",
-          "value": "astra"
-        },
-        {
-          "name": "Del-Verb",
-          "value": "delverb"
-        },
-        {
-          "name": "Dream",
-          "value": "dream"
-        },
-        {
-          "name": "Enigmatic",
-          "value": "enigmatic"
-        },
-        {
-          "name": "Galaxy",
-          "value": "galaxy"
-        },
-        {
-          "name": "Golden",
-          "value": "golden"
-        },
-        {
-          "name": "Knuckles",
-          "value": "knuckles"
-        },
-        {
-          "name": "Lion",
-          "value": "lion"
-        },
-        {
-          "name": "Max",
-          "value": "max"
-        },
-        {
-          "name": "OX Stomp",
-          "value": "oxstomp"
-        },
-        {
-          "name": "Ruby",
-          "value": "ruby"
-        },
-        {
-          "name": "Starlight",
-          "value": "starlight"
-        },
-        {
-          "name": "Woodrow",
-          "value": "woodrow"
-        }
-      ]
-    },
-    {
-      "name": "Valeton",
-      "value": "valeton",
-      "models": [
-        {
-          "name": "GP-5",
-          "value": "gp5"
-        },
-        {
-          "name": "GP-200",
-          "value": "gp200"
-        },
-        {
-          "name": "GP-200LT",
-          "value": "gp200lt"
-        }
-      ]
-    },
-    {
-      "name": "Vongon",
-      "value": "vongon",
-      "models": [
-        {
-          "name": "Polyphrase",
-          "value": "polyphrase"
-        }
-      ]
-    },
-    {
-      "name": "Waldorf",
-      "value": "waldorf",
-      "models": [
-        {
-          "name": "Blofeld",
-          "value": "blofeld"
-        }
-      ]
-    },
-    {
-      "name": "Walrus Audio",
-      "value": "walrusaudio",
-      "models": [
-        {
-          "name": "ACS1",
-          "value": "acs1"
-        },
-        {
-          "name": "ACS1 MK2",
-          "value": "acs1mk2"
-        },
-        {
-          "name": "D1 (Old version)",
-          "value": "d1_old"
-        },
-        {
-          "name": "D1 (New version)",
-          "value": "d1"
-        },
-        {
-          "name": "D1 MK2",
-          "value": "d1mk2"
-        },
-        {
-          "name": "M1",
-          "value": "m1"
-        },
-        {
-          "name": "M1 MK2",
-          "value": "m1mk2"
-        },
-        {
-          "name": "Meraki (Stereo Analog Delay)",
-          "value": "meraki"
-        },
-        {
-          "name": "Qi",
-          "value": "qi"
-        },
-        {
-          "name": "R1",
-          "value": "r1"
-        },
-        {
-          "name": "R1 MK2",
-          "value": "r1mk2"
-        },
-        {
-          "name": "Xero",
-          "value": "xero"
-        }
-      ]
-    },
-    {
-      "name": "Wampler Pedals",
-      "value": "wamplerpedals",
-      "models": [
-        {
-          "name": "Catacombs",
-          "value": "catacombs"
-        },
-        {
-          "name": "Metaverse",
-          "value": "metaverse"
-        },
-         {
-          "name": "Pantheon",
-          "value": "Pantheon"
-        },
-        {
-          "name": "Terraform",
-          "value": "terraform"
-        }
-      ]
-    },
-    {
-      "name": "WMD",
-      "value": "wmd",
-      "models": [
-        {
-          "name": "Geiger Counter Pro",
-          "value": "geigercounterpro"
-        }
-      ]
-    },
-    {
-      "name": "Yamaha",
-      "value": "yamaha",
-      "models": [
-        {
-          "name": "reface CP",
-          "value": "refacecp"
-        },
-        {
-          "name": "reface CS",
-          "value": "refacecs"
-        },
-        {
-          "name": "reface DX",
-          "value": "refacedx"
-        },
-        {
-          "name": "reface YC",
-          "value": "refaceyc"
-        }
-      ]
-    }
-  ]
+    "brands": [
+        {
+            "name": "3 Degrees Audio",
+            "value": "3degreesaudio",
+            "models": [
+                {
+                    "name": "Hue Stereo Multi Effect Pedal",
+                    "value": "huestereo"
+                }
+            ]
+        },
+        {
+            "name": "OPFXS",
+            "value": "OPFXS",
+            "models": [
+                {
+                    "name": "V-Uno",
+                    "value": "v-uno"
+                }
+            ]
+        },
+        {
+            "name": "Access",
+            "value": "access",
+            "models": [
+                {
+                    "name": "Virus TI",
+                    "value": "virusti"
+                }
+            ]
+        },
+        {
+            "name": "Adrenalinn",
+            "value": "adrenalinn",
+            "models": [
+                {
+                    "name": "III",
+                    "value": "iii"
+                }
+            ]
+        },
+        {
+            "name": "Aerospace Audio",
+            "value": "aerospaceaudio",
+            "models": [
+                {
+                    "name": "Atmosphere v2",
+                    "value": "atmospherev2"
+                },
+                {
+                    "name": "Atmosphere v3",
+                    "value": "atmospherev3"
+                }
+            ]
+        },
+        {
+            "name": "Alexander",
+            "value": "alexander",
+            "models": [
+                {
+                    "name": "Colour Theory ",
+                    "value": "colourtheory"
+                },
+                {
+                    "name": "Defender Neo",
+                    "value": "defenderneo"
+                },
+                {
+                    "name": "F.13 Neo",
+                    "value": "f13neo"
+                },
+                {
+                    "name": "Fever Pitch",
+                    "value": "feverpitch"
+                },
+                {
+                    "name": "Marshmallow",
+                    "value": "marshmallow"
+                },
+                {
+                    "name": "Now We Are Ghosts",
+                    "value": "nowweareghosts"
+                },
+                {
+                    "name": "Oblivion Vintage Delay",
+                    "value": "oblivionvintagedelay"
+                },
+                {
+                    "name": "Quadrant",
+                    "value": "quadrant"
+                },
+                {
+                    "name": "Quadrant Audio Mirror",
+                    "value": "quadrantaudiomirror"
+                },
+                {
+                    "name": "Radical Delay DX",
+                    "value": "radicaldelaydx"
+                },
+                {
+                    "name": "Rewind",
+                    "value": "rewind"
+                },
+                {
+                    "name": "SKY 5000",
+                    "value": "sky5000"
+                },
+                {
+                    "name": "Space Race",
+                    "value": "spacerace"
+                },
+                {
+                    "name": "Superball",
+                    "value": "superball"
+                },
+                {
+                    "name": "Super Neo-Matic",
+                    "value": "superneo-matic"
+                },
+                {
+                    "name": "Super Radical Delay",
+                    "value": "superradicaldelay"
+                },
+                {
+                    "name": "Syntax Error",
+                    "value": "syntaxerror"
+                },
+                {
+                    "name": "Wavelength",
+                    "value": "wavelength"
+                }
+            ]
+        },
+        {
+            "name": "Arturia",
+            "value": "arturia",
+            "models": [
+                {
+                    "name": "MatrixBrute",
+                    "value": "matrixbrute"
+                },
+                {
+                    "name": "MicroFreak",
+                    "value": "microfreak"
+                },
+                {
+                    "name": "MiniFreak",
+                    "value": "minifreak"
+                }
+            ]
+        },
+        {
+            "name": "Ashdown",
+            "value": "ashdown",
+            "models": [
+                {
+                    "name": "LB 30 2.N",
+                    "value": "lb302n"
+                }
+            ]
+        },
+        {
+            "name": "Atomic",
+            "value": "atomic",
+            "models": [
+                {
+                    "name": "Amplifire",
+                    "value": "amplifire"
+                },
+                {
+                    "name": "Amplifire 12",
+                    "value": "amplifire12"
+                },
+                {
+                    "name": "Amplifire 3",
+                    "value": "amplifire3"
+                },
+                {
+                    "name": "Amplifire 6",
+                    "value": "amplifire6"
+                }
+            ]
+        },
+        {
+            "name": "AVID",
+            "value": "avid",
+            "models": [
+                {
+                    "name": "Eleven Rack",
+                    "value": "elevenrack"
+                }
+            ]
+        },
+        {
+            "name": "Beetronics",
+            "value": "beetronics",
+            "models": [
+                {
+                    "name": "Seabee Harmochorus",
+                    "value": "seabeeharmochorus"
+                }
+            ]
+        },
+        {
+            "name": "Behringer",
+            "value": "behringer",
+            "models": [
+                {
+                    "name": "Vintager AC112",
+                    "value": "AC112"
+                },
+                {
+                    "name": "BM-15M MURF Box",
+                    "value": "bm15mmurfbox"
+                },
+                {
+                    "name": "Deepmind 12",
+                    "value": "deepmind12"
+                },
+                {
+                    "name": "Deepmind 12D",
+                    "value": "deepmind12d"
+                },
+                {
+                    "name": "Deepmind 6",
+                    "value": "deepmind6"
+                },
+                {
+                    "name": "Pro-800",
+                    "value": "pro-800"
+                },
+                {
+                    "name": "X-Air",
+                    "value": "xair"
+                }
+            ]
+        },
+        {
+            "name": "Blackstar Amplification",
+            "value": "blackstaramplification",
+            "models": [
+                {
+                    "name": "Amped 1",
+                    "value": "amped_1"
+                },
+                {
+                    "name": "Amped 3",
+                    "value": "amped_3"
+                },
+                {
+                    "name": "Silverline Deluxe",
+                    "value": "silverlinedeluxe"
+                },
+                {
+                    "name": "Silverline Deluxe Head",
+                    "value": "silverlinedeluxehead"
+                },
+                {
+                    "name": "Silverline Stereo Deluxe",
+                    "value": "silverlinestereodeluxe"
+                }
+            ]
+        },
+        {
+            "name": "BluGuitar",
+            "value": "bluguitar",
+            "models": [
+                {
+                    "name": "Amp1 (Mercury & Iridium Edition)",
+                    "value": "amp1_mercury_iridium"
+                }
+            ]
+        },
+        {
+            "name": "Bondi Effects",
+            "value": "bondieffects",
+            "models": [
+                {
+                    "name": "Art Van Delay",
+                    "value": "artvandelay"
+                }
+            ]
+        },
+        {
+            "name": "Boss",
+            "value": "boss",
+            "models": [
+                {
+                    "name": "DD-500",
+                    "value": "dd-500"
+                },
+                {
+                    "name": "DM-101",
+                    "value": "dm-101"
+                },
+                {
+                    "name": "GT1000 Core",
+                    "value": "gt1000core"
+                },
+                {
+                    "name": "Katana",
+                    "value": "katana"
+                },
+                {
+                    "name": "Katana Artist",
+                    "value": "katanaartist"
+                },
+                {
+                    "name": "Katana Head",
+                    "value": "katanahead"
+                },
+                {
+                    "name": "MD-500",
+                    "value": "md-500"
+                },
+                {
+                    "name": "OD-200",
+                    "value": "od-200"
+                },
+                {
+                    "name": "RC-10R",
+                    "value": "rc10r"
+                },
+                {
+                    "name": "RE-202",
+                    "value": "re-202"
+                },
+                {
+                    "name": "RV-500",
+                    "value": "rv-500"
+                },
+                {
+                    "name": "Slicer SL-2",
+                    "value": "slicer-sl2"
+                }
+            ]
+        },
+        {
+            "name": "Chaos Audio",
+            "value": "chaosaudio",
+            "models": [
+                {
+                    "name": "Stratus",
+                    "value": "stratus"
+                }
+            ]
+        },
+        {
+            "name": "Chase Bliss Audio",
+            "value": "chasebliss",
+            "models": [
+                {
+                    "name": "Ayahuasca",
+                    "value": "ayahuasca"
+                },
+                {
+                    "name": "Bliss Factory",
+                    "value": "blissfactory"
+                },
+                {
+                    "name": "Blooper",
+                    "value": "blooper"
+                },
+                {
+                    "name": "Brothers",
+                    "value": "brothers"
+                },
+                {
+                    "name": "Brothers AM",
+                    "value": "brothersam"
+                },
+                {
+                    "name": "Clean",
+                    "value": "clean"
+                },
+                {
+                    "name": "Condor",
+                    "value": "condor"
+                },
+                {
+                    "name": "CXM 1978",
+                    "value": "cxm1978"
+                },
+                {
+                    "name": "Dark World",
+                    "value": "darkworld"
+                },
+                {
+                    "name": "Generation Loss MKI",
+                    "value": "generationlossmki"
+                },
+                {
+                    "name": "Generation Loss MKII",
+                    "value": "generationlossmkii"
+                },
+                {
+                    "name": "Gravitas",
+                    "value": "gravitas"
+                },
+                {
+                    "name": "Habit",
+                    "value": "habit"
+                },
+                {
+                    "name": "Lossy",
+                    "value": "lossy"
+                },
+                {
+                    "name": "Lost + Found",
+                    "value": "lostandfound"
+                },
+                {
+                    "name": "Mood",
+                    "value": "mood"
+                },
+                {
+                    "name": "Mood MkII",
+                    "value": "moodmkii"
+                },
+                {
+                    "name": "Onward",
+                    "value": "onward"
+                },
+                {
+                    "name": "Preamp MkII",
+                    "value": "preampmkii"
+                },
+                {
+                    "name": "Reverse Mode C",
+                    "value": "reversemodec"
+                },
+                {
+                    "name": "Spectre",
+                    "value": "spectre"
+                },
+                {
+                    "name": "Thermae",
+                    "value": "thermae"
+                },
+                {
+                    "name": "Tonal Recall",
+                    "value": "tonalrecall"
+                },
+                {
+                    "name": "Warped Vinyl HiFi",
+                    "value": "warpedvinyl"
+                },
+                {
+                    "name": "Wombtone",
+                    "value": "wombtone"
+                },
+                {
+                    "name": "Wombtone MKII",
+                    "value": "wombtonemkii"
+                }
+            ]
+        },
+        {
+            "name": "Colortone Pedals",
+            "value": "colortonepedals",
+            "models": [
+                {
+                    "name": "VibroVerb",
+                    "value": "vibroverb"
+                },
+                {
+                    "name": "ZeroSum",
+                    "value": "zerosum"
+                }
+            ]
+        },
+        {
+            "name": "Cornerstone Music Gear",
+            "value": "cornerstonemusicgear",
+            "models": [
+                {
+                    "name": "Nucleo",
+                    "value": "nucleo"
+                }
+            ]
+        },
+        {
+            "name": "Darkglass Electronics",
+            "value": "darkglass",
+            "models": [
+                {
+                    "name": "Anagram",
+                    "value": "anagram"
+                },
+                {
+                    "name": "Microtubes Infinity",
+                    "value": "microtubesinfinity"
+                }
+            ]
+        },
+        {
+            "name": "Dave Smith Instruments",
+            "value": "davesmithinstruments",
+            "models": [
+                {
+                    "name": "Evolver",
+                    "value": "evolver"
+                }
+            ]
+        },
+        {
+            "name": "Decibel Eleven",
+            "value": "decibeleleven",
+            "models": [
+                {
+                    "name": "Loop Expander",
+                    "value": "loopexpander"
+                }
+            ]
+        },
+        {
+            "name": "DigiTech",
+            "value": "digitech",
+            "models": [
+                {
+                    "name": "Bass Whammy",
+                    "value": "basswhammy"
+                },
+                {
+                    "name": "Whammy",
+                    "value": "whammy"
+                },
+                {
+                    "name": "Whammy DT",
+                    "value": "whammydt"
+                }
+            ]
+        },
+        {
+            "name": "Dimehead",
+            "value": "dimehead",
+            "models": [
+                {
+                    "name": "NAM",
+                    "value": "nam"
+                }
+            ]
+        },
+        {
+            "name": "Disaster Area",
+            "value": "disasterarea",
+            "models": [
+                {
+                    "name": "DPC-8EZ Gen2",
+                    "value": "dpc8ezgen2"
+                },
+                {
+                    "name": "DPC Micro",
+                    "value": "dpcmicro"
+                },
+                {
+                    "name": "Micro Clock Gen4",
+                    "value": "microclockgen4"
+                },
+                {
+                    "name": "NNB Expanse Bridge",
+                    "value": "nnb"
+                }
+            ]
+        },
+        {
+            "name": "Dreadbox",
+            "value": "dreadbox",
+            "models": [
+                {
+                    "name": "Medusa",
+                    "value": "medusa"
+                },
+                {
+                    "name": "Typhon",
+                    "value": "typhon"
+                }
+            ]
+        },
+        {
+            "name": "Dr Scientist",
+            "value": "drscientist",
+            "models": [
+                {
+                    "name": "Dusk",
+                    "value": "dusk"
+                },
+                {
+                    "name": "The Atmosphere",
+                    "value": "theatmosphere"
+                }
+            ]
+        },
+        {
+            "name": "Electro Harmonix",
+            "value": "electroharmonix",
+            "models": [
+                {
+                    "name": "1440 Stereo Looper",
+                    "value": "1440"
+                },
+                {
+                    "name": "45000",
+                    "value": "45000"
+                },
+                {
+                    "name": "8-Step Program",
+                    "value": "8-stepprogram"
+                },
+                {
+                    "name": "95000",
+                    "value": "95000"
+                },
+                {
+                    "name": "HOG2",
+                    "value": "hog2"
+                },
+                {
+                    "name": "ModRex",
+                    "value": "modrex"
+                },
+                {
+                    "name": "POG3",
+                    "value": "pog3"
+                }
+            ]
+        },
+        {
+            "name": "Electronic Audio Experiments",
+            "value": "electronicaudioexperiments",
+            "models": [
+                {
+                    "name": "Sending v2",
+                    "value": "sendingv2"
+                },
+                {
+                    "name": "Sending v2 (Firmware 2.0)",
+                    "value": "sendingv2firmware2-0"
+                }
+            ]
+        },
+        {
+            "name": "Elektron",
+            "value": "elektron",
+            "models": [
+                {
+                    "name": "Analog Drive",
+                    "value": "analogdrive"
+                },
+                {
+                    "name": "Analog Four MKII",
+                    "value": "analogfourmkii"
+                },
+                {
+                    "name": "Analog Heat MKII",
+                    "value": "analogheatmkii"
+                },
+                {
+                    "name": "Analog Rytm MKII",
+                    "value": "analogrytmmkii"
+                },
+                {
+                    "name": "Digitakt",
+                    "value": "digitakt"
+                },
+                {
+                    "name": "Digitone",
+                    "value": "digitone"
+                },
+                {
+                    "name": "Digitone Keys",
+                    "value": "digitonekeys"
+                },
+                {
+                    "name": "Model:Cycles",
+                    "value": "modelcycles"
+                },
+                {
+                    "name": "Model:Samples",
+                    "value": "modelsamples"
+                },
+                {
+                    "name": "Octatrack MKII",
+                    "value": "octatrackmkii"
+                }
+            ]
+        },
+        {
+            "name": "EM Custom",
+            "value": "emcustom",
+            "models": [
+                {
+                    "name": "AMI Universal Dual TRS",
+                    "value": "amiuniversaldualtrs"
+                }
+            ]
+        },
+        {
+            "name": "Empress",
+            "value": "empress",
+            "models": [
+                {
+                    "name": "Echo System",
+                    "value": "echosystem"
+                },
+                {
+                    "name": "Phaser",
+                    "value": "phaser"
+                },
+                {
+                    "name": "Reverb",
+                    "value": "reverb"
+                },
+                {
+                    "name": "Tremolo2",
+                    "value": "tremolo2"
+                },
+                {
+                    "name": "ZOIA",
+                    "value": "zoia"
+                }
+            ]
+        },
+        {
+            "name": "ENGL",
+            "value": "engl",
+            "models": [
+                {
+                    "name": "Invader II E642II",
+                    "value": "invaderiie642ii"
+                },
+                {
+                    "name": "Savage 120 Mark II E610II",
+                    "value": "savage120markiie610ii"
+                },
+                {
+                    "name": "Savage 60 Mark II E630II",
+                    "value": "savage60markiie630ii"
+                },
+                {
+                    "name": "Steve Morse Signature E656",
+                    "value": "stevemorsesignaturee656"
+                },
+                {
+                    "name": "Steve Morse Signature E657",
+                    "value": "stevemorsesignaturee657"
+                },
+                {
+                    "name": "Steve Morse Signature E658",
+                    "value": "stevemorsesignaturee658"
+                },
+                {
+                    "name": "Steve Morse Signature E659",
+                    "value": "stevemorsesignaturee659"
+                },
+                {
+                    "name": "Steve Morse Signature E660",
+                    "value": "stevemorsesignaturee660"
+                },
+                {
+                    "name": "Steve Morse Signature E661",
+                    "value": "stevemorsesignaturee661"
+                },
+                {
+                    "name": "Steve Morse Signature E662",
+                    "value": "stevemorsesignaturee662"
+                },
+                {
+                    "name": "Steve Morse Signature E663",
+                    "value": "stevemorsesignaturee663"
+                },
+                {
+                    "name": "Steve Morse Signature E664",
+                    "value": "stevemorsesignaturee664"
+                },
+                {
+                    "name": "Steve Morse Signature E665",
+                    "value": "stevemorsesignaturee665"
+                },
+                {
+                    "name": "Steve Morse Signature E666",
+                    "value": "stevemorsesignaturee666"
+                },
+                {
+                    "name": "Steve Morse Signature E667",
+                    "value": "stevemorsesignaturee667"
+                },
+                {
+                    "name": "Steve Morse Signature E668",
+                    "value": "stevemorsesignaturee668"
+                },
+                {
+                    "name": "Steve Morse Signature E669",
+                    "value": "stevemorsesignaturee669"
+                },
+                {
+                    "name": "Steve Morse Signature E670",
+                    "value": "stevemorsesignaturee670"
+                },
+                {
+                    "name": "Steve Morse Signature E671",
+                    "value": "stevemorsesignaturee671"
+                }
+            ]
+        },
+        {
+            "name": "Eventide",
+            "value": "eventide",
+            "models": [
+                {
+                    "name": "Blackhole",
+                    "value": "blackhole"
+                },
+                {
+                    "name": "H9",
+                    "value": "h9"
+                },
+                {
+                    "name": "Knifedrop",
+                    "value": "knifedrop"
+                },
+                {
+                    "name": "Rose",
+                    "value": "rose"
+                },
+                {
+                    "name": "Tricerachorus",
+                    "value": "tricerachorus"
+                },
+                {
+                    "name": "Ultratap",
+                    "value": "ultratap"
+                }
+            ]
+        },
+        {
+            "name": "EVH",
+            "value": "evh",
+            "models": [
+                {
+                    "name": "5150III 100S HEAD",
+                    "value": "5150iii100shead"
+                },
+                {
+                    "name": "5150III 100W HEAD",
+                    "value": "5150iii100whead"
+                },
+                {
+                    "name": "5150III 50S 6L6 HEAD",
+                    "value": "5150iii50s6l6head"
+                },
+                {
+                    "name": "5150III 50W 6L6 1X12 COMBO",
+                    "value": "5150iii50w6l61x12combo"
+                },
+                {
+                    "name": "5150III 50W 6L6 2X12 COMBO",
+                    "value": "5150iii50w6l62x12combo"
+                },
+                {
+                    "name": "5150III 50W 6L6 HEAD",
+                    "value": "5150iii50w6l6head"
+                },
+                {
+                    "name": "5150III 50W EL34 1X12 COMBO",
+                    "value": "5150iii50wel341x12combo"
+                },
+                {
+                    "name": "5150III 50W EL34 2X12 COMBO",
+                    "value": "5150iii50wel342x12combo"
+                },
+                {
+                    "name": "5150III 50W EL34 HEAD",
+                    "value": "5150iii50wel34head"
+                },
+                {
+                    "name": "5150III 50W HEAD",
+                    "value": "5150iii50whead"
+                },
+                {
+                    "name": "5150IIIS 100W EL34 HEAD",
+                    "value": "5150iiis100wel34head"
+                }
+            ]
+        },
+        {
+            "name": "Fender",
+            "value": "fender",
+            "models": [
+                {
+                    "name": "Tone Master Pro",
+                    "value": "tonemasterpro"
+                }
+            ]
+        },
+        {
+            "name": "Flower Pedals",
+            "value": "flowerpedals",
+            "models": [
+                {
+                    "name": "Dahlia Dual Analog Delay",
+                    "value": "dahlia"
+                },
+                {
+                    "name": "Hosta Wah Filter",
+                    "value": "hostawahfilter"
+                },
+                {
+                    "name": "Sunflower",
+                    "value": "sunflower"
+                }
+            ]
+        },
+        {
+            "name": "Fractal Audio Systems",
+            "value": "fractalaudiosystems",
+            "models": [
+                {
+                    "name": "AX8",
+                    "value": "ax8"
+                },
+                {
+                    "name": "Axe-Fx II",
+                    "value": "axe-fxii"
+                },
+                {
+                    "name": "Axe-Fx II XL",
+                    "value": "axe-fxiixl"
+                },
+                {
+                    "name": "Axe-Fx II XL+",
+                    "value": "axe-fxiixlplus"
+                },
+                {
+                    "name": "FX8",
+                    "value": "fx8"
+                }
+            ]
+        },
+        {
+            "name": "Freds Labs",
+            "value": "fredslabs",
+            "models": [
+                {
+                    "name": "Buzzy!",
+                    "value": "buzzy!"
+                }
+            ]
+        },
+        {
+            "name": "Free The Tone",
+            "value": "freethetone",
+            "models": [
+                {
+                    "name": "AS-1R Ambi Space",
+                    "value": "as-1rambispace"
+                },
+                {
+                    "name": "FF-1Y",
+                    "value": "ff1y"
+                },
+                {
+                    "name": "Flight Time FT-2Y",
+                    "value": "flighttimeft-2y"
+                },
+                {
+                    "name": "PA-1QA",
+                    "value": "pa-1qa"
+                },
+                {
+                    "name": "PA-1QB",
+                    "value": "pa-1qb"
+                },
+                {
+                    "name": "PA-1QG",
+                    "value": "pa-1qg"
+                },
+                {
+                    "name": "TA-1H Tri Avatar",
+                    "value": "ta-1htriavatar"
+                }
+            ]
+        },
+        {
+            "name": "G-LAB",
+            "value": "g-lab",
+            "models": [
+                {
+                    "name": "MIDI WOWEE WAH MWW-1",
+                    "value": "MIDIWOWEEWAHMWW1"
+                },
+                {
+                    "name": "BC-1",
+                    "value": "bc1"
+                },
+                {
+                    "name": "MIDI 2 X LOOP-er",
+                    "value": "midi2xloop-er"
+                },
+                {
+                    "name": "MIDI 4 X LOOP-er",
+                    "value": "midi4xloop-er"
+                }
+            ]
+        },
+        {
+            "name": "Gamechanger Audio",
+            "value": "gamechangeraudio",
+            "models": [
+                {
+                    "name": "Bigsby",
+                    "value": "bigsby"
+                },
+                {
+                    "name": "Motor Pedal",
+                    "value": "motorpedal"
+                }
+            ]
+        },
+        {
+            "name": "GFI System",
+            "value": "gfisystem",
+            "models": [
+                {
+                    "name": "Duophony",
+                    "value": "duophony"
+                },
+                {
+                    "name": "Enieqma",
+                    "value": "enieqma"
+                },
+                {
+                    "name": "Solis Ventus",
+                    "value": "solisventus"
+                },
+                {
+                    "name": "Specular Tempus",
+                    "value": "speculartempus"
+                },
+                {
+                    "name": "Synesthesia",
+                    "value": "synesthesia"
+                }
+            ]
+        },
+        {
+            "name": "Headrush",
+            "value": "headrush",
+            "models": [
+                {
+                    "name": "Core",
+                    "value": "core"
+                },
+                {
+                    "name": "Flex Prime",
+                    "value": "flexprime"
+                },
+                {
+                    "name": "Gigboard",
+                    "value": "gigboard"
+                },
+                {
+                    "name": "Looperboard",
+                    "value": "looperboard"
+                },
+                {
+                    "name": "MX5",
+                    "value": "mx5"
+                },
+                {
+                    "name": "Pedalbaord",
+                    "value": "pedalbaord"
+                },
+                {
+                    "name": "VX5",
+                    "value": "vx5"
+                }
+            ]
+        },
+        {
+            "name": "Hologram Electronics",
+            "value": "hologramelectronics",
+            "models": [
+                {
+                    "name": "Chroma Console",
+                    "value": "chromaconsole"
+                },
+                {
+                    "name": "Dream Sequence",
+                    "value": "dreamsequence"
+                },
+                {
+                    "name": "Microcosm",
+                    "value": "microcosm"
+                }
+            ]
+        },
+        {
+            "name": "Hotone",
+            "value": "hotone",
+            "models": [
+                {
+                    "name": "Ampero",
+                    "value": "ampero"
+                },
+                {
+                    "name": "Ampero 2 Stomp",
+                    "value": "ampero2stomp"
+                }
+            ]
+        },
+        {
+            "name": "Hughes & Kettner",
+            "value": "hughes&kettner",
+            "models": [
+                {
+                    "name": "GrandMeister Deluxe 40",
+                    "value": "grandmeisterdeluxe40"
+                },
+                {
+                    "name": "TriAmp Mk3",
+                    "value": "triampmk3"
+                }
+            ]
+        },
+        {
+            "name": "Idoru",
+            "value": "idoru",
+            "models": [
+                {
+                    "name": "P1",
+                    "value": "p1"
+                }
+            ]
+        },
+        {
+            "name": "IK Multimedia",
+            "value": "ikmultimedia",
+            "models": [
+                {
+                    "name": "ToneX",
+                    "value": "tonex"
+                },
+                {
+                    "name": "UNO Synth",
+                    "value": "unosynth"
+                }
+            ]
+        },
+        {
+            "name": "Jackson Audio",
+            "value": "jacksonaudio",
+            "models": [
+                {
+                    "name": "Asabi",
+                    "value": "asabi"
+                },
+                {
+                    "name": "Bloom",
+                    "value": "bloom"
+                },
+                {
+                    "name": "Broken Arrow",
+                    "value": "brokenarrow"
+                },
+                {
+                    "name": "El Guapo",
+                    "value": "elguapo"
+                },
+                {
+                    "name": "Golden Boy",
+                    "value": "goldenboy"
+                },
+                {
+                    "name": "New Wave",
+                    "value": "newwave"
+                },
+                {
+                    "name": "The Optimist",
+                    "value": "theoptimist"
+                }
+            ]
+        },
+        {
+            "name": "Jet Pedals",
+            "value": "jetpedals",
+            "models": [
+                {
+                    "name": "Eternity Delay",
+                    "value": "eternitydelay"
+                },
+                {
+                    "name": "Lamb",
+                    "value": "lamb"
+                },
+                {
+                    "name": "Revelation Reverb 2.0",
+                    "value": "revelationreverb20"
+                }
+            ]
+        },
+        {
+            "name": "JMK Music Pedals",
+            "value": "jmkmusicpedals",
+            "models": [
+                {
+                    "name": "CLOCKstep",
+                    "value": "clockstep"
+                }
+            ]
+        },
+        {
+            "name": "Keeley Electronics",
+            "value": "keeleyelectronics",
+            "models": [
+                {
+                    "name": "Nocturne",
+                    "value": "nocturne"
+                }
+            ]
+        },
+        {
+            "name": "Kemper",
+            "value": "kemper",
+            "models": [
+                {
+                    "name": "Profiler",
+                    "value": "profiler"
+                },
+                {
+                    "name": "Profiler Player",
+                    "value": "profiler_player"
+                }
+            ]
+        },
+        {
+            "name": "Kernom",
+            "value": "kernom",
+            "models": [
+                {
+                    "name": "Elipse",
+                    "value": "elipse"
+                },
+                {
+                    "name": "Moho",
+                    "value": "moho"
+                },
+                {
+                    "name": "Ridge",
+                    "value": "ridge"
+                }
+            ]
+        },
+        {
+            "name": "Kinotone",
+            "value": "kinotone",
+            "models": [
+                {
+                    "name": "Ribbons",
+                    "value": "ribbons"
+                },
+                {
+                    "name": "Ribbons Firmware 2.0",
+                    "value": "ribbonsfw2"
+                },
+                {
+                    "name": "Sparks",
+                    "value": "sparks"
+                }
+            ]
+        },
+        {
+            "name": "Korg",
+            "value": "korg",
+            "models": [
+                {
+                    "name": "Kaoss Pad 2",
+                    "value": "kaosspad2"
+                },
+                {
+                    "name": "Kaoss Pad 3",
+                    "value": "kaosspad3"
+                },
+                {
+                    "name": "microKORG",
+                    "value": "microkorg"
+                },
+                {
+                    "name": "microKORG XL+",
+                    "value": "microkorgxlplus"
+                },
+                {
+                    "name": "minilogue",
+                    "value": "minilogue"
+                },
+                {
+                    "name": "minilogue xd",
+                    "value": "miniloguexd"
+                },
+                {
+                    "name": "monologue",
+                    "value": "monologue"
+                },
+                {
+                    "name": "MS2000",
+                    "value": "ms2000"
+                },
+                {
+                    "name": "volca bass",
+                    "value": "volcabass"
+                },
+                {
+                    "name": "volca beats",
+                    "value": "volcabeats"
+                },
+                {
+                    "name": "volca drum",
+                    "value": "volcadrum"
+                },
+                {
+                    "name": "volca fm",
+                    "value": "volcafm"
+                },
+                {
+                    "name": "volca keys",
+                    "value": "volcakeys"
+                },
+                {
+                    "name": "volca kick",
+                    "value": "volcakick"
+                },
+                {
+                    "name": "volca nubass",
+                    "value": "volcanubass"
+                },
+                {
+                    "name": "volca sample",
+                    "value": "volcasample"
+                },
+                {
+                    "name": "wavestate",
+                    "value": "wavestate"
+                }
+            ]
+        },
+        {
+            "name": "KSR Amplification",
+            "value": "ksramplification",
+            "models": [
+                {
+                    "name": "Artemis 100",
+                    "value": "artemis100"
+                },
+                {
+                    "name": "Colossus H-100",
+                    "value": "colossush-100"
+                },
+                {
+                    "name": "Gemini 100",
+                    "value": "gemini100"
+                }
+            ]
+        },
+        {
+            "name": "Laney",
+            "value": "laney",
+            "models": [
+                {
+                    "name": "BBC The Difference Engine",
+                    "value": "bbcthedifferenceengine"
+                },
+                {
+                    "name": "Ironheart - Loudpedal",
+                    "value": "loudpedal"
+                }
+            ]
+        },
+        {
+            "name": "Line 6",
+            "value": "line6",
+            "models": [
+                {
+                    "name": "Catalyst CX",
+                    "value": "catalystcx"
+                },
+                {
+                    "name": "DL4 MKII",
+                    "value": "dl4mk2"
+                },
+                {
+                    "name": "DT25 112",
+                    "value": "dt25112"
+                },
+                {
+                    "name": "DT25 Head",
+                    "value": "dt25head"
+                },
+                {
+                    "name": "Helix",
+                    "value": "helix"
+                },
+                {
+                    "name": "Helix Floor",
+                    "value": "helixfloor"
+                },
+                {
+                    "name": "Helix LT",
+                    "value": "helixlt"
+                },
+                {
+                    "name": "Helix Rack and Control",
+                    "value": "helixrackandcontrol"
+                },
+                {
+                    "name": "Helix Stadium",
+                    "value": "helixstadium"
+                },
+                {
+                    "name": "HX Effects",
+                    "value": "hxeffects"
+                },
+                {
+                    "name": "HX One",
+                    "value": "hxone"
+                },
+                {
+                    "name": "HX Stomp",
+                    "value": "hxstomp"
+                },
+                {
+                    "name": "HX Stomp XL",
+                    "value": "hxstompxl"
+                },
+                {
+                    "name": "M13 v2.0 Sompbox Modeler",
+                    "value": "m13v20sompboxmodeler"
+                },
+                {
+                    "name": "M5 Stompbox Modeler",
+                    "value": "m5stompboxmodeler"
+                },
+                {
+                    "name": "M9 v2.0 Stompbox Modeler",
+                    "value": "m9v20stompboxmodeler"
+                },
+                {
+                    "name": "Pocket POD",
+                    "value": "pocketpod"
+                },
+                {
+                    "name": "POD GO",
+                    "value": "podgo"
+                },
+                {
+                    "name": "POD HD500X",
+                    "value": "podhd500x"
+                },
+                {
+                    "name": "POD HD PRO X",
+                    "value": "podhdprox"
+                },
+                {
+                    "name": "Powercab Plus",
+                    "value": "powercab"
+                },
+                {
+                    "name": "Powercab 112 Plus",
+                    "value": "powercab112plus"
+                },
+                {
+                    "name": "Powercab 212 Plus",
+                    "value": "powercab212plus"
+                }
+            ]
+        },
+        {
+            "name": "Make Noise Co.",
+            "value": "makenoiseco",
+            "models": [
+                {
+                    "name": "0-COAST",
+                    "value": "0-coast"
+                }
+            ]
+        },
+        {
+            "name": "Marshall",
+            "value": "marshall",
+            "models": [
+                {
+                    "name": "DSL40CR",
+                    "value": "dsl40cr"
+                }
+            ]
+        },
+        {
+            "name": "Meeblip",
+            "value": "meeblip",
+            "models": [
+                {
+                    "name": "Geode",
+                    "value": "geode"
+                },
+                {
+                    "name": "Triode",
+                    "value": "triode"
+                }
+            ]
+        },
+        {
+            "name": "Melbourne Instruments",
+            "value": "melbourneinstruments",
+            "models": [
+                {
+                    "name": "Nina",
+                    "value": "nina"
+                }
+            ]
+        },
+        {
+            "name": "Meris",
+            "value": "meris",
+            "models": [
+                {
+                    "name": "Enzo",
+                    "value": "enzo"
+                },
+                {
+                    "name": "Enzo X",
+                    "value": "enzox"
+                },
+                {
+                    "name": "Hedra",
+                    "value": "hedra"
+                },
+                {
+                    "name": "LVX",
+                    "value": "lvx"
+                },
+                {
+                    "name": "Mercury 7",
+                    "value": "mercury7"
+                },
+                {
+                    "name": "Mercury X",
+                    "value": "mercuryx"
+                },
+                {
+                    "name": "Ottobit JR",
+                    "value": "ottobitjr"
+                },
+                {
+                    "name": "Polymoon",
+                    "value": "polymoon"
+                }
+            ]
+        },
+        {
+            "name": "MFB",
+            "value": "mfb",
+            "models": [
+                {
+                    "name": "Tanzbar Lite",
+                    "value": "tanzbarlite"
+                }
+            ]
+        },
+        {
+            "name": "Modal Electronics",
+            "value": "modalelectronics",
+            "models": [
+                {
+                    "name": "002R",
+                    "value": "002r"
+                },
+                {
+                    "name": "008R",
+                    "value": "008r"
+                },
+                {
+                    "name": "1",
+                    "value": "1"
+                },
+                {
+                    "name": "2",
+                    "value": "2"
+                },
+                {
+                    "name": "8",
+                    "value": "8"
+                },
+                {
+                    "name": "ARGON 8",
+                    "value": "argon8"
+                },
+                {
+                    "name": "ARGON 8M",
+                    "value": "argon8m"
+                },
+                {
+                    "name": "ARGON 8X",
+                    "value": "argon8x"
+                },
+                {
+                    "name": "CRAFTsynth 2.0",
+                    "value": "craftsynth20"
+                },
+                {
+                    "name": "SKULPTsynthesiser",
+                    "value": "skulptsynthesiser"
+                }
+            ]
+        },
+        {
+            "name": "Modor",
+            "value": "modor",
+            "models": [
+                {
+                    "name": "NF-1",
+                    "value": "nf-1"
+                }
+            ]
+        },
+        {
+            "name": "Mooer",
+            "value": "mooer",
+            "models": [
+                {
+                    "name": "GE300",
+                    "value": "ge300"
+                },
+                {
+                    "name": "GE300 LITE",
+                    "value": "ge300lite"
+                },
+                {
+                    "name": "Ocean Machine",
+                    "value": "oceanmachine"
+                }
+            ]
+        },
+        {
+            "name": "Moog",
+            "value": "moog",
+            "models": [
+                {
+                    "name": "Grandmother",
+                    "value": "grandmother"
+                },
+                {
+                    "name": "Matriarch",
+                    "value": "matriarch"
+                },
+                {
+                    "name": "MF-105M MIDI MuRF",
+                    "value": "mf-105mmidimurf"
+                },
+                {
+                    "name": "MF-108M Cluster Flux",
+                    "value": "mf-108mclusterflux"
+                },
+                {
+                    "name": "MF-104M",
+                    "value": "mf104m"
+                },
+                {
+                    "name": "Minimoog Voyager",
+                    "value": "minimoogvoyager"
+                },
+                {
+                    "name": "Minimoog Voyager XL",
+                    "value": "minimoogvoyagerxl"
+                },
+                {
+                    "name": "Minitaur",
+                    "value": "minitaur"
+                },
+                {
+                    "name": "Mother-32",
+                    "value": "mother-32"
+                },
+                {
+                    "name": "Subharmonicon",
+                    "value": "subharmonicon"
+                },
+                {
+                    "name": "Sub Phatty",
+                    "value": "subphatty"
+                },
+                {
+                    "name": "Subsequent 25",
+                    "value": "subsequent25"
+                },
+                {
+                    "name": "Subsequent 37",
+                    "value": "subsequent37"
+                }
+            ]
+        },
+        {
+            "name": "Morningstar Engineering",
+            "value": "morningstarengineering",
+            "models": [
+                {
+                    "name": "MC3",
+                    "value": "mc3"
+                },
+                {
+                    "name": "MC4 PRO",
+                    "value": "mc4pro"
+                },
+                {
+                    "name": "MC6 MKII",
+                    "value": "mc6mkii"
+                },
+                {
+                    "name": "MC6 PRO",
+                    "value": "mc6pro"
+                },
+                {
+                    "name": "MC8",
+                    "value": "mc8"
+                },
+                {
+                    "name": "MC8 PRO",
+                    "value": "mc8pro"
+                },
+                {
+                    "name": "ML10X",
+                    "value": "ml10x"
+                },
+                {
+                    "name": "ML5",
+                    "value": "ml5"
+                },
+                {
+                    "name": "ML5R",
+                    "value": "ml5r"
+                }
+            ]
+        },
+        {
+            "name": "the montreal assembly",
+            "value": "mtlasm",
+            "models": [
+                {
+                    "name": "856 for ZELLERSASN",
+                    "value": "856forZELLERSASN"
+                }
+            ]
+        },
+        {
+            "name": "Mutable Instruments",
+            "value": "mutableinstruments",
+            "models": [
+                {
+                    "name": "Shruthi",
+                    "value": "shruthi"
+                }
+            ]
+        },
+        {
+            "name": "Neunaber",
+            "value": "neunaber",
+            "models": [
+                {
+                    "name": "Illumine",
+                    "value": "illumine"
+                },
+                {
+                    "name": "Neuron",
+                    "value": "neuron"
+                }
+            ]
+        },
+        {
+            "name": "Neural DSP",
+            "value": "neuraldsp",
+            "models": [
+                {
+                    "name": "Nano Cortex",
+                    "value": "nanocortex"
+                },
+                {
+                    "name": "Quad Cortex",
+                    "value": "quadcortex"
+                },
+                {
+                    "name": "Quad Cortex Mini",
+                    "value": "quadcortexmini"
+                }
+            ]
+        },
+        {
+            "name": "Noise Engineering",
+            "value": "noiseengineering",
+            "models": [
+                {
+                    "name": "Batverb",
+                    "value": "batverb"
+                }
+            ]
+        },
+        {
+            "name": "Nord",
+            "value": "nord",
+            "models": [
+                {
+                    "name": "C1",
+                    "value": "c1"
+                },
+                {
+                    "name": "C2",
+                    "value": "c2"
+                },
+                {
+                    "name": "C2D",
+                    "value": "c2d"
+                },
+                {
+                    "name": "Drum 2",
+                    "value": "drum2"
+                },
+                {
+                    "name": "Electro 2",
+                    "value": "electro2"
+                },
+                {
+                    "name": "Electro 3",
+                    "value": "electro3"
+                },
+                {
+                    "name": "Electro 3 HP",
+                    "value": "electro3hp"
+                },
+                {
+                    "name": "Electro 4D",
+                    "value": "electro4d"
+                },
+                {
+                    "name": "Electro 4 HP",
+                    "value": "electro4hp"
+                },
+                {
+                    "name": "Electro 4 SW",
+                    "value": "electro4sw"
+                },
+                {
+                    "name": "Electro 5D 61 ",
+                    "value": "electro5d61"
+                },
+                {
+                    "name": "Electro 5D 73",
+                    "value": "electro5d73"
+                },
+                {
+                    "name": "Electro 5HP 73",
+                    "value": "electro5hp73"
+                },
+                {
+                    "name": "Electro 6",
+                    "value": "electro6"
+                },
+                {
+                    "name": "Grand",
+                    "value": "grand"
+                },
+                {
+                    "name": "Lead",
+                    "value": "lead"
+                },
+                {
+                    "name": "Lead 2",
+                    "value": "lead2"
+                },
+                {
+                    "name": "Lead 2X",
+                    "value": "lead2x"
+                },
+                {
+                    "name": "Lead 3",
+                    "value": "lead3"
+                },
+                {
+                    "name": "Lead 4",
+                    "value": "lead4"
+                },
+                {
+                    "name": "Lead 4R",
+                    "value": "lead4r"
+                },
+                {
+                    "name": "Lead A1",
+                    "value": "leada1"
+                },
+                {
+                    "name": "Lead A1R",
+                    "value": "leada1r"
+                },
+                {
+                    "name": "Piano",
+                    "value": "piano"
+                },
+                {
+                    "name": "Piano 2 HA88",
+                    "value": "piano2ha88"
+                },
+                {
+                    "name": "Piano 2 HP",
+                    "value": "piano2hp"
+                },
+                {
+                    "name": "Piano 3",
+                    "value": "piano3"
+                },
+                {
+                    "name": "Piano 4",
+                    "value": "piano4"
+                },
+                {
+                    "name": "Rack 3",
+                    "value": "rack3"
+                },
+                {
+                    "name": "Stage",
+                    "value": "stage"
+                },
+                {
+                    "name": "Stage 2",
+                    "value": "stage2"
+                },
+                {
+                    "name": "Stage 2 EX",
+                    "value": "stage2ex"
+                },
+                {
+                    "name": "Stage 3",
+                    "value": "stage3"
+                },
+                {
+                    "name": "Stage EX",
+                    "value": "stageex"
+                },
+                {
+                    "name": "Wave",
+                    "value": "wave"
+                },
+                {
+                    "name": "Wave 2",
+                    "value": "wave2"
+                }
+            ]
+        },
+        {
+            "name": "Novation",
+            "value": "novation",
+            "models": [
+                {
+                    "name": "Bass Station II",
+                    "value": "bassstationii"
+                },
+                {
+                    "name": "Bass Station Keyboard",
+                    "value": "bassstationkeyboard"
+                },
+                {
+                    "name": "Circuit",
+                    "value": "circuit"
+                },
+                {
+                    "name": "Circuit Mono Station",
+                    "value": "circuitmonostation"
+                },
+                {
+                    "name": "Circuit Rhythm",
+                    "value": "circuitrhythm"
+                },
+                {
+                    "name": "MiniNova",
+                    "value": "mininova"
+                },
+                {
+                    "name": "Peak",
+                    "value": "peak"
+                },
+                {
+                    "name": "Summit",
+                    "value": "summit"
+                },
+                {
+                    "name": "UltraNova",
+                    "value": "ultranova"
+                }
+            ]
+        },
+        {
+            "name": "Old Blood Noise Endeavors",
+            "value": "oldbloodnoiseendeavors",
+            "models": [
+                {
+                    "name": "Black Fountain",
+                    "value": "blackfountain"
+                },
+                {
+                    "name": "Dark Star Stereo Soundscape Reverb",
+                    "value": "darkstarstereosoundscapereverb"
+                },
+                {
+                    "name": "Signal Blender Stereo",
+                    "value": "signalblenderstereo"
+                },
+                {
+                    "name": "Sunlight Stereo Reverb",
+                    "value": "sunlightstereo"
+                }
+            ]
+        },
+        {
+            "name": "One Control",
+            "value": "onecontrol",
+            "models": [
+                {
+                    "name": "Midi Solo Stereo Loop ",
+                    "value": "midisolostereoloop"
+                }
+            ]
+        },
+        {
+            "name": "Oscillator Devices",
+            "value": "oscillatordevices",
+            "models": [
+                {
+                    "name": "ABY",
+                    "value": "aby"
+                },
+                {
+                    "name": "Goblin-EXP in EHX Pitch Fork",
+                    "value": "goblinexpehxpitchfork"
+                },
+                {
+                    "name": "Hydra 4X",
+                    "value": "hydra4x"
+                },
+                {
+                    "name": "Minerva",
+                    "value": "minerva"
+                },
+                {
+                    "name": "Siren",
+                    "value": "siren"
+                }
+            ]
+        },
+        {
+            "name": "OTO Machines",
+            "value": "otomachines",
+            "models": [
+                {
+                    "name": "BAM",
+                    "value": "bam"
+                },
+                {
+                    "name": "BIM",
+                    "value": "bim"
+                },
+                {
+                    "name": "Biscuit",
+                    "value": "biscuit"
+                },
+                {
+                    "name": "BOUM",
+                    "value": "boum"
+                }
+            ]
+        },
+        {
+            "name": "Panda Audio",
+            "value": "pandaaudio",
+            "models": [
+                {
+                    "name": "Future Impact",
+                    "value": "futureimpact"
+                }
+            ]
+        },
+        {
+            "name": "Peavey",
+            "value": "peavey",
+            "models": [
+                {
+                    "name": "Mini MEGA",
+                    "value": "minimega"
+                }
+            ]
+        },
+        {
+            "name": "Pigtronix",
+            "value": "pigtronix",
+            "models": [
+                {
+                    "name": "Echolution 2 Deluxe",
+                    "value": "echolution2deluxe"
+                },
+                {
+                    "name": "Echolution 3",
+                    "value": "echolution3"
+                },
+                {
+                    "name": "Infinity",
+                    "value": "infinity"
+                }
+            ]
+        },
+        {
+            "name": "Poly Effects",
+            "value": "polyeffects",
+            "models": [
+                {
+                    "name": "Flat V",
+                    "value": "flatv"
+                },
+                {
+                    "name": "Verbs",
+                    "value": "verbs"
+                }
+            ]
+        },
+        {
+            "name": "Positive Grid",
+            "value": "positivegrid",
+            "models": [
+                {
+                    "name": "Bias Distortion Pro",
+                    "value": "biasdistortionpro"
+                },
+                {
+                    "name": "Bias Head",
+                    "value": "biashead"
+                },
+                {
+                    "name": "Bias Rack",
+                    "value": "biasrack"
+                }
+            ]
+        },
+        {
+            "name": "Ramble FX",
+            "value": "ramblefx",
+            "models": [
+                {
+                    "name": "Kismet",
+                    "value": "kismet"
+                }
+            ]
+        },
+        {
+            "name": "Red Panda",
+            "value": "redpanda",
+            "models": [
+                {
+                    "name": "Bitmap 2",
+                    "value": "bitmap2"
+                },
+                {
+                    "name": "Context 2",
+                    "value": "context2"
+                },
+                {
+                    "name": "Particle 2",
+                    "value": "particle2"
+                },
+                {
+                    "name": "Radius",
+                    "value": "radius"
+                },
+                {
+                    "name": "Raster 2",
+                    "value": "raster2"
+                },
+                {
+                    "name": "Tensor",
+                    "value": "tensor"
+                }
+            ]
+        },
+        {
+            "name": "Revv",
+            "value": "revv",
+            "models": [
+                {
+                    "name": "D20",
+                    "value": "d20"
+                },
+                {
+                    "name": "G20",
+                    "value": "g20"
+                }
+            ]
+        },
+        {
+            "name": "RJM Music",
+            "value": "rjmmusic",
+            "models": [
+                {
+                    "name": "Mastermind PBC/10",
+                    "value": "mastermindpbc10"
+                },
+                {
+                    "name": "Mini Amp Gizmo",
+                    "value": "miniampgizmo"
+                },
+                {
+                    "name": "Mini Effect Gizmo X",
+                    "value": "minieffectgizmox"
+                },
+                {
+                    "name": "Overture",
+                    "value": "overture"
+                }
+            ]
+        },
+        {
+            "name": "Roland",
+            "value": "roland",
+            "models": [
+                {
+                    "name": "BK-7m",
+                    "value": "bk-7m"
+                },
+                {
+                    "name": "D-05",
+                    "value": "d-05"
+                },
+                {
+                    "name": "FR-06/07/08",
+                    "value": "fa-06-07-08"
+                },
+                {
+                    "name": "Fantom",
+                    "value": "fantom"
+                },
+                {
+                    "name": "FR-18D",
+                    "value": "fr-18d"
+                },
+                {
+                    "name": "GAIA SH-01",
+                    "value": "gaiash-01"
+                },
+                {
+                    "name": "JD-XA",
+                    "value": "jd-xa"
+                },
+                {
+                    "name": "JD-Xi",
+                    "value": "jd-xi"
+                },
+                {
+                    "name": "JP-08",
+                    "value": "jp-08"
+                },
+                {
+                    "name": "JU-06",
+                    "value": "ju-06"
+                },
+                {
+                    "name": "JX-03",
+                    "value": "jx-03"
+                },
+                {
+                    "name": "SE-02",
+                    "value": "se-02"
+                },
+                {
+                    "name": "SH-01A",
+                    "value": "sh-01a"
+                },
+                {
+                    "name": "SYSTEM-1",
+                    "value": "system-1"
+                },
+                {
+                    "name": "SYSTEM-8",
+                    "value": "system-8"
+                },
+                {
+                    "name": "TB-03",
+                    "value": "tb-03"
+                },
+                {
+                    "name": "TR-08",
+                    "value": "tr-08"
+                },
+                {
+                    "name": "TR-09",
+                    "value": "tr-09"
+                },
+                {
+                    "name": "TR-8",
+                    "value": "tr-8"
+                },
+                {
+                    "name": "VP-03",
+                    "value": "vp-03"
+                }
+            ]
+        },
+        {
+            "name": "Sequential",
+            "value": "sequential",
+            "models": [
+                {
+                    "name": "OB-6",
+                    "value": "ob-6"
+                },
+                {
+                    "name": "Pro 3",
+                    "value": "pro3"
+                },
+                {
+                    "name": "Prophet 12",
+                    "value": "prophet12"
+                },
+                {
+                    "name": "Prophet 6",
+                    "value": "prophet6"
+                },
+                {
+                    "name": "Prophet X",
+                    "value": "prophetx"
+                },
+                {
+                    "name": "Rev 2",
+                    "value": "rev2"
+                }
+            ]
+        },
+        {
+            "name": "Seymour Duncan",
+            "value": "seymourduncan",
+            "models": [
+                {
+                    "name": "Andromeda",
+                    "value": "andromeda"
+                }
+            ]
+        },
+        {
+            "name": "Sheeran",
+            "value": "sheeran",
+            "models": [
+                {
+                    "name": "Looper+",
+                    "value": "looperplus"
+                },
+                {
+                    "name": "Looper X",
+                    "value": "looperx"
+                }
+            ]
+        },
+        {
+            "name": "Singular Sound",
+            "value": "singular_sound",
+            "models": [
+                {
+                    "name": "Aeros Looper",
+                    "value": "aeros_looper"
+                },
+                {
+                    "name": "BeatBuddy",
+                    "value": "beatbuddy"
+                }
+            ]
+        },
+        {
+            "name": "Sound Sculpture",
+            "value": "soundsculpture",
+            "models": [
+                {
+                    "name": "Switchblade 8F",
+                    "value": "switchblade8f"
+                }
+            ]
+        },
+        {
+            "name": "Source Audio",
+            "value": "sourceaudio",
+            "models": [
+                {
+                    "name": "Artifakt",
+                    "value": "artifakt"
+                },
+                {
+                    "name": "Atlas",
+                    "value": "atlas"
+                },
+                {
+                    "name": "C4 Synth",
+                    "value": "c4synth"
+                },
+                {
+                    "name": "Collider",
+                    "value": "collider"
+                },
+                {
+                    "name": "EQ2",
+                    "value": "eq2"
+                },
+                {
+                    "name": "Nemesis",
+                    "value": "nemesis"
+                },
+                {
+                    "name": "Programmable EQ",
+                    "value": "programmableeq"
+                },
+                {
+                    "name": "Spectrum Intelligence Filter",
+                    "value": "spectrumintelligencefilter"
+                },
+                {
+                    "name": "Ultrawave",
+                    "value": "ultrawave"
+                },
+                {
+                    "name": "Ventris",
+                    "value": "ventris"
+                }
+            ]
+        },
+        {
+            "name": "Stone Deaf",
+            "value": "stonedeaf",
+            "models": [
+                {
+                    "name": "Syncopy",
+                    "value": "syncopy"
+                },
+                {
+                    "name": "Tremotron",
+                    "value": "tremotron"
+                }
+            ]
+        },
+        {
+            "name": "Strymon",
+            "value": "strymon",
+            "models": [
+                {
+                    "name": "Bigsky",
+                    "value": "bigsky"
+                },
+                {
+                    "name": "Bigsky MX",
+                    "value": "bigskymx"
+                },
+                {
+                    "name": "blueSky",
+                    "value": "bluesky"
+                },
+                {
+                    "name": "Brig",
+                    "value": "brig"
+                },
+                {
+                    "name": "Cloudburst",
+                    "value": "cloudburst"
+                },
+                {
+                    "name": "Compadre",
+                    "value": "compadre"
+                },
+                {
+                    "name": "Deco",
+                    "value": "deco"
+                },
+                {
+                    "name": "DIG",
+                    "value": "dig"
+                },
+                {
+                    "name": "EC-1",
+                    "value": "ec1"
+                },
+                {
+                    "name": "El Capistan",
+                    "value": "elcapistan"
+                },
+                {
+                    "name": "Flint",
+                    "value": "flint"
+                },
+                {
+                    "name": "Iridium",
+                    "value": "iridium"
+                },
+                {
+                    "name": "Lex",
+                    "value": "lex"
+                },
+                {
+                    "name": "Mobius",
+                    "value": "mobius"
+                },
+                {
+                    "name": "NightSky",
+                    "value": "nightsky"
+                },
+                {
+                    "name": "Riverside",
+                    "value": "riverside"
+                },
+                {
+                    "name": "Sunset",
+                    "value": "sunset"
+                },
+                {
+                    "name": "Timeline",
+                    "value": "timeline"
+                },
+                {
+                    "name": "Ultraviolet",
+                    "value": "ultraviolet"
+                },
+                {
+                    "name": "Volante",
+                    "value": "volante"
+                },
+                {
+                    "name": "Zelzah",
+                    "value": "zelzah"
+                }
+            ]
+        },
+        {
+            "name": "Studiologic",
+            "value": "studiologic",
+            "models": [
+                {
+                    "name": "Sledge",
+                    "value": "sledge"
+                }
+            ]
+        },
+        {
+            "name": "Suhr",
+            "value": "suhr",
+            "models": [
+                {
+                    "name": "Discovery",
+                    "value": "discovery"
+                },
+                {
+                    "name": "Hedgehog",
+                    "value": "hedgehog"
+                },
+                {
+                    "name": "PT-100",
+                    "value": "pt-100"
+                }
+            ]
+        },
+        {
+            "name": "Sunday Sounds",
+            "value": "sundaysounds",
+            "models": [
+                {
+                    "name": "Sunday Guitar 2",
+                    "value": "sundayguitar2"
+                },
+                {
+                    "name": "Sunday Keys 2020",
+                    "value": "sundaykeys2020"
+                }
+            ]
+        },
+        {
+            "name": "Swindler Effects",
+            "value": "swindlereffects",
+            "models": [
+                {
+                    "name": "Red Mountain Tremolo V2",
+                    "value": "redmountaintremolov2"
+                },
+                {
+                    "name": "The Gulf Chorus V2",
+                    "value": "thegulfchorusv2"
+                }
+            ]
+        },
+        {
+            "name": "Synergy Amps",
+            "value": "synergyamps",
+            "models": [
+                {
+                    "name": "SYN2",
+                    "value": "syn2"
+                },
+                {
+                    "name": "SYN20-IR",
+                    "value": "syn20ir"
+                }
+            ]
+        },
+        {
+            "name": "TastyChips",
+            "value": "tastychips",
+            "models": [
+                {
+                    "name": "GR1",
+                    "value": "gr1"
+                }
+            ]
+        },
+        {
+            "name": "TC Electronic",
+            "value": "tcelectronic",
+            "models": [
+                {
+                    "name": "Ditto X4",
+                    "value": "dittox4"
+                },
+                {
+                    "name": "Flashback 2 X4 Delay",
+                    "value": "flashback2x4delay"
+                },
+                {
+                    "name": "Hall of Fame 2 X4 Reverb",
+                    "value": "halloffame2x4reverb"
+                },
+                {
+                    "name": "Nova Drive",
+                    "value": "novadrive"
+                },
+                {
+                    "name": "Plethora X3",
+                    "value": "plethorax3"
+                },
+                {
+                    "name": "Plethora X5",
+                    "value": "plethorax5"
+                }
+            ]
+        },
+        {
+            "name": "TC Helicon",
+            "value": "tchelicon",
+            "models": [
+                {
+                    "name": "Voicelive 3 Extreme",
+                    "value": "voicelive3extreme"
+                },
+                {
+                    "name": "Voicelive 3",
+                    "value": "voicelive_3"
+                },
+                {
+                    "name": "Voicelive Rack",
+                    "value": "voiceliverack"
+                },
+                {
+                    "name": "Voicelive Touch 2",
+                    "value": "voicelivetouch2"
+                }
+            ]
+        },
+        {
+            "name": "Teenage Engineering",
+            "value": "teenageengineering",
+            "models": [
+                {
+                    "name": "OP-Z",
+                    "value": "op-z"
+                }
+            ]
+        },
+        {
+            "name": "That Worship Sound",
+            "value": "thatworshipsound",
+            "models": [
+                {
+                    "name": "Worship Essentials 2",
+                    "value": "worshipessentials2"
+                },
+                {
+                    "name": "Worship Guitar Essentials 2",
+                    "value": "worshipguitaressentials2"
+                }
+            ]
+        },
+        {
+            "name": "Tone King",
+            "value": "toneking",
+            "models": [
+                {
+                    "name": "Imperial Tri-Tube Preamp",
+                    "value": "imperialtritubepreamp"
+                }
+            ]
+        },
+        {
+            "name": "Two Notes Audio Engineering",
+            "value": "twonotesaudioengineering",
+            "models": [
+                {
+                    "name": "Opus",
+                    "value": "opus"
+                },
+                {
+                    "name": "Torpedo C.A.B. (v4 firmware)",
+                    "value": "torpedocabv4firmware"
+                },
+                {
+                    "name": "Torpedo Captor X",
+                    "value": "torpedocaptorx"
+                },
+                {
+                    "name": "Torpedo Live v3 firmware",
+                    "value": "torpedolivev3firmware"
+                },
+                {
+                    "name": "Torpedo Live v4 firmware",
+                    "value": "torpedolivev4firmware"
+                },
+                {
+                    "name": "Torpedo Studio",
+                    "value": "torpedostudio"
+                }
+            ]
+        },
+        {
+            "name": "Universal Audio",
+            "value": "universalaudio",
+            "models": [
+                {
+                    "name": "ANTI",
+                    "value": "anti"
+                },
+                {
+                    "name": "Astra",
+                    "value": "astra"
+                },
+                {
+                    "name": "Del-Verb",
+                    "value": "delverb"
+                },
+                {
+                    "name": "Dream",
+                    "value": "dream"
+                },
+                {
+                    "name": "Enigmatic",
+                    "value": "enigmatic"
+                },
+                {
+                    "name": "Galaxy",
+                    "value": "galaxy"
+                },
+                {
+                    "name": "Golden",
+                    "value": "golden"
+                },
+                {
+                    "name": "Knuckles",
+                    "value": "knuckles"
+                },
+                {
+                    "name": "Lion",
+                    "value": "lion"
+                },
+                {
+                    "name": "Max",
+                    "value": "max"
+                },
+                {
+                    "name": "OX Stomp",
+                    "value": "oxstomp"
+                },
+                {
+                    "name": "Ruby",
+                    "value": "ruby"
+                },
+                {
+                    "name": "Starlight",
+                    "value": "starlight"
+                },
+                {
+                    "name": "Woodrow",
+                    "value": "woodrow"
+                }
+            ]
+        },
+        {
+            "name": "Valeton",
+            "value": "valeton",
+            "models": [
+                {
+                    "name": "GP-200",
+                    "value": "gp200"
+                },
+                {
+                    "name": "GP-200LT",
+                    "value": "gp200lt"
+                },
+                {
+                    "name": "GP-5",
+                    "value": "gp5"
+                }
+            ]
+        },
+        {
+            "name": "Vongon",
+            "value": "vongon",
+            "models": [
+                {
+                    "name": "Polyphrase",
+                    "value": "polyphrase"
+                }
+            ]
+        },
+        {
+            "name": "Waldorf",
+            "value": "waldorf",
+            "models": [
+                {
+                    "name": "Blofeld",
+                    "value": "blofeld"
+                }
+            ]
+        },
+        {
+            "name": "Walrus Audio",
+            "value": "walrusaudio",
+            "models": [
+                {
+                    "name": "ACS1",
+                    "value": "acs1"
+                },
+                {
+                    "name": "ACS1 MK2",
+                    "value": "acs1mk2"
+                },
+                {
+                    "name": "D1 (New version)",
+                    "value": "d1"
+                },
+                {
+                    "name": "D1 (Old version)",
+                    "value": "d1_old"
+                },
+                {
+                    "name": "D1 MK2",
+                    "value": "d1mk2"
+                },
+                {
+                    "name": "M1",
+                    "value": "m1"
+                },
+                {
+                    "name": "M1 MK2",
+                    "value": "m1mk2"
+                },
+                {
+                    "name": "Meraki (Stereo Analog Delay)",
+                    "value": "meraki"
+                },
+                {
+                    "name": "Qi",
+                    "value": "qi"
+                },
+                {
+                    "name": "R1",
+                    "value": "r1"
+                },
+                {
+                    "name": "R1 MK2",
+                    "value": "r1mk2"
+                },
+                {
+                    "name": "Xero",
+                    "value": "xero"
+                }
+            ]
+        },
+        {
+            "name": "Wampler Pedals",
+            "value": "wamplerpedals",
+            "models": [
+                {
+                    "name": "Pantheon",
+                    "value": "Pantheon"
+                },
+                {
+                    "name": "Catacombs",
+                    "value": "catacombs"
+                },
+                {
+                    "name": "Metaverse",
+                    "value": "metaverse"
+                },
+                {
+                    "name": "Terraform",
+                    "value": "terraform"
+                }
+            ]
+        },
+        {
+            "name": "WMD",
+            "value": "wmd",
+            "models": [
+                {
+                    "name": "Geiger Counter Pro",
+                    "value": "geigercounterpro"
+                }
+            ]
+        },
+        {
+            "name": "Yamaha",
+            "value": "yamaha",
+            "models": [
+                {
+                    "name": "reface CP",
+                    "value": "refacecp"
+                },
+                {
+                    "name": "reface CS",
+                    "value": "refacecs"
+                },
+                {
+                    "name": "reface DX",
+                    "value": "refacedx"
+                },
+                {
+                    "name": "reface YC",
+                    "value": "refaceyc"
+                }
+            ]
+        }
+    ]
 }
