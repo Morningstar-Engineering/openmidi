@@ -12,8 +12,6 @@ midi_channel:
     4. Hold the Bypass switch for 3 seconds to save and exit.
 
 midi_mapping: No
-  description: |+
-    The Eternity Delay uses a fixed MIDI implementation for CC and PC messages as defined in the manual.
 
 pc: 
   description: |+
