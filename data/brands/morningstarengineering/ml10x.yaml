@@ -10,7 +10,7 @@ instructions:
 
 pc:
   description:
-    The ML10X has 128 presets in each of the 4 banks. PC#0 to PC#127 will recall each preset. Send CC#0-3 to recall Banks 1-4.
+    The ML10X has 128 presets in each of the 4 banks. PC#0 to PC#127 will recall each preset. Send CC#0, value = [0-3] to recall Banks 1-4.
 
 cc:
   - name: 'Change Bank'
@@ -166,6 +166,102 @@ cc:
   - name: 'Simple Mode: Toggle Loop E Ring'
     value: 29
     description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop A Tip'
+    value: 30
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop A Ring'
+    value: 31
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop B Tip'
+    value: 32
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop B Ring'
+    value: 33
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop C Tip'
+    value: 34
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop C Ring'
+    value: 35
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop D Tip'
+    value: 36
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop D Ring'
+    value: 37
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop E Tip'
+    value: 38
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Cut: Loop E Ring'
+    value: 39
+    description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Input Tip Bypass/Engage'
+    value: 40
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Input Ring Bypass/Engage'
+    value: 41
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Tip Bypass/Engage'
+    value: 42
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Output Ring Bypass/Engage'
+    value: 43
+    description: ''
+    type: System
+    min: 0
+    max: 127
+  - name: 'Set Loop Bypass Persists'
+    value: 50
+    description: 'Loop Bypass Persists setting on/off'
+    type: System
+    min: 0
+    max: 127
+  - name: 'Reload Loop Bypass States'
+    value: 51
+    description: 'Reloads the loop bypass states for the current preset'
     type: System
     min: 0
     max: 127
