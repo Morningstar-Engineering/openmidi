@@ -1,236 +1,312 @@
 brand: Neural DSP
 model: Quad Cortex Mini
-email: kristine@morningstarfx.com
-url: 'https://neuraldsp.com/manual/quad-cortex-mini#Incoming-MIDI-CC-List'
-midi_channel:
-  instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
-pc:
-  description: ''
-phantom_power: unknown
-midi_mapping: not applicable
-cc:
-  - name: Bank (MSB) Preset Groups
-    value: 0
-    description: |-
-      • Value 0: Presets 0
-      • Value 1: Presets 128 to 256.
-    min: 0
-    max: '1'
-  - name: Bank (LSB) Setlists Recall
-    value: '32'
-    description: |-
-      Value 0: ‘Factory Presets’ folder.
-      Value 1: ‘My Presets’ folder.
-      Value 2-12: ‘User’ folders.
-    min: 0
-    max: '12'
-  - name: Expression Pedal 1 position
-    value: '1'
-    description: |-
-      Value 0: Heel Position.
-      Value 127: Toe Position.
-    min: 0
-    max: 127
-  - name: Expression Pedal 2 position (MIDI Exclusive)
-    value: '2'
-    description: |-
-      • Value 0: Heel Position.
-      • Value 127: Toe Position.
-    min: 0
-    max: 127
-  - name: Footswitch A (Page I)
-    value: '35'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch B (Page I)
-    value: '36'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch C (Page I)
-    value: '37'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch D (Page I)
-    value: '38'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch A (Page II)
-    value: '39'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch B (Page II)
-    value: '40'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch C (Page II)
-    value: '41'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Footswitch D (Page II)
-    value: '42'
-    description: 'Value 0-127: Footswitch Press'
-    min: 0
-    max: 127
-  - name: Scenes
-    value: '43'
-    description: |-
-      • Value 0: Scene A.
-      • Value 1: Scene B.
-      • Value 2: Scene C.
-      • Value 3: Scene D.
-      • Value 4: Scene E.
-      • Value 5: Scene F.
-      • Value 6: Scene G.
-      • Value 7: Scene H.
-    min: 0
-    max: '7'
-  - name: Tap Tempo
-    value: '44'
-    description: 'Value 0-127: Tap Tempo press emulation'
-    min: 0
-    max: 127
-  - name: Tuner
-    value: '45'
-    description: |-
-      Value 0-63: Closes the Tuner menu.
-      Value 64-127: Opens the Tuner menu.
-    min: 0
-    max: 127
-  - name: Gig View
-    value: '46'
-    description: |-
-      • Value 0-63: Closes Gig View.
-      • Value 64-127: Opens Gig View.
-    min: 0
-    max: 127
-  - name: Modes
-    value: '47'
-    description: |-
-      Value 0: Mode Slot 1 (PRESET Mode by default).
-      Value 1: Mode Slot 2 (SCENE Mode by default).
-      Value 2: Mode Slot 3 (STOMP Mode by default).
-    min: 0
-    max: '2'
-  - name: Looper X
-    value: '48'
-    description: |-
-      • Value 0-63: Opens the Looper X parameter editor (‘Perform’ Mode).
-      • Value 64-127: Closes the Looper X parameter editor.
-    min: 0
-    max: 127
-  - name: Duplicate (Looper X)
-    value: '49'
-    description: '• Value 64-127: Toggles DUPLICATE on and off.'
-    min: '64'
-    max: 127
-  - name: One Shot (Looper X)
-    value: '50'
-    description: 'Value 64-127: Toggles ONE SHOT on and off.'
-    min: '64'
-    max: 127
-  - name: Half Speed (Looper X)
-    value: '51'
-    description: '• Value 64-127: Toggles HALF SPEED on and off.'
-    min: '64'
-    max: 127
-  - name: Punch In/Out (Looper X)
-    value: '52'
-    description: '• Value 64-127: Toggles PUNCH IN / PUNCH OUT.'
-    min: '64'
-    max: 127
-  - name: Record/Overdub (Looper X)
-    value: '53'
-    description: '• Value 64-127: Toggles RECORD / OVERDUB.'
-    min: '64'
-    max: 127
-  - name: Play/Stop (Looper X)
-    value: '54'
-    description: '• Value 64-127: Toggles PLAY / STOP.'
-    min: '64'
-    max: 127
-  - name: Reverse (Looper X)
-    value: '55'
-    description: '• Value 64-127: Toggles REVERSE on and off.'
-    min: '64'
-    max: 127
-  - name: Undo/Redo (Looper X)
-    value: '56'
-    description: '• Value 64-127: Toggles UNDO / REDO.'
-    min: '64'
-    max: 127
-  - name: Duplicate Mode (Looper X)
-    value: '57'
-    description: |-
-      • Value 0: Free.
-      • Value 1: Sync.
-    min: 0
-    max: '1'
-  - name: Quantize (Looper X)
-    value: '58'
-    description: |-
-      • Value 0: Off.
-      • Value 1-8: 1-8 beats.
-      • Value 9: 16 beats.
-    min: 0
-    max: '9'
-  - name: MIDI Clock Start (Looper X)
-    value: '59'
-    description: |-
-      • Value 0: Free.
-      • Value 1: Sync.
-    min: 0
-    max: '1'
-  - name: Perform/Parameters Mode Swap (Looper X)
-    value: '60'
-    description: |-
-      • Value 0: Perform Mode.
-      • Value 1: Parameters Mode.
-    min: 0
-    max: '1'
-  - name: Routing Mode (Looper X)
-    value: '61'
-    description: |-
-      • Value 0: Grid.
-      • Value 1: Input 1.
-      • Value 2: Input 2.
-      • Value 3: Return 1.
-      • Value 4: Return 2.
-      • Value 5: Inputs 1/2.
-      • Value 6: Returns 1/2.
-      • Value 7: Output 1.
-      • Value 8: Output 2.
-      • Value 9: Output 3.
-      • Value 10: Output 4.
-      • Value 11: Outputs 1/2.
-      • Value 12: Outputs 3/4.
-      • Value 13: ‘Multiple Outputs’ block.
-    min: 0
-    max: '13'
-  - name: Ignore Duplicate PC
-    value: '62'
-    description: >-
-      • Value 0-63: Off. Presets will be reloaded each time the corresponding
-      MIDI Program Change (PC) message is received.
+midi_in: USB or TRS MIDI
+midi_thru: Yes (Software Toggle)
+midi_clock: Yes (Send and Receive)
+phantom_power: None
 
-      • Value 64-127: On. Prevents Presets from being reloaded if the same MIDI
-      Program Change (PC) message is received repeatedly. Related messages such
-      as CC#0 and CC#32 will also be ignored.
+midi_channel:
+  instructions: |+
+    To access MIDI settings:
+    1. Tap the Grid’s Contextual Menu at the top-right corner.
+    2. Select Settings > Device > MIDI.
+    3. Use the MIDI Channel dropdown to select a channel (1-16) or OMNI.
+
+pc:
+  description: |+
+    Recalls a specific preset (0-127) within the currently selected preset group.
+    The group is determined by the most recent CC#0 (Bank MSB) message.
+
+cc:
+  - name: 'Bank Select (MSB): Presets 0-127'
+    value: 0
+    description: 'Determines preset group 0-127'
+    min: 0
+    max: 0
+  - name: 'Bank Select (MSB): Presets 128-256'
+    value: 0
+    description: 'Determines preset group 128-256'
+    min: 1
+    max: 1
+  - name: 'Expression Pedal 1 Position'
+    value: 1
+    description: 'Value 0: Heel, Value 127: Toe'
     min: 0
     max: 127
-  - name: Footswitch Page Swap
-    value: '64'
-    description: |-
-      • Value 0-63: Page I.
-      • Value 64-127: Page II.
+  - name: 'Expression Pedal 2 Position'
+    value: 2
+    description: 'Value 0: Heel, Value 127: Toe'
     min: 0
+    max: 127
+  - name: 'Bank Select (LSB): Factory Presets'
+    value: 32
+    description: 'Recall Factory Presets folder'
+    min: 0
+    max: 0
+  - name: 'Bank Select (LSB): My Presets'
+    value: 32
+    description: 'Recall My Presets folder'
+    min: 1
+    max: 1
+  - name: 'Bank Select (LSB): User Folders'
+    value: 32
+    description: 'Value 2-12: Selects User folder'
+    min: 2
+    max: 12
+  - name: 'Footswitch A (Page I)'
+    value: 35
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch B (Page I)'
+    value: 36
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch C (Page I)'
+    value: 37
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch D (Page I)'
+    value: 38
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch A (Page II)'
+    value: 39
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch B (Page II)'
+    value: 40
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch C (Page II)'
+    value: 41
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Footswitch D (Page II)'
+    value: 42
+    description: 'Footswitch Press'
+    min: 0
+    max: 127
+  - name: 'Recall Scene A (Page I)'
+    value: 43
+    min: 0
+    max: 0
+  - name: 'Recall Scene B (Page I)'
+    value: 43
+    min: 1
+    max: 1
+  - name: 'Recall Scene C (Page I)'
+    value: 43
+    min: 2
+    max: 2
+  - name: 'Recall Scene D (Page I)'
+    value: 43
+    min: 3
+    max: 3
+  - name: 'Recall Scene A (Page II)'
+    value: 43
+    min: 4
+    max: 4
+  - name: 'Recall Scene B (Page II)'
+    value: 43
+    min: 5
+    max: 5
+  - name: 'Recall Scene C (Page II)'
+    value: 43
+    min: 6
+    max: 6
+  - name: 'Recall Scene D (Page II)'
+    value: 43
+    min: 7
+    max: 7
+  - name: 'Tap Tempo'
+    value: 44
+    description: 'Tap Tempo press emulation'
+    min: 0
+    max: 127
+  - name: 'Tuner: Close'
+    value: 45
+    min: 0
+    max: 63
+  - name: 'Tuner: Open'
+    value: 45
+    min: 64
+    max: 127
+  - name: 'Gig View: Close'
+    value: 46
+    min: 0
+    max: 63
+  - name: 'Gig View: Open'
+    value: 46
+    min: 64
+    max: 127
+  - name: 'Mode Slot 1 (Preset Mode)'
+    value: 47
+    min: 0
+    max: 0
+  - name: 'Mode Slot 2 (Scene Mode)'
+    value: 47
+    min: 1
+    max: 1
+  - name: 'Mode Slot 3 (Stomp Mode)'
+    value: 47
+    min: 2
+    max: 2
+  - name: 'Looper X Editor: Open'
+    value: 48
+    description: 'Opens Looper X parameter editor (Perform Mode)'
+    min: 0
+    max: 63
+  - name: 'Looper X Editor: Close'
+    value: 48
+    description: 'Closes Looper X parameter editor'
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Duplicate'
+    value: 49
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle One Shot'
+    value: 50
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Half Speed'
+    value: 51
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Punch In/Out'
+    value: 52
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Record/Overdub'
+    value: 53
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Play/Stop'
+    value: 54
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Reverse'
+    value: 55
+    min: 64
+    max: 127
+  - name: 'Looper X: Toggle Undo/Redo'
+    value: 56
+    min: 64
+    max: 127
+  - name: 'Looper X Duplicate Mode: Free'
+    value: 57
+    min: 0
+    max: 0
+  - name: 'Looper X Duplicate Mode: Sync'
+    value: 57
+    min: 1
+    max: 1
+  - name: 'Looper X Quantize: Off'
+    value: 58
+    min: 0
+    max: 0
+  - name: 'Looper X Quantize: 1-8 Beats'
+    value: 58
+    min: 1
+    max: 8
+  - name: 'Looper X Quantize: 16 Beats'
+    value: 58
+    min: 9
+    max: 9
+  - name: 'Looper X MIDI Clock Start: Free'
+    value: 59
+    min: 0
+    max: 0
+  - name: 'Looper X MIDI Clock Start: Sync'
+    value: 59
+    min: 1
+    max: 1
+  - name: 'Looper X Mode: Perform Mode'
+    value: 60
+    min: 0
+    max: 0
+  - name: 'Looper X Mode: Parameters Mode'
+    value: 60
+    min: 1
+    max: 1
+  - name: 'Looper X Routing: Grid'
+    value: 61
+    min: 0
+    max: 0
+  - name: 'Looper X Routing: Input 1'
+    value: 61
+    min: 1
+    max: 1
+  - name: 'Looper X Routing: Input 2'
+    value: 61
+    min: 2
+    max: 2
+  - name: 'Looper X Routing: Return 1'
+    value: 61
+    min: 3
+    max: 3
+  - name: 'Looper X Routing: Return 2'
+    value: 61
+    min: 4
+    max: 4
+  - name: 'Looper X Routing: Inputs 1/2'
+    value: 61
+    min: 5
+    max: 5
+  - name: 'Looper X Routing: Returns 1/2'
+    value: 61
+    min: 6
+    max: 6
+  - name: 'Looper X Routing: Output 1'
+    value: 61
+    min: 7
+    max: 7
+  - name: 'Looper X Routing: Output 2'
+    value: 61
+    min: 8
+    max: 8
+  - name: 'Looper X Routing: Output 3'
+    value: 61
+    min: 9
+    max: 9
+  - name: 'Looper X Routing: Output 4'
+    value: 61
+    min: 10
+    max: 10
+  - name: 'Looper X Routing: Outputs 1/2'
+    value: 61
+    min: 11
+    max: 11
+  - name: 'Looper X Routing: Outputs 3/4'
+    value: 61
+    min: 12
+    max: 12
+  - name: 'Looper X Routing: Multiple Outputs Block'
+    value: 61
+    min: 13
+    max: 13
+  - name: 'Ignore Duplicate PC: Off'
+    value: 62
+    description: 'Presets reloaded on every matching PC message'
+    min: 0
+    max: 63
+  - name: 'Ignore Duplicate PC: On'
+    value: 62
+    description: 'Prevents reload on repeated PC or CC#0/CC#32'
+    min: 64
+    max: 127
+  - name: 'Footswitch Page: Page I'
+    value: 64
+    min: 0
+    max: 63
+  - name: 'Footswitch Page: Page II'
+    value: 64
+    min: 64
     max: 127

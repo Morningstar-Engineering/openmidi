@@ -11,11 +11,11 @@
             ]
         },
         {
-            "name": "OPFXS",
+            "name": "Opfxs",
             "value": "OPFXS",
             "models": [
                 {
-                    "name": "V-Uno",
+                    "name": "V Uno",
                     "value": "v-uno"
                 }
             ]
@@ -103,7 +103,7 @@
                     "value": "rewind"
                 },
                 {
-                    "name": "SKY 5000",
+                    "name": "Sky 5000",
                     "value": "sky5000"
                 },
                 {
@@ -155,7 +155,7 @@
             "value": "ashdown",
             "models": [
                 {
-                    "name": "LB 30 2.N",
+                    "name": "Lb 30 2.N",
                     "value": "lb302n"
                 }
             ]
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "name": "AVID",
+            "name": "Avid",
             "value": "avid",
             "models": [
                 {
@@ -227,7 +227,7 @@
                     "value": "deepmind6"
                 },
                 {
-                    "name": "Pro-800",
+                    "name": "Pro 800",
                     "value": "pro-800"
                 },
                 {
@@ -287,11 +287,11 @@
             "value": "boss",
             "models": [
                 {
-                    "name": "DD-500",
+                    "name": "Dd 500",
                     "value": "dd-500"
                 },
                 {
-                    "name": "DM-101",
+                    "name": "Dm 101",
                     "value": "dm-101"
                 },
                 {
@@ -311,23 +311,23 @@
                     "value": "katanahead"
                 },
                 {
-                    "name": "MD-500",
+                    "name": "Md 500",
                     "value": "md-500"
                 },
                 {
-                    "name": "OD-200",
+                    "name": "Od 200",
                     "value": "od-200"
                 },
                 {
-                    "name": "RC-10R",
+                    "name": "Rc-10R",
                     "value": "rc10r"
                 },
                 {
-                    "name": "RE-202",
+                    "name": "Re 202",
                     "value": "re-202"
                 },
                 {
-                    "name": "RV-500",
+                    "name": "Rv 500",
                     "value": "rv-500"
                 },
                 {
@@ -379,7 +379,7 @@
                     "value": "condor"
                 },
                 {
-                    "name": "CXM 1978",
+                    "name": "Cxm 1978",
                     "value": "cxm1978"
                 },
                 {
@@ -613,7 +613,7 @@
                     "value": "95000"
                 },
                 {
-                    "name": "HOG2",
+                    "name": "Hog2",
                     "value": "hog2"
                 },
                 {
@@ -621,7 +621,7 @@
                     "value": "modrex"
                 },
                 {
-                    "name": "POG3",
+                    "name": "Pog3",
                     "value": "pog3"
                 }
             ]
@@ -717,13 +717,13 @@
                     "value": "tremolo2"
                 },
                 {
-                    "name": "ZOIA",
+                    "name": "Zoia",
                     "value": "zoia"
                 }
             ]
         },
         {
-            "name": "ENGL",
+            "name": "Engl",
             "value": "engl",
             "models": [
                 {
@@ -839,47 +839,47 @@
             "value": "evh",
             "models": [
                 {
-                    "name": "5150III 100S HEAD",
+                    "name": "5150Iii 100S Head",
                     "value": "5150iii100shead"
                 },
                 {
-                    "name": "5150III 100W HEAD",
+                    "name": "5150Iii 100W Head",
                     "value": "5150iii100whead"
                 },
                 {
-                    "name": "5150III 50S 6L6 HEAD",
+                    "name": "5150Iii 50S 6L6 Head",
                     "value": "5150iii50s6l6head"
                 },
                 {
-                    "name": "5150III 50W 6L6 1X12 COMBO",
+                    "name": "5150Iii 50W 6L6 1X12 Combo",
                     "value": "5150iii50w6l61x12combo"
                 },
                 {
-                    "name": "5150III 50W 6L6 2X12 COMBO",
+                    "name": "5150Iii 50W 6L6 2X12 Combo",
                     "value": "5150iii50w6l62x12combo"
                 },
                 {
-                    "name": "5150III 50W 6L6 HEAD",
+                    "name": "5150Iii 50W 6L6 Head",
                     "value": "5150iii50w6l6head"
                 },
                 {
-                    "name": "5150III 50W EL34 1X12 COMBO",
+                    "name": "5150Iii 50W El34 1X12 Combo",
                     "value": "5150iii50wel341x12combo"
                 },
                 {
-                    "name": "5150III 50W EL34 2X12 COMBO",
+                    "name": "5150Iii 50W El34 2X12 Combo",
                     "value": "5150iii50wel342x12combo"
                 },
                 {
-                    "name": "5150III 50W EL34 HEAD",
+                    "name": "5150Iii 50W El34 Head",
                     "value": "5150iii50wel34head"
                 },
                 {
-                    "name": "5150III 50W HEAD",
+                    "name": "5150Iii 50W Head",
                     "value": "5150iii50whead"
                 },
                 {
-                    "name": "5150IIIS 100W EL34 HEAD",
+                    "name": "5150Iiis 100W El34 Head",
                     "value": "5150iiis100wel34head"
                 }
             ]
@@ -957,7 +957,7 @@
                     "value": "as-1rambispace"
                 },
                 {
-                    "name": "FF-1Y",
+                    "name": "Ff-1Y",
                     "value": "ff1y"
                 },
                 {
@@ -965,15 +965,15 @@
                     "value": "flighttimeft-2y"
                 },
                 {
-                    "name": "PA-1QA",
+                    "name": "Pa 1Qa",
                     "value": "pa-1qa"
                 },
                 {
-                    "name": "PA-1QB",
+                    "name": "Pa 1Qb",
                     "value": "pa-1qb"
                 },
                 {
-                    "name": "PA-1QG",
+                    "name": "Pa 1Qg",
                     "value": "pa-1qg"
                 },
                 {
@@ -983,15 +983,15 @@
             ]
         },
         {
-            "name": "G-LAB",
+            "name": "G Lab",
             "value": "g-lab",
             "models": [
                 {
-                    "name": "MIDI WOWEE WAH MWW-1",
+                    "name": "Midi Wowee Wah Mww-1",
                     "value": "MIDIWOWEEWAHMWW1"
                 },
                 {
-                    "name": "BC-1",
+                    "name": "Bc1",
                     "value": "bc1"
                 },
                 {
@@ -1291,7 +1291,7 @@
                     "value": "microkorgxlplus"
                 },
                 {
-                    "name": "minilogue",
+                    "name": "Minilogue",
                     "value": "minilogue"
                 },
                 {
@@ -1299,11 +1299,11 @@
                     "value": "miniloguexd"
                 },
                 {
-                    "name": "monologue",
+                    "name": "Monologue",
                     "value": "monologue"
                 },
                 {
-                    "name": "MS2000",
+                    "name": "Ms2000",
                     "value": "ms2000"
                 },
                 {
@@ -1339,7 +1339,7 @@
                     "value": "volcasample"
                 },
                 {
-                    "name": "wavestate",
+                    "name": "Wavestate",
                     "value": "wavestate"
                 }
             ]
@@ -1385,11 +1385,11 @@
                     "value": "catalystcx"
                 },
                 {
-                    "name": "DL4 MKII",
+                    "name": "Dl4 Mkii",
                     "value": "dl4mk2"
                 },
                 {
-                    "name": "DT25 112",
+                    "name": "Dt25 112",
                     "value": "dt25112"
                 },
                 {
@@ -1449,15 +1449,15 @@
                     "value": "pocketpod"
                 },
                 {
-                    "name": "POD GO",
+                    "name": "Pod Go",
                     "value": "podgo"
                 },
                 {
-                    "name": "POD HD500X",
+                    "name": "Pod Hd500X",
                     "value": "podhd500x"
                 },
                 {
-                    "name": "POD HD PRO X",
+                    "name": "Pod Hd Pro X",
                     "value": "podhdprox"
                 },
                 {
@@ -1479,7 +1479,7 @@
             "value": "makenoiseco",
             "models": [
                 {
-                    "name": "0-COAST",
+                    "name": "0 Coast",
                     "value": "0-coast"
                 }
             ]
@@ -1489,7 +1489,7 @@
             "value": "marshall",
             "models": [
                 {
-                    "name": "DSL40CR",
+                    "name": "Dsl40Cr",
                     "value": "dsl40cr"
                 }
             ]
@@ -1591,15 +1591,15 @@
                     "value": "8"
                 },
                 {
-                    "name": "ARGON 8",
+                    "name": "Argon 8",
                     "value": "argon8"
                 },
                 {
-                    "name": "ARGON 8M",
+                    "name": "Argon 8M",
                     "value": "argon8m"
                 },
                 {
-                    "name": "ARGON 8X",
+                    "name": "Argon 8X",
                     "value": "argon8x"
                 },
                 {
@@ -1617,7 +1617,7 @@
             "value": "modor",
             "models": [
                 {
-                    "name": "NF-1",
+                    "name": "Nf 1",
                     "value": "nf-1"
                 }
             ]
@@ -1627,11 +1627,11 @@
             "value": "mooer",
             "models": [
                 {
-                    "name": "GE300",
+                    "name": "Ge300",
                     "value": "ge300"
                 },
                 {
-                    "name": "GE300 LITE",
+                    "name": "Ge300 Lite",
                     "value": "ge300lite"
                 },
                 {
@@ -1661,7 +1661,7 @@
                     "value": "mf-108mclusterflux"
                 },
                 {
-                    "name": "MF-104M",
+                    "name": "Mf104M",
                     "value": "mf104m"
                 },
                 {
@@ -1677,7 +1677,7 @@
                     "value": "minitaur"
                 },
                 {
-                    "name": "Mother-32",
+                    "name": "Mother 32",
                     "value": "mother-32"
                 },
                 {
@@ -1707,15 +1707,15 @@
                     "value": "mc3"
                 },
                 {
-                    "name": "MC4 PRO",
+                    "name": "Mc4 Pro",
                     "value": "mc4pro"
                 },
                 {
-                    "name": "MC6 MKII",
+                    "name": "Mc6 Mkii",
                     "value": "mc6mkii"
                 },
                 {
-                    "name": "MC6 PRO",
+                    "name": "Mc6 Pro",
                     "value": "mc6pro"
                 },
                 {
@@ -1723,11 +1723,11 @@
                     "value": "mc8"
                 },
                 {
-                    "name": "MC8 PRO",
+                    "name": "Mc8 Pro",
                     "value": "mc8pro"
                 },
                 {
-                    "name": "ML10X",
+                    "name": "Ml10X",
                     "value": "ml10x"
                 },
                 {
@@ -1735,7 +1735,7 @@
                     "value": "ml5"
                 },
                 {
-                    "name": "ML5R",
+                    "name": "Ml5R",
                     "value": "ml5r"
                 }
             ]
@@ -2069,7 +2069,7 @@
                     "value": "biscuit"
                 },
                 {
-                    "name": "BOUM",
+                    "name": "Boum",
                     "value": "boum"
                 }
             ]
@@ -2225,15 +2225,15 @@
             "value": "roland",
             "models": [
                 {
-                    "name": "BK-7m",
+                    "name": "Bk 7M",
                     "value": "bk-7m"
                 },
                 {
-                    "name": "D-05",
+                    "name": "D 05",
                     "value": "d-05"
                 },
                 {
-                    "name": "FR-06/07/08",
+                    "name": "Fa 06 07 08",
                     "value": "fa-06-07-08"
                 },
                 {
@@ -2241,67 +2241,67 @@
                     "value": "fantom"
                 },
                 {
-                    "name": "FR-18D",
+                    "name": "Fr 18D",
                     "value": "fr-18d"
                 },
                 {
-                    "name": "GAIA SH-01",
+                    "name": "Gaia Sh-01",
                     "value": "gaiash-01"
                 },
                 {
-                    "name": "JD-XA",
+                    "name": "Jd Xa",
                     "value": "jd-xa"
                 },
                 {
-                    "name": "JD-Xi",
+                    "name": "Jd Xi",
                     "value": "jd-xi"
                 },
                 {
-                    "name": "JP-08",
+                    "name": "Jp 08",
                     "value": "jp-08"
                 },
                 {
-                    "name": "JU-06",
+                    "name": "Ju 06",
                     "value": "ju-06"
                 },
                 {
-                    "name": "JX-03",
+                    "name": "Jx 03",
                     "value": "jx-03"
                 },
                 {
-                    "name": "SE-02",
+                    "name": "Se 02",
                     "value": "se-02"
                 },
                 {
-                    "name": "SH-01A",
+                    "name": "Sh 01A",
                     "value": "sh-01a"
                 },
                 {
-                    "name": "SYSTEM-1",
+                    "name": "System 1",
                     "value": "system-1"
                 },
                 {
-                    "name": "SYSTEM-8",
+                    "name": "System 8",
                     "value": "system-8"
                 },
                 {
-                    "name": "TB-03",
+                    "name": "Tb 03",
                     "value": "tb-03"
                 },
                 {
-                    "name": "TR-08",
+                    "name": "Tr 08",
                     "value": "tr-08"
                 },
                 {
-                    "name": "TR-09",
+                    "name": "Tr 09",
                     "value": "tr-09"
                 },
                 {
-                    "name": "TR-8",
+                    "name": "Tr 8",
                     "value": "tr-8"
                 },
                 {
-                    "name": "VP-03",
+                    "name": "Vp 03",
                     "value": "vp-03"
                 }
             ]
@@ -2311,7 +2311,7 @@
             "value": "sequential",
             "models": [
                 {
-                    "name": "OB-6",
+                    "name": "Ob 6",
                     "value": "ob-6"
                 },
                 {
@@ -2457,7 +2457,7 @@
                     "value": "bigskymx"
                 },
                 {
-                    "name": "blueSky",
+                    "name": "Bluesky",
                     "value": "bluesky"
                 },
                 {
@@ -2481,7 +2481,7 @@
                     "value": "dig"
                 },
                 {
-                    "name": "EC-1",
+                    "name": "Ec1",
                     "value": "ec1"
                 },
                 {
@@ -2557,7 +2557,7 @@
                     "value": "hedgehog"
                 },
                 {
-                    "name": "PT-100",
+                    "name": "Pt 100",
                     "value": "pt-100"
                 }
             ]
@@ -2595,11 +2595,11 @@
             "value": "synergyamps",
             "models": [
                 {
-                    "name": "SYN2",
+                    "name": "Syn2",
                     "value": "syn2"
                 },
                 {
-                    "name": "SYN20-IR",
+                    "name": "Syn20Ir",
                     "value": "syn20ir"
                 }
             ]
@@ -2671,7 +2671,7 @@
             "value": "teenageengineering",
             "models": [
                 {
-                    "name": "OP-Z",
+                    "name": "Op Z",
                     "value": "op-z"
                 }
             ]
@@ -2735,7 +2735,7 @@
             "value": "universalaudio",
             "models": [
                 {
-                    "name": "ANTI",
+                    "name": "Anti",
                     "value": "anti"
                 },
                 {
@@ -2797,15 +2797,15 @@
             "value": "valeton",
             "models": [
                 {
-                    "name": "GP-200",
+                    "name": "Gp-200",
                     "value": "gp200"
                 },
                 {
-                    "name": "GP-200LT",
+                    "name": "Gp200Lt",
                     "value": "gp200lt"
                 },
                 {
-                    "name": "GP-5",
+                    "name": "Gp-5",
                     "value": "gp5"
                 }
             ]
@@ -2835,11 +2835,11 @@
             "value": "walrusaudio",
             "models": [
                 {
-                    "name": "ACS1",
+                    "name": "Acs1",
                     "value": "acs1"
                 },
                 {
-                    "name": "ACS1 MK2",
+                    "name": "Acs1 Mk2",
                     "value": "acs1mk2"
                 },
                 {
@@ -2851,7 +2851,7 @@
                     "value": "d1_old"
                 },
                 {
-                    "name": "D1 MK2",
+                    "name": "D1 Mk2",
                     "value": "d1mk2"
                 },
                 {
@@ -2859,7 +2859,7 @@
                     "value": "m1"
                 },
                 {
-                    "name": "M1 MK2",
+                    "name": "M1 Mk2",
                     "value": "m1mk2"
                 },
                 {
@@ -2875,7 +2875,7 @@
                     "value": "r1"
                 },
                 {
-                    "name": "R1 MK2",
+                    "name": "R1 Mk2",
                     "value": "r1mk2"
                 },
                 {
