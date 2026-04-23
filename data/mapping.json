@@ -11,7 +11,7 @@
             ]
         },
         {
-            "name": "Opfxs",
+            "name": "OPFXS",
             "value": "OPFXS",
             "models": [
                 {
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "name": "Adrenalinn",
+            "name": "AdrenaLinn",
             "value": "adrenalinn",
             "models": [
                 {
@@ -579,7 +579,7 @@
             ]
         },
         {
-            "name": "Dr Scientist",
+            "name": "Dr. Scientist",
             "value": "drscientist",
             "models": [
                 {
@@ -593,7 +593,7 @@
             ]
         },
         {
-            "name": "Electro Harmonix",
+            "name": "Electro-Harmonix",
             "value": "electroharmonix",
             "models": [
                 {
@@ -723,7 +723,7 @@
             ]
         },
         {
-            "name": "Engl",
+            "name": "ENGL",
             "value": "engl",
             "models": [
                 {
@@ -939,7 +939,7 @@
             ]
         },
         {
-            "name": "Freds Labs",
+            "name": "Fred's Lab",
             "value": "fredslabs",
             "models": [
                 {
@@ -1045,7 +1045,7 @@
             ]
         },
         {
-            "name": "Headrush",
+            "name": "HeadRush",
             "value": "headrush",
             "models": [
                 {
@@ -1495,7 +1495,7 @@
             ]
         },
         {
-            "name": "Meeblip",
+            "name": "MeeBlip",
             "value": "meeblip",
             "models": [
                 {
@@ -1741,7 +1741,7 @@
             ]
         },
         {
-            "name": "the montreal assembly",
+            "name": "Montreal Assembly",
             "value": "mtlasm",
             "models": [
                 {
@@ -2605,7 +2605,7 @@
             ]
         },
         {
-            "name": "TastyChips",
+            "name": "Tasty Chips",
             "value": "tastychips",
             "models": [
                 {
@@ -2645,7 +2645,7 @@
             ]
         },
         {
-            "name": "TC Helicon",
+            "name": "TC-Helicon",
             "value": "tchelicon",
             "models": [
                 {
@@ -2667,7 +2667,7 @@
             ]
         },
         {
-            "name": "Teenage Engineering",
+            "name": "teenage engineering",
             "value": "teenageengineering",
             "models": [
                 {
@@ -2701,7 +2701,7 @@
             ]
         },
         {
-            "name": "Two Notes Audio Engineering",
+            "name": "Two notes Audio Engineering",
             "value": "twonotesaudioengineering",
             "models": [
                 {
