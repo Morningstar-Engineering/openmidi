@@ -1,0 +1,23 @@
+brand: james
+model: ttest
+email: teates
+url: tewat
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+cc:
+  - name: test
+    value: '3'
+    description: testes
+    min: 0
+    max: 127
+  - name: geawg
+    value: 0
+    description: gewag
+    min: 0
+    max: 127
