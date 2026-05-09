@@ -1,5 +1,5 @@
-mapping_data: {
-  "brands": [
+{
+"brands": [
     {
       "name": "3 Degrees Audio",
       "value": "3degreesaudio",
@@ -2950,4 +2950,3 @@ mapping_data: {
     }
   ]
 }
-runtime_meta: {'duration_ms': 620, 'logs': ['Adding brand 'opfxs' and model 'digdeepmk3''], 'memory_used_mb': 59}
