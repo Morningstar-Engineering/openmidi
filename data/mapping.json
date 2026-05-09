@@ -2131,6 +2131,10 @@
           "value": "flatv"
         },
         {
+          "name": "Kanso",
+          "value": "kanso"
+        },
+        {
           "name": "Verbs",
           "value": "verbs"
         }
