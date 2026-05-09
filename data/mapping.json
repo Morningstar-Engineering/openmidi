@@ -1,4 +1,4 @@
-id: W8tTrXRdw9RCxkwQWs8PAXDkpViphI7j
+id: PRppu6qG72iq779nxmR1Wzm8D4u9Y2BF
 mapping_data: {
   "brands": [
     {
@@ -2372,6 +2372,16 @@ mapping_data: {
       ]
     },
     {
+      "name": "Sim n Tonic",
+      "value": "simntonic",
+      "models": [
+        {
+          "name": "Nome II",
+          "value": "nomeii"
+        }
+      ]
+    },
+    {
       "name": "Singular Sound",
       "value": "singular_sound",
       "models": [
@@ -2951,4 +2961,4 @@ mapping_data: {
     }
   ]
 }
-runtime_meta: {'duration_ms': 620, 'logs': ['Adding brand 'opfxs' and model 'digdeepmk3''], 'memory_used_mb': 59}
+runtime_meta: {'duration_ms': 665, 'logs': ['Adding brand 'simntonic' and model 'nomeii''], 'memory_used_mb': 59}
