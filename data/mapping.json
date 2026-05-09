@@ -1,5 +1,5 @@
 {
-"brands": [
+  "brands": [
     {
       "name": "3 Degrees Audio",
       "value": "3degreesaudio",
@@ -2367,6 +2367,16 @@
         {
           "name": "Looper+",
           "value": "looperplus"
+        }
+      ]
+    },
+    {
+      "name": "Sim n Tonic",
+      "value": "simntonic",
+      "models": [
+        {
+          "name": "Nome II",
+          "value": "nomeii"
         }
       ]
     },
