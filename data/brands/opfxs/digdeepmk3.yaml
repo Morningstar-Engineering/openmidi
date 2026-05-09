@@ -1,0 +1,127 @@
+brand: OPFXS
+model: Dig Deep MK3
+email: info@opfxs.com
+url: 'https://opfxs.com/prodotto/dig-deep-mk3/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bypass
+    value: 0
+    description: |
+      Toggle bypass. 0=bypass ON; 1-127=bypass OFF
+    min: '0'
+    max: 127
+  - name: Dry
+    value: '1'
+    description: Set level of dry signal
+    min: 0
+    max: 127
+  - name: Sub Mix
+    value: '2'
+    description: Set level of sub mix
+    min: 0
+    max: 127
+  - name: '-1 Oct'
+    value: '3'
+    description: Set level of -1 octave level signal
+    min: 0
+    max: 127
+  - name: '-2 Oct'
+    value: '4'
+    description: Set the level of -2 octave level signal
+    min: 0
+    max: 127
+  - name: Wave
+    value: '5'
+    description: Toggle Wave type. 0 or 1-127
+    min: 0
+    max: 127
+  - name: LPF
+    value: '6'
+    description: Set the Low Pass Filter
+    min: 0
+    max: 127
+  - name: HPF
+    value: '7'
+    description: Set the High Pass Filter
+    min: 0
+    max: 127
+  - name: 1st Harmonic
+    value: '8'
+    description: ' Set level of 1st Harmonics signal'
+    min: 0
+    max: 127
+  - name: Split
+    value: '9'
+    description: 0=Split OFF; 1-127=Split ON
+    min: 0
+    max: 127
+  - name: Range
+    value: '10'
+    description: Set Range value
+    min: 0
+    max: 127
+  - name: Input Level
+    value: '10'
+    description: Set the Input Level
+    min: 0
+    max: 127
+  - name: 1st  Harmonics  Pitch
+    value: '12'
+    description: |-
+      Set the pitch of 1st Harmonic in semitones from -12 to +12:
+      0 = -12; 1 = -11; 2 = -10 …… 13 = In pitch; 14 = +1; 15 = +2 ….. 25 = +12;
+    min: 0
+    max: '25'
+  - name: Clip
+    value: '13'
+    description: Add clipping to the sub signal
+    min: 0
+    max: 127
+  - name: Dominant  Notes Cut
+    value: '14'
+    description: 0 = OFF; 1-127 = ON
+    min: 0
+    max: 127
+  - name: High Notes  Cut
+    value: '15'
+    description: 0 = OFF; 1-127 = ON
+    min: 0
+    max: 127
+  - name: Dry HPF
+    value: '16'
+    description: Set Dry HPF value
+    min: 0
+    max: 127
+  - name: Limit Range
+    value: '17'
+    description: ' 0 = OFF; 1-127 = ON'
+    min: 0
+    max: 127
+  - name: Noise Gate  Status
+    value: '18'
+    description: 0 = OFF; 1-127 = ON
+    min: 0
+    max: 127
+  - name: Noise Gate  Threshold
+    value: '19'
+    description: Set the Noise Gate Threshold
+    min: 0
+    max: 127
+  - name: Toggle Bypass
+    value: '20'
+    description: Toggle Bypass status
+    min: '1'
+    max: '1'
+  - name: Attack
+    value: '21'
+    description: '0 = Fast, 1 = Slow'
+    min: 0
+    max: '1'
