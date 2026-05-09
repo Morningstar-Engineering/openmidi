@@ -1,0 +1,39 @@
+brand: Poly Effects
+model: Kanso
+email: t.cuozzo@gmail.com
+url: >-
+  https://static1.squarespace.com/static/60122936c5de08104ff37507/t/6965b426eea3c21ba54919f9/1768272934542/Kanso-Manual-web.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bypass
+    value: '19'
+    description: ''
+    min: 0
+    max: '63'
+  - name: Engage
+    value: '19'
+    description: ''
+    min: '64'
+    max: 127
+  - name: Bias
+    value: '14'
+    description: >-
+      This control is essentially the first gain of the circuit. It sets the
+      level of the signal before it hits the distortion stage.
+    min: 0
+    max: 127
+  - name: Character
+    value: '15'
+    description: >-
+      This adjusts the overall level amount on the output signal (post-gain).
+      Think of it more or less like a master volume.
+    min: 0
+    max: 127
