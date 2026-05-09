@@ -1,0 +1,19 @@
+brand: Test submission
+model: Test model
+email: tyzjames@gmail.com
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Test Parameter
+    value: 0
+    description: ''
+    min: 0
+    max: 127
