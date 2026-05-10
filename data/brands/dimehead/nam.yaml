@@ -2,7 +2,6 @@ brand: dimehead
 model: nam
 brandName: Dimehead
 modelName: NAM
-email: tyzjames@gmail.com
 url: ''
 midi_channel:
   instructions: ''
@@ -185,7 +184,6 @@ cc:
   - name: Disable Tremolo
     value: '50'
     description: |+
-
     min: 0
     max: '0'
   - name: Enable Tremolo
