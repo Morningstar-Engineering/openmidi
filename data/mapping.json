@@ -1985,6 +1985,16 @@
       ]
     },
     {
+      "name": "NUX",
+      "value": "nux",
+      "models": [
+        {
+          "name": "Loop Core Stereo",
+          "value": "loopcorestereo"
+        }
+      ]
+    },
+    {
       "name": "Old Blood Noise Endeavors",
       "value": "oldbloodnoiseendeavors",
       "models": [
