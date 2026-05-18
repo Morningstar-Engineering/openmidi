@@ -1,0 +1,185 @@
+brand: NUX
+model: Loop Core Stereo
+email: info@cherubtechnology.com
+url: >-
+  https://nux.cherubtechnology.com/download/Manual/Effects/Core_Series_Stompboxes/LoopCoreStereo_NCL2/NUX_NCL2_UserManual_English.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_in: unknown
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Track + (01–99)
+    value: '40'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Track - (01–99)
+    value: '41'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Track Play/Stop
+    value: '42'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Loop Rec
+    value: '42'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Loop Dub
+    value: '42'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Loop Undo
+    value: '42'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Loop Redo
+    value: '42'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Loop Clear
+    value: '42'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Loop Level +
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Loop Level -
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Drum Play/Stop
+    value: '45'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Tap Tempo
+    value: '45'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Tempo + (40-240)
+    value: '46'
+    description: ''
+    min: '1'
+    max: 127
+  - name: Tempo - (40-240)
+    value: '47'
+    description: ''
+    min: '1'
+    max: 127
+  - name: 'Beat Switch (4/4, 3/4, Shuffle)'
+    value: '48'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Drum Style select +
+    value: '49'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Drum Style select -
+    value: '50'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Drum Level +
+    value: '51'
+    description: ''
+    min: '0'
+    max: 127
+  - name: Drum Level -
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Save Data/confirm
+    value: '53'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Save to memory number +
+    value: '54'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Save to memory number -
+    value: '55'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Delete Data/confirm
+    value: '53'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Brightness +
+    value: '56'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Brightness -
+    value: '57'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'REC mode: INSTANT'
+    value: '58'
+    description: ''
+    min: 0
+    max: '0'
+  - name: 'REC mode: DETECTING'
+    value: '58'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'REC mode: PRE-BEAT'
+    value: '58'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'DUB mode: DUB & PLAYBACK'
+    value: '59'
+    description: ''
+    min: 0
+    max: '0'
+  - name: 'DUB mode: HIT TWICE TO DUB'
+    value: '59'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'STOP mode: NORMAL'
+    value: '60'
+    description: ''
+    min: 0
+    max: '0'
+  - name: 'STOP mode: ONE SHOT'
+    value: '60'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'STOP mode: FINE STOP'
+    value: '60'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'STOP mode: FADE OUT'
+    value: '60'
+    description: ''
+    min: '3'
+    max: '3'
