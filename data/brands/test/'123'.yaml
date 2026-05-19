@@ -1,0 +1,21 @@
+brand: test
+model: '123'
+device_type: midi_controller
+email: james@morningstarfx.com
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: '123'
+    value: 0
+    description: ''
+    min: 0
+    max: 127
