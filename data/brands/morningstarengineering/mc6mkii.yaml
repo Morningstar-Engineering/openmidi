@@ -2,6 +2,7 @@ brand: morningstarengineering
 model: mc6mkii
 brandName: Morningstar Engineering
 modelName: MC6 MKII
+device_type: midi_controller
 email: james@morningstarfx.com
 url: ''
 midi_channel:
@@ -9,20 +10,14 @@ midi_channel:
     MIDI channel can be set in the Global Config menu or in the Editor.
 
 midi_inputs:
-  - name: DIN 5 MIDI
+  - name: MIDI IN
     type: 5pin
-  - name: USB MIDI
-    type: usb_device
 midi_outputs:
-  - name: DIN 5 MIDI
+  - name: DIN5 MIDI OUT
     type: 5pin
   - name: Omniport 1
     type: trs_type_a_6.35mm
   - name: Omniport 2
-    type: trs_type_a_6.35mm
-  - name: Omniport 3
-    type: trs_type_a_6.35mm
-  - name: Omniport 4
     type: trs_type_a_6.35mm
 midi_thru: 'Yes'
 pc:
