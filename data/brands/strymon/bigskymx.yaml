@@ -2,12 +2,16 @@ brand: strymon
 model: bigskymx
 brandName: Strymon
 modelName: Bigsky MX
+device_type: guitar_processor
 email: strunz_1967@yahoo.com
 url: ''
 midi_channel:
   instructions: |+
 
-midi_in: DIN5
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs: []
 midi_thru: 'Yes'
 pc:
   description: |+
@@ -667,16 +671,16 @@ cc:
     max: '2'
   - name: Reverb Engine 1 Clock
     value: '31'
-    description: 0=Ignore 127=Listen
+    description: 0=Ignore 1=Listen
     min: 0
-    max: 127
+    max: '1'
   - name: Reverb Engine 2 Clock
     value: '32'
-    description: 0=Ignore 127=Listen
+    description: 0=Ignore 1=Listen
     min: 0
-    max: 127
+    max: '1'
   - name: Tap Tempo
     value: '101'
-    description: ''
+    description: Any value
     min: '0'
     max: 127
