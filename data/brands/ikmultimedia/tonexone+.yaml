@@ -1,0 +1,501 @@
+brand: IK Multimedia
+model: ToneX One+
+device_type: midi_controller
+email: kristine@morningstarfx.com
+url: >-
+  https://g1.ikmultimedia.com/html/Manuals/TONEXONEPLUS/TONEX_ONE_Plus_User_Manual_English.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Preset On/Off
+    value: '12'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Tuner
+    value: '9'
+    description: Toggle
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '10'
+    description: Toggle
+    min: 0
+    max: 127
+  - name: BPM
+    value: '88'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Preset Down
+    value: '86'
+    description: Toggle
+    min: 0
+    max: 127
+  - name: Preset Up
+    value: '87'
+    description: Toggle
+    min: 0
+    max: 127
+  - name: Gain
+    value: '102'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Bass
+    value: '23'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Mid
+    value: '25'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Treble
+    value: '28'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Volume (Model)
+    value: '103'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Presence
+    value: '106'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Depth
+    value: '107'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Mix (Model)
+    value: '104'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Noise Gate Power
+    value: '14'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Noise Gate Threshold
+    value: '15'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Noise Gate Release
+    value: '16'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Noise Gate Depth
+    value: '17'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Noise Gate Position
+    value: '13'
+    description: 000 = First ; 127 = Post Amp ;
+    min: 0
+    max: 127
+  - name: Compressor Power
+    value: '18'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Compressor Threshold
+    value: '19'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Compressor Gain
+    value: '20'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Compressor Attack
+    value: '21'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: Compressor Position
+    value: '22'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: EQ Bass Freq
+    value: '24'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: EQ Mid Q
+    value: '26'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: EQ Mid Freq
+    value: '27'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: EQ Treble Freq
+    value: '29'
+    description: 000 - 127
+    min: 0
+    max: 127
+  - name: EQ Position
+    value: '30'
+    description: 000 = Pre ; 127 = Post ;
+    min: 0
+    max: 127
+  - name: Reverb Power
+    value: '75'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Reverb Type
+    value: '85'
+    description: >-
+      000 = Spring 1; 001 = Spring 2 ; 002 = Spring 3 ; 003 = Spring 4 ; 004 =
+      Room ; 005 = Plate ;
+    min: 0
+    max: '5'
+  - name: Reverb Position
+    value: '84'
+    description: 000 = Post Amp ; 127 = Last ;
+    min: 0
+    max: 127
+  - name: SPRING 1 Time
+    value: '59'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 1 Pre-Delay
+    value: '60'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 1 Color
+    value: '61'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 1 Mix
+    value: '62'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 2 Time
+    value: '63'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 2 Pre-Delay
+    value: '64'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 2 Color
+    value: '65'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 2 Mix
+    value: '66'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 3 Time
+    value: '67'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 3 Pre-Delay
+    value: '68'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 3 Color
+    value: '69'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 3 Mix
+    value: '70'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 4 Time
+    value: '80'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 4 Pre-Delay
+    value: '81'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 4 Color
+    value: '82'
+    description: ''
+    min: 0
+    max: 127
+  - name: SPRING 4 Mix
+    value: '83'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROOM Time
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROOM Pre-Delay
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROOM Color
+    value: '73'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROOM Mix
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: PLATE Time
+    value: '76'
+    description: ''
+    min: 0
+    max: 127
+  - name: PLATE Pre-Delay
+    value: '77'
+    description: ''
+    min: 0
+    max: 127
+  - name: PLATE Color
+    value: '78'
+    description: ''
+    min: 0
+    max: 127
+  - name: PLATE Mix
+    value: '79'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Power
+    value: '2'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Delay Type
+    value: '3'
+    description: 000 = Digital ; 001 = Tape ;
+    min: 0
+    max: '1'
+  - name: Delay Position
+    value: '1'
+    description: 000 = Pre Amp ; 127 = Post Amp ;
+    min: 0
+    max: 127
+  - name: DIGITAL DELAY Sync
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: DIGITAL DELAY Time
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: DIGITAL DELAY Feedback
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: DIGITAL DELAY Mode (Norm/Ping)
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: DIGITAL DELAY Mix
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAPE DELAY Sync
+    value: '91'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAPE DELAY Time
+    value: '92'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAPE DELAY Feedback
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAPE DELAY Mode (Norm/Ping)
+    value: '94'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAPE DELAY Mix
+    value: '95'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Power
+    value: '32'
+    description: 000 = Off ; 127 = On ;
+    min: 0
+    max: 127
+  - name: Modulation Type
+    value: '33'
+    description: >-
+      000 = Chorus ; 001 = Tremolo ; 002 = Phaser ; 003 = Flanger ; 004 = Rotary
+      ;
+    min: 0
+    max: 127
+  - name: Modulation Position
+    value: '31'
+    description: 000 = Pre Amp ; 127 = Post Amp ;
+    min: 0
+    max: 127
+  - name: CHORUS Sync
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: CHORUS Rate/Speed
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: CHORUS Depth/Radius
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: CHORUS Level/Mix
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'TREMOLO Sync '
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: TREMOLO Rate/Speed
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: TREMOLO Level/Mix
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: TREMOLO Shape
+    value: '40'
+    description: ''
+    min: 0
+    max: 127
+  - name: TREMOLO Spread
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: PHASER Sync
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: PHASER Rate/Speed
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: PHASER Level/Mix
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: PHASER Shape
+    value: '40'
+    description: ''
+    min: 0
+    max: 127
+  - name: PHASER Spread
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: FLANGER Sync
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: FLANGER Rate/Speed
+    value: '48'
+    description: ''
+    min: 0
+    max: 127
+  - name: FLANGER Depth/Radius
+    value: '49'
+    description: ''
+    min: 0
+    max: 127
+  - name: FLANGER Level/Mix
+    value: '51'
+    description: ''
+    min: 0
+    max: 127
+  - name: FLANGER Feedback
+    value: '50'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROTARY Sync
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROTARY Rate/Speed
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROTARY Depth/Radius
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROTARY Level/Mix
+    value: '56'
+    description: ''
+    min: 0
+    max: 127
+  - name: ROTARY Spread
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
