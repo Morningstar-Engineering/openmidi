@@ -1133,6 +1133,10 @@
           "value": "tonex"
         },
         {
+          "name": "ToneX One+",
+          "value": "tonexoneplus"
+        },
+        {
           "name": "UNO Synth",
           "value": "unosynth"
         }
