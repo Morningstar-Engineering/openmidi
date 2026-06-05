@@ -1,0 +1,144 @@
+brand: Hughes & Kettner
+model: Grandmeister 36
+device_type: others
+email: seibertdr@seiberspace.net
+url: >-
+  https://hughes-and-kettner.com/wp-content/uploads/2023/12/BDA_GrandMeister_1_4_7spr.pdf
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Modulation Intensity
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Time
+    value: '4'
+    description: '128 steps, 51ms to 1360ms'
+    min: 0
+    max: 127
+  - name: Volume
+    value: '7'
+    description: Soft
+    min: 0
+    max: 127
+  - name: Mute On-Off
+    value: '9'
+    description: >-
+      On status remains active until the amp channel is changed, the volume is
+      changed, or the amp is restarted
+    min: 0
+    max: 127
+  - name: Mod-FX Type
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain
+    value: '20'
+    description: Soft
+    min: 0
+    max: 127
+  - name: Bass
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Resonence
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Presence
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulation Speed
+    value: '25'
+    description: Always for the active modulation effect
+    min: 0
+    max: 127
+  - name: Delay Feedback
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Volume
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Volume
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Power Soak Switching
+    value: '30'
+    description: 5 Sectors
+    min: 0
+    max: 127
+  - name: Channel Switching
+    value: '31'
+    description: 4 Sectors
+    min: 0
+    max: 127
+  - name: Mod-FX On-Off
+    value: '52'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay On-Off
+    value: '53'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb On-Off
+    value: '54'
+    description: ''
+    min: 0
+    max: 127
+  - name: FX-Loop On-Off
+    value: '55'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gain
+    value: '56'
+    description: Hard
+    min: 0
+    max: 127
+  - name: Volume
+    value: '57'
+    description: Hard
+    min: 0
+    max: 127
+  - name: Noise Gate On-Off
+    value: '63'
+    description: ''
+    min: 0
+    max: 127
+  - name: Boost On-Off
+    value: '64'
+    description: ''
+    min: 0
+    max: 127
