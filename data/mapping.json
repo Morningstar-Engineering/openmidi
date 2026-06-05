@@ -1105,6 +1105,10 @@
       "value": "hughes&kettner",
       "models": [
         {
+          "name": "Grandmeister 36",
+          "value": "grandmeister36"
+        },
+        {
           "name": "GrandMeister Deluxe 40",
           "value": "grandmeisterdeluxe40"
         },
