@@ -1255,6 +1255,10 @@
       "value": "kinotone",
       "models": [
         {
+          "name": "Ghosts",
+          "value": "ghosts"
+        },
+        {
           "name": "Ribbons",
           "value": "ribbons"
         },
