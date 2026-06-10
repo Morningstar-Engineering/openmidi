@@ -1,267 +1,232 @@
-midi_in: DIN5
-midi_thru: Yes
-phantom_power: None
-midi_clock: No
-
+brand: morningstarengineering
+model: ml10x
+brandName: Morningstar Engineering
+modelName: Ml10X
+device_type: midi_router
+email: tyzjames@gmail.com
+url: ''
 midi_channel:
-  instructions: |+
+  instructions: |
     Set the MIDI channel in the Editor or in the Global Settings on the device.
-instructions:
-
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs:
+  - name: MIDI OUT
+    type: 5pin
+midi_thru: 'Yes'
 pc:
-  description:
-    The ML10X has 128 presets in each of the 4 banks. PC#0 to PC#127 will recall each preset. Send CC#0, value = [0-3] to recall Banks 1-4.
-
+  description: >-
+    The ML10X has 128 presets in each of the 4 banks. PC#0 to PC#127 will recall
+    each preset. Send CC#0, value = [0-3] to recall Banks 1-4.
 cc:
-  - name: 'Change Bank'
+  - name: Change Bank
     value: 0
     description: ''
-    type: System
     min: 0
     max: 3
   - name: 'Simple Mode: Engage all loops in current preset'
     value: 4
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Scroll Up'
+  - name: Scroll Up
     value: 5
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Scroll Down'
+  - name: Scroll Down
     value: 6
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Mute'
+  - name: Mute
     value: 7
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Unmute'
+  - name: Unmute
     value: 8
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop A Tip'
     value: 10
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop A Ring'
     value: 11
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop B Tip'
     value: 12
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop B Ring'
     value: 13
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop C Tip'
     value: 14
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop C Ring'
     value: 15
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop D Tip'
     value: 16
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop D Ring'
     value: 17
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop E Tip'
     value: 18
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Engage/Disengage Loop E Ring'
     value: 19
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop A Tip'
     value: 20
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop A Ring'
     value: 21
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop B Tip'
     value: 22
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop B Ring'
     value: 23
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop C Tip'
     value: 24
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop C Ring'
     value: 25
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop D Tip'
     value: 26
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop D Ring'
     value: 27
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop E Tip'
     value: 28
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Simple Mode: Toggle Loop E Ring'
     value: 29
     description: ''
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop A Tip'
     value: 30
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop A Ring'
     value: 31
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop B Tip'
     value: 32
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop B Ring'
     value: 33
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop C Tip'
     value: 34
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop C Ring'
     value: 35
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop D Tip'
     value: 36
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop D Ring'
     value: 37
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop E Tip'
     value: 38
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
   - name: 'Output Cut: Loop E Ring'
     value: 39
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
-    type: System
     min: 0
     max: 127
-  - name: 'Input Tip Bypass/Engage'
+  - name: Input Tip Bypass/Engage
     value: 40
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Input Ring Bypass/Engage'
+  - name: Input Ring Bypass/Engage
     value: 41
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Output Tip Bypass/Engage'
+  - name: Output Tip Bypass/Engage
     value: 42
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Output Ring Bypass/Engage'
+  - name: Output Ring Bypass/Engage
     value: 43
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: 'Set Loop Bypass Persists'
+  - name: Set Loop Bypass Persists
     value: 50
-    description: 'Loop Bypass Persists setting on/off'
-    type: System
+    description: Loop Bypass Persists setting on/off
     min: 0
     max: 127
-  - name: 'Reload Loop Bypass States'
+  - name: Reload Loop Bypass States
     value: 51
-    description: 'Reloads the loop bypass states for the current preset'
-    type: System
+    description: Reloads the loop bypass states for the current preset
     min: 0
     max: 127
