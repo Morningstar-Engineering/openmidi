@@ -1,17 +1,20 @@
-brand: Old Blood Noise Endeavors
-model: Sunlight Stereo
-email: marklarssen@gmail.com
+brand: oldbloodnoiseendeavors
+model: sunlightstereo
+brandName: Old Blood Noise Endeavors
+modelName: Sunlight Stereo Reverb
+device_type: effect
+email: justinb3@mac.com
 url: >-
   https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/68f705e439fb6a682aaa9201/1761019364706/Instruction+Manual+-+Sunlight+-+02.1.pdf
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Expression
     value: '11'
