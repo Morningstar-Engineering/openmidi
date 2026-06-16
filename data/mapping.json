@@ -173,6 +173,16 @@
       ]
     },
     {
+      "name": "Audio Sprokets",
+      "value": "audiosprokets",
+      "models": [
+        {
+          "name": "Tone Dexter II",
+          "value": "tonedexterii"
+        }
+      ]
+    },
+    {
       "name": "Avid",
       "value": "avid",
       "models": [
