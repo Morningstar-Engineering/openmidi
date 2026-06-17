@@ -1,0 +1,21 @@
+brand: Audio Sprokets
+model: Tone Dexter II
+device_type: others
+email: mregouski@comcast.net
+url: 'https://audiosprockets.com/tonedexter/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Bank Select
+    value: 0
+    description: Sets device to Wavemap number 1
+    min: 0
+    max: 127
