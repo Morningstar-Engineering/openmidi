@@ -1,0 +1,182 @@
+midi_in: "TRS (PS/2 breakout cable required - converts to standard 5-pin DIN)"
+midi_thru: Yes
+phantom_power: No
+midi_clock: Yes
+
+midi_channel:
+  instructions: |
+    Settings > Main Pedal > MIDI Settings > MIDI In > Channel (1-16 or All/Omni).
+    Must match the sending device's output channel.
+    All (Omni) receives on all channels - useful for testing.
+
+midi_mapping: No
+
+pc:
+  description: |
+    Program Change selects a song within the currently selected folder.
+    PC value 0 = Song 1, PC value 1 = Song 2, etc. (0-indexed).
+    The folder must first be selected using CC-0 (Bank MSB) and CC-32 (Bank LSB).
+    Song does not change until the Program Change message is received.
+    Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Program Change.
+
+cc:
+  - name: "Bank Select MSB (Folder Select MSB)"
+    value: 0
+    description: "Selects the song folder (MSB). Combine with CC-32 (LSB) and a Program Change to select a specific song. Up to 128 MSB x 128 LSB values = 16384 possible folders. Song does not change until Program Change is received."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Bank Select LSB (Folder Select LSB)"
+    value: 32
+    description: "Selects the song folder (LSB). Combine with CC-0 (MSB) and a Program Change to select a specific song. Song does not change until Program Change is received."
+    type: System
+    min: 0
+    max: 127
+
+  - name: Tempo Increment
+    value: 80
+    description: "Increases the current tempo by the specified value in BPM. New tempo = current tempo + value. BeatBuddy tempo range is 40-300 BPM."
+    type: Parameter
+    min: 1
+    max: 127
+
+  - name: Tempo Decrement
+    value: 81
+    description: "Decreases the current tempo by the specified value in BPM. New tempo = current tempo - value. BeatBuddy tempo range is 40-300 BPM."
+    type: Parameter
+    min: 1
+    max: 127
+
+  - name: "Half Time Mode"
+    value: 82
+    description: "Enables or disables half-time mode. Value 0 returns to normal mode. Values 1-127 engage half-time mode (drums play at half the current tempo feel)."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Double Time Mode"
+    value: 83
+    description: "Enables or disables double-time mode. Value 0 returns to normal mode. Values 1-127 engage double-time mode (drums play at double the current tempo feel)."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Data Increment (Tempo +1)"
+    value: 96
+    description: "Increments the tempo by 1 BPM following the NRPN INC/DEC protocol. Precede with CC-99 (NRPN MSB = 106) and CC-98 (NRPN LSB = 107) to target Tempo."
+    type: System
+    min: 1
+    max: 127
+
+  - name: "Data Decrement (Tempo -1)"
+    value: 97
+    description: "Decrements the tempo by 1 BPM following the NRPN INC/DEC protocol. Precede with CC-99 (NRPN MSB = 106) and CC-98 (NRPN LSB = 107) to target Tempo."
+    type: System
+    min: 1
+    max: 127
+
+  - name: NRPN LSB
+    value: 98
+    description: "Non-Registered Parameter Number LSB. Set to 107 to target Tempo LSB for INC/DEC tempo control. Set to 127 to clear the NRPN register after use."
+    type: System
+    min: 0
+    max: 127
+
+  - name: NRPN MSB
+    value: 99
+    description: "Non-Registered Parameter Number MSB. Set to 106 to target Tempo MSB for INC/DEC tempo control. Set to 127 to clear the NRPN register after use."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Next Part Output (MIDI Out)"
+    value: 102
+    description: "OUTPUT ONLY - BeatBuddy sends this CC when a transition completes and the next song part begins. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI Out > Next Part. Note: some devices (e.g. Eventide Timeline) may malfunction when receiving this."
+    type: System
+    min: 0
+    max: 127
+
+  - name: Tempo MSB
+    value: 106
+    description: "Sets the Most Significant Byte of a specific target tempo. Must be sent before CC-107 (Tempo LSB). Example combinations - 0+25=40BPM, 0+127=127BPM, 1+0=128BPM, 2+44=300BPM."
+    type: Parameter
+    min: 0
+    max: 2
+
+  - name: Tempo LSB
+    value: 107
+    description: "Sets the Least Significant Byte of a specific target tempo. Send after CC-106 (Tempo MSB). BeatBuddy updates to the new tempo when this message is received. BPM = (MSB x 128) + LSB. Range 40-300 BPM."
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: "Mix Volume (Main Output)"
+    value: 108
+    description: "Sets the main mixer volume (drum output level). Value 0 = mute, value 100 = full volume. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Mix-Vol."
+    type: Parameter
+    min: 0
+    max: 100
+
+  - name: "Headphone Volume"
+    value: 109
+    description: "Sets the headphone output volume. Value 0 = mute, value 100 = maximum. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > HP-Vol."
+    type: Parameter
+    min: 0
+    max: 100
+
+  - name: "Accent Hit"
+    value: 110
+    description: "Triggers the current song part accent hit sample. Value controls playback volume - 0 = mute, 100 = original recorded volume, 127 = amplified above original. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Accent-Hit."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Pause / Unpause"
+    value: 111
+    description: "Toggles pause state. First message pauses the current song. Second message unpauses and resumes. Value must be 1-127 to trigger. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Pause/Unpause."
+    type: System
+    min: 1
+    max: 127
+
+  - name: "Drum Fill"
+    value: 112
+    description: "Triggers a drum fill in the current song part. BeatBuddy plays the fill then returns to the main groove. Value 1-127 triggers. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Drum Fill."
+    type: System
+    min: 1
+    max: 127
+
+  - name: "Transition / Part Select"
+    value: 113
+    description: "Starts a song transition and selects the target part. The transition fill loops until value 0 is sent. Values - 0=quit transition and go to selected part, 1=Part 1, 2=Part 2, 126=previous part, 127=next part. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Transition."
+    type: System
+    min: 0
+    max: 127
+
+  - name: "Start Playback"
+    value: 114
+    description: "Starts playback of the current song. Any value greater than 0 triggers start. Equivalent to pressing the main footswitch to begin a song."
+    type: System
+    min: 1
+    max: 127
+
+  - name: Outro
+    value: 115
+    description: "Triggers the outro (ending) of the current song. BeatBuddy plays the outro then stops. Value 1-127 triggers. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Outro."
+    type: System
+    min: 1
+    max: 127
+
+  - name: "Drum Set Select"
+    value: 116
+    description: "Selects a specific drum set by its index number. Value corresponds to the drum set position in the BeatBuddy Manager (1-indexed)."
+    type: System
+    min: 1
+    max: 127
+
+  - name: "Tap Tempo"
+    value: 117
+    description: "Enters Tap Tempo mode and generates a tap event. Send multiple times in rhythm to set the BPM. Enable/disable at Settings > Main Pedal > MIDI Settings > MIDI In > Tap-Tempo."
+    type: System
+    min: 0
+    max: 127
