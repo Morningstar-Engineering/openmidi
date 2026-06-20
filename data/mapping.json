@@ -2473,6 +2473,10 @@
           "value": "eq2"
         },
         {
+          "name": "LA Lady",
+          "value": "lalady"
+        },
+        {
           "name": "Nemesis",
           "value": "nemesis"
         },
