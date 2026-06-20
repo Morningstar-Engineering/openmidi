@@ -2473,6 +2473,10 @@
           "value": "eq2"
         },
         {
+          "name": "Mercury",
+          "value": "mercury"
+        },
+        {
           "name": "Nemesis",
           "value": "nemesis"
         },
