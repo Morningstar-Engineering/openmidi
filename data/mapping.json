@@ -1,16 +1,6 @@
 {
   "brands": [
     {
-      "name": "'Source Audio '",
-      "value": "'sourceaudio'",
-      "models": [
-        {
-          "name": "Gemini",
-          "value": "gemini"
-        }
-      ]
-    },
-    {
       "name": "3 Degrees Audio",
       "value": "3degreesaudio",
       "models": [
@@ -2481,6 +2471,10 @@
         {
           "name": "EQ2",
           "value": "eq2"
+        },
+        {
+          "name": "Gemini",
+          "value": "gemini"
         },
         {
           "name": "Nemesis",
