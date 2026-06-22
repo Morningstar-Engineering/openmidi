@@ -1,18 +1,17 @@
-brand: Source Audio
-model: True Spring
+brand: sourceaudio
+model: truespring
+brandName: Source Audio
+modelName: True Spring
 device_type: effect
 email: stroonz@verizon.net
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs: []
 midi_outputs: []
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Spring Engine
     value: '1'
