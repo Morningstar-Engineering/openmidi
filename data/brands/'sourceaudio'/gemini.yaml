@@ -1,0 +1,136 @@
+brand: 'Source Audio'
+model: Gemini
+device_type: effect
+email: stroonz@verizon.net
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Delay/Frequency
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Depth
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Speed
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Wet/Dry Mix
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Output Level
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Feedback (Resonance)
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Lo Retain
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tremolo
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Effect Type
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Source
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Channel 2 LFO Offset
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Frequency
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Freq
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid A Freq
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid A Q
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid A
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid B Freq
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid B Q
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid B
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Low Cut Filter
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: I/O Routing Option
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass/Engage
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
