@@ -2472,9 +2472,11 @@
           "name": "EQ2",
           "value": "eq2"
         },
+        {
           "name": "Gemini",
           "value": "gemini"
         },
+        {
           "name": "LA Lady",
           "value": "lalady"
         },
