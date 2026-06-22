@@ -2472,6 +2472,12 @@
           "name": "EQ2",
           "value": "eq2"
         },
+          "name": "Gemini",
+          "value": "gemini"
+        },
+          "name": "LA Lady",
+          "value": "lalady"
+        },
         {
           "name": "Mercury",
           "value": "mercury"
@@ -2489,8 +2495,16 @@
           "value": "spectrumintelligencefilter"
         },
         {
+          "name": "True Spring",
+          "value": "truespring"
+        },
+        {
           "name": "Ultrawave",
           "value": "ultrawave"
+        },
+        {
+          "name": "Ultrawave (Guitar)",
+          "value": "ultrawave(guitar)"
         },
         {
           "name": "Ventris",
