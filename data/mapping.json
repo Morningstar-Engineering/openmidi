@@ -2485,6 +2485,10 @@
           "value": "spectrumintelligencefilter"
         },
         {
+          "name": "True Spring",
+          "value": "truespring"
+        },
+        {
           "name": "Ultrawave",
           "value": "ultrawave"
         },
