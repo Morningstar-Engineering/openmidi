@@ -1,0 +1,266 @@
+brand: Source Audio
+model: LA Lady
+device_type: midi_controller
+email: stroonz@verizon.net
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Left Voice
+    value: 0
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Voice Frequency
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Drive
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Output
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Distortion Engine
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Clean Mix
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Drive Balance
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Drive Maximum
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Treble 750 Hz
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Bass 34 Hz
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Mid A 126 Hz
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
+  - name: Left Mid B 80 Hz
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Voice
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Voice Frequency
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Drive
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Output
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Distortion Engine
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Clean Mix
+    value: '17'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Drive Balance
+    value: '18'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Drive Maximum
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Treble 750 Hz
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Bass 34 Hz
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Mid A 126 Hz
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Mid B 80 Hz
+    value: '23'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate Threshold
+    value: '24'
+    description: ''
+    min: 0
+    max: 127
+  - name: Gate High Cut
+    value: '25'
+    description: ''
+    min: 0
+    max: 127
+  - name: Treble Freq
+    value: '26'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bass Freq
+    value: '27'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid A Freq
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid A Q
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid B Freq
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mid B Q
+    value: '31'
+    description: ''
+    min: 0
+    max: 127
+  - name: Low Cut Filter
+    value: '32'
+    description: ''
+    min: 0
+    max: 127
+  - name: I/O Routing
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Filter Gate Option
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Noise Gate Enable
+    value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Channel Switch Control
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Bypass/Engage
+    value: '37'
+    description: ''
+    min: 0
+    max: 127
+  - name: 'Both Voice '
+    value: '38'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Voice Freq
+    value: '39'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Drive
+    value: '40'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Output
+    value: '41'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Distortion Engine
+    value: '42'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Clean Mix
+    value: '43'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Drive Balance
+    value: '44'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Drive Maximum
+    value: '45'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Treble 750 Hz
+    value: '46'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Bass 34 Hz
+    value: '47'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Mid A 126 Hz
+    value: '48'
+    description: ''
+    min: 0
+    max: 127
+  - name: Both Mid B 80 Hz
+    value: '49'
+    description: ''
+    min: 0
+    max: 127
