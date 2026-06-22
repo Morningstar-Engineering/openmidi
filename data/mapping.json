@@ -2476,6 +2476,9 @@
           "name": "Gemini",
           "value": "gemini"
         },
+          "name": "LA Lady",
+          "value": "lalady"
+        },
         {
           "name": "Nemesis",
           "value": "nemesis"
@@ -2487,6 +2490,10 @@
         {
           "name": "Spectrum Intelligence Filter",
           "value": "spectrumintelligencefilter"
+        },
+        {
+          "name": "True Spring",
+          "value": "truespring"
         },
         {
           "name": "Ultrawave",
