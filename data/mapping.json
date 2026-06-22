@@ -2500,6 +2500,10 @@
           "value": "ultrawave"
         },
         {
+          "name": "Ultrawave (Guitar)",
+          "value": "ultrawave(guitar)"
+        },
+        {
           "name": "Ventris",
           "value": "ventris"
         }
