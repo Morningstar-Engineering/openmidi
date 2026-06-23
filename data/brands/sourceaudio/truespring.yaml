@@ -64,7 +64,7 @@ cc:
     min: 0
     max: 127
   - name: Modulation Rate
-    value: '10'
+    value: '11'
     description: ''
     min: 0
     max: 127
