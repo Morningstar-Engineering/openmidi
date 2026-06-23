@@ -1,18 +1,17 @@
-brand: Source Audio
-model: LA Lady
+brand: sourceaudio
+model: lalady
+brandName: Source Audio
+modelName: LA Lady
 device_type: midi_controller
 email: stroonz@verizon.net
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs: []
 midi_outputs: []
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Left Voice
     value: 0
@@ -201,66 +200,6 @@ cc:
     max: 127
   - name: Bypass/Engage
     value: '37'
-    description: ''
-    min: 0
-    max: 127
-  - name: 'Both Voice '
-    value: '38'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Voice Freq
-    value: '39'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Drive
-    value: '40'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Output
-    value: '41'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Distortion Engine
-    value: '42'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Clean Mix
-    value: '43'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Drive Balance
-    value: '44'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Drive Maximum
-    value: '45'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Treble 750 Hz
-    value: '46'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Bass 34 Hz
-    value: '47'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Mid A 126 Hz
-    value: '48'
-    description: ''
-    min: 0
-    max: 127
-  - name: Both Mid B 80 Hz
-    value: '49'
     description: ''
     min: 0
     max: 127
