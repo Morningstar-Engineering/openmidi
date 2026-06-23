@@ -1,654 +1,1094 @@
-midi_in: DIN5
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
-instructions:
-
+brand: sourceaudio
+model: eq2
+brandName: Source Audio
+modelName: EQ2
+device_type: effect
+email: stroonz@verizon.net
+url: ''
 midi_channel:
-  instructions: |+
-    By	default, the EQ2 responds to MIDI Channel 1. The setting can be edited in the Neuro Editor.
+  instructions: >
+    By default, the EQ2 responds to MIDI Channel 1. The setting can be edited in
+    the Neuro Editor.
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
-  description:
-
+  description: ''
 cc:
-  - description: ''
-    max: 127
-    min: 0
-    name: Master Volume (Output)
+  - name: 'Output Volume '
     value: 0
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Input 1 Trim
+    max: 127
+  - name: Input 1 Trim
     value: 1
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Input 2 Trim
+    max: 127
+  - name: Input 2 Trim
     value: 2
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 1 - Level
+    max: 127
+  - name: 'Channel 1, Band 1 - Level'
     value: 3
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 2 - Level
+    max: '40'
+  - name: 'Channel 1, Band 2 - Level'
     value: 4
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 3 - Level
+    max: '40'
+  - name: 'Channel 1, Band 3 - Level'
     value: 5
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 4 - Level
+    max: '40'
+  - name: 'Channel 1, Band 4 - Level'
     value: 6
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 5 - Level
+    max: '40'
+  - name: 'Channel 1, Band 5 - Level'
     value: 7
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 6 - Level
+    max: '40'
+  - name: 'Channel 1, Band 6 - Level'
     value: 8
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 7 - Level
+    max: '40'
+  - name: 'Channel 1, Band 7 - Level'
     value: 9
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 8 - Level
+    max: '40'
+  - name: 'Channel 1, Band 8 - Level'
     value: 10
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 9 - Level
+    max: '40'
+  - name: 'Channel 1, Band 9 - Level'
     value: 11
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 10 - Level
+    max: '40'
+  - name: 'Channel 1, Band 10 - Level'
     value: 12
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 1 - Level
+    max: '40'
+  - name: 'Channel 2, Band 1 - Level'
     value: 13
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 2 - Level
+    max: '40'
+  - name: 'Channel 2, Band 2 - Level'
     value: 14
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 3 - Level
+    max: '40'
+  - name: 'Channel 2, Band 3 - Level'
     value: 15
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 4 - Level
+    max: '40'
+  - name: 'Channel 2, Band 4 - Level'
     value: 16
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 5 - Level
+    max: '40'
+  - name: 'Channel 2, Band 5 - Level'
     value: 17
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 6 - Level
+    max: '40'
+  - name: 'Channel 2, Band 6 - Level'
     value: 18
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 7 - Level
+    max: '40'
+  - name: 'Channel 2, Band 7 - Level'
     value: 19
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 8 - Level
+    max: '40'
+  - name: 'Channel 2, Band 8 - Level'
     value: 20
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 9 - Level
+    max: '40'
+  - name: 'Channel 2, Band 9 - Level'
     value: 21
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 10 - Level
+    max: '40'
+  - name: 'Channel 2, Band 10 - Level'
     value: 22
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 1 - Frequency
+    max: '40'
+  - name: 'Channel 1, Band 1 - Frequency'
     value: 23
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 2 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 2 - Frequency'
     value: 24
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 3 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 3 - Frequency'
     value: 25
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 4 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 4 - Frequency'
     value: 26
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 5 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 5 - Frequency'
     value: 27
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 6 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 6 - Frequency'
     value: 28
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 7 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 7 - Frequency'
     value: 29
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 8 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 8 - Frequency'
     value: 30
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 9 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 9 - Frequency'
     value: 31
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 10 - Frequency
+    max: '112'
+  - name: 'Channel 1, Band 10 - Frequency'
     value: 32
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 1 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 1 - Frequency'
     value: 33
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 2 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 2 - Frequency'
     value: 34
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 3 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 3 - Frequency'
     value: 35
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 4 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 4 - Frequency'
     value: 36
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 5 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 5 - Frequency'
     value: 37
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 6 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 6 - Frequency'
     value: 38
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 7 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 7 - Frequency'
     value: 39
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 8 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 8 - Frequency'
     value: 40
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 9 - Frequency
+    max: '112'
+  - name: 'Channel 2, Band 9 - Frequency'
     value: 41
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 10 - Frequency
-    value: 42
-  - description: ''
-    max: 127
+    max: '112'
+  - name: 'Channel 2, Band 10 - Frequency'
+    value: '42'
+    description: ''
     min: 0
-    name: Channel 1, Band 1 - Q
+    max: '112'
+  - name: 'Channel 1, Band 1 - Q'
     value: 43
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 2 - Q
+    max: '100'
+  - name: 'Channel 1, Band 2 - Q'
     value: 44
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 3 - Q
+    max: '100'
+  - name: 'Channel 1, Band 3 - Q'
     value: 45
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 4 - Q
+    max: '100'
+  - name: 'Channel 1, Band 4 - Q'
     value: 46
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 5 - Q
+    max: '100'
+  - name: 'Channel 1, Band 5 - Q'
     value: 47
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 6 - Q
+    max: '100'
+  - name: 'Channel 1, Band 6 - Q'
     value: 48
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 7 - Q
+    max: '100'
+  - name: 'Channel 1, Band 7 - Q'
     value: 49
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 8 - Q
+    max: '100'
+  - name: 'Channel 1, Band 8 - Q'
     value: 50
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 9 - Q
+    max: '100'
+  - name: 'Channel 1, Band 9 - Q'
     value: 51
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 1, Band 10 - Q
+    max: '100'
+  - name: 'Channel 1, Band 10 - Q'
     value: 52
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 1 - Q
+    max: '100'
+  - name: 'Channel 2, Band 1 - Q'
     value: 53
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 2 - Q
+    max: '100'
+  - name: 'Channel 2, Band 2 - Q'
     value: 54
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 3 - Q
+    max: '100'
+  - name: 'Channel 2, Band 3 - Q'
     value: 55
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 4 - Q
+    max: '100'
+  - name: 'Channel 2, Band 4 - Q'
     value: 56
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 5 - Q
+    max: '100'
+  - name: 'Channel 2, Band 5 - Q'
     value: 57
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 6 - Q
+    max: '100'
+  - name: 'Channel 2, Band 6 - Q'
     value: 58
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 7 - Q
+    max: '100'
+  - name: 'Channel 2, Band 7 - Q'
     value: 59
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 8 - Q
+    max: '100'
+  - name: 'Channel 2, Band 8 - Q'
     value: 60
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 9 - Q
+    max: '100'
+  - name: 'Channel 2, Band 9 - Q'
     value: 61
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Channel 2, Band 10 - Q
+    max: '100'
+  - name: 'Channel 2, Band 10 - Q'
     value: 62
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
-    value: 63
-  - description: ''
-    max: 127
+    max: '100'
+  - name: 'Channel 1, Band 1 - High Res. Level'
+    value: '63'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 64
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 2 - High Res. Level'
+    value: '64'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 65
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 3 - High Res. Level'
+    value: '65'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 66
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 4 - High Res. Level'
+    value: '66'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 67
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 5 - High Res. Level'
+    value: '67'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 68
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 6 - High Res. Level'
+    value: '68'
+    description: ''
     min: 0
-    name: Channel 1 Gain
-    value: 69
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 7 - High Res. Level'
+    value: '69'
+    description: ''
     min: 0
-    name: Channel 2 Gain
-    value: 70
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 8 - High Res. Level'
+    value: '70'
+    description: ''
     min: 0
-    name: Channel 1 Input High Pass
-    value: 71
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 9 - High Res. Level'
+    value: '71'
+    description: ''
     min: 0
-    name: Channel 2 Input High Pass
-    value: 72
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 1, Band 10 - High Res. Level'
+    value: '72'
+    description: ''
     min: 0
-    name: Routing Option
-    value: 73
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 1 - High Res. Level'
+    value: '73'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 74
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 2 - High Res. Level'
+    value: '74'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 75
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 3 - High Res. Level'
+    value: '75'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 76
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 4 - High Res. Level'
+    value: '76'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 77
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 5 - High Res. Level'
+    value: '77'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 78
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 6 - High Res. Level'
+    value: '78'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 79
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 7 - High Res. Level'
+    value: '79'
+    description: ''
     min: 0
-    name: Preset Decrement
-    value: 80
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 8 - High Res. Level'
+    value: '80'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 81
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 9 - High Res. Level'
+    value: '81'
+    description: ''
     min: 0
-    name: Preset Increment
-    value: 82
-  - description: ''
-    max: 127
+    max: '40'
+  - name: 'Channel 2, Band 10 - High Res. Level'
+    value: '82'
+    description: ''
     min: 0
-    name: Enable/Disable Tuner
+    max: '40'
+  - name: Channel Config 1
     value: 83
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel Config 2
     value: 84
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 1 Phase
     value: 85
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 2 Phase
     value: 86
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 1 Mute
     value: 87
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 2 Mute
     value: 88
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 1 Constant Q
     value: 89
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 2 Constant Q
     value: 90
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 1 Gain
     value: 91
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Channel 2 Gain
     value: 92
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Split Channels
     value: 93
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Remote Switch Function
+    max: 127
+  - name: Limiter Enable
     value: 94
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Limiter Look-ahead
     value: 95
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Limiter Stereo Link
     value: 96
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
+    max: 127
+  - name: Gate Enable - OFF
     value: 97
-  - description: ''
-    max: 127
+    description: ''
     min: 0
-    name: Unassigned
-    value: 98
-  - description: ''
-    max: 127
+    max: '0'
+  - name: Gate Enable - Both Channels
+    value: '97'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Gate Enable - Channel 1
+    value: '97'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Gate Enable - Channel 2
+    value: '97'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Gate Threshold
+    value: '98'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 99
-  - description: ''
     max: 127
+  - name: Gate Source - Channel 1
+    value: '99'
+    description: ''
     min: 0
-    name: Remote Expression
-    value: 100
-  - description: ''
+    max: '0'
+  - name: Gate Source - Channel 2
+    value: '99'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Channel 1 Input High Pass - 10.0 Hz
+    value: '100'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Channel 1 Input High Pass - 12.5 Hz
+    value: '100'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Channel 1 Input High Pass - 15.0 Hz
+    value: '100'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Channel 1 Input High Pass - 17.5 Hz
+    value: '100'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Channel 1 Input High Pass - 20.0 Hz
+    value: '100'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Channel 1 Input High Pass - 22.5 Hz
+    value: '100'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Channel 1 Input High Pass - 25.0 Hz
+    value: '100'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Channel 1 Input High Pass - 27.5 Hz
+    value: '100'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Channel 1 Input High Pass - 30.0 Hz
+    value: '100'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Channel 1 Input High Pass - 32.5 Hz
+    value: '100'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Channel 1 Input High Pass - 35.0 Hz
+    value: '100'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Channel 1 Input High Pass - 37.5 Hz
+    value: '100'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Channel 1 Input High Pass - 40.0 Hz
+    value: '100'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Channel 1 Input High Pass - 42.5 Hz
+    value: '100'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Channel 1 Input High Pass - 45.0 Hz
+    value: '100'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Channel 1 Input High Pass - 47.5 Hz
+    value: '100'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Channel 1 Input High Pass - 50.0 Hz
+    value: '100'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Channel 1 Input High Pass - 52.5 Hz
+    value: '100'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Channel 1 Input High Pass - 55.0 Hz
+    value: '100'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Channel 1 Input High Pass - 57.5 Hz
+    value: '100'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Channel 1 Input High Pass - 60.0 Hz
+    value: '100'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Channel 1 Input High Pass - 62.5 Hz
+    value: '100'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Channel 1 Input High Pass - 65.0 Hz
+    value: '100'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Channel 1 Input High Pass - 67.5 Hz
+    value: '100'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Channel 1 Input High Pass - 70.0 Hz
+    value: '100'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Channel 1 Input High Pass - 72.5 Hz
+    value: '100'
+    description: ''
+    min: '25'
+    max: '25'
+  - name: Channel 1 Input High Pass - 75.0 Hz
+    value: '100'
+    description: ''
+    min: '26'
+    max: '26'
+  - name: Channel 1 Input High Pass - 77.5 Hz
+    value: '100'
+    description: ''
+    min: '27'
+    max: '27'
+  - name: Channel 1 Input High Pass - 80.0 Hz
+    value: '100'
+    description: ''
+    min: '28'
+    max: '28'
+  - name: Channel 1 Input High Pass - 85.0 Hz
+    value: '100'
+    description: ''
+    min: '29'
+    max: '29'
+  - name: Channel 1 Input High Pass - 90.0 Hz
+    value: '100'
+    description: ''
+    min: '30'
+    max: '30'
+  - name: Channel 1 Input High Pass - 95.0 Hz
+    value: '100'
+    description: ''
+    min: '31'
+    max: '31'
+  - name: Channel 1 Input High Pass - 100.0 Hz
+    value: '100'
+    description: ''
+    min: '32'
+    max: '32'
+  - name: Channel 1 Input High Pass - 110.0 Hz
+    value: '100'
+    description: ''
+    min: '33'
+    max: '33'
+  - name: Channel 1 Input High Pass - 120.0 Hz
+    value: '100'
+    description: ''
+    min: '34'
+    max: '34'
+  - name: Channel 1 Input High Pass - 130.0 Hz
+    value: '100'
+    description: ''
+    min: '35'
+    max: '35'
+  - name: Channel 1 Input High Pass - 140.0 Hz
+    value: '100'
+    description: ''
+    min: '36'
+    max: '36'
+  - name: Channel 1 Input High Pass - 150.0 Hz
+    value: '100'
+    description: ''
+    min: '37'
+    max: '37'
+  - name: Channel 1 Input High Pass - 160.0 Hz
+    value: '100'
+    description: ''
+    min: '38'
+    max: '38'
+  - name: Channel 1 Input High Pass - 180.0 Hz
+    value: '100'
+    description: ''
+    min: '39'
+    max: '39'
+  - name: Channel 1 Input High Pass - 200.0 Hz
+    value: '100'
+    description: ''
+    min: '40'
+    max: '40'
+  - name: Channel 1 Input High Pass - 220.0 Hz
+    value: '100'
+    description: ''
+    min: '41'
+    max: '41'
+  - name: Channel 1 Input High Pass - 250.0 Hz
+    value: '100'
+    description: ''
+    min: '42'
+    max: '42'
+  - name: Channel 2 Input High Pass - 10.0 Hz
+    value: '101'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Channel 2 Input High Pass - 12.5 Hz
+    value: '101'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Channel 2 Input High Pass - 15.0 Hz
+    value: '101'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Channel 2 Input High Pass - 17.5 Hz
+    value: '101'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Channel 2 Input High Pass - 20.0 Hz
+    value: '101'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Channel 2 Input High Pass - 22.5 Hz
+    value: '101'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Channel 2 Input High Pass - 25.0 Hz
+    value: '101'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Channel 2 Input High Pass - 27.5 Hz
+    value: '101'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Channel 2 Input High Pass - 30.0 Hz
+    value: '101'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Channel 2 Input High Pass - 32.5 Hz
+    value: '101'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Channel 2 Input High Pass - 35.0 Hz
+    value: '101'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Channel 2 Input High Pass - 37.5 Hz
+    value: '101'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Channel 2 Input High Pass - 40.0 Hz
+    value: '101'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Channel 2 Input High Pass - 42.5 Hz
+    value: '101'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Channel 2 Input High Pass - 45.0 Hz
+    value: '101'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Channel 2 Input High Pass - 47.5 Hz
+    value: '101'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Channel 2 Input High Pass - 50.0 Hz
+    value: '101'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Channel 2 Input High Pass - 52.5 Hz
+    value: '101'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Channel 2 Input High Pass - 55.0 Hz
+    value: '101'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Channel 2 Input High Pass - 57.5 Hz
+    value: '101'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Channel 2 Input High Pass - 60.0 Hz
+    value: '101'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Channel 2 Input High Pass - 62.5 Hz
+    value: '101'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Channel 2 Input High Pass - 65.0 Hz
+    value: '101'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Channel 2 Input High Pass - 67.5 Hz
+    value: '101'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Channel 2 Input High Pass - 70.0 Hz
+    value: '101'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Channel 2 Input High Pass - 72.5 Hz
+    value: '101'
+    description: ''
+    min: '25'
+    max: '25'
+  - name: Channel 2 Input High Pass - 75.0 Hz
+    value: '101'
+    description: ''
+    min: '26'
+    max: '26'
+  - name: Channel 2 Input High Pass - 77.5 Hz
+    value: '101'
+    description: ''
+    min: '27'
+    max: '27'
+  - name: Channel 2 Input High Pass - 80.0 Hz
+    value: '101'
+    description: ''
+    min: '28'
+    max: '28'
+  - name: Channel 2 Input High Pass - 85.0 Hz
+    value: '101'
+    description: ''
+    min: '29'
+    max: '29'
+  - name: Channel 2 Input High Pass - 90.0 Hz
+    value: '101'
+    description: ''
+    min: '30'
+    max: '30'
+  - name: Channel 2 Input High Pass - 95.0 Hz
+    value: '101'
+    description: ''
+    min: '31'
+    max: '31'
+  - name: Channel 2 Input High Pass - 100.0 Hz
+    value: '101'
+    description: ''
+    min: '32'
+    max: '32'
+  - name: Channel 2 Input High Pass - 110.0 Hz
+    value: '101'
+    description: ''
+    min: '33'
+    max: '33'
+  - name: Channel 2 Input High Pass - 120.0 Hz
+    value: '101'
+    description: ''
+    min: '34'
+    max: '34'
+  - name: Channel 2 Input High Pass - 130.0 Hz
+    value: '101'
+    description: ''
+    min: '35'
+    max: '35'
+  - name: Channel 2 Input High Pass - 140.0 Hz
+    value: '101'
+    description: ''
+    min: '36'
+    max: '36'
+  - name: Channel 2 Input High Pass - 150.0 Hz
+    value: '101'
+    description: ''
+    min: '37'
+    max: '37'
+  - name: Channel 2 Input High Pass - 160.0 Hz
+    value: '101'
+    description: ''
+    min: '38'
+    max: '38'
+  - name: Channel 2 Input High Pass - 180.0 Hz
+    value: '101'
+    description: ''
+    min: '39'
+    max: '39'
+  - name: Channel 2 Input High Pass - 200.0 Hz
+    value: '101'
+    description: ''
+    min: '40'
+    max: '40'
+  - name: Channel 2 Input High Pass - 220.0 Hz
+    value: '101'
+    description: ''
+    min: '41'
+    max: '41'
+  - name: Channel 2 Input High Pass - 250.0 Hz
+    value: '101'
+    description: ''
+    min: '42'
+    max: '42'
+  - name: Routing Option - Auto-Detect
+    value: '102'
+    description: ''
+    min: 0
+    max: '0'
+  - name: 'Routing Option - Mono Input, Stereo Output'
+    value: '102'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'Routing Option - Stereo Input, Stereo Output'
+    value: '102'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'Routing Option - Stereo Input, Mono Output'
+    value: '102'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: 'Routing Option - External Loop, 2> Loop->1'
+    value: '102'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Routing Option - Cascade - Channel 1->2
+    value: '102'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Switch Assign - Disabled
+    value: '103'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Switch Assign - Channel Swap
+    value: '103'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Switch Assign - Input Select
+    value: '103'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Switch Assign - Output Select
+    value: '103'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Switch Assign - Use For External Controls
+    value: '103'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Switch Action - Momentary
+    value: '104'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Switch Action - Latching
+    value: '104'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Enable External Control
+    value: '105'
+    description: ''
+    min: 0
     max: 127
+  - name: Preset Decrement
+    value: '106'
+    description: ''
     min: 0
-    name: Bypass/Engage
-    value: 101
-  - description: ''
     max: 127
+  - name: Preset Increment
+    value: '107'
+    description: ''
     min: 0
-    name: Toggle Bypass/Engage
-    value: 102
-  - description: ''
     max: 127
+  - name: Enable/Disable Tuner
+    value: '108'
+    description: ''
     min: 0
-    name: Recall Preset Bypassed
-    value: 103
-  - description: ''
     max: 127
+  - name: Tuner Input Select
+    value: '109'
+    description: ''
     min: 0
-    name: Recall Preset Engaged
-    value: 104
-  - description: ''
     max: 127
+  - name: Remote Switch Function - Momentary
+    value: '110'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 105
-  - description: ''
+    max: '0'
+  - name: Remote Switch Function - Latching
+    value: '110'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Remote Expression
+    value: '111'
+    description: ''
+    min: 0
     max: 127
+  - name: Bypass/Engage
+    value: '112'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 106
-  - description: ''
     max: 127
+  - name: Toggle Bypass/Engage
+    value: '113'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 107
-  - description: ''
     max: 127
+  - name: Recall Preset Bypassed
+    value: '114'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 108
-  - description: ''
     max: 127
+  - name: Recall Preset Engaged
+    value: '115'
+    description: ''
     min: 0
-    name: Unassigned
-    value: 109
-  - description: ''
     max: 127
-    min: 0
-    name: Unassigned
-    value: 110
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 111
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 112
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 113
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 114
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 115
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 116
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 117
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 118
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 119
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 120
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 121
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 122
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 123
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 124
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 125
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 126
-  - description: ''
-    max: 127
-    min: 0
-    name: Unassigned
-    value: 127
