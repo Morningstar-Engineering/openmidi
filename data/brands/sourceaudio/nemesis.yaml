@@ -1,329 +1,1307 @@
-midi_in: DIN5
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
-instructions:
-
+brand: sourceaudio
+model: nemesis
+brandName: Source Audio
+modelName: Nemesis
+device_type: effect
+email: stroonz@verizon.net
+url: ''
 midi_channel:
-  instructions: |+
-    By default, the Nemesis responds to MIDI Channel 1. The Nemesis ignores all MIDI messages sent to
-    it that are not on its channel, with the exception of MIDI clock messages. The input MIDI channel for
-    the Nemesis can be changed in the Hardware Options menu of the Neuro App. Note that the MIDI
-    Input Channel is a global setting that is NOT saved per preset.
-pc:
-  description:
+  instructions: >
+    By default, the Nemesis responds to MIDI Channel 1. The Nemesis ignores all
+    MIDI messages sent to
 
+    it that are not on its channel, with the exception of MIDI clock messages.
+    The input MIDI channel for
+
+    the Nemesis can be changed in the Hardware Options menu of the Neuro App.
+    Note that the MIDI
+
+    Input Channel is a global setting that is NOT saved per preset.
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: ''
 cc:
-  - name: Factory Delay Engine
+  - name: Effect Engine - Digital
     value: 1
     description: ''
-    type: Parameter
     min: 0
-    max: 23
+    max: '0'
+  - name: Effect Engine - Diffuse
+    value: '1'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Effect Engine - Analog
+    value: '1'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Effect Engine - Tape
+    value: '1'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Effect Engine - Noise Tape
+    value: '1'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Effect Engine - Degrade
+    value: '1'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Effect Engine - Shifter
+    value: '1'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Effect Engine - Helix
+    value: '1'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Effect Engine - Reverse
+    value: '1'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Effect Engine - Sweeper
+    value: '1'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Effect Engine - Rhythmic
+    value: '1'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Effect Engine - Slapback
+    value: '1'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Effect Engine - Resonant Analog
+    value: '1'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Effect Engine - Tremolo
+    value: '1'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Effect Engine - Sequenced Filters
+    value: '1'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Effect Engine - Dub
+    value: '1'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Effect Engine - Chorused Delay
+    value: '1'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Effect Engine - Flanger Delay
+    value: '1'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Effect Engine - Double Helix
+    value: '1'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Effect Engine - Complex Rhythmic
+    value: '1'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Effect Engine - Lo-Fi Retro
+    value: '1'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Effect Engine - Warped Record
+    value: '1'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Effect Engine - Compound Shifter
+    value: '1'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Effect Engine - Oil Can
+    value: '1'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Effect Engine - Binson Drum Echo (Single Head)
+    value: '1'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Effect Engine - Binson Drum Echo (Multi Head)
+    value: '1'
+    description: ''
+    min: '25'
+    max: '25'
   - name: Delay Time
     value: 2
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Maximum Delay Time
     value: 3
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Feedback
     value: 5
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Wet/Dry Mix
     value: 6
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Modulation Depth
     value: 7
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Modulation Rate
     value: 8
     description: ''
-    type: Parameter
     min: 0
     max: 127
-  - name: Intensity (Assignable)
+  - name: Intensity
     value: 9
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Output Level
     value: 10
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Diffusion
     value: 11
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Distortion
     value: 12
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: High Pass Filter
     value: 13
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Low Pass Filter
     value: 14
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Sample Rate Reduction
     value: 15
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Sweep Filter Frequency
     value: 16
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Sweep Filter Q
     value: 17
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Sweep Filter Depth
     value: 18
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Sweep Filter Mix
     value: 19
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Wow and Flutter Depth
     value: 20
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Wow and Flutter Rate
     value: 21
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Wow Modulation Noise
     value: 22
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Tremolo Depth (Stereo)
     value: 23
     description: ''
-    type: Parameter
     min: 0
     max: 127
-  - name: Pitch Shift Control
+  - name: Pitch Shift Interval - +2 octaves +perfect 5th
     value: 24
     description: ''
-    type: Parameter
     min: 0
-    max: 125
+    max: '0'
+  - name: Pitch Shift Interval - +2 octaves +diminshed 5th
+    value: '24'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Pitch Shift Interval - +2 octaves +perfect 4th
+    value: '24'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Pitch Shift Interval - +2 octaves +major 3rd
+    value: '24'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Pitch Shift Interval - +2 octaves +minor 3rd
+    value: '24'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Pitch Shift Interval - +2 octaves +major 2nd
+    value: '24'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Pitch Shift Interval - +2 octaves +minor 2nd
+    value: '24'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Pitch Shift Interval - +2 octaves
+    value: '24'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Pitch Shift Interval - +octave +major 7th
+    value: '24'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Pitch Shift Interval - +octave +minor 7th
+    value: '24'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Pitch Shift Interval - +octave +major 6th
+    value: '24'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Pitch Shift Interval - +octave +augmented 5th
+    value: '24'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Pitch Shift Interval - +octave +perfect 5th
+    value: '24'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Pitch Shift Interval - +octave +diminished 5th
+    value: '24'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Pitch Shift Interval - +octave +perfect 4th
+    value: '24'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Pitch Shift Interval - +octave +major 3rd
+    value: '24'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Pitch Shift Interval - +octave +minor 3rd
+    value: '24'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Pitch Shift Interval - +octave +major 2nd
+    value: '24'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Pitch Shift Interval - +octave +minor 2nd
+    value: '24'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Pitch Shift Interval - +octave
+    value: '24'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Pitch Shift Interval - +major 7th
+    value: '24'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Pitch Shift Interval - +minor 7th
+    value: '24'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Pitch Shift Interval - +major 6th
+    value: '24'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Pitch Shift Interval - +augmented 5th
+    value: '24'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Pitch Shift Interval - +perfect 5th
+    value: '24'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Pitch Shift Interval - +diminished 5th
+    value: '24'
+    description: ''
+    min: '25'
+    max: '25'
+  - name: Pitch Shift Interval - +perfect 4th
+    value: '24'
+    description: ''
+    min: '26'
+    max: '26'
+  - name: Pitch Shift Interval - +major 3rd
+    value: '24'
+    description: ''
+    min: '27'
+    max: '27'
+  - name: Pitch Shift Interval - +minor 3rd
+    value: '24'
+    description: ''
+    min: '28'
+    max: '28'
+  - name: Pitch Shift Interval - +major 2nd
+    value: '24'
+    description: ''
+    min: '29'
+    max: '29'
+  - name: Pitch Shift Interval - +minor 2nd
+    value: '24'
+    description: ''
+    min: '30'
+    max: '30'
+  - name: Pitch Shift Interval - unison
+    value: '24'
+    description: ''
+    min: '31'
+    max: '31'
+  - name: Pitch Shift Interval - -minor 2nd
+    value: '24'
+    description: ''
+    min: '32'
+    max: '32'
+  - name: Pitch Shift Interval - -major 2nd
+    value: '24'
+    description: ''
+    min: '33'
+    max: '33'
+  - name: Pitch Shift Interval - -minor 3rd
+    value: '24'
+    description: ''
+    min: '34'
+    max: '34'
+  - name: Pitch Shift Interval - -major 3rd
+    value: '24'
+    description: ''
+    min: '35'
+    max: '35'
+  - name: Pitch Shift Interval - -perfect 4th
+    value: '24'
+    description: ''
+    min: '36'
+    max: '36'
+  - name: Pitch Shift Interval - -diminished 5th
+    value: '24'
+    description: ''
+    min: '37'
+    max: '37'
+  - name: Pitch Shift Interval - -perfect 5th
+    value: '24'
+    description: ''
+    min: '38'
+    max: '38'
+  - name: Pitch Shift Interval - -augmented 5th
+    value: '24'
+    description: ''
+    min: '39'
+    max: '39'
+  - name: Pitch Shift Interval - -major 6th
+    value: '24'
+    description: ''
+    min: '40'
+    max: '40'
+  - name: Pitch Shift Interval - -minor 7th
+    value: '24'
+    description: ''
+    min: '41'
+    max: '41'
+  - name: Pitch Shift Interval - -major 7th
+    value: '24'
+    description: ''
+    min: '42'
+    max: '42'
+  - name: Pitch Shift Interval - -octave
+    value: '24'
+    description: ''
+    min: '43'
+    max: '43'
+  - name: Pitch Shift Interval - -octave -minor 2nd
+    value: '24'
+    description: ''
+    min: '44'
+    max: '44'
+  - name: Pitch Shift Interval - -octave -major 2nd
+    value: '24'
+    description: ''
+    min: '45'
+    max: '45'
+  - name: Pitch Shift Interval - -octave - minor 3rd
+    value: '24'
+    description: ''
+    min: '46'
+    max: '46'
+  - name: Pitch Shift Interval - -octave -major 3rd
+    value: '24'
+    description: ''
+    min: '47'
+    max: '47'
+  - name: Pitch Shift Interval - -octave -perfect 4th
+    value: '24'
+    description: ''
+    min: '48'
+    max: '48'
+  - name: Pitch Shift Interval - -octave -diminished 5th
+    value: '24'
+    description: ''
+    min: '49'
+    max: '49'
+  - name: Pitch Shift Interval - -octave -perfect 5th
+    value: '24'
+    description: ''
+    min: '50'
+    max: '50'
+  - name: Pitch Shift Interval - -octave -augmented 5th
+    value: '24'
+    description: ''
+    min: '51'
+    max: '51'
+  - name: Pitch Shift Interval - -octave -major 6th
+    value: '24'
+    description: ''
+    min: '52'
+    max: '52'
+  - name: Pitch Shift Interval - -octave - minor 7th
+    value: '24'
+    description: ''
+    min: '53'
+    max: '53'
+  - name: Pitch Shift Interval - -octave - major 7th
+    value: '24'
+    description: ''
+    min: '54'
+    max: '54'
+  - name: Pitch Shift Interval - -2 octaves
+    value: '24'
+    description: ''
+    min: '55'
+    max: '55'
+  - name: Pitch Shift Interval - -2 octaves -minor 2nd
+    value: '24'
+    description: ''
+    min: '56'
+    max: '56'
+  - name: Pitch Shift Interval - -2 octaves -major 2nd
+    value: '24'
+    description: ''
+    min: '57'
+    max: '57'
+  - name: Pitch Shift Interval - -2 octaves -minor 3rd
+    value: '24'
+    description: ''
+    min: '58'
+    max: '58'
+  - name: Pitch Shift Interval - -2 octaves -major 3rd
+    value: '24'
+    description: ''
+    min: '59'
+    max: '59'
+  - name: Pitch Shift Interval - -2 octaves -perfect 4th
+    value: '24'
+    description: ''
+    min: '60'
+    max: '60'
+  - name: Pitch Shift Interval - -2 octaves -diminished 5th
+    value: '24'
+    description: ''
+    min: '61'
+    max: '61'
+  - name: Pitch Shift Interval - -2 octaves -perfect 5th
+    value: '24'
+    description: ''
+    min: '62'
+    max: '62'
+  - name: 'Pitch Shift Interval - Reverse -2 octaves -perfect 5th '
+    value: '24'
+    description: ''
+    min: '63'
+    max: '63'
+  - name: Pitch Shift Interval - Reverse -2 octaves -dim 5th
+    value: '24'
+    description: ''
+    min: '64'
+    max: '64'
+  - name: Pitch Shift Interval - Reverse -2 octaves -perfect 4th
+    value: '24'
+    description: ''
+    min: '65'
+    max: '65'
+  - name: Pitch Shift Interval - Reverse -2 octaves -major 3rd
+    value: '24'
+    description: ''
+    min: '66'
+    max: '66'
+  - name: Pitch Shift Interval - Reverse -2 octaves -minor 3rd
+    value: '24'
+    description: ''
+    min: '67'
+    max: '67'
+  - name: Pitch Shift Interval - Reverse -2 octaves -major 2nd
+    value: '24'
+    description: ''
+    min: '68'
+    max: '68'
+  - name: Pitch Shift Interval - Reverse -2 octaves -minor 2nd
+    value: '24'
+    description: ''
+    min: '69'
+    max: '69'
+  - name: Pitch Shift Interval - Reverse -2 octaves
+    value: '24'
+    description: ''
+    min: '70'
+    max: '70'
+  - name: Pitch Shift Interval - Reverse -octave -major 7th
+    value: '24'
+    description: ''
+    min: '71'
+    max: '71'
+  - name: Pitch Shift Interval - Reverse -octave -minor 7th
+    value: '24'
+    description: ''
+    min: '72'
+    max: '72'
+  - name: Pitch Shift Interval - Reverse -octave -major 6th
+    value: '24'
+    description: ''
+    min: '73'
+    max: '73'
+  - name: Pitch Shift Interval - Reverse -octave -augmented 5th
+    value: '24'
+    description: ''
+    min: '74'
+    max: '74'
+  - name: Pitch Shift Interval - Reverse -octave -perfect 5th
+    value: '24'
+    description: ''
+    min: '75'
+    max: '75'
+  - name: Pitch Shift Interval - Reverse -octave -dim 5th
+    value: '24'
+    description: ''
+    min: '76'
+    max: '76'
+  - name: Pitch Shift Interval - Reverse -octave -perfect 4th
+    value: '24'
+    description: ''
+    min: '77'
+    max: '77'
+  - name: Pitch Shift Interval - Reverse -octave -major 3rd
+    value: '24'
+    description: ''
+    min: '78'
+    max: '78'
+  - name: Pitch Shift Interval - Reverse -octave -minor 3rd
+    value: '24'
+    description: ''
+    min: '79'
+    max: '79'
+  - name: Pitch Shift Interval - Reverse -octave -major 2nd
+    value: '24'
+    description: ''
+    min: '80'
+    max: '80'
+  - name: Pitch Shift Interval - Reverse -octave -minor 2nd
+    value: '24'
+    description: ''
+    min: '81'
+    max: '81'
+  - name: Pitch Shift Interval - Reverse -octave
+    value: '24'
+    description: ''
+    min: '82'
+    max: '82'
+  - name: Pitch Shift Interval - Reverse -major 7th
+    value: '24'
+    description: ''
+    min: '83'
+    max: '83'
+  - name: Pitch Shift Interval - Reverse -minor 7th
+    value: '24'
+    description: ''
+    min: '84'
+    max: '84'
+  - name: Pitch Shift Interval - Reverse -major 6th
+    value: '24'
+    description: ''
+    min: '85'
+    max: '85'
+  - name: Pitch Shift Interval - Reverse -augmented 6th
+    value: '24'
+    description: ''
+    min: '86'
+    max: '86'
+  - name: Pitch Shift Interval - Reverse -perfect 5th
+    value: '24'
+    description: ''
+    min: '87'
+    max: '87'
+  - name: Pitch Shift Interval - Reverse -dim 5th
+    value: '24'
+    description: ''
+    min: '88'
+    max: '88'
+  - name: Pitch Shift Interval - Reverse -perfect 4th
+    value: '24'
+    description: ''
+    min: '89'
+    max: '89'
+  - name: Pitch Shift Interval - Reverse -major 3rd
+    value: '24'
+    description: ''
+    min: '90'
+    max: '90'
+  - name: Pitch Shift Interval - Reverse -minor 3rd
+    value: '24'
+    description: ''
+    min: '91'
+    max: '91'
+  - name: Pitch Shift Interval - Reverse -major 2nd
+    value: '24'
+    description: ''
+    min: '92'
+    max: '92'
+  - name: Pitch Shift Interval - Reverse -minor 2nd
+    value: '24'
+    description: ''
+    min: '93'
+    max: '93'
+  - name: Pitch Shift Interval - Reverse -unison
+    value: '24'
+    description: ''
+    min: '94'
+    max: '94'
+  - name: Pitch Shift Interval - Reverse +minor 2nd
+    value: '24'
+    description: ''
+    min: '95'
+    max: '95'
+  - name: Pitch Shift Interval - Reverse +major 2nd
+    value: '24'
+    description: ''
+    min: '96'
+    max: '96'
+  - name: Pitch Shift Interval - Reverse +minor 3rd
+    value: '24'
+    description: ''
+    min: '97'
+    max: '97'
+  - name: Pitch Shift Interval - Reverse +major 3rd
+    value: '24'
+    description: ''
+    min: '98'
+    max: '98'
+  - name: Pitch Shift Interval - Reverse +perfect 4th
+    value: '24'
+    description: ''
+    min: '99'
+    max: '99'
+  - name: Pitch Shift Interval - Reverse +dim 5th
+    value: '24'
+    description: ''
+    min: '100'
+    max: '100'
+  - name: Pitch Shift Interval - Reverse +perfect 5th
+    value: '24'
+    description: ''
+    min: '101'
+    max: '101'
+  - name: Pitch Shift Interval - Reverse +augmented 5th
+    value: '24'
+    description: ''
+    min: '102'
+    max: '102'
+  - name: Pitch Shift Interval - Reverse +major 6th
+    value: '24'
+    description: ''
+    min: '103'
+    max: '103'
+  - name: Pitch Shift Interval - Reverse +minor 7th
+    value: '24'
+    description: ''
+    min: '104'
+    max: '104'
+  - name: Pitch Shift Interval - Reverse +major 7th
+    value: '24'
+    description: ''
+    min: '105'
+    max: '105'
+  - name: Pitch Shift Interval - Reverse +octave
+    value: '24'
+    description: ''
+    min: '106'
+    max: '106'
+  - name: Pitch Shift Interval - Reverse +octave +minor 2nd
+    value: '24'
+    description: ''
+    min: '107'
+    max: '107'
+  - name: Pitch Shift Interval - Reverse +octave +major 2nd
+    value: '24'
+    description: ''
+    min: '108'
+    max: '108'
+  - name: Pitch Shift Interval - Reverse +octave +minor 3rd
+    value: '24'
+    description: ''
+    min: '109'
+    max: '109'
+  - name: Pitch Shift Interval - Reverse +octave +major 3rd
+    value: '24'
+    description: ''
+    min: '110'
+    max: '110'
+  - name: Pitch Shift Interval - Reverse +octave +perfect 4th
+    value: '24'
+    description: ''
+    min: '111'
+    max: '111'
+  - name: Pitch Shift Interval - Reverse +octave +dim 5th
+    value: '24'
+    description: ''
+    min: '112'
+    max: '112'
+  - name: Pitch Shift Interval - Reverse +octave +perfect 5th
+    value: '24'
+    description: ''
+    min: '113'
+    max: '113'
+  - name: Pitch Shift Interval - Reverse +octave +augmented 5th
+    value: '24'
+    description: ''
+    min: '114'
+    max: '114'
+  - name: Pitch Shift Interval - Reverse +octave +major 6th
+    value: '24'
+    description: ''
+    min: '115'
+    max: '115'
+  - name: Pitch Shift Interval - Reverse +octave +minor 7th
+    value: '24'
+    description: ''
+    min: '116'
+    max: '116'
+  - name: Pitch Shift Interval - Reverse +octave +major 7th
+    value: '24'
+    description: ''
+    min: '117'
+    max: '117'
+  - name: Pitch Shift Interval - Reverse +2 octaves
+    value: '24'
+    description: ''
+    min: '118'
+    max: '118'
+  - name: Pitch Shift Interval - Reverse +2 octaves +minor 2nd
+    value: '24'
+    description: ''
+    min: '119'
+    max: '119'
+  - name: Pitch Shift Interval - Reverse +2 octaves +major 2nd
+    value: '24'
+    description: ''
+    min: '120'
+    max: '120'
+  - name: Pitch Shift Interval - Reverse +2 octaves +minor 3rd
+    value: '24'
+    description: ''
+    min: '121'
+    max: '121'
+  - name: Pitch Shift Interval - Reverse +2 octaves +major 3rd
+    value: '24'
+    description: ''
+    min: '122'
+    max: '122'
+  - name: Pitch Shift Interval - Reverse +2 octaves +perfect 4th
+    value: '24'
+    description: ''
+    min: '123'
+    max: '123'
+  - name: Pitch Shift Interval - Reverse +2 octaves +dim 5th
+    value: '24'
+    description: ''
+    min: '124'
+    max: '124'
+  - name: Pitch Shift Interval - Reverse +2 octaves +perfect 5th
+    value: '24'
+    description: ''
+    min: '125'
+    max: '125'
   - name: 'Tap 1 Level '
     value: 25
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Tap 1 Pan
     value: 26
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Tap 2 Level
     value: 27
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Tap 2 Pan
     value: 28
     description: ''
-    type: Parameter
     min: 0
     max: 127
-  - name: Tap 2 Delay Time
+  - name: Tap 2 Delay Time - 1/8
     value: 29
     description: ''
-    type: Parameter
     min: 0
-    max: 127
+    max: '0'
+  - name: Tap 2 Delay Time - 1/4
+    value: '29'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Tap 2 Delay Time - 3/8
+    value: '29'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Tap 2 Delay Time - Golden Ratio
+    value: '29'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Tap 2 Delay Time - 3/4
+    value: '29'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Tap 2 Delay Time - 7/8
+    value: '29'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Tap 2 Delay Time - 1/6
+    value: '29'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Tap 2 Delay Time - 1/3
+    value: '29'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Tap 2 Delay Time - 1/2
+    value: '29'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Tap 2 Delay Time - 2/3
+    value: '29'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Tap 2 Delay Time - 5/6
+    value: '29'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Tap 2 Delay Time - 1
+    value: '29'
+    description: ''
+    min: '11'
+    max: '11'
   - name: Input Low Pass Filter
     value: 30
     description: ''
-    type: Parameter
     min: 0
     max: 127
-  - name: Feedback Maximum
+  - name: Feedback Maximum -1.0 (Unity - No Oscillation)
     value: 31
     description: ''
-    type: Parameter
     min: 0
-    max: 127
+    max: '0'
+  - name: Feedback Maximum -1.25 (Oscillation Allowed)
+    value: '31'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Feedback Maximum -1.5 (Oscillation Allowed)
+    value: '31'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Feedback Maximum - 2.0 (Oscillation Allowed)
+    value: '31'
+    description: ''
+    min: '3'
+    max: '3'
   - name: LFO Lock to Delay Time
     value: 32
     description: ''
-    type: Parameter
     min: 0
     max: 1
   - name: Invert Left Wet Phase
     value: 33
     description: ''
-    type: Parameter
     min: 0
     max: 1
   - name: Invert Right Wet Phase
     value: 34
     description: ''
-    type: Parameter
     min: 0
     max: 1
-  - name: I/O Routing Option
+  - name: I/O Routing Option - Default - Auto Select
     value: 35
     description: ''
-    type: Parameter
     min: 0
-    max: 15
-  - name: Multi-Feedback Mode
+    max: '0'
+  - name: 'I/O Routing Option - Mono In, Mono Stereo Out w/hardware bypass'
+    value: '35'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'I/O Routing Option - Mono In, Mono Out + Input 1 Thru > Input 2'
+    value: '35'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'I/O Routing Option - Mono In, Stereo Out w/soft bypass'
+    value: '35'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: 'I/O Routing Option - Stereo In, Stereo Out'
+    value: '35'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: I/O Routing Option - External Loop - Feedback Insert
+    value: '35'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: I/O Routing Option - External Loop - Pre Effect
+    value: '35'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Multi-Feedback Mode - OFF
     value: 36
     description: ''
-    type: Parameter
     min: 0
-    max: 3
+    max: '0'
+  - name: Multi-Feedback Mode - Tap 1 Only
+    value: '36'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Multi-Feedback Mode - Tap 2 Only
+    value: '36'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Multi-Feedback Mode - Tap 1 & Tap 2
+    value: '36'
+    description: ''
+    min: '3'
+    max: '3'
   - name: Merge Stereo Outputs
     value: 37
     description: ''
-    type: Parameter
     min: 0
     max: 1
   - name: Bypass
     value: 38
     description: ''
-    type: Parameter
     min: 0
     max: 127
-  - name: Intensity Knob Remap
+  - name: Intensity Knob Remap - Factory Default
     value: 39
     description: ''
-    type: Parameter
     min: 0
-    max: 14
-  - name: Mod Knob Remap
+    max: '0'
+  - name: Intensity Knob Remap - Output Volume
+    value: '39'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Intensity Knob Remap - Diffusion
+    value: '39'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Intensity Knob Remap - Distortion
+    value: '39'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Intensity Knob Remap - Low Cut Filter
+    value: '39'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Intensity Knob Remap - High Cut Filter
+    value: '39'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Intensity Knob Remap - Sample Rate Reduction
+    value: '39'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Intensity Knob Remap - Sweep Filter Frequency
+    value: '39'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Intensity Knob Remap - Sweep Filter Q
+    value: '39'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Intensity Knob Remap - Sweep Filter Depth
+    value: '39'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Intensity Knob Remap - Sweep Filter Mix
+    value: '39'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Intensity Knob Remap - Wow and Flutter Noise
+    value: '39'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Intensity Knob Remap - Tremolo Depth
+    value: '39'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Intensity Knob Remap - Pitch Control
+    value: '39'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Intensity Knob Remap - Delay Effect Send Level
+    value: '39'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Mod Knob Remap - Time Modulation
     value: 40
     description: ''
-    type: Parameter
     min: 0
-    max: 3
-  - name: Rate Knob Remap
+    max: '0'
+  - name: Mod Knob Remap - Tape Modulation
+    value: '40'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Mod Knob Remap - Filter Modulation
+    value: '40'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Mod Knob Remap -Tremolo
+    value: '40'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Rate Knob Remap - Modulation Rate
     value: 41
     description: ''
-    type: Parameter
     min: 0
-    max: 1
-  - name: Tempo Division
+    max: '0'
+  - name: Rate Knob Remap - Tape Speed
+    value: '41'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Tempo Division - Whole
     value: 42
     description: ''
-    type: Parameter
     min: 0
-    max: 14
+    max: '0'
+  - name: Tempo Division - Dotted Half
+    value: '42'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Tempo Division - Half
+    value: '42'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Tempo Division - Golden Ratio
+    value: '42'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Tempo Division - Dotted Quarter
+    value: '42'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Tempo Division - Swing Quarter
+    value: '42'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Tempo Division - Quarter
+    value: '42'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Tempo Division - Dotted 8th
+    value: '42'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Tempo Division - Swing 8th
+    value: '42'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Tempo Division - Inv Golden Ratio
+    value: '42'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Tempo Division - Straight 8th
+    value: '42'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Tempo Division - Triplet
+    value: '42'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Tempo Division - 16th
+    value: '42'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Tempo Division - Sextuplet
+    value: '42'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Tempo Division - 32nd
+    value: '42'
+    description: ''
+    min: '14'
+    max: '14'
   - name: 'Octave Shift Control '
     value: 50
     description: ''
-    type: Parameter
     min: 0
     max: 125
   - name: Delay Send Control
     value: 51
     description: ''
-    type: Parameter
     min: 0
     max: 127
   - name: Preset Down
     value: 80
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Preset Up
     value: 82
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Remote Tap
     value: 93
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Infinite Hold
     value: 97
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Bypass
     value: 101
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Remote Bypass
     value: 102
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Recall Preset Bypassed
     value: 103
     description: ''
-    type: System
     min: 0
     max: 127
   - name: Recall Preset Engaged
     value: 104
     description: ''
-    type: System
     min: 0
     max: 127
-  - name: Pitch Shift Table
-    value: 24
-    description: ''
-    type: System
-    min: 0
-    max: 125
