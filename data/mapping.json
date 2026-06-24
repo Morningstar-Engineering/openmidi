@@ -1507,6 +1507,16 @@
       ]
     },
     {
+      "name": "Matthews Effects",
+      "value": "matthewseffects",
+      "models": [
+        {
+          "name": "The Technician",
+          "value": "thetechnician"
+        }
+      ]
+    },
+    {
       "name": "MeeBlip",
       "value": "meeblip",
       "models": [
