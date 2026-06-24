@@ -293,27 +293,27 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Left Drive Maximum
+  - name: Left Drive Max
     value: '7'
     description: ''
     min: 0
     max: 127
-  - name: Left Treble 750 Hz
+  - name: Left Treble 4179 Hz
     value: '8'
     description: ''
     min: 0
     max: 127
-  - name: Left Bass 34 Hz
+  - name: Left Bass 101 Hz
     value: '9'
     description: ''
     min: 0
     max: 127
-  - name: Left Mid A 126 Hz
+  - name: Left Mid A 916 Hz
     value: '10'
     description: ''
     min: 0
     max: 127
-  - name: Left Mid B 80 Hz
+  - name: Left Mid B 800 Hz
     value: '11'
     description: ''
     min: 0
@@ -335,11 +335,6 @@ cc:
     max: 127
   - name: Right Output
     value: '15'
-    description: ''
-    min: 0
-    max: 127
-  - name: Right Distortion Engine
-    value: '16'
     description: ''
     min: 0
     max: 127
@@ -603,32 +598,32 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Right Drive Maximum
+  - name: Right Drive Max
     value: '19'
     description: ''
     min: 0
     max: 127
-  - name: Right Treble 750 Hz
+  - name: Right Treble 4179 Hz
     value: '20'
     description: ''
     min: 0
     max: 127
-  - name: Right Bass 34 Hz
+  - name: Right Bass 101 Hz
     value: '21'
     description: ''
     min: 0
     max: 127
-  - name: Right Mid A 126 Hz
+  - name: Right Mid A 916 Hz
     value: '22'
     description: ''
     min: 0
     max: 127
-  - name: Right Mid B 80 Hz
+  - name: Right Mid B 800 Hz
     value: '23'
     description: ''
     min: 0
     max: 127
-  - name: Gate Threshold
+  - name: Noise Gate Threshold
     value: '24'
     description: ''
     min: 0
@@ -668,7 +663,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Low Cut Filter
+  - name: Input Low Cut
     value: '32'
     description: ''
     min: 0
@@ -683,13 +678,8 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Noise Gate Enable
+  - name: Noise Gate Controls
     value: '35'
-    description: ''
-    min: 0
-    max: 127
-  - name: Channel Switch Control
-    value: '36'
     description: ''
     min: 0
     max: 127
