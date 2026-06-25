@@ -1,16 +1,19 @@
-brand: Source Audio
-model: Atlas
-email: kristine@morningstarfx.com
+brand: sourceaudio
+model: atlas
+brandName: Source Audio
+modelName: Atlas
+device_type: effect
+email: stroonz@verizon.net
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Ratio A
     value: '1'
@@ -32,12 +35,12 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Output A
+  - name: Output Gain A
     value: '5'
     description: ''
     min: 0
     max: 127
-  - name: Mix A
+  - name: Blend A
     value: '6'
     description: ''
     min: 0
@@ -67,12 +70,12 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Output B
+  - name: Output Gain B
     value: '12'
     description: ''
     min: 0
     max: 127
-  - name: Mix B
+  - name: Blend B
     value: '13'
     description: ''
     min: 0
@@ -82,52 +85,52 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: A/B Crossfade
+  - name: Output Crossfade
     value: '15'
     description: ''
     min: 0
     max: 127
-  - name: Channel 1 Input Gain
+  - name: Input 1 Trim
     value: '16'
     description: ''
     min: 0
     max: 127
-  - name: Channel 2 Input Gain
+  - name: Input 2 Trim
     value: '17'
     description: ''
     min: 0
     max: 127
-  - name: Bass Level
+  - name: 'Bass '
     value: '18'
     description: ''
     min: 0
     max: 127
-  - name: Bass Freq
+  - name: Bass Frequency
     value: '19'
     description: ''
     min: 0
     max: 127
-  - name: Mid Level
+  - name: Mid
     value: '20'
     description: ''
     min: 0
     max: 127
-  - name: Mid Freq
+  - name: Mid Frequency
     value: '21'
     description: ''
     min: 0
     max: 127
-  - name: Treble (Tone) Level
+  - name: Treble
     value: '22'
     description: ''
     min: 0
     max: 127
-  - name: Treble Freq
+  - name: Treble Frequency
     value: '23'
     description: ''
     min: 0
     max: 127
-  - name: Noise Gate
+  - name: Noise Gate Threshold
     value: '24'
     description: ''
     min: 0
@@ -164,11 +167,6 @@ cc:
     max: 127
   - name: Remote Expression Pedal
     value: '31'
-    description: ''
-    min: 0
-    max: 127
-  - name: Engage/Bypass Toggle
-    value: '32'
     description: ''
     min: 0
     max: 127
