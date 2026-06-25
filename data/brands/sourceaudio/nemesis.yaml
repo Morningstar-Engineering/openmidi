@@ -170,17 +170,17 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Wet/Dry Mix
+  - name: Mix
     value: 6
     description: ''
     min: 0
     max: 127
-  - name: Modulation Depth
+  - name: Mod Depth
     value: 7
     description: ''
     min: 0
     max: 127
-  - name: Modulation Rate
+  - name: Mod Rate
     value: 8
     description: ''
     min: 0
@@ -190,7 +190,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Output Level
+  - name: Output
     value: 10
     description: ''
     min: 0
@@ -205,12 +205,12 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: High Pass Filter
+  - name: Feedback Low Cut
     value: 13
     description: ''
     min: 0
     max: 127
-  - name: Low Pass Filter
+  - name: Feedback High Cut
     value: 14
     description: ''
     min: 0
@@ -255,7 +255,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Tremolo Depth (Stereo)
+  - name: Tremolo
     value: 23
     description: ''
     min: 0
@@ -914,63 +914,63 @@ cc:
     value: 29
     description: ''
     min: 0
-    max: '0'
+    max: '13'
   - name: Tap 2 Delay Time - 1/4
     value: '29'
     description: ''
     min: '1'
-    max: '1'
+    max: '25'
   - name: Tap 2 Delay Time - 3/8
     value: '29'
     description: ''
     min: '2'
-    max: '2'
+    max: '38'
   - name: Tap 2 Delay Time - Golden Ratio
     value: '29'
     description: ''
     min: '3'
-    max: '3'
+    max: '62'
   - name: Tap 2 Delay Time - 3/4
     value: '29'
     description: ''
     min: '4'
-    max: '4'
+    max: '75'
   - name: Tap 2 Delay Time - 7/8
     value: '29'
     description: ''
     min: '5'
-    max: '5'
+    max: '87'
   - name: Tap 2 Delay Time - 1/6
     value: '29'
     description: ''
     min: '6'
-    max: '6'
+    max: '17'
   - name: Tap 2 Delay Time - 1/3
     value: '29'
     description: ''
     min: '7'
-    max: '7'
+    max: '33'
   - name: Tap 2 Delay Time - 1/2
     value: '29'
     description: ''
     min: '8'
-    max: '8'
+    max: '50'
   - name: Tap 2 Delay Time - 2/3
     value: '29'
     description: ''
     min: '9'
-    max: '9'
+    max: '67'
   - name: Tap 2 Delay Time - 5/6
     value: '29'
     description: ''
     min: '10'
-    max: '10'
+    max: '84'
   - name: Tap 2 Delay Time - 1
     value: '29'
     description: ''
     min: '11'
-    max: '11'
-  - name: Input Low Pass Filter
+    max: '100'
+  - name: Input High Pass Cut
     value: 30
     description: ''
     min: 0
@@ -995,21 +995,21 @@ cc:
     description: ''
     min: '3'
     max: '3'
-  - name: LFO Lock to Delay Time
+  - name: Lock to Delay
     value: 32
     description: ''
     min: 0
-    max: 1
-  - name: Invert Left Wet Phase
+    max: '127'
+  - name: Invert L Phase
     value: 33
     description: ''
     min: 0
-    max: 1
-  - name: Invert Right Wet Phase
+    max: '127'
+  - name: Invert R Phase
     value: 34
     description: ''
     min: 0
-    max: 1
+    max: '127'
   - name: I/O Routing Option - Default - Auto Select
     value: 35
     description: ''
@@ -1065,12 +1065,12 @@ cc:
     description: ''
     min: '3'
     max: '3'
-  - name: Merge Stereo Outputs
+  - name: Sum To Mono
     value: 37
     description: ''
     min: 0
-    max: 1
-  - name: Bypass
+    max: '127'
+  - name: Bypass/Engage
     value: 38
     description: ''
     min: 0
@@ -1180,77 +1180,72 @@ cc:
     description: ''
     min: '1'
     max: '1'
-  - name: Tempo Division - Whole
+  - name: Tap Beat Division - Whole
     value: 42
     description: ''
     min: 0
     max: '0'
-  - name: Tempo Division - Dotted Half
+  - name: Tap Beat Division - Dotted Half
     value: '42'
     description: ''
     min: '1'
     max: '1'
-  - name: Tempo Division - Half
+  - name: Tap Beat Division - Half
     value: '42'
     description: ''
     min: '2'
     max: '2'
-  - name: Tempo Division - Golden Ratio
+  - name: Tap Beat Division - Golden Ratio
     value: '42'
     description: ''
     min: '3'
     max: '3'
-  - name: Tempo Division - Dotted Quarter
+  - name: Tap Beat Division - Dotted Quarter
     value: '42'
     description: ''
     min: '4'
     max: '4'
-  - name: Tempo Division - Swing Quarter
+  - name: Tap Beat Division - Swing Quarter
     value: '42'
     description: ''
     min: '5'
     max: '5'
-  - name: Tempo Division - Quarter
+  - name: Tap Beat Division - Quarter
     value: '42'
     description: ''
     min: '6'
     max: '6'
-  - name: Tempo Division - Dotted 8th
+  - name: Tap Beat Division - Dotted 8th
     value: '42'
     description: ''
     min: '7'
     max: '7'
-  - name: Tempo Division - Swing 8th
+  - name: Tap Beat Division - Swing 8th
     value: '42'
     description: ''
     min: '8'
     max: '8'
-  - name: Tempo Division - Inv Golden Ratio
+  - name: Tap Beat Division - Inv Golden Ratio
     value: '42'
     description: ''
     min: '9'
     max: '9'
-  - name: Tempo Division - Straight 8th
+  - name: Tap Beat Division - Straight 8th
     value: '42'
     description: ''
     min: '10'
     max: '10'
-  - name: Tempo Division - Triplet
+  - name: Tap Beat Division - Triplet
     value: '42'
     description: ''
     min: '11'
     max: '11'
-  - name: Tempo Division - 16th
-    value: '42'
-    description: ''
-    min: '12'
-    max: '12'
-  - name: Tempo Division - Sextuplet
+  - name: Tap Beat Division - Sextuplet
     value: '42'
     description: ''
     min: '13'
     max: '13'
-  - name: Tempo Division - 32nd
+  - name: Tap Beat Division - 32nd
     value: '42'
     description: ''
     min: '14'
@@ -1259,19 +1254,24 @@ cc:
     value: 50
     description: ''
     min: 0
-    max: 125
+    max: '127'
   - name: Delay Send Control
     value: 51
     description: ''
     min: 0
     max: 127
-  - name: Preset Down
+  - name: Preset Decrerment
     value: 80
     description: ''
     min: 0
     max: 127
-  - name: Preset Up
-    value: 82
+  - name: Preset Increment
+    value: '81'
+    description: ''
+    min: 0
+    max: 127
+  - name: On/Off Status (MIDI Recall)
+    value: '82'
     description: ''
     min: 0
     max: 127
@@ -1282,11 +1282,6 @@ cc:
     max: 127
   - name: Infinite Hold
     value: 97
-    description: ''
-    min: 0
-    max: 127
-  - name: Bypass
-    value: 101
     description: ''
     min: 0
     max: 127
