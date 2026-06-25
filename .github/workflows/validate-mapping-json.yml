@@ -1,0 +1,29 @@
+name: Validate Mapping JSON
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - 'data/mapping.json'
+
+jobs:
+  validate-json:
+    # Only run for staging -> master PRs
+    if: github.head_ref == 'staging'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate data/mapping.json
+        run: |
+          jq empty data/mapping.json
+
+      - name: JSON is valid
+        run: echo "data/mapping.json is valid"
