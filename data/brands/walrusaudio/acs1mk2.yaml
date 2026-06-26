@@ -1,16 +1,19 @@
-brand: Walrus Audio
-model: ACS1 MKII
-url: >-
-  https://cdn.shopify.com/s/files/1/0906/8480/files/ACS1_MKII_Digital_Manual.pdf?v=1737133804
+brand: walrusaudio
+model: acs1mk2
+brandName: Walrus Audio
+modelName: Acs1 Mk2
+device_type: midi_controller
+email: stroonz@verizon.net
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Bass Left
     value: '3'
@@ -62,126 +65,186 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Cab Left - Fender
+  - name: Cab Left 1- Fender
     value: 26
-    description: '0: SM57 1: Royer121'
-    max: 1
+    description: '''66 Fender Deluxe Replication / SM57'
     min: 0
-  - name: Cab Left - Marshal JTM50
+    max: '0'
+  - name: Cab Left 2 - Fender
+    value: '26'
+    description: '''66 Fender Deluxe Replication / Royer 121'
+    min: '1'
+    max: '1'
+  - name: Cab Left 1 - Marshal JTM50
     value: 26
-    description: '2: SM57 3: Royer121'
-    max: 3
+    description: 'Marshall JTM50 Bluesbreaker Replication / SM57 '
     min: 2
-  - name: Cab Left - Vox
+    max: '2'
+  - name: Cab Left 2 - Marshal JTM50
+    value: '26'
+    description: Marshal JTM50 Replication / Royer 121
+    min: '3'
+    max: '3'
+  - name: Cab Left 1 - Vox
     value: 26
-    description: '4: SM57 5: Royer121'
-    max: 5
+    description: Vox AC30 6TB Replication / SM57
     min: 4
-  - name: Cab Left - Mesa
+    max: '4'
+  - name: Cab Left 1 - Vox
+    value: '26'
+    description: Vox AC30 6TB Replication / Royer121
+    min: '5'
+    max: '5'
+  - name: Cab Left 1 - Mesa
     value: 26
-    description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
-    max: 7
+    description: Mesa Oversized 4x12 / SM57+Royer121
     min: 6
-  - name: Cab Left - Kerry Wright
+    max: '6'
+  - name: Cab Left 1 - Mesa
+    value: '26'
+    description: Mesa Oversized 4x12 / SM58 + BeyerdynamicM160
+    min: '7'
+    max: '7'
+  - name: Cab Left 1 - Kerry Wright
     value: 26
-    description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
-    max: 9
+    description: Kerry Wright 4x12 / SM57+Royer121
     min: 8
-  - name: Cab Left - Marshal 4x12
+    max: '8'
+  - name: Cab Left 2 - Kerry Wright
+    value: '26'
+    description: Kerry Wright 4x12 / Sennheiser MD412 + Telefunken U47
+    min: '9'
+    max: '9'
+  - name: Cab Left 1 - Marshall 4 x 12
     value: 26
-    description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
-    max: 11
+    description: Marshall 1960bv 4x12  / SM58 + BeyerdynamicM160
     min: 10
-  - name: Cab Right - Fender
+    max: '10'
+  - name: Cab Left 2 - Marshall 4 x 12
+    value: '26'
+    description: Marshall 1960bv 4x12  /  Sennheiser MD421 + Beyerdynamic M160
+    min: '11'
+    max: '11'
+  - name: Cab Right 1 - Fender
     value: 27
-    description: '0: SM57 1: Royer121'
-    max: 1
+    description: '''66 Fender Deluxe Replication / SM57'
     min: 0
-  - name: Cab Right - Marshal JTM50
+    max: '0'
+  - name: Cab Right 2 - Fender
+    value: '27'
+    description: '''66 Fender Deluxe Replication / Royer 121'
+    min: '1'
+    max: '1'
+  - name: Cab Right 1 - Marshall JTM50
     value: 27
-    description: '2: SM57 3: Royer121'
-    max: 3
+    description: Marshall JTM50 Bluesbreaker Replication / SM57
     min: 2
-  - name: Cab Right - Vox
+    max: '2'
+  - name: Cab Right 2 - Marshall JTM50
+    value: '27'
+    description: Marshall JTM50 Bluesbreaker Replication / Royer 121
+    min: '3'
+    max: '3'
+  - name: Cab Right 1 - Vox
     value: 27
-    description: '4: SM57 5: Royer121'
-    max: 5
+    description: Vox AC30 6TB Replication / SM57
     min: 4
-  - description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
-    max: 7
+    max: '4'
+  - name: Cab Right 2 - Vox
+    value: '27'
+    description: Vox AC30 6TB Replication / Royer121
+    min: '5'
+    max: '5'
+  - name: Cab Right 1 - Mesa
+    value: 27
+    description: Mesa Oversized 4x12 / SM57+Royer121
     min: 6
-    name: Cab Right - Mesa
+    max: '6'
+  - name: Cab Right 2 - Mesa
+    value: '27'
+    description: Mesa Oversized 4x12 / SM58 + BeyerdynamicM160
+    min: '7'
+    max: '7'
+  - name: Cab Right 1 - Kerry Wright
     value: 27
-  - name: Cab Right - Kerry Wright
-    value: 27
-    description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
-    max: 9
+    description: Kerry Wright 4x12 / SM57+Royer121
     min: 8
-  - name: Cab Right - Marshal 4x12
+    max: 9
+  - name: Cab Right 2 - Kerry Wright
+    value: '27'
+    description: Kerry Wright 4x12 / Sennheiser MD412 + Telefunken U47
+    min: '9'
+    max: '9'
+  - name: Cab Right 1 - Marshall 4 x 12
     value: 27
-    description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
-    max: 11
+    description: Marshall 1960bv 4x12 / SM58 + BeyerdynamicM160
     min: 10
-  - name: Amp Left - Fullerton
+    max: '10'
+  - name: Cab Right 2 - Marshall 4 x 12
+    value: '27'
+    description: Marshall 1960bv 4x12 / Sennheiser MD421 + Beyerdynamic M160
+    min: '11'
+    max: '11'
+  - name: Amp Left - Fullerton (Fender Deluxe Reverb)
     value: 28
-    description:
-    max: 0
+    description: ''
     min: 0
-  - name: Amp Left - London
-    value: 28
-    description:
-    max: 1
-    min: 1
-  - name: Amp Left - Dartford
-    value: 28
-    description:
-    max: 2
-    min: 2
-  - name: Amp Left - Red
-    value: 28
-    description:
-    max: 3
-    min: 3
-  - name: Amp Left - Citrus
-    value: 28
-    description:
-    max: 4
-    min: 4
-  - name: Amp Left- Tread
-    value: 28
-    description:
-    max: 5
-    min: 5
-  - name: Amp Right - Fullerton
-    value: 29
-    description:
     max: 0
-    min: 0
-  - name: Amp Right - London
-    value: 29
-    description:
-    max: 1
+  - name: Amp Left - London ('62 Marshall Bluesbreaker)
+    value: 28
+    description: ''
     min: 1
-  - name: Amp Right - Dartford
-    value: 29
-    description:
-    max: 2
+    max: 1
+  - name: Amp Left - Dartford ('60 Vox AC30)
+    value: 28
+    description: ''
     min: 2
-  - name: Amp Right - Red
-    value: 29
-    description:
-    max: 3
+    max: 2
+  - name: Amp Left - Red (Peavey 5150)
+    value: 28
+    description: ''
     min: 3
-  - name: Amp Right - Citrus
-    value: 29
-    description:
-    max: 4
+    max: 3
+  - name: Amp Left - Citrus (Orange Rockerverb)
+    value: 28
+    description: ''
     min: 4
-  - name: Amp Right - Tread
-    value: 29
-    description:
-    max: 5
+    max: 4
+  - name: Amp Left- Tread (Mesa Boogie Dual Rectifier)
+    value: 28
+    description: ''
     min: 5
+    max: 5
+  - name: Amp Right - Fullerton (Fender Deluxe Reverb)
+    value: 29
+    description: ''
+    min: 0
+    max: 0
+  - name: Amp Right - London ('62 Marshall Bluesbreaker)
+    value: 29
+    description: ''
+    min: 1
+    max: 1
+  - name: Amp Right - Dartford ('60 Vox AC30)
+    value: 29
+    description: ''
+    min: 2
+    max: 2
+  - name: Amp Right - Red (Peavey 5150)
+    value: 29
+    description: ''
+    min: 3
+    max: 3
+  - name: Amp Right - Citrus (Orange Rockerverb)
+    value: 29
+    description: ''
+    min: 4
+    max: 4
+  - name: Amp Right - Tread (Mesa Boogie Dual Rectifier)
+    value: 29
+    description: ''
+    min: 5
+    max: 5
   - name: Bypass
     value: '30'
     description: ''
@@ -192,16 +255,16 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Ir Bypass
+  - name: IR Bypass
     value: '85'
     description: ''
     min: 0
-    max: 127
+    max: '127'
   - name: Amp Bypass
     value: '86'
     description: ''
     min: 0
-    max: 127
+    max: '127'
   - name: Gate Threshold
     value: '89'
     description: ''
