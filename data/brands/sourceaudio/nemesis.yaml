@@ -913,62 +913,62 @@ cc:
   - name: Tap 2 Delay Time - 1/8
     value: 29
     description: ''
-    min: 0
+    min: '13'
     max: '13'
-  - name: Tap 2 Delay Time - 1/4
-    value: '29'
-    description: ''
-    min: '1'
-    max: '25'
-  - name: Tap 2 Delay Time - 3/8
-    value: '29'
-    description: ''
-    min: '2'
-    max: '38'
-  - name: Tap 2 Delay Time - Golden Ratio
-    value: '29'
-    description: ''
-    min: '3'
-    max: '62'
-  - name: Tap 2 Delay Time - 3/4
-    value: '29'
-    description: ''
-    min: '4'
-    max: '75'
-  - name: Tap 2 Delay Time - 7/8
-    value: '29'
-    description: ''
-    min: '5'
-    max: '87'
   - name: Tap 2 Delay Time - 1/6
     value: '29'
     description: ''
-    min: '6'
+    min: '17'
     max: '17'
+  - name: Tap 2 Delay Time - 1/4
+    value: '29'
+    description: ''
+    min: '25'
+    max: '25'
   - name: Tap 2 Delay Time - 1/3
     value: '29'
     description: ''
-    min: '7'
+    min: '33'
     max: '33'
+  - name: Tap 2 Delay Time - 3/8
+    value: '29'
+    description: ''
+    min: '38'
+    max: '38'
   - name: Tap 2 Delay Time - 1/2
     value: '29'
     description: ''
-    min: '8'
+    min: '50'
     max: '50'
+  - name: Tap 2 Delay Time - Golden Ratio
+    value: '29'
+    description: ''
+    min: '62'
+    max: '62'
   - name: Tap 2 Delay Time - 2/3
     value: '29'
     description: ''
-    min: '9'
+    min: '67'
     max: '67'
+  - name: Tap 2 Delay Time - 3/4
+    value: '29'
+    description: ''
+    min: '75'
+    max: '75'
   - name: Tap 2 Delay Time - 5/6
     value: '29'
     description: ''
-    min: '10'
+    min: '84'
     max: '84'
+  - name: Tap 2 Delay Time - 7/8
+    value: '29'
+    description: ''
+    min: '87'
+    max: '87'
   - name: Tap 2 Delay Time - 1
     value: '29'
     description: ''
-    min: '11'
+    min: '100'
     max: '100'
   - name: Input High Pass Cut
     value: 30
@@ -999,17 +999,17 @@ cc:
     value: 32
     description: ''
     min: 0
-    max: '127'
+    max: '65'
   - name: Invert L Phase
     value: 33
     description: ''
     min: 0
-    max: '127'
+    max: '65'
   - name: Invert R Phase
     value: 34
     description: ''
     min: 0
-    max: '127'
+    max: '65'
   - name: I/O Routing Option - Default - Auto Select
     value: 35
     description: ''
@@ -1069,113 +1069,113 @@ cc:
     value: 37
     description: ''
     min: 0
-    max: '127'
+    max: '65'
   - name: Bypass/Engage
     value: 38
     description: ''
     min: 0
-    max: 127
-  - name: Intensity Knob Remap - Factory Default
+    max: '65'
+  - name: Intensity Knob - Factory Default
     value: 39
     description: ''
     min: 0
     max: '0'
-  - name: Intensity Knob Remap - Output Volume
+  - name: Intensity Knob - Output Volume
     value: '39'
     description: ''
     min: '1'
     max: '1'
-  - name: Intensity Knob Remap - Diffusion
+  - name: Intensity Knob - Diffusion
     value: '39'
     description: ''
     min: '2'
     max: '2'
-  - name: Intensity Knob Remap - Distortion
+  - name: Intensity Knob - Distortion
     value: '39'
     description: ''
     min: '3'
     max: '3'
-  - name: Intensity Knob Remap - Low Cut Filter
+  - name: Intensity Knob - Low Cut Filter
     value: '39'
     description: ''
     min: '4'
     max: '4'
-  - name: Intensity Knob Remap - High Cut Filter
+  - name: Intensity Knob - High Cut Filter
     value: '39'
     description: ''
     min: '5'
     max: '5'
-  - name: Intensity Knob Remap - Sample Rate Reduction
+  - name: Intensity Knob - Sample Rate Reduction
     value: '39'
     description: ''
     min: '6'
     max: '6'
-  - name: Intensity Knob Remap - Sweep Filter Frequency
+  - name: Intensity Knob - Sweep Filter Frequency
     value: '39'
     description: ''
     min: '7'
     max: '7'
-  - name: Intensity Knob Remap - Sweep Filter Q
+  - name: Intensity Knob - Sweep Filter Q
     value: '39'
     description: ''
     min: '8'
     max: '8'
-  - name: Intensity Knob Remap - Sweep Filter Depth
+  - name: Intensity Knob - Sweep Filter Depth
     value: '39'
     description: ''
     min: '9'
     max: '9'
-  - name: Intensity Knob Remap - Sweep Filter Mix
+  - name: Intensity Knob - Sweep Filter Mix
     value: '39'
     description: ''
     min: '10'
     max: '10'
-  - name: Intensity Knob Remap - Wow and Flutter Noise
+  - name: Intensity Knob - Wow and Flutter Noise
     value: '39'
     description: ''
     min: '11'
     max: '11'
-  - name: Intensity Knob Remap - Tremolo Depth
+  - name: Intensity Knob - Tremolo Depth
     value: '39'
     description: ''
     min: '12'
     max: '12'
-  - name: Intensity Knob Remap - Pitch Control
+  - name: Intensity Knob - Pitch Control
     value: '39'
     description: ''
     min: '13'
     max: '13'
-  - name: Intensity Knob Remap - Delay Effect Send Level
+  - name: Intensity Knob - Delay Effect Send Level
     value: '39'
     description: ''
     min: '14'
     max: '14'
-  - name: Mod Knob Remap - Time Modulation
+  - name: Mod Knob - Time Modulation
     value: 40
     description: ''
     min: 0
     max: '0'
-  - name: Mod Knob Remap - Tape Modulation
+  - name: Mod Knob - Tape Mod
     value: '40'
     description: ''
     min: '1'
     max: '1'
-  - name: Mod Knob Remap - Filter Modulation
+  - name: Mod Knob - Filter Mod
     value: '40'
     description: ''
     min: '2'
     max: '2'
-  - name: Mod Knob Remap -Tremolo
+  - name: Mod Knob - Tremolo
     value: '40'
     description: ''
     min: '3'
     max: '3'
-  - name: Rate Knob Remap - Modulation Rate
+  - name: Rate Knob - Modulation Rate
     value: 41
     description: ''
     min: 0
     max: '0'
-  - name: Rate Knob Remap - Tape Speed
+  - name: Rate Knob - Tape Speed
     value: '41'
     description: ''
     min: '1'
@@ -1240,6 +1240,11 @@ cc:
     description: ''
     min: '11'
     max: '11'
+  - name: Tap Beat Division - 16th
+    value: '42'
+    description: ''
+    min: '12'
+    max: '12'
   - name: Tap Beat Division - Sextuplet
     value: '42'
     description: ''
