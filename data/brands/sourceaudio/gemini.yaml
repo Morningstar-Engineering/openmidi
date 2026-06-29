@@ -1,20 +1,19 @@
-brand: Source Audio
-model: Gemini
+brand: sourceaudio
+model: gemini
+brandName: Source Audio
+modelName: Gemini
 device_type: effect
 email: stroonz@verizon.net
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs: []
 midi_outputs: []
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
-  - name: Delay/Frequency
+  - name: Delay
     value: 0
     description: ''
     min: 0
@@ -29,12 +28,12 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Wet/Dry Mix
+  - name: Mix
     value: '3'
     description: ''
     min: 0
     max: 127
-  - name: Output Level
+  - name: Output
     value: '4'
     description: ''
     min: 0
@@ -54,11 +53,66 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Effect Type
+  - name: Effect Type - Classic Flange/Chorus
     value: '8'
     description: ''
     min: 0
-    max: 127
+    max: '0'
+  - name: Effect Type - Shadow Flange
+    value: '8'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Effect Type - Thru-Zero
+    value: '8'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Effect Type - Resonator 1
+    value: '8'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Effect Type - Resonator 2
+    value: '8'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Effect Type - Dual Chorus
+    value: '8'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Effect Type - Quad Chorus
+    value: '8'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Effect Type - Vibe
+    value: '8'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Effect Type - 4 Stage Phaser
+    value: '8'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Effect Type - 6 Stage Phaser
+    value: '8'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Effect Type - 8 Stage Phaser
+    value: '8'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Effect Type - 12 Stage Phaser
+    value: '8'
+    description: ''
+    min: '11'
+    max: '11'
   - name: Mod Source
     value: '9'
     description: ''
@@ -69,17 +123,17 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Treble
+  - name: Treble 2825 Hz
     value: '11'
     description: ''
     min: 0
     max: 127
-  - name: Treble Frequency
+  - name: Treble Freq
     value: '12'
     description: ''
     min: 0
     max: 127
-  - name: Bass
+  - name: Bass 106 Hz
     value: '13'
     description: ''
     min: 0
@@ -99,7 +153,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Mid A
+  - name: Mid A 675 Hz
     value: '17'
     description: ''
     min: 0
@@ -114,7 +168,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Mid B
+  - name: Mid B 916 Hz
     value: '20'
     description: ''
     min: 0
@@ -123,12 +177,52 @@ cc:
     value: '21'
     description: ''
     min: 0
-    max: 127
-  - name: I/O Routing Option
+    max: '40'
+  - name: I/O Routing Option - Auto-Detect (default)
     value: '22'
     description: ''
     min: 0
-    max: 127
+    max: '0'
+  - name: 'I/O Routing Option - Mono Input, Stereo Output'
+    value: '22'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'I/O Routing Option - Stereo Input, Mono Effect'
+    value: '22'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'I/O Routing Option - Mono Effect, Dry Through'
+    value: '22'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: 'I/O Routing Option - Mono Effect, Doubled Output'
+    value: '22'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: I/O Routing Option - Sidechain Envelope
+    value: '22'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: 'I/O Routing Option - External Loop, pre-Effect'
+    value: '22'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: 'I/O Routing Option - External Loop, post-Effect'
+    value: '22'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: I/O Routing Option - True Stereo
+    value: '22'
+    description: ''
+    min: '8'
+    max: '8'
   - name: Bypass/Engage
     value: '23'
     description: ''
