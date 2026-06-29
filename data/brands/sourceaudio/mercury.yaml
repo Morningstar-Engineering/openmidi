@@ -1,20 +1,19 @@
-brand: Source Audio
-model: Mercury
+brand: sourceaudio
+model: mercury
+brandName: Source Audio
+modelName: Mercury
 device_type: guitar_processor
 email: stroonz@verizon.net
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs: []
 midi_outputs: []
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
-  - name: Delay/Frequency
+  - name: Delay
     value: 0
     description: ''
     min: 0
@@ -29,12 +28,12 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Wet/Dry Mix
+  - name: Mix
     value: '3'
     description: ''
     min: 0
     max: 127
-  - name: Output Level
+  - name: Output
     value: '4'
     description: ''
     min: 0
@@ -69,7 +68,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Treble
+  - name: Treble 3436 Hz
     value: '11'
     description: ''
     min: 0
@@ -79,7 +78,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Bass
+  - name: Bass 97 Hz
     value: '13'
     description: ''
     min: 0
@@ -99,7 +98,7 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Mid A Level
+  - name: Mid A 1865 Hz
     value: '17'
     description: ''
     min: 0
@@ -114,21 +113,21 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Mid B Level
+  - name: Mid B 1285 Hz
     value: '20'
     description: ''
     min: 0
     max: 127
-  - name: Low Cut Filter
+  - name: Input Low Cut
     value: '21'
     description: ''
     min: 0
-    max: 127
+    max: '35'
   - name: I/O Routing
     value: '22'
     description: ''
     min: 0
-    max: 127
+    max: '8'
   - name: Bypass/Engage
     value: '23'
     description: ''
