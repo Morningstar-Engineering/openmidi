@@ -298,22 +298,22 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Left Treble 4179 Hz
+  - name: Left Treble 3436 Hz
     value: '8'
     description: ''
     min: 0
     max: 127
-  - name: Left Bass 101 Hz
+  - name: Left Bass 85 Hz
     value: '9'
     description: ''
     min: 0
     max: 127
-  - name: Left Mid A 916 Hz
+  - name: Left Mid A 1201 Hz
     value: '10'
     description: ''
     min: 0
     max: 127
-  - name: Left Mid B 800 Hz
+  - name: Left Mid B 379 Hz
     value: '11'
     description: ''
     min: 0
@@ -335,6 +335,11 @@ cc:
     max: 127
   - name: Right Output
     value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: Right Distortion Engine
+    value: '16'
     description: ''
     min: 0
     max: 127
@@ -598,27 +603,27 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Right Drive Max
+  - name: Right Drive Maximum
     value: '19'
     description: ''
     min: 0
     max: 127
-  - name: Right Treble 4179 Hz
+  - name: Right Treble 3436 Hz
     value: '20'
     description: ''
     min: 0
     max: 127
-  - name: Right Bass 101 Hz
+  - name: Right Bass 85 Hz
     value: '21'
     description: ''
     min: 0
     max: 127
-  - name: Right Mid A 916 Hz
+  - name: Right Mid A 1201 Hz
     value: '22'
     description: ''
     min: 0
     max: 127
-  - name: Right Mid B 800 Hz
+  - name: Right Mid B 379 Hz
     value: '23'
     description: ''
     min: 0
@@ -667,7 +672,7 @@ cc:
     value: '32'
     description: ''
     min: 0
-    max: 127
+    max: '36'
   - name: I/O Routing
     value: '33'
     description: ''
@@ -678,8 +683,13 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Noise Gate Controls
+  - name: Noise Gate Enable
     value: '35'
+    description: ''
+    min: 0
+    max: 127
+  - name: Channel Switch Control
+    value: '36'
     description: ''
     min: 0
     max: 127
