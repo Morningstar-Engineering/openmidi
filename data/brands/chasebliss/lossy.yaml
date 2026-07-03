@@ -1,5 +1,6 @@
 brand: Chase Bliss Audio
 model: Lossy
+email: 'midi@chasebliss.com'
 midi_in: TRS
 midi_thru: None
 
