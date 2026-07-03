@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Generation Loss MKI
 email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Generation-Loss_MIDI-Manual_Pedal_Chase-Bliss.pdf
 cc:
 - name: Wow
   value: '14'

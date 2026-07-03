@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Reverse Mode C
 email: 'midi@chasebliss.com'
+url: >-
+  https://www.chasebliss.com/s/Reverse-Mode-C_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_in: TRS
 midi_thru: No
 phantom_power: None

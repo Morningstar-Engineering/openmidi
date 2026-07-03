@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Lossy
 email: 'midi@chasebliss.com'
+url: >-
+  https://www.chasebliss.com/s/Lossy_Pedal_MIDI-Manual_Chase-Bliss_Goodhertz.pdf
 midi_in: TRS
 midi_thru: None
 

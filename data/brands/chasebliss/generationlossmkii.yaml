@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Generation Loss MKII
 email: 'midi@chasebliss.com'
+url: >-
+  https://www.chasebliss.com/s/Generation-Loss-MKII_MIDI-Manual_Pedal_Chase-Blisspdf.pdf
 cc:
 - description: ''
   max: 127

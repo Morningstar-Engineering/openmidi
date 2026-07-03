@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Warped Vinyl HiFi
 email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Warped-Vinyl-HiFi_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_in: TRS
 midi_thru: No
 midi_clock: Yes

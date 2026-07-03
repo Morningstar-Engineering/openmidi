@@ -1,6 +1,8 @@
 brand: Chase Bliss Audio
 model: Preamp MKII
 email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Preamp-MKII_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_in: DIN5
 midi_thru: Yes
 midi_clock: No
