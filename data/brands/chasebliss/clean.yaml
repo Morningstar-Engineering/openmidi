@@ -358,7 +358,7 @@ cc:
     description: Hidden options
     min: '2'
     max: '2'
-  - name: Envelop Mode (Adaptive)
+  - name: Envelope Mode (Adaptive)
     value: '31'
     description: Hidden options
     min: '3'
