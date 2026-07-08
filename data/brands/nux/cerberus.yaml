@@ -1,0 +1,181 @@
+brand: NUX
+model: Cerberus
+device_type: effect
+email: filodichina@gmail.com
+url: 'https://nuxaudio.com/product/cerberus/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Remote
+    value: '122'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay enable
+    value: '28'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb  enable
+    value: '36'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay Level
+    value: '82'
+    description: Delay Level
+    min: 0
+    max: 127
+  - name: Delay Time
+    value: '30'
+    description: Delay Time
+    min: 0
+    max: 127
+  - name: Delay Repeat
+    value: '31'
+    description: Delay Repeat
+    min: 0
+    max: 127
+  - name: Reverb Decay
+    value: '86'
+    description: Reverb Decay
+    min: 0
+    max: 127
+  - name: 'Reverb Level '
+    value: '87'
+    description: 'Reverb Level '
+    min: 0
+    max: 127
+  - name: Delay Mode
+    value: '88'
+    description: Delay Mode
+    min: 0
+    max: 127
+  - name: Reverb Routing
+    value: '34'
+    description: Reverb Routing
+    min: 0
+    max: 127
+  - name: Reverb Mode
+    value: '37'
+    description: Reverb Mode
+    min: 0
+    max: 127
+  - name: Chorus enable
+    value: '57'
+    description: Chorus enable
+    min: 0
+    max: 127
+  - name: Mod fx enable
+    value: '56'
+    description: Modulation enable
+    min: 0
+    max: 127
+  - name: Chorus rate
+    value: '53'
+    description: Chorus Rate
+    min: 0
+    max: 127
+  - name: Chorus Depth
+    value: '54'
+    description: Chorus Depth
+    min: 0
+    max: 127
+  - name: Chorus Level
+    value: '55'
+    description: Chorus Level
+    min: 0
+    max: 127
+  - name: Modfx Rate
+    value: '51'
+    description: Modulation Rate
+    min: 0
+    max: 127
+  - name: Modfx Depth
+    value: '52'
+    description: Modulation Depth
+    min: 0
+    max: 127
+  - name: Chorus Mode
+    value: '61'
+    description: Chorus Mode
+    min: 0
+    max: 127
+  - name: Modfx Mode
+    value: '58'
+    description: Modulation Mode (Tremolo - Phaser - UniVibe)
+    min: 0
+    max: 127
+  - name: Cab enable
+    value: '101'
+    description: Cabinet IR enable
+    min: 0
+    max: 127
+  - name: Routing
+    value: '11'
+    description: Routing
+    min: 0
+    max: 127
+  - name: Dist enable
+    value: '84'
+    description: Distortion Enable
+    min: 0
+    max: 127
+  - name: Dist Gain
+    value: '21'
+    description: Distortion Gain
+    min: 0
+    max: 127
+  - name: Dist tone
+    value: '17'
+    description: Distortion Tone
+    min: 0
+    max: 127
+  - name: Dist Level
+    value: '10'
+    description: Distortion Level
+    min: 0
+    max: 127
+  - name: Overdrive enable
+    value: '111'
+    description: Overdrive enable
+    min: 0
+    max: 127
+  - name: Overdrive Drive
+    value: '13'
+    description: Overdrive Drive
+    min: 0
+    max: 127
+  - name: Overdrive Tone
+    value: '14'
+    description: Overdrive Tone
+    min: 0
+    max: 127
+  - name: Overdrive Level
+    value: '15'
+    description: Overdrive Level
+    min: 0
+    max: 127
+  - name: Boost Enable
+    value: '76'
+    description: Analog Boost Enable
+    min: 0
+    max: 127
+  - name: Bypass enable
+    value: '9'
+    description: Bypass Enable
+    min: 0
+    max: 127
+  - name: Volume pedal
+    value: '7'
+    description: Volume pedal
+    min: 0
+    max: 127

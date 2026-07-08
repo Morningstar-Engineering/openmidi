@@ -2025,6 +2025,10 @@
       "value": "nux",
       "models": [
         {
+          "name": "Cerberus",
+          "value": "cerberus"
+        },
+        {
           "name": "Loop Core Stereo",
           "value": "loopcorestereo"
         }
