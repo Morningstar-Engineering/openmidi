@@ -1,4 +1,9 @@
-midi_in: RTS
+brand: Chase Bliss Audio
+model: Condor
+email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Condor_MIDI-Manual_Pedal_Chase-Bliss.pdf
+midi_in: TRS
 midi_thru: None
 
 midi_channel:

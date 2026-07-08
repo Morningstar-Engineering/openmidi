@@ -1,3 +1,8 @@
+brand: Chase Bliss Audio
+model: Onward
+email: 'midi@chasebliss.com'
+url: >-
+  https://www.chasebliss.com/s/Onward_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_in: TRS
 midi_thru: No
 phantom_power: None

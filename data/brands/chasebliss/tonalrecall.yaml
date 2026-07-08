@@ -1,4 +1,9 @@
-midi_in: RTS
+brand: Chase Bliss Audio
+model: Tonal Recall
+email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Tonal-Recall_MIDI-Manual_Pedal_Chase-Bliss.pdf
+midi_in: TRS
 midi_thru: No
 midi_clock: Yes
 

@@ -1,4 +1,9 @@
-midi_in: RTS
+brand: Chase Bliss Audio
+model: Dark World
+email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/Dark-World_MIDI-Manual_Pedal_Chase-Bliss.pdf
+midi_in: TRS
 midi_thru: No
 midi_clock: No
 
