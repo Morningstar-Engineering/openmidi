@@ -1,0 +1,379 @@
+brand: Source Audio
+model: Encounter
+email: addisoc13@gmail.com
+url: ''
+midi_channel:
+  instructions: |+
+    MIDI channel is set via the Neuro Desktop Editor or Neuro Mobile App (Global Config menu).
+    By default it is set to channel 1.
+
+midi_clock: Yes
+midi_in: DIN5
+midi_thru: Yes
+pc:
+  description: |+
+    Up to 128 presets recallable via MIDI Program Change (PC) messages 0-127.
+    8 presets are also accessible directly from the pedal's front panel.
+
+phantom_power: No
+midi_mapping: |+
+  CC assignments below reflect the Encounter's factory default MIDI map. All CCs are fully
+  re-assignable via the Neuro Desktop Editor (Device > Edit Device MIDI Map).
+
+cc:
+  - name: Delay (A) Engine
+    value: 1
+    description: Selects the delay algorithm loaded into Engine A (12 engines available)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Time
+    value: 2
+    description: Sets the delay time for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Mix
+    value: 3
+    description: Sets the wet/dry mix for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Feedback
+    value: 4
+    description: Sets the feedback/repeats amount for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Tone
+    value: 5
+    description: Sets the tone/tilt EQ for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Control 1
+    value: 6
+    description: Engine-A-algorithm-dependent Control 1 parameter (e.g. mod rate/depth, varies by engine)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Control 2
+    value: 7
+    description: Engine-A-algorithm-dependent Control 2 parameter (varies by engine)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Output
+    value: 8
+    description: Sets the output level for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Tap Tempo Division
+    value: 9
+    description: Sets the rhythmic subdivision applied to Engine A's tap tempo
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Stereo Division
+    value: 10
+    description: Sets the stereo spread/division behavior for Engine A
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Custom 1
+    value: 11
+    description: Additional algorithm-specific Designer parameter for Engine A (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Custom 2
+    value: 12
+    description: Additional algorithm-specific Designer parameter for Engine A (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Bass
+    value: 13
+    description: Sets the low-frequency content of Engine A's repeats
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Custom 5
+    value: 14
+    description: Additional algorithm-specific Designer parameter for Engine A (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Engine
+    value: 15
+    description: Selects the reverb algorithm loaded into Engine B (12 engines available)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Time
+    value: 16
+    description: Sets the decay/reverb time for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Mix
+    value: 17
+    description: Sets the wet/dry mix for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Feedback
+    value: 18
+    description: Sets the feedback/density amount for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Tone
+    value: 19
+    description: Sets the tone/tilt EQ for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Control 1
+    value: 20
+    description: Engine-B-algorithm-dependent Control 1 parameter (varies by engine)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Control 2
+    value: 21
+    description: Engine-B-algorithm-dependent Control 2 parameter (varies by engine)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Output
+    value: 22
+    description: Sets the output level for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Tap Tempo Division
+    value: 23
+    description: Sets the rhythmic subdivision applied to Engine B's tap tempo
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Stereo Division
+    value: 24
+    description: Sets the stereo spread/division behavior for Engine B
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Custom 1
+    value: 25
+    description: Additional algorithm-specific Designer parameter for Engine B (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Custom 2
+    value: 26
+    description: Additional algorithm-specific Designer parameter for Engine B (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Bass
+    value: 27
+    description: Sets the low-frequency content of Engine B's reverb tail
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Custom 5
+    value: 28
+    description: Additional algorithm-specific Designer parameter for Engine B (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Mod Depth
+    value: 39
+    description: Sets the modulation depth applied to Engine A (where the algorithm supports modulation)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Mod Depth
+    value: 40
+    description: Sets the modulation depth applied to Engine B (where the algorithm supports modulation)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Mod Rate
+    value: 41
+    description: Sets the modulation rate applied to Engine A (where the algorithm supports modulation)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Mod Rate
+    value: 42
+    description: Sets the modulation rate applied to Engine B (where the algorithm supports modulation)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Custom 3
+    value: 43
+    description: Additional algorithm-specific Designer parameter for Engine A (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Custom 3
+    value: 44
+    description: Additional algorithm-specific Designer parameter for Engine B (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay (A) Custom 4
+    value: 45
+    description: Additional algorithm-specific Designer parameter for Engine A (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Reverb (B) Custom 4
+    value: 46
+    description: Additional algorithm-specific Designer parameter for Engine B (Neuro editor only)
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Preset Decrement
+    value: 80
+    description: Steps to the previous preset (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Preset Increment
+    value: 82
+    description: Steps to the next preset (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Remote Tap Function
+    value: 93
+    description: Triggers tap tempo remotely, equivalent to tapping the Delay footswitch (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Remote Hold Function
+    value: 97
+    description: Triggers a long-press/hold action remotely (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Remote Expression
+    value: 100
+    description: Controls the assigned expression parameters remotely, standing in for a physical expression pedal
+    type: Parameter
+    min: 0
+    max: 127
+
+  - name: Delay Bypass/Engage
+    value: 101
+    description: Sets Engine A bypass state directly (0-63 = bypassed, 64-127 = engaged)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Toggle Delay Bypass/Engage
+    value: 102
+    description: Toggles Engine A's current bypass/engage state (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Reverb Bypass/Engage
+    value: 103
+    description: Sets Engine B bypass state directly (0-63 = bypassed, 64-127 = engaged)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Toggle Reverb Bypass/Engage
+    value: 104
+    description: Toggles Engine B's current bypass/engage state (any value triggers)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Recall Preset Both Bypassed
+    value: 105
+    description: Recalls the preset numbered by the CC value (0-127), loading it with both engines bypassed
+    type: System
+    min: 0
+    max: 127
+
+  - name: Recall Preset Delay Engaged
+    value: 106
+    description: Recalls the preset numbered by the CC value (0-127), loading it with Engine A (Delay) engaged
+    type: System
+    min: 0
+    max: 127
+
+  - name: Recall Preset Reverb Engaged
+    value: 107
+    description: Recalls the preset numbered by the CC value (0-127), loading it with Engine B (Reverb) engaged
+    type: System
+    min: 0
+    max: 127
+
+  - name: Recall Preset Both Engaged
+    value: 108
+    description: Recalls the preset numbered by the CC value (0-127), loading it with both engines engaged
+    type: System
+    min: 0
+    max: 127
+
+  - name: MIDI Clock Enable/Disable
+    value: 109
+    description: Enables or disables syncing of delay time to incoming MIDI Clock (0-63 = disabled, 64-127 = enabled)
+    type: System
+    min: 0
+    max: 127
+
+  - name: Both Bypass/Engage
+    value: 110
+    description: Sets both engines' bypass state simultaneously (0-63 = bypassed, 64-127 = engaged)
+    type: System
+    min: 0
+    max: 127
