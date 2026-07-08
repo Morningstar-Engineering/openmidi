@@ -1,0 +1,112 @@
+brand: Roland
+model: V-Stage 76/88
+device_type: synth
+email: jeanpierre.manaud@gmail.com
+url: ''
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs:
+  - name: MIDI OUT 1
+    type: 5pin
+  - name: MIDI OUT 2 / THRU
+    type: 5pin
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Modulation
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Volume Master
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Expression
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: Sustain Pedal
+    value: '64'
+    description: ''
+    min: 0
+    max: 127
+  - name: Portamento
+    value: '65'
+    description: ''
+    min: 0
+    max: 127
+  - name: Sostenuto
+    value: '66'
+    description: ''
+    min: 0
+    max: 127
+  - name: Soft Pedal
+    value: '67'
+    description: ''
+    min: 0
+    max: 127
+  - name: Harmonic Content
+    value: '71'
+    description: ''
+    min: 0
+    max: 127
+  - name: Release Time
+    value: '72'
+    description: ''
+    min: 0
+    max: 127
+  - name: Attack Time
+    value: '73'
+    description: ''
+    min: 0
+    max: 127
+  - name: Brigthness
+    value: '74'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb Send
+    value: '91'
+    description: ''
+    min: 0
+    max: 127
+  - name: Chorus Send
+    value: '93'
+    description: ''
+    min: 0
+    max: 127
+  - name: Assign 1 (User Def)
+    value: '80'
+    description: Assignable
+    min: 0
+    max: 127
+  - name: Assign 2 (User Def)
+    value: '81'
+    description: Assignable
+    min: 0
+    max: 127
+  - name: Assign 3 (User Def)
+    value: '82'
+    description: Assignable
+    min: 0
+    max: 127
+  - name: Assign 4 (User Def)
+    value: '83'
+    description: Assignable
+    min: 0
+    max: 127
+  - name: Assign 5 (User Def)
+    value: '84'
+    description: Assignable
+    min: 0
+    max: 127
