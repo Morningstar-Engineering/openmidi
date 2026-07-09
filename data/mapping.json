@@ -355,6 +355,10 @@
           "value": "ayahuasca"
         },
         {
+          "name": "Big Time",
+          "value": "bigtime"
+        },
+        {
           "name": "Bliss Factory",
           "value": "blissfactory"
         },
@@ -2487,12 +2491,12 @@
           "value": "collider"
         },
         {
-          "name": "EQ2",
-          "value": "eq2"
-        },
-        {
           "name": "Encounter",
           "value": "encounter"
+        },
+        {
+          "name": "EQ2",
+          "value": "eq2"
         },
         {
           "name": "Gemini",
