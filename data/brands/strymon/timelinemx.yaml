@@ -1,0 +1,402 @@
+brand: Strymon
+model: Timeline MX
+device_type: effect
+email: hunter@lpsavl.com
+url: >-
+  https://www.strymon.net/manuals/TimeLineMX_UserManual_RevA.pdf?srsltid=AfmBOoprQhJ5gYTtpEo62YsNnPE2dJv15ohATIw80EtYVDhWvleDHYsV
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs:
+  - name: 5 PIN
+    type: 5pin
+  - name: USB
+    type: usb_device
+  - name: TRS
+    type: trs_type_a_6.35mm
+midi_outputs:
+  - name: 5 PIN
+    type: 5pin
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Delay 1 TYPE Select
+    value: '1'
+    description: |-
+      0 = Spectral
+      1 = Reverse
+      2 = Ice
+      3 = Lo Fi
+      4 = Filter
+      5 = Reverb
+      6 = dTape
+      7 = dBucket
+      8 = Digital
+      9 = Drum
+      10 = Oil Can
+      11 = MultiTap
+    min: 0
+    max: '11'
+  - name: Delay 2 TYPE Select
+    value: '2'
+    description: |-
+      0 = Spectral
+      1 = Reverse
+      2 = Ice
+      3 = Lo Fi
+      4 = Filter
+      5 = Reverb
+      6 = dTape
+      7 = dBucket
+      8 = Digital
+      9 = Drum
+      10 = Oil Can
+      11 = MultiTap
+    min: 0
+    max: '11'
+  - name: TIME Knob (1)
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: TIME Knob (2)
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: REPEATS Knob (1)
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: REPEATS Knob (2)
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Output Level (1)
+    value: '7'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Output Level (2)
+    value: '8'
+    description: ''
+    min: 0
+    max: '100'
+  - name: Pan (1)
+    value: '9'
+    description: |-
+      0 = Full Left
+      8 = Center
+      16 = Full Right
+    min: 0
+    max: '16'
+  - name: Pan (2)
+    value: '10'
+    description: |-
+      0 = Full Left
+      8 = Center
+      16 = Full Right 
+    min: 0
+    max: '16'
+  - name: FILTER Knob (1)
+    value: '11'
+    description: ''
+    min: 0
+    max: 127
+  - name: FILTER Knob (2)
+    value: '12'
+    description: ''
+    min: 0
+    max: 127
+  - name: GRIT Knob (1)
+    value: '13'
+    description: ''
+    min: 0
+    max: 127
+  - name: GRIT Knob (2)
+    value: '14'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIX Knob (1)
+    value: '15'
+    description: ''
+    min: 0
+    max: 127
+  - name: MIX Knob (2)
+    value: '16'
+    description: ''
+    min: 0
+    max: 127
+  - name: TAP Division (1)
+    value: '17'
+    description: |-
+      0 = Quarter
+      1 = Dotted Eighth
+      2 = Eighth
+      3 = Triplet
+      4 = Sixteenth
+      5 = Golden Ratio
+      6 = Silver Ratio 
+      7 = Free
+    min: 0
+    max: '7'
+  - name: TAP Division (2)
+    value: '18'
+    description: |-
+      0 = Quarter
+      1 = Dotted Eighth
+      2 = Eighth
+      3 = Triplet
+      4 = Sixteenth
+      5 = Golden Ratio
+      6 = Silver Ratio 
+      7 = Free
+    min: 0
+    max: '7'
+  - name: PARAM 1 Knob (1)
+    value: '19'
+    description: ''
+    min: 0
+    max: 127
+  - name: PARAM 1 Knob (2)
+    value: '20'
+    description: ''
+    min: 0
+    max: 127
+  - name: PARAM 2 Knob (1)
+    value: '21'
+    description: ''
+    min: 0
+    max: 127
+  - name: PARAM 2 Knob (2)
+    value: '22'
+    description: ''
+    min: 0
+    max: 127
+  - name: Swell (1)
+    value: '23'
+    description: (tracks in display)
+    min: 0
+    max: '28'
+  - name: Swell (2)
+    value: '24'
+    description: (tracks in display)
+    min: 0
+    max: '28'
+  - name: Duck Release (1)
+    value: '25'
+    description: (tracks in display)
+    min: 0
+    max: '20'
+  - name: Duck Release (2)
+    value: '26'
+    description: (tracks in display)
+    min: 0
+    max: '20'
+  - name: Duck Sensitivity (1)
+    value: '27'
+    description: (tracks in display)
+    min: 0
+    max: '18'
+  - name: Duck Sensitivity (2)
+    value: '28'
+    description: (tracks in display)
+    min: 0
+    max: '18'
+  - name: Mod Speed (1)
+    value: '29'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Speed (2)
+    value: '30'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Depth (1)
+    value: '33'
+    description: ''
+    min: 0
+    max: 127
+  - name: Mod Depth (2)
+    value: '34'
+    description: ''
+    min: 0
+    max: 127
+  - name: Smear (1)
+    value: '35'
+    description: |+
+
+    min: 0
+    max: '18'
+  - name: Smear (2)
+    value: '36'
+    description: |+
+
+    min: 0
+    max: '18'
+  - name: High Pass (1)
+    value: '37'
+    description: 0=off
+    min: 0
+    max: '19'
+  - name: High Pass (2)
+    value: '38'
+    description: 0=off
+    min: 0
+    max: '19'
+  - name: Looper Record
+    value: '119'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Looper Play
+    value: '120'
+    description: |+
+
+    min: '1'
+    max: '1'
+  - name: Looper Stop
+    value: '121'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Looper Forward/Reverse
+    value: '125'
+    description: |
+      Toggle
+    min: '1'
+    max: '1'
+  - name: Looper Full/Half Speed
+    value: '26'
+    description: Toggle
+    min: '1'
+    max: '1'
+  - name: Global Pre/Post Looper Location
+    value: '84'
+    description: Toggle
+    min: '1'
+    max: '1'
+  - name: 'Looper Undo '
+    value: '98'
+    description: Delete overdubs
+    min: '1'
+    max: '1'
+  - name: Looper Redo
+    value: '90'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Looper Level
+    value: '127'
+    description: ''
+    min: 0
+    max: '100'
+  - name: 1&2 Boost
+    value: '122'
+    description: |-
+      0 = -3dB
+      30 = 0dB
+      60 = +3dB
+    min: 0
+    max: '60'
+  - name: 1&2 Persist
+    value: '123'
+    description: Delay Trails continue when bypassed? 0 = off. 127 = on.
+    min: 0
+    max: 127
+  - name: Dual Delay Mode
+    value: '124'
+    description: |-
+      0 = Off
+      1= Parallel
+      2 = Series 1 >> 2
+      3 = Series 1 << 2
+      4 = Split L | R
+      5 = Split R | L
+    min: 0
+    max: '5'
+  - name: '"A" Footswitch'
+    value: '80'
+    description: |-
+      0 = Press
+      127 = Release
+    min: 0
+    max: '127'
+  - name: '"B" Footswitch'
+    value: '81'
+    description: |-
+      0 = Press
+      127 = Release
+    min: 0
+    max: 127
+  - name: '"TAP" Footswitch'
+    value: '82'
+    description: |-
+      0 = Press
+      127 = Release
+    min: 0
+    max: 127
+  - name: Remote TAP Tempo
+    value: '93'
+    description: |-
+      Send any value for each tap 
+      pulse to set TAP Tempo.
+    min: '1'
+    max: '1'
+  - name: Value Encoder
+    value: '83'
+    description: |2-
+       0 = Scroll 
+      counter-clockwise
+      1 = Scroll clockwise
+    min: 0
+    max: '1'
+  - name: Infinite Off/On
+    value: '97'
+    description: |-
+      0 = Off
+      1-127 = On
+    min: 0
+    max: '1'
+  - name: Expression Pedal
+    value: '100'
+    description: |-
+      CC 100 will control the 
+      per-preset knob assignments 
+      created using the PARAM
+      menu's - EXP Setup screen.
+      The EXP Setup - MIDI EXP
+      option must also be set to 
+      ON to allow MIDI control.
+    min: 0
+    max: 127
+  - name: Preset Bypass
+    value: '102'
+    description: |-
+      0 = Bypassed
+      1-127 = Engaged
+    min: 0
+    max: '1'
+  - name: MIDI Patch Bank
+    value: 0
+    description: |-
+      0 = Bank 0 (Preset 
+      locations 00A - 63B)
+      • 1 = Bank 1 (Preset 
+      locations 064A - 127B)
+      • 2 = Bank 2 (Preset 
+      locations 128A - 149B  Send CC 0 with the value 
+      of 0, 1, or 2 to select the 
+      respective Bank 0, 1, or 2, 
+      followed by MIDI PC to select 
+      a Preset location within the 
+      Bank
+    min: 0
+    max: '2'
