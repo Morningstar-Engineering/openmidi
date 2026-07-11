@@ -1,12 +1,12 @@
-brand: Matthews Effects
-model: The Technician
+brand: matthewseffects
+model: thetechnician
+brandName: Matthews Effects
+modelName: The Technician
 device_type: effect
 email: justin.j.deboer@gmail.com
-url: >-
-  https://www.matthewseffects.com/products/technician?srsltid=AfmBOoo6lkfzb84a9ZgGM_zQvvh138D9DXSGOfGhTHgz8-NGrI7tTCrm
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs:
   - name: 3.5mm TRS In
     type: trs_type_a_3.5mm
@@ -15,11 +15,9 @@ midi_inputs:
 midi_outputs:
   - name: 3.5 mm TRS Out
     type: trs_type_a_3.5mm
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Bypass
     value: '1'
@@ -334,7 +332,7 @@ cc:
     min: 0
     max: 127
   - name: Pre-Delay Right
-    value: '61'
+    value: '59'
     description: |
       Reverb
     min: 0
