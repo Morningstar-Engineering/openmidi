@@ -2487,12 +2487,12 @@
           "value": "collider"
         },
         {
-          "name": "EQ2",
-          "value": "eq2"
-        },
-        {
           "name": "Encounter",
           "value": "encounter"
+        },
+        {
+          "name": "EQ2",
+          "value": "eq2"
         },
         {
           "name": "Gemini",
@@ -2923,6 +2923,10 @@
         {
           "name": "Polyphrase",
           "value": "polyphrase"
+        },
+        {
+          "name": "Solarfaze",
+          "value": "solarfaze"
         }
       ]
     },
