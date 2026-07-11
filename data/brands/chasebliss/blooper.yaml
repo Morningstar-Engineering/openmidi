@@ -1,4 +1,9 @@
-midi_in: RTS
+brand: Chase Bliss Audio
+model: Blooper
+email: 'midi@chasebliss.com'
+url: >-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/686d617de3d05f36d3647476/1751998846080/Blooper_MIDI%2BManual_Pedal_ChaseBliss.pdf
+midi_in: TRS
 midi_thru: None
 
 midi_channel:

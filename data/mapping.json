@@ -415,7 +415,7 @@
           "value": "mood"
         },
         {
-          "name": "Mood MkII",
+          "name": "Mood MKII",
           "value": "moodmkii"
         },
         {
@@ -423,7 +423,7 @@
           "value": "onward"
         },
         {
-          "name": "Preamp MkII",
+          "name": "Preamp MKII",
           "value": "preampmkii"
         },
         {
@@ -2489,6 +2489,10 @@
         {
           "name": "EQ2",
           "value": "eq2"
+        },
+        {
+          "name": "Encounter",
+          "value": "encounter"
         },
         {
           "name": "Gemini",

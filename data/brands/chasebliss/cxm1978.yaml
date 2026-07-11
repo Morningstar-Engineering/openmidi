@@ -1,3 +1,8 @@
+brand: Chase Bliss Audio
+model: CXM 1978
+email: 'midi@chasebliss.com'
+url: >-
+  https://cb2k22.squarespace.com/s/CXM-1978_MIDI-Manual_Pedal_Chase-Bliss.pdf
 midi_in: DIN5
 midi_thru: Yes
 midi_clock: No
