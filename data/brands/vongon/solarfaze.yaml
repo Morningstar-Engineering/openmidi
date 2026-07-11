@@ -1,0 +1,21 @@
+brand: Vongon
+model: Solarfaze
+device_type: guitar_processor
+email: tylerstephenmiller@gmail.com
+url: 'https://docs.vongon.com/solarfaze.pdf'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: DETUNE BYPASS
+    value: '13'
+    description: 'MIDI CC #13 DETUNE BYPASS 0-63: OFF, 64-127: ON'
+    min: 0
+    max: 127
