@@ -283,15 +283,64 @@ def consolidate_cc_list(cc_list: list) -> tuple[list, list[dict], bool]:
     return result, changes, numbers_coerced
 
 
-def dump_yaml(data: dict) -> str:
+def dump_cc_block(cc_key: str, cc_list: list) -> str:
+    """Dump only the cc/data section so other YAML keys keep their original formatting."""
     return yaml.dump(
-        data,
+        {cc_key: cc_list},
         Dumper=IndentListDumper,
         default_flow_style=False,
         allow_unicode=True,
         sort_keys=False,
-        width=120,
+        width=1000,
     )
+
+
+def find_top_level_block(text: str, key: str) -> tuple[int, int] | None:
+    """Return [start, end) character offsets for a top-level YAML key block."""
+    lines = text.splitlines(keepends=True)
+    start_line: int | None = None
+    for index, line in enumerate(lines):
+        if line == f"{key}:\n" or line == f"{key}:\r\n" or line == f"{key}:":
+            start_line = index
+            break
+        if line.startswith(f"{key}:") and not line[len(key) + 1 :].strip():
+            start_line = index
+            break
+
+    if start_line is None:
+        return None
+
+    end_line = len(lines)
+    for index in range(start_line + 1, len(lines)):
+        line = lines[index]
+        # Next top-level key (non-empty, no leading whitespace).
+        if line.strip() and not line[0].isspace() and not line.startswith("#"):
+            end_line = index
+            break
+
+    start = sum(len(line) for line in lines[:start_line])
+    end = sum(len(line) for line in lines[:end_line])
+    return start, end
+
+
+def replace_cc_block(text: str, cc_key: str, cc_list: list) -> str:
+    span = find_top_level_block(text, cc_key)
+    if span is None:
+        raise ValueError(f"Could not find top-level '{cc_key}:' block to replace")
+
+    start, end = span
+    new_block = dump_cc_block(cc_key, cc_list)
+    if not new_block.endswith("\n"):
+        new_block += "\n"
+
+    # Preserve a blank line that originally separated this block from the next key.
+    suffix = text[end:]
+    if suffix.startswith("\n") and not new_block.endswith("\n\n"):
+        # Original had an extra blank line after the block; keep file structure tidy
+        # by not inventing blanks—only preserve if the following content already has one.
+        pass
+
+    return text[:start] + new_block + text[end:]
 
 
 def process_file(path: Path, write: bool) -> tuple[bool, list[dict], bool]:
@@ -313,8 +362,7 @@ def process_file(path: Path, write: bool) -> tuple[bool, list[dict], bool]:
         return False, [], False
 
     if write:
-        data[cc_key] = new_cc
-        path.write_text(dump_yaml(data), encoding="utf-8")
+        path.write_text(replace_cc_block(text, cc_key, new_cc), encoding="utf-8")
 
     return True, changes, numbers_coerced
 
