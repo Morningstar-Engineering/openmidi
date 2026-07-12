@@ -2072,18 +2072,12 @@
     },
     {
       "name": "OPFXS",
-      "value": "OPFXS",
+      "value": "opfxs",
       "models": [
         {
           "name": "V Uno",
           "value": "v-uno"
-        }
-      ]
-    },
-    {
-      "name": "OPFXS",
-      "value": "opfxs",
-      "models": [
+        },
         {
           "name": "Dig Deep MK3",
           "value": "digdeepmk3"

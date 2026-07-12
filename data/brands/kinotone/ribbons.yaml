@@ -1,5 +1,9 @@
 brand: Kinotone
 device_name: Ribbons
+midi_channel:
+  instructions: ''
+pc:
+  description: ''
 cc:
   - name: High Pass Filter
     value: 0

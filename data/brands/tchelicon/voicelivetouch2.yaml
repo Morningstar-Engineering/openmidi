@@ -54,7 +54,7 @@ cc:
   max: 0
   min: 0
   name: 'Rhythm: Off'
-  value: 1102
+  value: 102
 - description: ''
   max: 127
   min: 127

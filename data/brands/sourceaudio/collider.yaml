@@ -326,13 +326,13 @@ cc:
     max: 5
   - name: Preset Decrement
     value: 80
-    description: [Description of function]
+    description: ''
     type: System
     min: 0
     max: 127
   - name: Preset Increment
     value: 82
-    description: [Description of function]
+    description: ''
     type: System
     min: 0
     max: 127
@@ -368,7 +368,7 @@ cc:
     max: 127
   - name: Toggle Delay (A) Bypass/Engage
     value: 102
-    description: [Description of function]
+    description: ''
     type: System
     min: 0
     max: 127
@@ -386,7 +386,7 @@ cc:
     max: 127
   - name: Toggle Reverb (B) Bypass/Engage
     value: 104
-    description: [Description of function]
+    description: ''
     type: System
     min: 0
     max: 127

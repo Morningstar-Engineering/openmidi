@@ -1,5 +1,9 @@
 brand: 'Roland'
 model: FR-18d
+midi_channel:
+  instructions: ''
+pc:
+  description: ''
 data:
   - name: Bank Select LSB
     value: 0

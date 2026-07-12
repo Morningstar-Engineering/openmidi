@@ -39,7 +39,7 @@ cc:
   max: 127
   min: 0
   name: 'VCO1: Ultrasaw'
-  value: 668
+  value: 68
 - description: ''
   max: 127
   min: 0

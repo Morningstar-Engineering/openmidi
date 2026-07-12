@@ -2,11 +2,10 @@ midi_channel:
   instructions: |+
 
 pc:
-  - description: |+
-      PC# 0 = Bypass
-      PC# 1 – 4 = Internal Preset # 1 – 4
-      PC# 5 – 99 = Presets saved with MIDI CC #55
-
+  description: |+
+    PC# 0 = Bypass
+    PC# 1 – 4 = Internal Preset # 1 – 4
+    PC# 5 – 99 = Presets saved with MIDI CC #55
 
 cc:
   - name: Remote Tap

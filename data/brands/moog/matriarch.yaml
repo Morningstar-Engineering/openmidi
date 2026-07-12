@@ -565,7 +565,7 @@ cc:
       Default 8192 = 50% / no swing
     type: System
     min: 0
-    max: 16383
+    max: 127
   - name: Sequence Keyboard Control
     value: 24
     description: |
@@ -845,7 +845,7 @@ cc:
       Default 0 / Off
     type: System
     min: 0
-    max: 400
+    max: 127
   - name: KB CV OUT Range
     value: 59
     description: |
@@ -949,7 +949,7 @@ cc:
       Default 16383
     type: System
     min: 0
-    max: 16383
+    max: 127
   - name: Arp/Seq Random Repeats
     value: 72
     description: >

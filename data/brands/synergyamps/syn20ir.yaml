@@ -4,11 +4,12 @@ midi_thru: No
 phantom_power: Yes
 midi_clock: No
 
-midi_channel: |+
-  Out of the box, the SYN-20IR is set up to receive MIDI program changes on MIDI channel OMNI.
-  You can change the MIDI channel using the free Synergy editor software.
+midi_channel:
+  instructions: |+
+    Out of the box, the SYN-20IR is set up to receive MIDI program changes on MIDI channel OMNI.
+    You can change the MIDI channel using the free Synergy editor software.
 
-  Values and descriptions are based on the official Synergy Amps documentation (SYNERGY-SYN-20IR-MANUAL-FINAL-2-13-2025)
+    Values and descriptions are based on the official Synergy Amps documentation (SYNERGY-SYN-20IR-MANUAL-FINAL-2-13-2025)
 
 pc: 
   description: |+

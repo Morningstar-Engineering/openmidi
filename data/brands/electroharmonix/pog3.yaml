@@ -1,5 +1,7 @@
 brand: Electro-Harmonix
 model: POG3 Polyphonic Octave Generator
+midi_channel:
+  instructions: ''
 pc:
   description: |+
     PC Messages 1 to 100: Loads the preset associated with the MIDI PC number

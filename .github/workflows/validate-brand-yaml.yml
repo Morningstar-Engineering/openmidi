@@ -1,0 +1,47 @@
+name: Validate Brand YAML
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - 'data/brands/**'
+      - 'data/mapping.json'
+      - 'validate_brand_yaml.py'
+
+jobs:
+  validate-brand-yaml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate changed brand YAML files
+        run: |
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          mapfile -t files < <(
+            git diff --name-only --diff-filter=ACMR "$BASE_SHA" HEAD -- 'data/brands/**/*.yaml'
+          )
+
+          if ((${#files[@]} == 0)); then
+            echo "No brand YAML files added or modified in this PR."
+            exit 0
+          fi
+
+          printf 'Validating %s changed file(s):\n' "${#files[@]}"
+          printf '  %s\n' "${files[@]}"
+          python validate_brand_yaml.py "${files[@]}"
