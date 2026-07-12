@@ -4,7 +4,7 @@ midi_channel:
   instructions: ''
 pc:
   description: ''
-data:
+cc:
   - name: Bank Select LSB
     value: 0
     description: ''

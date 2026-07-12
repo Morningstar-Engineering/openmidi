@@ -5,7 +5,7 @@ midi_channel:
   instructions: ''
 pc:
   description: ''
-data:
+cc:
   - name: Tip 1 Off
     value: '80'
     description: Turns TRS switch 1 tip off
