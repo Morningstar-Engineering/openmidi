@@ -113,7 +113,7 @@ cc:
     min: 0
     max: 127
   - name: AUX PERF SWITCH 3
-    value: 230
+    value: 30
     description: "Any value will trigger this event"
     type: System
     min: 0

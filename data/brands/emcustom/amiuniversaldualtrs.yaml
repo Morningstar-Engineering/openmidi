@@ -1,6 +1,10 @@
 brand: EM Custom
 model: AMI Universal Dual TRS
 url: 'https://emcustom.eu/downloads/AMI_MI.pdf'
+midi_channel:
+  instructions: ''
+pc:
+  description: ''
 data:
   - name: Tip 1 Off
     value: '80'

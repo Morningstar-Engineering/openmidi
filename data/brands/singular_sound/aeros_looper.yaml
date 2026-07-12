@@ -420,6 +420,7 @@ cc:
     type: system
     value: 43
   - description: Cancel Stop Stops the song at the end of the longest loop in the current song part
+    max: 4
     min: 4
     name: Stop End of Loop
     type: system
