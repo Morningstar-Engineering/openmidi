@@ -72,99 +72,104 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Bass Toggle Left
+  - name: Bass Toggle Left / Bass Toggle Center / Bass Toggle Right
     value: 21
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: Bass Toggle Center
-    value: 21
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: Bass Toggle Right
-    value: 21
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: Mids Toggle Left
+    group:
+      - name: Bass Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: Bass Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: Bass Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: Mids Toggle Left / Mids Toggle Center / Mids Toggle Right
     value: 22
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: Mids Toggle Center
-    value: 22
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: Mids Toggle Right
-    value: 22
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: LPF Toggle Left
+    group:
+      - name: Mids Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: Mids Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: Mids Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: LPF Toggle Left / LPF Toggle Center / LPF Toggle Right
     value: 23
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: LPF Toggle Center
-    value: 23
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: LPF Toggle Right
-    value: 23
-    description: ''
-    type: System
-    min: 3
-    max: 3
+    group:
+      - name: LPF Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: LPF Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: LPF Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
   - name: Exp
     value: 100
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Bypass Switch: Bypass Pedal'
+  - name: 'Bypass Switch: Bypass Pedal / Bypass Switch: Engage last saved preset'
     value: 102
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Bypass Switch: Engage last saved preset'
-    value: 102
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Bypass Switch: Bypass pedal and drive'
+    group:
+      - name: 'Bypass Switch: Bypass Pedal'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Bypass Switch: Engage last saved preset'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+  - name: 'Bypass Switch: Bypass pedal and drive / Bypass Switch: Engage Pedal and Drive circuit / Bypass Switch: Engage Drive, Bypass Pedal / Bypass Switch: Engage Pedal, Bypass Drive'
     value: 103
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Bypass Switch: Engage Pedal and Drive circuit'
-    value: 103
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Bypass Switch: Engage Drive, Bypass Pedal'
-    value: 103
-    description: ''
-    type: System
-    min: 85
-    max: 85
-  - name: 'Bypass Switch: Engage Pedal, Bypass Drive'
-    value: 103
-    description: ''
-    type: System
-    min: 45
-    max: 45
+    group:
+      - name: 'Bypass Switch: Bypass pedal and drive'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Bypass Switch: Engage Pedal and Drive circuit'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Bypass Switch: Engage Drive, Bypass Pedal'
+        description: ''
+        min: 85
+        max: 85
+        type: System
+      - name: 'Bypass Switch: Engage Pedal, Bypass Drive'
+        description: ''
+        min: 45
+        max: 45
+        type: System

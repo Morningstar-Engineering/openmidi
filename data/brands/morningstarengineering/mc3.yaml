@@ -14,117 +14,182 @@ pc:
     Send PC#0 to PC#29 to access Banks 1 - 30.
 
 cc:
-  - name: 'Bank Up'
+  - name: Bank Up
     value: 0
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Bank Down'
+  - name: Bank Down
     value: 1
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Set Toggle (All Presets)'
+  - name: Set Toggle (All Presets) / Set Toggle (Individual Presets)
     value: 2
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Set Toggle (Individual Presets)'
-    value: 2
-    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
-    type: System
-    min: 0
-    max: 11
-  - name: 'Clear Toggle (All Presets)'
+    description: CC Value 0 sets Preset A, 1 sets Preset B and so on
+    group:
+      - name: Set Toggle (All Presets)
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: Set Toggle (Individual Presets)
+        description: CC Value 0 sets Preset A, 1 sets Preset B and so on
+        min: 0
+        max: 11
+        type: System
+  - name: Clear Toggle (All Presets) / Clear Toggle (Individual Presets)
     value: 3
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Clear Toggle (Individual Presets)'
-    value: 3
-    description: 'CC Value 0 clears Preset A, 1 clears Preset B and so on'
-    type: System
-    min: 0
-    max: 11
-  - name: 'Page Toggle'
+    description: CC Value 0 clears Preset A, 1 clears Preset B and so on
+    group:
+      - name: Clear Toggle (All Presets)
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: Clear Toggle (Individual Presets)
+        description: CC Value 0 clears Preset A, 1 clears Preset B and so on
+        min: 0
+        max: 11
+        type: System
+  - name: Page Toggle
     value: 4
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Set MIDI Clock BPM MSB'
+  - name: Set MIDI Clock BPM MSB
     value: 5
-    description: 'Sets the MSB 2 bits for the MIDI Clock'
+    description: Sets the MSB 2 bits for the MIDI Clock
     type: System
     min: 0
     max: 127
-  - name: 'Set MIDI Clock BPM LSB'
+  - name: Set MIDI Clock BPM LSB
     value: 6
-    description: 'Sets the LSB 7 bits for the MIDI Clock'
+    description: Sets the LSB 7 bits for the MIDI Clock
     type: System
     min: 0
     max: 127
-  - name: 'Looper Mode'
+  - name: Looper Mode
     value: 7
-    description: '0 = Toggle Looper Mode, 1 = Engage, 2 = Disengage'
+    description: ''
     type: System
-    min: 0
-    max: 2
-  - name: 'MIDI Clock Tap'
+    group:
+      - name: Toggle Looper Mode
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 1
+        max: 1
+      - name: Disengage
+        description: ''
+        min: 2
+        max: 2
+  - name: MIDI Clock Tap
     value: 8
-    description: 'Engages the Tap Tempo function on the MIDI Clock'
+    description: Engages the Tap Tempo function on the MIDI Clock
     type: System
     min: 0
     max: 127
-  - name: 'Jump to last bank'
+  - name: Jump to last bank
     value: 9
-    description: '0 = Ignore Bank Presets, 127 = Execute Bank Presets'
+    description: ''
     type: System
-    min: 0
-    max: 127
-  - name: 'Engage Preset A'
+    group:
+      - name: Ignore Bank Presets
+        description: ''
+        min: 0
+        max: 0
+      - name: Execute Bank Presets
+        description: ''
+        min: 127
+        max: 127
+  - name: Engage Preset A
     value: 10
-    description: 'Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll'
+    description: ''
     type: System
-    min: 0
-    max: 10
-  - name: 'Engage Preset B'
+    group:
+      - name: Do Nothing
+        description: ''
+        min: 0
+        max: 0
+      - name: On Press
+        description: ''
+        min: 1
+        max: 1
+      - name: On Release
+        description: ''
+        min: 2
+        max: 2
+      - name: On Long Press
+        description: ''
+        min: 3
+        max: 3
+      - name: On Long Press Release
+        description: ''
+        min: 4
+        max: 4
+      - name: On Double Tap
+        description: ''
+        min: 5
+        max: 5
+      - name: On Double Tap Release
+        description: ''
+        min: 6
+        max: 6
+      - name: On Double Tap Hold
+        description: ''
+        min: 7
+        max: 7
+      - name: On Double Tap Release
+        description: ''
+        min: 8
+        max: 8
+      - name: On Release All
+        description: ''
+        min: 9
+        max: 9
+      - name: On Long Press Scroll
+        description: ''
+        min: 10
+        max: 10
+  - name: Engage Preset B
     value: 11
     description: ''
     type: System
     min: 0
     max: 10
-  - name: 'Engage Preset C'
+  - name: Engage Preset C
     value: 12
     description: ''
     type: System
     min: 0
     max: 10
-  - name: 'Engage Preset D'
+  - name: Engage Preset D
     value: 13
     description: ''
     type: System
     min: 0
     max: 10
-  - name: 'Engage Preset E'
+  - name: Engage Preset E
     value: 14
     description: ''
     type: System
     min: 0
     max: 10
-  - name: 'Engage Preset F'
+  - name: Engage Preset F
     value: 15
     description: ''
     type: System
     min: 0
     max: 10
-  - name: 'Engage Expression 1'
+  - name: Engage Expression 1
     value: 51
-    description: 'Engages Expression Preset 1'
+    description: Engages Expression Preset 1
     type: System
     min: 0
     max: 127

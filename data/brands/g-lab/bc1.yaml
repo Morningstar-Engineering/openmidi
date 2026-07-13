@@ -16,83 +16,85 @@ pc:
     PC4 -> COMP B ON
     PC5 -> COMP C ON
     PC6 -> SELECTED COMP ON
-cc: 
-  - name: COMP OFF
+cc:
+  - name: COMP OFF / COMP ON
     value: 108
     description: ''
-    type: Parameter 
-    min: 0
-    max: 63
-  - name: COMP ON
-    value: 108
-    description: ''
-    type: Parameter
-    min: 64
-    max: 127
-  - name: SELECT COMP A
+    group:
+      - name: COMP OFF
+        description: ''
+        min: 0
+        max: 63
+        type: Parameter
+      - name: COMP ON
+        description: ''
+        min: 64
+        max: 127
+        type: Parameter
+  - name: SELECT COMP A / SELECT COMP B
     value: 109
     description: ''
-    type: Parameter 
-    min: 0
-    max: 63
-  - name: SELECT COMP B
-    value: 109
-    description: ''
-    type: Parameter 
-    min: 64
-    max: 127
-  - name: SELECT COMP A
+    group:
+      - name: SELECT COMP A
+        description: ''
+        min: 0
+        max: 63
+        type: Parameter
+      - name: SELECT COMP B
+        description: ''
+        min: 64
+        max: 127
+        type: Parameter
+  - name: SELECT COMP A / SELECT COMP B / SELECT COMP C
     value: 110
     description: ''
-    type: Parameter 
-    min: 1
-    max: 1
-  - name: SELECT COMP B
-    value: 110
-    description: ''
-    type: Parameter 
-    min: 2
-    max: 2
-  - name: SELECT COMP C
-    value: 110
-    description: ''
-    type: Parameter 
-    min: 3
-    max: 3
-  - name: BYPASS ON
+    group:
+      - name: SELECT COMP A
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: SELECT COMP B
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: SELECT COMP C
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: BYPASS ON / BUFFER ON / COMP A ON / COMP B ON / COMP C ON / SEL COMP ON
     value: 111
     description: ''
-    type: Parameter 
-    min: 1
-    max: 1
-  - name: BUFFER ON
-    value: 111
-    description: ''
-    type: Parameter 
-    min: 2
-    max: 2
-  - name: COMP A ON
-    value: 111
-    description: ''
-    type: Parameter 
-    min: 3
-    max: 3
-  - name: COMP B ON
-    value: 111
-    description: ''
-    type: Parameter 
-    min: 4
-    max: 4
-  - name: COMP C ON
-    value: 111
-    description: ''
-    type: Parameter 
-    min: 5
-    max: 5
-  - name: SEL COMP ON
-    value: 111
-    description: ''
-    type: Parameter 
-    min: 6
-    max: 6
-
+    group:
+      - name: BYPASS ON
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: BUFFER ON
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: COMP A ON
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+      - name: COMP B ON
+        description: ''
+        min: 4
+        max: 4
+        type: Parameter
+      - name: COMP C ON
+        description: ''
+        min: 5
+        max: 5
+        type: Parameter
+      - name: SEL COMP ON
+        description: ''
+        min: 6
+        max: 6
+        type: Parameter

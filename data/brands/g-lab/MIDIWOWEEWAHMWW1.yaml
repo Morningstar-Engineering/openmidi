@@ -13,42 +13,50 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: BASS
-    value: '104'
-    description: LOW
-    min: 0
-    max: '63'
-  - name: BASS
-    value: '104'
-    description: HI
-    min: '64'
-    max: 127
+    value: 104
+    description: LOW; HI
+    group:
+      - name: BASS
+        description: LOW
+        min: 0
+        max: 63
+      - name: BASS
+        description: HI
+        min: 64
+        max: 127
   - name: DEEP
-    value: '105'
-    description: LOW
-    min: 0
-    max: '63'
-  - name: DEEP
-    value: '105'
-    description: HI
-    min: '64'
-    max: 127
+    value: 105
+    description: LOW; HI
+    group:
+      - name: DEEP
+        description: LOW
+        min: 0
+        max: 63
+      - name: DEEP
+        description: HI
+        min: 64
+        max: 127
   - name: Q FACT.
-    value: '106'
-    description: LOW
-    min: 0
-    max: '63'
-  - name: Q FACT.
-    value: '106'
-    description: HI
-    min: '64'
-    max: 127
+    value: 106
+    description: LOW; HI
+    group:
+      - name: Q FACT.
+        description: LOW
+        min: 0
+        max: 63
+      - name: Q FACT.
+        description: HI
+        min: 64
+        max: 127
   - name: VOLUME
-    value: '107'
-    description: LOW
-    min: 0
-    max: '63'
-  - name: VOLUME
-    value: '107'
-    description: HI
-    min: '64'
-    max: 127
+    value: 107
+    description: LOW; HI
+    group:
+      - name: VOLUME
+        description: LOW
+        min: 0
+        max: 63
+      - name: VOLUME
+        description: HI
+        min: 64
+        max: 127

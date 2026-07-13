@@ -14,13 +14,15 @@ pc:
 phantom_power: unknown
 midi_mapping: not applicable
 cc:
-  - name: 'off'
-    value: '102'
-    description: 'disengage loop'
-    min: 0
-    max: 63
-  - name: 'on'
-    value: '102'
-    description: 'engage loop'
-    min: 64
-    max: 127
+  - name: off / on
+    value: 102
+    description: disengage loop; engage loop
+    group:
+      - name: 'off'
+        description: disengage loop
+        min: 0
+        max: 63
+      - name: 'on'
+        description: engage loop
+        min: 64
+        max: 127

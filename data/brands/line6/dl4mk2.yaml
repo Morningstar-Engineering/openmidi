@@ -39,178 +39,347 @@ pc:
 
 cc:
   - name: Delay Model Select
-    value: '1'
-    description: |-
-      MkII Delays:
-      0 = Vintage Digital
-      1 = Crisscross
-      2 = Euclidean
-      3 = Dual Delay
-      4 = Pitch Echo
-      5 = ADT
-      6 = Ducked
-      7 = Harmony
-      8 = Heliosphere
-      9 = Transistor
-      10 = Cosmos
-      11 = Multi Pass
-      12 = Adriatic
-      13 = Elephant Man
-      14 = Glitch
-  
-      Legacy Delays:
-      15 = Digital
-      16 = Digital w/ Mod
-      17 = Echo Platter
-      18 = Stereo
-      19 = Ping Pong
-      20 = Reverse
-      21 = Dynamic
-      22 = Auto-Vol
-      23 = Tube Echo
-      24 = Tape Echo
-      25 = Multi-Head
-      26 = Sweep
-      27 = Analog
-      28 = Analog Mod
-      29 = Lo Res Delay
-    min: 0
-    max: '29'
+    value: 1
+    description: ''
+    group:
+      - name: Vintage Digital
+        description: ''
+        min: 0
+        max: 0
+      - name: Crisscross
+        description: ''
+        min: 1
+        max: 1
+      - name: Euclidean
+        description: ''
+        min: 2
+        max: 2
+      - name: Dual Delay
+        description: ''
+        min: 3
+        max: 3
+      - name: Pitch Echo
+        description: ''
+        min: 4
+        max: 4
+      - name: ADT
+        description: ''
+        min: 5
+        max: 5
+      - name: Ducked
+        description: ''
+        min: 6
+        max: 6
+      - name: Harmony
+        description: ''
+        min: 7
+        max: 7
+      - name: Heliosphere
+        description: ''
+        min: 8
+        max: 8
+      - name: Transistor
+        description: ''
+        min: 9
+        max: 9
+      - name: Cosmos
+        description: ''
+        min: 10
+        max: 10
+      - name: Multi Pass
+        description: ''
+        min: 11
+        max: 11
+      - name: Adriatic
+        description: ''
+        min: 12
+        max: 12
+      - name: Elephant Man
+        description: ''
+        min: 13
+        max: 13
+      - name: Glitch
+        description: ''
+        min: 14
+        max: 14
+      - name: Digital
+        description: ''
+        min: 15
+        max: 15
+      - name: Digital w/ Mod
+        description: ''
+        min: 16
+        max: 16
+      - name: Echo Platter
+        description: ''
+        min: 17
+        max: 17
+      - name: Stereo
+        description: ''
+        min: 18
+        max: 18
+      - name: Ping Pong
+        description: ''
+        min: 19
+        max: 19
+      - name: Reverse
+        description: ''
+        min: 20
+        max: 20
+      - name: Dynamic
+        description: ''
+        min: 21
+        max: 21
+      - name: Auto-Vol
+        description: ''
+        min: 22
+        max: 22
+      - name: Tube Echo
+        description: ''
+        min: 23
+        max: 23
+      - name: Tape Echo
+        description: ''
+        min: 24
+        max: 24
+      - name: Multi-Head
+        description: ''
+        min: 25
+        max: 25
+      - name: Sweep
+        description: ''
+        min: 26
+        max: 26
+      - name: Analog
+        description: ''
+        min: 27
+        max: 27
+      - name: Analog Mod
+        description: ''
+        min: 28
+        max: 28
+      - name: Lo Res Delay
+        description: ''
+        min: 29
+        max: 29
   - name: Reverb Model Select
-    value: '2'
-    description: |-
-      0 = Room
-      1 = Searchlights
-      2 = Particle Verb
-      3 = Double Tank
-      4 = Octo
-      5 = Tile
-      6 = Ducking
-      7 = Plateaux
-      8 = Cave
-      9 = Plate
-      10 = Ganymede
-      11 = Chamber
-      12 = Hot Springs
-      13 = Hall
-      14 = Glitz
-      15 = Reverb Off
-    min: 0
-    max: '15'
+    value: 2
+    description: ''
+    group:
+      - name: Room
+        description: ''
+        min: 0
+        max: 0
+      - name: Searchlights
+        description: ''
+        min: 1
+        max: 1
+      - name: Particle Verb
+        description: ''
+        min: 2
+        max: 2
+      - name: Double Tank
+        description: ''
+        min: 3
+        max: 3
+      - name: Octo
+        description: ''
+        min: 4
+        max: 4
+      - name: Tile
+        description: ''
+        min: 5
+        max: 5
+      - name: Ducking
+        description: ''
+        min: 6
+        max: 6
+      - name: Plateaux
+        description: ''
+        min: 7
+        max: 7
+      - name: Cave
+        description: ''
+        min: 8
+        max: 8
+      - name: Plate
+        description: ''
+        min: 9
+        max: 9
+      - name: Ganymede
+        description: ''
+        min: 10
+        max: 10
+      - name: Chamber
+        description: ''
+        min: 11
+        max: 11
+      - name: Hot Springs
+        description: ''
+        min: 12
+        max: 12
+      - name: Hall
+        description: ''
+        min: 13
+        max: 13
+      - name: Glitz
+        description: ''
+        min: 14
+        max: 14
+      - name: Reverb Off
+        description: ''
+        min: 15
+        max: 15
   - name: Emulates Expression pedal
-    value: '3'
-    description: '0-127'
+    value: 3
+    description: 0-127
     min: 0
-    max: '127'
-  - name: Preset Engage
-    value: '4'
-    description: '0-63: Enables preset (Bypass Off)'
-    min: 0
-    max: '63'
-  - name: Preset Bypass
-    value: '4'
-    description: '64-127: Bypasses preset (Bypass On)'
-    min: '64'
-    max: '127'
+    max: 127
+  - name: Preset Engage / Preset Bypass
+    value: 4
+    description: '0-63: Enables preset (Bypass Off); 64-127: Bypasses preset (Bypass On)'
+    group:
+      - name: Preset Engage
+        description: '0-63: Enables preset (Bypass Off)'
+        min: 0
+        max: 63
+      - name: Preset Bypass
+        description: '64-127: Bypasses preset (Bypass On)'
+        min: 64
+        max: 127
   - name: Classic Looper Mode On/Off
-    value: '9'
-    description: '0-63 = Off, 64-127 = On'
+    value: 9
+    description: 0-63 = Off, 64-127 = On
     min: 0
-    max: '127'
+    max: 127
   - name: Delay Time
-    value: '11'
-    description: '0-127 = 0-100%'
+    value: 11
+    description: 0-127 = 0-100%
     min: 0
-    max: '127'
+    max: 127
   - name: Time Subdivisions
-    value: '12'
-    description: |
-      0 = 1/8 Triplet
-      1 = 1/8
-      2 = 1/8 Dotted
-      3 = 1/4 Triplet
-      4 = 1/4
-      5 = 1/4 Dotted
-      6 = 1/2 Triplet
-      7 = 1/2
-      8 = 1/2 Dotted
-    min: 0
-    max: '8'
+    value: 12
+    description: ''
+    group:
+      - name: 1/8 Triplet
+        description: ''
+        min: 0
+        max: 0
+      - name: 1/8
+        description: ''
+        min: 1
+        max: 1
+      - name: 1/8 Dotted
+        description: ''
+        min: 2
+        max: 2
+      - name: 1/4 Triplet
+        description: ''
+        min: 3
+        max: 3
+      - name: 1/4
+        description: ''
+        min: 4
+        max: 4
+      - name: 1/4 Dotted
+        description: ''
+        min: 5
+        max: 5
+      - name: 1/2 Triplet
+        description: ''
+        min: 6
+        max: 6
+      - name: 1/2
+        description: ''
+        min: 7
+        max: 7
+      - name: 1/2 Dotted
+        description: ''
+        min: 8
+        max: 8
   - name: Delay Repeats (Feedback)
-    value: '13'
-    description: '0-127'
+    value: 13
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Delay Tweak
-    value: '14'
-    description: '0-127'
+    value: 14
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Delay Tweez
-    value: '15'
-    description: '0-127'
+    value: 15
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Delay/Looper Mix Knob
-    value: '16'
-    description: '0-127'
+    value: 16
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Reverb Decay
-    value: '17'
-    description: '0-127'
+    value: 17
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Reverb Predelay/Diffusion
-    value: '18'
-    description: '0-127'
+    value: 18
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Reverb-Delay Routing
-    value: '19'
-    description: |
-      0 = Reverb before delay
-      1 = Reverb and delay in parallel
-      2 = Reverb after delay
-    min: 0
-    max: '2'
+    value: 19
+    description: ''
+    group:
+      - name: Reverb before delay
+        description: ''
+        min: 0
+        max: 0
+      - name: Reverb and delay in parallel
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb after delay
+        description: ''
+        min: 2
+        max: 2
   - name: Reverb Mix (DSP Dry Path) / Reverb Level (Analog Dry Level)
-    value: '20'
-    description: '0-127'
+    value: 20
+    description: 0-127
     min: 0
-    max: '127'
+    max: 127
   - name: Tap Tempo
-    value: '64'
-    description: '64-127'
-    min: '64'
-    max: '127'
+    value: 64
+    description: 64-127
+    min: 64
+    max: 127
   - name: Record/Overdub
-    value: '60'
-    description: '0-63 = Overdub, 64-127 = Record'
+    value: 60
+    description: 0-63 = Overdub, 64-127 = Record
     min: 0
-    max: '127'
+    max: 127
   - name: Play/Stop
-    value: '61'
-    description: '0-63 = Stop, 64-127 = Play'
+    value: 61
+    description: 0-63 = Stop, 64-127 = Play
     min: 0
-    max: '127'
+    max: 127
   - name: Play Once
-    value: '62'
-    description: '64-127'
-    min: '64'
-    max: '127'
+    value: 62
+    description: 64-127
+    min: 64
+    max: 127
   - name: Undo/Redo the most recent overdub recording
-    value: '63'
-    description: '0-63 = Undo, 64-127 = Redo'
+    value: 63
+    description: 0-63 = Undo, 64-127 = Redo
     min: 0
-    max: '127'
+    max: 127
   - name: Forward/Reverse
-    value: '65'
-    description: '0-63 = Forward, 64-127 = Reverse'
+    value: 65
+    description: 0-63 = Forward, 64-127 = Reverse
     min: 0
-    max: '127'
+    max: 127
   - name: Full Speed/Half Speed
-    value: '66'
+    value: 66
     description: 0-63 = Full, 64-127 = Half
     min: 0
-    max: '127'
+    max: 127

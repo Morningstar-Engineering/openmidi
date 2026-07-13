@@ -2,81 +2,81 @@ brand: Chase Bliss Audio
 model: Ayahuasca
 email: 'midi@chasebliss.com'
 cc:
-- description: ''
-  max: 127
-  min: 0
-  name: Output
-  value: 14
-- description: ''
-  max: 127
-  min: 0
-  name: Input
-  value: 15
-- description: ''
-  max: 127
-  min: 0
-  name: Color
-  value: 16
-- description: ''
-  max: 127
-  min: 0
-  name: Rate
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: Depth
-  value: 18
-- description: ''
-  max: 0
-  min: 0
-  name: 'Note Division: Whole'
-  value: 21
-- description: ''
-  max: 1
-  min: 1
-  name: 'Note Division: 1/2'
-  value: 21
-- description: ''
-  max: 2
-  min: 2
-  name: 'Note Division: 1/4t'
-  value: 21
-- description: ''
-  max: 3
-  min: 3
-  name: 'Note Division: 1/4'
-  value: 21
-- description: ''
-  max: 4
-  min: 4
-  name: 'Note Division: 1/8'
-  value: 21
-- description: ''
-  max: 5
-  min: 5
-  name: 'Note Division: 1/16'
-  value: 21
-- description: ''
-  max: 127
-  min: 127
-  name: Tap Switch
-  value: 93
-- description: ''
-  max: 127
-  min: 0
-  name: Expression
-  value: 100
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: Engage
-  value: 102
+  - description: ''
+    max: 127
+    min: 0
+    name: Output
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Input
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Color
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Rate
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: Depth
+    value: 18
+  - name: 'Note Division: Whole / Note Division: 1/2 / Note Division: 1/4t / Note Division: 1/4 / Note Division: 1/8 / Note Division: 1/16'
+    value: 21
+    description: ''
+    group:
+      - name: 'Note Division: Whole'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Note Division: 1/2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Note Division: 1/4t'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Note Division: 1/4'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Note Division: 1/8'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Note Division: 1/16'
+        description: ''
+        min: 5
+        max: 5
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Switch
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 100
+  - name: Bypass / Engage
+    value: 102
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
 device_name: Ayahuasca
 midi_channel:
   instructions: ''

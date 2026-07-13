@@ -13,124 +13,217 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Repeats Knob
-    value: '12'
+    value: 12
     description: ''
     min: 0
     max: 127
   - name: Time Knob
-    value: '13'
+    value: 13
     description: ''
     min: 0
     max: 127
   - name: Mix Knob
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: LFO Speed Knob
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Modulation Depth Knob
-    value: '16'
+    value: 16
     description: ''
     min: 0
     max: 127
   - name: Time Button
-    value: '17'
-    description: |-
-      3 = Short
-      4 = Med
-      5 = Long
-    min: 0
-    max: 127
+    value: 17
+    description: ''
+    group:
+      - name: Short
+        description: ''
+        min: 3
+        max: 3
+      - name: Med
+        description: ''
+        min: 4
+        max: 4
+      - name: Long
+        description: ''
+        min: 5
+        max: 5
   - name: SFX Button
-    value: '18'
-    description: |-
-      3 = Off
-      4 = Pong
-      5 = Halo
-      6 = Pong and Halo
-    min: 0
-    max: 127
+    value: 18
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 3
+        max: 3
+      - name: Pong
+        description: ''
+        min: 4
+        max: 4
+      - name: Halo
+        description: ''
+        min: 5
+        max: 5
+      - name: Pong and Halo
+        description: ''
+        min: 6
+        max: 6
   - name: Taps Button
-    value: '19'
-    description: |-
-      3 = First Tap Off
-      4 = First Tap 1
-      5 = First Tap 3/4
-      6 = First Tap 2/3
-      7 = First Tap 1/2
-      8 = First Tap PHI
-      9 = Second Tap Off
-      10 = Second Tap 1
-      11 = Second Tap 3/4
-      12 = Second Tap 2/3
-      13 = Second Tap 1/2
-      14 = Second Tap PHI
-      20 = Bit Crusher
-      9 = Crush Off
-      10 = Crush On
-    min: 0
-    max: 127
+    value: 19
+    description: ''
+    group:
+      - name: First Tap Off
+        description: ''
+        min: 3
+        max: 3
+      - name: First Tap 1
+        description: ''
+        min: 4
+        max: 4
+      - name: First Tap 3/4
+        description: ''
+        min: 5
+        max: 5
+      - name: First Tap 2/3
+        description: ''
+        min: 6
+        max: 6
+      - name: First Tap 1/2
+        description: ''
+        min: 7
+        max: 7
+      - name: First Tap PHI
+        description: ''
+        min: 8
+        max: 8
+      - name: Second Tap Off
+        description: ''
+        min: 9
+        max: 9
+      - name: Second Tap 1
+        description: ''
+        min: 10
+        max: 10
+      - name: Second Tap 3/4
+        description: ''
+        min: 11
+        max: 11
+      - name: Second Tap 2/3
+        description: ''
+        min: 12
+        max: 12
+      - name: Second Tap 1/2
+        description: ''
+        min: 13
+        max: 13
+      - name: Second Tap PHI
+        description: ''
+        min: 14
+        max: 14
+      - name: Bit Crusher
+        description: ''
+        min: 20
+        max: 20
   - name: Bypass Button
-    value: '21'
+    value: 21
     description: 3 = None
     min: 0
     max: 127
   - name: LFO Mod Button
-    value: '24'
-    description: |-
-      3 = Triangle
-      4 = Square
-      5 = Saw
-      6 = Random
-      7 = Super Triangle
-      8 = Super Square
-      9 = Super Saw
-      10 = Super Random
-    min: 0
-    max: 127
+    value: 24
+    description: ''
+    group:
+      - name: Triangle
+        description: ''
+        min: 3
+        max: 3
+      - name: Square
+        description: ''
+        min: 4
+        max: 4
+      - name: Saw
+        description: ''
+        min: 5
+        max: 5
+      - name: Random
+        description: ''
+        min: 6
+        max: 6
+      - name: Super Triangle
+        description: ''
+        min: 7
+        max: 7
+      - name: Super Square
+        description: ''
+        min: 8
+        max: 8
+      - name: Super Saw
+        description: ''
+        min: 9
+        max: 9
+      - name: Super Random
+        description: ''
+        min: 10
+        max: 10
   - name: Tap Tempo Footswitch
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Engage Footswitch
-    value: '27'
-    description: |-
-      3 = Explicitly Engaged
-      4 = Explicitly Not Engaged
-    min: 0
-    max: 127
+    value: 27
+    description: ''
+    group:
+      - name: Explicitly Engaged
+        description: ''
+        min: 3
+        max: 3
+      - name: Explicitly Not Engaged
+        description: ''
+        min: 4
+        max: 4
   - name: Jump Footswitch / Preset 1/2
-    value: '29'
+    value: 29
     description: ''
     min: 0
     max: 127
   - name: Freeze Footswitch / Preset 3/4
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: Loop Open Close
-    value: '31'
-    description: |-
-      1 = open; 1 = close.
+    value: 31
+    description: '1 = open; 1 = close.
+
       Send a momentary 1 to
+
       CC#31 to start a loop,
+
       then send another to
-      close that loop.
+
+      close that loop.'
     min: 0
     max: 127
   - name: Second Tap Volume
-    value: '76'
+    value: 76
     description: ''
     min: 0
     max: 127
   - name: Enable MIDI Clock In
-    value: '79'
-    description: 0=off; 1=on
-    min: 0
-    max: 127
+    value: 79
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'on'
+        description: ''
+        min: 1
+        max: 1

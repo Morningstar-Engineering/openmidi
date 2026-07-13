@@ -11,243 +11,253 @@ pc:
   description: ''
 cc:
   - name: Bank Down
-    value: '12'
+    value: 12
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: Bank Up
-    value: '13'
+    value: 13
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: Volume
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Room
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Gain
-    value: '16'
+    value: 16
     description: ''
     min: 0
     max: 127
   - name: Bass
-    value: '17'
+    value: 17
     description: ''
     min: 0
     max: 127
   - name: Mids
-    value: '18'
+    value: 18
     description: ''
     min: 0
     max: 127
   - name: Treble
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Gate
-    value: '20'
+    value: 20
     description: ''
     min: 0
     max: 127
-  - name: FX Loop OFF
-    value: '21'
-    description: |+
+  - name: FX Loop OFF / FX Loop ON / Disable Boost/FX
+    value: 21
+    description: ''
+    group:
+      - name: FX Loop OFF
+        description: '
 
-    min: 0
-    max: '0'
-  - name: FX Loop ON
-    value: '21'
-    description: ''
-    min: '127'
-    max: 127
-  - name: Disable Boost/FX
-    value: '21'
-    description: ''
-    min: 0
-    max: '0'
+          '
+        min: 0
+        max: 0
+      - name: FX Loop ON
+        description: ''
+        min: 127
+        max: 127
+      - name: Disable Boost/FX
+        description: ''
+        min: 0
+        max: 0
   - name: FX Loop Toggle
-    value: '22'
+    value: 22
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: Enable Boost/FX
-    value: '25'
+    value: 25
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: Boost/FX Gain
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Boost/FX Bass
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Boost/FX Mids
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Boost/FX Treble
-    value: '29'
+    value: 29
     description: ''
     min: 0
     max: 127
   - name: Toggle Boost/FX
-    value: '30'
+    value: 30
     description: ''
-    min: '127'
+    min: 127
     max: 127
-  - name: Disable Reverb
-    value: '35'
+  - name: Disable Reverb / Enable Reverb
+    value: 35
     description: ''
-    min: 0
-    max: '0'
-  - name: Enable Reverb
-    value: '35'
-    description: ''
-    min: '127'
-    max: 127
+    group:
+      - name: Disable Reverb
+        description: ''
+        min: 0
+        max: 0
+      - name: Enable Reverb
+        description: ''
+        min: 127
+        max: 127
   - name: Reverb Mix
-    value: '36'
+    value: 36
     description: ''
     min: 0
     max: 127
   - name: Toggle Reverb
-    value: '37'
+    value: 37
     description: ''
-    min: '127'
+    min: 127
     max: 127
-  - name: Disable Delay
-    value: '40'
+  - name: Disable Delay / Enable Delay
+    value: 40
     description: ''
-    min: 0
-    max: '0'
-  - name: Enable Delay
-    value: '40'
-    description: ''
-    min: '127'
-    max: 127
+    group:
+      - name: Disable Delay
+        description: ''
+        min: 0
+        max: 0
+      - name: Enable Delay
+        description: ''
+        min: 127
+        max: 127
   - name: Delay Mix
-    value: '41'
+    value: 41
     description: ''
     min: 0
     max: 127
   - name: Delay Time
-    value: '42'
+    value: 42
     description: ''
     min: 0
     max: 127
   - name: Delay Feedback
-    value: '43'
+    value: 43
     description: ''
     min: 0
     max: 127
   - name: Delay LFO Speed
-    value: '44'
+    value: 44
     description: ''
     min: 0
     max: 127
   - name: Delay LFO Depth
-    value: '45'
+    value: 45
     description: ''
     min: 0
     max: 127
   - name: Delay Highpass
-    value: '46'
+    value: 46
     description: ''
     min: 0
     max: 127
   - name: Delay Lowpass
-    value: '47'
+    value: 47
     description: ''
     min: 0
     max: 127
   - name: Toggle Delay
-    value: '48'
+    value: 48
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: TAP Tempo
-    value: '49'
+    value: 49
     description: ''
-    min: '127'
+    min: 127
     max: 127
-  - name: Disable Tremolo
-    value: '50'
-    description: |+
-    min: 0
-    max: '0'
-  - name: Enable Tremolo
-    value: '50'
+  - name: Disable Tremolo / Enable Tremolo
+    value: 50
     description: ''
-    min: '127'
-    max: 127
+    group:
+      - name: Disable Tremolo
+        description: ''
+        min: 0
+        max: 0
+      - name: Enable Tremolo
+        description: ''
+        min: 127
+        max: 127
   - name: Tremolo Depth
-    value: '51'
+    value: 51
     description: ''
     min: 0
     max: 127
   - name: Tremolo Speed
-    value: '52'
+    value: 52
     description: ''
     min: 0
     max: 127
   - name: Toggle Tremolo
-    value: '53'
+    value: 53
     description: ''
-    min: '127'
+    min: 127
     max: 127
   - name: Bass Frequency
-    value: '114'
+    value: 114
     description: ''
     min: 0
     max: 127
-  - name: Bass Q
-    value: '115'
+  - name: Bass Q / Mids Frequency
+    value: 115
     description: ''
-    min: 0
-    max: 127
+    group:
+      - name: Bass Q
+        description: ''
+        min: 0
+        max: 127
+      - name: Mids Frequency
+        description: ''
+        min: 0
+        max: 127
   - name: Mids Frequency
-    value: '115'
-    description: ''
-    min: 0
-    max: 127
-  - name: Mids Frequency
-    value: '116'
+    value: 116
     description: ''
     min: 0
     max: 127
   - name: Mids Q
-    value: '117'
+    value: 117
     description: ''
     min: 0
     max: 127
   - name: Treble Frequency
-    value: '118'
+    value: 118
     description: ''
     min: 0
     max: 127
   - name: Treble Q
-    value: '119'
+    value: 119
     description: ''
     min: 0
     max: 127
   - name: IR Highpass
-    value: '120'
+    value: 120
     description: ''
     min: 0
     max: 127
   - name: IR Lowpasw
-    value: '121'
+    value: 121
     description: ''
     min: 0
     max: 127

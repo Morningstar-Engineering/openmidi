@@ -15,405 +15,650 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Mix
-    value: '1'
+    value: 1
     description: ''
     min: 0
     max: 127
   - name: Dry Trim
-    value: '2'
+    value: 2
     description: ''
     min: 0
     max: 127
   - name: Wet Trim
-    value: '3'
+    value: 3
     description: ''
     min: 0
     max: 127
   - name: Expression Pedal
-    value: '4'
+    value: 4
     description: ''
     min: 0
     max: 127
   - name: Preamp Type
-    value: '5'
-    description: >-
-      0 to 25 = off ; 26 to 51 = volume pedal ; 52 to 76 = tube ; 77 to 102 =
-      vinyl ; 103 to 127 = wavefold ;
-    min: 0
-    max: 127
+    value: 5
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 25
+        max: 25
+      - name: volume pedal
+        description: ''
+        min: 51
+        max: 51
+      - name: tube
+        description: ''
+        min: 76
+        max: 76
+      - name: vinyl
+        description: ''
+        min: 102
+        max: 102
+      - name: wavefold
+        description: ''
+        min: 127
+        max: 127
   - name: Preamp Location
-    value: '6'
-    description: >-
-      0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ambience ; 96 to 127
-      = post ambience ;
-    min: 0
-    max: 127
+    value: 6
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre ambience
+        description: ''
+        min: 95
+        max: 95
+      - name: post ambience
+        description: ''
+        min: 127
+        max: 127
   - name: Gain
-    value: '7'
+    value: 7
     description: ''
     min: 0
     max: 127
   - name: Balance/Dust/Waveshape
-    value: '8'
+    value: 8
     description: ''
     min: 0
     max: 127
   - name: Level
-    value: '9'
+    value: 9
     description: ''
     min: 0
     max: 127
   - name: Ambience Type
-    value: '10'
-    description: 0 to 42 = off ; 43 to 85 = vhs delay ; 86 to 127 = vhs verb ;
-    min: 0
-    max: 127
+    value: 10
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 42
+        max: 42
+      - name: vhs delay
+        description: ''
+        min: 85
+        max: 85
+      - name: vhs verb
+        description: ''
+        min: 127
+        max: 127
   - name: Feedback/Decay
-    value: '11'
+    value: 11
     description: ''
     min: 0
     max: 127
   - name: Age/Ambience mod
-    value: '12'
+    value: 12
     description: ''
     min: 0
     max: 127
   - name: Ambience Lows
-    value: '13'
+    value: 13
     description: ''
     min: 0
     max: 127
   - name: Bypass
-    value: '14'
-    description: 0 to 63 = fx bypass ; 64 to 127 = fx enable ;
-    min: 0
-    max: 127
+    value: 14
+    description: ''
+    group:
+      - name: fx bypass
+        description: ''
+        min: 63
+        max: 63
+      - name: fx enable
+        description: ''
+        min: 127
+        max: 127
   - name: Time
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Play Speed
-    value: '16'
+    value: 16
     description: ''
     min: 0
     max: 127
   - name: Echo Left Division
-    value: '17'
+    value: 17
     description: ''
     min: 0
     max: 127
   - name: Echo Right Division
-    value: '18'
+    value: 18
     description: ''
     min: 0
     max: 127
   - name: Ambience + Echo mix
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Dust Amount
-    value: '20'
-    description: 0 to 42 = light ; 43 to 85 = medium ; 86 to 127 = heavy ;
-    min: 0
-    max: 127
+    value: 20
+    description: ''
+    group:
+      - name: light
+        description: ''
+        min: 42
+        max: 42
+      - name: medium
+        description: ''
+        min: 85
+        max: 85
+      - name: heavy
+        description: ''
+        min: 127
+        max: 127
   - name: Midi Clock
-    value: '21'
-    description: >-
-      0 to 42 = use global ; 43 to 85 = force listen ; 86 to 127 = force ignore
-      ;
-    min: 0
-    max: 127
+    value: 21
+    description: ''
+    group:
+      - name: use global
+        description: ''
+        min: 42
+        max: 42
+      - name: force listen
+        description: ''
+        min: 85
+        max: 85
+      - name: force ignore
+        description: ''
+        min: 127
+        max: 127
   - name: Sample Rate
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Bits
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Level
-    value: '24'
+    value: 24
     description: ''
     min: 0
     max: 127
   - name: Crush Location
-    value: '25'
-    description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
-    min: 0
-    max: 127
+    value: 25
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre
+        description: ''
+        min: 95
+        max: 95
+      - name: post
+        description: ''
+        min: 127
+        max: 127
   - name: Dry Blend (Crush)
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Top Right Knob Assignment
-    value: '27'
-    description: 0 to 63 = level ; 64 to 127 = glitch ;
-    min: 0
-    max: 127
+    value: 27
+    description: ''
+    group:
+      - name: level
+        description: ''
+        min: 63
+        max: 63
+      - name: glitch
+        description: ''
+        min: 127
+        max: 127
   - name: Bit Scaling
-    value: '28'
-    description: 0 to 63 = off ; 64 to 127 = on ;
-    min: 0
-    max: 127
+    value: 28
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 63
+        max: 63
+      - name: 'on'
+        description: ''
+        min: 127
+        max: 127
   - name: Mod Type
-    value: '30'
-    description: >-
-      0 to 21 = off ; 22 to 42 = ring mod ; 43 to 63 = div trem ; 64 to 85 =
-      tape mod ; 86 to 106 = freq shift ; 107 to 127 = vibe ;
-    min: 0
-    max: 127
+    value: 30
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 21
+        max: 21
+      - name: ring mod
+        description: ''
+        min: 42
+        max: 42
+      - name: div trem
+        description: ''
+        min: 63
+        max: 63
+      - name: tape mod
+        description: ''
+        min: 85
+        max: 85
+      - name: freq shift
+        description: ''
+        min: 106
+        max: 106
+      - name: vibe
+        description: ''
+        min: 127
+        max: 127
   - name: Mod Location
-    value: '31'
-    description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
-    min: 0
-    max: 127
+    value: 31
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre
+        description: ''
+        min: 95
+        max: 95
+      - name: post
+        description: ''
+        min: 127
+        max: 127
   - name: Mod Speed/Frequency
-    value: '32'
+    value: 32
     description: ''
     min: 0
     max: 127
   - name: Mod Depth/Width
-    value: '33'
+    value: 33
     description: ''
     min: 0
     max: 127
   - name: Mod Shape/Mode
-    value: '34'
+    value: 34
     description: ''
     min: 0
     max: 127
   - name: Mod Blend/Bias
-    value: '35'
+    value: 35
     description: ''
     min: 0
     max: 127
   - name: Mod Mix/Tracking
-    value: '36'
+    value: 36
     description: ''
     min: 0
     max: 127
   - name: Mod Note Div
-    value: '37'
+    value: 37
     description: ''
     min: 0
     max: 127
   - name: Mod Step 1
-    value: '38'
+    value: 38
     description: ''
     min: 0
     max: 127
   - name: Mod Step 2
-    value: '39'
+    value: 39
     description: ''
     min: 0
     max: 127
   - name: Mod Step 3
-    value: '40'
+    value: 40
     description: ''
     min: 0
     max: 127
   - name: Mod Step 4
-    value: '41'
+    value: 41
     description: ''
     min: 0
     max: 127
   - name: Mod Step 5
-    value: '42'
+    value: 42
     description: ''
     min: 0
     max: 127
   - name: Mod Step 6
-    value: '43'
+    value: 43
     description: ''
     min: 0
     max: 127
   - name: Mod Step 7
-    value: '44'
+    value: 44
     description: ''
     min: 0
     max: 127
   - name: Mod Step 8
-    value: '45'
+    value: 45
     description: ''
     min: 0
     max: 127
   - name: Pitch Type
-    value: '46'
-    description: >-
-      0 to 21 = off ; 22 to 42 = poly chroma ; 43 to 63 = otto tune ; 64 to 85 =
-      micro tune ; 86 to 106 = mono chroma ; 107 to 127 = lo-fi ;
-    min: 0
-    max: 127
+    value: 46
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 21
+        max: 21
+      - name: poly chroma
+        description: ''
+        min: 42
+        max: 42
+      - name: otto tune
+        description: ''
+        min: 63
+        max: 63
+      - name: micro tune
+        description: ''
+        min: 85
+        max: 85
+      - name: mono chroma
+        description: ''
+        min: 106
+        max: 106
+      - name: lo-fi
+        description: ''
+        min: 127
+        max: 127
   - name: Pitch Location
-    value: '47'
-    description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
-    min: 0
-    max: 127
+    value: 47
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre
+        description: ''
+        min: 95
+        max: 95
+      - name: post
+        description: ''
+        min: 127
+        max: 127
   - name: Pitch L
-    value: '48'
+    value: 48
     description: ''
     min: 0
     max: 127
   - name: Pitch R
-    value: '49'
+    value: 49
     description: ''
     min: 0
     max: 127
   - name: Pitch Mix
-    value: '50'
+    value: 50
     description: ''
     min: 0
     max: 127
   - name: Key
-    value: '51'
+    value: 51
     description: ''
     min: 0
     max: 127
   - name: Scale
-    value: '52'
+    value: 52
     description: ''
     min: 0
     max: 127
-  - name: 'Correct, Glide'
-    value: '53'
+  - name: Correct, Glide
+    value: 53
     description: ''
     min: 0
     max: 127
   - name: Filter Type
-    value: '54'
-    description: 0 - 42 = ladder ; 43 - 85 = state variable ; 86 - 127 = otto tron ;
-    min: 0
-    max: 127
+    value: 54
+    description: ''
+    group:
+      - name: ladder
+        description: ''
+        min: 42
+        max: 42
+      - name: state variable
+        description: ''
+        min: 85
+        max: 85
+      - name: otto tron
+        description: ''
+        min: 127
+        max: 127
   - name: Filter Location
-    value: '55'
-    description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
-    min: 0
-    max: 127
+    value: 55
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre
+        description: ''
+        min: 95
+        max: 95
+      - name: post
+        description: ''
+        min: 127
+        max: 127
   - name: Filter Frequency
-    value: '56'
+    value: 56
     description: ''
     min: 0
     max: 127
   - name: Filter Resonance
-    value: '57'
+    value: 57
     description: ''
     min: 0
     max: 127
   - name: Filter Typology
-    value: '58'
-    description: 0 - 42 = lowpass ; 43 - 85 = bandpass ; 86 - 127 = highpass ;
-    min: 0
-    max: 127
+    value: 58
+    description: ''
+    group:
+      - name: lowpass
+        description: ''
+        min: 42
+        max: 42
+      - name: bandpass
+        description: ''
+        min: 85
+        max: 85
+      - name: highpass
+        description: ''
+        min: 127
+        max: 127
   - name: Filter Noise/Mode
-    value: '59'
+    value: 59
     description: ''
     min: 0
     max: 127
   - name: Filter Sensitivity
-    value: '60'
+    value: 60
     description: ''
     min: 0
     max: 127
   - name: Glitch Type
-    value: '62'
-    description: >-
-      0 to 18 = off ; 19 to 36 = freeze ; 37 to 54 = stutter ; 55 to 73 = push
-      loop ; 74 to 93 = wikki wikki ; 92 to 109 = tape stop ; 110 to 127 =
-      stutter step ;
-    min: 0
-    max: 127
+    value: 62
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 18
+        max: 18
+      - name: freeze
+        description: ''
+        min: 36
+        max: 36
+      - name: stutter
+        description: ''
+        min: 54
+        max: 54
+      - name: push loop
+        description: ''
+        min: 73
+        max: 73
+      - name: wikki wikki
+        description: ''
+        min: 93
+        max: 93
+      - name: tape stop
+        description: ''
+        min: 109
+        max: 109
+      - name: stutter step
+        description: ''
+        min: 127
+        max: 127
   - name: Glitch Location
-    value: '63'
-    description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
-    min: 0
-    max: 127
+    value: 63
+    description: ''
+    group:
+      - name: pre + dry
+        description: ''
+        min: 31
+        max: 31
+      - name: dry
+        description: ''
+        min: 63
+        max: 63
+      - name: pre
+        description: ''
+        min: 95
+        max: 95
+      - name: post
+        description: ''
+        min: 127
+        max: 127
   - name: Glitch Mode
-    value: '64'
+    value: 64
     description: ''
     min: 0
     max: 127
   - name: Glitch Speed/Pitch
-    value: '65'
+    value: 65
     description: ''
     min: 0
     max: 127
   - name: Glitch Rate/Sub Div
-    value: '66'
+    value: 66
     description: ''
     min: 0
     max: 127
   - name: Glitch Gain
-    value: '67'
+    value: 67
     description: ''
     min: 0
     max: 127
   - name: Glitch Note Div
-    value: '68'
+    value: 68
     description: ''
     min: 0
     max: 127
   - name: Glitch Mix/Level
-    value: '69'
+    value: 69
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 1
-    value: '70'
+    value: 70
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 2
-    value: '71'
+    value: 71
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 3
-    value: '72'
+    value: 72
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 4
-    value: '73'
+    value: 73
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 5
-    value: '74'
+    value: 74
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 6
-    value: '75'
+    value: 75
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 7
-    value: '76'
+    value: 76
     description: ''
     min: 0
     max: 127
   - name: Glitch Step 8
-    value: '77'
+    value: 77
     description: ''
     min: 0
     max: 127
   - name: Tap Tempo
-    value: '99'
+    value: 99
     description: press = 127
     min: 0
     max: 127
   - name: Toggle Tuner Mode
-    value: '117'
+    value: 117
     description: press = 127
     min: 0
     max: 127
   - name: Trigger Hold Modifier
-    value: '118'
+    value: 118
     description: press = 127
     min: 0
     max: 127

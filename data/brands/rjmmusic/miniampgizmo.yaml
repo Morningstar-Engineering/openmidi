@@ -13,42 +13,42 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Switch 1 on/off
-    value: '88'
-    description: 'Toggle switch 1 on or off. 0-63 is on, 64-127 is off.'
+    value: 88
+    description: Toggle switch 1 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 2 on/off
-    value: '89'
-    description: 'Toggle switch 2 on or off. 0-63 is on, 64-127 is off.'
+    value: 89
+    description: Toggle switch 2 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 3 on/off
-    value: '90'
-    description: 'Toggle switch 3 on or off. 0-63 is on, 64-127 is off.'
+    value: 90
+    description: Toggle switch 3 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 4 on/off
-    value: '91'
-    description: 'Toggle switch 4 on or off. 0-63 is on, 64-127 is off.'
+    value: 91
+    description: Toggle switch 4 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 5 on/off
-    value: '92'
-    description: 'Toggle switch 5 on or off. 0-63 is on, 64-127 is off.'
+    value: 92
+    description: Toggle switch 5 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 6 on/off
-    value: '93'
-    description: 'Toggle switch 6 on or off. 0-63 is on, 64-127 is off.'
+    value: 93
+    description: Toggle switch 6 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 7 on/off
-    value: '94'
-    description: 'Toggle switch 7 on or off. 0-63 is on, 64-127 is off.'
+    value: 94
+    description: Toggle switch 7 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127
   - name: Switch 8 on/off
-    value: '95'
-    description: 'Toggle switch 8 on or off. 0-63 is on, 64-127 is off.'
+    value: 95
+    description: Toggle switch 8 on or off. 0-63 is on, 64-127 is off.
     min: 0
     max: 127

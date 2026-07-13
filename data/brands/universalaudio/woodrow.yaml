@@ -12,79 +12,154 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Output
-    value: '7'
+    value: 7
     description: ''
     min: 0
     max: 127
   - name: FS Left
-    value: '12'
-    description: 1 = Switch Down ; 0 = Switch Up ;
-    min: 0
-    max: '1'
+    value: 12
+    description: ''
+    group:
+      - name: Switch Down
+        description: ''
+        min: 1
+        max: 1
+      - name: Switch Up
+        description: ''
+        min: 0
+        max: 0
   - name: FS Right
-    value: '13'
-    description: 1 = Switch Down ; 0 = Switch Up ;
-    min: 0
-    max: '1'
+    value: 13
+    description: ''
+    group:
+      - name: Switch Down
+        description: ''
+        min: 1
+        max: 1
+      - name: Switch Up
+        description: ''
+        min: 0
+        max: 0
   - name: Cab Up
-    value: '14'
+    value: 14
     description: Cycles up through Cabs
     min: 0
-    max: '1'
+    max: 1
   - name: Cab Down
-    value: '15'
+    value: 15
     description: Cycles down through Cabs
     min: 0
-    max: '1'
+    max: 1
   - name: Store
-    value: '16'
-    description: '1 = long press stores preset, 0 = Cancel ;'
-    min: 0
-    max: '1'
+    value: 16
+    description: ''
+    group:
+      - name: long press stores preset
+        description: ''
+        min: 1
+        max: 1
+      - name: Cancel
+        description: ''
+        min: 0
+        max: 0
   - name: Boost Select
-    value: '17'
-    description: '0 = KP-3k, 1 = Stock, 2 = EP-III ;'
-    min: 0
-    max: '2'
+    value: 17
+    description: ''
+    group:
+      - name: KP-3k
+        description: ''
+        min: 0
+        max: 0
+      - name: Stock
+        description: ''
+        min: 1
+        max: 1
+      - name: EP-III
+        description: ''
+        min: 2
+        max: 2
   - name: Cab Select
-    value: '18'
-    description: >-
-      0 = Blu15, 1 = JP12, 2 = GB25, 3 = Vee30, 4 = B-Man, 5 = JP120, 6 =
-      External ;
-    min: 0
-    max: '6'
+    value: 18
+    description: ''
+    group:
+      - name: Blu15
+        description: ''
+        min: 0
+        max: 0
+      - name: JP12
+        description: ''
+        min: 1
+        max: 1
+      - name: GB25
+        description: ''
+        min: 2
+        max: 2
+      - name: Vee30
+        description: ''
+        min: 3
+        max: 3
+      - name: B-Man
+        description: ''
+        min: 4
+        max: 4
+      - name: JP120
+        description: ''
+        min: 5
+        max: 5
+      - name: External
+        description: ''
+        min: 6
+        max: 6
   - name: Bypass
-    value: '19'
-    description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
-    min: 0
-    max: '2'
+    value: 19
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Unbypass Left FS
+        description: ''
+        min: 1
+        max: 1
+      - name: Unbypass Right FS
+        description: ''
+        min: 2
+        max: 2
   - name: Instrument Volume
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Mic Volume
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Room
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: Tone
-    value: '31'
+    value: 31
     description: ''
     min: 0
     max: 127
   - name: Boost Enable
-    value: '40'
-    description: '0 = Off, 1 = On ;'
-    min: 0
-    max: '1'
+    value: 40
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Boost Gain
-    value: '41'
+    value: 41
     description: ''
     min: 0
     max: 127

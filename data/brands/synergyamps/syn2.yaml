@@ -12,37 +12,39 @@ pc:
 
 cc:
   - name: Select Channel 1A
-    value: '56'
+    value: 56
     description: ''
     min: 64
-    max: '127'
+    max: 127
   - name: Select Channel 1B
-    value: '57'
+    value: 57
     description: ''
     min: 64
-    max: '127'
+    max: 127
   - name: Select Channel 2A
-    value: '58'
+    value: 58
     description: ''
     min: 64
-    max: '127'
+    max: 127
   - name: Select Channel 2B
-    value: '59'
+    value: 59
     description: ''
     min: 64
-    max: '127'
+    max: 127
   - name: Bypass
-    value: '60'
+    value: 60
     description: ''
     min: 0
-    max: '127'
-  - name: Unmute
-    value: '64'
+    max: 127
+  - name: Unmute / Mute
+    value: 64
     description: ''
-    min: 0
-    max: '63'
-  - name: Mute
-    value: '64'
-    description: ''
-    min: '64'
-    max: '127'
+    group:
+      - name: Unmute
+        description: ''
+        min: 0
+        max: 63
+      - name: Mute
+        description: ''
+        min: 64
+        max: 127

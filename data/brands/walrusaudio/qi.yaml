@@ -14,122 +14,226 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Flow
-    value: '3'
-    description: 0 = Series ;  1 = Parallel
-    min: 0
-    max: '1'
+    value: 3
+    description: ''
+    group:
+      - name: Series
+        description: ''
+        min: 0
+        max: 0
+      - name: Parallel
+        description: ''
+        min: 1
+        max: 1
   - name: Mix/Dry
-    value: '9'
+    value: 9
     description: ''
     min: 0
     max: 127
   - name: Tone
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Space
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Chorus Mode
-    value: '16'
-    description: 0 = Tri ; 1 = Stereo
-    min: 0
-    max: '1'
+    value: 16
+    description: ''
+    group:
+      - name: Tri
+        description: ''
+        min: 0
+        max: 0
+      - name: Stereo
+        description: ''
+        min: 1
+        max: 1
   - name: Chorus Mix/Level
-    value: '17'
+    value: 17
     description: ''
     min: 0
     max: 127
   - name: Chorus Depth
-    value: '18'
+    value: 18
     description: ''
     min: 0
     max: 127
   - name: Chorus Rate
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Delay Mode
-    value: '20'
-    description: 0 = Quarter ; 1 = Dotted Eighth ; 2 = Eighth
-    min: 0
-    max: '2'
+    value: 20
+    description: ''
+    group:
+      - name: Quarter
+        description: ''
+        min: 0
+        max: 0
+      - name: Dotted Eighth
+        description: ''
+        min: 1
+        max: 1
+      - name: Eighth
+        description: ''
+        min: 2
+        max: 2
   - name: Delay Mix/Level
-    value: '21'
+    value: 21
     description: ''
     min: 0
     max: 127
   - name: Delay Time
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Delay Feedback
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Grain Mode
-    value: '24'
-    description: 0 = Grain Cloud ; 1 = Phrase Sample
-    min: 0
-    max: '1'
+    value: 24
+    description: ''
+    group:
+      - name: Grain Cloud
+        description: ''
+        min: 0
+        max: 0
+      - name: Phrase Sample
+        description: ''
+        min: 1
+        max: 1
   - name: Grain Mix/Level
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Grain X
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Grain Phrase
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Grain Playback
-    value: '28'
-    description: 0 = x1 ; 1 = x2 ; 2 = x.5 ; 3 = Reverse ; 4 = Random
-    min: 0
-    max: '4'
+    value: 28
+    description: ''
+    group:
+      - name: x1
+        description: ''
+        min: 0
+        max: 0
+      - name: x2
+        description: ''
+        min: 1
+        max: 1
+      - name: x.5
+        description: ''
+        min: 2
+        max: 2
+      - name: Reverse
+        description: ''
+        min: 3
+        max: 3
+      - name: Random
+        description: ''
+        min: 4
+        max: 4
   - name: Freeze Mode
-    value: '29'
-    description: 0 = Off ; 1 = Grain Freeze ; 2 = Reverb Pad + Grain Freeze
-    min: 0
-    max: '2'
+    value: 29
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Grain Freeze
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb Pad + Grain Freeze
+        description: ''
+        min: 2
+        max: 2
   - name: Delay Oscillation
-    value: '30'
-    description: 0 = Off ; 1 = On
-    min: 0
-    max: '1'
+    value: 30
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Bypass
-    value: '31'
-    description: 0 = Off ; 1 = On
-    min: 0
-    max: '1'
+    value: 31
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Grain Bypass
-    value: '32'
-    description: 0 = Off ; 1 = On
-    min: 0
-    max: '1'
+    value: 32
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Delay Bypass
-    value: '33'
-    description: 0 = Off ; 1 = On
-    min: 0
-    max: '1'
+    value: 33
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Chorus Bypass
-    value: '34'
-    description: 0 = Off ; 1 = On
-    min: 0
-    max: '1'
+    value: 34
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Tap Tempo
-    value: '85'
-    description: 0 = Release ; 1 = Tap Down
-    min: 0
-    max: '1'
+    value: 85
+    description: ''
+    group:
+      - name: Release
+        description: ''
+        min: 0
+        max: 0
+      - name: Tap Down
+        description: ''
+        min: 1
+        max: 1

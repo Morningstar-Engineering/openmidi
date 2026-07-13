@@ -1,190 +1,208 @@
 brand: Strymon
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Preset Bank 0
-  value: 0
-- description: ''
-  max: 1
-  min: 1
-  name: Preset Bank 1
-  value: 0
-- description: ''
-  max: 2
-  min: 2
-  name: Preset Bank 2
-  value: 0
-- description: ''
-  max: 127
-  min: 127
-  name: 'Tremolo: On'
-  value: 10
-- description: ''
-  max: 0
-  min: 0
-  name: 'Tremolo: Off'
-  value: 10
-- description: ''
-  max: 1
-  min: 1
-  name: 'Tremolo Type: 61'
-  value: 11
-- description: ''
-  max: 2
-  min: 2
-  name: 'Tremolo Type: 63 Tube'
-  value: 11
-- description: ''
-  max: 3
-  min: 3
-  name: 'Tremolo Type: 65 Photo'
-  value: 11
-- description: ''
-  max: 127
-  min: 0
-  name: Intensity
-  value: 12
-- description: ''
-  max: 127
-  min: 0
-  name: Speed
-  value: 13
-- description: ''
-  max: 127
-  min: 0
-  name: Tap Subdivision
-  value: 14
-- description: ''
-  max: 127
-  min: 0
-  name: Temolo Boost/Cut
-  value: 15
-- description: ''
-  max: 127
-  min: 127
-  name: 'Reverb: On'
-  value: 16
-- description: ''
-  max: 0
-  min: 0
-  name: 'Reverb: Off'
-  value: 16
-- description: ''
-  max: 1
-  min: 1
-  name: 'Reverb Type: 60s'
-  value: 17
-- description: ''
-  max: 2
-  min: 2
-  name: 'Reverb Type: 70s'
-  value: 17
-- description: ''
-  max: 3
-  min: 3
-  name: 'Reverb Type: 80s'
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: Mix
-  value: 18
-- description: ''
-  max: 127
-  min: 0
-  name: Color
-  value: 19
-- description: ''
-  max: 127
-  min: 0
-  name: Decay
-  value: 20
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Pre-Delay
-  value: 21
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Boost/Cut
-  value: 22
-- description: ''
-  max: 0
-  min: 0
-  name: 'Order: Rev>Trem'
-  value: 23
-- description: ''
-  max: 127
-  min: 1
-  name: 'Order: Trem>Rev'
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: 'Footswitch A: Press'
-  value: 27
-- description: ''
-  max: 0
-  min: 0
-  name: 'Footswitch A: Release'
-  value: 27
-- description: ''
-  max: 127
-  min: 127
-  name: 'Footswitch B: Press'
-  value: 28
-- description: ''
-  max: 0
-  min: 0
-  name: 'Footswitch B: Release'
-  value: 28
-- description: ''
-  max: 127
-  min: 127
-  name: 'A&B: Engage'
-  value: 33
-- description: ''
-  max: 0
-  min: 0
-  name: 'A&B: Bypass'
-  value: 33
-- description: ''
-  max: 127
-  min: 127
-  name: 'A&B: On'
-  value: 33
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Expression: On'
-  value: 60
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Expression: Off'
-  value: 60
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Clock: On'
-  value: 63
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Clock: Off'
-  value: 63
-- description: ''
-  max: 127
-  min: 127
-  name: Remote Tap
-  value: 93
-- description: ''
-  max: 127
-  min: 0
-  name: Expression
-  value: 100
+  - name: Preset Bank 0 / Preset Bank 1 / Preset Bank 2
+    value: 0
+    description: ''
+    group:
+      - name: Preset Bank 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Preset Bank 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Preset Bank 2
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Tremolo: On / Tremolo: Off'
+    value: 10
+    description: ''
+    group:
+      - name: 'Tremolo: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Tremolo: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Tremolo Type: 61 / Tremolo Type: 63 Tube / Tremolo Type: 65 Photo'
+    value: 11
+    description: ''
+    group:
+      - name: 'Tremolo Type: 61'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Tremolo Type: 63 Tube'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Tremolo Type: 65 Photo'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Intensity
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Speed
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Tap Subdivision
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Temolo Boost/Cut
+    value: 15
+  - name: 'Reverb: On / Reverb: Off'
+    value: 16
+    description: ''
+    group:
+      - name: 'Reverb: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Reverb: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Reverb Type: 60s / Reverb Type: 70s / Reverb Type: 80s'
+    value: 17
+    description: ''
+    group:
+      - name: 'Reverb Type: 60s'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverb Type: 70s'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Reverb Type: 80s'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Color
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Decay
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Pre-Delay
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Boost/Cut
+    value: 22
+  - name: 'Order: Rev>Trem / Order: Trem>Rev'
+    value: 23
+    description: ''
+    group:
+      - name: 'Order: Rev>Trem'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Order: Trem>Rev'
+        description: ''
+        min: 1
+        max: 127
+  - name: 'Footswitch A: Press / Footswitch A: Release'
+    value: 27
+    description: ''
+    group:
+      - name: 'Footswitch A: Press'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Footswitch A: Release'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Footswitch B: Press / Footswitch B: Release'
+    value: 28
+    description: ''
+    group:
+      - name: 'Footswitch B: Press'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Footswitch B: Release'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'A&B: Engage / A&B: Bypass / A&B: On'
+    value: 33
+    description: ''
+    group:
+      - name: 'A&B: Engage'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'A&B: Bypass'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'A&B: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'MIDI Expression: On / MIDI Expression: Off'
+    value: 60
+    description: ''
+    group:
+      - name: 'MIDI Expression: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Expression: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'MIDI Clock: On / MIDI Clock: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'MIDI Clock: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Clock: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Remote Tap
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 100
 device_name: Flint
 midi_channel:
   instructions: ''

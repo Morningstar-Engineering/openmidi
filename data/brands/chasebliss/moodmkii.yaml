@@ -36,78 +36,90 @@ pc:
     matching the current settings of the pedal.
 
 cc:
-  - name: Bypass Micro-Looper - Off
+  - name: Bypass Micro-Looper - Off / Bypass Micro-Looper - On
     value: 102
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Bypass Micro-Looper - On
-    value: 102
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Bypass Wet - Off
+    group:
+      - name: Bypass Micro-Looper - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Bypass Micro-Looper - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Bypass Wet - Off / Bypass Wet - On
     value: 103
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Bypass Wet - On
-    value: 103
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: True Bypass Mode - Standard Buffered Bypass
+    group:
+      - name: Bypass Wet - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Bypass Wet - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: True Bypass Mode - Standard Buffered Bypass / True Bypass Mode - True Bypass
     value: 55
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: True Bypass Mode - True Bypass
-    value: 55
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Hidden Menu - Off
+    group:
+      - name: True Bypass Mode - Standard Buffered Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: True Bypass Mode - True Bypass
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Hidden Menu - Off / Hidden Menu - On
     value: 104
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Menu - On
-    value: 104
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Freeze Wet - Off
+    group:
+      - name: Hidden Menu - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Menu - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Freeze Wet - Off / Freeze Wet - On
     value: 105
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Freeze Wet - On
-    value: 105
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Overdub Micro-Looper - Off
+    group:
+      - name: Freeze Wet - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Freeze Wet - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Overdub Micro-Looper - Off / Overdub Micro-Looper - On
     value: 106
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Overdub Micro-Looper - On
-    value: 106
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
+    group:
+      - name: Overdub Micro-Looper - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Overdub Micro-Looper - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
   - name: Tap Tempo
     value: 107
     description: ''
@@ -116,64 +128,67 @@ cc:
     max: 127
   - name: Tap Tempo - Legacy
     value: 93
-    description: 'CC93 is also Tap Tempo for continuity between past pedals.'
+    description: CC93 is also Tap Tempo for continuity between past pedals.
     type: Parameter
     min: 0
     max: 127
-  - name: Wet Channel Mode - Reverb
+  - name: Wet Channel Mode - Reverb / Wet Channel Mode - Delay / Wet Channel Mode - Slip
     value: 21
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Wet Channel Mode - Delay
-    value: 21
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Wet Channel Mode - Slip
-    value: 21
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Routing - IN
+    group:
+      - name: Wet Channel Mode - Reverb
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Wet Channel Mode - Delay
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Wet Channel Mode - Slip
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Routing - IN / Routing - Micro-Looper + IN / Routing - Micro-Looper
     value: 22
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Routing - Micro-Looper + IN
-    value: 22
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Routing - Micro-Looper
-    value: 22
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Micro-Looper Channel Mode - Env
+    group:
+      - name: Routing - IN
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Routing - Micro-Looper + IN
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Routing - Micro-Looper
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Micro-Looper Channel Mode - Env / Micro-Looper Channel Mode - Tape / Micro-Looper Channel Mode - Stretch
     value: 23
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Micro-Looper Channel Mode - Tape
-    value: 23
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Micro-Looper Channel Mode - Stretch
-    value: 23
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
+    group:
+      - name: Micro-Looper Channel Mode - Env
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Micro-Looper Channel Mode - Tape
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Micro-Looper Channel Mode - Stretch
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
   - name: Knobs - Time
     value: 14
     description: ''
@@ -209,7 +224,7 @@ cc:
     description: ''
     type: Parameter
     min: 0
-    max: 127                    
+    max: 127
   - name: Knobs - Ramp Speed
     value: 20
     description: ''
@@ -222,36 +237,35 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Hidden Options - Ramping Waveform - Triangle
+  - name: Hidden Options - Ramping Waveform - Triangle / Hidden Options - Ramping Waveform - Square / Hidden Options - Ramping Waveform - Sine / Hidden Options - Ramping Waveform - Random / Hidden Options - Ramping Waveform - Smooth Random
     value: 25
     description: ''
-    type: Parameter
-    min: 0
-    max: 14
-  - name: Hidden Options - Ramping Waveform - Square
-    value: 25
-    description: ''
-    type: Parameter
-    min: 15
-    max: 54
-  - name: Hidden Options - Ramping Waveform - Sine
-    value: 25
-    description: ''
-    type: Parameter
-    min: 55
-    max: 80
-  - name: Hidden Options - Ramping Waveform - Random
-    value: 25
-    description: ''
-    type: Parameter
-    min: 81
-    max: 126
-  - name: Hidden Options - Ramping Waveform - Smooth Random
-    value: 25
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: Hidden Options - Ramping Waveform - Triangle
+        description: ''
+        min: 0
+        max: 14
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Square
+        description: ''
+        min: 15
+        max: 54
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Sine
+        description: ''
+        min: 55
+        max: 80
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Random
+        description: ''
+        min: 81
+        max: 126
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Smooth Random
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: Hidden Options - Micro-Looper Channel Fade
     value: 26
     description: ''
@@ -276,267 +290,307 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Hidden Options - Sync - To Wet Channel
+  - name: Hidden Options - Sync - To Wet Channel / Hidden Options - Sync - No Sync / Hidden Options - Sync - To Micro-Looper Channel
     value: 31
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Options - Sync - No Sync
-    value: 31
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Hidden Options - Sync - To Micro-Looper Channel
-    value: 31
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Hidden Options - Spread - Wet Channel Only
+    group:
+      - name: Hidden Options - Sync - To Wet Channel
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Options - Sync - No Sync
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Hidden Options - Sync - To Micro-Looper Channel
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Hidden Options - Spread - Wet Channel Only / Hidden Options - Spread - Both Channels / Hidden Options - Spread - Micro-Looper Channel Only
     value: 32
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Options - Spread - Both Channels
-    value: 32
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Hidden Options - Spread - Micro-Looper Channel Only
-    value: 32
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Hidden Options - Buffer Length - Half (like MKI)
+    group:
+      - name: Hidden Options - Spread - Wet Channel Only
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Options - Spread - Both Channels
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Hidden Options - Spread - Micro-Looper Channel Only
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Hidden Options - Buffer Length - Half (like MKI) / Hidden Options - Buffer Length - Full
     value: 33
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Options - Buffer Length - Full
-    value: 33
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: MIDI Clock Ignore - Ignore
+    group:
+      - name: Hidden Options - Buffer Length - Half (like MKI)
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Options - Buffer Length - Full
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+  - name: MIDI Clock Ignore - Ignore / MIDI Clock Ignore - Follow
     value: 51
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: MIDI Clock Ignore - Follow
-    value: 51
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Stop Ramping - Stop
+    group:
+      - name: MIDI Clock Ignore - Ignore
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: MIDI Clock Ignore - Follow
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Stop Ramping - Stop / Stop Ramping - Resume
     value: 52
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Stop Ramping - Resume
-    value: 52
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Time - Off
+    group:
+      - name: Stop Ramping - Stop
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Stop Ramping - Resume
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Time - Off / Dip Switches - Time - On
     value: 61
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Time - On
-    value: 61
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Wet Channel Modify - Off
+    group:
+      - name: Dip Switches - Time - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Time - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Wet Channel Modify - Off / Dip Switches - Wet Channel Modify - On
     value: 62
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Wet Channel Modify - On
-    value: 62
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Clock - Off
+    group:
+      - name: Dip Switches - Wet Channel Modify - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Wet Channel Modify - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Clock - Off / Dip Switches - Clock - On
     value: 63
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Clock - On
-    value: 63
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Micro-Looper Channel Modify - Off
+    group:
+      - name: Dip Switches - Clock - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Clock - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Micro-Looper Channel Modify - Off / Dip Switches - Micro-Looper Channel Modify - On
     value: 64
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Micro-Looper Channel Modify - On
-    value: 64
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Length - Off
+    group:
+      - name: Dip Switches - Micro-Looper Channel Modify - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Micro-Looper Channel Modify - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Length - Off / Dip Switches - Length - On
     value: 65
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Length - On
-    value: 65
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Bounce - Off
+    group:
+      - name: Dip Switches - Length - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Length - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Bounce - Off / Dip Switches - Bounce - On
     value: 66
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Bounce - On
-    value: 66
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Sweep - Off
+    group:
+      - name: Dip Switches - Bounce - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Bounce - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Sweep - Off / Dip Switches - Sweep - On
     value: 67
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Sweep - On
-    value: 67
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Polarity - Off
+    group:
+      - name: Dip Switches - Sweep - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Sweep - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Polarity - Off / Dip Switches - Polarity - On
     value: 68
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Polarity - On
-    value: 68
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Classic - Off
+    group:
+      - name: Dip Switches - Polarity - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Polarity - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Classic - Off / Dip Switches - Classic - On
     value: 71
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Classic - On
-    value: 71
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Miso - Off
+    group:
+      - name: Dip Switches - Classic - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Classic - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Miso - Off / Dip Switches - Miso - On
     value: 72
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Miso - On
-    value: 72
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Spread - Off
+    group:
+      - name: Dip Switches - Miso - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Miso - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Spread - Off / Dip Switches - Spread - On
     value: 73
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Spread - On
-    value: 73
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Dry Kill - Off
+    group:
+      - name: Dip Switches - Spread - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Spread - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Dry Kill - Off / Dip Switches - Dry Kill - On
     value: 74
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Dry Kill - On
-    value: 74
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Trails - Off
+    group:
+      - name: Dip Switches - Dry Kill - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Dry Kill - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Trails - Off / Dip Switches - Trails - On
     value: 75
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Trails - On
-    value: 75
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Latch - Off
+    group:
+      - name: Dip Switches - Trails - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Trails - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Latch - Off / Dip Switches - Latch - On
     value: 76
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Latch - On
-    value: 76
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - No Dub Micro-Looper - Off
+    group:
+      - name: Dip Switches - Latch - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Latch - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - No Dub Micro-Looper - Off / Dip Switches - No Dub Micro-Looper - On
     value: 77
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - No Dub Micro-Looper - On
-    value: 77
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches - Smooth - Off
+    group:
+      - name: Dip Switches - No Dub Micro-Looper - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - No Dub Micro-Looper - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches - Smooth - Off / Dip Switches - Smooth - On
     value: 78
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches - Smooth - On
-    value: 78
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
+    group:
+      - name: Dip Switches - Smooth - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches - Smooth - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter

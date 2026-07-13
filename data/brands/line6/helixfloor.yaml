@@ -97,30 +97,34 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: 1 Switch Looper Overdub
+  - name: 1 Switch Looper Overdub / 1 Switch Looper Record
     value: 60
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: 1 Switch Looper Record
-    value: 60
-    description: ''
-    type: System
-    min: 64
-    max: 127
-  - name: 1 Switch Looper Stop
+    group:
+      - name: 1 Switch Looper Overdub
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: 1 Switch Looper Record
+        description: ''
+        min: 64
+        max: 127
+        type: System
+  - name: 1 Switch Looper Stop / 1 Switch Looper Play
     value: 61
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: 1 Switch Looper Play
-    value: 61
-    description: ''
-    type: System
-    min: 64
-    max: 127
+    group:
+      - name: 1 Switch Looper Stop
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: 1 Switch Looper Play
+        description: ''
+        min: 64
+        max: 127
+        type: System
   - name: 1 Switch Looper Play Once
     value: 62
     description: ''
@@ -133,42 +137,48 @@ cc:
     type: System
     min: 64
     max: 127
-  - name: 1 Switch Looper Forward
+  - name: 1 Switch Looper Forward / 1 Switch Looper Reverse
     value: 65
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: 1 Switch Looper Reverse
-    value: 65
-    description: ''
-    type: System
-    min: 64
-    max: 127
-  - name: 1 Switch Looper Full Speed
+    group:
+      - name: 1 Switch Looper Forward
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: 1 Switch Looper Reverse
+        description: ''
+        min: 64
+        max: 127
+        type: System
+  - name: 1 Switch Looper Full Speed / 1 Switch Looper Half Speed
     value: 66
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: 1 Switch Looper Half Speed
-    value: 66
-    description: ''
-    type: System
-    min: 64
-    max: 127
-  - name: Looper Block On
+    group:
+      - name: 1 Switch Looper Full Speed
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: 1 Switch Looper Half Speed
+        description: ''
+        min: 64
+        max: 127
+        type: System
+  - name: Looper Block On / Looper Block Off
     value: 67
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: Looper Block Off
-    value: 67
-    description: ''
-    type: System
-    min: 64
-    max: 127
+    group:
+      - name: Looper Block On
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: Looper Block Off
+        description: ''
+        min: 64
+        max: 127
+        type: System
   - name: Tap Tempo
     value: 64
     description: ''
@@ -181,69 +191,67 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Snapshot 1
+  - name: Snapshot 1 / Snapshot 2 / Snapshot 3 / Snapshot 4 / Snapshot 5 / Snapshot 6 / Snapshot 7 / Snapshot 8
     value: 69
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: Snapshot 2
-    value: 69
-    description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: Snapshot 3
-    value: 69
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: Snapshot 4
-    value: 69
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: Snapshot 5
-    value: 69
-    description: ''
-    type: System
-    min: 4
-    max: 4
-  - name: Snapshot 6
-    value: 69
-    description: ''
-    type: System
-    min: 5
-    max: 5
-  - name: Snapshot 7
-    value: 69
-    description: ''
-    type: System
-    min: 6
-    max: 6
-  - name: Snapshot 8
-    value: 69
-    description: ''
-    type: System
-    min: 7
-    max: 7
-  - name: 'Engage the MODE switch'
+    group:
+      - name: Snapshot 1
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: Snapshot 2
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: Snapshot 3
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: Snapshot 4
+        description: ''
+        min: 3
+        max: 3
+        type: System
+      - name: Snapshot 5
+        description: ''
+        min: 4
+        max: 4
+        type: System
+      - name: Snapshot 6
+        description: ''
+        min: 5
+        max: 5
+        type: System
+      - name: Snapshot 7
+        description: ''
+        min: 6
+        max: 6
+        type: System
+      - name: Snapshot 8
+        description: ''
+        min: 7
+        max: 7
+        type: System
+  - name: Engage the MODE switch
     value: 71
     description: ''
     type: System
     min: 0
     max: 0
-  - name: Increment Preset
+  - name: Increment Preset / Decrement Preset
     value: 72
     description: ''
-    type: System
-    min: 64
-    max: 127
-  - name: Decrement Preset
-    value: 72
-    description: ''
-    type: System
-    min: 0
-    max: 63
+    group:
+      - name: Increment Preset
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: Decrement Preset
+        description: ''
+        min: 0
+        max: 63
+        type: System

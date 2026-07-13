@@ -51,10 +51,21 @@ pc:
 cc:
   - name: Bank Select
     value: 0
-    description: (0=bank 1, 1=bank 2, 2=bank 3)
+    description: ''
     type: System
-    min: 0
-    max: 2
+    group:
+      - name: bank 1
+        description: ''
+        min: 0
+        max: 0
+      - name: bank 2
+        description: ''
+        min: 1
+        max: 1
+      - name: bank 3)
+        description: ''
+        min: 2
+        max: 2
   - name: Mix - Reverb Level
     value: 11
     description: ''
@@ -75,10 +86,21 @@ cc:
     max: 127
   - name: Mod - Target
     value: 14
-    description: (0=verb, 1=pitch, 2=filter)
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: verb
+        description: ''
+        min: 0
+        max: 0
+      - name: pitch
+        description: ''
+        min: 1
+        max: 1
+      - name: filter)
+        description: ''
+        min: 2
+        max: 2
   - name: Mod - Depth
     value: 15
     description: ''
@@ -87,10 +109,33 @@ cc:
     max: 127
   - name: Mod - Shape
     value: 16
-    description: (0=triangle, 1=square, 2=ramp, 3=saw, 4=random, 5=envelope)
+    description: ''
     type: Parameter
-    min: 0
-    max: 5
+    group:
+      - name: triangle
+        description: ''
+        min: 0
+        max: 0
+      - name: square
+        description: ''
+        min: 1
+        max: 1
+      - name: ramp
+        description: ''
+        min: 2
+        max: 2
+      - name: saw
+        description: ''
+        min: 3
+        max: 3
+      - name: random
+        description: ''
+        min: 4
+        max: 4
+      - name: envelope)
+        description: ''
+        min: 5
+        max: 5
   - name: Decay - Pre-Delay
     value: 17
     description: ''
@@ -105,10 +150,21 @@ cc:
     max: 127
   - name: Decay - Texture
     value: 19
-    description: (0=sparse, 1=dense, 2=diffuse)
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: sparse
+        description: ''
+        min: 0
+        max: 0
+      - name: dense
+        description: ''
+        min: 1
+        max: 1
+      - name: diffuse)
+        description: ''
+        min: 2
+        max: 2
   - name: Decay - Size/Pitch
     value: 20
     description: (MIDI Note Range - C-2 to C0, in half steps)
@@ -117,10 +173,21 @@ cc:
     max: 127
   - name: Decay - Quantize
     value: 21
-    description: (0=smooth, 1=half-step, 2=scale)
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: smooth
+        description: ''
+        min: 0
+        max: 0
+      - name: half-step
+        description: ''
+        min: 1
+        max: 1
+      - name: scale)
+        description: ''
+        min: 2
+        max: 2
   - name: Tone - Low Cut
     value: 22
     description: ''
@@ -135,10 +202,17 @@ cc:
     max: 127
   - name: Tone - Filter
     value: 24
-    description: (0=regen, 1=lowpass)
+    description: ''
     type: Parameter
-    min: 0
-    max: 1
+    group:
+      - name: regen
+        description: ''
+        min: 0
+        max: 0
+      - name: lowpass)
+        description: ''
+        min: 1
+        max: 1
   - name: Tone - Lowpass Q
     value: 25
     description: ''
@@ -147,22 +221,163 @@ cc:
     max: 127
   - name: Voice - Interval
     value: 26
-    description: (0=-octave, 1=-major7, 2=-minor7, 3=-major6, 4=-minor6, 5=-perfect5, 6=-tritone, 7=-perfect4, 8=-major3, 9=-minor3, 10=-major2, 11=-minor2, 12=-detune, 13=+detune, 14=+minor2, 15=+major2, 16=+minor3, 17=+major3, 18=+perfect4, 19=++tritone, 20=+perfect5, 21=+minor6, 22=+major6, 23=+minor7, 24=+major7, 25=+octave)
+    description: ''
     type: Parameter
-    min: 0
-    max: 25
+    group:
+      - name: -octave
+        description: ''
+        min: 0
+        max: 0
+      - name: -major7
+        description: ''
+        min: 1
+        max: 1
+      - name: -minor7
+        description: ''
+        min: 2
+        max: 2
+      - name: -major6
+        description: ''
+        min: 3
+        max: 3
+      - name: -minor6
+        description: ''
+        min: 4
+        max: 4
+      - name: -perfect5
+        description: ''
+        min: 5
+        max: 5
+      - name: -tritone
+        description: ''
+        min: 6
+        max: 6
+      - name: -perfect4
+        description: ''
+        min: 7
+        max: 7
+      - name: -major3
+        description: ''
+        min: 8
+        max: 8
+      - name: -minor3
+        description: ''
+        min: 9
+        max: 9
+      - name: -major2
+        description: ''
+        min: 10
+        max: 10
+      - name: -minor2
+        description: ''
+        min: 11
+        max: 11
+      - name: -detune
+        description: ''
+        min: 12
+        max: 12
+      - name: +detune
+        description: ''
+        min: 13
+        max: 13
+      - name: +minor2
+        description: ''
+        min: 14
+        max: 14
+      - name: +major2
+        description: ''
+        min: 15
+        max: 15
+      - name: +minor3
+        description: ''
+        min: 16
+        max: 16
+      - name: +major3
+        description: ''
+        min: 17
+        max: 17
+      - name: +perfect4
+        description: ''
+        min: 18
+        max: 18
+      - name: ++tritone
+        description: ''
+        min: 19
+        max: 19
+      - name: +perfect5
+        description: ''
+        min: 20
+        max: 20
+      - name: +minor6
+        description: ''
+        min: 21
+        max: 21
+      - name: +major6
+        description: ''
+        min: 22
+        max: 22
+      - name: +minor7
+        description: ''
+        min: 23
+        max: 23
+      - name: +major7
+        description: ''
+        min: 24
+        max: 24
+      - name: +octave)
+        description: ''
+        min: 25
+        max: 25
   - name: Voice - Scale Select
     value: 27
-    description: (0=minor pentatonic, 1=major pentatonic, 2=major, 3=dorian, 4=minor blues, 5=harmonic minor, 6=whole tone, 7=diminished)
+    description: ''
     type: Parameter
-    min: 0
-    max: 7
+    group:
+      - name: minor pentatonic
+        description: ''
+        min: 0
+        max: 0
+      - name: major pentatonic
+        description: ''
+        min: 1
+        max: 1
+      - name: major
+        description: ''
+        min: 2
+        max: 2
+      - name: dorian
+        description: ''
+        min: 3
+        max: 3
+      - name: minor blues
+        description: ''
+        min: 4
+        max: 4
+      - name: harmonic minor
+        description: ''
+        min: 5
+        max: 5
+      - name: whole tone
+        description: ''
+        min: 6
+        max: 6
+      - name: diminished)
+        description: ''
+        min: 7
+        max: 7
   - name: Voice - Shimmer
     value: 28
-    description: (0=input, 1=regen)
+    description: ''
     type: Parameter
-    min: 0
-    max: 1
+    group:
+      - name: input
+        description: ''
+        min: 0
+        max: 0
+      - name: regen)
+        description: ''
+        min: 1
+        max: 1
   - name: Voice - Shimmer Level
     value: 29
     description: ''
@@ -171,10 +386,21 @@ cc:
     max: 127
   - name: Voice - Glimmer
     value: 30
-    description: (0=off, 1=high, 2=low)
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: 'off'
+        description: ''
+        min: 0
+        max: 0
+      - name: high
+        description: ''
+        min: 1
+        max: 1
+      - name: low)
+        description: ''
+        min: 2
+        max: 2
   - name: Voice - Glimmer Gain
     value: 31
     description: ''
@@ -183,10 +409,21 @@ cc:
     max: 127
   - name: Voice - Drive
     value: 33
-    description: (0=off, 1=pre, 2=post)
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: 'off'
+        description: ''
+        min: 0
+        max: 0
+      - name: pre
+        description: ''
+        min: 1
+        max: 1
+      - name: post)
+        description: ''
+        min: 2
+        max: 2
   - name: Voice - Drive Level
     value: 34
     description: ''
@@ -373,15 +610,17 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Engage
+  - name: Engage / Bypass
     value: 102
     description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: Bypass
-    value: 102
-    description: ''
-    type: System
-    min: 0
-    max: 0
+    group:
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: System

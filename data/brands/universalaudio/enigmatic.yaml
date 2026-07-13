@@ -12,164 +12,279 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Output
-    value: '7'
+    value: 7
     description: ''
     min: 0
     max: 127
   - name: FS Left
-    value: '12'
-    description: 1 = Switch Down ; 0 = Switch Up ;
-    min: 0
-    max: '1'
+    value: 12
+    description: ''
+    group:
+      - name: Switch Down
+        description: ''
+        min: 1
+        max: 1
+      - name: Switch Up
+        description: ''
+        min: 0
+        max: 0
   - name: FS Right
-    value: '13'
-    description: 1 = Switch Down ; 0 = Switch Up ;
-    min: 0
-    max: '1'
+    value: 13
+    description: ''
+    group:
+      - name: Switch Down
+        description: ''
+        min: 1
+        max: 1
+      - name: Switch Up
+        description: ''
+        min: 0
+        max: 0
   - name: Cab Up
-    value: '14'
+    value: 14
     description: Cycles up through Cabs
     min: 0
-    max: '1'
+    max: 1
   - name: Cab Down
-    value: '15'
+    value: 15
     description: Cycles down through Cabs
     min: 0
-    max: '1'
+    max: 1
   - name: Store
-    value: '16'
-    description: '1 = long press stores preset, 0 = Cancel ;'
-    min: 0
-    max: '1'
+    value: 16
+    description: ''
+    group:
+      - name: long press stores preset
+        description: ''
+        min: 1
+        max: 1
+      - name: Cancel
+        description: ''
+        min: 0
+        max: 0
   - name: Model Select
-    value: '17'
-    description: '0 = Rock, 1 = Jazz, 2 = Custom ;'
-    min: 0
-    max: '2'
+    value: 17
+    description: ''
+    group:
+      - name: Rock
+        description: ''
+        min: 0
+        max: 0
+      - name: Jazz
+        description: ''
+        min: 1
+        max: 1
+      - name: Custom
+        description: ''
+        min: 2
+        max: 2
   - name: Cab Select
-    value: '18'
-    description: >-
-      0=1X12 Black Gb25,1= 2x12 Boutique D65,2= 2X12 Brute, 3=4X12 UK v30,
-      4=2X12 JBF 120. 
-
-      5=1X12 Black EV12 6=4X12 Stripped GB, 7=1X12 JBG125, 8=2X12 DEV,
-      9=External
-    min: 0
-    max: '9'
+    value: 18
+    description: ''
+    group:
+      - name: 1X12 Black Gb25,1= 2x12 Boutique D65,2= 2X12 Brute, 3=4X12 UK v30, 4=2X12 JBF 120.
+        description: ''
+        min: 0
+        max: 0
+      - name: 1X12 Black EV12 6=4X12 Stripped GB, 7=1X12 JBG125, 8=2X12 DEV, 9=External
+        description: ''
+        min: 5
+        max: 5
   - name: Bypass
-    value: '19'
-    description: '0=Bypass, 1=Unbypass Left FS, 2=Unbypass Right FS'
-    min: 0
-    max: '2'
+    value: 19
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Unbypass Left FS
+        description: ''
+        min: 1
+        max: 1
+      - name: Unbypass Right FS
+        description: ''
+        min: 2
+        max: 2
   - name: Channel
-    value: '20'
-    description: '0 = Normal, 1 = Fet ;'
-    min: 0
-    max: '1'
+    value: 20
+    description: ''
+    group:
+      - name: Normal
+        description: ''
+        min: 0
+        max: 0
+      - name: Fet
+        description: ''
+        min: 1
+        max: 1
   - name: Amp
-    value: '21'
-    description: >-
-      0 = 50W, 1=100W low plate squichy, 2 = 100W high plate stiff, 3 = 100W low
-      plate very stiff ;
-    min: 0
-    max: '3'
+    value: 21
+    description: ''
+    group:
+      - name: 50W
+        description: ''
+        min: 0
+        max: 0
+      - name: 100W low plate squichy
+        description: ''
+        min: 1
+        max: 1
+      - name: 100W high plate stiff
+        description: ''
+        min: 2
+        max: 2
+      - name: 100W low plate very stiff
+        description: ''
+        min: 3
+        max: 3
   - name: Volume
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Overdrive
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Overdrive Enable
-    value: '24'
-    description: '0 = Off, 1 = On ;'
-    min: 0
-    max: '1'
+    value: 24
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Ratio
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Master
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: FET Trim
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: OD Trim
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Room
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: Bass
-    value: '31'
+    value: 31
     description: ''
     min: 0
     max: 127
   - name: Middle
-    value: '32'
+    value: 32
     description: ''
     min: 0
     max: 127
   - name: Treble
-    value: '33'
+    value: 33
     description: ''
     min: 0
     max: 127
   - name: Presence
-    value: '34'
+    value: 34
     description: ''
     min: 0
     max: 127
   - name: Deep/Mid
-    value: '35'
-    description: '0 = Deep,1 = Mid ;'
-    min: 0
-    max: '1'
+    value: 35
+    description: ''
+    group:
+      - name: Deep
+        description: ''
+        min: 0
+        max: 0
+      - name: Mid
+        description: ''
+        min: 1
+        max: 1
   - name: Bright
-    value: '36'
-    description: '0=Off, 1=150 pF, 2=196 pF, 3=300 pF'
-    min: 0
-    max: '3'
+    value: 36
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 150 pF
+        description: ''
+        min: 1
+        max: 1
+      - name: 196 pF
+        description: ''
+        min: 2
+        max: 2
+      - name: 300 pF
+        description: ''
+        min: 3
+        max: 3
   - name: Tonestack
-    value: '37'
-    description: '0 = Classic, 1 = Skyline ;'
-    min: 0
-    max: '1'
+    value: 37
+    description: ''
+    group:
+      - name: Classic
+        description: ''
+        min: 0
+        max: 0
+      - name: Skyline
+        description: ''
+        min: 1
+        max: 1
   - name: Boost Enable
-    value: '40'
-    description: '0 = Off, 1 = On ;'
-    min: 0
-    max: '1'
+    value: 40
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: HRM Enable
-    value: '50'
-    description: '0 = Off, 1 = On ;'
-    min: 0
-    max: '1'
+    value: 50
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: HRM Bass
-    value: '51'
+    value: 51
     description: ''
     min: 0
     max: 127
   - name: HRM Middle
-    value: '52'
+    value: 52
     description: ''
     min: 0
     max: 127
   - name: HRM Treble
-    value: '53'
+    value: 53
     description: ''
     min: 0
     max: 127

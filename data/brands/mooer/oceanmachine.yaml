@@ -1,445 +1,452 @@
 brand: Mooer
 cc:
-- description: ''
-  max: 127
-  min: 127
-  name: Reverb On/Off
-  value: 23
-- description: ''
-  max: 0
-  min: 0
-  name: 'Type: Room'
-  value: 3
-- description: ''
-  max: 1
-  min: 1
-  name: 'Type: Hall'
-  value: 3
-- description: ''
-  max: 2
-  min: 2
-  name: 'Type: Plate'
-  value: 3
-- description: ''
-  max: 3
-  min: 3
-  name: 'Type: Dist Verb'
-  value: 3
-- description: ''
-  max: 4
-  min: 4
-  name: 'Type: FL-Verb'
-  value: 3
-- description: ''
-  max: 5
-  min: 5
-  name: 'Type: Filter'
-  value: 3
-- description: ''
-  max: 6
-  min: 6
-  name: 'Type: Reverse'
-  value: 3
-- description: ''
-  max: 7
-  min: 7
-  name: 'Type: Spring'
-  value: 3
-- description: ''
-  max: 8
-  min: 8
-  name: 'Type: Mod'
-  value: 3
-- description: ''
-  max: 127
-  min: 0
-  name: Shimmer
-  value: 46
-- description: ''
-  max: 127
-  min: 0
-  name: Decay
-  value: 47
-- description: ''
-  max: 127
-  min: 0
-  name: Tone
-  value: 48
-- description: ''
-  max: 127
-  min: 0
-  name: R.Mix
-  value: 49
-- description: ''
-  max: 127
-  min: 0
-  name: R.P1
-  value: 50
-- description: ''
-  max: 127
-  min: 0
-  name: R.P2
-  value: 51
-- description: ''
-  max: 127
-  min: 127
-  name: Delay B On
-  value: 25
-- description: ''
-  max: 0
-  min: 0
-  name: Delay B Off
-  value: 25
-- description: ''
-  max: 0
-  min: 0
-  name: 'Delay Type (B): Digital'
-  value: 9
-- description: ''
-  max: 1
-  min: 1
-  name: 'Delay Type (B): Analog'
-  value: 9
-- description: ''
-  max: 2
-  min: 2
-  name: 'Delay Type (B): Tape'
-  value: 9
-- description: ''
-  max: 3
-  min: 3
-  name: 'Delay Type (B): Echo'
-  value: 9
-- description: ''
-  max: 4
-  min: 4
-  name: 'Delay Type (B): Liquid'
-  value: 9
-- description: ''
-  max: 5
-  min: 5
-  name: 'Delay Type (B): Rainbow'
-  value: 9
-- description: ''
-  max: 6
-  min: 6
-  name: 'Delay Type (B): Crystal'
-  value: 9
-- description: ''
-  max: 7
-  min: 7
-  name: 'Delay Type (B): Low-Bit'
-  value: 9
-- description: ''
-  max: 8
-  min: 8
-  name: 'Delay Type (B): Fuzzy'
-  value: 9
-- description: ''
-  max: 127
-  min: 0
-  name: Feedback B
-  value: 59
-- description: ''
-  max: 127
-  min: 0
-  name: Time B
-  value: 60
-- description: ''
-  max: 127
-  min: 0
-  name: D.Tone B
-  value: 61
-- description: ''
-  max: 127
-  min: 0
-  name: D.Mix B
-  value: 62
-- description: ''
-  max: 127
-  min: 0
-  name: B.P1
-  value: 63
-- description: ''
-  max: 127
-  min: 0
-  name: B.P1
-  value: 64
-- description: ''
-  max: 127
-  min: 127
-  name: Pingpong B On
-  value: 65
-- description: ''
-  max: 0
-  min: 0
-  name: Pingpong B Off
-  value: 65
-- description: ''
-  max: 14
-  min: 0
-  name: Tempo B
-  value: 20
-- description: ''
-  max: 127
-  min: 127
-  name: Delay A On
-  value: 24
-- description: ''
-  max: 0
-  min: 0
-  name: Delay A Off
-  value: 24
-- description: ''
-  max: 0
-  min: 0
-  name: 'Delay Type (A): Digital'
-  value: 12
-- description: ''
-  max: 1
-  min: 1
-  name: 'Delay Type (A): Analog'
-  value: 12
-- description: ''
-  max: 2
-  min: 2
-  name: 'Delay Type (A): Tape'
-  value: 12
-- description: ''
-  max: 3
-  min: 3
-  name: 'Delay Type (A): Echo'
-  value: 12
-- description: ''
-  max: 4
-  min: 4
-  name: 'Delay Type (A): Liquid'
-  value: 12
-- description: ''
-  max: 5
-  min: 5
-  name: 'Delay Type (A): Rainbow'
-  value: 12
-- description: ''
-  max: 6
-  min: 6
-  name: 'Delay Type (A): Crystal'
-  value: 12
-- description: ''
-  max: 7
-  min: 7
-  name: 'Delay Type (A): Low-Bit'
-  value: 12
-- description: ''
-  max: 8
-  min: 8
-  name: 'Delay Type (A): Fuzzy'
-  value: 12
-- description: ''
-  max: 127
-  min: 0
-  name: Feedback A
-  value: 52
-- description: ''
-  max: 127
-  min: 0
-  name: Time A
-  value: 53
-- description: ''
-  max: 127
-  min: 0
-  name: D.Tone A
-  value: 54
-- description: ''
-  max: 127
-  min: 0
-  name: D.Mix A
-  value: 55
-- description: ''
-  max: 127
-  min: 0
-  name: A.P1
-  value: 56
-- description: ''
-  max: 127
-  min: 0
-  name: A.P2
-  value: 57
-- description: ''
-  max: 127
-  min: 127
-  name: Pingpong A On
-  value: 58
-- description: ''
-  max: 0
-  min: 0
-  name: Pingpong A Off
-  value: 58
-- description: ''
-  max: 14
-  min: 0
-  name: Tempo A
-  value: 21
-- description: ''
-  max: 127
-  min: 127
-  name: Looper In
-  value: 26
-- description: ''
-  max: 0
-  min: 0
-  name: Looper Out
-  value: 26
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Rec/Dub'
-  value: 27
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Play'
-  value: 28
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Stop'
-  value: 29
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Clear All'
-  value: 30
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Half Speed'
-  value: 31
-- description: ''
-  max: 0
-  min: 0
-  name: 'Looper: Normal Speed'
-  value: 31
-- description: ''
-  max: 127
-  min: 127
-  name: 'Looper: Reverse'
-  value: 32
-- description: ''
-  max: 0
-  min: 0
-  name: 'Looper: Forward'
-  value: 32
-- description: ''
-  max: 60
-  min: 0
-  name: Loop Level
-  value: 45
-- description: ''
-  max: 1
-  min: 1
-  name: 'Wireless: On'
-  value: 33
-- description: ''
-  max: 0
-  min: 0
-  name: 'Wireless: Off'
-  value: 33
-- description: ''
-  max: 0-18
-  min: 0-18
-  name: Expression Pedal
-  value: 34
-- description: ''
-  max: 0-100
-  min: 0-100
-  name: Expression Min Value
-  value: 35
-- description: ''
-  max: 127
-  min: 127
-  name: Trail On
-  value: 70
-- description: ''
-  max: 0
-  min: 0
-  name: Trail Off
-  value: 70
-- description: ''
-  max: 127
-  min: 127
-  name: EQ On
-  value: 36
-- description: ''
-  max: 0
-  min: 0
-  name: EQ Off
-  value: 36
-- description: ''
-  max: 5
-  min: 0
-  name: L.Freq
-  value: 37
-- description: ''
-  max: 24
-  min: 0
-  name: Bass
-  value: 38
-- description: ''
-  max: 24
-  min: 0
-  name: Mid
-  value: 39
-- description: ''
-  max: 24
-  min: 0
-  name: Treble
-  value: 40
-- description: ''
-  max: 5
-  min: 0
-  name: H.Freq
-  value: 41
-- description: ''
-  max: 100
-  min: 0
-  name: Input Level
-  value: 42
-- description: ''
-  max: 100
-  min: 0
-  name: Output Level
-  value: 43
-- description: ''
-  max: 100
-  min: 0
-  name: Master Mix
-  value: 44
-- description: ''
-  max: 1
-  min: 0
-  name: R.Tone
-  value: 66
-- description: ''
-  max: 1
-  min: 0
-  name: B.Tone
-  value: 67
-- description: ''
-  max: 1
-  min: 0
-  name: A.Tone
-  value: 68
-- description: ''
-  max: 127
-  min: 127
-  name: 'Merge: On'
-  value: 69
-- description: ''
-  max: 0
-  min: 0
-  name: 'Merge: Off'
-  value: 69
+  - description: ''
+    max: 127
+    min: 127
+    name: Reverb On/Off
+    value: 23
+  - name: 'Type: Room / Type: Hall / Type: Plate / Type: Dist Verb / Type: FL-Verb / Type: Filter / Type: Reverse / Type: Spring / Type: Mod'
+    value: 3
+    description: ''
+    group:
+      - name: 'Type: Room'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Type: Hall'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Type: Plate'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Type: Dist Verb'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Type: FL-Verb'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Type: Filter'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Type: Reverse'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Type: Spring'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Type: Mod'
+        description: ''
+        min: 8
+        max: 8
+  - description: ''
+    max: 127
+    min: 0
+    name: Shimmer
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: Decay
+    value: 47
+  - description: ''
+    max: 127
+    min: 0
+    name: Tone
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: R.Mix
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: R.P1
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: R.P2
+    value: 51
+  - name: Delay B On / Delay B Off
+    value: 25
+    description: ''
+    group:
+      - name: Delay B On
+        description: ''
+        min: 127
+        max: 127
+      - name: Delay B Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Delay Type (B): Digital / Delay Type (B): Analog / Delay Type (B): Tape / Delay Type (B): Echo / Delay Type (B): Liquid / Delay Type (B): Rainbow / Delay Type (B): Crystal / Delay Type (B): Low-Bit / Delay Type (B): Fuzzy'
+    value: 9
+    description: ''
+    group:
+      - name: 'Delay Type (B): Digital'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay Type (B): Analog'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Delay Type (B): Tape'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Delay Type (B): Echo'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Delay Type (B): Liquid'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Delay Type (B): Rainbow'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Delay Type (B): Crystal'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Delay Type (B): Low-Bit'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Delay Type (B): Fuzzy'
+        description: ''
+        min: 8
+        max: 8
+  - description: ''
+    max: 127
+    min: 0
+    name: Feedback B
+    value: 59
+  - description: ''
+    max: 127
+    min: 0
+    name: Time B
+    value: 60
+  - description: ''
+    max: 127
+    min: 0
+    name: D.Tone B
+    value: 61
+  - description: ''
+    max: 127
+    min: 0
+    name: D.Mix B
+    value: 62
+  - description: ''
+    max: 127
+    min: 0
+    name: B.P1
+    value: 63
+  - description: ''
+    max: 127
+    min: 0
+    name: B.P1
+    value: 64
+  - name: Pingpong B On / Pingpong B Off
+    value: 65
+    description: ''
+    group:
+      - name: Pingpong B On
+        description: ''
+        min: 127
+        max: 127
+      - name: Pingpong B Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 14
+    min: 0
+    name: Tempo B
+    value: 20
+  - name: Delay A On / Delay A Off
+    value: 24
+    description: ''
+    group:
+      - name: Delay A On
+        description: ''
+        min: 127
+        max: 127
+      - name: Delay A Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Delay Type (A): Digital / Delay Type (A): Analog / Delay Type (A): Tape / Delay Type (A): Echo / Delay Type (A): Liquid / Delay Type (A): Rainbow / Delay Type (A): Crystal / Delay Type (A): Low-Bit / Delay Type (A): Fuzzy'
+    value: 12
+    description: ''
+    group:
+      - name: 'Delay Type (A): Digital'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay Type (A): Analog'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Delay Type (A): Tape'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Delay Type (A): Echo'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Delay Type (A): Liquid'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Delay Type (A): Rainbow'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Delay Type (A): Crystal'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Delay Type (A): Low-Bit'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Delay Type (A): Fuzzy'
+        description: ''
+        min: 8
+        max: 8
+  - description: ''
+    max: 127
+    min: 0
+    name: Feedback A
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: Time A
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: D.Tone A
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: D.Mix A
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: A.P1
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: A.P2
+    value: 57
+  - name: Pingpong A On / Pingpong A Off
+    value: 58
+    description: ''
+    group:
+      - name: Pingpong A On
+        description: ''
+        min: 127
+        max: 127
+      - name: Pingpong A Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 14
+    min: 0
+    name: Tempo A
+    value: 21
+  - name: Looper In / Looper Out
+    value: 26
+    description: ''
+    group:
+      - name: Looper In
+        description: ''
+        min: 127
+        max: 127
+      - name: Looper Out
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Rec/Dub'
+    value: 27
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Play'
+    value: 28
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Stop'
+    value: 29
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Clear All'
+    value: 30
+  - name: 'Looper: Half Speed / Looper: Normal Speed'
+    value: 31
+    description: ''
+    group:
+      - name: 'Looper: Half Speed'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Looper: Normal Speed'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Looper: Reverse / Looper: Forward'
+    value: 32
+    description: ''
+    group:
+      - name: 'Looper: Reverse'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Looper: Forward'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 60
+    min: 0
+    name: Loop Level
+    value: 45
+  - name: 'Wireless: On / Wireless: Off'
+    value: 33
+    description: ''
+    group:
+      - name: 'Wireless: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Wireless: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 0-18
+    min: 0-18
+    name: Expression Pedal
+    value: 34
+  - description: ''
+    max: 0-100
+    min: 0-100
+    name: Expression Min Value
+    value: 35
+  - name: Trail On / Trail Off
+    value: 70
+    description: ''
+    group:
+      - name: Trail On
+        description: ''
+        min: 127
+        max: 127
+      - name: Trail Off
+        description: ''
+        min: 0
+        max: 0
+  - name: EQ On / EQ Off
+    value: 36
+    description: ''
+    group:
+      - name: EQ On
+        description: ''
+        min: 127
+        max: 127
+      - name: EQ Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 5
+    min: 0
+    name: L.Freq
+    value: 37
+  - description: ''
+    max: 24
+    min: 0
+    name: Bass
+    value: 38
+  - description: ''
+    max: 24
+    min: 0
+    name: Mid
+    value: 39
+  - description: ''
+    max: 24
+    min: 0
+    name: Treble
+    value: 40
+  - description: ''
+    max: 5
+    min: 0
+    name: H.Freq
+    value: 41
+  - description: ''
+    max: 100
+    min: 0
+    name: Input Level
+    value: 42
+  - description: ''
+    max: 100
+    min: 0
+    name: Output Level
+    value: 43
+  - description: ''
+    max: 100
+    min: 0
+    name: Master Mix
+    value: 44
+  - description: ''
+    max: 1
+    min: 0
+    name: R.Tone
+    value: 66
+  - description: ''
+    max: 1
+    min: 0
+    name: B.Tone
+    value: 67
+  - description: ''
+    max: 1
+    min: 0
+    name: A.Tone
+    value: 68
+  - name: 'Merge: On / Merge: Off'
+    value: 69
+    description: ''
+    group:
+      - name: 'Merge: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Merge: Off'
+        description: ''
+        min: 0
+        max: 0
 device_name: Ocean Machine
 midi_channel:
   instructions: ''

@@ -21,206 +21,209 @@ pc:
 
 cc:
   - name: Rate
-    value: '3'
+    value: 3
     description: sets the speed of the main LFO
     min: 0
-    max: '127'
+    max: 127
   - name: Depth
-    value: '9'
+    value: 9
     description: the amplitude of the main LFO.
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi
-    value: '14'
+    value: 14
     description: lo-fi effects level
     min: 0
-    max: '127'
-  - name: Shape - Sine
-    value: '15'
+    max: 127
+  - name: Shape - Sine / Shape - Triangle / Shape - Square
+    value: 15
     description: ''
-    min: 0
-    max: 0
-  - name: Shape - Triangle
-    value: '15'
+    group:
+      - name: Shape - Sine
+        description: ''
+        min: 0
+        max: 0
+      - name: Shape - Triangle
+        description: ''
+        min: 1
+        max: 1
+      - name: Shape - Square
+        description: ''
+        min: 2
+        max: 2
+  - name: Division  - quarter note / Division - quarter triplet / Division - eight note
+    value: 16
     description: ''
-    min: 1
-    max: 1
-  - name: Shape - Square
-    value: '15'
+    group:
+      - name: Division  - quarter note
+        description: ''
+        min: 0
+        max: 0
+      - name: Division - quarter triplet
+        description: ''
+        min: 1
+        max: 1
+      - name: Division - eight note
+        description: ''
+        min: 2
+        max: 2
+  - name: Program Type 1 / Program Type 2 / Program Type 3
+    value: 17
+    description: 'Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional,  Vibrato:  Traditional, Rotary: Horn & Drum, Filter: Lowpass; Chorus: Series, Phaser: 4-stage, Termolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass; Chorus: Tri-Chorus, Phaser: Univibe, Termolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass'
+    group:
+      - name: Program Type 1
+        description: 'Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional,  Vibrato:  Traditional, Rotary: Horn & Drum, Filter: Lowpass'
+        min: 0
+        max: 0
+      - name: Program Type 2
+        description: 'Chorus: Series, Phaser: 4-stage, Termolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass'
+        min: 1
+        max: 1
+      - name: Program Type 3
+        description: 'Chorus: Tri-Chorus, Phaser: Univibe, Termolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass'
+        min: 2
+        max: 2
+  - name: Prog Chorus / Prog Phaser / Prog Tremolo / Prog Vibrato / Prog Rotary / Prog Filter
+    value: 18
     description: ''
-    min: 2
-    max: 2
-  - name: Division  - quarter note
-    value: '16'
-    description: ''
-    min: 0
-    max: 0
-  - name: Division - quarter triplet
-    value: '16'
-    description: ''
-    min: 1
-    max: 1
-  - name: Division - eight note
-    value: '16'
-    description: ''
-    min: 2
-    max: 2
-  - name: Program Type 1
-    value: '17'
-    description: |-
-      Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional,  Vibrato:  Traditional, Rotary: Horn & Drum, Filter: Lowpass
-    min: 0
-    max: 0
-  - name: Program Type 2
-    value: '17'
-    description: |-
-      Chorus: Series, Phaser: 4-stage, Termolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass
-    min: 1
-    max: 1
-  - name: Program Type 3
-    value: '17'
-    description: |-
-      Chorus: Tri-Chorus, Phaser: Univibe, Termolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass
-    min: 2
-    max: 2
-  - name: Prog Chorus
-    value: '18'
-    description: ''
-    min: 0
-    max: 0
-  - name: Prog Phaser
-    value: '18'
-    description: ''
-    min: 1
-    max: 1
-  - name: Prog Tremolo
-    value: '18'
-    description: ''
-    min: 2
-    max: 2
-  - name: Prog Vibrato
-    value: '18'
-    description: ''
-    min: 3
-    max: 3
-  - name: Prog Rotary
-    value: '18'
-    description: ''
-    min: 4
-    max: 4
-  - name: Prog Filter
-    value: '18'
-    description: ''
-    min: 5
-    max: 5
+    group:
+      - name: Prog Chorus
+        description: ''
+        min: 0
+        max: 0
+      - name: Prog Phaser
+        description: ''
+        min: 1
+        max: 1
+      - name: Prog Tremolo
+        description: ''
+        min: 2
+        max: 2
+      - name: Prog Vibrato
+        description: ''
+        min: 3
+        max: 3
+      - name: Prog Rotary
+        description: ''
+        min: 4
+        max: 4
+      - name: Prog Filter
+        description: ''
+        min: 5
+        max: 5
   - name: Tone
-    value: '19'
+    value: 19
     description: Tone control for the modulation program
     min: 0
-    max: '127'
+    max: 127
   - name: Symetry
-    value: '20'
+    value: 20
     description: Modulation LFO Wave Symetry
     min: 0
-    max: '127'
+    max: 127
   - name: X Modulation Control
-    value: '21'
-    description: |-
-      Chorus: Lag, Phaser: Feedback, Termolo: Stereo Phase, Vibrato: Flutter, Rotary: Cab Simulation, Filter: Resonance
+    value: 21
+    description: 'Chorus: Lag, Phaser: Feedback, Termolo: Stereo Phase, Vibrato: Flutter, Rotary: Cab Simulation, Filter: Resonance'
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi Env
-    value: '22'
+    value: 22
     description: Lo-Fi tone envelope depth
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi Drive
-    value: '23'
+    value: 23
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi Space
-    value: '24'
+    value: 24
     description: Reverb
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi Age
-    value: '25'
+    value: 25
     description: ''
     min: 0
-    max: '4'
+    max: 4
   - name: Lo-Fi Noise
-    value: '26'
+    value: 26
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Lo-Fi Warble
-    value: '27'
+    value: 27
     description: ''
     min: 0
-    max: '127'
-  - name: Bypass
-    value: '31'
-    description:
-    min: 0
-    max: 0
-  - name: Engage
-    value: '31'
+    max: 127
+  - name: Bypass / Engage
+    value: 31
     description: ''
-    min: '127'
-    max: '127'
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
   - name: Tap
-    value: '85'
+    value: 85
     description: ''
-    min: '127'
-    max: '127'
+    min: 127
+    max: 127
   - name: Rotary Speed
-    value: '86'
+    value: 86
     description: ''
     min: 0
-    max: '127'
-  - name: Skip Engage/Rotary Break - Disengaged
-    value: '87'
+    max: 127
+  - name: Skip Engage/Rotary Break - Disengaged / Skip Engage/Rotary Break - Engaged
+    value: 87
     description: ''
-    min: 0
-    max: 0
-  - name: Skip Engage/Rotary Break - Engaged
-    value: '87'
-    description: ''
-    min: '127'
-    max: '127'
+    group:
+      - name: Skip Engage/Rotary Break - Disengaged
+        description: ''
+        min: 0
+        max: 0
+      - name: Skip Engage/Rotary Break - Engaged
+        description: ''
+        min: 127
+        max: 127
   - name: Output Volume
-    value: '88'
+    value: 88
     description: ''
     min: 0
-    max: '127'
-  - name: MIDI Clock Ignore - Disengaged
-    value: '89'
-    description: follow MIDI Clock
-    min: 0
-    max: 0
-  - name: MIDI Clock Ignore - Engaged
-    value: '89'
-    description: ignore MIDI Clock
-    min: '127'
-    max: '127'
+    max: 127
+  - name: MIDI Clock Ignore - Disengaged / MIDI Clock Ignore - Engaged
+    value: 89
+    description: follow MIDI Clock; ignore MIDI Clock
+    group:
+      - name: MIDI Clock Ignore - Disengaged
+        description: follow MIDI Clock
+        min: 0
+        max: 0
+      - name: MIDI Clock Ignore - Engaged
+        description: ignore MIDI Clock
+        min: 127
+        max: 127
   - name: Tweak Switch
-    value: '90'
+    value: 90
     description: ''
     min: 0
-    max: '2'
+    max: 2
   - name: Bank Switch
-    value: '102'
+    value: 102
     description: ''
     min: 0
-    max: '2'
+    max: 2
   - name: Tune Switch
-    value: '103'
+    value: 103
     description: ''
     min: 0
-    max: '2'
+    max: 2
   - name: Dry/Wet Mix
-    value: '104'
+    value: 104
     description: ''
     min: 0
     max: 127

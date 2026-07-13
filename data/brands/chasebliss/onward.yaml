@@ -32,66 +32,76 @@ pc:
     matching the current settings of the pedal.
 
 cc:
-  - name: Freeze Bypass - Off
+  - name: Freeze Bypass - Off / Freeze Bypass - On
     value: 102
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Freeze Bypass - On
-    value: 102
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Glitch Bypass - Off
+    group:
+      - name: Freeze Bypass - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Freeze Bypass - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Glitch Bypass - Off / Glitch Bypass - On
     value: 103
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Glitch Bypass - On
-    value: 103
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Alt Menu - Exit
+    group:
+      - name: Glitch Bypass - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Glitch Bypass - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Alt Menu - Exit / Glitch Bypass - Enter
     value: 104
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Glitch Bypass - Enter
-    value: 104
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Glitch Hold - Off
+    group:
+      - name: Alt Menu - Exit
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Glitch Bypass - Enter
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Glitch Hold - Off / Glitch Hold - On
     value: 105
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Glitch Hold - On
-    value: 105
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Freeze Hold - Off
+    group:
+      - name: Glitch Hold - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Glitch Hold - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Freeze Hold - Off / Freeze Hold - On
     value: 106
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Freeze Hold - On
-    value: 106
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
+    group:
+      - name: Freeze Hold - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Freeze Hold - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
   - name: Retrigger Glitch
     value: 108
     description: ''
@@ -103,19 +113,21 @@ cc:
     description: ''
     type: Parameter
     min: 1
-    max: 127    
-  - name: Knobs - Size
-    value: 14
-    description: ''
-    type: Parameter
-    min: 0
     max: 127
   - name: Knobs - Size
     value: 14
     description: ''
-    type: Parameter
-    min: 0
-    max: 127
+    group:
+      - name: Knobs - Size
+        description: ''
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Knobs - Size
+        description: ''
+        min: 0
+        max: 127
+        type: Parameter
   - name: Knobs - Mix
     value: 15
     description: ''
@@ -152,318 +164,361 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Error Toggle - Timing
+  - name: Error Toggle - Timing / Error Toggle - Condition / Error Toggle - Playback
     value: 21
     description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Error Toggle - Condition
-    value: 21
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2      
-  - name: Error Toggle - Playback
-    value: 21
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3                                    
-  - name: Fade Toggle - Long
+    group:
+      - name: Error Toggle - Timing
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Error Toggle - Condition
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Error Toggle - Playback
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Fade Toggle - Long / Fade Toggle - User / Fade Toggle - Short
     value: 22
     description: ''
-    type: Parameter
-    min: 1
-    max: 1    
-  - name: Fade Toggle - User
-    value: 22
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2     
-  - name: Fade Toggle - Short
-    value: 22
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3         
-  - name: Animate Toggle - Vibrato
+    group:
+      - name: Fade Toggle - Long
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Fade Toggle - User
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Fade Toggle - Short
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Animate Toggle - Vibrato / Animate Toggle - Off / Animate Toggle - Chorus
     value: 23
     description: ''
-    type: Parameter
-    min: 1
-    max: 1 
-  - name: Animate Toggle - Off
-    value: 23
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Animate Toggle - Chorus
-    value: 23
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Dip Switches (L) - Size - Off
+    group:
+      - name: Animate Toggle - Vibrato
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Animate Toggle - Off
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Animate Toggle - Chorus
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Dip Switches (L) - Size - Off / Dip Switches (L) - Size - On
     value: 61
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Size - On
-    value: 61
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Error - Off
+    group:
+      - name: Dip Switches (L) - Size - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Size - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Error - Off / Dip Switches (L) - Error - On
     value: 62
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Error - On
-    value: 62
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Sustain - Off
+    group:
+      - name: Dip Switches (L) - Error - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Error - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Sustain - Off / Dip Switches (L) - Sustain - On
     value: 63
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Sustain - On
-    value: 63
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1                            
-  - name: Dip Switches (L) - Texture - Off
+    group:
+      - name: Dip Switches (L) - Sustain - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Sustain - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Texture - Off / Dip Switches (L) - Texture - On
     value: 64
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Texture - On
-    value: 64
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Dip Switches (L) - Octave - Off
+    group:
+      - name: Dip Switches (L) - Texture - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Texture - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Octave - Off / Dip Switches (L) - Octave - On
     value: 65
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Octave - On
-    value: 65
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1  
-  - name: Dip Switches (L) - Bounce - Off
+    group:
+      - name: Dip Switches (L) - Octave - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Octave - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Bounce - Off / Dip Switches (L) - Bounce - On
     value: 66
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Bounce - On
-    value: 66
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1              
-  - name: Dip Switches (L) - Sweep - Off
+    group:
+      - name: Dip Switches (L) - Bounce - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Bounce - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Sweep - Off / Dip Switches (L) - Sweep - On
     value: 67
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Sweep - On
-    value: 67
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Dip Switches (L) - Polarity - Off
+    group:
+      - name: Dip Switches (L) - Sweep - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Sweep - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Polarity - Off / Dip Switches (L) - Polarity - On
     value: 68
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Polarity - On
-    value: 68
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1    
-  - name: Dip Switches (R) - Miso - Off
+    group:
+      - name: Dip Switches (L) - Polarity - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Polarity - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Miso - Off / Dip Switches (R) - Miso - On
     value: 71
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Miso - On
-    value: 71
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1             
-  - name: Dip Switches (R) - Spread - Off
+    group:
+      - name: Dip Switches (R) - Miso - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Miso - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Spread - Off / Dip Switches (R) - Spread - On
     value: 72
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Spread - On
-    value: 72
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1    
-  - name: Dip Switches (R) - Latch - Off
+    group:
+      - name: Dip Switches (R) - Spread - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Spread - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Latch - Off / Dip Switches (R) - Latch - On
     value: 73
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Latch - On
-    value: 73
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Dip Switches (R) - Sidechain - Off
+    group:
+      - name: Dip Switches (R) - Latch - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Latch - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Sidechain - Off / Dip Switches (R) - Sidechain - On
     value: 74
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Sidechain - On
-    value: 74
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Dip Switches (R) - Duck - Off
+    group:
+      - name: Dip Switches (R) - Sidechain - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Sidechain - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Duck - Off / Dip Switches (R) - Duck - On
     value: 75
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Duck - On
-    value: 75
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Dip Switches (R) - Reverse - Off
+    group:
+      - name: Dip Switches (R) - Duck - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Duck - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Reverse - Off / Dip Switches (R) - Reverse - On
     value: 76
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Reverse - On
-    value: 76
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1    
-  - name: Dip Switches (R) - 1/2 Speed - Off
+    group:
+      - name: Dip Switches (R) - Reverse - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Reverse - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - 1/2 Speed - Off / Dip Switches (R) - 1/2 Speed - On
     value: 77
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - 1/2 Speed - On
-    value: 77
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1        
-  - name: Dip Switches (R) - Manual - Off
+    group:
+      - name: Dip Switches (R) - 1/2 Speed - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - 1/2 Speed - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Manual - Off / Dip Switches (R) - Manual - On
     value: 78
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Manual - On
-    value: 78
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
+    group:
+      - name: Dip Switches (R) - Manual - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Manual - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
   - name: Expression over Midi
     value: 100
     description: ''
     type: Parameter
     min: 0
-    max: 127    
+    max: 127
   - name: Preset Save
     value: 111
     description: ''
     type: Parameter
     min: 0
     max: 122
-  - name: MIDI Clock Ignore - Ignore
+  - name: MIDI Clock Ignore - Ignore / MIDI Clock Ignore - Follow
     value: 51
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: MIDI Clock Ignore - Follow
-    value: 51
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127
-  - name: Ramping - Stop
+    group:
+      - name: MIDI Clock Ignore - Ignore
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: MIDI Clock Ignore - Follow
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
+  - name: Ramping - Stop / Ramping - Resume
     value: 52
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Ramping - Resume
-    value: 52
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127   
+    group:
+      - name: Ramping - Stop
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Ramping - Resume
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: Factory Reset
     value: 56
     description: ''
     type: Parameter
     min: 1
     max: 127
-  - name: Dry Kill - Off
+  - name: Dry Kill - Off / Dry Kill - On
     value: 57
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dry Kill - On
-    value: 57
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127             
-  - name: Trails - Off
+    group:
+      - name: Dry Kill - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dry Kill - On
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
+  - name: Trails - Off / Trails - On
     value: 58
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Trails - On
-    value: 58
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: Trails - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Trails - On
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: Tap Tempo
     value: 107
     description: ''
@@ -472,16 +527,16 @@ cc:
     max: 127
   - name: Tap Tempo - Legacy
     value: 93
-    description: 'CC93 is also Tap Tempo for continuity between past pedals.'
+    description: CC93 is also Tap Tempo for continuity between past pedals.
     type: Parameter
     min: 0
-    max: 127             
+    max: 127
   - name: Knobs - Sensitivity (Hidden Option)
     value: 24
     description: ''
     type: Parameter
     min: 0
-    max: 127  
+    max: 127
   - name: Knobs - Balance (Hidden Option)
     value: 25
     description: ''
@@ -493,13 +548,13 @@ cc:
     description: ''
     type: Parameter
     min: 0
-    max: 127  
+    max: 127
   - name: Knobs - Error Blend (Hidden Option)
     value: 27
     description: ''
     type: Parameter
     min: 0
-    max: 127    
+    max: 127
   - name: Knobs - User Fade (Hidden Option)
     value: 28
     description: ''
@@ -511,112 +566,110 @@ cc:
     description: ''
     type: Parameter
     min: 0
-    max: 127    
-  - name: Error Routing - Glitch (Hidden Option)
+    max: 127
+  - name: Error Routing - Glitch (Hidden Option) / Error Routing - Both (Hidden Option) / Error Routing - Freeze (Hidden Option)
     value: 31
     description: ''
-    type: Parameter
-    min: 1
-    max: 1     
-  - name: Error Routing - Both (Hidden Option)
-    value: 31
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2                          
-  - name: Error Routing - Freeze (Hidden Option)
-    value: 31
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3      
-  - name: Sustain Routing - Glitch (Hidden Option)
+    group:
+      - name: Error Routing - Glitch (Hidden Option)
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Error Routing - Both (Hidden Option)
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Error Routing - Freeze (Hidden Option)
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Sustain Routing - Glitch (Hidden Option) / Sustain Routing - Both (Hidden Option) / Sustain Routing - Freeze (Hidden Option)
     value: 32
     description: ''
-    type: Parameter
-    min: 1
-    max: 1     
-  - name: Sustain Routing - Both (Hidden Option)
-    value: 32
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2                          
-  - name: Sustain Routing - Freeze (Hidden Option)
-    value: 32
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3  
-  - name: Effects Routing - Glitch (Hidden Option)
+    group:
+      - name: Sustain Routing - Glitch (Hidden Option)
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Sustain Routing - Both (Hidden Option)
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Sustain Routing - Freeze (Hidden Option)
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Effects Routing - Glitch (Hidden Option) / Effects Routing - Both (Hidden Option) / Effects Routing - Freeze (Hidden Option)
     value: 33
     description: ''
-    type: Parameter
-    min: 1
-    max: 1     
-  - name: Effects Routing - Both (Hidden Option)
-    value: 33
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2                          
-  - name: Effects Routing - Freeze (Hidden Option)
-    value: 33
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3  
-  - name: Midi Sync Subdivision - Whole
+    group:
+      - name: Effects Routing - Glitch (Hidden Option)
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Effects Routing - Both (Hidden Option)
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Effects Routing - Freeze (Hidden Option)
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Midi Sync Subdivision - Whole / Midi Sync Subdivision - Dotted Half / Midi Sync Subdivision - Half / Midi Sync Subdivision - Dotted Quarter / Midi Sync Subdivision - Quarter / Midi Sync Subdivision - Dotted 8th / Midi Sync Subdivision - 8th / Midi Sync Subdivision - 8th note triplet / Midi Sync Subdivision - 16th
     value: 53
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Midi Sync Subdivision - Dotted Half
-    value: 53
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1      
-  - name: Midi Sync Subdivision - Half
-    value: 53
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2                  
-  - name: Midi Sync Subdivision - Dotted Quarter
-    value: 53
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Midi Sync Subdivision - Quarter
-    value: 53
-    description: ''
-    type: Parameter
-    min: 4
-    max: 4  
-  - name: Midi Sync Subdivision - Dotted 8th
-    value: 53
-    description: ''
-    type: Parameter
-    min: 5
-    max: 5
-  - name: Midi Sync Subdivision - 8th
-    value: 53
-    description: ''
-    type: Parameter
-    min: 6
-    max: 6
-  - name: Midi Sync Subdivision - 8th note triplet
-    value: 53
-    description: ''
-    type: Parameter
-    min: 7
-    max: 7
-  - name: Midi Sync Subdivision - 16th
-    value: 53
-    description: ''
-    type: Parameter
-    min: 8
-    max: 8                          
+    group:
+      - name: Midi Sync Subdivision - Whole
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Midi Sync Subdivision - Dotted Half
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+      - name: Midi Sync Subdivision - Half
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Midi Sync Subdivision - Dotted Quarter
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+      - name: Midi Sync Subdivision - Quarter
+        description: ''
+        min: 4
+        max: 4
+        type: Parameter
+      - name: Midi Sync Subdivision - Dotted 8th
+        description: ''
+        min: 5
+        max: 5
+        type: Parameter
+      - name: Midi Sync Subdivision - 8th
+        description: ''
+        min: 6
+        max: 6
+        type: Parameter
+      - name: Midi Sync Subdivision - 8th note triplet
+        description: ''
+        min: 7
+        max: 7
+        type: Parameter
+      - name: Midi Sync Subdivision - 16th
+        description: ''
+        min: 8
+        max: 8
+        type: Parameter

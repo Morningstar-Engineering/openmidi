@@ -20,140 +20,158 @@ cc:
   - name: Bank
     value: 0
     description: Selects preset bank 0–31.
-    min: '0'
-    max: '31'
+    min: 0
+    max: 31
   - name: Delay Time
-    value: '3'
+    value: 3
     description: Controls delay time.
     min: 0
     max: 127
   - name: Room Size / RT60
-    value: '9'
+    value: 9
     description: Controls reverb room size / RT60.
     min: 0
     max: 127
   - name: Delay Mix
-    value: '14'
+    value: 14
     description: Controls delay mix level.
     min: 0
     max: 127
   - name: Reverb Mix
-    value: '15'
+    value: 15
     description: Controls reverb mix level.
     min: 0
     max: 127
   - name: Tweak Rate / FO Freq
-    value: '17'
+    value: 17
     description: Controls tweak rate / filter oscillator frequency.
     min: 0
     max: 127
   - name: Tweak Depth
-    value: '18'
+    value: 18
     description: Controls tweak depth.
     min: 0
     max: 127
   - name: Delay Mode
-    value: '19'
+    value: 19
     description: Selects delay mode.
     min: 0
-    max: '7'
+    max: 7
   - name: Tweak Blend
-    value: '20'
+    value: 20
     description: Controls tweak blend.
     min: 0
     max: 127
   - name: Delay Feedback
-    value: '22'
+    value: 22
     description: Controls delay feedback.
     min: 0
     max: 127
   - name: Saturation
-    value: '23'
+    value: 23
     description: Controls saturation amount.
     min: 0
     max: 127
   - name: Dynamics Threshold
-    value: '25'
+    value: 25
     description: Controls Dynamic Expression threshold.
     min: 0
     max: 127
   - name: Routing
-    value: '27'
+    value: 27
     description: Selects delay/reverb routing mode.
     min: 0
-    max: '3'
+    max: 3
   - name: Tweak LPF
-    value: '28'
+    value: 28
     description: Controls low-pass filter tweak value.
     min: 0
     max: 127
   - name: Tweak HPF
-    value: '29'
+    value: 29
     description: Controls high-pass filter tweak value.
     min: 0
     max: 127
   - name: BPM MSB
-    value: '30'
+    value: 30
     description: Most significant byte for BPM tempo value.
     min: 0
     max: 127
   - name: Delay ms MSB
-    value: '31'
+    value: 31
     description: Most significant byte for delay time in milliseconds.
     min: 0
     max: 127
   - name: Preset
-    value: '32'
+    value: 32
     description: Selects preset A–D within the current bank.
     min: 0
-    max: '3'
+    max: 3
   - name: Patch Decrement
-    value: '33'
+    value: 33
     description: Decrements patch. Any value triggers the command.
     min: 0
     max: 127
   - name: Patch Increment
-    value: '34'
+    value: 34
     description: Increments patch. Any value triggers the command.
     min: 0
     max: 127
   - name: BPM LSB
-    value: '62'
+    value: 62
     description: Least significant byte for BPM tempo value.
     min: 0
     max: 127
   - name: Delay ms LSB
-    value: '63'
+    value: 63
     description: Least significant byte for delay time in milliseconds.
     min: 0
     max: 127
   - name: Tap Footswitch
-    value: '81'
+    value: 81
     description: Triggers the tap footswitch function.
-    min: '1'
+    min: 1
     max: 127
   - name: Remote Tap
-    value: '93'
+    value: 93
     description: Remote tap tempo. Any value triggers the command.
     min: 0
     max: 127
   - name: Trailing Repeats
-    value: '97'
+    value: 97
     description: 0–1 trailing repeats setting.
     min: 0
-    max: '1'
+    max: 1
   - name: BPM / Tempo Display Mode
-    value: '101'
-    description: '0 = BPM display, 1 = time display.'
-    min: 0
-    max: '1'
+    value: 101
+    description: ''
+    group:
+      - name: BPM display
+        description: ''
+        min: 0
+        max: 0
+      - name: time display.
+        description: ''
+        min: 1
+        max: 1
   - name: Bypass
-    value: '102'
-    description: '0 = bypass, 1–127 = enable.'
+    value: 102
+    description: 0 = bypass, 1–127 = enable.
     min: 0
     max: 127
   - name: Dry Kill
-    value: '103'
-    description: '0 = off, 1 = bypass mutes, 2 = bypass dry.'
-    min: 0
-    max: '2'
+    value: 103
+    description: ''
+    group:
+      - name: 'off'
+        description: ''
+        min: 0
+        max: 0
+      - name: bypass mutes
+        description: ''
+        min: 1
+        max: 1
+      - name: bypass dry.
+        description: ''
+        min: 2
+        max: 2

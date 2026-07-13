@@ -76,16 +76,38 @@ cc:
     max: 127
   - name: Room Size
     value: 18
-    description: (1=small, 2= medium, 3= large)
+    description: ''
     type: Parameter
-    min: 1
-    max: 3
+    group:
+      - name: small
+        description: ''
+        min: 1
+        max: 1
+      - name: medium
+        description: ''
+        min: 2
+        max: 2
+      - name: large)
+        description: ''
+        min: 3
+        max: 3
   - name: Amp
     value: 19
-    description: (1=round, 2=chime, 3=punch)
+    description: ''
     type: Parameter
-    min: 1
-    max: 3
+    group:
+      - name: round
+        description: ''
+        min: 1
+        max: 1
+      - name: chime
+        description: ''
+        min: 2
+        max: 2
+      - name: punch)
+        description: ''
+        min: 3
+        max: 3
   - name: Cab
     value: 20
     description: (0-2=round a, b, c; 3-5=chime a, b, c; 6-8=punch a, b, c)
@@ -106,7 +128,7 @@ cc:
     max: 127
   - name: MIDI Expression Off/On
     value: 60
-    description: (0=off, 1-127=on) 
+    description: (0=off, 1-127=on)
     type: System
     min: 0
     max: 127
@@ -116,24 +138,37 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Engage
+  - name: Engage / Bypass
     value: 102
     description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: Bypass
-    value: 102
-    description: ''
-    type: System
-    min: 0
-    max: 0
+    group:
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: System
   - name: Bank Select
     value: 0
-    description: '(0=bank 1, 1=bank 2, 2=bank 3)'
+    description: ''
     type: System
-    min: 0
-    max: 2
+    group:
+      - name: bank 1
+        description: ''
+        min: 0
+        max: 0
+      - name: bank 2
+        description: ''
+        min: 1
+        max: 1
+      - name: bank 3)
+        description: ''
+        min: 2
+        max: 2
   - name: Volume Pedal
     value: 7
     description: ''

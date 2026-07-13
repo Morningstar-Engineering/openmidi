@@ -1,175 +1,192 @@
 brand: Strymon
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Preset Bank 0
-  value: 0
-- description: ''
-  max: 1
-  min: 1
-  name: Preset Bank 1
-  value: 0
-- description: ''
-  max: 2
-  min: 2
-  name: Preset Bank 2
-  value: 0
-- description: ''
-  max: 127
-  min: 127
-  name: 'Tape Saturation: On'
-  value: 10
-- description: ''
-  max: 0
-  min: 0
-  name: 'Tape Saturation: Off'
-  value: 10
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mode: Classic'
-  value: 11
-- description: ''
-  max: 2
-  min: 2
-  name: 'Mode: Cassette'
-  value: 11
-- description: ''
-  max: 127
-  min: 0
-  name: Saturation
-  value: 12
-- description: ''
-  max: 127
-  min: 0
-  name: Volume
-  value: 13
-- description: ''
-  max: 127
-  min: 0
-  name: Tone
-  value: 14
-- description: ''
-  max: 127
-  min: 0
-  name: Low Trim
-  value: 15
-- description: ''
-  max: 127
-  min: 127
-  name: 'Doubletracker: On'
-  value: 16
-- description: ''
-  max: 0
-  min: 0
-  name: 'Doubletracker: Off'
-  value: 16
-- description: ''
-  max: 1
-  min: 1
-  name: 'Type: Sum'
-  value: 17
-- description: ''
-  max: 2
-  min: 2
-  name: 'Type: Invert'
-  value: 17
-- description: ''
-  max: 3
-  min: 3
-  name: 'Type: Bounce'
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: Lag Time
-  value: 18
-- description: ''
-  max: 127
-  min: 0
-  name: Wobble
-  value: 19
-- description: ''
-  max: 127
-  min: 0
-  name: Blend
-  value: 20
-- description: ''
-  max: 127
-  min: 0
-  name: Doubletracker Boost/Cut
-  value: 21
-- description: ''
-  max: 127
-  min: 0
-  name: Auto-Flange Time
-  value: 22
-- description: ''
-  max: 127
-  min: 127
-  name: 'Wide Stereo Mode: On'
-  value: 23
-- description: ''
-  max: 0
-  min: 0
-  name: 'Wide Stereo Mode: Off'
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: 'A and B Engage'
-  value: 33
-- description: ''
-  max: 0
-  min: 0
-  name: 'A and B Bypass'
-  value: 33
-- description: ''
-  max: 0
-  min: 0
-  name: 'A&B: Bypass'
-  value: 33
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Expression: On'
-  value: 60
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Expression: Off'
-  value: 60
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Clock: On'
-  value: 63
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Clock: Off'
-  value: 63
-- description: ''
-  max: 127
-  min: 127
-  name: Remote Tap
-  value: 93
-- description: ''
-  max: 127
-  min: 127
-  name: 'Auto-Flange: On'
-  value: 97
-- description: ''
-  max: 0
-  min: 0
-  name: 'Auto-Flange: Off'
-  value: 97
-- description: ''
-  max: 127
-  min: 0
-  name: Expression Pedal
-  value: 100
+  - name: Preset Bank 0 / Preset Bank 1 / Preset Bank 2
+    value: 0
+    description: ''
+    group:
+      - name: Preset Bank 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Preset Bank 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Preset Bank 2
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Tape Saturation: On / Tape Saturation: Off'
+    value: 10
+    description: ''
+    group:
+      - name: 'Tape Saturation: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Tape Saturation: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Mode: Classic / Mode: Cassette'
+    value: 11
+    description: ''
+    group:
+      - name: 'Mode: Classic'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mode: Cassette'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 127
+    min: 0
+    name: Saturation
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Tone
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Low Trim
+    value: 15
+  - name: 'Doubletracker: On / Doubletracker: Off'
+    value: 16
+    description: ''
+    group:
+      - name: 'Doubletracker: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Doubletracker: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Type: Sum / Type: Invert / Type: Bounce'
+    value: 17
+    description: ''
+    group:
+      - name: 'Type: Sum'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Type: Invert'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Type: Bounce'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Lag Time
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Wobble
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Blend
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Doubletracker Boost/Cut
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Auto-Flange Time
+    value: 22
+  - name: 'Wide Stereo Mode: On / Wide Stereo Mode: Off'
+    value: 23
+    description: ''
+    group:
+      - name: 'Wide Stereo Mode: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Wide Stereo Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'A and B Engage / A and B Bypass / A&B: Bypass'
+    value: 33
+    description: ''
+    group:
+      - name: A and B Engage
+        description: ''
+        min: 127
+        max: 127
+      - name: A and B Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: 'A&B: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'MIDI Expression: On / MIDI Expression: Off'
+    value: 60
+    description: ''
+    group:
+      - name: 'MIDI Expression: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Expression: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'MIDI Clock: On / MIDI Clock: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'MIDI Clock: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Clock: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Remote Tap
+    value: 93
+  - name: 'Auto-Flange: On / Auto-Flange: Off'
+    value: 97
+    description: ''
+    group:
+      - name: 'Auto-Flange: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Auto-Flange: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 100
 device_name: Deco
 midi_channel:
   instructions: ''

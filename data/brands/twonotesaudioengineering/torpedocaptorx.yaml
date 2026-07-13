@@ -1,1460 +1,1355 @@
 brand: Two Notes Audio Engineering
 cc:
-- description: ''
-  max: 1
-  min: 1
-  name: Cab/Mic On
-  value: 6
-- description: ''
-  max: 0
-  min: 0
-  name: Cab/Mic Off
-  value: 6
-- description: ''
-  max: 0
-  min: 0
-  name: Select Cab 0
-  value: 8
-- description: ''
-  max: 1
-  min: 1
-  name: Select Cab 1
-  value: 8
-- description: ''
-  max: 2
-  min: 2
-  name: Select Cab 2
-  value: 8
-- description: ''
-  max: 3
-  min: 3
-  name: Select Cab 3
-  value: 8
-- description: ''
-  max: 4
-  min: 4
-  name: Select Cab 4
-  value: 8
-- description: ''
-  max: 5
-  min: 5
-  name: Select Cab 5
-  value: 8
-- description: ''
-  max: 6
-  min: 6
-  name: Select Cab 6
-  value: 8
-- description: ''
-  max: 7
-  min: 7
-  name: Select Cab 7
-  value: 8
-- description: ''
-  max: 8
-  min: 8
-  name: Select Cab 8
-  value: 8
-- description: ''
-  max: 0
-  min: 0
-  name: File A 0
-  value: 9
-- description: ''
-  max: 1
-  min: 1
-  name: File A 1
-  value: 9
-- description: ''
-  max: 2
-  min: 2
-  name: File A 2
-  value: 9
-- description: ''
-  max: 3
-  min: 3
-  name: File A 3
-  value: 9
-- description: ''
-  max: 4
-  min: 4
-  name: File A 4
-  value: 9
-- description: ''
-  max: 5
-  min: 5
-  name: File A 5
-  value: 9
-- description: ''
-  max: 6
-  min: 6
-  name: File A 6
-  value: 9
-- description: ''
-  max: 7
-  min: 7
-  name: File A 7
-  value: 9
-- description: ''
-  max: 8
-  min: 8
-  name: File A 8
-  value: 9
-- description: ''
-  max: 0
-  min: 0
-  name: File B 0
-  value: 10
-- description: ''
-  max: 1
-  min: 1
-  name: File B 1
-  value: 10
-- description: ''
-  max: 2
-  min: 2
-  name: File B 2
-  value: 10
-- description: ''
-  max: 3
-  min: 3
-  name: File B 3
-  value: 10
-- description: ''
-  max: 4
-  min: 4
-  name: File B 4
-  value: 10
-- description: ''
-  max: 5
-  min: 5
-  name: File B 5
-  value: 10
-- description: ''
-  max: 6
-  min: 6
-  name: File B 6
-  value: 10
-- description: ''
-  max: 7
-  min: 7
-  name: File B 7
-  value: 10
-- description: ''
-  max: 8
-  min: 8
-  name: File B 8
-  value: 10
-- description: ''
-  max: 0
-  min: 0
-  name: 'Folder A: User 0'
-  value: 11
-- description: ''
-  max: 1
-  min: 1
-  name: 'Folder A: User 1'
-  value: 11
-- description: ''
-  max: 2
-  min: 2
-  name: 'Folder A: User 2'
-  value: 11
-- description: ''
-  max: 3
-  min: 3
-  name: 'Folder A: User 3'
-  value: 11
-- description: ''
-  max: 0
-  min: 0
-  name: 'Folder B: User 0'
-  value: 12
-- description: ''
-  max: 1
-  min: 1
-  name: 'Folder B: User 1'
-  value: 12
-- description: ''
-  max: 2
-  min: 2
-  name: 'Folder B: User 2'
-  value: 12
-- description: ''
-  max: 3
-  min: 3
-  name: 'Folder B: User 3'
-  value: 12
-- description: ''
-  max: 0
-  min: 0
-  name: Mic A 1
-  value: 13
-- description: ''
-  max: 1
-  min: 1
-  name: Mic A 2
-  value: 13
-- description: ''
-  max: 2
-  min: 2
-  name: Mic A 3
-  value: 13
-- description: ''
-  max: 3
-  min: 3
-  name: Mic A 4
-  value: 13
-- description: ''
-  max: 4
-  min: 4
-  name: Mic A 5
-  value: 13
-- description: ''
-  max: 5
-  min: 5
-  name: Mic A 6
-  value: 13
-- description: ''
-  max: 6
-  min: 6
-  name: Mic A 7
-  value: 13
-- description: ''
-  max: 7
-  min: 7
-  name: Mic A 8
-  value: 13
-- description: ''
-  max: 127
-  min: 0
-  name: Distance A
-  value: 14
-- description: ''
-  max: 127
-  min: 0
-  name: Center A
-  value: 15
-- description: ''
-  max: 0
-  min: 0
-  name: 'Position A: Back'
-  value: 16
-- description: ''
-  max: 1
-  min: 1
-  name: 'Position A: Front'
-  value: 16
-- description: ''
-  max: 107
-  min: 1
-  name: Level A
-  value: 35
-- description: ''
-  max: 0
-  min: 0
-  name: 'Phase A: Normal'
-  value: 36
-- description: ''
-  max: 1
-  min: 1
-  name: 'Phase A: Invert'
-  value: 36
-- description: ''
-  max: 0
-  min: 0
-  name: 'Mute A: Unmuted'
-  value: 37
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mute A: Muted'
-  value: 37
-- description: ''
-  max: 0
-  min: 0
-  name: Mic B 1
-  value: 38
-- description: ''
-  max: 1
-  min: 1
-  name: Mic B 2
-  value: 38
-- description: ''
-  max: 2
-  min: 2
-  name: Mic B 3
-  value: 38
-- description: ''
-  max: 3
-  min: 3
-  name: Mic B 4
-  value: 38
-- description: ''
-  max: 4
-  min: 4
-  name: Mic B 5
-  value: 38
-- description: ''
-  max: 5
-  min: 5
-  name: Mic B 6
-  value: 38
-- description: ''
-  max: 6
-  min: 6
-  name: Mic B 7
-  value: 38
-- description: ''
-  max: 7
-  min: 7
-  name: Mic B 8
-  value: 38
-- description: ''
-  max: 127
-  min: 0
-  name: Distance B
-  value: 39
-- description: ''
-  max: 127
-  min: 0
-  name: Center B
-  value: 40
-- description: ''
-  max: 0
-  min: 0
-  name: 'Position B: Back'
-  value: 41
-- description: ''
-  max: 1
-  min: 1
-  name: 'Position B: Front'
-  value: 41
-- description: ''
-  max: 107
-  min: 0
-  name: Level B
-  value: 42
-- description: ''
-  max: 0
-  min: 0
-  name: 'Phase B: Normal'
-  value: 43
-- description: ''
-  max: 1
-  min: 1
-  name: 'Phase B: Inverted'
-  value: 43
-- description: ''
-  max: 0
-  min: 0
-  name: 'Mute B: Unmute'
-  value: 44
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mute B: Mute'
-  value: 44
-- description: ''
-  max: 1
-  min: 1
-  name: Bypass A
-  value: 51
-- description: ''
-  max: 0
-  min: 0
-  name: Engage A
-  value: 51
-- description: ''
-  max: 1
-  min: 1
-  name: Bypass B
-  value: 52
-- description: ''
-  max: 0
-  min: 0
-  name: Engage B
-  value: 52
-- description: ''
-  max: 1
-  min: 1
-  name: EQ On
-  value: 17
-- description: ''
-  max: 0
-  min: 0
-  name: EQ Off
-  value: 17
-- description: ''
-  max: 1
-  min: 1
-  name: 'EQ Mode: Bass'
-  value: 18
-- description: ''
-  max: 0
-  min: 0
-  name: 'EQ Mode: Guitar'
-  value: 18
-- description: ''
-  max: 2
-  min: 2
-  name: 'EQ Mode: Custom'
-  value: 18
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ Gain: Low'
-  value: 19
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ Gain: Low Mid'
-  value: 20
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ Gain: Mid'
-  value: 21
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ Gain: High Mid'
-  value: 22
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ Gain: High'
-  value: 23
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: Low Cut'
-  value: 45
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: Low'
-  value: 46
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: Low Mid'
-  value: 47
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: Mid'
-  value: 48
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: High Mid'
-  value: 49
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ Freq: High'
-  value: 50
-- description: ''
-  max: 95
-  min: 0
-  name: EQ Preset Level
-  value: 24
-- description: ''
-  max: 95
-  min: 0
-  name: EQ Preset Level R
-  value: 86
-- description: ''
-  max: 1
-  min: 1
-  name: Reverb On
-  value: 25
-- description: ''
-  max: 0
-  min: 0
-  name: Reverb Off
-  value: 25
-- description: ''
-  max: 0
-  min: 0
-  name: Reverb Room 0
-  value: 26
-- description: ''
-  max: 1
-  min: 1
-  name: Reverb Room 1
-  value: 26
-- description: ''
-  max: 2
-  min: 2
-  name: Reverb Room 2
-  value: 26
-- description: ''
-  max: 3
-  min: 3
-  name: Reverb Room 3
-  value: 26
-- description: ''
-  max: 4
-  min: 4
-  name: Reverb Room 4
-  value: 26
-- description: ''
-  max: 5
-  min: 5
-  name: Reverb Room 5
-  value: 26
-- description: ''
-  max: 6
-  min: 6
-  name: Reverb Room 6
-  value: 26
-- description: ''
-  max: 7
-  min: 7
-  name: Reverb Room 7
-  value: 26
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Dry/Wet
-  value: 27
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Dry/Wet R
-  value: 72
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Size
-  value: 53
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Echo
-  value: 54
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Color
-  value: 55
-- description: ''
-  max: 0
-  min: 0
-  name: 'Reverb Type: Room'
-  value: 56
-- description: ''
-  max: 1
-  min: 1
-  name: 'Reverb Type: Ambience'
-  value: 56
-- description: ''
-  max: 127
-  min: 0
-  name: Reverb Width
-  value: 57
-- description: ''
-  max: 1
-  min: 1
-  name: Noise Gate On
-  value: 58
-- description: ''
-  max: 0
-  min: 0
-  name: Noise Gate Off
-  value: 58
-- description: ''
-  max: 0
-  min: 0
-  name: 'Noise Gate: Soft'
-  value: 59
-- description: ''
-  max: 1
-  min: 1
-  name: 'Noise Gate: Hard'
-  value: 59
-- description: ''
-  max: 80
-  min: 0
-  name: Noise Gate Threshold
-  value: 60
-- description: ''
-  max: 1
-  min: 1
-  name: Enhancer On
-  value: 61
-- description: ''
-  max: 0
-  min: 0
-  name: Enhancer Off
-  value: 61
-- description: ''
-  max: 0
-  min: 0
-  name: 'Enhancer: Guitar'
-  value: 62
-- description: ''
-  max: 1
-  min: 1
-  name: 'Enhancer: Bass'
-  value: 62
-- description: ''
-  max: 127
-  min: 0
-  name: Enhancer Body
-  value: 63
-- description: ''
-  max: 127
-  min: 0
-  name: Enhancer Thickness
-  value: 44
-- description: ''
-  max: 127
-  min: 0
-  name: Enhancer Brilliance
-  value: 65
-- description: ''
-  max: 127
-  min: 0
-  name: Enhancer Dry/wet
-  value: 66
-- description: ''
-  max: 1
-  min: 1
-  name: Twin Tracker On
-  value: 67
-- description: ''
-  max: 0
-  min: 0
-  name: Twin Tracker Off
-  value: 67
-- description: ''
-  max: 127
-  min: 0
-  name: Twin Tracker Tightness
-  value: 68
-- description: ''
-  max: 127
-  min: 0
-  name: Twin Tracker Balance
-  value: 69
-- description: ''
-  max: 0
-  min: 0
-  name: 'Output Mode: Stereo'
-  value: 70
-- description: ''
-  max: 1
-  min: 1
-  name: 'Output Mode: Dual Mono'
-  value: 70
-- description: ''
-  max: 2
-  min: 2
-  name: 'Output Mode: Dual Mono, R Bypass'
-  value: 70
-- description: ''
-  max: 0
-  min: 0
-  name: 'Space Pot: Stereo'
-  value: 71
-- description: ''
-  max: 1
-  min: 1
-  name: 'Space Pot: Stereo Expander'
-  value: 71
-- description: ''
-  max: 0
-  min: 0
-  name: 'Space Pot: Dry/Wet Stereo'
-  value: 71
-- description: ''
-  max: 1
-  min: 1
-  name: 'Space Pot: Dual Mono Dry/Wet'
-  value: 71
-- description: ''
-  max: 0
-  min: 0
-  name: 'Space Pot: Dual Mono Dry/Wet L'
-  value: 71
-- description: ''
-  max: 1
-  min: 1
-  name: 'Space Pot: Dual Mono Dry/Wet R'
-  value: 71
-- description: ''
-  max: 0
-  min: 0
-  name: 'Space Pot: Dual Mono, R Bypass: Dry/Wet'
-  value: 71
-- description: ''
-  max: 1
-  min: 1
-  name: 'EQ R: On'
-  value: 73
-- description: ''
-  max: 0
-  min: 0
-  name: 'EQ R: Off'
-  value: 73
-- description: ''
-  max: 0
-  min: 0
-  name: 'EQ R Mode: Guitar'
-  value: 74
-- description: ''
-  max: 1
-  min: 1
-  name: 'EQ R Mode: Bass'
-  value: 74
-- description: ''
-  max: 2
-  min: 2
-  name: 'EQ R Mode: Custom'
-  value: 74
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ R Gain: Low'
-  value: 75
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ R Gain: Low Mid'
-  value: 76
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ R Gain: Mid'
-  value: 77
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ R Gain: High Mid'
-  value: 78
-- description: ''
-  max: 40
-  min: 0
-  name: 'EQ R Gain: High'
-  value: 79
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: Low Cut'
-  value: 80
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: Low'
-  value: 81
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: Low Mid'
-  value: 82
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: Mid'
-  value: 83
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: High Mid'
-  value: 84
-- description: ''
-  max: 127
-  min: 0
-  name: 'EQ R Freq: High'
-  value: 85
-- description: ''
-  max: 1
-  min: 1
-  name: 'General Preset Mode: Simulation'
-  value: 34
-- description: ''
-  max: 2
-  min: 2
-  name: 'General Preset Mode: IR Loader'
-  value: 34
-- description: ''
-  max: 107
-  min: 0
-  name: Output Level
-  value: 87
-- description: ''
-  max: 1
-  min: 1
-  name: Mute
-  value: 88
-- description: ''
-  max: 0
-  min: 0
-  name: Unmute
-  value: 88
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass
-  value: 89
-- description: ''
-  max: 1
-  min: 1
-  name: Engage
-  value: 89
-- description: ''
-  max: 127
-  min: 0
-  name: Voicing
-  value: 68
-- description: ''
-  max: 127
-  min: 0
-  name: Space
-  value: 69
-- description: ''
-  max: 0
-  min: 0
-  name: 'Preset 1 '
-  value: 90
-- description: ''
-  max: 1
-  min: 1
-  name: Preset 2
-  value: 90
-- description: ''
-  max: 2
-  min: 2
-  name: Preset 3
-  value: 90
-- description: ''
-  max: 3
-  min: 3
-  name: Preset 4
-  value: 90
-- description: ''
-  max: 4
-  min: 4
-  name: Preset 5
-  value: 90
-- description: ''
-  max: 5
-  min: 5
-  name: Preset 6
-  value: 90
-- description: ''
-  max: 6
-  min: 6
-  name: Preset 7
-  value: 90
-- description: ''
-  max: 7
-  min: 7
-  name: Preset 8
-  value: 90
-- description: ''
-  max: 8
-  min: 8
-  name: Preset 9
-  value: 90
-- description: ''
-  max: 9
-  min: 9
-  name: Preset 10
-  value: 90
-- description: ''
-  max: 10
-  min: 10
-  name: Preset 11
-  value: 90
-- description: ''
-  max: 11
-  min: 11
-  name: Preset 12
-  value: 90
-- description: ''
-  max: 12
-  min: 12
-  name: Preset 13
-  value: 90
-- description: ''
-  max: 13
-  min: 13
-  name: Preset 14
-  value: 90
-- description: ''
-  max: 14
-  min: 14
-  name: Preset 15
-  value: 90
-- description: ''
-  max: 15
-  min: 15
-  name: Preset 16
-  value: 90
-- description: ''
-  max: 16
-  min: 16
-  name: Preset 17
-  value: 90
-- description: ''
-  max: 17
-  min: 17
-  name: Preset 18
-  value: 90
-- description: ''
-  max: 18
-  min: 18
-  name: Preset 19
-  value: 90
-- description: ''
-  max: 19
-  min: 19
-  name: Preset 20
-  value: 90
-- description: ''
-  max: 20
-  min: 20
-  name: Preset 21
-  value: 90
-- description: ''
-  max: 21
-  min: 21
-  name: Preset 22
-  value: 90
-- description: ''
-  max: 22
-  min: 22
-  name: Preset 23
-  value: 90
-- description: ''
-  max: 23
-  min: 23
-  name: Preset 24
-  value: 90
-- description: ''
-  max: 24
-  min: 24
-  name: Preset 25
-  value: 90
-- description: ''
-  max: 25
-  min: 25
-  name: Preset 26
-  value: 90
-- description: ''
-  max: 26
-  min: 26
-  name: Preset 27
-  value: 90
-- description: ''
-  max: 27
-  min: 27
-  name: Preset 28
-  value: 90
-- description: ''
-  max: 28
-  min: 28
-  name: Preset 29
-  value: 90
-- description: ''
-  max: 29
-  min: 29
-  name: Preset 30
-  value: 90
-- description: ''
-  max: 30
-  min: 30
-  name: Preset 31
-  value: 90
-- description: ''
-  max: 31
-  min: 31
-  name: Preset 32
-  value: 90
-- description: ''
-  max: 32
-  min: 32
-  name: Preset 33
-  value: 90
-- description: ''
-  max: 33
-  min: 33
-  name: Preset 34
-  value: 90
-- description: ''
-  max: 34
-  min: 34
-  name: Preset 35
-  value: 90
-- description: ''
-  max: 35
-  min: 35
-  name: Preset 36
-  value: 90
-- description: ''
-  max: 36
-  min: 36
-  name: Preset 37
-  value: 90
-- description: ''
-  max: 37
-  min: 37
-  name: Preset 38
-  value: 90
-- description: ''
-  max: 38
-  min: 38
-  name: Preset 39
-  value: 90
-- description: ''
-  max: 39
-  min: 39
-  name: Preset 40
-  value: 90
-- description: ''
-  max: 40
-  min: 40
-  name: Preset 41
-  value: 90
-- description: ''
-  max: 41
-  min: 41
-  name: Preset 42
-  value: 90
-- description: ''
-  max: 42
-  min: 42
-  name: Preset 43
-  value: 90
-- description: ''
-  max: 43
-  min: 43
-  name: Preset 44
-  value: 90
-- description: ''
-  max: 44
-  min: 44
-  name: Preset 45
-  value: 90
-- description: ''
-  max: 45
-  min: 45
-  name: Preset 46
-  value: 90
-- description: ''
-  max: 46
-  min: 46
-  name: Preset 47
-  value: 90
-- description: ''
-  max: 47
-  min: 47
-  name: Preset 48
-  value: 90
-- description: ''
-  max: 48
-  min: 48
-  name: Preset 49
-  value: 90
-- description: ''
-  max: 49
-  min: 49
-  name: Preset 50
-  value: 90
-- description: ''
-  max: 50
-  min: 50
-  name: Preset 51
-  value: 90
-- description: ''
-  max: 51
-  min: 51
-  name: Preset 52
-  value: 90
-- description: ''
-  max: 52
-  min: 52
-  name: Preset 53
-  value: 90
-- description: ''
-  max: 53
-  min: 53
-  name: Preset 54
-  value: 90
-- description: ''
-  max: 54
-  min: 54
-  name: Preset 55
-  value: 90
-- description: ''
-  max: 55
-  min: 55
-  name: Preset 56
-  value: 90
-- description: ''
-  max: 56
-  min: 56
-  name: Preset 57
-  value: 90
-- description: ''
-  max: 57
-  min: 57
-  name: Preset 58
-  value: 90
-- description: ''
-  max: 58
-  min: 58
-  name: Preset 59
-  value: 90
-- description: ''
-  max: 59
-  min: 59
-  name: Preset 60
-  value: 90
-- description: ''
-  max: 60
-  min: 60
-  name: Preset 61
-  value: 90
-- description: ''
-  max: 61
-  min: 61
-  name: Preset 62
-  value: 90
-- description: ''
-  max: 62
-  min: 62
-  name: Preset 63
-  value: 90
-- description: ''
-  max: 63
-  min: 63
-  name: Preset 64
-  value: 90
-- description: ''
-  max: 64
-  min: 64
-  name: Preset 65
-  value: 90
-- description: ''
-  max: 65
-  min: 65
-  name: Preset 66
-  value: 90
-- description: ''
-  max: 66
-  min: 66
-  name: Preset 67
-  value: 90
-- description: ''
-  max: 67
-  min: 67
-  name: Preset 68
-  value: 90
-- description: ''
-  max: 68
-  min: 68
-  name: Preset 69
-  value: 90
-- description: ''
-  max: 69
-  min: 69
-  name: Preset 70
-  value: 90
-- description: ''
-  max: 70
-  min: 70
-  name: Preset 71
-  value: 90
-- description: ''
-  max: 71
-  min: 71
-  name: Preset 72
-  value: 90
-- description: ''
-  max: 72
-  min: 72
-  name: Preset 73
-  value: 90
-- description: ''
-  max: 73
-  min: 73
-  name: Preset 74
-  value: 90
-- description: ''
-  max: 74
-  min: 74
-  name: Preset 75
-  value: 90
-- description: ''
-  max: 75
-  min: 75
-  name: Preset 76
-  value: 90
-- description: ''
-  max: 76
-  min: 76
-  name: Preset 77
-  value: 90
-- description: ''
-  max: 77
-  min: 77
-  name: Preset 78
-  value: 90
-- description: ''
-  max: 78
-  min: 78
-  name: Preset 79
-  value: 90
-- description: ''
-  max: 79
-  min: 79
-  name: Preset 80
-  value: 90
-- description: ''
-  max: 80
-  min: 80
-  name: Preset 81
-  value: 90
-- description: ''
-  max: 81
-  min: 81
-  name: Preset 82
-  value: 90
-- description: ''
-  max: 82
-  min: 82
-  name: Preset 83
-  value: 90
-- description: ''
-  max: 83
-  min: 83
-  name: Preset 84
-  value: 90
-- description: ''
-  max: 84
-  min: 84
-  name: Preset 85
-  value: 90
-- description: ''
-  max: 85
-  min: 85
-  name: Preset 86
-  value: 90
-- description: ''
-  max: 86
-  min: 86
-  name: Preset 87
-  value: 90
-- description: ''
-  max: 87
-  min: 87
-  name: Preset 88
-  value: 90
-- description: ''
-  max: 88
-  min: 88
-  name: Preset 89
-  value: 90
-- description: ''
-  max: 89
-  min: 89
-  name: Preset 90
-  value: 90
-- description: ''
-  max: 90
-  min: 90
-  name: Preset 91
-  value: 90
-- description: ''
-  max: 91
-  min: 91
-  name: Preset 92
-  value: 90
-- description: ''
-  max: 92
-  min: 92
-  name: Preset 93
-  value: 90
-- description: ''
-  max: 93
-  min: 93
-  name: Preset 94
-  value: 90
-- description: ''
-  max: 94
-  min: 94
-  name: Preset 95
-  value: 90
-- description: ''
-  max: 95
-  min: 95
-  name: Preset 96
-  value: 90
-- description: ''
-  max: 96
-  min: 96
-  name: Preset 97
-  value: 90
-- description: ''
-  max: 97
-  min: 97
-  name: Preset 98
-  value: 90
-- description: ''
-  max: 98
-  min: 98
-  name: Preset 99
-  value: 90
-- description: ''
-  max: 99
-  min: 99
-  name: Preset 100
-  value: 90
-- description: ''
-  max: 100
-  min: 100
-  name: Preset 101
-  value: 90
-- description: ''
-  max: 101
-  min: 101
-  name: Preset 102
-  value: 90
-- description: ''
-  max: 102
-  min: 102
-  name: Preset 103
-  value: 90
-- description: ''
-  max: 103
-  min: 103
-  name: Preset 104
-  value: 90
-- description: ''
-  max: 104
-  min: 104
-  name: Preset 105
-  value: 90
-- description: ''
-  max: 105
-  min: 105
-  name: Preset 106
-  value: 90
-- description: ''
-  max: 106
-  min: 106
-  name: Preset 107
-  value: 90
-- description: ''
-  max: 107
-  min: 107
-  name: Preset 108
-  value: 90
-- description: ''
-  max: 108
-  min: 108
-  name: Preset 109
-  value: 90
-- description: ''
-  max: 109
-  min: 109
-  name: Preset 110
-  value: 90
-- description: ''
-  max: 110
-  min: 110
-  name: Preset 111
-  value: 90
-- description: ''
-  max: 111
-  min: 111
-  name: Preset 112
-  value: 90
-- description: ''
-  max: 112
-  min: 112
-  name: Preset 113
-  value: 90
-- description: ''
-  max: 113
-  min: 113
-  name: Preset 114
-  value: 90
-- description: ''
-  max: 114
-  min: 114
-  name: Preset 115
-  value: 90
-- description: ''
-  max: 115
-  min: 115
-  name: Preset 116
-  value: 90
-- description: ''
-  max: 116
-  min: 116
-  name: Preset 117
-  value: 90
-- description: ''
-  max: 117
-  min: 117
-  name: Preset 118
-  value: 90
-- description: ''
-  max: 118
-  min: 118
-  name: Preset 119
-  value: 90
-- description: ''
-  max: 119
-  min: 119
-  name: Preset 120
-  value: 90
-- description: ''
-  max: 120
-  min: 120
-  name: Preset 121
-  value: 90
-- description: ''
-  max: 121
-  min: 121
-  name: Preset 122
-  value: 90
-- description: ''
-  max: 122
-  min: 122
-  name: Preset 123
-  value: 90
-- description: ''
-  max: 123
-  min: 123
-  name: Preset 124
-  value: 90
-- description: ''
-  max: 124
-  min: 124
-  name: Preset 125
-  value: 90
-- description: ''
-  max: 125
-  min: 125
-  name: Preset 126
-  value: 90
-- description: ''
-  max: 126
-  min: 126
-  name: Preset 127
-  value: 90
-- description: ''
-  max: 127
-  min: 127
-  name: Preset 128
-  value: 90
+  - name: Cab/Mic On / Cab/Mic Off
+    value: 6
+    description: ''
+    group:
+      - name: Cab/Mic On
+        description: ''
+        min: 1
+        max: 1
+      - name: Cab/Mic Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Select Cab 0 / Select Cab 1 / Select Cab 2 / Select Cab 3 / Select Cab 4 / Select Cab 5 / Select Cab 6 / Select Cab 7 / Select Cab 8
+    value: 8
+    description: ''
+    group:
+      - name: Select Cab 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Select Cab 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Select Cab 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Select Cab 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Select Cab 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Select Cab 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Select Cab 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Select Cab 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Select Cab 8
+        description: ''
+        min: 8
+        max: 8
+  - name: File A 0 / File A 1 / File A 2 / File A 3 / File A 4 / File A 5 / File A 6 / File A 7 / File A 8
+    value: 9
+    description: ''
+    group:
+      - name: File A 0
+        description: ''
+        min: 0
+        max: 0
+      - name: File A 1
+        description: ''
+        min: 1
+        max: 1
+      - name: File A 2
+        description: ''
+        min: 2
+        max: 2
+      - name: File A 3
+        description: ''
+        min: 3
+        max: 3
+      - name: File A 4
+        description: ''
+        min: 4
+        max: 4
+      - name: File A 5
+        description: ''
+        min: 5
+        max: 5
+      - name: File A 6
+        description: ''
+        min: 6
+        max: 6
+      - name: File A 7
+        description: ''
+        min: 7
+        max: 7
+      - name: File A 8
+        description: ''
+        min: 8
+        max: 8
+  - name: File B 0 / File B 1 / File B 2 / File B 3 / File B 4 / File B 5 / File B 6 / File B 7 / File B 8
+    value: 10
+    description: ''
+    group:
+      - name: File B 0
+        description: ''
+        min: 0
+        max: 0
+      - name: File B 1
+        description: ''
+        min: 1
+        max: 1
+      - name: File B 2
+        description: ''
+        min: 2
+        max: 2
+      - name: File B 3
+        description: ''
+        min: 3
+        max: 3
+      - name: File B 4
+        description: ''
+        min: 4
+        max: 4
+      - name: File B 5
+        description: ''
+        min: 5
+        max: 5
+      - name: File B 6
+        description: ''
+        min: 6
+        max: 6
+      - name: File B 7
+        description: ''
+        min: 7
+        max: 7
+      - name: File B 8
+        description: ''
+        min: 8
+        max: 8
+  - name: 'Folder A: User 0 / Folder A: User 1 / Folder A: User 2 / Folder A: User 3'
+    value: 11
+    description: ''
+    group:
+      - name: 'Folder A: User 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Folder A: User 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Folder A: User 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Folder A: User 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Folder B: User 0 / Folder B: User 1 / Folder B: User 2 / Folder B: User 3'
+    value: 12
+    description: ''
+    group:
+      - name: 'Folder B: User 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Folder B: User 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Folder B: User 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Folder B: User 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: Mic A 1 / Mic A 2 / Mic A 3 / Mic A 4 / Mic A 5 / Mic A 6 / Mic A 7 / Mic A 8
+    value: 13
+    description: ''
+    group:
+      - name: Mic A 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic A 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic A 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic A 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic A 5
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic A 6
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic A 7
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic A 8
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance A
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Center A
+    value: 15
+  - name: 'Position A: Back / Position A: Front'
+    value: 16
+    description: ''
+    group:
+      - name: 'Position A: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position A: Front'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 107
+    min: 1
+    name: Level A
+    value: 35
+  - name: 'Phase A: Normal / Phase A: Invert'
+    value: 36
+    description: ''
+    group:
+      - name: 'Phase A: Normal'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Phase A: Invert'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Mute A: Unmuted / Mute A: Muted'
+    value: 37
+    description: ''
+    group:
+      - name: 'Mute A: Unmuted'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mute A: Muted'
+        description: ''
+        min: 1
+        max: 1
+  - name: Mic B 1 / Mic B 2 / Mic B 3 / Mic B 4 / Mic B 5 / Mic B 6 / Mic B 7 / Mic B 8
+    value: 38
+    description: ''
+    group:
+      - name: Mic B 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic B 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic B 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic B 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic B 5
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic B 6
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic B 7
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic B 8
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance B
+    value: 39
+  - description: ''
+    max: 127
+    min: 0
+    name: Center B
+    value: 40
+  - name: 'Position B: Back / Position B: Front'
+    value: 41
+    description: ''
+    group:
+      - name: 'Position B: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position B: Front'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 107
+    min: 0
+    name: Level B
+    value: 42
+  - name: 'Phase B: Normal / Phase B: Inverted'
+    value: 43
+    description: ''
+    group:
+      - name: 'Phase B: Normal'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Phase B: Inverted'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Mute B: Unmute / Mute B: Mute / Enhancer Thickness'
+    value: 44
+    description: ''
+    group:
+      - name: 'Mute B: Unmute'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mute B: Mute'
+        description: ''
+        min: 1
+        max: 1
+      - name: Enhancer Thickness
+        description: ''
+        min: 0
+        max: 127
+  - name: Bypass A / Engage A
+    value: 51
+    description: ''
+    group:
+      - name: Bypass A
+        description: ''
+        min: 1
+        max: 1
+      - name: Engage A
+        description: ''
+        min: 0
+        max: 0
+  - name: Bypass B / Engage B
+    value: 52
+    description: ''
+    group:
+      - name: Bypass B
+        description: ''
+        min: 1
+        max: 1
+      - name: Engage B
+        description: ''
+        min: 0
+        max: 0
+  - name: EQ On / EQ Off
+    value: 17
+    description: ''
+    group:
+      - name: EQ On
+        description: ''
+        min: 1
+        max: 1
+      - name: EQ Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'EQ Mode: Bass / EQ Mode: Guitar / EQ Mode: Custom'
+    value: 18
+    description: ''
+    group:
+      - name: 'EQ Mode: Bass'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ Mode: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'EQ Mode: Custom'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Low'
+    value: 19
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Low Mid'
+    value: 20
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Mid'
+    value: 21
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: High Mid'
+    value: 22
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: High'
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low Cut'
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low'
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low Mid'
+    value: 47
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Mid'
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: High Mid'
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: High'
+    value: 50
+  - description: ''
+    max: 95
+    min: 0
+    name: EQ Preset Level
+    value: 24
+  - description: ''
+    max: 95
+    min: 0
+    name: EQ Preset Level R
+    value: 86
+  - name: Reverb On / Reverb Off
+    value: 25
+    description: ''
+    group:
+      - name: Reverb On
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Reverb Room 0 / Reverb Room 1 / Reverb Room 2 / Reverb Room 3 / Reverb Room 4 / Reverb Room 5 / Reverb Room 6 / Reverb Room 7
+    value: 26
+    description: ''
+    group:
+      - name: Reverb Room 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Reverb Room 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb Room 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Reverb Room 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Reverb Room 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Reverb Room 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Reverb Room 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Reverb Room 7
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Dry/Wet
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Dry/Wet R
+    value: 72
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Size
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Echo
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Color
+    value: 55
+  - name: 'Reverb Type: Room / Reverb Type: Ambience'
+    value: 56
+    description: ''
+    group:
+      - name: 'Reverb Type: Room'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Reverb Type: Ambience'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Width
+    value: 57
+  - name: Noise Gate On / Noise Gate Off
+    value: 58
+    description: ''
+    group:
+      - name: Noise Gate On
+        description: ''
+        min: 1
+        max: 1
+      - name: Noise Gate Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Noise Gate: Soft / Noise Gate: Hard'
+    value: 59
+    description: ''
+    group:
+      - name: 'Noise Gate: Soft'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Noise Gate: Hard'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 80
+    min: 0
+    name: Noise Gate Threshold
+    value: 60
+  - name: Enhancer On / Enhancer Off
+    value: 61
+    description: ''
+    group:
+      - name: Enhancer On
+        description: ''
+        min: 1
+        max: 1
+      - name: Enhancer Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Enhancer: Guitar / Enhancer: Bass'
+    value: 62
+    description: ''
+    group:
+      - name: 'Enhancer: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Enhancer: Bass'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Enhancer Body
+    value: 63
+  - description: ''
+    max: 127
+    min: 0
+    name: Enhancer Brilliance
+    value: 65
+  - description: ''
+    max: 127
+    min: 0
+    name: Enhancer Dry/wet
+    value: 66
+  - name: Twin Tracker On / Twin Tracker Off
+    value: 67
+    description: ''
+    group:
+      - name: Twin Tracker On
+        description: ''
+        min: 1
+        max: 1
+      - name: Twin Tracker Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Twin Tracker Tightness / Voicing
+    value: 68
+    description: ''
+    group:
+      - name: Twin Tracker Tightness
+        description: ''
+        min: 0
+        max: 127
+      - name: Voicing
+        description: ''
+        min: 0
+        max: 127
+  - name: Twin Tracker Balance / Space
+    value: 69
+    description: ''
+    group:
+      - name: Twin Tracker Balance
+        description: ''
+        min: 0
+        max: 127
+      - name: Space
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Output Mode: Stereo / Output Mode: Dual Mono / Output Mode: Dual Mono, R Bypass'
+    value: 70
+    description: ''
+    group:
+      - name: 'Output Mode: Stereo'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Output Mode: Dual Mono'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Output Mode: Dual Mono, R Bypass'
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Space Pot: Stereo / Space Pot: Stereo Expander / Space Pot: Dry/Wet Stereo / Space Pot: Dual Mono Dry/Wet / Space Pot: Dual Mono Dry/Wet L / Space Pot: Dual Mono Dry/Wet R / Space Pot: Dual Mono, R Bypass: Dry/Wet'
+    value: 71
+    description: ''
+    group:
+      - name: 'Space Pot: Stereo'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Space Pot: Stereo Expander'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Space Pot: Dry/Wet Stereo'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Space Pot: Dual Mono Dry/Wet'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Space Pot: Dual Mono Dry/Wet L'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Space Pot: Dual Mono Dry/Wet R'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Space Pot: Dual Mono, R Bypass: Dry/Wet'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'EQ R: On / EQ R: Off'
+    value: 73
+    description: ''
+    group:
+      - name: 'EQ R: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ R: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'EQ R Mode: Guitar / EQ R Mode: Bass / EQ R Mode: Custom'
+    value: 74
+    description: ''
+    group:
+      - name: 'EQ R Mode: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'EQ R Mode: Bass'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ R Mode: Custom'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ R Gain: Low'
+    value: 75
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ R Gain: Low Mid'
+    value: 76
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ R Gain: Mid'
+    value: 77
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ R Gain: High Mid'
+    value: 78
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ R Gain: High'
+    value: 79
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: Low Cut'
+    value: 80
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: Low'
+    value: 81
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: Low Mid'
+    value: 82
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: Mid'
+    value: 83
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: High Mid'
+    value: 84
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ R Freq: High'
+    value: 85
+  - name: 'General Preset Mode: Simulation / General Preset Mode: IR Loader'
+    value: 34
+    description: ''
+    group:
+      - name: 'General Preset Mode: Simulation'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'General Preset Mode: IR Loader'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 107
+    min: 0
+    name: Output Level
+    value: 87
+  - name: Mute / Unmute
+    value: 88
+    description: ''
+    group:
+      - name: Mute
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute
+        description: ''
+        min: 0
+        max: 0
+  - name: Bypass / Engage
+    value: 89
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 1
+        max: 1
+  - name: Preset 1 / Preset 2 / Preset 3 / Preset 4 / Preset 5 / Preset 6 / Preset 7 / Preset 8 / Preset 9 / Preset 10 / Preset 11 / Preset 12 / Preset 13 / Preset 14 / Preset 15 / Preset 16 / Preset 17 / Preset 18 / Preset 19 / Preset 20 / Preset 21 / Preset 22 / Preset 23 / Preset 24 / Preset 25 / Preset 26 / Preset 27 / Preset 28 / Preset 29 / Preset 30 / Preset 31 / Preset 32 / Preset 33 / Preset 34 / Preset 35 / Preset 36 / Preset 37 / Preset 38 / Preset 39 / Preset 40 / Preset 41 / Preset 42 / Preset 43 / Preset 44 / Preset 45 / Preset 46 / Preset 47 / Preset 48 / Preset 49 / Preset 50 / Preset 51 / Preset 52 / Preset 53 / Preset 54 / Preset 55 / Preset 56 / Preset 57 / Preset 58 / Preset 59 / Preset 60 / Preset 61 / Preset 62 / Preset 63 / Preset 64 / Preset 65 / Preset 66 / Preset 67 / Preset 68 / Preset 69 / Preset 70 / Preset 71 / Preset 72 / Preset 73 / Preset 74 / Preset 75 / Preset 76 / Preset 77 / Preset 78 / Preset 79 / Preset 80 / Preset 81 / Preset 82 / Preset 83 / Preset
+      84 / Preset 85 / Preset 86 / Preset 87 / Preset 88 / Preset 89 / Preset 90 / Preset 91 / Preset 92 / Preset 93 / Preset 94 / Preset 95 / Preset 96 / Preset 97 / Preset 98 / Preset 99 / Preset 100 / Preset 101 / Preset 102 / Preset 103 / Preset 104 / Preset 105 / Preset 106 / Preset 107 / Preset 108 / Preset 109 / Preset 110 / Preset 111 / Preset 112 / Preset 113 / Preset 114 / Preset 115 / Preset 116 / Preset 117 / Preset 118 / Preset 119 / Preset 120 / Preset 121 / Preset 122 / Preset 123 / Preset 124 / Preset 125 / Preset 126 / Preset 127 / Preset 128
+    value: 90
+    description: ''
+    group:
+      - name: 'Preset 1 '
+        description: ''
+        min: 0
+        max: 0
+      - name: Preset 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Preset 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Preset 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Preset 5
+        description: ''
+        min: 4
+        max: 4
+      - name: Preset 6
+        description: ''
+        min: 5
+        max: 5
+      - name: Preset 7
+        description: ''
+        min: 6
+        max: 6
+      - name: Preset 8
+        description: ''
+        min: 7
+        max: 7
+      - name: Preset 9
+        description: ''
+        min: 8
+        max: 8
+      - name: Preset 10
+        description: ''
+        min: 9
+        max: 9
+      - name: Preset 11
+        description: ''
+        min: 10
+        max: 10
+      - name: Preset 12
+        description: ''
+        min: 11
+        max: 11
+      - name: Preset 13
+        description: ''
+        min: 12
+        max: 12
+      - name: Preset 14
+        description: ''
+        min: 13
+        max: 13
+      - name: Preset 15
+        description: ''
+        min: 14
+        max: 14
+      - name: Preset 16
+        description: ''
+        min: 15
+        max: 15
+      - name: Preset 17
+        description: ''
+        min: 16
+        max: 16
+      - name: Preset 18
+        description: ''
+        min: 17
+        max: 17
+      - name: Preset 19
+        description: ''
+        min: 18
+        max: 18
+      - name: Preset 20
+        description: ''
+        min: 19
+        max: 19
+      - name: Preset 21
+        description: ''
+        min: 20
+        max: 20
+      - name: Preset 22
+        description: ''
+        min: 21
+        max: 21
+      - name: Preset 23
+        description: ''
+        min: 22
+        max: 22
+      - name: Preset 24
+        description: ''
+        min: 23
+        max: 23
+      - name: Preset 25
+        description: ''
+        min: 24
+        max: 24
+      - name: Preset 26
+        description: ''
+        min: 25
+        max: 25
+      - name: Preset 27
+        description: ''
+        min: 26
+        max: 26
+      - name: Preset 28
+        description: ''
+        min: 27
+        max: 27
+      - name: Preset 29
+        description: ''
+        min: 28
+        max: 28
+      - name: Preset 30
+        description: ''
+        min: 29
+        max: 29
+      - name: Preset 31
+        description: ''
+        min: 30
+        max: 30
+      - name: Preset 32
+        description: ''
+        min: 31
+        max: 31
+      - name: Preset 33
+        description: ''
+        min: 32
+        max: 32
+      - name: Preset 34
+        description: ''
+        min: 33
+        max: 33
+      - name: Preset 35
+        description: ''
+        min: 34
+        max: 34
+      - name: Preset 36
+        description: ''
+        min: 35
+        max: 35
+      - name: Preset 37
+        description: ''
+        min: 36
+        max: 36
+      - name: Preset 38
+        description: ''
+        min: 37
+        max: 37
+      - name: Preset 39
+        description: ''
+        min: 38
+        max: 38
+      - name: Preset 40
+        description: ''
+        min: 39
+        max: 39
+      - name: Preset 41
+        description: ''
+        min: 40
+        max: 40
+      - name: Preset 42
+        description: ''
+        min: 41
+        max: 41
+      - name: Preset 43
+        description: ''
+        min: 42
+        max: 42
+      - name: Preset 44
+        description: ''
+        min: 43
+        max: 43
+      - name: Preset 45
+        description: ''
+        min: 44
+        max: 44
+      - name: Preset 46
+        description: ''
+        min: 45
+        max: 45
+      - name: Preset 47
+        description: ''
+        min: 46
+        max: 46
+      - name: Preset 48
+        description: ''
+        min: 47
+        max: 47
+      - name: Preset 49
+        description: ''
+        min: 48
+        max: 48
+      - name: Preset 50
+        description: ''
+        min: 49
+        max: 49
+      - name: Preset 51
+        description: ''
+        min: 50
+        max: 50
+      - name: Preset 52
+        description: ''
+        min: 51
+        max: 51
+      - name: Preset 53
+        description: ''
+        min: 52
+        max: 52
+      - name: Preset 54
+        description: ''
+        min: 53
+        max: 53
+      - name: Preset 55
+        description: ''
+        min: 54
+        max: 54
+      - name: Preset 56
+        description: ''
+        min: 55
+        max: 55
+      - name: Preset 57
+        description: ''
+        min: 56
+        max: 56
+      - name: Preset 58
+        description: ''
+        min: 57
+        max: 57
+      - name: Preset 59
+        description: ''
+        min: 58
+        max: 58
+      - name: Preset 60
+        description: ''
+        min: 59
+        max: 59
+      - name: Preset 61
+        description: ''
+        min: 60
+        max: 60
+      - name: Preset 62
+        description: ''
+        min: 61
+        max: 61
+      - name: Preset 63
+        description: ''
+        min: 62
+        max: 62
+      - name: Preset 64
+        description: ''
+        min: 63
+        max: 63
+      - name: Preset 65
+        description: ''
+        min: 64
+        max: 64
+      - name: Preset 66
+        description: ''
+        min: 65
+        max: 65
+      - name: Preset 67
+        description: ''
+        min: 66
+        max: 66
+      - name: Preset 68
+        description: ''
+        min: 67
+        max: 67
+      - name: Preset 69
+        description: ''
+        min: 68
+        max: 68
+      - name: Preset 70
+        description: ''
+        min: 69
+        max: 69
+      - name: Preset 71
+        description: ''
+        min: 70
+        max: 70
+      - name: Preset 72
+        description: ''
+        min: 71
+        max: 71
+      - name: Preset 73
+        description: ''
+        min: 72
+        max: 72
+      - name: Preset 74
+        description: ''
+        min: 73
+        max: 73
+      - name: Preset 75
+        description: ''
+        min: 74
+        max: 74
+      - name: Preset 76
+        description: ''
+        min: 75
+        max: 75
+      - name: Preset 77
+        description: ''
+        min: 76
+        max: 76
+      - name: Preset 78
+        description: ''
+        min: 77
+        max: 77
+      - name: Preset 79
+        description: ''
+        min: 78
+        max: 78
+      - name: Preset 80
+        description: ''
+        min: 79
+        max: 79
+      - name: Preset 81
+        description: ''
+        min: 80
+        max: 80
+      - name: Preset 82
+        description: ''
+        min: 81
+        max: 81
+      - name: Preset 83
+        description: ''
+        min: 82
+        max: 82
+      - name: Preset 84
+        description: ''
+        min: 83
+        max: 83
+      - name: Preset 85
+        description: ''
+        min: 84
+        max: 84
+      - name: Preset 86
+        description: ''
+        min: 85
+        max: 85
+      - name: Preset 87
+        description: ''
+        min: 86
+        max: 86
+      - name: Preset 88
+        description: ''
+        min: 87
+        max: 87
+      - name: Preset 89
+        description: ''
+        min: 88
+        max: 88
+      - name: Preset 90
+        description: ''
+        min: 89
+        max: 89
+      - name: Preset 91
+        description: ''
+        min: 90
+        max: 90
+      - name: Preset 92
+        description: ''
+        min: 91
+        max: 91
+      - name: Preset 93
+        description: ''
+        min: 92
+        max: 92
+      - name: Preset 94
+        description: ''
+        min: 93
+        max: 93
+      - name: Preset 95
+        description: ''
+        min: 94
+        max: 94
+      - name: Preset 96
+        description: ''
+        min: 95
+        max: 95
+      - name: Preset 97
+        description: ''
+        min: 96
+        max: 96
+      - name: Preset 98
+        description: ''
+        min: 97
+        max: 97
+      - name: Preset 99
+        description: ''
+        min: 98
+        max: 98
+      - name: Preset 100
+        description: ''
+        min: 99
+        max: 99
+      - name: Preset 101
+        description: ''
+        min: 100
+        max: 100
+      - name: Preset 102
+        description: ''
+        min: 101
+        max: 101
+      - name: Preset 103
+        description: ''
+        min: 102
+        max: 102
+      - name: Preset 104
+        description: ''
+        min: 103
+        max: 103
+      - name: Preset 105
+        description: ''
+        min: 104
+        max: 104
+      - name: Preset 106
+        description: ''
+        min: 105
+        max: 105
+      - name: Preset 107
+        description: ''
+        min: 106
+        max: 106
+      - name: Preset 108
+        description: ''
+        min: 107
+        max: 107
+      - name: Preset 109
+        description: ''
+        min: 108
+        max: 108
+      - name: Preset 110
+        description: ''
+        min: 109
+        max: 109
+      - name: Preset 111
+        description: ''
+        min: 110
+        max: 110
+      - name: Preset 112
+        description: ''
+        min: 111
+        max: 111
+      - name: Preset 113
+        description: ''
+        min: 112
+        max: 112
+      - name: Preset 114
+        description: ''
+        min: 113
+        max: 113
+      - name: Preset 115
+        description: ''
+        min: 114
+        max: 114
+      - name: Preset 116
+        description: ''
+        min: 115
+        max: 115
+      - name: Preset 117
+        description: ''
+        min: 116
+        max: 116
+      - name: Preset 118
+        description: ''
+        min: 117
+        max: 117
+      - name: Preset 119
+        description: ''
+        min: 118
+        max: 118
+      - name: Preset 120
+        description: ''
+        min: 119
+        max: 119
+      - name: Preset 121
+        description: ''
+        min: 120
+        max: 120
+      - name: Preset 122
+        description: ''
+        min: 121
+        max: 121
+      - name: Preset 123
+        description: ''
+        min: 122
+        max: 122
+      - name: Preset 124
+        description: ''
+        min: 123
+        max: 123
+      - name: Preset 125
+        description: ''
+        min: 124
+        max: 124
+      - name: Preset 126
+        description: ''
+        min: 125
+        max: 125
+      - name: Preset 127
+        description: ''
+        min: 126
+        max: 126
+      - name: Preset 128
+        description: ''
+        min: 127
+        max: 127
 device_name: Torpedo Captor X
 midi_channel:
   instructions: ''

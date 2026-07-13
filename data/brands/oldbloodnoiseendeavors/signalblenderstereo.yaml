@@ -13,83 +13,91 @@ pc:
 phantom_power: unknown
 midi_mapping: not applicable
 cc:
-  - name: A Switch On
-    value: '15'
+  - name: A Switch On / A Switch Off
+    value: 15
     description: ''
-    min: 0
-    max: '63'
-  - name: A Switch Off
-    value: '15'
+    group:
+      - name: A Switch On
+        description: ''
+        min: 0
+        max: 63
+      - name: A Switch Off
+        description: ''
+        min: 64
+        max: 127
+  - name: B Switch On / B Switch Off
+    value: 16
     description: ''
-    min: '64'
-    max: 127
-  - name: B Switch On
-    value: '16'
+    group:
+      - name: B Switch On
+        description: ''
+        min: 0
+        max: 63
+      - name: B Switch Off
+        description: ''
+        min: 64
+        max: 127
+  - name: Clean Switch On / Clean Switch Off
+    value: 17
     description: ''
-    min: 0
-    max: '63'
-  - name: B Switch Off
-    value: '16'
+    group:
+      - name: Clean Switch On
+        description: ''
+        min: 0
+        max: 63
+      - name: Clean Switch Off
+        description: ''
+        min: 64
+        max: 127
+      - name: Clean Switch Off
+        description: ''
+        min: 64
+        max: 127
+  - name: Trails A Switch On / Trails A Switch Off
+    value: 18
     description: ''
-    min: '64'
-    max: 127
-  - name: Clean Switch On
-    value: '17'
+    group:
+      - name: Trails A Switch On
+        description: ''
+        min: 0
+        max: 63
+      - name: Trails A Switch Off
+        description: ''
+        min: 64
+        max: 127
+  - name: Trails B Switch On / Trails B Switch Off
+    value: 19
     description: ''
-    min: '0'
-    max: '63'
-  - name: Clean Switch Off
-    value: '17'
-    description: ''
-    min: '64'
-    max: 127
-  - name: Clean Switch Off
-    value: '17'
-    description: ''
-    min: '64'
-    max: 127
-  - name: Trails A Switch On
-    value: '18'
-    description: ''
-    min: 0
-    max: '63'
-  - name: Trails A Switch Off
-    value: '18'
-    description: ''
-    min: '64'
-    max: 127
-  - name: Trails B Switch On
-    value: '19'
-    description: ''
-    min: 0
-    max: '63'
-  - name: Trails B Switch Off
-    value: '19'
-    description: ''
-    min: '64'
-    max: 127
+    group:
+      - name: Trails B Switch On
+        description: ''
+        min: 0
+        max: 63
+      - name: Trails B Switch Off
+        description: ''
+        min: 64
+        max: 127
   - name: Assign All Bypass Switches
-    value: '20'
-    description: >
-      0: Clean Off, B Off, A Off 1: Clean Off, B Off, A On 2: Clean Off, B On, A
-      Off 3: Clean Off, B On, A On, 4: Clean On, B Off, A Off 5: Clean On, B
-      Off, A On 6: Clean On, B On, A Off 7: Clean On, B On, A On
+    value: 20
+    description: '0: Clean Off, B Off, A Off 1: Clean Off, B Off, A On 2: Clean Off, B On, A Off 3: Clean Off, B On, A On, 4: Clean On, B Off, A Off 5: Clean On, B Off, A On 6: Clean On, B On, A Off 7: Clean On, B On, A On
+
+      '
     min: 0
-    max: '7'
-  - name: Allow Kill Dry Off
-    value: '21'
-    description: >-
-      Default mode, clean turns on automatically when all sections are off in
-      trails modw.
-    min: 0
-    max: '63'
-  - name: Allow Kill Dry On
-    value: '21'
-    description: Clean always matches user assignment
-    min: '64'
-    max: 127
+    max: 7
+  - name: Allow Kill Dry Off / Allow Kill Dry On
+    value: 21
+    description: Default mode, clean turns on automatically when all sections are off in trails modw.; Clean always matches user assignment
+    group:
+      - name: Allow Kill Dry Off
+        description: Default mode, clean turns on automatically when all sections are off in trails modw.
+        min: 0
+        max: 63
+      - name: Allow Kill Dry On
+        description: Clean always matches user assignment
+        min: 64
+        max: 127
   - name: MIDI Channel
-    value: '102'
+    value: 102
     description: ''
-    min: '1'
-    max: '16'
+    min: 1
+    max: 16

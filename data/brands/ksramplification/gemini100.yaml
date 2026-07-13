@@ -1,610 +1,593 @@
 brand: KSR Amplification
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Amp Channel 1
-  value: 20
-- description: ''
-  max: 1
-  min: 1
-  name: Amp Channel 2
-  value: 20
-- description: ''
-  max: 2
-  min: 2
-  name: Amp Channel 3
-  value: 20
-- description: ''
-  max: 3
-  min: 3
-  name: Amp Channel 4
-  value: 20
-- description: ''
-  max: 127
-  min: 127
-  name: Select Channel 1
-  value: 21
-- description: ''
-  max: 127
-  min: 127
-  name: Select Channel 2
-  value: 22
-- description: ''
-  max: 127
-  min: 127
-  name: Select Channel 3
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: Select Channel 4
-  value: 24
-- description: ''
-  max: 126
-  min: 126
-  name: Toggle Channel
-  value: 20
-- description: ''
-  max: 0
-  min: 0
-  name: 'Current Ch Mode: 1'
-  value: 30
-- description: ''
-  max: 1
-  min: 1
-  name: 'Current Ch Mode: 2'
-  value: 30
-- description: ''
-  max: 3
-  min: 3
-  name: 'Current Ch Mode: 3'
-  value: 30
-- description: ''
-  max: 4
-  min: 4
-  name: 'Current Ch Mode: 4'
-  value: 30
-- description: ''
-  max: 126
-  min: 126
-  name: Current Ch Mode Toggle
-  value: 30
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 1 Mode: 1'
-  value: 40
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 1 Mode: 2'
-  value: 40
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 1 Mode: 3'
-  value: 40
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 1 Mode: 4'
-  value: 40
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 1 Mode Toggle
-  value: 40
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 2 Mode: 1'
-  value: 50
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 2 Mode: 2'
-  value: 50
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 2 Mode: 3'
-  value: 50
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 2 Mode: 4'
-  value: 50
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 2 Mode Toggle
-  value: 50
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 3 Mode: 1'
-  value: 60
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 3 Mode: 2'
-  value: 60
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 3 Mode: 3'
-  value: 60
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 3 Mode: 4'
-  value: 60
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 3 Mode Toggle
-  value: 60
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 4 Mode: 1'
-  value: 70
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 4 Mode: 2'
-  value: 70
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 4 Mode: 3'
-  value: 70
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 4 Mode: 4'
-  value: 70
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 4 Mode Toggle
-  value: 70
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 1 Fat: 1'
-  value: 41
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 1 Fat: 2'
-  value: 41
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 1 Fat: 3'
-  value: 41
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 1 Fat: 4'
-  value: 41
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 1 Fat Toggle
-  value: 41
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 2 Fat: 1'
-  value: 51
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 2 Fat: 2'
-  value: 51
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 2 Fat: 3'
-  value: 51
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 2 Fat: 4'
-  value: 51
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 2 Fat Toggle
-  value: 51
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 3 Fat: 1'
-  value: 61
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 3 Fat: 2'
-  value: 61
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 3 Fat: 3'
-  value: 61
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 3 Fat: 4'
-  value: 61
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 3 Fat Toggle
-  value: 61
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 4 Fat: 1'
-  value: 71
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 4 Fat: 2'
-  value: 71
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 4 Fat: 3'
-  value: 71
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 4 Fat: 4'
-  value: 71
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 4 Fat Toggle
-  value: 71
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 1 Voice: 1'
-  value: 42
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 1 Voice: 2'
-  value: 42
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 1 Voice: 3'
-  value: 42
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 1 Voice: 4'
-  value: 42
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 1 Voice Toggle
-  value: 42
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 2 Voice: 1'
-  value: 52
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 2 Voice: 2'
-  value: 52
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 2 Voice: 3'
-  value: 52
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 2 Voice: 4'
-  value: 52
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 2 Voice Toggle
-  value: 52
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 3 Voice: 1'
-  value: 62
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 3 Voice: 2'
-  value: 62
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 3 Voice: 3'
-  value: 62
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 3 Voice: 4'
-  value: 62
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 3 Voice Toggle
-  value: 62
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 4 Voice: 1'
-  value: 72
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 4 Voice: 2'
-  value: 72
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 4 Voice: 3'
-  value: 72
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 4 Voice: 4'
-  value: 72
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 4 Voice Toggle
-  value: 72
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 1 Bright: 1'
-  value: 43
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 1 Bright: 2'
-  value: 43
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 1 Bright: 3'
-  value: 43
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 1 Bright: 4'
-  value: 43
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 1 Bright Toggle
-  value: 43
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 2 Bright: 1'
-  value: 53
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 2 Bright: 2'
-  value: 53
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 2 Bright: 3'
-  value: 53
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 2 Bright: 4'
-  value: 53
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 2 Bright Toggle
-  value: 53
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 3 Bright: 1'
-  value: 63
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 3 Bright: 2'
-  value: 63
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 3 Bright: 3'
-  value: 63
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 3 Bright: 4'
-  value: 63
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 3 Bright Toggle
-  value: 63
-- description: ''
-  max: 0
-  min: 0
-  name: 'Ch 4 Bright: 1'
-  value: 73
-- description: ''
-  max: 1
-  min: 1
-  name: 'Ch 4 Bright: 2'
-  value: 73
-- description: ''
-  max: 3
-  min: 3
-  name: 'Ch 4 Bright: 3'
-  value: 73
-- description: ''
-  max: 4
-  min: 4
-  name: 'Ch 4 Bright: 4'
-  value: 73
-- description: ''
-  max: 126
-  min: 126
-  name: Ch 4 Bright Toggle
-  value: 73
-- description: ''
-  max: 0
-  min: 0
-  name: 'Current Ch Fat: 1'
-  value: 31
-- description: ''
-  max: 1
-  min: 1
-  name: 'Current Ch Fat: 2'
-  value: 31
-- description: ''
-  max: 3
-  min: 3
-  name: 'Current Ch Fat: 3'
-  value: 31
-- description: ''
-  max: 4
-  min: 4
-  name: 'Current Ch Fat: 4'
-  value: 31
-- description: ''
-  max: 126
-  min: 126
-  name: Current Ch Fat Toggle
-  value: 31
-- description: ''
-  max: 0
-  min: 0
-  name: 'Current Ch Voice: 1'
-  value: 32
-- description: ''
-  max: 1
-  min: 1
-  name: 'Current Ch Voice: 2'
-  value: 32
-- description: ''
-  max: 3
-  min: 3
-  name: 'Current Ch Voice: 3'
-  value: 32
-- description: ''
-  max: 4
-  min: 4
-  name: 'Current Ch Voice: 4'
-  value: 32
-- description: ''
-  max: 126
-  min: 126
-  name: Current Ch Voice Toggle
-  value: 32
-- description: ''
-  max: 0
-  min: 0
-  name: 'Current Ch Bright: 1'
-  value: 33
-- description: ''
-  max: 1
-  min: 1
-  name: 'Current Ch Bright: 2'
-  value: 33
-- description: ''
-  max: 3
-  min: 3
-  name: 'Current Ch Bright: 3'
-  value: 33
-- description: ''
-  max: 4
-  min: 4
-  name: 'Current Ch Bright: 4'
-  value: 33
-- description: ''
-  max: 126
-  min: 126
-  name: Current Ch Bright Toggle
-  value: 33
-- description: ''
-  max: 127
-  min: 127
-  name: 'Mute: On'
-  value: 100
-- description: ''
-  max: 0
-  min: 0
-  name: 'Mute: Off'
-  value: 100
-- description: ''
-  max: 127
-  min: 127
-  name: 'Loop: On'
-  value: 101
-- description: ''
-  max: 0
-  min: 0
-  name: 'Loop: Off'
-  value: 101
-- description: ''
-  max: 126
-  min: 126
-  name: Mute Toggle
-  value: 100
-- description: ''
-  max: 126
-  min: 126
-  name: Loop Toggle
-  value: 101
-- description: ''
-  max: 0
-  min: 0
-  name: 'Master Volume 1/2: 1'
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: 'Master Volume 1/2: 2'
-  value: 102
-- description: ''
-  max: 126
-  min: 126
-  name: Master Volume Toggle
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: 'External Control: On'
-  value: 103
-- description: ''
-  max: 0
-  min: 0
-  name: 'External Control: Off'
-  value: 103
-- description: ''
-  max: 126
-  min: 126
-  name: External Control Toggle
-  value: 103
+  - name: Amp Channel 1 / Amp Channel 2 / Amp Channel 3 / Amp Channel 4 / Toggle Channel
+    value: 20
+    description: ''
+    group:
+      - name: Amp Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Amp Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Amp Channel 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Amp Channel 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Toggle Channel
+        description: ''
+        min: 126
+        max: 126
+  - description: ''
+    max: 127
+    min: 127
+    name: Select Channel 1
+    value: 21
+  - description: ''
+    max: 127
+    min: 127
+    name: Select Channel 2
+    value: 22
+  - description: ''
+    max: 127
+    min: 127
+    name: Select Channel 3
+    value: 23
+  - description: ''
+    max: 127
+    min: 127
+    name: Select Channel 4
+    value: 24
+  - name: 'Current Ch Mode: 1 / Current Ch Mode: 2 / Current Ch Mode: 3 / Current Ch Mode: 4 / Current Ch Mode Toggle'
+    value: 30
+    description: ''
+    group:
+      - name: 'Current Ch Mode: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Current Ch Mode: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Current Ch Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Current Ch Mode: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Current Ch Mode Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 1 Mode: 1 / Ch 1 Mode: 2 / Ch 1 Mode: 3 / Ch 1 Mode: 4 / Ch 1 Mode Toggle'
+    value: 40
+    description: ''
+    group:
+      - name: 'Ch 1 Mode: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 1 Mode: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 1 Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 1 Mode: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 1 Mode Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 2 Mode: 1 / Ch 2 Mode: 2 / Ch 2 Mode: 3 / Ch 2 Mode: 4 / Ch 2 Mode Toggle'
+    value: 50
+    description: ''
+    group:
+      - name: 'Ch 2 Mode: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 2 Mode: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 2 Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 2 Mode: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 2 Mode Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 3 Mode: 1 / Ch 3 Mode: 2 / Ch 3 Mode: 3 / Ch 3 Mode: 4 / Ch 3 Mode Toggle'
+    value: 60
+    description: ''
+    group:
+      - name: 'Ch 3 Mode: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 3 Mode: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 3 Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 3 Mode: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 3 Mode Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 4 Mode: 1 / Ch 4 Mode: 2 / Ch 4 Mode: 3 / Ch 4 Mode: 4 / Ch 4 Mode Toggle'
+    value: 70
+    description: ''
+    group:
+      - name: 'Ch 4 Mode: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 4 Mode: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 4 Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 4 Mode: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 4 Mode Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 1 Fat: 1 / Ch 1 Fat: 2 / Ch 1 Fat: 3 / Ch 1 Fat: 4 / Ch 1 Fat Toggle'
+    value: 41
+    description: ''
+    group:
+      - name: 'Ch 1 Fat: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 1 Fat: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 1 Fat: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 1 Fat: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 1 Fat Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 2 Fat: 1 / Ch 2 Fat: 2 / Ch 2 Fat: 3 / Ch 2 Fat: 4 / Ch 2 Fat Toggle'
+    value: 51
+    description: ''
+    group:
+      - name: 'Ch 2 Fat: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 2 Fat: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 2 Fat: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 2 Fat: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 2 Fat Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 3 Fat: 1 / Ch 3 Fat: 2 / Ch 3 Fat: 3 / Ch 3 Fat: 4 / Ch 3 Fat Toggle'
+    value: 61
+    description: ''
+    group:
+      - name: 'Ch 3 Fat: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 3 Fat: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 3 Fat: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 3 Fat: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 3 Fat Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 4 Fat: 1 / Ch 4 Fat: 2 / Ch 4 Fat: 3 / Ch 4 Fat: 4 / Ch 4 Fat Toggle'
+    value: 71
+    description: ''
+    group:
+      - name: 'Ch 4 Fat: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 4 Fat: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 4 Fat: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 4 Fat: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 4 Fat Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 1 Voice: 1 / Ch 1 Voice: 2 / Ch 1 Voice: 3 / Ch 1 Voice: 4 / Ch 1 Voice Toggle'
+    value: 42
+    description: ''
+    group:
+      - name: 'Ch 1 Voice: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 1 Voice: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 1 Voice: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 1 Voice: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 1 Voice Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 2 Voice: 1 / Ch 2 Voice: 2 / Ch 2 Voice: 3 / Ch 2 Voice: 4 / Ch 2 Voice Toggle'
+    value: 52
+    description: ''
+    group:
+      - name: 'Ch 2 Voice: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 2 Voice: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 2 Voice: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 2 Voice: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 2 Voice Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 3 Voice: 1 / Ch 3 Voice: 2 / Ch 3 Voice: 3 / Ch 3 Voice: 4 / Ch 3 Voice Toggle'
+    value: 62
+    description: ''
+    group:
+      - name: 'Ch 3 Voice: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 3 Voice: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 3 Voice: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 3 Voice: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 3 Voice Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 4 Voice: 1 / Ch 4 Voice: 2 / Ch 4 Voice: 3 / Ch 4 Voice: 4 / Ch 4 Voice Toggle'
+    value: 72
+    description: ''
+    group:
+      - name: 'Ch 4 Voice: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 4 Voice: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 4 Voice: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 4 Voice: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 4 Voice Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 1 Bright: 1 / Ch 1 Bright: 2 / Ch 1 Bright: 3 / Ch 1 Bright: 4 / Ch 1 Bright Toggle'
+    value: 43
+    description: ''
+    group:
+      - name: 'Ch 1 Bright: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 1 Bright: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 1 Bright: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 1 Bright: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 1 Bright Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 2 Bright: 1 / Ch 2 Bright: 2 / Ch 2 Bright: 3 / Ch 2 Bright: 4 / Ch 2 Bright Toggle'
+    value: 53
+    description: ''
+    group:
+      - name: 'Ch 2 Bright: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 2 Bright: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 2 Bright: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 2 Bright: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 2 Bright Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 3 Bright: 1 / Ch 3 Bright: 2 / Ch 3 Bright: 3 / Ch 3 Bright: 4 / Ch 3 Bright Toggle'
+    value: 63
+    description: ''
+    group:
+      - name: 'Ch 3 Bright: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 3 Bright: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 3 Bright: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 3 Bright: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 3 Bright Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Ch 4 Bright: 1 / Ch 4 Bright: 2 / Ch 4 Bright: 3 / Ch 4 Bright: 4 / Ch 4 Bright Toggle'
+    value: 73
+    description: ''
+    group:
+      - name: 'Ch 4 Bright: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Ch 4 Bright: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Ch 4 Bright: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Ch 4 Bright: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Ch 4 Bright Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Current Ch Fat: 1 / Current Ch Fat: 2 / Current Ch Fat: 3 / Current Ch Fat: 4 / Current Ch Fat Toggle'
+    value: 31
+    description: ''
+    group:
+      - name: 'Current Ch Fat: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Current Ch Fat: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Current Ch Fat: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Current Ch Fat: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Current Ch Fat Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Current Ch Voice: 1 / Current Ch Voice: 2 / Current Ch Voice: 3 / Current Ch Voice: 4 / Current Ch Voice Toggle'
+    value: 32
+    description: ''
+    group:
+      - name: 'Current Ch Voice: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Current Ch Voice: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Current Ch Voice: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Current Ch Voice: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Current Ch Voice Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Current Ch Bright: 1 / Current Ch Bright: 2 / Current Ch Bright: 3 / Current Ch Bright: 4 / Current Ch Bright Toggle'
+    value: 33
+    description: ''
+    group:
+      - name: 'Current Ch Bright: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Current Ch Bright: 2'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Current Ch Bright: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Current Ch Bright: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: Current Ch Bright Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Mute: On / Mute: Off / Mute Toggle'
+    value: 100
+    description: ''
+    group:
+      - name: 'Mute: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Mute: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Mute Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Loop: On / Loop: Off / Loop Toggle'
+    value: 101
+    description: ''
+    group:
+      - name: 'Loop: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Loop: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Loop Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'Master Volume 1/2: 1 / Master Volume 1/2: 2 / Master Volume Toggle'
+    value: 102
+    description: ''
+    group:
+      - name: 'Master Volume 1/2: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Master Volume 1/2: 2'
+        description: ''
+        min: 127
+        max: 127
+      - name: Master Volume Toggle
+        description: ''
+        min: 126
+        max: 126
+  - name: 'External Control: On / External Control: Off / External Control Toggle'
+    value: 103
+    description: ''
+    group:
+      - name: 'External Control: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'External Control: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: External Control Toggle
+        description: ''
+        min: 126
+        max: 126
 device_name: Gemini 100
 midi_channel:
   instructions: ''

@@ -1,210 +1,224 @@
 brand: Eventide Audio
 cc:
-- description: ''
-  max: 127
-  min: 127
-  name: 'Phase/Reverse: On'
-  value: 14
-- description: ''
-  max: 0
-  min: 0
-  name: 'Phase/Reverse: Off'
-  value: 14
-- description: ''
-  max: 127
-  min: 127
-  name: 'Multiplier: On'
-  value: 15
-- description: ''
-  max: 0
-  min: 0
-  name: 'Multiplier: Off'
-  value: 15
-- description: ''
-  max: 3
-  min: 0
-  name: Multiplier Factor
-  value: 16
-- description: ''
-  max: 4
-  min: 0
-  name: LFO Shape
-  value: 17
-- description: ''
-  max: 127
-  min: 127
-  name: 'LFO Hold: On'
-  value: 18
-- description: ''
-  max: 0
-  min: 0
-  name: 'LFO Hold: Off'
-  value: 18
-- description: ''
-  max: 127
-  min: 127
-  name: 'LFO Reset: On'
-  value: 19
-- description: ''
-  max: 0
-  min: 0
-  name: 'LFO Reset: Off'
-  value: 19
-- description: ''
-  max: 127
-  min: 0
-  name: Coarse Delay
-  value: 20
-- description: ''
-  max: 127
-  min: 0
-  name: Fine Delay
-  value: 21
-- description: ''
-  max: 127
-  min: 0
-  name: Mix
-  value: 22
-- description: ''
-  max: 127
-  min: 0
-  name: Filter
-  value: 23
-- description: ''
-  max: 127
-  min: 0
-  name: Feedback
-  value: 24
-- description: ''
-  max: 127
-  min: 0
-  name: Rate
-  value: 25
-- description: ''
-  max: 127
-  min: 0
-  name: Depth
-  value: 26
-- description: ''
-  max: 0
-  min: 0
-  name: Alt-A
-  value: 27
-- description: ''
-  max: 127
-  min: 127
-  name: Alt-B
-  value: 27
-- description: ''
-  max: 127
-  min: 127
-  name: Engage Pedal
-  value: 28
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass Pedal
-  value: 28
-- description: ''
-  max: 127
-  min: 127
-  name: 'Infinite Repeat: On'
-  value: 29
-- description: ''
-  max: 0
-  min: 0
-  name: 'Infinite Repeat: Off'
-  value: 29
-- description: ''
-  max: 0
-  min: 0
-  name: 'Bypass Type: Buffer'
-  value: 30
-- description: ''
-  max: 1
-  min: 1
-  name: 'Bypass Type: Buffer + Kill Dry'
-  value: 30
-- description: ''
-  max: 2
-  min: 2
-  name: 'Bypass Type: Relay'
-  value: 30
-- description: ''
-  max: 3
-  min: 3
-  name: 'Bypass Type: Relay + Kill Dry'
-  value: 30
-- description: ''
-  max: 4
-  min: 4
-  name: 'Bypass Type: Input-Kill'
-  value: 30
-- description: ''
-  max: 5
-  min: 5
-  name: 'Bypass Type: Input-Kill + Kill Dry'
-  value: 30
-- description: ''
-  max: 0
-  min: 0
-  name: 'Expression Jack: Aux'
-  value: 31
-- description: ''
-  max: 1
-  min: 1
-  name: 'Expression Jack: Expression'
-  value: 31
-- description: ''
-  max: 2
-  min: 2
-  name: 'Expression Jack: Mod'
-  value: 31
-- description: ''
-  max: 3
-  min: 3
-  name: 'Expression Jack: MIDI'
-  value: 31
-- description: ''
-  max: 0
-  min: 0
-  name: 'Tap Mode: Tap Tempo'
-  value: 80
-- description: ''
-  max: 1
-  min: 1
-  name: 'Tap Mode: Tap LFO'
-  value: 80
-- description: ''
-  max: 0
-  min: 0
-  name: Tap (Tempo/LFO)
-  value: 81
-- description: ''
-  max: 0
-  min: 0
-  name: 'Tap Divisions: 1/4'
-  value: 82
-- description: ''
-  max: 1
-  min: 1
-  name: 'Tap Divisions: 1/8'
-  value: 82
-- description: ''
-  max: 2
-  min: 2
-  name: 'Tap Divisions: 1/8d'
-  value: 82
-- description: ''
-  max: 3
-  min: 3
-  name: 'Tap Divisions: Triplet'
-  value: 82
-- description: ''
-  max: 127
-  min: 0
-  name: Direct LFO Modulation
-  value: 85
+  - name: 'Phase/Reverse: On / Phase/Reverse: Off'
+    value: 14
+    description: ''
+    group:
+      - name: 'Phase/Reverse: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Phase/Reverse: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Multiplier: On / Multiplier: Off'
+    value: 15
+    description: ''
+    group:
+      - name: 'Multiplier: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Multiplier: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 3
+    min: 0
+    name: Multiplier Factor
+    value: 16
+  - description: ''
+    max: 4
+    min: 0
+    name: LFO Shape
+    value: 17
+  - name: 'LFO Hold: On / LFO Hold: Off'
+    value: 18
+    description: ''
+    group:
+      - name: 'LFO Hold: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'LFO Hold: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'LFO Reset: On / LFO Reset: Off'
+    value: 19
+    description: ''
+    group:
+      - name: 'LFO Reset: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'LFO Reset: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Coarse Delay
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Fine Delay
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 22
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Feedback
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Rate
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Depth
+    value: 26
+  - name: Alt-A / Alt-B
+    value: 27
+    description: ''
+    group:
+      - name: Alt-A
+        description: ''
+        min: 0
+        max: 0
+      - name: Alt-B
+        description: ''
+        min: 127
+        max: 127
+  - name: Engage Pedal / Bypass Pedal
+    value: 28
+    description: ''
+    group:
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Infinite Repeat: On / Infinite Repeat: Off'
+    value: 29
+    description: ''
+    group:
+      - name: 'Infinite Repeat: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Infinite Repeat: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Bypass Type: Buffer / Bypass Type: Buffer + Kill Dry / Bypass Type: Relay / Bypass Type: Relay + Kill Dry / Bypass Type: Input-Kill / Bypass Type: Input-Kill + Kill Dry'
+    value: 30
+    description: ''
+    group:
+      - name: 'Bypass Type: Buffer'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Bypass Type: Buffer + Kill Dry'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Bypass Type: Relay'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Bypass Type: Relay + Kill Dry'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Bypass Type: Input-Kill'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Bypass Type: Input-Kill + Kill Dry'
+        description: ''
+        min: 5
+        max: 5
+  - name: 'Expression Jack: Aux / Expression Jack: Expression / Expression Jack: Mod / Expression Jack: MIDI'
+    value: 31
+    description: ''
+    group:
+      - name: 'Expression Jack: Aux'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Expression Jack: Expression'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Expression Jack: Mod'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Expression Jack: MIDI'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Tap Mode: Tap Tempo / Tap Mode: Tap LFO'
+    value: 80
+    description: ''
+    group:
+      - name: 'Tap Mode: Tap Tempo'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Tap Mode: Tap LFO'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 0
+    min: 0
+    name: Tap (Tempo/LFO)
+    value: 81
+  - name: 'Tap Divisions: 1/4 / Tap Divisions: 1/8 / Tap Divisions: 1/8d / Tap Divisions: Triplet'
+    value: 82
+    description: ''
+    group:
+      - name: 'Tap Divisions: 1/4'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Tap Divisions: 1/8'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Tap Divisions: 1/8d'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Tap Divisions: Triplet'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Direct LFO Modulation
+    value: 85
 device_name: Rose
 midi_channel:
   instructions: ''

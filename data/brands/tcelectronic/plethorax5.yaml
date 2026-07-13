@@ -15,18 +15,20 @@ cc:
     min: 1
     type: System
     value: 92
-  - name: Tuner On  
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: Tuner On / Tuner Off
     value: 93
-  - name: Tuner Off
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 93
+    group:
+      - name: Tuner On
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: Tuner Off
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: Board Down
     description: ''
     max: 127
@@ -63,18 +65,20 @@ cc:
     min: 0
     type: System
     value: 109
-  - name: FS1 Engage
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: FS1 Engage / FS1 Bypass
     value: 102
-  - name: FS1 Bypass
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 102
+    group:
+      - name: FS1 Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: FS1 Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: FS1 Pot1
     description: ''
     max: 127
@@ -93,36 +97,40 @@ cc:
     min: 0
     type: Parameter
     value: 69
-  - name: FS1 Mash
-    description: ''
-    max: 127
-    min: 1
-    type: Parameter
+  - name: FS1 Mash / FS1 Mash Off
     value: 70
-  - name: FS1 Mash Off
     description: ''
-    max: 0
-    min: 0
-    type: Parameter
-    value: 70
+    group:
+      - name: FS1 Mash
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+      - name: FS1 Mash Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
   - name: FS1 Expression
     description: ''
     max: 127
     min: 0
     type: Parameter
     value: 71
-  - name: FS2 Engage
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: FS2 Engage / FS2 Bypass
     value: 103
-  - name: FS2 Bypass
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 103
+    group:
+      - name: FS2 Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: FS2 Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: FS2 Pot1
     description: ''
     max: 127
@@ -141,36 +149,40 @@ cc:
     min: 0
     type: Parameter
     value: 74
-  - name: FS2 Mash
-    description: ''
-    max: 127
-    min: 1
-    type: Parameter
+  - name: FS2 Mash / FS2 Mash Off
     value: 75
-  - name: FS2 Mash Off
     description: ''
-    max: 0
-    min: 0
-    type: Parameter
-    value: 75
+    group:
+      - name: FS2 Mash
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+      - name: FS2 Mash Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
   - name: FS2 Expression
     description: ''
     max: 127
     min: 0
     type: Parameter
     value: 76
-  - name: FS3 Engage
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: FS3 Engage / FS3 Bypass
     value: 104
-  - name: FS3 Bypass
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 104
+    group:
+      - name: FS3 Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: FS3 Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: FS3 Pot1
     description: ''
     max: 127
@@ -189,36 +201,40 @@ cc:
     min: 0
     type: Parameter
     value: 79
-  - name: FS3 Mash
-    description: ''
-    max: 127
-    min: 1
-    type: Parameter
+  - name: FS3 Mash / FS3 Mash Off
     value: 80
-  - name: FS3 Mash Off
     description: ''
-    max: 0
-    min: 0
-    type: Parameter
-    value: 80
+    group:
+      - name: FS3 Mash
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+      - name: FS3 Mash Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
   - name: FS3 Expression
     description: ''
     max: 127
     min: 0
     type: Parameter
     value: 81
-  - name: FS4 Engage
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: FS4 Engage / FS4 Bypass
     value: 105
-  - name: FS4 Bypass
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 105
+    group:
+      - name: FS4 Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: FS4 Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: FS4 Pot1
     description: ''
     max: 127
@@ -237,36 +253,40 @@ cc:
     min: 0
     type: Parameter
     value: 84
-  - name: FS4 Mash
-    description: ''
-    max: 127
-    min: 1
-    type: Parameter
+  - name: FS4 Mash / FS4 Mash Off
     value: 85
-  - name: FS4 Mash Off
     description: ''
-    max: 0
-    min: 0
-    type: Parameter
-    value: 85
+    group:
+      - name: FS4 Mash
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+      - name: FS4 Mash Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
   - name: FS4 Expression
     description: ''
     max: 127
     min: 0
     type: Parameter
     value: 86
-  - name: FS5 Engage
-    description: ''
-    max: 127
-    min: 64
-    type: System
+  - name: FS5 Engage / FS5 Bypass
     value: 106
-  - name: FS5 Bypass
     description: ''
-    max: 63
-    min: 0
-    type: System
-    value: 106
+    group:
+      - name: FS5 Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
+      - name: FS5 Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
   - name: FS5 Pot1
     description: ''
     max: 127
@@ -285,141 +305,139 @@ cc:
     min: 0
     type: Parameter
     value: 89
-  - name: FS5 Mash
-    description: ''
-    max: 127
-    min: 1
-    type: Parameter
+  - name: FS5 Mash / FS5 Mash Off
     value: 90
-  - name: FS5 Mash Off
     description: ''
-    max: 0
-    min: 0
-    type: Parameter
-    value: 90
+    group:
+      - name: FS5 Mash
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+      - name: FS5 Mash Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
   - name: FS5 Expression
     description: ''
     max: 127
     min: 0
     type: Parameter
     value: 91
-  - name: FS1 Looper Record
-    description: ''
-    max: 24
-    min: 0
-    type: System
+  - name: FS1 Looper Record / FS2 Looper Record / FS3 Looper Record / FS4 Looper Record / FS5 Looper Record
     value: 110
-  - name: FS2 Looper Record
     description: ''
-    max: 50
-    min: 25
-    type: System
-    value: 110
-  - name: FS3 Looper Record
-    description: ''
-    max: 76
-    min: 51
-    type: System
-    value: 110
-  - name: FS4 Looper Record
-    description: ''
-    max: 102
-    min: 77
-    type: System
-    value: 110
-  - name: FS5 Looper Record
-    description: ''
-    max: 127
-    min: 103
-    type: System
-    value: 110
-  - name: FS1 Looper Play
-    description: ''
-    max: 24
-    min: 0
-    type: System
+    group:
+      - name: FS1 Looper Record
+        description: ''
+        min: 0
+        max: 24
+        type: System
+      - name: FS2 Looper Record
+        description: ''
+        min: 25
+        max: 50
+        type: System
+      - name: FS3 Looper Record
+        description: ''
+        min: 51
+        max: 76
+        type: System
+      - name: FS4 Looper Record
+        description: ''
+        min: 77
+        max: 102
+        type: System
+      - name: FS5 Looper Record
+        description: ''
+        min: 103
+        max: 127
+        type: System
+  - name: FS1 Looper Play / FS2 Looper Play / FS3 Looper Play / FS4 Looper Play / FS5 Looper Play
     value: 111
-  - name: FS2 Looper Play
     description: ''
-    max: 50
-    min: 25
-    type: System
-    value: 111
-  - name: FS3 Looper Play
-    description: ''
-    max: 76
-    min: 51
-    type: System
-    value: 111
-  - name: FS4 Looper Play
-    description: ''
-    max: 102
-    min: 77
-    type: System
-    value: 111
-  - name: FS5 Looper Play
-    description: ''
-    max: 127
-    min: 103
-    type: System
-    value: 111
-  - name: FS1 Looper Clear
-    description: ''
-    max: 24
-    min: 0
-    type: System
+    group:
+      - name: FS1 Looper Play
+        description: ''
+        min: 0
+        max: 24
+        type: System
+      - name: FS2 Looper Play
+        description: ''
+        min: 25
+        max: 50
+        type: System
+      - name: FS3 Looper Play
+        description: ''
+        min: 51
+        max: 76
+        type: System
+      - name: FS4 Looper Play
+        description: ''
+        min: 77
+        max: 102
+        type: System
+      - name: FS5 Looper Play
+        description: ''
+        min: 103
+        max: 127
+        type: System
+  - name: FS1 Looper Clear / FS2 Looper Clear / FS3 Looper Clear / FS4 Looper Clear / FS5 Looper Clear
     value: 112
-  - name: FS2 Looper Clear
     description: ''
-    max: 50
-    min: 25
-    type: System
-    value: 112
-  - name: FS3 Looper Clear
-    description: ''
-    max: 76
-    min: 51
-    type: System
-    value: 112
-  - name: FS4 Looper Clear
-    description: ''
-    max: 102
-    min: 77
-    type: System
-    value: 112
-  - name: FS5 Looper Clear
-    description: ''
-    max: 127
-    min: 103
-    type: System
-    value: 112
-  - name: FS1 Looper Pause
-    description: ''
-    max: 24
-    min: 0
-    type: System
+    group:
+      - name: FS1 Looper Clear
+        description: ''
+        min: 0
+        max: 24
+        type: System
+      - name: FS2 Looper Clear
+        description: ''
+        min: 25
+        max: 50
+        type: System
+      - name: FS3 Looper Clear
+        description: ''
+        min: 51
+        max: 76
+        type: System
+      - name: FS4 Looper Clear
+        description: ''
+        min: 77
+        max: 102
+        type: System
+      - name: FS5 Looper Clear
+        description: ''
+        min: 103
+        max: 127
+        type: System
+  - name: FS1 Looper Pause / FS2 Looper Pause / FS3 Looper Pause / FS4 Looper Pause / FS5 Looper Pause
     value: 113
-  - name: FS2 Looper Pause
     description: ''
-    max: 50
-    min: 25
-    type: System
-    value: 113
-  - name: FS3 Looper Pause
-    description: ''
-    max: 76
-    min: 51
-    type: System
-    value: 113
-  - name: FS4 Looper Pause
-    description: ''
-    max: 102
-    min: 77
-    type: System
-    value: 113
-  - name: FS5 Looper Pause
-    description: ''
-    max: 127
-    min: 103
-    type: System
-    value: 113
+    group:
+      - name: FS1 Looper Pause
+        description: ''
+        min: 0
+        max: 24
+        type: System
+      - name: FS2 Looper Pause
+        description: ''
+        min: 25
+        max: 50
+        type: System
+      - name: FS3 Looper Pause
+        description: ''
+        min: 51
+        max: 76
+        type: System
+      - name: FS4 Looper Pause
+        description: ''
+        min: 77
+        max: 102
+        type: System
+      - name: FS5 Looper Pause
+        description: ''
+        min: 103
+        max: 127
+        type: System

@@ -17,99 +17,99 @@ cc:
     value: 0
     description: 'Patch 00 - 99 : CC0 = 0 - 99'
     min: 0
-    max: '99'
+    max: 99
   - name: Patch Volume
-    value: '7'
+    value: 7
     description: ''
     min: 0
-    max: '100'
+    max: 100
   - name: BANK - (ten digit of the patch number)
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: BANK + (ten digit of the patch number)
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Patch -
-    value: '24'
+    value: 24
     description: ''
     min: 0
     max: 127
   - name: Patch +
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Patch (in the song list) -
-    value: '29'
+    value: 29
     description: ''
     min: 0
     max: 127
   - name: Patch (in the song list) +
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: 'NR Module On/Off: '
-    value: '48'
+    value: 48
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'PRE Module On/Off: '
-    value: '49'
+    value: 49
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'DST Module On/Off: '
-    value: '50'
+    value: 50
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'N→S Module On/Off: '
-    value: '51'
+    value: 51
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'AMP Module On/Off: '
-    value: '52'
+    value: 52
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'CAB Module On/Off: '
-    value: '53'
+    value: 53
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'EQ Module On/Off: '
-    value: '54'
+    value: 54
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'MOD Module On/Off: '
-    value: '55'
+    value: 55
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'DLY Module On/Off:'
-    value: '56'
+    value: 56
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'RVB Module On/Off: '
-    value: '57'
+    value: 57
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: 'Tuner On/Off: '
-    value: '58'
+    value: 58
     description: '0 - 63 : Off ; 64 - 127 : On ;'
     min: 0
     max: 127
   - name: CTL
-    value: '69'
+    value: 69
     description: ''
     min: 0
     max: 127

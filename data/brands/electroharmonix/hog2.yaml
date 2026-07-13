@@ -25,7 +25,7 @@ pc:
     126 - Load/Unload Current Preset
     127 - Bypass/Reset Function -> Puts the HOG2 into a seset state. Enters Bypass, releases EXP. Button footswitch, ENVELOPE set to off, SPECTRAL GATE set to off, EXP. MODE set to OCTAVE BEND, Preset is unloaded - enters WYSIWYG mode. This reset is not a factory reset, it does not overwrite your presets.
 
-cc: 
+cc:
   - name: EXPRESSION PEDAL - Coarse
     value: 4
     description: Works as expression pedal for parameter selected by EXP. MODE LEDs. For most purposes, this CC will work fine but it also works with CC 36 for a finer expression control.
@@ -38,7 +38,7 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: EXPRESSION PEDAL - fine 
+  - name: EXPRESSION PEDAL - fine
     value: 36
     description: A fine tune control over the expression pedal parameter selectred by the EXP. MODE LEDs. This is generally only needed for very fine pitch control. Please see CC 4 for coarse control over the EXP. MODES.
     type: Parameter
@@ -50,108 +50,115 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: BYPASS
+  - name: BYPASS / ENGAGE
     value: 85
-    description: Toggles to bypass, the STATUS LED will update accordingly.
-    type: Parameter
-    min: 0
-    max: 63
-  - name: ENGAGE
-    value: 85
-    description: Toggles to effect mode, the STATUS LED will update accordingly.
-    type: Parameter
-    min: 64
-    max: 127
-  - name: EXP. Footswitch Release
+    description: Toggles to bypass, the STATUS LED will update accordingly.; Toggles to effect mode, the STATUS LED will update accordingly.
+    group:
+      - name: BYPASS
+        description: Toggles to bypass, the STATUS LED will update accordingly.
+        min: 0
+        max: 63
+        type: Parameter
+      - name: ENGAGE
+        description: Toggles to effect mode, the STATUS LED will update accordingly.
+        min: 64
+        max: 127
+        type: Parameter
+  - name: EXP. Footswitch Release / EXP. Footswitch Press
     value: 86
-    description: Equivalent to releasing the EXP. Footswitch.
-    type: Parameter
-    min: 0
-    max: 63
-  - name: EXP. Footswitch Press
-    value: 86
-    description: Equivalent to pressing and holding down the EXP. Footswitch.
-    type: Parameter
-    min: 64
-    max: 127
-  - name: ENVELOPE Footswitch Off
+    description: Equivalent to releasing the EXP. Footswitch.; Equivalent to pressing and holding down the EXP. Footswitch.
+    group:
+      - name: EXP. Footswitch Release
+        description: Equivalent to releasing the EXP. Footswitch.
+        min: 0
+        max: 63
+        type: Parameter
+      - name: EXP. Footswitch Press
+        description: Equivalent to pressing and holding down the EXP. Footswitch.
+        min: 64
+        max: 127
+        type: Parameter
+  - name: ENVELOPE Footswitch Off / ENVELOPE Footswitch On
     value: 87
-    description: Toggles ENV. mode off.
-    type: Parameter
-    min: 0
-    max: 63
-  - name: ENVELOPE Footswitch On
-    value: 87
-    description: Toggles ENV. mode on.
-    type: Parameter
-    min: 64
-    max: 127
-  - name: SPECTRAL GATE Button Off
+    description: Toggles ENV. mode off.; Toggles ENV. mode on.
+    group:
+      - name: ENVELOPE Footswitch Off
+        description: Toggles ENV. mode off.
+        min: 0
+        max: 63
+        type: Parameter
+      - name: ENVELOPE Footswitch On
+        description: Toggles ENV. mode on.
+        min: 64
+        max: 127
+        type: Parameter
+  - name: SPECTRAL GATE Button Off / SPECTRAL GATE Button On
     value: 88
-    description: Toggles the SPECTRAL GATE mode off.
-    type: Parameter
-    min: 0
-    max: 63
-  - name: SPECTRAL GATE Button On
-    value: 88
-    description: Toggles the SPECTRAL GATE mode on.
-    type: Parameter
-    min: 64
-    max: 127
-  - name: EXP. MODE Button OCTAVE BEND
+    description: Toggles the SPECTRAL GATE mode off.; Toggles the SPECTRAL GATE mode on.
+    group:
+      - name: SPECTRAL GATE Button Off
+        description: Toggles the SPECTRAL GATE mode off.
+        min: 0
+        max: 63
+        type: Parameter
+      - name: SPECTRAL GATE Button On
+        description: Toggles the SPECTRAL GATE mode on.
+        min: 64
+        max: 127
+        type: Parameter
+  - name: EXP. MODE Button OCTAVE BEND / EXP. MODE Button STEP BEND / EXP. MODE Button VOLUME / EXP. MODE Button FREEZE + GLISS / EXP. MODE Button FREEZE + VOL / EXP. MODE Button WAH WAH / EXP. MODE Button FILTER
     value: 89
-    description: Selects and activates the Expression Mode OCTAVE BEND.
-    type: Parameter
-    min: 0
-    max: 9
-  - name: EXP. MODE Button STEP BEND
-    value: 89
-    description: Selects and activates the Expression Mode STEP BEND.
-    type: Parameter
-    min: 10
-    max: 19
-  - name: EXP. MODE Button VOLUME
-    value: 89
-    description: Selects and activates the Expression Mode VOLUME.
-    type: Parameter
-    min: 20
-    max: 29
-  - name: EXP. MODE Button FREEZE + GLISS
-    value: 89
-    description: Selects and activates the Expression Mode FREEZE+GLISS.
-    type: Parameter
-    min: 30
-    max: 39
-  - name: EXP. MODE Button FREEZE + VOL
-    value: 89
-    description: Selects and activates the Expression Mode FREEZE+VOL.
-    type: Parameter
-    min: 40
-    max: 49
-  - name: EXP. MODE Button WAH WAH
-    value: 89
-    description: Selects and activates the Expression Mode WAH WAH.
-    type: Parameter
-    min: 50
-    max: 59
-  - name: EXP. MODE Button FILTER
-    value: 89
-    description: Selects and activates the Expression Mode FILTER.
-    type: Parameter
-    min: 60
-    max: 127
-  - name: EXP. Reverse Button Off
+    description: Selects and activates the Expression Mode OCTAVE BEND.; Selects and activates the Expression Mode STEP BEND.; Selects and activates the Expression Mode VOLUME.; Selects and activates the Expression Mode FREEZE+GLISS.; Selects and activates the Expression Mode FREEZE+VOL.; Selects and activates the Expression Mode WAH WAH.; Selects and activates the Expression Mode FILTER.
+    group:
+      - name: EXP. MODE Button OCTAVE BEND
+        description: Selects and activates the Expression Mode OCTAVE BEND.
+        min: 0
+        max: 9
+        type: Parameter
+      - name: EXP. MODE Button STEP BEND
+        description: Selects and activates the Expression Mode STEP BEND.
+        min: 10
+        max: 19
+        type: Parameter
+      - name: EXP. MODE Button VOLUME
+        description: Selects and activates the Expression Mode VOLUME.
+        min: 20
+        max: 29
+        type: Parameter
+      - name: EXP. MODE Button FREEZE + GLISS
+        description: Selects and activates the Expression Mode FREEZE+GLISS.
+        min: 30
+        max: 39
+        type: Parameter
+      - name: EXP. MODE Button FREEZE + VOL
+        description: Selects and activates the Expression Mode FREEZE+VOL.
+        min: 40
+        max: 49
+        type: Parameter
+      - name: EXP. MODE Button WAH WAH
+        description: Selects and activates the Expression Mode WAH WAH.
+        min: 50
+        max: 59
+        type: Parameter
+      - name: EXP. MODE Button FILTER
+        description: Selects and activates the Expression Mode FILTER.
+        min: 60
+        max: 127
+        type: Parameter
+  - name: EXP. Reverse Button Off / EXP. Reverse Button On
     value: 90
-    description: Toggles the EXP. REVERSE function off.
-    type: Parameter
-    min: 0
-    max: 63
-  - name: EXP. Reverse Button On
-    value: 90
-    description: Toggles the EXP. REVERSE function on.
-    type: Parameter
-    min: 64
-    max: 127
+    description: Toggles the EXP. REVERSE function off.; Toggles the EXP. REVERSE function on.
+    group:
+      - name: EXP. Reverse Button Off
+        description: Toggles the EXP. REVERSE function off.
+        min: 0
+        max: 63
+        type: Parameter
+      - name: EXP. Reverse Button On
+        description: Toggles the EXP. REVERSE function on.
+        min: 64
+        max: 127
+        type: Parameter
   - name: DRY OUTPUT Slider
     value: 102
     description: Controls the DRY OUTPUT slider settung the volume of the un-effected dry signal.

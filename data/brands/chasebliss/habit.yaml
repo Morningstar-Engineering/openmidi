@@ -4,141 +4,152 @@ email: 'midi@chasebliss.com'
 url: >-
   https://cb2k22.squarespace.com/s/Habit_MIDI-Manual_Pedal_Chase-Bliss.pdf
 cc:
-- description: ''
-  max: 127
-  min: 0
-  name: Volume
-  value: 14
-- description: ''
-  max: 127
-  min: 0
-  name: Repeats
-  value: 15
-- description: ''
-  max: 127
-  min: 0
-  name: Size
-  value: 16
-- description: ''
-  max: 127
-  min: 0
-  name: Mod
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: Spread
-  value: 18
-- description: ''
-  max: 127
-  min: 0
-  name: Scan
-  value: 19
-- description: ''
-  max: 127
-  min: 0
-  name: Ramp
-  value: 20
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mod Number: 1'
-  value: 21
-- description: ''
-  max: 2
-  min: 2
-  name: 'Mod Number: 2'
-  value: 21
-- description: ''
-  max: 3
-  min: 3
-  name: 'Mod Number: 3'
-  value: 21
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mod Bank: 1'
-  value: 22
-- description: ''
-  max: 2
-  min: 2
-  name: 'Mod Bank: 2'
-  value: 22
-- description: ''
-  max: 3
-  min: 3
-  name: 'Mod Bank: 3'
-  value: 22
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mode: 1'
-  value: 23
-- description: ''
-  max: 2
-  min: 2
-  name: 'Mode: 2'
-  value: 23
-- description: ''
-  max: 3
-  min: 3
-  name: 'Mode: 3'
-  value: 23
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass Pedal
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: Engage Pedal
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: Tap Tempo
-  value: 93
-- description: ''
-  max: 127
-  min: 127
-  name: 'Loop: On'
-  value: 24
-- description: ''
-  max: 0
-  min: 0
-  name: 'Loop: Off'
-  value: 24
-- description: ''
-  max: 127
-  min: 127
-  name: 'Scan: On'
-  value: 25
-- description: ''
-  max: 0
-  min: 0
-  name: 'Scan: Off'
-  value: 25
-- description: ''
-  max: 127
-  min: 127
-  name: Clear
-  value: 26
-- description: ''
-  max: 127
-  min: 0
-  name: Expression
-  value: 100
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Clock: Listen'
-  value: 51
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Clock: Ignore'
-  value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Repeats
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Size
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: Spread
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Scan
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Ramp
+    value: 20
+  - name: 'Mod Number: 1 / Mod Number: 2 / Mod Number: 3'
+    value: 21
+    description: ''
+    group:
+      - name: 'Mod Number: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mod Number: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mod Number: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Mod Bank: 1 / Mod Bank: 2 / Mod Bank: 3'
+    value: 22
+    description: ''
+    group:
+      - name: 'Mod Bank: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mod Bank: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mod Bank: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Mode: 1 / Mode: 2 / Mode: 3'
+    value: 23
+    description: ''
+    group:
+      - name: 'Mode: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mode: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mode: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: Bypass Pedal / Engage Pedal
+    value: 102
+    description: ''
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Tempo
+    value: 93
+  - name: 'Loop: On / Loop: Off'
+    value: 24
+    description: ''
+    group:
+      - name: 'Loop: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Loop: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Scan: On / Scan: Off'
+    value: 25
+    description: ''
+    group:
+      - name: 'Scan: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Scan: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Clear
+    value: 26
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 100
+  - name: 'MIDI Clock: Listen / MIDI Clock: Ignore'
+    value: 51
+    description: ''
+    group:
+      - name: 'MIDI Clock: Listen'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Clock: Ignore'
+        description: ''
+        min: 0
+        max: 0
 device_name: Habit
 midi_channel:
   instructions: ''

@@ -69,7 +69,7 @@ pc:
     PC Message 69: Sets fadeout to 90 seconds
     PC Message 70: Sets fadeout to 99 seconds
 
-cc: 
+cc:
   - name: Button Presses
     value: 3
     description: Mimic all MIDI PC functions when CC message of matching value is received (check PC Message list)
@@ -96,10 +96,17 @@ cc:
     max: 127
   - name: TEMPO knob resolution
     value: 110
-    description: TM.KN setting  0 = Coarse, 1 = Fine
+    description: ''
     type: Parameter
-    min: 0
-    max: 1      
+    group:
+      - name: Coarse
+        description: ''
+        min: 0
+        max: 0
+      - name: Fine
+        description: ''
+        min: 1
+        max: 1
   - name: Fadeout Time setting
     value: 112
     description: 0 = Fadeout disabled, 1 = 1 second fadeout, 2 = 2 second fadeout, etc.
@@ -114,14 +121,47 @@ cc:
     max: 20
   - name: EXTC setting
     value: 116
-    description: |+
-      Select EXTC setting: 0 = CX.4B, 1 = XT.4B, 2 = CX.3B, 3 = XT.3B
+    description: ''
     type: Parameter
-    min: 0
-    max: 3
-  - name: SWFX setting 
+    group:
+      - name: CX.4B
+        description: ''
+        min: 0
+        max: 0
+      - name: XT.4B
+        description: ''
+        min: 1
+        max: 1
+      - name: CX.3B
+        description: ''
+        min: 2
+        max: 2
+      - name: XT.3B
+        description: ''
+        min: 3
+        max: 3
+  - name: SWFX setting
     value: 117
-    description: Select SWFX setting - 0 = STOP, 1 = OCT, 2 = REV, 3 = RV.OC, 4 = TRIG
+    description: ''
     type: Parameter
-    min: 0
-    max: 4
+    group:
+      - name: STOP
+        description: ''
+        min: 0
+        max: 0
+      - name: OCT
+        description: ''
+        min: 1
+        max: 1
+      - name: REV
+        description: ''
+        min: 2
+        max: 2
+      - name: RV.OC
+        description: ''
+        min: 3
+        max: 3
+      - name: TRIG
+        description: ''
+        min: 4
+        max: 4

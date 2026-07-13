@@ -12,19 +12,38 @@ pc:
 
 cc:
   - name: OD 1 ON/OFF
-    value: '1'
-    description: 'Overdrive #1 (127 = ON, 0 = OFF)'
-    min: 0
-    max: '127'
+    value: 1
+    description: ''
+    group:
+      - name: 'ON'
+        description: ''
+        min: 127
+        max: 127
+      - name: OFF)
+        description: ''
+        min: 0
+        max: 0
   - name: OD 2 ON/OFF
-    value: '2'
-    description: 'Overdrive #2 (127 = ON, 0 = OFF)'
-    min: 0
-    max: '127'
+    value: 2
+    description: ''
+    group:
+      - name: 'ON'
+        description: ''
+        min: 127
+        max: 127
+      - name: OFF)
+        description: ''
+        min: 0
+        max: 0
   - name: EQ ON/OFF
-    value: '3'
-    description: EQ (127 = ON, 0 = OFF)
-    min: 0
-    max: '127'
-
-    
+    value: 3
+    description: ''
+    group:
+      - name: 'ON'
+        description: ''
+        min: 127
+        max: 127
+      - name: OFF)
+        description: ''
+        min: 0
+        max: 0

@@ -13,7 +13,7 @@ pc:
 cc:
   - name: Input 1/L Gain
     value: 1
-    description: 'Adjustable input gain level for Input 1 (Left/Mono). 113 = 0.0dB'
+    description: Adjustable input gain level for Input 1 (Left/Mono). 113 = 0.0dB
     type: Parameter
     min: 0
     max: 127
@@ -25,7 +25,7 @@ cc:
     max: 127
   - name: Input 2/R Gain
     value: 2
-    description: 'Adjustable input gain level for Input 2 (Right/Aux). 113 = 0.0dB'
+    description: Adjustable input gain level for Input 2 (Right/Aux). 113 = 0.0dB
     type: Parameter
     min: 0
     max: 127
@@ -49,7 +49,7 @@ cc:
     max: 127
   - name: HF Trim
     value: 5
-    description: 'Gain adjustment for the high frequency compression driver'
+    description: Gain adjustment for the high frequency compression driver
     type: Parameter
     min: 0
     max: 127
@@ -67,115 +67,394 @@ cc:
     max: 127
   - name: Mode
     value: 20
-    description: '0 = Flat, 1 = Speaker, 2 = User IR, 3 = Dual Speaker (212), 4 = Dual User IR (212)'
+    description: ''
     type: Parameter
-    min: 0
-    max: 4
+    group:
+      - name: Flat
+        description: ''
+        min: 0
+        max: 0
+      - name: Speaker
+        description: ''
+        min: 1
+        max: 1
+      - name: User IR
+        description: ''
+        min: 2
+        max: 2
+      - name: Dual Speaker (212)
+        description: ''
+        min: 3
+        max: 3
+      - name: Dual User IR (212)
+        description: ''
+        min: 4
+        max: 4
   - name: Voicing
     value: 21
-    description: '0 = FRFR, 1 = LF Flat, 2 = LF Raw'
+    description: ''
     type: Parameter
-    min: 0
-    max: 2
+    group:
+      - name: FRFR
+        description: ''
+        min: 0
+        max: 0
+      - name: LF Flat
+        description: ''
+        min: 1
+        max: 1
+      - name: LF Raw
+        description: ''
+        min: 2
+        max: 2
   - name: Speaker 1
     value: 22
-    description: '0 = Vintage, 1 = Green, 2 = Cream, 3 = Jarvis, 4 = Bayou, 5 = Essex, 6 = Natural, 7 = Dino, 8 = Lecto, 9 = Herald, 10 = Brown, 11 = Shade, 12 = Jetson'
+    description: ''
     type: Parameter
-    min: 0
-    max: 12
+    group:
+      - name: Vintage
+        description: ''
+        min: 0
+        max: 0
+      - name: Green
+        description: ''
+        min: 1
+        max: 1
+      - name: Cream
+        description: ''
+        min: 2
+        max: 2
+      - name: Jarvis
+        description: ''
+        min: 3
+        max: 3
+      - name: Bayou
+        description: ''
+        min: 4
+        max: 4
+      - name: Essex
+        description: ''
+        min: 5
+        max: 5
+      - name: Natural
+        description: ''
+        min: 6
+        max: 6
+      - name: Dino
+        description: ''
+        min: 7
+        max: 7
+      - name: Lecto
+        description: ''
+        min: 8
+        max: 8
+      - name: Herald
+        description: ''
+        min: 9
+        max: 9
+      - name: Brown
+        description: ''
+        min: 10
+        max: 10
+      - name: Shade
+        description: ''
+        min: 11
+        max: 11
+      - name: Jetson
+        description: ''
+        min: 12
+        max: 12
   - name: Mic Model 1
     value: 23
-    description: '0 = 57 Dyn, 1 = 409 Dyn, 2 = 421 Dyn, 3 = 30 Dyn, 4 = 20 Dyn, 5 = 121 Ribbon, 6 = 160 Ribbon, 7 = 4038 Ribbon, 8 = 414 Cond, 9 = 84 Cond, 10 = 67 Cond, 11 = 87 Cond, 12 = 47 Cond, 13 = 112 Dyn, 14 = 12 Dyn, 15 = 7 Dyn'
+    description: ''
     type: Parameter
-    min: 0
-    max: 15
+    group:
+      - name: 57 Dyn
+        description: ''
+        min: 0
+        max: 0
+      - name: 409 Dyn
+        description: ''
+        min: 1
+        max: 1
+      - name: 421 Dyn
+        description: ''
+        min: 2
+        max: 2
+      - name: 30 Dyn
+        description: ''
+        min: 3
+        max: 3
+      - name: 20 Dyn
+        description: ''
+        min: 4
+        max: 4
+      - name: 121 Ribbon
+        description: ''
+        min: 5
+        max: 5
+      - name: 160 Ribbon
+        description: ''
+        min: 6
+        max: 6
+      - name: 4038 Ribbon
+        description: ''
+        min: 7
+        max: 7
+      - name: 414 Cond
+        description: ''
+        min: 8
+        max: 8
+      - name: 84 Cond
+        description: ''
+        min: 9
+        max: 9
+      - name: 67 Cond
+        description: ''
+        min: 10
+        max: 10
+      - name: 87 Cond
+        description: ''
+        min: 11
+        max: 11
+      - name: 47 Cond
+        description: ''
+        min: 12
+        max: 12
+      - name: 112 Dyn
+        description: ''
+        min: 13
+        max: 13
+      - name: 12 Dyn
+        description: ''
+        min: 14
+        max: 14
+      - name: 7 Dyn
+        description: ''
+        min: 15
+        max: 15
   - name: Mic Distance 1
     value: 24
-    description: 'Mic distance in 1/2" increments'
+    description: Mic distance in 1/2" increments
     type: Parameter
     min: 0
     max: 22
   - name: IR 1
     value: 25
-    description: 'Which User IR is on speaker 1'
+    description: Which User IR is on speaker 1
     type: Parameter
     min: 0
     max: 127
   - name: Low Cut 1
     value: 26
-    description: '20Hz - 500Hz'
+    description: 20Hz - 500Hz
     type: Parameter
     min: 0
     max: 127
   - name: High Cut 1
     value: 27
-    description: '500Hz - 20kHz'
+    description: 500Hz - 20kHz
     type: Parameter
     min: 0
     max: 127
   - name: Level 1
     value: 28
-    description: 'Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.'
+    description: Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.
     type: Parameter
     min: 0
     max: 127
   - name: Color 1
     value: 29
-    description: '0 = Off, 1–18 = White, 19–36 = Red, 37–54 = Blue, 55–72 = Green, 73–90 = Yellow, 91–108 = Cyan, 109–126 = Magenta, 127 = Auto'
+    description: ''
     type: Parameter
-    min: 0
-    max: 127
+    group:
+      - name: Magenta
+        description: ''
+        min: 126
+        max: 126
+      - name: Auto
+        description: ''
+        min: 127
+        max: 127
   - name: Speaker 2
     value: 102
-    description: '0 = Vintage, 1 = Green, 2 = Cream, 3 = Jarvis, 4 = Bayou, 5 = Essex, 6 = Natural, 7 = Dino, 8 = Lecto, 9 = Herald, 10 = Brown, 11 = Shade, 12 = Jetson'
+    description: ''
     type: Parameter
-    min: 0
-    max: 12
+    group:
+      - name: Vintage
+        description: ''
+        min: 0
+        max: 0
+      - name: Green
+        description: ''
+        min: 1
+        max: 1
+      - name: Cream
+        description: ''
+        min: 2
+        max: 2
+      - name: Jarvis
+        description: ''
+        min: 3
+        max: 3
+      - name: Bayou
+        description: ''
+        min: 4
+        max: 4
+      - name: Essex
+        description: ''
+        min: 5
+        max: 5
+      - name: Natural
+        description: ''
+        min: 6
+        max: 6
+      - name: Dino
+        description: ''
+        min: 7
+        max: 7
+      - name: Lecto
+        description: ''
+        min: 8
+        max: 8
+      - name: Herald
+        description: ''
+        min: 9
+        max: 9
+      - name: Brown
+        description: ''
+        min: 10
+        max: 10
+      - name: Shade
+        description: ''
+        min: 11
+        max: 11
+      - name: Jetson
+        description: ''
+        min: 12
+        max: 12
   - name: Mic Model 2
     value: 103
-    description: '0 = 57 Dyn, 1 = 409 Dyn, 2 = 421 Dyn, 3 = 30 Dyn, 4 = 20 Dyn, 5 = 121 Ribbon, 6 = 160 Ribbon, 7 = 4038 Ribbon, 8 = 414 Cond, 9 = 84 Cond, 10 = 67 Cond, 11 = 87 Cond, 12 = 47 Cond, 13 = 112 Dyn, 14 = 12 Dyn, 15 = 7 Dyn'
+    description: ''
     type: Parameter
-    min: 0
-    max: 15
+    group:
+      - name: 57 Dyn
+        description: ''
+        min: 0
+        max: 0
+      - name: 409 Dyn
+        description: ''
+        min: 1
+        max: 1
+      - name: 421 Dyn
+        description: ''
+        min: 2
+        max: 2
+      - name: 30 Dyn
+        description: ''
+        min: 3
+        max: 3
+      - name: 20 Dyn
+        description: ''
+        min: 4
+        max: 4
+      - name: 121 Ribbon
+        description: ''
+        min: 5
+        max: 5
+      - name: 160 Ribbon
+        description: ''
+        min: 6
+        max: 6
+      - name: 4038 Ribbon
+        description: ''
+        min: 7
+        max: 7
+      - name: 414 Cond
+        description: ''
+        min: 8
+        max: 8
+      - name: 84 Cond
+        description: ''
+        min: 9
+        max: 9
+      - name: 67 Cond
+        description: ''
+        min: 10
+        max: 10
+      - name: 87 Cond
+        description: ''
+        min: 11
+        max: 11
+      - name: 47 Cond
+        description: ''
+        min: 12
+        max: 12
+      - name: 112 Dyn
+        description: ''
+        min: 13
+        max: 13
+      - name: 12 Dyn
+        description: ''
+        min: 14
+        max: 14
+      - name: 7 Dyn
+        description: ''
+        min: 15
+        max: 15
   - name: Mic Distance 2
     value: 104
-    description: 'Mic distance in 1/2" increments'
+    description: Mic distance in 1/2" increments
     type: Parameter
     min: 0
     max: 22
   - name: IR 2
     value: 105
-    description: 'Which User IR is on speaker 1'
+    description: Which User IR is on speaker 1
     type: Parameter
     min: 0
     max: 127
   - name: Low Cut 2
     value: 106
-    description: '20Hz - 500Hz'
+    description: 20Hz - 500Hz
     type: Parameter
     min: 0
     max: 127
   - name: High Cut 2
     value: 107
-    description: '500Hz - 20kHz'
+    description: 500Hz - 20kHz
     type: Parameter
     min: 0
     max: 127
   - name: Level 2
     value: 108
-    description: 'Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.'
+    description: Controls the volume of the current preset and can be adjusted to match levels between presets. When an IR is in use, the default is -18.0dB to compensate for the higher amplitude common to IR files. When the Flat Mode is in use, this is set to 0.0dB for maximum headroom.
     type: Parameter
     min: 0
     max: 127
   - name: Color 2
     value: 109
-    description: '0 = Off, 1–18 = White, 19–36 = Red, 37–54 = Blue, 55–72 = Green, 73–90 = Yellow, 91–108 = Cyan, 109–126 = Magenta, 127 = Auto'
+    description: ''
     type: Parameter
-    min: 0
-    max: 127
+    group:
+      - name: Magenta
+        description: ''
+        min: 126
+        max: 126
+      - name: Auto
+        description: ''
+        min: 127
+        max: 127
   - name: Stereo Width
     value: 110
-    description: 'Collapses to mono at 0%, nominal at 100%, and extra wide at 200%. 50 = 100%, 100 = 200%'
+    description: ''
     type: Parameter
-    min: 0
-    max: 100
+    group:
+      - name: 100%
+        description: ''
+        min: 50
+        max: 50
+      - name: 200%
+        description: ''
+        min: 100
+        max: 100

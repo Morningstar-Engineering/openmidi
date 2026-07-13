@@ -1,15 +1,17 @@
 brand: EVH
 cc:
-- description: ''
-  max: 127
-  min: 127
-  name: 'Reverb: On'
-  value: 85
-- description: ''
-  max: 0
-  min: 0
-  name: 'Reverb: Off'
-  value: 85
+  - name: 'Reverb: On / Reverb: Off'
+    value: 85
+    description: ''
+    group:
+      - name: 'Reverb: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Reverb: Off'
+        description: ''
+        min: 0
+        max: 0
 device_name: 5150III 50W EL34 2X12 COMBO
 midi_channel:
   instructions: ''

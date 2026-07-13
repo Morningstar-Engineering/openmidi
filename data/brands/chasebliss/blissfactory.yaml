@@ -72,87 +72,94 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: AUX FUNC Selec Left
+  - name: AUX FUNC Selec Left / AUX FUNC Selec Center / AUX FUNC Selec Right
     value: 21
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: AUX FUNC Selec Center
-    value: 21
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: AUX FUNC Selec Right
-    value: 21
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: FAT  Select Left
+    group:
+      - name: AUX FUNC Selec Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: AUX FUNC Selec Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: AUX FUNC Selec Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: FAT  Select Left / FAT  Select Center / FAT  Select Right
     value: 22
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: FAT  Select Center
-    value: 22
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: FAT  Select Right
-    value: 22
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: LPF Toggle Left
+    group:
+      - name: FAT  Select Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: FAT  Select Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: FAT  Select Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: LPF Toggle Left / LPF Toggle Center / LPF Toggle Right
     value: 23
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: LPF Toggle Center
-    value: 23
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: LPF Toggle Right
-    value: 23
-    description: ''
-    type: System
-    min: 3
-    max: 3
+    group:
+      - name: LPF Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: LPF Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: LPF Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
   - name: Exp
     value: 100
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Bypass AUX function'
+  - name: Bypass AUX function / Engage AUX function
     value: 101
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Engage AUX function'
-    value: 101
-    description: ''
-    type: System
-    min: 1
-    max: 127
-  - name: 'Bypass Switch: Bypass Pedal'
+    group:
+      - name: Bypass AUX function
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: Engage AUX function
+        description: ''
+        min: 1
+        max: 127
+        type: System
+  - name: 'Bypass Switch: Bypass Pedal / Bypass Switch: Engage pedal'
     value: 102
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Bypass Switch: Engage pedal'
-    value: 102
-    description: ''
-    type: System
-    min: 1
-    max: 127
+    group:
+      - name: 'Bypass Switch: Bypass Pedal'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Bypass Switch: Engage pedal'
+        description: ''
+        min: 1
+        max: 127
+        type: System

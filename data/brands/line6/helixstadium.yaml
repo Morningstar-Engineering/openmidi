@@ -18,7 +18,7 @@ pc:
   description: |+
     Program Change (PC) messages are used to recall presets. Generally, you only need to send a PC message to recall a preset within the active setlist and folder. If you want to select a preset in a different folder or setlist, you must send a CC32 (Bank Select) message first, immediately followed by the preset's PC message.
 
-cc: 
+cc:
   - name: Emulates EXP 1 Pedal
     value: 1
     description: Emulates the physical EXP 1 Pedal
@@ -63,10 +63,37 @@ cc:
     max: 127
   - name: Footswitch Mode
     value: 37
-    description: Changes the active footswitch layout mode (0=Stomp A, 1=Stomp B, 2=Preset, 3=Snapshot, 4=Combo, 5=N/A, 6=Transport)
+    description: ''
     type: System
-    min: 0
-    max: 6
+    group:
+      - name: Stomp A
+        description: ''
+        min: 0
+        max: 0
+      - name: Stomp B
+        description: ''
+        min: 1
+        max: 1
+      - name: Preset
+        description: ''
+        min: 2
+        max: 2
+      - name: Snapshot
+        description: ''
+        min: 3
+        max: 3
+      - name: Combo
+        description: ''
+        min: 4
+        max: 4
+      - name: N/A
+        description: ''
+        min: 5
+        max: 5
+      - name: Transport)
+        description: ''
+        min: 6
+        max: 6
   - name: Emulates Knob 1
     value: 38
     description: Emulates turning Knob 1 under the screen
@@ -171,7 +198,18 @@ cc:
     max: 127
   - name: Snapshot Select
     value: 69
-    description: Recalls a specific snapshot or navigates them (0-7 = Selects Snapshot 1-8, 8 = Next Snapshot, 9 = Previous Snapshot)
+    description: ''
     type: System
-    min: 0
-    max: 9
+    group:
+      - name: Selects Snapshot 1-8
+        description: ''
+        min: 7
+        max: 7
+      - name: Next Snapshot
+        description: ''
+        min: 8
+        max: 8
+      - name: Previous Snapshot)
+        description: ''
+        min: 9
+        max: 9

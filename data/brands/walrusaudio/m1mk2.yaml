@@ -14,132 +14,132 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Rate
-    value: '3'
+    value: 3
     description: ''
     min: 0
     max: 127
   - name: Depth
-    value: '9'
+    value: 9
     description: ''
     min: 0
     max: 127
   - name: Lo-Fi Mix
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Shape
-    value: '15'
+    value: 15
     description: ''
     min: 0
-    max: '2'
+    max: 2
   - name: Div
-    value: '16'
+    value: 16
     description: ''
     min: 0
-    max: '5'
+    max: 5
   - name: Type
-    value: '17'
+    value: 17
     description: ''
     min: 0
-    max: '2'
+    max: 2
   - name: Tone
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Sym
-    value: '20'
+    value: 20
     description: ''
     min: 0
     max: 127
   - name: X
-    value: '21'
+    value: 21
     description: ''
     min: 0
     max: 127
   - name: Lofi Env
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Lofi Drive
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Lofi Space
-    value: '24'
+    value: 24
     description: ''
     min: 0
     max: 127
   - name: Lofi Age
-    value: '25'
+    value: 25
     description: ''
     min: 0
-    max: '4'
+    max: 4
   - name: Lofi Noise
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Lofi Warble
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Program
-    value: '18'
+    value: 18
     description: ''
     min: 0
-    max: '5'
+    max: 5
   - name: Tap
-    value: '85'
+    value: 85
     description: ''
     min: 0
     max: 127
   - name: Bypass
-    value: '31'
+    value: 31
     description: ''
     min: 0
     max: 127
   - name: Tap Held
-    value: '87'
+    value: 87
     description: ''
     min: 0
     max: 127
   - name: Rotary Speed
-    value: '86'
+    value: 86
     description: ''
     min: 0
     max: 127
   - name: Output Gain
-    value: '88'
+    value: 88
     description: ''
     min: 0
     max: 127
   - name: Midi Clock Ignore
-    value: '89'
+    value: 89
     description: ''
     min: 0
     max: 127
   - name: Wet Dry Mix
-    value: '104'
+    value: 104
     description: ''
     min: 0
     max: 127
   - name: Flange Feedback
-    value: '105'
+    value: 105
     description: ''
     min: 0
     max: 127
   - name: Rotary Slow Rate
-    value: '106'
+    value: 106
     description: ''
     min: 0
     max: 127
   - name: Rotary Fast Rate
-    value: '107'
+    value: 107
     description: ''
     min: 0
     max: 127

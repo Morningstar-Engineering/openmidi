@@ -11,217 +11,266 @@ cc:
     min: 0
     max: 127
   - name: Low Pass Filter
-    value: '1'
+    value: 1
     description: ''
     min: 0
     max: 127
   - name: Mix
-    value: '2'
+    value: 2
     description: ''
     min: 0
     max: 127
   - name: Compression / Saturation
-    value: '3'
+    value: 3
     description: ''
     min: 0
     max: 127
   - name: Wow Frequency
-    value: '4'
+    value: 4
     description: ''
     min: 0
     max: 127
   - name: Wow Depth
-    value: '5'
+    value: 5
     description: ''
     min: 0
     max: 127
   - name: Flutter Depth
-    value: '6'
+    value: 6
     description: ''
     min: 0
     max: 127
   - name: Flutter Frequency
-    value: '7'
+    value: 7
     description: ''
     min: 0
     max: 127
   - name: Dropouts Frequency
-    value: '8'
+    value: 8
     description: ''
     min: 0
     max: 127
   - name: Dropouts Depth
-    value: '9'
+    value: 9
     description: ''
     min: 0
     max: 127
   - name: Crinkle
-    value: '10'
+    value: 10
     description: ''
     min: 0
     max: 127
   - name: Noise
-    value: '11'
+    value: 11
     description: ''
     min: 0
     max: 127
   - name: Reverb Decay
-    value: '12'
+    value: 12
     description: ''
     min: 0
     max: 127
   - name: Reverb Mix & Placement
-    value: '13'
+    value: 13
     description: ''
     min: 0
     max: 127
   - name: Touch Param 1
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Touch Param 2
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Touch Footswitch
-    value: '16'
-    description: 0=Off ; ≥1=On
-    min: 0
-    max: 127
+    value: 16
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Bypass Footswitch
-    value: '17'
-    description: 0=Off ; ≥1=On
-    min: 0
-    max: 127
+    value: 17
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Touch Mode Select
-    value: '18'
+    value: 18
     description: ''
     min: 0
-    max: '5'
+    max: 5
   - name: Ribbons Mode Select
-    value: '19'
-    description: 0=Tape Effects ; 1=Looper
-    min: 0
-    max: 127
+    value: 19
+    description: ''
+    group:
+      - name: Tape Effects
+        description: ''
+        min: 0
+        max: 0
+      - name: Looper
+        description: ''
+        min: 1
+        max: 1
   - name: Change Looper Track
-    value: '20'
+    value: 20
     description: 0=Track 1 ; 1=Track 2 ; etc.
     min: 0
     max: 127
   - name: Clear Current Looper Track
-    value: '21'
-    description: 0=False ; ≥1=True
-    min: 0
-    max: 127
+    value: 21
+    description: ''
+    group:
+      - name: 'False'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'True'
+        description: ''
+        min: 1
+        max: 1
   - name: Clear All Looper Tracks
-    value: '22'
-    description: 0=False ; ≥1=True
-    min: 0
-    max: 127
+    value: 22
+    description: ''
+    group:
+      - name: 'False'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'True'
+        description: ''
+        min: 1
+        max: 1
   - name: Track 1 Direction
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Track 1 Speed
-    value: '24'
+    value: 24
     description: ''
     min: 0
     max: 127
   - name: Track 1 Volume
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Track 1 Scale
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Track 2 Direction
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Track 2 Speed
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Track 2 Volume
-    value: '29'
+    value: 29
     description: ''
     min: 0
     max: 127
   - name: Track 2 Scale
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: Track 3 Direction
-    value: '31'
+    value: 31
     description: ''
     min: 0
     max: 127
   - name: Track 3 Speed
-    value: '32'
+    value: 32
     description: ''
     min: 0
     max: 127
   - name: Track 3 Volume
-    value: '33'
+    value: 33
     description: ''
     min: 0
     max: 127
   - name: Track 3 Scale
-    value: '34'
+    value: 34
     description: ''
     min: 0
     max: 127
   - name: Track 4 Direction
-    value: '35'
+    value: 35
     description: ''
     min: 0
     max: 127
   - name: Track 4 Speed
-    value: '36'
+    value: 36
     description: ''
     min: 0
     max: 127
   - name: Track 4 Volume
-    value: '37'
+    value: 37
     description: ''
     min: 0
     max: 127
   - name: Track 4 Scale
-    value: '38'
+    value: 38
     description: ''
     min: 0
     max: 127
   - name: Ignore MIDI Clock
-    value: '51'
-    description: 0=Ignore ; ≥1=Listen
-    min: 0
-    max: 127
+    value: 51
+    description: ''
+    group:
+      - name: Ignore
+        description: ''
+        min: 0
+        max: 0
+      - name: Listen
+        description: ''
+        min: 1
+        max: 1
   - name: Compression / Saturation
-    value: '52'
-    description: 0=Comp ; ≥1=Sat
-    min: 0
-    max: 127
+    value: 52
+    description: ''
+    group:
+      - name: Comp
+        description: ''
+        min: 0
+        max: 0
+      - name: Sat
+        description: ''
+        min: 1
+        max: 1
   - name: Synth Attack
-    value: '53'
+    value: 53
     description: ''
     min: 0
     max: 127
   - name: Synth Release
-    value: '54'
+    value: 54
     description: ''
     min: 0
     max: 127
   - name: Synth Volume
-    value: '55'
+    value: 55
     description: ''
     min: 0
     max: 127

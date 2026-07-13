@@ -73,99 +73,104 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Dark Program Toggle Left
+  - name: Dark Program Toggle Left / Dark Program Toggle Center / Dark Program Toggle Right
     value: 21
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: Dark Program Toggle Center
-    value: 21
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: Dark Program Toggle Right
-    value: 21
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: Para Toggle Left
+    group:
+      - name: Dark Program Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: Dark Program Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: Dark Program Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: Para Toggle Left / Para Toggle Center / Para Toggle Right
     value: 22
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: Para Toggle Center
-    value: 22
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: Para Toggle Right
-    value: 22
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: World Program Toggle Left
+    group:
+      - name: Para Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: Para Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: Para Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: World Program Toggle Left / World Program Toggle Center / World Program Toggle Right
     value: 23
     description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: World Program Toggle Center
-    value: 23
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: World Program Toggle Right
-    value: 23
-    description: ''
-    type: System
-    min: 3
-    max: 3
+    group:
+      - name: World Program Toggle Left
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: World Program Toggle Center
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: World Program Toggle Right
+        description: ''
+        min: 3
+        max: 3
+        type: System
   - name: Exp
     value: 100
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Bypass Switch: Bypass Pedal'
+  - name: 'Bypass Switch: Bypass Pedal / Bypass Switch: Engage last saved preset'
     value: 102
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Bypass Switch: Engage last saved preset'
-    value: 102
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Bypass Switch: Bypass both channels'
+    group:
+      - name: 'Bypass Switch: Bypass Pedal'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Bypass Switch: Engage last saved preset'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+  - name: 'Bypass Switch: Bypass both channels / Bypass Switch: Engage both D & W channels / Bypass Switch: Engage D channel, Bypass W channel / Bypass Switch: Engage W channel, Bypass D channel'
     value: 103
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Bypass Switch: Engage both D & W channels'
-    value: 103
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Bypass Switch: Engage D channel, Bypass W channel'
-    value: 103
-    description: ''
-    type: System
-    min: 85
-    max: 85
-  - name: 'Bypass Switch: Engage W channel, Bypass D channel'
-    value: 103
-    description: ''
-    type: System
-    min: 45
-    max: 45
+    group:
+      - name: 'Bypass Switch: Bypass both channels'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Bypass Switch: Engage both D & W channels'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Bypass Switch: Engage D channel, Bypass W channel'
+        description: ''
+        min: 85
+        max: 85
+        type: System
+      - name: 'Bypass Switch: Engage W channel, Bypass D channel'
+        description: ''
+        min: 45
+        max: 45
+        type: System

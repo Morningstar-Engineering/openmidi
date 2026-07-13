@@ -11,24 +11,22 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: EXP
-    value: '16'
-    description: >-
-      Controls the output level of the effect sound.
+    value: 16
+    description: 'Controls the output level of the effect sound.
 
-      This gives the same effect as when you’re operating an
-      externally-connected expression pedal.
+      This gives the same effect as when you’re operating an externally-connected expression pedal.'
     min: 0
     max: 127
   - name: EFFECTS ON/OFF
-    value: '80'
+    value: 80
     description: Turns the effects of the SL-2 on/off
     min: 0
     max: 127
   - name: TAP TEMPO
-    value: '81'
-    description: >+
-      Sets the tempo of the SL-2 in time with the interval in which control
-      change messages are received.
+    value: 81
+    description: 'Sets the tempo of the SL-2 in time with the interval in which control change messages are received.
 
+
+      '
     min: 0
     max: 127

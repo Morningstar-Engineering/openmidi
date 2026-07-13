@@ -1,15 +1,17 @@
 brand: EVH
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass Effects Loop
-  value: 85
-- description: ''
-  max: 127
-  min: 127
-  name: Engage Effects Loop
-  value: 85
+  - name: Bypass Effects Loop / Engage Effects Loop
+    value: 85
+    description: ''
+    group:
+      - name: Bypass Effects Loop
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage Effects Loop
+        description: ''
+        min: 127
+        max: 127
 device_name: 5150III 50W HEAD
 midi_channel:
   instructions: ''

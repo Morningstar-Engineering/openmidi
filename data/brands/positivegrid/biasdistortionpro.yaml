@@ -68,43 +68,74 @@ cc:
     min: 0
     name: Boost Type
     type: Parameter
-  - description: '0 = Up, 127 = Down'
+  - name: A Footswitch
     value: 80
-    max: 127
-    min: 0
-    name: A Footswitch
+    description: ''
     type: Parameter
-  - description: '0 = Up, 127 = Down'
+    group:
+      - name: Up
+        description: ''
+        min: 0
+        max: 0
+      - name: Down
+        description: ''
+        min: 127
+        max: 127
+  - name: B Footswitch
     value: 81
-    max: 127
-    min: 0
-    name: B Footswitch
+    description: ''
     type: Parameter
-  - description: '0 = Up, 127 = Down'
+    group:
+      - name: Up
+        description: ''
+        min: 0
+        max: 0
+      - name: Down
+        description: ''
+        min: 127
+        max: 127
+  - name: C Footswitch
     value: 82
-    max: 127
-    min: 0
-    name: C Footswitch
+    description: ''
     type: Parameter
-  - description: '0 = Up, 127 = Down'
+    group:
+      - name: Up
+        description: ''
+        min: 0
+        max: 0
+      - name: Down
+        description: ''
+        min: 127
+        max: 127
+  - name: Boost Footswitch
     value: 83
-    max: 127
-    min: 0
-    name: Boost Footswitch
+    description: ''
     type: Parameter
-  - description: '0 = Up, 127 = Down'
+    group:
+      - name: Up
+        description: ''
+        min: 0
+        max: 0
+      - name: Down
+        description: ''
+        min: 127
+        max: 127
+  - name: Boost Long Press
     value: 93
-    max: 127
-    min: 0
-    name: Boost Long Press
+    description: ''
     type: Parameter
+    group:
+      - name: Up
+        description: ''
+        min: 0
+        max: 0
+      - name: Down
+        description: ''
+        min: 127
+        max: 127
   - description: ''
     value: 100
     max: 127
     min: 0
     name: Expression Pedal
     type: Parameter
-
-
-
-

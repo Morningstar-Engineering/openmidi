@@ -1,70 +1,82 @@
 brand: BOSS
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: 'FX1 SW: Off'
-  value: 16
-- description: ''
-  max: 127
-  min: 127
-  name: 'FX1 SW: On'
-  value: 16
-- description: ''
-  max: 0
-  min: 0
-  name: 'FX2 SW: Off'
-  value: 17
-- description: ''
-  max: 127
-  min: 127
-  name: 'FX2 SW: On'
-  value: 17
-- description: ''
-  max: 0
-  min: 0
-  name: 'FX3 SW: Off'
-  value: 18
-- description: ''
-  max: 127
-  min: 127
-  name: 'FX3 SW: On'
-  value: 18
-- description: ''
-  max: 0
-  min: 0
-  name: 'Effect Loop SW: Off'
-  value: 19
-- description: ''
-  max: 127
-  min: 127
-  name: 'Effect Loop SW: On'
-  value: 19
-- description: ''
-  max: 0
-  min: 0
-  name: 'GA-FC Exp Pedal (FX): Off'
-  value: 80
-- description: ''
-  max: 127
-  min: 127
-  name: 'GA-FC Exp Pedal (FX): On'
-  value: 80
-- description: ''
-  max: 0
-  min: 0
-  name: 'GA-FC Exp Pedal (VOL): Off'
-  value: 81
-- description: ''
-  max: 127
-  min: 127
-  name: 'GA-FC Exp Pedal (VOL): On'
-  value: 81
-- description: ''
-  max: 127
-  min: 0
-  name: Expression Pedal
-  value: 82
+  - name: 'FX1 SW: Off / FX1 SW: On'
+    value: 16
+    description: ''
+    group:
+      - name: 'FX1 SW: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'FX1 SW: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'FX2 SW: Off / FX2 SW: On'
+    value: 17
+    description: ''
+    group:
+      - name: 'FX2 SW: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'FX2 SW: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'FX3 SW: Off / FX3 SW: On'
+    value: 18
+    description: ''
+    group:
+      - name: 'FX3 SW: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'FX3 SW: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Effect Loop SW: Off / Effect Loop SW: On'
+    value: 19
+    description: ''
+    group:
+      - name: 'Effect Loop SW: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Effect Loop SW: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'GA-FC Exp Pedal (FX): Off / GA-FC Exp Pedal (FX): On'
+    value: 80
+    description: ''
+    group:
+      - name: 'GA-FC Exp Pedal (FX): Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'GA-FC Exp Pedal (FX): On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'GA-FC Exp Pedal (VOL): Off / GA-FC Exp Pedal (VOL): On'
+    value: 81
+    description: ''
+    group:
+      - name: 'GA-FC Exp Pedal (VOL): Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'GA-FC Exp Pedal (VOL): On'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 82
 device_name: Katana Head
 midi_channel:
   instructions: ''

@@ -34,18 +34,20 @@ pc:
     You can activate a preset by sending a MIDI program change message. For example, sending a program change message
     of 7 activates preset 7.
 cc:
-  - name: Bypass
+  - name: Bypass / Engage
     value: 60
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: Engage
-    value: 60
-    description: ''
-    type: System
-    min: 127
-    max: 127
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: System
   - name: Simulate Exp Pedal
     value: 10
     description: ''
@@ -94,261 +96,242 @@ cc:
     type: Parameters
     min: 0
     max: 127
-  - name: 'Left Footswitch (Select): Quick Tap'
+  - name: 'Left Footswitch (Select): Quick Tap / Left Footswitch (Select): Hold / Left Footswitch (Select): Release'
     value: 35
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Left Footswitch (Select): Hold'
-    value: 35
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Left Footswitch (Select): Release'
-    value: 35
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Mid Footswitch (Scroll): Quick Tap'
+    group:
+      - name: 'Left Footswitch (Select): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Left Footswitch (Select): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Left Footswitch (Select): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Mid Footswitch (Scroll): Quick Tap / Mid Footswitch (Scroll): Hold / Mid Footswitch (Scroll): Release'
     value: 36
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Mid Footswitch (Scroll): Hold'
-    value: 36
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Mid Footswitch (Scroll): Release'
-    value: 36
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Right Footswitch (Bypass): Quick Tap'
+    group:
+      - name: 'Mid Footswitch (Scroll): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Mid Footswitch (Scroll): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Mid Footswitch (Scroll): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Right Footswitch (Bypass): Quick Tap / Right Footswitch (Bypass): Hold / Right Footswitch (Bypass): Release'
     value: 37
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Right Footswitch (Bypass): Hold'
-    value: 37
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Right Footswitch (Bypass): Release'
-    value: 37
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Save Button: Quick Tap'
+    group:
+      - name: 'Right Footswitch (Bypass): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Right Footswitch (Bypass): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Right Footswitch (Bypass): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Save Button: Quick Tap / Save Button: Hold / Save Button: Release'
     value: 38
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Save Button: Hold'
-    value: 38
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Save Button: Release'
-    value: 38
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: MIDI Clock Ignore
+    group:
+      - name: 'Save Button: Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Save Button: Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Save Button: Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: MIDI Clock Ignore / MIDI Clock Listen
     value: 51
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: MIDI Clock Listen
-    value: 51
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: Hall (Concert)
+    group:
+      - name: MIDI Clock Ignore
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: MIDI Clock Listen
+        description: ''
+        min: 127
+        max: 127
+        type: System
+  - name: Hall (Concert) / Hall (Modern) / Plate (Classic) / Plate (Studio) / Spring (Bright) / Spring (Dark) / Spring (Overdriven) / Room / Sparkle / Sparkle (Gummer) / Modulation (Mod) / Modulation (Chorused) / Modulation (Flanged) / Modulation (Tremolo) / Ambient (Triggered Swell) / Ambient (Gate Swell w/ Octave) / Delay (Single Tap) / Delay (Bendable) / Delay (Filtered Feedback) / Reverse (Decay) / Reverse (No Decay) / Reverse (Delay) / Ghost (Resonant) / Ghost (Casper) / Lo-Fi (50's Radio) / Lo-Fi (Warble) / Beer (Glitch) / Beer (Gated Reverb) / Beer (Destroyer Pad)
     value: 20
     description: ''
-    type: ''
-    min: 0
-    max: 0
-  - name: Hall (Modern)
-    value: 20
-    description: ''
-    type: ''
-    min: 1
-    max: 1
-  - name: Plate (Classic)
-    value: 20
-    description: ''
-    type: ''
-    min: 8
-    max: 8
-  - name: Plate (Studio)
-    value: 20
-    description: ''
-    type: ''
-    min: 9
-    max: 9
-  - name: Spring (Bright)
-    value: 20
-    description: ''
-    type: ''
-    min: 16
-    max: 16
-  - name: Spring (Dark)
-    value: 20
-    description: ''
-    type: ''
-    min: 17
-    max: 17
-  - name: Spring (Overdriven)
-    value: 20
-    description: ''
-    type: ''
-    min: 18
-    max: 18
-  - name: Room
-    value: 20
-    description: ''
-    type: ''
-    min: 24
-    max: 24
-  - name: Sparkle
-    value: 20
-    description: ''
-    type: ''
-    min: 32
-    max: 32
-  - name: Sparkle (Gummer)
-    value: 20
-    description: ''
-    type: ''
-    min: 33
-    max: 33
-  - name: Modulation (Mod)
-    value: 20
-    description: ''
-    type: ''
-    min: 40
-    max: 40
-  - name: Modulation (Chorused)
-    value: 20
-    description: ''
-    type: ''
-    min: 41
-    max: 41
-  - name: Modulation (Flanged)
-    value: 20
-    description: ''
-    type: ''
-    min: 42
-    max: 42
-  - name: Modulation (Tremolo)
-    value: 20
-    description: ''
-    type: ''
-    min: 43
-    max: 43
-  - name: Ambient (Triggered Swell)
-    value: 20
-    description: ''
-    type: ''
-    min: 48
-    max: 48
-  - name: Ambient (Gate Swell w/ Octave)
-    value: 20
-    description: ''
-    type: ''
-    min: 49
-    max: 49
-  - name: Delay (Single Tap)
-    value: 20
-    description: ''
-    type: ''
-    min: 56
-    max: 56
-  - name: Delay (Bendable)
-    value: 20
-    description: ''
-    type: ''
-    min: 57
-    max: 57
-  - name: Delay (Filtered Feedback)
-    value: 20
-    description: ''
-    type: ''
-    min: 58
-    max: 58
-  - name: Reverse (Decay)
-    value: 20
-    description: ''
-    type: ''
-    min: 64
-    max: 64
-  - name: Reverse (No Decay)
-    value: 20
-    description: ''
-    type: ''
-    min: 65
-    max: 65
-  - name: Reverse (Delay)
-    value: 20
-    description: ''
-    type: ''
-    min: 66
-    max: 66
-  - name: Ghost (Resonant)
-    value: 20
-    description: ''
-    type: ''
-    min: 72
-    max: 72
-  - name: Ghost (Casper)
-    value: 20
-    description: ''
-    type: ''
-    min: 73
-    max: 73
-  - name: Lo-Fi (50's Radio)
-    value: 20
-    description: ''
-    type: ''
-    min: 80
-    max: 80
-  - name: Lo-Fi (Warble)
-    value: 20
-    description: ''
-    type: ''
-    min: 81
-    max: 81
-  - name: Beer (Glitch)
-    value: 20
-    description: ''
-    type: ''
-    min: 88
-    max: 88
-  - name: Beer (Gated Reverb)
-    value: 20
-    description: ''
-    type: ''
-    min: 89
-    max: 89
-  - name: Beer (Destroyer Pad)
-    value: 20
-    description: ''
-    type: ''
-    min: 90
-    max: 90
+    group:
+      - name: Hall (Concert)
+        description: ''
+        min: 0
+        max: 0
+        type: ''
+      - name: Hall (Modern)
+        description: ''
+        min: 1
+        max: 1
+        type: ''
+      - name: Plate (Classic)
+        description: ''
+        min: 8
+        max: 8
+        type: ''
+      - name: Plate (Studio)
+        description: ''
+        min: 9
+        max: 9
+        type: ''
+      - name: Spring (Bright)
+        description: ''
+        min: 16
+        max: 16
+        type: ''
+      - name: Spring (Dark)
+        description: ''
+        min: 17
+        max: 17
+        type: ''
+      - name: Spring (Overdriven)
+        description: ''
+        min: 18
+        max: 18
+        type: ''
+      - name: Room
+        description: ''
+        min: 24
+        max: 24
+        type: ''
+      - name: Sparkle
+        description: ''
+        min: 32
+        max: 32
+        type: ''
+      - name: Sparkle (Gummer)
+        description: ''
+        min: 33
+        max: 33
+        type: ''
+      - name: Modulation (Mod)
+        description: ''
+        min: 40
+        max: 40
+        type: ''
+      - name: Modulation (Chorused)
+        description: ''
+        min: 41
+        max: 41
+        type: ''
+      - name: Modulation (Flanged)
+        description: ''
+        min: 42
+        max: 42
+        type: ''
+      - name: Modulation (Tremolo)
+        description: ''
+        min: 43
+        max: 43
+        type: ''
+      - name: Ambient (Triggered Swell)
+        description: ''
+        min: 48
+        max: 48
+        type: ''
+      - name: Ambient (Gate Swell w/ Octave)
+        description: ''
+        min: 49
+        max: 49
+        type: ''
+      - name: Delay (Single Tap)
+        description: ''
+        min: 56
+        max: 56
+        type: ''
+      - name: Delay (Bendable)
+        description: ''
+        min: 57
+        max: 57
+        type: ''
+      - name: Delay (Filtered Feedback)
+        description: ''
+        min: 58
+        max: 58
+        type: ''
+      - name: Reverse (Decay)
+        description: ''
+        min: 64
+        max: 64
+        type: ''
+      - name: Reverse (No Decay)
+        description: ''
+        min: 65
+        max: 65
+        type: ''
+      - name: Reverse (Delay)
+        description: ''
+        min: 66
+        max: 66
+        type: ''
+      - name: Ghost (Resonant)
+        description: ''
+        min: 72
+        max: 72
+        type: ''
+      - name: Ghost (Casper)
+        description: ''
+        min: 73
+        max: 73
+        type: ''
+      - name: Lo-Fi (50's Radio)
+        description: ''
+        min: 80
+        max: 80
+        type: ''
+      - name: Lo-Fi (Warble)
+        description: ''
+        min: 81
+        max: 81
+        type: ''
+      - name: Beer (Glitch)
+        description: ''
+        min: 88
+        max: 88
+        type: ''
+      - name: Beer (Gated Reverb)
+        description: ''
+        min: 89
+        max: 89
+        type: ''
+      - name: Beer (Destroyer Pad)
+        description: ''
+        min: 90
+        max: 90
+        type: ''

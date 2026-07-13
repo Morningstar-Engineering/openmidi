@@ -1,50 +1,50 @@
 brand: Kernom
 cc:
   - name: Electricity
-    value: '20'
+    value: 20
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Mood
-    value: '21'
+    value: 21
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Volume
-    value: '22'
+    value: 22
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Post-Tone
-    value: '23'
+    value: 23
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Pre-Tone
-    value: '24'
+    value: 24
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Fuzz
-    value: '25'
+    value: 25
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Expression
-    value: '26'
+    value: 26
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: FS preset
-    value: '27'
+    value: 27
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: FS on/off
-    value: '28'
+    value: 28
     description: ''
     min: 0
-    max: '127'
+    max: 127
 device_name: moho
 midi_channel:
   instructions: ''

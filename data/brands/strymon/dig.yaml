@@ -1,190 +1,209 @@
 brand: Strymon
 cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Preset Bank 0
-  value: 0
-- description: ''
-  max: 1
-  min: 1
-  name: Preset Bank 1
-  value: 0
-- description: ''
-  max: 2
-  min: 2
-  name: Preset Bank 2
-  value: 0
-- description: ''
-  max: 1
-  min: 1
-  name: 'Mod: Off'
-  value: 11
-- description: ''
-  max: 2
-  min: 2
-  name: 'Mod: Light'
-  value: 11
-- description: ''
-  max: 3
-  min: 3
-  name: 'Mod: Deep'
-  value: 11
-- description: ''
-  max: 127
-  min: 0
-  name: Time
-  value: 12
-- description: ''
-  max: 127
-  min: 0
-  name: Time 2
-  value: 13
-- description: ''
-  max: 127
-  min: 0
-  name: Tone
-  value: 14
-- description: ''
-  max: 1
-  min: 1
-  name: 'Type: 24/96'
-  value: 15
-- description: ''
-  max: 2
-  min: 2
-  name: 'Type: Adm'
-  value: 15
-- description: ''
-  max: 3
-  min: 3
-  name: 'Type: 12-bit'
-  value: 15
-- description: ''
-  max: 127
-  min: 0
-  name: Mix
-  value: 16
-- description: ''
-  max: 127
-  min: 0
-  name: Mix 2
-  value: 17
-- description: ''
-  max: 127
-  min: 0
-  name: Repeats
-  value: 18
-- description: ''
-  max: 0
-  min: 0
-  name: 'Delay 1 Div: 1/8d'
-  value: 19
-- description: ''
-  max: 1
-  min: 1
-  name: 'Delay 1 Div: 1/4'
-  value: 19
-- description: ''
-  max: 2
-  min: 2
-  name: 'Delay 1 Div: 1/2'
-  value: 19
-- description: ''
-  max: 0
-  min: 0
-  name: 'Delay 2 Repeats: Delay'
-  value: 20
-- description: ''
-  max: 127
-  min: 1
-  name: 'Delay 2 Repeats: Track'
-  value: 20
-- description: ''
-  max: 0
-  min: 0
-  name: Sync
-  value: 21
-- description: ''
-  max: 1
-  min: 1
-  name: Free
-  value: 21
-- description: ''
-  max: 0
-  min: 0
-  name: 'Config: Series'
-  value: 22
-- description: ''
-  max: 1
-  min: 1
-  name: 'Config: PingPong'
-  value: 22
-- description: ''
-  max: 2
-  min: 2
-  name: 'Config: Parallel'
-  value: 22
-- description: ''
-  max: 126
-  min: 0
-  name: Dry Level
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: 'Dry Level: Track Mix'
-  value: 23
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Expression: On'
-  value: 60
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Expression: Off'
-  value: 60
-- description: ''
-  max: 127
-  min: 127
-  name: 'MIDI Clock: On'
-  value: 63
-- description: ''
-  max: 0
-  min: 0
-  name: 'MIDI Clock: Off'
-  value: 63
-- description: ''
-  max: 127
-  min: 127
-  name: Remote Tap
-  value: 93
-- description: ''
-  max: 127
-  min: 1
-  name: 'Circular Repeats: Hold'
-  value: 97
-- description: ''
-  max: 0
-  min: 0
-  name: 'Circular Repeats: Release'
-  value: 97
-- description: ''
-  max: 127
-  min: 0
-  name: Expression
-  value: 100
-- description: ''
-  max: 0
-  min: 0
-  name: Bypass Pedal
-  value: 102
-- description: ''
-  max: 127
-  min: 127
-  name: Engage Pedal
-  value: 102
+  - name: Preset Bank 0 / Preset Bank 1 / Preset Bank 2
+    value: 0
+    description: ''
+    group:
+      - name: Preset Bank 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Preset Bank 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Preset Bank 2
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Mod: Off / Mod: Light / Mod: Deep'
+    value: 11
+    description: ''
+    group:
+      - name: 'Mod: Off'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mod: Light'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mod: Deep'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Time
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Time 2
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Tone
+    value: 14
+  - name: 'Type: 24/96 / Type: Adm / Type: 12-bit'
+    value: 15
+    description: ''
+    group:
+      - name: 'Type: 24/96'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Type: Adm'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Type: 12-bit'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix 2
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: Repeats
+    value: 18
+  - name: 'Delay 1 Div: 1/8d / Delay 1 Div: 1/4 / Delay 1 Div: 1/2'
+    value: 19
+    description: ''
+    group:
+      - name: 'Delay 1 Div: 1/8d'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay 1 Div: 1/4'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Delay 1 Div: 1/2'
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Delay 2 Repeats: Delay / Delay 2 Repeats: Track'
+    value: 20
+    description: ''
+    group:
+      - name: 'Delay 2 Repeats: Delay'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay 2 Repeats: Track'
+        description: ''
+        min: 1
+        max: 127
+  - name: Sync / Free
+    value: 21
+    description: ''
+    group:
+      - name: Sync
+        description: ''
+        min: 0
+        max: 0
+      - name: Free
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Config: Series / Config: PingPong / Config: Parallel'
+    value: 22
+    description: ''
+    group:
+      - name: 'Config: Series'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Config: PingPong'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Config: Parallel'
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Dry Level / Dry Level: Track Mix'
+    value: 23
+    description: ''
+    group:
+      - name: Dry Level
+        description: ''
+        min: 0
+        max: 126
+      - name: 'Dry Level: Track Mix'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'MIDI Expression: On / MIDI Expression: Off'
+    value: 60
+    description: ''
+    group:
+      - name: 'MIDI Expression: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Expression: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'MIDI Clock: On / MIDI Clock: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'MIDI Clock: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Clock: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Remote Tap
+    value: 93
+  - name: 'Circular Repeats: Hold / Circular Repeats: Release'
+    value: 97
+    description: ''
+    group:
+      - name: 'Circular Repeats: Hold'
+        description: ''
+        min: 1
+        max: 127
+      - name: 'Circular Repeats: Release'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 100
+  - name: Bypass Pedal / Engage Pedal
+    value: 102
+    description: ''
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
 device_name: DIG
 midi_channel:
   instructions: ''

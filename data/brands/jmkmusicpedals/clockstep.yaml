@@ -10,225 +10,462 @@ pc:
 cc:
   - name: Bank Change
     value: 0
-    description: |-
-      Send before PC Command.
+    description: 'Send before PC Command.
+
       1 to load Presets 128-255
+
       2 to load Presets 256-299
-      (0 or do not send for Presets 0-127)
+
+      (0 or do not send for Presets 0-127)'
     min: 0
-    max: '2'
+    max: 2
   - name: Transport Start/Stop
-    value: '3'
-    description: |-
-      Perform a Transport Start or Stop action, or toggle between them.
-      0 = Stop
-      64 = Toggle
-      127 = Start
-    min: 0
-    max: '127'
+    value: 3
+    description: ''
+    group:
+      - name: Stop
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: Start
+        description: ''
+        min: 127
+        max: 127
   - name: CUE Start/Stop
-    value: '9'
-    description: |-
-      Perform a CUE Start or Stop action, or toggle between them
-      0 = Cue Stop
-      64 = Cue Toggle
-      127 = Cue Start
-    min: 0
-    max: '127'
+    value: 9
+    description: ''
+    group:
+      - name: Cue Stop
+        description: ''
+        min: 0
+        max: 0
+      - name: Cue Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: Cue Start
+        description: ''
+        min: 127
+        max: 127
   - name: Clock Start/Stop
-    value: '14'
-    description: |-
-      Perform a Clock Start or Stop action, or toggle between them.
-      0 = Clock Stop
-      64 = Clock Toggle
-      127 = Clock Start
-    min: 0
-    max: '127'
+    value: 14
+    description: ''
+    group:
+      - name: Clock Stop
+        description: ''
+        min: 0
+        max: 0
+      - name: Clock Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: Clock Start
+        description: ''
+        min: 127
+        max: 127
   - name: Tap Tempo
-    value: '15'
+    value: 15
     description: Any value sends a Tap for setting a new Tempo
     min: 0
-    max: '127'
+    max: 127
   - name: BPM
-    value: '16'
-    description: |-
-      Sets a BPM between 40 and 240.
+    value: 16
+    description: 'Sets a BPM between 40 and 240.
+
       For BPM between 40 and 127, send wanted value.
-      For BPM above 127, send 1 first (+100) or 2 first (+200) and then send 0 - 127.  The two values add together.
+
+      For BPM above 127, send 1 first (+100) or 2 first (+200) and then send 0 - 127.  The two values add together.'
     min: 0
-    max: '127'
+    max: 127
   - name: Time Signature
-    value: '17'
-    description: |-
-      Time Signatures can have either quarter or eighth note beats (denominator).
+    value: 17
+    description: 'Time Signatures can have either quarter or eighth note beats (denominator).
+
       Values 1 - 16 sets the numerator with a quarter beat denominator (4 = 4/4)
-      Values 21 = 36 sets the numerator with an eighth beat denominator (25 = 5/8)
-    min: '1'
-    max: '36'
+
+      Values 21 = 36 sets the numerator with an eighth beat denominator (25 = 5/8)'
+    min: 1
+    max: 36
   - name: USER Switch
-    value: '18'
+    value: 18
     description: Simulates a USER Switch Press.  Any value.
     min: 0
-    max: '127'
+    max: 127
   - name: Auto Stop Clock
-    value: '19'
-    description: |-
-      0 = Off
-      127 = On
-    min: 0
-    max: '127'
+    value: 19
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: Cue In Count
-    value: '20'
-    description: The number of bars to count in when using the CUE switch to start the
-      Transport.
-    min: '1'
-    max: '4'
+    value: 20
+    description: The number of bars to count in when using the CUE switch to start the Transport.
+    min: 1
+    max: 4
   - name: Cue Out Count
-    value: '21'
-    description: The number of bars the count when using the CUE switch to stop the
-      Transport.
-    min: '1'
-    max: '4'
+    value: 21
+    description: The number of bars the count when using the CUE switch to stop the Transport.
+    min: 1
+    max: 4
   - name: Metronome Enabled (Global)
-    value: '22'
-    description: |-
-      0 = Metronome Off
-      64 = Metronome Toggle
-      127 = Metronome On
-    min: 0
-    max: '127'
+    value: 22
+    description: ''
+    group:
+      - name: Metronome Off
+        description: ''
+        min: 0
+        max: 0
+      - name: Metronome Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: Metronome On
+        description: ''
+        min: 127
+        max: 127
   - name: Metronome Beat
-    value: '23'
-    description: |-
-      The rhythmic value of the Metronome beat.
-      0 = None
-      1 = Dotted Whole
-      2 = Whole Note
-      3 = Whole Triplet
-      4 = Dotted Half
-      5 = Half Note
-      6 = Half Triplet
-      7 = Dotted Quarter
-      8 = Quarter Note
-      9 = Quarter Triplet
-      10 = Quarter Shuffle
-      11= Dotted Eighth
-      12 = Eighth Note
-      13= Eighth Triplet
-      14 = Eighth Shuffle
-      15 = Eighth Skipping
-      16 = Dotted Sixteenth
-      17 = Sixteenth Note
-      18 = Sixteenth Triplet
-      19 = Sixteenth Gallop
-      20 = Sixteenth Skipping
-      21 = Thirty-second Note
-    min: 0
-    max: '21'
+    value: 23
+    description: ''
+    group:
+      - name: None
+        description: ''
+        min: 0
+        max: 0
+      - name: Dotted Whole
+        description: ''
+        min: 1
+        max: 1
+      - name: Whole Note
+        description: ''
+        min: 2
+        max: 2
+      - name: Whole Triplet
+        description: ''
+        min: 3
+        max: 3
+      - name: Dotted Half
+        description: ''
+        min: 4
+        max: 4
+      - name: Half Note
+        description: ''
+        min: 5
+        max: 5
+      - name: Half Triplet
+        description: ''
+        min: 6
+        max: 6
+      - name: Dotted Quarter
+        description: ''
+        min: 7
+        max: 7
+      - name: Quarter Note
+        description: ''
+        min: 8
+        max: 8
+      - name: Quarter Triplet
+        description: ''
+        min: 9
+        max: 9
+      - name: Quarter Shuffle
+        description: ''
+        min: 10
+        max: 10
+      - name: Dotted Eighth
+        description: ''
+        min: 11
+        max: 11
+      - name: Eighth Note
+        description: ''
+        min: 12
+        max: 12
+      - name: Eighth Triplet
+        description: ''
+        min: 13
+        max: 13
+      - name: Eighth Shuffle
+        description: ''
+        min: 14
+        max: 14
+      - name: Eighth Skipping
+        description: ''
+        min: 15
+        max: 15
+      - name: Dotted Sixteenth
+        description: ''
+        min: 16
+        max: 16
+      - name: Sixteenth Note
+        description: ''
+        min: 17
+        max: 17
+      - name: Sixteenth Triplet
+        description: ''
+        min: 18
+        max: 18
+      - name: Sixteenth Gallop
+        description: ''
+        min: 19
+        max: 19
+      - name: Sixteenth Skipping
+        description: ''
+        min: 20
+        max: 20
+      - name: Thirty-second Note
+        description: ''
+        min: 21
+        max: 21
   - name: Metronome Accent
-    value: '24'
-    description: |-
-      The rhythmic value of the Metronome Accent.
-      0 = None
-      1 = Dotted Whole
-      2 = Whole Note
-      3 = Whole Triplet
-      4 = Dotted Half
-      5 = Half Note
-      6 = Half Triplet
-      7 = Dotted Quarter
-      8 = Quarter Note
-      9 = Quarter Triplet
-      10 = Quarter Shuffle
-      11= Dotted Eighth
-      12 = Eighth Note
-      13= Eighth Triplet
-      14 = Eighth Shuffle
-      15 = Eighth Skipping
-      16 = Dotted Sixteenth
-      17 = Sixteenth Note
-      18 = Sixteenth Triplet
-      19 = Sixteenth Gallop
-      20 = Sixteenth Skipping
-      21 = Thirty-second Note
-    min: 0
-    max: '21'
+    value: 24
+    description: ''
+    group:
+      - name: None
+        description: ''
+        min: 0
+        max: 0
+      - name: Dotted Whole
+        description: ''
+        min: 1
+        max: 1
+      - name: Whole Note
+        description: ''
+        min: 2
+        max: 2
+      - name: Whole Triplet
+        description: ''
+        min: 3
+        max: 3
+      - name: Dotted Half
+        description: ''
+        min: 4
+        max: 4
+      - name: Half Note
+        description: ''
+        min: 5
+        max: 5
+      - name: Half Triplet
+        description: ''
+        min: 6
+        max: 6
+      - name: Dotted Quarter
+        description: ''
+        min: 7
+        max: 7
+      - name: Quarter Note
+        description: ''
+        min: 8
+        max: 8
+      - name: Quarter Triplet
+        description: ''
+        min: 9
+        max: 9
+      - name: Quarter Shuffle
+        description: ''
+        min: 10
+        max: 10
+      - name: Dotted Eighth
+        description: ''
+        min: 11
+        max: 11
+      - name: Eighth Note
+        description: ''
+        min: 12
+        max: 12
+      - name: Eighth Triplet
+        description: ''
+        min: 13
+        max: 13
+      - name: Eighth Shuffle
+        description: ''
+        min: 14
+        max: 14
+      - name: Eighth Skipping
+        description: ''
+        min: 15
+        max: 15
+      - name: Dotted Sixteenth
+        description: ''
+        min: 16
+        max: 16
+      - name: Sixteenth Note
+        description: ''
+        min: 17
+        max: 17
+      - name: Sixteenth Triplet
+        description: ''
+        min: 18
+        max: 18
+      - name: Sixteenth Gallop
+        description: ''
+        min: 19
+        max: 19
+      - name: Sixteenth Skipping
+        description: ''
+        min: 20
+        max: 20
+      - name: Thirty-second Note
+        description: ''
+        min: 21
+        max: 21
   - name: Metronome First Beat
-    value: '25'
-    description: |-
-      Turns the special note that plays on the first beat of bar on or off
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 25
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: Metronome Use
-    value: '26'
-    description: |-
-      0 = Never
-      1 = Always
-      2 = Clock Only
-      3 = Cue In Only
-    min: 0
-    max: '3'
+    value: 26
+    description: ''
+    group:
+      - name: Never
+        description: ''
+        min: 0
+        max: 0
+      - name: Always
+        description: ''
+        min: 1
+        max: 1
+      - name: Clock Only
+        description: ''
+        min: 2
+        max: 2
+      - name: Cue In Only
+        description: ''
+        min: 3
+        max: 3
   - name: Clock Source
-    value: '27'
-    description: |-
-      0 = Internal
-      1 = External
-      2 = External + Start
-      3 = External + Align
-    min: 0
-    max: '3'
+    value: 27
+    description: ''
+    group:
+      - name: Internal
+        description: ''
+        min: 0
+        max: 0
+      - name: External
+        description: ''
+        min: 1
+        max: 1
+      - name: External + Start
+        description: ''
+        min: 2
+        max: 2
+      - name: External + Align
+        description: ''
+        min: 3
+        max: 3
   - name: Send Bar Marker
-    value: '28'
-    description: |-
-      Turns sending the MIDI Bar Marker message on or off.
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 28
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: Send Time Signature
-    value: '29'
-    description: |-
-      Turns sending the MID Time Signature message on or off
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 29
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: Clock LED Enabled
-    value: '30'
-    description: |-
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 30
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: MIDI Thru Enabled
-    value: '31'
-    description: |-
-      0 = On
-      64 = Toggle
-      127 = Off
-    min: 0
-    max: '127'
+    value: 31
+    description: ''
+    group:
+      - name: 'On'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'Off'
+        description: ''
+        min: 127
+        max: 127
   - name: Send MIDI Start
-    value: '32'
-    description: |-
-      Turns the sending of the MIDI Start Message on or off when you press the Transport Switch
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 32
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127
   - name: Send MIDI Stop
-    value: '33'
-    description: |-
-      Turns the sending of the MIDI Stop Message on or off when you press the Transport Switch
-      0 = Off
-      64 = Toggle
-      127 = On
-    min: 0
-    max: '127'
+    value: 33
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Toggle
+        description: ''
+        min: 64
+        max: 64
+      - name: 'On'
+        description: ''
+        min: 127
+        max: 127

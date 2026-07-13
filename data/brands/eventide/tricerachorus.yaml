@@ -1,96 +1,99 @@
 brand: Eventide Audio
 cc:
   - name: Expression Pedal
-    value: '4'
+    value: 4
     description: ''
     min: 0
-    max: '127'
-  - name: Engage Pedal
-    value: '14'
+    max: 127
+  - name: Engage Pedal / Bypass Pedal
+    value: 14
     description: ''
-    min: '127'
-    max: '127'
-  - name: Bypass Pedal
-    value: '14'
+    group:
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+  - name: Swirl On / Swirl Off
+    value: 15
     description: ''
-    min: 0
-    max: 0
-  - name: Swirl On
-    value: '15'
-    description: ''
-    min: '127'
-    max: '127'
-  - name: Swirl Off
-    value: '15'
-    description: ''
-    min: 0
-    max: 0
+    group:
+      - name: Swirl On
+        description: ''
+        min: 127
+        max: 127
+      - name: Swirl Off
+        description: ''
+        min: 0
+        max: 0
   - name: Mix
-    value: '20'
+    value: 20
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Rate
-    value: '21'
+    value: 21
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Detune
-    value: '22'
+    value: 22
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Left Vol
-    value: '23'
+    value: 23
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Centre Vol
-    value: '24'
+    value: 24
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Right Vol
-    value: '25'
+    value: 25
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Mix Env
-    value: '26'
+    value: 26
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Rate Env
-    value: '27'
+    value: 27
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Pitch
-    value: '28'
+    value: 28
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Delay
-    value: '29'
+    value: 29
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Filter
-    value: '30'
+    value: 30
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Out Level
-    value: '31'
+    value: 31
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Tap Rate
-    value: '9'
+    value: 9
     description: ''
-    min: '127'
-    max: '127'
-
+    min: 127
+    max: 127
 device_name: Tricerachorus
 midi_channel:
   instructions: ''

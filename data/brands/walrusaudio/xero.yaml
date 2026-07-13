@@ -18,82 +18,209 @@ cc:
     min: 0
     max: 127
   - name: Track 2 Pan
-    value: '1'
+    value: 1
     description: ''
     min: 0
     max: 127
   - name: Track 1 Volume
-    value: '2'
+    value: 2
     description: ''
     min: 0
     max: 127
   - name: Track 2 Volume
-    value: '3'
+    value: 3
     description: ''
     min: 0
     max: 127
   - name: Track 1 Speed
-    value: '4'
-    description: 0 = x0.5; 1 = x1; 2 = x2
-    min: 0
-    max: '2'
+    value: 4
+    description: ''
+    group:
+      - name: x0.5
+        description: ''
+        min: 0
+        max: 0
+      - name: x1
+        description: ''
+        min: 1
+        max: 1
+      - name: x2
+        description: ''
+        min: 2
+        max: 2
   - name: Track 2 Speed
-    value: '5'
-    description: 0 = x0.5; 1 = x1; 2 = x2
-    min: 0
-    max: '2'
+    value: 5
+    description: ''
+    group:
+      - name: x0.5
+        description: ''
+        min: 0
+        max: 0
+      - name: x1
+        description: ''
+        min: 1
+        max: 1
+      - name: x2
+        description: ''
+        min: 2
+        max: 2
   - name: Track 1 Direction
-    value: '6'
-    description: 0 = Forward; 1 = Reverse
-    min: 0
-    max: '1'
+    value: 6
+    description: ''
+    group:
+      - name: Forward
+        description: ''
+        min: 0
+        max: 0
+      - name: Reverse
+        description: ''
+        min: 1
+        max: 1
   - name: Track 2 Direction
-    value: '7'
-    description: 0 = Forward; 1 = Reverse
-    min: 0
-    max: '1'
+    value: 7
+    description: ''
+    group:
+      - name: Forward
+        description: ''
+        min: 0
+        max: 0
+      - name: Reverse
+        description: ''
+        min: 1
+        max: 1
   - name: Track 1 FX On
-    value: '8'
-    description: 0 = Off; 1 = On
-    min: 0
-    max: '1'
+    value: 8
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Track 2 FX On
-    value: '9'
-    description: 0 = Off; 1 = On
-    min: 0
-    max: '1'
+    value: 9
+    description: ''
+    group:
+      - name: 'Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'On'
+        description: ''
+        min: 1
+        max: 1
   - name: Loop Mode
-    value: '10'
-    description: 0 = Sync Mode; 1 = Unsynced Mode; 2 = Poly Mode
-    min: 0
-    max: '2'
+    value: 10
+    description: ''
+    group:
+      - name: Sync Mode
+        description: ''
+        min: 0
+        max: 0
+      - name: Unsynced Mode
+        description: ''
+        min: 1
+        max: 1
+      - name: Poly Mode
+        description: ''
+        min: 2
+        max: 2
   - name: Channel Select
-    value: '11'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 11
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
   - name: Play
-    value: '20'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 20
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
   - name: Stop
-    value: '21'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 21
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
   - name: Record
-    value: '22'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 22
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
   - name: Stop Record
-    value: '23'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 23
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
   - name: Undo
-    value: '24'
-    description: 0 = Channel 1; 1 = Channel 2; 2 = Both Channels
-    min: 0
-    max: '2'
+    value: 24
+    description: ''
+    group:
+      - name: Channel 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Channel 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Both Channels
+        description: ''
+        min: 2
+        max: 2
