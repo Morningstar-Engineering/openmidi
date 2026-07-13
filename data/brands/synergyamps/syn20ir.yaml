@@ -17,32 +17,32 @@ pc:
 
 cc:
   - name: Select channel
-    value: 24
-    description: '0: CH1, 1:CH2, 2: CH3'
+    value: "24"
+    description: "0: CH1, 1:CH2, 2: CH3"
     min: 0
     max: 2
   - name: Select Structure
-    value: 25
-    description: '0: A , 1: B, 2: C'
+    value: "25"
+    description: "0: A , 1: B, 2: C"
     min: 0
     max: 2
   - name: IR Bypass
-    value: 27
-    description: '0: OFF, 127: ON, X: Toggle'
+    value: "27"
+    description: "0: OFF, 127: ON, X: Toggle"
     min: 0
     max: 127
   - name: Select IR
-    value: 28
-    description: '0: IR1, 1: IR2, 2: IR2, 3: IR4'
+    value: "28"
+    description: "0: IR1, 1: IR2, 2: IR2, 3: IR4"
     min: 0
     max: 3
   - name: Lowpass Level
-    value: 29
-    description: '0: Level1, 1: Level2, 2: Level3'
+    value: "29"
+    description: "0: Level1, 1: Level2, 2: Level3"
     min: 0
     max: 2
   - name: Highpass Level
-    value: 30
-    description: '0: Level1, 1: Level2, 2: Level3'
+    value: "30"
+    description: "0: Level1, 1: Level2, 2: Level3"
     min: 0
     max: 2

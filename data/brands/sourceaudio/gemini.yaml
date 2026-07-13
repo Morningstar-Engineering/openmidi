@@ -19,199 +19,212 @@ cc:
     min: 0
     max: 127
   - name: Depth
-    value: 1
+    value: '1'
     description: ''
     min: 0
     max: 127
   - name: Speed
-    value: 2
+    value: '2'
     description: ''
     min: 0
     max: 127
   - name: Mix
-    value: 3
+    value: '3'
     description: ''
     min: 0
     max: 127
   - name: Output
-    value: 4
+    value: '4'
     description: ''
     min: 0
     max: 127
   - name: Feedback (Resonance)
-    value: 5
+    value: '5'
     description: ''
     min: 0
     max: 127
   - name: Lo Retain
-    value: 6
+    value: '6'
     description: ''
     min: 0
     max: 127
   - name: Tremolo
-    value: 7
+    value: '7'
     description: ''
     min: 0
     max: 127
-  - name: Effect Type - Classic Flange/Chorus / Effect Type - Shadow Flange / Effect Type - Thru-Zero / Effect Type - Resonator 1 / Effect Type - Resonator 2 / Effect Type - Dual Chorus / Effect Type - Quad Chorus / Effect Type - Vibe / Effect Type - 4 Stage Phaser / Effect Type - 6 Stage Phaser / Effect Type - 8 Stage Phaser / Effect Type - 12 Stage Phaser
-    value: 8
+  - name: Effect Type - Classic Flange/Chorus
+    value: '8'
     description: ''
-    group:
-      - name: Effect Type - Classic Flange/Chorus
-        description: ''
-        min: 0
-        max: 0
-      - name: Effect Type - Shadow Flange
-        description: ''
-        min: 1
-        max: 1
-      - name: Effect Type - Thru-Zero
-        description: ''
-        min: 2
-        max: 2
-      - name: Effect Type - Resonator 1
-        description: ''
-        min: 3
-        max: 3
-      - name: Effect Type - Resonator 2
-        description: ''
-        min: 4
-        max: 4
-      - name: Effect Type - Dual Chorus
-        description: ''
-        min: 5
-        max: 5
-      - name: Effect Type - Quad Chorus
-        description: ''
-        min: 6
-        max: 6
-      - name: Effect Type - Vibe
-        description: ''
-        min: 7
-        max: 7
-      - name: Effect Type - 4 Stage Phaser
-        description: ''
-        min: 8
-        max: 8
-      - name: Effect Type - 6 Stage Phaser
-        description: ''
-        min: 9
-        max: 9
-      - name: Effect Type - 8 Stage Phaser
-        description: ''
-        min: 10
-        max: 10
-      - name: Effect Type - 12 Stage Phaser
-        description: ''
-        min: 11
-        max: 11
+    min: 0
+    max: '0'
+  - name: Effect Type - Shadow Flange
+    value: '8'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Effect Type - Thru-Zero
+    value: '8'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Effect Type - Resonator 1
+    value: '8'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Effect Type - Resonator 2
+    value: '8'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Effect Type - Dual Chorus
+    value: '8'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Effect Type - Quad Chorus
+    value: '8'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Effect Type - Vibe
+    value: '8'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Effect Type - 4 Stage Phaser
+    value: '8'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Effect Type - 6 Stage Phaser
+    value: '8'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Effect Type - 8 Stage Phaser
+    value: '8'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Effect Type - 12 Stage Phaser
+    value: '8'
+    description: ''
+    min: '11'
+    max: '11'
   - name: Mod Source
-    value: 9
+    value: '9'
     description: ''
     min: 0
     max: 127
   - name: Channel 2 LFO Offset
-    value: 10
+    value: '10'
     description: ''
     min: 0
     max: 127
   - name: Treble 2825 Hz
-    value: 11
+    value: '11'
     description: ''
     min: 0
     max: 127
   - name: Treble Freq
-    value: 12
+    value: '12'
     description: ''
     min: 0
     max: 127
   - name: Bass 106 Hz
-    value: 13
+    value: '13'
     description: ''
     min: 0
     max: 127
   - name: Bass Freq
-    value: 14
+    value: '14'
     description: ''
     min: 0
     max: 127
   - name: Mid A Freq
-    value: 15
+    value: '15'
     description: ''
     min: 0
     max: 127
   - name: Mid A Q
-    value: 16
+    value: '16'
     description: ''
     min: 0
     max: 127
   - name: Mid A 675 Hz
-    value: 17
+    value: '17'
     description: ''
     min: 0
     max: 127
   - name: Mid B Freq
-    value: 18
+    value: '18'
     description: ''
     min: 0
     max: 127
   - name: Mid B Q
-    value: 19
+    value: '19'
     description: ''
     min: 0
     max: 127
   - name: Mid B 916 Hz
-    value: 20
+    value: '20'
     description: ''
     min: 0
     max: 127
   - name: Low Cut Filter
-    value: 21
+    value: '21'
     description: ''
     min: 0
-    max: 40
-  - name: I/O Routing Option - Auto-Detect (default) / I/O Routing Option - Mono Input, Stereo Output / I/O Routing Option - Stereo Input, Mono Effect / I/O Routing Option - Mono Effect, Dry Through / I/O Routing Option - Mono Effect, Doubled Output / I/O Routing Option - Sidechain Envelope / I/O Routing Option - External Loop, pre-Effect / I/O Routing Option - External Loop, post-Effect / I/O Routing Option - True Stereo
-    value: 22
+    max: '40'
+  - name: I/O Routing Option - Auto-Detect (default)
+    value: '22'
     description: ''
-    group:
-      - name: I/O Routing Option - Auto-Detect (default)
-        description: ''
-        min: 0
-        max: 0
-      - name: I/O Routing Option - Mono Input, Stereo Output
-        description: ''
-        min: 1
-        max: 1
-      - name: I/O Routing Option - Stereo Input, Mono Effect
-        description: ''
-        min: 2
-        max: 2
-      - name: I/O Routing Option - Mono Effect, Dry Through
-        description: ''
-        min: 3
-        max: 3
-      - name: I/O Routing Option - Mono Effect, Doubled Output
-        description: ''
-        min: 4
-        max: 4
-      - name: I/O Routing Option - Sidechain Envelope
-        description: ''
-        min: 5
-        max: 5
-      - name: I/O Routing Option - External Loop, pre-Effect
-        description: ''
-        min: 6
-        max: 6
-      - name: I/O Routing Option - External Loop, post-Effect
-        description: ''
-        min: 7
-        max: 7
-      - name: I/O Routing Option - True Stereo
-        description: ''
-        min: 8
-        max: 8
+    min: 0
+    max: '0'
+  - name: 'I/O Routing Option - Mono Input, Stereo Output'
+    value: '22'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: 'I/O Routing Option - Stereo Input, Mono Effect'
+    value: '22'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: 'I/O Routing Option - Mono Effect, Dry Through'
+    value: '22'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: 'I/O Routing Option - Mono Effect, Doubled Output'
+    value: '22'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: I/O Routing Option - Sidechain Envelope
+    value: '22'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: 'I/O Routing Option - External Loop, pre-Effect'
+    value: '22'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: 'I/O Routing Option - External Loop, post-Effect'
+    value: '22'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: I/O Routing Option - True Stereo
+    value: '22'
+    description: ''
+    min: '8'
+    max: '8'
   - name: Bypass/Engage
-    value: 23
+    value: '23'
     description: ''
     min: 0
     max: 127

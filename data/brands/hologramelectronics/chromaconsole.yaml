@@ -119,139 +119,146 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: character module - drive / character module - sweeten / character module - fuzz / character module - howl / character module - swell / character module - off
+  - name: character module - drive
     value: 16
     description: ''
-    group:
-      - name: character module - drive
-        description: ''
-        min: 0
-        max: 21
-      - name: character module - sweeten
-        description: ''
-        min: 22
-        max: 43
-      - name: character module - fuzz
-        description: ''
-        min: 44
-        max: 65
-      - name: character module - howl
-        description: ''
-        min: 66
-        max: 87
-      - name: character module - swell
-        description: ''
-        min: 88
-        max: 109
-      - name: character module - off
-        description: ''
-        min: 110
-        max: 127
-  - name: movement module - doubler / movement module - vibrato / movement module - phaser / movement module - tremolo / movement module - pitch / movement module - off
+    min: 0
+    max: 21
+  - name: character module - sweeten
+    value: 16
+    description: ''
+    min: 22
+    max: 43
+  - name: character module - fuzz
+    value: 16
+    description: ''
+    min: 44
+    max: 65
+  - name: character module - howl
+    value: 16
+    description: ''
+    min: 66
+    max: 87
+  - name: character module - swell
+    value: 16
+    description: ''
+    min: 88
+    max: 109
+  - name: character module - off
+    value: 16
+    description: ''
+    min: 110
+    max: 127
+  - name: movement module - doubler
     value: 17
     description: ''
-    group:
-      - name: movement module - doubler
-        description: ''
-        min: 0
-        max: 21
-      - name: movement module - vibrato
-        description: ''
-        min: 22
-        max: 43
-      - name: movement module - phaser
-        description: ''
-        min: 44
-        max: 65
-      - name: movement module - tremolo
-        description: ''
-        min: 66
-        max: 87
-      - name: movement module - pitch
-        description: ''
-        min: 88
-        max: 109
-      - name: movement module - off
-        description: ''
-        min: 110
-        max: 127
-  - name: diffusion module - cascade / diffusion module - reels / diffusion module - space / diffusion module - collage / diffusion module - reverse / diffusion module - off
+    min: 0
+    max: 21
+  - name: movement module - vibrato
+    value: 17
+    description: ''
+    min: 22
+    max: 43
+  - name: movement module - phaser
+    value: 17
+    description: ''
+    min: 44
+    max: 65
+  - name: movement module - tremolo
+    value: 17
+    description: ''
+    min: 66
+    max: 87
+  - name: movement module - pitch
+    value: 17
+    description: ''
+    min: 88
+    max: 109
+  - name: movement module - off
+    value: 17
+    description: ''
+    min: 110
+    max: 127
+  - name: diffusion module - cascade
     value: 18
     description: ''
-    group:
-      - name: diffusion module - cascade
-        description: ''
-        min: 0
-        max: 21
-      - name: diffusion module - reels
-        description: ''
-        min: 22
-        max: 43
-      - name: diffusion module - space
-        description: ''
-        min: 44
-        max: 65
-      - name: diffusion module - collage
-        description: ''
-        min: 66
-        max: 87
-      - name: diffusion module - reverse
-        description: ''
-        min: 88
-        max: 109
-      - name: diffusion module - off
-        description: ''
-        min: 110
-        max: 127
-  - name: texture module - filter / texture module - squash / texture module - cassette / texture module - broken / texture module - interference / texture module - off
+    min: 0
+    max: 21
+  - name: diffusion module - reels
+    value: 18
+    description: ''
+    min: 22
+    max: 43
+  - name: diffusion module - space
+    value: 18
+    description: ''
+    min: 44
+    max: 65
+  - name: diffusion module - collage
+    value: 18
+    description: ''
+    min: 66
+    max: 87
+  - name: diffusion module - reverse
+    value: 18
+    description: ''
+    min: 88
+    max: 109
+  - name: diffusion module - off
+    value: 18
+    description: ''
+    min: 110
+    max: 127
+  - name: texture module - filter
     value: 19
     description: ''
-    group:
-      - name: texture module - filter
-        description: ''
-        min: 0
-        max: 21
-      - name: texture module - squash
-        description: ''
-        min: 22
-        max: 43
-      - name: texture module - cassette
-        description: ''
-        min: 44
-        max: 65
-      - name: texture module - broken
-        description: ''
-        min: 66
-        max: 87
-      - name: texture module - interference
-        description: ''
-        min: 88
-        max: 109
-      - name: texture module - off
-        description: ''
-        min: 110
-        max: 127
+    min: 0
+    max: 21
+  - name: texture module - squash
+    value: 19
+    description: ''
+    min: 22
+    max: 43
+  - name: texture module - cassette
+    value: 19
+    description: ''
+    min: 44
+    max: 65
+  - name: texture module - broken
+    value: 19
+    description: ''
+    min: 66
+    max: 87
+  - name: texture module - interference
+    value: 19
+    description: ''
+    min: 88
+    max: 109
+  - name: texture module - off
+    value: 19
+    description: ''
+    min: 110
+    max: 127
   - name: standard bypass
     value: 91
     description: bypass (0-64) engage (65-127)
     min: 0
     max: 127
-  - name: total bypass / dual bypass / total engage
+  - name: total bypass
     value: 92
     description: ''
-    group:
-      - name: total bypass
-        description: ''
-        min: 0
-        max: 31
-      - name: dual bypass
-        description: ''
-        min: 32
-        max: 64
-      - name: total engage
-        description: ''
-        min: 65
-        max: 127
+    min: 0
+    max: 31
+  - name: dual bypass
+    value: 92
+    description: ''
+    min: 32
+    max: 64
+  - name: total engage
+    value: 92
+    description: ''
+    min: 65
+    max: 127
   - name: gesture play/rec
     value: 80
     description: play (0-64) record (65-127)
@@ -262,104 +269,98 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: capture stop/clear / capture play / capture record
+  - name: capture stop/clear
     value: 82
     description: ''
-    group:
-      - name: capture stop/clear
-        description: ''
-        min: 0
-        max: 43
-      - name: capture play
-        description: ''
-        min: 44
-        max: 87
-      - name: capture record
-        description: ''
-        min: 88
-        max: 127
-  - name: capture routing post-fx / capture routing pre-fx
+    min: 0
+    max: 43
+  - name: capture play
+    value: 82
+    description: ''
+    min: 44
+    max: 87
+  - name: capture record
+    value: 82
+    description: ''
+    min: 88
+    max: 127
+  - name: capture routing post-fx
     value: 83
     description: ''
-    group:
-      - name: capture routing post-fx
-        description: ''
-        min: 0
-        max: 64
-      - name: capture routing pre-fx
-        description: ''
-        min: 65
-        max: 127
+    min: 0
+    max: 64
+  - name: capture routing pre-fx
+    value: 83
+    description: ''
+    min: 65
+    max: 127
   - name: tap tempo
     value: 93
     description: bypass (0-64)
     min: 0
     max: 127
-  - name: filter mode low pass / filter mode tilt / filter mode high pass
+  - name: filter mode low pass
     value: 84
     description: ''
-    group:
-      - name: filter mode low pass
-        description: ''
-        min: 0
-        max: 43
-      - name: filter mode tilt
-        description: ''
-        min: 44
-        max: 87
-      - name: filter mode high pass
-        description: ''
-        min: 88
-        max: 127
-  - name: calibration level low / calibration level medium / calibration level high / calibration level very high
+    min: 0
+    max: 43
+  - name: filter mode tilt
+    value: 84
+    description: ''
+    min: 44
+    max: 87
+  - name: filter mode high pass
+    value: 84
+    description: ''
+    min: 88
+    max: 127
+  - name: calibration level low
     value: 94
     description: ''
-    group:
-      - name: calibration level low
-        description: ''
-        min: 0
-        max: 31
-      - name: calibration level medium
-        description: ''
-        min: 32
-        max: 65
-      - name: calibration level high
-        description: ''
-        min: 64
-        max: 95
-      - name: calibration level very high
-        description: ''
-        min: 95
-        max: 127
-  - name: calibration menu exit / calibration menu enter
+    min: 0
+    max: 31
+  - name: calibration level medium
+    value: 94
+    description: ''
+    min: 32
+    max: 65
+  - name: calibration level high
+    value: 94
+    description: ''
+    min: 64
+    max: 95
+  - name: calibration level very high
+    value: 94
+    description: ''
+    min: 95
+    max: 127
+  - name: calibration menu exit
     value: 95
     description: ''
-    group:
-      - name: calibration menu exit
-        description: ''
-        min: 0
-        max: 64
-      - name: calibration menu enter
-        description: ''
-        min: 65
-        max: 127
+    min: 0
+    max: 64
+  - name: calibration menu enter
+    value: 95
+    description: ''
+    min: 65
+    max: 127
   - name: Character Module Bypass
-    value: 103
-    description: Bypass (0-63), Engage (64-127)
+    value: '103'
+    description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
   - name: Movement Module Bypass
-    value: 104
-    description: Bypass (0-63), Engage (64-127)
+    value: '104'
+    description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
   - name: Diffusion Module Bypass
-    value: 105
-    description: Bypass (0-63), Engage (64-127)
+    value: '105'
+    description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
   - name: Texture Module Bypass
-    value: 106
-    description: Bypass (0-63), Engage (64-127)
+    value: '106'
+    description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127

@@ -109,20 +109,12 @@ cc:
     max: 127
     min: 0
     type: system
-  - name: Echo Enable
-    value: 84
+  - value: 84
+    name: Echo Enable
     description: Echo Enable
-    group:
-      - name: Echo Enable
-        description: Echo Enable
-        min: 0
-        max: 127
-        type: system
-      - name: Echo Enable
-        description: Echo Enable
-        min: 0
-        max: 127
-        type: system
+    max: 127
+    min: 0
+    type: system
   - value: 85
     name: Reverb Enable
     description: Reverb Enable
@@ -154,20 +146,20 @@ cc:
     min: 0
     type: system
   - value: 88
-    name: Parametric
-    description: Parametric
+    name: Parametric #1 enable
+    description: Parametric #1 enable
     max: 127
     min: 0
     type: system
   - value: 89
-    name: Parametric
-    description: Parametric
+    name: Parametric #2 enable
+    description: Parametric #2 enable
     max: 127
     min: 0
     type: system
   - value: 90
-    name: Parametric
-    description: Parametric
+    name: Parametric #3 enable
+    description: Parametric #3 enable
     max: 127
     min: 0
     type: system
@@ -214,38 +206,44 @@ cc:
     min: 0
     type: system
   - value: 8
-    name: FS7 Press
-    description: FS7 Press
+    name: FS7 Press 
+    description: FS7 Press 
     max: 127
     min: 0
     type: system
   - value: 7
-    name: FS8 Press
-    description: FS8 Press
+    name: FS8 Press 
+    description: FS8 Press 
     max: 127
     min: 0
     type: system
   - value: 6
-    name: FS9 Press
-    description: FS9 Press
+    name: FS9 Press 
+    description: FS9 Press 
     max: 127
     min: 0
     type: system
   - value: 5
-    name: FS0 Press
-    description: FS0 Press
+    name: FS0 Press 
+    description: FS0 Press 
     max: 127
     min: 0>
     type: system
   - value: 4
-    name: FS+ Press
+    name: FS+ Press 
     description: FS+ Press (AA12 only)
     max: 127
     min: 0
     type: system
   - value: 3
-    name: FS- Press
+    name: FS- Press 
     description: FS- Press (AA12 only)
+    max: 127
+    min: 0
+    type: system
+  - value: 84
+    name: Echo Enable
+    description: Echo Enable
     max: 127
     min: 0
     type: system

@@ -64,88 +64,81 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: 'Tweak Switch: MOD / Tweak Switch: TONE / Tweak Switch: AGE'
+  - name: 'Tweak Switch: MOD'
     value: 8
     description: ''
-    group:
-      - name: 'Tweak Switch: MOD'
-        description: ''
-        min: 0
-        max: 42
-        type: Parameter
-      - name: 'Tweak Switch: TONE'
-        description: ''
-        min: 43
-        max: 85
-        type: Parameter
-      - name: 'Tweak Switch: AGE'
-        description: ''
-        min: 86
-        max: 127
-        type: Parameter
-  - name: 'A|B|C Switch: A / A|B|C Switch: B / A|B|C Switch: C'
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'Tweak Switch: TONE'
+    value: 8
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'Tweak Switch: AGE'
+    value: 8
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'A|B|C Switch: A'
     value: 9
     description: ''
-    group:
-      - name: 'A|B|C Switch: A'
-        description: ''
-        min: 0
-        max: 42
-        type: Parameter
-      - name: 'A|B|C Switch: B'
-        description: ''
-        min: 43
-        max: 85
-        type: Parameter
-      - name: 'A|B|C Switch: C'
-        description: ''
-        min: 86
-        max: 127
-        type: Parameter
-  - name: 'Division Switch: QUARTER / Division Switch: EIGHTH / Division Switch: DOTTED EIGHTH'
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'A|B|C Switch: B'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'A|B|C Switch: C'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'Division Switch: QUARTER'
     value: 10
     description: ''
-    group:
-      - name: 'Division Switch: QUARTER'
-        description: ''
-        min: 0
-        max: 42
-        type: Parameter
-      - name: 'Division Switch: EIGHTH'
-        description: ''
-        min: 43
-        max: 85
-        type: Parameter
-      - name: 'Division Switch: DOTTED EIGHTH'
-        description: ''
-        min: 86
-        max: 127
-        type: Parameter
-  - name: 'Bypass Switch: BYPASS / Bypass Switch: ENGAGED'
+    type: Parameter
+    min: 0
+    max: 42
+  - name: 'Division Switch: EIGHTH'
+    value: 10
+    description: ''
+    type: Parameter
+    min: 43
+    max: 85
+  - name: 'Division Switch: DOTTED EIGHTH'
+    value: 10
+    description: ''
+    type: Parameter
+    min: 86
+    max: 127
+  - name: 'Bypass Switch: BYPASS'
     value: 11
     description: ''
-    group:
-      - name: 'Bypass Switch: BYPASS'
-        description: ''
-        min: 0
-        max: 0
-        type: System
-      - name: 'Bypass Switch: ENGAGED'
-        description: ''
-        min: 127
-        max: 127
-        type: System
-  - name: 'Tap Tempo: BYPASS / Tap Tempo: ENGAGED'
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: ENGAGED'
+    value: 11
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Tap Tempo: BYPASS'
     value: 12
     description: ''
-    group:
-      - name: 'Tap Tempo: BYPASS'
-        description: ''
-        min: 0
-        max: 0
-        type: System
-      - name: 'Tap Tempo: ENGAGED'
-        description: ''
-        min: 127
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 0
+  - name: 'Tap Tempo: ENGAGED'
+    value: 12
+    description: ''
+    type: System
+    min: 127
+    max: 127

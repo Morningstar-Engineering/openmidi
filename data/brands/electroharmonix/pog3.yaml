@@ -44,138 +44,120 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Disable LEFT output / Enable LEFT output
+  - name: Disable LEFT output
     value: 70
-    description: Disable the Left Output jack.; Enable the Left Output jack.
-    group:
-      - name: Disable LEFT output
-        description: Disable the Left Output jack.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable LEFT output
-        description: Enable the Left Output jack.
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable RIGHT output / Enable RIGHT output
+    description: Disable the Left Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable LEFT output
+    value: 70
+    description: Enable the Left Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable RIGHT output
     value: 71
-    description: Disable the Right Output jack.; Enable the Right Output jack.
-    group:
-      - name: Disable RIGHT output
-        description: Disable the Right Output jack.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable RIGHT output
-        description: Enable the Right Output jack.
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable DIRECT output / Enable DIRECT output
+    description: Disable the Right Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable RIGHT output
+    value: 71
+    description: Enable the Right Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DIRECT output
     value: 72
-    description: Disable the Direct Output jack.; Enable the Direct Output jack.
-    group:
-      - name: Disable DIRECT output
-        description: Disable the Direct Output jack.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable DIRECT output
-        description: Enable the Direct Output jack.
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable EXP pedal / Enable EXP pedal
+    description: Disable the Direct Output jack.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DIRECT output
+    value: 72
+    description: Enable the Direct Output jack.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable EXP pedal
     value: 73
-    description: Disable the Expression pedal.; Enable the Expression pedal.
-    group:
-      - name: Disable EXP pedal
-        description: Disable the Expression pedal.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable EXP pedal
-        description: Enable the Expression pedal.
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable FOCUS / Enable FOCUS
+    description: Disable the Expression pedal.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable EXP pedal
+    value: 73
+    description: Enable the Expression pedal.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable FOCUS
     value: 74
-    description: Disable FOCUS function.; Enable FOCUS function.
-    group:
-      - name: Disable FOCUS
-        description: Disable FOCUS function.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable FOCUS
-        description: Enable FOCUS function.
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable DRY ATTACK / Enable DRY ATTACK
+    description: Disable FOCUS function.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable FOCUS
+    value: 74
+    description: Enable FOCUS function.
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY ATTACK
     value: 75
-    description: Disable the DRY ATTACK button.; Enable the DRY ATTACK button (routes DRY signal through Attack effect).
-    group:
-      - name: Disable DRY ATTACK
-        description: Disable the DRY ATTACK button.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable DRY ATTACK
-        description: Enable the DRY ATTACK button (routes DRY signal through Attack effect).
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable DRY FILTER / Enable DRY FILTER
+    description: Disable the DRY ATTACK button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY ATTACK
+    value: 75
+    description: Enable the DRY ATTACK button (routes DRY signal through Attack effect).
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY FILTER
     value: 76
-    description: Disable the DRY FILTER button.; Enable the DRY FILTER button (routes DRY signal through Filter).
-    group:
-      - name: Disable DRY FILTER
-        description: Disable the DRY FILTER button.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable DRY FILTER
-        description: Enable the DRY FILTER button (routes DRY signal through Filter).
-        min: 1
-        max: 127
-        type: Parameter
-  - name: Disable DRY DETUNE / Enable DRY DETUNE
+    description: Disable the DRY FILTER button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY FILTER
+    value: 76
+    description: Enable the DRY FILTER button (routes DRY signal through Filter).
+    type: Parameter
+    min: 1
+    max: 127
+  - name: Disable DRY DETUNE
     value: 77
-    description: Disable the DRY DETUNE button.; Enable the DRY DETUNE button (routes DRY signal through Detune effect).
-    group:
-      - name: Disable DRY DETUNE
-        description: Disable the DRY DETUNE button.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Enable DRY DETUNE
-        description: Enable the DRY DETUNE button (routes DRY signal through Detune effect).
-        min: 1
-        max: 127
-        type: Parameter
+    description: Disable the DRY DETUNE button.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Enable DRY DETUNE
+    value: 77
+    description: Enable the DRY DETUNE button (routes DRY signal through Detune effect).
+    type: Parameter
+    min: 1
+    max: 127
   - name: Home Screen
     value: 78
     description: Choose home screen view (0-4).
     type: Parameter
     min: 0
     max: 4
-  - name: EFFECT Bypass / EFFECT Enable
+  - name: EFFECT Bypass
     value: 79
-    description: Bypass the POG3 effect.; Enable the POG3 effect.
-    group:
-      - name: EFFECT Bypass
-        description: Bypass the POG3 effect.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: EFFECT Enable
-        description: Enable the POG3 effect.
-        min: 1
-        max: 127
-        type: Parameter
+    description: Bypass the POG3 effect.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: EFFECT Enable
+    value: 79
+    description: Enable the POG3 effect.
+    type: Parameter
+    min: 1
+    max: 127
   - name: Save to preset
     value: 80
     description: Save current POG3 settings to preset number (CC data value + 1). E.g., value 00 saves to Preset 1.
@@ -302,20 +284,18 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Local Control Off / Local Control On
+  - name: Local Control Off
     value: 122
-    description: Disables physical control of sliders/knobs. Must be sent on Channel 16.; Enables physical control of sliders/knobs. Must be sent on Channel 16.
-    group:
-      - name: Local Control Off
-        description: Disables physical control of sliders/knobs. Must be sent on Channel 16.
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Local Control On
-        description: Enables physical control of sliders/knobs. Must be sent on Channel 16.
-        min: 1
-        max: 1
-        type: Parameter
+    description: Disables physical control of sliders/knobs. Must be sent on Channel 16.
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Local Control On
+    value: 122
+    description: Enables physical control of sliders/knobs. Must be sent on Channel 16.
+    type: Parameter
+    min: 1
+    max: 1
   - name: OMNI OFF
     value: 124
     description: Disables OMNI MIDI Channel control. Must be sent on Channel 16.

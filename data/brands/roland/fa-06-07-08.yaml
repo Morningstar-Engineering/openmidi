@@ -1,22 +1,5 @@
 brand: Roland
 cc:
-  - name: USER Studio Set Change / Program Change
-    value: 0
-    description: 'Step 1; Step 3 - PC # is 1 less than the number that appears on the screen'
-    group:
-      - name: USER Studio Set Change
-        description: Step 1
-        min: 85
-        max: 85
-      - name: Program Change
-        description: 'Step 3 - PC # is 1 less than the number that appears on the screen'
-        min: 0
-        max: 127
-  - name: USER Studio Set Change
-    value: 32
-    description: Step 2
-    min: 0
-    max: 0
 - name: USER Studio Set Change
   value: 0
   description: Step 1

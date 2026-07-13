@@ -57,20 +57,18 @@ cc:
     min: 0
     name: Output
     type: Parameter
-  - name: Custom Knob / Tube Stages
+  - description: ''
     value: 6
-    description: '0-15: 1 Tube, 16-47: 2 Tubes, 48-79: 3 Tubes, 80-111: 4 Tubes, 112-127: 5 Tubes'
-    group:
-      - name: Custom Knob
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Tube Stages
-        description: '0-15: 1 Tube, 16-47: 2 Tubes, 48-79: 3 Tubes, 80-111: 4 Tubes, 112-127: 5 Tubes'
-        min: 0
-        max: 127
-        type: Parameter
+    max: 127
+    min: 0
+    name: Custom Knob
+    type: Parameter
+  - description: '0-15: 1 Tube, 16-47: 2 Tubes, 48-79: 3 Tubes, 80-111: 4 Tubes, 112-127: 5 Tubes'
+    value: 6
+    max: 127
+    min: 0
+    name: Tube Stages
+    type: Parameter
   - description: ''
     value: 3
     max: 127
@@ -173,3 +171,7 @@ cc:
     min: 0
     name: Noise Gate Decay
     type: Parameter
+
+
+
+

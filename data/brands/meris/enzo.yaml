@@ -18,20 +18,18 @@ pc:
   description:
 
 cc:
-  - name: 'Env Type: Triggered / Env Type: Follower'
+  - name: 'Env Type: Triggered'
     value: 9
     description: ''
-    group:
-      - name: 'Env Type: Triggered'
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: 'Env Type: Follower'
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Env Type: Follower'
+    value: 9
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
   - name: Pitch
     value: 16
     description: ''
@@ -104,64 +102,60 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: 'Synth Mode: Dry / Synth Mode: Mono / Synth Mode: ARP / Synth Mode: Poly'
+  - name: 'Synth Mode: Dry'
     value: 29
     description: ''
-    group:
-      - name: 'Synth Mode: Dry'
-        description: ''
-        min: 0
-        max: 31
-        type: Parameter
-      - name: 'Synth Mode: Mono'
-        description: ''
-        min: 32
-        max: 63
-        type: Parameter
-      - name: 'Synth Mode: ARP'
-        description: ''
-        min: 64
-        max: 95
-        type: Parameter
-      - name: 'Synth Mode: Poly'
-        description: ''
-        min: 96
-        max: 127
-        type: Parameter
-  - name: 'Synth Waveshape: Sawtooth / Synth Waveshape: Mono'
+    type: Parameter
+    min: 0
+    max: 31
+  - name: 'Synth Mode: Mono'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 32
+    max: 63
+  - name: 'Synth Mode: ARP'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 64
+    max: 95
+  - name: 'Synth Mode: Poly'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 96
+    max: 127
+  - name: 'Synth Waveshape: Sawtooth'
     value: 30
     description: ''
-    group:
-      - name: 'Synth Waveshape: Sawtooth'
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: 'Synth Waveshape: Mono'
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Synth Waveshape: Mono'
+    value: 30
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
   - name: Exp Pedal
     value: 4
     description: ''
     type: System
     min: 0
     max: 127
-  - name: FX Bypass / FX Enable
+  - name: FX Bypass
     value: 14
     description: ''
-    group:
-      - name: FX Bypass
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: FX Enable
-        description: ''
-        min: 64
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
   - name: Tempo (10ms interval)
     value: 15
     description: ''

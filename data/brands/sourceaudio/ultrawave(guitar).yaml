@@ -19,322 +19,322 @@ cc:
     min: 0
     max: 127
   - name: Level CH 1
-    value: 1
+    value: '1'
     description: ''
     min: 0
     max: 127
   - name: Bass CH 1
-    value: 2
+    value: '2'
     description: ''
     min: 0
     max: 127
   - name: Mid CH 1
-    value: 3
+    value: '3'
     description: ''
     min: 0
     max: 127
   - name: Treble CH 1
-    value: 4
+    value: '4'
     description: ''
     min: 0
     max: 127
   - name: Mix CH 1
-    value: 5
+    value: '5'
     description: ''
     min: 0
     max: 127
   - name: Morph CH 1
-    value: 6
+    value: '6'
     description: ''
     min: 0
     max: 127
   - name: Morph Envelope CH 1
-    value: 7
+    value: '7'
     description: ''
     min: 0
     max: 127
   - name: LFO Depth CH 1
-    value: 8
+    value: '8'
     description: ''
     min: 0
     max: 127
   - name: Gate Threshold CH 1
-    value: 9
+    value: '9'
     description: ''
     min: 0
     max: 127
   - name: Compressor Ratio CH 1
-    value: 10
+    value: '10'
     description: ''
     min: 0
     max: 127
   - name: Compressor Threshold CH 1
-    value: 11
+    value: '11'
     description: ''
     min: 0
     max: 127
   - name: Compressor Input Gain CH 1
-    value: 12
+    value: '12'
     description: ''
     min: 0
     max: 127
   - name: Compressor Attack CH 1
-    value: 13
+    value: '13'
     description: ''
     min: 0
     max: 127
   - name: Compressor Release CH 1
-    value: 14
+    value: '14'
     description: ''
     min: 0
     max: 127
   - name: Compressor Output Gain CH 1
-    value: 15
+    value: '15'
     description: ''
     min: 0
     max: 127
   - name: Compressor Mix CH 1
-    value: 16
+    value: '16'
     description: ''
     min: 0
     max: 127
   - name: LFO Attack CH 1
-    value: 17
+    value: '17'
     description: ''
     min: 0
     max: 127
   - name: LFO Release CH 1
-    value: 18
+    value: '18'
     description: ''
     min: 0
     max: 127
   - name: LFO Rate CH 1
-    value: 19
+    value: '19'
     description: ''
     min: 0
     max: 127
   - name: LFO Shape CH 1
-    value: 20
+    value: '20'
     description: ''
     min: 0
     max: 127
   - name: LFO On Time CH 1
-    value: 21
+    value: '21'
     description: ''
     min: 0
     max: 127
   - name: LFO Env To Rate CH 1
-    value: 22
+    value: '22'
     description: ''
     min: 0
     max: 127
   - name: Single Tremolo Pre Depth CH 1
-    value: 23
+    value: '23'
     description: ''
     min: 0
     max: 127
   - name: Single Tremolo Post Depth CH 1
-    value: 24
+    value: '24'
     description: ''
     min: 0
     max: 127
   - name: Multi-band Tremolo Depth CH 1
-    value: 25
+    value: '25'
     description: ''
     min: 0
     max: 127
   - name: Drive CH 2
-    value: 26
+    value: '26'
     description: ''
     min: 0
     max: 127
   - name: Level CH 2
-    value: 27
+    value: '27'
     description: ''
     min: 0
     max: 127
   - name: Bass CH 2
-    value: 28
+    value: '28'
     description: ''
     min: 0
     max: 127
   - name: Mid CH 2
-    value: 29
+    value: '29'
     description: ''
     min: 0
     max: 127
   - name: Treble CH 2
-    value: 30
+    value: '30'
     description: ''
     min: 0
     max: 127
   - name: Mix CH 2
-    value: 31
+    value: '31'
     description: ''
     min: 0
     max: 127
   - name: Morph CH 2
-    value: 32
+    value: '32'
     description: ''
     min: 0
     max: 127
   - name: Morph Envelope CH 2
-    value: 33
+    value: '33'
     description: ''
     min: 0
     max: 127
   - name: LFO Depth CH 2
-    value: 34
+    value: '34'
     description: ''
     min: 0
     max: 127
   - name: Noise Gate CH 2
-    value: 35
+    value: '35'
     description: ''
     min: 0
     max: 127
   - name: Compressor Ratio CH 2
-    value: 36
+    value: '36'
     description: ''
     min: 0
     max: 127
   - name: Compressor Threshold CH 2
-    value: 37
+    value: '37'
     description: ''
     min: 0
     max: 127
   - name: Compressor Input Gain CH 2
-    value: 38
+    value: '38'
     description: ''
     min: 0
     max: 127
   - name: Compressor Attack CH 2
-    value: 39
+    value: '39'
     description: ''
     min: 0
     max: 127
   - name: Compressor Release CH 2
-    value: 40
+    value: '40'
     description: ''
     min: 0
     max: 127
   - name: Compressor Output Gain CH 2
-    value: 41
+    value: '41'
     description: ''
     min: 0
     max: 127
   - name: Compressor Mix CH 2
-    value: 42
+    value: '42'
     description: ''
     min: 0
     max: 127
   - name: LFO Attack CH 2
-    value: 43
+    value: '43'
     description: ''
     min: 0
     max: 127
   - name: LFO Release CH 2
-    value: 44
+    value: '44'
     description: ''
     min: 0
     max: 127
   - name: LFO Rate CH 2
-    value: 45
+    value: '45'
     description: ''
     min: 0
     max: 127
   - name: LFO Shape CH 2
-    value: 46
+    value: '46'
     description: ''
     min: 0
     max: 127
   - name: LFO On Time CH 2
-    value: 47
+    value: '47'
     description: ''
     min: 0
     max: 127
   - name: LFO Env To Rate CH 2
-    value: 48
+    value: '48'
     description: ''
     min: 0
     max: 127
   - name: Single Tremolo Pre Depth CH 2
-    value: 49
+    value: '49'
     description: ''
     min: 0
     max: 127
   - name: Single Tremolo Post Depth CH 2
-    value: 50
+    value: '50'
     description: ''
     min: 0
     max: 127
   - name: Multi-band Tremolo Depth CH 2
-    value: 51
+    value: '51'
     description: ''
     min: 0
     max: 127
   - name: Envelope Input Gain
-    value: 52
+    value: '52'
     description: ''
     min: 0
     max: 127
   - name: Envelope Attack
-    value: 53
+    value: '53'
     description: ''
     min: 0
     max: 127
   - name: Balance
-    value: 54
+    value: '54'
     description: ''
     min: 0
     max: 127
   - name: Envelope To Balance
-    value: 55
+    value: '55'
     description: ''
     min: 0
     max: 127
   - name: LFO To Balance
-    value: 56
+    value: '56'
     description: ''
     min: 0
     max: 127
   - name: Remote Tap Tempo
-    value: 57
+    value: '57'
     description: ''
     min: 0
     max: 127
   - name: Remote Expression Pedal
-    value: 58
+    value: '58'
     description: ''
     min: 0
     max: 127
   - name: Engage/Bypass
-    value: 59
+    value: '59'
     description: ''
     min: 0
     max: 127
   - name: Preset Recall(OFF)
-    value: 60
+    value: '60'
     description: ''
     min: 0
     max: 127
   - name: Preset Recall(ON)
-    value: 61
+    value: '61'
     description: ''
     min: 0
     max: 127
   - name: Engage/Bypass Toggle
-    value: 62
+    value: '62'
     description: ''
     min: 0
     max: 127
   - name: Increment Preset
-    value: 63
+    value: '63'
     description: ''
     min: 0
     max: 127
   - name: Decrement Preset
-    value: 64
+    value: '64'
     description: ''
     min: 0
     max: 127

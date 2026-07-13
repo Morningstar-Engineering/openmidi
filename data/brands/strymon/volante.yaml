@@ -45,7 +45,7 @@ cc:
     max: 127
   - name: Head 1 Feedback Off/On
     value: 34
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
@@ -63,13 +63,13 @@ cc:
     max: 127
   - name: Head 1 Playback Off/On
     value: 21
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
   - name: Head 2 Feedback Off/On
     value: 35
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
@@ -87,13 +87,13 @@ cc:
     max: 127
   - name: Head 2 Playback Off/On
     value: 22
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
   - name: Head 3 Feedback Off/On
     value: 36
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
@@ -111,19 +111,19 @@ cc:
     max: 127
   - name: Head 3 Playback Off/On
     value: 23
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
   - name: Head 4 Feedback Off/On
     value: 37
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
   - name: Head 4 Level
     value: 28
-    description: (0=off, 1-127=on)
+    description: (0=off, 1-127=on) 
     type: Parameter
     min: 0
     max: 127
@@ -207,7 +207,7 @@ cc:
     max: 127
   - name: SOS Mode
     value: 41
-    description: (0=normal, 1-127=SOS)
+    description: (0=normal, 1-127=SOS) 
     type: Parameter
     min: 0
     max: 127
@@ -265,20 +265,18 @@ cc:
     type: System
     min: 0
     max: 2
-  - name: Bypass / Engage
+  - name: Bypass
     value: 102
     description: ''
-    group:
-      - name: Bypass
-        description: ''
-        min: 0
-        max: 0
-        type: System
-      - name: Engage
-        description: ''
-        min: 127
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 0
+  - name: Engage
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
   - name: Echo On/Off
     value: 78
     description: (0=off, 127=on)
@@ -329,7 +327,7 @@ cc:
     max: 127
   - name: Output Sum
     value: 85
-    description: (0=stereo, 1-127=sum)
+    description:  (0=stereo, 1-127=sum)
     type: System
     min: 0
     max: 127

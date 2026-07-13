@@ -1,17 +1,5 @@
 brand: EVH
 cc:
-  - name: Bypass Effects Loop / Engage Effects Loop
-    value: 85
-    description: ''
-    group:
-      - name: Bypass Effects Loop
-        description: ''
-        min: 0
-        max: 0
-      - name: Engage Effects Loop
-        description: ''
-        min: 127
-        max: 127
 - description: ''
   max: 0
   min: 0

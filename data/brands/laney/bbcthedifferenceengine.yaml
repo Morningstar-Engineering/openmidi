@@ -16,263 +16,264 @@ cc:
     value: 0
     description: An alternative to using Program Change Messages.
     min: 0
-    max: 100
+    max: '100'
   - name: Enable
-    value: 1
+    value: '1'
     description: 0 = Bypass ; 1 = Enable
     min: 0
-    max: 1
+    max: '1'
   - name: Freeze
-    value: 56
+    value: '56'
     description: 0 = Disable Freeze; 1 = Enable Freeze
     min: 0
-    max: 1
+    max: '1'
   - name: Delay Mode
-    value: 10
+    value: '10'
     description: 0 = ANALOGUE MODE; 1 = DIGITAL MODE; 2 = DYNAMIC MODE
     min: 0
-    max: 2
+    max: '2'
   - name: Repeat
-    value: 11
+    value: '11'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Tone
-    value: 12
+    value: '12'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Colour
-    value: 13
+    value: '13'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Mix
-    value: 14
+    value: '14'
     description: ''
     min: 0
-    max: 100
-  - name: Tape Speed MSB / Dynamics Release Time MSB
-    value: 7
+    max: '100'
+  - name: Tape Speed MSB
+    value: '7'
     description: ''
-    group:
-      - name: Tape Speed MSB
-        description: ''
-        min: 0
-        max: 127
-      - name: "Dynamics Release Time MSB\t"
-        description: ''
-        min: 0
-        max: 127
-  - name: Tape Speed LSB / Dynamics Release Time LSB
-    value: 39
+    min: 0
+    max: 127
+  - name: Tape Speed LSB
+    value: '39'
     description: ''
-    group:
-      - name: Tape Speed LSB
-        description: ''
-        min: 0
-        max: 127
-      - name: Dynamics Release Time LSB
-        description: ''
-        min: 0
-        max: 127
+    min: 0
+    max: 127
   - name: Head Enable
-    value: 49
-    description: Select which tape Heads to enable. See Table for head in BBC-TDE manual enable for values.
+    value: '49'
+    description: Select which tape Heads to enable. See Table for head in BBC-TDE manual
+      enable for values.
     min: 0
-    max: 7
+    max: '7'
   - name: Head 1 Distance
-    value: 50
+    value: '50'
     description: ''
-    min: 20
-    max: 100
+    min: '20'
+    max: '100'
   - name: Head 2 Distance
-    value: 51
+    value: '51'
     description: ''
-    min: 20
-    max: 100
+    min: '20'
+    max: '100'
   - name: Head 3 Distance
-    value: 52
+    value: '52'
     description: ''
-    min: 20
-    max: 100
+    min: '20'
+    max: '100'
   - name: Head 1 Level
-    value: 53
+    value: '53'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Head 2 Level
-    value: 54
+    value: '54'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Head 3 Level
-    value: 55
+    value: '55'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Wow Rate
-    value: 22
+    value: '22'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Wow Depth
-    value: 23
+    value: '23'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Flutter Rate
-    value: 24
+    value: '24'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Flutter Depth
-    value: 25
+    value: '25'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Time Link
-    value: 15
-    description: '0 = Unlink left and right delay times; 1 = Link left and right delay times - Note: When time linked only TIME L affects delay time.'
+    value: '15'
+    description: '0 = Unlink left and right delay times; 1 = Link left and right delay
+      times - Note: When time linked only TIME L affects delay time.'
     min: 0
-    max: 1
+    max: '1'
   - name: Time L MSB
-    value: 3
+    value: '3'
     description: ''
     min: 0
     max: 127
   - name: Time L LSB
-    value: 35
+    value: '35'
     description: ''
     min: 0
     max: 127
   - name: Time R MSB
-    value: 4
+    value: '4'
     description: ''
     min: 0
     max: 127
   - name: Time R LSB
-    value: 36
+    value: '36'
     description: ''
     min: 0
     max: 127
   - name: Multihead Enable
-    value: 16
-    description: '0 = MULTIHEAD DISABLED; 1 = MULTIHEAD ENABLED - Note: Only available in DIGITAL mode.'
+    value: '16'
+    description: '0 = MULTIHEAD DISABLED; 1 = MULTIHEAD ENABLED - Note: Only available
+      in DIGITAL mode.'
     min: 0
-    max: 1
+    max: '1'
   - name: Multihead Time Left MSB
-    value: 5
+    value: '5'
     description: ''
     min: 0
     max: 127
   - name: Multihead Time Left LSB
-    value: 37
+    value: '37'
     description: ''
     min: 0
     max: 127
   - name: Multihead Time Right MSB
-    value: 6
+    value: '6'
     description: ''
     min: 0
     max: 127
   - name: Multihead Time Right LSB
-    value: 38
+    value: '38'
     description: ''
     min: 0
     max: 127
   - name: Multihead Level Left
-    value: 18
+    value: '18'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Multihead Level Right
-    value: 19
+    value: '19'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Dynamics Threshold
-    value: 29
-    description: The CC value is negative - e.g., sending a value of 120 will result in a threshold of -120.
+    value: '29'
+    description: 'The CC value is negative - e.g., sending a value of 120 will result
+      in a threshold of -120.'
     min: 0
-    max: 120
+    max: '120'
   - name: Dynamics Ratio
-    value: 30
+    value: '30'
     description: ''
-    min: 1
-    max: 10
+    min: '1'
+    max: '10'
   - name: Dynamics Boost
-    value: 31
+    value: '31'
     description: ''
     min: 0
-    max: 18
+    max: '18'
   - name: Dynamics Attack Time MSB
-    value: 8
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: "Dynamics Release Time MSB\t"
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Dynamics Release Time LSB
+    value: '39'
     description: ''
     min: 0
     max: 127
   - name: Routing Mode
-    value: 42
-    description: 0 = STEREO; 1 = CROSS FEEDBACK (XFB) 2 = PING PONG; 3 = MONO; 4 = WET / DRY
+    value: '42'
+    description: '0 = STEREO; 1 = CROSS FEEDBACK (XFB) 2 = PING PONG; 3 = MONO; 4 =
+      WET / DRY'
     min: 0
-    max: 4
+    max: '4'
   - name: Phase Left
-    value: 43
+    value: '43'
     description: ''
     min: 0
-    max: 1
+    max: '1'
   - name: Phase Right
-    value: 44
+    value: '44'
     description: ''
     min: 0
-    max: 1
+    max: '1'
   - name: Dry Left Level
-    value: 45
+    value: '45'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Dry Right Level
-    value: 46
+    value: '46'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Delay Left Level
-    value: 47
+    value: '47'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Delay Right Level
-    value: 48
+    value: '48'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Modulation Rate
-    value: 20
+    value: '20'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Modulation Depth
-    value: 21
+    value: '21'
     description: ''
     min: 0
-    max: 100
+    max: '100'
   - name: Compressor Enable
-    value: 26
+    value: '26'
     description: ''
     min: 0
-    max: 1
+    max: '1'
   - name: Compressor Threshold
-    value: 27
+    value: '27'
     description: ''
     min: 0
-    max: 120
+    max: '120'
   - name: Compressor Boost
-    value: 28
+    value: '28'
     description: ''
     min: 0
-    max: 18
+    max: '18'
   - name: Compressor Gate Enable
-    value: 32
+    value: '32'
     description: ''
     min: 0
-    max: 1
+    max: '1'

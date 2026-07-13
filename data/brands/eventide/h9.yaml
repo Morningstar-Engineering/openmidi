@@ -17,152 +17,177 @@ pc:
   description:
 
 cc:
-  - name: Increment preset / Decrement preset / Increment and load preset / Tap tempo / Performance switch (Middle) / Toggle Tuner / Bypass / Activate / Toggle between Active and Bypass / Left Footswitch (Active) / Expression pedal value / Set parameter 1 / Set parameter 2 / Set parameter 3 / Set parameter 4 / Set parameter 5 / Set parameter 6 / Set parameter 7 / Set parameter 8 / Set parameter 9 / Set parameter 10 / Looper - Record / Looper - Play / Looper - Stop / Looper - Empty / Looper - Flip Direction / Looper - Flip Octave / Input Volume / Output Volume
+  - name: Increment preset
     value: User-defined
     description: All CC messages in H9 are user-defined in the H9 Control App
-    group:
-      - name: Increment preset
-        description: All CC messages in H9 are user-defined in the H9 Control App
-        min: 127
-        max: 127
-        type: System
-      - name: Decrement preset
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Increment and load preset
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Tap tempo
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Performance switch (Middle)
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Toggle Tuner
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Bypass
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Activate
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Toggle between Active and Bypass
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Left Footswitch (Active)
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Expression pedal value
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: Set parameter 1
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 2
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 3
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 4
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 5
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 6
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 7
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 8
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 9
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Set parameter 10
-        description: ''
-        min: 0
-        max: 127
-        type: Parameter
-      - name: Looper - Record
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Looper - Play
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Looper - Stop
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Looper - Empty
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Looper - Flip Direction
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Looper - Flip Octave
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Input Volume
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
-      - name: Output Volume
-        description: ''
-        min: 127
-        max: 127
-        type: Parameter
+    type: System
+    min: 127
+    max: 127
+  - name: Decrement preset
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Increment and load preset
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Tap tempo
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Performance switch (Middle)
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Toggle Tuner
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Bypass
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Activate
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Toggle between Active and Bypass
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Left Footswitch (Active)
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Expression pedal value
+    value: User-defined
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: Set parameter 1
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 2
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 3
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 4
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 5
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 6
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 7
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 8
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 9
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Set parameter 10
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 0
+    max: 127
+  - name: Looper - Record
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Play
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Stop
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Empty
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Flip Direction
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Looper - Flip Octave
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Input Volume
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127
+  - name: Output Volume
+    value: User-defined
+    description: ''
+    type: Parameter
+    min: 127
+    max: 127

@@ -72,104 +72,99 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: 'Channel A Effect Select: Boost / Channel A Effect Select: Drive / Channel A Effect Select: Fuzz'
+  - name: 'Channel A Effect Select: Boost'
     value: 21
     description: ''
-    group:
-      - name: 'Channel A Effect Select: Boost'
-        description: ''
-        min: 1
-        max: 1
-        type: System
-      - name: 'Channel A Effect Select: Drive'
-        description: ''
-        min: 2
-        max: 2
-        type: System
-      - name: 'Channel A Effect Select: Fuzz'
-        description: ''
-        min: 3
-        max: 3
-        type: System
-  - name: A + B Parallel / A > B / B > A
+    type: System
+    min: 1
+    max: 1
+  - name: 'Channel A Effect Select: Drive'
+    value: 21
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: 'Channel A Effect Select: Fuzz'
+    value: 21
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: A + B Parallel
     value: 22
     description: ''
-    group:
-      - name: A + B Parallel
-        description: ''
-        min: 1
-        max: 1
-        type: System
-      - name: 'A > B '
-        description: ''
-        min: 2
-        max: 2
-        type: System
-      - name: B > A
-        description: ''
-        min: 3
-        max: 3
-        type: System
-  - name: 'Channel B Effect Select: Fuzz / Channel B Effect Select: Drive / Channel B Effect Select: Boost'
+    type: System
+    min: 1
+    max: 1
+  - name: 'A > B '
+    value: 22
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: B > A
+    value: 22
+    description: ''
+    type: System
+    min: 3
+    max: 3
+  - name: 'Channel B Effect Select: Fuzz'
     value: 23
     description: ''
-    group:
-      - name: 'Channel B Effect Select: Fuzz'
-        description: ''
-        min: 1
-        max: 1
-        type: System
-      - name: 'Channel B Effect Select: Drive'
-        description: ''
-        min: 2
-        max: 2
-        type: System
-      - name: 'Channel B Effect Select: Boost'
-        description: ''
-        min: 3
-        max: 3
-        type: System
+    type: System
+    min: 1
+    max: 1
+  - name: 'Channel B Effect Select: Drive'
+    value: 23
+    description: ''
+    type: System
+    min: 2
+    max: 2
+  - name: 'Channel B Effect Select: Boost'
+    value: 23
+    description: ''
+    type: System
+    min: 3
+    max: 3
   - name: Exp
     value: 100
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Bypass Switch: Bypass both channels / Bypass Switch: Engage last saved channels'
+  - name: 'Bypass Switch: Bypass both channels'
     value: 102
     description: ''
-    group:
-      - name: 'Bypass Switch: Bypass both channels'
-        description: ''
-        min: 0
-        max: 0
-        type: System
-      - name: 'Bypass Switch: Engage last saved channels'
-        description: ''
-        min: 127
-        max: 127
-        type: System
-  - name: 'Bypass Switch: Bypass both channels / Bypass Switch: Engage both channels / Bypass Switch: Engage Channel A, Bypass Channel B / Bypass Switch: Engage Channel B, Bypass Channel A'
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: Engage last saved channels'
+    value: 102
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Bypass Switch: Bypass both channels'
     value: 103
     description: ''
-    group:
-      - name: 'Bypass Switch: Bypass both channels'
-        description: ''
-        min: 0
-        max: 0
-        type: System
-      - name: 'Bypass Switch: Engage both channels'
-        description: ''
-        min: 127
-        max: 127
-        type: System
-      - name: 'Bypass Switch: Engage Channel A, Bypass Channel B'
-        description: ''
-        min: 85
-        max: 85
-        type: System
-      - name: 'Bypass Switch: Engage Channel B, Bypass Channel A'
-        description: ''
-        min: 45
-        max: 45
-        type: System
+    type: System
+    min: 0
+    max: 0
+  - name: 'Bypass Switch: Engage both channels'
+    value: 103
+    description: ''
+    type: System
+    min: 127
+    max: 127
+  - name: 'Bypass Switch: Engage Channel A, Bypass Channel B'
+    value: 103
+    description: ''
+    type: System
+    min: 85
+    max: 85
+  - name: 'Bypass Switch: Engage Channel B, Bypass Channel A'
+    value: 103
+    description: ''
+    type: System
+    min: 45
+    max: 45

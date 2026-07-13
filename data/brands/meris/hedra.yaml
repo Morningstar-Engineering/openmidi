@@ -25,34 +25,30 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: FX Bypass / FX Enable
+  - name: FX Bypass
     value: 14
     description: ''
-    group:
-      - name: FX Bypass
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: FX Enable
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: 'Speed Enable: Normal / Speed Enable: Bypass'
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Speed Enable: Normal'
     value: 9
     description: ''
-    group:
-      - name: 'Speed Enable: Normal'
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: 'Speed Enable: Bypass'
-        description: ''
-        min: 64
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 63
+  - name: 'Speed Enable: Bypass'
+    value: 9
+    description: ''
+    type: System
+    min: 64
+    max: 127
   - name: Tempo (10ms interval)
     value: 15
     description: ''
@@ -137,55 +133,51 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: 'Delay Mode: Series + Pitch Fork / Delay Mode: Series / Delay Mode: Dual + Cross FDBK / Delay Mode: Dual'
+  - name: 'Delay Mode: Series + Pitch Fork'
     value: 29
     description: ''
-    group:
-      - name: 'Delay Mode: Series + Pitch Fork'
-        description: ''
-        min: 0
-        max: 31
-        type: Parameter
-      - name: 'Delay Mode: Series'
-        description: ''
-        min: 32
-        max: 62
-        type: Parameter
-      - name: 'Delay Mode: Dual + Cross FDBK'
-        description: ''
-        min: 63
-        max: 95
-        type: Parameter
-      - name: 'Delay Mode: Dual'
-        description: ''
-        min: 96
-        max: 127
-        type: Parameter
-  - name: 'Pitch Control Smoothing: Off / Pitch Control Smoothing: On'
+    type: Parameter
+    min: 0
+    max: 31
+  - name: 'Delay Mode: Series'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 32
+    max: 62
+  - name: 'Delay Mode: Dual + Cross FDBK'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 63
+    max: 95
+  - name: 'Delay Mode: Dual'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 96
+    max: 127
+  - name: 'Pitch Control Smoothing: Off'
     value: 30
     description: ''
-    group:
-      - name: 'Pitch Control Smoothing: Off'
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: 'Pitch Control Smoothing: On'
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
-  - name: 'Volume Swell Enable: Off / Volume Swell Enable: On'
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Pitch Control Smoothing: On'
+    value: 30
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: 'Volume Swell Enable: Off'
     value: 31
     description: ''
-    group:
-      - name: 'Volume Swell Enable: Off'
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: 'Volume Swell Enable: On'
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Volume Swell Enable: On'
+    value: 31
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127

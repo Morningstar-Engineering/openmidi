@@ -17,177 +17,172 @@ pc:
   description: ''
 cc:
   - name: Track + (01–99)
-    value: 40
+    value: '40'
     description: Track + (01-99)
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
   - name: Track - (01–99)
-    value: 41
+    value: '41'
     description: Track - (01–99)
-    min: 1
-    max: 1
-  - name: Track Play/Stop / Loop Rec / Loop Dub / Loop Undo / Loop Redo / Loop Clear
-    value: 42
-    description: Track Play/Stop; Loop Recording; Loop Overdub; Loop Undo; Loop Redo; Loop Clear
-    group:
-      - name: Track Play/Stop
-        description: Track Play/Stop
-        min: 0
-        max: 0
-      - name: Loop Rec
-        description: Loop Recording
-        min: 2
-        max: 2
-      - name: Loop Dub
-        description: Loop Overdub
-        min: 3
-        max: 3
-      - name: Loop Undo
-        description: Loop Undo
-        min: 4
-        max: 4
-      - name: Loop Redo
-        description: Loop Redo
-        min: 5
-        max: 5
-      - name: Loop Clear
-        description: Loop Clear
-        min: 6
-        max: 6
+    min: '1'
+    max: '1'
+  - name: Track Play/Stop
+    value: '42'
+    description: Track Play/Stop
+    min: 0
+    max: '0'
+  - name: Loop Rec
+    value: '42'
+    description: Loop Recording
+    min: '2'
+    max: '2'
+  - name: Loop Dub
+    value: '42'
+    description: Loop Overdub
+    min: '3'
+    max: '3'
+  - name: Loop Undo
+    value: '42'
+    description: Loop Undo
+    min: '4'
+    max: '4'
+  - name: Loop Redo
+    value: '42'
+    description: Loop Redo
+    min: '5'
+    max: '5'
+  - name: Loop Clear
+    value: '42'
+    description: Loop Clear
+    min: '6'
+    max: '6'
   - name: Loop Level +
-    value: 43
+    value: '43'
     description: Loop Audio Level +
     min: 0
     max: 127
   - name: Loop Level -
-    value: 44
+    value: '44'
     description: Loop Audio Level -
     min: 0
     max: 127
-  - name: Drum Play/Stop / Tap Tempo
-    value: 45
-    description: Drum Play/Stop; Tap Tempo
-    group:
-      - name: Drum Play/Stop
-        description: Drum Play/Stop
-        min: 0
-        max: 0
-      - name: Tap Tempo
-        description: Tap Tempo
-        min: 1
-        max: 1
+  - name: Drum Play/Stop
+    value: '45'
+    description: Drum Play/Stop
+    min: 0
+    max: '0'
+  - name: Tap Tempo
+    value: '45'
+    description: Tap Tempo
+    min: '1'
+    max: '1'
   - name: Tempo + (40-240)
-    value: 46
+    value: '46'
     description: Tempo + (40-240)
-    min: 1
+    min: '1'
     max: 127
   - name: Tempo - (40-240)
-    value: 47
+    value: '47'
     description: Tempo - (40-240)
-    min: 1
+    min: '1'
     max: 127
-  - name: Beat Switch (4/4, 3/4, Shuffle)
-    value: 48
-    description: Beat Switch (4/4, 3/4, Shuffle)
-    min: 1
-    max: 1
+  - name: 'Beat Switch (4/4, 3/4, Shuffle)'
+    value: '48'
+    description: 'Beat Switch (4/4, 3/4, Shuffle)'
+    min: '1'
+    max: '1'
   - name: Drum Style select +
-    value: 49
+    value: '49'
     description: Drum Style select +
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
   - name: Drum Style select -
-    value: 50
+    value: '50'
     description: Drum Style select -
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
   - name: Drum Level +
-    value: 51
+    value: '51'
     description: Drum Audio Level +
-    min: 0
+    min: '0'
     max: 127
   - name: Drum Level -
-    value: 52
+    value: '52'
     description: Drum Audio Level -
     min: 0
     max: 127
-  - name: Save Data/confirm / Delete Data/confirm
-    value: 53
-    description: Save Data/confirm; Delete Data/confirm
-    group:
-      - name: Save Data/confirm
-        description: Save Data/confirm
-        min: 0
-        max: 0
-      - name: Delete Data/confirm
-        description: Delete Data/confirm
-        min: 1
-        max: 1
+  - name: Save Data/confirm
+    value: '53'
+    description: Save Data/confirm
+    min: 0
+    max: '0'
   - name: Save to memory number +
-    value: 54
+    value: '54'
     description: Save to memory number +
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
   - name: Save to memory number -
-    value: 55
+    value: '55'
     description: Save to memory number -
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
+  - name: Delete Data/confirm
+    value: '53'
+    description: Delete Data/confirm
+    min: '1'
+    max: '1'
   - name: Brightness +
-    value: 56
+    value: '56'
     description: Screen Brightness +
-    min: 1
-    max: 1
+    min: '1'
+    max: '1'
   - name: Brightness -
-    value: 57
+    value: '57'
     description: Screen Brightness -
-    min: 1
-    max: 1
-  - name: 'REC mode: INSTANT / REC mode: DETECTING / REC mode: PRE-BEAT'
-    value: 58
-    description: 'REC mode: INSTANT; REC mode: DETECTING; REC mode: PRE-BEAT'
-    group:
-      - name: 'REC mode: INSTANT'
-        description: 'REC mode: INSTANT'
-        min: 0
-        max: 0
-      - name: 'REC mode: DETECTING'
-        description: 'REC mode: DETECTING'
-        min: 1
-        max: 1
-      - name: 'REC mode: PRE-BEAT'
-        description: 'REC mode: PRE-BEAT'
-        min: 2
-        max: 2
-  - name: 'DUB mode: DUB & PLAYBACK / DUB mode: HIT TWICE TO DUB'
-    value: 59
-    description: 'DUB mode: DUB & PLAYBACK; DUB mode: HIT TWICE TO DUB'
-    group:
-      - name: 'DUB mode: DUB & PLAYBACK'
-        description: 'DUB mode: DUB & PLAYBACK'
-        min: 0
-        max: 0
-      - name: 'DUB mode: HIT TWICE TO DUB'
-        description: 'DUB mode: HIT TWICE TO DUB'
-        min: 1
-        max: 1
-  - name: 'STOP mode: NORMAL / STOP mode: ONE SHOT / STOP mode: FINE STOP / STOP mode: FADE OUT'
-    value: 60
-    description: 'STOP mode: NORMAL; STOP mode: ONE SHOT; STOP mode: FINE STOP; STOP mode: FADE OUT'
-    group:
-      - name: 'STOP mode: NORMAL'
-        description: 'STOP mode: NORMAL'
-        min: 0
-        max: 0
-      - name: 'STOP mode: ONE SHOT'
-        description: 'STOP mode: ONE SHOT'
-        min: 1
-        max: 1
-      - name: 'STOP mode: FINE STOP'
-        description: 'STOP mode: FINE STOP'
-        min: 2
-        max: 2
-      - name: 'STOP mode: FADE OUT'
-        description: 'STOP mode: FADE OUT'
-        min: 3
-        max: 3
+    min: '1'
+    max: '1'
+  - name: 'REC mode: INSTANT'
+    value: '58'
+    description: 'REC mode: INSTANT'
+    min: 0
+    max: '0'
+  - name: 'REC mode: DETECTING'
+    value: '58'
+    description: 'REC mode: DETECTING'
+    min: '1'
+    max: '1'
+  - name: 'REC mode: PRE-BEAT'
+    value: '58'
+    description: 'REC mode: PRE-BEAT'
+    min: '2'
+    max: '2'
+  - name: 'DUB mode: DUB & PLAYBACK'
+    value: '59'
+    description: 'DUB mode: DUB & PLAYBACK'
+    min: 0
+    max: '0'
+  - name: 'DUB mode: HIT TWICE TO DUB'
+    value: '59'
+    description: 'DUB mode: HIT TWICE TO DUB'
+    min: '1'
+    max: '1'
+  - name: 'STOP mode: NORMAL'
+    value: '60'
+    description: 'STOP mode: NORMAL'
+    min: 0
+    max: '0'
+  - name: 'STOP mode: ONE SHOT'
+    value: '60'
+    description: 'STOP mode: ONE SHOT'
+    min: '1'
+    max: '1'
+  - name: 'STOP mode: FINE STOP'
+    value: '60'
+    description: 'STOP mode: FINE STOP'
+    min: '2'
+    max: '2'
+  - name: 'STOP mode: FADE OUT'
+    value: '60'
+    description: 'STOP mode: FADE OUT'
+    min: '3'
+    max: '3'

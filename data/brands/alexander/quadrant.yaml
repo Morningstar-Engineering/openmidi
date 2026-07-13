@@ -25,91 +25,87 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Ramp - Set Speed / Ramp - Trigger
+  - name: Ramp - Set Speed
     value: 97
     description: ''
-    group:
-      - name: Ramp - Set Speed
-        description: ''
-        min: 1
-        max: 8
-        type: Parameter
-      - name: Ramp - Trigger
-        description: ''
-        min: 9
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 1
+    max: 8
+  - name: Ramp - Trigger
+    value: 97
+    description: ''
+    type: Parameter
+    min: 9
+    max: 127
   - name: Expression Pedal
     value: 100
-    description: 0 = Heel Down, 127 = Toe Down
+    description: '0 = Heel Down, 127 = Toe Down'
     type: Parameter
     min: 0
     max: 127
-  - name: Bypass / Engage
+  - name: Bypass
     value: 102
     description: ''
-    group:
-      - name: Bypass
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: Engage
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Engage
+    value: 102
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
   - name: Pedal Knobs - Lower Right Main
     value: 50
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Left Main
     value: 51
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Right Main
     value: 52
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Left Main
     value: 53
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Right Alt
     value: 54
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Left Alt
     value: 55
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Right Alt
     value: 56
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Left Alt
     value: 57
-    description: 0 = Counter ClockWise, 127 = Clockwise
+    description: '0 = Counter ClockWise, 127 = Clockwise'
     type: Parameter
     min: 0
     max: 127
   - name: Mode Select
     value: 59
-    description: Accepts values 0-7 to select modes 1-8
+    description: 'Accepts values 0-7 to select modes 1-8'
     type: System
     min: 0
     max: 7

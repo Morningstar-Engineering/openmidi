@@ -20,122 +20,121 @@ cc:
     min: 0
     max: 127
   - name: Increase Preset
-    value: 1
+    value: '1'
     description: ''
     min: 0
     max: 127
-  - name: Bypass Loop A / Engage Loop A / Toggle Loop A
-    value: 2
+  - name: Bypass Loop A
+    value: '2'
     description: ''
-    group:
-      - name: Bypass Loop A
-        description: ''
-        min: 0
-        max: 41
-      - name: Engage Loop A
-        description: ''
-        min: 85
-        max: 127
-      - name: Toggle Loop A
-        description: ''
-        min: 42
-        max: 84
-  - name: Bypass Loop B / Engage Loop B / Toggle Loop B
-    value: 3
+    min: 0
+    max: '41'
+  - name: Bypass Loop B
+    value: '3'
     description: ''
-    group:
-      - name: Bypass Loop B
-        description: ''
-        min: 0
-        max: 41
-      - name: Engage Loop B
-        description: ''
-        min: 85
-        max: 127
-      - name: Toggle Loop B
-        description: ''
-        min: 42
-        max: 84
-  - name: Bypass Loop C / Engage Loop C / Toggle Loop C
-    value: 4
+    min: 0
+    max: '41'
+  - name: Bypass Loop C
+    value: '4'
     description: ''
-    group:
-      - name: Bypass Loop C
-        description: ''
-        min: 0
-        max: 41
-      - name: Engage Loop C
-        description: ''
-        min: 85
-        max: 127
-      - name: Toggle Loop C
-        description: ''
-        min: 42
-        max: 84
-  - name: Bypass Loop D / Engage Loop D / Toggle Loop D
-    value: 5
+    min: 0
+    max: '41'
+  - name: Bypass Loop D
+    value: '5'
     description: ''
-    group:
-      - name: Bypass Loop D
-        description: ''
-        min: 0
-        max: 41
-      - name: Engage Loop D
-        description: ''
-        min: 85
-        max: 127
-      - name: Toggle Loop D
-        description: ''
-        min: 42
-        max: 84
-  - name: Bypass Loop E / Engage Loop E / Toggle Loop E
-    value: 6
+    min: 0
+    max: '41'
+  - name: Bypass Loop E
+    value: '6'
     description: ''
-    group:
-      - name: Bypass Loop E
-        description: ''
-        min: 0
-        max: 41
-      - name: Engage Loop E
-        description: ''
-        min: 85
-        max: 127
-      - name: Toggle Loop E
-        description: ''
-        min: 42
-        max: 84
+    min: 0
+    max: '41'
+  - name: Engage Loop A
+    value: '2'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop B
+    value: '3'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop C
+    value: '4'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop D
+    value: '5'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Engage Loop E
+    value: '6'
+    description: ''
+    min: '85'
+    max: 127
+  - name: Toggle Loop A
+    value: '2'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop B
+    value: '3'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop C
+    value: '4'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop D
+    value: '5'
+    description: ''
+    min: '42'
+    max: '84'
+  - name: Toggle Loop E
+    value: '6'
+    description: ''
+    min: '42'
+    max: '84'
   - name: Set Loop Order
-    value: 10
-    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder Table'
+    value: '10'
+    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder
+      Table'
     min: 0
     max: 127
   - name: Set Loop Order but do not update connection until CC#12 is sent
-    value: 11
-    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder Table'
+    value: '11'
+    description: 'Refer to Loop Order Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-LoopOrder
+      Table'
     min: 0
     max: 127
   - name: Set Loop Bypass
-    value: 12
+    value: '12'
     description: 'Refer to Binary Table here: https://manuals.morningstar.io/ml5r/ml5r-user-manual#ML5RUserManual-BinaryTable'
     min: 0
     max: 127
   - name: Loop Bypass Persist
-    value: 20
-    description: '0-63: Off, 64-127: On - Keep bypass states of loops unchanged when you switch presets on the ML5R. Setting is only temporary and will be disabled after a power cycle.'
+    value: '20'
+    description: '0-63: Off, 64-127: On - Keep bypass states of loops unchanged when
+      you switch presets on the ML5R. Setting is only temporary and will be disabled
+      after a power cycle.'
     min: 0
     max: 127
   - name: Master Mute
-    value: 21
+    value: '21'
     description: '64-127: Mute, 0-63: Unmute'
     min: 0
     max: 127
   - name: Show Loop Order
-    value: 126
+    value: '126'
     description: ''
     min: 0
     max: 127
   - name: Save Preset with current settings
-    value: 127
+    value: '127'
     description: There will be a 3-second timeout after saving.
     min: 0
     max: 127

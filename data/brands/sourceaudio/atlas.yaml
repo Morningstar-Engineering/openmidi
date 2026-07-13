@@ -16,157 +16,157 @@ pc:
   description: ''
 cc:
   - name: Ratio A
-    value: 1
+    value: '1'
     description: ''
     min: 0
     max: 127
   - name: Threshold A
-    value: 2
+    value: '2'
     description: ''
     min: 0
     max: 127
   - name: Attack A
-    value: 3
+    value: '3'
     description: ''
     min: 0
     max: 127
   - name: Release A
-    value: 4
+    value: '4'
     description: ''
     min: 0
     max: 127
   - name: Output Gain A
-    value: 5
+    value: '5'
     description: ''
     min: 0
     max: 127
   - name: Blend A
-    value: 6
+    value: '6'
     description: ''
     min: 0
     max: 127
   - name: Side Chain High Pass A
-    value: 7
+    value: '7'
     description: ''
     min: 0
     max: 127
   - name: Ratio B
-    value: 8
+    value: '8'
     description: ''
     min: 0
     max: 127
   - name: Threshold B
-    value: 9
+    value: '9'
     description: ''
     min: 0
     max: 127
   - name: Attack B
-    value: 10
+    value: '10'
     description: ''
     min: 0
     max: 127
   - name: Release B
-    value: 11
+    value: '11'
     description: ''
     min: 0
     max: 127
   - name: Output Gain B
-    value: 12
+    value: '12'
     description: ''
     min: 0
     max: 127
   - name: Blend B
-    value: 13
+    value: '13'
     description: ''
     min: 0
     max: 127
   - name: Side Chain High Pass B
-    value: 14
+    value: '14'
     description: ''
     min: 0
     max: 127
   - name: Output Crossfade
-    value: 15
+    value: '15'
     description: ''
     min: 0
     max: 127
   - name: Input 1 Trim
-    value: 16
+    value: '16'
     description: ''
     min: 0
     max: 127
   - name: Input 2 Trim
-    value: 17
+    value: '17'
     description: ''
     min: 0
     max: 127
   - name: 'Bass '
-    value: 18
+    value: '18'
     description: ''
     min: 0
     max: 127
   - name: Bass Frequency
-    value: 19
+    value: '19'
     description: ''
     min: 0
     max: 127
   - name: Mid
-    value: 20
+    value: '20'
     description: ''
     min: 0
     max: 127
   - name: Mid Frequency
-    value: 21
+    value: '21'
     description: ''
     min: 0
     max: 127
   - name: Treble
-    value: 22
+    value: '22'
     description: ''
     min: 0
     max: 127
   - name: Treble Frequency
-    value: 23
+    value: '23'
     description: ''
     min: 0
     max: 127
   - name: Noise Gate Threshold
-    value: 24
+    value: '24'
     description: ''
     min: 0
     max: 127
   - name: Engage/Bypass
-    value: 25
+    value: '25'
     description: ''
     min: 0
     max: 127
   - name: Preset Recall(OFF)
-    value: 26
+    value: '26'
     description: ''
     min: 0
     max: 127
   - name: Preset Recall(ON)
-    value: 27
+    value: '27'
     description: ''
     min: 0
     max: 127
   - name: Engage/Bypass Toggle
-    value: 28
+    value: '28'
     description: ''
     min: 0
     max: 127
   - name: Increment Preset
-    value: 29
+    value: '29'
     description: ''
     min: 0
     max: 127
   - name: Decrement Preset
-    value: 30
+    value: '30'
     description: ''
     min: 0
     max: 127
   - name: Remote Expression Pedal
-    value: 31
+    value: '31'
     description: ''
     min: 0
     max: 127

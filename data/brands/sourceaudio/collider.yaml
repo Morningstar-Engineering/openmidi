@@ -11,71 +11,79 @@ pc:
   description: |+
     The 128 user presets on the Collider can be recalled via program change messages. Presets 1 to 128 are mapped to MIDI Program Change messages 1 to 128. It is possible to save presets with the Collider bypassed. This means a preset can be recalled without actually engaging one or both of the effects. The effect can then be engaged either by pressing the footswitches or by sending the proper MIDI Continuous Control message.
 
-cc:
-  - name: Delay (A) Engine - Digital Delay / Delay (A) Engine - Analog Delay / Delay (A) Engine - Tape Delay / Delay (A) Engine - Reverse Delay / Delay (A) Engine - Oil Can Delay / Delay (A) Engine - Room Reverb / Delay (A) Engine - Hall Reverb / Delay (A) Engine - True Spring / Delay (A) Engine - Plate / Delay (A) Engine - Shimmer / Delay (A) Engine - E-Dome / Delay (A) Engine - Swell
+cc: 
+  - name: Delay (A) Engine - Digital Delay
     value: 1
-    description: Selects and loads Digital Delay engine into A; Selects and loads Analog Delay engine into A; Selects and loads Tape Delay engine into A; Selects and loads Reverse Delay engine into A; Selects and loads Oil Can Delay engine into A; Selects and loads Room Reverb engine into A; Selects and loads Hall Reverb engine into A; Selects and loads True Spring engine into A; Selects and loads Plate engine into A; Selects and loads Shimmer engine into A; Selects and loads E-Dome engine into A; Selects and loads Swell engine into A
-    group:
-      - name: Delay (A) Engine - Digital Delay
-        description: Selects and loads Digital Delay engine into A
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Delay (A) Engine - Analog Delay
-        description: Selects and loads Analog Delay engine into A
-        min: 1
-        max: 1
-        type: Parameter
-      - name: Delay (A) Engine - Tape Delay
-        description: Selects and loads Tape Delay engine into A
-        min: 2
-        max: 2
-        type: Parameter
-      - name: Delay (A) Engine - Reverse Delay
-        description: Selects and loads Reverse Delay engine into A
-        min: 3
-        max: 3
-        type: Parameter
-      - name: Delay (A) Engine - Oil Can Delay
-        description: Selects and loads Oil Can Delay engine into A
-        min: 4
-        max: 4
-        type: Parameter
-      - name: Delay (A) Engine - Room Reverb
-        description: Selects and loads Room Reverb engine into A
-        min: 5
-        max: 5
-        type: Parameter
-      - name: Delay (A) Engine - Hall Reverb
-        description: Selects and loads Hall Reverb engine into A
-        min: 6
-        max: 6
-        type: Parameter
-      - name: Delay (A) Engine - True Spring
-        description: Selects and loads True Spring engine into A
-        min: 7
-        max: 7
-        type: Parameter
-      - name: Delay (A) Engine - Plate
-        description: Selects and loads Plate engine into A
-        min: 8
-        max: 8
-        type: Parameter
-      - name: Delay (A) Engine - Shimmer
-        description: Selects and loads Shimmer engine into A
-        min: 9
-        max: 9
-        type: Parameter
-      - name: Delay (A) Engine - E-Dome
-        description: Selects and loads E-Dome engine into A
-        min: 10
-        max: 10
-        type: Parameter
-      - name: Delay (A) Engine - Swell
-        description: Selects and loads Swell engine into A
-        min: 11
-        max: 11
-        type: Parameter
+    description: Selects and loads Digital Delay engine into A
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Delay (A) Engine - Analog Delay
+    value: 1
+    description: Selects and loads Analog Delay engine into A
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Delay (A) Engine - Tape Delay
+    value: 1
+    description: Selects and loads Tape Delay engine into A
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Delay (A) Engine - Reverse Delay
+    value: 1
+    description: Selects and loads Reverse Delay engine into A
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Delay (A) Engine - Oil Can Delay
+    value: 1
+    description: Selects and loads Oil Can Delay engine into A
+    type: Parameter
+    min: 4
+    max: 4
+  - name: Delay (A) Engine - Room Reverb
+    value: 1
+    description: Selects and loads Room Reverb engine into A
+    type: Parameter
+    min: 5
+    max: 5
+  - name: Delay (A) Engine - Hall Reverb
+    value: 1
+    description: Selects and loads Hall Reverb engine into A
+    type: Parameter
+    min: 6
+    max: 6
+  - name: Delay (A) Engine - True Spring
+    value: 1
+    description: Selects and loads True Spring engine into A
+    type: Parameter
+    min: 7
+    max: 7
+  - name: Delay (A) Engine - Plate 
+    value: 1
+    description: Selects and loads Plate engine into A
+    type: Parameter
+    min: 8
+    max: 8
+  - name: Delay (A) Engine - Shimmer
+    value: 1
+    description: Selects and loads Shimmer engine into A
+    type: Parameter
+    min: 9
+    max: 9
+  - name: Delay (A) Engine - E-Dome 
+    value: 1
+    description: Selects and loads E-Dome engine into A
+    type: Parameter
+    min: 10
+    max: 10
+  - name: Delay (A) Engine - Swell 
+    value: 1
+    description: Selects and loads Swell engine into A
+    type: Parameter
+    min: 11
+    max: 11
   - name: Delay (A) Time
     value: 2
     description: Sets min and max delay times
@@ -118,118 +126,120 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Delay (A) Tap Tempo Division - Quarter / Delay (A) Tap Tempo Division - Dotted Eighth / Delay (A) Tap Tempo Division - Golden Ratio / Delay (A) Tap Tempo Division - Eighth / Delay (A) Tap Tempo Division - Triplet / Delay (A) Tap Tempo Division - Sixteenth
+  - name: Delay (A) Tap Tempo Division - Quarter
     value: 9
-    description: Selects the tap tempo beat division - Quarter; Selects the tap tempo beat division - Dotted Eighth; Selects the tap tempo beat division - Golden Ratio; Selects the tap tempo beat division - Eighth; Selects the tap tempo beat division - Triplet; Selects the tap tempo beat division - Sixteenth
-    group:
-      - name: Delay (A) Tap Tempo Division - Quarter
-        description: Selects the tap tempo beat division - Quarter
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Delay (A) Tap Tempo Division - Dotted Eighth
-        description: Selects the tap tempo beat division - Dotted Eighth
-        min: 1
-        max: 1
-        type: Parameter
-      - name: Delay (A) Tap Tempo Division - Golden Ratio
-        description: Selects the tap tempo beat division - Golden Ratio
-        min: 2
-        max: 2
-        type: Parameter
-      - name: Delay (A) Tap Tempo Division - Eighth
-        description: Selects the tap tempo beat division - Eighth
-        min: 3
-        max: 3
-        type: Parameter
-      - name: Delay (A) Tap Tempo Division - Triplet
-        description: Selects the tap tempo beat division - Triplet
-        min: 4
-        max: 4
-        type: Parameter
-      - name: Delay (A) Tap Tempo Division - Sixteenth
-        description: Selects the tap tempo beat division - Sixteenth
-        min: 5
-        max: 5
-        type: Parameter
-  - name: Delay (A) Stereo Division / Reverb (B) (A) Stereo Division
+    description: Selects the tap tempo beat division - Quarter
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Delay (A) Tap Tempo Division - Dotted Eighth
+    value: 9
+    description: Selects the tap tempo beat division - Dotted Eighth
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Delay (A) Tap Tempo Division - Golden Ratio
+    value: 9
+    description: Selects the tap tempo beat division - Golden Ratio
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Delay (A) Tap Tempo Division - Eighth
+    value: 9
+    description: Selects the tap tempo beat division - Eighth
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Delay (A) Tap Tempo Division - Triplet
+    value: 9
+    description: Selects the tap tempo beat division - Triplet
+    type: Parameter
+    min: 4
+    max: 4
+  - name: Delay (A) Tap Tempo Division - Sixteenth
+    value: 9
+    description: Selects the tap tempo beat division - Sixteenth
+    type: Parameter
+    min: 5
+    max: 5
+  - name: Delay (A) Stereo Division
     value: 24
     description: Sets the stereo division ratio
-    group:
-      - name: Delay (A) Stereo Division
-        description: Sets the stereo division ratio
-        min: 0
-        max: 5
-        type: Parameter
-      - name: Reverb (B) (A) Stereo Division
-        description: Sets the stereo division ratio
-        min: 0
-        max: 5
-        type: Parameter
-  - name: Reverb (B) Engine - Digital Delay / Reverb (B) Engine - Analog Delay / Reverb (B) Engine - Tape Delay / Reverb (B) Engine - Reverse Delay / Reverb (B) Engine - Oil Can Delay / Reverb (B) Engine - Room Reverb / Reverb (B) Engine - Hall Reverb / Reverb (B) Engine - True Spring Reverb / Reverb (B) Engine - Plate Reverb / Reverb (B) Engine - Shimmer Reverb / Reverb (B) Engine - E-Dome Reverb / Reverb (B) Engine - Swell Reverb
+    type: Parameter
+    min: 0
+    max: 5
+  - name: Reverb (B) Engine - Digital Delay
     value: 15
-    description: Selects and loads Digital Delay engine into B; Selects and loads Analog Delay engine into B; Selects and loads Tape Delay engine into B; Selects and loads Reverse Delay engine into B; Selects and loads Oil Can Delay engine into B; Selects and loads Room Reverb engine into B; Selects and loads Hall Reverb engine into B; Selects and loads True Spring Reverb engine into B; Selects and loads Plate Reverb engine into B; Selects and loads Shimmer Reverb engine into B; Selects and loads E-Dome Reverb engine into B; Selects and loads Swell Reverb engine into B
-    group:
-      - name: Reverb (B) Engine - Digital Delay
-        description: Selects and loads Digital Delay engine into B
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Reverb (B) Engine - Analog Delay
-        description: Selects and loads Analog Delay engine into B
-        min: 1
-        max: 1
-        type: Parameter
-      - name: Reverb (B) Engine - Tape Delay
-        description: Selects and loads Tape Delay engine into B
-        min: 2
-        max: 2
-        type: Parameter
-      - name: Reverb (B) Engine - Reverse Delay
-        description: Selects and loads Reverse Delay engine into B
-        min: 3
-        max: 3
-        type: Parameter
-      - name: Reverb (B) Engine - Oil Can Delay
-        description: Selects and loads Oil Can Delay engine into B
-        min: 4
-        max: 4
-        type: Parameter
-      - name: Reverb (B) Engine - Room Reverb
-        description: Selects and loads Room Reverb engine into B
-        min: 5
-        max: 5
-        type: Parameter
-      - name: Reverb (B) Engine - Hall Reverb
-        description: Selects and loads Hall Reverb engine into B
-        min: 6
-        max: 6
-        type: Parameter
-      - name: Reverb (B) Engine - True Spring Reverb
-        description: Selects and loads True Spring Reverb engine into B
-        min: 7
-        max: 7
-        type: Parameter
-      - name: Reverb (B) Engine - Plate Reverb
-        description: Selects and loads Plate Reverb engine into B
-        min: 8
-        max: 8
-        type: Parameter
-      - name: Reverb (B) Engine - Shimmer Reverb
-        description: Selects and loads Shimmer Reverb engine into B
-        min: 9
-        max: 9
-        type: Parameter
-      - name: Reverb (B) Engine - E-Dome Reverb
-        description: Selects and loads E-Dome Reverb engine into B
-        min: 10
-        max: 10
-        type: Parameter
-      - name: Reverb (B) Engine - Swell Reverb
-        description: Selects and loads Swell Reverb engine into B
-        min: 11
-        max: 11
-        type: Parameter
+    description: Selects and loads Digital Delay engine into B
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Reverb (B) Engine - Analog Delay
+    value: 15
+    description: Selects and loads Analog Delay engine into B
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Reverb (B) Engine - Tape Delay
+    value: 15
+    description: Selects and loads Tape Delay engine into B
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Reverb (B) Engine - Reverse Delay
+    value: 15
+    description: Selects and loads Reverse Delay engine into B
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Reverb (B) Engine - Oil Can Delay 
+    value: 15
+    description: Selects and loads Oil Can Delay engine into B
+    type: Parameter
+    min: 4
+    max: 4
+  - name: Reverb (B) Engine - Room Reverb
+    value: 15
+    description: Selects and loads Room Reverb engine into B
+    type: Parameter
+    min: 5
+    max: 5
+  - name: Reverb (B) Engine - Hall Reverb
+    value: 15
+    description: Selects and loads Hall Reverb engine into B
+    type: Parameter
+    min: 6
+    max: 6
+  - name: Reverb (B) Engine - True Spring Reverb
+    value: 15
+    description: Selects and loads True Spring Reverb engine into B
+    type: Parameter
+    min: 7
+    max: 7
+  - name: Reverb (B) Engine - Plate Reverb
+    value: 15
+    description: Selects and loads Plate Reverb engine into B
+    type: Parameter
+    min: 8
+    max: 8
+  - name: Reverb (B) Engine - Shimmer Reverb
+    value: 15
+    description: Selects and loads Shimmer Reverb engine into B
+    type: Parameter
+    min: 9
+    max: 9
+  - name: Reverb (B) Engine - E-Dome Reverb
+    value: 15
+    description: Selects and loads E-Dome Reverb engine into B
+    type: Parameter
+    min: 10
+    max: 10
+  - name: Reverb (B) Engine - Swell Reverb
+    value: 15
+    description: Selects and loads Swell Reverb engine into B
+    type: Parameter
+    min: 11
+    max: 11
   - name: Reverb (B) Time
     value: 16
     description: Sets Pre Delay of the Reverb
@@ -272,40 +282,48 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Reverb (B) Tap Tempo Division - Quarter / Reverb (B) Tap Tempo Division - Dotted Eighth / Reverb (B) Tap Tempo Division - Golden Ratio / Reverb (B) Tap Tempo Division - Eighth / Reverb (B) Tap Tempo Division - Triplet / Reverb (B) Tap Tempo Division - Sixteenth
+  - name: Reverb (B) Tap Tempo Division - Quarter
     value: 23
-    description: Selects the tap tempo beat division - Quarter; Selects the tap tempo beat division - Dotted Eighth; Selects the tap tempo beat division - Golden Ratio; Selects the tap tempo beat division - Eighth; Selects the tap tempo beat division - Triplet; Selects the tap tempo beat division - Sixteenth
-    group:
-      - name: Reverb (B) Tap Tempo Division - Quarter
-        description: Selects the tap tempo beat division - Quarter
-        min: 0
-        max: 0
-        type: Parameter
-      - name: Reverb (B) Tap Tempo Division - Dotted Eighth
-        description: Selects the tap tempo beat division - Dotted Eighth
-        min: 1
-        max: 1
-        type: Parameter
-      - name: Reverb (B) Tap Tempo Division - Golden Ratio
-        description: Selects the tap tempo beat division - Golden Ratio
-        min: 2
-        max: 2
-        type: Parameter
-      - name: Reverb (B) Tap Tempo Division - Eighth
-        description: Selects the tap tempo beat division - Eighth
-        min: 3
-        max: 3
-        type: Parameter
-      - name: Reverb (B) Tap Tempo Division - Triplet
-        description: Selects the tap tempo beat division - Triplet
-        min: 4
-        max: 4
-        type: Parameter
-      - name: Reverb (B) Tap Tempo Division - Sixteenth
-        description: Selects the tap tempo beat division - Sixteenth
-        min: 5
-        max: 5
-        type: Parameter
+    description: Selects the tap tempo beat division - Quarter
+    type: Parameter
+    min: 0
+    max: 0
+  - name: Reverb (B) Tap Tempo Division - Dotted Eighth
+    value: 23
+    description: Selects the tap tempo beat division - Dotted Eighth
+    type: Parameter
+    min: 1
+    max: 1
+  - name: Reverb (B) Tap Tempo Division - Golden Ratio
+    value: 23
+    description: Selects the tap tempo beat division - Golden Ratio
+    type: Parameter
+    min: 2
+    max: 2
+  - name: Reverb (B) Tap Tempo Division - Eighth
+    value: 23
+    description: Selects the tap tempo beat division - Eighth
+    type: Parameter
+    min: 3
+    max: 3
+  - name: Reverb (B) Tap Tempo Division - Triplet
+    value: 23
+    description: Selects the tap tempo beat division - Triplet
+    type: Parameter
+    min: 4
+    max: 4
+  - name: Reverb (B) Tap Tempo Division - Sixteenth
+    value: 23
+    description: Selects the tap tempo beat division - Sixteenth
+    type: Parameter
+    min: 5
+    max: 5
+  - name: Reverb (B) (A) Stereo Division
+    value: 24
+    description: Sets the stereo division ratio
+    type: Parameter
+    min: 0
+    max: 5
   - name: Preset Decrement
     value: 80
     description: ''
@@ -336,40 +354,36 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Delay (A) Bypass / Delay (A) Engage
+  - name: Delay (A) Bypass
     value: 101
     description: Bypasses Engine A
-    group:
-      - name: Delay (A) Bypass
-        description: Bypasses Engine A
-        min: 0
-        max: 65
-        type: System
-      - name: Delay (A) Engage
-        description: Bypasses Engine A
-        min: 65
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 65
+  - name: Delay (A) Engage
+    value: 101
+    description: Bypasses Engine A
+    type: System
+    min: 65
+    max: 127
   - name: Toggle Delay (A) Bypass/Engage
     value: 102
     description: ''
     type: System
     min: 0
     max: 127
-  - name: Reverb (B) Bypass / Reverb (B) Engage
+  - name: Reverb (B) Bypass
     value: 103
     description: Bypasses Engine B
-    group:
-      - name: Reverb (B) Bypass
-        description: Bypasses Engine B
-        min: 0
-        max: 65
-        type: System
-      - name: Reverb (B) Engage
-        description: Bypasses Engine B
-        min: 65
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 65
+  - name: Reverb (B) Engage
+    value: 103
+    description: Bypasses Engine B
+    type: System
+    min: 65
+    max: 127
   - name: Toggle Reverb (B) Bypass/Engage
     value: 104
     description: ''
@@ -390,17 +404,18 @@ cc:
     max: 127
   - name: Recall Preset Reverb (B) Engaged
     value: 107
-    description: 'Recalls any preset with Reverb (B) Engaged
-
-      FYI - This is different from the manual. There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.'
+    description: |-
+      Recalls any preset with Reverb (B) Engaged
+      FYI - This is different from the manual. There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.
     type: System
     min: 0
     max: 127
   - name: Recall Preset Both Engaged
     value: 108
-    description: 'Recalls any preset with Delay (A) & Reverb (B) Engaged.
-
-      FYI - This is different from the manual. There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.'
+    description: |-
+      Recalls any preset with Delay (A) & Reverb (B) Engaged.
+      FYI - This is different from the manual. There are reports stating the CC#107 and CC#108 are wrong in the manual and should be swapped.
     type: System
     min: 0
     max: 127
+  

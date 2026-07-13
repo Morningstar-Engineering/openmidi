@@ -34,572 +34,538 @@ pc:
     matching the pedal's current settings.
 
 cc:
-  - name: Bypass Right Channel - Off / Bypass Right Channel - On
-    value: 102
+  - name: Bypass Right Channel - Off
+    value: '102'
     description: ''
-    group:
-      - name: Bypass Right Channel - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Bypass Right Channel - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Bypass Left Channel - Off / Bypass Left Channel - On
-    value: 103
+    min: 0
+    max: 0
+  - name: Bypass Right Channel - On
+    value: '102'
     description: ''
-    group:
-      - name: Bypass Left Channel - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Bypass Left Channel - On
-        description: ''
-        min: 127
-        max: 127
+    min: 127
+    max: 127
+  - name: Bypass Left Channel - Off
+    value: '103'
+    description: ''
+    min: 0
+    max: 0
+  - name: Bypass Left Channel - On
+    value: '103'
+    description: ''
+    min: 127
+    max: 127
   - name: Knobs - Mix
-    value: 15
+    value: '15'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Blend
-    value: 18
+    value: '18'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Left Time
-    value: 14
+    value: '14'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Left Modify
-    value: 17
+    value: '17'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Left Alt (Hidden Option)
-    value: 24
+    value: '24'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Right Time
-    value: 16
+    value: '16'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Right Modify
-    value: 19
+    value: '19'
     description: ''
     min: 0
     max: 127
   - name: Knobs - Right Alt (Hidden Option)
-    value: 26
+    value: '26'
     description: ''
     min: 0
     max: 127
-  - name: Toggles - Left Effects Mode 1 / Toggles - Left Effects Mode 2 / Toggles - Left Effects Mode 3
-    value: 21
+  - name: Toggles - Left Effects Mode 1
+    value: '21'
     description: ''
-    group:
-      - name: Toggles - Left Effects Mode 1
-        description: ''
-        min: 1
-        max: 1
-      - name: Toggles - Left Effects Mode 2
-        description: ''
-        min: 2
-        max: 2
-      - name: Toggles - Left Effects Mode 3
-        description: ''
-        min: 3
-        max: 3
-  - name: Toggles - Right Effects Mode 4 / Toggles - Right Effects Mode 5 / Toggles - Right Effects Mode 6
-    value: 23
+    min: 1
+    max: 1
+  - name: Toggles - Left Effects Mode 2
+    value: '21'
     description: ''
-    group:
-      - name: Toggles - Right Effects Mode 4
-        description: ''
-        min: 1
-        max: 1
-      - name: Toggles - Right Effects Mode 5
-        description: ''
-        min: 2
-        max: 2
-      - name: Toggles - Right Effects Mode 6
-        description: ''
-        min: 3
-        max: 3
-  - name: Toggles - Routing - L > R / Toggles - Routing - L + R / Toggles - Routing - L < R
-    value: 22
+    min: 2
+    max: 2
+  - name: Toggles - Left Effects Mode 3
+    value: '21'
     description: ''
-    group:
-      - name: Toggles - Routing - L > R
-        description: ''
-        min: 1
-        max: 1
-      - name: Toggles - Routing - L + R
-        description: ''
-        min: 2
-        max: 2
-      - name: Toggles - Routing - L < R
-        description: ''
-        min: 3
-        max: 3
-  - name: Toggles - Spread Left Only / Toggles - Spread Both / Toggles - Spread Right Only
-    value: 32
+    min: 3
+    max: 3
+  - name: Toggles - Right Effects Mode 4
+    value: '23'
     description: ''
-    group:
-      - name: Toggles - Spread Left Only
-        description: ''
-        min: 1
-        max: 1
-      - name: Toggles - Spread Both
-        description: ''
-        min: 2
-        max: 2
-      - name: Toggles - Spread Right Only
-        description: ''
-        min: 3
-        max: 3
-  - name: Alt Menu - Exit / Alt Menu - Enter
-    value: 104
+    min: 1
+    max: 1
+  - name: Toggles - Right Effects Mode 5
+    value: '23'
     description: ''
-    group:
-      - name: Alt Menu - Exit
-        description: ''
-        min: 0
-        max: 0
-      - name: Alt Menu - Enter
-        description: ''
-        min: 127
-        max: 127
-  - name: Hold Left Channel - Off / Hold Left Channel - On
-    value: 105
+    min: 2
+    max: 2
+  - name: Toggles - Right Effects Mode 6
+    value: '23'
     description: ''
-    group:
-      - name: Hold Left Channel - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Hold Left Channel - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Hold Right Channel - Off / Hold Right Channel - On
-    value: 106
+    min: 3
+    max: 3
+  - name: Toggles - Routing - L > R
+    value: '22'
     description: ''
-    group:
-      - name: Hold Right Channel - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Hold Right Channel - On
-        description: ''
-        min: 127
-        max: 127
+    min: 1
+    max: 1
+  - name: Toggles - Routing - L + R
+    value: '22'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Routing - L < R
+    value: '22'
+    description: ''
+    min: 3
+    max: 3
+  - name: Toggles - Spread Left Only
+    value: '32'
+    description: ''
+    min: 1
+    max: 1
+  - name: Toggles - Spread Both
+    value: '32'
+    description: ''
+    min: 2
+    max: 2
+  - name: Toggles - Spread Right Only
+    value: '32'
+    description: ''
+    min: 3
+    max: 3
+  - name: Alt Menu - Exit
+    value: '104'
+    description: ''
+    min: 0
+    max: 0
+  - name: Alt Menu - Enter
+    value: '104'
+    description: ''
+    min: 127
+    max: 127
+  - name: Hold Left Channel - Off
+    value: '105'
+    description: ''
+    min: 0
+    max: 0
+  - name: Hold Left Channel - On
+    value: '105'
+    description: ''
+    min: 127
+    max: 127
+  - name: Hold Right Channel - Off
+    value: '106'
+    description: ''
+    min: 0
+    max: 0
+  - name: Hold Right Channel - On
+    value: '106'
+    description: ''
+    min: 127
+    max: 127
   - name: Hidden Options - Ramp Speed
-    value: 20
+    value: '20'
     description: ''
     min: 0
     max: 127
   - name: Hidden Options - Spill
-    value: 25
+    value: '25'
     description: ''
     min: 0
     max: 127
   - name: Hidden Options - Glue
-    value: 28
+    value: '28'
     description: ''
     min: 0
     max: 127
   - name: Hidden Options - Left EQ
-    value: 27
+    value: '27'
     description: ''
     min: 0
     max: 127
   - name: Hidden Options - Right EQ
-    value: 29
+    value: '29'
     description: ''
     min: 0
     max: 127
   - name: Hidden Options - Master Wet Volume
-    value: 30
+    value: '30'
     description: ''
     min: 0
     max: 127
-  - name: Dip Switches - Left Time - Off / Dip Switches - Left Time - On
-    value: 61
+  - name: Dip Switches - Left Time - Off
+    value: '61'
     description: ''
-    group:
-      - name: Dip Switches - Left Time - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Left Time - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Left Modify - Off / Dip Switches - Left Modify - On
-    value: 62
+    min: 0
+    max: 0
+  - name: Dip Switches - Left Time - On
+    value: '61'
     description: ''
-    group:
-      - name: Dip Switches - Left Modify - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Left Modify - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Blend - Off / Dip Switches - Blend - On
-    value: 63
+    min: 127
+    max: 127
+  - name: Dip Switches - Left Modify - Off
+    value: '62'
     description: ''
-    group:
-      - name: Dip Switches - Blend - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Blend - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Right Modify - Off / Dip Switches - Right Modify - On
-    value: 64
+    min: 0
+    max: 0
+  - name: Dip Switches - Left Modify - On
+    value: '62'
     description: ''
-    group:
-      - name: Dip Switches - Right Modify - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Right Modify - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Right Time - Off / Dip Switches - Right Time - On
-    value: 65
+    min: 127
+    max: 127
+  - name: Dip Switches - Blend - Off
+    value: '63'
     description: ''
-    group:
-      - name: Dip Switches - Right Time - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Right Time - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Bounce - Off / Dip Switches - Bounce - On
-    value: 66
+    min: 0
+    max: 0
+  - name: Dip Switches - Blend - On
+    value: '63'
     description: ''
-    group:
-      - name: Dip Switches - Bounce - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Bounce - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Sweep - Bottom / Dip Switches - Sweep - Top
-    value: 67
+    min: 127
+    max: 127
+  - name: Dip Switches - Right Modify - Off
+    value: '64'
     description: ''
-    group:
-      - name: Dip Switches - Sweep - Bottom
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Sweep - Top
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Polarity - Forward / Dip Switches - Polarity - Reverse
-    value: 68
+    min: 0
+    max: 0
+  - name: Dip Switches - Right Modify - On
+    value: '64'
     description: ''
-    group:
-      - name: Dip Switches - Polarity - Forward
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Polarity - Reverse
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - MISO - Off / Dip Switches - MISO - On
-    value: 71
+    min: 127
+    max: 127
+  - name: Dip Switches - Right Time - Off
+    value: '65'
     description: ''
-    group:
-      - name: Dip Switches - MISO - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - MISO - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Spread - Off / Dip Switches - Spread - On
-    value: 72
+    min: 0
+    max: 0
+  - name: Dip Switches - Right Time - On
+    value: '65'
     description: ''
-    group:
-      - name: Dip Switches - Spread - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Spread - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Latch - Off / Dip Switches - Latch - On
-    value: 73
+    min: 127
+    max: 127
+  - name: Dip Switches - Bounce - Off
+    value: '66'
     description: ''
-    group:
-      - name: Dip Switches - Latch - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Latch - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Left Swap - Off / Dip Switches - Left Swap - On
-    value: 74
+    min: 0
+    max: 0
+  - name: Dip Switches - Bounce - On
+    value: '66'
     description: ''
-    group:
-      - name: Dip Switches - Left Swap - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Left Swap - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Right Swap - Off / Dip Switches - Right Swap - On
-    value: 75
+    min: 127
+    max: 127
+  - name: Dip Switches - Sweep - Bottom
+    value: '67'
     description: ''
-    group:
-      - name: Dip Switches - Right Swap - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Right Swap - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Unsync - Off / Dip Switches - Unsync - On
-    value: 76
+    min: 0
+    max: 0
+  - name: Dip Switches - Sweep - Top
+    value: '67'
     description: ''
-    group:
-      - name: Dip Switches - Unsync - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Unsync - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Trails - Off / Dip Switches - Trails - On
-    value: 77
+    min: 127
+    max: 127
+  - name: Dip Switches - Polarity - Forward
+    value: '68'
     description: ''
-    group:
-      - name: Dip Switches - Trails - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Trails - On
-        description: ''
-        min: 127
-        max: 127
-  - name: Dip Switches - Bank - Off / Dip Switches - Bank - On
-    value: 78
+    min: 0
+    max: 0
+  - name: Dip Switches - Polarity - Reverse
+    value: '68'
     description: ''
-    group:
-      - name: Dip Switches - Bank - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dip Switches - Bank - On
-        description: ''
-        min: 127
-        max: 127
-  - name: MIDI Clock Ignore - Ignore / MIDI Clock Ignore - Follow
-    value: 51
+    min: 127
+    max: 127
+  - name: Dip Switches - MISO - Off
+    value: '71'
     description: ''
-    group:
-      - name: MIDI Clock Ignore - Ignore
-        description: ''
-        min: 0
-        max: 0
-      - name: MIDI Clock Ignore - Follow
-        description: ''
-        min: 127
-        max: 127
-  - name: Stop Ramping - Stop / Stop Ramping - Resume
-    value: 52
+    min: 0
+    max: 0
+  - name: Dip Switches - MISO - On
+    value: '71'
     description: ''
-    group:
-      - name: Stop Ramping - Stop
-        description: ''
-        min: 0
-        max: 0
-      - name: Stop Ramping - Resume
-        description: ''
-        min: 127
-        max: 127
+    min: 127
+    max: 127
+  - name: Dip Switches - Spread - Off
+    value: '72'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Spread - On
+    value: '72'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Latch - Off
+    value: '73'
+    description: ''
+    min: 0
+    max: 0    
+  - name: Dip Switches - Latch - On
+    value: '73'
+    description: ''
+    min: 127
+    max: 127    
+  - name: Dip Switches - Left Swap - Off
+    value: '74'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Left Swap - On
+    value: '74'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Right Swap - Off
+    value: '75'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Right Swap - On
+    value: '75'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Unsync - Off
+    value: '76'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Unsync - On
+    value: '76'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Trails - Off
+    value: '77'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Trails - On
+    value: '77'
+    description: ''
+    min: 127
+    max: 127
+  - name: Dip Switches - Bank - Off
+    value: '78'
+    description: ''
+    min: 0
+    max: 0
+  - name: Dip Switches - Bank - On
+    value: '78'
+    description: ''
+    min: 127
+    max: 127
+  - name: MIDI Clock Ignore - Ignore
+    value: '51'
+    description: ''
+    min: 0
+    max: 0
+  - name: MIDI Clock Ignore - Follow
+    value: '51'
+    description: ''
+    min: 127
+    max: 127
+  - name: Stop Ramping - Stop
+    value: '52'
+    description: ''
+    min: 0
+    max: 0
+  - name: Stop Ramping - Resume
+    value: '52'
+    description: ''
+    min: 127
+    max: 127
   - name: Tap Tempo
-    value: 93
+    value: '93'
     description: ''
     min: 127
     max: 127
-  - name: Left Tap Subdivision - Thirty-Second / Left Tap Subdivision - Sixteenth / Left Tap Subdivision - Triplet Sixteenth / Left Tap Subdivision - Eigth / Left Tap Subdivision - Triplet Eigth / Left Tap Subdivision - Dotted Eigth / Left Tap Subdivision - Quarter / Left Tap Subdivision - Triplet Quarter / Left Tap Subdivision - Dotted Quarter / Left Tap Subdivision - Half / Left Tap Subdivision - Dotted Half / Left Tap Subdivision - Whole / Left Tap Subdivision - Double Whole
-    value: 53
+  - name: Left Tap Subdivision - Thirty-Second
+    value: '53'
     description: ''
-    group:
-      - name: Left Tap Subdivision - Thirty-Second
-        description: ''
-        min: 0
-        max: 0
-      - name: Left Tap Subdivision - Sixteenth
-        description: ''
-        min: 1
-        max: 1
-      - name: Left Tap Subdivision - Triplet Sixteenth
-        description: ''
-        min: 2
-        max: 2
-      - name: Left Tap Subdivision - Eigth
-        description: ''
-        min: 3
-        max: 3
-      - name: Left Tap Subdivision - Triplet Eigth
-        description: ''
-        min: 4
-        max: 4
-      - name: Left Tap Subdivision - Dotted Eigth
-        description: ''
-        min: 5
-        max: 5
-      - name: Left Tap Subdivision - Quarter
-        description: ''
-        min: 6
-        max: 6
-      - name: Left Tap Subdivision - Triplet Quarter
-        description: ''
-        min: 7
-        max: 7
-      - name: Left Tap Subdivision - Dotted Quarter
-        description: ''
-        min: 8
-        max: 8
-      - name: Left Tap Subdivision - Half
-        description: ''
-        min: 9
-        max: 9
-      - name: Left Tap Subdivision - Dotted Half
-        description: ''
-        min: 10
-        max: 10
-      - name: Left Tap Subdivision - Whole
-        description: ''
-        min: 11
-        max: 11
-      - name: Left Tap Subdivision - Double Whole
-        description: ''
-        min: 12
-        max: 12
-  - name: Right Tap Subdivision - Thirty-Second / Right Tap Subdivision - Sixteenth / Right Tap Subdivision - Triplet Sixteenth / Right Tap Subdivision - Eigth / Right Tap Subdivision - Triplet Eigth / Right Tap Subdivision - Dotted Eigth / Right Tap Subdivision - Quarter / Right Tap Subdivision - Triplet Quarter / Right Tap Subdivision - Dotted Quarter / Right Tap Subdivision - Half / Right Tap Subdivision - Dotted Half / Right Tap Subdivision - Whole / Right Tap Subdivision - Double Whole
-    value: 54
+    min: 0
+    max: 0
+  - name: Left Tap Subdivision - Sixteenth
+    value: '53'
     description: ''
-    group:
-      - name: Right Tap Subdivision - Thirty-Second
-        description: ''
-        min: 0
-        max: 0
-      - name: Right Tap Subdivision - Sixteenth
-        description: ''
-        min: 1
-        max: 1
-      - name: Right Tap Subdivision - Triplet Sixteenth
-        description: ''
-        min: 2
-        max: 2
-      - name: Right Tap Subdivision - Eigth
-        description: ''
-        min: 3
-        max: 3
-      - name: Right Tap Subdivision - Triplet Eigth
-        description: ''
-        min: 4
-        max: 4
-      - name: Right Tap Subdivision - Dotted Eigth
-        description: ''
-        min: 5
-        max: 5
-      - name: Right Tap Subdivision - Quarter
-        description: ''
-        min: 6
-        max: 6
-      - name: Right Tap Subdivision - Triplet Quarter
-        description: ''
-        min: 7
-        max: 7
-      - name: Right Tap Subdivision - Dotted Quarter
-        description: ''
-        min: 8
-        max: 8
-      - name: Right Tap Subdivision - Half
-        description: ''
-        min: 9
-        max: 9
-      - name: Right Tap Subdivision - Dotted Half
-        description: ''
-        min: 10
-        max: 10
-      - name: Right Tap Subdivision - Whole
-        description: ''
-        min: 11
-        max: 11
-      - name: Right Tap Subdivision - Double Whole
-        description: ''
-        min: 12
-        max: 12
+    min: 1
+    max: 1
+  - name: Left Tap Subdivision - Triplet Sixteenth
+    value: '53'
+    description: ''
+    min: 2
+    max: 2
+  - name: Left Tap Subdivision - Eigth
+    value: '53'
+    description: ''
+    min: 3
+    max: 3
+  - name: Left Tap Subdivision - Triplet Eigth
+    value: '53'
+    description: ''
+    min: 4
+    max: 4
+  - name: Left Tap Subdivision - Dotted Eigth
+    value: '53'
+    description: ''
+    min: 5
+    max: 5
+  - name: Left Tap Subdivision - Quarter
+    value: '53'
+    description: ''
+    min: 6
+    max: 6
+  - name: Left Tap Subdivision - Triplet Quarter
+    value: '53'
+    description: ''
+    min: 7
+    max: 7
+  - name: Left Tap Subdivision - Dotted Quarter
+    value: '53'
+    description: ''
+    min: 8
+    max: 8
+  - name: Left Tap Subdivision - Half
+    value: '53'
+    description: ''
+    min: 9
+    max: 9
+  - name: Left Tap Subdivision - Dotted Half
+    value: '53'
+    description: ''
+    min: 10
+    max: 10
+  - name: Left Tap Subdivision - Whole
+    value: '53'
+    description: ''
+    min: 11
+    max: 11
+  - name: Left Tap Subdivision - Double Whole
+    value: '53'
+    description: ''
+    min: 12
+    max: 12
+  - name: Right Tap Subdivision - Thirty-Second
+    value: '54'
+    description: ''
+    min: 0
+    max: 0
+  - name: Right Tap Subdivision - Sixteenth
+    value: '54'
+    description: ''
+    min: 1
+    max: 1
+  - name: Right Tap Subdivision - Triplet Sixteenth
+    value: '54'
+    description: ''
+    min: 2
+    max: 2
+  - name: Right Tap Subdivision - Eigth
+    value: '54'
+    description: ''
+    min: 3
+    max: 3
+  - name: Right Tap Subdivision - Triplet Eigth
+    value: '54'
+    description: ''
+    min: 4
+    max: 4
+  - name: Right Tap Subdivision - Dotted Eigth
+    value: '54'
+    description: ''
+    min: 5
+    max: 5
+  - name: Right Tap Subdivision - Quarter
+    value: '54'
+    description: ''
+    min: 6
+    max: 6
+  - name: Right Tap Subdivision - Triplet Quarter
+    value: '54'
+    description: ''
+    min: 7
+    max: 7
+  - name: Right Tap Subdivision - Dotted Quarter
+    value: '54'
+    description: ''
+    min: 8
+    max: 8
+  - name: Right Tap Subdivision - Half
+    value: '54'
+    description: ''
+    min: 9
+    max: 9
+  - name: Right Tap Subdivision - Dotted Half
+    value: '54'
+    description: ''
+    min: 10
+    max: 10
+  - name: Right Tap Subdivision - Whole
+    value: '54'
+    description: ''
+    min: 11
+    max: 11
+  - name: Right Tap Subdivision - Double Whole
+    value: '54'
+    description: ''
+    min: 12
+    max: 12
   - name: Factory Reset
-    value: 56
-    description: Send any value
+    value: '56'
+    description: 'Send any value'
     min: 127
     max: 127
-  - name: Dry Kill - Off / Dry Kill - On
-    value: 57
+  - name: Dry Kill - Off
+    value: '57'
     description: ''
-    group:
-      - name: Dry Kill - Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Dry Kill - On
-        description: ''
-        min: 127
-        max: 127
+    min: 0
+    max: 0
+  - name: Dry Kill - On
+    value: '57'
+    description: ''
+    min: 127
+    max: 127
   - name: Expression Over MIDI
-    value: 100
+    value: '100'
     description: ''
     min: 0
     max: 127
   - name: Save Preset
-    value: 111
+    value: '111'
     description: 'Preset # = value'
     min: 0
     max: 122
   - name: Random Left Mode
-    value: 112
+    value: '112'
     description: ''
     min: 127
     max: 127
   - name: Random Right Mode
-    value: 113
+    value: '113'
     description: ''
     min: 127
     max: 127
   - name: Random Both Modes
-    value: 114
+    value: '114'
     description: ''
     min: 127
     max: 127

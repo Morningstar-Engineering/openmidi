@@ -20,523 +20,475 @@ pc:
   description: ''
 cc:
   - name: Bypass
-    value: 1
+    value: '1'
     description: 'Bypass 0 Engage 1 '
     min: 0
-    max: 1
+    max: '1'
   - name: Rec/Dub
-    value: 3
+    value: '3'
     description: '"Looper"'
     min: 0
     max: 127
   - name: Pause/Play
-    value: 4
+    value: '4'
     description: Looper
     min: 0
     max: 127
   - name: Erase
-    value: 5
+    value: '5'
     description: Looper
     min: 0
     max: 127
   - name: Mix Left
-    value: 6
+    value: '6'
     description: Looper
     min: 0
     max: 127
   - name: Mix Right
-    value: 7
+    value: '7'
     description: Looper
     min: 0
     max: 127
   - name: Mode Left
-    value: 8
+    value: '8'
     description: Looper
     min: 0
-    max: 3
+    max: '3'
   - name: Mode Right
-    value: 9
-    description: 'Looper
-
-      '
+    value: '9'
+    description: |
+      Looper
     min: 0
-    max: 3
+    max: '3'
   - name: Clock Left
-    value: 10
+    value: '10'
     description: Looper
     min: 0
     max: 127
   - name: Clock Right
-    value: 11
+    value: '11'
     description: Looper
     min: 0
     max: 127
   - name: Quantized Clock Left
-    value: 12
+    value: '12'
     description: Looper
     min: 0
     max: 127
   - name: Quantized Clock Right
-    value: 13
+    value: '13'
     description: Looper
     min: 0
     max: 127
   - name: Max Loop Size Left
-    value: 14
+    value: '14'
     description: Looper
     min: 0
     max: 127
   - name: Max Loop Size Right
-    value: 15
+    value: '15'
     description: Looper
     min: 0
     max: 127
   - name: Min Loop Size Left
-    value: 16
+    value: '16'
     description: Looper
     min: 0
     max: 127
   - name: Min Loop Size Right
-    value: 17
+    value: '17'
     description: Looper
     min: 0
     max: 127
   - name: Mix Left
-    value: 18
+    value: '18'
     description: Delay
     min: 0
     max: 127
   - name: Mix Right
-    value: 19
+    value: '19'
     description: Delay
     min: 0
     max: 127
   - name: Time Left
-    value: 20
-    description: 'Delay
-
-      '
+    value: '20'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Time Right
-    value: 21
-    description: 'Delay
-
-      '
+    value: '21'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Feedback Left
-    value: 22
+    value: '22'
     description: Delay
     min: 0
     max: 127
   - name: Feedback Right
-    value: 23
+    value: '23'
     description: Delay
     min: 0
     max: 127
   - name: Mode Left
-    value: 24
+    value: '24'
     description: Delay
     min: 0
-    max: 3
+    max: '3'
   - name: Mode Right
-    value: 25
+    value: '25'
     description: Delay
     min: 0
-    max: 3
+    max: '3'
   - name: Vibrato Depth Left
-    value: 26
-    description: 'Delay
-
-      '
+    value: '26'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Vibrato Depth Right
-    value: 27
+    value: '27'
     description: Delay
     min: 0
     max: 127
   - name: Tremolo Depth Left
-    value: 30
+    value: '30'
     description: Delay
     min: 0
     max: 127
   - name: Tremolo Depth Right
-    value: 31
+    value: '31'
     description: Delay
     min: 0
     max: 127
   - name: Tremolo Rate Left
-    value: 32
+    value: '32'
     description: Delay
     min: 0
     max: 127
   - name: Vibrato Rate Left
-    value: 28
-    description: 'Delay
-
-      '
+    value: '28'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Vibrato Rate Right
-    value: 29
-    description: 'Delay
-
-      '
+    value: '29'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Tremolo Rate Right
-    value: 33
+    value: '33'
     description: Delay
     min: 0
     max: 127
   - name: Clock Depth Left
-    value: 34
-    description: 'Delay
-
-      '
+    value: '34'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Clock Depth Right
-    value: 35
-    description: 'Dealy
-
-      '
+    value: '35'
+    description: |
+      Dealy
     min: 0
     max: 127
   - name: Clock Rate Left
-    value: 36
-    description: 'Delay
-
-      '
+    value: '36'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Clock Rate Right
-    value: 37
-    description: 'Delay
-
-      '
+    value: '37'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Dampening Freq Left
-    value: 38
-    description: 'Delay
-
-      '
+    value: '38'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Dampening Freq Right
-    value: 39
-    description: 'Delay
-
-      '
+    value: '39'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Dampening Gain Left
-    value: 40
+    value: '40'
     description: Delay
     min: 0
     max: 127
   - name: Dampening Gain Right
-    value: 41
-    description: 'Delay
-
-      '
+    value: '41'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Granular Grain Size Left
-    value: 42
-    description: 'Delay
-
-      '
+    value: '42'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Granular Grain Size Right
-    value: 43
+    value: '43'
     description: Delay
     min: 0
     max: 127
   - name: Granular Grain Amount Left
-    value: 44
-    description: 'Delay
-
-      '
+    value: '44'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Granular Grain Amount Right
-    value: 45
+    value: '45'
     description: Delay
     min: 0
     max: 127
   - name: Re-sample Octave Up Mix Left
-    value: 46
-    description: 'Delay
-
-      '
+    value: '46'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Re-sample Octave Up Mix Right
-    value: 47
-    description: 'Delay
-
-      '
+    value: '47'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Re-sample Octave Down Mix Left
-    value: 48
-    description: 'Delay
-
-      '
+    value: '48'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Re-sample Octave Down Mix Right
-    value: 49
-    description: 'Delay
-
-      '
+    value: '49'
+    description: |
+      Delay
     min: 0
     max: 127
   - name: Tap Division Left
-    value: 50
-    description: 'Delay
-
-      '
+    value: '50'
+    description: |
+      Delay
     min: 0
-    max: 3
+    max: '3'
   - name: Tap Division Right
-    value: 51
-    description: 'Delay
-
-      '
+    value: '51'
+    description: |
+      Delay
     min: 0
-    max: 3
+    max: '3'
   - name: Mix Left
-    value: 52
-    description: 'Reverb
-
-      '
+    value: '52'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Mix Right
-    value: 53
-    description: 'Reverb
-
-      '
+    value: '53'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Decay Left
-    value: 54
-    description: 'Reverb
-
-      '
+    value: '54'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Decay Right
-    value: 55
-    description: 'Reverb
-
-      '
+    value: '55'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Clock Left
-    value: 56
-    description: 'Reverb
-
-      '
+    value: '56'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Clock Right
-    value: 57
+    value: '57'
     description: Reverb
     min: 0
     max: 127
   - name: Pre-Delay Left
-    value: 58
-    description: 'Reverb
-
-      '
+    value: '58'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Pre-Delay Right
-    value: 59
-    description: 'Reverb
-
-      '
+    value: '59'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Mode Left
-    value: 60
-    description: 'Reverb
-
-      '
+    value: '60'
+    description: |
+      Reverb
     min: 0
-    max: 3
+    max: '3'
   - name: Mode Right
-    value: 61
-    description: 'Reverb
-
-      '
+    value: '61'
+    description: |
+      Reverb
     min: 0
-    max: 3
+    max: '3'
   - name: Vibrato Rate Left
-    value: 62
+    value: '62'
     description: Reverb
     min: 0
     max: 127
   - name: Vibrato Rate Right
-    value: 63
-    description: 'Reverb
-
-      '
+    value: '63'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Vibrato Depth Left
-    value: 64
-    description: 'Reverb
-
-      '
+    value: '64'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Vibrato Depth Right
-    value: 65
-    description: 'Reverb
-
-      '
+    value: '65'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Auto-Filter Depth Left
-    value: 66
-    description: 'Reverb
-
-      '
+    value: '66'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Auto-Filter Depth Right
-    value: 67
-    description: 'Reverb
-
-      '
+    value: '67'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Auto-Filter Rate Left
-    value: 68
+    value: '68'
     description: Reverb
     min: 0
     max: 127
   - name: Auto-Filter Rate Right
-    value: 69
+    value: '69'
     description: Reverb
     min: 0
     max: 127
   - name: Shimmer Mix Left
-    value: 70
-    description: 'Reverb
-
-      '
+    value: '70'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Shimmer Mix Right
-    value: 71
-    description: 'Reverb
-
-      '
+    value: '71'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Shimmer Octave Left
-    value: 72
-    description: 'Reverb
-
-      '
+    value: '72'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Shimmer Octave Right
-    value: 73
+    value: '73'
     description: Reverb
     min: 0
     max: 127
   - name: Dampening Low Pass Filter Left
-    value: 74
-    description: 'Reverb
-
-      '
+    value: '74'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Dampening Low Pass Filter Right
-    value: 75
-    description: 'Reverb
-
-      '
+    value: '75'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Dampening High Pass Filter Left
-    value: 76
-    description: 'Reverb
-
-      '
+    value: '76'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Dampening High Pass Filter Right
-    value: 77
-    description: 'Reverb
-
-      '
+    value: '77'
+    description: |
+      Reverb
     min: 0
     max: 127
   - name: Freq Left
-    value: 78
-    description: 'Filter
-
-      '
+    value: '78'
+    description: |
+      Filter
     min: 0
     max: 127
   - name: Freq Right
-    value: 79
-    description: 'Filter
-
-      '
+    value: '79'
+    description: |
+      Filter
     min: 0
     max: 127
   - name: Resonance Left
-    value: 80
+    value: '80'
     description: Filter
     min: 0
     max: 127
   - name: Resonance Right
-    value: 81
+    value: '81'
     description: Filter
     min: 0
     max: 127
   - name: Clean Mix Left
-    value: 82
+    value: '82'
     description: Other
     min: 0
     max: 127
   - name: Clean Mix Right
-    value: 83
-    description: 'Other
-
-      '
+    value: '83'
+    description: |
+      Other
     min: 0
     max: 127
   - name: Effect Order Left
-    value: 84
-    description: 'Other
-
-      '
+    value: '84'
+    description: |
+      Other
     min: 0
-    max: 3
+    max: '3'
   - name: Effect Order Right
-    value: 85
-    description: 'Other
-
-      '
+    value: '85'
+    description: |
+      Other
     min: 0
-    max: 3
+    max: '3'
   - name: MIDI Channel Change
-    value: 86
-    description: 'Other
-
-      '
+    value: '86'
+    description: |
+      Other
     min: 0
-    max: 15
+    max: '15'

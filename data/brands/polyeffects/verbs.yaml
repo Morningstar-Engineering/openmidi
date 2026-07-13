@@ -38,31 +38,27 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Crescendo - On / Crescendo - Off
+  - name: Crescendo - On
     value: 18
     description: ''
-    group:
-      - name: Crescendo - On
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
-      - name: Crescendo - Off
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-  - name: Bypass / Engage
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Crescendo - Off
+    value: 18
+    description: ''
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Bypass
     value: 19
     description: ''
-    group:
-      - name: Bypass
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: Engage
-        description: ''
-        min: 67
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Engage
+    value: 19
+    description: ''
+    type: Parameter
+    min: 67
+    max: 127

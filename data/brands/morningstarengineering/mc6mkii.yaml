@@ -33,30 +33,26 @@ cc:
     description: ''
     min: 0
     max: 127
-  - name: Set Toggle (All Presets) / Set Toggle (Individual Presets)
+  - name: Set Toggle (All Presets)
     value: 2
-    description: CC Value 0 sets Preset A, 1 sets Preset B and so on
-    group:
-      - name: Set Toggle (All Presets)
-        description: ''
-        min: 127
-        max: 127
-      - name: Set Toggle (Individual Presets)
-        description: CC Value 0 sets Preset A, 1 sets Preset B and so on
-        min: 0
-        max: 11
-  - name: Clear Toggle (All Presets) / Clear Toggle (Individual Presets)
+    description: ''
+    min: 127
+    max: 127
+  - name: Set Toggle (Individual Presets)
+    value: 2
+    description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
+    min: 0
+    max: 11
+  - name: Clear Toggle (All Presets)
     value: 3
-    description: CC Value 0 clears Preset A, 1 clears Preset B and so on
-    group:
-      - name: Clear Toggle (All Presets)
-        description: ''
-        min: 127
-        max: 127
-      - name: Clear Toggle (Individual Presets)
-        description: CC Value 0 clears Preset A, 1 clears Preset B and so on
-        min: 0
-        max: 11
+    description: ''
+    min: 127
+    max: 127
+  - name: Clear Toggle (Individual Presets)
+    value: 3
+    description: 'CC Value 0 clears Preset A, 1 clears Preset B and so on'
+    min: 0
+    max: 11
   - name: Page Toggle
     value: 4
     description: ''
@@ -74,7 +70,7 @@ cc:
     max: 127
   - name: Looper Mode
     value: 7
-    description: 0 = Toggle Looper Mode, 1 = Engage, 2 = Disengage
+    description: '0 = Toggle Looper Mode, 1 = Engage, 2 = Disengage'
     min: 0
     max: 2
   - name: MIDI Clock Tap
@@ -84,12 +80,16 @@ cc:
     max: 127
   - name: Jump to last bank
     value: 9
-    description: 0 = Ignore Bank Presets, 127 = Execute Bank Presets
+    description: '0 = Ignore Bank Presets, 127 = Execute Bank Presets'
     min: 0
     max: 127
   - name: Engage Preset A
     value: 10
-    description: Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 = On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 = On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On Long Press Scroll
+    description: >-
+      Value 0 = Do Nothing, 1 = On Press, 2 = On Release, 3 = On Long Press, 4 =
+      On Long Press Release, 5 = On Double Tap, 6 = On Double Tap Release, 7 =
+      On Double Tap Hold, 8 = On Double Tap Release, 9 = On Release All, 10 = On
+      Long Press Scroll
     min: 0
     max: 10
   - name: Engage Preset B

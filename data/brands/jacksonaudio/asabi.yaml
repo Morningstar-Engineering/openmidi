@@ -23,27 +23,27 @@ pc:
 
 cc:
   - name: Dist On/Off
-    value: 1
-    description: On = 127, Off = 0
+    value: '1'
+    description: 'On = 127, Off = 0'
     min: 0
-    max: 127
+    max: '127'
   - name: Drive On/Off
-    value: 2
-    description: On = 127, Off = 0
+    value: '2'
+    description: 'On = 127, Off = 0'
     min: 0
-    max: 127
+    max: '127'
   - name: Distortion Clipping Presets
-    value: 3
-    description: 1 = Guv'nor, 2 = 808, 3 = Asymmetric High Gain, 4 = Symmetric High Gain
-    min: 1
-    max: 4
+    value: '3'
+    description: '1 = Guv''nor, 2 = 808, 3 = Asymmetric High Gain, 4 = Symmetric High Gain'
+    min: '1'
+    max: '4'
   - name: Gain Cycle
-    value: 4
-    description: 1 = 25%, 2 = 50%, 3 = 75%, 4 = 100%
-    min: 1
-    max: 4
+    value: '4'
+    description: '1 = 25%, 2 = 50%, 3 = 75%, 4 = 100%'
+    min: '1'
+    max: '4'
   - name: Overdrive Clipping Presets
-    value: 5
+    value: '5'
     description: 1 = Vintage Marshall, 2 = Tube Screamer, 3 = Timmy, 4 = King of Tone
-    min: 1
-    max: 4
+    min: '1'
+    max: '4'

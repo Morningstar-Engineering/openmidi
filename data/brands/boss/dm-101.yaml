@@ -1,47 +1,5 @@
 brand: BOSS
 cc:
-  - name: DELAY TIME
-    value: 17
-    description: ''
-    min: 0
-    max: 127
-  - name: INTENSITY
-    value: 18
-    description: ''
-    min: 0
-    max: 127
-  - name: VOLUME
-    value: 19
-    description: ''
-    min: 0
-    max: 127
-  - name: MOD. RATE / VARIATION
-    value: 20
-    description: ''
-    group:
-      - name: MOD. RATE
-        description: ''
-        min: 0
-        max: 127
-      - name: VARIATION
-        description: ''
-        min: 0
-        max: 127
-  - name: MOD. DEPTH
-    value: 21
-    description: ''
-    min: 0
-    max: 127
-  - name: EFFECT ON / OFF
-    value: 27
-    description: 0-63=OFF, 64-127=ON
-    min: 0
-    max: 127
-  - name: TAP
-    value: 82
-    description: 0-63=OFF, 64-127=ON
-    min: 0
-    max: 127
 - name: DELAY TIME
   value: '17'
   description: ''

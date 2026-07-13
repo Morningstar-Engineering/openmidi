@@ -25,20 +25,18 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: FX Bypass / FX Enable
+  - name: FX Bypass
     value: 14
     description: ''
-    group:
-      - name: FX Bypass
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: FX Enable
-        description: ''
-        min: 64
-        max: 127
-        type: System
+    type: System
+    min: 0
+    max: 63
+  - name: FX Enable
+    value: 14
+    description: ''
+    type: System
+    min: 64
+    max: 127
   - name: Space Decay
     value: 16
     description: ''
@@ -111,31 +109,27 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Swell Off / Swell On
+  - name: Swell Off
     value: 28
     description: ''
-    group:
-      - name: Swell Off
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: Swell On
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
-  - name: 'Algorithm Select: Ultraplate / Algorithm Select: Cathedra'
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Swell On
+    value: 28
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: 'Algorithm Select: Ultraplate'
     value: 29
     description: ''
-    group:
-      - name: 'Algorithm Select: Ultraplate'
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: 'Algorithm Select: Cathedra'
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: 'Algorithm Select: Cathedra'
+    value: 29
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127

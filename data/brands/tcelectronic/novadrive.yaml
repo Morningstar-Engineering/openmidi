@@ -13,35 +13,31 @@ midi_channel:
 pc: 
   description: |+
     PC Messages load the corresponding preset. For example PC1 loads Preset 2.
-cc:
-  - name: OD Off / OD On
+cc: 
+  - name: OD Off
     value: 21
     description: ''
-    group:
-      - name: OD Off
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: OD On
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
-  - name: Dist Off / Dist On
+    type: Parameter
+    min: 0
+    max: 63
+  - name: OD On
+    value: 21
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
+  - name: Dist Off
     value: 22
     description: ''
-    group:
-      - name: Dist Off
-        description: ''
-        min: 0
-        max: 63
-        type: Parameter
-      - name: Dist On
-        description: ''
-        min: 64
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 63
+  - name: Dist On
+    value: 22
+    description: ''
+    type: Parameter
+    min: 64
+    max: 127
   - name: OD Drive
     value: 23
     description: ''
@@ -90,22 +86,21 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Routing OD -> Dist / Routing Dist -> OD / Routing Parallel
+  - name: Routing OD -> Dist
     value: 31
     description: ''
-    group:
-      - name: Routing OD -> Dist
-        description: ''
-        min: 0
-        max: 42
-        type: Parameter
-      - name: Routing Dist -> OD
-        description: ''
-        min: 43
-        max: 84
-        type: Parameter
-      - name: Routing Parallel
-        description: ''
-        min: 85
-        max: 127
-        type: Parameter
+    type: Parameter
+    min: 0
+    max: 42
+  - name: Routing Dist -> OD
+    value: 31
+    description: ''
+    type: Parameter
+    min: 43
+    max: 84
+  - name: Routing Parallel
+    value: 31
+    description: ''
+    type: Parameter
+    min: 85
+    max: 127

@@ -19,592 +19,682 @@ cc:
     min: 0
     max: 127
   - name: Left Voice Frequency
-    value: 1
+    value: '1'
     description: ''
     min: 0
     max: 127
   - name: Left Drive
-    value: 2
+    value: '2'
     description: ''
     min: 0
     max: 127
   - name: Left Output
-    value: 3
+    value: '3'
     description: ''
     min: 0
     max: 127
-  - name: Left Distortion Engine - Tube Drive / Left Distortion Engine - Smooth Tube / Left Distortion Engine - Power Stage / Left Distortion Engine - Crunch Tube / Left Distortion Engine - TS9000 / Left Distortion Engine - Big Pi / Left Distortion Engine - El Raton / Left Distortion Engine - Fuzz Facade / Left Distortion Engine - Bender / Left Distortion Engine - Metal / Left Distortion Engine - Octave Fuzz / Left Distortion Engine - Gated Fuzz / Left Distortion Engine - Bass Tube Drive / Left Distortion Engine - Bass Smooth Tube / Left Distortion Engine - Bass Power Stage / Left Distortion Engine - Bass Crunch Tube / Left Distortion Engine - Bass TS9000 / Left Distortion Engine - Bass Big Pi / Left Distortion Engine - Bass El Raton / Left Distortion Engine - Bass Fuzz Facade / Left Distortion Engine - Bass Bender / Left Distortion Engine - Bass Metal / Left Distortion Engine - Bass Gated Fuzz / Left Distortion Engine - Gated Fuzz II / Left Distortion Engine - Gated Fuzz III / Left Distortion
-      Engine - TS9001 / Left Distortion Engine - Maestro FZ-1A / Left Distortion Engine - Bigger Pi / Left Distortion Engine - Foldover / Left Distortion Engine - OhSeeDee / Left Distortion Engine - Fuzz Face II / Left Distortion Engine - DS-1 / Left Distortion Engine - Rat II / Left Distortion Engine - Bender II / Left Distortion Engine - Metal II / Left Distortion Engine - Octave II / Left Distortion Engine - Smoked Glass C4L / Left Distortion Engine - 38 Special / Left Distortion Engine - Smooth Tube II / Left Distortion Engine - Power Stage II / Left Distortion Engine - Crunch Tube II / Left Distortion Engine - Grated Bass / Left Distortion Engine - Clean (No Distortion) / Left Distortion Engine - Smoked Glass D5M / Left Distortion Engine - The Klone / Left Distortion Engine - Pepperface Fuzz / Left Distortion Engine - Vari-Screamer / Left Distortion Engine - Foldover II / Left Distortion Engine - Germanium Muffin
-    value: 4
+  - name: Left Distortion Engine - Tube Drive
+    value: '4'
     description: ''
-    group:
-      - name: Left Distortion Engine - Tube Drive
-        description: ''
-        min: 0
-        max: 0
-      - name: Left Distortion Engine - Smooth Tube
-        description: ''
-        min: 1
-        max: 1
-      - name: Left Distortion Engine - Power Stage
-        description: ''
-        min: 2
-        max: 2
-      - name: Left Distortion Engine - Crunch Tube
-        description: ''
-        min: 3
-        max: 3
-      - name: Left Distortion Engine - TS9000
-        description: ''
-        min: 4
-        max: 4
-      - name: Left Distortion Engine - Big Pi
-        description: ''
-        min: 5
-        max: 5
-      - name: Left Distortion Engine - El Raton
-        description: ''
-        min: 6
-        max: 6
-      - name: Left Distortion Engine - Fuzz Facade
-        description: ''
-        min: 7
-        max: 7
-      - name: Left Distortion Engine - Bender
-        description: ''
-        min: 8
-        max: 8
-      - name: Left Distortion Engine - Metal
-        description: ''
-        min: 9
-        max: 9
-      - name: Left Distortion Engine - Octave Fuzz
-        description: ''
-        min: 10
-        max: 10
-      - name: Left Distortion Engine - Gated Fuzz
-        description: ''
-        min: 11
-        max: 11
-      - name: Left Distortion Engine - Bass Tube Drive
-        description: ''
-        min: 12
-        max: 12
-      - name: Left Distortion Engine - Bass Smooth Tube
-        description: ''
-        min: 13
-        max: 13
-      - name: Left Distortion Engine - Bass Power Stage
-        description: ''
-        min: 14
-        max: 14
-      - name: Left Distortion Engine - Bass Crunch Tube
-        description: ''
-        min: 15
-        max: 15
-      - name: Left Distortion Engine - Bass TS9000
-        description: ''
-        min: 16
-        max: 16
-      - name: Left Distortion Engine - Bass Big Pi
-        description: ''
-        min: 17
-        max: 17
-      - name: Left Distortion Engine - Bass El Raton
-        description: ''
-        min: 18
-        max: 18
-      - name: Left Distortion Engine - Bass Fuzz Facade
-        description: ''
-        min: 19
-        max: 19
-      - name: Left Distortion Engine - Bass Bender
-        description: ''
-        min: 20
-        max: 20
-      - name: Left Distortion Engine - Bass Metal
-        description: ''
-        min: 21
-        max: 21
-      - name: Left Distortion Engine - Octave Fuzz
-        description: ''
-        min: 22
-        max: 22
-      - name: Left Distortion Engine - Bass Gated Fuzz
-        description: ''
-        min: 23
-        max: 23
-      - name: Left Distortion Engine - Gated Fuzz II
-        description: ''
-        min: 24
-        max: 24
-      - name: Left Distortion Engine - Gated Fuzz III
-        description: ''
-        min: 25
-        max: 25
-      - name: Left Distortion Engine - TS9001
-        description: ''
-        min: 26
-        max: 26
-      - name: Left Distortion Engine - Maestro FZ-1A
-        description: ''
-        min: 27
-        max: 27
-      - name: Left Distortion Engine - Bigger Pi
-        description: ''
-        min: 28
-        max: 28
-      - name: Left Distortion Engine - Foldover
-        description: ''
-        min: 29
-        max: 29
-      - name: Left Distortion Engine - OhSeeDee
-        description: ''
-        min: 30
-        max: 30
-      - name: Left Distortion Engine - Fuzz Face II
-        description: ''
-        min: 31
-        max: 31
-      - name: Left Distortion Engine - DS-1
-        description: ''
-        min: 32
-        max: 32
-      - name: Left Distortion Engine - Rat II
-        description: ''
-        min: 33
-        max: 33
-      - name: Left Distortion Engine - Bender II
-        description: ''
-        min: 34
-        max: 34
-      - name: Left Distortion Engine - Metal II
-        description: ''
-        min: 35
-        max: 35
-      - name: Left Distortion Engine - Octave II
-        description: ''
-        min: 36
-        max: 36
-      - name: Left Distortion Engine - Smoked Glass C4L
-        description: ''
-        min: 37
-        max: 37
-      - name: Left Distortion Engine - 38 Special
-        description: ''
-        min: 38
-        max: 38
-      - name: Left Distortion Engine - Smooth Tube II
-        description: ''
-        min: 39
-        max: 39
-      - name: Left Distortion Engine - Power Stage II
-        description: ''
-        min: 40
-        max: 40
-      - name: Left Distortion Engine - Crunch Tube II
-        description: ''
-        min: 41
-        max: 41
-      - name: Left Distortion Engine - Grated Bass
-        description: ''
-        min: 42
-        max: 42
-      - name: Left Distortion Engine - Clean (No Distortion)
-        description: ''
-        min: 43
-        max: 43
-      - name: Left Distortion Engine - Smoked Glass D5M
-        description: ''
-        min: 44
-        max: 44
-      - name: Left Distortion Engine - The Klone
-        description: ''
-        min: 45
-        max: 45
-      - name: Left Distortion Engine - Pepperface Fuzz
-        description: ''
-        min: 46
-        max: 46
-      - name: Left Distortion Engine - Vari-Screamer
-        description: ''
-        min: 47
-        max: 47
-      - name: Left Distortion Engine - Foldover II
-        description: ''
-        min: 48
-        max: 48
-      - name: Left Distortion Engine - Germanium Muffin
-        description: ''
-        min: 49
-        max: 49
+    min: 0
+    max: '0'
+  - name: Left Distortion Engine - Smooth Tube
+    value: '4'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Left Distortion Engine - Power Stage
+    value: '4'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Left Distortion Engine - Crunch Tube
+    value: '4'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Left Distortion Engine - TS9000
+    value: '4'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Left Distortion Engine - Big Pi
+    value: '4'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Left Distortion Engine - El Raton
+    value: '4'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Left Distortion Engine - Fuzz Facade
+    value: '4'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Left Distortion Engine - Bender
+    value: '4'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Left Distortion Engine - Metal
+    value: '4'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Left Distortion Engine - Octave Fuzz
+    value: '4'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Left Distortion Engine - Gated Fuzz
+    value: '4'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Left Distortion Engine - Bass Tube Drive
+    value: '4'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Left Distortion Engine - Bass Smooth Tube
+    value: '4'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Left Distortion Engine - Bass Power Stage
+    value: '4'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Left Distortion Engine - Bass Crunch Tube
+    value: '4'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Left Distortion Engine - Bass TS9000
+    value: '4'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Left Distortion Engine - Bass Big Pi
+    value: '4'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Left Distortion Engine - Bass El Raton
+    value: '4'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Left Distortion Engine - Bass Fuzz Facade
+    value: '4'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Left Distortion Engine - Bass Bender
+    value: '4'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Left Distortion Engine - Bass Metal
+    value: '4'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Left Distortion Engine - Octave Fuzz
+    value: '4'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Left Distortion Engine - Bass Gated Fuzz
+    value: '4'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Left Distortion Engine - Gated Fuzz II
+    value: '4'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Left Distortion Engine - Gated Fuzz III
+    value: '4'
+    description: ''
+    min: '25'
+    max: '25'
+  - name: Left Distortion Engine - TS9001
+    value: '4'
+    description: ''
+    min: '26'
+    max: '26'
+  - name: Left Distortion Engine - Maestro FZ-1A
+    value: '4'
+    description: ''
+    min: '27'
+    max: '27'
+  - name: Left Distortion Engine - Bigger Pi
+    value: '4'
+    description: ''
+    min: '28'
+    max: '28'
+  - name: Left Distortion Engine - Foldover
+    value: '4'
+    description: ''
+    min: '29'
+    max: '29'
+  - name: Left Distortion Engine - OhSeeDee
+    value: '4'
+    description: ''
+    min: '30'
+    max: '30'
+  - name: Left Distortion Engine - Fuzz Face II
+    value: '4'
+    description: ''
+    min: '31'
+    max: '31'
+  - name: Left Distortion Engine - DS-1
+    value: '4'
+    description: ''
+    min: '32'
+    max: '32'
+  - name: Left Distortion Engine - Rat II
+    value: '4'
+    description: ''
+    min: '33'
+    max: '33'
+  - name: Left Distortion Engine - Bender II
+    value: '4'
+    description: ''
+    min: '34'
+    max: '34'
+  - name: Left Distortion Engine - Metal II
+    value: '4'
+    description: ''
+    min: '35'
+    max: '35'
+  - name: Left Distortion Engine - Octave II
+    value: '4'
+    description: ''
+    min: '36'
+    max: '36'
+  - name: Left Distortion Engine - Smoked Glass C4L
+    value: '4'
+    description: ''
+    min: '37'
+    max: '37'
+  - name: Left Distortion Engine - 38 Special
+    value: '4'
+    description: ''
+    min: '38'
+    max: '38'
+  - name: Left Distortion Engine - Smooth Tube II
+    value: '4'
+    description: ''
+    min: '39'
+    max: '39'
+  - name: Left Distortion Engine - Power Stage II
+    value: '4'
+    description: ''
+    min: '40'
+    max: '40'
+  - name: Left Distortion Engine - Crunch Tube II
+    value: '4'
+    description: ''
+    min: '41'
+    max: '41'
+  - name: Left Distortion Engine - Grated Bass
+    value: '4'
+    description: ''
+    min: '42'
+    max: '42'
+  - name: Left Distortion Engine - Clean (No Distortion)
+    value: '4'
+    description: ''
+    min: '43'
+    max: '43'
+  - name: Left Distortion Engine - Smoked Glass D5M
+    value: '4'
+    description: ''
+    min: '44'
+    max: '44'
+  - name: Left Distortion Engine - The Klone
+    value: '4'
+    description: ''
+    min: '45'
+    max: '45'
+  - name: Left Distortion Engine - Pepperface Fuzz
+    value: '4'
+    description: ''
+    min: '46'
+    max: '46'
+  - name: Left Distortion Engine - Vari-Screamer
+    value: '4'
+    description: ''
+    min: '47'
+    max: '47'
+  - name: Left Distortion Engine - Foldover II
+    value: '4'
+    description: ''
+    min: '48'
+    max: '48'
+  - name: Left Distortion Engine - Germanium Muffin
+    value: '4'
+    description: ''
+    min: '49'
+    max: '49'
   - name: Left Clean Mix
-    value: 5
+    value: '5'
     description: ''
     min: 0
     max: 127
   - name: Left Drive Balance
-    value: 6
+    value: '6'
     description: ''
     min: 0
     max: 127
   - name: Left Drive Max
-    value: 7
+    value: '7'
     description: ''
     min: 0
     max: 127
   - name: Left Treble 3436 Hz
-    value: 8
+    value: '8'
     description: ''
     min: 0
     max: 127
   - name: Left Bass 85 Hz
-    value: 9
+    value: '9'
     description: ''
     min: 0
     max: 127
   - name: Left Mid A 1201 Hz
-    value: 10
+    value: '10'
     description: ''
     min: 0
     max: 127
   - name: Left Mid B 379 Hz
-    value: 11
+    value: '11'
     description: ''
     min: 0
     max: 127
   - name: Right Voice
-    value: 12
+    value: '12'
     description: ''
     min: 0
     max: 127
   - name: Right Voice Frequency
-    value: 13
+    value: '13'
     description: ''
     min: 0
     max: 127
   - name: Right Drive
-    value: 14
+    value: '14'
     description: ''
     min: 0
     max: 127
   - name: Right Output
-    value: 15
+    value: '15'
     description: ''
     min: 0
     max: 127
-  - name: Right Distortion Engine / Right Distortion Engine - Tube Drive / Right Distortion Engine - Smooth Tube / Right Distortion Engine - Power Stage / Right Distortion Engine - Crunch Tube / Right Distortion Engine - TS9000 / Right Distortion Engine - Big Pi / Right Distortion Engine - El Raton / Right Distortion Engine - Fuzz Facade / Right Distortion Engine - Bender / Right Distortion Engine - Metal / Right Distortion Engine - Octave Fuzz / Right Distortion Engine - Gated Fuzz / Right Distortion Engine - Bass Tube Drive / Right Distortion Engine - Bass Smooth Tube / Right Distortion Engine - Bass Power Stage / Right Distortion Engine - Bass Crunch Tube / Right Distortion Engine - Bass TS9000 / Right Distortion Engine - Bass Big Pi / Right Distortion Engine - Bass El Raton / Right Distortion Engine - Bass Fuzz Facade / Right Distortion Engine - Bass Bender / Right Distortion Engine - Bass Metal / Right Distortion Engine - Bass Octave Fuz / Right Distortion Engine - Bass Gated Fuzz /
-      Right Distortion Engine - Gated Fuzz II / Right Distortion Engine - Gated Fuzz III / Right Distortion Engine - TS9001 / Right Distortion Engine - Maestro FZ-1A / Right Distortion Engine - Bigger Pi / Right Distortion Engine - Foldover / Right Distortion Engine - OhSeeDee / Right Distortion Engine - Fuzz Face II / Right Distortion Engine - DS-1 / Right Distortion Engine - Rat II / Right Distortion Engine - Bender II / Right Distortion Engine - Metal II / Right Distortion Engine - Octave II / Right Distortion Engine - Smoked Glass C4L / Right Distortion Engine - 38 Special / Right Distortion Engine - Smooth Tube II / Right Distortion Engine - Power Stage II / Right Distortion Engine - Crunch Tube II / Right Distortion Engine - Grated Bass / Right Distortion Engine - Clean (No Distortion) / Right Distortion Engine - Smoked Glass D5M / Right Distortion Engine - The Klone / Right Distortion Engine - Pepperface Fuzz / Right Distortion Engine - Vari-Screamer / Right Distortion Engine - Foldover
-      II / Right Distortion Engine - Germanium Muffin
-    value: 16
+  - name: Right Distortion Engine
+    value: '16'
     description: ''
-    group:
-      - name: Right Distortion Engine
-        description: ''
-        min: 0
-        max: 127
-      - name: Right Distortion Engine - Tube Drive
-        description: ''
-        min: 0
-        max: 0
-      - name: Right Distortion Engine - Smooth Tube
-        description: ''
-        min: 1
-        max: 1
-      - name: Right Distortion Engine - Power Stage
-        description: ''
-        min: 2
-        max: 2
-      - name: Right Distortion Engine - Crunch Tube
-        description: ''
-        min: 3
-        max: 3
-      - name: Right Distortion Engine - TS9000
-        description: ''
-        min: 4
-        max: 4
-      - name: Right Distortion Engine - Big Pi
-        description: ''
-        min: 5
-        max: 5
-      - name: Right Distortion Engine - El Raton
-        description: ''
-        min: 6
-        max: 6
-      - name: Right Distortion Engine - Fuzz Facade
-        description: ''
-        min: 7
-        max: 7
-      - name: Right Distortion Engine - Bender
-        description: ''
-        min: 8
-        max: 8
-      - name: Right Distortion Engine - Metal
-        description: ''
-        min: 9
-        max: 9
-      - name: Right Distortion Engine - Octave Fuzz
-        description: ''
-        min: 10
-        max: 10
-      - name: Right Distortion Engine - Gated Fuzz
-        description: ''
-        min: 11
-        max: 11
-      - name: Right Distortion Engine - Bass Tube Drive
-        description: ''
-        min: 12
-        max: 12
-      - name: Right Distortion Engine - Bass Smooth Tube
-        description: ''
-        min: 13
-        max: 13
-      - name: Right Distortion Engine - Bass Power Stage
-        description: ''
-        min: 14
-        max: 14
-      - name: Right Distortion Engine - Bass Crunch Tube
-        description: ''
-        min: 15
-        max: 15
-      - name: Right Distortion Engine - Bass TS9000
-        description: ''
-        min: 16
-        max: 16
-      - name: Right Distortion Engine - Bass Big Pi
-        description: ''
-        min: 17
-        max: 17
-      - name: Right Distortion Engine - Bass El Raton
-        description: ''
-        min: 18
-        max: 18
-      - name: Right Distortion Engine - Bass Fuzz Facade
-        description: ''
-        min: 19
-        max: 19
-      - name: Right Distortion Engine - Bass Bender
-        description: ''
-        min: 20
-        max: 20
-      - name: Right Distortion Engine - Bass Metal
-        description: ''
-        min: 21
-        max: 21
-      - name: Right Distortion Engine - Bass Octave Fuz
-        description: ''
-        min: 22
-        max: 22
-      - name: Right Distortion Engine - Bass Gated Fuzz
-        description: ''
-        min: 23
-        max: 23
-      - name: Right Distortion Engine - Gated Fuzz II
-        description: ''
-        min: 24
-        max: 24
-      - name: Right Distortion Engine - Gated Fuzz III
-        description: ''
-        min: 25
-        max: 25
-      - name: Right Distortion Engine - TS9001
-        description: ''
-        min: 26
-        max: 26
-      - name: Right Distortion Engine - Maestro FZ-1A
-        description: ''
-        min: 27
-        max: 27
-      - name: Right Distortion Engine - Bigger Pi
-        description: ''
-        min: 28
-        max: 28
-      - name: Right Distortion Engine - Foldover
-        description: ''
-        min: 29
-        max: 29
-      - name: Right Distortion Engine - OhSeeDee
-        description: ''
-        min: 30
-        max: 30
-      - name: Right Distortion Engine - Fuzz Face II
-        description: ''
-        min: 31
-        max: 31
-      - name: Right Distortion Engine - DS-1
-        description: ''
-        min: 32
-        max: 32
-      - name: Right Distortion Engine - Rat II
-        description: ''
-        min: 33
-        max: 33
-      - name: Right Distortion Engine - Bender II
-        description: ''
-        min: 34
-        max: 34
-      - name: Right Distortion Engine - Metal II
-        description: ''
-        min: 35
-        max: 35
-      - name: Right Distortion Engine - Octave II
-        description: ''
-        min: 36
-        max: 36
-      - name: Right Distortion Engine - Smoked Glass C4L
-        description: ''
-        min: 37
-        max: 37
-      - name: Right Distortion Engine - 38 Special
-        description: ''
-        min: 38
-        max: 38
-      - name: Right Distortion Engine - Smooth Tube II
-        description: ''
-        min: 39
-        max: 39
-      - name: Right Distortion Engine - Power Stage II
-        description: ''
-        min: 40
-        max: 40
-      - name: Right Distortion Engine - Crunch Tube II
-        description: ''
-        min: 41
-        max: 41
-      - name: Right Distortion Engine - Grated Bass
-        description: ''
-        min: 42
-        max: 42
-      - name: Right Distortion Engine - Clean (No Distortion)
-        description: ''
-        min: 43
-        max: 43
-      - name: Right Distortion Engine - Smoked Glass D5M
-        description: ''
-        min: 44
-        max: 44
-      - name: Right Distortion Engine - The Klone
-        description: ''
-        min: 45
-        max: 45
-      - name: Right Distortion Engine - Pepperface Fuzz
-        description: ''
-        min: 46
-        max: 46
-      - name: Right Distortion Engine - Vari-Screamer
-        description: ''
-        min: 47
-        max: 47
-      - name: Right Distortion Engine - Foldover II
-        description: ''
-        min: 48
-        max: 48
-      - name: Right Distortion Engine - Germanium Muffin
-        description: ''
-        min: 49
-        max: 49
+    min: 0
+    max: 127
+  - name: Right Distortion Engine - Tube Drive
+    value: '16'
+    description: ''
+    min: 0
+    max: '0'
+  - name: Right Distortion Engine - Smooth Tube
+    value: '16'
+    description: ''
+    min: '1'
+    max: '1'
+  - name: Right Distortion Engine - Power Stage
+    value: '16'
+    description: ''
+    min: '2'
+    max: '2'
+  - name: Right Distortion Engine - Crunch Tube
+    value: '16'
+    description: ''
+    min: '3'
+    max: '3'
+  - name: Right Distortion Engine - TS9000
+    value: '16'
+    description: ''
+    min: '4'
+    max: '4'
+  - name: Right Distortion Engine - Big Pi
+    value: '16'
+    description: ''
+    min: '5'
+    max: '5'
+  - name: Right Distortion Engine - El Raton
+    value: '16'
+    description: ''
+    min: '6'
+    max: '6'
+  - name: Right Distortion Engine - Fuzz Facade
+    value: '16'
+    description: ''
+    min: '7'
+    max: '7'
+  - name: Right Distortion Engine - Bender
+    value: '16'
+    description: ''
+    min: '8'
+    max: '8'
+  - name: Right Distortion Engine - Metal
+    value: '16'
+    description: ''
+    min: '9'
+    max: '9'
+  - name: Right Distortion Engine - Octave Fuzz
+    value: '16'
+    description: ''
+    min: '10'
+    max: '10'
+  - name: Right Distortion Engine - Gated Fuzz
+    value: '16'
+    description: ''
+    min: '11'
+    max: '11'
+  - name: Right Distortion Engine - Bass Tube Drive
+    value: '16'
+    description: ''
+    min: '12'
+    max: '12'
+  - name: Right Distortion Engine - Bass Smooth Tube
+    value: '16'
+    description: ''
+    min: '13'
+    max: '13'
+  - name: Right Distortion Engine - Bass Power Stage
+    value: '16'
+    description: ''
+    min: '14'
+    max: '14'
+  - name: Right Distortion Engine - Bass Crunch Tube
+    value: '16'
+    description: ''
+    min: '15'
+    max: '15'
+  - name: Right Distortion Engine - Bass TS9000
+    value: '16'
+    description: ''
+    min: '16'
+    max: '16'
+  - name: Right Distortion Engine - Bass Big Pi
+    value: '16'
+    description: ''
+    min: '17'
+    max: '17'
+  - name: Right Distortion Engine - Bass El Raton
+    value: '16'
+    description: ''
+    min: '18'
+    max: '18'
+  - name: Right Distortion Engine - Bass Fuzz Facade
+    value: '16'
+    description: ''
+    min: '19'
+    max: '19'
+  - name: Right Distortion Engine - Bass Bender
+    value: '16'
+    description: ''
+    min: '20'
+    max: '20'
+  - name: Right Distortion Engine - Bass Metal
+    value: '16'
+    description: ''
+    min: '21'
+    max: '21'
+  - name: Right Distortion Engine - Bass Octave Fuz
+    value: '16'
+    description: ''
+    min: '22'
+    max: '22'
+  - name: Right Distortion Engine - Bass Gated Fuzz
+    value: '16'
+    description: ''
+    min: '23'
+    max: '23'
+  - name: Right Distortion Engine - Gated Fuzz II
+    value: '16'
+    description: ''
+    min: '24'
+    max: '24'
+  - name: Right Distortion Engine - Gated Fuzz III
+    value: '16'
+    description: ''
+    min: '25'
+    max: '25'
+  - name: Right Distortion Engine - TS9001
+    value: '16'
+    description: ''
+    min: '26'
+    max: '26'
+  - name: Right Distortion Engine - Maestro FZ-1A
+    value: '16'
+    description: ''
+    min: '27'
+    max: '27'
+  - name: Right Distortion Engine - Bigger Pi
+    value: '16'
+    description: ''
+    min: '28'
+    max: '28'
+  - name: Right Distortion Engine - Foldover
+    value: '16'
+    description: ''
+    min: '29'
+    max: '29'
+  - name: Right Distortion Engine - OhSeeDee
+    value: '16'
+    description: ''
+    min: '30'
+    max: '30'
+  - name: Right Distortion Engine - Fuzz Face II
+    value: '16'
+    description: ''
+    min: '31'
+    max: '31'
+  - name: Right Distortion Engine - DS-1
+    value: '16'
+    description: ''
+    min: '32'
+    max: '32'
+  - name: Right Distortion Engine - Rat II
+    value: '16'
+    description: ''
+    min: '33'
+    max: '33'
+  - name: Right Distortion Engine - Bender II
+    value: '16'
+    description: ''
+    min: '34'
+    max: '34'
+  - name: Right Distortion Engine - Metal II
+    value: '16'
+    description: ''
+    min: '35'
+    max: '35'
+  - name: Right Distortion Engine - Octave II
+    value: '16'
+    description: ''
+    min: '36'
+    max: '36'
+  - name: Right Distortion Engine - Smoked Glass C4L
+    value: '16'
+    description: ''
+    min: '37'
+    max: '37'
+  - name: Right Distortion Engine - 38 Special
+    value: '16'
+    description: ''
+    min: '38'
+    max: '38'
+  - name: Right Distortion Engine - Smooth Tube II
+    value: '16'
+    description: ''
+    min: '39'
+    max: '39'
+  - name: Right Distortion Engine - Power Stage II
+    value: '16'
+    description: ''
+    min: '40'
+    max: '40'
+  - name: Right Distortion Engine - Crunch Tube II
+    value: '16'
+    description: ''
+    min: '41'
+    max: '41'
+  - name: Right Distortion Engine - Grated Bass
+    value: '16'
+    description: ''
+    min: '42'
+    max: '42'
+  - name: Right Distortion Engine - Clean (No Distortion)
+    value: '16'
+    description: ''
+    min: '43'
+    max: '43'
+  - name: Right Distortion Engine - Smoked Glass D5M
+    value: '16'
+    description: ''
+    min: '44'
+    max: '44'
+  - name: Right Distortion Engine - The Klone
+    value: '16'
+    description: ''
+    min: '45'
+    max: '45'
+  - name: Right Distortion Engine - Pepperface Fuzz
+    value: '16'
+    description: ''
+    min: '46'
+    max: '46'
+  - name: Right Distortion Engine - Vari-Screamer
+    value: '16'
+    description: ''
+    min: '47'
+    max: '47'
+  - name: Right Distortion Engine - Foldover II
+    value: '16'
+    description: ''
+    min: '48'
+    max: '48'
+  - name: Right Distortion Engine - Germanium Muffin
+    value: '16'
+    description: ''
+    min: '49'
+    max: '49'
   - name: Right Clean Mix
-    value: 17
+    value: '17'
     description: ''
     min: 0
     max: 127
   - name: Right Drive Balance
-    value: 18
+    value: '18'
     description: ''
     min: 0
     max: 127
   - name: Right Drive Maximum
-    value: 19
+    value: '19'
     description: ''
     min: 0
     max: 127
   - name: Right Treble 3436 Hz
-    value: 20
+    value: '20'
     description: ''
     min: 0
     max: 127
   - name: Right Bass 85 Hz
-    value: 21
+    value: '21'
     description: ''
     min: 0
     max: 127
   - name: Right Mid A 1201 Hz
-    value: 22
+    value: '22'
     description: ''
     min: 0
     max: 127
   - name: Right Mid B 379 Hz
-    value: 23
+    value: '23'
     description: ''
     min: 0
     max: 127
   - name: Noise Gate Threshold
-    value: 24
+    value: '24'
     description: ''
     min: 0
     max: 127
   - name: Clean High Cut
-    value: 25
+    value: '25'
     description: ''
     min: 0
     max: 127
   - name: Treble Freq
-    value: 26
+    value: '26'
     description: ''
     min: 0
     max: 127
   - name: Bass Freq
-    value: 27
+    value: '27'
     description: ''
     min: 0
     max: 127
   - name: Mid A Freq
-    value: 28
+    value: '28'
     description: ''
     min: 0
     max: 127
   - name: Mid A Q
-    value: 29
+    value: '29'
     description: ''
     min: 0
     max: 127
   - name: Mid B Freq
-    value: 30
+    value: '30'
     description: ''
     min: 0
     max: 127
   - name: Mid B Q
-    value: 31
+    value: '31'
     description: ''
     min: 0
     max: 127
   - name: Input Low Cut
-    value: 32
+    value: '32'
     description: ''
     min: 0
-    max: 36
+    max: '36'
   - name: I/O Routing
-    value: 33
+    value: '33'
     description: ''
     min: 0
     max: 127
   - name: Filter Gate Option
-    value: 34
+    value: '34'
     description: ''
     min: 0
     max: 127
   - name: Noise Gate Enable
-    value: 35
+    value: '35'
     description: ''
     min: 0
     max: 127
   - name: Channel Switch Control
-    value: 36
+    value: '36'
     description: ''
     min: 0
     max: 127
   - name: Bypass/Engage
-    value: 37
+    value: '37'
     description: ''
     min: 0
     max: 127

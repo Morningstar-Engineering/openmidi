@@ -15,115 +15,104 @@ pc:
     The ML5 has 128 presets. PC#0 to PC#127 will recall each preset.
 
 cc:
-  - name: Bypass All Loops / Engage all Loops
+  - name: 'Bypass All Loops'
     value: 0
     description: ''
-    group:
-      - name: Bypass All Loops
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage all Loops
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Bypass Loop A / Engage Loop A
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage all Loops'
+    value: 0
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop A'
     value: 1
     description: ''
-    group:
-      - name: Bypass Loop A
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage Loop A
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Bypass Loop B / Engage Loop B
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop A'
+    value: 1
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop B'
     value: 2
     description: ''
-    group:
-      - name: Bypass Loop B
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage Loop B
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Bypass Loop C / Engage Loop C
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop B'
+    value: 2
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop C'
     value: 3
     description: ''
-    group:
-      - name: Bypass Loop C
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage Loop C
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Bypass Loop D / Engage Loop D
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop C'
+    value: 3
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop D'
     value: 4
     description: ''
-    group:
-      - name: Bypass Loop D
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage Loop D
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Bypass Loop E / Engage Loop E
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop D'
+    value: 4
+    description: ''
+    type: System
+    min: 64
+    max: 127
+  - name: 'Bypass Loop E'
     value: 5
     description: ''
-    group:
-      - name: Bypass Loop E
-        description: ''
-        min: 0
-        max: 63
-        type: System
-      - name: Engage Loop E
-        description: ''
-        min: 64
-        max: 127
-        type: System
-  - name: Toggle Bypass - Loop A
+    type: System
+    min: 0
+    max: 63
+  - name: 'Engage Loop E'
+    value: 5
+    description: ''
+    type: System
+    min: 64
+    max: 127
+
+  - name: 'Toggle Bypass - Loop A'
     value: 6
     description: ''
     type: System
     min: 0
     max: 127
-  - name: Toggle Bypass - Loop B
+  - name: 'Toggle Bypass - Loop B'
     value: 7
     description: ''
     type: System
     min: 0
     max: 127
-  - name: Toggle Bypass - Loop C
+  - name: 'Toggle Bypass - Loop C'
     value: 8
     description: ''
     type: System
     min: 0
     max: 127
-  - name: Toggle Bypass - Loop D
+  - name: 'Toggle Bypass - Loop D'
     value: 9
     description: ''
     type: System
     min: 0
     max: 127
-  - name: Toggle Bypass - Loop E
+  - name: 'Toggle Bypass - Loop E'
     value: 10
     description: ''
     type: System

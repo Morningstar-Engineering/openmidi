@@ -39,129 +39,118 @@ pc:
     preset data can be stored at this preset location.
 
 cc:
-  - description:
+  - description: 
     max: 2
     min: 0
     name: MIDI Patch Bank
     value: 0
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Volume Pedal
     value: 7
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Level
     value: 12
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Drive
     value: 13
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Bass
     value: 14
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Mid
     value: 15
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Treble
     value: 16
-  - description:
+  - description: 
     max: 127
     min: 0
     name: Boost Level
     value: 17
-  - name: Boost Off / Boost On
+  - description: 
+    max: 0
+    min: 0
+    name: Boost Off
     value: 18
-    description: ''
-    group:
-      - name: Boost Off
-        description: ''
-        min: 0
-        max: 0
-      - name: Boost On
-        description: ''
-        min: 127
-        max: 127
-  - name: Gain - Low / Gain - High
+  - description: 
+    max: 127
+    min: 127
+    name: Boost On
+    value: 18
+  - description:  (Note) Might be wrongly documented in the Riverside Manual, where value 2 should be the correct value for Gain - Low
+    max: 1
+    min: 1
+    name: Gain - Low
     value: 19
-    description: (Note) Might be wrongly documented in the Riverside Manual, where value 2 should be the correct value for Gain - Low; (Note) Might be wrongly documented in the Riverside Manual, where value 1 should be the correct value for Gain - High
-    group:
-      - name: Gain - Low
-        description: (Note) Might be wrongly documented in the Riverside Manual, where value 2 should be the correct value for Gain - Low
-        min: 1
-        max: 1
-      - name: Gain - High
-        description: (Note) Might be wrongly documented in the Riverside Manual, where value 1 should be the correct value for Gain - High
-        min: 2
-        max: 2
-  - name: Push - Norm / Push - Mid
+  - description: (Note) Might be wrongly documented in the Riverside Manual, where value 1 should be the correct value for Gain - High
+    max: 2
+    min: 2
+    name: Gain - High
+    value: 19
+  - description: 
+    max: 1
+    min: 1
+    name: Push - Norm
     value: 20
-    description: ''
-    group:
-      - name: Push - Norm
-        description: ''
-        min: 1
-        max: 1
-      - name: Push - Mid
-        description: ''
-        min: 2
-        max: 2
-  - name: Presence + / Presence - / Presence Middle
+  - description: 
+    max: 2
+    min: 2
+    name: Push - Mid
+    value: 20
+  - description: 
+    max: 1
+    min: 1
+    name: Presence +
     value: 21
-    description: ''
-    group:
-      - name: Presence +
-        description: ''
-        min: 1
-        max: 1
-      - name: Presence -
-        description: ''
-        min: 2
-        max: 2
-      - name: Presence Middle
-        description: ''
-        min: 3
-        max: 3
-  - description:
+  - description: 
+    max: 2
+    min: 2
+    name: Presence -
+    value: 21
+  - description: 
+    max: 3
+    min: 3
+    name: Presence Middle
+    value: 21
+  - description: 
     max: 127
     min: 0
     name: Noise Gate
     value: 22
-  - name: MIDI Expression Off / MIDI Expression On
+  - description: 
+    max: 0
+    min: 0
+    name: MIDI Expression Off
     value: 60
-    description: ''
-    group:
-      - name: MIDI Expression Off
-        description: ''
-        min: 0
-        max: 0
-      - name: MIDI Expression On
-        description: ''
-        min: 127
-        max: 127
-  - description:
+  - description: 
+    max: 127
+    min: 127
+    name: MIDI Expression On
+    value: 60
+  - description: 
     max: 127
     min: 0
     name: Expression Pedal
     value: 100
-  - name: Bypass / Engage (On)
+  - description: 
+    max: 0
+    min: 0
+    name: Bypass
     value: 102
-    description: ''
-    group:
-      - name: Bypass
-        description: ''
-        min: 0
-        max: 0
-      - name: Engage (On)
-        description: ''
-        min: 127
-        max: 127
+  - description: 
+    max: 127
+    min: 127
+    name: Engage (On)
+    value: 102
