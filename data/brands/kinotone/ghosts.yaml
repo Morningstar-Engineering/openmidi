@@ -15,141 +15,135 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Mix
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Volume
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Root
-    value: '16'
+    value: 16
     description: ''
     min: 0
     max: 127
   - name: Chord
-    value: '17'
+    value: 17
     description: ''
     min: 0
     max: 127
   - name: Tone
-    value: '18'
+    value: 18
     description: ''
     min: 0
     max: 127
   - name: Decay
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Touch 1
-    value: '20'
+    value: 20
     description: ''
     min: 0
     max: 127
   - name: Touch 2
-    value: '21'
+    value: 21
     description: ''
     min: 0
     max: 127
   - name: Position
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: Voicing
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: Reverb Mix & Placement
-    value: '24'
+    value: 24
     description: 0 - 63 = Pre Resonator Mix ; 64 - 127 = Post Resonator Mix ;
     min: 0
     max: 127
   - name: Reverb Decay
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Touch Pre Post
-    value: '26'
+    value: 26
     description: 0 - 63 = Pre ; 64 - 127 = Post ;
     min: 0
     max: 127
   - name: Touch 3
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Limiter Threshold
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Mic Level
-    value: '29'
+    value: 29
     description: ''
     min: 0
     max: 127
   - name: Input Filter
-    value: '30'
+    value: 30
     description: 0 - 63 = High Pass ; 64 - 127 = Low Pass ;
     min: 0
     max: 127
   - name: Exciter Type
-    value: '31'
-    description: >-
-      0 - 31 = Pluck / Strike ; 32 - 63 = Air ; 64 - 95 = Vocoder ; 96 - 127 =
-      Vocoder Hold ;
+    value: 31
+    description: 0 - 31 = Pluck / Strike ; 32 - 63 = Air ; 64 - 95 = Vocoder ; 96 - 127 = Vocoder Hold ;
     min: 0
     max: 127
   - name: Touch Mode
-    value: '32'
-    description: >-
-      0 - 31 = Endless Loop ; 32 - 63 = Rhythm Generator ; 64 - 95 = Shepard
-      Shifter ; 96 - 127 = Terrazzo ;
+    value: 32
+    description: 0 - 31 = Endless Loop ; 32 - 63 = Rhythm Generator ; 64 - 95 = Shepard Shifter ; 96 - 127 = Terrazzo ;
     min: 0
     max: 127
   - name: Model
-    value: '33'
+    value: 33
     description: 0 - 42 = Strings ; 43 - 85 = Tubes ; 86 - 127 = Bars ;
     min: 0
     max: 127
   - name: Mic On / Off
-    value: '34'
+    value: 34
     description: 0 - 64 = Off ; 65 - 127 = On ;
     min: 0
     max: 127
   - name: Ignore MIDI Clock
-    value: '51'
+    value: 51
     description: 0 = Ignore ; 1 - 127 = Listen ;
     min: 0
     max: 127
   - name: Ignore MIDI Transport (Start / Stop)
-    value: '52'
+    value: 52
     description: 0 = Ignore ; 1 - 127 = Listen ;
     min: 0
     max: 127
   - name: Clear Endless Loop
-    value: '60'
+    value: 60
     description: 0 - 64 = False ; 65 - 127 = True ;
     min: 0
     max: 127
   - name: Touch Footswitch
-    value: '80'
-    description: >-
-      Endless Loop: Send 127 to advance state (rec, dub, play, dub, play, etc.)
-      ;
+    value: 80
+    description: 'Endless Loop: Send 127 to advance state (rec, dub, play, dub, play, etc.) ;
 
 
-      All other Touch Modes: 0 - 64 = Off ; 65 - 127 = On ;
+      All other Touch Modes: 0 - 64 = Off ; 65 - 127 = On ;'
     min: 0
     max: 127
   - name: Bypass Footswitch
-    value: '81'
+    value: 81
     description: 0 - 64 = Off ; 65 - 127 = On ;
     min: 0
     max: 127

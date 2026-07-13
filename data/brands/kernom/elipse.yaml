@@ -14,57 +14,57 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Shape
-    value: '20'
+    value: 20
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Mood
-    value: '21'
+    value: 21
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Speed
-    value: '22'
+    value: 22
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Depth
-    value: '23'
+    value: 23
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Mix
-    value: '24'
+    value: 24
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Swirl
-    value: '25'
+    value: 25
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: Exp
-    value: '26'
+    value: 26
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: FS Preset
-    value: '27'
+    value: 27
     description: ''
-    min: '1'
+    min: 1
     max: 127
   - name: FS On/Off
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Tap Tempo
-    value: '85'
+    value: 85
     description: ''
     min: 0
     max: 127
   - name: Tempo Subdivision
-    value: '86'
+    value: 86
     description: ''
     min: 0
     max: 127

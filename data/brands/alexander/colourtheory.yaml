@@ -1,5 +1,158 @@
 brand: Alexander Pedals
 cc:
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Tempo
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 100
+  - name: Bypass / Engage
+    value: 102
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Step Lag
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: Sequence Rate
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Lower Right Alt
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: Upper Left Alt
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: Lower Left Alt
+    value: 57
+  - name: Mode 1 / Mode 2 / Mode 3 / Mode 4 / Mode 5 / Mode 6 / Mode 7 / Mode 8
+    value: 59
+    description: ''
+    group:
+      - name: Mode 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Mode 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Mode 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Mode 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Mode 5
+        description: ''
+        min: 4
+        max: 4
+      - name: Mode 6
+        description: ''
+        min: 5
+        max: 5
+      - name: Mode 7
+        description: ''
+        min: 6
+        max: 6
+      - name: Mode 8
+        description: ''
+        min: 7
+        max: 7
+  - name: 'Set Steps: 2 / Set Steps: 3 / Set Steps: 4 / Set Steps: 5 / Set Steps: 6 / Set Steps: 7 / Set Steps: 8'
+    value: 56
+    description: ''
+    group:
+      - name: 'Set Steps: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Set Steps: 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Set Steps: 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Set Steps: 5'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Set Steps: 6'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Set Steps: 7'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Set Steps: 8'
+        description: ''
+        min: 8
+        max: 8
+  - description: ''
+    max: 8
+    min: 1
+    name: Set Current Step
+    value: 60
+  - name: Start Sequence / Park Sequence
+    value: 61
+    description: ''
+    group:
+      - name: Start Sequence
+        description: ''
+        min: 0
+        max: 0
+      - name: Park Sequence
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Set Sequence Order: Step Up / Set Sequence Order: Step Up and Down / Set Sequence Order: Random'
+    value: 62
+    description: ''
+    group:
+      - name: 'Set Sequence Order: Step Up'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Set Sequence Order: Step Up and Down'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Set Sequence Order: Random'
+        description: ''
+        min: 2
+        max: 2
 - description: ''
   max: 127
   min: 127

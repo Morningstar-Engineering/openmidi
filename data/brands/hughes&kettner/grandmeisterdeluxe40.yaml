@@ -1,5 +1,213 @@
 brand: Hughes & Kettner
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Modulation Intensity
+    value: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Delay Time
+    value: 4
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume (soft)
+    value: 7
+  - name: 'Mute: On / Mute: Off'
+    value: 9
+    description: ''
+    group:
+      - name: 'Mute: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Mute: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod-FX Type
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Gain (soft)
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Bass
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Mid
+    value: 22
+  - description: ''
+    max: 127
+    min: 0
+    name: Treble
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Resonance
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Presence
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Modulation Speed
+    value: 26
+  - description: ''
+    max: 127
+    min: 0
+    name: Delay Feedback
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Delay Volume
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Volume
+    value: 29
+  - name: 'Power Soak Switching: 1 / Power Soak Switching: 2 / Power Soak Switching: 3 / Power Soak Switching: 4 / Power Soak Switching: 5'
+    value: 30
+    description: ''
+    group:
+      - name: 'Power Soak Switching: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Power Soak Switching: 2'
+        description: ''
+        min: 30
+        max: 30
+      - name: 'Power Soak Switching: 3'
+        description: ''
+        min: 64
+        max: 64
+      - name: 'Power Soak Switching: 4'
+        description: ''
+        min: 85
+        max: 85
+      - name: 'Power Soak Switching: 5'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Channel Switching: 1 / Channel Switching: 2 / Channel Switching: 3 / Channel Switching: 4'
+    value: 31
+    description: ''
+    group:
+      - name: 'Channel Switching: 1'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Channel Switching: 2'
+        description: ''
+        min: 50
+        max: 50
+      - name: 'Channel Switching: 3'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'Channel Switching: 4'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Mod-FX: On / Mod-FX: Off'
+    value: 52
+    description: ''
+    group:
+      - name: 'Mod-FX: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Mod-FX: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Delay: On / Delay: Off'
+    value: 53
+    description: ''
+    group:
+      - name: 'Delay: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Delay: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Reverb: On / Reverb: Off'
+    value: 54
+    description: ''
+    group:
+      - name: 'Reverb: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Reverb: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX-Loop: On / FX-Loop: Off'
+    value: 55
+    description: ''
+    group:
+      - name: 'FX-Loop: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX-Loop: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Gain (hard)
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume (hard)
+    value: 57
+  - name: 'Noise Gate: On / Noise Gate: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'Noise Gate: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Noise Gate: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Boost: On / Boost: Off'
+    value: 64
+    description: ''
+    group:
+      - name: 'Boost: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Boost: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

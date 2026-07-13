@@ -1,5 +1,85 @@
 brand: Alexander Pedals
 cc:
+  - description: ''
+    max: 127
+    min: 127
+    name: Ramp
+    value: 97
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 100
+  - name: Bypass / Engage
+    value: 102
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Tweak Knob
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Knob
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Space Knob
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix Knob
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Clock Knob
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Level Knob
+    value: 57
+  - name: Mode 1 / Mode 2 / Mode 3 / Mode 4 / Mode 5 / Mode 6
+    value: 59
+    description: ''
+    group:
+      - name: Mode 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Mode 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Mode 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Mode 4
+        description: ''
+        min: 3
+        max: 3
+      - name: Mode 5
+        description: ''
+        min: 4
+        max: 4
+      - name: Mode 6
+        description: ''
+        min: 5
+        max: 5
 - description: ''
   max: 127
   min: 127

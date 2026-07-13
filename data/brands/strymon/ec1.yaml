@@ -16,89 +16,91 @@ cc:
     value: 0
     description: 0 = Bank 1 ; 1 = Bank 2 ; 3 = Bank 3
     min: 0
-    max: '2'
+    max: 2
   - name: Rec Level
-    value: '11'
+    value: 11
     description: 1 = low ; 2 = med ;  3 = high
-    min: '1'
-    max: '3'
+    min: 1
+    max: 3
   - name: Time
-    value: '12'
+    value: 12
     description: ''
     min: 0
     max: 127
   - name: Tape Age
-    value: '13'
+    value: 13
     description: ''
     min: 0
     max: 127
   - name: Repeats
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Mechanics
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Mix
-    value: '16'
+    value: 16
     description: ''
     min: 0
     max: 127
   - name: Preamp Select
-    value: '17'
+    value: 17
     description: 1 = off ; 2 = modded EP ; 3 = original EP ;
     min: 0
-    max: '3'
+    max: 3
   - name: Tap Division
-    value: '18'
+    value: 18
     description: 0 = eighth triplet ; 1 = eighth ; 2 = dotted eighth ; 3 = quarter ;
     min: 0
-    max: '3'
+    max: 3
   - name: Preamp Boost
-    value: '19'
+    value: 19
     description: ''
     min: 0
     max: 127
   - name: Footswitch
-    value: '27'
+    value: 27
     description: 0 = release ; 1 - 127 = press
     min: 0
     max: 127
   - name: MIDI Expression Off/On
-    value: '60'
+    value: 60
     description: 0 = off ; 1 - 127 = on ;
     min: 0
     max: 127
   - name: MIDI Clock Off/On
-    value: '63'
+    value: 63
     description: 0 = off ; 1 - 127 = on ;
     min: 0
     max: 127
   - name: Tap
-    value: '93'
+    value: 93
     description: any value
     min: 0
     max: 127
   - name: 'Infinite '
-    value: '97'
+    value: 97
     description: 0 = release ; 1 - 127 = hold ;
     min: 0
     max: 127
   - name: Expression Pedal
-    value: '100'
+    value: 100
     description: 0 = heel ; 127 = toe ;
     min: 0
     max: 127
-  - name: Engage
-    value: '102'
+  - name: Engage / Bypass
+    value: 102
     description: ''
-    min: 127
-    max: 127 
-  - name: Bypass
-    value: '102'
-    description: ''
-    min: 0
-    max: 0
+    group:
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0

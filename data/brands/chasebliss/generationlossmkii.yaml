@@ -4,6 +4,478 @@ email: 'midi@chasebliss.com'
 url: >-
   https://www.chasebliss.com/s/Generation-Loss-MKII_MIDI-Manual_Pedal_Chase-Blisspdf.pdf
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 100
+  - description: ''
+    max: 122
+    min: 0
+    name: Preset Save
+    value: 111
+  - description: ''
+    max: 127
+    min: 0
+    name: Aux Onset Time
+    value: 24
+  - name: 'Bypass: DSP / Bypass: True'
+    value: 26
+    description: ''
+    group:
+      - name: 'Bypass: DSP'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Bypass: True'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Hiss Level
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Mechanical Noise Level
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Crinkle Pop Level
+    value: 29
+  - name: 'Input Gain: Line Level / Input Gain: Instrument Level / Input Gain: High Gain'
+    value: 32
+    description: ''
+    group:
+      - name: 'Input Gain: Line Level'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Input Gain: Instrument Level'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Input Gain: High Gain'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Ramp/Bounce: On / Ramp/Bounce: Off'
+    value: 52
+    description: ''
+    group:
+      - name: 'Ramp/Bounce: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Ramp/Bounce: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Model: None / Model: CPR-3300 Gen1 / Model: CPR-3300 Gen2 / Model: CPR-3300 Gen3 / Model: Portamax-RT / Model: Portamax-HT / Model: CAM-8 / Model: Dictatron-EX / Model: Dictatron-IN / Model: Fishy 60 / Model: MS-Walker / Model: AMU-2 / Model: M-PEX / Model/LP'
+    value: 16
+    description: ''
+    group:
+      - name: 'Model: None'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Model: CPR-3300 Gen1'
+        description: ''
+        min: 15
+        max: 15
+      - name: 'Model: CPR-3300 Gen2'
+        description: ''
+        min: 24
+        max: 24
+      - name: 'Model: CPR-3300 Gen3'
+        description: ''
+        min: 33
+        max: 33
+      - name: 'Model: Portamax-RT'
+        description: ''
+        min: 43
+        max: 43
+      - name: 'Model: Portamax-HT'
+        description: ''
+        min: 53
+        max: 53
+      - name: 'Model: CAM-8'
+        description: ''
+        min: 62
+        max: 62
+      - name: 'Model: Dictatron-EX'
+        description: ''
+        min: 72
+        max: 72
+      - name: 'Model: Dictatron-IN'
+        description: ''
+        min: 82
+        max: 82
+      - name: 'Model: Fishy 60'
+        description: ''
+        min: 91
+        max: 91
+      - name: 'Model: MS-Walker'
+        description: ''
+        min: 101
+        max: 101
+      - name: 'Model: AMU-2'
+        description: ''
+        min: 111
+        max: 111
+      - name: 'Model: M-PEX'
+        description: ''
+        min: 127
+        max: 127
+      - name: Model/LP
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Wow
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Flutter
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: Saturate/Gen
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Failure/HP
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: Ramp Speed
+    value: 20
+  - name: 'Aux: 1 / Aux: 2 / Aux: 3'
+    value: 21
+    description: ''
+    group:
+      - name: 'Aux: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Aux: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Aux: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Dry: 1 / Dry: 2 / Dry: 3'
+    value: 22
+    description: ''
+    group:
+      - name: 'Dry: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Dry: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Dry: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Noise: 1 / Noise: 2 / Noise: 3'
+    value: 23
+    description: ''
+    group:
+      - name: 'Noise: 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Noise: 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Noise: 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: Bypass Pedal / Engage Pedal
+    value: 102
+    description: ''
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Aux: On / Aux: Off'
+    value: 103
+    description: ''
+    group:
+      - name: 'Aux: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Aux: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'ALT: Enter / ALT: Exit'
+    value: 104
+    description: ''
+    group:
+      - name: 'ALT: Enter'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'ALT: Exit'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Left Switch: On / Left Switch: Off'
+    value: 105
+    description: ''
+    group:
+      - name: 'Left Switch: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Left Switch: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Right Switch: On / Right Switch: Off'
+    value: 106
+    description: ''
+    group:
+      - name: 'Right Switch: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Right Switch: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Center Switch: On / Center Switch: Off'
+    value: 107
+    description: ''
+    group:
+      - name: 'Center Switch: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Center Switch: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Wow: On / DIP - Wow: Off'
+    value: 61
+    description: ''
+    group:
+      - name: 'DIP - Wow: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Wow: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Flutter: On / DIP - Flutter: Off'
+    value: 62
+    description: ''
+    group:
+      - name: 'DIP - Flutter: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Flutter: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Sat/Gen: On / DIP - Sat/Gen: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'DIP - Sat/Gen: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Sat/Gen: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Failure/HP: On / DIP - Failure/HP: Off'
+    value: 64
+    description: ''
+    group:
+      - name: 'DIP - Failure/HP: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Failure/HP: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Model/LP: On / DIP - Model/LP: Off'
+    value: 65
+    description: ''
+    group:
+      - name: 'DIP - Model/LP: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Model/LP: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Bounce: On / DIP - Bounce: Off'
+    value: 66
+    description: ''
+    group:
+      - name: 'DIP - Bounce: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Bounce: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Random: On / DIP - Random: Off'
+    value: 67
+    description: ''
+    group:
+      - name: 'DIP - Random: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Random: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Sweep: T / DIP - Sweep: B'
+    value: 68
+    description: ''
+    group:
+      - name: 'DIP - Sweep: T'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Sweep: B'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Polarity: R / DIP - Polarity: F'
+    value: 71
+    description: ''
+    group:
+      - name: 'DIP - Polarity: R'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Polarity: F'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Classic: On / DIP - Classic: Off'
+    value: 72
+    description: ''
+    group:
+      - name: 'DIP - Classic: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Classic: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Miso: On / DIP - Miso: Off'
+    value: 73
+    description: ''
+    group:
+      - name: 'DIP - Miso: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Miso: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Spread: On / DIP - Spread: Off'
+    value: 74
+    description: ''
+    group:
+      - name: 'DIP - Spread: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Spread: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Dry Type: On / DIP - Dry Type: Off'
+    value: 75
+    description: ''
+    group:
+      - name: 'DIP - Dry Type: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Dry Type: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Drop Byp: On / DIP - Drop Byp: Off'
+    value: 76
+    description: ''
+    group:
+      - name: 'DIP - Drop Byp: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Drop Byp: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Snag Byp: On / DIP - Snag Byp: Off'
+    value: 77
+    description: ''
+    group:
+      - name: 'DIP - Snag Byp: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Snag Byp: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'DIP - Hum Byp: On / DIP - Hum Byp: Off'
+    value: 78
+    description: ''
+    group:
+      - name: 'DIP - Hum Byp: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'DIP - Hum Byp: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

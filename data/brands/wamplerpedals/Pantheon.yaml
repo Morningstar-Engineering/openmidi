@@ -20,63 +20,69 @@ pc:
     - To load: Send the corresponding PC# (0-127).
 
 cc:
-  - name: 'Channel 1 Off'
+  - name: Channel 1 Off / Channel 1 On
     value: 0
-    description: 'Sets the off state of Channel 1'
-    min: 0
-    max: 0
-  - name: 'Channel 1 On'
-    value: 0
-    description: 'Sets the on state of Channel 1'
-    min: 1
-    max: 127
-  - name: 'Channel 2 Off'
+    description: Sets the off state of Channel 1; Sets the on state of Channel 1
+    group:
+      - name: Channel 1 Off
+        description: Sets the off state of Channel 1
+        min: 0
+        max: 0
+      - name: Channel 1 On
+        description: Sets the on state of Channel 1
+        min: 1
+        max: 127
+  - name: Channel 2 Off / Channel 2 On
     value: 1
-    description: 'Sets the off state of Channel 2'
-    min: 0
-    max: 0
-  - name: 'Channel 2 On'
-    value: 1
-    description: 'Sets the on state of Channel 2'
-    min: 1
-    max: 127
-  - name: 'Ch1 off, Ch2 off'
+    description: Sets the off state of Channel 2; Sets the on state of Channel 2
+    group:
+      - name: Channel 2 Off
+        description: Sets the off state of Channel 2
+        min: 0
+        max: 0
+      - name: Channel 2 On
+        description: Sets the on state of Channel 2
+        min: 1
+        max: 127
+  - name: Ch1 off, Ch2 off
     value: 2
-    description: 'Sets Ch1 off and Ch2 off'
+    description: Sets Ch1 off and Ch2 off
     min: 0
     max: 127
-  - name: 'Ch1 on, Ch2 off'
+  - name: Ch1 on, Ch2 off
     value: 3
-    description: 'Sets Ch1 on and Ch2 off'
+    description: Sets Ch1 on and Ch2 off
     min: 0
     max: 127
-  - name: 'Ch1 off, Ch2 on'
+  - name: Ch1 off, Ch2 on
     value: 4
-    description: 'Sets Ch1 off and Ch2 on'
+    description: Sets Ch1 off and Ch2 on
     min: 0
     max: 127
-  - name: 'Ch1 on, Ch2 on'
+  - name: Ch1 on, Ch2 on
     value: 5
-    description: 'Sets Ch1 on and Ch2 on'
+    description: Sets Ch1 on and Ch2 on
     min: 0
     max: 127
-  - name: 'Preset Increment'
+  - name: Preset Increment
     value: 16
-    description: 'Increments the preset number by <value>'
+    description: Increments the preset number by <value>
     min: 0
     max: 127
-  - name: 'Preset Decrement'
+  - name: Preset Decrement
     value: 17
-    description: 'Decrements the preset number by <value>'
+    description: Decrements the preset number by <value>
     min: 0
     max: 127
-  - name: 'MIDI Channel Assign'
+  - name: MIDI Channel Assign / MIDI Omni Mode Assign
     value: 32
-    description: '0-15 = channel 1-16'
-    min: 0
-    max: 15
-  - name: 'MIDI Omni Mode Assign'
-    value: 32
-    description: '16 = omni mode'
-    min: 16
-    max: 16
+    description: 0-15 = channel 1-16; 16 = omni mode
+    group:
+      - name: MIDI Channel Assign
+        description: 0-15 = channel 1-16
+        min: 0
+        max: 15
+      - name: MIDI Omni Mode Assign
+        description: 16 = omni mode
+        min: 16
+        max: 16

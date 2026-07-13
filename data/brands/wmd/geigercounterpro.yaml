@@ -1,5 +1,214 @@
 brand: WMD
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Level
+    value: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Gain
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Tone
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 22
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter MSB
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter LSB
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: Bit Depth MSB
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Bit Depth LSB
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Sample Rate MSB
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Sample Rate LSB
+    value: 57
+  - description: ''
+    max: 127
+    min: 0
+    name: Bank MSB
+    value: 26
+  - description: ''
+    max: 127
+    min: 0
+    name: Table MSB
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Table LSB
+    value: 59
+  - name: 'Bypass Pedal / Engage Pedal / Tone Off / Tone On / Dry On / Dry Off / Sample Rate: Normal / Sample Rate: Fine / Bit Depth Post Table / Bit Depth Pre Table / Bit Depth Mode (Mask Disable) / Bit Depth Mode (Mask Enable) / Full Bit Depth (12 bit w/ no Gate) / Morph Off / Morph On / Randomize / Save to Active Preset / CV 1 Route to: Nothing / CV 1 Route to: Gain / CV 1 Route to: Tone / CV 1 Route to: Samples / CV 1 Route to: Bits / CV 1 Route to: Bank / CV 1 Route to: Table / CV 1 Route to: Blend / CV 1 Route to: Filter / CV 2 Route to: Nothing / CV 2 Route to: Gain / CV 2 Route to: Tone / CV 2 Route to: Samples / CV 2 Route to: Bits / CV 2 Route to: Bank / CV 2 Route to: Table / CV 2 Route to: Blend / CV 2 Route to: Filter'
+    value: 28
+    description: ''
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 1
+        max: 1
+      - name: Engage Pedal
+        description: ''
+        min: 2
+        max: 2
+      - name: Tone Off
+        description: ''
+        min: 11
+        max: 11
+      - name: Tone On
+        description: ''
+        min: 12
+        max: 12
+      - name: Dry On
+        description: ''
+        min: 17
+        max: 17
+      - name: Dry Off
+        description: ''
+        min: 18
+        max: 18
+      - name: 'Sample Rate: Normal'
+        description: ''
+        min: 21
+        max: 21
+      - name: 'Sample Rate: Fine'
+        description: ''
+        min: 22
+        max: 22
+      - name: Bit Depth Post Table
+        description: ''
+        min: 31
+        max: 31
+      - name: Bit Depth Pre Table
+        description: ''
+        min: 32
+        max: 32
+      - name: Bit Depth Mode (Mask Disable)
+        description: ''
+        min: 33
+        max: 33
+      - name: Bit Depth Mode (Mask Enable)
+        description: ''
+        min: 34
+        max: 34
+      - name: Full Bit Depth (12 bit w/ no Gate)
+        description: ''
+        min: 35
+        max: 35
+      - name: Morph Off
+        description: ''
+        min: 41
+        max: 41
+      - name: Morph On
+        description: ''
+        min: 42
+        max: 42
+      - name: Randomize
+        description: ''
+        min: 50
+        max: 50
+      - name: Save to Active Preset
+        description: ''
+        min: 60
+        max: 60
+      - name: 'CV 1 Route to: Nothing'
+        description: ''
+        min: 70
+        max: 70
+      - name: 'CV 1 Route to: Gain'
+        description: ''
+        min: 71
+        max: 71
+      - name: 'CV 1 Route to: Tone'
+        description: ''
+        min: 72
+        max: 72
+      - name: 'CV 1 Route to: Samples'
+        description: ''
+        min: 73
+        max: 73
+      - name: 'CV 1 Route to: Bits'
+        description: ''
+        min: 74
+        max: 74
+      - name: 'CV 1 Route to: Bank'
+        description: ''
+        min: 75
+        max: 75
+      - name: 'CV 1 Route to: Table'
+        description: ''
+        min: 76
+        max: 76
+      - name: 'CV 1 Route to: Blend'
+        description: ''
+        min: 77
+        max: 77
+      - name: 'CV 1 Route to: Filter'
+        description: ''
+        min: 78
+        max: 78
+      - name: 'CV 2 Route to: Nothing'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'CV 2 Route to: Gain'
+        description: ''
+        min: 81
+        max: 81
+      - name: 'CV 2 Route to: Tone'
+        description: ''
+        min: 82
+        max: 82
+      - name: 'CV 2 Route to: Samples'
+        description: ''
+        min: 83
+        max: 83
+      - name: 'CV 2 Route to: Bits'
+        description: ''
+        min: 84
+        max: 84
+      - name: 'CV 2 Route to: Bank'
+        description: ''
+        min: 85
+        max: 85
+      - name: 'CV 2 Route to: Table'
+        description: ''
+        min: 86
+        max: 86
+      - name: 'CV 2 Route to: Blend'
+        description: ''
+        min: 87
+        max: 87
+      - name: 'CV 2 Route to: Filter'
+        description: ''
+        min: 88
+        max: 88
 - description: ''
   max: 127
   min: 0

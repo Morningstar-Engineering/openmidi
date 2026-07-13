@@ -37,22 +37,24 @@ cc:
     max: 127
   - name: Expression Pedal
     value: 100
-    description: '0 = Heel Down, 127 = Toe Down'
+    description: 0 = Heel Down, 127 = Toe Down
     type: Parameter
     min: 0
     max: 127
-  - name: Bypass
+  - name: Bypass / Engage
     value: 102
     description: ''
-    type: Parameter
-    min: 0
-    max: 63
-  - name: Engage
-    value: 102
-    description: ''
-    type: Parameter
-    min: 64
-    max: 127
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: Parameter
+      - name: Engage
+        description: ''
+        min: 64
+        max: 127
+        type: Parameter
   - name: LFO / Expression / Ramp Range - Filter Lo
     value: 50
     description:
@@ -101,190 +103,189 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: LFO / Sequencer Controls - LFO Shape - No Sync
+  - name: LFO / Sequencer Controls - LFO Shape - No Sync / LFO / Sequencer Controls - LFO Shape - Tap / LFO / Sequencer Controls - LFO Shape - Bounce/Step
     value: 58
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - LFO Shape - Tap
-    value: 58
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - LFO Shape - Bounce/Step
-    value: 58
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-  - name: LFO / Sequencer Controls - LFO Rate - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - LFO Shape - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Shape - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Shape - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - LFO Rate - No Sync / LFO / Sequencer Controls - LFO Rate - Tap / LFO / Sequencer Controls - LFO Rate - Bounce/Step
     value: 59
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - LFO Rate - Tap
-    value: 59
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - LFO Rate - Bounce/Step
-    value: 59
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - LFO Depth - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - LFO Rate - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Rate - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Rate - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - LFO Depth - No Sync / LFO / Sequencer Controls - LFO Depth - Tap / LFO / Sequencer Controls - LFO Depth - Bounce/Step
     value: 60
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - LFO Depth - Tap
-    value: 60
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - LFO Depth - Bounce/Step
-    value: 60
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - LFO Sync - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - LFO Depth - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Depth - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Depth - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - LFO Sync - No Sync / LFO / Sequencer Controls - LFO Sync - Tap / LFO / Sequencer Controls - LFO Sync - Bounce/Step
     value: 61
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - LFO Sync - Tap
-    value: 61
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - LFO Sync - Bounce/Step
-    value: 61
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - Sequencer Pattern - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - LFO Sync - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Sync - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - LFO Sync - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - Sequencer Pattern - No Sync / LFO / Sequencer Controls - Sequencer Pattern - Tap / LFO / Sequencer Controls - Sequencer Pattern - Bounce/Step
     value: 62
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - Sequencer Pattern - Tap
-    value: 62
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - Sequencer Pattern - Bounce/Step
-    value: 62
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - Sequencer Rate - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - Sequencer Pattern - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Pattern - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Pattern - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - Sequencer Rate - No Sync / LFO / Sequencer Controls - Sequencer Rate - Tap / LFO / Sequencer Controls - Sequencer Rate - Bounce/Step
     value: 63
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - Sequencer Rate - Tap
-    value: 63
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - Sequencer Rate - Bounce/Step
-    value: 63
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - Sequencer Steps - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - Sequencer Rate - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Rate - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Rate - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - Sequencer Steps - No Sync / LFO / Sequencer Controls - Sequencer Steps - Tap / LFO / Sequencer Controls - Sequencer Steps - Bounce/Step
     value: 64
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - Sequencer Steps - Tap
-    value: 64
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - Sequencer Steps - Bounce/Step
-    value: 64
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: LFO / Sequencer Controls - Sequencer Sync - No Sync
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - Sequencer Steps - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Steps - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Steps - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: LFO / Sequencer Controls - Sequencer Sync - No Sync / LFO / Sequencer Controls - Sequencer Sync - Tap / LFO / Sequencer Controls - Sequencer Sync - Bounce/Step
     value: 65
-    description:
-    type: Parameter
-    min: 0
-    max: 42
-  - name: LFO / Sequencer Controls - Sequencer Sync - Tap
-    value: 65
-    description:
-    type: Parameter
-    min: 43
-    max: 87
-  - name: LFO / Sequencer Controls - Sequencer Sync - Bounce/Step
-    value: 65
-    description:
-    type: Parameter
-    min: 88
-    max: 127
-
-  - name: Dry Source - Analog with Trails
+    description: ''
+    group:
+      - name: LFO / Sequencer Controls - Sequencer Sync - No Sync
+        description: ''
+        min: 0
+        max: 42
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Sync - Tap
+        description: ''
+        min: 43
+        max: 87
+        type: Parameter
+      - name: LFO / Sequencer Controls - Sequencer Sync - Bounce/Step
+        description: ''
+        min: 88
+        max: 127
+        type: Parameter
+  - name: Dry Source - Analog with Trails / Dry Source - Analog / Dry Source - DSP
     value: 66
-    description:
-    type: System
-    min: 0
-    max: 42
-  - name: Dry Source - Analog
-    value: 66
-    description:
-    type: System
-    min: 43
-    max: 87
-  - name: Dry Source - DSP
-    value: 66
-    description:
-    type: System
-    min: 88
-    max: 127
-
+    description: ''
+    group:
+      - name: Dry Source - Analog with Trails
+        description: ''
+        min: 0
+        max: 42
+        type: System
+      - name: Dry Source - Analog
+        description: ''
+        min: 43
+        max: 87
+        type: System
+      - name: Dry Source - DSP
+        description: ''
+        min: 88
+        max: 127
+        type: System
   - name: Ramp Rate
     value: 67
     description:
     type: System
     min: 0
     max: 127
-
   - name: External Control Channel
     value: 68
     description:
     type: System
     min: 0
     max: 127
-
   - name: Level
     value: 69
     description:

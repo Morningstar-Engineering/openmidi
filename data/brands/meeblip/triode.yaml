@@ -1,5 +1,159 @@
 brand: Meeblip
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: LFO Depth
+    value: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Rate
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: Depth
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: Detune
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: Glide
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Resonance
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: Cutoff
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter Decay
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: Amplitude Decay
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: Accent
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Envelope Modulation
+    value: 57
+  - description: ''
+    max: 127
+    min: 0
+    name: Pulse Width
+    value: 58
+  - description: ''
+    max: 127
+    min: 0
+    name: Attack
+    value: 59
+  - description: ''
+    max: 127
+    min: 0
+    name: Amplitude Attack
+    value: 60
+  - name: 'Sustain: On / Sustain: Off'
+    value: 64
+    description: ''
+    group:
+      - name: 'Sustain: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Sustain: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Sub-oscillator: On / Sub-oscillator: Off'
+    value: 65
+    description: ''
+    group:
+      - name: 'Sub-oscillator: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Sub-oscillator: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'PWM Sweep: On / PWM Sweep: Off'
+    value: 66
+    description: ''
+    group:
+      - name: 'PWM Sweep: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'PWM Sweep: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Destination: On / Destination: Off'
+    value: 67
+    description: ''
+    group:
+      - name: 'Destination: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Destination: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Wave: On / Wave: Off'
+    value: 68
+    description: ''
+    group:
+      - name: 'Wave: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Wave: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Randomize: On / Randomize: Off'
+    value: 69
+    description: ''
+    group:
+      - name: 'Randomize: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Randomize: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Note retrigger: On / Note retrigger: Off'
+    value: 70
+    description: ''
+    group:
+      - name: 'Note retrigger: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Note retrigger: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

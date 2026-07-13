@@ -13,90 +13,93 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Change Tempo
-    value: '85'
-    description: |-
-      ● CC85 val. 0 followed by CC86 val. 30-127 will set the tempo to 30-127
+    value: 85
+    description: '● CC85 val. 0 followed by CC86 val. 30-127 will set the tempo to 30-127
+
       ● CC85 val. 1 followed by CC86 val. 0-127 will set the tempo to 128-255
+
       ● CC85 val. 2 followed by CC86 val. 0-127 will set the tempo to 256-383
-      ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400
+
+      ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400'
     min: 0
     max: 127
   - name: Change Tempo
-    value: '86'
-    description: |-
-      ● CC85 val. 0 followed by CC86 val. 30-127 will set the tempo to 30-127
+    value: 86
+    description: '● CC85 val. 0 followed by CC86 val. 30-127 will set the tempo to 30-127
+
       ● CC85 val. 1 followed by CC86 val. 0-127 will set the tempo to 128-255
+
       ● CC85 val. 2 followed by CC86 val. 0-127 will set the tempo to 256-383
-      ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400
+
+      ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400'
     min: 0
     max: 127
   - name: Change Tempo
-    value: '87'
+    value: 87
     description: CC 87 val. 0-127 will set the tempo tempo to 60-187
     min: 0
     max: 127
   - name: Change Tempo
-    value: '88'
+    value: 88
     description: CC 88 val. 0-127 will set the tempo tempo to 100-227
     min: 0
     max: 127
   - name: Change Tempo
-    value: '89'
+    value: 89
     description: CC 89 val. 0-127 will set the tempo tempo to 140-267
     min: 0
     max: 127
   - name: Apply tempo presets
-    value: '106'
+    value: 106
     description: CC 106 val. 1-50 will apply a preset
     min: 0
-    max: '50'
+    max: 50
   - name: Apply tempo presets
-    value: '107'
+    value: 107
     description: CC 107 val. 1-50 will apply a preset right away
     min: 0
-    max: '50'
+    max: 50
   - name: Start/Stop
-    value: '103'
-    description: >-
-      0 = same as MIDI Continue ○ 1 = same as MIDI Continue but for Port 1 only
-      ○ 2 = same as MIDI Continue but for Port 2 only ○ 10 = same as MIDI Stop ○
-      11 = same as MIDI Stop but for Port 1 only ○ 12 = same as MIDI Stop but
-      for Port 2 only ○ 20 = same as MIDI Start ○ 21 = same as MIDI Start but
-      for Port 1 only ○ 30 = same as MIDI Start, but with a 1-bar count-in ○ 31
-      = same as MIDI Start, but with a 1-bar count-in and for Port 1 only
+    value: 103
+    description: 0 = same as MIDI Continue ○ 1 = same as MIDI Continue but for Port 1 only ○ 2 = same as MIDI Continue but for Port 2 only ○ 10 = same as MIDI Stop ○ 11 = same as MIDI Stop but for Port 1 only ○ 12 = same as MIDI Stop but for Port 2 only ○ 20 = same as MIDI Start ○ 21 = same as MIDI Start but for Port 1 only ○ 30 = same as MIDI Start, but with a 1-bar count-in ○ 31 = same as MIDI Start, but with a 1-bar count-in and for Port 1 only
     min: 0
-    max: '31'
+    max: 31
   - name: Change tempo decimals
-    value: '110'
+    value: 110
     description: CC110 val. 0-99 will set the tempo to x.00-x.99
     min: 0
-    max: '99'
+    max: 99
   - name: Change time signature
-    value: '90'
-    description: |-
-      ● CC 90 val. 1-32 will set the time signature numerator
+    value: 90
+    description: '● CC 90 val. 1-32 will set the time signature numerator
+
       ● CC 90 val. 101-104 will set the time signature denominator
+
       ○ 101 = x/2
+
       ○ 102 = x/4
+
       ○ 103 = x/8
-      ○ 104 = x/16
+
+      ○ 104 = x/16'
     min: 0
-    max: '104'
+    max: 104
   - name: Mute/unmute metronome
-    value: '102'
-    description: |-
-      ● 0 = mute metronome
+    value: 102
+    description: '● 0 = mute metronome
+
       ● 1 = unmute metronome
-      ● 2 = toggle mute (unmute if muted and mute if unmuted)
+
+      ● 2 = toggle mute (unmute if muted and mute if unmuted)'
     min: 0
-    max: '2'
+    max: 2
   - name: Change analog clock speed 1
-    value: '104'
+    value: 104
     description: CC 104 val. 0-109 will set ANLG clock 1 speed
     min: 0
-    max: '109'
+    max: 109
   - name: Change analog clock speed 2
-    value: '105'
+    value: 105
     description: CC 105 val. 0-109 will set ANLG clock 2 speed
     min: 0
-    max: '109'
+    max: 109

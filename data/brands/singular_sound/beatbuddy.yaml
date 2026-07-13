@@ -34,185 +34,342 @@ cc:
     name: Tempo Decrement
     type: system
     value: 81
-  - description: Return to normal mode from Half Time. Added 2.7.0
-    max: 0
-    min: 0
-    name: Normal Time
-    type: system
+  - name: Normal Time / Half Time
     value: 82
-  - description: Half Time. Added 2.7.0
-    max: 127
-    min: 1
-    name: Half Time
-    type: system
-    value: 82
-  - description: Return to normal mode from Double Time. Added 2.7.0
-    max: 0
-    min: 0
-    name: Normal Time
-    type: system
+    description: Return to normal mode from Half Time. Added 2.7.0; Half Time. Added 2.7.0
+    group:
+      - name: Normal Time
+        description: Return to normal mode from Half Time. Added 2.7.0
+        min: 0
+        max: 0
+        type: system
+      - name: Half Time
+        description: Half Time. Added 2.7.0
+        min: 1
+        max: 127
+        type: system
+  - name: Normal Time / Double Time
     value: 83
-  - description: Double Time. Added 2.7.0
-    max: 127
-    min: 1
-    name: Double Time
-    type: system
-    value: 83
-  - description: 'Increase Tempo by 1. Also referred to as "Data increment (+1) or INC"'
+    description: Return to normal mode from Double Time. Added 2.7.0; Double Time. Added 2.7.0
+    group:
+      - name: Normal Time
+        description: Return to normal mode from Double Time. Added 2.7.0
+        min: 0
+        max: 0
+        type: system
+      - name: Double Time
+        description: Double Time. Added 2.7.0
+        min: 1
+        max: 127
+        type: system
+  - description: Increase Tempo by 1. Also referred to as "Data increment (+1) or INC"
     max: 1
     min: 1
     name: Increase Tempo (or NRPN target) by 1
     type: system
     value: 96
-  - description: 'Decrease Tempo by 1. Also referred to as "Data decrement (-1) or  DEC"'
+  - description: Decrease Tempo by 1. Also referred to as "Data decrement (-1) or  DEC"
     max: 1
     min: 1
     name: Decrease Tempo (or NRPN target) by 1
     type: system
     value: 97
-  - description: |
-      Set the NRPN LSB for Mix control
+  - name: Set NRPN to Mix LSB / Set NRPN to Level LSB / Set NRPN to Tempo LSB / Clear NRPN LSB Register
+    value: 98
+    description: 'Set the NRPN LSB for Mix control
+
 
       We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
       general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
       multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
       series of 3 commands: 2 CC commands and one PC.
 
+
       This can be used to control tempo, any other parameter, or multiple parameters at
+
       once. Currently we’re only using it to control tempo, but we follow the MIDI
+
       Standard protocol to leave room for further control in the future.
 
+
       Optional if the only value control by Inc/Dec is the Tempo. By
+
       default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
-      DEC message.
-    max: 108
-    min: 108
-    name: Set NRPN to Mix LSB
-    type: system
-    value: 98
-  - description: |
-      Set the NRPN LSB for headphone control
+
+      DEC message.; Set the NRPN LSB for headphone control
+
 
       We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
       general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
       multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
       series of 3 commands: 2 CC commands and one PC.
 
+
       This can be used to control tempo, any other parameter, or multiple parameters at
+
       once. Currently we’re only using it to control tempo, but we follow the MIDI
+
       Standard protocol to leave room for further control in the future.
 
+
       Optional if the only value control by Inc/Dec is the Tempo. By
+
       default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
-      DEC message.
-    max: 109
-    min: 109
-    name: Set NRPN to Level LSB
-    type: system
-    value: 98
-  - description: |
-      Set the NRPN LSB for Tempo control
+
+      DEC message.; Set the NRPN LSB for Tempo control
+
 
       We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
       general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
       multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
       series of 3 commands: 2 CC commands and one PC.
 
-      This can be used to control tempo, any other parameter, or multiple parameters at
-      once. Currently we’re only using it to control tempo, but we follow the MIDI
-      Standard protocol to leave room for further control in the future.
-
-      Optional if the only value control by Inc/Dec is the Tempo. By
-      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
-      DEC message.
-    max: 107
-    min: 107
-    name: Set NRPN to Tempo LSB
-    type: system
-    value: 98
-  - description: Clear NRPN LSB Register
-    max: 127
-    min: 127
-    name: Clear NRPN LSB Register
-    type: system
-    value: 98
-  - description: |
-      Set the NRPN MSB
-
-      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
-      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
-      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
-      series of 3 commands: 2 CC commands and one PC.
 
       This can be used to control tempo, any other parameter, or multiple parameters at
+
       once. Currently we’re only using it to control tempo, but we follow the MIDI
+
       Standard protocol to leave room for further control in the future.
 
+
       Optional if the only value control by Inc/Dec is the Tempo. By
+
       default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
-      DEC message.
-    max: 106
-    min: 106
-    name: Set NRPN to Tempo MSB
-    type: system
+
+      DEC message.; Clear NRPN LSB Register'
+    group:
+      - name: Set NRPN to Mix LSB
+        description: 'Set the NRPN LSB for Mix control
+
+
+          We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+          general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+          multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+          series of 3 commands: 2 CC commands and one PC.
+
+
+          This can be used to control tempo, any other parameter, or multiple parameters at
+
+          once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+          Standard protocol to leave room for further control in the future.
+
+
+          Optional if the only value control by Inc/Dec is the Tempo. By
+
+          default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+          DEC message.
+
+          '
+        min: 108
+        max: 108
+        type: system
+      - name: Set NRPN to Level LSB
+        description: 'Set the NRPN LSB for headphone control
+
+
+          We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+          general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+          multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+          series of 3 commands: 2 CC commands and one PC.
+
+
+          This can be used to control tempo, any other parameter, or multiple parameters at
+
+          once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+          Standard protocol to leave room for further control in the future.
+
+
+          Optional if the only value control by Inc/Dec is the Tempo. By
+
+          default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+          DEC message.
+
+          '
+        min: 109
+        max: 109
+        type: system
+      - name: Set NRPN to Tempo LSB
+        description: 'Set the NRPN LSB for Tempo control
+
+
+          We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+          general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+          multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+          series of 3 commands: 2 CC commands and one PC.
+
+
+          This can be used to control tempo, any other parameter, or multiple parameters at
+
+          once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+          Standard protocol to leave room for further control in the future.
+
+
+          Optional if the only value control by Inc/Dec is the Tempo. By
+
+          default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+          DEC message.
+
+          '
+        min: 107
+        max: 107
+        type: system
+      - name: Clear NRPN LSB Register
+        description: Clear NRPN LSB Register
+        min: 127
+        max: 127
+        type: system
+  - name: Set NRPN to Tempo MSB / Set NRPN to Headphone/Mix MSB / Clear NRPN MSB Register
     value: 99
-  - description: |
-      Set the NRPN MSB for headphone or Mix control
+    description: 'Set the NRPN MSB
+
 
       We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
       general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
       multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
       series of 3 commands: 2 CC commands and one PC.
 
+
       This can be used to control tempo, any other parameter, or multiple parameters at
+
       once. Currently we’re only using it to control tempo, but we follow the MIDI
+
       Standard protocol to leave room for further control in the future.
 
+
       Optional if the only value control by Inc/Dec is the Tempo. By
+
       default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
-      DEC message.
-    max: 0
-    min: 0
-    name: Set NRPN to Headphone/Mix MSB
-    type: system
-    value: 99
-  - description: Clear NRPN MSB Register
-    max: 127
-    min: 127
-    name: Clear NRPN MSB Register
-    type: system
-    value: 99
-  - description: |
-      Set the Tempo MSB
 
-      In order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.
-      - So the order of the message should be:
-        1. MSB value
-        2. LSB value
-      -  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).
+      DEC message.; Set the NRPN MSB for headphone or Mix control
 
-      The BeatBuddy's tempo range is from 40-300BPM
+
+      We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+      general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+      multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+      series of 3 commands: 2 CC commands and one PC.
+
+
+      This can be used to control tempo, any other parameter, or multiple parameters at
+
+      once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+      Standard protocol to leave room for further control in the future.
+
+
+      Optional if the only value control by Inc/Dec is the Tempo. By
+
+      default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+      DEC message.; Clear NRPN MSB Register'
+    group:
+      - name: Set NRPN to Tempo MSB
+        description: 'Set the NRPN MSB
+
+
+          We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+          general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+          multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+          series of 3 commands: 2 CC commands and one PC.
+
+
+          This can be used to control tempo, any other parameter, or multiple parameters at
+
+          once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+          Standard protocol to leave room for further control in the future.
+
+
+          Optional if the only value control by Inc/Dec is the Tempo. By
+
+          default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+          DEC message.
+
+          '
+        min: 106
+        max: 106
+        type: system
+      - name: Set NRPN to Headphone/Mix MSB
+        description: 'Set the NRPN MSB for headphone or Mix control
+
+
+          We use the “NRPN Register” (Non-Registered Parameter Number) which is a
+
+          general purpose MSB (CC:99) and LSB (CC:98). All that means is that you can control
+
+          multiple parameters on the BeatBuddy using an MSB sequence, which is usually a
+
+          series of 3 commands: 2 CC commands and one PC.
+
+
+          This can be used to control tempo, any other parameter, or multiple parameters at
+
+          once. Currently we’re only using it to control tempo, but we follow the MIDI
+
+          Standard protocol to leave room for further control in the future.
+
+
+          Optional if the only value control by Inc/Dec is the Tempo. By
+
+          default, the Beatbuddy will increment / decrement the tempo when receiving a INC/
+
+          DEC message.
+
+          '
+        min: 0
+        max: 0
+        type: system
+      - name: Clear NRPN MSB Register
+        description: Clear NRPN MSB Register
+        min: 127
+        max: 127
+        type: system
+  - description: "Set the Tempo MSB\n\nIn order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.\n- So the order of the message should be:\n  1. MSB value\n  2. LSB value\n-  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).\n\nThe BeatBuddy's tempo range is from 40-300BPM\n"
     max: 127
     min: 0
     name: Tempo MSB
     type: system
     value: 106
-  - description:  |
-      Set the Tempo LSB
-
-      In order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.
-      - So the order of the message should be:
-        1. MSB value
-        2. LSB value
-      -  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).
-
-      The BeatBuddy's tempo range is from 40-300BPM
+  - description: "Set the Tempo LSB\n\nIn order to directly set the tempo to a specific BPM, you need to use the Tempo MSB and Tempo LSB. The Beatbuddy will update its current tempo only when receiving the LSB message.\n- So the order of the message should be:\n  1. MSB value\n  2. LSB value\n-  Don’t forget, the value of the Tempo can only be set with both MSB(CC:106) and LSB (CC:107).\n\nThe BeatBuddy's tempo range is from 40-300BPM\n"
     max: 127
     min: 0
     name: Tempo LSB
     type: system
     value: 107
-  - description: 'Change the Mixer Volume (Main Volume knob)'
+  - description: Change the Mixer Volume (Main Volume knob)
     max: 100
     min: 0
     name: Mix Volume
@@ -224,52 +381,51 @@ cc:
     name: Headphone Volume
     type: parameter
     value: 109
-  - description: 'Triggers an accent hit with a volume from the value 0 (mute) to 100 (original recorded volume) to 127 (amplified more than the original recorded volume)'
+  - description: Triggers an accent hit with a volume from the value 0 (mute) to 100 (original recorded volume) to 127 (amplified more than the original recorded volume)
     max: 127
     min: 0
     name: Accent-Hit
     type: system
     value: 110
-  - description: UnPause the current song
-    max: 0
-    min: 0
-    name: UnPause
-    type: system
+  - name: UnPause / Pause / Pause Toggle
     value: 111
-  - description: Pause the current song
-    max: 1
-    min: 1
-    name: Pause
-    type: system
-    value: 111
-  - description: Toggle Pause/Unpause the current song
-    max: 127
-    min: 2
-    name: Pause Toggle
-    type: system
-    value: 111
+    description: UnPause the current song; Pause the current song; Toggle Pause/Unpause the current song
+    group:
+      - name: UnPause
+        description: UnPause the current song
+        min: 0
+        max: 0
+        type: system
+      - name: Pause
+        description: Pause the current song
+        min: 1
+        max: 1
+        type: system
+      - name: Pause Toggle
+        description: Toggle Pause/Unpause the current song
+        min: 2
+        max: 127
+        type: system
   - description: Triggers a drum fill
     max: 127
     min: 1
     name: Drum Fill
     type: system
     value: 112
-  - description: 'Starts song transition (selects the next part), 1: Starts transition,
-      will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit,
-      3: Starts transition, will jump to Part 3 on exit, 127: Starts transition, will
-      jump to next part on exit. Transition will continue looping until value is changed
-      to 0. It is possible to start a song with a transition.'
-    max: 127
-    min: 1
-    name: Transition
-    type: system
+  - name: Transition / End Transition
     value: 113
-  - description: 'Quits the transition and go to specified part'
-    max: 0
-    min: 0
-    name: End Transition
-    type: system
-    value: 113
+    description: 'Starts song transition (selects the next part), 1: Starts transition, will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit, 3: Starts transition, will jump to Part 3 on exit, 127: Starts transition, will jump to next part on exit. Transition will continue looping until value is changed to 0. It is possible to start a song with a transition.; Quits the transition and go to specified part'
+    group:
+      - name: Transition
+        description: 'Starts song transition (selects the next part), 1: Starts transition, will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit, 3: Starts transition, will jump to Part 3 on exit, 127: Starts transition, will jump to next part on exit. Transition will continue looping until value is changed to 0. It is possible to start a song with a transition.'
+        min: 1
+        max: 127
+        type: system
+      - name: End Transition
+        description: Quits the transition and go to specified part
+        min: 0
+        max: 0
+        type: system
   - description: Starts the playback of the current song
     max: 127
     min: 1
@@ -300,28 +456,31 @@ cc:
     name: Enter or Exit a folder
     type: system
     value: 118
-  - description: Scroll down song/folder list
-    max: 0
-    min: 0
-    name: Scroll down song/folder list
-    type: system
+  - name: Scroll down song/folder list / Scroll up song/folder list
     value: 119
-  - description: Scroll up song/folder list, 1 scrolls up
-    max: 1
-    min: 1
-    name: Scroll up song/folder list
-    type: system
-    value: 119
-  - description: Emulates Main Pedal release
-    max: 0
-    min: 0
-    name: Emulate switch release function
-    type: system
+    description: Scroll down song/folder list; Scroll up song/folder list, 1 scrolls up
+    group:
+      - name: Scroll down song/folder list
+        description: Scroll down song/folder list
+        min: 0
+        max: 0
+        type: system
+      - name: Scroll up song/folder list
+        description: Scroll up song/folder list, 1 scrolls up
+        min: 1
+        max: 1
+        type: system
+  - name: Emulate switch release function / Emulate switch press function
     value: 120
-  - description: Emulates Main Pedal press
-    max: 1
-    min: 1
-    name: Emulate switch press function
-    type: system
-    value: 120
-
+    description: Emulates Main Pedal release; Emulates Main Pedal press
+    group:
+      - name: Emulate switch release function
+        description: Emulates Main Pedal release
+        min: 0
+        max: 0
+        type: system
+      - name: Emulate switch press function
+        description: Emulates Main Pedal press
+        min: 1
+        max: 1
+        type: system

@@ -36,54 +36,62 @@ pc:
     matching the current settings of the pedal.
 
 cc:
-  - name: Bypass - Off
+  - name: Bypass - Off / Bypass - On
     value: 102
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Bypass - On
-    value: 102
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Alt Menu - Off
+    group:
+      - name: Bypass - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Bypass - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Alt Menu - Off / Alt Menu - Of
     value: 104
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Alt Menu - Of
-    value: 104
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Freeze - Off
+    group:
+      - name: Alt Menu - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Alt Menu - Of
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Freeze - Off / Freeze - On
     value: 105
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Freeze - On
-    value: 105
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
-  - name: Half Speed - Off
+    group:
+      - name: Freeze - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Freeze - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
+  - name: Half Speed - Off / Half Speed - On
     value: 106
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Half Speed - On
-    value: 106
-    description: ''
-    type: Parameter
-    min: 1
-    max: 127
+    group:
+      - name: Half Speed - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Half Speed - On
+        description: ''
+        min: 1
+        max: 127
+        type: Parameter
   - name: Tap Tempo
     value: 103
     description: ''
@@ -92,64 +100,67 @@ cc:
     max: 127
   - name: Tap Tempo - Legacy
     value: 93
-    description: 'CC93 is also Tap Tempo for continuity between past pedals.'
+    description: CC93 is also Tap Tempo for continuity between past pedals.
     type: Parameter
     min: 0
     max: 127
-  - name: Mod Sync - Sync
+  - name: Mod Sync - Sync / Mod Sync - Off / Mod Sync - Free
     value: 21
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Mod Sync - Off
-    value: 21
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Mod Sync - Free
-    value: 21
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Mod Type - Vibrato
+    group:
+      - name: Mod Sync - Sync
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Mod Sync - Off
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Mod Sync - Free
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Mod Type - Vibrato / Mod Type - Tremolo / Mod Type - Freq Shift Up
     value: 22
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Mod Type - Tremolo
-    value: 22
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Mod Type - Freq Shift Up
-    value: 22
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Sequencer Mode - Run
+    group:
+      - name: Mod Type - Vibrato
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Mod Type - Tremolo
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Mod Type - Freq Shift Up
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Sequencer Mode - Run / Sequencer Mode - Off / Sequencer Mode - Env
     value: 23
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Sequencer Mode - Off
-    value: 23
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Sequencer Mode - Env
-    value: 23
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
+    group:
+      - name: Sequencer Mode - Run
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Sequencer Mode - Off
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Sequencer Mode - Env
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
   - name: Knobs - Time
     value: 14
     description: ''
@@ -168,84 +179,79 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Knobs - Offset - Region 1
+  - name: Knobs - Offset - Region 1 / Knobs - Offset - Region 2 / Knobs - Offset - Region 3 / Knobs - Offset - Region 4 / Knobs - Offset - Region 5 / Knobs - Offset - Region 6 / Knobs - Offset - Region 7
     value: 17
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Knobs - Offset - Region 2
-    value: 17
-    description: ''
-    type: Parameter
-    min: 1
-    max: 31
-  - name: Knobs - Offset - Region 3
-    value: 17
-    description: ''
-    type: Parameter
-    min: 32
-    max: 47    
-  - name: Knobs - Offset - Region 4
-    value: 17
-    description: ''
-    type: Parameter
-    min: 48
-    max: 79
-  - name: Knobs - Offset - Region 5
-    value: 17
-    description: ''
-    type: Parameter
-    min: 80
-    max: 95
-  - name: Knobs - Offset - Region 6
-    value: 17
-    description: ''
-    type: Parameter
-    min: 96
-    max: 126
-  - name: Knobs - Offset - Region 7
-    value: 17
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127
-  - name: Knobs - Balance - Reverse Octave
+    group:
+      - name: Knobs - Offset - Region 1
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Knobs - Offset - Region 2
+        description: ''
+        min: 1
+        max: 31
+        type: Parameter
+      - name: Knobs - Offset - Region 3
+        description: ''
+        min: 32
+        max: 47
+        type: Parameter
+      - name: Knobs - Offset - Region 4
+        description: ''
+        min: 48
+        max: 79
+        type: Parameter
+      - name: Knobs - Offset - Region 5
+        description: ''
+        min: 80
+        max: 95
+        type: Parameter
+      - name: Knobs - Offset - Region 6
+        description: ''
+        min: 96
+        max: 126
+        type: Parameter
+      - name: Knobs - Offset - Region 7
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
+  - name: Knobs - Balance - Reverse Octave / Knobs - Balance - Region 2 / Knobs - Balance - Reverse / Knobs - Balance - Region 4 / Knobs - Balance - Forward / Knobs - Balance - All
     value: 18
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: 'Knobs - Balance - Region 2'
-    value: 18
-    description: ''
-    type: Parameter
-    min: 1
-    max: 24
-  - name: 'Knobs - Balance - Reverse'
-    value: 18
-    description: ''
-    type: Parameter
-    min: 25
-    max: 35
-  - name: 'Knobs - Balance - Region 4'
-    value: 18
-    description: ''
-    type: Parameter
-    min: 36
-    max: 54
-  - name: 'Knobs - Balance - Forward'
-    value: 18
-    description: ''
-    type: Parameter
-    min: 55
-    max: 67
-  - name: 'Knobs - Balance - All'
-    value: 18
-    description: ''
-    type: Parameter
-    min: 68
-    max: 127            
+    group:
+      - name: Knobs - Balance - Reverse Octave
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Knobs - Balance - Region 2
+        description: ''
+        min: 1
+        max: 24
+        type: Parameter
+      - name: Knobs - Balance - Reverse
+        description: ''
+        min: 25
+        max: 35
+        type: Parameter
+      - name: Knobs - Balance - Region 4
+        description: ''
+        min: 36
+        max: 54
+        type: Parameter
+      - name: Knobs - Balance - Forward
+        description: ''
+        min: 55
+        max: 67
+        type: Parameter
+      - name: Knobs - Balance - All
+        description: ''
+        min: 68
+        max: 127
+        type: Parameter
   - name: Knobs - Filter
     value: 19
     description: ''
@@ -258,426 +264,454 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Hidden Options - X16 Seqencer Subdivision
+  - name: Hidden Options - X16 Seqencer Subdivision / Hidden Options - X8 Seqencer Subdivision / Hidden Options - X4 Seqencer Subdivision / Hidden Options - X2 Seqencer Subdivision / Hidden Options - X1 Seqencer Subdivision / Hidden Options - X1/2 Seqencer Subdivision / Hidden Options - X1/4 Seqencer Subdivision / Hidden Options - X1/8 Seqencer Subdivision
     value: 24
     description: ''
-    type: Parameter
-    min: 0
-    max: 15
-  - name: Hidden Options - X8 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 16
-    max: 31
-  - name: Hidden Options - X4 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 32
-    max: 47
-  - name: Hidden Options - X2 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 48
-    max: 63
-  - name: Hidden Options - X1 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 64
-    max: 79
-  - name: Hidden Options - X1/2 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 80
-    max: 95
-  - name: Hidden Options - X1/4 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 96
-    max: 111
-  - name: Hidden Options - X1/8 Seqencer Subdivision
-    value: 24
-    description: ''
-    type: Parameter
-    min: 112
-    max: 127
-  - name: Hidden Options - Ramping Waveform - Triangle
+    group:
+      - name: Hidden Options - X16 Seqencer Subdivision
+        description: ''
+        min: 0
+        max: 15
+        type: Parameter
+      - name: Hidden Options - X8 Seqencer Subdivision
+        description: ''
+        min: 16
+        max: 31
+        type: Parameter
+      - name: Hidden Options - X4 Seqencer Subdivision
+        description: ''
+        min: 32
+        max: 47
+        type: Parameter
+      - name: Hidden Options - X2 Seqencer Subdivision
+        description: ''
+        min: 48
+        max: 63
+        type: Parameter
+      - name: Hidden Options - X1 Seqencer Subdivision
+        description: ''
+        min: 64
+        max: 79
+        type: Parameter
+      - name: Hidden Options - X1/2 Seqencer Subdivision
+        description: ''
+        min: 80
+        max: 95
+        type: Parameter
+      - name: Hidden Options - X1/4 Seqencer Subdivision
+        description: ''
+        min: 96
+        max: 111
+        type: Parameter
+      - name: Hidden Options - X1/8 Seqencer Subdivision
+        description: ''
+        min: 112
+        max: 127
+        type: Parameter
+  - name: Hidden Options - Ramping Waveform - Triangle / Hidden Options - Ramping Waveform - Square / Hidden Options - Ramping Waveform - Sine / Hidden Options - Ramping Waveform - Sample & Hold / Hidden Options - Ramping Waveform - Smooth Random
     value: 25
     description: ''
-    type: Parameter
-    min: 0
-    max: 14
-  - name: Hidden Options - Ramping Waveform - Square
-    value: 25
-    description: ''
-    type: Parameter
-    min: 15
-    max: 54
-  - name: Hidden Options - Ramping Waveform - Sine
-    value: 25
-    description: ''
-    type: Parameter
-    min: 55
-    max: 80
-  - name: Hidden Options - Ramping Waveform - Sample & Hold
-    value: 25
-    description: ''
-    type: Parameter
-    min: 81
-    max: 126
-  - name: Hidden Options - Ramping Waveform - Smooth Random
-    value: 25
-    description: ''
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: Hidden Options - Ramping Waveform - Triangle
+        description: ''
+        min: 0
+        max: 14
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Square
+        description: ''
+        min: 15
+        max: 54
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Sine
+        description: ''
+        min: 55
+        max: 80
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Sample & Hold
+        description: ''
+        min: 81
+        max: 126
+        type: Parameter
+      - name: Hidden Options - Ramping Waveform - Smooth Random
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: Hidden Options - Modulation Depth
     value: 27
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: Hidden Options - 0.25X Mod Speed
+  - name: Hidden Options - 0.25X Mod Speed / Hidden Options - 0.33X Mod Speed / Hidden Options - 0.5X Mod Speed / Hidden Options - 0.75X Mod Speed / Hidden Options - 1X Mod Speed / Hidden Options - 1.5X Mod Speed / Hidden Options - 2X Mod Speed / Hidden Options - 3X Mod Speed / Hidden Options - 4X Mod Speed / Hidden Options - 8X Mod Speed / Hidden Options - 16X Mod Speed / Hidden Options - 32X Mod Speed
     value: 28
     description: ''
-    type: Parameter
-    min: 0
-    max: 9
-  - name: Hidden Options - 0.33X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 10
-    max: 19
-  - name: Hidden Options - 0.5X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 20
-    max: 29
-  - name: Hidden Options - 0.75X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 30
-    max: 39
-  - name: Hidden Options - 1X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 40
-    max: 49
-  - name: Hidden Options - 1.5X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 50
-    max: 58   
-  - name: Hidden Options - 2X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 59
-    max: 68        
-  - name: Hidden Options - 3X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 69
-    max: 78                   
-  - name: Hidden Options - 4X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 79
-    max: 88   
-  - name: Hidden Options - 8X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 89
-    max: 98   
-  - name: Hidden Options - 16X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 99
-    max: 107
-  - name: Hidden Options - 32X Mod Speed
-    value: 28
-    description: ''
-    type: Parameter
-    min: 108
-    max: 117         
-  - name: Hidden Options - Octave Type - Oct Down
+    group:
+      - name: Hidden Options - 0.25X Mod Speed
+        description: ''
+        min: 0
+        max: 9
+        type: Parameter
+      - name: Hidden Options - 0.33X Mod Speed
+        description: ''
+        min: 10
+        max: 19
+        type: Parameter
+      - name: Hidden Options - 0.5X Mod Speed
+        description: ''
+        min: 20
+        max: 29
+        type: Parameter
+      - name: Hidden Options - 0.75X Mod Speed
+        description: ''
+        min: 30
+        max: 39
+        type: Parameter
+      - name: Hidden Options - 1X Mod Speed
+        description: ''
+        min: 40
+        max: 49
+        type: Parameter
+      - name: Hidden Options - 1.5X Mod Speed
+        description: ''
+        min: 50
+        max: 58
+        type: Parameter
+      - name: Hidden Options - 2X Mod Speed
+        description: ''
+        min: 59
+        max: 68
+        type: Parameter
+      - name: Hidden Options - 3X Mod Speed
+        description: ''
+        min: 69
+        max: 78
+        type: Parameter
+      - name: Hidden Options - 4X Mod Speed
+        description: ''
+        min: 79
+        max: 88
+        type: Parameter
+      - name: Hidden Options - 8X Mod Speed
+        description: ''
+        min: 89
+        max: 98
+        type: Parameter
+      - name: Hidden Options - 16X Mod Speed
+        description: ''
+        min: 99
+        max: 107
+        type: Parameter
+      - name: Hidden Options - 32X Mod Speed
+        description: ''
+        min: 108
+        max: 117
+        type: Parameter
+  - name: Hidden Options - Octave Type - Oct Down / Hidden Options - Octave Type - Both Oct / Hidden Options - Octave Type - Oct Up
     value: 31
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Options - Octave Type - Both Oct
-    value: 31
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: Hidden Options - Octave Type - Oct Up
-    value: 31
-    description: ''
-    type: Parameter
-    min: 3
-    max: 3
-  - name: Hidden Options - Sequence Spacing - Rest
+    group:
+      - name: Hidden Options - Octave Type - Oct Down
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Options - Octave Type - Both Oct
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+      - name: Hidden Options - Octave Type - Oct Up
+        description: ''
+        min: 3
+        max: 3
+        type: Parameter
+  - name: Hidden Options - Sequence Spacing - Rest / Hidden Options - Sequence Spacing - Skip
     value: 33
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Hidden Options - Sequence Spacing - Skip
-    value: 33
-    description: ''
-    type: Parameter
-    min: 2
-    max: 2
-  - name: MIDI Clock Ignore - Ignore
+    group:
+      - name: Hidden Options - Sequence Spacing - Rest
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Hidden Options - Sequence Spacing - Skip
+        description: ''
+        min: 2
+        max: 2
+        type: Parameter
+  - name: MIDI Clock Ignore - Ignore / MIDI Clock Ignore - Follow
     value: 51
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: MIDI Clock Ignore - Follow
-    value: 51
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Stop Ramping - Stop
+    group:
+      - name: MIDI Clock Ignore - Ignore
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: MIDI Clock Ignore - Follow
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Stop Ramping - Stop / Stop Ramping - Resume
     value: 52
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Stop Ramping - Resume
-    value: 52
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
+    group:
+      - name: Stop Ramping - Stop
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Stop Ramping - Resume
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
   - name: Factory Reset
     value: 56
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: Dry Kill - Off
+  - name: Dry Kill - Off / Dry Kill - On
     value: 57
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dry Kill - On
-    value: 57
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Time - Off
+    group:
+      - name: Dry Kill - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dry Kill - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Time - Off / Dip Switches (L) - Time - On
     value: 61
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Time - On
-    value: 61
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Offset - Off
+    group:
+      - name: Dip Switches (L) - Time - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Time - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Offset - Off / Dip Switches (L) - Offset - On
     value: 62
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Offset - On
-    value: 62
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Balence - Off
+    group:
+      - name: Dip Switches (L) - Offset - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Offset - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Balence - Off / Dip Switches (L) - Balence - On
     value: 63
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Balence - On
-    value: 63
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Filter - Off
+    group:
+      - name: Dip Switches (L) - Balence - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Balence - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Filter - Off / Dip Switches (L) - Filter - On
     value: 64
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Filter - On
-    value: 64
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Feedback - Off
+    group:
+      - name: Dip Switches (L) - Filter - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Filter - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Feedback - Off / Dip Switches (L) - Feedback - On
     value: 65
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Feedback - On
-    value: 65
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Bounce - Off
+    group:
+      - name: Dip Switches (L) - Feedback - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Feedback - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Bounce - Off / Dip Switches (L) - Bounce - On
     value: 66
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Bounce - On
-    value: 66
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Sweep - Off
+    group:
+      - name: Dip Switches (L) - Bounce - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Bounce - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Sweep - Off / Dip Switches (L) - Sweep - On
     value: 67
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Sweep - On
-    value: 67
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (L) - Polarity - F
+    group:
+      - name: Dip Switches (L) - Sweep - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Sweep - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (L) - Polarity - F / Dip Switches (L) - Polarity - R
     value: 68
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (L) - Polarity - R
-    value: 68
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Swap - Off
+    group:
+      - name: Dip Switches (L) - Polarity - F
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (L) - Polarity - R
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Swap - Off / Dip Switches (R) - Swap - On
     value: 71
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Swap - On
-    value: 71
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Miso - Off
+    group:
+      - name: Dip Switches (R) - Swap - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Swap - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Miso - Off / Dip Switches (R) - Miso - On
     value: 72
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Miso - On
-    value: 72
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Spread - Off
+    group:
+      - name: Dip Switches (R) - Miso - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Miso - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Spread - Off / Dip Switches (R) - Spread - On
     value: 73
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Spread - On
-    value: 73
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Trails - Off
+    group:
+      - name: Dip Switches (R) - Spread - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Spread - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Trails - Off / Dip Switches (R) - Trails - On
     value: 74
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Trails - On
-    value: 74
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Latch - Off
+    group:
+      - name: Dip Switches (R) - Trails - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Trails - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Latch - Off / Dip Switches (R) - Latch - On
     value: 75
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Latch - On
-    value: 75
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Feed Type - Off
+    group:
+      - name: Dip Switches (R) - Latch - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Latch - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Feed Type - Off / Dip Switches (R) - Feed Type - On
     value: 76
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Feed Type - On
-    value: 76
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Fade Type - Off
+    group:
+      - name: Dip Switches (R) - Feed Type - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Feed Type - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Fade Type - Off / Dip Switches (R) - Fade Type - On
     value: 77
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Fade Type - On
-    value: 77
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
-  - name: Dip Switches (R) - Mod Type - Off
+    group:
+      - name: Dip Switches (R) - Fade Type - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Fade Type - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
+  - name: Dip Switches (R) - Mod Type - Off / Dip Switches (R) - Mod Type - On
     value: 78
     description: ''
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Dip Switches (R) - Mod Type - On
-    value: 78
-    description: ''
-    type: Parameter
-    min: 1
-    max: 1
+    group:
+      - name: Dip Switches (R) - Mod Type - Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Dip Switches (R) - Mod Type - On
+        description: ''
+        min: 1
+        max: 1
+        type: Parameter
   - name: Preset Save
     value: 111
     description: ''

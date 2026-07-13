@@ -11,87 +11,87 @@ pc:
 
 cc:
   - name: Looper 1 Rec/Dub/Start
-    value: '3'
+    value: 3
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 1 Stop
-    value: '9'
+    value: 9
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 1 Clear
-    value: '14'
+    value: 14
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 1 Level
-    value: '15'
+    value: 15
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 1 Hold to Store
-    value: '20'
+    value: 20
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 1 Clear Backtrack
-    value: '21'
+    value: 21
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Rec/Dub/Start
-    value: '22'
+    value: 22
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Stop
-    value: '23'
+    value: 23
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Clear
-    value: '24'
+    value: 24
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Level
-    value: '25'
+    value: 25
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Hold to Store
-    value: '26'
+    value: 26
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Looper 2 Clear Backtrack
-    value: '27'
+    value: 27
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: DecayLevel
-    value: '28'
+    value: 28
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: All Loops Stop
-    value: '29'
+    value: 29
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: All Loops Clear
-    value: '30'
+    value: 30
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: CC31 FX On/Off
-    value: '31'
+    value: 31
     description: ''
     min: 0
-    max: '127'
+    max: 127
   - name: Parallel/Serial Toggle
-    value: '85'
+    value: 85
     description: ''
-    min: '0'
-    max: '127'
+    min: 0
+    max: 127

@@ -14,87 +14,87 @@ phantom_power: unknown
 midi_mapping: not applicable
 cc:
   - name: Decay
-    value: '3'
+    value: 3
     description: ''
     min: 0
     max: 127
   - name: Pre Delay
-    value: '9'
+    value: 9
     description: ''
     min: 0
     max: 127
   - name: Mix
-    value: '14'
+    value: 14
     description: ''
     min: 0
     max: 127
   - name: Rate
-    value: '15'
+    value: 15
     description: ''
     min: 0
     max: 127
   - name: Depth
-    value: '20'
+    value: 20
     description: ''
     min: 0
     max: 127
   - name: Swell
-    value: '21'
+    value: 21
     description: ''
     min: 0
     max: 127
   - name: Duck
-    value: '22'
+    value: 22
     description: ''
     min: 0
     max: 127
   - name: EQ Low
-    value: '23'
+    value: 23
     description: ''
     min: 0
     max: 127
   - name: EQ High
-    value: '24'
+    value: 24
     description: ''
     min: 0
     max: 127
   - name: Size
-    value: '25'
+    value: 25
     description: ''
     min: 0
     max: 127
   - name: Diffuse
-    value: '26'
+    value: 26
     description: ''
     min: 0
     max: 127
   - name: Feedback EQ
-    value: '27'
+    value: 27
     description: ''
     min: 0
     max: 127
   - name: Program
-    value: '28'
+    value: 28
     description: ''
     min: 0
     max: 127
   - name: Bypass
-    value: '30'
+    value: 30
     description: ''
     min: 0
     max: 127
   - name: Sustain
-    value: '31'
+    value: 31
     description: ''
     min: 0
     max: 127
   - name: Time
-    value: '80'
+    value: 80
     description: ''
     min: 0
     max: 127
   - name: Octave Type
-    value: '81'
+    value: 81
     description: ''
     min: 0
     max: 127

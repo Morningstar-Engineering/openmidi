@@ -34,120 +34,126 @@ pc:
     You can activate a preset by sending a MIDI program change message. For example, sending a program change message
     of 7 activates preset 7.
 cc:
-  - name: Bypass
+  - name: Bypass / Engage
     value: 60
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: Engage
-    value: 60
-    description: ''
-    type: System
-    min: 127
-    max: 127
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: System
   - name: Simulate Exp Pedal
     value: 10
     description: ''
     type: System
     min: 0
     max: 127
-  - name: 'Routing Mode: Trails'
+  - name: 'Routing Mode: Trails / Routing Mode: Parallel / Routing Mode: Serial / Routing Mode: L/R'
     value: 118
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Routing Mode: Parallel'
-    value: 118
-    description: ''
-    type: System
-    min: 1
-    max: 1
-  - name: 'Routing Mode: Serial'
-    value: 118
-    description: ''
-    type: System
-    min: 2
-    max: 2
-  - name: 'Routing Mode: L/R'
-    value: 118
-    description: ''
-    type: System
-    min: 3
-    max: 3
-  - name: 'Left Footswitch (Tap): Quick Tap'
+    group:
+      - name: 'Routing Mode: Trails'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Routing Mode: Parallel'
+        description: ''
+        min: 1
+        max: 1
+        type: System
+      - name: 'Routing Mode: Serial'
+        description: ''
+        min: 2
+        max: 2
+        type: System
+      - name: 'Routing Mode: L/R'
+        description: ''
+        min: 3
+        max: 3
+        type: System
+  - name: 'Left Footswitch (Tap): Quick Tap / Left Footswitch (Tap): Hold / Left Footswitch (Tap): Release'
     value: 35
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Left Footswitch (Tap): Hold'
-    value: 35
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Left Footswitch (Tap): Release'
-    value: 35
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Mid Footswitch (Scroll): Quick Tap'
+    group:
+      - name: 'Left Footswitch (Tap): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Left Footswitch (Tap): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Left Footswitch (Tap): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Mid Footswitch (Scroll): Quick Tap / Mid Footswitch (Scroll): Hold / Mid Footswitch (Scroll): Release'
     value: 36
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Mid Footswitch (Scroll): Hold'
-    value: 36
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Mid Footswitch (Scroll): Release'
-    value: 36
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Right Footswitch (Bypass): Quick Tap'
+    group:
+      - name: 'Mid Footswitch (Scroll): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Mid Footswitch (Scroll): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Mid Footswitch (Scroll): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Right Footswitch (Bypass): Quick Tap / Right Footswitch (Bypass): Hold / Right Footswitch (Bypass): Release'
     value: 37
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Right Footswitch (Bypass): Hold'
-    value: 37
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Right Footswitch (Bypass): Release'
-    value: 37
-    description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Shift Button: Quick Tap'
+    group:
+      - name: 'Right Footswitch (Bypass): Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Right Footswitch (Bypass): Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Right Footswitch (Bypass): Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+  - name: 'Shift Button: Quick Tap / Shift Button: Hold / Shift Button: Release'
     value: 38
     description: ''
-    type: System
-    min: 64
-    max: 64
-  - name: 'Shift Button: Hold'
-    value: 38
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Shift Button: Release'
-    value: 38
-    description: ''
-    type: System
-    min: 0
-    max: 0
+    group:
+      - name: 'Shift Button: Quick Tap'
+        description: ''
+        min: 64
+        max: 64
+        type: System
+      - name: 'Shift Button: Hold'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: 'Shift Button: Release'
+        description: ''
+        min: 0
+        max: 0
+        type: System
   - name: Engine Order Swap
     value: 40
     description: Any value to swap
@@ -168,24 +174,27 @@ cc:
     max: 127
   - name: 'MIDI Clock Listener: Engine A'
     value: 51
-    description: |+
-      Value 0 - ignore MIDI clock messages.
+    description: 'Value 0 - ignore MIDI clock messages.
+
       Value 127 - listen for MIDI clock messages.
+
+      '
     type: System
     min: 0
     max: 127
   - name: 'MIDI Clock Listener: Engine B'
     value: 52
-    description: |+
-      Value 0 - ignore MIDI clock messages.
+    description: 'Value 0 - ignore MIDI clock messages.
+
       Value 127 - listen for MIDI clock messages.
+
+      '
     type: System
     min: 0
     max: 127
   - name: Save Preset
     value: 39
-    description: '0-35 selects which preset the current settings get saved to. In Bank
-      mode the presets that appear are (1,3,5), (6,8,9), etc'
+    description: 0-35 selects which preset the current settings get saved to. In Bank mode the presets that appear are (1,3,5), (6,8,9), etc
     type: System
     min: 0
     max: 35

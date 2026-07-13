@@ -12,103 +12,119 @@ pc:
 phantom_power: Unknown
 midi_mapping: Not Applicable
 cc:
-  - name: Bypass On
-    value: '24'
-    description: Pre-amp Bypassed
-    min: '1'
-    max: '1'
-  - name: Bypass Off
-    value: '24'
-    description: Pre-amp Engaged
-    min: 0
-    max: '0'
-  - name: Rhythm Channel
-    value: '25'
-    description: Rhythm Channel On
-    min: 0
-    max: '0'
-  - name: Lead Channel
-    value: '25'
-    description: Lead Channel On
-    min: '1'
-    max: '1'
-  - name: Loop Bypass On
-    value: '26'
-    description: Effects Loop Bypassed
-    min: '1'
-    max: '1'
-  - name: Loop Bypass Off
-    value: '26'
-    description: Effects Loop Engaged
-    min: 0
-    max: '0'
-  - name: IR Bypass On
-    value: '27'
-    description: Speaker Impulse Response Bypassed
-    min: '127'
-    max: 127
-  - name: IR Bypass Off
-    value: '27'
-    description: Speaker Impulse Response Engaged
-    min: 0
-    max: '0'
-  - name: Cab 1
-    value: '28'
-    description: Speaker Cab 1
-    min: 0
-    max: '0'
-  - name: Cab 2
-    value: '28'
-    description: Speaker Cab 2
-    min: '1'
-    max: '1'
-  - name: Cab 3
-    value: '28'
-    description: Speaker Cab 3
-    min: '2'
-    max: '2'
-  - name: HF Comp On
-    value: '29'
-    description: High Frequency Compensation On
-    min: '1'
-    max: '1'
-  - name: HF Comp Off
-    value: '29'
-    description: High Frequency Compensation Off
-    min: 0
-    max: '0'
-  - name: Lowpass 1
-    value: '30'
-    description: Lowpass Filter 1
-    min: 0
-    max: '0'
-  - name: Lowpass 2
-    value: '30'
-    description: Lowpass Filter 2
-    min: '1'
-    max: '1'
-  - name: Lowpass 3
-    value: '30'
-    description: Lowpass Filter 3
-    min: '2'
-    max: '2'
-  - name: Reverb On
-    value: '31'
-    description: Reverb On
-    min: '1'
-    max: '1'
-  - name: Reverb Off
-    value: '31'
-    description: Reverb Off
-    min: 0
-    max: '0'
-  - name: Tremolo On
-    value: '32'
-    description: Tremolo On
-    min: '1'
-    max: '1'
-  - name: Tremolo Off
-    value: '32'
-    description: Tremolo Off
-    min: 0
-    max: '0'
+  - name: Bypass On / Bypass Off
+    value: 24
+    description: Pre-amp Bypassed; Pre-amp Engaged
+    group:
+      - name: Bypass On
+        description: Pre-amp Bypassed
+        min: 1
+        max: 1
+      - name: Bypass Off
+        description: Pre-amp Engaged
+        min: 0
+        max: 0
+  - name: Rhythm Channel / Lead Channel
+    value: 25
+    description: Rhythm Channel On; Lead Channel On
+    group:
+      - name: Rhythm Channel
+        description: Rhythm Channel On
+        min: 0
+        max: 0
+      - name: Lead Channel
+        description: Lead Channel On
+        min: 1
+        max: 1
+  - name: Loop Bypass On / Loop Bypass Off
+    value: 26
+    description: Effects Loop Bypassed; Effects Loop Engaged
+    group:
+      - name: Loop Bypass On
+        description: Effects Loop Bypassed
+        min: 1
+        max: 1
+      - name: Loop Bypass Off
+        description: Effects Loop Engaged
+        min: 0
+        max: 0
+  - name: IR Bypass On / IR Bypass Off
+    value: 27
+    description: Speaker Impulse Response Bypassed; Speaker Impulse Response Engaged
+    group:
+      - name: IR Bypass On
+        description: Speaker Impulse Response Bypassed
+        min: 127
+        max: 127
+      - name: IR Bypass Off
+        description: Speaker Impulse Response Engaged
+        min: 0
+        max: 0
+  - name: Cab 1 / Cab 2 / Cab 3
+    value: 28
+    description: Speaker Cab 1; Speaker Cab 2; Speaker Cab 3
+    group:
+      - name: Cab 1
+        description: Speaker Cab 1
+        min: 0
+        max: 0
+      - name: Cab 2
+        description: Speaker Cab 2
+        min: 1
+        max: 1
+      - name: Cab 3
+        description: Speaker Cab 3
+        min: 2
+        max: 2
+  - name: HF Comp On / HF Comp Off
+    value: 29
+    description: High Frequency Compensation On; High Frequency Compensation Off
+    group:
+      - name: HF Comp On
+        description: High Frequency Compensation On
+        min: 1
+        max: 1
+      - name: HF Comp Off
+        description: High Frequency Compensation Off
+        min: 0
+        max: 0
+  - name: Lowpass 1 / Lowpass 2 / Lowpass 3
+    value: 30
+    description: Lowpass Filter 1; Lowpass Filter 2; Lowpass Filter 3
+    group:
+      - name: Lowpass 1
+        description: Lowpass Filter 1
+        min: 0
+        max: 0
+      - name: Lowpass 2
+        description: Lowpass Filter 2
+        min: 1
+        max: 1
+      - name: Lowpass 3
+        description: Lowpass Filter 3
+        min: 2
+        max: 2
+  - name: Reverb On / Reverb Off
+    value: 31
+    description: Reverb On; Reverb Off
+    group:
+      - name: Reverb On
+        description: Reverb On
+        min: 1
+        max: 1
+      - name: Reverb Off
+        description: Reverb Off
+        min: 0
+        max: 0
+  - name: Tremolo On / Tremolo Off
+    value: 32
+    description: Tremolo On; Tremolo Off
+    group:
+      - name: Tremolo On
+        description: Tremolo On
+        min: 1
+        max: 1
+      - name: Tremolo Off
+        description: Tremolo Off
+        min: 0
+        max: 0

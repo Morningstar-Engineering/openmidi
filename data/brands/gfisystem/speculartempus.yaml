@@ -73,42 +73,48 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: Bypass Pedal
+  - name: Bypass Pedal / Engage Pedal
     value: 22
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: Engage Pedal
-    value: 22
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Kill Dry: Off'
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+        type: System
+  - name: 'Kill Dry: Off / Kill Dry: On'
     value: 23
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Kill Dry: On'
-    value: 23
-    description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: 'Aux-Out: Off'
+    group:
+      - name: 'Kill Dry: Off'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Kill Dry: On'
+        description: ''
+        min: 127
+        max: 127
+        type: System
+  - name: 'Aux-Out: Off / Aux-Out: On'
     value: 24
     description: ''
-    type: System
-    min: 0
-    max: 0
-  - name: 'Aux-Out: On'
-    value: 24
-    description: ''
-    type: System
-    min: 127
-    max: 127
+    group:
+      - name: 'Aux-Out: Off'
+        description: ''
+        min: 0
+        max: 0
+        type: System
+      - name: 'Aux-Out: On'
+        description: ''
+        min: 127
+        max: 127
+        type: System
   - name: Tap Tempo
     value: 25
     description: ''

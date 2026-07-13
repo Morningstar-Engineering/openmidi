@@ -1,5 +1,134 @@
 brand: Hughes & Kettner
 cc:
+  - name: 'Mute: On / Mute: Off'
+    value: 9
+    description: ''
+    group:
+      - name: 'Mute: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Mute: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Loop: On / FX Loop: Off'
+    value: 55
+    description: ''
+    group:
+      - name: 'FX Loop: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Loop: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Serial: Serial / FX Serial: Parallel'
+    value: 54
+    description: ''
+    group:
+      - name: 'FX Serial: Serial'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Serial: Parallel'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Stomp Boost: On / Stomp  Boost: Off'
+    value: 64
+    description: ''
+    group:
+      - name: 'Stomp Boost: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Stomp  Boost: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Noise Gate: On / Noise Gate: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'Noise Gate: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Noise Gate: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Channels: Amp 1A / Channels: Amp 1B / Channels: Amp 2A / Channels: Amp 2B / Channels: Amp 3A / Channels: Amp 3B'
+    value: 31
+    description: ''
+    group:
+      - name: 'Channels: Amp 1A'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Channels: Amp 1B'
+        description: ''
+        min: 13
+        max: 13
+      - name: 'Channels: Amp 2A'
+        description: ''
+        min: 40
+        max: 40
+      - name: 'Channels: Amp 2B'
+        description: ''
+        min: 66
+        max: 66
+      - name: 'Channels: Amp 3A'
+        description: ''
+        min: 90
+        max: 90
+      - name: 'Channels: Amp 3B'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Tube1/2: On / Tube 1/2: Off'
+    value: 58
+    description: ''
+    group:
+      - name: 'Tube1/2: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Tube 1/2: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Tube 3/4: On / Tube 3/4: Off'
+    value: 59
+    description: ''
+    group:
+      - name: 'Tube 3/4: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Tube 3/4: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Tube 5/6: On / Tube 5/6: Off'
+    value: 60
+    description: ''
+    group:
+      - name: 'Tube 5/6: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Tube 5/6: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Panel Brightness
+    value: 88
 - description: ''
   max: 127
   min: 127

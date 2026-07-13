@@ -1,5 +1,17 @@
 brand: EVH
 cc:
+  - name: 'Reverb: On / Reverb: Off'
+    value: 85
+    description: ''
+    group:
+      - name: 'Reverb: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Reverb: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 127

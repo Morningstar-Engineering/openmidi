@@ -1,5 +1,314 @@
 brand: Pigtronix
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Varispeed
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression
+    value: 4
+  - description: ''
+    max: 127
+    min: 0
+    name: Global Volume
+    value: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Loop Aging
+    value: 9
+  - description: ''
+    max: 127
+    min: 0
+    name: Loop 1 Volume
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Loop 2 Volume
+    value: 13
+  - name: 'Stop Mode: Short Press / Stop Mode: Long Press / Stop Mode: Release / Stop Mode: Press'
+    value: 17
+    description: ''
+    group:
+      - name: 'Stop Mode: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Stop Mode: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Stop Mode: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Stop Mode: Press'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 127
+    name: Series Loops
+    value: 19
+  - description: ''
+    max: 127
+    min: 127
+    name: Input Split
+    value: 20
+  - name: Click Kill / No Click Kill
+    value: 21
+    description: ''
+    group:
+      - name: Click Kill
+        description: ''
+        min: 4
+        max: 4
+      - name: No Click Kill
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Sync Multi: Short Press / Sync Multi: Long Press / Sync Multi: Release / Sync Multi: Press'
+    value: 22
+    description: ''
+    group:
+      - name: 'Sync Multi: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Sync Multi: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Sync Multi: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Sync Multi: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Stop FSW: Short Press / Stop FSW: Long Press / Stop FSW: Release / Stop FSW: Press'
+    value: 23
+    description: ''
+    group:
+      - name: 'Stop FSW: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Stop FSW: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Stop FSW: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Stop FSW: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Loop 1 FSW: Short Press / Loop 1 FSW: Long Press / Loop 1 FSW: Release / Loop 1 FSW: Press'
+    value: 24
+    description: ''
+    group:
+      - name: 'Loop 1 FSW: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Loop 1 FSW: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Loop 1 FSW: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Loop 1 FSW: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Loop 2 FSW: Short Press / Loop 2 FSW: Long Press / Loop 2 FSW: Release / Loop 2 FSW: Press'
+    value: 25
+    description: ''
+    group:
+      - name: 'Loop 2 FSW: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Loop 2 FSW: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Loop 2 FSW: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Loop 2 FSW: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Undo FSW: Short Press / Undo FSW: Long Press / Undo FSW: Release / Undo FSW: Press'
+    value: 27
+    description: ''
+    group:
+      - name: 'Undo FSW: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Undo FSW: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Undo FSW: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Undo FSW: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Reverse FSW: Short Press / Reverse FSW: Long Press / Reverse FSW: Release / Reverse FSW: Press'
+    value: 28
+    description: ''
+    group:
+      - name: 'Reverse FSW: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverse FSW: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Reverse FSW: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Reverse FSW: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Pitch Up: Short Press / Pitch Up: Long Press / Pitch Up: Release / Pitch Up: Press'
+    value: 29
+    description: ''
+    group:
+      - name: 'Pitch Up: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Pitch Up: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Pitch Up: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Pitch Up: Press'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Pitch Down: Short Press / Pitch Down: Long Press / Pitch Down: Release / Pitch Down: Press'
+    value: 30
+    description: ''
+    group:
+      - name: 'Pitch Down: Short Press'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Pitch Down: Long Press'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Pitch Down: Release'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Pitch Down: Press'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 127
+    name: Pitch Recall
+    value: 31
+  - description: ''
+    max: 127
+    min: 127
+    name: Stutter
+    value: 75
+  - description: ''
+    max: 127
+    min: 127
+    name: Erase
+    value: 76
+  - description: ''
+    max: 127
+    min: 127
+    name: Erase+Rec
+    value: 77
+  - description: ''
+    max: 127
+    min: 127
+    name: Reverse
+    value: 78
+  - description: ''
+    max: 127
+    min: 127
+    name: Undo
+    value: 79
+  - description: ''
+    max: 127
+    min: 127
+    name: Stop
+    value: 80
+  - description: ''
+    max: 127
+    min: 0
+    name: Set Multiplier
+    value: 82
+  - description: ''
+    max: 127
+    min: 127
+    name: Erase Other
+    value: 83
+  - description: ''
+    max: 127
+    min: 127
+    name: Preset Decrement
+    value: 85
+  - description: ''
+    max: 127
+    min: 127
+    name: Preset Increment
+    value: 86
+  - description: ''
+    max: 127
+    min: 127
+    name: One Shot
+    value: 87
+  - name: 'MIDI Clock: Listen / MIDI Clock: Ignore'
+    value: 88
+    description: ''
+    group:
+      - name: 'MIDI Clock: Listen'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'MIDI Clock: Ignore'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Erase All
+    value: 89
 - description: ''
   max: 127
   min: 0

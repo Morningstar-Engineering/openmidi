@@ -373,15 +373,17 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Engage
+  - name: Engage / Bypass
     value: 102
     description: ''
-    type: System
-    min: 127
-    max: 127
-  - name: Bypass
-    value: 102
-    description: ''
-    type: System
-    min: 0
-    max: 0
+    group:
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: System
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: System

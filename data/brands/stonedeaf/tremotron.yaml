@@ -1,5 +1,103 @@
 brand: Stone Deaf
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Rate
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: Depth
+    value: 21
+  - description: ''
+    max: 14
+    min: 0
+    name: Shape
+    value: 22
+  - name: Activate Secondary LFO / Deactivate Secondary LFO
+    value: 23
+    description: ''
+    group:
+      - name: Activate Secondary LFO
+        description: ''
+        min: 127
+        max: 127
+      - name: Deactivate Secondary LFO
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Secondary Rate (relative)
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Secondary Depth
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Secondary Shape
+    value: 26
+  - name: 'Tap Division: Crotchet / Tap Division: Dotted Quaver / Tap Division: Quarter / Tap Division: Quaver / Tap Division: Triplet / Tap Division: Semi-quaver / Tap Division: Hemi-demi-semi-quaver'
+    value: 27
+    description: ''
+    group:
+      - name: 'Tap Division: Crotchet'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Tap Division: Dotted Quaver'
+        description: ''
+        min: 30
+        max: 30
+      - name: 'Tap Division: Quarter'
+        description: ''
+        min: 60
+        max: 60
+      - name: 'Tap Division: Quaver'
+        description: ''
+        min: 75
+        max: 75
+      - name: 'Tap Division: Triplet'
+        description: ''
+        min: 99
+        max: 99
+      - name: 'Tap Division: Semi-quaver'
+        description: ''
+        min: 110
+        max: 110
+      - name: 'Tap Division: Hemi-demi-semi-quaver'
+        description: ''
+        min: 127
+        max: 127
+  - name: Bypass Pedal / Engage Pedal
+    value: 29
+    description: ''
+    group:
+      - name: Bypass Pedal
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage Pedal
+        description: ''
+        min: 127
+        max: 127
+  - name: MIDI Beat Clock On / MIDI Beat Clock Off
+    value: 30
+    description: ''
+    group:
+      - name: MIDI Beat Clock On
+        description: ''
+        min: 127
+        max: 127
+      - name: MIDI Beat Clock Off
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

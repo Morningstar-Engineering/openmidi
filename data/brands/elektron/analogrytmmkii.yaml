@@ -1,5 +1,517 @@
 brand: Elektron
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: Note'
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: Velocity'
+    value: 4
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: Length'
+    value: 5
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: Synth Trig'
+    value: 11
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: Sample Trig'
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: ENV Trig'
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Trig: LFO Trig'
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Track Level
+    value: 95
+  - description: ''
+    max: 127
+    min: 0
+    name: Track Mute
+    value: 94
+  - description: ''
+    max: 127
+    min: 0
+    name: Track Solo
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Track Machine Type
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Active Scene
+    value: 92
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 1
+    value: 35
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 2
+    value: 36
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 3
+    value: 37
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 4
+    value: 39
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 5
+    value: 40
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 6
+    value: 41
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 7
+    value: 42
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 8
+    value: 43
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 9
+    value: 44
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 10
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 11
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: Perf Param 12
+    value: 47
+  - name: 'Synth Param 1 / Delay: Time'
+    value: 16
+    description: ''
+    group:
+      - name: Synth Param 1
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Time'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 2 / Delay: Pingpong'
+    value: 17
+    description: ''
+    group:
+      - name: Synth Param 2
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Pingpong'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 3 / Delay: Stereo Width'
+    value: 18
+    description: ''
+    group:
+      - name: Synth Param 3
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Stereo Width'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 4 / Delay: Feedback'
+    value: 19
+    description: ''
+    group:
+      - name: Synth Param 4
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Feedback'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 5 / Delay: Highpass Filter'
+    value: 20
+    description: ''
+    group:
+      - name: Synth Param 5
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Highpass Filter'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 6 / Delay: Lowpass Filter'
+    value: 21
+    description: ''
+    group:
+      - name: Synth Param 6
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Lowpass Filter'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 7 / Delay: Reverb Send'
+    value: 22
+    description: ''
+    group:
+      - name: Synth Param 7
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Reverb Send'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Synth Param 8 / Delay: Mix Volume'
+    value: 23
+    description: ''
+    group:
+      - name: Synth Param 8
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Delay: Mix Volume'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: Tune / Reverb: Predelay'
+    value: 24
+    description: ''
+    group:
+      - name: 'Sample: Tune'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Predelay'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: Fine Tune / Reverb: Decay Time'
+    value: 25
+    description: ''
+    group:
+      - name: 'Sample: Fine Tune'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Decay Time'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: Bit Reduction / Reverb: Shelving Freq'
+    value: 26
+    description: ''
+    group:
+      - name: 'Sample: Bit Reduction'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Shelving Freq'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: Slot / Reverb: Shelving Gain'
+    value: 27
+    description: ''
+    group:
+      - name: 'Sample: Slot'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Shelving Gain'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: Start / Reverb: Highpass Filter'
+    value: 28
+    description: ''
+    group:
+      - name: 'Sample: Start'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Highpass Filter'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Sample: End / Reverb: Lowpass Filter'
+    value: 29
+    description: ''
+    group:
+      - name: 'Sample: End'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Lowpass Filter'
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Sample: Loop'
+    value: 30
+  - name: 'Sample: Level / Reverb: Mix Volume'
+    value: 31
+    description: ''
+    group:
+      - name: 'Sample: Level'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Reverb: Mix Volume'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Filter: Attack Time / Distortion: Amount'
+    value: 70
+    description: ''
+    group:
+      - name: 'Filter: Attack Time'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Distortion: Amount'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Filter: Decay Time / Distortion: Symmetry'
+    value: 71
+    description: ''
+    group:
+      - name: 'Filter: Decay Time'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Distortion: Symmetry'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Filter: Sustain Level / Distortion: Delay Overdrive'
+    value: 72
+    description: ''
+    group:
+      - name: 'Filter: Sustain Level'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Distortion: Delay Overdrive'
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Filter: Release Time'
+    value: 73
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Filter: Frequency'
+    value: 74
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Filter: Resonance'
+    value: 75
+  - name: 'Filter: Mode / Distortion: Delay Dist/Comp Pre/Post'
+    value: 76
+    description: ''
+    group:
+      - name: 'Filter: Mode'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Distortion: Delay Dist/Comp Pre/Post'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Filter: Env Depth / Distortion: Reverb Dist/Comp Pre/Post'
+    value: 77
+    description: ''
+    group:
+      - name: 'Filter: Env Depth'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Distortion: Reverb Dist/Comp Pre/Post'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Attack Time / Comp: Threshold'
+    value: 78
+    description: ''
+    group:
+      - name: 'Amp: Attack Time'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Threshold'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Hold Time / Comp: Attack Time'
+    value: 79
+    description: ''
+    group:
+      - name: 'Amp: Hold Time'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Attack Time'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Decay Time / Comp: Release Time'
+    value: 80
+    description: ''
+    group:
+      - name: 'Amp: Decay Time'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Release Time'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Overdrive / Comp: Makeup Gain'
+    value: 81
+    description: ''
+    group:
+      - name: 'Amp: Overdrive'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Makeup Gain'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Delay Send / Comp: Ratio'
+    value: 82
+    description: ''
+    group:
+      - name: 'Amp: Delay Send'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Ratio'
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Amp: Reverb Send / Comp: Sidechain EQ'
+    value: 83
+    description: ''
+    group:
+      - name: 'Amp: Reverb Send'
+        description: ''
+        min: 0
+        max: 127
+      - name: 'Comp: Sidechain EQ'
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Amp: Pan'
+    value: 10
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Amp: Volume'
+    value: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Speed'
+    value: 102
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Multiplier'
+    value: 103
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Fade In/Out'
+    value: 104
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Destination'
+    value: 105
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Waveform'
+    value: 106
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Start Phase'
+    value: 107
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Trig Mode'
+    value: 108
+  - description: ''
+    max: 127
+    min: 0
+    name: 'LFO: Depth'
+    value: 109
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Comp: Dry/Wet Mix'
+    value: 84
+  - description: ''
+    max: 127
+    min: 0
+    name: 'Comp: Output Volume'
+    value: 85
 - description: ''
   max: 127
   min: 0

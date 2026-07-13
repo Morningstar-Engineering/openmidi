@@ -1,5 +1,354 @@
 brand: Free the Tone
 cc:
+  - description: ''
+    max: 99
+    min: 0
+    name: Delay Level
+    value: 81
+  - description: ''
+    max: 99
+    min: 0
+    name: Feedback (0-99)
+    value: 82
+  - description: ''
+    max: 99
+    min: 11
+    name: Feedback (1.1-9.9)
+    value: 83
+  - description: ''
+    max: 99
+    min: 10
+    name: Output Level
+    value: 84
+  - name: 'LPF: Off / LPF: 22kHz / LPF: 20kHz / LPF: 18kHz / LPF: 16kHz / LPF: 14kHz / LPF: 13kHz / LPF: 12kHz / LPF: 11kHz / LPF: 10kHz / LPF: 9kHz / LPF: 8kHz / LPF: 7kHz / LPF: 6kHz / LPF: 5kHz / LPF: 4kHz / LPF: 3kHz / LPF: 2kHz / LPF: 1kHz'
+    value: 21
+    description: ''
+    group:
+      - name: 'LPF: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'LPF: 22kHz'
+        description: ''
+        min: 22
+        max: 22
+      - name: 'LPF: 20kHz'
+        description: ''
+        min: 20
+        max: 20
+      - name: 'LPF: 18kHz'
+        description: ''
+        min: 18
+        max: 18
+      - name: 'LPF: 16kHz'
+        description: ''
+        min: 16
+        max: 16
+      - name: 'LPF: 14kHz'
+        description: ''
+        min: 14
+        max: 14
+      - name: 'LPF: 13kHz'
+        description: ''
+        min: 13
+        max: 13
+      - name: 'LPF: 12kHz'
+        description: ''
+        min: 12
+        max: 12
+      - name: 'LPF: 11kHz'
+        description: ''
+        min: 11
+        max: 11
+      - name: 'LPF: 10kHz'
+        description: ''
+        min: 10
+        max: 10
+      - name: 'LPF: 9kHz'
+        description: ''
+        min: 9
+        max: 9
+      - name: 'LPF: 8kHz'
+        description: ''
+        min: 8
+        max: 8
+      - name: 'LPF: 7kHz'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'LPF: 6kHz'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'LPF: 5kHz'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'LPF: 4kHz'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'LPF: 3kHz'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'LPF: 2kHz'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'LPF: 1kHz'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'HPF: Off / HPF: 20Hz / HPF: 40Hz / HPF: 50Hz / HPF: 60Hz / HPF: 80Hz / HPF: 100Hz / HPF: 120Hz / HPF: 140Hz / HPF: 160Hz / HPF: 180Hz / HPF: 200Hz / HPF: 250Hz / HPF: 300Hz / HPF: 400Hz / HPF: 500Hz / HPF: 600Hz / HPF: 700Hz / HPF: 800Hz / HPF: 900Hz / HPF: 1kHz'
+    value: 22
+    description: ''
+    group:
+      - name: 'HPF: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'HPF: 20Hz'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'HPF: 40Hz'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'HPF: 50Hz'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'HPF: 60Hz'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'HPF: 80Hz'
+        description: ''
+        min: 8
+        max: 8
+      - name: 'HPF: 100Hz'
+        description: ''
+        min: 10
+        max: 10
+      - name: 'HPF: 120Hz'
+        description: ''
+        min: 12
+        max: 12
+      - name: 'HPF: 140Hz'
+        description: ''
+        min: 14
+        max: 14
+      - name: 'HPF: 160Hz'
+        description: ''
+        min: 16
+        max: 16
+      - name: 'HPF: 180Hz'
+        description: ''
+        min: 18
+        max: 18
+      - name: 'HPF: 200Hz'
+        description: ''
+        min: 20
+        max: 20
+      - name: 'HPF: 250Hz'
+        description: ''
+        min: 25
+        max: 25
+      - name: 'HPF: 300Hz'
+        description: ''
+        min: 30
+        max: 30
+      - name: 'HPF: 400Hz'
+        description: ''
+        min: 40
+        max: 40
+      - name: 'HPF: 500Hz'
+        description: ''
+        min: 50
+        max: 50
+      - name: 'HPF: 600Hz'
+        description: ''
+        min: 60
+        max: 60
+      - name: 'HPF: 700Hz'
+        description: ''
+        min: 70
+        max: 70
+      - name: 'HPF: 800Hz'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'HPF: 900Hz'
+        description: ''
+        min: 90
+        max: 90
+      - name: 'HPF: 1kHz'
+        description: ''
+        min: 99
+        max: 99
+  - description: ''
+    max: 99
+    min: 0
+    name: Rate-Up
+    value: 31
+  - description: ''
+    max: 99
+    min: 0
+    name: Rate Down
+    value: 34
+  - description: ''
+    max: 99
+    min: 0
+    name: Depth
+    value: 33
+  - name: 'Subdivision: 1/1 / Subdivision: 1/2 / Subdivision: 1/4d / Subdivision: Triplet/4 / Subdivision: 1/4 / Subdivision: 1/8d / Subdivision: Triplet/2 / Subdivision: 1/8 / Subdivision: Triplet/1 / Subdivision: 1/16'
+    value: 41
+    description: ''
+    group:
+      - name: 'Subdivision: 1/1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Subdivision: 1/2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Subdivision: 1/4d'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Subdivision: Triplet/4'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Subdivision: 1/4'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Subdivision: 1/8d'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Subdivision: Triplet/2'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Subdivision: 1/8'
+        description: ''
+        min: 8
+        max: 8
+      - name: 'Subdivision: Triplet/1'
+        description: ''
+        min: 9
+        max: 9
+      - name: 'Subdivision: 1/16'
+        description: ''
+        min: 10
+        max: 10
+  - description: ''
+    max: 99
+    min: 0
+    name: Offset (+)
+    value: 42
+  - description: ''
+    max: 99
+    min: 0
+    name: Offset (-)
+    value: 43
+  - name: 'Trail: Off / Trail: On'
+    value: 51
+    description: ''
+    group:
+      - name: 'Trail: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Trail: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Rec & Repeat Mode: On / Rec & Repeat Mode: Off'
+    value: 52
+    description: ''
+    group:
+      - name: 'Rec & Repeat Mode: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Rec & Repeat Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'BPM Analyzer: Off / BPM Analyzer: On'
+    value: 53
+    description: ''
+    group:
+      - name: 'BPM Analyzer: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'BPM Analyzer: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Delay Phase: Off / Delay Phase: On'
+    value: 54
+    description: ''
+    group:
+      - name: 'Delay Phase: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay Phase: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: Effect On / Effect Off
+    value: 61
+    description: ''
+    group:
+      - name: Effect On
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap
+    value: 62
+  - name: 'Hold: On / Hold: Off'
+    value: 63
+    description: ''
+    group:
+      - name: 'Hold: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Hold: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Play
+    value: 71
+  - description: ''
+    max: 127
+    min: 127
+    name: Rec
+    value: 72
+  - description: ''
+    max: 127
+    min: 127
+    name: Stop
+    value: 73
 - description: ''
   max: 99
   min: 0

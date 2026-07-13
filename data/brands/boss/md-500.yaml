@@ -1,5 +1,95 @@
 brand: BOSS
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: '[RATE/VALUE] Knob'
+    value: 17
+  - description: ''
+    max: 127
+    min: 0
+    name: '[DEPTH] Knob'
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: '[E. LEVEL] Knob'
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: '[PARAM 1] Knob'
+    value: 20
+  - description: ''
+    max: 127
+    min: 0
+    name: '[PARAM 2] Knob'
+    value: 21
+  - name: CTL 1 Switch Press / CTL 1 Switch Release
+    value: 80
+    description: ''
+    group:
+      - name: CTL 1 Switch Press
+        description: ''
+        min: 127
+        max: 127
+      - name: CTL 1 Switch Release
+        description: ''
+        min: 0
+        max: 0
+  - name: CTL 2 Switch Press / CTL 2 Switch Release
+    value: 81
+    description: ''
+    group:
+      - name: CTL 2 Switch Press
+        description: ''
+        min: 127
+        max: 127
+      - name: CTL 2 Switch Release
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal
+    value: 16
+  - name: Effect On / Effect Bypass
+    value: 27
+    description: ''
+    group:
+      - name: Effect On
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect Bypass
+        description: ''
+        min: 0
+        max: 0
+  - name: Effect A On / Effect A Bypass
+    value: 28
+    description: ''
+    group:
+      - name: Effect A On
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect A Bypass
+        description: ''
+        min: 0
+        max: 0
+  - name: Effect B On / Effect B Bypass
+    value: 29
+    description: ''
+    group:
+      - name: Effect B On
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect B Bypass
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

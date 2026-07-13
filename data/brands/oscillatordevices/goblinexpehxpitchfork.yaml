@@ -1,5 +1,77 @@
 brand: Oscillator Devices
 cc:
+  - name: Turn Off / Turn On / Toggle / Hold / Release
+    value: 10
+    description: Turn off (with Latch mode activated); Turn on (with Latch mode activated); Toggle (with Latch mode activated); Hold (with Latch mode deactivated); Release (with Latch mode deactivated)
+    group:
+      - name: Turn Off
+        description: Turn off (with Latch mode activated)
+        min: 0
+        max: 0
+        type: System
+      - name: Turn On
+        description: Turn on (with Latch mode activated)
+        min: 1
+        max: 1
+        type: System
+      - name: Toggle
+        description: Toggle (with Latch mode activated)
+        min: 2
+        max: 2
+        type: System
+      - name: Hold
+        description: Hold (with Latch mode deactivated)
+        min: 3
+        max: 3
+        type: System
+      - name: Release
+        description: Release (with Latch mode deactivated)
+        min: 4
+        max: 4
+        type: System
+  - description: Unity (0) to full shift (127)
+    max: 127
+    min: 0
+    name: Pitch Full
+    type: Parameter
+    value: 50
+  - description: Full shift (0) to unity (127)
+    max: 127
+    min: 0
+    name: Pitch Full Reverse
+    type: Parameter
+    value: 51
+  - description: Unity (0) to half shift (127) with full resolution
+    max: 127
+    min: 0
+    name: Pitch to Half
+    type: Parameter
+    value: 52
+  - description: Half shift (0) to full shift (127) with full resolution
+    max: 127
+    min: 0
+    name: Pitch Half to Full
+    type: Parameter
+    value: 53
+  - name: Dual Mode / Up Mode / Down Mode
+    value: 30
+    description: Dual (Shift up and down); Shift up; Shift down
+    group:
+      - name: Dual Mode
+        description: Dual (Shift up and down)
+        min: 0
+        max: 0
+        type: System
+      - name: Up Mode
+        description: Shift up
+        min: 1
+        max: 1
+        type: System
+      - name: Down Mode
+        description: Shift down
+        min: 5
+        max: 5
+        type: System
 - description: 'Turn off (with Latch mode activated)'
   max: 0
   min: 0

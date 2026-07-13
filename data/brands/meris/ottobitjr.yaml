@@ -25,18 +25,20 @@ cc:
     type: System
     min: 0
     max: 127
-  - name: FX Bypass
+  - name: FX Bypass / FX Enable
     value: 14
     description: ''
-    type: System
-    min: 0
-    max: 63
-  - name: FX Enable
-    value: 14
-    description: ''
-    type: System
-    min: 64
-    max: 127
+    group:
+      - name: FX Bypass
+        description: ''
+        min: 0
+        max: 63
+        type: System
+      - name: FX Enable
+        description: ''
+        min: 64
+        max: 127
+        type: System
   - name: Tempo
     value: 15
     description: ''
@@ -121,33 +123,36 @@ cc:
     type: Parameter
     min: 127
     max: 127
-  - name: 'Sequencer Type: Pitch'
+  - name: 'Sequencer Type: Pitch / Sequencer Type: Sample Rate / Sequencer Type: Filter'
     value: 29
     description: ''
-    type: Parameter
-    min: 0
-    max: 62
-  - name: 'Sequencer Type: Sample Rate'
-    value: 29
-    description: ''
-    type: Parameter
-    min: 63
-    max: 63
-  - name: 'Sequencer Type: Filter'
-    value: 29
-    description: ''
-    type: Parameter
-    min: 64
-    max: 127
-  - name: 'Stutter Hold: Off'
+    group:
+      - name: 'Sequencer Type: Pitch'
+        description: ''
+        min: 0
+        max: 62
+        type: Parameter
+      - name: 'Sequencer Type: Sample Rate'
+        description: ''
+        min: 63
+        max: 63
+        type: Parameter
+      - name: 'Sequencer Type: Filter'
+        description: ''
+        min: 64
+        max: 127
+        type: Parameter
+  - name: 'Stutter Hold: Off / Stutter Hold: On'
     value: 31
     description: ''
-    type: Parameter
-    min: 0
-    max: 63
-  - name: 'Stutter Hold: On'
-    value: 31
-    description: ''
-    type: Parameter
-    min: 64
-    max: 127
+    group:
+      - name: 'Stutter Hold: Off'
+        description: ''
+        min: 0
+        max: 63
+        type: Parameter
+      - name: 'Stutter Hold: On'
+        description: ''
+        min: 64
+        max: 127
+        type: Parameter

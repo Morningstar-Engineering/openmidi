@@ -15,12 +15,20 @@ pc:
     PROGRAM CHANGE 025-035 – Saved Bank Presets 1-11
 
 cc:
-  - name: Middle Octave Level
+  - name: Middle Octave Level / Effect Engage
     value: 20
     description: ''
-    type: Parameter
-    min: 0
-    max: 127
+    group:
+      - name: Middle Octave Level
+        description: ''
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Effect Engage
+        description: ''
+        min: 64
+        max: 127
+        type: System
   - name: Octave Up Level
     value: 21
     description: ''
@@ -39,9 +47,3 @@ cc:
     type: System
     min: 0
     max: 63
-  - name: Effect Engage
-    value: 20
-    description: ''
-    type: System
-    min: 64
-    max: 127

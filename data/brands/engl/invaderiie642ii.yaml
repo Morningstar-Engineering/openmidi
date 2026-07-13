@@ -1,5 +1,77 @@
 brand: ENGL
 cc:
+  - name: Mute Amp / Unmute Amp
+    value: 7
+    description: ''
+    group:
+      - name: Mute Amp
+        description: ''
+        min: 127
+        max: 127
+      - name: Unmute Amp
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Master A/B: Off / Master A/B: On'
+    value: 14
+    description: ''
+    group:
+      - name: 'Master A/B: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Master A/B: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'High Gain: Off / High Gain: On'
+    value: 22
+    description: ''
+    group:
+      - name: 'High Gain: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'High Gain: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Noise Gate: Off / Noise Gate: On'
+    value: 24
+    description: ''
+    group:
+      - name: 'Noise Gate: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Noise Gate: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Sound: Off / Sound: On'
+    value: 29
+    description: ''
+    group:
+      - name: 'Sound: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Sound: On'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'FX Loop I/II: Off / FX Loop I/II: On'
+    value: 30
+    description: ''
+    group:
+      - name: 'FX Loop I/II: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'FX Loop I/II: On'
+        description: ''
+        min: 127
+        max: 127
 - description: ''
   max: 127
   min: 127

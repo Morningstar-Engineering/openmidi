@@ -1,5 +1,121 @@
 brand: Yamaha
 cc:
+  - name: 'Type: Rd I / Type: Rd II / Type: Wr / Type: Clv / Type: Toy / Type: CP'
+    value: 80
+    description: ''
+    group:
+      - name: 'Type: Rd I'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Type: Rd II'
+        description: ''
+        min: 22
+        max: 22
+      - name: 'Type: Wr'
+        description: ''
+        min: 63
+        max: 63
+      - name: 'Type: Clv'
+        description: ''
+        min: 65
+        max: 65
+      - name: 'Type: Toy'
+        description: ''
+        min: 86
+        max: 86
+      - name: 'Type: CP'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Drive
+    value: 81
+  - name: 'Tremolo/wah: Off / Tremolo/wah: Trem / Tremolo/wah: Wah'
+    value: 17
+    description: ''
+    group:
+      - name: 'Tremolo/wah: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Tremolo/wah: Trem'
+        description: ''
+        min: 64
+        max: 64
+      - name: 'Tremolo/wah: Wah'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Tremolo/wah depth
+    value: 18
+  - description: ''
+    max: 127
+    min: 0
+    name: Tremolo/wah rate
+    value: 19
+  - name: 'Chorus/phaser: Off / Chorus/phaser: Chorus / Chorus/phaser: Phaser'
+    value: 85
+    description: ''
+    group:
+      - name: 'Chorus/phaser: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Chorus/phaser: Chorus'
+        description: ''
+        min: 64
+        max: 64
+      - name: 'Chorus/phaser: Phaser'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Chorus/phaser depth
+    value: 86
+  - description: ''
+    max: 127
+    min: 0
+    name: Chorus/phaser speed
+    value: 87
+  - name: 'Delay: Off / Delay: Digital / Delay: Analog'
+    value: 88
+    description: ''
+    group:
+      - name: 'Delay: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Delay: Digital'
+        description: ''
+        min: 64
+        max: 64
+      - name: 'Delay: Analog'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Digital delay/analog delay depth
+    value: 89
+  - description: ''
+    max: 127
+    min: 0
+    name: Digital delay/analog delay time
+    value: 90
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb depth
+    value: 91
 - description: ''
   max: 0
   min: 0

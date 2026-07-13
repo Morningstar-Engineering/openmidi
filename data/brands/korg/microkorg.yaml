@@ -1,5 +1,383 @@
 brand: Korg
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Portamento
+    value: 5
+  - name: 'OSC 1 Wave: Saw / OSC 1 Wave: Square / OSC 1 Wave: Triangle / OSC 1 Wave: Sine / OSC 1 Wave: Vox Wave / OSC 1 Wave: DWGS / OSC 1 Wave: Noise / OSC 1 Wave: Audio In'
+    value: 77
+    description: ''
+    group:
+      - name: 'OSC 1 Wave: Saw'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'OSC 1 Wave: Square'
+        description: ''
+        min: 17
+        max: 17
+      - name: 'OSC 1 Wave: Triangle'
+        description: ''
+        min: 33
+        max: 33
+      - name: 'OSC 1 Wave: Sine'
+        description: ''
+        min: 49
+        max: 49
+      - name: 'OSC 1 Wave: Vox Wave'
+        description: ''
+        min: 65
+        max: 65
+      - name: 'OSC 1 Wave: DWGS'
+        description: ''
+        min: 81
+        max: 81
+      - name: 'OSC 1 Wave: Noise'
+        description: ''
+        min: 97
+        max: 97
+      - name: 'OSC 1 Wave: Audio In'
+        description: ''
+        min: 113
+        max: 113
+  - description: ''
+    max: 127
+    min: 0
+    name: OSC 1 Control 1
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: OSC 1 Control 2
+    value: 15
+  - name: 'OSC 2 Wave: Saw / OSC 2 Wave: Square / OSC 2 Wave: Triangle'
+    value: 78
+    description: ''
+    group:
+      - name: 'OSC 2 Wave: Saw'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'OSC 2 Wave: Square'
+        description: ''
+        min: 64
+        max: 64
+      - name: 'OSC 2 Wave: Triangle'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'OSC 2 Mod: Off / OSC 2 Mod: Ring / OSC 2 Mod: Sync / OSC 2 Mod: Ring Sync'
+    value: 82
+    description: ''
+    group:
+      - name: 'OSC 2 Mod: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'OSC 2 Mod: Ring'
+        description: ''
+        min: 50
+        max: 50
+      - name: 'OSC 2 Mod: Sync'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'OSC 2 Mod: Ring Sync'
+        description: ''
+        min: 127
+        max: 127
+  - name: OSC 2 Semitone / Vocoder HPF level
+    value: 18
+    description: ''
+    group:
+      - name: OSC 2 Semitone
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder HPF level
+        description: ''
+        min: 0
+        max: 127
+  - name: OSC 2 Tune / Vocoder threshold
+    value: 19
+    description: ''
+    group:
+      - name: OSC 2 Tune
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder threshold
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: OSC 1 level
+    value: 20
+  - name: OSC 2 level / Vocoder inst level
+    value: 21
+    description: ''
+    group:
+      - name: OSC 2 level
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder inst level
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Noise level
+    value: 22
+  - name: 'Filter Type: -24LPF / Filter Type: -12LPF / Filter Type: -12BPF / Filter Type: -12HPF / Vocoder formant shift: 0 / Vocoder formant shift: +1 / Vocoder formant shift: +2 / Vocoder formant shift: -1 / Vocoder formant shift: -2'
+    value: 83
+    description: ''
+    group:
+      - name: 'Filter Type: -24LPF'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Filter Type: -12LPF'
+        description: ''
+        min: 50
+        max: 50
+      - name: 'Filter Type: -12BPF'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'Filter Type: -12HPF'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Vocoder formant shift: 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Vocoder formant shift: +1'
+        description: ''
+        min: 40
+        max: 40
+      - name: 'Vocoder formant shift: +2'
+        description: ''
+        min: 60
+        max: 60
+      - name: 'Vocoder formant shift: -1'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'Vocoder formant shift: -2'
+        description: ''
+        min: 127
+        max: 127
+  - name: Filter cutoff / Vocoder filter cutoff
+    value: 74
+    description: ''
+    group:
+      - name: Filter cutoff
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder filter cutoff
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter resonance
+    value: 71
+  - name: Filter EG intensity / Vocoder mod intensity
+    value: 79
+    description: ''
+    group:
+      - name: Filter EG intensity
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder mod intensity
+        description: ''
+        min: 0
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter EG attack
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter EG decay
+    value: 24
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter EG sustain
+    value: 25
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter EG release
+    value: 26
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp level
+    value: 7
+  - name: Panpot / Vocoder direct level
+    value: 10
+    description: ''
+    group:
+      - name: Panpot
+        description: ''
+        min: 0
+        max: 127
+      - name: Vocoder direct level
+        description: ''
+        min: 0
+        max: 127
+  - name: 'Distortion: Off / Distortion: On'
+    value: 92
+    description: ''
+    group:
+      - name: 'Distortion: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Distortion: On'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp EG attack
+    value: 73
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp EG decay
+    value: 75
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp EG sustain
+    value: 70
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp EG release
+    value: 72
+  - name: 'LFO 1 Wave: Saw / LFO 1 Wave: Square / LFO 1 Wave: Triangle / LFO 1 Wave: S/H'
+    value: 87
+    description: ''
+    group:
+      - name: 'LFO 1 Wave: Saw'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'LFO 1 Wave: Square'
+        description: ''
+        min: 60
+        max: 60
+      - name: 'LFO 1 Wave: Triangle'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'LFO 1 Wave: S/H'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: LFO 1 frequency
+    value: 27
+  - name: 'LFO 2 Wave: Saw / LFO 2 Wave: Square / LFO 2 Wave: Triangle / LFO 2 Wave: S/H'
+    value: 88
+    description: ''
+    group:
+      - name: 'LFO 2 Wave: Saw'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'LFO 2 Wave: Square'
+        description: ''
+        min: 60
+        max: 60
+      - name: 'LFO 2 Wave: Triangle'
+        description: ''
+        min: 80
+        max: 80
+      - name: 'LFO 2 Wave: S/H'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 0
+    name: LFO 2 frequency
+    value: 76
+  - description: ''
+    max: 127
+    min: 0
+    name: Patch 1 intensity
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Patch 2 intensity
+    value: 29
+  - description: ''
+    max: 127
+    min: 0
+    name: Patch 3 intensity
+    value: 30
+  - description: ''
+    max: 127
+    min: 0
+    name: Patch 4 intensity
+    value: 31
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod FX LFO speed
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Mod FX depth
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Delay time
+    value: 13
+  - description: ''
+    max: 127
+    min: 0
+    name: Delay depth
+    value: 94
+  - description: ''
+    max: 127
+    min: 0
+    name: Timbre select
+    value: 95
+  - name: 'MIDI Sync: On / MIDI Sync: Off'
+    value: 90
+    description: ''
+    group:
+      - name: 'MIDI Sync: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'MIDI Sync: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

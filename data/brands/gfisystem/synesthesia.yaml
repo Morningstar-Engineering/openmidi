@@ -19,255 +19,287 @@ pc:
 
     There are 23 Presets in total.
 cc:
-  - name: "DSP-X: Bypass"
+  - name: 'DSP-X: Bypass / DSP-X: Engage'
     value: 14
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "DSP-X: Engage"
-    value: 14
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "DSP-Y: Bypass"
+    group:
+      - name: 'DSP-X: Bypass'
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: 'DSP-X: Engage'
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: 'DSP-Y: Bypass / DSP-Y: Engage'
     value: 15
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "DSP-Y: Engage"
-    value: 15
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "Ramp-X: Release"
+    group:
+      - name: 'DSP-Y: Bypass'
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: 'DSP-Y: Engage'
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: 'Ramp-X: Release / Ramp-X: Trigger'
     value: 16
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Ramp-X: Trigger"
-    value: 16
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "Ramp-Y: Release"
+    group:
+      - name: 'Ramp-X: Release'
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: 'Ramp-X: Trigger'
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: 'Ramp-Y: Release / Ramp-Y: Trigger'
     value: 17
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Ramp-Y: Trigger"
-    value: 17
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "X Tap-Divide"
+    group:
+      - name: 'Ramp-Y: Release'
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: 'Ramp-Y: Trigger'
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: X Tap-Divide
     value: 18
-    description: |
-      0   =   Ignore Tap tempo / Midi Clock
+    description: '0   =   Ignore Tap tempo / Midi Clock
+
       1   =   4 : 1  (4x slower)
+
       2   =   2 : 1  (2x slower)
+
       3   =   1 : 1
+
       4   =   1 : 2  (2x faster)
+
       5   =   1 : 3  (3x faster)
+
       6   =   1 : 4  (4x faster)
+
       7   =   3 : 4  (4/3x faster ‐ dotted 8th)
+
+      '
     type: Operation
     min: 0
     max: 7
-  - name: "Y Tap-Divide"
+  - name: Y Tap-Divide
     value: 19
-    description: |
-      0   =   Ignore Tap tempo / Midi Clock
+    description: '0   =   Ignore Tap tempo / Midi Clock
+
       1   =   4 : 1  (4x slower)
+
       2   =   2 : 1  (2x slower)
+
       3   =   1 : 1
+
       4   =   1 : 2  (2x faster)
+
       5   =   1 : 3  (3x faster)
+
       6   =   1 : 4  (4x faster)
+
       7   =   3 : 4  (4/3x faster ‐ dotted 8th)
+
+      '
     type: Operation
     min: 0
     max: 7
-  - name: "X Algorithm"
+  - name: X Algorithm
     value: 20
     description: ''
     type: Operation
     min: 0
     max: 36
-  - name: "Y Algorithm"
+  - name: Y Algorithm
     value: 21
     description: ''
     type: Operation
     min: 0
     max: 36
-  - name: "Bypass"
+  - name: Bypass / Engage
     value: 22
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Engage"
-    value: 22
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "Tap Tempo"
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: Engage
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: Tap Tempo
     value: 23
     description: ''
     type: Operation
     min: 0
     max: 127
-  - name: "Pre"
+  - name: Pre / Post
     value: 24
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Post"
-    value: 24
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "DSP Routing"
+    group:
+      - name: Pre
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: Post
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: DSP Routing
     value: 25
-    description: '0=Cascade, 1=Mixture, 2=Split'
+    description: 0=Cascade, 1=Mixture, 2=Split
     type: Operation
     min: 0
     max: 2
-  - name: "Load Patch A"
+  - name: Load Patch A / Load Patch B
     value: 26
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Load Patch B"
-    value: 26
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "Toggle Rotor Speed"
+    group:
+      - name: Load Patch A
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: Load Patch B
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: Toggle Rotor Speed
     value: 27
     description: ''
     type: Operation
     min: 0
     max: 127
-  - name: "Reset Sequence"
+  - name: Reset Sequence
     value: 28
     description: ''
     type: Operation
     min: 0
     max: 127
-  - name: "Bank Down"
+  - name: Bank Down / Bank Up
     value: 29
     description: ''
-    type: Operation
-    min: 0
-    max: 0
-  - name: "Bank Up"
-    value: 29
-    description: ''
-    type: Operation
-    min: 127
-    max: 127
-  - name: "X-Speed"
+    group:
+      - name: Bank Down
+        description: ''
+        min: 0
+        max: 0
+        type: Operation
+      - name: Bank Up
+        description: ''
+        min: 127
+        max: 127
+        type: Operation
+  - name: X-Speed
     value: 30
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "X-Depth"
+  - name: X-Depth
     value: 31
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "X-Tweak"
+  - name: X-Tweak
     value: 32
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "X-SP1"
+  - name: X-SP1
     value: 33
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "X-SP2"
+  - name: X-SP2
     value: 34
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "X-SP3"
+  - name: X-SP3
     value: 35
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-Speed"
+  - name: Y-Speed
     value: 36
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-Depth"
+  - name: Y-Depth
     value: 37
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-Tweak"
+  - name: Y-Tweak
     value: 38
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-SP1"
+  - name: Y-SP1
     value: 39
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-SP2"
+  - name: Y-SP2
     value: 40
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Y-SP3"
+  - name: Y-SP3
     value: 41
     description: ''
     type: Parameter
     min: 0
     max: 127
-  - name: "Expression"
+  - name: Expression
     value: 42
-    description: 'CC# 42 is added in firmware v2.3.0. This simulates an expression pedal control, you can use it as a direct substitution to an expression pedal.'
+    description: CC# 42 is added in firmware v2.3.0. This simulates an expression pedal control, you can use it as a direct substitution to an expression pedal.
     type: Parameter
     min: 0
     max: 127
-  - name: "Patch Down"
+  - name: Patch Down / Patch Up
     value: 43
-    description: 'CC# 43 is added in firmware v2.4.6.'
-    type: Parameter
-    min: 0
-    max: 0
-  - name: "Patch Up"
-    value: 43
-    description: 'CC# 43 is added in firmware v2.4.6.'
-    type: Parameter
-    min: 127
-    max: 127
-    
-
+    description: CC# 43 is added in firmware v2.4.6.
+    group:
+      - name: Patch Down
+        description: CC# 43 is added in firmware v2.4.6.
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Patch Up
+        description: CC# 43 is added in firmware v2.4.6.
+        min: 127
+        max: 127
+        type: Parameter

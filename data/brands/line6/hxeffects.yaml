@@ -1,5 +1,157 @@
 brand: Line 6
 cc:
+  - name: Snapshot 1 / Snapshot 2 / Snapshot 3 / Snapshot 4
+    value: 69
+    description: ''
+    group:
+      - name: Snapshot 1
+        description: ''
+        min: 0
+        max: 0
+      - name: Snapshot 2
+        description: ''
+        min: 1
+        max: 1
+      - name: Snapshot 3
+        description: ''
+        min: 2
+        max: 2
+      - name: Snapshot 4
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal 1
+    value: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal 2
+    value: 2
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 1
+    value: 49
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 2
+    value: 50
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 3
+    value: 51
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 4
+    value: 52
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 5
+    value: 53
+  - description: ''
+    max: 127
+    min: 127
+    name: Stomp Switch 6
+    value: 54
+  - name: 'Looper: Overdub / Looper: Record'
+    value: 60
+    description: ''
+    group:
+      - name: 'Looper: Overdub'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Record'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Looper: Stop / Looper: Play'
+    value: 61
+    description: ''
+    group:
+      - name: 'Looper: Stop'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Play'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Play Once'
+    value: 62
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Undo'
+    value: 63
+  - name: 'Looper: Forward / Looper: Reverse'
+    value: 65
+    description: ''
+    group:
+      - name: 'Looper: Forward'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Reverse'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Looper: Full Speed / Looper: Half Speed'
+    value: 66
+    description: ''
+    group:
+      - name: 'Looper: Full Speed'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Half Speed'
+        description: ''
+        min: 127
+        max: 127
+  - name: Looper On / Looper Off
+    value: 67
+    description: ''
+    group:
+      - name: Looper On
+        description: ''
+        min: 127
+        max: 127
+      - name: Looper Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Tempo
+    value: 64
+  - description: ''
+    max: 127
+    min: 127
+    name: Tuner toggle
+    value: 68
+  - name: 'All Bypass: On / All Bypass: Bypass'
+    value: 70
+    description: ''
+    group:
+      - name: 'All Bypass: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'All Bypass: Bypass'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 0
   min: 0

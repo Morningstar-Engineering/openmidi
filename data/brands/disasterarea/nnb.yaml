@@ -28,43 +28,30 @@ pc:
     This allows for a type of “bypass” even though the Expanse pedals do not support an actual bypass command.
 cc:
   - name: Preset Morph
-    value: "7"
-    description: Allows you to morph between your two presets (Yellow and Violet). A
-      "preset" is how the knobs are set.
+    value: 7
+    description: Allows you to morph between your two presets (Yellow and Violet). A "preset" is how the knobs are set.
     type: Parameter
     min: 0
     max: 127
   - name: Left Knob
-    value: "16"
-    description: When using MIDI CC to control the Expanse pedal knob settings, note
-      that the maximum setting of the knob is controlled by the position of the
-      physical knob on the pedal itself. If you wish to access the entire range
-      of the knob using MIDI commands, set the knobs on the pedal to their
-      maximum positions.
+    value: 16
+    description: When using MIDI CC to control the Expanse pedal knob settings, note that the maximum setting of the knob is controlled by the position of the physical knob on the pedal itself. If you wish to access the entire range of the knob using MIDI commands, set the knobs on the pedal to their maximum positions.
     type: Parameter
     min: 0
     max: 127
   - name: Center Knob
-    value: "17"
-    description: When using MIDI CC to control the Expanse pedal knob settings, note
-      that the maximum setting of the knob is controlled by the position of the
-      physical knob on the pedal itself. If you wish to access the entire range
-      of the knob using MIDI commands, set the knobs on the pedal to their
-      maximum positions.
+    value: 17
+    description: When using MIDI CC to control the Expanse pedal knob settings, note that the maximum setting of the knob is controlled by the position of the physical knob on the pedal itself. If you wish to access the entire range of the knob using MIDI commands, set the knobs on the pedal to their maximum positions.
     min: 0
     max: 127
   - name: Right Knob
-    value: "18"
-    description: When using MIDI CC to control the Expanse pedal knob settings, note
-      that the maximum setting of the knob is controlled by the position of the
-      physical knob on the pedal itself. If you wish to access the entire range
-      of the knob using MIDI commands, set the knobs on the pedal to their
-      maximum positions.
+    value: 18
+    description: When using MIDI CC to control the Expanse pedal knob settings, note that the maximum setting of the knob is controlled by the position of the physical knob on the pedal itself. If you wish to access the entire range of the knob using MIDI commands, set the knobs on the pedal to their maximum positions.
     type: Parameter
     min: 0
     max: 127
   - name: Effect Select
-    value: "19"
+    value: 19
     description: 0 = White, 1 = Blue, 2 = Green, 3 = Red
     type: Parameter
     min: 0

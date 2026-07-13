@@ -1,5 +1,184 @@
 brand: Line 6
 cc:
+  - name: 'Looper: Overdub / Looper: Record'
+    value: 50
+    description: ''
+    group:
+      - name: 'Looper: Overdub'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Record'
+        description: ''
+        min: 127
+        max: 127
+  - name: 'Looper: Stop / Looper: Play'
+    value: 28
+    description: ''
+    group:
+      - name: 'Looper: Stop'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper: Play'
+        description: ''
+        min: 127
+        max: 127
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Play Once'
+    value: 80
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Undo/Redo'
+    value: 82
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Reverse Toggle'
+    value: 85
+  - description: ''
+    max: 127
+    min: 127
+    name: 'Looper: Half Speed Toggle'
+    value: 36
+  - name: Looper On / Looper Off
+    value: 86
+    description: ''
+    group:
+      - name: Looper On
+        description: ''
+        min: 127
+        max: 127
+      - name: Looper Off
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal 1
+    value: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression Pedal 2
+    value: 2
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Tempo
+    value: 64
+  - name: 'FX Unit 1A: On / FX Unit 1A: Bypass'
+    value: 11
+    description: ''
+    group:
+      - name: 'FX Unit 1A: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 1A: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Unit 1B: On / FX Unit 1B: Bypass'
+    value: 12
+    description: ''
+    group:
+      - name: 'FX Unit 1B: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 1B: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Unit 2A: On / FX Unit 2A: Bypass'
+    value: 14
+    description: ''
+    group:
+      - name: 'FX Unit 2A: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 2A: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Unit 2B: On / FX Unit 2B: Bypass'
+    value: 15
+    description: ''
+    group:
+      - name: 'FX Unit 2B: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 2B: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Unit 3A: On / FX Unit 3A: Bypass'
+    value: 17
+    description: ''
+    group:
+      - name: 'FX Unit 3A: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 3A: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'FX Unit 3B: On / FX Unit 3B: Bypass'
+    value: 18
+    description: ''
+    group:
+      - name: 'FX Unit 3B: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'FX Unit 3B: Bypass'
+        description: ''
+        min: 0
+        max: 0
+  - name: Bypass All + FX Loop / Engage All + FX Loop
+    value: 23
+    description: ''
+    group:
+      - name: Bypass All + FX Loop
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage All + FX Loop
+        description: ''
+        min: 127
+        max: 127
+  - name: Bypass All excl. FX Loop / Engage All excl. FX Loop
+    value: 24
+    description: ''
+    group:
+      - name: Bypass All excl. FX Loop
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage All excl. FX Loop
+        description: ''
+        min: 127
+        max: 127
+  - name: Tuner On / Tuner Off
+    value: 69
+    description: ''
+    group:
+      - name: Tuner On
+        description: ''
+        min: 127
+        max: 127
+      - name: Tuner Off
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 0
   min: 0

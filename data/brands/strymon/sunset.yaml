@@ -37,18 +37,20 @@ pc:
     Selecting bank 0, patch 127 will put Sunset into Manual mode. In this mode, the pedal will be set to the current
     knob and switch settings. No preset data can be stored at this preset location.
 cc:
-  - name: A - Bypass
+  - name: A - Bypass / A - Engage
     value: 10
     description: 0=off, 1-127=on
-    type: Parameter
-    min: 0
-    max: 0
-  - name: A - Engage
-    value: 10
-    description: 0=off, 1-127=on
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: A - Bypass
+        description: 0=off, 1-127=on
+        min: 0
+        max: 0
+        type: Parameter
+      - name: A - Engage
+        description: 0=off, 1-127=on
+        min: 127
+        max: 127
+        type: Parameter
   - name: Circuit Select A
     value: 11
     description: 1=Treble, 2=Ge, 3=Texas
@@ -73,19 +75,20 @@ cc:
     type: Parameter
     min: 0
     max: 127
-
-  - name: B - Bypass
+  - name: B - Bypass / B - Engage
     value: 15
     description: 0=off, 1-127=on
-    type: Parameter
-    min: 0
-    max: 0
-  - name: B - Engage
-    value: 15
-    description: 0=off, 1-127=on
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: B - Bypass
+        description: 0=off, 1-127=on
+        min: 0
+        max: 0
+        type: Parameter
+      - name: B - Engage
+        description: 0=off, 1-127=on
+        min: 127
+        max: 127
+        type: Parameter
   - name: Circuit Select B
     value: 16
     description: 1=Treble, 2=Ge, 3=Texas
@@ -110,7 +113,6 @@ cc:
     type: Parameter
     min: 0
     max: 127
-
   - name: Config [A/B]
     value: 20
     description: 1=A>B, 2=B>A, 3=A+B
@@ -129,18 +131,20 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: Bypass A and B
-    value: 33
-    description:
-    type: Parameter
-    min: 0
-    max: 0
-  - name: Engage A and B
+  - name: Bypass A and B / Engage A and B
     value: 33
     description: ''
-    type: Parameter
-    min: 127
-    max: 127
+    group:
+      - name: Bypass A and B
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: Engage A and B
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: MIDI Patch Bank
     value: 0
     description: ''
@@ -153,18 +157,20 @@ cc:
     type: Parameter
     min: 0
     max: 127
-  - name: MIDI Expression Off
+  - name: MIDI Expression Off / MIDI Expression On
     value: 60
-    description:
-    type: Parameter
-    min: 0
-    max: 0
-  - name: MIDI Expression On
-    value: 60
-    description:
-    type: Parameter
-    min: 127
-    max: 127
+    description: ''
+    group:
+      - name: MIDI Expression Off
+        description: ''
+        min: 0
+        max: 0
+        type: Parameter
+      - name: MIDI Expression On
+        description: ''
+        min: 127
+        max: 127
+        type: Parameter
   - name: Expression Pedal
     value: 100
     description:

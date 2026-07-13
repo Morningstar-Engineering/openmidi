@@ -1,5 +1,297 @@
 brand: Atomic Amps
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Wah Pedal
+    value: 21
+  - description: ''
+    max: 127
+    min: 0
+    name: Volume Pedal
+    value: 22
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression A
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: Expression B
+    value: 24
+  - description: ''
+    max: 127
+    min: 127
+    name: Tap Tempo
+    value: 18
+  - name: Bypass Amplifire / Enable Amplifire
+    value: 80
+    description: ''
+    group:
+      - name: Bypass Amplifire
+        description: ''
+        min: 0
+        max: 0
+      - name: Enable Amplifire
+        description: ''
+        min: 127
+        max: 127
+  - name: Effect Loop Enable / Effect Loop Disable
+    value: 81
+    description: ''
+    group:
+      - name: Effect Loop Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect Loop Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Volume Enable / Volume Disable
+    value: 20
+    description: ''
+    group:
+      - name: Volume Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Volume Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Wah Enable / Wah Disable
+    value: 19
+    description: ''
+    group:
+      - name: 'Wah Enable '
+        description: ''
+        min: 127
+        max: 127
+      - name: Wah Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Boost Enable / Boost Disable
+    value: 82
+    description: ''
+    group:
+      - name: Boost Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Boost Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Effect Enable / Effect Disable
+    value: 83
+    description: ''
+    group:
+      - name: Effect Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Effect Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Chorus Enable / Chorus Disable
+    value: 25
+    description: ''
+    group:
+      - name: Chorus Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Chorus Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Flanger Enable / Flanger Disable
+    value: 26
+    description: ''
+    group:
+      - name: Flanger Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Flanger Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Phaser Enable / Phaser Disable
+    value: 27
+    description: ''
+    group:
+      - name: Phaser Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Phaser Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Tremolo Enable / Tremolo Disable
+    value: 28
+    description: ''
+    group:
+      - name: 'Tremolo Enable '
+        description: ''
+        min: 127
+        max: 127
+      - name: Tremolo Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Pitchshifter Enable / Pitchshifter Disable
+    value: 29
+    description: ''
+    group:
+      - name: Pitchshifter Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Pitchshifter Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Echo Enable / Echo Disable
+    value: 84
+    description: ''
+    group:
+      - name: Echo Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Echo Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Reverb Enable / Reverb Disable
+    value: 85
+    description: ''
+    group:
+      - name: Reverb Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Reverb Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Noise Gate Enable / Noide Gate Disable
+    value: 86
+    description: ''
+    group:
+      - name: Noise Gate Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Noide Gate Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Compressor Enable / Compressor Disable
+    value: 17
+    description: ''
+    group:
+      - name: Compressor Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Compressor Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Graphic EQ Enable / Graphic EQ Disable
+    value: 87
+    description: ''
+    group:
+      - name: Graphic EQ Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Graphic EQ Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Pre-EQ Enable / Pre-EQ Disable
+    value: 12
+    description: ''
+    group:
+      - name: Pre-EQ Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Pre-EQ Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Parametric 1 Enable / Parametric 1 Disable
+    value: 88
+    description: ''
+    group:
+      - name: Parametric 1 Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Parametric 1 Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Paramentric 2 Enable / Parametric 2 Disable
+    value: 89
+    description: ''
+    group:
+      - name: Paramentric 2 Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Parametric 2 Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Parametric 3 Enable / Parametric 3 Disable
+    value: 90
+    description: ''
+    group:
+      - name: Parametric 3 Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Parametric 3 Disable
+        description: ''
+        min: 0
+        max: 0
+  - name: Amp Enable / Amp Disable
+    value: 16
+    description: ''
+    group:
+      - name: Amp Enable
+        description: ''
+        min: 127
+        max: 127
+      - name: Amp Disable
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 127
+    min: 127
+    name: FS1 Press
+    value: 13
+  - description: ''
+    max: 127
+    min: 127
+    name: FS2 Press
+    value: 14
+  - description: ''
+    max: 127
+    min: 127
+    name: FS3 Press
+    value: 15
 - description: ''
   max: 127
   min: 0

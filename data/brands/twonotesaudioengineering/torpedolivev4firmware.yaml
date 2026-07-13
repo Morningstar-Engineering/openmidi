@@ -1,5 +1,1269 @@
 brand: Two Notes Audio Engineering
 cc:
+  - name: Power Amp On / Power Amp Off
+    value: 0
+    description: ''
+    group:
+      - name: Power Amp On
+        description: ''
+        min: 1
+        max: 1
+      - name: Power Amp Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Amp Model 0 / Amp Model 1 / Amp Model 2 / Amp Model 3 / Amp Model 4 / Amp Model 5 / Amp Model 6 / Amp Model 7
+    value: 1
+    description: ''
+    group:
+      - name: Amp Model 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Amp Model 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Amp Model 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Amp Model 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Amp Model 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Amp Model 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Amp Model 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Amp Model 7
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 30
+    min: 0
+    name: Amp Volume
+    value: 2
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp Presence
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Amp Depth
+    value: 4
+  - name: 'Amp Type: Triode / Amp Type: Pentode'
+    value: 5
+    description: ''
+    group:
+      - name: 'Amp Type: Triode'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Amp Type: Pentode'
+        description: ''
+        min: 1
+        max: 1
+  - name: Mic On / Mic Off
+    value: 6
+    description: ''
+    group:
+      - name: Mic On
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Cab 0 / Cab 1 / Cab 2 / Cab 3 / Cab 4 / Cab 5 / Cab 6 / Cab 7 / Cab 8 / Cab 9 / Cab 10 / Cab 11 / Cab 12 / Cab 13 / Cab 14 / Cab 15 / Cab 16 / Cab 17 / Cab 18 / Cab 19 / Cab 20 / Cab 21 / Cab 22 / Cab 23 / Cab 24 / Cab 25 / Cab 26 / Cab 27 / Cab 28 / Cab 29 / Cab 30 / Cab 31 / Cab 32
+    value: 8
+    description: ''
+    group:
+      - name: Cab 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Cab 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Cab 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Cab 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Cab 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Cab 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Cab 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Cab 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Cab 8
+        description: ''
+        min: 8
+        max: 8
+      - name: Cab 9
+        description: ''
+        min: 9
+        max: 9
+      - name: Cab 10
+        description: ''
+        min: 10
+        max: 10
+      - name: Cab 11
+        description: ''
+        min: 11
+        max: 11
+      - name: Cab 12
+        description: ''
+        min: 12
+        max: 12
+      - name: Cab 13
+        description: ''
+        min: 13
+        max: 13
+      - name: Cab 14
+        description: ''
+        min: 14
+        max: 14
+      - name: Cab 15
+        description: ''
+        min: 15
+        max: 15
+      - name: Cab 16
+        description: ''
+        min: 16
+        max: 16
+      - name: Cab 17
+        description: ''
+        min: 17
+        max: 17
+      - name: Cab 18
+        description: ''
+        min: 18
+        max: 18
+      - name: Cab 19
+        description: ''
+        min: 19
+        max: 19
+      - name: Cab 20
+        description: ''
+        min: 20
+        max: 20
+      - name: Cab 21
+        description: ''
+        min: 21
+        max: 21
+      - name: Cab 22
+        description: ''
+        min: 22
+        max: 22
+      - name: Cab 23
+        description: ''
+        min: 23
+        max: 23
+      - name: Cab 24
+        description: ''
+        min: 24
+        max: 24
+      - name: Cab 25
+        description: ''
+        min: 25
+        max: 25
+      - name: Cab 26
+        description: ''
+        min: 26
+        max: 26
+      - name: Cab 27
+        description: ''
+        min: 27
+        max: 27
+      - name: Cab 28
+        description: ''
+        min: 28
+        max: 28
+      - name: Cab 29
+        description: ''
+        min: 29
+        max: 29
+      - name: Cab 30
+        description: ''
+        min: 30
+        max: 30
+      - name: Cab 31
+        description: ''
+        min: 31
+        max: 31
+      - name: Cab 32
+        description: ''
+        min: 32
+        max: 32
+  - name: File A 0 / File A 1 / File A 2 / File A 3 / File A 4 / File A 5 / File A 6 / File A 7 / File A 8
+    value: 9
+    description: ''
+    group:
+      - name: File A 0
+        description: ''
+        min: 0
+        max: 0
+      - name: File A 1
+        description: ''
+        min: 1
+        max: 1
+      - name: File A 2
+        description: ''
+        min: 2
+        max: 2
+      - name: File A 3
+        description: ''
+        min: 3
+        max: 3
+      - name: File A 4
+        description: ''
+        min: 4
+        max: 4
+      - name: File A 5
+        description: ''
+        min: 5
+        max: 5
+      - name: File A 6
+        description: ''
+        min: 6
+        max: 6
+      - name: File A 7
+        description: ''
+        min: 7
+        max: 7
+      - name: File A 8
+        description: ''
+        min: 8
+        max: 8
+  - name: File B 0 / File B 1 / File B 2 / File B 3 / File B 4 / File B 5 / File B 6 / File B 7 / File B 8
+    value: 10
+    description: ''
+    group:
+      - name: File B 0
+        description: ''
+        min: 0
+        max: 0
+      - name: File B 1
+        description: ''
+        min: 1
+        max: 1
+      - name: File B 2
+        description: ''
+        min: 2
+        max: 2
+      - name: File B 3
+        description: ''
+        min: 3
+        max: 3
+      - name: File B 4
+        description: ''
+        min: 4
+        max: 4
+      - name: File B 5
+        description: ''
+        min: 5
+        max: 5
+      - name: File B 6
+        description: ''
+        min: 6
+        max: 6
+      - name: File B 7
+        description: ''
+        min: 7
+        max: 7
+      - name: File B 8
+        description: ''
+        min: 8
+        max: 8
+  - name: 'Folder A: User 0 / Folder A: User 1 / Folder A: User 2 / Folder A: User 3'
+    value: 11
+    description: ''
+    group:
+      - name: 'Folder A: User 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Folder A: User 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Folder A: User 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Folder A: User 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Folder B: User 0 / Folder B: User 1 / Folder B: User 2 / Folder B: User 3'
+    value: 12
+    description: ''
+    group:
+      - name: 'Folder B: User 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Folder B: User 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Folder B: User 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Folder B: User 3'
+        description: ''
+        min: 3
+        max: 3
+  - name: 'Mic A: Dynamic 57 / Mic A: Dynamic 421 / Mic A: Knightfall / Mic A: Condenser 87 / Mic A: Ribbon 160 / Mic A: Ribbon 121 / Mic A: Bass 20 / Mic A: Bass 5'
+    value: 13
+    description: ''
+    group:
+      - name: 'Mic A: Dynamic 57'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic A: Dynamic 421'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic A: Knightfall'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mic A: Condenser 87'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Mic A: Ribbon 160'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Mic A: Ribbon 121'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Mic A: Bass 20'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Mic A: Bass 5'
+        description: ''
+        min: 7
+        max: 7
+  - name: 'Mic B: Dynamic 57 / Mic B: Dynamic 421 / Mic B: Knightfall / Mic B: Condenser 87 / Mic B: Ribbon 160 / Mic B: Ribbon 121 / Mic B: Bass 20 / Mic B: Bass 5'
+    value: 38
+    description: ''
+    group:
+      - name: 'Mic B: Dynamic 57'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic B: Dynamic 421'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic B: Knightfall'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mic B: Condenser 87'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Mic B: Ribbon 160'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Mic B: Ribbon 121'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Mic B: Bass 20'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Mic B: Bass 5'
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance A
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance B
+    value: 39
+  - description: ''
+    max: 127
+    min: 0
+    name: Center A
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Center B
+    value: 40
+  - name: 'Position Mic A: Back / Position Mic A: Front'
+    value: 16
+    description: ''
+    group:
+      - name: 'Position Mic A: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position Mic A: Front'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Position Mic B: Back / Position Mic B: Front'
+    value: 41
+    description: ''
+    group:
+      - name: 'Position Mic B: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position Mic B: Front'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 107
+    min: 0
+    name: Level A
+    value: 35
+  - name: 'Phase A: Normal / Phase A: Invert'
+    value: 36
+    description: ''
+    group:
+      - name: 'Phase A: Normal'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Phase A: Invert'
+        description: ''
+        min: 1
+        max: 1
+  - name: Mute A / Unmute A
+    value: 37
+    description: ''
+    group:
+      - name: Mute A
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute A
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 107
+    min: 0
+    name: Level B
+    value: 42
+  - name: 'Phase B: Normal / Phase B: Invert'
+    value: 43
+    description: ''
+    group:
+      - name: 'Phase B: Normal'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Phase B: Invert'
+        description: ''
+        min: 1
+        max: 1
+  - name: Mute B / Unmute B
+    value: 44
+    description: ''
+    group:
+      - name: Mute B
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute B
+        description: ''
+        min: 0
+        max: 0
+  - name: EQ On / EQ Off
+    value: 17
+    description: ''
+    group:
+      - name: EQ On
+        description: ''
+        min: 1
+        max: 1
+      - name: EQ Off
+        description: ''
+        min: 0
+        max: 0
+  - name: 'EQ Mode: Guitar / EQ Mode: Bass / EQ Mode: Custom'
+    value: 18
+    description: ''
+    group:
+      - name: 'EQ Mode: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'EQ Mode: Bass'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ Mode: Custom'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Low'
+    value: 19
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Low Mid'
+    value: 20
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: Mid'
+    value: 21
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: High Mid'
+    value: 22
+  - description: ''
+    max: 40
+    min: 0
+    name: 'EQ Gain: High'
+    value: 23
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low Cut'
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low'
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Low Mid'
+    value: 47
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Mid'
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: Mid High'
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Freq: High'
+    value: 50
+  - description: ''
+    max: 95
+    min: 0
+    name: Preset Level
+    value: 24
+  - name: Reverb On / Reverb Off
+    value: 25
+    description: ''
+    group:
+      - name: Reverb On
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb Off
+        description: ''
+        min: 0
+        max: 0
+  - name: Reverb Room 0 / Reverb Room 1 / Reverb Room 2 / Reverb Room 3 / Reverb Room 4 / Reverb Room 5 / Reverb Room 6 / Reverb Room 7
+    value: 26
+    description: ''
+    group:
+      - name: Reverb Room 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Reverb Room 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Reverb Room 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Reverb Room 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Reverb Room 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Reverb Room 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Reverb Room 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Reverb Room 7
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb Dry/Wet
+    value: 27
+  - name: 'Arcade - Instrument: Guitar / Arcade - Instrument: Bass'
+    value: 28
+    description: ''
+    group:
+      - name: 'Arcade - Instrument: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Arcade - Instrument: Bass'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Power Amp: Off / Power Amp'
+    value: 29
+    description: ''
+    group:
+      - name: 'Power Amp: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: Power Amp
+        description: ''
+        min: 1
+        max: 30
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade - Distance
+    value: 30
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade - Tone
+    value: 31
+  - description: ''
+    max: 40
+    min: 0
+    name: Arcade - Contour
+    value: 32
+  - description: ''
+    max: 95
+    min: 0
+    name: Arcade - Preset Level
+    value: 33
+  - name: 'Preset Mode: Simulation / Preset Mode: Arcade / Preset Mode: IR Loader'
+    value: 34
+    description: ''
+    group:
+      - name: 'Preset Mode: Simulation'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Preset Mode: Arcade'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Preset Mode: IR Loader'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 107
+    min: 0
+    name: Out Level
+    value: 51
+  - name: Mute / Unmute
+    value: 52
+    description: ''
+    group:
+      - name: Mute
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute
+        description: ''
+        min: 0
+        max: 0
+  - name: Bypass / Engage
+    value: 53
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Engage
+        description: ''
+        min: 1
+        max: 1
+  - name: CC Preset 1 / CC Preset 2 / CC Preset 3 / CC Preset 4 / CC Preset 5 / CC Preset 6 / CC Preset 7 / CC Preset 8 / CC Preset 9 / CC Preset 10 / CC Preset 11 / CC Preset 12 / CC Preset 13 / CC Preset 14 / CC Preset 15 / CC Preset 16 / CC Preset 17 / CC Preset 18 / CC Preset 19 / CC Preset 20 / CC Preset 21 / CC Preset 22 / CC Preset 23 / CC Preset 24 / CC Preset 25 / CC Preset 26 / CC Preset 27 / CC Preset 28 / CC Preset 29 / CC Preset 30 / CC Preset 31 / CC Preset 32 / CC Preset 33 / CC Preset 34 / CC Preset 35 / CC Preset 36 / CC Preset 37 / CC Preset 38 / CC Preset 39 / CC Preset 40 / CC Preset 41 / CC Preset 42 / CC Preset 43 / CC Preset 44 / CC Preset 45 / CC Preset 46 / CC Preset 47 / CC Preset 48 / CC Preset 49 / CC Preset 50 / CC Preset 51 / CC Preset 52 / CC Preset 53 / CC Preset 54 / CC Preset 55 / CC Preset 56 / CC Preset 57 / CC Preset 58 / CC Preset 59 / CC Preset 60 / CC Preset 61 / CC Preset 62 / CC Preset 63 / CC Preset 64 / CC Preset 65 / CC Preset 66 / CC Preset 67
+      / CC Preset 68 / CC Preset 69 / CC Preset 70 / CC Preset 71 / CC Preset 72 / CC Preset 73 / CC Preset 74 / CC Preset 75 / CC Preset 76 / CC Preset 77 / CC Preset 78 / CC Preset 79 / CC Preset 80 / CC Preset 81 / CC Preset 82 / CC Preset 83 / CC Preset 84 / CC Preset 85 / CC Preset 86 / CC Preset 87 / CC Preset 88 / CC Preset 89 / CC Preset 90 / CC Preset 91 / CC Preset 92 / CC Preset 93 / CC Preset 94 / CC Preset 95 / CC Preset 96 / CC Preset 97 / CC Preset 98 / CC Preset 99 / CC Preset 100 / CC Preset 101 / CC Preset 102 / CC Preset 103 / CC Preset 104 / CC Preset 105 / CC Preset 106 / CC Preset 107 / CC Preset 108 / CC Preset 109 / CC Preset 110 / CC Preset 111 / CC Preset 112 / CC Preset 113 / CC Preset 114 / CC Preset 115 / CC Preset 116 / CC Preset 117 / CC Preset 118 / CC Preset 119 / CC Preset 120 / CC Preset 121 / CC Preset 122 / CC Preset 123 / CC Preset 124 / CC Preset 125 / CC Preset 126 / CC Preset 127 / CC Preset 128
+    value: 54
+    description: ''
+    group:
+      - name: CC Preset 1
+        description: ''
+        min: 0
+        max: 0
+      - name: CC Preset 2
+        description: ''
+        min: 1
+        max: 1
+      - name: CC Preset 3
+        description: ''
+        min: 2
+        max: 2
+      - name: CC Preset 4
+        description: ''
+        min: 3
+        max: 3
+      - name: CC Preset 5
+        description: ''
+        min: 4
+        max: 4
+      - name: CC Preset 6
+        description: ''
+        min: 5
+        max: 5
+      - name: CC Preset 7
+        description: ''
+        min: 6
+        max: 6
+      - name: CC Preset 8
+        description: ''
+        min: 7
+        max: 7
+      - name: CC Preset 9
+        description: ''
+        min: 8
+        max: 8
+      - name: CC Preset 10
+        description: ''
+        min: 9
+        max: 9
+      - name: CC Preset 11
+        description: ''
+        min: 10
+        max: 10
+      - name: CC Preset 12
+        description: ''
+        min: 11
+        max: 11
+      - name: CC Preset 13
+        description: ''
+        min: 12
+        max: 12
+      - name: CC Preset 14
+        description: ''
+        min: 13
+        max: 13
+      - name: CC Preset 15
+        description: ''
+        min: 14
+        max: 14
+      - name: CC Preset 16
+        description: ''
+        min: 15
+        max: 15
+      - name: CC Preset 17
+        description: ''
+        min: 16
+        max: 16
+      - name: CC Preset 18
+        description: ''
+        min: 17
+        max: 17
+      - name: CC Preset 19
+        description: ''
+        min: 18
+        max: 18
+      - name: CC Preset 20
+        description: ''
+        min: 19
+        max: 19
+      - name: CC Preset 21
+        description: ''
+        min: 20
+        max: 20
+      - name: CC Preset 22
+        description: ''
+        min: 21
+        max: 21
+      - name: CC Preset 23
+        description: ''
+        min: 22
+        max: 22
+      - name: CC Preset 24
+        description: ''
+        min: 23
+        max: 23
+      - name: CC Preset 25
+        description: ''
+        min: 24
+        max: 24
+      - name: CC Preset 26
+        description: ''
+        min: 25
+        max: 25
+      - name: CC Preset 27
+        description: ''
+        min: 26
+        max: 26
+      - name: CC Preset 28
+        description: ''
+        min: 27
+        max: 27
+      - name: CC Preset 29
+        description: ''
+        min: 28
+        max: 28
+      - name: CC Preset 30
+        description: ''
+        min: 29
+        max: 29
+      - name: CC Preset 31
+        description: ''
+        min: 30
+        max: 30
+      - name: CC Preset 32
+        description: ''
+        min: 31
+        max: 31
+      - name: CC Preset 33
+        description: ''
+        min: 32
+        max: 32
+      - name: CC Preset 34
+        description: ''
+        min: 33
+        max: 33
+      - name: CC Preset 35
+        description: ''
+        min: 34
+        max: 34
+      - name: CC Preset 36
+        description: ''
+        min: 35
+        max: 35
+      - name: CC Preset 37
+        description: ''
+        min: 36
+        max: 36
+      - name: CC Preset 38
+        description: ''
+        min: 37
+        max: 37
+      - name: CC Preset 39
+        description: ''
+        min: 38
+        max: 38
+      - name: CC Preset 40
+        description: ''
+        min: 39
+        max: 39
+      - name: CC Preset 41
+        description: ''
+        min: 40
+        max: 40
+      - name: CC Preset 42
+        description: ''
+        min: 41
+        max: 41
+      - name: CC Preset 43
+        description: ''
+        min: 42
+        max: 42
+      - name: CC Preset 44
+        description: ''
+        min: 43
+        max: 43
+      - name: CC Preset 45
+        description: ''
+        min: 44
+        max: 44
+      - name: CC Preset 46
+        description: ''
+        min: 45
+        max: 45
+      - name: CC Preset 47
+        description: ''
+        min: 46
+        max: 46
+      - name: CC Preset 48
+        description: ''
+        min: 47
+        max: 47
+      - name: CC Preset 49
+        description: ''
+        min: 48
+        max: 48
+      - name: CC Preset 50
+        description: ''
+        min: 49
+        max: 49
+      - name: CC Preset 51
+        description: ''
+        min: 50
+        max: 50
+      - name: CC Preset 52
+        description: ''
+        min: 51
+        max: 51
+      - name: CC Preset 53
+        description: ''
+        min: 52
+        max: 52
+      - name: CC Preset 54
+        description: ''
+        min: 53
+        max: 53
+      - name: CC Preset 55
+        description: ''
+        min: 54
+        max: 54
+      - name: CC Preset 56
+        description: ''
+        min: 55
+        max: 55
+      - name: CC Preset 57
+        description: ''
+        min: 56
+        max: 56
+      - name: CC Preset 58
+        description: ''
+        min: 57
+        max: 57
+      - name: CC Preset 59
+        description: ''
+        min: 58
+        max: 58
+      - name: CC Preset 60
+        description: ''
+        min: 59
+        max: 59
+      - name: CC Preset 61
+        description: ''
+        min: 60
+        max: 60
+      - name: CC Preset 62
+        description: ''
+        min: 61
+        max: 61
+      - name: CC Preset 63
+        description: ''
+        min: 62
+        max: 62
+      - name: CC Preset 64
+        description: ''
+        min: 63
+        max: 63
+      - name: CC Preset 65
+        description: ''
+        min: 64
+        max: 64
+      - name: CC Preset 66
+        description: ''
+        min: 65
+        max: 65
+      - name: CC Preset 67
+        description: ''
+        min: 66
+        max: 66
+      - name: CC Preset 68
+        description: ''
+        min: 67
+        max: 67
+      - name: CC Preset 69
+        description: ''
+        min: 68
+        max: 68
+      - name: CC Preset 70
+        description: ''
+        min: 69
+        max: 69
+      - name: CC Preset 71
+        description: ''
+        min: 70
+        max: 70
+      - name: CC Preset 72
+        description: ''
+        min: 71
+        max: 71
+      - name: CC Preset 73
+        description: ''
+        min: 72
+        max: 72
+      - name: CC Preset 74
+        description: ''
+        min: 73
+        max: 73
+      - name: CC Preset 75
+        description: ''
+        min: 74
+        max: 74
+      - name: CC Preset 76
+        description: ''
+        min: 75
+        max: 75
+      - name: CC Preset 77
+        description: ''
+        min: 76
+        max: 76
+      - name: CC Preset 78
+        description: ''
+        min: 77
+        max: 77
+      - name: CC Preset 79
+        description: ''
+        min: 78
+        max: 78
+      - name: CC Preset 80
+        description: ''
+        min: 79
+        max: 79
+      - name: CC Preset 81
+        description: ''
+        min: 80
+        max: 80
+      - name: CC Preset 82
+        description: ''
+        min: 81
+        max: 81
+      - name: CC Preset 83
+        description: ''
+        min: 82
+        max: 82
+      - name: CC Preset 84
+        description: ''
+        min: 83
+        max: 83
+      - name: CC Preset 85
+        description: ''
+        min: 84
+        max: 84
+      - name: CC Preset 86
+        description: ''
+        min: 85
+        max: 85
+      - name: CC Preset 87
+        description: ''
+        min: 86
+        max: 86
+      - name: CC Preset 88
+        description: ''
+        min: 87
+        max: 87
+      - name: CC Preset 89
+        description: ''
+        min: 88
+        max: 88
+      - name: CC Preset 90
+        description: ''
+        min: 89
+        max: 89
+      - name: CC Preset 91
+        description: ''
+        min: 90
+        max: 90
+      - name: CC Preset 92
+        description: ''
+        min: 91
+        max: 91
+      - name: CC Preset 93
+        description: ''
+        min: 92
+        max: 92
+      - name: CC Preset 94
+        description: ''
+        min: 93
+        max: 93
+      - name: CC Preset 95
+        description: ''
+        min: 94
+        max: 94
+      - name: CC Preset 96
+        description: ''
+        min: 95
+        max: 95
+      - name: CC Preset 97
+        description: ''
+        min: 96
+        max: 96
+      - name: CC Preset 98
+        description: ''
+        min: 97
+        max: 97
+      - name: CC Preset 99
+        description: ''
+        min: 98
+        max: 98
+      - name: CC Preset 100
+        description: ''
+        min: 99
+        max: 99
+      - name: CC Preset 101
+        description: ''
+        min: 100
+        max: 100
+      - name: CC Preset 102
+        description: ''
+        min: 101
+        max: 101
+      - name: CC Preset 103
+        description: ''
+        min: 102
+        max: 102
+      - name: CC Preset 104
+        description: ''
+        min: 103
+        max: 103
+      - name: CC Preset 105
+        description: ''
+        min: 104
+        max: 104
+      - name: CC Preset 106
+        description: ''
+        min: 105
+        max: 105
+      - name: CC Preset 107
+        description: ''
+        min: 106
+        max: 106
+      - name: CC Preset 108
+        description: ''
+        min: 107
+        max: 107
+      - name: CC Preset 109
+        description: ''
+        min: 108
+        max: 108
+      - name: CC Preset 110
+        description: ''
+        min: 109
+        max: 109
+      - name: CC Preset 111
+        description: ''
+        min: 110
+        max: 110
+      - name: CC Preset 112
+        description: ''
+        min: 111
+        max: 111
+      - name: CC Preset 113
+        description: ''
+        min: 112
+        max: 112
+      - name: CC Preset 114
+        description: ''
+        min: 113
+        max: 113
+      - name: CC Preset 115
+        description: ''
+        min: 114
+        max: 114
+      - name: CC Preset 116
+        description: ''
+        min: 115
+        max: 115
+      - name: CC Preset 117
+        description: ''
+        min: 116
+        max: 116
+      - name: CC Preset 118
+        description: ''
+        min: 117
+        max: 117
+      - name: CC Preset 119
+        description: ''
+        min: 118
+        max: 118
+      - name: CC Preset 120
+        description: ''
+        min: 119
+        max: 119
+      - name: CC Preset 121
+        description: ''
+        min: 120
+        max: 120
+      - name: CC Preset 122
+        description: ''
+        min: 121
+        max: 121
+      - name: CC Preset 123
+        description: ''
+        min: 122
+        max: 122
+      - name: CC Preset 124
+        description: ''
+        min: 123
+        max: 123
+      - name: CC Preset 125
+        description: ''
+        min: 124
+        max: 124
+      - name: CC Preset 126
+        description: ''
+        min: 125
+        max: 125
+      - name: CC Preset 127
+        description: ''
+        min: 126
+        max: 126
+      - name: CC Preset 128
+        description: ''
+        min: 127
+        max: 127
 - description: ''
   max: 1
   min: 1

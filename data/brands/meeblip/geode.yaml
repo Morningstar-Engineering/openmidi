@@ -1,5 +1,125 @@
 brand: Meeblip
 cc:
+  - description: ''
+    max: 127
+    min: 0
+    name: Waveform A
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: Waveform B
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: Detune
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: Cutoff
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: Mix
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: Rate
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: Depth
+    value: 54
+  - description: ''
+    max: 127
+    min: 0
+    name: Amplitude attack
+    value: 55
+  - description: ''
+    max: 127
+    min: 0
+    name: Amplitude decay
+    value: 56
+  - description: ''
+    max: 127
+    min: 0
+    name: Portamento
+    value: 57
+  - description: ''
+    max: 127
+    min: 0
+    name: Filter Envelope Modulation Amount
+    value: 58
+  - description: ''
+    max: 127
+    min: 0
+    name: Pulse width
+    value: 59
+  - name: 'Sustain: On / Sustain: Off'
+    value: 64
+    description: ''
+    group:
+      - name: 'Sustain: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Sustain: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Oscillator B Octave Shift: On / Oscillator B Octave Shift: Off'
+    value: 65
+    description: ''
+    group:
+      - name: 'Oscillator B Octave Shift: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Oscillator B Octave Shift: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Destination: On / Destination: Off'
+    value: 66
+    description: ''
+    group:
+      - name: 'Destination: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Destination: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Randomize: On / Randomize: Off'
+    value: 67
+    description: ''
+    group:
+      - name: 'Randomize: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Randomize: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Retrigger: On / Retrigger: Off'
+    value: 68
+    description: ''
+    group:
+      - name: 'Retrigger: On'
+        description: ''
+        min: 127
+        max: 127
+      - name: 'Retrigger: Off'
+        description: ''
+        min: 0
+        max: 0
 - description: ''
   max: 127
   min: 0

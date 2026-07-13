@@ -12,6 +12,481 @@ pc:
   description:
 
 cc:
+  - name: Reverb Engine A - Room / Reverb Engine A - Hall / Reverb Engine A - E-Dome / Reverb Engine A - True Spring / Reverb Engine A - Plate / Reverb Engine A - Lo-Fi / Reverb Engine A - Modverb / Reverb Engine A - Shimmer / Reverb Engine A - Echoverb / Reverb Engine A - Swell / Reverb Engine A - Offspring / Reverb Engine A - Reverse / Reverb Engine A - Outboard Spring / Reverb Engine A - Metal Box
+    value: 1
+    description: Room; Hall; E-Dome; True Spring; Plate; Lo-Fi; Modverb; Shimmer; Echoverb; Swell; Offspring; Reverse; Outboard Spring; Metal Box
+    group:
+      - name: Reverb Engine A - Room
+        description: Room
+        min: 0
+        max: 0
+      - name: Reverb Engine A - Hall
+        description: Hall
+        min: 1
+        max: 1
+      - name: Reverb Engine A - E-Dome
+        description: E-Dome
+        min: 2
+        max: 2
+      - name: Reverb Engine A - True Spring
+        description: True Spring
+        min: 3
+        max: 3
+      - name: Reverb Engine A - Plate
+        description: Plate
+        min: 4
+        max: 4
+      - name: Reverb Engine A - Lo-Fi
+        description: Lo-Fi
+        min: 5
+        max: 5
+      - name: Reverb Engine A - Modverb
+        description: Modverb
+        min: 6
+        max: 6
+      - name: Reverb Engine A - Shimmer
+        description: Shimmer
+        min: 7
+        max: 7
+      - name: Reverb Engine A - Echoverb
+        description: Echoverb
+        min: 8
+        max: 8
+      - name: Reverb Engine A - Swell
+        description: Swell
+        min: 9
+        max: 9
+      - name: Reverb Engine A - Offspring
+        description: Offspring
+        min: 10
+        max: 10
+      - name: Reverb Engine A - Reverse
+        description: Reverse
+        min: 11
+        max: 11
+      - name: Reverb Engine A - Outboard Spring
+        description: Outboard Spring
+        min: 12
+        max: 12
+      - name: Reverb Engine A - Metal Box
+        description: Metal Box
+        min: 13
+        max: 13
+  - description: Sets min and max delay times
+    max: 127
+    min: 0
+    name: Time A
+    value: 2
+  - description: Sets the wet/dry mix - 50/50 point at approx. 95
+    max: 127
+    min: 0
+    name: Mix A
+    value: 3
+  - description: Sets Pre-Delay A
+    max: 127
+    min: 0
+    name: Pre-Delay A
+    value: 4
+  - description: Sets Treble A
+    max: 127
+    min: 0
+    name: Treble A
+    value: 5
+  - description: Sets Output A
+    max: 127
+    min: 0
+    name: Output A
+    value: 6
+  - description: Sets Bass A
+    max: 127
+    min: 0
+    name: Bass A
+    value: 7
+  - description: Sets Diffusion A
+    max: 127
+    min: 0
+    name: Diffusion A
+    value: 8
+  - description: Sets Modulation Depth A
+    max: 127
+    min: 0
+    name: Modulation Depth A
+    value: 9
+  - description: Sets Modulation Rate A
+    max: 127
+    min: 0
+    name: Modulation Rate A
+    value: 10
+  - description: Sets Pre-Delay Feedback A
+    max: 127
+    min: 0
+    name: Pre-Delay Feedback A
+    value: 11
+  - description: Sets Pre-Delay Mod Depth A
+    max: 127
+    min: 0
+    name: Pre-Delay Mod Depth A
+    value: 12
+  - description:
+    max: Max
+    min: 0
+    name: Size A
+    value: 13
+  - name: Input Low Cut A - Offspring / Input Low Cut A - 20Hz / Input Low Cut A - 100Hz / Input Low Cut A - 125Hz / Input Low Cut A - 150Hz / Input Low Cut A - 200Hz / Input Low Cut A - 250Hz / Input Low Cut A - Default Setting
+    value: 14
+    description: Offspring; 20Hz; 100Hz; 125Hz; 150Hz; 200Hz; 250Hz; Default Setting
+    group:
+      - name: Input Low Cut A - Offspring
+        description: Offspring
+        min: 0
+        max: 0
+      - name: Input Low Cut A - 20Hz
+        description: 20Hz
+        min: 1
+        max: 1
+      - name: Input Low Cut A - 100Hz
+        description: 100Hz
+        min: 2
+        max: 2
+      - name: Input Low Cut A - 125Hz
+        description: 125Hz
+        min: 3
+        max: 3
+      - name: Input Low Cut A - 150Hz
+        description: 150Hz
+        min: 4
+        max: 4
+      - name: Input Low Cut A - 200Hz
+        description: 200Hz
+        min: 5
+        max: 5
+      - name: Input Low Cut A - 250Hz
+        description: 250Hz
+        min: 6
+        max: 6
+      - name: Input Low Cut A - Default Setting
+        description: Default Setting
+        min: 7
+        max: 7
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 1 A
+    value: 15
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 2 A
+    value: 16
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 3 A
+    value: 17
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 4 A
+    value: 18
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 5 A
+    value: 19
+  - description:
+    max: 127
+    min: 0
+    name: Engine Special Control A
+    value: 20
+  - name: Reverb Engine B - Room / Reverb Engine B - Hall / Reverb Engine B - E-Dome / Reverb Engine B - True Spring / Reverb Engine B - Plate / Reverb Engine B - Lo-Fi / Reverb Engine B - Modverb / Reverb Engine B - Shimmer / Reverb Engine B - Echoverb / Reverb Engine B - Swell / Reverb Engine B - Offspring / Reverb Engine B - Reverse / Reverb Engine B - Outboard Spring / Reverb Engine B - Metal Box
+    value: 25
+    description: Room; Hall; E-Dome; True Spring; Plate; Lo-Fi; Modverb; Shimmer; Echoverb; Swell; Offspring; Reverse; Outboard Spring; Metal Box
+    group:
+      - name: Reverb Engine B - Room
+        description: Room
+        min: 0
+        max: 0
+      - name: Reverb Engine B - Hall
+        description: Hall
+        min: 1
+        max: 1
+      - name: Reverb Engine B - E-Dome
+        description: E-Dome
+        min: 2
+        max: 2
+      - name: Reverb Engine B - True Spring
+        description: True Spring
+        min: 3
+        max: 3
+      - name: Reverb Engine B - Plate
+        description: Plate
+        min: 4
+        max: 4
+      - name: Reverb Engine B - Lo-Fi
+        description: Lo-Fi
+        min: 5
+        max: 5
+      - name: Reverb Engine B - Modverb
+        description: Modverb
+        min: 6
+        max: 6
+      - name: Reverb Engine B - Shimmer
+        description: Shimmer
+        min: 7
+        max: 7
+      - name: Reverb Engine B - Echoverb
+        description: Echoverb
+        min: 8
+        max: 8
+      - name: Reverb Engine B - Swell
+        description: Swell
+        min: 9
+        max: 9
+      - name: Reverb Engine B - Offspring
+        description: Offspring
+        min: 10
+        max: 10
+      - name: Reverb Engine B - Reverse
+        description: Reverse
+        min: 11
+        max: 11
+      - name: Reverb Engine B - Outboard Spring
+        description: Outboard Spring
+        min: 12
+        max: 12
+      - name: Reverb Engine B - Metal Box
+        description: Metal Box
+        min: 13
+        max: 13
+  - description: Sets min and max delay times
+    max: 127
+    min: 0
+    name: Time B
+    value: 26
+  - description: Sets the wet/dry mix - 50/50 point at approx. 95
+    max: 127
+    min: 0
+    name: Mix B
+    value: 27
+  - description: Sets Pre-Delay B
+    max: 127
+    min: 0
+    name: Pre-Delay B
+    value: 28
+  - description: Sets Treble B
+    max: 127
+    min: 0
+    name: Treble B
+    value: 29
+  - description: Sets Output B
+    max: 127
+    min: 0
+    name: Output B
+    value: 30
+  - description: Sets Bass B
+    max: 127
+    min: 0
+    name: Bass B
+    value: 31
+  - description: Sets Diffusion B
+    max: 127
+    min: 0
+    name: Diffusion B
+    value: 32
+  - description: Sets Modulation Depth B
+    max: 127
+    min: 0
+    name: Modulation Depth B
+    value: 33
+  - description: Sets Modulation Rate B
+    max: 127
+    min: 0
+    name: Modulation Rate B
+    value: 34
+  - description: Sets Pre-Delay Feedback B
+    max: 127
+    min: 0
+    name: Pre-Delay Feedback B
+    value: 35
+  - description: Sets Pre-Delay Mod Depth B
+    max: 127
+    min: 0
+    name: Pre-Delay Mod Depth B
+    value: 36
+  - description:
+    max: Max
+    min: 0
+    name: Size B
+    value: 37
+  - name: Input Low Cut B - Offspring / Input Low Cut B - 20Hz / Input Low Cut B - 100Hz / Input Low Cut B - 125Hz / Input Low Cut B - 150Hz / Input Low Cut B - 200Hz / Input Low Cut B - 250Hz / Input Low Cut B - Default Setting
+    value: 38
+    description: Offspring; 20Hz; 100Hz; 125Hz; 150Hz; 200Hz; 250Hz; Default Setting
+    group:
+      - name: Input Low Cut B - Offspring
+        description: Offspring
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 20Hz
+        description: 20Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 100Hz
+        description: 100Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 125Hz
+        description: 125Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 150Hz
+        description: 150Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 200Hz
+        description: 200Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - 250Hz
+        description: 250Hz
+        min: 0
+        max: 127
+      - name: Input Low Cut B - Default Setting
+        description: Default Setting
+        min: 0
+        max: 127
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 1 B
+    value: 39
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 2 B
+    value: 40
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 3 B
+    value: 41
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 4 B
+    value: 42
+  - description:
+    max: 127
+    min: 0
+    name: Engine Param 5 B
+    value: 43
+  - description:
+    max: 127
+    min: 0
+    name: Engine Special Control B
+    value: 44
+  - description: 0 = Select Reverb A, 1 = Select Reverb B, 2 = Selects A&B Parallel, 3 = Selects A&B Cascade
+    max: 3
+    min: 0
+    name: Dual/Single Mode
+    value: 50
+  - name: I/O Routing Option - Auto-Detect / I/O Routing Option - Mono In - Stereo Out / I/O Routing Option - Stereo In - Stereo Out / I/O Routing Option - Mono In - Mono Out - Dry Out 2 / I/O Routing Option - Stereo In - Wet Sum to Mono / I/O Routing Option - Dual Mono - Independent Stereo / I/O Routing Option - Mono In - Independent Stereo Out / I/O Routing Option - Pre-Processing External Loop
+    value: 53
+    description: Auto-Detect; Mono In - Stereo Out; Stereo In - Stereo Out; Mono In - Mono Out - Dry Out 2; Stereo In - Wet Sum to Mono; Dual Mono - Independent Stereo; Mono In - Independent Stereo Out; Pre-Processing External Loop
+    group:
+      - name: I/O Routing Option - Auto-Detect
+        description: Auto-Detect
+        min: 0
+        max: 0
+      - name: I/O Routing Option - Mono In - Stereo Out
+        description: Mono In - Stereo Out
+        min: 1
+        max: 1
+      - name: I/O Routing Option - Stereo In - Stereo Out
+        description: Stereo In - Stereo Out
+        min: 2
+        max: 2
+      - name: I/O Routing Option - Mono In - Mono Out - Dry Out 2
+        description: Mono In - Mono Out - Dry Out 2
+        min: 3
+        max: 3
+      - name: I/O Routing Option - Stereo In - Wet Sum to Mono
+        description: Stereo In - Wet Sum to Mono
+        min: 4
+        max: 4
+      - name: I/O Routing Option - Dual Mono - Independent Stereo
+        description: Dual Mono - Independent Stereo
+        min: 5
+        max: 5
+      - name: I/O Routing Option - Mono In - Independent Stereo Out
+        description: Mono In - Independent Stereo Out
+        min: 6
+        max: 6
+      - name: I/O Routing Option - Pre-Processing External Loop
+        description: Pre-Processing External Loop
+        min: 7
+        max: 7
+  - description:
+    max: 127
+    min: 0
+    name: Reverb Send
+    value: 54
+  - description:
+    max: 127
+    min: 0
+    name: A/B Crossfade
+    value: 55
+  - description:
+    max: 127
+    min: 0
+    name: Preset Decrement
+    value: 80
+  - description:
+    max: 127
+    min: 0
+    name: Preset Increment
+    value: 82
+  - description:
+    max: 127
+    min: 0
+    name: Remote Tap Tempo
+    value: 93
+  - description:
+    max: 127
+    min: 0
+    name: Remote Hold Function
+    value: 97
+  - description:
+    max: 127
+    min: 0
+    name: Remote Expression
+    value: 100
+  - name: Bypass / Engage
+    value: 101
+    description: ''
+    group:
+      - name: Bypass
+        description: ''
+        min: 0
+        max: 64
+      - name: Engage
+        description: ''
+        min: 65
+        max: 127
+  - description:
+    max: 127
+    min: 0
+    name: Toggle Bypass/Engage
+    value: 102
+  - description:
+    max: 127
+    min: 0
+    name: Recall Preset - Bypass
+    value: 103
+  - description:
+    max: 127
+    min: 0
+    name: Recall Preset - Engage
+    value: 104
 - description: Room
   max: '0'
   min: 0

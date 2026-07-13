@@ -8,119 +8,137 @@ midi_channel:
 
 
 cc:
-  - description: Bypass Loop 1
-    max: 63
-    min: 0
-    name: Loop 1 Bypass
-    type: null
+  - name: Loop 1 Bypass / Loop 1 Engage
     value: 50
-  - description: Engage Loop 1
-    max: 127
-    min: 64
-    name: Loop 1 Engage
-    type: null
-    value: 50
-  - description: Bypass Loop 2
-    max: 63
-    min: 0
-    name: Loop 2 Bypass
-    type: null
+    description: Bypass Loop 1; Engage Loop 1
+    group:
+      - name: Loop 1 Bypass
+        description: Bypass Loop 1
+        min: 0
+        max: 63
+        type:
+      - name: Loop 1 Engage
+        description: Engage Loop 1
+        min: 64
+        max: 127
+        type:
+  - name: Loop 2 Bypass / Loop 2 Engage
     value: 51
-  - description: Engage Loop 2
-    max: 127
-    min: 64
-    name: Loop 2 Engage
-    type: null
-    value: 51
-  - description: Bypass Loop 3
-    max: 63
-    min: 0
-    name: Loop 3 Bypass
-    type: null
+    description: Bypass Loop 2; Engage Loop 2
+    group:
+      - name: Loop 2 Bypass
+        description: Bypass Loop 2
+        min: 0
+        max: 63
+        type:
+      - name: Loop 2 Engage
+        description: Engage Loop 2
+        min: 64
+        max: 127
+        type:
+  - name: Loop 3 Bypass / Loop 3 Engage
     value: 52
-  - description: Engage Loop 3
-    max: 127
-    min: 64
-    name: Loop 3 Engage
-    type: null
-    value: 52
-  - description: Bypass Loop 4
-    max: 63
-    min: 0
-    name: Loop 4 Bypass
-    type: null
+    description: Bypass Loop 3; Engage Loop 3
+    group:
+      - name: Loop 3 Bypass
+        description: Bypass Loop 3
+        min: 0
+        max: 63
+        type:
+      - name: Loop 3 Engage
+        description: Engage Loop 3
+        min: 64
+        max: 127
+        type:
+  - name: Loop 4 Bypass / Loop 4 Engage
     value: 53
-  - description: Engage Loop 4
-    max: 127
-    min: 64
-    name: Loop 4 Engage
-    type: null
-    value: 53
-  - description: Bypass Loop 5
-    max: 63
-    min: 0
-    name: Loop 5 Bypass
-    type: null
+    description: Bypass Loop 4; Engage Loop 4
+    group:
+      - name: Loop 4 Bypass
+        description: Bypass Loop 4
+        min: 0
+        max: 63
+        type:
+      - name: Loop 4 Engage
+        description: Engage Loop 4
+        min: 64
+        max: 127
+        type:
+  - name: Loop 5 Bypass / Loop 5 Engage
     value: 54
-  - description: Engage Loop 5
-    max: 127
-    min: 64
-    name: Loop 5 Engage
-    type: null
-    value: 54
-  - description: Bypass Loop 6
-    max: 63
-    min: 0
-    name: Loop 6 Bypass
-    type: null
+    description: Bypass Loop 5; Engage Loop 5
+    group:
+      - name: Loop 5 Bypass
+        description: Bypass Loop 5
+        min: 0
+        max: 63
+        type:
+      - name: Loop 5 Engage
+        description: Engage Loop 5
+        min: 64
+        max: 127
+        type:
+  - name: Loop 6 Bypass / Loop 6 Engage
     value: 55
-  - description: Engage Loop 6
-    max: 127
-    min: 64
-    name: Loop 6 Engage
-    type: null
-    value: 55
-  - description: Bypass Loop 7
-    max: 63
-    min: 0
-    name: Loop 7 Bypass
-    type: null
+    description: Bypass Loop 6; Engage Loop 6
+    group:
+      - name: Loop 6 Bypass
+        description: Bypass Loop 6
+        min: 0
+        max: 63
+        type:
+      - name: Loop 6 Engage
+        description: Engage Loop 6
+        min: 64
+        max: 127
+        type:
+  - name: Loop 7 Bypass / Loop 7 Engage
     value: 56
-  - description: Engage Loop 7
-    max: 127
-    min: 64
-    name: Loop 7 Engage
-    type: null
-    value: 56
-  - description: Bypass Loop 8
-    max: 63
-    min: 0
-    name: Loop 8 Bypass
-    type: null
+    description: Bypass Loop 7; Engage Loop 7
+    group:
+      - name: Loop 7 Bypass
+        description: Bypass Loop 7
+        min: 0
+        max: 63
+        type:
+      - name: Loop 7 Engage
+        description: Engage Loop 7
+        min: 64
+        max: 127
+        type:
+  - name: Loop 8 Bypass / Loop 8 Engage
     value: 57
-  - description: Engage Loop 8
-    max: 127
-    min: 64
-    name: Loop 8 Engage
-    type: null
-    value: 57
-  - description: Unmute Signal
-    max: 63
-    min: 0
-    name: Unmute
-    type: null
+    description: Bypass Loop 8; Engage Loop 8
+    group:
+      - name: Loop 8 Bypass
+        description: Bypass Loop 8
+        min: 0
+        max: 63
+        type:
+      - name: Loop 8 Engage
+        description: Engage Loop 8
+        min: 64
+        max: 127
+        type:
+  - name: Unmute / Mute
     value: 58
-  - description: Mute Signal
-    max: 127
-    min: 64
-    name: Mute
-    type: null
-    value: 58
+    description: Unmute Signal; Mute Signal
+    group:
+      - name: Unmute
+        description: Unmute Signal
+        min: 0
+        max: 63
+        type:
+      - name: Mute
+        description: Mute Signal
+        min: 64
+        max: 127
+        type:
   - description: Saves current status of Loops to the Preset Number specified by Value
     max: 127
     min: 0
     name: Save
-    type: null
+    type:
     value: 122
 pc:
   description: Loads Presets 0 - 127

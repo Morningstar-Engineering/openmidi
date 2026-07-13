@@ -50,7 +50,7 @@ cc:
     max: 127
   - name: Pitch Pedal
     value: 4
-    description: 'The Pitch Pedal is dedicated to the pitch shifter effects Pedal Pitch and Pedal Vinyl Stop, ideal for creating the classic Whammy effect.'
+    description: The Pitch Pedal is dedicated to the pitch shifter effects Pedal Pitch and Pedal Vinyl Stop, ideal for creating the classic Whammy effect.
     type: Parameter
     min: 0
     max: 127
@@ -62,55 +62,103 @@ cc:
     max: 127
   - name: Panorama
     value: 10
-    description: 'This parameter allows you to move the signal within the stereo field. The “Panorama” parameter affects the HEADPHONE output plus "Master..." Output Sources of all other stereo outputs.'
+    description: This parameter allows you to move the signal within the stereo field. The “Panorama” parameter affects the HEADPHONE output plus "Master..." Output Sources of all other stereo outputs.
     type: Parameter
     min: 0
     max: 127
   - name: Morph Pedal
     value: 11
-    description: 'This pedal controls simultaneous morphing of multiple, continuous Rig parameters.'
+    description: This pedal controls simultaneous morphing of multiple, continuous Rig parameters.
     type: Parameter
     min: 0
     max: 127
-  - name: Delay Mix (Module DLY)
+  - name: Delay Mix (Module DLY) / Delay Mix
     value: 68
-    description: 'Controls the level of the delay signal.'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Delay Feedback (Module DLY)
+    description: Controls the level of the delay signal.; Sets delay mix to chosen value
+    group:
+      - name: Delay Mix (Module DLY)
+        description: Controls the level of the delay signal.
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Delay Mix
+        description: Sets delay mix to chosen value
+        min: 0
+        max: 127
+        type: Parameter
+  - name: Delay Feedback (Module DLY) / Delay Feedback
     value: 69
-    description: 'The Feedback parameter determines the amount of delayed signal that is thrown back to the input of the delay, resulting in an "echo of the echo". '
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Reverb Mix (Module REV)
+    description: The Feedback parameter determines the amount of delayed signal that is thrown back to the input of the delay, resulting in an "echo of the echo".; Sets delay feedback to chosen value
+    group:
+      - name: Delay Feedback (Module DLY)
+        description: 'The Feedback parameter determines the amount of delayed signal that is thrown back to the input of the delay, resulting in an "echo of the echo". '
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Delay Feedback
+        description: Sets delay feedback to chosen value
+        min: 0
+        max: 127
+        type: Parameter
+  - name: Reverb Mix (Module REV) / Reverb Mix
     value: 70
-    description: 'Controls the level of the reverb signal.'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Reverb Time (Module REV)
+    description: Controls the level of the reverb signal.; Sets reverb mix to chosen value
+    group:
+      - name: Reverb Mix (Module REV)
+        description: Controls the level of the reverb signal.
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Reverb Mix
+        description: Sets reverb mix to chosen value
+        min: 0
+        max: 127
+        type: Parameter
+  - name: Reverb Time (Module REV) / Reverb Time
     value: 71
-    description: 'Determines how fast the reverb decays.'
-    type: Parameter
-    min: 0
-    max: 127
+    description: Determines how fast the reverb decays.; Sets reverb time to chosen value
+    group:
+      - name: Reverb Time (Module REV)
+        description: Determines how fast the reverb decays.
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Reverb Time
+        description: Sets reverb time to chosen value
+        min: 0
+        max: 127
+        type: Parameter
   - name: Gain
     value: 72
-    description: 'The GAIN knob controls the amount of distortion and covers an extremely wide range from ultra-clean to totally distorted.'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Monitor (Output) Volume
+    description: The GAIN knob controls the amount of distortion and covers an extremely wide range from ultra-clean to totally distorted.; Sets amplifier gain to chosen value
+    group:
+      - name: Gain
+        description: The GAIN knob controls the amount of distortion and covers an extremely wide range from ultra-clean to totally distorted.
+        min: 0
+        max: 127
+        type: Parameter
+      - name: Gain
+        description: Sets amplifier gain to chosen value
+        min: 0
+        max: 127
+        type: Parameter
+  - name: Monitor (Output) Volume / Monitor Output Volume
     value: 73
-    description: '“Monitor Volume” is a special additional pedal option to control the volume of the MONITOR OUTPUT as well the internal power amplifier of PowerHead and PowerRack. It allows you to generate controlled feedback through your monitor cabinet.'
-    type: System
-    min: 0
-    max: 127
+    description: “Monitor Volume” is a special additional pedal option to control the volume of the MONITOR OUTPUT as well the internal power amplifier of PowerHead and PowerRack. It allows you to generate controlled feedback through your monitor cabinet.; Sets global Monitor Output Volume
+    group:
+      - name: Monitor (Output) Volume
+        description: “Monitor Volume” is a special additional pedal option to control the volume of the MONITOR OUTPUT as well the internal power amplifier of PowerHead and PowerRack. It allows you to generate controlled feedback through your monitor cabinet.
+        min: 0
+        max: 127
+        type: System
+      - name: Monitor Output Volume
+        description: Sets global Monitor Output Volume
+        min: 0
+        max: 127
+        type: System
   - name: Toggle all effecte modules
     value: 16
-    description: 'All effect modules from A to MOD invert on/off.'
+    description: All effect modules from A to MOD invert on/off.
     type: System
     min: 0
     max: 127
@@ -176,9 +224,11 @@ cc:
     max: 127
   - name: Tap
     value: 30
-    description: |
-        Sets tempo tap. If your floorboard supports separate events on “pressing” and “releasing” a button, send 1 when “pressed” and 0 when “released”. If the floorboard can only send one event, use value 0.
-        When value 1 has been sent and no value 0 for 3 seconds, the Beat Scanner is being activated.
+    description: 'Sets tempo tap. If your floorboard supports separate events on “pressing” and “releasing” a button, send 1 when “pressed” and 0 when “released”. If the floorboard can only send one event, use value 0.
+
+      When value 1 has been sent and no value 0 for 3 seconds, the Beat Scanner is being activated.
+
+      '
     type: System
     min: 0
     max: 127
@@ -216,7 +266,7 @@ cc:
     value: 48
     description: 'In Performance Mode: Value 1 steps one Performance up and starts scrolling after a while. Value 0 stops scrolling, or steps only one Performance up.
 
-    In Browser Mode value 0 steps on Rig up, value 1 steps five Rigs up, value 2 steps to first Rig of next higher bank of five.'
+      In Browser Mode value 0 steps on Rig up, value 1 steps five Rigs up, value 2 steps to first Rig of next higher bank of five.'
     type: System
     min: 0
     max: 2
@@ -224,79 +274,43 @@ cc:
     value: 49
     description: 'In Performance Mode: Value 1 steps one Performance down and starts scrolling after a while. Value 0 stops scrolling, or steps only one Performance down.
 
-    In Browser Mode value 0 steps on Rig down, value 1 steps five Rigs down, value 2 steps to last Rig of next lower bank of five.'
+      In Browser Mode value 0 steps on Rig down, value 1 steps five Rigs down, value 2 steps to last Rig of next lower bank of five.'
     type: System
     min: 0
     max: 2
   - name: Slot 1/Rig 1
     value: 50
-    description: 'Loads Slot 1 of present Performance and in Browser Mode Rig 1 of current bank.'
+    description: Loads Slot 1 of present Performance and in Browser Mode Rig 1 of current bank.
     type: System
     min: 0
     max: 127
   - name: Slot 2/Rig 2
     value: 51
-    description: 'Loads Slot 2 of present Performance and in Browser Mode Rig 2 of current bank.'
+    description: Loads Slot 2 of present Performance and in Browser Mode Rig 2 of current bank.
     type: System
     min: 0
     max: 127
   - name: Slot 3/Rig 3
     value: 52
-    description: 'Loads Slot 3 of present Performance and in Browser Mode Rig 3 of current bank.'
+    description: Loads Slot 3 of present Performance and in Browser Mode Rig 3 of current bank.
     type: System
     min: 0
     max: 127
   - name: Slot 4/Rig 4
     value: 53
-    description: 'Loads Slot 4 of present Performance and in Browser Mode Rig 4 of current bank.'
+    description: Loads Slot 4 of present Performance and in Browser Mode Rig 4 of current bank.
     type: System
     min: 0
     max: 127
   - name: Slot 5/Rig 5
     value: 54
-    description: 'Loads Slot 5 of present Performance and in Browser Mode Rig 5 of current bank.'
-    type: System
-    min: 0
-    max: 127
-  - name: Delay Mix
-    value: 68
-    description: 'Sets delay mix to chosen value'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Delay Feedback
-    value: 69
-    description: 'Sets delay feedback to chosen value'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Reverb Mix
-    value: 70
-    description: 'Sets reverb mix to chosen value'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Reverb Time
-    value: 71
-    description: 'Sets reverb time to chosen value'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Gain
-    value: 72
-    description: 'Sets amplifier gain to chosen value'
-    type: Parameter
-    min: 0
-    max: 127
-  - name: Monitor Output Volume
-    value: 73
-    description: 'Sets global Monitor Output Volume'
+    description: Loads Slot 5 of present Performance and in Browser Mode Rig 5 of current bank.
     type: System
     min: 0
     max: 127
   - name: Morph Button
     value: 80
-    description: 'Emulates "push" (1) and "release" (0) of the Morph button'
+    description: Emulates "push" (1) and "release" (0) of the Morph button
     type: System
     min: 0
     max: 1

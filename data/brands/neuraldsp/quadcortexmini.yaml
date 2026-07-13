@@ -18,156 +18,177 @@ pc:
     The group is determined by the most recent CC#0 (Bank MSB) message.
 
 cc:
-  - name: 'Bank Select (MSB): Presets 0-127'
+  - name: 'Bank Select (MSB): Presets 0-127 / Bank Select (MSB): Presets 128-256'
     value: 0
-    description: 'Determines preset group 0-127'
-    min: 0
-    max: 0
-  - name: 'Bank Select (MSB): Presets 128-256'
-    value: 0
-    description: 'Determines preset group 128-256'
-    min: 1
-    max: 1
-  - name: 'Expression Pedal 1 Position'
+    description: Determines preset group 0-127; Determines preset group 128-256
+    group:
+      - name: 'Bank Select (MSB): Presets 0-127'
+        description: Determines preset group 0-127
+        min: 0
+        max: 0
+      - name: 'Bank Select (MSB): Presets 128-256'
+        description: Determines preset group 128-256
+        min: 1
+        max: 1
+  - name: Expression Pedal 1 Position
     value: 1
     description: 'Value 0: Heel, Value 127: Toe'
     min: 0
     max: 127
-  - name: 'Expression Pedal 2 Position'
+  - name: Expression Pedal 2 Position
     value: 2
     description: 'Value 0: Heel, Value 127: Toe'
     min: 0
     max: 127
-  - name: 'Bank Select (LSB): Factory Presets'
+  - name: 'Bank Select (LSB): Factory Presets / Bank Select (LSB): My Presets / Bank Select (LSB): User Folders'
     value: 32
-    description: 'Recall Factory Presets folder'
-    min: 0
-    max: 0
-  - name: 'Bank Select (LSB): My Presets'
-    value: 32
-    description: 'Recall My Presets folder'
-    min: 1
-    max: 1
-  - name: 'Bank Select (LSB): User Folders'
-    value: 32
-    description: 'Value 2-12: Selects User folder'
-    min: 2
-    max: 12
-  - name: 'Footswitch A (Page I)'
+    description: 'Recall Factory Presets folder; Recall My Presets folder; Value 2-12: Selects User folder'
+    group:
+      - name: 'Bank Select (LSB): Factory Presets'
+        description: Recall Factory Presets folder
+        min: 0
+        max: 0
+      - name: 'Bank Select (LSB): My Presets'
+        description: Recall My Presets folder
+        min: 1
+        max: 1
+      - name: 'Bank Select (LSB): User Folders'
+        description: 'Value 2-12: Selects User folder'
+        min: 2
+        max: 12
+  - name: Footswitch A (Page I)
     value: 35
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch B (Page I)'
+  - name: Footswitch B (Page I)
     value: 36
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch C (Page I)'
+  - name: Footswitch C (Page I)
     value: 37
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch D (Page I)'
+  - name: Footswitch D (Page I)
     value: 38
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch A (Page II)'
+  - name: Footswitch A (Page II)
     value: 39
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch B (Page II)'
+  - name: Footswitch B (Page II)
     value: 40
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch C (Page II)'
+  - name: Footswitch C (Page II)
     value: 41
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Footswitch D (Page II)'
+  - name: Footswitch D (Page II)
     value: 42
-    description: 'Footswitch Press'
+    description: Footswitch Press
     min: 0
     max: 127
-  - name: 'Recall Scene A (Page I)'
+  - name: Recall Scene A (Page I) / Recall Scene B (Page I) / Recall Scene C (Page I) / Recall Scene D (Page I) / Recall Scene A (Page II) / Recall Scene B (Page II) / Recall Scene C (Page II) / Recall Scene D (Page II)
     value: 43
-    min: 0
-    max: 0
-  - name: 'Recall Scene B (Page I)'
-    value: 43
-    min: 1
-    max: 1
-  - name: 'Recall Scene C (Page I)'
-    value: 43
-    min: 2
-    max: 2
-  - name: 'Recall Scene D (Page I)'
-    value: 43
-    min: 3
-    max: 3
-  - name: 'Recall Scene A (Page II)'
-    value: 43
-    min: 4
-    max: 4
-  - name: 'Recall Scene B (Page II)'
-    value: 43
-    min: 5
-    max: 5
-  - name: 'Recall Scene C (Page II)'
-    value: 43
-    min: 6
-    max: 6
-  - name: 'Recall Scene D (Page II)'
-    value: 43
-    min: 7
-    max: 7
-  - name: 'Tap Tempo'
+    description: ''
+    group:
+      - name: Recall Scene A (Page I)
+        description: ''
+        min: 0
+        max: 0
+      - name: Recall Scene B (Page I)
+        description: ''
+        min: 1
+        max: 1
+      - name: Recall Scene C (Page I)
+        description: ''
+        min: 2
+        max: 2
+      - name: Recall Scene D (Page I)
+        description: ''
+        min: 3
+        max: 3
+      - name: Recall Scene A (Page II)
+        description: ''
+        min: 4
+        max: 4
+      - name: Recall Scene B (Page II)
+        description: ''
+        min: 5
+        max: 5
+      - name: Recall Scene C (Page II)
+        description: ''
+        min: 6
+        max: 6
+      - name: Recall Scene D (Page II)
+        description: ''
+        min: 7
+        max: 7
+  - name: Tap Tempo
     value: 44
-    description: 'Tap Tempo press emulation'
+    description: Tap Tempo press emulation
     min: 0
     max: 127
-  - name: 'Tuner: Close'
+  - name: 'Tuner: Close / Tuner: Open'
     value: 45
-    min: 0
-    max: 63
-  - name: 'Tuner: Open'
-    value: 45
-    min: 64
-    max: 127
-  - name: 'Gig View: Close'
+    description: ''
+    group:
+      - name: 'Tuner: Close'
+        description: ''
+        min: 0
+        max: 63
+      - name: 'Tuner: Open'
+        description: ''
+        min: 64
+        max: 127
+  - name: 'Gig View: Close / Gig View: Open'
     value: 46
-    min: 0
-    max: 63
-  - name: 'Gig View: Open'
-    value: 46
-    min: 64
-    max: 127
-  - name: 'Mode Slot 1 (Preset Mode)'
+    description: ''
+    group:
+      - name: 'Gig View: Close'
+        description: ''
+        min: 0
+        max: 63
+      - name: 'Gig View: Open'
+        description: ''
+        min: 64
+        max: 127
+  - name: Mode Slot 1 (Preset Mode) / Mode Slot 2 (Scene Mode) / Mode Slot 3 (Stomp Mode)
     value: 47
-    min: 0
-    max: 0
-  - name: 'Mode Slot 2 (Scene Mode)'
-    value: 47
-    min: 1
-    max: 1
-  - name: 'Mode Slot 3 (Stomp Mode)'
-    value: 47
-    min: 2
-    max: 2
-  - name: 'Looper X Editor: Open'
+    description: ''
+    group:
+      - name: Mode Slot 1 (Preset Mode)
+        description: ''
+        min: 0
+        max: 0
+      - name: Mode Slot 2 (Scene Mode)
+        description: ''
+        min: 1
+        max: 1
+      - name: Mode Slot 3 (Stomp Mode)
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Looper X Editor: Open / Looper X Editor: Close'
     value: 48
-    description: 'Opens Looper X parameter editor (Perform Mode)'
-    min: 0
-    max: 63
-  - name: 'Looper X Editor: Close'
-    value: 48
-    description: 'Closes Looper X parameter editor'
-    min: 64
-    max: 127
+    description: Opens Looper X parameter editor (Perform Mode); Closes Looper X parameter editor
+    group:
+      - name: 'Looper X Editor: Open'
+        description: Opens Looper X parameter editor (Perform Mode)
+        min: 0
+        max: 63
+      - name: 'Looper X Editor: Close'
+        description: Closes Looper X parameter editor
+        min: 64
+        max: 127
   - name: 'Looper X: Toggle Duplicate'
     value: 49
     min: 64
@@ -200,113 +221,139 @@ cc:
     value: 56
     min: 64
     max: 127
-  - name: 'Looper X Duplicate Mode: Free'
+  - name: 'Looper X Duplicate Mode: Free / Looper X Duplicate Mode: Sync'
     value: 57
-    min: 0
-    max: 0
-  - name: 'Looper X Duplicate Mode: Sync'
-    value: 57
-    min: 1
-    max: 1
-  - name: 'Looper X Quantize: Off'
+    description: ''
+    group:
+      - name: 'Looper X Duplicate Mode: Free'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper X Duplicate Mode: Sync'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Looper X Quantize: Off / Looper X Quantize: 1-8 Beats / Looper X Quantize: 16 Beats'
     value: 58
-    min: 0
-    max: 0
-  - name: 'Looper X Quantize: 1-8 Beats'
-    value: 58
-    min: 1
-    max: 8
-  - name: 'Looper X Quantize: 16 Beats'
-    value: 58
-    min: 9
-    max: 9
-  - name: 'Looper X MIDI Clock Start: Free'
+    description: ''
+    group:
+      - name: 'Looper X Quantize: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper X Quantize: 1-8 Beats'
+        description: ''
+        min: 1
+        max: 8
+      - name: 'Looper X Quantize: 16 Beats'
+        description: ''
+        min: 9
+        max: 9
+  - name: 'Looper X MIDI Clock Start: Free / Looper X MIDI Clock Start: Sync'
     value: 59
-    min: 0
-    max: 0
-  - name: 'Looper X MIDI Clock Start: Sync'
-    value: 59
-    min: 1
-    max: 1
-  - name: 'Looper X Mode: Perform Mode'
+    description: ''
+    group:
+      - name: 'Looper X MIDI Clock Start: Free'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper X MIDI Clock Start: Sync'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Looper X Mode: Perform Mode / Looper X Mode: Parameters Mode'
     value: 60
-    min: 0
-    max: 0
-  - name: 'Looper X Mode: Parameters Mode'
-    value: 60
-    min: 1
-    max: 1
-  - name: 'Looper X Routing: Grid'
+    description: ''
+    group:
+      - name: 'Looper X Mode: Perform Mode'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper X Mode: Parameters Mode'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Looper X Routing: Grid / Looper X Routing: Input 1 / Looper X Routing: Input 2 / Looper X Routing: Return 1 / Looper X Routing: Return 2 / Looper X Routing: Inputs 1/2 / Looper X Routing: Returns 1/2 / Looper X Routing: Output 1 / Looper X Routing: Output 2 / Looper X Routing: Output 3 / Looper X Routing: Output 4 / Looper X Routing: Outputs 1/2 / Looper X Routing: Outputs 3/4 / Looper X Routing: Multiple Outputs Block'
     value: 61
-    min: 0
-    max: 0
-  - name: 'Looper X Routing: Input 1'
-    value: 61
-    min: 1
-    max: 1
-  - name: 'Looper X Routing: Input 2'
-    value: 61
-    min: 2
-    max: 2
-  - name: 'Looper X Routing: Return 1'
-    value: 61
-    min: 3
-    max: 3
-  - name: 'Looper X Routing: Return 2'
-    value: 61
-    min: 4
-    max: 4
-  - name: 'Looper X Routing: Inputs 1/2'
-    value: 61
-    min: 5
-    max: 5
-  - name: 'Looper X Routing: Returns 1/2'
-    value: 61
-    min: 6
-    max: 6
-  - name: 'Looper X Routing: Output 1'
-    value: 61
-    min: 7
-    max: 7
-  - name: 'Looper X Routing: Output 2'
-    value: 61
-    min: 8
-    max: 8
-  - name: 'Looper X Routing: Output 3'
-    value: 61
-    min: 9
-    max: 9
-  - name: 'Looper X Routing: Output 4'
-    value: 61
-    min: 10
-    max: 10
-  - name: 'Looper X Routing: Outputs 1/2'
-    value: 61
-    min: 11
-    max: 11
-  - name: 'Looper X Routing: Outputs 3/4'
-    value: 61
-    min: 12
-    max: 12
-  - name: 'Looper X Routing: Multiple Outputs Block'
-    value: 61
-    min: 13
-    max: 13
-  - name: 'Ignore Duplicate PC: Off'
+    description: ''
+    group:
+      - name: 'Looper X Routing: Grid'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Looper X Routing: Input 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Looper X Routing: Input 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Looper X Routing: Return 1'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Looper X Routing: Return 2'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Looper X Routing: Inputs 1/2'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Looper X Routing: Returns 1/2'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Looper X Routing: Output 1'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Looper X Routing: Output 2'
+        description: ''
+        min: 8
+        max: 8
+      - name: 'Looper X Routing: Output 3'
+        description: ''
+        min: 9
+        max: 9
+      - name: 'Looper X Routing: Output 4'
+        description: ''
+        min: 10
+        max: 10
+      - name: 'Looper X Routing: Outputs 1/2'
+        description: ''
+        min: 11
+        max: 11
+      - name: 'Looper X Routing: Outputs 3/4'
+        description: ''
+        min: 12
+        max: 12
+      - name: 'Looper X Routing: Multiple Outputs Block'
+        description: ''
+        min: 13
+        max: 13
+  - name: 'Ignore Duplicate PC: Off / Ignore Duplicate PC: On'
     value: 62
-    description: 'Presets reloaded on every matching PC message'
-    min: 0
-    max: 63
-  - name: 'Ignore Duplicate PC: On'
-    value: 62
-    description: 'Prevents reload on repeated PC or CC#0/CC#32'
-    min: 64
-    max: 127
-  - name: 'Footswitch Page: Page I'
+    description: Presets reloaded on every matching PC message; Prevents reload on repeated PC or CC#0/CC#32
+    group:
+      - name: 'Ignore Duplicate PC: Off'
+        description: Presets reloaded on every matching PC message
+        min: 0
+        max: 63
+      - name: 'Ignore Duplicate PC: On'
+        description: Prevents reload on repeated PC or CC#0/CC#32
+        min: 64
+        max: 127
+  - name: 'Footswitch Page: Page I / Footswitch Page: Page II'
     value: 64
-    min: 0
-    max: 63
-  - name: 'Footswitch Page: Page II'
-    value: 64
-    min: 64
-    max: 127
+    description: ''
+    group:
+      - name: 'Footswitch Page: Page I'
+        description: ''
+        min: 0
+        max: 63
+      - name: 'Footswitch Page: Page II'
+        description: ''
+        min: 64
+        max: 127

@@ -1,5 +1,1631 @@
 brand: Two Notes Audio Engineering
 cc:
+  - name: Simulation Bypass / Simulation Engage
+    value: 0
+    description: ''
+    group:
+      - name: Simulation Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: Simulation Engage
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Power Amp A: On / Power Amp A: Off'
+    value: 1
+    description: ''
+    group:
+      - name: 'Power Amp A: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Power Amp A: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: Power Amp Model A 0 / Power Amp Model A 1 / Power Amp Model A 2 / Power Amp Model A 3 / Power Amp Model A 4 / Power Amp Model A 5 / Power Amp Model A 6 / Power Amp Model A 7
+    value: 2
+    description: ''
+    group:
+      - name: Power Amp Model A 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Power Amp Model A 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Power Amp Model A 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Power Amp Model A 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Power Amp Model A 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Power Amp Model A 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Power Amp Model A 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Power Amp Model A 7
+        description: ''
+        min: 7
+        max: 7
+  - name: Power Amp Model B 0 / Power Amp Model B 1 / Power Amp Model B 2 / Power Amp Model B 3 / Power Amp Model B 4 / Power Amp Model B 5 / Power Amp Model B 6 / Power Amp Model B 7
+    value: 65
+    description: ''
+    group:
+      - name: Power Amp Model B 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Power Amp Model B 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Power Amp Model B 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Power Amp Model B 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Power Amp Model B 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Power Amp Model B 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Power Amp Model B 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Power Amp Model B 7
+        description: ''
+        min: 7
+        max: 7
+  - name: 'Power Amp B: Off / Power Amp B: On'
+    value: 64
+    description: ''
+    group:
+      - name: 'Power Amp B: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Power Amp B: On'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 30
+    min: 0
+    name: Power Amp A Volume
+    value: 3
+  - description: ''
+    max: 127
+    min: 0
+    name: Power Amp A Presence
+    value: 4
+  - description: ''
+    max: 127
+    min: 0
+    name: Power Amp A Depth
+    value: 5
+  - name: 'Power Amp A Character: Triode / Power Amp A Character: Pentode'
+    value: 6
+    description: ''
+    group:
+      - name: 'Power Amp A Character: Triode'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Power Amp A Character: Pentode'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 30
+    min: 0
+    name: Power Amp B Volume
+    value: 66
+  - description: ''
+    max: 127
+    min: 0
+    name: Power Amp B Presence
+    value: 67
+  - description: ''
+    max: 127
+    min: 0
+    name: Power Amp B Depth
+    value: 68
+  - name: 'Power Amp B Character: Triode / Power Amp B Character: Pentode'
+    value: 69
+    description: ''
+    group:
+      - name: 'Power Amp B Character: Triode'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Power Amp B Character: Pentode'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Mic A Mode: Off / Mic A Mode: Cab / Mic A Mode: User'
+    value: 7
+    description: ''
+    group:
+      - name: 'Mic A Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic A Mode: Cab'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic A Mode: User'
+        description: ''
+        min: 2
+        max: 2
+  - name: 'Mic B Mode: Off / Mic B Mode: Cab / Mic B Mode: User / Mic B Mode: Link'
+    value: 70
+    description: ''
+    group:
+      - name: 'Mic B Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic B Mode: Cab'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic B Mode: User'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mic B Mode: Link'
+        description: ''
+        min: 3
+        max: 3
+  - name: Mic A Cab 0 / Mic A Cab 1 / Mic A Cab 2 / Mic A Cab 3 / Mic A Cab 4 / Mic A Cab 5 / Mic A Cab 6 / Mic A Cab 7 / Mic A Cab 8 / Mic A Cab 9 / Mic A Cab 10 / Mic A Cab 11 / Mic A Cab 12 / Mic A Cab 13 / Mic A Cab 14 / Mic A Cab 15 / Mic A Cab 16 / Mic A Cab 17 / Mic A Cab 18 / Mic A Cab 19 / Mic A Cab 20 / Mic A Cab 21 / Mic A Cab 22 / Mic A Cab 23 / Mic A Cab 24 / Mic A Cab 25 / Mic A Cab 26 / Mic A Cab 27 / Mic A Cab 28 / Mic A Cab 29 / Mic A Cab 30 / Mic A Cab 31 / Mic A Cab 32 / Mic A Cab 33 / Mic A Cab 34 / Mic A Cab 35 / Mic A Cab 36 / Mic A Cab 37 / Mic A Cab 38 / Mic A Cab 39 / Mic A Cab 40 / Mic A Cab 41 / Mic A Cab 42 / Mic A Cab 43 / Mic A Cab 44 / Mic A Cab 45 / Mic A Cab 46 / Mic A Cab 47 / Mic A Cab 48 / Mic A Cab 49 / Mic A Cab 50
+    value: 8
+    description: ''
+    group:
+      - name: Mic A Cab 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic A Cab 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic A Cab 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic A Cab 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic A Cab 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic A Cab 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic A Cab 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic A Cab 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Mic A Cab 8
+        description: ''
+        min: 8
+        max: 8
+      - name: Mic A Cab 9
+        description: ''
+        min: 9
+        max: 9
+      - name: Mic A Cab 10
+        description: ''
+        min: 10
+        max: 10
+      - name: Mic A Cab 11
+        description: ''
+        min: 11
+        max: 11
+      - name: Mic A Cab 12
+        description: ''
+        min: 12
+        max: 12
+      - name: Mic A Cab 13
+        description: ''
+        min: 13
+        max: 13
+      - name: Mic A Cab 14
+        description: ''
+        min: 14
+        max: 14
+      - name: Mic A Cab 15
+        description: ''
+        min: 15
+        max: 15
+      - name: Mic A Cab 16
+        description: ''
+        min: 16
+        max: 16
+      - name: Mic A Cab 17
+        description: ''
+        min: 17
+        max: 17
+      - name: Mic A Cab 18
+        description: ''
+        min: 18
+        max: 18
+      - name: Mic A Cab 19
+        description: ''
+        min: 19
+        max: 19
+      - name: Mic A Cab 20
+        description: ''
+        min: 20
+        max: 20
+      - name: Mic A Cab 21
+        description: ''
+        min: 21
+        max: 21
+      - name: Mic A Cab 22
+        description: ''
+        min: 22
+        max: 22
+      - name: Mic A Cab 23
+        description: ''
+        min: 23
+        max: 23
+      - name: Mic A Cab 24
+        description: ''
+        min: 24
+        max: 24
+      - name: Mic A Cab 25
+        description: ''
+        min: 25
+        max: 25
+      - name: Mic A Cab 26
+        description: ''
+        min: 26
+        max: 26
+      - name: Mic A Cab 27
+        description: ''
+        min: 27
+        max: 27
+      - name: Mic A Cab 28
+        description: ''
+        min: 28
+        max: 28
+      - name: Mic A Cab 29
+        description: ''
+        min: 29
+        max: 29
+      - name: Mic A Cab 30
+        description: ''
+        min: 30
+        max: 30
+      - name: Mic A Cab 31
+        description: ''
+        min: 31
+        max: 31
+      - name: Mic A Cab 32
+        description: ''
+        min: 32
+        max: 32
+      - name: Mic A Cab 33
+        description: ''
+        min: 33
+        max: 33
+      - name: Mic A Cab 34
+        description: ''
+        min: 34
+        max: 34
+      - name: Mic A Cab 35
+        description: ''
+        min: 35
+        max: 35
+      - name: Mic A Cab 36
+        description: ''
+        min: 36
+        max: 36
+      - name: Mic A Cab 37
+        description: ''
+        min: 37
+        max: 37
+      - name: Mic A Cab 38
+        description: ''
+        min: 38
+        max: 38
+      - name: Mic A Cab 39
+        description: ''
+        min: 39
+        max: 39
+      - name: Mic A Cab 40
+        description: ''
+        min: 40
+        max: 40
+      - name: Mic A Cab 41
+        description: ''
+        min: 41
+        max: 41
+      - name: Mic A Cab 42
+        description: ''
+        min: 42
+        max: 42
+      - name: Mic A Cab 43
+        description: ''
+        min: 43
+        max: 43
+      - name: Mic A Cab 44
+        description: ''
+        min: 44
+        max: 44
+      - name: Mic A Cab 45
+        description: ''
+        min: 45
+        max: 45
+      - name: Mic A Cab 46
+        description: ''
+        min: 46
+        max: 46
+      - name: Mic A Cab 47
+        description: ''
+        min: 47
+        max: 47
+      - name: Mic A Cab 48
+        description: ''
+        min: 48
+        max: 48
+      - name: Mic A Cab 49
+        description: ''
+        min: 49
+        max: 49
+      - name: Mic A Cab 50
+        description: ''
+        min: 50
+        max: 50
+  - name: Mic B Cab 0 / Mic B Cab 1 / Mic B Cab 2 / Mic B Cab 3 / Mic B Cab 4 / Mic B Cab 5 / Mic B Cab 6 / Mic B Cab 7 / Mic B Cab 8 / Mic B Cab 9 / Mic B Cab 10 / Mic B Cab 11 / Mic B Cab 12 / Mic B Cab 13 / Mic B Cab 14 / Mic B Cab 15 / Mic B Cab 16 / Mic B Cab 17 / Mic B Cab 18 / Mic B Cab 19 / Mic B Cab 20 / Mic B Cab 21 / Mic B Cab 22 / Mic B Cab 23 / Mic B Cab 24 / Mic B Cab 25 / Mic B Cab 26 / Mic B Cab 27 / Mic B Cab 28 / Mic B Cab 29 / Mic B Cab 30 / Mic B Cab 31 / Mic B Cab 32 / Mic B Cab 33 / Mic B Cab 34 / Mic B Cab 35 / Mic B Cab 36 / Mic B Cab 37 / Mic B Cab 38 / Mic B Cab 39 / Mic B Cab 40 / Mic B Cab 41 / Mic B Cab 42 / Mic B Cab 43 / Mic B Cab 44 / Mic B Cab 45 / Mic B Cab 46 / Mic B Cab 47 / Mic B Cab 48 / Mic B Cab 49 / Mic B Cab 50
+    value: 71
+    description: ''
+    group:
+      - name: Mic B Cab 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic B Cab 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic B Cab 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic B Cab 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic B Cab 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic B Cab 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic B Cab 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic B Cab 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Mic B Cab 8
+        description: ''
+        min: 8
+        max: 8
+      - name: Mic B Cab 9
+        description: ''
+        min: 9
+        max: 9
+      - name: Mic B Cab 10
+        description: ''
+        min: 10
+        max: 10
+      - name: Mic B Cab 11
+        description: ''
+        min: 11
+        max: 11
+      - name: Mic B Cab 12
+        description: ''
+        min: 12
+        max: 12
+      - name: Mic B Cab 13
+        description: ''
+        min: 13
+        max: 13
+      - name: Mic B Cab 14
+        description: ''
+        min: 14
+        max: 14
+      - name: Mic B Cab 15
+        description: ''
+        min: 15
+        max: 15
+      - name: Mic B Cab 16
+        description: ''
+        min: 16
+        max: 16
+      - name: Mic B Cab 17
+        description: ''
+        min: 17
+        max: 17
+      - name: Mic B Cab 18
+        description: ''
+        min: 18
+        max: 18
+      - name: Mic B Cab 19
+        description: ''
+        min: 19
+        max: 19
+      - name: Mic B Cab 20
+        description: ''
+        min: 20
+        max: 20
+      - name: Mic B Cab 21
+        description: ''
+        min: 21
+        max: 21
+      - name: Mic B Cab 22
+        description: ''
+        min: 22
+        max: 22
+      - name: Mic B Cab 23
+        description: ''
+        min: 23
+        max: 23
+      - name: Mic B Cab 24
+        description: ''
+        min: 24
+        max: 24
+      - name: Mic B Cab 25
+        description: ''
+        min: 25
+        max: 25
+      - name: Mic B Cab 26
+        description: ''
+        min: 26
+        max: 26
+      - name: Mic B Cab 27
+        description: ''
+        min: 27
+        max: 27
+      - name: Mic B Cab 28
+        description: ''
+        min: 28
+        max: 28
+      - name: Mic B Cab 29
+        description: ''
+        min: 29
+        max: 29
+      - name: Mic B Cab 30
+        description: ''
+        min: 30
+        max: 30
+      - name: Mic B Cab 31
+        description: ''
+        min: 31
+        max: 31
+      - name: Mic B Cab 32
+        description: ''
+        min: 32
+        max: 32
+      - name: Mic B Cab 33
+        description: ''
+        min: 33
+        max: 33
+      - name: Mic B Cab 34
+        description: ''
+        min: 34
+        max: 34
+      - name: Mic B Cab 35
+        description: ''
+        min: 35
+        max: 35
+      - name: Mic B Cab 36
+        description: ''
+        min: 36
+        max: 36
+      - name: Mic B Cab 37
+        description: ''
+        min: 37
+        max: 37
+      - name: Mic B Cab 38
+        description: ''
+        min: 38
+        max: 38
+      - name: Mic B Cab 39
+        description: ''
+        min: 39
+        max: 39
+      - name: Mic B Cab 40
+        description: ''
+        min: 40
+        max: 40
+      - name: Mic B Cab 41
+        description: ''
+        min: 41
+        max: 41
+      - name: Mic B Cab 42
+        description: ''
+        min: 42
+        max: 42
+      - name: Mic B Cab 43
+        description: ''
+        min: 43
+        max: 43
+      - name: Mic B Cab 44
+        description: ''
+        min: 44
+        max: 44
+      - name: Mic B Cab 45
+        description: ''
+        min: 45
+        max: 45
+      - name: Mic B Cab 46
+        description: ''
+        min: 46
+        max: 46
+      - name: Mic B Cab 47
+        description: ''
+        min: 47
+        max: 47
+      - name: Mic B Cab 48
+        description: ''
+        min: 48
+        max: 48
+      - name: Mic B Cab 49
+        description: ''
+        min: 49
+        max: 49
+      - name: Mic B Cab 50
+        description: ''
+        min: 50
+        max: 50
+  - name: Mic A User File 0 / Mic A User File 1 / Mic A User File 2 / Mic A User File 3 / Mic A User File 4 / Mic A User File 5 / Mic A User File 6 / Mic A User File 7 / Mic A User File 8 / Mic A User File 9 / Mic A User File 10
+    value: 9
+    description: ''
+    group:
+      - name: Mic A User File 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic A User File 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic A User File 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic A User File 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic A User File 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic A User File 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic A User File 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic A User File 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Mic A User File 8
+        description: ''
+        min: 8
+        max: 8
+      - name: Mic A User File 9
+        description: ''
+        min: 9
+        max: 9
+      - name: Mic A User File 10
+        description: ''
+        min: 10
+        max: 10
+  - name: Mic B User File 0 / Mic B User File 1 / Mic B User File 2 / Mic B User File 3 / Mic B User File 4 / Mic B User File 5 / Mic B User File 6 / Mic B User File 7 / Mic B User File 8 / Mic B User File 9 / Mic B User File 10
+    value: 72
+    description: ''
+    group:
+      - name: Mic B User File 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Mic B User File 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Mic B User File 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Mic B User File 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Mic B User File 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Mic B User File 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Mic B User File 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Mic B User File 7
+        description: ''
+        min: 7
+        max: 7
+      - name: Mic B User File 8
+        description: ''
+        min: 8
+        max: 8
+      - name: Mic B User File 9
+        description: ''
+        min: 9
+        max: 9
+      - name: Mic B User File 10
+        description: ''
+        min: 10
+        max: 10
+  - name: 'Mic A: Dynamic 57 / Mic A: Dynamic 421 / Mic A: Knightfall / Mic A: Condenser 87 / Mic A: Ribbon 160 / Mic A: Ribbon 121 / Mic A: Bass 20 / Mic A: Bass 5'
+    value: 10
+    description: ''
+    group:
+      - name: 'Mic A: Dynamic 57'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic A: Dynamic 421'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic A: Knightfall'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mic A: Condenser 87'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Mic A: Ribbon 160'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Mic A: Ribbon 121'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Mic A: Bass 20'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Mic A: Bass 5'
+        description: ''
+        min: 7
+        max: 7
+  - name: 'Mic B: Dynamic 57 / Mic B: Dynamic 421 / Mic B: Knightfall / Mic B: Condenser 87 / Mic B: Ribbon 160 / Mic B: Ribbon 121 / Mic B: Bass 20 / Mic B: Bass 5'
+    value: 73
+    description: ''
+    group:
+      - name: 'Mic B: Dynamic 57'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Mic B: Dynamic 421'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Mic B: Knightfall'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Mic B: Condenser 87'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Mic B: Ribbon 160'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Mic B: Ribbon 121'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Mic B: Bass 20'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Mic B: Bass 5'
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance A
+    value: 11
+  - description: ''
+    max: 127
+    min: 0
+    name: Distance B
+    value: 74
+  - description: ''
+    max: 127
+    min: 0
+    name: Center A
+    value: 12
+  - description: ''
+    max: 127
+    min: 0
+    name: Center B
+    value: 75
+  - name: 'Position Mic A: Back / Position Mic A: Front'
+    value: 13
+    description: ''
+    group:
+      - name: 'Position Mic A: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position Mic A: Front'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Position Mic B: Back / Position Mic B: Front'
+    value: 76
+    description: ''
+    group:
+      - name: 'Position Mic B: Back'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Position Mic B: Front'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 127
+    min: 0
+    name: Variphi A
+    value: 14
+  - description: ''
+    max: 127
+    min: 0
+    name: Variphi B
+    value: 77
+  - description: ''
+    max: 127
+    min: 0
+    name: Overload A
+    value: 15
+  - description: ''
+    max: 127
+    min: 0
+    name: Overload B
+    value: 78
+  - description: ''
+    max: 127
+    min: 0
+    name: Dry/Wet A
+    value: 16
+  - description: ''
+    max: 127
+    min: 0
+    name: Dry/Wet B
+    value: 79
+  - name: PostFX Bypass / PostFX Engage
+    value: 17
+    description: ''
+    group:
+      - name: PostFX Bypass
+        description: ''
+        min: 0
+        max: 0
+      - name: PostFX Engage
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A Low Gain
+    value: 18
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B Low Gain
+    value: 81
+  - description: ''
+    max: 127
+    min: 0
+    name: EQ A Low Freq
+    value: 19
+  - description: ''
+    max: 127
+    min: 0
+    name: EQ B Low Freq
+    value: 82
+  - name: 'EQ A Mode: Off / EQ A Mode: Guitar / EQ A Mode: Bass / EQ A Mode: Link'
+    value: 20
+    description: ''
+    group:
+      - name: 'EQ A Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'EQ A Mode: Guitar'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ A Mode: Bass'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'EQ A Mode: Link'
+        description: ''
+        min: 4
+        max: 4
+  - name: 'EQ B Mode: Off / EQ B Mode: Guitar / EQ B Mode: Bass / EQ B Mode: Link'
+    value: 83
+    description: ''
+    group:
+      - name: 'EQ B Mode: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'EQ B Mode: Guitar '
+        description: ''
+        min: 1
+        max: 1
+      - name: 'EQ B Mode: Bass'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'EQ B Mode: Link'
+        description: ''
+        min: 3
+        max: 3
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A Band 1 Gain
+    value: 21
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A Band 2 Gain
+    value: 22
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A Band 3 Gain
+    value: 23
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A Band 4 Gain
+    value: 24
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ A High Gain
+    value: 25
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B Band 1 Gain
+    value: 84
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B Band 2 Gain
+    value: 85
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B Band 3 Gain
+    value: 86
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B Band 4 Gain
+    value: 87
+  - description: ''
+    max: 40
+    min: 0
+    name: EQ B High Gain
+    value: 88
+  - name: 'Exciter A: On / Exciter A: Off'
+    value: 26
+    description: ''
+    group:
+      - name: 'Exciter A: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Exciter A: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Exciter B: On / Exciter B: Off / Exciter B: Link'
+    value: 89
+    description: ''
+    group:
+      - name: 'Exciter B: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Exciter B: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Exciter B: Link'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 127
+    min: 0
+    name: Exciter A High
+    value: 27
+  - description: ''
+    max: 127
+    min: 0
+    name: Exciter A Low
+    value: 28
+  - description: ''
+    max: 127
+    min: 0
+    name: Exciter B High
+    value: 90
+  - description: ''
+    max: 127
+    min: 0
+    name: Exciter B Low
+    value: 91
+  - name: 'Compressor A: On / Compressor A: Off'
+    value: 29
+    description: ''
+    group:
+      - name: 'Compressor A: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Compressor A: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Compressor B: On / Compressor B: Off / Compressor B: Link'
+    value: 92
+    description: ''
+    group:
+      - name: 'Compressor B: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Compressor B: Off'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Compressor B: Link'
+        description: ''
+        min: 2
+        max: 2
+  - description: ''
+    max: 63
+    min: 0
+    name: Compressor A Threshold
+    value: 30
+  - description: ''
+    max: 63
+    min: 0
+    name: Compressor B Threshold
+    value: 93
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor A Ratio
+    value: 31
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor B Ratio
+    value: 94
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor A Attack
+    value: 32
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor B Attack
+    value: 95
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor A Release
+    value: 33
+  - description: ''
+    max: 127
+    min: 0
+    name: Compressor B Release
+    value: 96
+  - name: Compressor A Make Up Gain / Arcade Makeup Gain A
+    value: 34
+    description: ''
+    group:
+      - name: Compressor A Make Up Gain
+        description: ''
+        min: 0
+        max: 63
+      - name: Arcade Makeup Gain A
+        description: ''
+        min: 0
+        max: 36
+  - name: Compressor B Make Up Gain / Arcade Makeup Gain B
+    value: 97
+    description: ''
+    group:
+      - name: Compressor B Make Up Gain
+        description: ''
+        min: 0
+        max: 63
+      - name: Arcade Makeup Gain B
+        description: ''
+        min: 0
+        max: 36
+  - description: ''
+    max: 20
+    min: 0
+    name: Input Boost A
+    value: 35
+  - description: ''
+    max: 20
+    min: 0
+    name: Input Boost B
+    value: 98
+  - description: ''
+    max: 107
+    min: 0
+    name: Output Volume A
+    value: 36
+  - description: ''
+    max: 107
+    min: 0
+    name: Output Volume B
+    value: 99
+  - description: ''
+    max: 127
+    min: 0
+    name: Output Pan A
+    value: 37
+  - description: ''
+    max: 127
+    min: 0
+    name: Output Pan B
+    value: 100
+  - name: Mute A / Unmute A
+    value: 38
+    description: ''
+    group:
+      - name: Mute A
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute A
+        description: ''
+        min: 0
+        max: 0
+  - name: Mute B / Unmute B
+    value: 101
+    description: ''
+    group:
+      - name: Mute B
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute B
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 20
+    min: 0
+    name: Input Boost A - Link
+    value: 39
+  - description: ''
+    max: 20
+    min: 0
+    name: Input Boost B - Link
+    value: 102
+  - description: ''
+    max: 107
+    min: 0
+    name: Output Volume A - Link
+    value: 40
+  - description: ''
+    max: 107
+    min: 0
+    name: Output Volume B - Link
+    value: 103
+  - description: ''
+    max: 127
+    min: 0
+    name: Output Pan A - Link
+    value: 41
+  - description: ''
+    max: 127
+    min: 0
+    name: Output Pan B - Link
+    value: 104
+  - name: Mute A - Link / Unmute A - Link
+    value: 42
+    description: ''
+    group:
+      - name: Mute A - Link
+        description: ''
+        min: 1
+        max: 1
+      - name: Unmute A - Link
+        description: ''
+        min: 0
+        max: 0
+  - name: Unmute B - Link / Mute B - Link
+    value: 105
+    description: ''
+    group:
+      - name: Unmute B - Link
+        description: ''
+        min: 0
+        max: 0
+      - name: Mute B - Link
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Reverb A: On / Reverb A: Off'
+    value: 43
+    description: ''
+    group:
+      - name: 'Reverb A: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverb A: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Reverb B: On / Reverb B: Off'
+    value: 106
+    description: ''
+    group:
+      - name: 'Reverb B: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverb B: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Reverb A: Room 0 / Reverb A: Room 1 / Reverb A: Room 2 / Reverb A: Room 3 / Reverb A: Room 4 / Reverb A: Room 5 / Reverb A: Room 6 / Reverb A: Room 7 / Reverb A: Room 8 / Arcade Room A 0 / Arcade Room A 1 / Arcade Room A 2 / Arcade Room A 3 / Arcade Room A 4 / Arcade Room A 5 / Arcade Room A 6 / Arcade Room A 7'
+    value: 44
+    description: ''
+    group:
+      - name: 'Reverb A: Room 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Reverb A: Room 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverb A: Room 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Reverb A: Room 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Reverb A: Room 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Reverb A: Room 5'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Reverb A: Room 6'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Reverb A: Room 7'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Reverb A: Room 8'
+        description: ''
+        min: 8
+        max: 8
+      - name: Arcade Room A 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Arcade Room A 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Arcade Room A 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Arcade Room A 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Arcade Room A 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Arcade Room A 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Arcade Room A 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Arcade Room A 7
+        description: ''
+        min: 7
+        max: 7
+  - name: 'Reverb B: Room 0 / Reverb B: Room 1 / Reverb B: Room 2 / Reverb B: Room 3 / Reverb B: Room 4 / Reverb B: Room 5 / Reverb B: Room 6 / Reverb B: Room 7 / Reverb B: Room 8 / Arcade Room B 0 / Arcade Room B 1 / Arcade Room B 2 / Arcade Room B 3 / Arcade Room B 4 / Arcade Room B 5 / Arcade Room B 6 / Arcade Room B 7'
+    value: 107
+    description: ''
+    group:
+      - name: 'Reverb B: Room 0'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Reverb B: Room 1'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Reverb B: Room 2'
+        description: ''
+        min: 2
+        max: 2
+      - name: 'Reverb B: Room 3'
+        description: ''
+        min: 3
+        max: 3
+      - name: 'Reverb B: Room 4'
+        description: ''
+        min: 4
+        max: 4
+      - name: 'Reverb B: Room 5'
+        description: ''
+        min: 5
+        max: 5
+      - name: 'Reverb B: Room 6'
+        description: ''
+        min: 6
+        max: 6
+      - name: 'Reverb B: Room 7'
+        description: ''
+        min: 7
+        max: 7
+      - name: 'Reverb B: Room 8'
+        description: ''
+        min: 8
+        max: 8
+      - name: Arcade Room B 0
+        description: ''
+        min: 0
+        max: 0
+      - name: Arcade Room B 1
+        description: ''
+        min: 1
+        max: 1
+      - name: Arcade Room B 2
+        description: ''
+        min: 2
+        max: 2
+      - name: Arcade Room B 3
+        description: ''
+        min: 3
+        max: 3
+      - name: Arcade Room B 4
+        description: ''
+        min: 4
+        max: 4
+      - name: Arcade Room B 5
+        description: ''
+        min: 5
+        max: 5
+      - name: Arcade Room B 6
+        description: ''
+        min: 6
+        max: 6
+      - name: Arcade Room B 7
+        description: ''
+        min: 7
+        max: 7
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb A Dry/Wet
+    value: 45
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb B Dry/Wet
+    value: 108
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb A Size
+    value: 46
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb B Size
+    value: 109
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb A Echo
+    value: 47
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb B Echo
+    value: 110
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb A Color
+    value: 48
+  - description: ''
+    max: 127
+    min: 0
+    name: Reverb B Color
+    value: 111
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric A: Band 1 Freq'
+    value: 49
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric A: Band 2 Freq'
+    value: 50
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric A: Band 3 Freq'
+    value: 51
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric A: Band 4 Freq'
+    value: 52
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric A: High Freq'
+    value: 53
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric B: Band 1 Freq'
+    value: 112
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric B: Band 2 Freq'
+    value: 113
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric B: Band 3 Freq'
+    value: 114
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric B: Band 4 Freq'
+    value: 115
+  - description: ''
+    max: 127
+    min: 0
+    name: 'EQ Parametric B: High Freq'
+    value: 116
+  - name: 'Aracde Instrument A: Guitar / Arcade Instrument A: Bass'
+    value: 54
+    description: ''
+    group:
+      - name: 'Aracde Instrument A: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Arcade Instrument A: Bass'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Aracde Instrument B: Guitar / Arcade Instrument B: Bass'
+    value: 117
+    description: ''
+    group:
+      - name: 'Aracde Instrument B: Guitar'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Arcade Instrument B: Bass'
+        description: ''
+        min: 1
+        max: 1
+  - description: ''
+    max: 30
+    min: 0
+    name: Arcade Power Amp A
+    value: 55
+  - description: ''
+    max: 30
+    min: 0
+    name: Arcade Power Amp B
+    value: 118
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Distance A
+    value: 56
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Distance B
+    value: 119
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Tone A
+    value: 57
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Tone B
+    value: 120
+  - description: ''
+    max: 40
+    min: 0
+    name: Arcade Contour A
+    value: 58
+  - description: ''
+    max: 40
+    min: 0
+    name: Arcade Contour B
+    value: 121
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Harmonics A
+    value: 59
+  - description: ''
+    max: 44
+    min: 0
+    name: Arcade Harmonics B
+    value: 122
+  - name: 'Arcade Destroy A: On / Arcade Destroy A: Off'
+    value: 60
+    description: ''
+    group:
+      - name: 'Arcade Destroy A: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Arcade Destroy A: Off'
+        description: ''
+        min: 0
+        max: 0
+  - name: 'Arcade Destroy B: On / Arcade Destroy B: Off'
+    value: 123
+    description: ''
+    group:
+      - name: 'Arcade Destroy B: On'
+        description: ''
+        min: 1
+        max: 1
+      - name: 'Arcade Destroy B: Off'
+        description: ''
+        min: 0
+        max: 0
+  - description: ''
+    max: 35
+    min: 0
+    name: Arcade Compression A
+    value: 61
+  - description: ''
+    max: 35
+    min: 0
+    name: Arcade Compression B
+    value: 124
+  - description: ''
+    max: 107
+    min: 0
+    name: Arcade Preset Level A
+    value: 62
+  - description: ''
+    max: 107
+    min: 0
+    name: Arcade Preset Level B
+    value: 125
+  - name: 'Arcade Mode A: Simulation / Arcade Mode A: Arcade'
+    value: 63
+    description: ''
+    group:
+      - name: 'Arcade Mode A: Simulation'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Arcade Mode A: Arcade'
+        description: ''
+        min: 1
+        max: 1
+  - name: 'Arcade Mode B: Arcade / Arcade Mode B: Arcade Link'
+    value: 126
+    description: ''
+    group:
+      - name: 'Arcade Mode B: Arcade'
+        description: ''
+        min: 0
+        max: 0
+      - name: 'Arcade Mode B: Arcade Link'
+        description: ''
+        min: 1
+        max: 1
 - description: ''
   max: 0
   min: 0
