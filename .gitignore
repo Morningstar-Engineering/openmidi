@@ -4,3 +4,4 @@ data/.DS_Store
 *.xml
 *.iml
 *.pyc
+/__pycache__
