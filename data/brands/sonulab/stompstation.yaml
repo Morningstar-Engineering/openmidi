@@ -19,48 +19,58 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Amp Engine ON/OFF
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: IR Loader ON/OFF
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb ON/OFF
     value: '4'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Modulations ON/OFF
     value: '5'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: ' Tremolo ON/OFF'
     value: '6'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Compressor ON/OFF
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Compressor ON/OFF
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay ON/OFF
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tuner ON/OFF
     value: '10'
     description: ''
     min: 0
     max: 127
+    type: variable
