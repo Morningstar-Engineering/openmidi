@@ -2339,6 +2339,10 @@
           "value": "sh-01a"
         },
         {
+          "name": "SP-404 MK2",
+          "value": "sp-404mk2"
+        },
+        {
           "name": "System 1",
           "value": "system-1"
         },
