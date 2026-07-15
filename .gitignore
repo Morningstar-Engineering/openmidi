@@ -3,4 +3,5 @@ data/.DS_Store
 #compile_yaml.py
 *.xml
 *.iml
+*.pyc
 /__pycache__

@@ -2075,12 +2075,12 @@
       "value": "opfxs",
       "models": [
         {
-          "name": "V Uno",
-          "value": "v-uno"
-        },
-        {
           "name": "Dig Deep MK3",
           "value": "digdeepmk3"
+        },
+        {
+          "name": "V Uno",
+          "value": "v-uno"
         }
       ]
     },
@@ -2451,6 +2451,16 @@
         {
           "name": "BeatBuddy",
           "value": "beatbuddy"
+        }
+      ]
+    },
+    {
+      "name": "SONULAB",
+      "value": "sonulab",
+      "models": [
+        {
+          "name": "STOMPSTATION",
+          "value": "stompstation"
         }
       ]
     },
