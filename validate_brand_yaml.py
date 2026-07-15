@@ -13,6 +13,7 @@ BRANDS_DIR = Path("data/brands")
 MAPPING_PATH = Path("data/mapping.json")
 
 REQUIRED_TOP_LEVEL = ("cc", "pc", "midi_channel")
+ALLOWED_CC_TYPES = frozenset({"variable", "fixed", "group"})
 ALLOWED_OPTIONAL_KEYS = {
     "brand",
     "device_name",
@@ -128,8 +129,18 @@ def validate_cc_item(path: str, index: int, item: object, issues: IssueCollector
     if "description" in item and not is_string_or_null(item["description"]):
         issues.error(item_path, "'description' must be a string when present")
 
-    if "type" in item and not is_string_or_null(item["type"]):
-        issues.error(item_path, "'type' must be a string when present")
+    if "type" not in item:
+        issues.error(item_path, "missing required field 'type'")
+    else:
+        cc_type = item["type"]
+        if not isinstance(cc_type, str):
+            issues.error(item_path, "'type' must be a string")
+        elif cc_type not in ALLOWED_CC_TYPES:
+            allowed = " | ".join(sorted(ALLOWED_CC_TYPES))
+            issues.error(
+                item_path,
+                f"'type' must be one of {allowed}, got {cc_type!r}",
+            )
 
 
 def validate_port_list(path: str, key: str, value: object, issues: IssueCollector) -> None:
