@@ -25,58 +25,70 @@ cc:
     description: 'Sets the off state of Channel 1'
     min: 0
     max: 0
+    type: variable
   - name: 'Channel 1 On'
     value: 0
     description: 'Sets the on state of Channel 1'
     min: 1
     max: 127
+    type: variable
   - name: 'Channel 2 Off'
     value: 1
     description: 'Sets the off state of Channel 2'
     min: 0
     max: 0
+    type: variable
   - name: 'Channel 2 On'
     value: 1
     description: 'Sets the on state of Channel 2'
     min: 1
     max: 127
+    type: variable
   - name: 'Ch1 off, Ch2 off'
     value: 2
     description: 'Sets Ch1 off and Ch2 off'
     min: 0
     max: 127
+    type: variable
   - name: 'Ch1 on, Ch2 off'
     value: 3
     description: 'Sets Ch1 on and Ch2 off'
     min: 0
     max: 127
+    type: variable
   - name: 'Ch1 off, Ch2 on'
     value: 4
     description: 'Sets Ch1 off and Ch2 on'
     min: 0
     max: 127
+    type: variable
   - name: 'Ch1 on, Ch2 on'
     value: 5
     description: 'Sets Ch1 on and Ch2 on'
     min: 0
     max: 127
+    type: variable
   - name: 'Preset Increment'
     value: 16
     description: 'Increments the preset number by <value>'
     min: 0
     max: 127
+    type: variable
   - name: 'Preset Decrement'
     value: 17
     description: 'Decrements the preset number by <value>'
     min: 0
     max: 127
+    type: variable
   - name: 'MIDI Channel Assign'
     value: 32
     description: '0-15 = channel 1-16'
     min: 0
     max: 15
+    type: variable
   - name: 'MIDI Omni Mode Assign'
     value: 32
     description: '16 = omni mode'
     min: 16
     max: 16
+    type: variable

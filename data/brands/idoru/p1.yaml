@@ -15,21 +15,25 @@ cc:
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Next song
     value: '22'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Play / Pause
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Stop
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Direct select & play song
     value: '20'
     description: |-
@@ -37,16 +41,19 @@ cc:
       Value of 1-40 equals song position in playlist, 0 is ignored
     min: 0
     max: 127
+    type: variable
   - name: Direct select song
     value: '19'
     description: 'Value of 1-40 equals song position in playlist, 0 is ignored. '
     min: 0
     max: 127
+    type: variable
   - name: Direct select setlist
     value: '18'
     description: "(value of 1-7 equals setlist, 0 is ignored)"
     min: 0
     max: 127
+    type: variable
   - name: Direct select setlist & play song
     value: 0
     description: |-
@@ -54,3 +61,4 @@ cc:
       PC: value of 1-40 equals song position in playlist, 0 is ignored.
     min: 0
     max: 127
+    type: variable

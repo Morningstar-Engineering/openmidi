@@ -18,11 +18,13 @@ cc:
     description: Expression
     min: 0
     max: 127
+    type: variable
   - name: Dry
     value: '14'
     description: Dry signal level
     min: 0
     max: 127
+    type: variable
   - name: Dynamics
     value: '15'
     description: >-
@@ -42,6 +44,7 @@ cc:
       trail
     min: 0
     max: 127
+    type: variable
   - name: '   Decay'
     value: '16'
     description: >-
@@ -49,16 +52,19 @@ cc:
       itself
     min: 0
     max: 127
+    type: variable
   - name: Feedback
     value: '17'
     description: Feedback sets the feedback of the post-reverb delay.
     min: 0
     max: 127
+    type: variable
   - name: Rate
     value: '18'
     description: 'Rate sets the rate of the LFO, from slow to fast.'
     min: 0
     max: 127
+    type: variable
   - name: Depth
     value: '19'
     description: >-
@@ -66,6 +72,7 @@ cc:
       occur
     min: 0
     max: 127
+    type: variable
   - name: Shape
     value: '20'
     description: |-
@@ -77,6 +84,7 @@ cc:
       Random: 119 - 127
     min: 0
     max: 127
+    type: variable
   - name: Time
     value: '21'
     description: >-
@@ -86,16 +94,19 @@ cc:
       218ms.
     min: 0
     max: 127
+    type: variable
   - name: Freq
     value: '22'
     description: "Freq sets the cuto\x1E frequency of the post-delay \x1Flter, from 0Hz to 5kHz. The further this knob is\nturned up, the more the \x1Flter is allowed to modulate when the LFO is on, going up to 10kHz at full\nmodulation."
     min: 0
     max: 127
+    type: variable
   - name: Wet
     value: '23'
     description: Wet sets the volume of the wet signal.
     min: 0
     max: 127
+    type: variable
   - name: Subdivisions
     value: '24'
     description: |-
@@ -108,6 +119,7 @@ cc:
       X4: 109 - 127
     min: 0
     max: 127
+    type: variable
   - name: Filter Type
     value: '25'
     description: |-
@@ -117,6 +129,7 @@ cc:
       Band Reject: 96 - 127
     min: 0
     max: 127
+    type: variable
   - name: On/Off switch
     value: '26'
     description: |-
@@ -124,6 +137,7 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo Switch
     value: '27'
     description: |-
@@ -131,6 +145,7 @@ cc:
       (no response for 1 - 127)
     min: 0
     max: '0'
+    type: variable
   - name: Hold Switch
     value: '28'
     description: |
@@ -138,6 +153,7 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: LFO Time Switch
     value: '29'
     description: |-
@@ -145,6 +161,7 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: LFO Freq Switch
     value: '30'
     description: |-
@@ -152,6 +169,7 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: LFO Wet Switch
     value: '31'
     description: |-
@@ -159,6 +177,7 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: Trails Setting
     value: '85'
     description: |-
@@ -166,11 +185,13 @@ cc:
       On: 64 - 127
     min: 0
     max: 127
+    type: variable
   - name: "Routing (Mono, Mono to Stereo, Stereo)\t"
     value: '86'
     description: 'Mono: 0 - 42 Mono in Stereo Out: 43 - 85 Stereo: 86 - 127'
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Input Mode
     value: '87'
     description: |-
@@ -180,6 +201,7 @@ cc:
       Deactivate Clock: 96 - 127
     min: 0
     max: 127
+    type: variable
   - name: Aux Switch Function setting
     value: '89'
     description: |-
@@ -188,6 +210,7 @@ cc:
       Confirm Save: 86 - 127
     min: 0
     max: 127
+    type: variable
   - name: Preset Saving Switch Function setting
     value: '90'
     description: |-
@@ -196,6 +219,7 @@ cc:
       Confirm Save: 86 - 127
     min: 0
     max: 127
+    type: variable
   - name: Set Midi Channel
     value: '102'
     description: >-
@@ -204,3 +228,4 @@ cc:
       channel 7 - for example!)
     min: '1'
     max: '16'
+    type: variable

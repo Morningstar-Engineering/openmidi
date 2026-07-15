@@ -18,263 +18,316 @@ cc:
     description: Channel 2 Gain
     min: 0
     max: 127
+    type: variable
   - name: Volume 2
     value: '15'
     description: Channel 2 Volume
     min: 0
     max: 127
+    type: variable
   - name: Gain 1
     value: '16'
     description: Channel 1 Gain
     min: 0
     max: 127
+    type: variable
   - name: Tone 2
     value: '17'
     description: Channel 2 Tone
     min: 0
     max: 127
+    type: variable
   - name: Volume 1
     value: '18'
     description: Channel 1 Volume
     min: 0
     max: 127
+    type: variable
   - name: Tone 1
     value: '19'
     description: Channel 1 Tone
     min: 0
     max: 127
+    type: variable
   - name: Presence 2
     value: '27'
     description: Channel 2 Presence
     min: 0
     max: 127
+    type: variable
   - name: Presence 1
     value: '29'
     description: Channel 1 Presence
     min: 0
     max: 127
+    type: variable
   - name: 'Gain 2 Type: Boost'
     value: '21'
     description: Channel 2 Gain Type (Boost)
     min: 0
     max: '1'
+    type: variable
   - name: 'Gain 2 Type: OD'
     value: '21'
     description: Channel 2 Gain Type (Overdrive)
     min: '2'
     max: '2'
+    type: variable
   - name: 'Gain 2 Type: DIST'
     value: '21'
     description: Channel 2 Gain Type (Distortion)
     min: '3'
     max: 127
+    type: variable
   - name: 'Gain 1 Type: Boost'
     value: '23'
     description: Channel 1 Gain Type (Boost)
     min: 0
     max: '1'
+    type: variable
   - name: 'Gain 1 Type: OD'
     value: '23'
     description: Channel 1 Gain Type (Overdrive)
     min: '2'
     max: '2'
+    type: variable
   - name: 'Gain 1 Type: DIST'
     value: '23'
     description: Channel 1 Gain Type (Distortion)
     min: '3'
     max: 127
+    type: variable
   - name: 'Treble Boost: Full Sun'
     value: '22'
     description: Treble Boost (Full Sun)
     min: 0
     max: '1'
+    type: variable
   - name: 'Treble Boost: Off'
     value: '22'
     description: Treble Boost (Off)
     min: '2'
     max: '2'
+    type: variable
   - name: 'Treble Boost: Half Sun'
     value: '22'
     description: Treble Boost (Half Sun)
     min: '3'
     max: '127'
+    type: variable
   - name: 'Channel 1 Bypass: On'
     value: '102'
     description: Bypass Channel 1 (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Channel 1 Bypass: Off'
     value: '102'
     description: Bypass Channel 1 (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Channel 2 Bypass: On'
     value: '103'
     description: Bypass Channel 2 (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Channel 2 Bypass: Off'
     value: '103'
     description: Bypass Channel 2 (Off)
     min: 0
     max: '0'
+    type: variable
   - name: EOM
     value: '100'
     description: Expression Over Midi
     min: 0
     max: 127
+    type: variable
   - name: Preset Save
     value: '111'
     description: Save a preset
     min: '1'
     max: '122'
+    type: variable
   - name: 'Left Bank: Volume 1 (Off)'
     value: '61'
     description: Left Bank Dip Switch Channel 1 Volume (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Volume 2 (Off)'
     value: '62'
     description: Left Bank Dip Switch Channel 2 Volume (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Gain 1 (Off)'
     value: '63'
     description: Left Bank Dip Switch Channel 1 Gain (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Gain 2 (Off)'
     value: '64'
     description: Left Bank Dip Switch Channel 2 Gain (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Tone 1 (Off)'
     value: '65'
     description: Left Bank Dip Switch Channel 1 Tone (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Tone 2 (Off)'
     value: '66'
     description: Left Bank Dip Switch Channel 2 Tone (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Sweep (B)'
     value: '67'
     description: Left Bank Dip Switch Sweep (Bottom)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Polarity (F)'
     value: '68'
     description: Left Bank Dip Switch Polarity (Fall)
     min: 0
     max: '0'
+    type: variable
   - name: 'Left Bank: Volume 1 (On)'
     value: '61'
     description: Left Bank Dip Switch Channel 1 Volume (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Volume 2 (On)'
     value: '62'
     description: Left Bank Dip Switch Channel 2 Volume (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Gain 1 (On)'
     value: '63'
     description: Left Bank Dip Switch Channel 1 Gain (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Gain 2 (On)'
     value: '64'
     description: Left Bank Dip Switch Channel 2 Gain (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Tone 1 (On)'
     value: '65'
     description: Left Bank Dip Switch Channel 1 Tone (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Tone 2 (On)'
     value: '66'
     description: Left Bank Dip Switch Channel 2 Tone (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Sweep (T)'
     value: '67'
     description: Left Bank Dip Switch Sweep (Top)
     min: '1'
     max: 127
+    type: variable
   - name: 'Left Bank: Polarity (R)'
     value: '68'
     description: Left Bank Dip Switch Polarity (Rise)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: Hi Gain 1 (Off)'
     value: '71'
     description: Right Bank Dip Switch Channel 1 Hi Gain (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: Hi Gain 2 (Off)'
     value: '72'
     description: Right Bank Dip Switch Channel 2 Hi Gain (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: MoToByp 1 (Off)'
     value: '73'
     description: Right Bank Dip Switch Channel 1 Momentary to Bypass (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: MoToByp 2 (Off)'
     value: '74'
     description: Right Bank Dip Switch Channel 2 Momentary to Bypass (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: Pres Link 1 (Off)'
     value: '75'
     description: Right Bank Dip Switch Channel 1 Link Presence to Tone (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: Pres Link 2 (Off)'
     value: '76'
     description: Right Bank Dip Switch Channel 2 Link Presence to Tone (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: Master (Off)'
     value: '77'
     description: Right Bank Dip Switch Channel 2 Volume to Master (Off)
     min: 0
     max: '0'
+    type: variable
   - name: 'Right Bank: Hi Gain 1 (On)'
     value: '71'
     description: Right Bank Dip Switch Channel 1 Hi Gain (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: Hi Gain 2 (On)'
     value: '72'
     description: Right Bank Dip Switch Channel 2 Hi Gain (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: MoToByp 1 (On)'
     value: '73'
     description: Right Bank Dip Switch Channel 1 Momentary to Bypass (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: MoToByp 2 (On)'
     value: '74'
     description: Right Bank Dip Switch Channel 2 Momentary to Bypass (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: Pres Link 1 (On)'
     value: '75'
     description: Right Bank Dip Switch Channel 1 Link Presence to Tone (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: Pres Link 2 (On)'
     value: '76'
     description: Right Bank Dip Switch Channel 2 Link Presence to Tone (On)
     min: '1'
     max: 127
+    type: variable
   - name: 'Right Bank: Master (On)'
     value: '77'
     description: Right Bank Dip Switch Channel 2 Volume to Master (On)
     min: '1'
     max: 127
+    type: variable

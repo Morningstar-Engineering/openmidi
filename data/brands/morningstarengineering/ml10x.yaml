@@ -25,208 +25,250 @@ cc:
     description: ''
     min: 0
     max: 3
+    type: variable
   - name: 'Simple Mode: Engage all loops in current preset'
     value: 4
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Scroll Up
     value: 5
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Scroll Down
     value: 6
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mute
     value: 7
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Unmute
     value: 8
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop A Tip'
     value: 10
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop A Ring'
     value: 11
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop B Tip'
     value: 12
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop B Ring'
     value: 13
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop C Tip'
     value: 14
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop C Ring'
     value: 15
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop D Tip'
     value: 16
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop D Ring'
     value: 17
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop E Tip'
     value: 18
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Engage/Disengage Loop E Ring'
     value: 19
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop A Tip'
     value: 20
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop A Ring'
     value: 21
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop B Tip'
     value: 22
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop B Ring'
     value: 23
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop C Tip'
     value: 24
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop C Ring'
     value: 25
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop D Tip'
     value: 26
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop D Ring'
     value: 27
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop E Tip'
     value: 28
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Simple Mode: Toggle Loop E Ring'
     value: 29
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop A Tip'
     value: 30
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop A Ring'
     value: 31
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop B Tip'
     value: 32
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop B Ring'
     value: 33
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop C Tip'
     value: 34
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop C Ring'
     value: 35
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop D Tip'
     value: 36
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop D Ring'
     value: 37
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop E Tip'
     value: 38
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: 'Output Cut: Loop E Ring'
     value: 39
     description: 'Value 0: Restore, Value 64: Toggle, Value 127: Cut'
     min: 0
     max: 127
+    type: variable
   - name: Input Tip Bypass/Engage
     value: 40
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input Ring Bypass/Engage
     value: 41
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output Tip Bypass/Engage
     value: 42
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output Ring Bypass/Engage
     value: 43
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Set Loop Bypass Persists
     value: 50
     description: Loop Bypass Persists setting on/off
     min: 0
     max: 127
+    type: variable
   - name: Reload Loop Bypass States
     value: 51
     description: Reloads the loop bypass states for the current preset
     min: 0
     max: 127
+    type: variable

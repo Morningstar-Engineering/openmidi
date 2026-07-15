@@ -5,96 +5,115 @@ cc:
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CC2
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Offset
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Waveshape
   value: 6
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO Level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG Attack
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG Decay
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG Sustain
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG Release
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Time
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG Level
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA EG Attack
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA EG Decay
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA EG Sustain
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA EG Release
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA EG Time
   value: 34
+  type: variable
 device_name: Typhon
 midi_channel:
   instructions: ''

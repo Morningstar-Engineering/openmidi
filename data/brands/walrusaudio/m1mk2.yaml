@@ -18,128 +18,154 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Depth
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lo-Fi Mix
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Shape
     value: '15'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Div
     value: '16'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Type
     value: '17'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Tone
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sym
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: X
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lofi Env
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lofi Drive
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lofi Space
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lofi Age
     value: '25'
     description: ''
     min: 0
     max: '4'
+    type: variable
   - name: Lofi Noise
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lofi Warble
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Program
     value: '18'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Tap
     value: '85'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap Held
     value: '87'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rotary Speed
     value: '86'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output Gain
     value: '88'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Ignore
     value: '89'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wet Dry Mix
     value: '104'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Flange Feedback
     value: '105'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rotary Slow Rate
     value: '106'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rotary Fast Rate
     value: '107'
     description: ''
     min: 0
     max: 127
+    type: variable

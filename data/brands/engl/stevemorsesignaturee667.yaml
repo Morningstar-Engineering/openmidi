@@ -5,6 +5,7 @@ cc:
   min: 127
   name: 'Hi Mid: On'
   value: 27
+  type: variable
 device_name: Steve Morse Signature E667
 midi_channel:
   instructions: ''

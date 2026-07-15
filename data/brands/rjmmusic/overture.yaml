@@ -46,7 +46,7 @@ cc:
   - name: Expression Pedal
     value: 4
     description: 'See Expression Pedal section of manual'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Volume
@@ -54,83 +54,100 @@ cc:
     description: 'Value 0=0% volume ... 127=100% volume'
     min: 0
     max: 127
+    type: variable
   - name: Expression Volume
     value: 11
     description: 'Value 0=0% volume ... 127=current volume knob setting'
     min: 0
     max: 127
+    type: variable
   - name: Drive
     value: 12
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: 13
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble
     value: 17
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Boost Level
     value: 18
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pedal Active
     value: 102
     description: 'Activate the pedal'
     min: 127
     max: 127
+    type: variable
   - name: Pedal Bypassed
     value: 102
     description: 'Bypass the pedal'
     min: 0
     max: 0
+    type: variable
   - name: Boost Off
     value: 103
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Boost On
     value: 103
     description: ''
     min: 127
     max: 127
+    type: variable
   - name: Drive Mode - Clean Boost
     value: 104
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Drive Mode - Classic
     value: 104
     description: ''
     min: 21
     max: 21
+    type: variable
   - name: Drive Mode - Boutique
     value: 104
     description: ''
     min: 42
     max: 42
+    type: variable
   - name: Drive Mode - Versatile
     value: 104
     description: ''
     min: 64
     max: 64
+    type: variable
   - name: Drive Mode - Smooth
     value: 104
     description: ''
     min: 85
     max: 85
+    type: variable
   - name: Drive Mode - Crunch
     value: 104
     description: ''
     min: 106
     max: 106
+    type: variable
   - name: Bank
     value: 105
     description: 'Value 0-63 = first bank (presets 1-4), 64-127 = second bank (presets 5-8)'
     min: 0
     max: 127
+    type: variable

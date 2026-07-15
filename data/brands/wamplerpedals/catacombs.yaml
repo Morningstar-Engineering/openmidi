@@ -19,6 +19,7 @@ cc:
       value=1-127 turns on delay and reverb
     min: 0
     max: 127
+    type: variable
   - name: 'Delay State '
     value: '2'
     description: |-
@@ -26,6 +27,7 @@ cc:
       value=1-127 turns on delay
     min: 0
     max: 127
+    type: variable
   - name: 'Reverb State '
     value: '3'
     description: |-
@@ -33,6 +35,7 @@ cc:
       value=1-127 turns on reverb
     min: 0
     max: 127
+    type: variable
   - name: Delay Program
     value: 0
     description: |-
@@ -47,6 +50,7 @@ cc:
       5 = DIGI
     min: 0
     max: '5'
+    type: variable
   - name: Delay Time (knob)
     value: '5'
     description: |-
@@ -55,6 +59,7 @@ cc:
       Value=127 is 2000ms
     min: 0
     max: 127
+    type: variable
   - name: 'Delay Time (high ms) '
     value: '6'
     description: |-
@@ -67,6 +72,7 @@ cc:
       below)
     min: 0
     max: '15'
+    type: variable
   - name: 'Delay Time (low ms) '
     value: '7'
     description: |-
@@ -87,21 +93,25 @@ cc:
       delay time to match the received messages.
     min: 0
     max: 127
+    type: variable
   - name: 'Delay Feedback (knob) '
     value: '8'
     description: Emulates the Delay Feedback knob
     min: 0
     max: 127
+    type: variable
   - name: 'Delay Tone (knob) '
     value: '9'
     description: Emulates the Delay Tone knob
     min: 0
     max: 127
+    type: variable
   - name: 'Delay Level (knob) '
     value: '10'
     description: Emulates the Delay Level knob
     min: 0
     max: 127
+    type: variable
   - name: 'Reverb Program '
     value: '11'
     description: |-
@@ -114,36 +124,43 @@ cc:
       10 = Hall
     min: '6'
     max: '10'
+    type: variable
   - name: Reverb Shimmer (knob)
     value: '12'
     description: Emulates the Reverb Shimmer knob
     min: 0
     max: 127
+    type: variable
   - name: 'Reverb Decay (knob) '
     value: '13'
     description: Emulates the Reverb Decay knob
     min: 0
     max: 127
+    type: variable
   - name: 'Reverb Tone (knob) '
     value: '14'
     description: Emulates the Reverb Tone knob
     min: 0
     max: 127
+    type: variable
   - name: 'Reverb Level (knob) '
     value: '15'
     description: Emulates the Reverb Level knob
     min: 0
     max: 127
+    type: variable
   - name: 'Mod Depth (knob) '
     value: '16'
     description: Emulates the Mod Depth knob
     min: 0
     max: 127
+    type: variable
   - name: 'Mod Rate (knob) '
     value: '17'
     description: Emulates the Mod Rate knob
     min: 0
     max: 127
+    type: variable
   - name: Subdivision
     value: '18'
     description: |-
@@ -168,6 +185,7 @@ cc:
       14 = Triplet Whole
     min: 0
     max: '14'
+    type: variable
   - name: Tap Tempo
     value: '81'
     description: |-
@@ -175,6 +193,7 @@ cc:
       switch when val=0
     min: 0
     max: '0'
+    type: variable
   - name: 'Preset Decrement '
     value: '82'
     description: |-
@@ -183,6 +202,7 @@ cc:
       Special case: value=0 will reload the current preset
     min: 0
     max: 127
+    type: variable
   - name: 'Preset Increment '
     value: '83'
     description: |-
@@ -191,6 +211,7 @@ cc:
       Special case: value=0 will reload the current preset
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch Mode '
     value: '84'
     description: |-
@@ -202,6 +223,7 @@ cc:
       Left Switch will only bypass/engage the delay
     min: 0
     max: 127
+    type: variable
   - name: 'Routing Mode '
     value: '86'
     description: |-
@@ -211,6 +233,7 @@ cc:
       2=series R->D
     min: 0
     max: '2'
+    type: variable
   - name: 'MIDI Clock Enable '
     value: '99'
     description: |-
@@ -219,8 +242,10 @@ cc:
       1-127 = set tempo based on MIDI Clock
     min: 0
     max: 127
+    type: variable
   - name: 'Expression Pedal '
     value: '100'
     description: Emulate Expression pedal input
     min: 0
     max: 127
+    type: variable

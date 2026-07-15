@@ -5,151 +5,181 @@ cc:
   min: 0
   name: Depth Knob
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rate/Ratio Knob
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Output Knob
   value: 23
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Rhythm 1
   value: 22
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Rhythm 2
   value: 22
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: Rhythm 3
   value: 22
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: Rhythm 4
   value: 22
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: Rhythm 5
   value: 22
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: Rhythm 6
   value: 22
+  type: variable
 - description: ''
   max: 7
   min: 7
   name: Rhythm 7
   value: 22
+  type: variable
 - description: ''
   max: 8
   min: 8
   name: Rhythm 8
   value: 22
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Tap Tempo Mode
   value: 24
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Knob Mode
   value: 24
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: Preset Mode
   value: 24
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Waveform: Triangle'
   value: 25
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Waveform: Tube'
   value: 25
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Waveform: Square'
   value: 25
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Rhythm Downbeat: 1'
   value: 26
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Rhythm Downbeat: 1'
   value: 26
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Rhythm Downbeat: 1'
   value: 26
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Rhythm Downbeat: 1'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Waveform Phase
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tap Switch: Press'
   value: 35
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Tap Switch: Release'
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage
   value: 36
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Direct Control
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Exit Direct Control
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Clock: Listen'
   value: 51
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Clock: Ignore'
   value: 51
+  type: variable
 device_name: Tremolo2
 midi_channel:
   instructions: ''

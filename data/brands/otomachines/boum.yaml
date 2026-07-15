@@ -5,66 +5,79 @@ cc:
   min: 0
   name: Compressor
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hi cut
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Active
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: In Gain
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Attack
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Release
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lo Cut
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Disto
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gate
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sidechain Control
   value: 24
+  type: variable
 device_name: BOUM
 midi_channel:
   instructions: ''

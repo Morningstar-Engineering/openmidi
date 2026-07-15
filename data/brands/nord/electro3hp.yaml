@@ -5,336 +5,403 @@ cc:
   min: 0
   name: Upper Drawbar 1
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 2
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 3
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 4
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 5
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 6
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 7
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 8
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Upper Drawbar 9
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 1
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 2
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 3
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 4
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 5
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 6
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 7
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 8
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lower Drawbar 9
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Model Select
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Preset/Manual Select
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Decay
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Level
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary Speed
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary Stop Mode
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vib Mode
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vib On/Off Preset 2/Up
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vib On/Off Preset 1/Low (B3 Model)
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc On/Off
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Hard
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Samp Attack Sel
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Samp Release Sel
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clav EQ Brill On/Off
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clav EQ Treble On/Off
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clav EQ Medium On/Off
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clav EQ Soft On/Off
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Inst Sel (Organ/Piano)
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Type
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Model
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Mono
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Dynamics
   value: 99
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Acoustics
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave Shift Organ Upper
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave Shift Organ Lower
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave Shift Piano
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ On/Off
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Treble
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid Frequency
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Bass
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gain
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Rate
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Sel
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 On/Off
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Rate
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Sel
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 On/Off
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speaker/Comp Drive
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speaker/Comp Sel
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speaker/Comp On/Off
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Wet/Dry
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Sel
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb On/Off
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Rate
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Ping Pong On/Off
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay On/Off
   value: 94
+  type: variable
 device_name: Electro 3 HP
 midi_channel:
   instructions: ''

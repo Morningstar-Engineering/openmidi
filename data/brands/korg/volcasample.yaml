@@ -5,56 +5,67 @@ cc:
   min: 0
   name: Level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample start point
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample length
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hi cutoff
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speed
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch EG intensity
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch EG attack
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch EG decay
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG attack
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG decay
   value: 48
+  type: variable
 device_name: volca sample
 midi_channel:
   instructions: ''

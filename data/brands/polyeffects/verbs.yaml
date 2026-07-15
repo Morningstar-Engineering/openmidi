@@ -17,48 +17,48 @@ cc:
   - name: Onset
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Low Cut
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Smoosh
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Crescendo - On
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 64
     max: 127
   - name: Crescendo - Off
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Bypass
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Engage
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 67
     max: 127

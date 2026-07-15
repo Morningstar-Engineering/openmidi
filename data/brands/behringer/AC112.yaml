@@ -6,7 +6,7 @@ cc:
       Adjusts the input sensitivity of the Effects module. 
       Since this has no impact on the Master volume, set the maximum volume with master on the unit 
       and use this control to reduce the volume below the set maximum. 
-    type: Parameter
+    type: variable
     min: 0
     max: 127
     
@@ -15,49 +15,49 @@ cc:
     description: |+
       Clean Channel = 0 
       Overdrive Channel = 1
-    type: System
+    type: variable
     min: 0
     max: 1
   
   - name: Effect Bypass
     value: 11
     description: 'Turns on and off the effects channel. OFF = 0, ON = 1'
-    type: System
+    type: variable
     min: 0
     max: 1
     
   - name: Parameter Control
     value: 12
     description: 'Adjusts the "Parameter" control on the top panel.'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
     
   - name: Effect A Control
     value: 13
     description: Adjusts the "Effect A" control on the top panel. 
-    type: Parameter
+    type: variable
     min: 0
     max: 127
 
   - name: Effect B Control
     value: 14
     description: Adjusts the "Effect B" control on the top panel. 
-    type: Parameter
+    type: variable
     min: 0
     max: 127
     
   - name: Wah/Modulation
     value: 15
     description: Wah/Modulation control
-    type: Parameter
+    type: variable
     min: 0
     max: 127
     
   - name: Store Enable
     value: 18
     description: Saves parameter changes to the current active preset
-    type: System
+    type: variable
     min: 0
     max: 127
 

@@ -12,6 +12,7 @@ cc:
     allowing for random vibrato and chorus sounds.
   min: 0
   max: '127'
+  type: variable
 - name: Wet
   value: '15'
   description: 'When there are no dip switches assigned to ramp any controls, this
@@ -24,6 +25,7 @@ cc:
     controls the ramp time in which this takes place. '
   min: 0
   max: '127'
+  type: variable
 - name: HP
   value: '16'
   description: Sets the cutoff frequency for a resonant high-pass filter. Turn clockwise
@@ -31,6 +33,7 @@ cc:
     effect on the audio.
   min: 0
   max: '127'
+  type: variable
 - name: Flutter
   value: '17'
   description: While WOW describes the slow gentle pitch fluctuations, Flutter refers
@@ -39,6 +42,7 @@ cc:
     a timbral change to the incoming audio.
   min: 0
   max: '127'
+  type: variable
 - name: Gen
   value: '18'
   description: Gen controls the sample rate of the wet signal. At its max, the audio
@@ -47,6 +51,7 @@ cc:
     tape degradation, this control is useful to have in any lo-fi effect.
   min: 0
   max: '127'
+  type: variable
 - name: LP
   value: '19'
   description: Sets the cutoff frequency for a resonant low pass filter. The sweep
@@ -56,6 +61,7 @@ cc:
     to get that tape sound.
   min: 0
   max: '127'
+  type: variable
 - name: AUX FUNC Select
   value: '21'
   description: This toggle selects the function applied to the signal when the AUX
@@ -68,6 +74,7 @@ cc:
     the middle toggle position(Gen). Sending value 3 selects the right toggle position(Filter).
   min: '1'
   max: '3'
+  type: variable
 - name: DRY Select
   value: '22'
   description: This toggle selects the amount of dry signal that is mixed in with
@@ -80,6 +87,7 @@ cc:
     the right toggle position(Unity).
   min: '1'
   max: '3'
+  type: variable
 - name: HISS Select
   value: '23'
   description: Selects between three levels of noise, from none, to quite a bit. These
@@ -89,6 +97,7 @@ cc:
     Sending value 3 selects the right toggle position(Heavy).
   min: '1'
   max: '3'
+  type: variable
 - name: Expression
   value: '100'
   description: The Wow, HP, Flutter, Gen, and LP dip switches in the left bank allow
@@ -109,6 +118,7 @@ cc:
     pedal select which parameter(s) are being controlled via expression.
   min: 0
   max: '127'
+  type: variable
 - name: AUX FUNC
   value: '101'
   description: Activates the auxiliary function defined by the AUX FUNC toggle. This
@@ -116,11 +126,13 @@ cc:
     back. Sending value 127 engages AUX FUNC. Sending value 0 bypasses.
   min: 0
   max: '127'
+  type: variable
 - name: Bypass Switch
   value: '102'
   description: Sending value 127 engages pedal. Sending value 0 bypasses.
   min: 0
   max: '127'
+  type: variable
 - name: Both Stomps
   value: '103'
   description: Sending value 127 engages pedal and AUX FUNC. Sending value 85 engages
@@ -128,6 +140,7 @@ cc:
     FUNC. Sending value 0 bypasses both.
   min: 0
   max: '127'
+  type: variable
 device_name: Generation Loss MKI
 midi_channel:
   instructions: ''

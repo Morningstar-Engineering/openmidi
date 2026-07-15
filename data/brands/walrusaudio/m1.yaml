@@ -25,202 +25,242 @@ cc:
     description: sets the speed of the main LFO
     min: 0
     max: '127'
+    type: variable
   - name: Depth
     value: '9'
     description: the amplitude of the main LFO.
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi
     value: '14'
     description: lo-fi effects level
     min: 0
     max: '127'
+    type: variable
   - name: Shape - Sine
     value: '15'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Shape - Triangle
     value: '15'
     description: ''
     min: 1
     max: 1
+    type: variable
   - name: Shape - Square
     value: '15'
     description: ''
     min: 2
     max: 2
+    type: variable
   - name: Division  - quarter note
     value: '16'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Division - quarter triplet
     value: '16'
     description: ''
     min: 1
     max: 1
+    type: variable
   - name: Division - eight note
     value: '16'
     description: ''
     min: 2
     max: 2
+    type: variable
   - name: Program Type 1
     value: '17'
     description: |-
       Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional,  Vibrato:  Traditional, Rotary: Horn & Drum, Filter: Lowpass
     min: 0
     max: 0
+    type: variable
   - name: Program Type 2
     value: '17'
     description: |-
       Chorus: Series, Phaser: 4-stage, Termolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass
     min: 1
     max: 1
+    type: variable
   - name: Program Type 3
     value: '17'
     description: |-
       Chorus: Tri-Chorus, Phaser: Univibe, Termolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass
     min: 2
     max: 2
+    type: variable
   - name: Prog Chorus
     value: '18'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Prog Phaser
     value: '18'
     description: ''
     min: 1
     max: 1
+    type: variable
   - name: Prog Tremolo
     value: '18'
     description: ''
     min: 2
     max: 2
+    type: variable
   - name: Prog Vibrato
     value: '18'
     description: ''
     min: 3
     max: 3
+    type: variable
   - name: Prog Rotary
     value: '18'
     description: ''
     min: 4
     max: 4
+    type: variable
   - name: Prog Filter
     value: '18'
     description: ''
     min: 5
     max: 5
+    type: variable
   - name: Tone
     value: '19'
     description: Tone control for the modulation program
     min: 0
     max: '127'
+    type: variable
   - name: Symetry
     value: '20'
     description: Modulation LFO Wave Symetry
     min: 0
     max: '127'
+    type: variable
   - name: X Modulation Control
     value: '21'
     description: |-
       Chorus: Lag, Phaser: Feedback, Termolo: Stereo Phase, Vibrato: Flutter, Rotary: Cab Simulation, Filter: Resonance
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi Env
     value: '22'
     description: Lo-Fi tone envelope depth
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi Drive
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi Space
     value: '24'
     description: Reverb
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi Age
     value: '25'
     description: ''
     min: 0
     max: '4'
+    type: variable
   - name: Lo-Fi Noise
     value: '26'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Lo-Fi Warble
     value: '27'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Bypass
     value: '31'
     description:
     min: 0
     max: 0
+    type: variable
   - name: Engage
     value: '31'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Tap
     value: '85'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Rotary Speed
     value: '86'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Skip Engage/Rotary Break - Disengaged
     value: '87'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Skip Engage/Rotary Break - Engaged
     value: '87'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Output Volume
     value: '88'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: MIDI Clock Ignore - Disengaged
     value: '89'
     description: follow MIDI Clock
     min: 0
     max: 0
+    type: variable
   - name: MIDI Clock Ignore - Engaged
     value: '89'
     description: ignore MIDI Clock
     min: '127'
     max: '127'
+    type: variable
   - name: Tweak Switch
     value: '90'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Bank Switch
     value: '102'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Tune Switch
     value: '103'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Dry/Wet Mix
     value: '104'
     description: ''
     min: 0
     max: 127
+    type: variable

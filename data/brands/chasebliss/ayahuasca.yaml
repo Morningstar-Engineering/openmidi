@@ -7,76 +7,91 @@ cc:
   min: 0
   name: Output
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Input
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Color
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rate
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth
   value: 18
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Note Division: Whole'
   value: 21
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Note Division: 1/2'
   value: 21
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Note Division: 1/4t'
   value: 21
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Note Division: 1/4'
   value: 21
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Note Division: 1/8'
   value: 21
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Note Division: 1/16'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Switch
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 100
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage
   value: 102
+  type: variable
 device_name: Ayahuasca
 midi_channel:
   instructions: ''

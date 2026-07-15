@@ -5,11 +5,13 @@ cc:
   min: 127
   name: 'Reverb: On'
   value: 85
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Reverb: Off'
   value: 85
+  type: variable
 device_name: 5150III 50W 6L6 1X12 COMBO
 midi_channel:
   instructions: ''

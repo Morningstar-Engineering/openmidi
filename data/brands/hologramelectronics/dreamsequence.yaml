@@ -18,30 +18,30 @@ cc:
   - name: Middle Octave Level
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Octave Up Level
     value: 21
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Octave Down Level
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Effect Bypass
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: Effect Engage
     value: 20
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127

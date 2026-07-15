@@ -20,216 +20,216 @@ cc:
   - name: 'Expression pedal'
     value: 4
     description: 'CTRL input'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Blend'
     value: 12
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Chop'
     value: 13
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Freeze Threshold'
     value: 14
     description: '0 = Off, 1-126 = Threshold, 127 = On'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Feedback'
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Delay'
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Delay Random'
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Pitch'
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Pitch Detune'
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Pitch Random'
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Density'
     value: 21
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Direction'
     value: 22
     description: '0 = Reverse, 1-126 = Probability, 127 = Forward'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'LFO Rate'
     value: 25
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Feedback Lowpass Filter'
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Freeze'
     value: 80
     description: '0-63 = Off, 64-127 = On'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Effect On'
     value: 81
     description: '0-63 = Bypass, 64-127=Effect'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Effect on (Receive Only)'
     value: 88
     description: '0-63 = Byass, 64-127 = Effect'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Tap (Receive Only)'
     value: 89
     description: '64-127 = Tap'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Mode: Pitch/Density'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 0
   - name: 'Mode: Pitch/LFO'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 1
     max: 1
   - name: 'Mode: Pitch/Detune'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 2
     max: 2
   - name: 'Mode: Delay/Random'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 3
     max: 3
   - name: 'Mode: Delay/Pitch'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 4
     max: 4
   - name: 'Mode: Delay/Reverse'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 5
     max: 5
   - name: 'Mode: Delay/LFO'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 6
     max: 6
   - name: 'Mode: Delay/Density'
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 7
     max: 7
   - name: 'Chop/Freeze'
     value: 103
     description: '0-63 = Chop, 64-127 = Freeze Threshold'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Delay/Pitch'
     value: 104
     description: 'Depends on current mode'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Param'
     value: 105
     description: 'Depends on current mode'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Delay Note Division'
     value: 106
     description: 'See Note Divisions table'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Density Note Division'
     value: 107
     description: 'See Note Divisions table'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Chop Note Division'
     value: 108
     description: 'See Note Divisions table'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'LFO Rate Note Division'
     value: 109
     description: 'See Note Divisions table'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Trails Mode'
     value: 111
     description: '0-63 = Off, 64-127 = On'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Freeze Mode'
     value: 118
     description: '0 = Grain Freeze, 1 = Delay Freeze (V1)'
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: 'Mode Switch Reassigns Knobs'
     value: 119
     description: '0=63 = Off, 64-127 = On (combine modes)'
-    type: Parameter
+    type: variable
     min: 0
     max: 127

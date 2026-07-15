@@ -22,90 +22,90 @@ cc:
   - name: Tap Tempo
     value: 93
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Ramp - Set Speed
     value: 97
     description: ''
-    type: Parameter
+    type: variable
     min: 1
     max: 8
   - name: Ramp - Trigger
     value: 97
     description: ''
-    type: Parameter
+    type: variable
     min: 9
     max: 127
   - name: Expression Pedal
     value: 100
     description: '0 = Heel Down, 127 = Toe Down'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Bypass
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Engage
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 64
     max: 127
   - name: Pedal Knobs - Lower Right Main
     value: 50
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Left Main
     value: 51
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Right Main
     value: 52
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Left Main
     value: 53
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Right Alt
     value: 54
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Left Alt
     value: 55
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Upper Right Alt
     value: 56
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pedal Knobs - Lower Left Alt
     value: 57
     description: '0 = Counter ClockWise, 127 = Clockwise'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mode Select
     value: 59
     description: 'Accepts values 0-7 to select modes 1-8'
-    type: System
+    type: variable
     min: 0
     max: 7

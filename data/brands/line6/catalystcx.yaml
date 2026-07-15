@@ -20,6 +20,7 @@ cc:
       desired parameter using Catalyst Edit app)
     min: 0
     max: 127
+    type: variable
   - name: Amp Voicing Type
     value: '5'
     description: >-
@@ -27,46 +28,55 @@ cc:
       Group 2 models ;
     min: 0
     max: '11'
+    type: variable
   - name: Volume Pedal Bypass/Enable
     value: '6'
     description: Controls bypass state of the Volume Pedal ; 0 - 63 = Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Volume Pedal Level
     value: '7'
     description: Controls the Volume Pedal level value
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '13'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: '14'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Mid
     value: '15'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Treble
     value: '16'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Channel Volume
     value: '17'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Effect 2 Amount
     value: '18'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Effect 1 Model Select
     value: '19'
     description: >-
@@ -86,16 +96,19 @@ cc:
       18 - 23 = Reverb models ;
     min: 0
     max: '23'
+    type: variable
   - name: Presence
     value: '21'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Gate Bypass/Enable
     value: '22'
     description: Controls bypass state of the Gate ; 0 - 63 = Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Gate Threshold
     value: '23'
     description: |-
@@ -103,11 +116,13 @@ cc:
       32 = 96dB...127 = 0dB ; 
     min: 0
     max: 127
+    type: variable
   - name: Gate Decay
     value: '24'
     description: Controls the Decay time of the Gate ; 0 =.1 ms ; 127 = 3000 ms ;
     min: 0
     max: 127
+    type: variable
   - name: Boost Bypass/Enable
     value: '25'
     description: >-
@@ -115,21 +130,25 @@ cc:
       Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Boost Level
     value: '26'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Effect 1 Bypass/Enable
     value: '28'
     description: 'Controls bypass state of Effect 1 ; 0 - 63 = Off ; 64 - 127 = On ; '
     min: 0
     max: 127
+    type: variable
   - name: Effect 2 Bypass/Enable
     value: '29'
     description: 'Controls bypass state of Effect 2 ; 0 - 63 = Off ; 64 - 127 = On ; '
     min: 0
     max: 127
+    type: variable
   - name: Preset Channel A/B Select
     value: '30'
     description: >-
@@ -137,11 +156,13 @@ cc:
       ; 
     min: 0
     max: 127
+    type: variable
   - name: Effect 1 Amount
     value: '34'
     description: Matches physical knob
     min: 0
     max: 127
+    type: variable
   - name: Effect 2 Model Select
     value: '37'
     description: >-
@@ -161,21 +182,25 @@ cc:
       18 - 23 = Reverb models ;
     min: 0
     max: '23'
+    type: variable
   - name: Effect 2 Pre/Post Amp
     value: '41'
     description: "Controls position of Effect 2, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ;\n64 - 127 = Post\_;"
     min: 0
     max: 127
+    type: variable
   - name: Expression Bypass/Enable
     value: '43'
     description: "Controls bypass state of Expression ;\n0 - 63 = Off ; \n64 - 127 = On\_;"
     min: 0
     max: 127
+    type: variable
   - name: Volume Pedal Pre/Post Amp
     value: '47'
     description: "Controls position of the Volume Pedal, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ; \n64 - 127 = Post\_;"
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo
     value: '64'
     description: |-
@@ -183,6 +208,7 @@ cc:
       64 - 127 = one Tap ;
     min: '64'
     max: 127
+    type: variable
   - name: Direct Out Mic Select
     value: '70'
     description: >-
@@ -207,6 +233,7 @@ cc:
       15 = U87;
     min: 0
     max: '14'
+    type: variable
   - name: Cabinet Select
     value: '71'
     description: >-
@@ -217,11 +244,13 @@ cc:
       2 = 4 x 12;
     min: 0
     max: '2'
+    type: variable
   - name: Effect 1 Pre/Post Amp
     value: '74'
     description: "Controls position of Effect 1, before (Pre) the Amp Voicing or after (Post) ;\n0 - 63 = Pre ; \n64 - 127 = Post\_;"
     min: 0
     max: 127
+    type: variable
   - name: FX Loop Bypass/Enable
     value: '107'
     description: |-
@@ -230,3 +259,4 @@ cc:
       64 - 127 = On ;
     min: 0
     max: 127
+    type: variable

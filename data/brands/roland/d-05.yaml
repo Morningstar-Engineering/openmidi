@@ -5,41 +5,49 @@ cc:
   min: 0
   name: Bank Select MSB
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bank Select LSB
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento Time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Data Entry MSB
   value: 6
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Data Entry LSB
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 device_name: D-05
 midi_channel:
   instructions: ''

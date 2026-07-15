@@ -15,114 +15,137 @@ cc:
     description: ".1/8 - dotted eight"
     min: 0
     max: '42'
+    type: variable
   - name: Division L
     value: '27'
     description: 1/8 - eight note
     min: '43'
     max: '85'
+    type: variable
   - name: Division L
     value: '27'
     description: 1/4 - quarter note
     min: '86'
     max: '127'
+    type: variable
   - name: Division R
     value: '28'
     description: ".1/8 - dotted eight"
     min: 0
     max: '42'
+    type: variable
   - name: Division R
     value: '28'
     description: 1/8 - eight note
     min: '43'
     max: '85'
+    type: variable
   - name: Division R
     value: '28'
     description: 1/4 - quarter note
     min: '86'
     max: '127'
+    type: variable
   - name: Sync
     value: '26'
     description: 0-42 (Left) - 43-85 (Right) - 86-127 (Sync)
     min: 0
     max: '127'
+    type: variable
   - name: Feedback Path
     value: '31'
     description: 0-42 (PingPong) - 43-85 (Serial) - 86-127 (Parallel)
     min: 0
     max: '127'
+    type: variable
   - name: Time
     value: '14'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Time R
     value: '15'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod Depth
     value: '22'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod Depth R
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod Rate
     value: '24'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod Rate R
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod Shape L
     value: '102'
     description: 0-42 (Square) - 43-85 (Random) - 86-127 (Sine)
     min: 0
     max: '127'
+    type: variable
   - name: Mod Shape R
     value: '103'
     description: 0-42 (Square) - 43-85 (Random) - 86-127 (Sine)
     min: 0
     max: '127'
+    type: variable
   - name: Mod Phase
     value: '104'
     description: 0-42 (180) - 43-85 (90) - 86-127 (0)
     min: 0
     max: '127'
+    type: variable
   - name: Bypass
     value: '29'
     description: 0 (Off) - 127 (On)
     min: 0
     max: '127'
+    type: variable
   - name: Feedback Ramp
     value: '85'
     description: 0 (Off) - 127 (On)
     min: 0
     max: '127'
+    type: variable
   - name: Clock Bypass
     value: '89'
     description: 0 (Off) - 127 (On)
     min: 0
     max: '127'
+    type: variable
   - name: Tap Tempo
     value: '30'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Expression Destination
     value: '86'
     description: 0-21 (Time) - 22-42 (Mod) - 43-63 (Time R) - 64-85 (Mod R) - 86-106
       (Mod Rate) - 107-127 (Mod Rate R)
     min: 0
     max: '127'
+    type: variable
   - name: Bypass Mode
     value: '87'
     description: 0 (Trails) - 127 (No Trails)
     min: 0
     max: '127'
+    type: variable

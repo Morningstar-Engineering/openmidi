@@ -5,251 +5,301 @@ cc:
   min: 0
   name: Shuffle
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External In Level
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External In Side Chain
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Time
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Feedback
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BD Tune
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BD Attack
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BD Comp
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BD Decay
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BD Level
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SD Tune
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SD Snappy
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SD Comp
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SD Decay
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SD Level
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LT Tune
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LT Decay
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LT Level
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MT Tune
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MT Decay
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MT Level
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HT Tune
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HT Decay
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HT Level
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RS Tune
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RS Decay
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RS Level
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HC Tune
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HC Decay
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HC Level
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH Tune
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH Decay
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH Level
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scatter Type
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scatter Depth
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scatter SW
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Accent
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OH Tune
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OH Decay
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OH Level
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CC Tune
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CC Decay
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CC Level
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RC Tune
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RC Decay
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: RC Level
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Time
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Gate
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Level
   value: 91
+  type: variable
 device_name: TR-8
 midi_channel:
   instructions: ''

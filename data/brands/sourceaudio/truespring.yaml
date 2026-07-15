@@ -18,128 +18,154 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output Level
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dwell
     value: '4'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tone (Treble)
     value: '5'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time
     value: '6'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pre-Delay
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Diffusion
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Modulation Depth
     value: '10'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Modulation Rate
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Type
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Assign
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Depth
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Rate
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Offset
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Spring Size
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input Low Cut Filter
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: I/O Routing Option
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Beat Division
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap Assign
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Start Off
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Engage Boost
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Remote Tap Tempo
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Bypass/Engage
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass/ Engage
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable

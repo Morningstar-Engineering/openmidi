@@ -5,126 +5,151 @@ cc:
   min: 0
   name: Bass drum tune
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum tone
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum decay
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum tone
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum decay
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum noise
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claps decay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claps filter
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claps attack
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claps trigger
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Toms tune
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Toms decay
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Conga tune
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Conga decay
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Conga pan
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Toms pan
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cowbell tune
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cowbell decay
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claves tune
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Claves decay
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal tune
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal tone
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal decay
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Open hi hat decay
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Closed hi hat decay
   value: 91
+  type: variable
 device_name: Tanzbar Lite
 midi_channel:
   instructions: ''

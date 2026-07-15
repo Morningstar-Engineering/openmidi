@@ -21,168 +21,202 @@ cc:
     description: Track + (01-99)
     min: '1'
     max: '1'
+    type: variable
   - name: Track - (01–99)
     value: '41'
     description: Track - (01–99)
     min: '1'
     max: '1'
+    type: variable
   - name: Track Play/Stop
     value: '42'
     description: Track Play/Stop
     min: 0
     max: '0'
+    type: variable
   - name: Loop Rec
     value: '42'
     description: Loop Recording
     min: '2'
     max: '2'
+    type: variable
   - name: Loop Dub
     value: '42'
     description: Loop Overdub
     min: '3'
     max: '3'
+    type: variable
   - name: Loop Undo
     value: '42'
     description: Loop Undo
     min: '4'
     max: '4'
+    type: variable
   - name: Loop Redo
     value: '42'
     description: Loop Redo
     min: '5'
     max: '5'
+    type: variable
   - name: Loop Clear
     value: '42'
     description: Loop Clear
     min: '6'
     max: '6'
+    type: variable
   - name: Loop Level +
     value: '43'
     description: Loop Audio Level +
     min: 0
     max: 127
+    type: variable
   - name: Loop Level -
     value: '44'
     description: Loop Audio Level -
     min: 0
     max: 127
+    type: variable
   - name: Drum Play/Stop
     value: '45'
     description: Drum Play/Stop
     min: 0
     max: '0'
+    type: variable
   - name: Tap Tempo
     value: '45'
     description: Tap Tempo
     min: '1'
     max: '1'
+    type: variable
   - name: Tempo + (40-240)
     value: '46'
     description: Tempo + (40-240)
     min: '1'
     max: 127
+    type: variable
   - name: Tempo - (40-240)
     value: '47'
     description: Tempo - (40-240)
     min: '1'
     max: 127
+    type: variable
   - name: 'Beat Switch (4/4, 3/4, Shuffle)'
     value: '48'
     description: 'Beat Switch (4/4, 3/4, Shuffle)'
     min: '1'
     max: '1'
+    type: variable
   - name: Drum Style select +
     value: '49'
     description: Drum Style select +
     min: '1'
     max: '1'
+    type: variable
   - name: Drum Style select -
     value: '50'
     description: Drum Style select -
     min: '1'
     max: '1'
+    type: variable
   - name: Drum Level +
     value: '51'
     description: Drum Audio Level +
     min: '0'
     max: 127
+    type: variable
   - name: Drum Level -
     value: '52'
     description: Drum Audio Level -
     min: 0
     max: 127
+    type: variable
   - name: Save Data/confirm
     value: '53'
     description: Save Data/confirm
     min: 0
     max: '0'
+    type: variable
   - name: Save to memory number +
     value: '54'
     description: Save to memory number +
     min: '1'
     max: '1'
+    type: variable
   - name: Save to memory number -
     value: '55'
     description: Save to memory number -
     min: '1'
     max: '1'
+    type: variable
   - name: Delete Data/confirm
     value: '53'
     description: Delete Data/confirm
     min: '1'
     max: '1'
+    type: variable
   - name: Brightness +
     value: '56'
     description: Screen Brightness +
     min: '1'
     max: '1'
+    type: variable
   - name: Brightness -
     value: '57'
     description: Screen Brightness -
     min: '1'
     max: '1'
+    type: variable
   - name: 'REC mode: INSTANT'
     value: '58'
     description: 'REC mode: INSTANT'
     min: 0
     max: '0'
+    type: variable
   - name: 'REC mode: DETECTING'
     value: '58'
     description: 'REC mode: DETECTING'
     min: '1'
     max: '1'
+    type: variable
   - name: 'REC mode: PRE-BEAT'
     value: '58'
     description: 'REC mode: PRE-BEAT'
     min: '2'
     max: '2'
+    type: variable
   - name: 'DUB mode: DUB & PLAYBACK'
     value: '59'
     description: 'DUB mode: DUB & PLAYBACK'
     min: 0
     max: '0'
+    type: variable
   - name: 'DUB mode: HIT TWICE TO DUB'
     value: '59'
     description: 'DUB mode: HIT TWICE TO DUB'
     min: '1'
     max: '1'
+    type: variable
   - name: 'STOP mode: NORMAL'
     value: '60'
     description: 'STOP mode: NORMAL'
     min: 0
     max: '0'
+    type: variable
   - name: 'STOP mode: ONE SHOT'
     value: '60'
     description: 'STOP mode: ONE SHOT'
     min: '1'
     max: '1'
+    type: variable
   - name: 'STOP mode: FINE STOP'
     value: '60'
     description: 'STOP mode: FINE STOP'
     min: '2'
     max: '2'
+    type: variable
   - name: 'STOP mode: FADE OUT'
     value: '60'
     description: 'STOP mode: FADE OUT'
     min: '3'
     max: '3'
+    type: variable

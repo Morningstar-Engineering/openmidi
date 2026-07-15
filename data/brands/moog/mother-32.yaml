@@ -5,46 +5,55 @@ cc:
   min: 0
   name: Portamento Time
   value: 5
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Portamento Off
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Portamento On
   value: 65
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Sustain Off
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Sustain On
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Generate CV1
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Generate CV2
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Generate CV3
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Generate CV4
   value: 7
+  type: variable
 device_name: Mother-32
 midi_channel:
   instructions: ''

@@ -15,43 +15,52 @@ cc:
     description: 0 - 63 = On (Can only Switch)
     min: 0
     max: '63'
+    type: variable
   - name: Channel 2 Low Aggression
     value: '18'
     description: 0 - 63 = On (Can only Switch)
     min: 0
     max: '63'
+    type: variable
   - name: Channel 2 Med Aggression
     value: '19'
     description: 0 - 63 = On (Can only Switch)
     min: 0
     max: '63'
+    type: variable
   - name: Channel 2 High Aggression
     value: '20'
     description: 0 - 63 = On (Can only Switch)
     min: 0
     max: '63'
+    type: variable
   - name: 'Channel 2 Plus Aggression Toggle '
     value: '24'
     description: 0 - 63 = On/Switch
     min: 0
     max: '63'
+    type: variable
   - name: Reverb
     value: '26'
     description: 0 - 63 = Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: 4W / 20W
     value: '27'
     description: 0 - 63 = 4W ; 64 - 127 = 20W ;
     min: 0
     max: 127
+    type: variable
   - name: Wide
     value: '28'
     description: 0 - 63 = Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Pre/Post
     value: '29'
     description: 0 - 63 = Off ; 64 - 127 = On ;
     min: 0
     max: 127
+    type: variable

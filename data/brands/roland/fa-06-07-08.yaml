@@ -5,16 +5,19 @@ cc:
   description: Step 1
   min: '85'
   max: '85'
+  type: variable
 - name: USER Studio Set Change
   value: '32'
   description: Step 2
   min: 0
   max: '0'
+  type: variable
 - name: Program Change
   value: 0
   description: 'Step 3 - PC # is 1 less than the number that appears on the screen'
   min: 0
   max: 127
+  type: variable
 
 device_name: FA-06/07/08
 midi_channel:

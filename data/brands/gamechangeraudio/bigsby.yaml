@@ -11,156 +11,187 @@ cc:
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Rate LSB'
     value: 46
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Detune MSB'
     value: 15
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Detune LSB'
     value: 47
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Blend MSB'
     value: 20
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Blend LSB'
     value: 52
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pitch down range'
     value: 21
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pitch up range'
     value: 22
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Tone MSB'
     value: 23
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Tone LSB'
     value: 55
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out range MSB'
     value: 24
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out range LSB'
     value: 56
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out offset MSB'
     value: 25
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out offset LSB'
     value: 57
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out direction'
     value: 108
     min: 0
     max: 127
     description: '0-63 normal, 64-127 inverted'
+    type: variable
   - name: 'Pedal position (full range)'
     value: 27
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal position MSB'
     value: 28
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal position LSB'
     value: 60
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal downward MSB'
     value: 29
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal downward LSB'
     value: 61
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal upward MSB'
     value: 30
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Pedal upward LSB'
     value: 62
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Flutter trigger & amount'
     value: 31
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Auto Mode phase offset'
     value: 102
     min: 0
     max: 127
     description: '0 deg - 180 deg'
+    type: variable
   - name: 'EXP out Auto Mode'
     value: 103
     min: 0
     max: 127
     description: '0-63 = OFF, 64-127 = on'
+    type: variable
   - name: 'EXP out override enable'
     value: 104
     min: 0
     max: 127
     description: '0-63 = OFF, 64-127 = override'
+    type: variable
   - name: 'EXP out override value'
     value: 105
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out override value MSB'
     value: 26
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'EXP out override value LSB'
     value: 58
     min: 0
     max: 127
     description: ''
+    type: variable
   - name: 'Latch'
     value: 106
     min: 0
     max: 127
     description: '106 0-63 = OFF, 64-127 = on'
+    type: variable
   - name: 'Latch direction'
     value: 107
     min: 0
     max: 127
     description: '0-63 = down, 64-127 up'
+    type: variable
 device_name: Bigsby
 pc:
   description: |+

@@ -16,31 +16,37 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: FS Left
     value: '12'
     description: 1 = Switch Down ; 0 = Switch Up ;
     min: 0
     max: '1'
+    type: variable
   - name: FS Right
     value: '13'
     description: 1 = Switch Down ; 0 = Switch Up ;
     min: 0
     max: '1'
+    type: variable
   - name: Bypass
     value: '19'
     description: '0 = Bypass, 1 = Unbypass Left FS, 2 = Unbypass Right FS ;'
     min: 0
     max: '2'
+    type: variable
   - name: Cab
     value: '20'
     description: ''
     min: 0
     max: '21'
+    type: variable
   - name: Speaker Drive
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mic 1
     value: '22'
     description: >-
@@ -48,31 +54,37 @@ cc:
       Ribbon 160, 5 = Ribbon 121, 6 = Direct ;
     min: 0
     max: '6'
+    type: variable
   - name: Mic 1 Vol
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mic 1 Pan
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mic 1 Mute
     value: '25'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Mic 1 Axis
     value: '26'
     description: '0 = On Axis, 1 = Off Axis ;'
     min: 0
     max: '1'
+    type: variable
   - name: Mic 1 Low Cut
     value: '27'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Mic 2
     value: '28'
     description: >-
@@ -80,31 +92,37 @@ cc:
       Ribbon 160, 5 = Ribbon 121, 6 = Direct ;
     min: 0
     max: '6'
+    type: variable
   - name: Mic 2 Vol
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mic 2 Pan
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mic 2 Mute
     value: '31'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Mic 2 Axis
     value: '32'
     description: '0 = On Axis, 1 = Off Axis ;'
     min: 0
     max: '1'
+    type: variable
   - name: Mic 2 Low Cut
     value: '33'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Room Mic
     value: '34'
     description: >-
@@ -112,63 +130,76 @@ cc:
       Condensor 67 Mono, 4 = Ribbon 84 Mono, 5 = Ribbon 121 Mono ;
     min: 0
     max: '5'
+    type: variable
   - name: Room
     value: '35'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Room Pan
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Room Mute
     value: '37'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Room Damp
     value: '38'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Room Low Cut
     value: '39'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Delay Enable
     value: '40'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Delay Time
     value: '41'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Feedback
     value: '42'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Mix
     value: '44'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb Enable
     value: '60'
     description: '0 = Off, 1 = On ;'
     min: 0
     max: '1'
+    type: variable
   - name: Reverb Time
     value: '61'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb Mix
     value: '63'
     description: ''
     min: 0
     max: 127
+    type: variable

@@ -5,171 +5,205 @@ cc:
   min: 0
   name: Preset Bank 0
   value: 0
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Preset Bank 1
   value: 0
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Preset Bank 2
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tape Saturation: On'
   value: 10
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Tape Saturation: Off'
   value: 10
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Mode: Classic'
   value: 11
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Mode: Cassette'
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Saturation
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Low Trim
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Doubletracker: On'
   value: 16
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Doubletracker: Off'
   value: 16
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Type: Sum'
   value: 17
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Type: Invert'
   value: 17
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Type: Bounce'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Lag Time
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wobble
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Blend
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Doubletracker Boost/Cut
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Auto-Flange Time
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Wide Stereo Mode: On'
   value: 23
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Wide Stereo Mode: Off'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'A and B Engage'
   value: 33
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'A and B Bypass'
   value: 33
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'A&B: Bypass'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Expression: On'
   value: 60
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Expression: Off'
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Clock: On'
   value: 63
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Clock: Off'
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Remote Tap
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Auto-Flange: On'
   value: 97
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Auto-Flange: Off'
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 100
+  type: variable
 device_name: Deco
 midi_channel:
   instructions: ''

@@ -18,83 +18,100 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pre Delay
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rate
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Depth
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Swell
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Duck
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: EQ Low
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: EQ High
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Size
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Diffuse
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback EQ
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Program
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sustain
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time
     value: '80'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Octave Type
     value: '81'
     description: ''
     min: 0
     max: 127
+    type: variable

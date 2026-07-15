@@ -5,36 +5,43 @@ cc:
   min: 0
   name: Filter Frequency
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Mod Depth
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env 1: Attack'
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env 1: Decay'
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env 2: Attack'
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env 2: Decay'
   value: 115
+  type: variable
 device_name: Bass Station Keyboard
 midi_channel:
   instructions: ''

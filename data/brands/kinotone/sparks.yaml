@@ -17,41 +17,49 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Decay
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Sustain
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Release
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Waveform
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Bits
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Mod Option
     value: '20'
     description: 0 = LFO Pitch 1 = LFO Pulse Width 2 = Glide
     min: 0
     max: '2'
+    type: variable
   - name: Synth Mod Depth
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Synth Hard Sync / Ring Mod
     value: '22'
     description: |-
@@ -60,6 +68,7 @@ cc:
       2 = Ring Mod
     min: 0
     max: '2'
+    type: variable
   - name: Synth Voice Mode
     value: '23'
     description: |-
@@ -67,76 +76,91 @@ cc:
       1 = Mono
     min: 0
     max: '1'
+    type: variable
   - name: Filter Cutoff
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Mode
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Resonance
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Drive / Fold
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Blend
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Low Cut
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gate
     value: '32'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: ENV Attack
     value: '33'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: ENV Sens
     value: '34'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: LFO Rate
     value: '35'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: LFO Shape
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Spin
     value: '37'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Filter Cutoff
     value: '38'
     description: |-
@@ -144,6 +168,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Filter
     value: '39'
     description: |-
@@ -151,6 +176,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map Filter Resonance
     value: '40'
     description: |
@@ -158,6 +184,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Gain
     value: '41'
     description: |-
@@ -165,6 +192,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Level
     value: '42'
     description: |-
@@ -172,11 +200,13 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Drive / Fold
     value: '43'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Blend
     value: '44'
     description: |-
@@ -184,6 +214,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Low Cut
     value: '45'
     description: |-
@@ -191,6 +222,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Gate
     value: '46'
     description: |-
@@ -198,6 +230,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO ENV Attack
     value: '47'
     description: |-
@@ -205,6 +238,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO ENV Sens
     value: '48'
     description: |-
@@ -212,6 +246,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map LFO Spin
     value: '49'
     description: |-
@@ -219,16 +254,19 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: ENV Style
     value: '50'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ignore MIDI Clock
     value: '51'
     description: 0 = Ignore. ≥1 = Listen
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Filter Cutoff
     value: '52'
     description: |
@@ -236,6 +274,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Filter Mode
     value: '53'
     description: |-
@@ -243,6 +282,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Filter Resonance
     value: '54'
     description: |-
@@ -250,6 +290,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Gain
     value: '55'
     description: |-
@@ -257,6 +298,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Level
     value: '56'
     description: |-
@@ -264,6 +306,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Drive / Fold
     value: '57'
     description: |-
@@ -271,6 +314,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Blend
     value: '58'
     description: |-
@@ -278,6 +322,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Low Cut
     value: '59'
     description: |-
@@ -285,6 +330,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Gate
     value: '60'
     description: |-
@@ -292,6 +338,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV LFO Rate
     value: '61'
     description: |-
@@ -299,6 +346,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV LFO Shape
     value: '62'
     description: |-
@@ -306,6 +354,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Map ENV Spin
     value: '63'
     description: |-
@@ -313,6 +362,7 @@ cc:
       65-127 [+]
     min: 0
     max: 127
+    type: variable
   - name: Preset Footswitch
     value: '80'
     description: |-
@@ -320,6 +370,7 @@ cc:
       ≥1 = ON
     min: 0
     max: 127
+    type: variable
   - name: Bypass Footswitch
     value: '81'
     description: |-
@@ -327,31 +378,37 @@ cc:
       ≥1 = ON
     min: 0
     max: 127
+    type: variable
   - name: LFO Range
     value: '82'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Reset Black + White Controls
     value: '85'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Currently Selected Preset
     value: '83'
     description: ''
     min: 0
     max: '31'
+    type: variable
   - name: Clear LFO Mappings
     value: '86'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Clear ENV Mappings
     value: '87'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: GATE Dry Signal
     value: '89'
     description: |-
@@ -359,6 +416,7 @@ cc:
       ≥1 = Yes
     min: 0
     max: 127
+    type: variable
   - name: Gate Response Style
     value: '90'
     description: |-
@@ -367,3 +425,4 @@ cc:
       ≥1 = Choppy
     min: 0
     max: 127
+    type: variable

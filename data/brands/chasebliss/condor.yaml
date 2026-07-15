@@ -39,132 +39,132 @@ cc:
   - name: Gain
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Freq
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Volume
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Bass
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mids
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: LPF
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Bass Toggle Left
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: Bass Toggle Center
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: Bass Toggle Right
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Mids Toggle Left
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: Mids Toggle Center
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: Mids Toggle Right
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: LPF Toggle Left
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: LPF Toggle Center
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: LPF Toggle Right
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Exp
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass Switch: Bypass Pedal'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage last saved preset'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Bypass pedal and drive'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage Pedal and Drive circuit'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Engage Drive, Bypass Pedal'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 85
     max: 85
   - name: 'Bypass Switch: Engage Pedal, Bypass Drive'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 45
     max: 45

@@ -28,61 +28,73 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bank Down
     value: 1
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Set Toggle (All Presets)
     value: 2
     description: ''
     min: 127
     max: 127
+    type: variable
   - name: Set Toggle (Individual Presets)
     value: 2
     description: 'CC Value 0 sets Preset A, 1 sets Preset B and so on'
     min: 0
     max: 11
+    type: variable
   - name: Clear Toggle (All Presets)
     value: 3
     description: ''
     min: 127
     max: 127
+    type: variable
   - name: Clear Toggle (Individual Presets)
     value: 3
     description: 'CC Value 0 clears Preset A, 1 clears Preset B and so on'
     min: 0
     max: 11
+    type: variable
   - name: Page Toggle
     value: 4
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Set MIDI Clock BPM MSB
     value: 5
     description: Sets the MSB 2 bits for the MIDI Clock
     min: 0
     max: 127
+    type: variable
   - name: Set MIDI Clock BPM LSB
     value: 6
     description: Sets the LSB 7 bits for the MIDI Clock
     min: 0
     max: 127
+    type: variable
   - name: Looper Mode
     value: 7
     description: '0 = Toggle Looper Mode, 1 = Engage, 2 = Disengage'
     min: 0
     max: 2
+    type: variable
   - name: MIDI Clock Tap
     value: 8
     description: Engages the Tap Tempo function on the MIDI Clock
     min: 0
     max: 127
+    type: variable
   - name: Jump to last bank
     value: 9
     description: '0 = Ignore Bank Presets, 127 = Execute Bank Presets'
     min: 0
     max: 127
+    type: variable
   - name: Engage Preset A
     value: 10
     description: >-
@@ -92,68 +104,82 @@ cc:
       Long Press Scroll
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset B
     value: 11
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset C
     value: 12
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset D
     value: 13
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset E
     value: 14
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset F
     value: 15
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset G
     value: 16
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset H
     value: 17
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset I
     value: 18
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset J
     value: 19
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset K
     value: 20
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Preset L
     value: 21
     description: ''
     min: 0
     max: 10
+    type: variable
   - name: Engage Expression 1
     value: 51
     description: Engages Expression Preset 1
     min: 0
     max: 127
+    type: variable
   - name: Engage Expression 2
     value: 52
     description: Engages Expression Preset 2
     min: 0
     max: 127
+    type: variable

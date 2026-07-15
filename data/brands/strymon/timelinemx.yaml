@@ -40,6 +40,7 @@ cc:
       11 = MultiTap
     min: 0
     max: '11'
+    type: variable
   - name: Delay 2 TYPE Select
     value: '2'
     description: |-
@@ -57,36 +58,43 @@ cc:
       11 = MultiTap
     min: 0
     max: '11'
+    type: variable
   - name: TIME Knob (1)
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: TIME Knob (2)
     value: '4'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: REPEATS Knob (1)
     value: '5'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: REPEATS Knob (2)
     value: '6'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output Level (1)
     value: '7'
     description: ''
     min: 0
     max: '100'
+    type: variable
   - name: Output Level (2)
     value: '8'
     description: ''
     min: 0
     max: '100'
+    type: variable
   - name: Pan (1)
     value: '9'
     description: |-
@@ -95,6 +103,7 @@ cc:
       16 = Full Right
     min: 0
     max: '16'
+    type: variable
   - name: Pan (2)
     value: '10'
     description: |-
@@ -103,36 +112,43 @@ cc:
       16 = Full Right 
     min: 0
     max: '16'
+    type: variable
   - name: FILTER Knob (1)
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: FILTER Knob (2)
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: GRIT Knob (1)
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: GRIT Knob (2)
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: MIX Knob (1)
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: MIX Knob (2)
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: TAP Division (1)
     value: '17'
     description: |-
@@ -146,6 +162,7 @@ cc:
       7 = Free
     min: 0
     max: '7'
+    type: variable
   - name: TAP Division (2)
     value: '18'
     description: |-
@@ -159,145 +176,173 @@ cc:
       7 = Free
     min: 0
     max: '7'
+    type: variable
   - name: PARAM 1 Knob (1)
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: PARAM 1 Knob (2)
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: PARAM 2 Knob (1)
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: PARAM 2 Knob (2)
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Swell (1)
     value: '23'
     description: (tracks in display)
     min: 0
     max: '28'
+    type: variable
   - name: Swell (2)
     value: '24'
     description: (tracks in display)
     min: 0
     max: '28'
+    type: variable
   - name: Duck Release (1)
     value: '25'
     description: (tracks in display)
     min: 0
     max: '20'
+    type: variable
   - name: Duck Release (2)
     value: '26'
     description: (tracks in display)
     min: 0
     max: '20'
+    type: variable
   - name: Duck Sensitivity (1)
     value: '27'
     description: (tracks in display)
     min: 0
     max: '18'
+    type: variable
   - name: Duck Sensitivity (2)
     value: '28'
     description: (tracks in display)
     min: 0
     max: '18'
+    type: variable
   - name: Mod Speed (1)
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Speed (2)
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Depth (1)
     value: '33'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Depth (2)
     value: '34'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Smear (1)
     value: '35'
     description: |+
 
     min: 0
     max: '18'
+    type: variable
   - name: Smear (2)
     value: '36'
     description: |+
 
     min: 0
     max: '18'
+    type: variable
   - name: High Pass (1)
     value: '37'
     description: 0=off
     min: 0
     max: '19'
+    type: variable
   - name: High Pass (2)
     value: '38'
     description: 0=off
     min: 0
     max: '19'
+    type: variable
   - name: Looper Record
     value: '119'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Play
     value: '120'
     description: |+
 
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Stop
     value: '121'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Forward/Reverse
     value: '125'
     description: |
       Toggle
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Full/Half Speed
     value: '26'
     description: Toggle
     min: '1'
     max: '1'
+    type: variable
   - name: Global Pre/Post Looper Location
     value: '84'
     description: Toggle
     min: '1'
     max: '1'
+    type: variable
   - name: 'Looper Undo '
     value: '98'
     description: Delete overdubs
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Redo
     value: '90'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Looper Level
     value: '127'
     description: ''
     min: 0
     max: '100'
+    type: variable
   - name: 1&2 Boost
     value: '122'
     description: |-
@@ -306,11 +351,13 @@ cc:
       60 = +3dB
     min: 0
     max: '60'
+    type: variable
   - name: 1&2 Persist
     value: '123'
     description: Delay Trails continue when bypassed? 0 = off. 127 = on.
     min: 0
     max: 127
+    type: variable
   - name: Dual Delay Mode
     value: '124'
     description: |-
@@ -322,6 +369,7 @@ cc:
       5 = Split R | L
     min: 0
     max: '5'
+    type: variable
   - name: '"A" Footswitch'
     value: '80'
     description: |-
@@ -329,6 +377,7 @@ cc:
       127 = Release
     min: 0
     max: '127'
+    type: variable
   - name: '"B" Footswitch'
     value: '81'
     description: |-
@@ -336,6 +385,7 @@ cc:
       127 = Release
     min: 0
     max: 127
+    type: variable
   - name: '"TAP" Footswitch'
     value: '82'
     description: |-
@@ -343,6 +393,7 @@ cc:
       127 = Release
     min: 0
     max: 127
+    type: variable
   - name: Remote TAP Tempo
     value: '93'
     description: |-
@@ -350,6 +401,7 @@ cc:
       pulse to set TAP Tempo.
     min: '1'
     max: '1'
+    type: variable
   - name: Value Encoder
     value: '83'
     description: |2-
@@ -358,6 +410,7 @@ cc:
       1 = Scroll clockwise
     min: 0
     max: '1'
+    type: variable
   - name: Infinite Off/On
     value: '97'
     description: |-
@@ -365,6 +418,7 @@ cc:
       1-127 = On
     min: 0
     max: '1'
+    type: variable
   - name: Expression Pedal
     value: '100'
     description: |-
@@ -377,6 +431,7 @@ cc:
       ON to allow MIDI control.
     min: 0
     max: 127
+    type: variable
   - name: Preset Bypass
     value: '102'
     description: |-
@@ -384,6 +439,7 @@ cc:
       1-127 = Engaged
     min: 0
     max: '1'
+    type: variable
   - name: MIDI Patch Bank
     value: 0
     description: |-
@@ -400,3 +456,4 @@ cc:
       Bank
     min: 0
     max: '2'
+    type: variable

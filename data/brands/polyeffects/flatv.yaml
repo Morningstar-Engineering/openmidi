@@ -20,126 +20,126 @@ cc:
   - name: Diode - Schottky
     value: 38
     description: 'Set Channel A Diode'
-    type: Parameter
+    type: variable
     min: 0
     max: 31
   - name: Diode - Germanium
     value: 38
     description: 'Set Channel A Diode'
-    type: Parameter
+    type: variable
     min: 32
     max: 63
   - name: Diode - Silicon
     value: 38
     description: 'Set Channel A Diode'
-    type: Parameter
+    type: variable
     min: 64
     max: 95
   - name: Diode - LED
     value: 38
     description: 'Set Channel A Diode'
-    type: Parameter
+    type: variable
     min: 96
     max: 127
   - name: Set LFO - Sine
     value: 39
     description: 'Set Channel B LFO'
-    type: Parameter
+    type: variable
     min: 0
     max: 31
   - name: Set LFO - Triangle
     value: 39
     description: 'Set Channel B LFO'
-    type: Parameter
+    type: variable
     min: 32
     max: 63
   - name: Set LFO - Square
     value: 39
     description: 'Set Channel B LFO'
-    type: Parameter
+    type: variable
     min: 63
     max: 95
   - name: Set LFO - Envelope
     value: 39
     description: 'Set Channel B LFO'
-    type: Parameter
+    type: variable
     min: 96
     max: 127
   - name: Channel B - Side 1
     value: 40
     description: 'Activate Side 1 of Channel B'
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Channel B - Side 2
     value: 10
     description: 'Activate Side 2 of Channel B'
-    type: Parameter
+    type: variable
     min: 64
     max: 127
   - name: Channel - Bypass Both
     value: 41
     description: 'Set active/bypass of Channels A and B'
-    type: Parameter
+    type: variable
     min: 0
     max: 31
   - name: Channel - A Active
     value: 41
     description: 'Set active/bypass of Channels A and B'
-    type: Parameter
+    type: variable
     min: 32
     max: 63
   - name: Channel - B Active
     value: 41
     description: 'Set active/bypass of Channels A and B'
-    type: Parameter
+    type: variable
     min: 64
     max: 95
   - name: Channel - A and B Active
     value: 41
     description: 'Set active/bypass of Channels A and B'
-    type: Parameter
+    type: variable
     min: 96
     max: 127
   - name: Routing - A to B
     value: 42
     description: 'Set routing of Channels A and B'
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Routing - B to A
     value: 42
     description: 'Set routing of Channels A and B'
-    type: Parameter
+    type: variable
     min: 64
     max: 127
   - name: Visualisation Mode
     value: 43
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Battery Mode
     value: 44
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Is Blending
     value: 45
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dump Presets
     value: 85
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Blend Override
     value: 1
     description: '0-127 is A to B blend. Use this connected to an expression pedal or mod wheel.'
-    type: Parameter
+    type: variable
     min: 0
     max: 127

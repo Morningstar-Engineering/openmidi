@@ -5,31 +5,37 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass Effect
     value: '14'
     description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
     min: 0
     max: 127
+    type: variable
   - name: Enable Effect
     value: '15'
     description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
     min: 0
     max: 127
+    type: variable
   - name: Toggle Effect
     value: '16'
     description: 0 = 1st effect; 1 = 2nd effect; 2 = 3rd effect ...
     min: 0
     max: 127
+    type: variable
   - name: Looper
     value: '17'
     description: 0 = Clear; 1 = Record; 2 = Play; 3 = Overdub; 4 = Pause
     min: 0
     max: 127
+    type: variable
   - name: Mode Change
     value: '18'
     description: 0 = Master Mode (Default); 1= Live Mode
     min: 0
     max: '1'
+    type: variable
 
 device_name: Stratus
 midi_channel:

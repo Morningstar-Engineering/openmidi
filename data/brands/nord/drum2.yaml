@@ -5,166 +5,199 @@ cc:
   min: 0
   name: Level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Filter Frequency
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Filter Type
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Filter Envelope
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Filter Resonance
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Attack/Rate
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Attack Mode
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Decay Type (E,L,G)
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Decay
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Decay Lo
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dist Amount
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dist Type
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Frequency
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Gain
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Echo Feedback
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Echo Amount
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Spectra
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Wave
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Timbre Decay
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Punch
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Decay Type (L,E)
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Decay
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Dec Lo
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Timbre
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Timbre Envelope
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Bend Amount
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Bend Time
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Click Level
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Click Type
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix Balance
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mute Group
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Channel Focus
   value: 70
+  type: variable
 device_name: Drum 2
 midi_channel:
   instructions: ''

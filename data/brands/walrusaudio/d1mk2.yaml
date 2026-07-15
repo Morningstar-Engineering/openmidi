@@ -18,108 +18,130 @@ cc:
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Div Right
     value: '31'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Feedback Mode
     value: '32'
     description: ''
     min: 0
     max: '2'
+    type: variable
   - name: Mod Shape
     value: '33'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Grain Pitch
     value: '34'
     description: ''
     min: 0
     max: '4'
+    type: variable
   - name: Reverse Mode
     value: '35'
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Ramp
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Rate
     value: '37'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Grain Size
     value: '38'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Grain X
     value: '39'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Repeats
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Duck
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tone
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Age
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Ignore
     value: '89'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Spread
     value: '98'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Program
     value: '24'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Tap
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable

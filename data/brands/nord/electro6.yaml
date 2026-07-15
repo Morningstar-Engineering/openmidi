@@ -5,386 +5,463 @@ cc:
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard Split
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Enable
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Octave Shift
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Sustain Pedal
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Control Pedal
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Level
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Model Select
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Preset Select
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 1
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 2
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 3
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 4
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 5
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 6
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 7
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 8
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 9
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Perc Enable
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Vibrato Type
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Vibrato Enable
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Perc Harmonic
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Perc Speed
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Perc Level
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Organ Edit Lower Manual
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Enable
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Level
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Octave Shift
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Sustain Pedal
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Control Pedal
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Type
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Model
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Variation
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano EQ
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Enable
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Level
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Octave Shift
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Sustain Pedal
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Control Pedal
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Attack
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Decay/Release
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Dynamics
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Synth Filter
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Enable
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Type
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Source
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Control Pedal
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Rate
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Type
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Source
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Deep Mode
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Rate
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Enable
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Source
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Amount
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Rate
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Feedback
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Enable
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Ping Pong On/Off
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Speaker Type
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Speaker Drive
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Speaker Enable
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Speaker Source
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Bass
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Treble
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Enable
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Source
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid Frequency
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary Speed
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Bright
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Amount
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Type
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Enable
   value: 116
+  type: variable
 device_name: Electro 6
 midi_channel:
   instructions: ''

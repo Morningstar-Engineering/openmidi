@@ -5,56 +5,67 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pedal Active / Bypass
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Octaves On / Off
     value: '53'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Position
     value: '54'
     description: Filter Pre-distortion / Post-distortion
     min: 0
     max: 127
+    type: variable
   - name: Octaves Type
     value: '55'
     description: Upper Octave Only / Upper & Lower Octaves
     min: 0
     max: 127
+    type: variable
   - name: Synth knob
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Drive knob
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level knob
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Attack knob
     value: '26'
     description: Secondary function
     min: 0
     max: 127
+    type: variable
   - name: Resonance knob
     value: '27'
     description: Secondary function
     min: 0
     max: 127
+    type: variable
   - name: Cutoff knob
     value: '28'
     description: Secondary function
     min: 0
     max: 127
+    type: variable
 
 
 device_name: Knifedrop

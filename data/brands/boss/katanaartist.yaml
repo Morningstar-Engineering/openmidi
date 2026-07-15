@@ -5,66 +5,79 @@ cc:
   min: 0
   name: 'FX1 SW: Off'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX1 SW: On'
   value: 16
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX2 SW: Off'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX2 SW: On'
   value: 17
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX3 SW: Off'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX3 SW: On'
   value: 18
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Effect Loop SW: Off'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Effect Loop SW: On'
   value: 19
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'GA-FC Exp Pedal (FX): Off'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'GA-FC Exp Pedal (FX): On'
   value: 80
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'GA-FC Exp Pedal (VOL): Off'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'GA-FC Exp Pedal (VOL): On'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 82
+  type: variable
 device_name: Katana Artist
 midi_channel:
   instructions: ''

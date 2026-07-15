@@ -5,81 +5,97 @@ cc:
   min: 0
   name: Portamento
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Detune
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG intensity
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Attack
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay/release
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG intensity
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rate
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch intensity
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff intensity
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay feedback
   value: 53
+  type: variable
 device_name: volca keys
 midi_channel:
   instructions: ''

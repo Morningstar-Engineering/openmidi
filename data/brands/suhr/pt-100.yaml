@@ -5,76 +5,91 @@ cc:
   min: 0
   name: Mute
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH2 / CH1
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH3 / CH1
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH1 / CH2 / CH3
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH2 / CH3
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Boost On/Off
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH1
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH2
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH3
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH1 / Boost Off
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH2 / Boost Off
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH3 / Boost Off
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH1 / Boost On
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH2 / Boost On
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: CH3 / Boost On
   value: 119
+  type: variable
 device_name: PT-100
 midi_channel:
   instructions: ''

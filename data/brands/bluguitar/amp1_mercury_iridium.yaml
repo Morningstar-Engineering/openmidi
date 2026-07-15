@@ -20,37 +20,37 @@ cc:
   - name: 2nd Master
     value: 7
     description: 'Range -10dB'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Gain / Clean Volume
     value: 20
     description: 'Range 1-10'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: PowerSoak
     value: 30
     description: 'Step values: 0.15W, 1W, 1.5W, 2W, 7W, 20W, 40W, 100W'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
 
   - name: FX-LOOP
     value: 40
     description: 'on/off'
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Reverb
     value: 50
     description: 'on/off'
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Boost
     value: 60
     description: 'on/off'
-    type: Parameter
+    type: variable
     min: 0
     max: 127

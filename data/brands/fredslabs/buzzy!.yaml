@@ -5,156 +5,187 @@ cc:
   min: 0
   name: Modwheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Coarse
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Fine
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tempo
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Division
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Repeat
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gate
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wave
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Engine
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter mod.
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Space mix
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay mix
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Space model
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay model
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter type
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp. mode
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Env. mode
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Env. loop
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Space decay
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Space diffuse
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay feedback
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay length
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All sounds off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reset all controllers
   value: 121
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All notes off
   value: 123
+  type: variable
 device_name: Buzzy!
 midi_channel:
   instructions: ''

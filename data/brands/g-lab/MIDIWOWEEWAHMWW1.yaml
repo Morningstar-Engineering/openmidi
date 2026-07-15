@@ -17,38 +17,46 @@ cc:
     description: LOW
     min: 0
     max: '63'
+    type: variable
   - name: BASS
     value: '104'
     description: HI
     min: '64'
     max: 127
+    type: variable
   - name: DEEP
     value: '105'
     description: LOW
     min: 0
     max: '63'
+    type: variable
   - name: DEEP
     value: '105'
     description: HI
     min: '64'
     max: 127
+    type: variable
   - name: Q FACT.
     value: '106'
     description: LOW
     min: 0
     max: '63'
+    type: variable
   - name: Q FACT.
     value: '106'
     description: HI
     min: '64'
     max: 127
+    type: variable
   - name: VOLUME
     value: '107'
     description: LOW
     min: 0
     max: '63'
+    type: variable
   - name: VOLUME
     value: '107'
     description: HI
     min: '64'
     max: 127
+    type: variable

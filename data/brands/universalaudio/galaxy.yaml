@@ -16,26 +16,31 @@ cc:
     description: 1 = Switch Down ; 0 = Switch Up ;
     min: 0
     max: '1'
+    type: variable
   - name: FS Right
     value: '13'
     description: 1 = Switch Down ; 0 = Switch Up ;
     min: 0
     max: '1'
+    type: variable
   - name: Head Up
     value: '14'
     description: Cycles up through Head Selection
     min: 0
     max: '1'
+    type: variable
   - name: Head Down
     value: '15'
     description: Cycles down through Head Selection
     min: 0
     max: '1'
+    type: variable
   - name: Store
     value: '16'
     description: '1 = long press stores preset, 0 = Cancel ;'
     min: 0
     max: '1'
+    type: variable
   - name: Head Select
     value: '18'
     description: >-
@@ -43,6 +48,7 @@ cc:
       Head1+3, 6 = Head 1+2+3 ;
     min: 0
     max: '6'
+    type: variable
   - name: Bypass
     value: '19'
     description: >-
@@ -50,53 +56,64 @@ cc:
       footswitch mode, only does Delay)
     min: 0
     max: '1'
+    type: variable
   - name: Reverb Bypass
     value: '20'
     description: '0 = bypass, 1 = unbypass (Only works in Delay|Reverb footswitch mode)'
     min: 0
     max: '1'
+    type: variable
   - name: Echo Vol
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Echo Rate
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input Vol
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tape Age
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb Vol
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dwell
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable

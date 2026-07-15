@@ -5,36 +5,43 @@ cc:
   min: 0
   name: Program Change
   value: 0-24
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Tempo
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: FX On
   value: 11
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: FX Off
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tuner On
   value: 69
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Tuner Off
   value: 69
+  type: variable
 device_name: M5 Stompbox Modeler
 midi_channel:
   instructions: ''

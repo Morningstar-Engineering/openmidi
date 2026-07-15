@@ -30,66 +30,66 @@ cc:
     max: 127
     min: 0
     name: Bass
-    type: ''
+    type: variable
     value: 3
   - description: ''
     max: 127
     min: 0
     name: Mid
-    type: ''
+    type: variable
     value: 14
   - description: ''
     max: 127
     min: 0
     name: Treb
-    type: ''
+    type: variable
     value: 15
   - description: ''
     max: 127
     min: 0
     name: Vol
-    type: ''
+    type: variable
     value: 20
   - description: ''
     max: 127
     min: 0
     name: Gain
-    type: ''
+    type: variable
     value: 21
   - description: ''
     max: 127
     min: 0
     name: Room
-    type: ''
+    type: variable
     value: 22
   - description: 'Front A: 0-20, B: 22-42, C: 44-64, Back A: 66-86, B: 88-108, C:
       110-127'
     max: 127
     min: 0
     name: Cab Switch
-    type: ''
+    type: variable
     value: 27
   - description: 'Left: 0-42, Middle: 43-85, Right: 86-127'
     max: 127
     min: 0
     name: L + R Switch
-    type: ''
+    type: variable
     value: 28
   - description: 'Fullerton: 0-42, London: 43-85, Dartford: 86-127'
     max: 127
     min: 0
     name: Amp Switch
-    type: ''
+    type: variable
     value: 29
   - description: Bypass = 0, Engaged = 127
     max: 127
     min: 0
     name: Bypass Switch
-    type: ''
+    type: variable
     value: 30
   - description: Bypass = 0, Engaged = 127
     max: 127
     min: 0
     name: Boost Switch
-    type: ''
+    type: variable
     value: 31

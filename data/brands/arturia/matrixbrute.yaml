@@ -5,401 +5,481 @@ cc:
   min: 0
   name: Sustain pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal 1
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal 2
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Fine'
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Coarse'
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Waveform Select'
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Sub'
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Ultrasaw'
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Sawtooth'
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Square'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Triangle'
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Pulse Width'
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO1: Metalizer'
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Fine'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Coarse'
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Waveform Select'
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Sub'
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Ultrasaw'
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Sawtooth'
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Square'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Triangle'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Pulse Width'
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO2: Metalizer'
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'VCO3 - LFO3: Coarse'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Audio Mod: VCO1>VCO2'
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Audio Mod: VCO1<VCO3>VCO2'
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Audio Mod: VCF1<VCO3>VCF2'
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Audio Mod: VCO1<Noise>VCF1'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: VCO1'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: VCO2'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: VCO3'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: Noise'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: External'
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Drive'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Cutoff'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Resonance'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Brute Factor'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Env 1 Amount'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Steiner Out'
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Steiner: Master Cutoff'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Drive'
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Brute Factor'
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Cutoff'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Env 1 Amount'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Resonance'
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Ladder: Ladder Out'
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO1: Phase'
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO1: Rate'
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO2: Delay'
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO2: Rate'
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV1: Velo/VCF'
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV1: Attack'
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV1: Decay'
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV1: Sustain'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV1: Release'
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV2: Velo/VCF'
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV2: Attack'
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV2: Decay'
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV2: Sustain'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV2: Release'
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV3: Delay'
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV3: Attack'
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV3: Decay'
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV3: Sustain'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'ENV3: Release'
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Analog FX: Delay Time'
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Analog FX: Regeneration'
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Analog FX: Tone/Rate'
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Analog FX: Width/Depth'
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Analog FX: Dry/Wet'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sequencer: Rate'
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sequencer: Swing'
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sequencer: Gate'
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Bend Range
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 1
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 2
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 3
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 4
   value: 3
+  type: variable
 device_name: MatrixBrute
 midi_channel:
   instructions: ''

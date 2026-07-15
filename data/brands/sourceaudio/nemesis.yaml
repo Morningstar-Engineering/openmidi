@@ -30,1278 +30,1534 @@ cc:
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Effect Engine - Diffuse
     value: '1'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Effect Engine - Analog
     value: '1'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Effect Engine - Tape
     value: '1'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Effect Engine - Noise Tape
     value: '1'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Effect Engine - Degrade
     value: '1'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Effect Engine - Shifter
     value: '1'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Effect Engine - Helix
     value: '1'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Effect Engine - Reverse
     value: '1'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Effect Engine - Sweeper
     value: '1'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Effect Engine - Rhythmic
     value: '1'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Effect Engine - Slapback
     value: '1'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Effect Engine - Resonant Analog
     value: '1'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Effect Engine - Tremolo
     value: '1'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Effect Engine - Sequenced Filters
     value: '1'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Effect Engine - Dub
     value: '1'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Effect Engine - Chorused Delay
     value: '1'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Effect Engine - Flanger Delay
     value: '1'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Effect Engine - Double Helix
     value: '1'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Effect Engine - Complex Rhythmic
     value: '1'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Effect Engine - Lo-Fi Retro
     value: '1'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Effect Engine - Warped Record
     value: '1'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Effect Engine - Compound Shifter
     value: '1'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Effect Engine - Oil Can
     value: '1'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Effect Engine - Binson Drum Echo (Single Head)
     value: '1'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Effect Engine - Binson Drum Echo (Multi Head)
     value: '1'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Delay Time
     value: 2
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Maximum Delay Time
     value: 3
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback
     value: 5
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: 6
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Depth
     value: 7
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Rate
     value: 8
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Intensity
     value: 9
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output
     value: 10
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Diffusion
     value: 11
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Distortion
     value: 12
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback Low Cut
     value: 13
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback High Cut
     value: 14
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sample Rate Reduction
     value: 15
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sweep Filter Frequency
     value: 16
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sweep Filter Q
     value: 17
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sweep Filter Depth
     value: 18
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sweep Filter Mix
     value: 19
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wow and Flutter Depth
     value: 20
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wow and Flutter Rate
     value: 21
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wow Modulation Noise
     value: 22
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo
     value: 23
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +perfect 5th
     value: 24
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +diminshed 5th
     value: '24'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +perfect 4th
     value: '24'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +major 3rd
     value: '24'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +minor 3rd
     value: '24'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +major 2nd
     value: '24'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves +minor 2nd
     value: '24'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Pitch Shift Interval - +2 octaves
     value: '24'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Pitch Shift Interval - +octave +major 7th
     value: '24'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Pitch Shift Interval - +octave +minor 7th
     value: '24'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Pitch Shift Interval - +octave +major 6th
     value: '24'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Pitch Shift Interval - +octave +augmented 5th
     value: '24'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Pitch Shift Interval - +octave +perfect 5th
     value: '24'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Pitch Shift Interval - +octave +diminished 5th
     value: '24'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Pitch Shift Interval - +octave +perfect 4th
     value: '24'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Pitch Shift Interval - +octave +major 3rd
     value: '24'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Pitch Shift Interval - +octave +minor 3rd
     value: '24'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Pitch Shift Interval - +octave +major 2nd
     value: '24'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Pitch Shift Interval - +octave +minor 2nd
     value: '24'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Pitch Shift Interval - +octave
     value: '24'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Pitch Shift Interval - +major 7th
     value: '24'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Pitch Shift Interval - +minor 7th
     value: '24'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Pitch Shift Interval - +major 6th
     value: '24'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Pitch Shift Interval - +augmented 5th
     value: '24'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Pitch Shift Interval - +perfect 5th
     value: '24'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Pitch Shift Interval - +diminished 5th
     value: '24'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Pitch Shift Interval - +perfect 4th
     value: '24'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Pitch Shift Interval - +major 3rd
     value: '24'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Pitch Shift Interval - +minor 3rd
     value: '24'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: Pitch Shift Interval - +major 2nd
     value: '24'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Pitch Shift Interval - +minor 2nd
     value: '24'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Pitch Shift Interval - unison
     value: '24'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Pitch Shift Interval - -minor 2nd
     value: '24'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Pitch Shift Interval - -major 2nd
     value: '24'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Pitch Shift Interval - -minor 3rd
     value: '24'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Pitch Shift Interval - -major 3rd
     value: '24'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Pitch Shift Interval - -perfect 4th
     value: '24'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Pitch Shift Interval - -diminished 5th
     value: '24'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Pitch Shift Interval - -perfect 5th
     value: '24'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Pitch Shift Interval - -augmented 5th
     value: '24'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Pitch Shift Interval - -major 6th
     value: '24'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Pitch Shift Interval - -minor 7th
     value: '24'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Pitch Shift Interval - -major 7th
     value: '24'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: Pitch Shift Interval - -octave
     value: '24'
     description: ''
     min: '43'
     max: '43'
+    type: variable
   - name: Pitch Shift Interval - -octave -minor 2nd
     value: '24'
     description: ''
     min: '44'
     max: '44'
+    type: variable
   - name: Pitch Shift Interval - -octave -major 2nd
     value: '24'
     description: ''
     min: '45'
     max: '45'
+    type: variable
   - name: Pitch Shift Interval - -octave - minor 3rd
     value: '24'
     description: ''
     min: '46'
     max: '46'
+    type: variable
   - name: Pitch Shift Interval - -octave -major 3rd
     value: '24'
     description: ''
     min: '47'
     max: '47'
+    type: variable
   - name: Pitch Shift Interval - -octave -perfect 4th
     value: '24'
     description: ''
     min: '48'
     max: '48'
+    type: variable
   - name: Pitch Shift Interval - -octave -diminished 5th
     value: '24'
     description: ''
     min: '49'
     max: '49'
+    type: variable
   - name: Pitch Shift Interval - -octave -perfect 5th
     value: '24'
     description: ''
     min: '50'
     max: '50'
+    type: variable
   - name: Pitch Shift Interval - -octave -augmented 5th
     value: '24'
     description: ''
     min: '51'
     max: '51'
+    type: variable
   - name: Pitch Shift Interval - -octave -major 6th
     value: '24'
     description: ''
     min: '52'
     max: '52'
+    type: variable
   - name: Pitch Shift Interval - -octave - minor 7th
     value: '24'
     description: ''
     min: '53'
     max: '53'
+    type: variable
   - name: Pitch Shift Interval - -octave - major 7th
     value: '24'
     description: ''
     min: '54'
     max: '54'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves
     value: '24'
     description: ''
     min: '55'
     max: '55'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -minor 2nd
     value: '24'
     description: ''
     min: '56'
     max: '56'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -major 2nd
     value: '24'
     description: ''
     min: '57'
     max: '57'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -minor 3rd
     value: '24'
     description: ''
     min: '58'
     max: '58'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -major 3rd
     value: '24'
     description: ''
     min: '59'
     max: '59'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -perfect 4th
     value: '24'
     description: ''
     min: '60'
     max: '60'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -diminished 5th
     value: '24'
     description: ''
     min: '61'
     max: '61'
+    type: variable
   - name: Pitch Shift Interval - -2 octaves -perfect 5th
     value: '24'
     description: ''
     min: '62'
     max: '62'
+    type: variable
   - name: 'Pitch Shift Interval - Reverse -2 octaves -perfect 5th '
     value: '24'
     description: ''
     min: '63'
     max: '63'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -dim 5th
     value: '24'
     description: ''
     min: '64'
     max: '64'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -perfect 4th
     value: '24'
     description: ''
     min: '65'
     max: '65'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -major 3rd
     value: '24'
     description: ''
     min: '66'
     max: '66'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -minor 3rd
     value: '24'
     description: ''
     min: '67'
     max: '67'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -major 2nd
     value: '24'
     description: ''
     min: '68'
     max: '68'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves -minor 2nd
     value: '24'
     description: ''
     min: '69'
     max: '69'
+    type: variable
   - name: Pitch Shift Interval - Reverse -2 octaves
     value: '24'
     description: ''
     min: '70'
     max: '70'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -major 7th
     value: '24'
     description: ''
     min: '71'
     max: '71'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -minor 7th
     value: '24'
     description: ''
     min: '72'
     max: '72'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -major 6th
     value: '24'
     description: ''
     min: '73'
     max: '73'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -augmented 5th
     value: '24'
     description: ''
     min: '74'
     max: '74'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -perfect 5th
     value: '24'
     description: ''
     min: '75'
     max: '75'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -dim 5th
     value: '24'
     description: ''
     min: '76'
     max: '76'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -perfect 4th
     value: '24'
     description: ''
     min: '77'
     max: '77'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -major 3rd
     value: '24'
     description: ''
     min: '78'
     max: '78'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -minor 3rd
     value: '24'
     description: ''
     min: '79'
     max: '79'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -major 2nd
     value: '24'
     description: ''
     min: '80'
     max: '80'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave -minor 2nd
     value: '24'
     description: ''
     min: '81'
     max: '81'
+    type: variable
   - name: Pitch Shift Interval - Reverse -octave
     value: '24'
     description: ''
     min: '82'
     max: '82'
+    type: variable
   - name: Pitch Shift Interval - Reverse -major 7th
     value: '24'
     description: ''
     min: '83'
     max: '83'
+    type: variable
   - name: Pitch Shift Interval - Reverse -minor 7th
     value: '24'
     description: ''
     min: '84'
     max: '84'
+    type: variable
   - name: Pitch Shift Interval - Reverse -major 6th
     value: '24'
     description: ''
     min: '85'
     max: '85'
+    type: variable
   - name: Pitch Shift Interval - Reverse -augmented 6th
     value: '24'
     description: ''
     min: '86'
     max: '86'
+    type: variable
   - name: Pitch Shift Interval - Reverse -perfect 5th
     value: '24'
     description: ''
     min: '87'
     max: '87'
+    type: variable
   - name: Pitch Shift Interval - Reverse -dim 5th
     value: '24'
     description: ''
     min: '88'
     max: '88'
+    type: variable
   - name: Pitch Shift Interval - Reverse -perfect 4th
     value: '24'
     description: ''
     min: '89'
     max: '89'
+    type: variable
   - name: Pitch Shift Interval - Reverse -major 3rd
     value: '24'
     description: ''
     min: '90'
     max: '90'
+    type: variable
   - name: Pitch Shift Interval - Reverse -minor 3rd
     value: '24'
     description: ''
     min: '91'
     max: '91'
+    type: variable
   - name: Pitch Shift Interval - Reverse -major 2nd
     value: '24'
     description: ''
     min: '92'
     max: '92'
+    type: variable
   - name: Pitch Shift Interval - Reverse -minor 2nd
     value: '24'
     description: ''
     min: '93'
     max: '93'
+    type: variable
   - name: Pitch Shift Interval - Reverse -unison
     value: '24'
     description: ''
     min: '94'
     max: '94'
+    type: variable
   - name: Pitch Shift Interval - Reverse +minor 2nd
     value: '24'
     description: ''
     min: '95'
     max: '95'
+    type: variable
   - name: Pitch Shift Interval - Reverse +major 2nd
     value: '24'
     description: ''
     min: '96'
     max: '96'
+    type: variable
   - name: Pitch Shift Interval - Reverse +minor 3rd
     value: '24'
     description: ''
     min: '97'
     max: '97'
+    type: variable
   - name: Pitch Shift Interval - Reverse +major 3rd
     value: '24'
     description: ''
     min: '98'
     max: '98'
+    type: variable
   - name: Pitch Shift Interval - Reverse +perfect 4th
     value: '24'
     description: ''
     min: '99'
     max: '99'
+    type: variable
   - name: Pitch Shift Interval - Reverse +dim 5th
     value: '24'
     description: ''
     min: '100'
     max: '100'
+    type: variable
   - name: Pitch Shift Interval - Reverse +perfect 5th
     value: '24'
     description: ''
     min: '101'
     max: '101'
+    type: variable
   - name: Pitch Shift Interval - Reverse +augmented 5th
     value: '24'
     description: ''
     min: '102'
     max: '102'
+    type: variable
   - name: Pitch Shift Interval - Reverse +major 6th
     value: '24'
     description: ''
     min: '103'
     max: '103'
+    type: variable
   - name: Pitch Shift Interval - Reverse +minor 7th
     value: '24'
     description: ''
     min: '104'
     max: '104'
+    type: variable
   - name: Pitch Shift Interval - Reverse +major 7th
     value: '24'
     description: ''
     min: '105'
     max: '105'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave
     value: '24'
     description: ''
     min: '106'
     max: '106'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +minor 2nd
     value: '24'
     description: ''
     min: '107'
     max: '107'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +major 2nd
     value: '24'
     description: ''
     min: '108'
     max: '108'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +minor 3rd
     value: '24'
     description: ''
     min: '109'
     max: '109'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +major 3rd
     value: '24'
     description: ''
     min: '110'
     max: '110'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +perfect 4th
     value: '24'
     description: ''
     min: '111'
     max: '111'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +dim 5th
     value: '24'
     description: ''
     min: '112'
     max: '112'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +perfect 5th
     value: '24'
     description: ''
     min: '113'
     max: '113'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +augmented 5th
     value: '24'
     description: ''
     min: '114'
     max: '114'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +major 6th
     value: '24'
     description: ''
     min: '115'
     max: '115'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +minor 7th
     value: '24'
     description: ''
     min: '116'
     max: '116'
+    type: variable
   - name: Pitch Shift Interval - Reverse +octave +major 7th
     value: '24'
     description: ''
     min: '117'
     max: '117'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves
     value: '24'
     description: ''
     min: '118'
     max: '118'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +minor 2nd
     value: '24'
     description: ''
     min: '119'
     max: '119'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +major 2nd
     value: '24'
     description: ''
     min: '120'
     max: '120'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +minor 3rd
     value: '24'
     description: ''
     min: '121'
     max: '121'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +major 3rd
     value: '24'
     description: ''
     min: '122'
     max: '122'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +perfect 4th
     value: '24'
     description: ''
     min: '123'
     max: '123'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +dim 5th
     value: '24'
     description: ''
     min: '124'
     max: '124'
+    type: variable
   - name: Pitch Shift Interval - Reverse +2 octaves +perfect 5th
     value: '24'
     description: ''
     min: '125'
     max: '125'
+    type: variable
   - name: 'Tap 1 Level '
     value: 25
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap 1 Pan
     value: 26
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap 2 Level
     value: 27
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap 2 Pan
     value: 28
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap 2 Delay Time - 1/8
     value: 29
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Tap 2 Delay Time - 1/6
     value: '29'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Tap 2 Delay Time - 1/4
     value: '29'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Tap 2 Delay Time - 1/3
     value: '29'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Tap 2 Delay Time - 3/8
     value: '29'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Tap 2 Delay Time - 1/2
     value: '29'
     description: ''
     min: '50'
     max: '50'
+    type: variable
   - name: Tap 2 Delay Time - Golden Ratio
     value: '29'
     description: ''
     min: '62'
     max: '62'
+    type: variable
   - name: Tap 2 Delay Time - 2/3
     value: '29'
     description: ''
     min: '67'
     max: '67'
+    type: variable
   - name: Tap 2 Delay Time - 3/4
     value: '29'
     description: ''
     min: '75'
     max: '75'
+    type: variable
   - name: Tap 2 Delay Time - 5/6
     value: '29'
     description: ''
     min: '84'
     max: '84'
+    type: variable
   - name: Tap 2 Delay Time - 7/8
     value: '29'
     description: ''
     min: '87'
     max: '87'
+    type: variable
   - name: Tap 2 Delay Time - 1
     value: '29'
     description: ''
     min: '100'
     max: '100'
+    type: variable
   - name: Input High Pass Cut
     value: 30
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback Maximum -1.0 (Unity - No Oscillation)
     value: 31
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Feedback Maximum -1.25 (Oscillation Allowed)
     value: '31'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Feedback Maximum -1.5 (Oscillation Allowed)
     value: '31'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Feedback Maximum - 2.0 (Oscillation Allowed)
     value: '31'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Lock to Delay
     value: 32
     description: ''
     min: 0
     max: '65'
+    type: variable
   - name: Invert L Phase
     value: 33
     description: ''
     min: 0
     max: '65'
+    type: variable
   - name: Invert R Phase
     value: 34
     description: ''
     min: 0
     max: '65'
+    type: variable
   - name: I/O Routing Option - Default - Auto Select
     value: 35
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: 'I/O Routing Option - Mono In, Mono Stereo Out w/hardware bypass'
     value: '35'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: 'I/O Routing Option - Mono In, Mono Out + Input 1 Thru > Input 2'
     value: '35'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: 'I/O Routing Option - Mono In, Stereo Out w/soft bypass'
     value: '35'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: 'I/O Routing Option - Stereo In, Stereo Out'
     value: '35'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: I/O Routing Option - External Loop - Feedback Insert
     value: '35'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: I/O Routing Option - External Loop - Pre Effect
     value: '35'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Multi-Feedback Mode - OFF
     value: 36
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Multi-Feedback Mode - Tap 1 Only
     value: '36'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Multi-Feedback Mode - Tap 2 Only
     value: '36'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Multi-Feedback Mode - Tap 1 & Tap 2
     value: '36'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Sum To Mono
     value: 37
     description: ''
     min: 0
     max: '65'
+    type: variable
   - name: Bypass/Engage
     value: 38
     description: ''
     min: 0
     max: '65'
+    type: variable
   - name: Intensity Knob - Factory Default
     value: 39
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Intensity Knob - Output Volume
     value: '39'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Intensity Knob - Diffusion
     value: '39'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Intensity Knob - Distortion
     value: '39'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Intensity Knob - Low Cut Filter
     value: '39'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Intensity Knob - High Cut Filter
     value: '39'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Intensity Knob - Sample Rate Reduction
     value: '39'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Intensity Knob - Sweep Filter Frequency
     value: '39'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Intensity Knob - Sweep Filter Q
     value: '39'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Intensity Knob - Sweep Filter Depth
     value: '39'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Intensity Knob - Sweep Filter Mix
     value: '39'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Intensity Knob - Wow and Flutter Noise
     value: '39'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Intensity Knob - Tremolo Depth
     value: '39'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Intensity Knob - Pitch Control
     value: '39'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Intensity Knob - Delay Effect Send Level
     value: '39'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Mod Knob - Time Modulation
     value: 40
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Mod Knob - Tape Mod
     value: '40'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Mod Knob - Filter Mod
     value: '40'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Mod Knob - Tremolo
     value: '40'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Rate Knob - Modulation Rate
     value: 41
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Rate Knob - Tape Speed
     value: '41'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Tap Beat Division - Whole
     value: 42
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Tap Beat Division - Dotted Half
     value: '42'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Tap Beat Division - Half
     value: '42'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Tap Beat Division - Golden Ratio
     value: '42'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Tap Beat Division - Dotted Quarter
     value: '42'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Tap Beat Division - Swing Quarter
     value: '42'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Tap Beat Division - Quarter
     value: '42'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Tap Beat Division - Dotted 8th
     value: '42'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Tap Beat Division - Swing 8th
     value: '42'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Tap Beat Division - Inv Golden Ratio
     value: '42'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Tap Beat Division - Straight 8th
     value: '42'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Tap Beat Division - Triplet
     value: '42'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Tap Beat Division - 16th
     value: '42'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Tap Beat Division - Sextuplet
     value: '42'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Tap Beat Division - 32nd
     value: '42'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: 'Octave Shift Control '
     value: 50
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Delay Send Control
     value: 51
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preset Decrerment
     value: 80
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preset Increment
     value: '81'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: On/Off Status (MIDI Recall)
     value: '82'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Remote Tap
     value: 93
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Infinite Hold
     value: 97
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Remote Bypass
     value: 102
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Recall Preset Bypassed
     value: 103
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Recall Preset Engaged
     value: 104
     description: ''
     min: 0
     max: 127
+    type: variable

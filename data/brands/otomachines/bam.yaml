@@ -5,61 +5,73 @@ cc:
   min: 0
   name: Size
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pre Delay
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Time
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Damping
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Active
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Type
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: In Gain
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Low-cut
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: High-cut
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Freeze
   value: 23
+  type: variable
 device_name: BAM
 midi_channel:
   instructions: ''

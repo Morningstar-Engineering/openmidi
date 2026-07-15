@@ -16,6 +16,7 @@ cc:
     description: Modwheel
     min: 0
     max: 127
+    type: variable
   - name: SHIFT
     value: '8'
     description: >-
@@ -23,21 +24,25 @@ cc:
       [73-90]  = [+4th].   [91-108]  = [+5th].   [109=127]  = [+Oct].
     min: 0
     max: 127
+    type: variable
   - name: RELEASE
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: VIBR/GLIDE
     value: '10'
     description: '[0-63] = [max VIBR - min VIBR].  [64-127] = [min ACCEL - mac ACCEL]'
     min: 0
     max: 127
+    type: variable
   - name: MOD
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: ENGINE
     value: '12'
     description: |+
@@ -49,6 +54,7 @@ cc:
 
     min: 0
     max: 127
+    type: variable
   - name: PEDAL
     value: '13'
     description: |-
@@ -59,22 +65,26 @@ cc:
       [103-127] - Pedal Mode 5: VOLUME
     min: 0
     max: 127
+    type: variable
   - name: EFFECT ON (FSW)
     value: '14'
     description: |
       [0-63] = OFF
     min: 0
     max: 127
+    type: variable
   - name: Pedal Value
     value: '15'
     description: 0 = off 127 = fully pressed (normal range)
     min: 0
     max: 127
+    type: variable
   - name: FLOOR-IT VALUE
     value: '16'
     description: '[0...127] - pressed…..max pressure (floor-it)]'
     min: 0
     max: 127
+    type: variable
   - name: Midi Note ONLY mode
     value: '17'
     description: >-
@@ -82,6 +92,7 @@ cc:
       [64-127] = ON
     min: 0
     max: 127
+    type: variable
   - name: PEDAL + PRESSURE VALUE
     value: '18'
     description: >-
@@ -89,3 +100,4 @@ cc:
       [deadzone].    [103...127] = [pressed...max pressure (floor-It)]
     min: 0
     max: 127
+    type: variable

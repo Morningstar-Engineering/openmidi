@@ -5,191 +5,229 @@ cc:
   min: 0
   name: Accent
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum tune
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum tone
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum compression
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum decay
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass drum level
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum tone
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum snappy
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum compression
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum decay
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Snare drum level
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Low tom tune
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Low tom decay
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Low tom level
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mid tom tune
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mid tom decay
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mid tom level
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: High tom tune
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: High tom decay
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: High tom level
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rim shot tune
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rim shot decay
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rim shot level
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hand clap tune
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hand clap decay
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hand clap level
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Closed hi hat tune
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Closed hi hat decay
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Closed hi hat level
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Open hi hat tune
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Open hi hat decay
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Open hi hat level
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal tone
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal decay
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cymbal level
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cow bell tune
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cow bell decay
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cow bell level
   value: 88
+  type: variable
 device_name: TR-08
 midi_channel:
   instructions: ''

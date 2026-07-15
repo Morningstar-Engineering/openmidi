@@ -5,46 +5,55 @@ cc:
   min: 0
   name: Rate
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hi-cut
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth Right
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth Center
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth Left
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dry Mix
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Level
   value: 91
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 64
+  type: variable
 device_name: TA-1H Tri Avatar
 midi_channel:
   instructions: ''

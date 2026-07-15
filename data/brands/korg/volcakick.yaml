@@ -5,51 +5,61 @@ cc:
   min: 0
   name: Pulse color
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pulse level
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp attack
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp decay
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonator pitch
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonator bend
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonator time
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Accent
   value: 49
+  type: variable
 device_name: volca kick
 midi_channel:
   instructions: ''

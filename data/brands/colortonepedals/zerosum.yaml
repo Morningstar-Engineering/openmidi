@@ -15,78 +15,94 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Rate
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback/Repeats
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Tone
     value: '23'
     description: 64 = Unity ;
     min: 0
     max: 127
+    type: variable
   - name: Stereo Spread
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Mode
     value: '25'
     description: 0 = Dual ; 64 = PPong ; 127 = Single ;
     min: 0
     max: 127
+    type: variable
   - name: Delay Rhythm
     value: '26'
     description: 0 = P1 ; 64 = P2 ; 127 = P3 ;
     min: 0
     max: 127
+    type: variable
   - name: Output Boost
     value: '27'
     description: 64 = Unity ;
     min: 0
     max: 127
+    type: variable
   - name: TTempo Multiplier
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Repeats Tape Saturation
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tape Age Warble
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback EQ Q Factor
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Presets
     value: '33'
     description: 0 = P2 ; 64 = P1 ; 127 = P3 ;
     min: 0
     max: 127
+    type: variable
   - name: Bypass_FxOn
     value: '37'
     description: 0 = Off ; 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Override
     value: '40'
     description: 0 = Off ; 127 = On ;
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Division
     value: '41'
     description: 0 = 0.25 ; 32 = 0.5 ; 64 = 1 ; 96 = 2 ; 127 = 4 ;
     min: 0
     max: 127
+    type: variable

@@ -53,7 +53,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 1 
       LSB CC 33
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod Rate
@@ -62,7 +62,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 3
       LSB CC 35
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Glide Time
@@ -71,7 +71,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 5
       LSB CC 37
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp/Seq Rate
@@ -80,7 +80,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 8
       LSB CC 40
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Noise Filter Cutoff
@@ -89,7 +89,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 9
       LSB CC 41
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Delay Time
@@ -98,7 +98,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 12
       LSB CC 44
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Delay Spacing
@@ -107,7 +107,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 13
       LSB CC 45
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Swing
@@ -116,7 +116,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 14
       LSB CC 46
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Gate Length
@@ -125,7 +125,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 15
       LSB CC 47
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 2 Frequency
@@ -134,7 +134,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 16
       LSB CC 48
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 3 Frequency
@@ -143,7 +143,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 17
       LSB CC 49
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 4 Frequency
@@ -152,7 +152,7 @@ cc:
       LSB can be used to increase max to 16383 
       MSB CC 18
       LSB CC 50
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sustain Pedal
@@ -160,7 +160,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Glide On
@@ -168,7 +168,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Latch
@@ -176,7 +176,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Play
@@ -184,7 +184,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 1 Octave
@@ -194,7 +194,7 @@ cc:
       Values 32-63 = 8'
       Values 96-127 = 2'
       Values 64-95 = 4'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 2 Octave
@@ -204,7 +204,7 @@ cc:
       Values 32-63 = 8'
       Values 64-95 = 4'
       Values 96-127 = 2'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 3 Octave
@@ -214,7 +214,7 @@ cc:
       Values 32-63 = 8'
       Values 64-95 = 4'
       Values 96-127 = 2'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 4 Octave
@@ -224,7 +224,7 @@ cc:
       Values 32-63 = 8'
       Values 64-95 = 4'
       Values 96-127 = 2'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Hard Sync Enable
@@ -232,7 +232,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 2 Sync
@@ -240,7 +240,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 3 Sync
@@ -248,7 +248,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Osc 4 Sync
@@ -256,7 +256,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Glide Type
@@ -265,7 +265,7 @@ cc:
       Values 0-42 = LCR
       Values 43-84 = LCT
       Values 85-127 = EXP
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Gated Glide
@@ -273,7 +273,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Legato Glide
@@ -281,7 +281,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Delay Ping Pong
@@ -289,7 +289,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Delay Sync
@@ -297,7 +297,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Square LFO Polarity
@@ -305,7 +305,7 @@ cc:
     description: |
       Values 0-63 = UNIPOLAR
       Values 64-127 = BIPOLAR
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Mode
@@ -314,7 +314,7 @@ cc:
       Values 0-42 = ARP
       Values 43-84 = SEQ
       Values 85-127 = REC
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Pattern
@@ -323,7 +323,7 @@ cc:
       Values 0-42 = ORDER
       Values 43-84 = FW/BW
       Values 85-127 = RANDOM
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp Range / Bank
@@ -332,7 +332,7 @@ cc:
       Values 0-42 = 1 Octave / Bank 1
       Values 43-84 = 2 Octaves / Bank 2
       Values 85-127 = 3 Octaves / Bank 3
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Paraphony Voice Mode
@@ -341,7 +341,7 @@ cc:
       Values 0-42 = 1 VOICE
       Values 43-84 = 2 VOICES
       Values 85-127= 4 VOICES
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Multi Trig
@@ -349,7 +349,7 @@ cc:
     description: |
       Values 0-63 = OFF
       Values 64-127 = ON
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: KB Octave
@@ -360,14 +360,14 @@ cc:
       Values 51-76 = 0
       Values 77-101 = +1
       Values 102-127 = +2
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Arp/Sequencer Gate Length
     value: 106
     description: |
       Value 64 = 50% gate length (default)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Unit ID
@@ -375,7 +375,7 @@ cc:
     description: |
       Values 0-15
       Default 0
-    type: System
+    type: variable
     min: 0
     max: 15
   - name: Tuning Scale
@@ -383,7 +383,7 @@ cc:
     description: |
       Values 0-31
       Default 0 / 12-TET
-    type: System
+    type: variable
     min: 0
     max: 31
   - name: Knob Mode
@@ -391,7 +391,7 @@ cc:
     description: |
       Values 0 = Snap, 1 = Pass-Thru, 2 = Relative
       Default 2 / Relative
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Note Priority
@@ -399,7 +399,7 @@ cc:
     description: |
       Values 0 = Low, 1 = High, 2 = Last Note
       Default 2 / Last Note
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Transmit Program Change
@@ -407,7 +407,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Receive Program Change
@@ -415,7 +415,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: MIDI Input Ports
@@ -423,7 +423,7 @@ cc:
     description: |
       Values 0 = none, 1 = DIN only, 2 = USB only, 3 = Both
       Default 3 / Both DIN and USB
-    type: System
+    type: variable
     min: 0
     max: 4
   - name: MIDI Output Ports
@@ -431,7 +431,7 @@ cc:
     description: |
       Values 0 = none, 1 = DIN only, 2 = USB only, 3 = Both
       Default 3 / Both DIN and USB
-    type: System
+    type: variable
     min: 0
     max: 4
   - name: MIDI Echo USB In
@@ -441,7 +441,7 @@ cc:
       Out, 3 = Echo USB In to Both DIN and USB Out
 
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 4
   - name: MIDI Echo DIN In
@@ -451,7 +451,7 @@ cc:
       Out, 3 = Echo DIN In to Both DIN and USB Out
 
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 4
   - name: MIDI Channel IN
@@ -459,7 +459,7 @@ cc:
     description: |
       Values 0-15 = MIDI Channel 1-16
       Default 0 / MIDI Channel 1
-    type: System
+    type: variable
     min: 0
     max: 15
   - name: MIDI Channel OUT
@@ -467,7 +467,7 @@ cc:
     description: |
       Values 0-15 = MIDI Channel 1-16
       Default 0 / MIDI Channel 1
-    type: System
+    type: variable
     min: 0
     max: 15
   - name: MIDI Out Filter - Keys
@@ -475,7 +475,7 @@ cc:
     description: |
       Values 0 = OFF, 1 = ON
       Default 1 / ON
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: MIDI Out Filter - Wheels
@@ -483,7 +483,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: MIDI Out FIlter - Panel
@@ -491,7 +491,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Output 14-bit MIDI CCs
@@ -499,7 +499,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: "Local Control: Keys"
@@ -507,7 +507,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: "Local Control: Wheels"
@@ -515,7 +515,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: "Local Control: Panel"
@@ -523,7 +523,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: "Local Control: Arp/Seq"
@@ -531,7 +531,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Sequence Transpose Mode
@@ -539,7 +539,7 @@ cc:
     description: |
       Values 0 = Relative to First Note, 1 = Relative to Middle C
       Default 0 / First Note
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq Keyed Timing Reset
@@ -547,7 +547,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp FW/BW Repeats
@@ -555,7 +555,7 @@ cc:
     description: |
       Values 0 = Don’t Repeat end notes, 1 = Repeat end notes
       Default 1 / Repeat
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq Swing
@@ -563,7 +563,7 @@ cc:
     description: |
       Values 0-16383 = 0 to 100%
       Default 8192 = 50% / no swing
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Sequence Keyboard Control
@@ -571,7 +571,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Delay Sequence Change
@@ -579,7 +579,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Sequence Latch Restart
@@ -587,7 +587,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq Clock Input Mode
@@ -595,7 +595,7 @@ cc:
     description: |
       Values 0 = Clock, 1 = Step-Advance Trigger
       Default 0 / Clock
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq Clock Output
@@ -603,7 +603,7 @@ cc:
     description: |
       Values 0 = Always, 1 = Only When Playing
       Default 1 / When Playing
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp MIDI Output
@@ -611,7 +611,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Send MIDI Clock
@@ -619,7 +619,7 @@ cc:
     description: |
       Values 0 = Off, 1 = Only When Playing, 2 = Always
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Send MIDI Start/Stop
@@ -627,7 +627,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Follow MIDI Clock
@@ -635,7 +635,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Follow MIDI Start/Stop
@@ -643,7 +643,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Follow Song Position Pointer
@@ -651,7 +651,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Clock Input PPQN Index
@@ -659,7 +659,7 @@ cc:
     description: |
       Values 0-15
       Default 3 / sixteenth notes [4PPQN]
-    type: System
+    type: variable
     min: 0
     max: 15
   - name: Clock Output PPQN Index
@@ -667,7 +667,7 @@ cc:
     description: |
       Values 0-15
       Default 3 / sixteenth notes [4PPQN]
-    type: System
+    type: variable
     min: 0
     max: 15
   - name: Pitch Bend Range (Semitones)
@@ -675,7 +675,7 @@ cc:
     description: |
       Values 0-12
       Default 2
-    type: System
+    type: variable
     min: 0
     max: 12
   - name: Keyboard Octave Transpose
@@ -683,7 +683,7 @@ cc:
     description: |
       Values 0-4 = -2 to +2
       Default 2 / no transpose
-    type: System
+    type: variable
     min: 0
     max: 4
   - name: Delayed KB Octave Transpose
@@ -691,7 +691,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Glide Type
@@ -699,7 +699,7 @@ cc:
     description: |
       Values 0 = Linear Constant Rate, 1 = Linear Constant Time, 2 = Exponential
       Default 0 / LCR
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Gated Glide
@@ -707,7 +707,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Legato Glide
@@ -715,7 +715,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 1 / On
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Osc 2 Freq Knob Range
@@ -723,7 +723,7 @@ cc:
     description: |
       Values 0-24 Semitones
       Default 7
-    type: System
+    type: variable
     min: 0
     max: 24
   - name: Osc 3 Freq Knob Range
@@ -731,7 +731,7 @@ cc:
     description: |
       Values 0-24 Semitones
       Default 7
-    type: System
+    type: variable
     min: 0
     max: 24
   - name: Osc 4 Freq Knob Range
@@ -739,7 +739,7 @@ cc:
     description: |
       Values 0-24 Semitones
       Default 7
-    type: System
+    type: variable
     min: 0
     max: 24
   - name: Hard Sync Enable
@@ -747,7 +747,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Osc 2 Hard Sync
@@ -755,7 +755,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Osc 3 Hard Sync
@@ -763,7 +763,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Osc 4 Hard Sync
@@ -771,7 +771,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Delay Ping Pong
@@ -779,7 +779,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Delay Sync
@@ -787,7 +787,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Delay Filter Brightness
@@ -795,7 +795,7 @@ cc:
     description: |
       Values 0 = Dark, 1 = Bright
       Default 1 / Bright
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Delay CV Sync-Bend
@@ -803,7 +803,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Tap-Tempo Clock Division Persistence
@@ -811,7 +811,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Paraphony Mode
@@ -819,7 +819,7 @@ cc:
     description: |
       Values 0 = Mono, 1 = Duo, 2 = Quad
       Default 0 / Mono
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Paraphonic Unison
@@ -827,7 +827,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Multi Trig
@@ -835,7 +835,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Pitch Variance
@@ -843,7 +843,7 @@ cc:
     description: |
       Values 0-400 = Off to +/- 40 cents in 0.1-cent increments.
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: KB CV OUT Range
@@ -851,7 +851,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq CV OUT Range
@@ -859,7 +859,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: KB VEL OUT Range
@@ -867,7 +867,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq VEL OUT Range
@@ -875,7 +875,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: KB AT OUT Range
@@ -883,7 +883,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: MOD WHL OUT Range
@@ -891,7 +891,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: KB GATE OUT Range
@@ -899,7 +899,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Arp/Seq GATE OUT Range
@@ -907,7 +907,7 @@ cc:
     description: |
       Values 0 = -5V to +5V, 1 = 0V to 10V
       Default 0 / -5 to +5
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Round-Robin Mode
@@ -915,7 +915,7 @@ cc:
     description: |
       Values 0 = Off, 1 = First-Note Reset, 2 = On
       Default FirstNote Reset
-    type: System
+    type: variable
     min: 0
     max: 3
   - name: Restore Stolen Voices
@@ -923,7 +923,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Update Unison on Note-Off
@@ -931,7 +931,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Mod Oscillator Square Wave Polarity
@@ -939,7 +939,7 @@ cc:
     description: |
       Values 0 = Unipolar, 1 = Bipolar
       Default 1 / Bipolar
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Noise Filter Cutoff
@@ -947,7 +947,7 @@ cc:
     description: |
       Values 0-16383 = dark to bright
       Default 16383
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Arp/Seq Random Repeats
@@ -957,7 +957,7 @@ cc:
       repeating notes (true random).
 
       Default 1 / Allow Repeats
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: ARP/SEQ CV OUT Mirrors KB CV
@@ -965,7 +965,7 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0 / Off
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: KB CV OUT Mirrors ARP/SEQ CV
@@ -973,6 +973,6 @@ cc:
     description: |
       Values 0 = Off, 1 = On
       Default 0/Off
-    type: System
+    type: variable
     min: 0
     max: 2

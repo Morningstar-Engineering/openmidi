@@ -5,6 +5,7 @@ cc:
   min: 0
   name: 'Noise Gate: Off'
   value: 24
+  type: variable
 device_name: Steve Morse Signature E664
 midi_channel:
   instructions: ''

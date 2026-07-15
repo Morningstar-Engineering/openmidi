@@ -18,151 +18,181 @@ cc:
     min: 0
     name: Bank (MSB) - Preset Group 0 - 127
     value: 0
+    type: variable
   - description: Preset Group 128 - 256
     max: 1
     min: 1
     name: Bank (MSB) - Preset Group 128 - 256
     value: 0
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Expression Pedal 1
     value: 1
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Expression Pedal 2
     value: 2
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Bank (LSB) - Setlist change (PC)
     value: 32
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch A
     value: 35
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch B
     value: 36
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch C
     value: 37
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch D
     value: 38
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch E
     value: 39
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch F
     value: 40
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch G
     value: 41
+    type: variable
   - description: Preset/Stomp/Scene Mode, and Gig View
     max: 127
     min: 0
     name: Enable/Bypass Footswitch H
     value: 42
+    type: variable
   - description: Scene select (A-H)
     max: 7
     min: 0
     name: Scene Select
     value: 43
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Tempo BPM
     value: 44
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Tuner On/Off (< CorOS 2.1.0)
     value: 45
+    type: variable
   - description: null
     max: 63
     min: 0
     name: Tuner Off (>= CorOS 2.1.0)
     value: 45
+    type: variable
   - description: null
     max: 127
     min: 64
     name: Tuner On (>= CorOS 2.1.0)
     value: 45
+    type: variable
   - description: null
     max: 127
     min: 0
     name: Open/Close Gig View (< CorOS 2.1.0)
     value: 46
+    type: variable
   - description: null
     max: 63
     min: 0
     name: Close Gig View (>= CorOS 2.1.0)
     value: 46
+    type: variable
   - description: null
     max: 127
     min: 64
     name: Open Gig View (>= CorOS 2.1.0)
     value: 46
+    type: variable
   - description: null
     max: 0
     min: 0
     name: Change Mode - Preset
     value: 47
+    type: variable
   - description: null
     max: 1
     min: 1
     name: Change Mode - Scene
     value: 47
+    type: variable
   - description: null
     max: 2
     min: 2
     name: Change Mode - Stomp
     value: 47
+    type: variable
   - name: Open / Close Looper UI (< CorOS 2.1.0)
     value: 48
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Close Looper UI (>= CorOS 2.1.0)
     value: 48
     description: ''
     min: 0
     max: 63
+    type: variable
   - name: Open Looper UI (>= CorOS 2.1.0)
     value: 48
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Duplicate / Stop Duplicate
     value: 49
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Enable / Disable One Shot
     value: 50
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Enable / Disable Half Speed
     value: 51
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Punch Feature
     value: 52
     description: |-
@@ -172,6 +202,7 @@ cc:
       0-63 is sent on MIDI controller footswitch release
     min: 0
     max: 127
+    type: variable
   - name: Record / Stop
     value: 53
     description: |-
@@ -181,31 +212,37 @@ cc:
       0-63 is sent on MIDI controller footswitch release
     min: 0
     max: 127
+    type: variable
   - name: Play / Stop
     value: 54
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Enable / Disable Reverse
     value: 55
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Undo / Redo
     value: 56
     description: ''
     min: 64
     max: 127
+    type: variable
   - name: Duplicate Mode Parameter - Free
     value: 57
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Duplicate Mode Parameter - Sync
     value: 57
     description: ''
     min: 1
     max: 1
+    type: variable
   - name: Quantize Parameter
     value: 58
     description: |-
@@ -214,6 +251,7 @@ cc:
       • Value 9 = 16 Beats
     min: 0
     max: 9
+    type: variable
   - name: MIDI Clock Start
     value: 59
     description: |-
@@ -221,6 +259,7 @@ cc:
       • Value 1 = ON
     min: 0
     max: 1
+    type: variable
   - name: Perform / Params mode
     value: 60
     description: |-
@@ -228,8 +267,10 @@ cc:
       • Value 1 = Params Mode
     min: 0
     max: 1
+    type: variable
   - name: Routing Mode parameter
     value: 61
     description: Value 0-13 = Grid > I/Os > Multi Out
     min: 0
     max: 13
+    type: variable

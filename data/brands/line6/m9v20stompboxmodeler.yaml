@@ -5,156 +5,187 @@ cc:
   min: 0
   name: 'Looper: Overdub'
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Record'
   value: 50
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Looper: Stop'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Play'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Play Once'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Undo/Redo'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Reverse Toggle'
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Half Speed Toggle'
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Looper On
   value: 86
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Looper Off
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal 1
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal 2
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Tempo
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 1A: On'
   value: 11
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 1A: Bypass'
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 1B: On'
   value: 12
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 1B: Bypass'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 2A: On'
   value: 14
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 2A: Bypass'
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 2B: On'
   value: 15
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 2B: Bypass'
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 3A: On'
   value: 17
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 3A: Bypass'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'FX Unit 3B: On'
   value: 18
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'FX Unit 3B: Bypass'
   value: 18
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass All + FX Loop
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage All + FX Loop
   value: 23
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass All excl. FX Loop
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage All excl. FX Loop
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tuner On
   value: 69
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Tuner Off
   value: 69
+  type: variable
 device_name: M9 v2.0 Stompbox Modeler
 midi_channel:
   instructions: ''

@@ -14,82 +14,98 @@ cc:
   description: 0 = DynIR Engine ; 1 = IR loader
   min: 0
   max: '1'
+  type: variable
 - name: Noise Gate On/Off
   value: '1'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: Noise Gate Mode
   value: '2'
   description: 0 = Soft ; 1 = Hard
   min: 0
   max: '1'
+  type: variable
 - name: Noise Gate Threshold
   value: '3'
   description: "\t0 = -80dB ; 80 = 0db"
   min: 0
   max: '80'
+  type: variable
 - name: Preamp On/Off
   value: '4'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: Preamp Model
   value: '5'
   description: 0 = Foundry ; 1 = Foxy ; 2 = Albion ; 3 = Nifty Fifty ; 4 = Peggy
   min: 0
   max: '4'
+  type: variable
 - name: Preamp Gain
   value: '6'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Preamp Treble
   value: '7'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Preamp Mid
   value: '8'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Preamp Bass
   value: '9'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Power Amp On/Off
   value: '10'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: Power Amp Model
   value: '11'
   description: 0 = SE 6L6 ; 1 = SE EL34 ; 2 = SE EL84 ; 3 = SE KT88 ; 4 = PP 6L6 ;  5
     = PP EL34 ; 6 = PP EL84 ; 7 = PP KT88
   min: 0
   max: '7'
+  type: variable
 - name: Power Amp Volume
   value: '12'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Power Amp Contour (PP models only)
   value: '13'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Power Amp Depth (PP models only)
   value: '14'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: Power Amp Type (PP models only)
   value: '15'
   description: 0 = Triode ; 1 = Pentode
   min: 0
   max: '1'
+  type: variable
 - name: Miking On/Off (DynIR Engine only)
   value: '16'
   description: '0 = Off ; 1 = On
@@ -97,21 +113,25 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: Miking Virtual Cabinet (DynIR Engine only)
   value: '17'
   description: '0 = DynIR #0 ; 1 = DynIR #1…'
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic A : Model (DynIR Engine only)'
   value: '18'
   description: '0 = Mic #1 ; 1 = Mic #2…'
   min: 0
   max: '7'
+  type: variable
 - name: 'Mic B : Model (DynIR Engine only)'
   value: '19'
   description: '0 = Mic #1 ; 1 = Mic #2…'
   min: 0
   max: '7'
+  type: variable
 - name: "Mic A : Level\t(Both Modes)"
   value: '20'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -119,26 +139,31 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Mic A : Bypass\t(Both Modes)"
   value: '21'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: "Mic A : Mute\t(Both Modes)"
   value: '22'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic A : Phase (Both Modes)'
   value: '23'
   description: 0 = Normal ; 1 = Invert
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic B : Level (Both Modes)'
   value: '24'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic B : Bypass (Both Modes)'
   value: '25'
   description: '0 = Off ; 1 = On
@@ -146,6 +171,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic B : Mute (Both modes)'
   value: '26'
   description: '0 = Off ; 1 = On
@@ -153,6 +179,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic B : Phase (Both modes)'
   value: '27'
   description: '0 = Off ; 1 = On
@@ -160,11 +187,13 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic A : Axis (DynIR Engine only)'
   value: '28'
   description: 0 = 0% ; 63 = 50% ; 127 = 100%
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic A : Distance (DynIR Engine only)'
   value: '29'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -172,6 +201,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic A : Position (DynIR Engine only)'
   value: '30'
   description: '0 = Front ; 1 = Back
@@ -179,6 +209,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: 'Mic B : Axis (DynIR Engine only)'
   value: '31'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -186,6 +217,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic B : Distance (DynIR Engine only)'
   value: '32'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -193,11 +225,13 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: 'Mic B : Position (DynIR Engine only)'
   value: '33'
   description: 0 = Front ; 1 = Back
   min: 0
   max: '1'
+  type: variable
 - name: IR File A
   value: '34'
   description: '0 = File #0 ; 1 = File #1…
@@ -205,6 +239,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: IR File B
   value: '35'
   description: '0 = File #0 ; 1 = File #1…
@@ -212,6 +247,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: IR Folder A
   value: '36'
   description: '0= User 0 ; 1= User1; 2 = User 2 ; 3 = User 3
@@ -219,6 +255,7 @@ cc:
     '
   min: 0
   max: '3'
+  type: variable
 - name: IR Folder B
   value: '37'
   description: '0= User 0 ; 1= User1; 2 = User 2 ; 3 = User 3
@@ -226,11 +263,13 @@ cc:
     '
   min: 0
   max: '3'
+  type: variable
 - name: EQ On/Off
   value: '38'
   description: 0 = Off ; 1 = On
   min: 0
   max: '1'
+  type: variable
 - name: "EQ Mode\t"
   value: '39'
   description: '0 = Guitar ; 1 = Bass ; 2 = Custom
@@ -238,6 +277,7 @@ cc:
     '
   min: 0
   max: '2'
+  type: variable
 - name: "Freq : Low Cut\t"
   value: '40'
   description: 'Specific mapping to Hz
@@ -245,6 +285,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Gain: Low\t"
   value: '41'
   description: '0 = -15dB ; 15 = 0dB ; 30 = +15dB
@@ -252,6 +293,7 @@ cc:
     '
   min: 0
   max: '30'
+  type: variable
 - name: "Freq: Low\t"
   value: '42'
   description: 'Specific mapping to Hz
@@ -259,6 +301,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Gain: Low Mid\t"
   value: '43'
   description: '0 = -15dB ; 15 = 0dB ; 30 = +15dB
@@ -266,6 +309,7 @@ cc:
     '
   min: 0
   max: '30'
+  type: variable
 - name: "Freq: Low Mid\t"
   value: '44'
   description: 'Specific mapping to Hz
@@ -273,6 +317,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Gain: Mid\t"
   value: '45'
   description: '0 = -15dB ; 15 = 0dB ; 30 = +15dB
@@ -280,6 +325,7 @@ cc:
     '
   min: 0
   max: '30'
+  type: variable
 - name: "Freq: Mid\t"
   value: '46'
   description: 'Specific mapping to Hz
@@ -287,6 +333,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Gain: High Mid\t"
   value: '47'
   description: '0 = -15dB ; 15 = 0dB ; 30 = +15dB
@@ -294,6 +341,7 @@ cc:
     '
   min: 0
   max: '30'
+  type: variable
 - name: "Freq: High Mid\t"
   value: '48'
   description: 'Specific mapping to Hz
@@ -301,6 +349,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Gain: High\t"
   value: '49'
   description: '0 = -15dB ; 15 = 0dB ; 30 = +15dB
@@ -308,11 +357,13 @@ cc:
     '
   min: 0
   max: '30'
+  type: variable
 - name: "Freq : High\t"
   value: '50'
   description: Specific mapping to Hz
   min: 0
   max: '127'
+  type: variable
 - name: "Freq : High Cut\t"
   value: '51'
   description: 'Specific mapping to Hz
@@ -320,6 +371,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Enhancer On/Off
   value: '52'
   description: '0 = Off ; 1 = On
@@ -327,6 +379,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: Enhancer Instrument
   value: '53'
   description: '0 = Guitar ; 1 = Bass
@@ -334,6 +387,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: "Enhancer Dry / Wet\t"
   value: '54'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -341,6 +395,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Enhancer Body
   value: '55'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -348,6 +403,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Enhancer Thickness
   value: '56'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -355,6 +411,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Enhancer Brilliance
   value: '57'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -362,6 +419,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: "Reverb On / Off\t"
   value: '58'
   description: '0 = Off ; 1 = On
@@ -369,6 +427,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: Reverb Preset
   value: '59'
   description: '0 = Studio A ; 1 = Studio B ; 2 = Basement…
@@ -376,6 +435,7 @@ cc:
     '
   min: 0
   max: '11'
+  type: variable
 - name: Reverb Type
   value: '60'
   description: '0 = Room ; 1 = Ambience
@@ -383,6 +443,7 @@ cc:
     '
   min: 0
   max: '1'
+  type: variable
 - name: "Reverb Dry / Wet\t"
   value: '61'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -390,6 +451,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Reverb Size
   value: '62'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -397,6 +459,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Reverb Echo
   value: '63'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -404,6 +467,7 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Reverb Color
   value: '64'
   description: '0 = 0% ; 63 = 50% ; 127 = 100%
@@ -411,11 +475,13 @@ cc:
     '
   min: 0
   max: '127'
+  type: variable
 - name: Preset Level
   value: '65'
   description: "-"
   min: 0
   max: '107'
+  type: variable
 - name: Master Volume
   value: '66'
   description: '0 = Mute ; 1-100 = Level
@@ -423,13 +489,16 @@ cc:
     '
   min: 0
   max: '100'
+  type: variable
 - name: Master Mute
   value: '67'
   description: '0 = Off (no mute) ; 1 = On (mute)'
   min: 0
   max: '1'
+  type: variable
 - name: Preset
   value: '68'
   description: '0 = Preset #1 ; 1 = Preset #2…'
   min: 0
   max: '99'
+  type: variable

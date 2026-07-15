@@ -22,968 +22,1162 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 1 Trim
     value: 1
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 2 Trim
     value: 2
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Channel 1, Band 1 - Level'
     value: 3
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 2 - Level'
     value: 4
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 3 - Level'
     value: 5
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 4 - Level'
     value: 6
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 5 - Level'
     value: 7
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 6 - Level'
     value: 8
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 7 - Level'
     value: 9
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 8 - Level'
     value: 10
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 9 - Level'
     value: 11
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 10 - Level'
     value: 12
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 1 - Level'
     value: 13
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 2 - Level'
     value: 14
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 3 - Level'
     value: 15
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 4 - Level'
     value: 16
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 5 - Level'
     value: 17
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 6 - Level'
     value: 18
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 7 - Level'
     value: 19
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 8 - Level'
     value: 20
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 9 - Level'
     value: 21
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 2, Band 10 - Level'
     value: 22
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: 'Channel 1, Band 1 - Frequency'
     value: 23
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 2 - Frequency'
     value: 24
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 3 - Frequency'
     value: 25
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 4 - Frequency'
     value: 26
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 5 - Frequency'
     value: 27
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 6 - Frequency'
     value: 28
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 7 - Frequency'
     value: 29
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 8 - Frequency'
     value: 30
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 9 - Frequency'
     value: 31
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 10 - Frequency'
     value: 32
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 1 - Frequency'
     value: 33
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 2 - Frequency'
     value: 34
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 4 - Frequency'
     value: 36
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 5 - Frequency'
     value: 37
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 6 - Frequency'
     value: 38
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 7 - Frequency'
     value: 39
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 8 - Frequency'
     value: 40
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 9 - Frequency'
     value: 41
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 2, Band 10 - Frequency'
     value: '42'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Channel 1, Band 1 - Q'
     value: 43
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 2 - Q'
     value: 44
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 3 - Q'
     value: 45
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 4 - Q'
     value: 46
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 5 - Q'
     value: 47
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 6 - Q'
     value: 48
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 7 - Q'
     value: 49
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 8 - Q'
     value: 50
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 9 - Q'
     value: 51
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 1, Band 10 - Q'
     value: 52
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 1 - Q'
     value: 53
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 2 - Q'
     value: 54
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 3 - Q'
     value: 55
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 4 - Q'
     value: 56
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 5 - Q'
     value: 57
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 6 - Q'
     value: 58
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 7 - Q'
     value: 59
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 8 - Q'
     value: 60
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 9 - Q'
     value: 61
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: 'Channel 2, Band 10 - Q'
     value: 62
     description: ''
     min: 0
     max: '95'
+    type: variable
   - name: Channel Config 1
     value: 83
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Channel Config 2
     value: 84
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Channel 1 Phase
     value: 85
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Channel 2 Phase
     value: 86
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Channel 1 Mute
     value: 87
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel 2 Mute
     value: 88
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel 1 Constant Q
     value: 89
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel 2 Constant Q
     value: 90
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel 1 Gain
     value: 91
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: Channel 2 Gain
     value: 92
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: Split Channels
     value: 93
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Limiter Enable
     value: 94
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Limiter Look-ahead
     value: 95
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Limiter Stereo Link
     value: 96
     description: ''
     min: 0
     max: '1'
+    type: variable
   - name: Gate Enable - OFF
     value: 97
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Gate Enable - Both Channels
     value: '97'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Gate Enable - Channel 1
     value: '97'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Gate Enable - Channel 2
     value: '97'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Gate Threshold
     value: '98'
     description: ''
     min: 0
     max: '75'
+    type: variable
   - name: Gate Source - Channel 1
     value: '99'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Gate Source - Channel 2
     value: '99'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Channel 1 Input High Pass - 10.0 Hz
     value: '100'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Channel 1 Input High Pass - 12.5 Hz
     value: '100'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Channel 1 Input High Pass - 15.0 Hz
     value: '100'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Channel 1 Input High Pass - 17.5 Hz
     value: '100'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Channel 1 Input High Pass - 20.0 Hz
     value: '100'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Channel 1 Input High Pass - 22.5 Hz
     value: '100'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Channel 1 Input High Pass - 25.0 Hz
     value: '100'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Channel 1 Input High Pass - 27.5 Hz
     value: '100'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Channel 1 Input High Pass - 30.0 Hz
     value: '100'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Channel 1 Input High Pass - 32.5 Hz
     value: '100'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Channel 1 Input High Pass - 35.0 Hz
     value: '100'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Channel 1 Input High Pass - 37.5 Hz
     value: '100'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Channel 1 Input High Pass - 40.0 Hz
     value: '100'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Channel 1 Input High Pass - 42.5 Hz
     value: '100'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Channel 1 Input High Pass - 45.0 Hz
     value: '100'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Channel 1 Input High Pass - 47.5 Hz
     value: '100'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Channel 1 Input High Pass - 50.0 Hz
     value: '100'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Channel 1 Input High Pass - 52.5 Hz
     value: '100'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Channel 1 Input High Pass - 55.0 Hz
     value: '100'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Channel 1 Input High Pass - 57.5 Hz
     value: '100'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Channel 1 Input High Pass - 60.0 Hz
     value: '100'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Channel 1 Input High Pass - 62.5 Hz
     value: '100'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Channel 1 Input High Pass - 65.0 Hz
     value: '100'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Channel 1 Input High Pass - 67.5 Hz
     value: '100'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Channel 1 Input High Pass - 70.0 Hz
     value: '100'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Channel 1 Input High Pass - 72.5 Hz
     value: '100'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Channel 1 Input High Pass - 75.0 Hz
     value: '100'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Channel 1 Input High Pass - 77.5 Hz
     value: '100'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Channel 1 Input High Pass - 80.0 Hz
     value: '100'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: Channel 1 Input High Pass - 85.0 Hz
     value: '100'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Channel 1 Input High Pass - 90.0 Hz
     value: '100'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Channel 1 Input High Pass - 95.0 Hz
     value: '100'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Channel 1 Input High Pass - 100.0 Hz
     value: '100'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Channel 1 Input High Pass - 110.0 Hz
     value: '100'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Channel 1 Input High Pass - 120.0 Hz
     value: '100'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Channel 1 Input High Pass - 130.0 Hz
     value: '100'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Channel 1 Input High Pass - 140.0 Hz
     value: '100'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Channel 1 Input High Pass - 150.0 Hz
     value: '100'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Channel 1 Input High Pass - 160.0 Hz
     value: '100'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Channel 1 Input High Pass - 180.0 Hz
     value: '100'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Channel 1 Input High Pass - 200.0 Hz
     value: '100'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Channel 1 Input High Pass - 220.0 Hz
     value: '100'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Channel 1 Input High Pass - 250.0 Hz
     value: '100'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: Channel 2 Input High Pass - 10.0 Hz
     value: '101'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Channel 2 Input High Pass - 12.5 Hz
     value: '101'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Channel 2 Input High Pass - 15.0 Hz
     value: '101'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Channel 2 Input High Pass - 17.5 Hz
     value: '101'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Channel 2 Input High Pass - 20.0 Hz
     value: '101'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Channel 2 Input High Pass - 22.5 Hz
     value: '101'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Channel 2 Input High Pass - 25.0 Hz
     value: '101'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Channel 2 Input High Pass - 27.5 Hz
     value: '101'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Channel 2 Input High Pass - 30.0 Hz
     value: '101'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Channel 2 Input High Pass - 32.5 Hz
     value: '101'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Channel 2 Input High Pass - 35.0 Hz
     value: '101'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Channel 2 Input High Pass - 37.5 Hz
     value: '101'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Channel 2 Input High Pass - 40.0 Hz
     value: '101'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Channel 2 Input High Pass - 42.5 Hz
     value: '101'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Channel 2 Input High Pass - 45.0 Hz
     value: '101'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Channel 2 Input High Pass - 47.5 Hz
     value: '101'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Channel 2 Input High Pass - 50.0 Hz
     value: '101'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Channel 2 Input High Pass - 52.5 Hz
     value: '101'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Channel 2 Input High Pass - 55.0 Hz
     value: '101'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Channel 2 Input High Pass - 57.5 Hz
     value: '101'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Channel 2 Input High Pass - 60.0 Hz
     value: '101'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Channel 2 Input High Pass - 62.5 Hz
     value: '101'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Channel 2 Input High Pass - 65.0 Hz
     value: '101'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Channel 2 Input High Pass - 67.5 Hz
     value: '101'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Channel 2 Input High Pass - 70.0 Hz
     value: '101'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Channel 2 Input High Pass - 72.5 Hz
     value: '101'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Channel 2 Input High Pass - 75.0 Hz
     value: '101'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Channel 2 Input High Pass - 77.5 Hz
     value: '101'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Channel 2 Input High Pass - 80.0 Hz
     value: '101'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: Channel 2 Input High Pass - 85.0 Hz
     value: '101'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Channel 2 Input High Pass - 90.0 Hz
     value: '101'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Channel 2 Input High Pass - 95.0 Hz
     value: '101'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Channel 2 Input High Pass - 100.0 Hz
     value: '101'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Channel 2 Input High Pass - 110.0 Hz
     value: '101'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Channel 2 Input High Pass - 120.0 Hz
     value: '101'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Channel 2 Input High Pass - 130.0 Hz
     value: '101'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Channel 2 Input High Pass - 140.0 Hz
     value: '101'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Channel 2 Input High Pass - 150.0 Hz
     value: '101'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Channel 2 Input High Pass - 160.0 Hz
     value: '101'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Channel 2 Input High Pass - 180.0 Hz
     value: '101'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Channel 2 Input High Pass - 200.0 Hz
     value: '101'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Channel 2 Input High Pass - 220.0 Hz
     value: '101'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Channel 2 Input High Pass - 250.0 Hz
     value: '101'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: Routing Option - Auto-Detect
     value: '102'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: 'Routing Option - Mono Input, Stereo Output'
     value: '102'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: 'Routing Option - Stereo Input, Stereo Output'
     value: '102'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: 'Routing Option - Stereo Input, Mono Output'
     value: '102'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: 'Routing Option - External Loop, 2> Loop->1'
     value: '102'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Routing Option - Cascade - Channel 1->2
     value: '102'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Switch Assign - Disabled
     value: '103'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Switch Assign - Channel Swap
     value: '103'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Switch Assign - Input Select
     value: '103'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Switch Assign - Output Select
     value: '103'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Switch Assign - Use For External Controls
     value: '103'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Switch Action - Momentary
     value: '104'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Switch Action - Latching
     value: '104'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Enable External Control
     value: '105'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preset Decrement
     value: '106'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preset Increment
     value: '107'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Enable/Disable Tuner
     value: '108'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tuner Input Select
     value: '109'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Remote Switch Function - Momentary
     value: '110'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Remote Switch Function - Latching
     value: '110'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Remote Expression
     value: '111'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass/Engage
     value: '112'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Toggle Bypass/Engage
     value: '113'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Recall Preset Bypassed
     value: '114'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Recall Preset Engaged
     value: '115'
     description: ''
     min: 0
     max: 127
+    type: variable

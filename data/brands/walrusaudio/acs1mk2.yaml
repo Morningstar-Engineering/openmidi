@@ -17,228 +17,274 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass Right
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid Left
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid Right
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Left
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Right
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Vol Left
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Vol Right
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain Left
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain Right
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Cab Left - Fender
     value: 26
     description: '0: SM57 1: Royer121'
     max: 1
     min: 0
+    type: variable
   - name: Cab Left - Marshal JTM50
     value: 26
     description: '2: SM57 3: Royer121'
     max: 3
     min: 2
+    type: variable
   - name: Cab Left - Vox
     value: 26
     description: '4: SM57 5: Royer121'
     max: 5
     min: 4
+    type: variable
   - name: Cab Left - Mesa
     value: 26
     description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
     max: 7
     min: 6
+    type: variable
   - name: Cab Left - Kerry Wright
     value: 26
     description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
     max: 9
     min: 8
+    type: variable
   - name: Cab Left - Marshal 4x12
     value: 26
     description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
     max: 11
     min: 10
+    type: variable
   - name: Cab Right - Fender
     value: 27
     description: '0: SM57 1: Royer121'
     max: 1
     min: 0
+    type: variable
   - name: Cab Right - Marshal JTM50
     value: 27
     description: '2: SM57 3: Royer121'
     max: 3
     min: 2
+    type: variable
   - name: Cab Right - Vox
     value: 27
     description: '4: SM57 5: Royer121'
     max: 5
     min: 4
+    type: variable
   - description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
     max: 7
     min: 6
     name: Cab Right - Mesa
     value: 27
+    type: variable
   - name: Cab Right - Kerry Wright
     value: 27
     description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
     max: 9
     min: 8
+    type: variable
   - name: Cab Right - Marshal 4x12
     value: 27
     description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
     max: 11
     min: 10
+    type: variable
   - name: Amp Left - Fullerton
     value: 28
     description:
     max: 0
     min: 0
+    type: variable
   - name: Amp Left - London
     value: 28
     description:
     max: 1
     min: 1
+    type: variable
   - name: Amp Left - Dartford
     value: 28
     description:
     max: 2
     min: 2
+    type: variable
   - name: Amp Left - Red
     value: 28
     description:
     max: 3
     min: 3
+    type: variable
   - name: Amp Left - Citrus
     value: 28
     description:
     max: 4
     min: 4
+    type: variable
   - name: Amp Left- Tread
     value: 28
     description:
     max: 5
     min: 5
+    type: variable
   - name: Amp Right - Fullerton
     value: 29
     description:
     max: 0
     min: 0
+    type: variable
   - name: Amp Right - London
     value: 29
     description:
     max: 1
     min: 1
+    type: variable
   - name: Amp Right - Dartford
     value: 29
     description:
     max: 2
     min: 2
+    type: variable
   - name: Amp Right - Red
     value: 29
     description:
     max: 3
     min: 3
+    type: variable
   - name: Amp Right - Citrus
     value: 29
     description:
     max: 4
     min: 4
+    type: variable
   - name: Amp Right - Tread
     value: 29
     description:
     max: 5
     min: 5
+    type: variable
   - name: Bypass
     value: '30'
     description: ''
     min: 0
     max: '5'
+    type: variable
   - name: Boost Engage
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ir Bypass
     value: '85'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Amp Bypass
     value: '86'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gate Threshold
     value: '89'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gate Release
     value: '90'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Room Select Room
     value: '102'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Room Select Hall
     value: '102'
     description: ''
     min: 1
     max: 1
+    type: variable
   - name: Room Select Spring
     value: '102'
     description: ''
     min: 2
     max: 2
+    type: variable
   - name: Room Decay
     value: '103'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Presence
     value: '104'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Resonance
     value: '105'
     description: ''
     min: 0
     max: 127
+    type: variable

@@ -19,21 +19,25 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dry Trim
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wet Trim
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Expression Pedal
     value: '4'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preamp Type
     value: '5'
     description: >-
@@ -41,6 +45,7 @@ cc:
       vinyl ; 103 to 127 = wavefold ;
     min: 0
     max: 127
+    type: variable
   - name: Preamp Location
     value: '6'
     description: >-
@@ -48,76 +53,91 @@ cc:
       = post ambience ;
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Balance/Dust/Waveshape
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ambience Type
     value: '10'
     description: 0 to 42 = off ; 43 to 85 = vhs delay ; 86 to 127 = vhs verb ;
     min: 0
     max: 127
+    type: variable
   - name: Feedback/Decay
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Age/Ambience mod
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ambience Lows
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass
     value: '14'
     description: 0 to 63 = fx bypass ; 64 to 127 = fx enable ;
     min: 0
     max: 127
+    type: variable
   - name: Time
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Play Speed
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Echo Left Division
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Echo Right Division
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ambience + Echo mix
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dust Amount
     value: '20'
     description: 0 to 42 = light ; 43 to 85 = medium ; 86 to 127 = heavy ;
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock
     value: '21'
     description: >-
@@ -125,41 +145,49 @@ cc:
       ;
     min: 0
     max: 127
+    type: variable
   - name: Sample Rate
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bits
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Crush Location
     value: '25'
     description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
     min: 0
     max: 127
+    type: variable
   - name: Dry Blend (Crush)
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Top Right Knob Assignment
     value: '27'
     description: 0 to 63 = level ; 64 to 127 = glitch ;
     min: 0
     max: 127
+    type: variable
   - name: Bit Scaling
     value: '28'
     description: 0 to 63 = off ; 64 to 127 = on ;
     min: 0
     max: 127
+    type: variable
   - name: Mod Type
     value: '30'
     description: >-
@@ -167,81 +195,97 @@ cc:
       tape mod ; 86 to 106 = freq shift ; 107 to 127 = vibe ;
     min: 0
     max: 127
+    type: variable
   - name: Mod Location
     value: '31'
     description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
     min: 0
     max: 127
+    type: variable
   - name: Mod Speed/Frequency
     value: '32'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Depth/Width
     value: '33'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Shape/Mode
     value: '34'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Blend/Bias
     value: '35'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Mix/Tracking
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Note Div
     value: '37'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 1
     value: '38'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 2
     value: '39'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 3
     value: '40'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 4
     value: '41'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 5
     value: '42'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 6
     value: '43'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 7
     value: '44'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Step 8
     value: '45'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pitch Type
     value: '46'
     description: >-
@@ -249,76 +293,91 @@ cc:
       micro tune ; 86 to 106 = mono chroma ; 107 to 127 = lo-fi ;
     min: 0
     max: 127
+    type: variable
   - name: Pitch Location
     value: '47'
     description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
     min: 0
     max: 127
+    type: variable
   - name: Pitch L
     value: '48'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pitch R
     value: '49'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Pitch Mix
     value: '50'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Key
     value: '51'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Scale
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Correct, Glide'
     value: '53'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Type
     value: '54'
     description: 0 - 42 = ladder ; 43 - 85 = state variable ; 86 - 127 = otto tron ;
     min: 0
     max: 127
+    type: variable
   - name: Filter Location
     value: '55'
     description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
     min: 0
     max: 127
+    type: variable
   - name: Filter Frequency
     value: '56'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Resonance
     value: '57'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Typology
     value: '58'
     description: 0 - 42 = lowpass ; 43 - 85 = bandpass ; 86 - 127 = highpass ;
     min: 0
     max: 127
+    type: variable
   - name: Filter Noise/Mode
     value: '59'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Sensitivity
     value: '60'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Type
     value: '62'
     description: >-
@@ -327,93 +386,112 @@ cc:
       stutter step ;
     min: 0
     max: 127
+    type: variable
   - name: Glitch Location
     value: '63'
     description: 0 to 31 = pre + dry ; 32 to 63 = dry ; 64 to 95 = pre ; 96 to 127 = post ;
     min: 0
     max: 127
+    type: variable
   - name: Glitch Mode
     value: '64'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Speed/Pitch
     value: '65'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Rate/Sub Div
     value: '66'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Gain
     value: '67'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Note Div
     value: '68'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Mix/Level
     value: '69'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 1
     value: '70'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 2
     value: '71'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 3
     value: '72'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 4
     value: '73'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 5
     value: '74'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 6
     value: '75'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 7
     value: '76'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Glitch Step 8
     value: '77'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo
     value: '99'
     description: press = 127
     min: 0
     max: 127
+    type: variable
   - name: Toggle Tuner Mode
     value: '117'
     description: press = 127
     min: 0
     max: 127
+    type: variable
   - name: Trigger Hold Modifier
     value: '118'
     description: press = 127
     min: 0
     max: 127
+    type: variable

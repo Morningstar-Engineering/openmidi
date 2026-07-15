@@ -73,55 +73,55 @@ cc:
   - name: Button Presses
     value: 3
     description: Mimic all MIDI PC functions when CC message of matching value is received (check PC Message list)
-    type: Parameter
+    type: variable
     min: 1
     max: 70
   - name: LEVEL knob
     value: 7
     description: Adjust loop volume level
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: OVERDUB knob
     value: 26
     description: Adjust overdub feedback level
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: TEMPO knob
     value: 27
     description: Adjust tempo if applicable
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: TEMPO knob resolution
     value: 110
     description: TM.KN setting  0 = Coarse, 1 = Fine
-    type: Parameter
+    type: variable
     min: 0
     max: 1      
   - name: Fadeout Time setting
     value: 112
     description: 0 = Fadeout disabled, 1 = 1 second fadeout, 2 = 2 second fadeout, etc.
-    type: Parameter
+    type: variable
     min: 0
     max: 99
   - name: Loop Direct Select
     value: 115
     description: 1 = Loop 1, 2 = Loop 2, etc.
-    type: Parameter
+    type: variable
     min: 1
     max: 20
   - name: EXTC setting
     value: 116
     description: |+
       Select EXTC setting: 0 = CX.4B, 1 = XT.4B, 2 = CX.3B, 3 = XT.3B
-    type: Parameter
+    type: variable
     min: 0
     max: 3
   - name: SWFX setting 
     value: 117
     description: Select SWFX setting - 0 = STOP, 1 = OCT, 2 = REV, 3 = RV.OC, 4 = TRIG
-    type: Parameter
+    type: variable
     min: 0
     max: 4

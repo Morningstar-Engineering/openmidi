@@ -17,88 +17,106 @@ cc:
     description: 0 = Bank 1 ; 1 = Bank 2 ; 3 = Bank 3
     min: 0
     max: '2'
+    type: variable
   - name: Rec Level
     value: '11'
     description: 1 = low ; 2 = med ;  3 = high
     min: '1'
     max: '3'
+    type: variable
   - name: Time
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tape Age
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Repeats
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mechanics
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preamp Select
     value: '17'
     description: 1 = off ; 2 = modded EP ; 3 = original EP ;
     min: 0
     max: '3'
+    type: variable
   - name: Tap Division
     value: '18'
     description: 0 = eighth triplet ; 1 = eighth ; 2 = dotted eighth ; 3 = quarter ;
     min: 0
     max: '3'
+    type: variable
   - name: Preamp Boost
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Footswitch
     value: '27'
     description: 0 = release ; 1 - 127 = press
     min: 0
     max: 127
+    type: variable
   - name: MIDI Expression Off/On
     value: '60'
     description: 0 = off ; 1 - 127 = on ;
     min: 0
     max: 127
+    type: variable
   - name: MIDI Clock Off/On
     value: '63'
     description: 0 = off ; 1 - 127 = on ;
     min: 0
     max: 127
+    type: variable
   - name: Tap
     value: '93'
     description: any value
     min: 0
     max: 127
+    type: variable
   - name: 'Infinite '
     value: '97'
     description: 0 = release ; 1 - 127 = hold ;
     min: 0
     max: 127
+    type: variable
   - name: Expression Pedal
     value: '100'
     description: 0 = heel ; 127 = toe ;
     min: 0
     max: 127
+    type: variable
   - name: Engage
     value: '102'
     description: ''
     min: 127
     max: 127 
+    type: variable
   - name: Bypass
     value: '102'
     description: ''
     min: 0
     max: 0
+    type: variable

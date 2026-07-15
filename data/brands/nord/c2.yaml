@@ -5,221 +5,265 @@ cc:
   min: 0
   name: Organ Model Select
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth Bass On/Off
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speaker Select
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Tempo
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Feedback
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Swell Only
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Amount
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay On/Off
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Treble
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Bass
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ On/Off
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive Amount
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive On/Off
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Amount
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Selection
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb On/Off
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vib/Chorus/Trem Mode
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato On/Off
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar/Perc Presets
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ped Great Man
   value: 117
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Rotary Speaker: Slow'
   value: 82
+  type: variable
 - description: ''
   max: 64
   min: 64
   name: 'Rotary Speaker: Stop'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Rotary Speaker: Fast'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ped/GR Low Coupler
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SW 16/GR - SW/GR
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 1
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 2
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 3
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 4
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 5
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 6
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 7
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 8
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drawbar 9
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc On/Off
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Soft
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Fast
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Perc Third
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swell 16 & 4 Coupler
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swell/Ped & Gr/Ped Coupler
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swell Pedal
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary Control
   value: 82
+  type: variable
 device_name: C2
 midi_channel:
   instructions: ''

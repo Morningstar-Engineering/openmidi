@@ -25,7 +25,7 @@ cc:
   - name: Rhythm Start
     value: 1
     description: Start the rhythm
-    type: Parameter
+    type: variable
     min: 0
     max: 95
   - name: Rhythm Division
@@ -33,83 +33,100 @@ cc:
     value: 2
     min: 0
     max: 127
+    type: variable
   - name: Rhythm Fill-in
     description: Play a fill-in
     value: 3
     min: 0
     max: 127
+    type: variable
   - name: Rhythm Stop
     description: Stops the rhythm
     value: 4
     min: 0
     max: 127
+    type: variable
   - name: Rhythm Break
     description: Break the rhythm playback
     value: 5
     min: 0
     max: 127
+    type: variable
   - name: Rhy Level
     description: Adjust the rhythm playback level
     value: 6
     min: 0
     max: 127
+    type: variable
   - name: Loop Start
     description: Start the Looper
     value: 7
     min: 0
     max: 127
+    type: variable
   - name: Loop Stop
     description: Stop the Looper
     value: 8
     min: 0
     max: 127
+    type: variable
   - name: Loop Undo/Redo
     description: Loop Undo and Redo
     value: 9
     min: 0
     max: 127
+    type: variable
   - name: TRK1 Start
     description: Play TRK1
     value: 10
     min: 0
     max: 127
+    type: variable
   - name: TRK1 Stop
     description: Stop TRK1
     value: 11
     min: 0
     max: 127
+    type: variable
   - name: TRK1 UnRedo
     description: Executes undo/redo on TRK1
     value: 12
     min: 0
     max: 127
+    type: variable
   - name: TRK2 Start
     description: Play TRK2
     value: 13
     min: 0
     max: 127
+    type: variable
   - name: TRK2 Stop
     description: Stop TRK2
     value: 14
     min: 0
     max: 127
+    type: variable
   - name: TRK2 UnRedo
     description: Executes undo/redo on TRK2
     value: 15
     min: 0
     max: 127
+    type: variable
   - name: Loop Level
     description: Adjustes the looper plaback level
     value: 16
     min: 0
     max: 127
+    type: variable
   - name: Total Level
     description: Adjusts the playback of the rhythm and looper together
     value: 17
     min: 0
     max: 127
+    type: variable
   - name: All Break
     description: Breaks the Rhythm and looper together
     value: 18
     min: 0
     max: 127
+    type: variable

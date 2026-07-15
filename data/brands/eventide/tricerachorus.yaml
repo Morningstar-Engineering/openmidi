@@ -5,91 +5,109 @@ cc:
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Engage Pedal
     value: '14'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Bypass Pedal
     value: '14'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Swirl On
     value: '15'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Swirl Off
     value: '15'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Mix
     value: '20'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Rate
     value: '21'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Detune
     value: '22'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Left Vol
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Centre Vol
     value: '24'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Right Vol
     value: '25'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mix Env
     value: '26'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Rate Env
     value: '27'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Pitch
     value: '28'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Delay
     value: '29'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Filter
     value: '30'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Out Level
     value: '31'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Tap Rate
     value: '9'
     description: ''
     min: '127'
     max: '127'
+    type: variable
 
 device_name: Tricerachorus
 midi_channel:

@@ -17,16 +17,19 @@ cc:
     description: Control value of the High-Pass Filter.
     min: 0
     max: 127
+    type: variable
   - name: Low-Pass Filter
     value: '15'
     description: Control value of the Low-Pass Filter.
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '16'
     description: Control value of the wet/dry Mix
     min: 0
     max: 127
+    type: variable
   - name: Compression / Saturation
     value: '17'
     description: >-
@@ -35,275 +38,329 @@ cc:
       Compression or Saturation effect.
     min: 0
     max: 127
+    type: variable
   - name: Wow Frequency
     value: '18'
     description: Control value of Wow Frequency
     min: 0
     max: 127
+    type: variable
   - name: Wow Depth
     value: '19'
     description: Control value of Wow Depth
     min: 0
     max: 127
+    type: variable
   - name: Flutter Depth
     value: '20'
     description: Control value of Flutter Depth
     min: 0
     max: 127
+    type: variable
   - name: Flutter Frequency
     value: '21'
     description: Control value of Flutter Frequency
     min: 0
     max: 127
+    type: variable
   - name: Dropouts Frequency
     value: '22'
     description: Control value of Dropouts Frequency
     min: 0
     max: 127
+    type: variable
   - name: Dropouts Depth
     value: '23'
     description: Control value of Dropouts Depth
     min: 0
     max: 127
+    type: variable
   - name: Crinkle
     value: '24'
     description: Control value of Crinkle
     min: 0
     max: 127
+    type: variable
   - name: Noise
     value: '25'
     description: Control value of Noise
     min: 0
     max: 127
+    type: variable
   - name: Reverb Decay
     value: '26'
     description: Control value of Reverb Decay
     min: 0
     max: 127
+    type: variable
   - name: Reverb Mix & Placement
     value: '27'
     description: Control value of Reverb Mix & Placement
     min: 0
     max: 127
+    type: variable
   - name: Touch Param 1
     value: '28'
     description: Control value of Touch Parameter 1
     min: 0
     max: 127
+    type: variable
   - name: Touch Param 2
     value: '29'
     description: Control value of Touch Parameter 2
     min: 0
     max: 127
+    type: variable
   - name: 'Touch Mode: Magnetic Dance'
     value: '30'
     description: 'Touch Mode selection: Magnetic Dance'
     min: 0
     max: '18'
+    type: variable
   - name: 'Touch Mode: Tape Stop'
     value: '30'
     description: 'Touch Mode selection: Tape Stop'
     min: '19'
     max: '36'
+    type: variable
   - name: 'Touch Mode: Broken Machine'
     value: '30'
     description: 'Touch Mode selection: Broken Machine'
     min: '37'
     max: '54'
+    type: variable
   - name: 'Touch Mode: Repeater'
     value: '30'
     description: 'Touch Mode selection: Repeater'
     min: '50'
     max: '73'
+    type: variable
   - name: 'Touch Mode: Crushed Cassette'
     value: '30'
     description: 'Touch Mode selection: Crushed Cassette'
     min: '74'
     max: '91'
+    type: variable
   - name: 'Touch Mode: Disintegration Loop'
     value: '30'
     description: 'Touch Mode selection: Disintegration Loop'
     min: '92'
     max: '109'
+    type: variable
   - name: 'Touch Mode: UnrealPlayer'
     value: '30'
     description: 'Touch Mode selection: UnrealPlayer'
     min: '110'
     max: 127
+    type: variable
   - name: 'Ribbons Mode: Tape Effects'
     value: '31'
     description: 'Ribbons Mode selection: Tape Effects'
     min: 0
     max: '64'
+    type: variable
   - name: 'Ribbons Mode: Looper'
     value: '31'
     description: 'Ribbons Mode selection: Looper'
     min: '65'
     max: 127
+    type: variable
   - name: Change Looper Track
     value: '32'
     description: 'Change Looper Track: 1'
     min: 0
     max: '31'
+    type: variable
   - name: Change Looper Track
     value: '32'
     description: 'Change Looper Track: 2'
     min: '32'
     max: '63'
+    type: variable
   - name: Change Looper Track
     value: '32'
     description: 'Change Looper Track: 3'
     min: '64'
     max: '95'
+    type: variable
   - name: Change Looper Track
     value: '32'
     description: 'Change Looper Track: 4'
     min: '96'
     max: 127
+    type: variable
   - name: Clear Current Looper Track
     value: '33'
     description: Clear Current Looper Track
     min: '65'
     max: 127
+    type: variable
   - name: Clear All Looper Tracks
     value: '34'
     description: Clear all Looper Tracks
     min: '65'
     max: 127
+    type: variable
   - name: Track 1 Direction
     value: '35'
     description: Control Track 1 Direction
     min: 0
     max: 127
+    type: variable
   - name: Track 1 Speed
     value: '36'
     description: Control Track 1 Speed
     min: 0
     max: 127
+    type: variable
   - name: Track 1 Volume
     value: '37'
     description: Control Track 1 Volume
     min: 0
     max: 127
+    type: variable
   - name: Track 1 Scale
     value: '38'
     description: Control Track 1 Scale
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Direction
     value: '39'
     description: Control Track 2 Direction
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Speed
     value: '40'
     description: Control Track 2 Speed
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Volume
     value: '41'
     description: Control Track 2 Volume
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Scale
     value: '42'
     description: Control Track 2 Scale
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Direction
     value: '43'
     description: Control Track 3 Direction
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Speed
     value: '44'
     description: Control Track 3 Speed
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Volume
     value: '45'
     description: Control Track 3 Volume
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Scale
     value: '46'
     description: |
       Control Track 3 Scale
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Direction
     value: '47'
     description: Control Track 4 Direction
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Speed
     value: '48'
     description: |
       Control Track 4 Speed
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Volume
     value: '49'
     description: |
       Control Track 4 Volume
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Scale
     value: '50'
     description: Control Track 4 Scale
     min: 0
     max: 127
+    type: variable
   - name: Ignore MIDI Clock
     value: '51'
     description: Ignore MIDI Clock (Persistent setting)
     min: 0
     max: '0'
+    type: variable
   - name: Listen MIDI Clock
     value: '51'
     description: |
       Listen to MIDI Clock (Persistent setting)
     min: '1'
     max: 127
+    type: variable
   - name: Synth Attack
     value: '52'
     description: Control Synth Attack
     min: 0
     max: 127
+    type: variable
   - name: Synth Release
     value: '53'
     description: Control Synth Release
     min: 0
     max: 127
+    type: variable
   - name: Synth Volume
     value: '54'
     description: Control Synth Volume
     min: 0
     max: 127
+    type: variable
   - name: UnrealPlayer Fidelity - LoFi
     value: '55'
     description: Select UnrealPlayer Fidelity mode - LoFi
     min: 0
     max: '64'
+    type: variable
   - name: UnrealPlayer Fidelity - HiFi
     value: '55'
     description: Select UnrealPlayer Fidelity mode - HiFi
     min: '65'
     max: 127
+    type: variable
   - name: Reserved
     value: '56'
     description: Reserved
     min: 0
     max: 127
+    type: variable
   - name: Filter Resonance
     value: '57'
     description: Control Filter Resonance
     min: 0
     max: 127
+    type: variable
   - name: Makeup Gain
     value: '58'
     description: Control Makeup Gain
     min: 0
     max: 127
+    type: variable
   - name: Switch Between Compression or Saturation
     value: '59'
     description: >
@@ -311,28 +368,34 @@ cc:
       0-64 = Compression, 65-127 = Saturation
     min: 0
     max: '127'
+    type: variable
   - name: "Clear Touch Mode Loops\t"
     value: '60'
     description: Clear Touch Mode Loops (>= 65 = True)
     min: '65'
     max: 127
+    type: variable
   - name: Touch Footswitch Off
     value: '80'
     description: Control Touch Footswitch
     min: 0
     max: '64'
+    type: variable
   - name: Touch Footswitch On
     value: '80'
     description: Control Touch Footswitch
     min: '65'
     max: 127
+    type: variable
   - name: Bypass Footswitch Off
     value: '81'
     description: Control Bypass Footswitch
     min: 0
     max: '64'
+    type: variable
   - name: Bypass Footswitch On
     value: '81'
     description: Control Bypass Footswitch
     min: '65'
     max: 127
+    type: variable

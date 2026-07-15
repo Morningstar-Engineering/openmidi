@@ -5,6 +5,7 @@ cc:
   min: 0
   name: 'Hi Gain: Off'
   value: 22
+  type: variable
 device_name: Steve Morse Signature E660
 midi_channel:
   instructions: ''

@@ -21,6 +21,7 @@ cc:
       3 : IN/OUT connected to both A and B ;
     min: 0
     max: '3'
+    type: variable
   - name: Skips through the states of the ABY
     value: '21'
     description: |-
@@ -29,6 +30,7 @@ cc:
       2 : A → B ;
     min: 0
     max: '2'
+    type: variable
   - name: Control the switch IN/OUT to A
     value: '22'
     description: |-
@@ -37,6 +39,7 @@ cc:
       2 :Toggle A ;
     min: 0
     max: '2'
+    type: variable
   - name: Control the switch IN/OUT to B
     value: '23'
     description: |-
@@ -45,3 +48,4 @@ cc:
       2 : Toggle B ;
     min: 0
     max: '2'
+    type: variable

@@ -44,323 +44,388 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: rate
     value: 66
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: time
     value: 68
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: mix
     value: 70
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: amount (character)
     value: 65
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: amount (movement)
     value: 67
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: amount (diffusion)
     value: 69
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: amount (texture)
     value: 71
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: sensitivity
     value: 72
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: drift (movement)
     value: 74
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: drift (diffusion)
     value: 76
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: output level
     value: 78
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: effect vol (character)
     value: 73
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: effect vol (movement)
     value: 75
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: effect vol (diffusion)
     value: 77
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: effect vol (texture)
     value: 79
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: character module - drive
     value: 16
     description: ''
     min: 0
     max: 21
+    type: variable
   - name: character module - sweeten
     value: 16
     description: ''
     min: 22
     max: 43
+    type: variable
   - name: character module - fuzz
     value: 16
     description: ''
     min: 44
     max: 65
+    type: variable
   - name: character module - howl
     value: 16
     description: ''
     min: 66
     max: 87
+    type: variable
   - name: character module - swell
     value: 16
     description: ''
     min: 88
     max: 109
+    type: variable
   - name: character module - off
     value: 16
     description: ''
     min: 110
     max: 127
+    type: variable
   - name: movement module - doubler
     value: 17
     description: ''
     min: 0
     max: 21
+    type: variable
   - name: movement module - vibrato
     value: 17
     description: ''
     min: 22
     max: 43
+    type: variable
   - name: movement module - phaser
     value: 17
     description: ''
     min: 44
     max: 65
+    type: variable
   - name: movement module - tremolo
     value: 17
     description: ''
     min: 66
     max: 87
+    type: variable
   - name: movement module - pitch
     value: 17
     description: ''
     min: 88
     max: 109
+    type: variable
   - name: movement module - off
     value: 17
     description: ''
     min: 110
     max: 127
+    type: variable
   - name: diffusion module - cascade
     value: 18
     description: ''
     min: 0
     max: 21
+    type: variable
   - name: diffusion module - reels
     value: 18
     description: ''
     min: 22
     max: 43
+    type: variable
   - name: diffusion module - space
     value: 18
     description: ''
     min: 44
     max: 65
+    type: variable
   - name: diffusion module - collage
     value: 18
     description: ''
     min: 66
     max: 87
+    type: variable
   - name: diffusion module - reverse
     value: 18
     description: ''
     min: 88
     max: 109
+    type: variable
   - name: diffusion module - off
     value: 18
     description: ''
     min: 110
     max: 127
+    type: variable
   - name: texture module - filter
     value: 19
     description: ''
     min: 0
     max: 21
+    type: variable
   - name: texture module - squash
     value: 19
     description: ''
     min: 22
     max: 43
+    type: variable
   - name: texture module - cassette
     value: 19
     description: ''
     min: 44
     max: 65
+    type: variable
   - name: texture module - broken
     value: 19
     description: ''
     min: 66
     max: 87
+    type: variable
   - name: texture module - interference
     value: 19
     description: ''
     min: 88
     max: 109
+    type: variable
   - name: texture module - off
     value: 19
     description: ''
     min: 110
     max: 127
+    type: variable
   - name: standard bypass
     value: 91
     description: bypass (0-64) engage (65-127)
     min: 0
     max: 127
+    type: variable
   - name: total bypass
     value: 92
     description: ''
     min: 0
     max: 31
+    type: variable
   - name: dual bypass
     value: 92
     description: ''
     min: 32
     max: 64
+    type: variable
   - name: total engage
     value: 92
     description: ''
     min: 65
     max: 127
+    type: variable
   - name: gesture play/rec
     value: 80
     description: play (0-64) record (65-127)
     min: 0
     max: 127
+    type: variable
   - name: gesture stop/erase
     value: 81
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: capture stop/clear
     value: 82
     description: ''
     min: 0
     max: 43
+    type: variable
   - name: capture play
     value: 82
     description: ''
     min: 44
     max: 87
+    type: variable
   - name: capture record
     value: 82
     description: ''
     min: 88
     max: 127
+    type: variable
   - name: capture routing post-fx
     value: 83
     description: ''
     min: 0
     max: 64
+    type: variable
   - name: capture routing pre-fx
     value: 83
     description: ''
     min: 65
     max: 127
+    type: variable
   - name: tap tempo
     value: 93
     description: bypass (0-64)
     min: 0
     max: 127
+    type: variable
   - name: filter mode low pass
     value: 84
     description: ''
     min: 0
     max: 43
+    type: variable
   - name: filter mode tilt
     value: 84
     description: ''
     min: 44
     max: 87
+    type: variable
   - name: filter mode high pass
     value: 84
     description: ''
     min: 88
     max: 127
+    type: variable
   - name: calibration level low
     value: 94
     description: ''
     min: 0
     max: 31
+    type: variable
   - name: calibration level medium
     value: 94
     description: ''
     min: 32
     max: 65
+    type: variable
   - name: calibration level high
     value: 94
     description: ''
     min: 64
     max: 95
+    type: variable
   - name: calibration level very high
     value: 94
     description: ''
     min: 95
     max: 127
+    type: variable
   - name: calibration menu exit
     value: 95
     description: ''
     min: 0
     max: 64
+    type: variable
   - name: calibration menu enter
     value: 95
     description: ''
     min: 65
     max: 127
+    type: variable
   - name: Character Module Bypass
     value: '103'
     description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
+    type: variable
   - name: Movement Module Bypass
     value: '104'
     description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
+    type: variable
   - name: Diffusion Module Bypass
     value: '105'
     description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
+    type: variable
   - name: Texture Module Bypass
     value: '106'
     description: 'Bypass (0-63), Engage (64-127)'
     min: 0
     max: 127
+    type: variable

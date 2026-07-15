@@ -5,196 +5,235 @@ cc:
   min: 0
   name: Oscillator 1 shape
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 parameter
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 range
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation operator
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 shape
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 parameter
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 range
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 detune
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator balance
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sub oscillator volume
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise volume
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sub oscillator/transient generator shape
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter resonance
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope to cutoff modulation amount
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to cutoff modulation amount
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 1 attack
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 1 decay
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 1 sustain
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 1 release
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 2 attack
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 2 decay
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 2 sustain
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope 2 release
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 1 waveform
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 1 rate
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 1 rise time
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 1 master/slave
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 2 waveform
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 2 rate
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 2 rise time
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 2 master/slave
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sequencer mode
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Groove template
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Groove amount
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator direction
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator range
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator pattern
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sequencer clock division
   value: 81
+  type: variable
 device_name: Shruthi
 midi_channel:
   instructions: ''

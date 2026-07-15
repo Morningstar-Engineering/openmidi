@@ -40,156 +40,156 @@ cc:
   - name: Record
     value: 1
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Play
     value: 2
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Overdub
     value: 3
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Stop
     value: 4
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Undo
     value: 5
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Redo
     value: 6
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Erase
     value: 7
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 1
     max: 127
   - name: Hold Switch B
     value: 8
     description: "0, Any value >0 (0 is off, >0 is on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Multi-control
     value: 11
     description: "1: Record, 2:Play, 3:Overdub, 4:Stop, 5:Undo, 6:Redo, 7:Erase"
-    type: System
+    type: variable
     min: 1
     max: 7
   - name: Volume
     value: 14
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Layers
     value: 15
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Repeats
     value: 16
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod A
     value: 17
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Stability
     value: 18
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod B
     value: 19
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Ramp
     value: 20
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod A
     value: 21
     description: "Range: 1:Left, 2:Center, 3:Right"
-    type: Parameter
+    type: variable
     min: 1
     max: 3
   - name: Looper Mode
     value: 22
     description: "Range: 1:Left, 2:Center, 3:Right"
-    type: Parameter
+    type: variable
     min: 1
     max: 3
   - name: Mod B
     value: 23
     description: "1:Left, 2:Center, 3:Right"
-    type: Parameter
+    type: variable
     min: 1
     max: 3
   - name: Preview/Save-Load
     value: 24
     description: "1:Left, 2:Center, 3:Right"
-    type: Parameter
+    type: variable
     min: 1
     max: 3
   - name: Mod A
     value: 30
     description: "1:Left, 2:Center, 3:Right"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Mod B
     value: 31
     description: "1:Left, 2:Center, 3:Right"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: MIDI Clock Ignore
     value: 51
     description: "0, Any value >0 (0 is ignore clock, >0 is listen for clock)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Ramping On/Off
     value: 52
     description: "0, Any value >0 (0 is ramping off, >0 is ramping on)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Note Divisions
     value: 54
     description: "0:Whole Note, 1:Half Note, 2:Dotted Note, 3:Quarter Note, 4:Eighth Note, 5:Triplet Note, 6:Sixteenth Note, 7:Thirty-second Note"
-    type: System
+    type: variable
     min: 0
     max: 7
   - name: Expression
     value: 100
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: System
+    type: variable
     min: 0
     max: 127

@@ -17,56 +17,67 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 1 (PG1 upper R)
     value: '51'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 2 (PG1 lower L)
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 4 (PG2 upper L)
     value: '54'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 5 (PG2 upper R)
     value: '55'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 6 (PG2 lower L)
     value: '56'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 7 (PG2 lower R)
     value: '57'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Knob 8 (PG3 upper L)
     value: '58'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ramp Rate
     value: '59'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level
     value: '60'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Ramp Trigger Mode
     value: '61'
     description: '0-50 TOGG, 51-110 MOM, 111-127 CLR*'
     min: 0
     max: 127
+    type: variable
   - name: SOUND MODE
     value: '53'
     description: >-
@@ -74,23 +85,28 @@ cc:
       76-88 REVERSE 89-101 DYNAMIC 102-113 FILTER 114-127 LO-FI
     min: 0
     max: 127
+    type: variable
   - name: TAP TEMPO
     value: '93'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: RAMP TRIGGER
     value: '97'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: EXPRESSION PDL
     value: '100'
     description: '0 HEEL, 127 TOE'
     min: 0
     max: 127
+    type: variable
   - name: BYPASS
     value: '102'
     description: '0 BYP, 127 ON'
     min: 0
     max: 127
+    type: variable

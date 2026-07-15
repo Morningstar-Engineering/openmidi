@@ -7,6 +7,7 @@ cc:
     having the knob turned completely clockwise.'
   min: '1'
   max: '8'
+  type: variable
 - name: 'Gain '
   value: '20'
   description: 'CC #20 with any value of 1 thru 8 controls the Gain knob. 1 is the
@@ -14,16 +15,19 @@ cc:
     having the knob turned completely clockwise.'
   min: '1'
   max: '8'
+  type: variable
 - name: Tone
   value: '21'
   description: 'CC #21 with any value of 1 thru 8 controls the Tone knob'
   min: '1'
   max: '8'
+  type: variable
 - name: 'Mid boost '
   value: '22'
   description: 'CC #22 with any value of 1 thru 8 controls the Mid Boost 1 knob'
   min: '1'
   max: '8'
+  type: variable
 - name: Bypass
   value: '23'
   description: |-
@@ -31,6 +35,7 @@ cc:
     Any value between 64 & 127 turns the Bypass switch on
   min: 0
   max: '127'
+  type: variable
 - name: 'Preset engage/disengage '
   value: '24'
   description: |-
@@ -39,16 +44,19 @@ cc:
     Any value between 64 & 127 turns the Preset switch on
   min: 0
   max: '127'
+  type: variable
 - name: 'Preset increment '
   value: '25'
   description: 'CC #25 any value between 0 & 127 increments the Preset number'
   min: 0
   max: '127'
+  type: variable
 - name: 'Preset decrement '
   value: '26'
   description: 'CC #26 any value between 0 & 127 decrements the Preset number'
   min: 0
   max: '127'
+  type: variable
 - name: 'Circuit select '
   value: '27'
   description: |-
@@ -58,6 +66,7 @@ cc:
     Any value between 86 & 127 activates the Yellow circuit
   min: 0
   max: '127'
+  type: variable
 - name: 'Snapshot '
   value: '28'
   description: |-
@@ -65,6 +74,7 @@ cc:
     This takes a snapshot of your current settings and stores it permanent memory at the appropriate preset location. An example would be to send CC #28 Value 3, this stores a preset in the 3rd slot and can be recalled anytime by sending PC #3
   min: '0'
   max: '127'
+  type: variable
 - name: 'Lead boost '
   value: '29'
   description: |-
@@ -74,6 +84,7 @@ cc:
     (you can also exit the Lead Boost with the foot switches as well)
   min: 0
   max: '127'
+  type: variable
 device_name: Lamb
 midi_channel:
   instructions: ''

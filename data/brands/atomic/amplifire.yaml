@@ -18,232 +18,232 @@ cc:
     description: Wah Pedal
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 22
     name: Volume Pedal Enable
     description: Volume Pedal
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 23
     name: Expression A
     description: Expression A
     max: 127
     min: 0
-    type: parameter
+    type: variable
   - value: 24
     name: Expression B
     description: Expression B
     max: 127
     min: 0
-    type: parameter
+    type: variable
   - value: 18
     name: Tap Tempo Press
     description: Tap Tempo Press
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 80
     name: Bypass Amplifire
     description: Bypass Amplifire
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 81
     name: Effect Loop Enable
     description: Effect Loop Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 20
     name: Volume Enable
     description: Volume Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 19
     name: Wah Enable
     description: Wah Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 82
     name: Boost Enable
     description: Boost Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 83
     name: Effect Enable
     description: Effect Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 25
     name: Chorus Enable
     description: Chorus Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 26
     name: Flanger Enable
     description: Flanger Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 27
     name: Phaser Enable
     description: Phaser Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 28
     name: Tremolo Enable
     description: Tremolo Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 29
     name: Pitchshifter Enable
     description: Pitchshifter Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 84
     name: Echo Enable
     description: Echo Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 85
     name: Reverb Enable
     description: Reverb Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 86
     name: Noise Gate enable
     description: Noise Gate enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 17
     name: Compressor Enable
     description: Compressor Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 87
     name: Graphic Eq enable
     description: Graphic Eq enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 12
     name: Pre-Eq enable
     description: Pre-Eq enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 88
     name: Parametric #1 enable
     description: Parametric #1 enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 89
     name: Parametric #2 enable
     description: Parametric #2 enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 90
     name: Parametric #3 enable
     description: Parametric #3 enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 16
     name: Amp Enable
     description: Amp Enable
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 13
     name: FS1 Press
     description: FS1 Press
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 14
     name: FS2 Press
     description: FS2 Press
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 15
     name: FS3 Press
     description: FS3 Press
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 11
     name: FS4 Press (AA12 only)
     description: FS4 Press (AA12 only)
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 10
     name: FS5 Press (AA12 only)
     description: FS5 Press (AA12 only)
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 9
     name: FS6 Press (AA12 only)
     description: FS6 Press (AA12 only)
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 8
     name: FS7 Press 
     description: FS7 Press 
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 7
     name: FS8 Press 
     description: FS8 Press 
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 6
     name: FS9 Press 
     description: FS9 Press 
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 5
     name: FS0 Press 
     description: FS0 Press 
     max: 127
     min: 0>
-    type: system
+    type: variable
   - value: 4
     name: FS+ Press 
     description: FS+ Press (AA12 only)
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 3
     name: FS- Press 
     description: FS- Press (AA12 only)
     max: 127
     min: 0
-    type: system
+    type: variable
   - value: 84
     name: Echo Enable
     description: Echo Enable
     max: 127
     min: 0
-    type: system
+    type: variable

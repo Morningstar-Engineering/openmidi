@@ -5,51 +5,61 @@ cc:
   min: 0
   name: 'Loop 1: Off'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Loop 1: On'
   value: 80
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Loop 2: Off'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Loop 2: On'
   value: 81
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Loop 3: Off'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Loop 3: On'
   value: 82
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Loop 4: Off'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Loop 4: On'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Global Mute: On'
   value: 7
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Global Mute: Off'
   value: 7
+  type: variable
 device_name: MIDI 4 X LOOP-er
 midi_channel:
   instructions: ''

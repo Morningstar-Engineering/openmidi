@@ -17,26 +17,31 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time Knob
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix Knob
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: LFO Speed Knob
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Modulation Depth Knob
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time Button
     value: '17'
     description: |-
@@ -45,6 +50,7 @@ cc:
       5 = Long
     min: 0
     max: 127
+    type: variable
   - name: SFX Button
     value: '18'
     description: |-
@@ -54,6 +60,7 @@ cc:
       6 = Pong and Halo
     min: 0
     max: 127
+    type: variable
   - name: Taps Button
     value: '19'
     description: |-
@@ -74,11 +81,13 @@ cc:
       10 = Crush On
     min: 0
     max: 127
+    type: variable
   - name: Bypass Button
     value: '21'
     description: 3 = None
     min: 0
     max: 127
+    type: variable
   - name: LFO Mod Button
     value: '24'
     description: |-
@@ -92,11 +101,13 @@ cc:
       10 = Super Random
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo Footswitch
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Engage Footswitch
     value: '27'
     description: |-
@@ -104,16 +115,19 @@ cc:
       4 = Explicitly Not Engaged
     min: 0
     max: 127
+    type: variable
   - name: Jump Footswitch / Preset 1/2
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Freeze Footswitch / Preset 3/4
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Loop Open Close
     value: '31'
     description: |-
@@ -124,13 +138,16 @@ cc:
       close that loop.
     min: 0
     max: 127
+    type: variable
   - name: Second Tap Volume
     value: '76'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Enable MIDI Clock In
     value: '79'
     description: 0=off; 1=on
     min: 0
     max: 127
+    type: variable

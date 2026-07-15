@@ -76,6 +76,7 @@ cc:
       29 = Lo Res Delay
     min: 0
     max: '29'
+    type: variable
   - name: Reverb Model Select
     value: '2'
     description: |-
@@ -97,31 +98,37 @@ cc:
       15 = Reverb Off
     min: 0
     max: '15'
+    type: variable
   - name: Emulates Expression pedal
     value: '3'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Preset Engage
     value: '4'
     description: '0-63: Enables preset (Bypass Off)'
     min: 0
     max: '63'
+    type: variable
   - name: Preset Bypass
     value: '4'
     description: '64-127: Bypasses preset (Bypass On)'
     min: '64'
     max: '127'
+    type: variable
   - name: Classic Looper Mode On/Off
     value: '9'
     description: '0-63 = Off, 64-127 = On'
     min: 0
     max: '127'
+    type: variable
   - name: Delay Time
     value: '11'
     description: '0-127 = 0-100%'
     min: 0
     max: '127'
+    type: variable
   - name: Time Subdivisions
     value: '12'
     description: |
@@ -136,36 +143,43 @@ cc:
       8 = 1/2 Dotted
     min: 0
     max: '8'
+    type: variable
   - name: Delay Repeats (Feedback)
     value: '13'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Delay Tweak
     value: '14'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Delay Tweez
     value: '15'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Delay/Looper Mix Knob
     value: '16'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Reverb Decay
     value: '17'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Reverb Predelay/Diffusion
     value: '18'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Reverb-Delay Routing
     value: '19'
     description: |
@@ -174,43 +188,52 @@ cc:
       2 = Reverb after delay
     min: 0
     max: '2'
+    type: variable
   - name: Reverb Mix (DSP Dry Path) / Reverb Level (Analog Dry Level)
     value: '20'
     description: '0-127'
     min: 0
     max: '127'
+    type: variable
   - name: Tap Tempo
     value: '64'
     description: '64-127'
     min: '64'
     max: '127'
+    type: variable
   - name: Record/Overdub
     value: '60'
     description: '0-63 = Overdub, 64-127 = Record'
     min: 0
     max: '127'
+    type: variable
   - name: Play/Stop
     value: '61'
     description: '0-63 = Stop, 64-127 = Play'
     min: 0
     max: '127'
+    type: variable
   - name: Play Once
     value: '62'
     description: '64-127'
     min: '64'
     max: '127'
+    type: variable
   - name: Undo/Redo the most recent overdub recording
     value: '63'
     description: '0-63 = Undo, 64-127 = Redo'
     min: 0
     max: '127'
+    type: variable
   - name: Forward/Reverse
     value: '65'
     description: '0-63 = Forward, 64-127 = Reverse'
     min: 0
     max: '127'
+    type: variable
   - name: Full Speed/Half Speed
     value: '66'
     description: 0-63 = Full, 64-127 = Half
     min: 0
     max: '127'
+    type: variable

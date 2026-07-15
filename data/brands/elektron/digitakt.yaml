@@ -5,366 +5,439 @@ cc:
   min: 0
   name: Mute
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track Level
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Trig: Note'
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Trig: Velocity'
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Trig: Length'
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Trig: Filter Trig'
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Trig: LFO Trig'
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Tune'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Play Mode'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Bit Reduction'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Sample Slot'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Start'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Length'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Loop Position'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Source: Sample Level'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Frequency'
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Resonance'
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Type'
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Attack Time'
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Decay Time'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Sustain Level'
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Release Time'
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Env. Depth'
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Attack Time'
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Hold Time'
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Decay Time'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Overdrive'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Delay Send'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Reverb Send'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Pan'
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Amp: Volume'
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Speed'
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Multiplier'
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Fade In/Out'
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Destination'
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Waveform'
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Start Phase'
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Trig Mode'
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'LFO: Depth'
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Time'
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Pingpong'
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Stereo Width'
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Feedback'
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Highpass Filter'
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Lowpass Filter'
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Reverb Send'
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Mix Volume'
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Predelay'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Decay Time'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Shelving Freq'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Shelving Gain'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Highpass Filter'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Lowpass Filter'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Pre/Post Comp'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Mix Volume'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Threshold'
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Attack Time'
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Release Time'
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Makeup Gain'
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Pattern Volume'
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Ratio'
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Sidechain Source'
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Sidechain Filter'
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Comp: Dry/Wet Mix'
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL1
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL2
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL3
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL4
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL5
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL6
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL7
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VAL8
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pattern Mute
   value: 66
+  type: variable
 device_name: Digitakt
 midi_channel:
   instructions: ''

@@ -17,98 +17,118 @@ cc:
     description: Pre-amp Bypassed
     min: '1'
     max: '1'
+    type: variable
   - name: Bypass Off
     value: '24'
     description: Pre-amp Engaged
     min: 0
     max: '0'
+    type: variable
   - name: Rhythm Channel
     value: '25'
     description: Rhythm Channel On
     min: 0
     max: '0'
+    type: variable
   - name: Lead Channel
     value: '25'
     description: Lead Channel On
     min: '1'
     max: '1'
+    type: variable
   - name: Loop Bypass On
     value: '26'
     description: Effects Loop Bypassed
     min: '1'
     max: '1'
+    type: variable
   - name: Loop Bypass Off
     value: '26'
     description: Effects Loop Engaged
     min: 0
     max: '0'
+    type: variable
   - name: IR Bypass On
     value: '27'
     description: Speaker Impulse Response Bypassed
     min: '127'
     max: 127
+    type: variable
   - name: IR Bypass Off
     value: '27'
     description: Speaker Impulse Response Engaged
     min: 0
     max: '0'
+    type: variable
   - name: Cab 1
     value: '28'
     description: Speaker Cab 1
     min: 0
     max: '0'
+    type: variable
   - name: Cab 2
     value: '28'
     description: Speaker Cab 2
     min: '1'
     max: '1'
+    type: variable
   - name: Cab 3
     value: '28'
     description: Speaker Cab 3
     min: '2'
     max: '2'
+    type: variable
   - name: HF Comp On
     value: '29'
     description: High Frequency Compensation On
     min: '1'
     max: '1'
+    type: variable
   - name: HF Comp Off
     value: '29'
     description: High Frequency Compensation Off
     min: 0
     max: '0'
+    type: variable
   - name: Lowpass 1
     value: '30'
     description: Lowpass Filter 1
     min: 0
     max: '0'
+    type: variable
   - name: Lowpass 2
     value: '30'
     description: Lowpass Filter 2
     min: '1'
     max: '1'
+    type: variable
   - name: Lowpass 3
     value: '30'
     description: Lowpass Filter 3
     min: '2'
     max: '2'
+    type: variable
   - name: Reverb On
     value: '31'
     description: Reverb On
     min: '1'
     max: '1'
+    type: variable
   - name: Reverb Off
     value: '31'
     description: Reverb Off
     min: 0
     max: '0'
+    type: variable
   - name: Tremolo On
     value: '32'
     description: Tremolo On
     min: '1'
     max: '1'
+    type: variable
   - name: Tremolo Off
     value: '32'
     description: Tremolo Off
     min: 0
     max: '0'
+    type: variable
