@@ -1,0 +1,66 @@
+brand: SONULAB
+model: STOMPSTATION
+device_type: guitar_processor
+email: rodinoro@gmail.com
+url: 'https://sonulab.com/stompstation/'
+midi_channel:
+  instructions: ''
+midi_clock: unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: unknown
+pc:
+  description: ''
+phantom_power: unknown
+midi_mapping: not applicable
+cc:
+  - name: Global Bypass ON/OFF
+    value: '1'
+    description: ''
+    min: 0
+    max: 127
+  - name: Amp Engine ON/OFF
+    value: '2'
+    description: ''
+    min: 0
+    max: 127
+  - name: IR Loader ON/OFF
+    value: '3'
+    description: ''
+    min: 0
+    max: 127
+  - name: Reverb ON/OFF
+    value: '4'
+    description: ''
+    min: 0
+    max: 127
+  - name: Modulations ON/OFF
+    value: '5'
+    description: ''
+    min: 0
+    max: 127
+  - name: ' Tremolo ON/OFF'
+    value: '6'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compressor ON/OFF
+    value: '7'
+    description: ''
+    min: 0
+    max: 127
+  - name: Compressor ON/OFF
+    value: '8'
+    description: ''
+    min: 0
+    max: 127
+  - name: Delay ON/OFF
+    value: '9'
+    description: ''
+    min: 0
+    max: 127
+  - name: Tuner ON/OFF
+    value: '10'
+    description: ''
+    min: 0
+    max: 127
