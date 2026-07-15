@@ -5,571 +5,685 @@ cc:
   min: 0
   name: Input Volume
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Out 1 Volume
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Out 2 Volume
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bypass Pedal
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tempo
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tuner
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 1
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 2
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 3
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 4
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 5
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 6
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 7
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 8
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 9
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 10
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 11
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Control 12
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Record
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Play
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Once
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Dub
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Reverse
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Bypass
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Half Speed
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Looper Undo
   value: 121
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Metronome
   value: 122
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scene Increment
   value: 123
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scene Decrement
   value: 124
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume Increment
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume Decrement
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp 1 Bypass
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp 2 Bypass
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cab 1 Bypass
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cab 2 Bpass
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus 1 Bypass
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus 2 Bypass
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Compressor 1 Bypass
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Compressor 2 Bypass
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Crossover 1 Bypass
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Crossover 2 Bypass
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay 1 Bypass
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay 2 Bypass
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive 1 Bypass
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive 2 Bypass
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Enhancer Bypass
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Bypass
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Bypass
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 3 Bypass
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 4 Bypass
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Flanger 1 Bypass
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Flanger 2 Bypass
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Formant 1 Bypass
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Loop Bypass
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gate/Expander 1 Bypass
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gate/Expander 2 Bypass
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Graphic EQ 1 Bypass
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Graphic EQ 2 Bypass
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Graphic EQ 3 Bypass
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Graphic EQ 4 Bypass
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Megatap Delay Bypass
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Multiband Comp 1 Bypass
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Multiband Comp 2 Bypass
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Multi-Delay 1 Bypass
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Multi-Delay 2 Bypass
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Parametric EQ 1 Bypass
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Parametric EQ 2 Bypass
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Parametric EQ 3 Bypass
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Parametric EQ 4 Bypass
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Phaser 1 Bypass
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Phaser 2 Bypass
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Shifter 1 Bypass
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Shifter 2 Bypass
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Quad Chorus 1 Bypass
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Quad Chorus 2 Bypass
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonator 1 Bypass
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonator 2 Bypass
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb 1 Bypass
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb 2 Bypass
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ring Modulator Bypass
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary 1 Bypass
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rotary 2 Bypass
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth 1 Bypass
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth 2 Bypass
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone Matching
   value: 99
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tremolo 1 Bypass
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tremolo 2 Bypass
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder Bypass
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume/Pan 1 Bypass
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume/Pan 2 Bypass
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume/Pan 3 Bypass
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume/Pan 4 Bypass
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wahwah 1 Bypass
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wahwah 2 Bypass
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp 1 X/Y
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp 2 X/Y
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cab 1 X/Y
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cab 2 X/Y
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus 1 X/Y
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus 2 X/Y
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay 1 X/Y
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay 2 X/Y
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive 1 X/Y
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive 2 X/Y
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Flanger 1 X/Y
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Flanger 2 X/Y
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Phaser 1 X/Y
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Phaser 2 X/Y
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch 1 X/Y
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch 2 X/Y
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb 1 X/Y
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb 2 X/Y
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wahwah 1 X/Y
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wahwah 2 X/Y
   value: 119
+  type: variable
 device_name: Axe-Fx II XL+
 midi_channel:
   instructions: ''

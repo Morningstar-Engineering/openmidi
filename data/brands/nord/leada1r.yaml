@@ -5,291 +5,349 @@ cc:
   min: 0
   name: Arp Run On/Off
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Tempo/Clock Divisions
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Master Clock
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Range
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Direction
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide Rate
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mono Selector
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice Mode Unison
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Bend Range
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato Select
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Rate/Clock Divisions
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Waveform Selector
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Master Clock Enable
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Envelope Selector
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Attack
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Decay/Sustain
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Release
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Invert
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Velocity
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc LFO Modulation Amount
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Mod Env Amount
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Control
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Waveform Selector
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Configuration
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter LFO Modulation Amount
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Mod Env Amount
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Frequency
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Type
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Keyboard Tracking On/Off
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Drive
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Decay
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Release
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Velocity
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Amount
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Selection
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX On/Off
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Tempo/Clock Divisions
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Master Clock
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Feedback
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Ping Pong
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Amount
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay On/Off
   value: 99
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Output Level
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Amount
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Selector
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb On/Off
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave Shift
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold Enable
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Slot Focus
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Slot Enable
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume Pedal
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 device_name: Lead A1R
 midi_channel:
   instructions: ''

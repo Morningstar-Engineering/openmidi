@@ -5,101 +5,121 @@ cc:
   min: 0
   name: Glide
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Type
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wave
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Timbre
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Shape
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cycling env rise
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cycling env fall
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cycling env hold
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cycling env amount
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ARP/SEQ rate (free)
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ARP/SEQ rate (sync)
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate (free)
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate (sync)
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope attack
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope decay
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope sustain
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard hold button (toggle)
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard spice
   value: 2
+  type: variable
 device_name: MicroFreak
 midi_channel:
   instructions: ''

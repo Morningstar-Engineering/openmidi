@@ -5,81 +5,97 @@ cc:
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Tap Tempo
     value: '9'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Engage Pedal
     value: '14'
     description: ''
     min: '127'
     max: '127'
+    type: variable
   - name: Bypass Pedal
     value: '14'
     description: ''
     min: 0
     max: 0
+    type: variable
   - name: Mix
     value: '20'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Amount Of Taps
     value: '21'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Length
     value: '22'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Feedback
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Spread
     value: '24'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Taper
     value: '25'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Tone
     value: '26'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Slurm
     value: '27'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: 'Predelay '
     value: '28'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Chop
     value: '29'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Spread/Rise/Release
     value: '30'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Output Level
     value: '31'
     description: ''
     min: 0
     max: '127'
+    type: variable
 device_name: Ultratap
 midi_channel:
   instructions: ''

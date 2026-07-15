@@ -17,36 +17,43 @@ cc:
     description: Controls the input level to the reverb
     min: 0
     max: 127
+    type: variable
   - name: Reverb Tone
     value: '12'
     description: Controls the tone of the reverb
     min: 0
     max: 127
+    type: variable
   - name: Reverb Level
     value: '13'
     description: Controls the output level of the reverb
     min: 0
     max: 127
+    type: variable
   - name: Reverb Decay
     value: '14'
     description: Controls the decay of the reverb trails
     min: 0
     max: 127
+    type: variable
   - name: Reverb Modulation
     value: '15'
     description: Controls the depth of reverb modulation
     min: 0
     max: 127
+    type: variable
   - name: Reverb HPF
     value: '16'
     description: Controls the low end response of the reverb
     min: 0
     max: 127
+    type: variable
   - name: Reverb Pre-Delay Time
     value: '17'
     description: Controls the pre-delay time of the reverb
     min: 0
     max: 127
+    type: variable
   - name: Midi Clock Sync
     value: '51'
     description: >-
@@ -54,21 +61,25 @@ cc:
       Midi Clock by default.
     min: 0
     max: 127
+    type: variable
   - name: Reverb Bypass
     value: '102'
     description: '0-63 = off, 64-127 = on. Turn the effect on or off.'
     min: 0
     max: 127
+    type: variable
   - name: Preset Bypass
     value: '103'
     description: '0-63 = off, 64-127 = on. Turn the preset on or off.'
     min: 0
     max: 127
+    type: variable
   - name: Reverb Mode
     value: '104'
     description: '0 = Nocturne, 1 = Spring, 2 = Plate. Switch between the reverb modes.'
     min: 0
     max: '2'
+    type: variable
   - name: Buffered/True-Bypass
     value: '105'
     description: >-
@@ -76,16 +87,19 @@ cc:
       bypass.
     min: 0
     max: 127
+    type: variable
   - name: Trails
     value: '106'
     description: '0-63 = off, 64-127 = on. Toggle trails on or off.'
     min: 0
     max: 127
+    type: variable
   - name: Dry Signal
     value: '107'
     description: '0-63 = off, 64-127 = on. Toggle dry signal on or off.'
     min: 0
     max: 127
+    type: variable
   - name: Momentary/Latching
     value: '108'
     description: >-
@@ -93,6 +107,7 @@ cc:
       switches for remote switching jack.
     min: 0
     max: 127
+    type: variable
   - name: Left Wet/Right Dry
     value: '109'
     description: >-
@@ -100,3 +115,4 @@ cc:
       is all dry.
     min: 0
     max: 127
+    type: variable

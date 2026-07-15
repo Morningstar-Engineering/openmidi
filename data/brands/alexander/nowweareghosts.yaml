@@ -15,98 +15,118 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Space knob
     value: '51'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Blend knob
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Level knob
     value: '53'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Sense knob
     value: '54'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rate knob
     value: '55'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Noise knob
     value: '56'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dirt knob
     value: '57'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Freq knob
     value: '58'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reso knob
     value: '59'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Swell switch
     value: '60'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Dir switch
     value: '61'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Type switch
     value: '62'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Warble switch
     value: '63'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Filter switch
     value: '64'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Trails switch
     value: '65'
     description: '0 = switch down, 63 = switch middle, 127 = switch up'
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo
     value: '93'
     description: 'any value > 0, works when Dir = LFO only'
     min: 0
     max: 127
+    type: variable
   - name: Expression pedal
     value: '100'
     description: '(0 heel, 127 toe)'
     min: 0
     max: 127
+    type: variable
   - name: Bypass pedal
     value: '102'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Engage pedal
     value: '102'
     description: ''
     min: '127'
     max: 127
+    type: variable

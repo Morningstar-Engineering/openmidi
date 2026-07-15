@@ -5,61 +5,73 @@ cc:
   min: 0
   name: Slide time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO intensity
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO pitch 1
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO pitch 2
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO pitch 3
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG attack
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG decay/release
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff EG intensity
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gate time
   value: 49
+  type: variable
 device_name: volca bass
 midi_channel:
   instructions: ''

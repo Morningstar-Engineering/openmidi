@@ -43,25 +43,25 @@ cc:
   - name: Bloom - Feedback
     value: 30
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Bloom - Length
     value: 32
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Bloom - Low End
     value: 31
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Boost
     value: 23
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 60
   - name: Chorale - Reso
@@ -70,7 +70,7 @@ cc:
       Value 0 - Mild
       Value 1 - Medium
       Value 2 - High
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Chorale - Vowel
@@ -83,49 +83,49 @@ cc:
       Value 4 - OOOHOH
       Value 5 - OOOO
       Value 6 - Random
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Cloud - Diffusion
     value: 37
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Cloud - Low End
     value: 38
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Decay
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Exp On/Off
     value: 60
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Freeze/Infinite
     value: 70
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Hall - Low End
     value: 39
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Hall - Mid
     value: 42
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Hall - Size
@@ -133,25 +133,25 @@ cc:
     description: |+
       Value 0 - Concert
       Value 1 - Arena
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Magneto - Diffusion
     value: 56
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Magneto - Heads
     value: 57
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Magneto - Low End
     value: 55
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Magneto - Spacing
@@ -159,55 +159,55 @@ cc:
     description: |+
       Value 0 - Even
       Value 1 - Uneven
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: MIDI Clock Off/On
     value: 71
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Mix
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Nonlinear - Diffusion
     value: 45
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Nonlinear - Late Decay
     value: 47
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Nonlinear - Late Level
     value: 48
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Nonlinear - Low End
     value: 44
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Nonlinear - Mod Speed
     value: 43
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Nonlinear - Shape
@@ -219,31 +219,31 @@ cc:
       Value 3 - Gate
       Value 4 - Gauss
       Value 5 - Bounce
-    type: Parameter
+    type: variable
     min: 0
     max: 5
   - name: Param 1
     value: 9
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Param 2
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Persist On/Off
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Plate - Low End
     value: 69
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Plate - Size
@@ -251,31 +251,31 @@ cc:
     description: |+
       Value 0 - Small
       Value 1 - Large
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Pre-Delay
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Reflections - Loc X
     value: 49
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Reflections - Loc Y
     value: 50
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Reflections - Low End
     value: 52
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Reflections - Shape
@@ -284,19 +284,19 @@ cc:
       Value 0 - Square
       Value 1 - Rectangle
       Value 2 - Oblong
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Room - Diffusion
     value: 58
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Room - Low End
     value: 61
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Room - Size
@@ -304,19 +304,19 @@ cc:
     description: |+
       Value 0 - Studio
       Value 1 - Club
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Shimmer - Amount
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Shimmer - Low End
     value: 24
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Shimmer - Mode
@@ -325,7 +325,7 @@ cc:
       Value 0 - Input
       Value 1 - Regen
       Value 2 - Input + Regen
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Shimmer - Shift 1
@@ -359,7 +359,7 @@ cc:
       Value 25 - +Octave
       Value 26 - +Octave & 5th
       Value 27 - +2 Octaves
-    type: Parameter
+    type: variable
     min: 0
     max: 27
   - name: Shimmer - Shift 2
@@ -394,13 +394,13 @@ cc:
       Value 26 - +Octave
       Value 27 - +Octave & 5th
       Value 28 - +2 Octaves
-    type: Parameter
+    type: variable
     min: 0
     max: 28
   - name: 'Spring - # Springs'
     value: 62
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Spring - Dwell
@@ -410,19 +410,19 @@ cc:
       Value 1 - Combo
       Value 2 - Tube
       Value 3 - Overdrive
-    type: Parameter
+    type: variable
     min: 0
     max: 3
   - name: Spring - Low End
     value: 64
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Swell - Low End
     value: 65
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Swell - Mode
@@ -430,7 +430,7 @@ cc:
     description: |+
       Value 0 - Wet
       Value 1 - Dry
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Swell - Rise
@@ -459,13 +459,13 @@ cc:
       Value 20 - 2.50
       Value 21 - 3.00
       Value 22 - 4.00
-    type: Parameter
+    type: variable
     min: 0
     max: 22
   - name: Tone
     value: 3
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Type Encoder
@@ -483,96 +483,96 @@ cc:
       Value 9 - Magneto
       Value 10 - NonLinear
       Value 11 - Reflections
-    type: Parameter
+    type: variable
     min: 0
     max: 11
   - name: Value Encoder
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: A footswitch Press Down
     value: 80
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: A footswitch Press Up
     value: 80
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: B footswitch Press Down
     value: 82
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: B footswitch Press Up
     value: 82
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: C footswitch Press Down
     value: 81
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: C footswitch Press Up
     value: 81
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Bypass
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: Engage
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Expression Pedal
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Expression On/Off
     value: 60
     description: ''
-    type: Parameters
+    type: variable
     min: 0
     max: 1
   - name: MIDI Patch Bank
     value: 0
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 1
   - name: Phase Reset
     value: 125
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Remote TAP
     value: 93
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Press/Hold Switch
     value: 97
     description: 'off=0 on=127'
-    type: System
+    type: variable
     min: 0
     max: 127

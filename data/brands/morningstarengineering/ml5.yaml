@@ -18,103 +18,103 @@ cc:
   - name: 'Bypass All Loops'
     value: 0
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage all Loops'
     value: 0
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 'Bypass Loop A'
     value: 1
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage Loop A'
     value: 1
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 'Bypass Loop B'
     value: 2
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage Loop B'
     value: 2
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 'Bypass Loop C'
     value: 3
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage Loop C'
     value: 3
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 'Bypass Loop D'
     value: 4
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage Loop D'
     value: 4
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 'Bypass Loop E'
     value: 5
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: 'Engage Loop E'
     value: 5
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
 
   - name: 'Toggle Bypass - Loop A'
     value: 6
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Toggle Bypass - Loop B'
     value: 7
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Toggle Bypass - Loop C'
     value: 8
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Toggle Bypass - Loop D'
     value: 9
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Toggle Bypass - Loop E'
     value: 10
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127

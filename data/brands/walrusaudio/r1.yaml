@@ -30,89 +30,89 @@ cc:
     max: 127
     min: 0
     name: Decay
-    type: ''
+    type: variable
     value: 3
   - description: ''
     max: 127
     min: 0
     name: Swell
-    type: ''
+    type: variable
     value: 14
   - description: ''
     max: 127
     min: 0
     name: Mix
-    type: ''
+    type: variable
     value: 15
   - description: ''
     max: 127
     min: 0
     name: Rate
-    type: ''
+    type: variable
     value: 20
   - description: ''
     max: 127
     min: 0
     name: Depth
-    type: ''
+    type: variable
     value: 21
   - description: ''
     max: 127
     min: 0
     name: Pre Delay
-    type: ''
+    type: variable
     value: 22
   - description: 'Spring: 1, Hall: 2, Plate: 3, BFR: 4, RFRCT: 5, Air: 6'
     max: 6
     min: 1
     name: Prog
-    type: ''
+    type: variable
     value: 23
   - description: ''
     max: 127
     min: 0
     name: Lo
-    type: ''
+    type: variable
     value: 24
   - description: ''
     max: 127
     min: 0
     name: High
-    type: ''
+    type: variable
     value: 25
   - description: ''
     max: 127
     min: 0
     name: X
-    type: ''
+    type: variable
     value: 26
   - description: 'Rate: 0-42, Depth: 43-85, Pre Delay: 86-127'
     max: 127
     min: 0
     name: Tweak Switch
-    type: ''
+    type: variable
     value: 27
   - description: 'A: 0-42, B: 43-85, C: 86-127'
     max: 127
     min: 0
     name: A|B|C| Switch (Bank)
-    type: ''
+    type: variable
     value: 28
   - description: 'Left: 0-42, Middle: 43-85, Right: 86-127'
     max: 127
     min: 0
     name: Tune Switch
-    type: ''
+    type: variable
     value: 29
   - description: Bypass=0, Engaged=127
     max: 127
     min: 0
     name: Bypass Switch
-    type: ''
+    type: variable
     value: 30
   - description: Bypass=0, Engaged=127
     max: 127
     min: 0
     name: Sus/Latch
-    type: ''
+    type: variable
     value: 31

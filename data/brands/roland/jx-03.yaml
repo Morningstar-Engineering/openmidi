@@ -5,211 +5,253 @@ cc:
   min: 0
   name: Modulation
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO delay time
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO wave form
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 1 range
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 1 wave form
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 1 frequency modulation LFO SW
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 1 frequency modulation envelope SW
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 range
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 wave form
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 tune
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 tfine tune
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 cross mod sel
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 frequency modulation LFO SW
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO 2 frequency modulation envelope SW
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO LFO depth
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO envelope depth
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: DCO envelope polarity
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF source mix
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF LFO modulation depth
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF pitch follow
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF hi-pass filter cutoff
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF envelope modulation depth
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF envelope polarity SW
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA mode SW
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA level
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope attack time
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope decay time
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope sustain level
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Envelope release time
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento time
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCF cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay feedback
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Assign mode
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend range
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay level
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus SW
   value: 93
+  type: variable
 device_name: JX-03
 midi_channel:
   instructions: ''

@@ -17,6 +17,7 @@ cc:
       (0 or do not send for Presets 0-127)
     min: 0
     max: '2'
+    type: variable
   - name: Transport Start/Stop
     value: '3'
     description: |-
@@ -26,6 +27,7 @@ cc:
       127 = Start
     min: 0
     max: '127'
+    type: variable
   - name: CUE Start/Stop
     value: '9'
     description: |-
@@ -35,6 +37,7 @@ cc:
       127 = Cue Start
     min: 0
     max: '127'
+    type: variable
   - name: Clock Start/Stop
     value: '14'
     description: |-
@@ -44,11 +47,13 @@ cc:
       127 = Clock Start
     min: 0
     max: '127'
+    type: variable
   - name: Tap Tempo
     value: '15'
     description: Any value sends a Tap for setting a new Tempo
     min: 0
     max: '127'
+    type: variable
   - name: BPM
     value: '16'
     description: |-
@@ -57,6 +62,7 @@ cc:
       For BPM above 127, send 1 first (+100) or 2 first (+200) and then send 0 - 127.  The two values add together.
     min: 0
     max: '127'
+    type: variable
   - name: Time Signature
     value: '17'
     description: |-
@@ -65,11 +71,13 @@ cc:
       Values 21 = 36 sets the numerator with an eighth beat denominator (25 = 5/8)
     min: '1'
     max: '36'
+    type: variable
   - name: USER Switch
     value: '18'
     description: Simulates a USER Switch Press.  Any value.
     min: 0
     max: '127'
+    type: variable
   - name: Auto Stop Clock
     value: '19'
     description: |-
@@ -77,18 +85,21 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: Cue In Count
     value: '20'
     description: The number of bars to count in when using the CUE switch to start the
       Transport.
     min: '1'
     max: '4'
+    type: variable
   - name: Cue Out Count
     value: '21'
     description: The number of bars the count when using the CUE switch to stop the
       Transport.
     min: '1'
     max: '4'
+    type: variable
   - name: Metronome Enabled (Global)
     value: '22'
     description: |-
@@ -97,6 +108,7 @@ cc:
       127 = Metronome On
     min: 0
     max: '127'
+    type: variable
   - name: Metronome Beat
     value: '23'
     description: |-
@@ -125,6 +137,7 @@ cc:
       21 = Thirty-second Note
     min: 0
     max: '21'
+    type: variable
   - name: Metronome Accent
     value: '24'
     description: |-
@@ -153,6 +166,7 @@ cc:
       21 = Thirty-second Note
     min: 0
     max: '21'
+    type: variable
   - name: Metronome First Beat
     value: '25'
     description: |-
@@ -162,6 +176,7 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: Metronome Use
     value: '26'
     description: |-
@@ -171,6 +186,7 @@ cc:
       3 = Cue In Only
     min: 0
     max: '3'
+    type: variable
   - name: Clock Source
     value: '27'
     description: |-
@@ -180,6 +196,7 @@ cc:
       3 = External + Align
     min: 0
     max: '3'
+    type: variable
   - name: Send Bar Marker
     value: '28'
     description: |-
@@ -189,6 +206,7 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: Send Time Signature
     value: '29'
     description: |-
@@ -198,6 +216,7 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: Clock LED Enabled
     value: '30'
     description: |-
@@ -206,6 +225,7 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: MIDI Thru Enabled
     value: '31'
     description: |-
@@ -214,6 +234,7 @@ cc:
       127 = Off
     min: 0
     max: '127'
+    type: variable
   - name: Send MIDI Start
     value: '32'
     description: |-
@@ -223,6 +244,7 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable
   - name: Send MIDI Stop
     value: '33'
     description: |-
@@ -232,3 +254,4 @@ cc:
       127 = On
     min: 0
     max: '127'
+    type: variable

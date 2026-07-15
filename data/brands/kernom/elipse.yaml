@@ -18,53 +18,64 @@ cc:
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Mood
     value: '21'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Speed
     value: '22'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Depth
     value: '23'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Mix
     value: '24'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Swirl
     value: '25'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Exp
     value: '26'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: FS Preset
     value: '27'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: FS On/Off
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo
     value: '85'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tempo Subdivision
     value: '86'
     description: ''
     min: 0
     max: 127
+    type: variable

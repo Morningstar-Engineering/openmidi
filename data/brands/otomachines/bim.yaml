@@ -5,101 +5,121 @@ cc:
   min: 0
   name: Delay
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Rate
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Depth
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Active
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Division
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Range
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Type
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: In Gain
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HPF
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LPF
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback Filters
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Offset
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Wave
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Range
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Freeze
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Freeze Reverse
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Division
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Phase Reset
   value: 31
+  type: variable
 device_name: BIM
 midi_channel:
   instructions: ''

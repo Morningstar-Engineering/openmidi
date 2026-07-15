@@ -5,156 +5,187 @@ cc:
   min: 0
   name: Preset Bank 0
   value: 0
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Preset Bank 1
   value: 0
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Preset Bank 2
   value: 0
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Mic: Front'
   value: 11
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Mic: Rear'
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speed
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speed (Full Range)
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mic Distance
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Horn Level
   value: 15
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Ramp: Slow'
   value: 16
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Ramp: Medium'
   value: 16
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Ramp: Fast'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dry
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Preamp Drive
   value: 19
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Bi-Amp Mode: Stereo'
   value: 20
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Bi-Amp Mode: Bi-Amp'
   value: 20
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Cab Filter: Guitar Amp'
   value: 21
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Cab Filter: Full Range'
   value: 21
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Slow
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 1
   name: Fast
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Expression: On'
   value: 60
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Expression: Off'
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Clock: On'
   value: 63
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Clock: Off'
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Remote Tap
   value: 93
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Brake: Release'
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 1
   name: 'Brake: Hold'
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 100
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass Pedal
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 102
+  type: variable
 device_name: Lex
 midi_channel:
   instructions: ''

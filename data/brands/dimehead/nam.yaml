@@ -15,239 +15,287 @@ cc:
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Bank Up
     value: '13'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Volume
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Room
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mids
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gate
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: FX Loop OFF
     value: '21'
     description: |+
 
     min: 0
     max: '0'
+    type: variable
   - name: FX Loop ON
     value: '21'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Disable Boost/FX
     value: '21'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: FX Loop Toggle
     value: '22'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Enable Boost/FX
     value: '25'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Boost/FX Gain
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Boost/FX Bass
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Boost/FX Mids
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Boost/FX Treble
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Toggle Boost/FX
     value: '30'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Disable Reverb
     value: '35'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Enable Reverb
     value: '35'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Reverb Mix
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Toggle Reverb
     value: '37'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Disable Delay
     value: '40'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Enable Delay
     value: '40'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Delay Mix
     value: '41'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Time
     value: '42'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Feedback
     value: '43'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay LFO Speed
     value: '44'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay LFO Depth
     value: '45'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Highpass
     value: '46'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Lowpass
     value: '47'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Toggle Delay
     value: '48'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: TAP Tempo
     value: '49'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Disable Tremolo
     value: '50'
     description: |+
     min: 0
     max: '0'
+    type: variable
   - name: Enable Tremolo
     value: '50'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Tremolo Depth
     value: '51'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo Speed
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Toggle Tremolo
     value: '53'
     description: ''
     min: '127'
     max: 127
+    type: variable
   - name: Bass Frequency
     value: '114'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass Q
     value: '115'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mids Frequency
     value: '115'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mids Frequency
     value: '116'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mids Q
     value: '117'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Frequency
     value: '118'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Q
     value: '119'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: IR Highpass
     value: '120'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: IR Lowpasw
     value: '121'
     description: ''
     min: 0
     max: 127
+    type: variable

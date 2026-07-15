@@ -18,41 +18,49 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Wet Volume
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Space
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Rate
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Depth
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tone
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Grit
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Time L
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Subdivisions L
     value: '22'
     description: >-
@@ -60,11 +68,13 @@ cc:
       85-105 dotted eighth, 106-127 quarter
     min: 0
     max: 127
+    type: variable
   - name: Time R
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Subdivisions R
     value: '24'
     description: >-
@@ -72,31 +82,37 @@ cc:
       85-105 dotted eighth, 106-127 quarter
     min: 0
     max: 127
+    type: variable
   - name: Feedback
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Expression
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass Switch
     value: '26'
     description: 'OFF: 0-63, ON:64-127'
     min: 0
     max: 127
+    type: variable
   - name: Tap Tempo Switch
     value: '27'
     description: 'Tap Pulse: 0 (no response to 1-127)'
     min: 0
     max: '0'
+    type: variable
   - name: Preset Saving Switch
     value: '28'
     description: '0-42 Cancel Save, 43-85 Start Save, 86-127 Confirm Save'
     min: 0
     max: 127
+    type: variable
   - name: MIDI Clock Input Mode
     value: '29'
     description: |-
@@ -107,18 +123,22 @@ cc:
       Deactivate Clock: 96-127
     min: 0
     max: 127
+    type: variable
   - name: Trails Setting
     value: '81'
     description: 'OFF: 0-63, ON: 64-127'
     min: 0
     max: 127
+    type: variable
   - name: Stereo Setting
     value: '82'
     description: '0-42 mono, 43-85 mono in, stereo out, 86-127 stereo'
     min: 0
     max: 127
+    type: variable
   - name: MIDI Channel
     value: '102'
     description: ''
     min: '1'
     max: '16'
+    type: variable

@@ -5,66 +5,79 @@ cc:
   min: 0
   name: Output Level
   value: 107
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass Pedal
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 31Hz
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 62Hz
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 125Hz
   value: 99
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 250Hz
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 500Hz
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 1kHz
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 2kHz
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 4kHz
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 8kHz
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 16kHz
   value: 106
+  type: variable
 device_name: PA-1QA
 midi_channel:
   instructions: ''

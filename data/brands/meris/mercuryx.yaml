@@ -17,221 +17,265 @@ cc:
     description: wet/dry mix
     min: 0
     max: 127
+    type: variable
   - name: dry trim
     value: 2
     description: 'dry mix trim'
     min: 0
     max: 127
+    type: variable
   - name: wet mix
     value: 3
     description: 'wet mix trim'
     min: 0
     max: 127
+    type: variable
   - name: expression pedal
     value: 4
     description: 'per-preset mod routing via EXPRESSION PEDAL'
     min: 0
     max: 127
+    type: variable
   - name: preamp off
     value: 5
     description:
     min: 0
     max: 25
+    type: variable
   - name: preamp volume pedal
     value: 5
     description:
     min: 26
     max: 51
+    type: variable
   - name: preamp tube
     value: 5
     description:
     min: 52
     max: 76
+    type: variable
   - name: preamp transistor
     value: 5
     description:
     min: 77
     max: 102
+    type: variable
   - name: preamp op-amp
     value: 5
     description:
     min: 103
     max: 127
+    type: variable
   - name: preamp location pre + dry
     value: 6
     description:
     min: 0
     max: 25
+    type: variable
   - name: preamp location pre
     value: 6
     description:
     min: 26
     max: 51
+    type: variable
   - name: preamp location fdbk
     value: 6
     description:
     min: 52
     max: 76
+    type: variable
   - name: preamp location pre tank
     value: 6
     description:
     min: 77
     max: 102
+    type: variable
   - name: preamp location post
     value: 6
     description:
     min: 103
     max: 127
+    type: variable
   - name: gain/volume pedal level
     value: 7
     description:
     min: 0
     max: 127
+    type: variable
   - name: balance
     value: 8
     description:
     min: 0
     max: 127
+    type: variable
   - name: preamp level
     value: 11
     description:
     min: 0
     max: 127
+    type: variable
   - name: delay structure standard
     value: 13
     description:
     min: 0
     max: 63
+    type: variable
   - name: delay structure reverse
     value: 13
     description:
     min: 64
     max: 127
+    type: variable
   - name: bypass
     value: 14
     description: bypassed
     min: 0
     max: 63
+    type: variable
   - name: enable
     value: 14
     description: enabled
     min: 64
     max: 127
+    type: variable
   - name: time
     value: 15
     description:
     min: 0
     max: 127
+    type: variable
   - name: delay type digital
     value: 16
     description:
     min: 0
     max: 42
+    type: variable
   - name: delay type bbd
     value: 16
     description:
     min: 43
     max: 85
+    type: variable
   - name: delay type magnetic
     value: 16
     description:
     min: 86
     max: 127
+    type: variable
   - name: left note division
     value: 17
     description:
     min: 0
     max: 127
+    type: variable
   - name: right note division
     value: 18
     description:
     min: 0
     max: 127
+    type: variable
   - name: feedback
     value: 19
     description:
     min: 0
     max: 127
+    type: variable
   - name: cross feedback
     value: 20
     description:
     min: 0
     max: 127
+    type: variable
   - name: modulation
     value: 21
     description:
     min: 0
     max: 127
+    type: variable
   - name: damping
     value: 22
     description:
     min: 0
     max: 127
+    type: variable
   - name: dry blend
     value: 23
     description:
     min: 0
     max: 127
+    type: variable
   - name: half speed
     value: 24
     description:
     min: 0
     max: 127
+    type: variable
   - name: midi clock use global
     value: 28
     description:
     min: 0
     max: 42
+    type: variable
   - name: midi clock force listen
     value: 24
     description:
     min: 43
     max: 85
+    type: variable
   - name: midi clock force ignore
     value: 24
     description:
     min: 86
     max: 127
+    type: variable
   - name: reverb structure ultraplate
     value: 32
     description:
     min: 0
     max: 15
+    type: variable
   - name: reverb structure cathedra
     value: 32
     description:
     min: 16
     max: 31
+    type: variable
   - name: reverb structure spring
     value: 32
     description:
     min: 32
     max: 47
+    type: variable
   - name: reverb structure room
     value: 32
     description:
     min: 48
     max: 63
+    type: variable
   - name: reverb structure plate
     value: 32
     description:
     min: 64
     max: 79
+    type: variable
   - name: reverb structure hall
     value: 32
     description:
     min: 80
     max: 95
+    type: variable
   - name: reverb structure prism
     value: 32
     description:
     min: 96
     max: 111
+    type: variable
   - name: reverb structure gravity
     value: 32
     description:
     min: 96
     max: 127
+    type: variable
   - name: reverb parameter 1
     value: 33
     description: |-
@@ -240,6 +284,7 @@ cc:
       dwell: spring
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 2
     value: 34
     description: |-
@@ -249,6 +294,7 @@ cc:
       tilt eq: gravity
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 3
     value: 35
     description: |-
@@ -258,6 +304,7 @@ cc:
       mod speed: gravity
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 4
     value: 36
     description: |-
@@ -267,6 +314,7 @@ cc:
       mod speed: gravity
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 5
     value: 37
     description: |-
@@ -275,6 +323,7 @@ cc:
       mod feedback: gravity
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 6
     value: 38
     description: |-
@@ -284,6 +333,7 @@ cc:
       gain: gravity
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 7
     value: 39
     description: |-
@@ -292,108 +342,129 @@ cc:
       mod depth: prism
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 8
     value: 40
     description: |-
       lo cut: prism
     min: 0
     max: 127
+    type: variable
   - name: reverb parameter 9
     value: 41
     description: |-
       hi cut: prism
     min: 0
     max: 127
+    type: variable
   - name: predelay blend
     value: 42
     description:
     min: 0
     max: 127
+    type: variable
   - name: gate attack
     value: 43
     description:
     min: 0
     max: 127
+    type: variable
   - name: gate hold
     value: 44
     description:
     min: 0
     max: 127
+    type: variable
   - name: gate decay
     value: 45
     description:
     min: 0
     max: 127
+    type: variable
   - name: dynamics type off
     value: 62
     description:
     min: 0
     max: 15
+    type: variable
   - name: dynamics type compressor
     value: 62
     description:
     min: 16
     max: 31
+    type: variable
   - name: dynamics type compressor link
     value: 62
     description:
     min: 32
     max: 47
+    type: variable
   - name: dynamics type swell
     value: 62
     description:
     min: 48
     max: 63
+    type: variable
   - name: dynamics type diffusion
     value: 62
     description:
     min: 64
     max: 79
+    type: variable
   - name: dynamics type limiter
     value: 62
     description:
     min: 80
     max: 95
+    type: variable
   - name: dynamics type limiter link
     value: 62
     description:
     min: 96
     max: 111
+    type: variable
   - name: dynamics type freeze
     value: 62
     description:
     min: 112
     max: 127
+    type: variable
   - name: dynamics location pre + dry
     value: 63
     description:
     min: 0
     max: 25
+    type: variable
   - name: dynamics location pre
     value: 63
     description:
     min: 26
     max: 51
+    type: variable
   - name: dynamics location feedback
     value: 63
     description:
     min: 52
     max: 76
+    type: variable
   - name: dynamics location pre tank
     value: 63
     description:
     min: 77
     max: 102
+    type: variable
   - name: dynamics location post
     value: 63
     description:
     min: 103
     max: 127
+    type: variable
   - name: gain/volume pedal level
     value: 7
     description:
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 1
     value: 64
     description: |-
@@ -403,6 +474,7 @@ cc:
       gain: freeze
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 2
     value: 65
     description: |-
@@ -412,6 +484,7 @@ cc:
       mix: freeze
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 3
     value: 66
     description: |-
@@ -419,271 +492,325 @@ cc:
       release: limiter, limiter link
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 4
     value: 67
     description: |-
       attack: compressor, compressor link
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 5
     value: 68
     description: |-
       release: compressor, compressor link
     min: 0
     max: 127
+    type: variable
   - name: dynamics parameter 6
     value: 69
     description: |-
       mix: compressor, compressor link
     min: 0
     max: 127
+    type: variable
   - name: pitch type off
     value: 70
     description:
     min: 0
     max: 31
+    type: variable
   - name: pitch type poly chroma
     value: 70
     description:
     min: 32
     max: 63
+    type: variable
   - name: pitch type micro shift
     value: 70
     description:
     min: 64
     max: 95
+    type: variable
   - name: pitch type lo-fi
     value: 70
     description:
     min: 96
     max: 127
+    type: variable
   - name: pitch location pre + dry
     value: 71
     description:
     min: 0
     max: 25
+    type: variable
   - name: pitch location pre
     value: 71
     description:
     min: 26
     max: 51
+    type: variable
   - name: pitch location feedback
     value: 71
     description:
     min: 52
     max: 76
+    type: variable
   - name: pitch location pre tank
     value: 71
     description:
     min: 77
     max: 102
+    type: variable
   - name: pitch location post
     value: 71
     description:
     min: 103
     max: 127
+    type: variable
   - name: pitch parameter 1
     value: 72
     description:
     min: 0
     max: 127
+    type: variable
   - name: pitch parameter 2
     value: 73
     description:
     min: 0
     max: 127
+    type: variable
   - name: pitch parameter 3
     value: 74
     description:
     min: 0
     max: 127
+    type: variable
   - name: pitch parameter 4
     value: 75
     description:
     min: 0
     max: 127
+    type: variable
   - name: pitch parameter 5
     value: 76
     description:
     min: 0
     max: 127
+    type: variable
   - name: pitch parameter 6
     value: 77
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter type off
     value: 78
     description:
     min: 0
     max: 31
+    type: variable
   - name: filter type ladder
     value: 78
     description:
     min: 32
     max: 63
+    type: variable
   - name: filter type state var
     value: 78
     description:
     min: 64
     max: 95
+    type: variable
   - name: filter type parameteric
     value: 78
     description:
     min: 96
     max: 127
+    type: variable
   - name: filter location pre + dry
     value: 79
     description:
     min: 0
     max: 25
+    type: variable
   - name: filter location pre
     value: 79
     description:
     min: 26
     max: 51
+    type: variable
   - name: filter location feedback
     value: 79
     description:
     min: 52
     max: 76
+    type: variable
   - name: filter location pre tank
     value: 79
     description:
     min: 77
     max: 102
+    type: variable
   - name: filter location post
     value: 79
     description:
     min: 103
     max: 127
+    type: variable
   - name: filter parameter 1
     value: 80
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter parameter 2
     value: 81
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter parameter 3
     value: 82
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter parameter 4
     value: 83
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter parameter 5
     value: 84
     description:
     min: 0
     max: 127
+    type: variable
   - name: filter parameter 6
     value: 85
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod type off
     value: 86
     description:
     min: 0
     max: 21
+    type: variable
   - name: mod type chorus
     value: 86
     description:
     min: 22
     max: 42
+    type: variable
   - name: mod type vibrato
     value: 86
     description:
     min: 43
     max: 63
+    type: variable
   - name: mod type vowel mod
     value: 86
     description:
     min: 64
     max: 85
+    type: variable
   - name: mod type tremelo
     value: 86
     description:
     min: 86
     max: 106
+    type: variable
   - name: mod type hazy
     value: 86
     description:
     min: 107
     max: 127
+    type: variable
   - name: mod location pre + dry
     value: 87
     description:
     min: 0
     max: 25
+    type: variable
   - name: mod location pre
     value: 87
     description:
     min: 26
     max: 51
+    type: variable
   - name: mod location fdbk
     value: 87
     description:
     min: 52
     max: 76
+    type: variable
   - name: mod location pre tank
     value: 87
     description:
     min: 77
     max: 102
+    type: variable
   - name: mod location post
     value: 87
     description:
     min: 103
     max: 127
+    type: variable
   - name: mod parameter 1
     value: 88
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod parameter 2
     value: 89
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod parameter 3
     value: 90
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod parameter 4
     value: 91
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod parameter 5
     value: 92
     description:
     min: 0
     max: 127
+    type: variable
   - name: mod parameter 6
     value: 93
     description:
     min: 0
     max: 127
+    type: variable
   - name: toggle tuner mode
     value: 117
     description: 'press = 127' 
     min: 0
     max: 127
+    type: variable
   - name: trigger hold modifier press
     value: 118
     description: 'press = 127 release = 0 note: be sure to send a release after every press'
     min: 127
     max: 127
+    type: variable
   - name: trigger hold modifier release
     value: 118
     description:
     min: 0
     max: 0
+    type: variable

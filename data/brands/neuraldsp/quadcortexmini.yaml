@@ -23,290 +23,358 @@ cc:
     description: 'Determines preset group 0-127'
     min: 0
     max: 0
+    type: variable
   - name: 'Bank Select (MSB): Presets 128-256'
     value: 0
     description: 'Determines preset group 128-256'
     min: 1
     max: 1
+    type: variable
   - name: 'Expression Pedal 1 Position'
     value: 1
     description: 'Value 0: Heel, Value 127: Toe'
     min: 0
     max: 127
+    type: variable
   - name: 'Expression Pedal 2 Position'
     value: 2
     description: 'Value 0: Heel, Value 127: Toe'
     min: 0
     max: 127
+    type: variable
   - name: 'Bank Select (LSB): Factory Presets'
     value: 32
     description: 'Recall Factory Presets folder'
     min: 0
     max: 0
+    type: variable
   - name: 'Bank Select (LSB): My Presets'
     value: 32
     description: 'Recall My Presets folder'
     min: 1
     max: 1
+    type: variable
   - name: 'Bank Select (LSB): User Folders'
     value: 32
     description: 'Value 2-12: Selects User folder'
     min: 2
     max: 12
+    type: variable
   - name: 'Footswitch A (Page I)'
     value: 35
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch B (Page I)'
     value: 36
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch C (Page I)'
     value: 37
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch D (Page I)'
     value: 38
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch A (Page II)'
     value: 39
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch B (Page II)'
     value: 40
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch C (Page II)'
     value: 41
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Footswitch D (Page II)'
     value: 42
     description: 'Footswitch Press'
     min: 0
     max: 127
+    type: variable
   - name: 'Recall Scene A (Page I)'
     value: 43
     min: 0
     max: 0
+    type: variable
   - name: 'Recall Scene B (Page I)'
     value: 43
     min: 1
     max: 1
+    type: variable
   - name: 'Recall Scene C (Page I)'
     value: 43
     min: 2
     max: 2
+    type: variable
   - name: 'Recall Scene D (Page I)'
     value: 43
     min: 3
     max: 3
+    type: variable
   - name: 'Recall Scene A (Page II)'
     value: 43
     min: 4
     max: 4
+    type: variable
   - name: 'Recall Scene B (Page II)'
     value: 43
     min: 5
     max: 5
+    type: variable
   - name: 'Recall Scene C (Page II)'
     value: 43
     min: 6
     max: 6
+    type: variable
   - name: 'Recall Scene D (Page II)'
     value: 43
     min: 7
     max: 7
+    type: variable
   - name: 'Tap Tempo'
     value: 44
     description: 'Tap Tempo press emulation'
     min: 0
     max: 127
+    type: variable
   - name: 'Tuner: Close'
     value: 45
     min: 0
     max: 63
+    type: variable
   - name: 'Tuner: Open'
     value: 45
     min: 64
     max: 127
+    type: variable
   - name: 'Gig View: Close'
     value: 46
     min: 0
     max: 63
+    type: variable
   - name: 'Gig View: Open'
     value: 46
     min: 64
     max: 127
+    type: variable
   - name: 'Mode Slot 1 (Preset Mode)'
     value: 47
     min: 0
     max: 0
+    type: variable
   - name: 'Mode Slot 2 (Scene Mode)'
     value: 47
     min: 1
     max: 1
+    type: variable
   - name: 'Mode Slot 3 (Stomp Mode)'
     value: 47
     min: 2
     max: 2
+    type: variable
   - name: 'Looper X Editor: Open'
     value: 48
     description: 'Opens Looper X parameter editor (Perform Mode)'
     min: 0
     max: 63
+    type: variable
   - name: 'Looper X Editor: Close'
     value: 48
     description: 'Closes Looper X parameter editor'
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Duplicate'
     value: 49
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle One Shot'
     value: 50
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Half Speed'
     value: 51
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Punch In/Out'
     value: 52
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Record/Overdub'
     value: 53
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Play/Stop'
     value: 54
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Reverse'
     value: 55
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X: Toggle Undo/Redo'
     value: 56
     min: 64
     max: 127
+    type: variable
   - name: 'Looper X Duplicate Mode: Free'
     value: 57
     min: 0
     max: 0
+    type: variable
   - name: 'Looper X Duplicate Mode: Sync'
     value: 57
     min: 1
     max: 1
+    type: variable
   - name: 'Looper X Quantize: Off'
     value: 58
     min: 0
     max: 0
+    type: variable
   - name: 'Looper X Quantize: 1-8 Beats'
     value: 58
     min: 1
     max: 8
+    type: variable
   - name: 'Looper X Quantize: 16 Beats'
     value: 58
     min: 9
     max: 9
+    type: variable
   - name: 'Looper X MIDI Clock Start: Free'
     value: 59
     min: 0
     max: 0
+    type: variable
   - name: 'Looper X MIDI Clock Start: Sync'
     value: 59
     min: 1
     max: 1
+    type: variable
   - name: 'Looper X Mode: Perform Mode'
     value: 60
     min: 0
     max: 0
+    type: variable
   - name: 'Looper X Mode: Parameters Mode'
     value: 60
     min: 1
     max: 1
+    type: variable
   - name: 'Looper X Routing: Grid'
     value: 61
     min: 0
     max: 0
+    type: variable
   - name: 'Looper X Routing: Input 1'
     value: 61
     min: 1
     max: 1
+    type: variable
   - name: 'Looper X Routing: Input 2'
     value: 61
     min: 2
     max: 2
+    type: variable
   - name: 'Looper X Routing: Return 1'
     value: 61
     min: 3
     max: 3
+    type: variable
   - name: 'Looper X Routing: Return 2'
     value: 61
     min: 4
     max: 4
+    type: variable
   - name: 'Looper X Routing: Inputs 1/2'
     value: 61
     min: 5
     max: 5
+    type: variable
   - name: 'Looper X Routing: Returns 1/2'
     value: 61
     min: 6
     max: 6
+    type: variable
   - name: 'Looper X Routing: Output 1'
     value: 61
     min: 7
     max: 7
+    type: variable
   - name: 'Looper X Routing: Output 2'
     value: 61
     min: 8
     max: 8
+    type: variable
   - name: 'Looper X Routing: Output 3'
     value: 61
     min: 9
     max: 9
+    type: variable
   - name: 'Looper X Routing: Output 4'
     value: 61
     min: 10
     max: 10
+    type: variable
   - name: 'Looper X Routing: Outputs 1/2'
     value: 61
     min: 11
     max: 11
+    type: variable
   - name: 'Looper X Routing: Outputs 3/4'
     value: 61
     min: 12
     max: 12
+    type: variable
   - name: 'Looper X Routing: Multiple Outputs Block'
     value: 61
     min: 13
     max: 13
+    type: variable
   - name: 'Ignore Duplicate PC: Off'
     value: 62
     description: 'Presets reloaded on every matching PC message'
     min: 0
     max: 63
+    type: variable
   - name: 'Ignore Duplicate PC: On'
     value: 62
     description: 'Prevents reload on repeated PC or CC#0/CC#32'
     min: 64
     max: 127
+    type: variable
   - name: 'Footswitch Page: Page I'
     value: 64
     min: 0
     max: 63
+    type: variable
   - name: 'Footswitch Page: Page II'
     value: 64
     min: 64
     max: 127
+    type: variable

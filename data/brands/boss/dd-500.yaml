@@ -17,153 +17,184 @@ cc:
     value: 16
     min: 0
     max: 127
+    type: variable
   - name: '[FEEDBACK] Knob'
     description: ''
     value: 17
     min: 0
     max: 127
+    type: variable
   - name: '[E. LEVEL] Knob'
     description: ''
     value: 18
     min: 0
     max: 127
+    type: variable
   - name: '[TONE] Knob'
     description: ''
     value: 19
     min: 0
     max: 127
+    type: variable
   - name: '[MOD DEPTH] Knob'
     description: ''
     value: 20
     min: 0
     max: 127
+    type: variable
   - name: Delay Bypass
     description: ''
     value: 21
     min: 0
     max: 0
+    type: variable
   - name: Delay On
     description: ''
     value: 21
     min: 127
     max: 127
+    type: variable
   - name: Phrase Loop Off
     description: ''
     value: 22
     min: 0
     max: 0
+    type: variable
   - name: Phrase Loop On
     description: ''
     value: 22
     min: 127
     max: 127
+    type: variable
   - name: Record/Overdub Off
     description: ''
     value: 23
     min: 0
     max: 0
+    type: variable
   - name: Record/Overdub On
     description: ''
     value: 23
     min: 127
     max: 127
+    type: variable
   - name: Loop playback Off
     description: ''
     value: 24
     min: 0
     max: 0
+    type: variable
   - name: Loop playback On
     description: ''
     value: 24
     min: 127
     max: 127
+    type: variable
   - name: Stop Off
     description: ''
     value: 25
     min: 0
     max: 0
+    type: variable
   - name: Stop On
     description: ''
     value: 25
     min: 127
     max: 127
+    type: variable
   - name: Clear Off
     description: ''
     value: 26
     min: 0
     max: 0
+    type: variable
   - name: Clear On
     description: ''
     value: 26
     min: 127
     max: 127
+    type: variable
   - name: Bypass Channel A
     description: Turns off Channel A of the Boss DD-500 in Simul Mode
     value: 28
     min: 0
     max: 0
+    type: variable
   - name: Delay On Channel A
     description: Turns on Channel A of the Boss DD-500 in Simul Mode
     value: 28
     min: 127
     max: 127
+    type: variable
   - name: Bypass Channel B
     description: Turns off Channel B of the Boss DD-500 in Simul Mode
     value: 29
     min: 0
     max: 0
+    type: variable
   - name: Delay On Channel B
     description: Turns on Channel B of the Boss DD-500 in Simul Mode
     value: 29
     min: 127
     max: 127
+    type: variable
   - name: CTL 1 Switch Release
     description: ''
     value: 80
     min: 0
     max: 0
+    type: variable
   - name: CTL 1 Switch Press
     description: ''
     value: 80
     min: 127
     max: 127
+    type: variable
   - name: CTL 2 Switch Release
     description: ''
     value: 81
     min: 0
     max: 0
+    type: variable
   - name: CTL 2 Switch Press
     description: ''
     value: 81
     min: 127
     max: 127
+    type: variable
   - name: '[A] Switch Release'
     description: ''
     value: 82
     min: 0
     max: 0
+    type: variable
   - name: '[A] Switch Press'
     description: ''
     value: 82
     min: 127
     max: 127
+    type: variable
   - name: '[B] Switch Release'
     description: ''
     value: 83
     min: 0
     max: 0
+    type: variable
   - name: '[B] Switch Press'
     description: ''
     value: 83
     min: 127
     max: 127
+    type: variable
   - name: '[TAP/CTL] Switch Release'
     description: ''
     value: 84
     min: 0
     max: 0
+    type: variable
   - name: '[TAP/CTL] Switch Press'
     description: ''
     value: 84
     min: 127
     max: 127
+    type: variable

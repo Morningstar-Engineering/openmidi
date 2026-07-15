@@ -39,114 +39,114 @@ cc:
   - name: Feed
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Volume
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Rate
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Depth
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Form
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Ramp
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'MIDI Note Division: Whole'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'MIDI Note Division: 1/2'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: 'MIDI Note Division: 1/4 Triplets'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: 'MIDI Note Division: 1/4'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: 'MIDI Note Division: 1/8'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 4
     max: 4
   - name: 'MIDI Note Division: 1/16'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 5
     max: 5
   - name: 'MIDI Clock: Ignore'
     value: 51
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'MIDI Clock: Listen'
     value: 51
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Tap Switch
     value: 93
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Exp
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass Switch: Bypass'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass Switch: Engage'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127

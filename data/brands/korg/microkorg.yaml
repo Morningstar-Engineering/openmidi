@@ -5,371 +5,445 @@ cc:
   min: 0
   name: Portamento
   value: 5
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'OSC 1 Wave: Saw'
   value: 77
+  type: variable
 - description: ''
   max: 17
   min: 17
   name: 'OSC 1 Wave: Square'
   value: 77
+  type: variable
 - description: ''
   max: 33
   min: 33
   name: 'OSC 1 Wave: Triangle'
   value: 77
+  type: variable
 - description: ''
   max: 49
   min: 49
   name: 'OSC 1 Wave: Sine'
   value: 77
+  type: variable
 - description: ''
   max: 65
   min: 65
   name: 'OSC 1 Wave: Vox Wave'
   value: 77
+  type: variable
 - description: ''
   max: 81
   min: 81
   name: 'OSC 1 Wave: DWGS'
   value: 77
+  type: variable
 - description: ''
   max: 97
   min: 97
   name: 'OSC 1 Wave: Noise'
   value: 77
+  type: variable
 - description: ''
   max: 113
   min: 113
   name: 'OSC 1 Wave: Audio In'
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 Control 1
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 Control 2
   value: 15
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'OSC 2 Wave: Saw'
   value: 78
+  type: variable
 - description: ''
   max: 64
   min: 64
   name: 'OSC 2 Wave: Square'
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'OSC 2 Wave: Triangle'
   value: 78
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'OSC 2 Mod: Off'
   value: 82
+  type: variable
 - description: ''
   max: 50
   min: 50
   name: 'OSC 2 Mod: Ring'
   value: 82
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'OSC 2 Mod: Sync'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'OSC 2 Mod: Ring Sync'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 Semitone
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 Tune
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder HPF level
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder threshold
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 level
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 level
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder inst level
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise level
   value: 22
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Filter Type: -24LPF'
   value: 83
+  type: variable
 - description: ''
   max: 50
   min: 50
   name: 'Filter Type: -12LPF'
   value: 83
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'Filter Type: -12BPF'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Filter Type: -12HPF'
   value: 83
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Vocoder formant shift: 0'
   value: 83
+  type: variable
 - description: ''
   max: 40
   min: 40
   name: 'Vocoder formant shift: +1'
   value: 83
+  type: variable
 - description: ''
   max: 60
   min: 60
   name: 'Vocoder formant shift: +2'
   value: 83
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'Vocoder formant shift: -1'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Vocoder formant shift: -2'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder filter cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG intensity
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder mod intensity
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG attack
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG decay
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG sustain
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG release
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Panpot
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder direct level
   value: 10
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Distortion: Off'
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Distortion: On'
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG decay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG sustain
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG release
   value: 72
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO 1 Wave: Saw'
   value: 87
+  type: variable
 - description: ''
   max: 60
   min: 60
   name: 'LFO 1 Wave: Square'
   value: 87
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'LFO 1 Wave: Triangle'
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO 1 Wave: S/H'
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 1 frequency
   value: 27
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO 2 Wave: Saw'
   value: 88
+  type: variable
 - description: ''
   max: 60
   min: 60
   name: 'LFO 2 Wave: Square'
   value: 88
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'LFO 2 Wave: Triangle'
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO 2 Wave: S/H'
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO 2 frequency
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch 1 intensity
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch 2 intensity
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch 3 intensity
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch 4 intensity
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod FX LFO speed
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod FX depth
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay depth
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Timbre select
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Sync: On'
   value: 90
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Sync: Off'
   value: 90
+  type: variable
 device_name: microKORG
 midi_channel:
   instructions: ''

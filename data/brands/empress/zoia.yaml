@@ -5,11 +5,13 @@ cc:
   min: 0
   name: Bypass
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage
   value: 60
+  type: variable
 device_name: ZOIA
 midi_channel:
   instructions: ''

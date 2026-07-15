@@ -5,586 +5,703 @@ cc:
   min: 0
   name: Bank Change
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: WavMod 1
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Main Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice Mode
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Distortion
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: WavMod 2
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Tune
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Fine
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Shape
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Shape
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Mix
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OscMod
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Spread
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OscMod Mode
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Attack
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Decay
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Sustain
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Release
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Attack
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Decay
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Sustain
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Release
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Tune
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Fine
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Amount
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Morph
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Rate
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Depth
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Shape
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Mode
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Type
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Attack
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Decay
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Sustain
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Release
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Rate
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Depth
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Depth
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Shape
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Depth
   value: 51
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO1 MIDI Sync: Off'
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO1 MIDI Sync: On'
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Gate
   value: 53
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO2 MIDI Sync: Off'
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO2 MIDI Sync: On'
   value: 54
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Delay MIDI Sync: Off'
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Delay MIDI Sync: On'
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Mode
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Mode
   value: 57
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Arp Status: Off'
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Arp Status: On'
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Octave
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Direction
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Division
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Bank
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Bank
   value: 63
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Sustain Pedal: Off'
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sustain Pedal: On'
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Length
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Mute
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Clear
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Hold
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Loop
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Record
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Amount
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Transpose
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swing
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq Quantise
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AEG Type
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FEG Type
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MEG Type
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Audio In
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All EG Attack
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All EG Decay
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All EG Sustain
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All EG Release
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 1 Depth
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 2 Depth
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 3 Depth
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 4 Depth
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 5 Depth
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 6 Depth
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 7 Depth
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ModSlot 8 Depth
   value: 95
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Chord Mode: Off'
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Chord Mode: On'
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 1 Source
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 2 Source
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 3 Source
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 4 Source
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 5 Source
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 6 Source
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 7 Source
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 8 Source
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 1 Dest
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 2 Dest
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 3 Dest
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 4 Dest
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 5 Dest
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 6 Dest
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 7 Dest
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Slot 8 Dest
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Joystick X+
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Joystick X-
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Joystick Y-
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch Gain
   value: 119
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Sound Off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Randomise Patch
   value: 121
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Notes Off
   value: 123
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Omni Off
   value: 124
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Omni On
   value: 125
+  type: variable
 device_name: ARGON 8
 midi_channel:
   instructions: ''

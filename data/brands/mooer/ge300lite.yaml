@@ -5,176 +5,211 @@ cc:
   min: 0
   name: Select Bank 0
   value: 0
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Select Bank 1
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Comp On/Off
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Wah On/Off
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: FXA On/Off
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: OD/DS On/Off
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Amp On/Off
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Cab On/Off
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: NS On/Off
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tone Cap On/Off
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: EQ On/Off
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: FXB On/Off
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: FX Loop On/Off
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Delay On/Off
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Reverb On/Off
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Enter/Exit'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tuner: Enter/Exit'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Tempo
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Record/Dub/Play'
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Once'
   value: 51
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Stop
   value: 52
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Play
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Clear
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Undo/Redo
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Reverse
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Half Speed
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Exp1 On/Off
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Exp 1 Pedal
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Exp 2 Pedal
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL 1
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL 2
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL 3
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL A
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL B
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: CTRL C
   value: 65
+  type: variable
 device_name: GE300 LITE
 midi_channel:
   instructions: ''

@@ -5,36 +5,43 @@ cc:
   min: 0
   name: External Tap Tempo
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: External Expression Control
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 102
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass Pedal
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Recall Preset (Off)
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Recall Preset (On)
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage/Bypass Toggle
   value: 105
+  type: variable
 device_name: Spectrum Intelligence Filter
 midi_channel:
   instructions: ''

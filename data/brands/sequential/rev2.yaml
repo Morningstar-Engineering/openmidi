@@ -5,316 +5,379 @@ cc:
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Type
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide Mode
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Master Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sub Oscillator
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator Slop
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Mod Mode
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Param 1
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Param 2
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BPM
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clock Divide
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX On/Off
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Mix
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: A/B Mode
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sequencer Type
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Frequency
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Fine Tune
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Shape
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Glide Rate/Time
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Frequency
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Fine Tune
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Shape
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Glide Rate/Time
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC Mix
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Level
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Shape Mod
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Shape Mod
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp On/Off
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Mode
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Range
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Repeats
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice Volume
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Split Point
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide On/Off
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Sustain
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Release
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Sustain
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Release
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Destination
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Amount
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Velocity
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Delay
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Attack
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Decay
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Frequency
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Key Amount
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Audio Mod
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Amount
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Velocity
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Delay
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Attack
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Decay
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Sustain
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Release
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Level
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Spread
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Amount
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Velocity
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Delay
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Attack
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Decay
   value: 119
+  type: variable
 device_name: Rev 2
 midi_channel:
   instructions: ''

@@ -22,138 +22,166 @@ cc:
     description: Selects preset bank 0–31.
     min: '0'
     max: '31'
+    type: variable
   - name: Delay Time
     value: '3'
     description: Controls delay time.
     min: 0
     max: 127
+    type: variable
   - name: Room Size / RT60
     value: '9'
     description: Controls reverb room size / RT60.
     min: 0
     max: 127
+    type: variable
   - name: Delay Mix
     value: '14'
     description: Controls delay mix level.
     min: 0
     max: 127
+    type: variable
   - name: Reverb Mix
     value: '15'
     description: Controls reverb mix level.
     min: 0
     max: 127
+    type: variable
   - name: Tweak Rate / FO Freq
     value: '17'
     description: Controls tweak rate / filter oscillator frequency.
     min: 0
     max: 127
+    type: variable
   - name: Tweak Depth
     value: '18'
     description: Controls tweak depth.
     min: 0
     max: 127
+    type: variable
   - name: Delay Mode
     value: '19'
     description: Selects delay mode.
     min: 0
     max: '7'
+    type: variable
   - name: Tweak Blend
     value: '20'
     description: Controls tweak blend.
     min: 0
     max: 127
+    type: variable
   - name: Delay Feedback
     value: '22'
     description: Controls delay feedback.
     min: 0
     max: 127
+    type: variable
   - name: Saturation
     value: '23'
     description: Controls saturation amount.
     min: 0
     max: 127
+    type: variable
   - name: Dynamics Threshold
     value: '25'
     description: Controls Dynamic Expression threshold.
     min: 0
     max: 127
+    type: variable
   - name: Routing
     value: '27'
     description: Selects delay/reverb routing mode.
     min: 0
     max: '3'
+    type: variable
   - name: Tweak LPF
     value: '28'
     description: Controls low-pass filter tweak value.
     min: 0
     max: 127
+    type: variable
   - name: Tweak HPF
     value: '29'
     description: Controls high-pass filter tweak value.
     min: 0
     max: 127
+    type: variable
   - name: BPM MSB
     value: '30'
     description: Most significant byte for BPM tempo value.
     min: 0
     max: 127
+    type: variable
   - name: Delay ms MSB
     value: '31'
     description: Most significant byte for delay time in milliseconds.
     min: 0
     max: 127
+    type: variable
   - name: Preset
     value: '32'
     description: Selects preset A–D within the current bank.
     min: 0
     max: '3'
+    type: variable
   - name: Patch Decrement
     value: '33'
     description: Decrements patch. Any value triggers the command.
     min: 0
     max: 127
+    type: variable
   - name: Patch Increment
     value: '34'
     description: Increments patch. Any value triggers the command.
     min: 0
     max: 127
+    type: variable
   - name: BPM LSB
     value: '62'
     description: Least significant byte for BPM tempo value.
     min: 0
     max: 127
+    type: variable
   - name: Delay ms LSB
     value: '63'
     description: Least significant byte for delay time in milliseconds.
     min: 0
     max: 127
+    type: variable
   - name: Tap Footswitch
     value: '81'
     description: Triggers the tap footswitch function.
     min: '1'
     max: 127
+    type: variable
   - name: Remote Tap
     value: '93'
     description: Remote tap tempo. Any value triggers the command.
     min: 0
     max: 127
+    type: variable
   - name: Trailing Repeats
     value: '97'
     description: 0–1 trailing repeats setting.
     min: 0
     max: '1'
+    type: variable
   - name: BPM / Tempo Display Mode
     value: '101'
     description: '0 = BPM display, 1 = time display.'
     min: 0
     max: '1'
+    type: variable
   - name: Bypass
     value: '102'
     description: '0 = bypass, 1–127 = enable.'
     min: 0
     max: 127
+    type: variable
   - name: Dry Kill
     value: '103'
     description: '0 = off, 1 = bypass mutes, 2 = bypass dry.'
     min: 0
     max: '2'
+    type: variable

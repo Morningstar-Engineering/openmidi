@@ -5,261 +5,313 @@ cc:
   min: 0
   name: 'Voice: Clean Warm'
   value: 5
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Voice: Clean Bright'
   value: 5
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Voice: Crunch'
   value: 5
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Voice: Super Crunch'
   value: 5
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Voice: OD1'
   value: 5
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Voice: OD2'
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Gain
   value: 6
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Middle
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Treble
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ISF
   value: 11
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Response: EL84'
   value: 12
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Response: 6V6'
   value: 12
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Response: EL34'
   value: 12
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Response: KT66'
   value: 12
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Response: 6L6'
   value: 12
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Response: KT88'
   value: 12
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Mod Effect: Phaser'
   value: 13
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Mod Effect: Flanger'
   value: 13
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Mod Effect: Chorus'
   value: 13
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Mod Effect: Tremolo'
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation Adjust 1
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation Adjust 2
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation Level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation Rate
   value: 17
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Delay Effect: Linear'
   value: 18
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Delay Effect: Analogue'
   value: 18
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Delay Effect: Tape'
   value: 18
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Delay Effect: Multi'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Adjust 1
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Adjust 2
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Level
   value: 21
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Reverb Effect: Room'
   value: 22
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Reverb Effect: Hall'
   value: 22
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Reverb Effect: Spring'
   value: 22
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Reverb Effect: Plate'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Adjust 1
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Adjust 2
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Level
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Modulation: On'
   value: 64
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Modulation: Off'
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Delay: On'
   value: 65
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Delay: Off'
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Reverb: On'
   value: 66
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Reverb: Off'
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Delay Tap
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Effects Loop Mode: On'
   value: 69
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Effects Loop Mode: Off'
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Super Wide Stereo: On'
   value: 70
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Super Wide Stereo: Off'
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Save Current Patch
   value: 119
+  type: variable
 device_name: Silverline Stereo Deluxe
 midi_channel:
   instructions: ''

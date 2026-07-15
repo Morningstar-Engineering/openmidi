@@ -5,46 +5,55 @@ cc:
   min: 0
   name: Effects Loop Series
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effects Loop Mix
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Overdrive
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Boost
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mid
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bright
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Deep - Low (Green)
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Deep - High (Yellow)
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Mute
   value: 119
+  type: variable
 device_name: Hedgehog
 midi_channel:
   instructions: ''

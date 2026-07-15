@@ -32,7 +32,7 @@ cc:
     max: 127
     min: 0
     name: LFO depth to VCF and VCO
-    type: Parameter etc. Not important - can just leave blank
+    type: variable
     value: 1
   - description: "Default value: 127 Adjusts (logarithmically) the VCF volume of the\
       \ Main Mixer output in the same way as the LFO modulations work; when CC2 is\
@@ -44,7 +44,7 @@ cc:
     max: 127
     min: 0
     name: VCF volume of Main Mixer
-    type: null
+    type: variable
     value: 2
   - description: 'Default value: 127 (0 in EWI Mode). Operates in a similar fashion
       to CC1 and CC2; when CC5 is at maximum (127) then this corresponds to the portamento
@@ -52,7 +52,7 @@ cc:
     max: 127
     min: 0
     name: Portamento time
-    type: null
+    type: variable
     value: 5
   - description: 'Default value: 127. MIDI Volume (CC7) is applied to the final output
       of the FI. It is independent of all program parameters. It is smoothed and acts
@@ -63,27 +63,27 @@ cc:
     max: 127
     min: 0
     name: Final output volume of FI
-    type: null
+    type: variable
     value: 7
   - description: Duplication of CC74. See below.
     max: 127
     min: 0
     name: Filter cutoff
-    type: null
+    type: variable
     value: 11
   - description: "Default value: 0. If \u226564 then it switches ON; If <64, then\
       \ it switches OFF. Sustain stops upon change of program."
     max: 127
     min: 0
     name: Sustain ON/OFF
-    type: null
+    type: variable
     value: 64
   - description: "Default value: 127. If \u226564 then it switches ON; If <64, then\
       \ it switches OFF."
     max: 127
     min: 0
     name: Portamento ON/OFF
-    type: null
+    type: variable
     value: 65
   - description: "If \u226564 relay switches to ON. If <64, relay switches to OFF.\
       \ (This message will alsodisengage the Tuner, putting the FI into either the\
@@ -91,7 +91,7 @@ cc:
     max: 127
     min: 0
     name: FI ON/OFF
-    type: null
+    type: variable
     value: 66
   - description: "If \u226564 then program number first steps down by one, then it\
       \ starts scrolling (as when holding the Program footswitch). If <64 then it\
@@ -99,7 +99,7 @@ cc:
     max: 127
     min: 0
     name: Program DOWN
-    type: null
+    type: variable
     value: 67
   - description: "If \u226564 then the FI flips between ON and OFF. If <64 then the\
       \ message is ignored. (If the Tuner is active then sending this message will\
@@ -107,7 +107,7 @@ cc:
     max: 127
     min: 0
     name: FI ON/OFF toggle
-    type: null
+    type: variable
     value: 69
   - description: "Default value: 64. Deviates \xB11, \xB12 or \xB14 octaves from the\
       \ cutoff value set by the VCF FRQ slider inthe program. Range is set by VCF\
@@ -115,7 +115,7 @@ cc:
     max: 127
     min: 0
     name: Filter cutoff
-    type: null
+    type: variable
     value: 74
   - description: "For Program UP, if \u226564 then program number first steps up by\
       \ one, then it starts scrolling (like when holding the Program footswitch).\
@@ -124,7 +124,7 @@ cc:
     max: 127
     min: 0
     name: Program UP and Tap Tempo
-    type: null
+    type: variable
     value: 88
   - description: "If \u226564 then the Tuner flips between ON and OFF. If <64 then\
       \ the message is ignored. Whenever the Tuner is disengaged, the FI reverts to\
@@ -133,25 +133,25 @@ cc:
     max: 127
     min: 0
     name: Tuner ON/OFF toggle
-    type: null
+    type: variable
     value: 89
   - description: "If \u226564 then bank number steps up by 1. If <64 then the message\
       \ is ignored."
     max: 127
     min: 0
     name: Bank UP
-    type: null
+    type: variable
     value: 90
   - description: "If \u226564 then bank number steps down by 1. If <64 then the message\
       \ is ignored."
     max: 127
     min: 0
     name: Bank DOWN
-    type: null
+    type: variable
     value: 91
   - description: 'Default value: 127.'
     max: 127
     min: 0
     name: INSTR volume of Main Mixer
-    type: null
+    type: variable
     value: 92

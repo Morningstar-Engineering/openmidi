@@ -22,150 +22,150 @@ cc:
   - name: Exp Pedal
     value: 4
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: FX Bypass
     value: 14
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: FX Enable
     value: 14
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: 1/4 Note
     value: 9
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: Dotted 8th
     value: 9
     description: ''
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: Tempo (10ms interval)
     value: 15
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Time
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Feedback
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Multiply
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dimension
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dynamics
     value: 21
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Early Modulations
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Feedback Filter
     value: 23
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Delay Level
     value: 24
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Late Modulation
     value: 25
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dynamic Flanger Mode
     value: 26
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dynamic Flanger Speed
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tap
     value: 28
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Phaser Mode: Off'
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 31
   - name: 'Phaser Mode: Slow'
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 32
     max: 63
   - name: 'Phaser Mode: Whole Note'
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 64
     max: 85
   - name: 'Phaser Mode: 1/4 Note'
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 96
     max: 127
   - name: 'Speed: Full'
     value: 31
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: 'Speed: Half'
     value: 31
     description: ''
-    type: Parameter
+    type: variable
     min: 64
     max: 127

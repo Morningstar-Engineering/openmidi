@@ -18,683 +18,820 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Voice Frequency
     value: '1'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Drive
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Output
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Distortion Engine - Tube Drive
     value: '4'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Left Distortion Engine - Smooth Tube
     value: '4'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Left Distortion Engine - Power Stage
     value: '4'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Left Distortion Engine - Crunch Tube
     value: '4'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Left Distortion Engine - TS9000
     value: '4'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Left Distortion Engine - Big Pi
     value: '4'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Left Distortion Engine - El Raton
     value: '4'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Left Distortion Engine - Fuzz Facade
     value: '4'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Left Distortion Engine - Bender
     value: '4'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Left Distortion Engine - Metal
     value: '4'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Left Distortion Engine - Octave Fuzz
     value: '4'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Left Distortion Engine - Gated Fuzz
     value: '4'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Left Distortion Engine - Bass Tube Drive
     value: '4'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Left Distortion Engine - Bass Smooth Tube
     value: '4'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Left Distortion Engine - Bass Power Stage
     value: '4'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Left Distortion Engine - Bass Crunch Tube
     value: '4'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Left Distortion Engine - Bass TS9000
     value: '4'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Left Distortion Engine - Bass Big Pi
     value: '4'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Left Distortion Engine - Bass El Raton
     value: '4'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Left Distortion Engine - Bass Fuzz Facade
     value: '4'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Left Distortion Engine - Bass Bender
     value: '4'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Left Distortion Engine - Bass Metal
     value: '4'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Left Distortion Engine - Octave Fuzz
     value: '4'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Left Distortion Engine - Bass Gated Fuzz
     value: '4'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Left Distortion Engine - Gated Fuzz II
     value: '4'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Left Distortion Engine - Gated Fuzz III
     value: '4'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Left Distortion Engine - TS9001
     value: '4'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Left Distortion Engine - Maestro FZ-1A
     value: '4'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Left Distortion Engine - Bigger Pi
     value: '4'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: Left Distortion Engine - Foldover
     value: '4'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Left Distortion Engine - OhSeeDee
     value: '4'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Left Distortion Engine - Fuzz Face II
     value: '4'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Left Distortion Engine - DS-1
     value: '4'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Left Distortion Engine - Rat II
     value: '4'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Left Distortion Engine - Bender II
     value: '4'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Left Distortion Engine - Metal II
     value: '4'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Left Distortion Engine - Octave II
     value: '4'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Left Distortion Engine - Smoked Glass C4L
     value: '4'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Left Distortion Engine - 38 Special
     value: '4'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Left Distortion Engine - Smooth Tube II
     value: '4'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Left Distortion Engine - Power Stage II
     value: '4'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Left Distortion Engine - Crunch Tube II
     value: '4'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Left Distortion Engine - Grated Bass
     value: '4'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: Left Distortion Engine - Clean (No Distortion)
     value: '4'
     description: ''
     min: '43'
     max: '43'
+    type: variable
   - name: Left Distortion Engine - Smoked Glass D5M
     value: '4'
     description: ''
     min: '44'
     max: '44'
+    type: variable
   - name: Left Distortion Engine - The Klone
     value: '4'
     description: ''
     min: '45'
     max: '45'
+    type: variable
   - name: Left Distortion Engine - Pepperface Fuzz
     value: '4'
     description: ''
     min: '46'
     max: '46'
+    type: variable
   - name: Left Distortion Engine - Vari-Screamer
     value: '4'
     description: ''
     min: '47'
     max: '47'
+    type: variable
   - name: Left Distortion Engine - Foldover II
     value: '4'
     description: ''
     min: '48'
     max: '48'
+    type: variable
   - name: Left Distortion Engine - Germanium Muffin
     value: '4'
     description: ''
     min: '49'
     max: '49'
+    type: variable
   - name: Left Clean Mix
     value: '5'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Drive Balance
     value: '6'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Drive Max
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Treble 3436 Hz
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Bass 85 Hz
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Mid A 1201 Hz
     value: '10'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Left Mid B 379 Hz
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Voice
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Voice Frequency
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Drive
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Output
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Distortion Engine
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Distortion Engine - Tube Drive
     value: '16'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Right Distortion Engine - Smooth Tube
     value: '16'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Right Distortion Engine - Power Stage
     value: '16'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: Right Distortion Engine - Crunch Tube
     value: '16'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: Right Distortion Engine - TS9000
     value: '16'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Right Distortion Engine - Big Pi
     value: '16'
     description: ''
     min: '5'
     max: '5'
+    type: variable
   - name: Right Distortion Engine - El Raton
     value: '16'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: Right Distortion Engine - Fuzz Facade
     value: '16'
     description: ''
     min: '7'
     max: '7'
+    type: variable
   - name: Right Distortion Engine - Bender
     value: '16'
     description: ''
     min: '8'
     max: '8'
+    type: variable
   - name: Right Distortion Engine - Metal
     value: '16'
     description: ''
     min: '9'
     max: '9'
+    type: variable
   - name: Right Distortion Engine - Octave Fuzz
     value: '16'
     description: ''
     min: '10'
     max: '10'
+    type: variable
   - name: Right Distortion Engine - Gated Fuzz
     value: '16'
     description: ''
     min: '11'
     max: '11'
+    type: variable
   - name: Right Distortion Engine - Bass Tube Drive
     value: '16'
     description: ''
     min: '12'
     max: '12'
+    type: variable
   - name: Right Distortion Engine - Bass Smooth Tube
     value: '16'
     description: ''
     min: '13'
     max: '13'
+    type: variable
   - name: Right Distortion Engine - Bass Power Stage
     value: '16'
     description: ''
     min: '14'
     max: '14'
+    type: variable
   - name: Right Distortion Engine - Bass Crunch Tube
     value: '16'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: Right Distortion Engine - Bass TS9000
     value: '16'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: Right Distortion Engine - Bass Big Pi
     value: '16'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: Right Distortion Engine - Bass El Raton
     value: '16'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Right Distortion Engine - Bass Fuzz Facade
     value: '16'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Right Distortion Engine - Bass Bender
     value: '16'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Right Distortion Engine - Bass Metal
     value: '16'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Right Distortion Engine - Bass Octave Fuz
     value: '16'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Right Distortion Engine - Bass Gated Fuzz
     value: '16'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Right Distortion Engine - Gated Fuzz II
     value: '16'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Right Distortion Engine - Gated Fuzz III
     value: '16'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Right Distortion Engine - TS9001
     value: '16'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Right Distortion Engine - Maestro FZ-1A
     value: '16'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Right Distortion Engine - Bigger Pi
     value: '16'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: Right Distortion Engine - Foldover
     value: '16'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Right Distortion Engine - OhSeeDee
     value: '16'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Right Distortion Engine - Fuzz Face II
     value: '16'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Right Distortion Engine - DS-1
     value: '16'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Right Distortion Engine - Rat II
     value: '16'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: Right Distortion Engine - Bender II
     value: '16'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Right Distortion Engine - Metal II
     value: '16'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Right Distortion Engine - Octave II
     value: '16'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Right Distortion Engine - Smoked Glass C4L
     value: '16'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Right Distortion Engine - 38 Special
     value: '16'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Right Distortion Engine - Smooth Tube II
     value: '16'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Right Distortion Engine - Power Stage II
     value: '16'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Right Distortion Engine - Crunch Tube II
     value: '16'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Right Distortion Engine - Grated Bass
     value: '16'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: Right Distortion Engine - Clean (No Distortion)
     value: '16'
     description: ''
     min: '43'
     max: '43'
+    type: variable
   - name: Right Distortion Engine - Smoked Glass D5M
     value: '16'
     description: ''
     min: '44'
     max: '44'
+    type: variable
   - name: Right Distortion Engine - The Klone
     value: '16'
     description: ''
     min: '45'
     max: '45'
+    type: variable
   - name: Right Distortion Engine - Pepperface Fuzz
     value: '16'
     description: ''
     min: '46'
     max: '46'
+    type: variable
   - name: Right Distortion Engine - Vari-Screamer
     value: '16'
     description: ''
     min: '47'
     max: '47'
+    type: variable
   - name: Right Distortion Engine - Foldover II
     value: '16'
     description: ''
     min: '48'
     max: '48'
+    type: variable
   - name: Right Distortion Engine - Germanium Muffin
     value: '16'
     description: ''
     min: '49'
     max: '49'
+    type: variable
   - name: Right Clean Mix
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Drive Balance
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Drive Maximum
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Treble 3436 Hz
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Bass 85 Hz
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Mid A 1201 Hz
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Right Mid B 379 Hz
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Noise Gate Threshold
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Clean High Cut
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Freq
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass Freq
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid A Freq
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid A Q
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid B Freq
     value: '30'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid B Q
     value: '31'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input Low Cut
     value: '32'
     description: ''
     min: 0
     max: '36'
+    type: variable
   - name: I/O Routing
     value: '33'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter Gate Option
     value: '34'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Noise Gate Enable
     value: '35'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel Switch Control
     value: '36'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bypass/Engage
     value: '37'
     description: ''
     min: 0
     max: 127
+    type: variable

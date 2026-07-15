@@ -4,73 +4,73 @@ cc:
   max: 0
   min: 0
   name: Turn Off
-  type: System
+  type: variable
   value: 10
 - description: 'Turn on (with Latch mode activated)'
   max: 1
   min: 1
   name: Turn On
-  type: System
+  type: variable
   value: 10
 - description: 'Toggle (with Latch mode activated)'
   max: 2
   min: 2
   name: Toggle
-  type: System
+  type: variable
   value: 10
 - description: 'Hold (with Latch mode deactivated)'
   max: 3
   min: 3
   name: Hold
-  type: System
+  type: variable
   value: 10
 - description: 'Release (with Latch mode deactivated)'
   max: 4
   min: 4
   name: Release
-  type: System
+  type: variable
   value: 10
 - description: 'Unity (0) to full shift (127)'
   max: 127
   min: 0
   name: Pitch Full
-  type: Parameter
+  type: variable
   value: 50
 - description: 'Full shift (0) to unity (127)'
   max: 127
   min: 0
   name: Pitch Full Reverse
-  type: Parameter
+  type: variable
   value: 51
 - description: 'Unity (0) to half shift (127) with full resolution'
   max: 127
   min: 0
   name: Pitch to Half
-  type: Parameter
+  type: variable
   value: 52
 - description: 'Half shift (0) to full shift (127) with full resolution'
   max: 127
   min: 0
   name: Pitch Half to Full
-  type: Parameter
+  type: variable
   value: 53
 - description: 'Dual (Shift up and down)'
   max: 0
   min: 0
   name: Dual Mode
-  type: System
+  type: variable
   value: 30
 - description: 'Shift up'
   max: 1
   min: 1
   name: Up Mode
-  type: System
+  type: variable
   value: 30
 - description: 'Shift down'
   max: 5
   min: 5
   name: Down Mode
-  type: System
+  type: variable
   value: 30
 device_name: Goblin-EXP in EHX Pitch Fork
 midi_channel:

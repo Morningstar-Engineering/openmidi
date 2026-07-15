@@ -5,331 +5,397 @@ cc:
   min: 0
   name: 'Sec 1: Knob 1'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 1: Knob 2'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 1: Slider 1'
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 1: Slider 2'
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 1'
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 2'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 3'
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 4'
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 5'
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 1: Button 6'
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 2: Knob 1'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 2: Knob 2'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 2: Slider 1'
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 2: Slider 2'
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 1'
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 2'
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 3'
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 4'
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 5'
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 2: Button 6'
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 3: Knob 1'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 3: Knob 2'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 3: Slider 1'
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 3: Slider 2'
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 1'
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 2'
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 3'
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 4'
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 5'
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 3: Button 6'
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 4: Knob 1'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 4: Knob 2'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 4: Slider 1'
   value: 6
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Sec 4: Slider 2'
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 1'
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 2'
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 3'
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 4'
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 5'
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Sec 4: Button 6'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Extra Section Slider
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Next Patch
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Previous Patch
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Panic
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Tempo
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Sum to Mono
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic: On'
   value: 36
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Tonic: Off'
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic: Motion Button'
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic: Shift Up Button'
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Tonic: Speed Knob'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: A'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: Bb'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: B'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: C'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: Db'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: D'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: Eb'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: E'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: F'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: Gb'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: G'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tonic Key: Ab'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tonic Volume Knob
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Tonic XY Pad: X Axis'
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Tonic XY Pad: Y Axis'
   value: 34
+  type: variable
 device_name: Sunday Keys 2020
 midi_channel:
   instructions: ''

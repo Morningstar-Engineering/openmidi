@@ -5,46 +5,55 @@ cc:
   min: 0
   name: Mid
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mood
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Post-Tone
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pre-Tone
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drive
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FS Preset
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FS On/Off
   value: 28
+  type: variable
 device_name: Ridge
 midi_channel:
   instructions: ''

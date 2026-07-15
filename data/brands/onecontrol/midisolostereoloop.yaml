@@ -19,8 +19,10 @@ cc:
     description: 'disengage loop'
     min: 0
     max: 63
+    type: variable
   - name: 'on'
     value: '102'
     description: 'engage loop'
     min: 64
     max: 127
+    type: variable

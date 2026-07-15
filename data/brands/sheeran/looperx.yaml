@@ -5,461 +5,553 @@ cc:
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: FX 1 Toggle
     value: '3'
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: FX 2 Toggle
     value: '3'
     description: ''
     min: '2'
     max: '2'
+    type: variable
   - name: FX 3 Toggle
     value: '3'
     description: ''
     min: '3'
     max: '3'
+    type: variable
   - name: FX 4 Toggle
     value: '3'
     description: ''
     min: '4'
     max: '4'
+    type: variable
   - name: Tap Tempo
     value: '3'
     description: ''
     min: '6'
     max: '6'
+    type: variable
   - name: All Tracks Half Length
     value: '3'
     description: ''
     min: '15'
     max: '15'
+    type: variable
   - name: '16 All Tracks Double Length '
     value: '3'
     description: ''
     min: '16'
     max: '16'
+    type: variable
   - name: All Tracks Half Speed
     value: '3'
     description: ''
     min: '17'
     max: '17'
+    type: variable
   - name: All Tracks Double Speed
     value: '3'
     description: ''
     min: '18'
     max: '18'
+    type: variable
   - name: Mute Track 1
     value: '3'
     description: ''
     min: '19'
     max: '19'
+    type: variable
   - name: Mute Track 2
     value: '3'
     description: ''
     min: '20'
     max: '20'
+    type: variable
   - name: Mute Track 3
     value: '3'
     description: ''
     min: '21'
     max: '21'
+    type: variable
   - name: Mute Track 4
     value: '3'
     description: ''
     min: '22'
     max: '22'
+    type: variable
   - name: Mute All Tracks
     value: '3'
     description: ''
     min: '23'
     max: '23'
+    type: variable
   - name: Clear All Tracks
     value: '3'
     description: ''
     min: '24'
     max: '24'
+    type: variable
   - name: Track 1 Reverse
     value: '3'
     description: ''
     min: '25'
     max: '25'
+    type: variable
   - name: Track 2 Reverse
     value: '3'
     description: ''
     min: '26'
     max: '26'
+    type: variable
   - name: Track 3 Reverse
     value: '3'
     description: ''
     min: '27'
     max: '27'
+    type: variable
   - name: Track 4 Reverse
     value: '3'
     description: ''
     min: '28'
     max: '28'
+    type: variable
   - name: All Tracks Reverse
     value: '3'
     description: ''
     min: '29'
     max: '29'
+    type: variable
   - name: Track 1 Fade
     value: '3'
     description: ''
     min: '30'
     max: '30'
+    type: variable
   - name: Track 2 Fade
     value: '3'
     description: ''
     min: '31'
     max: '31'
+    type: variable
   - name: Track 3 Fade
     value: '3'
     description: ''
     min: '32'
     max: '32'
+    type: variable
   - name: Track 4 Fade
     value: '3'
     description: ''
     min: '33'
     max: '33'
+    type: variable
   - name: All Tracks Fade
     value: '3'
     description: ''
     min: '34'
     max: '34'
+    type: variable
   - name: Track 1 Half-Step Up
     value: '3'
     description: ''
     min: '35'
     max: '35'
+    type: variable
   - name: Track 2 Half-Step Up
     value: '3'
     description: ''
     min: '36'
     max: '36'
+    type: variable
   - name: Track 3 Half-Step Up
     value: '3'
     description: ''
     min: '37'
     max: '37'
+    type: variable
   - name: Track 4 Half-Step Up
     value: '3'
     description: ''
     min: '38'
     max: '38'
+    type: variable
   - name: Track 1 Half-Step Down
     value: '3'
     description: ''
     min: '39'
     max: '39'
+    type: variable
   - name: Track 2 Half-Step Down
     value: '3'
     description: ''
     min: '40'
     max: '40'
+    type: variable
   - name: Track 3 Half-Step Down
     value: '3'
     description: ''
     min: '41'
     max: '41'
+    type: variable
   - name: Track 4 Half-Step Down
     value: '3'
     description: ''
     min: '42'
     max: '42'
+    type: variable
   - name: All Tracks Half-Step Up
     value: '3'
     description: ''
     min: '43'
     max: '43'
+    type: variable
   - name: All Tracks Half-Step Down
     value: '3'
     description: ''
     min: '44'
     max: '44'
+    type: variable
   - name: Track 1 Clear
     value: '3'
     description: ''
     min: '49'
     max: '49'
+    type: variable
   - name: Track 2 Clear
     value: '3'
     description: ''
     min: '50'
     max: '50'
+    type: variable
   - name: Track 3 Clear
     value: '3'
     description: ''
     min: '51'
     max: '51'
+    type: variable
   - name: Track 4 Clear
     value: '3'
     description: ''
     min: '52'
     max: '52'
+    type: variable
   - name: Track 1 Peel
     value: '3'
     description: ''
     min: '53'
     max: '53'
+    type: variable
   - name: Track 2 Peel
     value: '3'
     description: ''
     min: '54'
     max: '54'
+    type: variable
   - name: Track 3 Peel
     value: '3'
     description: ''
     min: '55'
     max: '55'
+    type: variable
   - name: Track 4 Peel
     value: '3'
     description: ''
     min: '56'
     max: '56'
+    type: variable
   - name: B. Track Rewind
     value: '3'
     description: ''
     min: '57'
     max: '57'
+    type: variable
   - name: B. Track Stop
     value: '3'
     description: ''
     min: '58'
     max: '58'
+    type: variable
   - name: B. Track Play/Pause
     value: '3'
     description: ''
     min: '59'
     max: '59'
+    type: variable
   - name: B. Track Fast Forward
     value: '3'
     description: ''
     min: '60'
     max: '60'
+    type: variable
   - name: B. Track Prev Track
     value: '3'
     description: ''
     min: '63'
     max: '63'
+    type: variable
   - name: B. Track Next Track
     value: '3'
     description: ''
     min: '64'
     max: '64'
+    type: variable
   - name: Load Previous Loop
     value: '3'
     description: ''
     min: '65'
     max: '65'
+    type: variable
   - name: Load Next Loop
     value: '3'
     description: ''
     min: '66'
     max: '66'
+    type: variable
   - name: Solo Track 1
     value: '3'
     description: ''
     min: '68'
     max: '68'
+    type: variable
   - name: Solo Track 2
     value: '3'
     description: ''
     min: '69'
     max: '69'
+    type: variable
   - name: Solo Track 3
     value: '3'
     description: ''
     min: '70'
     max: '70'
+    type: variable
   - name: Solo Track 4
     value: '3'
     description: ''
     min: '71'
     max: '71'
+    type: variable
   - name: Select Track 1 (Global FS1)
     value: '3'
     description: ''
     min: '72'
     max: '72'
+    type: variable
   - name: Select Track 2 (Global FS2)
     value: '3'
     description: ''
     min: '73'
     max: '73'
+    type: variable
   - name: Select Track 3 (Global FS3)
     value: '3'
     description: ''
     min: '74'
     max: '74'
+    type: variable
   - name: Select Track 4 (Global FS4)
     value: '3'
     description: ''
     min: '75'
     max: '75'
+    type: variable
   - name: Rec/Dub/Play (Global FS5)
     value: '3'
     description: ''
     min: '76'
     max: '76'
+    type: variable
   - name: Stop All (Global FS6)
     value: '3'
     description: ''
     min: '77'
     max: '77'
+    type: variable
   - name: Mode (Global FS7)
     value: '3'
     description: ''
     min: '78'
     max: '78'
+    type: variable
   - name: Function (Global FS8)
     value: '3'
     description: ''
     min: '79'
     max: '79'
+    type: variable
   - name: Main Level
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Phones Level
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 1 Volume
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Volume
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Volume
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Volume
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 1 Pan
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 2 Pan
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 3 Pan
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Track 4 Pan
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Backing Track Volume
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Backing Track Pan
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Click Track Volume
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Click Track Pan
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output 1 Volume
     value: '85'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output 2 Volume
     value: '86'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output 3 Volume
     value: '87'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output 4 Volume
     value: '88'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 1 Pan
     value: '89'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 2 Pan
     value: '90'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 3 Pan
     value: '91'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input 4 Pan
     value: '92'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Expression Pedal
     value: '93'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Fade Rate
     value: '94'
     description: ''
     min: 0
     max: '99'
+    type: variable
   - name: Track 1 Feedback (Decay)
     value: '95'
     description: ''
     min: 0
     max: '99'
+    type: variable
   - name: Track 2 Feedback (Decay)
     value: '96'
     description: ''
     min: 0
     max: '99'
+    type: variable
   - name: Track 3 Feedback (Decay)
     value: '97'
     description: ''
     min: 0
     max: '99'
+    type: variable
   - name: Track 4 Feedback (Decay)
     value: '98'
     description: ''
     min: 0
     max: '99'
+    type: variable
 device_name: Looper X
 midi_channel:
   instructions: ''

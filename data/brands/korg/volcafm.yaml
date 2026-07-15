@@ -5,56 +5,67 @@ cc:
   min: 0
   name: Transpose
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulator attack
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulator decay
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Carrier attack
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Carrier decay
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO pitch depth
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Algorithm
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator type
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator div
   value: 50
+  type: variable
 device_name: volca fm
 midi_channel:
   instructions: ''

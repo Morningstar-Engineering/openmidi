@@ -19,126 +19,126 @@ cc:
   - name: Time
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Repeats
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 20
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod
     value: 21
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Age
     value: 23
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Prog
     value: 24
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Attack
     value: 25
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Tweak Switch: MOD'
     value: 26
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 42
   - name: 'Tweak Switch: TONE'
     value: 26
     description: ''
-    type: Parameter
+    type: variable
     min: 43
     max: 85
   - name: 'Tweak Switch: AGE'
     value: 26
     description: ''
-    type: Parameter
+    type: variable
     min: 86
     max: 127
   - name: 'A|B|C Switch: A'
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 42
   - name: 'A|B|C Switch: B'
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 43
     max: 85
   - name: 'A|B|C Switch: C'
     value: 27
     description: ''
-    type: Parameter
+    type: variable
     min: 86
     max: 127
   - name: 'Division Switch: QUARTER'
     value: 28
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 42
   - name: 'Division Switch: EIGHTH'
     value: 28
     description: ''
-    type: Parameter
+    type: variable
     min: 43
     max: 85
   - name: 'Division Switch: DOTTED EIGHTH'
     value: 28
     description: ''
-    type: Parameter
+    type: variable
     min: 86
     max: 127
   - name: 'Bypass Switch: BYPASS'
     value: 29
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: ENGAGED'
     value: 29
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Tap Tempo: BYPASS'
     value: 30
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Tap Tempo: ENGAGED'
     value: 30
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127

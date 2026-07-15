@@ -61,7 +61,7 @@ cc:
       Value 20 - 2.50s
       Value 21 - 3.00s
       Value 22 - 4.00s
-    type: Parameter
+    type: variable
     min: 0
     max: 22
   - name: Autoswell - Shape
@@ -71,13 +71,13 @@ cc:
       Value 1 - Quadratic
       Value 2 - Ramp
       Value 3 - Logarithmic
-    type: Parameter
+    type: variable
     min: 0
     max: 3
   - name: Chorus - Mix
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Chorus - Mode
@@ -89,19 +89,19 @@ cc:
       Value 3 - Black -
       Value 4 - Zero +
       Value 5 - Zero -
-    type: Parameter
+    type: variable
     min: 0
     max: 4
   - name: Chorus - Tone
     value: 30
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Depth
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Destroyer - Bit Depth
@@ -128,7 +128,7 @@ cc:
       Value 18 - 20 Bit
       Value 19 - 24 Bit
       Value 20 - 32 Bit
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Destroyer - Filter
@@ -143,13 +143,13 @@ cc:
       Value 6 - Antique Telephone Ear Piece
       Value 7 - Cell Phone
       Value 8 - Apartment Intercom
-    type: Parameter
+    type: variable
     min: 0
     max: 8
   - name: Destroyer - Mix
     value: 64
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Destroyer - Sample Rate
@@ -176,31 +176,31 @@ cc:
       Value 18 - 32 kHz
       Value 19 - 48 kHz
       Value 20 - 96 kHz
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Destroyer - Vinyl
     value: 63
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Exp On/Off
     value: 60
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Filter - Dry Level
     value: 51
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Filter - Frequency Middle
     value: 52
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Filter - Mode
@@ -209,13 +209,13 @@ cc:
       Value 0 - Low Pass
       Value 1 - Wah
       Value 2 - High Pass
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Filter - Resonance
     value: 50
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Filter - Stereo Spread
@@ -226,7 +226,7 @@ cc:
       Value 2 - 1/2
       Value 3 - 3/4
       Value 4 - Full
-    type: Parameter
+    type: variable
     min: 0
     max: 4
   - name: Filter - Waveshape
@@ -240,13 +240,13 @@ cc:
       Value 5 - Random
       Value 6 - Envelope +
       Value 7 - Envelope -
-    type: Parameter
+    type: variable
     min: 0
     max: 7
   - name: Flanger - Manual
     value: 26
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Flanger - Mode
@@ -258,13 +258,13 @@ cc:
       Value 3 - Black -
       Value 4 - Zero +
       Value 5 - Zero -
-    type: Parameter
+    type: variable
     min: 0
     max: 5
   - name: Flanger - Regen
     value: 25
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Formant - LFO
@@ -277,7 +277,7 @@ cc:
       Value 4 - Random
       Value 5 - Envelope
       Value 6 - Expression
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Formant - Stereo Speed
@@ -288,7 +288,7 @@ cc:
       Value 2 - 1/2
       Value 3 - 3/4
       Value 4 - Full
-    type: Parameter
+    type: variable
     min: 0
     max: 4
   - name: Formant - Vowel 1
@@ -300,7 +300,7 @@ cc:
       Value 3 - OH
       Value 4 - OOH
       Value 5 - Random
-    type: Parameter
+    type: variable
     min: 0
     max: 5
   - name: Formant - Vowel 2
@@ -312,85 +312,85 @@ cc:
       Value 3 - OH
       Value 4 - OOH
       Value 5 - Random
-    type: Parameter
+    type: variable
     min: 0
     max: 5
   - name: Level
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: MIDI Clock Off/On
     value: 70
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Param 1
     value: 9
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Param 2
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pattern Trem - Beat 1
     value: 105
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Pattern Trem - Beat 2
     value: 106
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 3
     value: 107
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 4
     value: 108
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 5
     value: 109
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 6
     value: 110
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 7
     value: 111
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Beat 8
     value: 112
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 18
   - name: Pattern Trem - Pan
     value: 114
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Pattern Trem - Waveshape
@@ -403,19 +403,19 @@ cc:
       Value 4 - Pulse
       Value 5 - Ramp
       Value 6 - Saw
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Phase Reset
     value: 125
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Phaser - Headroom
     value: 68
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Phaser - Mode
@@ -428,13 +428,13 @@ cc:
       Value 4 - 12 Stage
       Value 5 - 16 Stage
       Value 6 - Barber Pole
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Phaser - Regen
     value: 45
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Phaser - Stereo speed
@@ -445,7 +445,7 @@ cc:
       Value 2 - Half
       Value 3 - 3/4
       Value 4 - Full
-    type: Parameter
+    type: variable
     min: 0
     max: 4
   - name: Phaser - Waveshape
@@ -456,13 +456,13 @@ cc:
       Value 2 - Ramp
       Value 3 - Tri
       Value 4 - Saw
-    type: Parameter
+    type: variable
     min: 0
     max: 3
   - name: Pre/Post
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Quadrature - LFO
@@ -475,13 +475,13 @@ cc:
       Value 4 - Saw
       Value 5 - Random
       Value 6 - Envelope
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Quadrature - Mix
     value: 55
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Quadrature - Mode
@@ -491,37 +491,37 @@ cc:
       Value 1 - FM
       Value 2 - Frequency Shifter +
       Value 3 - Frequency Shifter -
-    type: Parameter
+    type: variable
     min: 0
     max: 3
   - name: Quadrature - Shift 1
     value: 54
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Rotary - Acceleration
     value: 37
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Rotary - Horn Level
     value: 34
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Rotary - Preamp Drive
     value: 35
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Rotary - Slow Rotor Speed
     value: 36
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Rotary - Tap Select
@@ -529,25 +529,25 @@ cc:
     description: |+
       Value 0 - Tap
       Value 1 - Speed
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Speed
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tap Division
     value: 21
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 6
   - name: Tap Switch Tap/Speed
     value: 39
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Type Encoder
@@ -565,19 +565,19 @@ cc:
       Value 9 - Autoswell
       Value 10 - Destroyer
       Value 11 - Quadrature
-    type: Parameter
+    type: variable
     min: 0
     max: 11
   - name: Vibe - Headroom
     value: 42
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Vibe - Low End
     value: 41
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 20
   - name: Vibe - Mode
@@ -585,13 +585,13 @@ cc:
     description: |+
       Value 0 - Vibrato
       Value 1 - Chorus
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Vibe - Waveshape
     value: 40
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 17
   - name: Vintage Trem - Mode
@@ -600,7 +600,7 @@ cc:
       Value 0 - Tube
       Value 1 - Harmonic
       Value 2 - Photoresistor
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Vintage Trem - Pan
@@ -609,72 +609,72 @@ cc:
       Value 0 - Off
       Value 1 - Half
       Value 2 - Full
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: A footswitch Press Down
     value: 80
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: A footswitch Press Up
     value: 80
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: B footswitch Press Down
     value: 82
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: B footswitch Press Up
     value: 82
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Bypass
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: Engage
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Expression Pedal
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: MIDI Patch Bank
     value: 0
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 1
   - name: Remote TAP
     value: 93
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: TAP footswitch Off
     value: 81
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: TAP footswitch On
     value: 81
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127

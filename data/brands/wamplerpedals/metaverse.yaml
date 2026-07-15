@@ -14,6 +14,7 @@ cc:
     description: Turns the delay on/off
     min: 0
     max: '127'
+    type: variable
   - name: Delay Program
     value: '2'
     description: |-
@@ -33,21 +34,25 @@ cc:
       10 - DIGI - Digital delay
     min: 0
     max: '10'
+    type: variable
   - name: Delay Time (knob)
     value: '3'
     description: Emulates the Delay Time knob, 25ms to 2000ms
     min: 0
     max: '127'
+    type: variable
   - name: Delay Feedback (knob)
     value: '4'
     description: Emulates the Delay Feedback knob
     min: 0
     max: '127'
+    type: variable
   - name: Tone (knob)
     value: '5'
     description: Emulates the Tone knob
     min: 0
     max: '127'
+    type: variable
   - name: Mix (knob)
     value: '6'
     description: |-
@@ -57,6 +62,7 @@ cc:
       127 = dry 0% + wet 100%
     min: 0
     max: '127'
+    type: variable
   - name: Level (knob)
     value: '7'
     description: |-
@@ -66,16 +72,19 @@ cc:
       127 = +6dB
     min: 0
     max: '127'
+    type: variable
   - name: Mod Depth (knob)
     value: '8'
     description: Emulates the Mod Depth knob
     min: 0
     max: '127'
+    type: variable
   - name: Mod Rate (knob)
     value: '9'
     description: Emulates the Mod Rate knob
     min: 0
     max: '127'
+    type: variable
   - name: Mod Feedback (knob)
     value: '10'
     description: |-
@@ -83,6 +92,7 @@ cc:
       and MOD Programs
     min: 0
     max: '127'
+    type: variable
   - name: TAPE Mode
     value: '11'
     description: |-
@@ -94,6 +104,7 @@ cc:
       0001 (binary) = 1 (decimal) = head 4 (sixteenth)
     min: '1'
     max: '15'
+    type: variable
   - name: ETH Mode
     value: '12'
     description: |-
@@ -104,6 +115,7 @@ cc:
       3 = quarter + dotted eighth
     min: 0
     max: '3'
+    type: variable
   - name: Subdivision
     value: '13'
     description: |-
@@ -127,6 +139,7 @@ cc:
       14 = Triplet Whole
     min: 0
     max: '14'
+    type: variable
   - name: Delay Time (high ms)
     value: '14'
     description: |-
@@ -139,6 +152,7 @@ cc:
       below)
     min: 0
     max: '15'
+    type: variable
   - name: Delay Time (low ms)
     value: '15'
     description: |-
@@ -159,6 +173,7 @@ cc:
       the delay time to match the received messages.
     min: 0
     max: '127'
+    type: variable
   - name: Tap Tempo
     value: '81'
     description: |-
@@ -166,31 +181,37 @@ cc:
       switch
     min: 0
     max: 0
+    type: variable
   - name: Preset Decrement
     value: '82'
     description: Decrements the Preset number by <value>
     min: 0
     max: '127'
+    type: variable
   - name: Preset Increment
     value: '83'
     description: Increments the Preset number by <value>
     min: 0
     max: '127'
+    type: variable
   - name: Tempo Switch Mode
     value: '84'
     description: " Selects the mode of the tempo switch"
     min: 0
     max: '127'
+    type: variable
   - name: Trails Mode
     value: '85'
     description: Trails Off
     min: 0
     max: 0
+    type: variable
   - name: Trails mode On
     value: '85'
     description: Turns on Trails mode
     min: '1'
     max: '127'
+    type: variable
   - name: Midi clock disable
     value: '99'
     description: 'Enable or disable the MIDI Clock Sync:
@@ -198,6 +219,7 @@ cc:
       '
     min: 0
     max: 0
+    type: variable
   - name: Midi clock enable
     value: '99'
     description: 'Set Tempo based on MIDI Clock
@@ -205,8 +227,10 @@ cc:
       '
     min: '1'
     max: '127'
+    type: variable
   - name: Expression Pedal
     value: '100'
     description: Emulates the expression pedal input
     min: 0
     max: '127'
+    type: variable

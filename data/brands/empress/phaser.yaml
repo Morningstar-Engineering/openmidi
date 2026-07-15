@@ -37,60 +37,60 @@ cc:
   - name: Speed/Ratio/Sensitivity
     value: 20
     description: ''
-    type: Parameters
+    type: variable
     min: 0
     max: 127
   - name: Width/Release
     value: 21
     description: ''
-    type: Parameters
+    type: variable
     min: 0
     max: 127
   - name: Waveform/AutoMode
     value: 22
     description: 'In tap mode or knob mode, the value corresponds to the selected waveform (1-8). In auto mode, the value corresponds to the selected submode (1-8).'
-    type: Parameters
+    type: variable
     min: 1
     max: 8
   - name: Mode
     value: 23
     description: 'Sending 1 will set it to tap mode, 2 knob mode, and 3 auto mode.'
-    type: Parameters
+    type: variable
     min: 1
     max: 3
   - name: Speed Range/Attack
     value: 24
     description: 'Sending 1 will set it to slow, 2 medium, 3 fast.'
-    type: Parameters
+    type: variable
     min: 1
     max: 3
   - name: Tap Switch
     value: 35
     description: 'Sending a value of 127 simulates the switch being pressed. Sending a value of 0 simulates releasing the switch.'
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Bypass Switch
     value: 36
     description: 'Sending a value of 127 simulates the switch being pressed. Sending a value of 0 simulates releasing the switch.'
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Direct Control
     value: 40
     description: 'Sending this message overrides all other digital settings (speed, width, waveform, mode) and lets you set the amount of phase shift directly with MIDI values. Sending a value of zero would correspond to minimum phase shift and 127 the maximum. This mode would allow you to draw your own waveforms in a digital audio workstation and send them to the phaser.'
-    type: Parameters
+    type: variable
     min: 0
     max: 127
   - name: 'Exit Direct Control'
     value: 50
     description: 'Sending this message with any value will cause the pedal to exit direct control.'
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'MIDI Clock Listener'
     value: 51
     description: 'Sending a value of 0 causes the pedal to ignore MIDI Clock messages. Sending a value of 127 causes the pedal to listen for MIDI Clock messages. By default, the pedal listens for MIDI Clock messages.'
-    type: System
+    type: variable
     min: 0
     max: 127

@@ -5,6 +5,7 @@ cc:
   min: 0
   name: Expression Pedal
   value: 11
+  type: variable
 device_name: Bass Whammy
 midi_channel:
   instructions: ''

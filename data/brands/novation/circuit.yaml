@@ -5,566 +5,679 @@ cc:
   min: 0
   name: 'Polyphony Mode: Mono'
   value: 3
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Polyphony Mode: Mono AG'
   value: 3
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Polyphony Mode: Poly'
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento Rate
   value: 5
+  type: variable
 - description: ''
   max: 76
   min: 52
   name: Pre-Glide
   value: 9
+  type: variable
 - description: ''
   max: 69
   min: 58
   name: Keyboard Octave
   value: 13
+  type: variable
 - description: ''
   max: 29
   min: 0
   name: 'Osc1: Wave'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Wave Interpolate'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Pulse Width Index'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Virtual Sync Depth'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Density'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Density Detune'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Semitones'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Cents'
   value: 27
+  type: variable
 - description: ''
   max: 76
   min: 52
   name: 'Osc1: Pitchbend'
   value: 28
+  type: variable
 - description: ''
   max: 29
   min: 0
   name: 'Osc2: Wave'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Wave Interpolate'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Pulse Width Index'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Virtual Sync Depth'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Density'
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Density Detune'
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Semitones'
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Cents'
   value: 39
+  type: variable
 - description: ''
   max: 76
   min: 52
   name: 'Osc2: Pitchbend'
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Level
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Level
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ring Mod Level
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Level
   value: 56
+  type: variable
 - description: ''
   max: 82
   min: 52
   name: Pre FX Level
   value: 58
+  type: variable
 - description: ''
   max: 82
   min: 52
   name: Post FX Level
   value: 59
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Routing: normal'
   value: 60
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Routing: Osc1 Bypasses Filter'
   value: 60
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Routing: Osc1+2 Bypass Filter'
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Drive'
   value: 63
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Drive Type: Diode'
   value: 65
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Drive Type: Valve'
   value: 65
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Drive Type: Clipper'
   value: 65
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Drive Type: Cross-Over'
   value: 65
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Drive Type: Rectify'
   value: 65
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Drive Type: Bit Reducer'
   value: 65
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: 'Drive Type: Rate Reducer'
   value: 65
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Filter Type: Low Pass 12dB'
   value: 68
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Filter Type: Low Pass 24dB'
   value: 68
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Filter Type: Band Pass 6/6dB'
   value: 68
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Filter Type: Band Pass 12/12dB'
   value: 68
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Filter Type: High Pass 12dB'
   value: 68
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Filter Type: High Pass 24dB'
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Frequency'
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Tracking'
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Resonance'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Q Normalize'
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Filter: Env2 to Frequency'
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env1: Velocity'
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env1: Attack'
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env1: Decay'
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env1: Sustain'
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env1: Release'
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Distortion Level
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Chorus Level
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 1 Pos
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 2 Pos
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 3 Pos
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 4 Pos
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 5 Pos
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 6 Pos
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 7 Pos
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Macro Knob 8 Pos
   value: 87
+  type: variable
 - description: ''
   max: 63
   min: 0
   name: 'Drum 1: Patch Select'
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: Level'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: Pitch'
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: Decay'
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: Distortion'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: EQ'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 1: Pan'
   value: 77
+  type: variable
 - description: ''
   max: 63
   min: 0
   name: 'Drum 2: Patch Select'
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: Level'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: Pitch'
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: Decay'
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: Distortion'
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: EQ'
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 2: Pan'
   value: 78
+  type: variable
 - description: ''
   max: 63
   min: 0
   name: 'Drum 3: Patch Select'
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: Level'
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: Pitch'
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: Decay'
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: Distortion'
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: EQ'
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 3: Pan'
   value: 79
+  type: variable
 - description: ''
   max: 63
   min: 0
   name: 'Drum 4: Patch Select'
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: Level'
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: Pitch'
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: Decay'
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: Distortion'
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: EQ'
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Drum 4: Pan'
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Synth 1 Send Level'
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Synth 2 Send Level'
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Drum 1 Send Level'
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Drum 2 Send Level'
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Drum 3 Send Level'
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Reverb: Drum 4 Send Level'
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Synth 1 Send Level'
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Synth 2 Send Level'
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Drum 1 Send Level'
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Drum 2 Send Level'
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Drum 3 Send Level'
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Delay: Drum 4 Send Level'
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Master Filter: Frequency'
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Master Filter: Resonance'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: Synth 1 Level'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: Synth 2 Level'
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: Synth 1 Pan'
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Mixer: Synth 2 Pan'
   value: 118
+  type: variable
 device_name: Circuit
 midi_channel:
   instructions: ''

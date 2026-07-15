@@ -24,68 +24,82 @@ cc:
     description: '0 = Bank1, 1 = Bank 2, 2 = Bank 3'
     min: 0
     max: '2'
+    type: variable
   - name: Esemble
     value: 11
     description: '1 = Off, 2 = MP, 3 = Forte'
     min: '1'
     max: '3'
+    type: variable
   - name: Decay
     value: '12'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Pre-Delay
     value: '13'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Tone
     value: '14'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mod
     value: '15'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Mix
     value: '16'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Footswitch
     value: '27'
     description: "\n"
     min: 0
     max: '127'
+    type: variable
   - name: MIDI Expression Off/On
     value: '60'
     description: '0 = Off, 1-127 = On'
     min: 0
     max: '127'
+    type: variable
   - name: Freeze
     value: '97'
     description: '0 = Release, 1-127 = Hold'
     min: 0
     max: '127'
+    type: variable
   - name: Infinite
     value: '98'
     description: '0 = Release, 1-127 = Hold'
     min: 0
     max: '127'
+    type: variable
   - name: Expression Pedal
     value: '100'
     description: '0 = Heel, 127 = Toe'
     min: 0
     max: '127'
+    type: variable
   - name: Engage
     value: '102'
     description: ''
     min: 127
     max: 127
+    type: variable
   - name: Bypass
     value: '102'
     description: ''
     min: '0'
     max: '0'
+    type: variable

@@ -5,6 +5,7 @@ cc:
   min: 0
   name: Master A
   value: 14
+  type: variable
 device_name: Steve Morse Signature E658
 midi_channel:
   instructions: ''

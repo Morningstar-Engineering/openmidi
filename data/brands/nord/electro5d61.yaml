@@ -5,21 +5,25 @@ cc:
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Part Lower Sound Engine Select
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Part upper Sound Engine Select
   value: 40
+  type: variable
 device_name: 'Electro 5D 61 '
 midi_channel:
   instructions: ''

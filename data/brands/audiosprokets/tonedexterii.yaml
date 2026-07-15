@@ -19,3 +19,4 @@ cc:
     description: Sets device to Wavemap number 1
     min: 0
     max: 127
+    type: variable

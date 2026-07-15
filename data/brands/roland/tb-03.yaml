@@ -5,51 +5,61 @@ cc:
   min: 0
   name: Envelope modulation
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Accent level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Overdrive
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay feedback
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff frequency
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Slide status
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tuning
   value: 104
+  type: variable
 device_name: TB-03
 midi_channel:
   instructions: ''

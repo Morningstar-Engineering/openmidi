@@ -5,6 +5,7 @@ cc:
   min: 0
   name: Amp Unmute
   value: 7
+  type: variable
 device_name: Steve Morse Signature E657
 midi_channel:
   instructions: ''

@@ -5,186 +5,223 @@ cc:
   min: 0
   name: Preset Bank 0
   value: 0
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Preset Bank 1
   value: 0
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Preset Bank 2
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tremolo: On'
   value: 10
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Tremolo: Off'
   value: 10
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Tremolo Type: 61'
   value: 11
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Tremolo Type: 63 Tube'
   value: 11
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Tremolo Type: 65 Photo'
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Intensity
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speed
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tap Subdivision
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Temolo Boost/Cut
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Reverb: On'
   value: 16
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Reverb: Off'
   value: 16
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Reverb Type: 60s'
   value: 17
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Reverb Type: 70s'
   value: 17
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Reverb Type: 80s'
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Color
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Pre-Delay
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Boost/Cut
   value: 22
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Order: Rev>Trem'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 1
   name: 'Order: Trem>Rev'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Footswitch A: Press'
   value: 27
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Footswitch A: Release'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Footswitch B: Press'
   value: 28
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Footswitch B: Release'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'A&B: Engage'
   value: 33
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'A&B: Bypass'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'A&B: On'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Expression: On'
   value: 60
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Expression: Off'
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'MIDI Clock: On'
   value: 63
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MIDI Clock: Off'
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Remote Tap
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 100
+  type: variable
 device_name: Flint
 midi_channel:
   instructions: ''

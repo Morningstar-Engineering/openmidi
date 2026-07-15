@@ -5,11 +5,13 @@ cc:
   min: 0
   name: Bypass Effects Loop
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Effects Loop
   value: 85
+  type: variable
 device_name: 5150IIIS 100W EL34 HEAD
 midi_channel:
   instructions: ''

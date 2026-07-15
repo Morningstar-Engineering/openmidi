@@ -19,3 +19,4 @@ cc:
     description: 'MIDI CC #13 DETUNE BYPASS 0-63: OFF, 64-127: ON'
     min: 0
     max: 127
+    type: variable

@@ -15,68 +15,82 @@ cc:
   description: adjust amount of gain/drive
   min: 0
   max: '127'
+  type: variable
 - name: Level
   value: '18'
   description: Volume
   min: 0
   max: '127'
+  type: variable
 - name: Low
   value: '19'
   description: Adjust amount of bass
   min: 0
   max: '127'
+  type: variable
 - name: Middle
   value: '20'
   description: Adjust amount of middle
   min: 0
   max: '127'
+  type: variable
 - name: High
   value: '21'
   description: Adjust amount of treble
   min: 0
   max: '127'
+  type: variable
 - name: Booster pre level
   value: '22'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: Booster post level
   value: '23'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: ON/OFF switch
   value: '28'
   description: Bypass/engage
   min: 0
   max: '127'
+  type: variable
 - name: Booster ON/OFF
   value: '83'
   description: Booster On/OFF
   min: 0
   max: '127'
+  type: variable
 - name: Memory/boost switch
   value: '82'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: CTL1
   value: '80'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: CTL2
   value: '81'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: Expression
   value: '16'
   description: Expression pedal
   min: 0
   max: '127'
+  type: variable
 - name: Effect ON/OFF
   value: '27'
   description: Effect On/OFF
   min: 0
   max: '127'
+  type: variable

@@ -39,132 +39,132 @@ cc:
   - name: Gain A
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Master
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Gain B
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone A
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix/Stack
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone B
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: 'Channel A Effect Select: Boost'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: 'Channel A Effect Select: Drive'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: 'Channel A Effect Select: Fuzz'
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: A + B Parallel
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: 'A > B '
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: B > A
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: 'Channel B Effect Select: Fuzz'
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: 'Channel B Effect Select: Drive'
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: 'Channel B Effect Select: Boost'
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Exp
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass Switch: Bypass both channels'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage last saved channels'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Bypass both channels'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage both channels'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Engage Channel A, Bypass Channel B'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 85
     max: 85
   - name: 'Bypass Switch: Engage Channel B, Bypass Channel A'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 45
     max: 45

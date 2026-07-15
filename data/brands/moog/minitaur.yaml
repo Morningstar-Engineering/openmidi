@@ -5,371 +5,445 @@ cc:
   min: 0
   name: LFO Rate
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VCO Amount
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO VCF Amount
   value: 12
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO MIDI Sync: Internal'
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO MIDI Sync: External'
   value: 87
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO Sync Clock Div: 4 Whole'
   value: 86
+  type: variable
 - description: ''
   max: 7
   min: 7
   name: 'LFO Sync Clock Div: 3 Whole'
   value: 86
+  type: variable
 - description: ''
   max: 13
   min: 13
   name: 'LFO Sync Clock Div: 2 Whole'
   value: 86
+  type: variable
 - description: ''
   max: 19
   min: 19
   name: 'LFO Sync Clock Div: WH +1/2'
   value: 86
+  type: variable
 - description: ''
   max: 25
   min: 25
   name: 'LFO Sync Clock Div: WH'
   value: 86
+  type: variable
 - description: ''
   max: 31
   min: 31
   name: 'LFO Sync Clock Div: 1/2d'
   value: 86
+  type: variable
 - description: ''
   max: 37
   min: 37
   name: 'LFO Sync Clock Div: WH t'
   value: 86
+  type: variable
 - description: ''
   max: 43
   min: 43
   name: 'LFO Sync Clock Div: 1/2'
   value: 86
+  type: variable
 - description: ''
   max: 49
   min: 49
   name: 'LFO Sync Clock Div: 1/4d'
   value: 86
+  type: variable
 - description: ''
   max: 55
   min: 55
   name: 'LFO Sync Clock Div: 1/2t'
   value: 86
+  type: variable
 - description: ''
   max: 61
   min: 61
   name: 'LFO Sync Clock Div: 1/4'
   value: 86
+  type: variable
 - description: ''
   max: 68
   min: 68
   name: 'LFO Sync Clock Div: 1/8d'
   value: 86
+  type: variable
 - description: ''
   max: 74
   min: 74
   name: 'LFO Sync Clock Div: 1/4t'
   value: 86
+  type: variable
 - description: ''
   max: 80
   min: 80
   name: 'LFO Sync Clock Div: 1/8'
   value: 86
+  type: variable
 - description: ''
   max: 86
   min: 86
   name: 'LFO Sync Clock Div: 1/16d'
   value: 86
+  type: variable
 - description: ''
   max: 92
   min: 92
   name: 'LFO Sync Clock Div: 1/8t'
   value: 86
+  type: variable
 - description: ''
   max: 98
   min: 98
   name: 'LFO Sync Clock Div: 1/16'
   value: 86
+  type: variable
 - description: ''
   max: 104
   min: 104
   name: 'LFO Sync Clock Div: 1/16t'
   value: 86
+  type: variable
 - description: ''
   max: 110
   min: 110
   name: 'LFO Sync Clock Div: 1/32'
   value: 86
+  type: variable
 - description: ''
   max: 116
   min: 116
   name: 'LFO Sync Clock Div: 1/32t'
   value: 86
+  type: variable
 - description: ''
   max: 122
   min: 122
   name: 'LFO Sync Clock Div: 1/64t'
   value: 86
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'LFO Key Trigger: Off'
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'LFO Key Trigger: On'
   value: 82
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'VCO1 Wave: Saw'
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'VCO1 Wave: Square'
   value: 70
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'VCO2 Wave: Saw'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'VCO2 Wave: Square'
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO2 Freq
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO2 Beat
   value: 18
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Osc Note Sync: Off'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Osc Note Sync: On'
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Glide Rate
   value: 5
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Osc Glide Switch: Off'
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Osc Glide Switch: On'
   value: 65
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Osc Glide Type: LCR'
   value: 92
+  type: variable
 - description: ''
   max: 64
   min: 64
   name: 'Osc Glide Type: LCT'
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Osc Glide Type: EXP'
   value: 92
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Osc Legato Glide: Always'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Osc Legato Glide: Only Legato'
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO1 Level
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO2 Level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ext. In Level
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Cutoff
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG Amount
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter KB Track
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Velocity Sensitivity
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCF Attack'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCF Decay/ Release'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCF Sustain'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCA Attack'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCA Decay/Release'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Env: VCA Sustain'
   value: 30
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Env: Release Switch: Off'
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Env: Release Switch: On'
   value: 72
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Env: Trigger Mode: Legato On'
   value: 73
+  type: variable
 - description: ''
   max: 64
   min: 64
   name: 'Env: Trigger Mode: Legato Off'
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Env: Trigger Mode: EG Reset'
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Output Level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume Velocity Sensitivity
   value: 90
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Key Priority: Low'
   value: 91
+  type: variable
 - description: ''
   max: 64
   min: 64
   name: 'Key Priority: High'
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Key Priority: Last'
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend Up Amount
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend Down Amount
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Local Control Off
   value: 122
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Sounds Off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Notes Off
   value: 123
+  type: variable
 device_name: Minitaur
 midi_channel:
   instructions: ''

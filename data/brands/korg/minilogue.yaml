@@ -5,206 +5,247 @@ cc:
   min: 0
   name: Bank select MSB
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bank Select LSB
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG attack
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG decay
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG sustain
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp EG release
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG attack
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG decay
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG sustain
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EG release
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO depth
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice depth
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay hi-pass
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay feedback
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 1 pitch
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 2 pitch
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 1 shape
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 2 shape
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise level
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 1 level
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 2 level
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cross mod depth
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch EG intensity
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter resonance
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter EG intensity
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 1 octave
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 2 octave
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 1 wave
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCO 2 wave
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO target
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO EG mod
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO wave
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sync
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ring
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity key track
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard track
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter type
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay output routing
   value: 88
+  type: variable
 device_name: minilogue
 midi_channel:
   instructions: ''

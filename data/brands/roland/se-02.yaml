@@ -5,291 +5,349 @@ cc:
   min: 0
   name: Control glide
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control glide type
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Control WHL
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave shift
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Transpose
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Transpose SW
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Patch volume
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod sens
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dynamics
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Aftertouch sensitivity 1
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Aftertouch sensitivity 2
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend range
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Xmod 02FLT
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Xmod 03TO
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Xmod 03PW
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 range
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 waveform
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 fine
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 envelope
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 range
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 waveform
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 fine
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 3 range
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 3 waveform
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator sync
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator keyboard
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator xmod to mod wheel
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 1 mix
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 2 mix
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator 3 mix
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise mix
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix feedback
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 attack
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 sustain
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 decay
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 sustain
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 decay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter keytrack 13
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter keytrack 23
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter contour
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter MTRIG
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter normal/invert
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter REL
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter gate/LFO
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter emphasis
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay regen
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay amount
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO oscillator
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO wave
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO filter
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO modwheel oscillator SW
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO modwheel FLT SW
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO mode SW
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO synch SW
   value: 109
+  type: variable
 device_name: SE-02
 midi_channel:
   instructions: ''

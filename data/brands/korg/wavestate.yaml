@@ -5,261 +5,313 @@ cc:
   min: 0
   name: Scale Select
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 1
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 2
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 3
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 4
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 5
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 6
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 7
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Performance Mod Knob 8
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 1
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 2
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 3
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 4
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 5
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 6
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 7
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer A Mod Knob 8
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 1
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 2
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 3
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 4
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 5
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 6
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 7
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer B Mod Knob 8
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 1
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 2
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 3
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 4
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 5
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 6
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 7
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer C Mod Knob 8
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 1
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 2
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 3
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 4
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 5
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 6
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 7
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Layer D Mod Knob 8
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Modulation
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vector JSX
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vector Y
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Damper
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sostenuto
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Soft
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All Sounds Off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reset All Controllers
   value: 121
+  type: variable
 device_name: wavestate
 midi_channel:
   instructions: ''

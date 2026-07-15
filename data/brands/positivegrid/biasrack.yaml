@@ -5,96 +5,115 @@ cc:
   min: 0
   name: Gain
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bass
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Middle
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Treble
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Presence
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Master
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Output
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Custom Knob
   value: 6
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Tube Stages: 1 Tube'
   value: 2
+  type: variable
 - description: ''
   max: 47
   min: 47
   name: 'Tube Stages: 2 Tubes'
   value: 2
+  type: variable
 - description: ''
   max: 79
   min: 79
   name: 'Tube Stages: 3 Tubes'
   value: 2
+  type: variable
 - description: ''
   max: 111
   min: 111
   name: 'Tube Stages: 4 Tubes'
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Tube Stages: 5 Tubes'
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Distortion
   value: 3
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Topology: Single Ended'
   value: 4
+  type: variable
 - description: ''
   max: 62
   min: 62
   name: 'Topology: Split Load'
   value: 4
+  type: variable
 - description: ''
   max: 104
   min: 104
   name: 'Topology: Push Pull'
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Topology: Solid State'
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Power Amp
   value: 5
+  type: variable
 device_name: Bias Rack
 midi_channel:
   instructions: ''

@@ -18,118 +18,142 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Depth
     value: '1'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Speed
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mix
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Output
     value: '4'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Feedback (Resonance)
     value: '5'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Lo Retain
     value: '6'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Tremolo
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Effect Type
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mod Source
     value: '9'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Channel 2 LFO Offset
     value: '10'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble 3436 Hz
     value: '11'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble Freq
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass 97 Hz
     value: '13'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Bass Freq
     value: '14'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid A Freq
     value: '15'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid A Q
     value: '16'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid A 1865 Hz
     value: '17'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid B Freq
     value: '18'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid B Q
     value: '19'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid B 1285 Hz
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Input Low Cut
     value: '21'
     description: ''
     min: 0
     max: '35'
+    type: variable
   - name: I/O Routing
     value: '22'
     description: ''
     min: 0
     max: '8'
+    type: variable
   - name: Bypass/Engage
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable

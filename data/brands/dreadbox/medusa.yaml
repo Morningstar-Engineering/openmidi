@@ -5,556 +5,667 @@ cc:
   min: 0
   name: OSC1 Tuning
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 U tuning
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Wave
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Octave
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Tuning
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 U Tuning
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Wave
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Octave
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Tuning
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 U Tuning
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Wave
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Octave
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC4 Tuning
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC4 U Tuning
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC4 Wave
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC4 Octave
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC5 Tuning
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC5 U Tuning
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC5 Wave
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC5 Octave
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC6 Tuning
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC6 U Tuning
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC6 Wave
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC6 Octave
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Osc12
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Filter
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC PW
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC Noise
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC Wavetable
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC Sync 2
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC Sync 3
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Play Mode
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Play Mode Glide
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Cutoff
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Type
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Track
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC1 Analog
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC2 Analog
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC3 Analog
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer Noise
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC1 Digital
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC2 Digital
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC3 Digital
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Delay
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Attack
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Decay
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Sustain
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Release
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Amount
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Target
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV1 Loop
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Delay
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Attack
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Decay
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Sustain
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Release
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Amount
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Target
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV2 Loop
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Delay
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Attack
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Decay
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Sustain
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Release
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Amount
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Target
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV3 Loop
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Delay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Attack
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Decay
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Sustain
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Release
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Amount
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV4 Loop
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Delay
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Attack
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Decay
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Sustain
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Release
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Amount
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ENV5 Loop
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Rate
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Wave
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Amount
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Target
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Sync
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Rate
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Wave
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Amount
   value: 98
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Target
   value: 99
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Sync
   value: 100
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Rate
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Wave
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Amount
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Target
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Sync
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO4 Rate
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO4 Wave
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO4 Amount
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO4 Target
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO4 Sync
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO5 Rate
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO5 Wave
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO5 Amount
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO5 Target
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO5 Sync
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Target X Select
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Target Y Select
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Target Z Select
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Target Y Value
   value: 119
+  type: variable
 device_name: Medusa
 midi_channel:
   instructions: ''

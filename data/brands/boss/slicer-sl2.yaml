@@ -19,11 +19,13 @@ cc:
       externally-connected expression pedal.
     min: 0
     max: 127
+    type: variable
   - name: EFFECTS ON/OFF
     value: '80'
     description: Turns the effects of the SL-2 on/off
     min: 0
     max: 127
+    type: variable
   - name: TAP TEMPO
     value: '81'
     description: >+
@@ -32,3 +34,4 @@ cc:
 
     min: 0
     max: 127
+    type: variable

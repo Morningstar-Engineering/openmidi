@@ -5,571 +5,685 @@ cc:
   min: 0
   name: Bank Select MSB
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Breath controller
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BPM
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Foot Controller
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide Mode
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: MIDI Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Audio In Level
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Audio In Gain
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Voice Volume
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Paraphonic On/Off
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Slider 1 Position
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 On/Off
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Type
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Mix
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Param 1
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Param 2
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Param 3
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Sync On/Off
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX1 Sync Rate
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 On/Off
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Select
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Mix
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Param 1
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Param 2
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Param 3
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Sync On/Off
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX2 Sync Rate
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bank Select LSB
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Cutoff
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Keyboard Tracking Amount
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Drive
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Type
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Amount
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Velocity On/Off
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Delay
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Attack
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Decay
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Sustain
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA Envelope Release
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Amount
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Velocity On/Off
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Delay
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Attack
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Decay
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Sustain
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Envelope Release
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Glide Rate
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Glide Rate
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Glide Rate
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swing
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp On/Off
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Mode
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Range
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Relatch On/Off
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clock Divide
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arp Repeats
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc Glide On/Off
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Octave
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Fine Frequency
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Level
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Shape
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Shape Mod
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Sync On/Off
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Slop
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Level
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Brightness
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Octave
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Fine Frequency
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Level
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Shape
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Shape Mod
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Sync On/Off
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Slop
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Octave
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Fine Frequency
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Level
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Shape
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Shape Mod
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 LFO Mode On/Off
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3 Slop
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback Amount
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback Tuning
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Distortion Amount
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Grunge On/Off
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ext. In Env. Follower Attack
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ext. In Env. Follower Release
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ext. In Gain Threshold
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ladder Res Comp
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: State Variable Filter Mode
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: State Variable Filter Normal/Bandpass
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Freq
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Amount
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Shape
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Sync On/Off
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Freq
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Amount
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Shape
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 Sync On/Off
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Freq
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Amount
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Shape
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO3 Sync On/Off
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All Sound Off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reset Controllers
   value: 121
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Local Control On/Off
   value: 122
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: All Notes Off
   value: 123
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Omni Mode Off
   value: 124
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Omni Mode On
   value: 125
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mono Mode On
   value: 126
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Poly Mode On
   value: 127
+  type: variable
 device_name: Pro 3
 midi_channel:
   instructions: ''

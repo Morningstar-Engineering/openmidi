@@ -16,31 +16,37 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Override DRIVE
     value: '2'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: 'Override LFO frequency '
     value: '3'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Override OUTPUT
     value: '7'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Override MIX
     value: '8'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Override Rate
     value: '9'
     description: ' (if not in MIDI sync)'
     min: 0
     max: 127
+    type: variable
   - name: Set MIDI Clock Division
     value: '9'
     description: >-
@@ -52,108 +58,130 @@ cc:
       note, 116-121 Dotted 1/64, 122-127 1/64 note
     min: 0
     max: 127
+    type: variable
   - name: Enable staccato mode
     value: '68'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Disable staccato mode
     value: '68'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Override Envelope duration
     value: '70'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Enable LFO
     value: '85'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Disable LFO
     value: '85'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Toggle frequency (Bass/Mids) voicing
     value: '86'
     description: '0-63 Bass, 64-127 Mids'
     min: 0
     max: 127
+    type: variable
   - name: Enable bypass
     value: '87'
     description: '0-63 off, 64-127 on'
     min: 0
     max: '127'
+    type: variable
   - name: Enable pattern MIDI clock sync
     value: '89'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Disable pattern MIDI clock sync
     value: '89'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Reset current pattern to step 1
     value: '90'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 1 level
     value: '20'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 2 level
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 3 level
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 4 level
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 5 level
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 6 level
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 7 level
     value: '26'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Filter 8 level
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Set the MIDI channel
     value: '102'
     description: ''
     min: '1'
     max: '16'
+    type: variable
   - name: Triplets disable
     value: '66'
     description: '0-63 off, 64-127 on'
     min: 0
     max: 127
+    type: variable
   - name: MIDI tap tempo
     value: '92'
     description: CC92 / CC93 as a pair
     min: 0
     max: 127
+    type: variable

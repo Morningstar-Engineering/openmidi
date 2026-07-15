@@ -5,76 +5,91 @@ cc:
   min: 0
   name: Bypass Pedal
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Tap Footswitch
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Speed
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Blend
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay
   value: 53
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Division: 1/4'
   value: 59
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Division: 1/8d'
   value: 59
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Division: 1/8'
   value: 59
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Division: Triplet'
   value: 59
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Division: 1/16'
   value: 59
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Waveform: Sine'
   value: 60
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Waveform: Triangle'
   value: 60
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Waveform: Square'
   value: 60
+  type: variable
 device_name: The Gulf Chorus V2
 midi_channel:
   instructions: ''

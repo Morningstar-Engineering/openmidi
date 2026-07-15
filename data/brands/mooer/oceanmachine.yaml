@@ -5,441 +5,529 @@ cc:
   min: 127
   name: Reverb On/Off
   value: 23
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Type: Room'
   value: 3
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Type: Hall'
   value: 3
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Type: Plate'
   value: 3
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Type: Dist Verb'
   value: 3
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Type: FL-Verb'
   value: 3
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Type: Filter'
   value: 3
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: 'Type: Reverse'
   value: 3
+  type: variable
 - description: ''
   max: 7
   min: 7
   name: 'Type: Spring'
   value: 3
+  type: variable
 - description: ''
   max: 8
   min: 8
   name: 'Type: Mod'
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Shimmer
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: R.Mix
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: R.P1
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: R.P2
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Delay B On
   value: 25
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Delay B Off
   value: 25
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Delay Type (B): Digital'
   value: 9
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Delay Type (B): Analog'
   value: 9
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Delay Type (B): Tape'
   value: 9
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Delay Type (B): Echo'
   value: 9
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Delay Type (B): Liquid'
   value: 9
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Delay Type (B): Rainbow'
   value: 9
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: 'Delay Type (B): Crystal'
   value: 9
+  type: variable
 - description: ''
   max: 7
   min: 7
   name: 'Delay Type (B): Low-Bit'
   value: 9
+  type: variable
 - description: ''
   max: 8
   min: 8
   name: 'Delay Type (B): Fuzzy'
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback B
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Time B
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: D.Tone B
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: D.Mix B
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: B.P1
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: B.P1
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Pingpong B On
   value: 65
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Pingpong B Off
   value: 65
+  type: variable
 - description: ''
   max: 14
   min: 0
   name: Tempo B
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Delay A On
   value: 24
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Delay A Off
   value: 24
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Delay Type (A): Digital'
   value: 12
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Delay Type (A): Analog'
   value: 12
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Delay Type (A): Tape'
   value: 12
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Delay Type (A): Echo'
   value: 12
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: 'Delay Type (A): Liquid'
   value: 12
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: 'Delay Type (A): Rainbow'
   value: 12
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: 'Delay Type (A): Crystal'
   value: 12
+  type: variable
 - description: ''
   max: 7
   min: 7
   name: 'Delay Type (A): Low-Bit'
   value: 12
+  type: variable
 - description: ''
   max: 8
   min: 8
   name: 'Delay Type (A): Fuzzy'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback A
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Time A
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: D.Tone A
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: D.Mix A
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: A.P1
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: A.P2
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Pingpong A On
   value: 58
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Pingpong A Off
   value: 58
+  type: variable
 - description: ''
   max: 14
   min: 0
   name: Tempo A
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Looper In
   value: 26
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Looper Out
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Rec/Dub'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Play'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Stop'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Clear All'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Half Speed'
   value: 31
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Looper: Normal Speed'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Looper: Reverse'
   value: 32
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Looper: Forward'
   value: 32
+  type: variable
 - description: ''
   max: 60
   min: 0
   name: Loop Level
   value: 45
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Wireless: On'
   value: 33
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Wireless: Off'
   value: 33
+  type: variable
 - description: ''
   max: 0-18
   min: 0-18
   name: Expression Pedal
   value: 34
+  type: variable
 - description: ''
   max: 0-100
   min: 0-100
   name: Expression Min Value
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Trail On
   value: 70
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Trail Off
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: EQ On
   value: 36
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: EQ Off
   value: 36
+  type: variable
 - description: ''
   max: 5
   min: 0
   name: L.Freq
   value: 37
+  type: variable
 - description: ''
   max: 24
   min: 0
   name: Bass
   value: 38
+  type: variable
 - description: ''
   max: 24
   min: 0
   name: Mid
   value: 39
+  type: variable
 - description: ''
   max: 24
   min: 0
   name: Treble
   value: 40
+  type: variable
 - description: ''
   max: 5
   min: 0
   name: H.Freq
   value: 41
+  type: variable
 - description: ''
   max: 100
   min: 0
   name: Input Level
   value: 42
+  type: variable
 - description: ''
   max: 100
   min: 0
   name: Output Level
   value: 43
+  type: variable
 - description: ''
   max: 100
   min: 0
   name: Master Mix
   value: 44
+  type: variable
 - description: ''
   max: 1
   min: 0
   name: R.Tone
   value: 66
+  type: variable
 - description: ''
   max: 1
   min: 0
   name: B.Tone
   value: 67
+  type: variable
 - description: ''
   max: 1
   min: 0
   name: A.Tone
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: 'Merge: On'
   value: 69
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Merge: Off'
   value: 69
+  type: variable
 device_name: Ocean Machine
 midi_channel:
   instructions: ''

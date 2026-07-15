@@ -5,396 +5,475 @@ cc:
   min: 0
   name: Bank Select MSB
   value: 0
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bank Select LSB
   value: 32
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pedal Control
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effects Depth
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay/Chorus Time
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Variation
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Trig Env
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC1
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC2
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer OSC3/Sub Osc
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer Noise
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Coarse Tune
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Fine Tune
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Env
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Attack
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch Decay
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3/Sub Osc Color
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Pitch
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Fade Time
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Filter
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Rate
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Amp
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Wave
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend Range
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Wave
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Octave
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3/Sub Osc Tune
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend Gain
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Color
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Variation
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Cross Mod
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Velocity Sens
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Velocity Sens
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Color
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Fine Tune
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Mod
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Wave
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Octave
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Mod
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Been Sens Pitch
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Tone
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effects Type
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effects Tone
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay/Chorus Type
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Type
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Time
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Bend Sens Filter
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: HPF Cutoff
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Sens Pitch
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Key
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Attack
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Decay
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Sustain
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Release
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Attack
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Decay
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Level
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay/Chorus Level
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Sustain
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Release
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC1 Variation
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Variation
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC3/Sub Osc Wave
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Type
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Sens Filter
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Level
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Ring
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC2 Sync
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mixer Noise Type
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Legato
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO Key Trigger
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tempo Sync
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mono Mode On
   value: 119
+  type: variable
 device_name: SYSTEM-8
 midi_channel:
   instructions: ''

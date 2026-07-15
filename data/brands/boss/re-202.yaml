@@ -5,71 +5,85 @@ cc:
   min: 0
   name: 'TAP TIME (MSB)'
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: REPEAT RATE
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: INTENSITY
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: ECHO VOL
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: BASS
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: TREBLE
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: REVERB VOL
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: SATURATION
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'WOW & FLUTTER'
   value: 24
+  type: variable
 - description: '0-63=OFF, 64-127=ON'
   max: 127
   min: 0
   name: 'EFFECT ON/OFF'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'TAP TIME (LSB)'
   value: 48
+  type: variable
 - description: '0-63=OFF, 64-127=ON'
   max: 127
   min: 0
   name: 'TAP TEMPO'
   value: 82
+  type: variable
 - description: '0-63=OFF, 64-127=ON'
   max: 127
   min: 0
   name: 'TWIST'
   value: 83
+  type: variable
 - description: '0-63=OFF, 64-127=ON'
   max: 127
   min: 0
   name: 'WARP'
   value: 84
+  type: variable
 pc:
   description: ''
 

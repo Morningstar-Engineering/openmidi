@@ -5,41 +5,49 @@ cc:
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: INTENSITY
   value: '18'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: VOLUME
   value: '19'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: MOD. RATE
   value: '20'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: MOD. DEPTH
   value: '21'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: VARIATION
   value: '20'
   description: ''
   min: 0
   max: '127'
+  type: variable
 - name: EFFECT ON / OFF
   value: '27'
   description: 0-63=OFF, 64-127=ON
   min: 0
   max: '127'
+  type: variable
 - name: TAP
   value: '82'
   description: 0-63=OFF, 64-127=ON
   min: 0
   max: '127'
+  type: variable
 device_name: DM-101
 midi_channel:
   instructions: ''

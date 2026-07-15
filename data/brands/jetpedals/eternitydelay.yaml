@@ -29,132 +29,132 @@ cc:
   - name: Subdivision (1/4 Note)
     value: 18
     description: Sets the subdivision toggle switch to 1/4 notes.
-    type: Parameter
+    type: variable
     min: 0
     max: 42
   - name: Subdivision (Dotted 1/8)
     value: 18
     description: Sets the subdivision toggle switch to dotted 1/8 notes.
-    type: Parameter
+    type: variable
     min: 43
     max: 85
   - name: Subdivision (1/8 Note)
     value: 18
     description: Sets the subdivision toggle switch to 1/8 notes.
-    type: Parameter
+    type: variable
     min: 86
     max: 127
   - name: Mix
     value: 19
     description: Controls the Mix knob (0=CCW, 127=CW).
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Repeats
     value: 20
     description: Controls the Repeats knob.
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Filter
     value: 21
     description: Controls the Filter knob.
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Cntrl1
     value: 22
     description: Controls the Cntrl1 knob (function varies per algorithm).
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Bypass Off
     value: 23
     description: Turns the Bypass switch off.
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: Bypass On
     value: 23
     description: Turns the Bypass switch on.
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: Preset Switch Off
     value: 24
     description: Turns the Preset switch off.
-    type: System
+    type: variable
     min: 0
     max: 63
   - name: Preset Switch On
     value: 24
     description: Turns the Preset switch on.
-    type: System
+    type: variable
     min: 64
     max: 127
   - name: Increment Preset
     value: 25
     description: Increments the preset number.
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Decrement Preset
     value: 26
     description: Decrements the preset number.
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Algorithm (Tape)
     value: 27
     description: Activates the Tape delay algorithm.
-    type: Parameter
+    type: variable
     min: 0
     max: 21
   - name: Algorithm (Digital)
     value: 27
     description: Activates the Digital delay algorithm.
-    type: Parameter
+    type: variable
     min: 22
     max: 44
   - name: Algorithm (Analog)
     value: 27
     description: Activates the Analog delay algorithm.
-    type: Parameter
+    type: variable
     min: 45
     max: 66
   - name: Algorithm (Dual)
     value: 27
     description: Activates the Dual delay algorithm.
-    type: Parameter
+    type: variable
     min: 67
     max: 88
   - name: Algorithm (ESD)
     value: 27
     description: Activates the ESD delay algorithm.
-    type: Parameter
+    type: variable
     min: 89
     max: 110
   - name: Algorithm (JRD)
     value: 27
     description: Activates the JET Signature delay algorithm.
-    type: Parameter
+    type: variable
     min: 111
     max: 127
   - name: CC Snapshot
     value: 28
     description: Takes a snapshot of current settings and stores them in the specified preset location (7-127).
-    type: System
+    type: variable
     min: 7
     max: 127
   - name: Kill Dry Off
     value: 29
     description: Turns off Kill Dry mode.
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Kill Dry On
     value: 29
     description: Turns on Kill Dry mode.
-    type: Parameter
+    type: variable
     min: 64
     max: 127

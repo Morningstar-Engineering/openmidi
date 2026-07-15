@@ -5,26 +5,31 @@ cc:
   min: 0
   name: Touch Pad X-Axis
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Touch Pad Y-Axis
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Touch Pad On/Off
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Depth
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mute
   value: 95
+  type: variable
 device_name: Kaoss Pad 2
 midi_channel:
   instructions: ''

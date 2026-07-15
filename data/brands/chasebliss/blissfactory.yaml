@@ -39,120 +39,120 @@ cc:
   - name: Volume
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Gate
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Comp
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Drive
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Stab
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: LPF
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: AUX FUNC Selec Left
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: AUX FUNC Selec Center
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: AUX FUNC Selec Right
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: FAT  Select Left
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: FAT  Select Center
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: FAT  Select Right
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: LPF Toggle Left
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: LPF Toggle Center
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: LPF Toggle Right
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Exp
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass AUX function'
     value: 101
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Engage AUX function'
     value: 101
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 127
   - name: 'Bypass Switch: Bypass Pedal'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage pedal'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 127

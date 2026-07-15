@@ -5,131 +5,157 @@ cc:
   min: 0
   name: Modulation
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento Time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Level
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Play Stability
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Growl Sens
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold 1
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sostenuto
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Soft
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold 2
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Release Time
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Attack Time
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay Time
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato Rate
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato Depth
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato Delay
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Staccato
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Fall
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento Control
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Depth
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 3 Depth
   value: 93
+  type: variable
 device_name: BK-7m
 midi_channel:
   instructions: ''

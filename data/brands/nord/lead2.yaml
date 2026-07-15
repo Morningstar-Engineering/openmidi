@@ -5,226 +5,271 @@ cc:
   min: 0
   name: Gain
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Octave Shift
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel Destination
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Unison
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Poly/Legato/Mono
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portmaneto Auto
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento TIme
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Rate
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Waveform
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Destination
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO1 Amount
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2/Arp Rate
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 DEstination/Arp Mode
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO2 AMount/Arp Range
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Attack
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Decay
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Destination
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Env Amount
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Waveform
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Waveform
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Semitones
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Fine Tune
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator FM Depth
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Keyboard Tracking
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator Pulse Width
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Oscillator Sync
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Oscillator Mix '
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Decay
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Sustain
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp Env Release
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Attack
   value: 38
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Decay
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Sustain
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Release
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Mode
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Cutoff
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Resonance
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Env Amount
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Velocity
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Keyboard Tracking
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod Wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 11
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Distortion
   value: 80
+  type: variable
 device_name: Lead 2
 midi_channel:
   instructions: ''

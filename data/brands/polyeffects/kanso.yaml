@@ -18,11 +18,13 @@ cc:
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Engage
     value: '19'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Bias
     value: '14'
     description: >-
@@ -30,6 +32,7 @@ cc:
       level of the signal before it hits the distortion stage.
     min: 0
     max: 127
+    type: variable
   - name: Character
     value: '15'
     description: >-
@@ -37,3 +40,4 @@ cc:
       Think of it more or less like a master volume.
     min: 0
     max: 127
+    type: variable

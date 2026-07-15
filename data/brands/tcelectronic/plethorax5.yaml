@@ -13,413 +13,413 @@ cc:
     description: ''
     max: 127
     min: 1
-    type: System
+    type: variable
     value: 92
   - name: Tuner On  
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 93
   - name: Tuner Off
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 93
   - name: Board Down
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 94
   - name: Board Up
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 95
   - name: Global Expression
     description: ''
     max: 125
     min: 0
-    type: System
+    type: variable
     value: 100
   - name: Hot Knob 1
     description: ''
     max: 127
     min: 0
-    type: System
+    type: variable
     value: 107
   - name: Hot Knob 2
     description: ''
     max: 127
     min: 0
-    type: System
+    type: variable
     value: 108
   - name: Hot Knob 3
     description: ''
     max: 127
     min: 0
-    type: System
+    type: variable
     value: 109
   - name: FS1 Engage
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 102
   - name: FS1 Bypass
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 102
   - name: FS1 Pot1
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 67
   - name: FS1 Pot2
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 68
   - name: FS1 Pot3
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 69
   - name: FS1 Mash
     description: ''
     max: 127
     min: 1
-    type: Parameter
+    type: variable
     value: 70
   - name: FS1 Mash Off
     description: ''
     max: 0
     min: 0
-    type: Parameter
+    type: variable
     value: 70
   - name: FS1 Expression
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 71
   - name: FS2 Engage
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 103
   - name: FS2 Bypass
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 103
   - name: FS2 Pot1
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 72
   - name: FS2 Pot2
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 73
   - name: FS2 Pot3
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 74
   - name: FS2 Mash
     description: ''
     max: 127
     min: 1
-    type: Parameter
+    type: variable
     value: 75
   - name: FS2 Mash Off
     description: ''
     max: 0
     min: 0
-    type: Parameter
+    type: variable
     value: 75
   - name: FS2 Expression
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 76
   - name: FS3 Engage
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 104
   - name: FS3 Bypass
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 104
   - name: FS3 Pot1
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 77
   - name: FS3 Pot2
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 78
   - name: FS3 Pot3
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 79
   - name: FS3 Mash
     description: ''
     max: 127
     min: 1
-    type: Parameter
+    type: variable
     value: 80
   - name: FS3 Mash Off
     description: ''
     max: 0
     min: 0
-    type: Parameter
+    type: variable
     value: 80
   - name: FS3 Expression
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 81
   - name: FS4 Engage
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 105
   - name: FS4 Bypass
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 105
   - name: FS4 Pot1
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 82
   - name: FS4 Pot2
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 83
   - name: FS4 Pot3
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 84
   - name: FS4 Mash
     description: ''
     max: 127
     min: 1
-    type: Parameter
+    type: variable
     value: 85
   - name: FS4 Mash Off
     description: ''
     max: 0
     min: 0
-    type: Parameter
+    type: variable
     value: 85
   - name: FS4 Expression
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 86
   - name: FS5 Engage
     description: ''
     max: 127
     min: 64
-    type: System
+    type: variable
     value: 106
   - name: FS5 Bypass
     description: ''
     max: 63
     min: 0
-    type: System
+    type: variable
     value: 106
   - name: FS5 Pot1
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 87
   - name: FS5 Pot2
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 88
   - name: FS5 Pot3
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 89
   - name: FS5 Mash
     description: ''
     max: 127
     min: 1
-    type: Parameter
+    type: variable
     value: 90
   - name: FS5 Mash Off
     description: ''
     max: 0
     min: 0
-    type: Parameter
+    type: variable
     value: 90
   - name: FS5 Expression
     description: ''
     max: 127
     min: 0
-    type: Parameter
+    type: variable
     value: 91
   - name: FS1 Looper Record
     description: ''
     max: 24
     min: 0
-    type: System
+    type: variable
     value: 110
   - name: FS2 Looper Record
     description: ''
     max: 50
     min: 25
-    type: System
+    type: variable
     value: 110
   - name: FS3 Looper Record
     description: ''
     max: 76
     min: 51
-    type: System
+    type: variable
     value: 110
   - name: FS4 Looper Record
     description: ''
     max: 102
     min: 77
-    type: System
+    type: variable
     value: 110
   - name: FS5 Looper Record
     description: ''
     max: 127
     min: 103
-    type: System
+    type: variable
     value: 110
   - name: FS1 Looper Play
     description: ''
     max: 24
     min: 0
-    type: System
+    type: variable
     value: 111
   - name: FS2 Looper Play
     description: ''
     max: 50
     min: 25
-    type: System
+    type: variable
     value: 111
   - name: FS3 Looper Play
     description: ''
     max: 76
     min: 51
-    type: System
+    type: variable
     value: 111
   - name: FS4 Looper Play
     description: ''
     max: 102
     min: 77
-    type: System
+    type: variable
     value: 111
   - name: FS5 Looper Play
     description: ''
     max: 127
     min: 103
-    type: System
+    type: variable
     value: 111
   - name: FS1 Looper Clear
     description: ''
     max: 24
     min: 0
-    type: System
+    type: variable
     value: 112
   - name: FS2 Looper Clear
     description: ''
     max: 50
     min: 25
-    type: System
+    type: variable
     value: 112
   - name: FS3 Looper Clear
     description: ''
     max: 76
     min: 51
-    type: System
+    type: variable
     value: 112
   - name: FS4 Looper Clear
     description: ''
     max: 102
     min: 77
-    type: System
+    type: variable
     value: 112
   - name: FS5 Looper Clear
     description: ''
     max: 127
     min: 103
-    type: System
+    type: variable
     value: 112
   - name: FS1 Looper Pause
     description: ''
     max: 24
     min: 0
-    type: System
+    type: variable
     value: 113
   - name: FS2 Looper Pause
     description: ''
     max: 50
     min: 25
-    type: System
+    type: variable
     value: 113
   - name: FS3 Looper Pause
     description: ''
     max: 76
     min: 51
-    type: System
+    type: variable
     value: 113
   - name: FS4 Looper Pause
     description: ''
     max: 102
     min: 77
-    type: System
+    type: variable
     value: 113
   - name: FS5 Looper Pause
     description: ''
     max: 127
     min: 103
-    type: System
+    type: variable
     value: 113

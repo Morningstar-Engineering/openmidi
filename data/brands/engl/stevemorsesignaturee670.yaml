@@ -5,6 +5,7 @@ cc:
   min: 0
   name: FX Loop I
   value: 30
+  type: variable
 device_name: Steve Morse Signature E670
 midi_channel:
   instructions: ''

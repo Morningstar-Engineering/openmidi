@@ -5,571 +5,685 @@ cc:
   min: 0
   name: Modwheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Breath Controller
   value: 2
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Polyphony Mode
   value: 3
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portamento Rate
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dry/Wet Balance
   value: 8
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pre-Glide
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Position
   value: 10
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 11
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Portamento: Expo'
   value: 12
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Portamento: Linear'
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard Octave
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Unison Count
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Unison Detune
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc123 Drift
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc123 Start Phase
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc123 Fixed Note
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: WAveform'
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Wavetable interpolate'
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Pulsewidth Index'
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Sync Depth'
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Hardness'
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Density'
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Density Detune'
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Semitones'
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Cents'
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc1: Pitch Bend'
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Waveform'
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Wavetable Interpolate'
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Pulsewidth Index'
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Sync Depth'
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Hardness'
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Density'
   value: 35
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Density Detune'
   value: 36
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Semitone'
   value: 37
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Cents'
   value: 39
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc2: Pitchbend'
   value: 40
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Waveform'
   value: 41
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Wavetable Interpolate'
   value: 42
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Pulsewidth Index'
   value: 43
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Sync Depth'
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Hardness'
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Density'
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Density Detune'
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Semitones'
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Cents'
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'Osc3: Pitchbend'
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc1 Mix Level
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc2 Mix Level
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc3 Mix Level
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc13 Ringmod Mix Level
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Osc23 Ringmod Mix Level
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Mix Level
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise Type
   value: 57
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pre-FX Level
   value: 58
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Post-FX Level
   value: 59
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Config
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Balance
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter Packed Data
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter1 Drive
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Off
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain On
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Drive Type
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Type
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Track
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AmpEnv Sustain Level
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Resonance
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AmpEnv Release
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AmpEnv Attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Frequency
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: AmpEnv Decay
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Easy Vibrato Rate
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Easy Vibrato Depth
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 1 Q Normalize
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FiltEnv > Filter1 Freq
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Drive
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Drive Type
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Type
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Frequency
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Track
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Resonance
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter 2 Q Normalise
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FiltEnv > Filter2 Freq
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Mod Rate
   value: 88
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Mod Rate Sync
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Mod Depth
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Slot1 Level
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Slot2 Level
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Slot3 Level
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Slot4 Level
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: FX Slot5 Level
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan L/R Phase Offset
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: L/R Width Enhance
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pan Spare
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Anv Packed MonoMulti Triggers
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Env Level Track Centre
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Drum Time
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Velocity'
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Sustain Rate'
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Sustain Time'
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: A/D Repeats'
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Attack Track'
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Decay Track'
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Level Track'
   value: 114
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Attack Slope'
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Decay Slope'
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: 'AmpEnv: Touch Trigger'
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Sounds Off
   value: 120
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Reset All Controllers
   value: 121
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Local Control
   value: 122
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: All Notes Off
   value: 123
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Omni Mode Off
   value: 124
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Omni Mode On
   value: 125
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Mono Mode On
   value: 126
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Poly Mode On
   value: 127
+  type: variable
 device_name: UltraNova
 midi_channel:
   instructions: ''

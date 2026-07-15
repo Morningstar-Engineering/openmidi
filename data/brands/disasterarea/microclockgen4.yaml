@@ -18,16 +18,19 @@ cc:
     description: Any value triggers tap tempo
     min: 0
     max: 127
+    type: variable
   - name: Set BPM
     value: '103'
     description: 'Sets tempo in BPM, value + 30 (range 30-157)'
     min: 0
     max: 127
+    type: variable
   - name: Set BPM
     value: '104'
     description: 'Sets tempo in BPM, value + 150 (range 150-277)'
     min: 0
     max: 127
+    type: variable
   - name: Output A Subdivision
     value: '106'
     description: >-
@@ -35,6 +38,7 @@ cc:
       8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
     min: 0
     max: '9'
+    type: variable
   - name: Output B Subdivision
     value: '107'
     description: >-
@@ -42,6 +46,7 @@ cc:
       8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
     min: 0
     max: '9'
+    type: variable
   - name: Output C Subdivision
     value: '108'
     description: >-
@@ -49,3 +54,4 @@ cc:
       8th, 5 phi, 6 8th, 7 8th trip, 8 16th, 9 off
     min: 0
     max: '9'
+    type: variable

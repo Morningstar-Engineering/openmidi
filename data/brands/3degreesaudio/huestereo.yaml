@@ -4,86 +4,103 @@ cc:
     description: Set Parameter 1
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 2
     value: '2'
     description: Set Parameter 2
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 3
     value: '3'
     description: Set Parameter 3
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 4
     value: '4'
     description: Set Parameter 4
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 5
     value: '5'
     description: Set Parameter 5
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 6
     value: '6'
     description: Set Parameter 6
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 7
     value: '7'
     description: Set Parameter 7
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 8
     value: '8'
     description: Set Parameter 8
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 9
     value: '9'
     description: Set Parameter 9
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 10
     value: '10'
     description: Set Parameter 10
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 11
     value: '11'
     description: Set Parameter 11
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 12
     value: '12'
     description: Set Parameter 12
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 13
     value: '13'
     description: Set Parameter 13
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 14
     value: '14'
     description: Set Parameter 14
     min: 0
     max: '127'
+    type: variable
   - name: Parameter 15
     value: '15'
     description: Set Parameter 15
     min: 0
     max: '127'
+    type: variable
   - name: Enable
     value: 0
     description: ''
     min: '1'
     max: '1'
+    type: variable
   - name: Bypass
     value: 0
     description: ''
     min: 0
     max: 0
+    type: variable
 
 midi_channel:
   instructions: ''

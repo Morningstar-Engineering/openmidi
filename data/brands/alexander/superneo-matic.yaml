@@ -5,76 +5,91 @@ cc:
   min: 127
   name: Ramp
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Expression Pedal
   value: 100
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Feedback Knob
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Rate Knob
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Depth Knob
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix Knob
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Time Range Knob
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Ramp Rate Knob
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Level Knob
   value: 57
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'Mode: Vintage Triangle'
   value: 59
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: 'Mode: Modern Triangle'
   value: 59
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: 'Mode: Vintage Random'
   value: 59
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: 'Mode: Modern Random'
   value: 59
+  type: variable
 device_name: Super Neo-Matic
 midi_channel:
   instructions: ''

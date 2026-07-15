@@ -14,61 +14,61 @@ cc:
     max: 127
     min: 0
     name: Bank (Song Folder) Select MSB
-    type: system
+    type: variable
     value: 0
   - description: Bank (Song folder) Select LSB
     max: 127
     min: 0
     name: Bank (Song folder) Select LSB
-    type: system
+    type: variable
     value: 32
   - description: Tempo Increment (NewTmpo = Tempo + value). Added 2.7.0
     max: 127
     min: 1
     name: Tempo Increment
-    type: system
+    type: variable
     value: 80
   - description: Tempo Decrement (NewTmpo = Tempo - value). Added 2.7.0
     max: 127
     min: 1
     name: Tempo Decrement
-    type: system
+    type: variable
     value: 81
   - description: Return to normal mode from Half Time. Added 2.7.0
     max: 0
     min: 0
     name: Normal Time
-    type: system
+    type: variable
     value: 82
   - description: Half Time. Added 2.7.0
     max: 127
     min: 1
     name: Half Time
-    type: system
+    type: variable
     value: 82
   - description: Return to normal mode from Double Time. Added 2.7.0
     max: 0
     min: 0
     name: Normal Time
-    type: system
+    type: variable
     value: 83
   - description: Double Time. Added 2.7.0
     max: 127
     min: 1
     name: Double Time
-    type: system
+    type: variable
     value: 83
   - description: 'Increase Tempo by 1. Also referred to as "Data increment (+1) or INC"'
     max: 1
     min: 1
     name: Increase Tempo (or NRPN target) by 1
-    type: system
+    type: variable
     value: 96
   - description: 'Decrease Tempo by 1. Also referred to as "Data decrement (-1) or  DEC"'
     max: 1
     min: 1
     name: Decrease Tempo (or NRPN target) by 1
-    type: system
+    type: variable
     value: 97
   - description: |
       Set the NRPN LSB for Mix control
@@ -88,7 +88,7 @@ cc:
     max: 108
     min: 108
     name: Set NRPN to Mix LSB
-    type: system
+    type: variable
     value: 98
   - description: |
       Set the NRPN LSB for headphone control
@@ -108,7 +108,7 @@ cc:
     max: 109
     min: 109
     name: Set NRPN to Level LSB
-    type: system
+    type: variable
     value: 98
   - description: |
       Set the NRPN LSB for Tempo control
@@ -128,13 +128,13 @@ cc:
     max: 107
     min: 107
     name: Set NRPN to Tempo LSB
-    type: system
+    type: variable
     value: 98
   - description: Clear NRPN LSB Register
     max: 127
     min: 127
     name: Clear NRPN LSB Register
-    type: system
+    type: variable
     value: 98
   - description: |
       Set the NRPN MSB
@@ -154,7 +154,7 @@ cc:
     max: 106
     min: 106
     name: Set NRPN to Tempo MSB
-    type: system
+    type: variable
     value: 99
   - description: |
       Set the NRPN MSB for headphone or Mix control
@@ -174,13 +174,13 @@ cc:
     max: 0
     min: 0
     name: Set NRPN to Headphone/Mix MSB
-    type: system
+    type: variable
     value: 99
   - description: Clear NRPN MSB Register
     max: 127
     min: 127
     name: Clear NRPN MSB Register
-    type: system
+    type: variable
     value: 99
   - description: |
       Set the Tempo MSB
@@ -195,7 +195,7 @@ cc:
     max: 127
     min: 0
     name: Tempo MSB
-    type: system
+    type: variable
     value: 106
   - description:  |
       Set the Tempo LSB
@@ -210,49 +210,49 @@ cc:
     max: 127
     min: 0
     name: Tempo LSB
-    type: system
+    type: variable
     value: 107
   - description: 'Change the Mixer Volume (Main Volume knob)'
     max: 100
     min: 0
     name: Mix Volume
-    type: parameter
+    type: variable
     value: 108
   - description: Change the Headphone Volume
     max: 100
     min: 0
     name: Headphone Volume
-    type: parameter
+    type: variable
     value: 109
   - description: 'Triggers an accent hit with a volume from the value 0 (mute) to 100 (original recorded volume) to 127 (amplified more than the original recorded volume)'
     max: 127
     min: 0
     name: Accent-Hit
-    type: system
+    type: variable
     value: 110
   - description: UnPause the current song
     max: 0
     min: 0
     name: UnPause
-    type: system
+    type: variable
     value: 111
   - description: Pause the current song
     max: 1
     min: 1
     name: Pause
-    type: system
+    type: variable
     value: 111
   - description: Toggle Pause/Unpause the current song
     max: 127
     min: 2
     name: Pause Toggle
-    type: system
+    type: variable
     value: 111
   - description: Triggers a drum fill
     max: 127
     min: 1
     name: Drum Fill
-    type: system
+    type: variable
     value: 112
   - description: 'Starts song transition (selects the next part), 1: Starts transition,
       will jump to Part 1 on exit, 2: Starts transition, will jump to Part 2 on exit,
@@ -262,66 +262,66 @@ cc:
     max: 127
     min: 1
     name: Transition
-    type: system
+    type: variable
     value: 113
   - description: 'Quits the transition and go to specified part'
     max: 0
     min: 0
     name: End Transition
-    type: system
+    type: variable
     value: 113
   - description: Starts the playback of the current song
     max: 127
     min: 1
     name: Start
-    type: system
+    type: variable
     value: 114
   - description: Triggers the outro of the song
     max: 127
     min: 1
     name: Outro
-    type: system
+    type: variable
     value: 115
   - description: Selects a specific drumset
     max: 127
     min: 1
     name: Select Drum Set
-    type: system
+    type: variable
     value: 116
   - description: Enters Tap Tempo mode and generate Tap Event
     max: 127
     min: 0
     name: Tap Tempo
-    type: system
+    type: variable
     value: 117
   - description: Enters or Exits a folder
     max: 127
     min: 0
     name: Enter or Exit a folder
-    type: system
+    type: variable
     value: 118
   - description: Scroll down song/folder list
     max: 0
     min: 0
     name: Scroll down song/folder list
-    type: system
+    type: variable
     value: 119
   - description: Scroll up song/folder list, 1 scrolls up
     max: 1
     min: 1
     name: Scroll up song/folder list
-    type: system
+    type: variable
     value: 119
   - description: Emulates Main Pedal release
     max: 0
     min: 0
     name: Emulate switch release function
-    type: system
+    type: variable
     value: 120
   - description: Emulates Main Pedal press
     max: 1
     min: 1
     name: Emulate switch press function
-    type: system
+    type: variable
     value: 120
 

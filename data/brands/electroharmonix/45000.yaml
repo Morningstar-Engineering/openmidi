@@ -5,146 +5,175 @@ cc:
   min: 0
   name: Clix Level
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dry Out Slider
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 1 Play/Feedback Slider
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 2 Play/Feedback Slider
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 3 Play/Feedback Slider
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 4 Play/Feedback Slider
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix Track Play/Feedback Slider
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tempo Slider
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dry Out Pan
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 1 Pan
   value: 28
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 2 Pan
   value: 29
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 3 Pan
   value: 30
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Track 4 Pan
   value: 31
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push REC Button
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push NEW Button
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push PLAY Button
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push TRACK SELECT Button
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push EXT SYNC Button
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push MIXDOWN Button
   value: 107
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push STEREO Button
   value: 108
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push REVERSE Button
   value: 109
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push OCTAVE Button
   value: 110
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push PUNCH-IN Button
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Push QUANTIZE Button
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Loop Down
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Loop Up
   value: 114
+  type: variable
 - description: ''
   max: 99
   min: 0
   name: Loop Select
   value: 115
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'OMNI: Off'
   value: 124
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: 'MONI: On'
   value: 125
+  type: variable
 device_name: '45000'
 midi_channel:
   instructions: ''

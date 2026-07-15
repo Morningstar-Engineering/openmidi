@@ -15,43 +15,43 @@ cc:
   - name: External Tap Tempo
     value: 93
     description: 'Externally control the LFO rate'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: External Expression Control
     value: 100
     description: 'Assign parameters with Neuro Editor'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Engage device
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 64
     max: 127
   - name: Bypass device
     value: 102
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 63
   - name: Preset Recall Off
     value: 103
     description: 'Recalls any preset in bypass'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Preset Recall On
     value: 104
     description: 'Recalls any preset engaged'
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Engage/Bypass Toggle
     value: 105
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
 

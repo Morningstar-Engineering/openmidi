@@ -5,156 +5,187 @@ cc:
   min: 0
   name: Modulation
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch pedal
   value: 4
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portament time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitchbend range
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Hold
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Portament on/off
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Release
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Strings attack
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Strings tone
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Human voice attack
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato rate
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato depth
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato delay time
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tune
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch time
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch set
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch shift
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch shft mode
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Balance direct mic
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Balance human voice
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Balance strings
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocodor formant
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder hold
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder level
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder tone
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder on/off
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Human voice male 8
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vuman voice female 4
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Strings on/off
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vocoder ensemble
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Human voice ensemble
   value: 92
+  type: variable
 device_name: VP-03
 midi_channel:
   instructions: ''

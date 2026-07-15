@@ -5,236 +5,283 @@ cc:
   min: 0
   name: Keyboard Split
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Transpose
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Keyboard Touch
   value: 33
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustped Off
   value: 34
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Level
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Type
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Model
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano On/Off
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Clav Model
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Acoustic Model String Resonance
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Acoustic Model Pedal Noise
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Piano Octave Shift
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth Level
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sample Select
   value: 52
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth Attack
   value: 53
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth Release
   value: 54
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth On/Off
   value: 55
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Synth Octave Shift
   value: 56
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Rate
   value: 63
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Type
   value: 60
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 On/Off
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 1 Source
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Rate
   value: 62
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Type
   value: 61
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 On/Off
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Effect 2 Source
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Mix
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Feedback
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay On/Off
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay Source
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ On/Off
   value: 115
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Treble
   value: 113
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid
   value: 116
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Mid Frequency
   value: 117
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Bass
   value: 112
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: EQ Source
   value: 118
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Comp On/Off
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Comp Amount
   value: 111
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Comp Sel
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp/Comp Source
   value: 87
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Wet/Dry
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb Sel
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Reverb On/Off
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain Pedal
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Soft Pedal
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sostenuto Pedal
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Volume Pedal
   value: 11
+  type: variable
 device_name: Piano 2 HP
 midi_channel:
   instructions: ''

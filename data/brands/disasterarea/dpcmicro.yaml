@@ -13,16 +13,19 @@ cc:
     description: 'Loop Off: 0-63, Loop On: 64-127'
     min: 0
     max: 127
+    type: variable
   - name: Loop B
     value: '51'
     description: 'Loop Off: 0-63, Loop On: 64-127'
     min: 0
     max: 127
+    type: variable
   - name: Loop C
     value: '52'
     description: 'Loop Off: 0-63, Loop On: 64-127'
     min: 0
     max: 127
+    type: variable
 
 pc:
   description: ''

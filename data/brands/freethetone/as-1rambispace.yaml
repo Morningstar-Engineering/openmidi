@@ -5,61 +5,73 @@ cc:
   min: 0
   name: Pre-Delay
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Decay
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tone
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mix
   value: 95
+  type: variable
 - description: ''
   max: 1
   min: 1
   name: Mode 1
   value: 96
+  type: variable
 - description: ''
   max: 2
   min: 2
   name: Mode 2
   value: 96
+  type: variable
 - description: ''
   max: 3
   min: 3
   name: Mode 3
   value: 96
+  type: variable
 - description: ''
   max: 4
   min: 4
   name: Mode 4
   value: 96
+  type: variable
 - description: ''
   max: 5
   min: 5
   name: Mode 5
   value: 96
+  type: variable
 - description: ''
   max: 6
   min: 6
   name: Mode 6
   value: 96
+  type: variable
 - description: ''
   max: 0
   min: 0
   name: Bypass Pedal
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 127
   name: Engage Pedal
   value: 65
+  type: variable
 device_name: AS-1R Ambi Space
 midi_channel:
   instructions: ''

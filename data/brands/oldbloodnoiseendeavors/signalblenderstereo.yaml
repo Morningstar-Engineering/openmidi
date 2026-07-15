@@ -18,56 +18,67 @@ cc:
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: A Switch Off
     value: '15'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: B Switch On
     value: '16'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: B Switch Off
     value: '16'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Clean Switch On
     value: '17'
     description: ''
     min: '0'
     max: '63'
+    type: variable
   - name: Clean Switch Off
     value: '17'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Clean Switch Off
     value: '17'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Trails A Switch On
     value: '18'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Trails A Switch Off
     value: '18'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Trails B Switch On
     value: '19'
     description: ''
     min: 0
     max: '63'
+    type: variable
   - name: Trails B Switch Off
     value: '19'
     description: ''
     min: '64'
     max: 127
+    type: variable
   - name: Assign All Bypass Switches
     value: '20'
     description: >
@@ -76,6 +87,7 @@ cc:
       Off, A On 6: Clean On, B On, A Off 7: Clean On, B On, A On
     min: 0
     max: '7'
+    type: variable
   - name: Allow Kill Dry Off
     value: '21'
     description: >-
@@ -83,13 +95,16 @@ cc:
       trails modw.
     min: 0
     max: '63'
+    type: variable
   - name: Allow Kill Dry On
     value: '21'
     description: Clean always matches user assignment
     min: '64'
     max: 127
+    type: variable
   - name: MIDI Channel
     value: '102'
     description: ''
     min: '1'
     max: '16'
+    type: variable

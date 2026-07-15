@@ -20,16 +20,19 @@ cc:
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Time
     value: '4'
     description: '128 steps, 51ms to 1360ms'
     min: 0
     max: 127
+    type: variable
   - name: Volume
     value: '7'
     description: Soft
     min: 0
     max: 127
+    type: variable
   - name: Mute On-Off
     value: '9'
     description: >-
@@ -37,108 +40,130 @@ cc:
       changed, or the amp is restarted
     min: 0
     max: 127
+    type: variable
   - name: Mod-FX Type
     value: '12'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '20'
     description: Soft
     min: 0
     max: 127
+    type: variable
   - name: Bass
     value: '21'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Mid
     value: '22'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Treble
     value: '23'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Resonence
     value: '24'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Presence
     value: '25'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Modulation Speed
     value: '25'
     description: Always for the active modulation effect
     min: 0
     max: 127
+    type: variable
   - name: Delay Feedback
     value: '27'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay Volume
     value: '28'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb Volume
     value: '29'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Power Soak Switching
     value: '30'
     description: 5 Sectors
     min: 0
     max: 127
+    type: variable
   - name: Channel Switching
     value: '31'
     description: 4 Sectors
     min: 0
     max: 127
+    type: variable
   - name: Mod-FX On-Off
     value: '52'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Delay On-Off
     value: '53'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Reverb On-Off
     value: '54'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: FX-Loop On-Off
     value: '55'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Gain
     value: '56'
     description: Hard
     min: 0
     max: 127
+    type: variable
   - name: Volume
     value: '57'
     description: Hard
     min: 0
     max: 127
+    type: variable
   - name: Noise Gate On-Off
     value: '63'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Boost On-Off
     value: '64'
     description: ''
     min: 0
     max: 127
+    type: variable

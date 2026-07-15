@@ -31,7 +31,7 @@ cc:
     value: "7"
     description: Allows you to morph between your two presets (Yellow and Violet). A
       "preset" is how the knobs are set.
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Left Knob
@@ -41,7 +41,7 @@ cc:
       physical knob on the pedal itself. If you wish to access the entire range
       of the knob using MIDI commands, set the knobs on the pedal to their
       maximum positions.
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Center Knob
@@ -53,6 +53,7 @@ cc:
       maximum positions.
     min: 0
     max: 127
+    type: variable
   - name: Right Knob
     value: "18"
     description: When using MIDI CC to control the Expanse pedal knob settings, note
@@ -60,12 +61,12 @@ cc:
       physical knob on the pedal itself. If you wish to access the entire range
       of the knob using MIDI commands, set the knobs on the pedal to their
       maximum positions.
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Effect Select
     value: "19"
     description: 0 = White, 1 = Blue, 2 = Green, 3 = Red
-    type: Parameter
+    type: variable
     min: 0
     max: 3

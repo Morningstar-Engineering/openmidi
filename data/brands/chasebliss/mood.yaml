@@ -39,73 +39,73 @@ cc:
   - name: Time
     value: 14
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 15
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Length
     value: 16
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Modify (Droplet - Live Spatial Effects)
     value: 17
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Clock
     value: 18
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Modify (Progress Spinner - Micro Looper)
     value: 19
     description: "(Full counter-clockwise is 0, Full clockwise is 127)"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Program Select (Droplet - Live Spatial Effects)
     value: 21
     description: "1:Left, 2:Center, 3:Right"
-    type: System
+    type: variable
     min: 1
     max: 3
   - name: Routing Toggle
     value: 22
     description: "1:Left, 2:Center, 3:Right"
-    type: System
+    type: variable
     min: 1
     max: 3
   - name: Program Select (Progress Spinner - Micro Looper)
     value: 23
     description: "1:Left, 2:Center, 3:Right"
-    type: System
+    type: variable
     min: 1
     max: 3
   - name: Expression
     value: 100
     description: "(0:Heel Down, 127:Toe Down)"
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Bypass Switch
     value: 102
     description: "0:Bypass, 127:Engage last saved bypass state"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Bypass Switch
     value: 103
     description: "0:Bypass both channels, 127:Engage both channels, 85:Engage Droplet channel only, 45: Engage Progress Spinner channel only"
-    type: Parameter
+    type: variable
     min: 0
     max: 127
     

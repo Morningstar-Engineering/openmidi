@@ -21,6 +21,7 @@ cc:
       ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400
     min: 0
     max: 127
+    type: variable
   - name: Change Tempo
     value: '86'
     description: |-
@@ -30,31 +31,37 @@ cc:
       ● CC85 val. 3 followed by CC86 val. 0-16 will set the tempo to 384-400
     min: 0
     max: 127
+    type: variable
   - name: Change Tempo
     value: '87'
     description: CC 87 val. 0-127 will set the tempo tempo to 60-187
     min: 0
     max: 127
+    type: variable
   - name: Change Tempo
     value: '88'
     description: CC 88 val. 0-127 will set the tempo tempo to 100-227
     min: 0
     max: 127
+    type: variable
   - name: Change Tempo
     value: '89'
     description: CC 89 val. 0-127 will set the tempo tempo to 140-267
     min: 0
     max: 127
+    type: variable
   - name: Apply tempo presets
     value: '106'
     description: CC 106 val. 1-50 will apply a preset
     min: 0
     max: '50'
+    type: variable
   - name: Apply tempo presets
     value: '107'
     description: CC 107 val. 1-50 will apply a preset right away
     min: 0
     max: '50'
+    type: variable
   - name: Start/Stop
     value: '103'
     description: >-
@@ -66,11 +73,13 @@ cc:
       = same as MIDI Start, but with a 1-bar count-in and for Port 1 only
     min: 0
     max: '31'
+    type: variable
   - name: Change tempo decimals
     value: '110'
     description: CC110 val. 0-99 will set the tempo to x.00-x.99
     min: 0
     max: '99'
+    type: variable
   - name: Change time signature
     value: '90'
     description: |-
@@ -82,6 +91,7 @@ cc:
       ○ 104 = x/16
     min: 0
     max: '104'
+    type: variable
   - name: Mute/unmute metronome
     value: '102'
     description: |-
@@ -90,13 +100,16 @@ cc:
       ● 2 = toggle mute (unmute if muted and mute if unmuted)
     min: 0
     max: '2'
+    type: variable
   - name: Change analog clock speed 1
     value: '104'
     description: CC 104 val. 0-109 will set ANLG clock 1 speed
     min: 0
     max: '109'
+    type: variable
   - name: Change analog clock speed 2
     value: '105'
     description: CC 105 val. 0-109 will set ANLG clock 2 speed
     min: 0
     max: '109'
+    type: variable

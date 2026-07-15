@@ -40,132 +40,132 @@ cc:
   - name: Decay
     value: 14
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dwell
     value: 16
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Modify
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Pre-Delay
     value: 19
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Dark Program Toggle Left
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: Dark Program Toggle Center
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: Dark Program Toggle Right
     value: 21
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Para Toggle Left
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: Para Toggle Center
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: Para Toggle Right
     value: 22
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: World Program Toggle Left
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 1
     max: 1
   - name: World Program Toggle Center
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 2
     max: 2
   - name: World Program Toggle Right
     value: 23
     description: ''
-    type: System
+    type: variable
     min: 3
     max: 3
   - name: Exp
     value: 100
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: 'Bypass Switch: Bypass Pedal'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage last saved preset'
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Bypass both channels'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0
   - name: 'Bypass Switch: Engage both D & W channels'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: 'Bypass Switch: Engage D channel, Bypass W channel'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 85
     max: 85
   - name: 'Bypass Switch: Engage W channel, Bypass D channel'
     value: 103
     description: ''
-    type: System
+    type: variable
     min: 45
     max: 45

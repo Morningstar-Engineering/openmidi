@@ -16,33 +16,40 @@ cc:
     description: Select Preset Bank 1 (Presets 1-128)
     min: 0
     max: '0'
+    type: variable
   - name: Select Preset Bank
     value: '32'
     description: Select Preset Bank 2 (Presets 129-250)
     min: '1'
     max: '1'
+    type: variable
   - name: Footswitch A/B Mode
     value: '16'
     description: Disables Footswitch A/B Mode
     min: 0
     max: '0'
+    type: variable
   - name: Footswitch A/B Mode
     value: '16'
     description: Selects Footswitch A Mode
     min: '1'
     max: '1'
+    type: variable
   - name: Footswitch A/B Mode
     value: '16'
     description: Selects Footswitch B Mode
     min: '2'
     max: '2'
+    type: variable
   - name: Talk Mode
     value: '17'
     description: Disable Talk Mode
     min: 0
     max: '63'
+    type: variable
   - name: Talk Mode
     value: '17'
     description: Enable Talk Mode
     min: '64'
     max: 127
+    type: variable

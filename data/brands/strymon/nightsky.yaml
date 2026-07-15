@@ -52,336 +52,336 @@ cc:
   - name: Bank Select
     value: 0
     description: (0=bank 1, 1=bank 2, 2=bank 3)
-    type: System
+    type: variable
     min: 0
     max: 2
   - name: Mix - Reverb Level
     value: 11
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mix - Dry Level
     value: 12
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod - Speed
     value: 13
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod - Target
     value: 14
     description: (0=verb, 1=pitch, 2=filter)
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Mod - Depth
     value: 15
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Mod - Shape
     value: 16
     description: (0=triangle, 1=square, 2=ramp, 3=saw, 4=random, 5=envelope)
-    type: Parameter
+    type: variable
     min: 0
     max: 5
   - name: Decay - Pre-Delay
     value: 17
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Decay - Length
     value: 18
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Decay - Texture
     value: 19
     description: (0=sparse, 1=dense, 2=diffuse)
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Decay - Size/Pitch
     value: 20
     description: (MIDI Note Range - C-2 to C0, in half steps)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Decay - Quantize
     value: 21
     description: (0=smooth, 1=half-step, 2=scale)
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Tone - Low Cut
     value: 22
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone - High Cut
     value: 23
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Tone - Filter
     value: 24
     description: (0=regen, 1=lowpass)
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Tone - Lowpass Q
     value: 25
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Voice - Interval
     value: 26
     description: (0=-octave, 1=-major7, 2=-minor7, 3=-major6, 4=-minor6, 5=-perfect5, 6=-tritone, 7=-perfect4, 8=-major3, 9=-minor3, 10=-major2, 11=-minor2, 12=-detune, 13=+detune, 14=+minor2, 15=+major2, 16=+minor3, 17=+major3, 18=+perfect4, 19=++tritone, 20=+perfect5, 21=+minor6, 22=+major6, 23=+minor7, 24=+major7, 25=+octave)
-    type: Parameter
+    type: variable
     min: 0
     max: 25
   - name: Voice - Scale Select
     value: 27
     description: (0=minor pentatonic, 1=major pentatonic, 2=major, 3=dorian, 4=minor blues, 5=harmonic minor, 6=whole tone, 7=diminished)
-    type: Parameter
+    type: variable
     min: 0
     max: 7
   - name: Voice - Shimmer
     value: 28
     description: (0=input, 1=regen)
-    type: Parameter
+    type: variable
     min: 0
     max: 1
   - name: Voice - Shimmer Level
     value: 29
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Voice - Glimmer
     value: 30
     description: (0=off, 1=high, 2=low)
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Voice - Glimmer Gain
     value: 31
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Voice - Drive
     value: 33
     description: (0=off, 1=pre, 2=post)
-    type: Parameter
+    type: variable
     min: 0
     max: 2
   - name: Voice - Drive Level
     value: 34
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Freeze
     value: 35
     description: (0=off, 1-127=on)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Morph
     value: 36
     description: (0=off, 1-127=on)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Morph Speed
     value: 37
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequence Mode
     value: 41
     description: (0=preset, 1-127=sequence)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 1 Off/On
     value: 42
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 2 Off/On
     value: 43
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 3 Off/On
     value: 44
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 4 Off/On
     value: 45
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 5 Off/On
     value: 46
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 6 Off/On
     value: 47
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 7 Off/On
     value: 48
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 8 Off/On
     value: 49
     description: (0=off, 1-127=on)
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 1 Size
     value: 50
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 2 Size
     value: 51
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 3 Size
     value: 52
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 4 Size
     value: 53
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 5 Size
     value: 54
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 6 Size
     value: 55
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 7 Size
     value: 56
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Step 8 Size
     value: 57
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Sequencer Glide
     value: 58
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: MIDI Expression Off/On
     value: 60
     description: (0=off, 1-127=on)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: MIDI Clock Off/On
     value: 63
     description: (0=off, 1-127=on)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Footswitch Favorite
     value: 80
     description: (0=release, 1-127=press)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Footswitch On
     value: 81
     description: (0=release, 1-127=press)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Footswitch Freeze
     value: 82
     description: (0=release, 1-127=press)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Persist
     value: 83
     description: (0=off, 1-127=on)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Output Stereo/Sum
     value: 85
     description: (0=stereo, 1-127=sum)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Sequence Tap
     value: 93
     description: (any)
-    type: System
+    type: variable
     min: 0
     max: 127
   - name: Expression Pedal
     value: 100
     description: ''
-    type: Parameter
+    type: variable
     min: 0
     max: 127
   - name: Engage
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 127
     max: 127
   - name: Bypass
     value: 102
     description: ''
-    type: System
+    type: variable
     min: 0
     max: 0

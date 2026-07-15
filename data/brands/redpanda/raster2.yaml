@@ -17,98 +17,117 @@ cc:
     description: CTRL input
     min: 0
     max: '127'
+    type: variable
   - name: Blend
     value: '14'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Blend L/R tilt
     value: '15'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Shift
     value: '16'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Shift L/R tilt
     value: '17'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Delay time
     value: '18'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Delay time L/R tilt
     value: '19'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Feedback
     value: '20'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Feedback L/R tilt
     value: '21'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Modulation rate
     value: '22'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Modulation phase L/R tilt
     value: '23'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Modulation depth
     value: '24'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Modulation depth L/R tilt
     value: '25'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: Tone
     value: '26'
     description: ''
     min: 0
     max: '127'
+    type: variable
   - name: SHIFT/TAP footswitch
     value: '80'
     description: "Use gated mode to send 127 on \npress and 0 on release. Matches \nfootswitch
     behavior.\n0-63      Off (release)\n64-127  On (press)"
     min: 0
     max: 0
+    type: variable
   - name: Bypass (Receive only)
     value: '88'
     description: 0-63 Bypass         64-127 Effect On
     min: 0
     max: 0
+    type: variable
   - name: Tap (Receive only)
     value: '89'
     description: 64-127   Remote tap
     min: 0
     max: 0
+    type: variable
   - name: ON footswitch
     value: '81'
     description: "Use gated mode to send 127 on \npress and 0 on release. Matches \nfootswitch
     behavior.    0-63 Off (release)   64-127  On (press)"
     min: 0
     max: 0
+    type: variable
   - name: Shift on/off (Receive only)
     value: '90'
     description: '0-63   Shift off  64-127   Shift on     '
     min: 0
     max: 0
+    type: variable
   - name: Modulation waveform
     value: '102'
     description: |-
@@ -123,6 +142,7 @@ cc:
       8 Inverse envelope;
     min: 0
     max: '8'
+    type: variable
   - name: Modulation destination
     value: '103'
     description: |-
@@ -131,6 +151,7 @@ cc:
       2 Delay time (default);
     min: 0
     max: '2'
+    type: variable
   - name: Shift mode
     value: '104'
     description: |-
@@ -139,6 +160,7 @@ cc:
       2 Phase/frequency shift;
     min: 0
     max: '2'
+    type: variable
   - name: Delay structure
     value: '105'
     description: |-
@@ -147,6 +169,7 @@ cc:
       2 Series;
     min: 0
     max: '2'
+    type: variable
   - name: Feedback mode
     value: '106'
     description: |-
@@ -156,6 +179,7 @@ cc:
       3 Reverse / shift once;
     min: 0
     max: '3'
+    type: variable
   - name: Delay range
     value: '107'
     description: |-
@@ -165,6 +189,7 @@ cc:
       3  3200 ms (1600 reverse);
     min: 0
     max: '3'
+    type: variable
   - name: Delay note division
     value: '108'
     description: "0: Off (tap tempo disabled); \n1: 8 measure; \n2: 7 measures; \n3:
@@ -178,6 +203,7 @@ cc:
     64th note triplet; \n30: Dotted 128th note; \n31: 128th note;"
     min: 0
     max: '31'
+    type: variable
   - name: Modulation note division
     value: '109'
     description: "0: Off (tap tempo disabled); \n1: 8 measure; \n2: 7 measures; \n3:
@@ -191,11 +217,13 @@ cc:
     64th note triplet; \n30: Dotted 128th note; \n31: 128th note;"
     min: 0
     max: '31'
+    type: variable
   - name: Receive MIDI clock (global)
     value: '110'
     description: '0-63: Off ; 64-127: On (default)'
     min: 0
     max: '127'
+    type: variable
   - name: Trails mode
     value: '111'
     description: |-
@@ -204,6 +232,7 @@ cc:
       3: Use global setting;
     min: 0
     max: '2'
+    type: variable
   - name: Left footswitch mode*
     value: '112'
     description: |-
@@ -212,6 +241,7 @@ cc:
       2: Tap;
     min: 0
     max: '2'
+    type: variable
   - name: Right footswitch mode*
     value: '113'
     description: |-
@@ -220,6 +250,7 @@ cc:
       2  Mute output in bypass;
     min: 0
     max: '2'
+    type: variable
   - name: Shift link left/right channels
     value: '114'
     description: |-
@@ -227,6 +258,7 @@ cc:
       1: Independent;
     min: 0
     max: '1'
+    type: variable
   - name: Feedback invert**
     value: '119'
     description: |-
@@ -234,3 +266,4 @@ cc:
       64-127: On;
     min: 0
     max: '127'
+    type: variable

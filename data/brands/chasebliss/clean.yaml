@@ -18,373 +18,448 @@ cc:
     description: Control the Dynamics knob (0 - 127)
     min: 0
     max: 127
+    type: variable
   - name: Sensitivity
     value: '15'
     description: Control the Sensitivity Knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: Wet
     value: '16'
     description: Control the Wet knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: Attack
     value: '17'
     description: Control the Attack knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: EQ
     value: '18'
     description: Control the EQ knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: Dry
     value: '19'
     description: Control the Dry knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: Ramp Speed
     value: '20'
     description: Control the Ramp Speed knob (0-127)
     min: 0
     max: 127
+    type: variable
   - name: Bypass
     value: '102'
     description: Bypass footswitch (off = 0 ; on = 1-127)
     min: 0
     max: '0'
+    type: variable
   - name: Engage
     value: '102'
     description: Bypass footswitch (off = 0 ; on = 1-127)
     min: '1'
     max: 127
+    type: variable
   - name: Swell (off)
     value: '103'
     description: Turn off swell
     min: 0
     max: '0'
+    type: variable
   - name: Swell (on)
     value: '103'
     description: Turn on swell
     min: '1'
     max: 127
+    type: variable
   - name: Alt menu (exit)
     value: '104'
     description: Exit the alt menu (hold both footswitches)
     min: 0
     max: '0'
+    type: variable
   - name: Alt menu (enter)
     value: '104'
     description: Enter the alt menu (hold both footswitches)
     min: '1'
     max: 127
+    type: variable
   - name: Dynamics Max (off)
     value: '106'
     description: Turn off Dynamics Max (hold right switch)
     min: 0
     max: '0'
+    type: variable
   - name: Dynamics Max (on)
     value: '106'
     description: Turn on Dynamics Max (hold right switch)
     min: '1'
     max: 127
+    type: variable
   - name: Release (fast)
     value: '21'
     description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
     min: 0
     max: '1'
+    type: variable
   - name: Release (user)
     value: '21'
     description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
     min: '2'
     max: '2'
+    type: variable
   - name: Release (slow)
     value: '21'
     description: Release Toggle (fast = 0-1 ; user = 2 ; slow = 3-127)
     min: '3'
     max: 127
+    type: variable
   - name: Mode (shifty)
     value: '22'
     description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
     min: 0
     max: '1'
+    type: variable
   - name: Mode (manual)
     value: '22'
     description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
     min: '2'
     max: '2'
+    type: variable
   - name: Mode (modulated)
     value: '22'
     description: Mode Toggle (shifty = 0-1 ; manual = 2 ; modulated = 3-127)
     min: '3'
     max: 127
+    type: variable
   - name: Physics (wobbly)
     value: '23'
     description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
     min: 0
     max: '1'
+    type: variable
   - name: Physics (off)
     value: '23'
     description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
     min: '2'
     max: '2'
+    type: variable
   - name: Physics (twitchy)
     value: '23'
     description: Physics Toggle (wobbly = 0-1 ; off = 2 ; twitchy = 3-127)
     min: '3'
     max: 127
+    type: variable
   - name: Expression over MIDI
     value: '100'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Preset Save
     value: '111'
     description: Save to preset slots 1 through 122
     min: '1'
     max: '122'
+    type: variable
   - name: Ramp / Bounce (off)
     value: '52'
     description: ''
     min: 0
     max: '0'
+    type: variable
   - name: Ramp / Bounce (on)
     value: '52'
     description: ''
     min: '1'
     max: 127
+    type: variable
   - name: Factory Reset
     value: '56'
     description: ''
     min: 0
     max: 127
+    type: variable
   - name: Dynamics (off)
     value: '61'
     description: Dynamics (Left Dip Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Dynamics (on)
     value: '61'
     description: Dynamics (Left Dip Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Attack (off)
     value: '62'
     description: Attack (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Attack (on)
     value: '62'
     description: Attack (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: EQ (off)
     value: '63'
     description: EQ (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: EQ (on)
     value: '63'
     description: EQ (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Dry (off)
     value: '64'
     description: Dry (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Dry (on)
     value: '64'
     description: Dry (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Wet (off)
     value: '65'
     description: Wet (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Wet (on)
     value: '65'
     description: Wet (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Bounce (off)
     value: '66'
     description: Bounce (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Bounce (on)
     value: '66'
     description: Bounce (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Sweep (B)
     value: '67'
     description: Sweep (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Sweep (T)
     value: '67'
     description: Sweep (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Polarity (F)
     value: '68'
     description: Polarity (Left DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Polarity (R)
     value: '68'
     description: Polarity (Left DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: MISO (off)
     value: '71'
     description: 'MISO - Mono in, Stereo Out (Right DIP Switches)'
     min: 0
     max: '0'
+    type: variable
   - name: MISO (on)
     value: '71'
     description: 'MISO - Mono in, Stereo Out (Right DIP Switches)'
     min: '1'
     max: 127
+    type: variable
   - name: Spread (off)
     value: '72'
     description: Spread (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Spread (on)
     value: '72'
     description: Spread (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Latch (off)
     value: '73'
     description: Latch (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Latch (on)
     value: '73'
     description: Latch (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Sidechain (off)
     value: '74'
     description: Sidechain (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Sidechain (on)
     value: '74'
     description: Sidechain (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Noise gate (off)
     value: '75'
     description: Noise gate (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Noise gate (on)
     value: '75'
     description: Noise gate (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Motion (off)
     value: '76'
     description: Motion (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Motion (on)
     value: '76'
     description: Motion (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Swell Aux (off)
     value: '77'
     description: Swell Aux (Right DIP Switches)
     min: '0'
     max: '0'
+    type: variable
   - name: Swell Aux (on)
     value: '77'
     description: Swell Aux (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Dusty (off)
     value: '78'
     description: Dusty (Right DIP Switches)
     min: 0
     max: '0'
+    type: variable
   - name: Dusty (on)
     value: '78'
     description: Dusty (Right DIP Switches)
     min: '1'
     max: 127
+    type: variable
   - name: Noise gate release
     value: '24'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: Noise gate sens
     value: '25'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: Swell in
     value: '26'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: User release
     value: '27'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: Balance filter
     value: '28'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: Swell out
     value: '29'
     description: Hidden options
     min: 0
     max: 127
+    type: variable
   - name: Envelope Mode (Analog)
     value: '31'
     description: Hidden options
     min: 0
     max: '1'
+    type: variable
   - name: Envelope Mode (Hybrid)
     value: '31'
     description: Hidden options
     min: '2'
     max: '2'
+    type: variable
   - name: Envelope Mode (Adaptive)
     value: '31'
     description: Hidden options
     min: '3'
     max: 127
+    type: variable
   - name: Shifty Mode (ASR)
     value: '32'
     description: Hidden options
     min: 0
     max: '1'
+    type: variable
   - name: Shifty Mode (Env)
     value: '32'
     description: Hidden options
     min: '3'
     max: '3'
+    type: variable
   - name: Spread Routing (EQ)
     value: '33'
     description: Hidden options
     min: 0
     max: '1'
+    type: variable
   - name: Spread Routing (Both)
     value: '33'
     description: Hidden options
     min: '2'
     max: '2'
+    type: variable
   - name: Spread Routing (vol/comp)
     value: '33'
     description: Hidden options
     min: '3'
     max: 127
+    type: variable

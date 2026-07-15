@@ -5,336 +5,403 @@ cc:
   min: 0
   name: Modulation wheel
   value: 1
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide time
   value: 5
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: VCA level
   value: 7
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Swing
   value: 9
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Sustain (hold)
   value: 64
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Glide on/off
   value: 65
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Vibrato on/off
   value: 77
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Wah on/off
   value: 78
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Tremolo on/off
   value: 79
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dive on/off
   value: 89
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Dive range
   value: 90
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scoop on/off
   value: 91
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Scoop range
   value: 92
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod wheel to LFO rate
   value: 93
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod wheel to vibrato
   value: 94
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod wheel to wah
   value: 95
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod wheel to tremelo
   value: 96
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Mod wheel to filter cutoff
   value: 97
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Pitch bend range
   value: 101
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity to VCA amount
   value: 102
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity to filter cutoff
   value: 103
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity to filter env amount
   value: 104
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Velocity to LFO rate
   value: 105
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff keytrack
   value: 106
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay mix
   value: 80
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Delay time
   value: 81
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 level
   value: 12
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 level
   value: 13
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Noise level
   value: 14
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 wave
   value: 15
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 wave
   value: 16
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 1 tune
   value: 17
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: OSC 2 tune
   value: 18
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp attack
   value: 24
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp decay
   value: 25
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp sustain
   value: 26
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Amp release
   value: 27
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter mode
   value: 19
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter cutoff
   value: 20
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter resonance
   value: 21
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter drive
   value: 22
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter env amount
   value: 23
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter attack
   value: 44
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter decay
   value: 45
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter sustain
   value: 46
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter release
   value: 47
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter env to OSC 1 PWM
   value: 48
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter env to OSC 2 PWM
   value: 49
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter env to OSC 1 wave
   value: 50
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Filter env to OSC 2 wave
   value: 51
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO wave
   value: 66
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO rate
   value: 67
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to pitch
   value: 68
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to filter cutoff
   value: 69
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to tremelo
   value: 70
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to wah
   value: 71
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to vibr
   value: 72
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to OSC 1 PWM
   value: 73
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to OSC 2 PWM
   value: 74
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to OSC 1 waveform
   value: 75
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: LFO to OSC 2 waveform
   value: 76
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator on/off
   value: 82
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator direction
   value: 83
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator range
   value: 84
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Arpeggiator and seq gate time
   value: 85
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq direction
   value: 86
+  type: variable
 - description: ''
   max: 127
   min: 0
   name: Seq range
   value: 87
+  type: variable
 device_name: UNO Synth
 midi_channel:
   instructions: ''

@@ -17,3 +17,4 @@ cc:
       Value 3 Selects Bank 4 (P125-P250)
     min: 0
     max: '3'
+    type: variable

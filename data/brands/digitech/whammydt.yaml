@@ -87,6 +87,6 @@ cc:
   - name: Expression Pedal Position
     value: 11
     description: Remotely controls the Whammy's expression pedal. 0 corresponds to heel down position and 127 corresponds to toe down position.
-    type: Parameter
+    type: variable
     min: 0
     max: 127

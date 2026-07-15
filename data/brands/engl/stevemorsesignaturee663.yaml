@@ -5,6 +5,7 @@ cc:
   min: 127
   name: 'Lo Mid: Off'
   value: 23
+  type: variable
 device_name: Steve Morse Signature E663
 midi_channel:
   instructions: ''
