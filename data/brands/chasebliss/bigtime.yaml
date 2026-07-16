@@ -1,282 +1,306 @@
-brand: Chase Bliss
-model: Big Time
+brand: chasebliss
+model: bigtime
+brandName: Chase Bliss Audio
+modelName: Big Time
 device_type: effect
-email: noiseinthenighttime@gmail.com
-url: 'https://www.chasebliss.com/big-time'
+email: jus_jammin@hotmail.com
+url: >-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/6a3959feea3bad18b61b4fed/1782143486419/Chase+Bliss+Big+Time+MIDI+manual.pdf
 midi_channel:
   instructions: ''
-midi_clock: unknown
 midi_inputs: []
 midi_outputs: []
-midi_thru: unknown
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: COLOR
     value: '14'
     description: Slider - COLOR control (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: TIME
     value: '15'
     description: Slider - TIME control (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: CLUSTER
     value: '16'
     description: Slider - CLUSTER control (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: TILT EQ
     value: '17'
     description: Slider - TILT EQ control (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: FEEDBACK
     value: '18'
     description: Slider - FEEDBACK control (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: SCALE
-    value: '22'
-    description: 'Button - OFF=0, CHROMATIC=1, OCT+4+5=2, OCTAVE=3+'
-    min: 0
-    max: 127
-    type: variable
-  - name: MOTION
-    value: '23'
-    description: 'Button - OFF=0, SINE=1, SQUARE=2, ENV=3+'
-    min: 0
-    max: 127
-    type: variable
-  - name: MODE
-    value: '24'
-    description: 'Button - MOD=0, SHORT=1, LONG=2, LOOP=3+'
-    min: 0
-    max: 127
-    type: variable
-  - name: VOICING
-    value: '25'
-    description: 'Button - HIFI=0, FOCUS=1, WARM=2, ANALOG=3+'
-    min: 0
-    max: 127
-    type: variable
-  - name: STATE
-    value: '26'
-    description: 'Button - DIGITAL=0, COMPRESSED=1, SATURATED=2, #!&%=3+'
-    min: 0
-    max: 127
-    type: variable
-  - name: 'BYPASS (Tap Right, Delay)'
-    value: '102'
-    description: 'Delay mode - Bypass. off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: 'TAP / MOD ENGAGE (Tap Left, Delay)'
-    value: '103'
-    description: Delay mode - Tap / Mod engage. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: 'PLAY / STOP (Tap Right, Loop)'
-    value: '102'
-    description: Loop mode - Play / Stop. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: 'REC / PLAY / DUB (Tap Left, Loop)'
-    value: '103'
-    description: Loop mode - Rec / Play / Dub. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: RECORD (Loop)
-    value: '104'
-    description: Loop mode - Record. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: PLAY (Loop)
-    value: '105'
-    description: Loop mode - Play. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: 'DELETE (Hold Left, Loop)'
-    value: '106'
-    description: Loop mode - Delete. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: STOP (Loop)
-    value: '107'
-    description: Loop mode - Stop. Any value
-    min: 0
-    max: 127
-    type: variable
-  - name: TEXTURE
-    value: '32'
-    description: Alt control - TEXTURE (0-127)
-    min: 0
-    max: 127
-    type: variable
-  - name: DEPTH
-    value: '34'
-    description: Alt control - DEPTH (0-127)
-    min: 0
-    max: 127
-    type: variable
-  - name: CROSSOVER
-    value: '35'
-    description: Alt control - CROSSOVER (0-127)
-    min: 0
-    max: 127
-    type: variable
-  - name: DIFFUSION
-    value: '36'
-    description: Alt control - DIFFUSION (0-127)
-    min: 0
-    max: 127
-    type: variable
-  - name: DRY
-    value: '37'
-    description: Alt control - DRY (0-127)
-    min: 0
-    max: 127
-    type: variable
-  - name: SPREAD (Alt)
-    value: '22'
-    description: 'Alt control - Spread. off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: 0.5X (Alt)
-    value: '23'
-    description: 'Alt control - 0.5X. NORMAL=0, 0.5X=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: DIFFUSE TYPE (Alt)
-    value: '24'
-    description: 'Alt control - Diffuse type. NORMAL=0, DOUBLE=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: PLAY/DUB
-    value: '42'
-    description: 'Options menu - PLAY=0, DUB=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: SCALE IGNORE
-    value: '43'
-    description: 'Options menu - off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: STEP
-    value: '44'
-    description: 'Options menu - off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: TRAILS
-    value: '45'
-    description: 'Options menu - off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
   - name: WET
     value: '19'
     description: Slider - WET control (0-127)
+    type: variable
     min: 0
     max: 127
+  - name: SCALE
+    value: '22'
+    description: 'Button - OFF=0, CHROMATIC=1, OCT+4+5=2, OCTAVE=3+'
     type: variable
-  - name: 'HOLD (Hold Left, Delay)'
-    value: '106'
-    description: 'Delay mode - Hold. off=0, on=1+'
     min: 0
     max: 127
+  - name: SPREAD (Alt)
+    value: '22'
+    description: 'Alt control - Spread. off=0, on=1+'
     type: variable
-  - name: RATE
-    value: '33'
-    description: Alt control - RATE (0-127)
     min: 0
     max: 127
+  - name: MOTION
+    value: '23'
+    description: 'Button - OFF=0, SINE=1, SQUARE=2, ENV=3+'
     type: variable
+    min: 0
+    max: 127
+  - name: 0.5X (Alt)
+    value: '23'
+    description: 'Alt control - 0.5X. NORMAL=0, 0.5X=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: MODE
+    value: '24'
+    description: 'Button - MOD=0, SHORT=1, LONG=2, LOOP=3+'
+    type: variable
+    min: 0
+    max: 127
+  - name: DIFFUSE TYPE (Alt)
+    value: '24'
+    description: 'Alt control - Diffuse type. NORMAL=0, DOUBLE=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: VOICING
+    value: '25'
+    description: 'Button - HIFI=0, FOCUS=1, WARM=2, ANALOG=3+'
+    type: variable
+    min: 0
+    max: 127
   - name: +12dB (Alt)
     value: '25'
     description: 'Alt control - +12dB. NORMAL=0, +12dB=1+'
+    type: variable
     min: 0
     max: 127
+  - name: STATE
+    value: '26'
+    description: 'Button - DIGITAL=0, COMPRESSED=1, SATURATED=2, #!&%=3+'
     type: variable
-  - name: DRY CLEAN
-    value: '47'
-    description: 'Options menu - off=0, on=1+'
     min: 0
     max: 127
-    type: variable
-  - name: BALANCED/UNBALANCED
-    value: '48'
-    description: 'Options menu - BALANCED=0, UNBALANCED=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: DRY KILL
-    value: '46'
-    description: 'Options menu - off=0, on=1+'
-    min: 0
-    max: 127
-    type: variable
   - name: Save to slot
     value: '27'
     description: Save to preset slot number (0-127)
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Save to current slot
     value: '28'
     description: Save to current slot. Any value
+    type: variable
     min: 0
     max: 127
+  - name: TEXTURE
+    value: '32'
+    description: Alt control - TEXTURE (0-127)
     type: variable
+    min: 0
+    max: 127
+  - name: RATE
+    value: '33'
+    description: Alt control - RATE (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: DEPTH
+    value: '34'
+    description: Alt control - DEPTH (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: CROSSOVER
+    value: '35'
+    description: Alt control - CROSSOVER (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: DIFFUSION
+    value: '36'
+    description: Alt control - DIFFUSION (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: DRY
+    value: '37'
+    description: Alt control - DRY (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: SPREAD
+    value: '38'
+    description: OFF = 0 BLUE = 1 RED = 2 OR >
+    type: variable
+    min: 0
+    max: 127
+  - name: 0.5X
+    value: '39'
+    description: NORMAL = 0 0.5X = 1 OR >
+    type: variable
+    min: 0
+    max: 127
+  - name: DIFFUSE TYPE
+    value: '40'
+    description: NORMAL = 0 DOUBLE = 1 OR >
+    type: variable
+    min: 0
+    max: 127
+  - name: +12 dB
+    value: '41'
+    description: NORMAL = 0 +12 dB = 1 OR >
+    type: variable
+    min: 0
+    max: 127
+  - name: PLAY/DUB
+    value: '42'
+    description: 'Options menu - PLAY=0, DUB=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: SCALE IGNORE
+    value: '43'
+    description: 'Options menu - off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: STEP
+    value: '44'
+    description: 'Options menu - off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: TRAILS
+    value: '45'
+    description: 'Options menu - off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: DRY KILL
+    value: '46'
+    description: 'Options menu - off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: DRY CLEAN
+    value: '47'
+    description: 'Options menu - off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: BALANCED/UNBALANCED
+    value: '48'
+    description: 'Options menu - BALANCED=0, UNBALANCED=1+'
+    type: variable
+    min: 0
+    max: 127
   - name: Tap Tempo Subdivision
     value: '54'
     description: >-
       Tap tempo subdivision select: 0=16th, 3=8th, 6=quarter, 9=half, 12+=whole
       note
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: THRU vs OUT
-    value: '110'
-    description: 'MIDI out mode - THRU=0, OUT=1+ (activates MIDI clock output)'
-    min: 0
-    max: 127
-    type: variable
-  - name: MIDI Clock Ignore
-    value: '111'
-    description: 'MIDI clock - FOLLOW=0, IGNORE=1+'
-    min: 0
-    max: 127
-    type: variable
-  - name: MIDI Global Notes
-    value: '112'
-    description: 'MIDI notes - OFF=0, CHANNEL=1, GLOBAL=1+'
-    min: 0
-    max: 127
-    type: variable
   - name: Expression over MIDI
     value: '100'
     description: Expression pedal over MIDI (0-127)
+    type: variable
     min: 0
     max: 127
+  - name: 'BYPASS (Tap Right, Delay)'
+    value: '102'
+    description: 'Delay mode - Bypass. off=0, on=1+'
     type: variable
+    min: 0
+    max: 127
+  - name: 'PLAY / STOP (Tap Right, Loop)'
+    value: '102'
+    description: Loop mode - Play / Stop. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: 'TAP / MOD ENGAGE (Tap Left, Delay)'
+    value: '103'
+    description: Delay mode - Tap / Mod engage. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: 'REC / PLAY / DUB (Tap Left, Loop)'
+    value: '103'
+    description: Loop mode - Rec / Play / Dub. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: RECORD (Loop)
+    value: '104'
+    description: Loop mode - Record. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: PLAY (Loop)
+    value: '105'
+    description: Loop mode - Play. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: 'DELETE (Hold Left, Loop)'
+    value: '106'
+    description: Loop mode - Delete. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: 'HOLD (Hold Left, Delay)'
+    value: '106'
+    description: 'Delay mode - Hold. off=0, on=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: STOP (Loop)
+    value: '107'
+    description: Loop mode - Stop. Any value
+    type: variable
+    min: 0
+    max: 127
+  - name: THRU vs OUT
+    value: '110'
+    description: 'MIDI out mode - THRU=0, OUT=1+ (activates MIDI clock output)'
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Clock Ignore
+    value: '111'
+    description: 'MIDI clock - FOLLOW=0, IGNORE=1+'
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Global Notes
+    value: '112'
+    description: 'MIDI notes - OFF=0, CHANNEL=1, GLOBAL=1+'
+    type: variable
+    min: 0
+    max: 127
