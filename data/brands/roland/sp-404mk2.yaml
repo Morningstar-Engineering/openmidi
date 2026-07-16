@@ -1,0 +1,194 @@
+brand: Roland
+model: SP-404 MK2
+device_type: midi_controller
+email: kristine@morningstarfx.com
+url: >-
+  https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/index.html#8010996378593163
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: Unknown
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: 'EFX switch '
+    value: '19'
+    description: '0 – 63: OFF ; 64 – 127: ON ;'
+    type: variable
+    min: 0
+    max: 127
+  - name: 'EFX number '
+    value: '83'
+    description: Control change messages and corresponding effects.
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 1
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 2
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 3
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 4
+    value: '80'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 5
+    value: '81'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ctrl 6
+    value: '82'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: 'knob: volume slider'
+    value: '7'
+    description: >-
+      MIDI channel 1 affects CH1 sample; MIDI channel 2 affects CH2 sample; MIDI
+      channel 3 affects pattern sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: 'knob: X-FADE (CH1 sample)'
+    value: '8'
+    description: 'CH1: CH2 = 127:0–0:127'
+    type: variable
+    min: 0
+    max: 127
+  - name: Play / Pause button
+    value: '20'
+    description: >-
+      0: pause, 127: play - MIDI channel 1 affects CH1 sample; MIDI channel 2
+      affects CH2 sample; MIDI channel 3 affects pattern sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: Previous button
+    value: '21'
+    description: >-
+      0: release the button, 127: press the button - MIDI channel 1 affects CH1
+      sample; MIDI channel 2 affects CH2 sample; MIDI channel 3 affects pattern
+      sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: SYNC button
+    value: '22'
+    description: >-
+      0: Off, 127: On - MIDI channel 1 affects CH1 sample; MIDI channel 2
+      affects CH2 sample; MIDI channel 3 affects pattern sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: CUE button
+    value: '23'
+    description: >-
+      0: Off, 127: On - MIDI channel 1 affects CH1 sample; MIDI channel 2
+      affects CH2 sample; MIDI channel 3 affects pattern sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: BEND+ button
+    value: '24'
+    description: >-
+      0: release the button, 127: press the button - MIDI channel 1 affects CH1
+      sample; MIDI channel 2 affects CH2 sample; MIDI channel 3 affects pattern
+      sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: BEND- button
+    value: '25'
+    description: >-
+      0: release the button, 127: press the button - MIDI channel 1 affects CH1
+      sample; MIDI channel 2 affects CH2 sample; MIDI channel 3 affects pattern
+      sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: BPM+ button
+    value: '26'
+    description: >-
+      0: release the button, 127: press the button - MIDI channel 1 affects CH1
+      sample; MIDI channel 2 affects CH2 sample; MIDI channel 3 affects pattern
+      sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: BPM- button
+    value: '27'
+    description: >-
+      0: release the button, 127: press the button - MIDI channel 1 affects CH1
+      sample; MIDI channel 2 affects CH2 sample; MIDI channel 3 affects pattern
+      sequencer
+    type: variable
+    min: 0
+    max: 127
+  - name: '[DEL] button'
+    value: '87'
+    description: '0 : – ; 127 : Deletes the sampled content.'
+    type: variable
+    min: '127'
+    max: 127
+  - name: '[REC] button'
+    value: '88'
+    description: '0: Stops sampling ;  127: Starts sampling.'
+    type: variable
+    min: 0
+    max: 127
+  - name: '[RESAMPLE] button'
+    value: '89'
+    description: '0 : – ; 127: Activates overdubbing mode.'
+    type: variable
+    min: '127'
+    max: 127
+  - name: '[CTRL 3] knob'
+    value: '90'
+    description: '0 – 127: Adjusts the value of BPM/PLAY-RATE parameters.'
+    type: variable
+    min: 0
+    max: 127
+  - name: '[EXIT] button'
+    value: '85'
+    description: >-
+      0 : – ; 127: Stops the playback of all samples by quickly pressing the
+      button four times.
+    type: variable
+    min: '127'
+    max: 127
+  - name: '[PITCH/SPEED] button'
+    value: '86'
+    description: '0: – ; 127: Resets the tempo setting.'
+    type: variable
+    min: '127'
+    max: 127
+  - name: '[SHIFT] button + [PATTERN SELECT] button'
+    value: '91'
+    description: >-
+      0: Cancels the undo action (REDO) ; 127: Undoes (UNDO) the data you just
+      input (recorded).
+    type: variable
+    min: 0
+    max: 127
