@@ -1,0 +1,238 @@
+brand: "Alexander Pedals"
+device_name: "Luminous"
+midi_in: "TRS / USB"
+midi_thru: ""
+phantom_power: ""
+midi_clock: "Yes"
+
+midi_channel:
+  instructions: |+
+    Enter the Setup menu and configure M.JACK = MIDI, then set CHANNL = your desired MIDI channel. Save and exit.
+
+pc:
+  description: |+
+    You can use an external MIDI controller to load any preset from 1-32, regardless of how the Setup Menu is configured.
+
+cc:
+  - name: "Knob 0 (PG1 upper L)"
+    value: 50
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 1 (PG1 upper R)"
+    value: 51
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 2 (PG1 lower L)"
+    value: 52
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "SOUND MODE: CLASSIC"
+    value: 53
+    description: ""
+    type: System
+    min: 0
+    max: 12
+  - name: "SOUND MODE: DUAL PHZ"
+    value: 53
+    description: ""
+    type: System
+    min: 13
+    max: 25
+  - name: "SOUND MODE: PHAZDLAY"
+    value: 53
+    description: ""
+    type: System
+    min: 26
+    max: 37
+  - name: "SOUND MODE: K-TREM"
+    value: 53
+    description: ""
+    type: System
+    min: 38
+    max: 50
+  - name: "SOUND MODE: DYNAMIC"
+    value: 53
+    description: ""
+    type: System
+    min: 51
+    max: 63
+  - name: "SOUND MODE: INFINITE"
+    value: 53
+    description: ""
+    type: System
+    min: 64
+    max: 75
+  - name: "SOUND MODE: FLYINGPAN"
+    value: 53
+    description: ""
+    type: System
+    min: 76
+    max: 88
+  - name: "SOUND MODE: PATTERN"
+    value: 53
+    description: ""
+    type: System
+    min: 89
+    max: 101
+  - name: "SOUND MODE: UNIQUE"
+    value: 53
+    description: ""
+    type: System
+    min: 102
+    max: 113
+  - name: "SOUND MODE: PHLANGER"
+    value: 53
+    description: ""
+    type: System
+    min: 114
+    max: 127
+  - name: "Knob 4 (PG2 upper L)"
+    value: 54
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 5 (PG2 upper R)"
+    value: 55
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 6 (PG2 lower L)"
+    value: 56
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 7 (PG2 lower R)"
+    value: 57
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Knob 8 (PG3 upper L)"
+    value: 58
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Filter"
+    value: 59
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Level"
+    value: 60
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "Ramp: TOGG"
+    value: 61
+    description: ""
+    type: Parameter
+    min: 0
+    max: 50
+  - name: "Ramp: MOM"
+    value: 61
+    description: ""
+    type: Parameter
+    min: 51
+    max: 110
+  - name: "Ramp: CLR"
+    value: 61
+    description: ""
+    type: Parameter
+    min: 111
+    max: 127
+  - name: "TAP TEMPO"
+    value: 93
+    description: "Triggered on ANY value"
+    type: System
+    min: 0
+    max: 127
+  - name: "RAMP TRIGGER"
+    value: 97
+    description: "Triggered on ANY value"
+    type: System
+    min: 0
+    max: 127
+  - name: "EXPRESSION PDL: HEEL"
+    value: 100
+    description: ""
+    type: Parameter
+    min: 0
+    max: 0
+  - name: "EXPRESSION PDL: TOE"
+    value: 100
+    description: ""
+    type: Parameter
+    min: 127
+    max: 127
+  - name: "BYPASS: BYP"
+    value: 102
+    description: ""
+    type: System
+    min: 0
+    max: 0
+  - name: "BYPASS: ON"
+    value: 102
+    description: ""
+    type: System
+    min: 127
+    max: 127
+  - name: "PATTERN 8 STEP 1"
+    value: 110
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 2"
+    value: 111
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 3"
+    value: 112
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 4"
+    value: 113
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 5"
+    value: 114
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 6"
+    value: 115
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 7"
+    value: 116
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
+  - name: "PATTERN 8 STEP 8"
+    value: 117
+    description: ""
+    type: Parameter
+    min: 0
+    max: 127
