@@ -1515,6 +1515,10 @@
       "value": "matthewseffects",
       "models": [
         {
+          "name": "Botanist",
+          "value": "botanist"
+        },
+        {
           "name": "The Technician",
           "value": "thetechnician"
         }
