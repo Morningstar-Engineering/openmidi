@@ -1,17 +1,159 @@
-brand: Wampler Pedals
-cc:
-- description: ''
-  max: 0
-  min: 0
-  name: Tap Tempo
-  value: 81
-  type: variable
-device_name: Terraform
+brand: wamplerpedals
+model: terraform
+brandName: Wampler Pedals
+modelName: Terraform
+device_type: midi_controller
+email: filodichina@gmail.com
+url: 'https://www.wamplerpedals.com/products/modulation/terraform/'
 midi_channel:
   instructions: ''
-midi_clock: ''
-midi_in: ''
-midi_thru: ''
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: ''
+cc:
+  - name: Tap Tempo
+    value: 81
+    description: Emulates the tap tempo function of the tap tempo switch
+    type: fixed
+    min: 0
+    max: 0
+  - name: Bypass State
+    value: '1'
+    description: Turns the device on/off
+    type: fixed
+    min: 0
+    max: 127
+  - name: Program
+    value: '2'
+    description: >-
+      Selects the mod program ->  0 = Autowah 1 = Envelope Filter 2 = Flanger 3
+      = Phaser 4 = UVibe 5 = Rotary 6 = Autoswell 7 = Tremolo 8 = Harmonic
+      Tremolo 9 = Chorus 10 = Dimension
+    type: group
+    min: 0
+    max: '10'
+  - name: Mod Rate (knob)
+    value: '3'
+    description: 'Emulates the Mod Rate knob, 0.1 Hz to 10 Hz'
+    type: variable
+    min: 0
+    max: 127
+  - name: Mod Depth (knob)
+    value: '4'
+    description: Emulates the Mod Depth knob
+    type: variable
+    min: 0
+    max: 127
+  - name: Variable (knob)
+    value: '5'
+    description: Emulates the Variable knob
+    type: variable
+    min: 0
+    max: 127
+  - name: Output Mix (knob)
+    value: '6'
+    description: >-
+      Emulates the Output Mix knob: 0 = dry 100% + wet 0%, 63 = dry 100% + wet
+      100%, 127 = dry 0% + wet 100% Rotary: blend between woofer and horn
+      Tremolo: phase: 0 = 0º, 63 = 90º, 127 = 180º Harmonic Tremolo: crossover
+      filter frequency: 0 = 100 Hz, 63 = 700 Hz, 127 = 2500 Hz Output
+    type: variable
+    min: 0
+    max: 127
+  - name: Output Level (knob)
+    value: '7'
+    description: 'Emulates the Output Level knob: 0 = -6dB | 63 = 0dB | 127 = +6dB'
+    type: variable
+    min: 0
+    max: 127
+  - name: Phaser Feedback
+    value: '8'
+    description: >-
+      Emulates the Phaser Feedback alt-param: 0 = script, 63 = block, 127 =
+      beyond
+    type: group
+    min: 0
+    max: 127
+  - name: Rotary Speed
+    value: '9'
+    description: >-
+      Set the rotary speed between fast (tremolo) and slow (chorale): 0 = fast
+      (tremolo) |  1-127 = slow (chorale)
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivision
+    value: '11'
+    description: >-
+      Sets the tap tempo subdivision -> (0-7 are accessible via the front
+      panel): 0 = Quarter 1 = Doied EIghth 2 = Eighth 3 = Sixteenth 4 = Half 5 =
+      Whole 6 = Doied Quarter 7 = Triplet Quarter 8 = Doied Sixteenth 9 = Doied
+      Half 10 = Doied Whole 11 = Triplet Sixteenth 12 = Triplet Eighth 13 =
+      Triplet Half 14 = Triplet Whole
+    type: group
+    min: 0
+    max: '14'
+  - name: Mod Rate (high ms)
+    value: '12'
+    description: >-
+      A Time High message followed by a Time Low message will set the Mod Rate
+      period to a specific ms value.   ms = 1000 / Hz 1 Hz -> 1000 / 1 Hz =
+      1000ms 4 Hz -> 1000 / 4 Hz = 250ms
+    type: variable
+    min: 0
+    max: '15'
+  - name: Mod Rate (low ms)
+    value: '13'
+    description: >-
+      Each message is a 7-bit value, and sent together will be interpreted as a
+      14-bit value. High = ms / 128, keep integer (le< of decimal point) Low =
+      ms % 128 (divide by 128, remove integer, mulAply by 128) example: 0000111
+      1101000 (binary) -> High=7, Low=104 (decimal) -> 1000ms example: 0000001
+      1111010 (binary) -> High=1, Low=122 (decimal) -> 250ms
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Decrement
+    value: '82'
+    description: >-
+      Decrements the preset number by <value. Special case: value=0 will reload
+      the current preset
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Increment
+    value: '83'
+    description: >-
+      Increments the preset number by <value . Special case: value=0 will reload
+      the current preset
+    type: variable
+    min: 0
+    max: 127
+  - name: Tempo Switch Mode
+    value: '84'
+    description: >-
+      Selects the mode of the tempo switch: 0 = Tap Tempo Switch will trigger
+      tap tempo |  1-127 = Tap Tempo Switch will increment the preset
+    type: variable
+    min: 0
+    max: 127
+  - name: Routing Mode
+    value: '85'
+    description: 'Sets the routing mode: 0 = normal (stereo) 1-127 = pre/post (mono)'
+    type: group
+    min: 0
+    max: '1'
+  - name: MIDI Clock Enable
+    value: '99'
+    description: 0 = ignore MIDI Clock 1-127 = follow MIDI clock
+    type: group
+    min: 0
+    max: '1'
+  - name: Expression Pedal
+    value: '100'
+    description: Emulates the expression pedal input
+    type: variable
+    min: 0
+    max: 127
