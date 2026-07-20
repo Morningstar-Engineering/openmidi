@@ -1,0 +1,55 @@
+brand: One Control
+model: Minimal Series MIDI DS Loop
+device_type: others
+email: haltiaan@hotmail.com
+url: 'https://one-control.com/products/oc-m-mdsl'
+midi_channel:
+  instructions: >-
+    Set the MIDI channel to respond. It is used in combination with the position
+    of the three DIP switches. Firmly fold the switch to the left or right and
+    stop it in the middle and do not use it.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'No'
+pc:
+  description: 'PC# 81: Set it to CC mode'
+phantom_power: 'No'
+midi_mapping: 'PC# 81: Set it to CC mode'
+cc:
+  - name: Bypass loop 1
+    value: '102'
+    description: Bypass loop 1
+    type: fixed
+    min: '10'
+    max: '10'
+  - name: Turn on loop 1
+    value: '102'
+    description: Turn on loop 1
+    type: fixed
+    min: '11'
+    max: '11'
+  - name: Bypass loop 2
+    value: '102'
+    description: Bypass loop 2
+    type: fixed
+    min: '20'
+    max: '20'
+  - name: Turn on Loop 2
+    value: '102'
+    description: Turn on Loop 2
+    type: fixed
+    min: '21'
+    max: '21'
+  - name: Bypass both loops
+    value: '102'
+    description: Bypass both loops
+    type: fixed
+    min: '30'
+    max: '30'
+  - name: Turn on both loops
+    value: '102'
+    description: Turn on both loops
+    type: fixed
+    min: '31'
+    max: '31'

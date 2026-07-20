@@ -2075,6 +2075,10 @@
         {
           "name": "Midi Solo Stereo Loop ",
           "value": "midisolostereoloop"
+        },
+        {
+          "name": "Minimal Series MIDI DS Loop",
+          "value": "minimalseriesmididsloop"
         }
       ]
     },
