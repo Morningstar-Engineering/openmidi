@@ -1,0 +1,53 @@
+brand: Matthews Effects
+model: Botanist
+device_type: effect
+email: aloom127@gmail.com
+url: >-
+  https://www.manualslib.com/manual/3534614/Matthews-Effects-The-Botanist.html?page=2#manual
+midi_channel:
+  instructions: Send CC#5 a value between 1-16.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'No'
+pc:
+  description: Unknown
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Bypass Control
+    value: 0
+    description: '0 : Turn Pedal Off; 1 : Turn Pedal On; 2 : Toggle Bypass.'
+    type: group
+    min: 0
+    max: '2'
+  - name: Mix
+    value: '1'
+    description: Mix wet and dry signal.
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate
+    value: '2'
+    description: Adjust rate of effect.
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth
+    value: '3'
+    description: Adjust depth of effect.
+    type: variable
+    min: 0
+    max: 127
+  - name: Algorithm Control
+    value: '4'
+    description: '0: Tremolo; 1: Chorus; 2: Phaser.'
+    type: group
+    min: 0
+    max: '2'
+  - name: Sets Midi Channel
+    value: '5'
+    description: 'Set MIDI channel [default is 1].'
+    type: fixed
+    min: '1'
+    max: '16'
