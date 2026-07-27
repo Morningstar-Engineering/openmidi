@@ -1,134 +1,153 @@
-brand: Tone King
-model: Tri Tube Preamp
-email: ecmaj7@gmail.com
+brand: toneking
+model: imperialtritubepreamp
+brandName: Tone King
+modelName: Imperial Tri-Tube Preamp
+device_type: midi_controller
+email: christian.kuhn@kuester-neuenkirchen.de
 url: ''
 midi_channel:
   instructions: ''
-midi_clock: Unknown
-midi_in: Unknown
-midi_thru: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: Unknown
-midi_mapping: Not Applicable
 cc:
   - name: Bypass On
     value: '24'
     description: Pre-amp Bypassed
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Bypass Off
     value: '24'
     description: Pre-amp Engaged
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Rhythm Channel
     value: '25'
     description: Rhythm Channel On
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Lead Channel
     value: '25'
     description: Lead Channel On
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Loop Bypass On
     value: '26'
     description: Effects Loop Bypassed
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Loop Bypass Off
     value: '26'
     description: Effects Loop Engaged
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: IR Bypass On
     value: '27'
     description: Speaker Impulse Response Bypassed
+    type: variable
     min: '127'
     max: 127
-    type: variable
   - name: IR Bypass Off
     value: '27'
     description: Speaker Impulse Response Engaged
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Cab 1
     value: '28'
     description: Speaker Cab 1
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Cab 2
     value: '28'
     description: Speaker Cab 2
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Cab 3
     value: '28'
     description: Speaker Cab 3
+    type: variable
     min: '2'
     max: '2'
-    type: variable
   - name: HF Comp On
     value: '29'
     description: High Frequency Compensation On
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: HF Comp Off
     value: '29'
     description: High Frequency Compensation Off
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Lowpass 1
     value: '30'
     description: Lowpass Filter 1
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Lowpass 2
     value: '30'
     description: Lowpass Filter 2
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Lowpass 3
     value: '30'
     description: Lowpass Filter 3
+    type: variable
     min: '2'
     max: '2'
-    type: variable
   - name: Reverb On
     value: '31'
     description: Reverb On
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Reverb Off
     value: '31'
     description: Reverb Off
+    type: variable
     min: 0
     max: '0'
-    type: variable
   - name: Tremolo On
     value: '32'
     description: Tremolo On
+    type: variable
     min: '1'
     max: '1'
-    type: variable
   - name: Tremolo Off
     value: '32'
     description: Tremolo Off
+    type: variable
     min: 0
     max: '0'
+  - name: Highpass 1
+    value: '33'
+    description: Highpass Filter 1
     type: variable
+    min: 0
+    max: '0'
+  - name: Highpass 2
+    value: '33'
+    description: Highpass Filter 2
+    type: variable
+    min: '1'
+    max: '1'
+  - name: Highpass 3
+    value: '33'
+    description: Highpass Filter 3
+    type: variable
+    min: '2'
+    max: '2'
