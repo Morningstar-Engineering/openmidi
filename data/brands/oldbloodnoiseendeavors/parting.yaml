@@ -1,0 +1,179 @@
+brand: Old Blood Noise Endeavors
+model: Parting
+device_type: effect
+email: contact@oldbloodnoise.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/697920cbdac32240692f5675/1769545931972/Parting+Manual.pdf
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Expression
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Shape
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Dissolve
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Chance
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Smear
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Glitch
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Time
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Width
+    value: '24'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivisions (LFO Rate)
+    value: '25'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivisions (Delay Time)
+    value: '26'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Volume
+    value: '27'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Modulation Mode
+    value: '28'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter Mode
+    value: '29'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix Mode
+    value: '30'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Of/Off Switch
+    value: '85'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '86'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Half Time Switch
+    value: '87'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Saving Switch
+    value: '89'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: ''
+    type: variable
+    min: 0
+    max: '16'
+  - name: Trails Setting
+    value: '103'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Stereo Setting
+    value: '104'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Clock Input
+    value: '105'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Aux Switch Setting
+    value: '106'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
