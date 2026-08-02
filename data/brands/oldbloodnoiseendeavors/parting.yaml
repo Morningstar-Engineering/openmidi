@@ -1,19 +1,17 @@
-brand: Old Blood Noise Endeavors
-model: Parting
+brand: oldbloodnoiseendeavors
+model: parting
+brandName: Old Blood Noise Endeavors
+modelName: Parting
 device_type: effect
-email: contact@oldbloodnoise.com
-url: >-
-  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/697920cbdac32240692f5675/1769545931972/Parting+Manual.pdf
+email: tdrier1@gmail.com
+url: ''
 midi_channel:
   instructions: Unknown
-midi_clock: Unknown
 midi_inputs: []
 midi_outputs: []
 midi_thru: 'Yes'
 pc:
   description: Unknown
-phantom_power: Unknown
-midi_mapping: Not Applicable
 cc:
   - name: Expression
     value: '11'
@@ -52,7 +50,7 @@ cc:
     min: 0
     max: 127
   - name: Smear
-    value: '18'
+    value: '19'
     description: ''
     type: variable
     min: 0
