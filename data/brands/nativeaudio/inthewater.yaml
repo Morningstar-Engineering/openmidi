@@ -1,0 +1,124 @@
+brand: Native Audio
+model: In the Water
+device_type: effect
+email: t.cuozzo@gmail.com
+url: 'https://www.nativeaudio.com/s/In-the-Water-Manual-IW-MANUAL-001.pdf'
+midi_channel:
+  instructions: Send desired channel as value of CC#119
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: Unknown
+pc:
+  description: None
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Mix Knob
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Ripples Knob
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reflections Knob
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Waveform Low Pass
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Waveform Rez
+    value: '24'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Waveform Level
+    value: '25'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reflections On
+    value: '26'
+    description: 'Release = 0, Press = 1 to 127'
+    type: group
+    min: 0
+    max: 127
+  - name: Wave Gen
+    value: '27'
+    description: 'Release = 0, Press = 1 to 127'
+    type: group
+    min: 0
+    max: 127
+  - name: Reflections
+    value: '29'
+    description: 'Off = 0, On = 127'
+    type: group
+    min: 0
+    max: 127
+  - name: Expression
+    value: '28'
+    description: >-
+      Drives whatever control the Expression Assign menu is bound to, through
+      your saved range
+    type: variable
+    min: 0
+    max: 127
+  - name: Trails
+    value: '110'
+    description: '0 = Off, 127 = On'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Stereo
+    value: '111'
+    description: '0 = MISO, 127 = SISO'
+    type: variable
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '102'
+    description: >-
+      Send on each tap. Averages the interval. Tap range 100 ms to 2000 ms.
+      Resets after 3 seconds
+    type: fixed
+    min: 0
+    max: 127
+  - name: Division
+    value: '103'
+    description: >-
+      0-17 = Sixteenth; 18-36 = Dotted Sixteenth; 37-54 = Eighth; 55-72 =
+      Quarter Triplet; 73-90 = Dotted Eighth; 91-109 = Quarter; 110-127 = Half
+    type: group
+    min: 0
+    max: 127
+  - name: MIDI Clock Enable
+    value: '104'
+    description: '0 = Off, 127 = On (off by default)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Set MIDI Channel
+    value: '119'
+    description: ''
+    type: fixed
+    min: '1'
+    max: '16'
+  - name: Reset to MIDI Omni
+    value: '119'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
