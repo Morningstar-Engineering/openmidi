@@ -52,7 +52,7 @@ cc:
     min: 0
     max: 127
   - name: Smear
-    value: '18'
+    value: '19'
     description: ''
     type: variable
     min: 0
