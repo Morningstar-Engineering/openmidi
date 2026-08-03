@@ -1,19 +1,17 @@
-brand: Old Blood Noise Endeavors
-model: Parting
+brand: oldbloodnoiseendeavors
+model: parting
+brandName: Old Blood Noise Endeavors
+modelName: Parting
 device_type: effect
-email: contact@oldbloodnoise.com
-url: >-
-  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/697920cbdac32240692f5675/1769545931972/Parting+Manual.pdf
+email: tdrier1@gmail.com
+url: ''
 midi_channel:
   instructions: Unknown
-midi_clock: Unknown
 midi_inputs: []
 midi_outputs: []
 midi_thru: 'Yes'
 pc:
   description: Unknown
-phantom_power: Unknown
-midi_mapping: Not Applicable
 cc:
   - name: Expression
     value: '11'
@@ -35,7 +33,9 @@ cc:
     max: 127
   - name: Shape
     value: '16'
-    description: ''
+    description: >-
+      Sine: 0-18 Square: 19-36 Reverse Saw: 37-54 Saw: 55-72 Random Sine: 73-90
+      Random Square: 91-108 Envelope: 109-127
     type: variable
     min: 0
     max: 127
@@ -89,13 +89,15 @@ cc:
     max: 127
   - name: Subdivisions (LFO Rate)
     value: '25'
-    description: ''
+    description: '÷4: 0-18 ÷3: 19-36  ÷2: 37-54 x1: 55-72 x2: 73-90  x3: 91-108 x4: 109-127'
     type: variable
     min: 0
     max: 127
   - name: Subdivisions (Delay Time)
     value: '26'
-    description: ''
+    description: >-
+      0-21 sixteenth 22-42 dotted sixteenth 43-63 eighth 64-84 triplet 85-105
+      dotted eighth 106-127 quarter
     type: variable
     min: 0
     max: 127
@@ -107,43 +109,43 @@ cc:
     max: 127
   - name: Modulation Mode
     value: '28'
-    description: ''
+    description: 'Tremolo: 0-63 Vibrato: 64-127'
     type: variable
     min: 0
     max: 127
   - name: Filter Mode
     value: '29'
-    description: ''
+    description: 'Low Pass: 0-63 High Pass: 64-127'
     type: variable
     min: 0
     max: 127
   - name: Mix Mode
     value: '30'
-    description: ''
+    description: 'Standard Mix: 0-63 Modified Mix: 64-127'
     type: variable
     min: 0
     max: 127
-  - name: Of/Off Switch
+  - name: On/Off Switch
     value: '85'
-    description: ''
+    description: 'On: 0-63 Off: 64-127'
     type: variable
     min: 0
     max: 127
   - name: Tap Tempo Switch
     value: '86'
-    description: ''
+    description: 'Tap Pulse: 0 (no response for 1-127)'
     type: variable
     min: 0
     max: 127
   - name: Half Time Switch
     value: '87'
-    description: ''
+    description: 'Normal Time: 0-63 Half Time: 64-127'
     type: variable
     min: 0
     max: 127
   - name: Preset Saving Switch
     value: '89'
-    description: ''
+    description: 'Cancel Save:  0- 42 Start Save: 43-85 Confirm Save: 86-127'
     type: variable
     min: 0
     max: 127
@@ -155,25 +157,27 @@ cc:
     max: '16'
   - name: Trails Setting
     value: '103'
-    description: ''
+    description: 'OFF: 0-63 ON: 64-127'
     type: variable
     min: 0
     max: 127
   - name: Stereo Setting
     value: '104'
-    description: ''
+    description: 'Mono: 0-42 Mono In Stereo Out: 43-85 Stereo: 86-127'
     type: variable
     min: 0
     max: 127
   - name: MIDI Clock Input
     value: '105'
-    description: ''
+    description: >-
+      Accept Clock In and Send Clock Thru: 0-31 Accept Clock In Only: 32-63 Send
+      Clock Out Only: 64-95 Deactivate Clock: 96-127 
     type: variable
     min: 0
     max: 127
   - name: Aux Switch Setting
     value: '106'
-    description: ''
+    description: 'Tap Tempo: 0-42 Half Speed: 43-85 Preset 86-127'
     type: variable
     min: 0
     max: 127
