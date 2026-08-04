@@ -335,6 +335,10 @@
           "value": "rv-500"
         },
         {
+          "name": "RV-200",
+          "value": "rv-200"
+        },
+        {
           "name": "Slicer SL-2",
           "value": "slicer-sl2"
         }
