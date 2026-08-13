@@ -1,605 +1,1021 @@
-midi_in: Tip Active
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
+brand: gfisystem
+model: enieqma
+brandName: GFI System
+modelName: Enieqma
+device_type: effect
+email: stroonz@verizon.net
+url: ''
 midi_channel:
   instructions: |+
 
-instructions:
-
+midi_inputs:
+  - name: MIDI IN
+    type: tip_active_3.5mm
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: |+
 
 cc:
-  - name: EQ bypass/engage
+  - name: EQ Bypass/Engage
     value: '0'
-    description: 0 = bypass, 127 = engage
+    description: ''
+    type: group
     min: 0
     max: '127'
-    type: variable
-  - name: EQ-L bypass/engage
+  - name: EQ-L Bypass/Engage
     value: '1'
-    description: 0 = bypass, 127 = engage
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
-  - name: EQ-R bypass/engage
+  - name: EQ-R Bypass/Engage
     value: '2'
-    description: 0 = bypass, 127 = engage
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
-  - name: Booster
+  - name: Boost
     value: '3'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
-  - name: Stereo Expander
+  - name: Stereo Expander - Off
     value: '4'
-    description: 0 = off, 1 = short delay, 2 = dimensional expansion
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: Stereo Expander - Short Delay
+    value: '4'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Stereo Expander - Dimensional Expansion
+    value: '4'
+    description: ''
+    type: group
+    min: '2'
     max: '2'
-    type: variable
   - name: Delay
     value: '5'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Depth
     value: '6'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Preset up/down
+  - name: Preset Down
     value: '7'
-    description: 0 = down, 127 = up
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: Preset Up
+    value: '7'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: EQ mode
+  - name: EQ Mode - ParaEq
     value: '8'
-    description: 0 = paraEQ, 1 = simplEQ, 2 = pultEQ, 4 = simplEQ + paraEQ, 5 = pultEQ
-      + paraEQ
+    description: ''
+    type: group
     min: 0
-    max: '5'
-    type: variable
-  - name: EQ channel mode
+    max: '0'
+  - name: EQ Mode - SimplEQ
+    value: '8'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: EQ Mode - PultEQ
+    value: '8'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: EQ Mode - SimplEQ + ParaEQ
+    value: '8'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: EQ Mode - PultEQ + ParaEQ
+    value: '8'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: EQ Channel Mode - Linked
     value: '9'
-    description: 0 = linked, 127 = independent
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: EQ Channel Mode - Independent
+    value: '9'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
   - name: Boost channel mode
     value: '10'
-    description: 0 = linked, 127 = independent
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
+  - name: Boost Channel Mode - Independent
+    value: '10'
+    description: ''
+    type: group
+    min: '127'
+    max: 127
   - name: Input level
     value: '11'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Volume (L)
     value: '12'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Volume (R)
     value: '13'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Boost level (L)
     value: '14'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Boost level (R)
     value: '15'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Prototype (L)
+  - name: 'Prototype (L) '
     value: '16'
-    description: 0-N with N equals 43, 11, and 11, for paraEQ, simplEQ, and pultEQ,
-      respectively
-    min: 0
-    max: 127
-    type: variable
+    description: 'ParaEQ = 0-43 SimplEQ, PultEQ = 0-11'
+    type: group
+    min: '0'
+    max: '43'
   - name: Prototype (R)
     value: '17'
-    description: 0-N with N equals 43, 11, and 11, for paraEQ, simplEQ, and pultEQ,
-      respectively
+    description: 'ParaEQ = 0-43 SimplEQ, PultEQ = 0-11'
+    type: group
     min: 0
-    max: 127
-    type: variable
-  - name: paraEQ type (band 1 - ch. L)
+    max: '43'
+  - name: paraEQ type (band 1 - ch. L) - High Pass
     value: '18'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: paraEQ type (band 1 - ch. L) - Low Shelf
+    value: '18'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: paraEQ type (band 1 - ch. L) - Bell
+    value: '18'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: paraEQ type (band 1 - ch. L) - High Shelf
+    value: '18'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: paraEQ type (band 1 - ch. L) - Low Pass
+    value: '18'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: paraEQ type (band 2 - ch. L)
+  - name: paraEQ type (band 2 - ch. L) - High Pass
     value: '19'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: paraEQ type (band 2 - ch. L) - Low Shelf
+    value: '19'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: paraEQ type (band 2 - ch. L) - Bell
+    value: '19'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: paraEQ type (band 2 - ch. L) - High Shelf
+    value: '19'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: paraEQ type (band 2 - ch. L) - Low Pass
+    value: '19'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: paraEQ type (band 3 - ch. L)
+  - name: paraEQ type (band 3 - ch. L) - High Pass
     value: '20'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: paraEQ type (band 3 - ch. L) - Low Shelf
+    value: '20'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: paraEQ type (band 3 - ch. L) - Bell
+    value: '20'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: paraEQ type (band 3 - ch. L) - High Shelf
+    value: '20'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: paraEQ type (band 3 - ch. L) - Low Pass
+    value: '20'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: paraEQ type (band 4 - ch. L)
+  - name: paraEQ type (band 4 - ch. L) - High Pass
     value: '21'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: paraEQ type (band 4 - ch. L) - Low Shelf
+    value: '21'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: paraEQ type (band 4 - ch. L) - Bell
+    value: '21'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: paraEQ type (band 4 - ch. L) - High Shelf
+    value: '21'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: paraEQ type (band 4 - ch. L) - Low Pass
+    value: '21'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: paraEQ type (band 5 - ch. L)
+  - name: paraEQ type (band 5 - ch. L) - High Pass
     value: '22'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: paraEQ type (band 5 - ch. L) - Low Shelf
+    value: '22'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: paraEQ type (band 5 - ch. L) - Bell
+    value: '22'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: paraEQ type (band 5 - ch. L) - High Shelf
+    value: '22'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: paraEQ type (band 5 - ch. L) - Low Pass
+    value: '22'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
   - name: paraEQ Gain (band 1 ‐ ch.L)
     value: '23'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 2 ‐ ch.L)
     value: '24'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 3 ‐ ch.L)
     value: '25'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 4 ‐ ch.L)
     value: '26'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 5 ‐ ch.L)
     value: '27'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 1 ‐ ch.L)
     value: '28'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 2 ‐ ch.L)
     value: '29'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 3 ‐ ch.L)
     value: '30'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q(band 4 ‐ ch.L)
     value: '31'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 5 ‐ ch.L)
     value: '32'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 1 ‐ ch.L)
     value: '33'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 2 ‐ ch.L)
     value: '34'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 3 ‐ ch.L)
     value: '35'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq(band 4 ‐ ch.L)
     value: '36'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'ParaEQ Freq(band 5 ‐ ch.L) '
     value: '37'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: ParaEQ state (band 1 ‐ ch.L)
+  - name: ParaEQ state (band 1 ‐ ch.L) OFF
     value: '38'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ state (band 1 ‐ ch.L) ON
+    value: '38'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: ParaEQ state (band 2 ‐ ch.L)
+  - name: ParaEQ state (band 2 ‐ ch.L) OFF
     value: '39'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ state (band 2 ‐ ch.L) ON
+    value: '39'
+    description: ''
+    type: fixed
+    min: '127'
     max: 127
-    type: variable
-  - name: ParaEQ state (band 3 ‐ ch.L)
+  - name: ParaEQ state (band 3 ‐ ch.L) OFF
     value: '40'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ state (band 3 ‐ ch.L) ON
+    value: '40'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: ParaEQ state (band 4 ‐ ch.L)
+  - name: ParaEQ state (band 4 ‐ ch.L) OFF
     value: '41'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ state (band 4 ‐ ch.L) ON
+    value: '41'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: ParaEQ state (band 5 ‐ ch.L)
+  - name: ParaEQ state (band 5 ‐ ch.L) OFF
     value: '42'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ state (band 5 ‐ ch.L) ON
+    value: '42'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: 'ParaEQ Type (band 1 ‐ ch.R) '
+  - name: ParaEQ Type (band 1 ‐ ch.R) - High Pass
     value: '43'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ Type (band 1 ‐ ch.R) - Low Shelf
+    value: '43'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: ParaEQ Type (band 1 ‐ ch.R) - Bell
+    value: '43'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: ParaEQ Type (band 1 ‐ ch.R) - High Shelf
+    value: '43'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: ParaEQ Type (band 1 ‐ ch.R) - Low Pass
+    value: '43'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: ParaEQ Type (band 2 ‐ ch.R)
+  - name: ParaEQ Type (band 2 ‐ ch.R) - High Pass
     value: '44'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ Type (band 2 ‐ ch.R) - Low Shelf
+    value: '44'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: ParaEQ Type (band 2 ‐ ch.R) - Bell
+    value: '44'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: ParaEQ Type (band 2 ‐ ch.R) - High Shelf
+    value: '44'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: ParaEQ Type (band 2 ‐ ch.R) - Low Pass
+    value: '44'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: ParaEQ Type (band 3 ‐ ch.R)
+  - name: ParaEQ Type (band 3 ‐ ch.R) - High Pass
     value: '45'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ Type (band 3 ‐ ch.R) - Low Shelf
+    value: '45'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: ParaEQ Type (band 3 ‐ ch.R) - Bell
+    value: '45'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: ParaEQ Type (band 3 ‐ ch.R) - High Shelf
+    value: '45'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: ParaEQ Type (band 3 ‐ ch.R) - Low Pass
+    value: '45'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: ParaEQ Type (band 4 ‐ ch.R)
+  - name: ParaEQ Type (band 4 ‐ ch.R) - High Pass
     value: '46'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ Type (band 4 ‐ ch.R) - Low Shelf
+    value: '46'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: ParaEQ Type (band 4 ‐ ch.R) - Bell
+    value: '46'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: ParaEQ Type (band 4 ‐ ch.R) - High Shelf
+    value: '46'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: ParaEQ Type (band 4 ‐ ch.R) - Low Pass
+    value: '46'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
-  - name: ParaEQ Type (band 5 ‐ ch.R)
+  - name: ParaEQ Type (band 5 ‐ ch.R) - High Pass
     value: '47'
-    description: 0 = high pass, 1 = low shelving, 2 = bell, 3 = high shelving, 4 = low
-      pass
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: ParaEQ Type (band 5 ‐ ch.R) - Low Shelf
+    value: '47'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: ParaEQ Type (band 5 ‐ ch.R) - Bell
+    value: '47'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: ParaEQ Type (band 5 ‐ ch.R) - High Shelf
+    value: '47'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: ParaEQ Type (band 5 ‐ ch.R) - Low Pass
+    value: '47'
+    description: ''
+    type: group
+    min: '4'
     max: '4'
-    type: variable
   - name: ParaEQ Gain (band 1 ‐ ch.R)
     value: '48'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 2 ‐ ch.R)
     value: '49'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 3 ‐ ch.R)
     value: '50'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Gain (band 4 ‐ ch.R)
     value: '51'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'ParaEQ Gain (band 5 ‐ ch.R) '
     value: '52'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 1 ‐ ch.R)
     value: '53'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 2 ‐ ch.R)
     value: '54'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 3 ‐ ch.R)
     value: '55'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'ParaEQ Q (band 4 ‐ ch.R) '
     value: '56'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Q (band 5 ‐ ch.R)
     value: '57'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 1 ‐ ch.R)
     value: '58'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 2 ‐ ch.R)
     value: '59'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq (band 3 ‐ ch.R)
     value: '60'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ Freq(band 4 ‐ ch.R)
     value: '61'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: ParaEQ Freq (band 5 ‐ ch.R)
+  - name: ParaEQ Freq(band 5 ‐ ch.R)
     value: '62'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ state (band 1 ‐ ch.R)
     value: '63'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ state (band 2 ‐ ch.R)
     value: '64'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: 'ParaEQ state (band 3 ‐ ch.R) '
     value: '65'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: ParaEQ state (band 4 ‐ ch.R)
     value: '66'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: 'ParaEQ state (band 5 ‐ ch.R) '
     value: '67'
-    description: 0 = off, 127 = on
+    description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
-  - name: SimplEQ Type (ch.L)
+  - name: SimplEQ Type (ch.L) Tonestack F
     value: '68'
-    description: 0 = tonestack F, 1 = tonestack M, 2 = tonestack V, 3 = bass & treble,
-      4 = wah, 5 = tilt, 6 = scooped tilt
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: SimplEQ Type (ch.L) Tonestack M
+    value: '68'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: SimplEQ Type (ch.L) Tonestack V
+    value: '68'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: SimplEQ Type (ch.L) Bass & Treble
+    value: '68'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: SimplEQ Type (ch.L) Wah
+    value: '68'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: SimplEQ Type (ch.L) Tilt
+    value: '68'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: SimplEQ Type (ch.L) Scooped Tilt
+    value: '68'
+    description: ''
+    type: group
+    min: '6'
     max: '6'
-    type: variable
   - name: SimplEQ Bass (ch.L)
     value: '69'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: SimplEQ Mids (ch.L)
     value: '70'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'SimplEQ Treble (ch.L) '
     value: '71'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: SimplEQ Type (ch.R)
+  - name: SimplEQ Type (ch.R) Tonestack F
     value: '72'
-    description: 0 = tonestack F, 1 = tonestack M, 2 = tonestack V, 3 = bass & treble,
-      4 = wah, 5 = tilt, 6 = scooped tilt
-    min: 0
-    max: '6'
+    description: ''
     type: variable
+    min: 0
+    max: '0'
+  - name: SimplEQ Type (ch.R) Tonestack M
+    value: '72'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: SimplEQ Type (ch.R) Tonestack V
+    value: '72'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: SimplEQ Type (ch.R) Bass & Treble
+    value: '72'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: SimplEQ Type (ch.R) Wah
+    value: '72'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: SimplEQ Type (ch.R) Tilt
+    value: '72'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: SimplEQ Type (ch.R) Scooped Tilt
+    value: '72'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
   - name: SimplEQ Bass (ch.R)
     value: '73'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: SimplEQ Mids (ch.R)
     value: '74'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: SimplEQ Treble (ch.R)
     value: '75'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Low Peak (ch.L)
     value: '76'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Low Freq (ch.L)
     value: '77'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Mid Dip (ch.L)
     value: '78'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Mid Freq (ch.L)
     value: '79'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ High Peak (ch.L)
     value: '80'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ High Freq (ch.L)
     value: '81'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Low Peak (ch.R)
     value: '82'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'PultEQ Low Freq (ch.R) '
     value: '83'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Mid Dip (ch.R)
     value: '84'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ Mid Freq (ch.R)
     value: '85'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ High Peak (ch.R)
     value: '86'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: PultEQ High Freq (ch.R)
     value: '87'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Limiter
+  - name: Limiter On
     value: '88'
-    description: 0 = off, 127 = on
-    min: 0
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
-  - name: Limiter Channel mode
+  - name: Limiter Off
+    value: '88'
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Limiter Channel Mode -Linked
     value: '89'
-    description: 0 = linked, 127 = independent
+    description: ''
+    type: group
     min: 0
+    max: '0'
+  - name: Limiter Channel Mode - Independent
+    value: '89'
+    description: ''
+    type: group
+    min: '127'
     max: 127
-    type: variable
   - name: Limiter Input gain (ch.L)
     value: '90'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Limiter Threshold (ch.L)
     value: '91'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Limiter Attack (ch.L)
     value: '92'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Limiter Input gain (ch.R)
     value: '93'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Limiter Threshold (ch.R)
     value: '94'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Limiter Attack (ch.R)
     value: '95'
-    description: 0-127
+    description: ''
+    type: variable
     min: 0
     max: 127
+  - name: Volume Increment / Decrement
+    value: '96'
+    description: ''
     type: variable
+    min: 0
+    max: 127
+  - name: Boost Level Increment / Decrement
+    value: '97'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Prototype Increment / Decrement
+    value: '98'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
