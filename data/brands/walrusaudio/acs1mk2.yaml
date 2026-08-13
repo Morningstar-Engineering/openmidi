@@ -1,290 +1,365 @@
-brand: Walrus Audio
-model: ACS1 MKII
-url: >-
-  https://cdn.shopify.com/s/files/1/0906/8480/files/ACS1_MKII_Digital_Manual.pdf?v=1737133804
+brand: walrusaudio
+model: acs1mk2
+brandName: Walrus Audio
+modelName: Acs1 Mk2
+device_type: effect
+email: stroonz@verizon.net
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Bass Left
     value: '3'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Bass Right
     value: '9'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Mid Left
     value: '14'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Mid Right
     value: '15'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Treble Left
     value: '20'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Treble Right
     value: '21'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Vol Left
     value: '22'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Vol Right
     value: '23'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Gain Left
     value: '24'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Gain Right
     value: '25'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Cab Left - Fender
+  - name: Cab Left - '66 Fender Deluxe Replication
     value: 26
-    description: '0: SM57 1: Royer121'
-    max: 1
+    description: ' SM57'
+    type: group
     min: 0
-    type: variable
-  - name: Cab Left - Marshal JTM50
+    max: '0'
+  - name: Cab Left - '66 Fender Deluxe Replication
+    value: '26'
+    description: Royer 121
+    type: group
+    min: '1'
+    max: '1'
+  - name: Cab Left - Marshal JTM50 Bluesbreaker Replication
     value: 26
-    description: '2: SM57 3: Royer121'
-    max: 3
+    description: SM57
+    type: group
     min: 2
-    type: variable
-  - name: Cab Left - Vox
+    max: '2'
+  - name: Cab Left - Marshal JTM50 Bluesbreaker Replication
+    value: '26'
+    description: Royer 121
+    type: group
+    min: '3'
+    max: '3'
+  - name: Cab Left - Vox AC60 6TB Replication
     value: 26
-    description: '4: SM57 5: Royer121'
-    max: 5
+    description: SM57
+    type: group
     min: 4
-    type: variable
-  - name: Cab Left - Mesa
+    max: '4'
+  - name: Cab Left - Vox AC60 6TB Replication
+    value: '26'
+    description: Royer 121
+    type: group
+    min: '5'
+    max: '5'
+  - name: Cab Left - Mesa Oversized 4x12
     value: 26
-    description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
-    max: 7
+    description: SM57 + Royer 121
+    type: group
     min: 6
-    type: variable
-  - name: Cab Left - Kerry Wright
+    max: '6'
+  - name: Cab Left - Mesa Oversized 4x12
+    value: '26'
+    description: SM58 + Beyerdynamic M160
+    type: group
+    min: '7'
+    max: '7'
+  - name: Cab Left - Kerry Wright 4x12
     value: 26
-    description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
-    max: 9
+    description: SM57 + Royer 121
+    type: group
     min: 8
-    type: variable
-  - name: Cab Left - Marshal 4x12
+    max: '8'
+  - name: Cab Left - Kerry Wright 4x12
+    value: '26'
+    description: Sennheiser MD412 + Telefunken U47
+    type: group
+    min: '9'
+    max: '9'
+  - name: Cab Left - Marshall 4x12 1960bv 4x12
     value: 26
-    description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
-    max: 11
+    description: SM58 + Beyerdynamic M160
+    type: group
     min: 10
-    type: variable
-  - name: Cab Right - Fender
+    max: '10'
+  - name: Cab Left - Marshall 4x12 1960bv 4x12
+    value: '26'
+    description: Sennheiser MD421+ Beyerdynamic M160
+    type: group
+    min: '11'
+    max: '11'
+  - name: Cab Right - '66 Fender Deluxe Replication
     value: 27
-    description: '0: SM57 1: Royer121'
-    max: 1
+    description: SM57
+    type: group
     min: 0
-    type: variable
-  - name: Cab Right - Marshal JTM50
+    max: '0'
+  - name: Cab Right - '66 Fender Deluxe Replication
+    value: '27'
+    description: Royer 121
+    type: group
+    min: '1'
+    max: '1'
+  - name: Cab Right - Marshal JTM50 Bluesbreaker Replication
     value: 27
-    description: '2: SM57 3: Royer121'
-    max: 3
+    description: SM57
+    type: group
     min: 2
-    type: variable
-  - name: Cab Right - Vox
+    max: '2'
+  - name: Cab Right - Marshal JTM50 Bluesbreaker Replication
+    value: '27'
+    description: Royer 121
+    type: group
+    min: '3'
+    max: '3'
+  - name: Cab Right - Vox AC60 6TB Replication
     value: 27
-    description: '4: SM57 5: Royer121'
-    max: 5
+    description: SM57
+    type: group
     min: 4
-    type: variable
-  - description: '6: SM57+Royer121 7: SM58+BeyerdynamicM160'
-    max: 7
+    max: '4'
+  - name: Cab Right - Vox AC60 6TB Replication
+    value: '27'
+    description: Royer 121
+    type: group
+    min: '5'
+    max: '5'
+  - name: Cab Right - Mesa Oversized 4x12
+    value: 27
+    description: SM57 + Royer121
+    type: group
     min: 6
-    name: Cab Right - Mesa
+    max: '6'
+  - name: Cab Right - Mesa Oversized 4x12
+    value: '27'
+    description: SM58 + Beyerdynamic M160
+    type: group
+    min: '7'
+    max: '7'
+  - name: Cab Right - Kerry Wright 4x12
     value: 27
-    type: variable
-  - name: Cab Right - Kerry Wright
-    value: 27
-    description: '8: SM57+Royer121 9: Sennheiser MD412 + Telefunken U47'
-    max: 9
+    description: SM57 + Royer121
+    type: group
     min: 8
-    type: variable
-  - name: Cab Right - Marshal 4x12
+    max: '8'
+  - name: Cab Right - Kerry Wright 4x12
+    value: '27'
+    description: Sennheiser MD412 + Telefunken u47
+    type: group
+    min: '9'
+    max: '9'
+  - name: Cab Right - Marshall 4x12 1960bv 4x12
     value: 27
-    description: '10: SM58+BeyerdynamicM160 11: Sennheiser MD421 + Beyerdynamic M160'
-    max: 11
+    description: SM58+BeyerdynamicM160
+    type: group
     min: 10
-    type: variable
+    max: '10'
+  - name: Cab Right - Marshall 4x12 1960bv 4x12
+    value: '27'
+    description: Sennheiser MD421+ Beyerdynamic M160
+    type: group
+    min: '11'
+    max: '11'
   - name: Amp Left - Fullerton
     value: 28
-    description:
-    max: 0
-    min: 0
+    description: ''
     type: variable
+    min: 0
+    max: 0
   - name: Amp Left - London
     value: 28
-    description:
-    max: 1
-    min: 1
+    description: ''
     type: variable
+    min: 1
+    max: 1
   - name: Amp Left - Dartford
     value: 28
-    description:
-    max: 2
-    min: 2
+    description: ''
     type: variable
+    min: 2
+    max: 2
   - name: Amp Left - Red
     value: 28
-    description:
-    max: 3
-    min: 3
+    description: ''
     type: variable
+    min: 3
+    max: 3
   - name: Amp Left - Citrus
     value: 28
-    description:
-    max: 4
-    min: 4
+    description: ''
     type: variable
+    min: 4
+    max: 4
   - name: Amp Left- Tread
     value: 28
-    description:
-    max: 5
-    min: 5
+    description: ''
     type: variable
+    min: 5
+    max: 5
   - name: Amp Right - Fullerton
     value: 29
-    description:
-    max: 0
-    min: 0
+    description: ''
     type: variable
+    min: 0
+    max: 0
   - name: Amp Right - London
     value: 29
-    description:
-    max: 1
-    min: 1
+    description: ''
     type: variable
+    min: 1
+    max: 1
   - name: Amp Right - Dartford
     value: 29
-    description:
-    max: 2
-    min: 2
+    description: ''
     type: variable
+    min: 2
+    max: 2
   - name: Amp Right - Red
     value: 29
-    description:
-    max: 3
-    min: 3
+    description: ''
     type: variable
+    min: 3
+    max: 3
   - name: Amp Right - Citrus
     value: 29
-    description:
-    max: 4
-    min: 4
+    description: ''
     type: variable
+    min: 4
+    max: 4
   - name: Amp Right - Tread
     value: 29
-    description:
-    max: 5
-    min: 5
+    description: ''
     type: variable
-  - name: Bypass
+    min: 5
+    max: 5
+  - name: Bypass/Engage
     value: '30'
     description: ''
+    type: group
     min: 0
-    max: '5'
-    type: variable
+    max: '127'
   - name: Boost Engage
     value: '31'
     description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: Ir Bypass
     value: '85'
     description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: Amp Bypass
     value: '86'
     description: ''
+    type: group
     min: 0
     max: 127
-    type: variable
   - name: Gate Threshold
     value: '89'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Gate Release
     value: '90'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Room Select Room
     value: '102'
     description: ''
+    type: group
     min: 0
     max: 0
-    type: variable
   - name: Room Select Hall
     value: '102'
     description: ''
+    type: group
     min: 1
     max: 1
-    type: variable
   - name: Room Select Spring
     value: '102'
     description: ''
+    type: group
     min: 2
     max: 2
-    type: variable
   - name: Room Decay
     value: '103'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Presence
     value: '104'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Resonance
     value: '105'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
