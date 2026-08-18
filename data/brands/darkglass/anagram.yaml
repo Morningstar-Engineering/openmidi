@@ -1,138 +1,199 @@
-brand: Darkglass Electronics
-model: Anagram
+brand: darkglass
+model: anagram
+brandName: Darkglass Electronics
+modelName: Anagram
+device_type: effect
+email: jensen.ianm@gmail.com
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+  - name: MIDI IN
+    type: trs_type_a_3.5mm
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: Bank Select
     value: '102'
     description: Calls bank preview screen for bank 1 - 42.
+    type: variable
     min: '1'
     max: '42'
-    type: variable
   - name: 'Bank Increment '
     value: '103'
     description: Calls bank preview screen for the next bank.
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: 'Bank Decrement '
     value: '104'
     description: Calls bank preview screen for the previous bank.
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: 'Preset Increment '
     value: '105'
     description: Loads the next preset
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: 'Preset Decrement '
     value: '106'
     description: Loads the previous preset
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: Scene Select
     value: '107'
     description: >-
-      1 : activates scene A ; 2 : activates scene B ; 3 : activates scene C ;
-      127 : activates the default scene ;
+      1-126 : activates scene 1-126 (01A-42C); 127 : activates the default scene
+      ;
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: Scene Increment
     value: '108'
     description: Activates the next scene.
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: Scene Decrement
     value: '109'
     description: Activates the previous scene.
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: Mode Select
     value: '85'
     description: >-
       1 : activates Preset mode ; 2 : activates Stomp mode ; 3 : activates Scene
       mode ;
+    type: variable
     min: '1'
     max: '3'
-    type: variable
   - name: Tuner Enter/Exit
     value: '86'
     description: Enters/Exits the tuner screen.
+    type: variable
     min: '1'
     max: 127
-    type: variable
   - name: 'Binding Stomp Mode Foot A '
     value: '17'
     description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Binding Stomp Mode Foot B
     value: '18'
     description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Binding Stomp Mode Foot C
     value: '19'
     description: 'All binding types : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ;'
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 1 '
     value: '20'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 2 '
     value: '21'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 3 '
     value: '22'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 4 '
     value: '23'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 5 '
     value: '24'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Knob 6 '
     value: '25'
     description: "Knob : sets binding to (CC Value / 127) * (binding value end - binding value start) ; \LBypass / Toggle : 0 - 63 turns binding OFF ; 64 - 127 turns binding ON ; \LList : activates list item 1 - 127 ;"
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Binding Expression Pedal '
     value: '89'
     description: >-
       Knob : sets binding to (CC Value / 127) * (binding value end - binding
       value start) ;
+    type: variable
     min: 0
     max: 127
+  - name: Looper Enter/Exit
+    value: '110'
+    description: Enters/Exits the looper screen
     type: variable
+    min: '1'
+    max: 127
+  - name: Looper Play/Stop
+    value: '111'
+    description: Triggers looper play/stop
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Rec/Overdub
+    value: '112'
+    description: Triggers looper rec/dub
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Clear Slot
+    value: '113'
+    description: Clears the currently active looper slot
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Undo
+    value: '114'
+    description: Triggers looper undo
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Redo
+    value: '115'
+    description: Triggers looper redo
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Select Slot
+    value: '116'
+    description: Loads looper slot 1-126
+    type: variable
+    min: '1'
+    max: '126'
+  - name: Looper Next Slot
+    value: '117'
+    description: Loads next looper slot
+    type: variable
+    min: '1'
+    max: 127
+  - name: Looper Previous Slot
+    value: '118'
+    description: Loads previous looper slot
+    type: variable
+    min: '1'
+    max: 127
