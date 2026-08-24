@@ -1,0 +1,139 @@
+brand: Old Blood Noise Endeavours
+model: Bathing
+device_type: effect
+email: jus_jammin@hotmail.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/688846988e263412213966e7/1753761432454/20250709+-+Instruction+Manual+-+Bathing+-+02.pdf
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: Unknown
+pc:
+  description: Unknown
+phantom_power: 'No'
+midi_mapping: Not Applicable
+cc:
+  - name: Dry Volume
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Wet Volume
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Dimension
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Time
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivisions
+    value: '18'
+    description: >-
+      0-21 sixteenth, 22-42 dotted sixteenth, 43-63 eighth, 64-84 triplet,
+      85-105 dotted eighth, 106-127 quarter
+    type: variable
+    min: 0
+    max: 127
+  - name: Stages
+    value: '19'
+    description: >-
+      0-10 Two, 11-22 Three, 23-33 Four, 34-45 Five, 46-56 Six, 57-68 Seven,
+      69-79 Eight, 80-91 Nine, 92-102 Ten, 103-114 Eleven, 115-127 Twelve
+    type: variable
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Shape
+    value: '24'
+    description: >-
+      0-15 sine, 16-31 triangle, 32-47 square, 48-63 ramp up, 64-79 ramp down,
+      80-95 random, 96-111 envelope up, 112-127 envelope down
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Bypass Switch
+    value: '26'
+    description: 'OFF: 0-63, ON: 64-127'
+    type: variable
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '27'
+    description: 'Tap Pulse: 0 (no response for 1-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Saving Switch
+    value: '28'
+    description: 'Cancel Save: 0-42, Start Save: 43-85, Confirm Save: 86-127'
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Clock Input Mode
+    value: '29'
+    description: >-
+      Accept Clock In and Sand Clock Thru: 0-31, Accept Clock In Only: 32-63,
+      Send Clock Out Only: 64-95, Deactivate Clock: 96-127
+    type: variable
+    min: 0
+    max: 127
+  - name: Trails Setting
+    value: '81'
+    description: 'OFF: 0-63, ON: 64-127'
+    type: variable
+    min: 0
+    max: 127
+  - name: Stereo Setting
+    value: '82'
+    description: 'Mono: 0-42, Mono In Stereo Out: 43-85, Stereo: 86-127'
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: 1-16
+    type: variable
+    min: '1'
+    max: '16'
