@@ -2061,6 +2061,10 @@
       "value": "oldbloodnoiseendeavors",
       "models": [
         {
+          "name": "Bathing",
+          "value": "bathing"
+        },
+        {
           "name": "Black Fountain",
           "value": "blackfountain"
         },
@@ -2079,16 +2083,6 @@
         {
           "name": "Sunlight Stereo Reverb",
           "value": "sunlightstereo"
-        }
-      ]
-    },
-    {
-      "name": "Old Blood Noise Endeavours",
-      "value": "oldbloodnoiseendeavours",
-      "models": [
-        {
-          "name": "Bathing",
-          "value": "bathing"
         }
       ]
     },
