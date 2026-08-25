@@ -295,6 +295,10 @@
           "value": "dd-500"
         },
         {
+          "name": "DD-200",
+          "value": "dd-200"
+        },
+        {
           "name": "Dm 101",
           "value": "dm-101"
         },
@@ -319,6 +323,10 @@
           "value": "md-500"
         },
         {
+          "name": "MD-200",
+          "value": "md-200"
+        },
+        {
           "name": "Od 200",
           "value": "od-200"
         },
@@ -333,6 +341,10 @@
         {
           "name": "Rv 500",
           "value": "rv-500"
+        },
+        {
+          "name": "RV-200",
+          "value": "rv-200"
         },
         {
           "name": "Slicer SL-2",
@@ -1079,6 +1091,10 @@
         {
           "name": "Pedalbaord",
           "value": "pedalbaord"
+        },
+        {
+          "name": "Prime",
+          "value": "prime"
         },
         {
           "name": "VX5",
@@ -2060,6 +2076,10 @@
       "name": "Old Blood Noise Endeavors",
       "value": "oldbloodnoiseendeavors",
       "models": [
+        {
+          "name": "Bathing",
+          "value": "bathing"
+        },
         {
           "name": "Black Fountain",
           "value": "blackfountain"

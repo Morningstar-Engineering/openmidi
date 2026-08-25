@@ -1,0 +1,127 @@
+brand: Boss
+model: DD-200
+device_type: effect
+email: brownjosephh@gmail.com
+url: 'https://static.roland.com/assets/media/pdf/DD-200_eng03_W.pdf'
+midi_channel:
+  instructions: |-
+    1. Press the [TAP DIVISION] button and
+    [MEMORY] button simultaneously.
+    You enter menu mode.
+    2. Turn the [TIME] knob to select a parameter, and
+    then press the [TIME] knob.
+    The value is displayed.
+    3. Turn the [TIME] knob to edit the value.
+    4. Press the [TIME] knob.
+    5. Press the [TAP DIVISION] button and
+    [MEMORY] button simultaneously.
+    You exit menu mode.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: |-
+    1. Press the [TAP DIVISION] button and
+    [MEMORY] button simultaneously.
+    You enter menu mode.
+    2. Turn the [TIME] knob to (rCH), and
+    then press the [TIME] knob.
+    3. Turn the [TIME] knob to select channel 1-16 or off.
+    4. Press the [TIME] knob.
+    5. Press the [TAP DIVISION] button and
+    [MEMORY] button simultaneously.
+    You exit menu mode.
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Time
+    value: '17'
+    description: Sets the delay time
+    type: variable
+    min: 0
+    max: 127
+  - name: Feedback
+    value: '18'
+    description: Adjusts the amount of feedback (amount of repition).
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect Level
+    value: '19'
+    description: >-
+      Adjusts the volume of the effect sound; in REVERSE mode, maximizing effect
+      level cuts the direct sound.
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter
+    value: '22'
+    description: >-
+      Adjusts an appropriate parameter for each mode (please see manual page 3
+      and 4)
+    type: variable
+    min: 0
+    max: 127
+  - name: Tone
+    value: '20'
+    description: Adjusts the high frequency response of the effect
+    type: variable
+    min: 0
+    max: 127
+  - name: Mod Depth
+    value: '21'
+    description: Adjusts the depth at which the effect sound is modulated.
+    type: variable
+    min: 0
+    max: 127
+  - name: On/Off Switch
+    value: '28'
+    description: >-
+      The On/Off switch can be assigned the following functions in the pedal
+      menu: On/Off Switch, Moment, Memory 1-127, Memory Down, Memory Up. Once
+      selected in the pedal menu, this CC will then trigger one of those
+      options.
+    type: variable
+    min: 0
+    max: 127
+  - name: 'Memory '
+    value: '82'
+    description: >-
+      Selects the saved presets on the pedal. Value 0 = MAN, or what the knobs
+      are currently set to on the pedal. Value 1 = Preset 1 and so on to Value
+      127 = Preset 127.
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 1
+    value: '80'
+    description: >-
+      Control 1 can be assigned the following in the pedal's menu: Tap Tempo,
+      Hold, Warp, Twist, Roll 1/2, Roll 1/4, Roll 1/8, Manual, Memory 1-127,
+      Loop On/Off, Looper Control, Looper Play/Dub/Stop, Looper Stop. Once
+      selected in the pedal's menu, this CC will trigger that option.
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 2
+    value: '81'
+    description: Control 2 can be assigned the same options as Control 1.
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression
+    value: '16'
+    description: >-
+      Expression can be assigned the following options for a control pedal
+      plugged into the CTL1, 2/EXP jack: Off, Time/BPM, Feedback, Effect Level,
+      Mod Depth, Parameter, and Input Level.
+    type: variable
+    min: 0
+    max: 127
+  - name: Effects On/Off
+    value: '27'
+    description: Controls whether the effect is turned on or off.
+    type: variable
+    min: 0
+    max: 127

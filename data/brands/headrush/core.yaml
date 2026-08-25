@@ -1,291 +1,329 @@
-brand: Headrush
-model: Core
-email: kristine@morningstarfx.com
-url: >-
-  https://cdn.inmusicbrands.com/HeadRush/FW/4/Finalized%20User%20Guides/HeadRush%20Core%20-%20User%20Guide%20-%20v4.0.0.pdf
+brand: headrush
+model: core
+brandName: HeadRush
+modelName: Core
+device_type: midi_controller
+email: guitarforfun001@gmail.com
+url: ''
 midi_channel:
   instructions: ''
-midi_clock: unknown
-midi_in: unknown
-midi_thru: unknown
+midi_inputs:
+  - name: MIDI IN
+    type: unknown
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
   description: ''
-phantom_power: unknown
-midi_mapping: not applicable
 cc:
   - name: 'Expression Pedal '
     value: '1'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Footswitch 1 '
     value: '49'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Footswitch 2 '
     value: '50'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Footswitch 3 '
     value: '51'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Footswitch 4 '
     value: '52'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Footswitch 5
     value: '53'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Tap Tempo '
     value: '64'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper 1/2 Speed '
     value: '65'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper 2X Speed '
     value: '66'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Looper 1/2 Loop
     value: '67'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper 2X Loop '
     value: '68'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper Start/Stop '
     value: '69'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper Record '
     value: '70'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper Insert '
     value: '71'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper Peel '
     value: '72'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Looper Mute
     value: '73'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Looper Reverse '
     value: '74'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 1 Toggle ON/OFF '
     value: '75'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 2 Toggle ON/OFF '
     value: '76'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 3 Toggle ON/OFF '
     value: '77'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 4 Toggle ON/OFF '
     value: '78'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 5 Toggle ON/OFF '
     value: '79'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 6 Toggle ON/OFF '
     value: '80'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Block 7 Toggle ON/OFF
     value: '81'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 8 Toggle ON/OFF '
     value: '82'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 9 Toggle ON/OFF '
     value: '83'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 10 Toggle ON/OFF '
     value: '84'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 11 Toggle ON/OFF '
     value: '85'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 12 Toggle ON/OFF '
     value: '86'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 13 Toggle ON/OFF '
     value: '87'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: 'Block 14 Toggle ON/OFF '
     value: '88'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Toggle MIC Dry Out ON/OFF
     value: '89'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Open '
+  - name: Practice Tool – Open/Close
     value: '102'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Play '
+  - name: 'Practice Tool – Play/Pause '
     value: '103'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Practice Tool – Volume Down
+  - name: Practice Tool – Stop
     value: '104'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Volume Up '
+  - name: 'Practice Tool – Volume down '
     value: '105'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Loop In '
+  - name: Practice Tool – Volume up
     value: '106'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Loop Out '
+  - name: 'Practice Tool – Loop In '
     value: '107'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Practice Tool – Speed Down
+  - name: Practice Tool – Loop Out
     value: '108'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Speed Up '
+  - name: 'Practice Tool – Speed Down '
     value: '109'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: Practice Tool – Pitch Down
+  - name: Practice Tool –Speed Up
     value: '110'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Pitch Up '
+  - name: Practice Tool – Pitch -
     value: '111'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Previous '
+  - name: 'Practice Tool – Pitch + '
     value: '112'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Next '
+  - name: Practice Tool – Previous
     value: '113'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Practice Tool – Loop On/Off '
+  - name: Practice Tool – Next
     value: '114'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
-  - name: 'Metronome On '
+  - name: 'Practice Tool - RWD '
     value: '115'
     description: ''
+    type: variable
     min: 0
     max: 127
+  - name: Practice Tool - FWD
+    value: '116'
+    description: ''
     type: variable
+    min: 0
+    max: 127
+  - name: Practice Tool - Loop On/OFF
+    value: '117'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Metronome - On/Off
+    value: '118'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Metronome - Volume -
+    value: '119'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Metronome - Volume +
+    value: '120'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Looper - Unpeel
+    value: '123'
+    description: ''
+    type: variable
+    min: 0
+    max: 127

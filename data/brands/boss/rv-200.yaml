@@ -1,0 +1,126 @@
+brand: Boss
+model: RV-200
+device_type: midi_controller
+email: brownjosephh@gmail.com
+url: 'https://static.roland.com/assets/media/pdf/RV-200_eng01_W.pdf'
+midi_channel:
+  instructions: >-
+    1. Press the [DENSITY] and [MEMORY] buttons at the same time to access MENU
+    mode.
+
+    2. Turn the [TIME] knob to (rCH), and then press the [TIME] knob.
+
+    3. Turn the [TIME] knob to select channel 1-16 or Off.
+
+    4. Press the [TIME] knob.
+
+    5. Press the [DENSITY] and [MEMORY] buttons at the same time to exit MENU
+    mode.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: >-
+    1. Press the [DENSITY] and [MEMORY] buttons at the same time to access MENU
+    mode.
+
+    2. Turn the [TIME] knob to (P in), and then press the [TIME] knob.
+
+    3. Turn the [TIME] knob to select On or Off.
+
+    4. Press the [TIME] knob.
+
+    5. Press the [DENSITY] and [MEMORY] buttons at the same time to exit MENU
+    mode.
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Time
+    value: '17'
+    description: Adjusts the amount of time for the reverb
+    type: variable
+    min: 0
+    max: 127
+  - name: Pre-Delay
+    value: '18'
+    description: Adjusts the amount of time until the reverb sound starts to output.
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect Level
+    value: '19'
+    description: Adjusts the volume of the reverb sound.
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter
+    value: '22'
+    description: Adjusts an appropriate parameter for each mode (see manual page 4)
+    type: variable
+    min: 0
+    max: 127
+  - name: Low
+    value: '20'
+    description: Adjusts the low frequencies of the reverb.
+    type: variable
+    min: 0
+    max: 127
+  - name: High
+    value: '21'
+    description: Adjusts the high frequencies of the reverb.
+    type: variable
+    min: 0
+    max: 127
+  - name: On/Off Switch
+    value: '28'
+    description: >-
+      The On/Off switch can be set to the following settings in the pedal's
+      menu: On/Off Switch, Memory Down/(On/Off), Memory Up/(On/Off), Manual, and
+      Memory 1-127. This CC will then correspond to the chosen function.
+    type: variable
+    min: 0
+    max: 127
+  - name: Memory
+    value: '82'
+    description: >-
+      This will select one of the presets saved to the pedal. Value 0 = Man
+      (what the knobs are currently set to on the pedal), Value 1 = Preset 1
+      through Value 127 = Preset 127.
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 1
+    value: '80'
+    description: >-
+      Control 1 can be set to the following options in the pedal's menu: Off,
+      Memory Down, Memory Up, On/Off Switch, Moment, Moment Toggle, Fade, Hold,
+      Hold Toggle, Warp, Warp Toggle, Twist, Twist Toggle, Manual, and Memory
+      1-127. Once setup in the pedal, this CC will control that setting.
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 2
+    value: '81'
+    description: >-
+      Control 2 can be set to the following options in the pedal's menu: Off,
+      Memory Down, Memory Up, On/Off Switch, Moment, Moment Toggle, Fade, Hold,
+      Hold Toggle, Warp, Warp Toggle, Twist, Twist Toggle, Manual, and Memory
+      1-127. Once setup in the pedal, this CC will control that setting.
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression
+    value: '16'
+    description: >-
+      Expression can bet set to control the following option's in the pedal's
+      menu: Off, Time, Effect Level, Parameter, and Input Level.
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect On/Off
+    value: '27'
+    description: This will turn the effect on or off.
+    type: variable
+    min: 0
+    max: 127
