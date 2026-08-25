@@ -2077,6 +2077,10 @@
       "value": "oldbloodnoiseendeavors",
       "models": [
         {
+          "name": "Bathing",
+          "value": "bathing"
+        },
+        {
           "name": "Black Fountain",
           "value": "blackfountain"
         },
