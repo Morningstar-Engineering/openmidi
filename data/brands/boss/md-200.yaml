@@ -1,0 +1,113 @@
+brand: Boss
+model: MD-200
+device_type: effect
+email: brownjosephh@gmail.com
+url: 'https://static.roland.com/assets/media/pdf/MD-200_eng02_W.pdf'
+midi_channel:
+  instructions: >-
+    Press the [TAP DIVISION] button and [MEMORY] button simultaneously to enter
+    menu mode. Turn the [RATE] knob to (rCh) then press the [RATE] knob. Turn
+    the [RATE] knob to select the MIDI channel. Press the [RATE] knob to select
+    the chosen channel. Press the [TAP DIVISION] button and [MEMORY] button
+    simultaneously to exit menu mode.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: >-
+    Press the [TAP DIVISION] button and [MEMORY] button simultaneously to enter
+    menu mode.
+
+    Turn the [RATE] knob to (P in) then press the [RATE] knob. Turn the [RATE]
+    knob to (on) or (off) to specify whether PC are received. Press the [RATE]
+    knob to select.
+
+    Turn the [RATE] knob to (Pot) then press the [RATE] knob. Turn the [RATE]
+    knob to (on) or (off) to specify whether PC are transmitted. Press the
+    [RATE] knob to select.
+
+    Press the [TAP DIVISION] button and [MEMORY] button simultaneously to exit
+    menu mode.
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Rate
+    value: '17'
+    description: Adjusts the speed the effect sound changes
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth
+    value: '18'
+    description: Adjusts the depth to which the effect sound is modulated
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect Level
+    value: '19'
+    description: >-
+      Adjusts the volume of the effect sound; in some modes, this adjsusts the
+      balance between the effect sound and the dry signal.
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 1
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 2
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 3
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: On/Off Switch
+    value: '28'
+    description: >-
+      The On/Off switch can be assigned as a different function other than
+      turning the effect on and off; please refer to the manual.
+    type: variable
+    min: 0
+    max: 127
+  - name: Memory
+    value: '82'
+    description: >-
+      Selects one of the saved presets on the pedal. Value 0 = Manual mode, or
+      what the knobs are currently set to. Value 1 = Preset 1 and so on to Value
+      127 = Preset 127
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 1
+    value: '80'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Control 2
+    value: '81'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect On/Off
+    value: 0
+    description: Turns the effect on or off
+    type: variable
+    min: 0
+    max: 127
