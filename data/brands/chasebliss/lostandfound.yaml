@@ -1,10 +1,11 @@
-brand: Chase Bliss Audio
-model: Lost + Found
-email: 'midi@chasebliss.com'
+brand: chasebliss
+model: lostandfound
+brandName: Chase Bliss Audio
+modelName: Lost + Found
+device_type: effect
+email: terclang@gmail.com
 url: >-
-  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/68a37898aed0676fd5a4b436/1755543704259/Lost+%2B+Found_MIDI+Manual_Pedal_Chase+Bliss.pdf
-midi_in: TRS
-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/6a6b9af1b4956a2b41fd7846/1785436913347/Lost+%2B+Found_2026_Midi+Manual_Chase+Bliss.pdf
 midi_channel:
   instructions: |+
     Lost + Found is set to MIDI channel 2 by default,
@@ -14,6 +15,11 @@ midi_channel:
     Change” message it sees, and it will set itself to
     that channel.
 
+midi_inputs:
+  - name: MIDI IN
+    type: TRS
+midi_outputs: []
+midi_thru: 'No'
 pc:
   description: |+
     SAVING A PRESET VIA MIDI
@@ -24,7 +30,7 @@ pc:
     There are 122 total slots.
     Slots 1 and 2 correspond to the preset toggle on the pedal.
     Slot 1 is the right slot. Slot 2 is the left slot.
-    
+
     RECALLING A PRESET VIA MIDI
     To recall a preset, simply send Lost + Found a Program Change message.
     If the target slot is empty, then nothing will be recalled.
@@ -37,642 +43,660 @@ cc:
   - name: Bypass Right Channel - Off
     value: '102'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Bypass Right Channel - On
     value: '102'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Bypass Left Channel - Off
     value: '103'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Bypass Left Channel - On
     value: '103'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Knobs - Mix
     value: '15'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Blend
     value: '18'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Left Time
     value: '14'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Left Modify
     value: '17'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Left Alt (Hidden Option)
     value: '24'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Right Time
     value: '16'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Right Modify
     value: '19'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Knobs - Right Alt (Hidden Option)
     value: '26'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Toggles - Left Effects Mode 1
     value: '21'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Toggles - Left Effects Mode 2
     value: '21'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Toggles - Left Effects Mode 3
     value: '21'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Toggles - Right Effects Mode 4
     value: '23'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Toggles - Right Effects Mode 5
     value: '23'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Toggles - Right Effects Mode 6
     value: '23'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Toggles - Routing - L > R
     value: '22'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Toggles - Routing - L + R
     value: '22'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Toggles - Routing - L < R
     value: '22'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Toggles - Spread Left Only
     value: '32'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Toggles - Spread Both
     value: '32'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Toggles - Spread Right Only
     value: '32'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Alt Menu - Exit
     value: '104'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Alt Menu - Enter
     value: '104'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Hold Left Channel - Off
     value: '105'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Hold Left Channel - On
     value: '105'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Hold Right Channel - Off
     value: '106'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Hold Right Channel - On
     value: '106'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Hidden Options - Ramp Speed
     value: '20'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Hidden Options - Spill
     value: '25'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Hidden Options - Glue
     value: '28'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Hidden Options - Left EQ
     value: '27'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Hidden Options - Right EQ
     value: '29'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Hidden Options - Master Wet Volume
     value: '30'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Dip Switches - Left Time - Off
     value: '61'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Left Time - On
     value: '61'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Left Modify - Off
     value: '62'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Left Modify - On
     value: '62'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Blend - Off
     value: '63'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Blend - On
     value: '63'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Right Modify - Off
     value: '64'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Right Modify - On
     value: '64'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Right Time - Off
     value: '65'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Right Time - On
     value: '65'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Bounce - Off
     value: '66'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Bounce - On
     value: '66'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Sweep - Bottom
     value: '67'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Sweep - Top
     value: '67'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Polarity - Forward
     value: '68'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Polarity - Reverse
     value: '68'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - MISO - Off
     value: '71'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - MISO - On
     value: '71'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Spread - Off
     value: '72'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Spread - On
     value: '72'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Latch - Off
     value: '73'
     description: ''
-    min: 0
-    max: 0    
     type: variable
+    min: 0
+    max: 0
   - name: Dip Switches - Latch - On
     value: '73'
     description: ''
-    min: 127
-    max: 127    
     type: variable
+    min: 127
+    max: 127
   - name: Dip Switches - Left Swap - Off
     value: '74'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Left Swap - On
     value: '74'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Right Swap - Off
     value: '75'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Right Swap - On
     value: '75'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Unsync - Off
     value: '76'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Unsync - On
     value: '76'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Trails - Off
     value: '77'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Trails - On
     value: '77'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dip Switches - Bank - Off
     value: '78'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dip Switches - Bank - On
     value: '78'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: MIDI Clock Ignore - Ignore
     value: '51'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: MIDI Clock Ignore - Follow
     value: '51'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Stop Ramping - Stop
     value: '52'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Stop Ramping - Resume
     value: '52'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Tap Tempo
     value: '93'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Left Tap Subdivision - Thirty-Second
     value: '53'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Left Tap Subdivision - Sixteenth
     value: '53'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Left Tap Subdivision - Triplet Sixteenth
     value: '53'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Left Tap Subdivision - Eigth
     value: '53'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Left Tap Subdivision - Triplet Eigth
     value: '53'
     description: ''
+    type: variable
     min: 4
     max: 4
-    type: variable
   - name: Left Tap Subdivision - Dotted Eigth
     value: '53'
     description: ''
+    type: variable
     min: 5
     max: 5
-    type: variable
   - name: Left Tap Subdivision - Quarter
     value: '53'
     description: ''
+    type: variable
     min: 6
     max: 6
-    type: variable
   - name: Left Tap Subdivision - Triplet Quarter
     value: '53'
     description: ''
+    type: variable
     min: 7
     max: 7
-    type: variable
   - name: Left Tap Subdivision - Dotted Quarter
     value: '53'
     description: ''
+    type: variable
     min: 8
     max: 8
-    type: variable
   - name: Left Tap Subdivision - Half
     value: '53'
     description: ''
+    type: variable
     min: 9
     max: 9
-    type: variable
   - name: Left Tap Subdivision - Dotted Half
     value: '53'
     description: ''
+    type: variable
     min: 10
     max: 10
-    type: variable
   - name: Left Tap Subdivision - Whole
     value: '53'
     description: ''
+    type: variable
     min: 11
     max: 11
-    type: variable
   - name: Left Tap Subdivision - Double Whole
     value: '53'
     description: ''
+    type: variable
     min: 12
     max: 12
-    type: variable
   - name: Right Tap Subdivision - Thirty-Second
     value: '54'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Right Tap Subdivision - Sixteenth
     value: '54'
     description: ''
+    type: variable
     min: 1
     max: 1
-    type: variable
   - name: Right Tap Subdivision - Triplet Sixteenth
     value: '54'
     description: ''
+    type: variable
     min: 2
     max: 2
-    type: variable
   - name: Right Tap Subdivision - Eigth
     value: '54'
     description: ''
+    type: variable
     min: 3
     max: 3
-    type: variable
   - name: Right Tap Subdivision - Triplet Eigth
     value: '54'
     description: ''
+    type: variable
     min: 4
     max: 4
-    type: variable
   - name: Right Tap Subdivision - Dotted Eigth
     value: '54'
     description: ''
+    type: variable
     min: 5
     max: 5
-    type: variable
   - name: Right Tap Subdivision - Quarter
     value: '54'
     description: ''
+    type: variable
     min: 6
     max: 6
-    type: variable
   - name: Right Tap Subdivision - Triplet Quarter
     value: '54'
     description: ''
+    type: variable
     min: 7
     max: 7
-    type: variable
   - name: Right Tap Subdivision - Dotted Quarter
     value: '54'
     description: ''
+    type: variable
     min: 8
     max: 8
-    type: variable
   - name: Right Tap Subdivision - Half
     value: '54'
     description: ''
+    type: variable
     min: 9
     max: 9
-    type: variable
   - name: Right Tap Subdivision - Dotted Half
     value: '54'
     description: ''
+    type: variable
     min: 10
     max: 10
-    type: variable
   - name: Right Tap Subdivision - Whole
     value: '54'
     description: ''
+    type: variable
     min: 11
     max: 11
-    type: variable
   - name: Right Tap Subdivision - Double Whole
     value: '54'
     description: ''
+    type: variable
     min: 12
     max: 12
-    type: variable
   - name: Factory Reset
     value: '56'
-    description: 'Send any value'
+    description: Send any value
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Dry Kill - Off
     value: '57'
     description: ''
+    type: variable
     min: 0
     max: 0
-    type: variable
   - name: Dry Kill - On
     value: '57'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Expression Over MIDI
     value: '100'
     description: ''
+    type: variable
     min: 0
     max: 127
-    type: variable
   - name: Save Preset
     value: '111'
     description: 'Preset # = value'
+    type: variable
     min: 0
     max: 122
-    type: variable
   - name: Random Left Mode
     value: '112'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Random Right Mode
     value: '113'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
   - name: Random Both Modes
     value: '114'
     description: ''
+    type: variable
     min: 127
     max: 127
-    type: variable
+  - name: Resonator Type - Hybrid
+    value: '33'
+    description: ''
+    type: fixed
+    min: '1'
+    max: '1'
+  - name: Resonator Type - Clean
+    value: '33'
+    description: ''
+    type: fixed
+    min: '2'
+    max: '2'
+  - name: Resonator Type - Clipped
+    value: '33'
+    description: ''
+    type: fixed
+    min: '3'
+    max: '3'
