@@ -2093,6 +2093,10 @@
           "value": "parting"
         },
         {
+          "name": "Setback",
+          "value": "setback"
+        },
+        {
           "name": "Signal Blender Stereo",
           "value": "signalblenderstereo"
         },
