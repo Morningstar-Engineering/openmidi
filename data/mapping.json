@@ -1763,6 +1763,16 @@
       ]
     },
     {
+      "name": "Morningstar",
+      "value": "morningstar",
+      "models": [
+        {
+          "name": "HX Stomp",
+          "value": "hxstomp"
+        }
+      ]
+    },
+    {
       "name": "Morningstar Engineering",
       "value": "morningstarengineering",
       "models": [
