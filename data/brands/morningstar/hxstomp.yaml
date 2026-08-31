@@ -1,0 +1,22 @@
+brand: Morningstar
+model: HX Stomp
+device_type: midi_controller
+email: PharrisC@icloud.com
+url: ''
+midi_channel:
+  instructions: Eventide
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Eventide
+phantom_power: 'No'
+midi_mapping: Not Applicable
+cc:
+  - name: HX Stomp
+    value: '2'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
