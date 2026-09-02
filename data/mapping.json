@@ -659,11 +659,11 @@
           "value": "sendingv2firmware2-0"
         },
         {
-          "name": "Prismatic Wall"
+          "name": "Prismatic Wall",
           "value": "prismaticwall"
         },
         {
-          "name": "Scattering"
+          "name": "Scattering",
           "value": "scattering"
         }
       ]
