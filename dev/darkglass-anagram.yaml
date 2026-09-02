@@ -1,0 +1,325 @@
+#brand: Darkglass Electronics
+model: Anagram
+version: "1.17"
+midi_in: USB and 3.5mm TRS
+midi_out: USB and 3.5mm TRS
+midi_clock: "No"
+midi_channel:
+  instructions: |
+    MIDI In Chan: Allows you to configure the MIDI channel that the Anagram listens to.
+    When set to "Omni" it will listen to messages on all channels.
+description: "Darkglass Anagram multi-effects unit with complete MIDI support (KosmOs v1.17+)"
+
+pc:
+  description: |
+    Program Change (PC 1-126): Loads preset 1-126 (01A-42C)
+    Note: The Anagram does not respond to value 0, which helps with compatibility
+    with a wide range of MIDI devices.
+
+cc:
+  # Navigation and Bank Controls
+  - name: Bank Select
+    value: '102'
+    type: variable
+    min: '1'
+    max: '42'
+    description: Calls bank preview screen for bank 1-42
+
+  - name: Bank Increment
+    value: '103'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Calls bank preview screen for the next bank
+
+  - name: Bank Decrement
+    value: '104'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Calls bank preview screen for the previous bank
+
+  - name: Preset Increment
+    value: '105'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Loads the next preset
+
+  - name: Preset Decrement
+    value: '106'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Loads the previous preset
+
+  - name: Scene Select
+    value: '107'
+    type: variable
+    min: '1'
+    max: '127'
+    description: |
+      1-126: activates scene 1-126
+      127: activates the default scene
+
+  - name: Scene Increment
+    value: '108'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Activates the next scene
+
+  - name: Scene Decrement
+    value: '109'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Activates the previous scene
+
+  # Mode and Tuner
+  - name: Mode Select
+    value: '85'
+    type: variable
+    min: '1'
+    max: '3'
+    description: |
+      1: activates Preset mode
+      2: activates Stomp mode
+      3: activates Scene mode
+
+  - name: Tuner Enter/Exit
+    value: '86'
+    type: variable
+    min: '1'
+    max: '127'
+    description: Enters/Exits the tuner screen
+
+  # Looper Control (New in KosmOs v1.17)
+  - name: Looper Enter/Exit
+    value: '110'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Enters/Exits the looper screen.
+      Any non-zero value triggers the action.
+      Sending any looper CC automatically opens the Looper screen.
+
+  - name: Looper Play/Stop
+    value: '111'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Triggers looper play/stop.
+      Any non-zero value triggers the action.
+
+  - name: Looper Rec/Overdub
+    value: '112'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Triggers looper rec/dub (record or overdub).
+      Any non-zero value triggers the action.
+
+  - name: Looper Clear Slot
+    value: '113'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Clears the currently active looper slot.
+      Any non-zero value triggers the action.
+
+  - name: Looper Undo
+    value: '114'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Triggers looper undo.
+      Any non-zero value triggers the action.
+
+  - name: Looper Redo
+    value: '115'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Triggers looper redo.
+      Any non-zero value triggers the action.
+
+  - name: Looper Select Slot
+    value: '116'
+    type: variable
+    min: '1'
+    max: '126'
+    description: |
+      Loads looper slot 1-126.
+      CC value (1-126) determines which slot is selected.
+
+  - name: Looper Next Slot
+    value: '117'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Loads next looper slot.
+      Any non-zero value triggers the action.
+
+  - name: Looper Previous Slot
+    value: '118'
+    type: trigger
+    min: '1'
+    max: '127'
+    description: |
+      Loads previous looper slot.
+      Any non-zero value triggers the action.
+
+  # Binding Controls - Stomp Mode Footswitches
+  - name: Binding Stomp Mode Foot A
+    value: '17'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      All binding types:
+      0-63: turns binding OFF
+      64-127: turns binding ON
+      If "Toggle Logic" is set to "Toggle", any non-zero value toggles the state.
+
+  - name: Binding Stomp Mode Foot B
+    value: '18'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      All binding types:
+      0-63: turns binding OFF
+      64-127: turns binding ON
+      If "Toggle Logic" is set to "Toggle", any non-zero value toggles the state.
+
+  - name: Binding Stomp Mode Foot C
+    value: '19'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      All binding types:
+      0-63: turns binding OFF
+      64-127: turns binding ON
+      If "Toggle Logic" is set to "Toggle", any non-zero value toggles the state.
+
+  # Binding Controls - Knobs
+  - name: Binding Knob 1
+    value: '20'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  - name: Binding Knob 2
+    value: '21'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  - name: Binding Knob 3
+    value: '22'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  - name: Binding Knob 4
+    value: '23'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  - name: Binding Knob 5
+    value: '24'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  - name: Binding Knob 6
+    value: '25'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+      Bypass/Toggle: 0-63 OFF, 64-127 ON
+      List: activates list item 1-127
+
+  # Binding Controls - Expression Pedal
+  - name: Binding Expression Pedal
+    value: '89'
+    type: variable
+    min: '0'
+    max: '127'
+    description: |
+      Knob: sets binding to (CC Value / 127) * (binding value end - binding value start)
+
+notes:
+  - |
+    Flexible Binding System:
+    The Anagram does not have fixed MIDI CCs for each effect parameter.
+    Instead, it uses a flexible binding system where users can bind any effect
+    parameter to available CCs (0-127, except reserved: 0, 7, 14-32, 85-87, 89, 102-119).
+    Configure bindings in: Settings → Bindings → Edit CCs
+
+  - |
+    Preset and Scene MIDI Out (KosmOs v1.17):
+    Configure MIDI messages to send when activating presets or scenes.
+    Go to Preset Manager → Preset Settings or Scene Manager → Scene Settings.
+    Supports Program Change (PC) and Control Change (CC) with optional "Slot Number"
+    option (uses preset/scene slot number as PC value or CC value).
+
+  - |
+    MIDI Settings:
+    - MIDI In Chan: Set MIDI input channel (Omni for all channels)
+    - Ignore Redundant PC: Ignore PC messages for already-active preset
+    - Toggle Logic: Choose if binding responds to CC value (0-63=OFF, 64-127=ON) or toggles on any non-zero value
+    - USB MIDI: Enable/disable USB MIDI I/O
+    - MIDI Through: Route incoming MIDI to output (3.5mm, USB, or both)
+    - Program Change Through: Route incoming PC messages to output
+
+  - |
+    Looper Auto-Display:
+    Sending any looper control CC (110-118) automatically opens the Looper screen.
+    This enables hands-free looper control from external MIDI controllers.
+
+  - |
+    Important Notes:
+    - The Anagram does not respond to value 0 for most MIDI messages (for device compatibility)
+    - Preset numbering can be switched between "Anagram Style (01A-42C)" and "MIDI Style (001-126)"
+    - Scene Edit Discard setting affects how MIDI CC automation interacts with scene state
+
+  - |
+    For more information:
+    - Darkglass Anagram: https://www.darkglass.com/anagram
+    - KosmOs Documentation: In-app Help menu (v1.17+)
+    - Morningstar MC8 PRO: https://help.morningstar.io
+
+device_id: "darkglass-anagram"
