@@ -1,0 +1,169 @@
+brand: Old Blood Noise Endeavors
+model: Setback
+device_type: effect
+email: terclang@gmail.com
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/69ef89807d566921d706803e/1777305997816/20260211+-+Setback+Instruction+Manual.pdf
+midi_channel:
+  instructions: Defaults to Ch. 1; to change send value 1-16 on CC#102.
+midi_clock: Unknown
+midi_inputs:
+  - name: MIDI In
+    type: trs_type_a_3.5mm
+midi_outputs: []
+midi_thru: 'No'
+pc:
+  description: PC#0-126 for user presets; PC#127 for Live Mode.
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Expression
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Div
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Speed
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Clock
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Volume
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Time
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: On/Off Switch - OFF
+    value: '85'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: On/Off Switch - ON
+    value: '85'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: Tap Tempo Switch - Tap Pulse
+    value: '86'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: Runaway Switch - OFF
+    value: '88'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: Runaway Switch - ON
+    value: '88'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: Preset Saving Switch - CANCEL
+    value: '89'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: Preset Saving Switch - START
+    value: '89'
+    description: ''
+    type: fixed
+    min: '43'
+    max: '43'
+  - name: Preset Saving Switch - CONFIRM
+    value: '89'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: ''
+    type: variable
+    min: '1'
+    max: '16'
+  - name: Trails Setting - OFF
+    value: '103'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: Trails Setting - ON
+    value: '103'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: Stereo Setting - MONO
+    value: '104'
+    description: ''
+    type: fixed
+    min: '0'
+    max: '0'
+  - name: Stereo Setting - MISO
+    value: '104'
+    description: ''
+    type: fixed
+    min: '43'
+    max: '43'
+  - name: Stereo Setting - STEREO
+    value: '104'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: MIDI Clock Input - ACCEPT
+    value: '105'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: MIDI Clock Input - IGNORE
+    value: '105'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
+  - name: Aux Switch Setting - TAP TEMPO
+    value: '106'
+    description: ''
+    type: fixed
+    min: 0
+    max: '0'
+  - name: Aux Switch Setting - PRESET
+    value: '106'
+    description: ''
+    type: fixed
+    min: '127'
+    max: 127
