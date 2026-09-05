@@ -1,0 +1,227 @@
+brand: Electronic Audio Experiments
+name: Prismatic Wall
+midi_in: "Tip Active"
+midi_thru: "No"
+phantom_power: "No"
+midi_clock: "No"
+midi_channel: 2
+instructions: |+
+  To change the MIDI channel: Hold down the Aux button during startup to enter Configuration Mode. Then, send a PC message on your desired channel. The pedal will automatically set itself to that channel.
+description: |+
+  Sympathetic string resonator designed to behave like an illusory bank of tuned strings vibrating in response to incoming audio.
+pc:
+  description: |+
+    Send PC messages to load corresponding presets (up to 16 presets). To save, hold the Preset button until it enters save state, and it saves to the channel of the next incoming PC message. Alternatively, send PC + 64 to save remotely (e.g., PC 68 to save to preset slot 4). PC 0 reverts to the hardware state.
+cc:
+  - name: "14 Bit Expression MSB"
+    value: 1
+    description: "Most Significant Bit for high-precision expression data."
+    type: "System"
+  - name: "Drive"
+    value: 12
+    description: "Input gain of the resonator bank."
+    type: "Parameter"
+  - name: "Mix"
+    value: 13
+    description: "Sets the blend between the input signal and the resonators."
+    type: "Parameter"
+  - name: "Damping"
+    value: 14
+    description: "Changes the sustain for high frequencies."
+    type: "Parameter"
+  - name: "Decay"
+    value: 15
+    description: "Changes the sustain for all frequencies."
+    type: "Parameter"
+  - name: "LFO Rate"
+    value: 16
+    description: "Adjusts the speed of the LFO modulation."
+    type: "Parameter"
+  - name: "LFO Amount"
+    value: 17
+    description: "Adjusts the intensity of the LFO modulation."
+    type: "Parameter"
+  - name: "Tune"
+    value: 18
+    description: "Changes the pitch of the entire resonator bank across a four octave range."
+    type: "Parameter"
+  - name: "Mode"
+    value: 19
+    description: "Selects interval spacing: 0-15=Single, 16-31=Stacked Neutral 3rd, 32-47=Stacked 5th, 48-63=Chromatic, +64 for +1 Octave Shift versions."
+    type: "Parameter"
+  - name: "Level Trim"
+    value: 20
+    description: "Fine tunes the resonator output volume by +/-3dB."
+    type: "Parameter"
+  - name: "LFO Skew"
+    value: 21
+    description: "Gradually shapes the LFO into upwards or downwards ramps."
+    type: "Parameter"
+  - name: "Morph Rise"
+    value: 22
+    description: "Ramp up time for the Morph function."
+    type: "Parameter"
+  - name: "Morph Fall"
+    value: 23
+    description: "Ramp down time for the Morph function."
+    type: "Parameter"
+  - name: "LFO Rate Multiplier"
+    value: 24
+    description: "Sets the range of LFO Rate settings (slow, medium, fast, all)."
+    type: "Parameter"
+  - name: "LFO Shape"
+    value: 25
+    description: "0-42 = sine, 43-85 = square, 86-127 = triangle."
+    type: "Parameter"
+  - name: "Quantize"
+    value: 26
+    description: "0-63 = free, 64-127 = quantized to semitones."
+    type: "Parameter"
+  - name: "LFO Mode"
+    value: 27
+    description: "0-63 = normal periodic, 64-127 = random."
+    type: "Parameter"
+  - name: "Drive Mod"
+    value: 28
+    description: "LFO modulation amount and polarity for Drive. 63 = center/none."
+    type: "Parameter"
+  - name: "Mix Mod"
+    value: 29
+    description: "LFO modulation amount and polarity for Mix. 63 = center/none."
+    type: "Parameter"
+  - name: "Damping Mod"
+    value: 30
+    description: "LFO modulation amount and polarity for Damping. 63 = center/none."
+    type: "Parameter"
+  - name: "Decay Mod"
+    value: 31
+    description: "LFO modulation amount and polarity for Decay. 63 = center/none."
+    type: "Parameter"
+  - name: "Tune Mod"
+    value: 32
+    description: "LFO modulation amount and polarity for Tune. 63 = center/none."
+    type: "Parameter"
+  - name: "14 Bit Expression LSB"
+    value: 33
+    description: "Least Significant Bit for high-precision expression data."
+    type: "System"
+  - name: "Drive Exp MSB"
+    value: 34
+    description: "Expression target boundary for Drive."
+    type: "Parameter"
+  - name: "Mix Exp MSB"
+    value: 35
+    description: "Expression target boundary for Mix."
+    type: "Parameter"
+  - name: "Damping Exp MSB"
+    value: 36
+    description: "Expression target boundary for Damping."
+    type: "Parameter"
+  - name: "Decay Exp MSB"
+    value: 37
+    description: "Expression target boundary for Decay."
+    type: "Parameter"
+  - name: "Rate Exp MSB"
+    value: 38
+    description: "Expression target boundary for Rate."
+    type: "Parameter"
+  - name: "Amount Exp MSB"
+    value: 39
+    description: "Expression target boundary for Amount."
+    type: "Parameter"
+  - name: "Tune Exp MSB"
+    value: 40
+    description: "Expression target boundary for Tune."
+    type: "Parameter"
+  - name: "Vol Trim Exp"
+    value: 41
+    description: "Expression target boundary for Vol Trim."
+    type: "Parameter"
+  - name: "LFO Skew Exp"
+    value: 42
+    description: "Expression target boundary for LFO Skew."
+    type: "Parameter"
+  - name: "LFO Shape Exp"
+    value: 43
+    description: "Expression target boundary for LFO Shape."
+    type: "Parameter"
+  - name: "Drive LSB"
+    value: 44
+    description: "14-bit fine control resolution for Drive."
+    type: "Parameter"
+  - name: "Mix LSB"
+    value: 45
+    description: "14-bit fine control resolution for Mix."
+    type: "Parameter"
+  - name: "Damping LSB"
+    value: 46
+    description: "14-bit fine control resolution for Damping."
+    type: "Parameter"
+  - name: "Decay LSB"
+    value: 47
+    description: "14-bit fine control resolution for Decay."
+    type: "Parameter"
+  - name: "LFO Rate LSB"
+    value: 48
+    description: "14-bit fine control resolution for LFO Rate."
+    type: "Parameter"
+  - name: "LFO Amount LSB"
+    value: 49
+    description: "14-bit fine control resolution for LFO Amount."
+    type: "Parameter"
+  - name: "Tune LSB"
+    value: 50
+    description: "14-bit fine control resolution for Tune."
+    type: "Parameter"
+  - name: "Drive Exp LSB"
+    value: 66
+    description: "14-bit expression resolution boundary for Drive."
+    type: "Parameter"
+  - name: "Mix Exp LSB"
+    value: 67
+    description: "14-bit expression resolution boundary for Mix."
+    type: "Parameter"
+  - name: "Damping Exp LSB"
+    value: 68
+    description: "14-bit expression resolution boundary for Damping."
+    type: "Parameter"
+  - name: "Decay Exp LSB"
+    value: 69
+    description: "14-bit expression resolution boundary for Decay."
+    type: "Parameter"
+  - name: "LFO Rate Exp LSB"
+    value: 70
+    description: "14-bit expression resolution boundary for LFO Rate."
+    type: "Parameter"
+  - name: "LFO Amount Exp MSB"
+    value: 71
+    description: "14-bit expression resolution boundary for LFO Amount."
+    type: "Parameter"
+  - name: "Tune Exp LSB"
+    value: 72
+    description: "14-bit expression resolution boundary for Tune."
+    type: "Parameter"
+  - name: "MIDI Clock Ignore"
+    value: 89
+    description: "0-63 = normal, 64-127 = ignore clock."
+    type: "System"
+  - name: "Aux Footswitch"
+    value: 97
+    description: "0-63 = off, 64-127 = on."
+    type: "System"
+  - name: "Expression"
+    value: 100
+    description: "Direct expression sweeping control."
+    type: "System"
+  - name: "Bypass"
+    value: 102
+    description: "0-63 = bypass, 64-127 = active."
+    type: "System"
+  - name: "Bypass Mode"
+    value: 103
+    description: "0-63 = standard, 64-127 = trails."
+    type: "System"
+  - name: "MIDI pitchbend range"
+    value: 107
+    description: "Sets the range for tracking incoming MIDI pitch bend message sequences."
+    type: "System"
