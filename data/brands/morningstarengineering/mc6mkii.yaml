@@ -2,8 +2,8 @@ brand: morningstarengineering
 model: mc6mkii
 brandName: Morningstar Engineering
 modelName: MC6 MKII
-device_type: midi_controller
-email: james@morningstarfx.com
+device_type: midi_interface
+email: hawkblackins@gmail.com
 url: ''
 midi_channel:
   instructions: |+
