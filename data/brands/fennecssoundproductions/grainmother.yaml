@@ -1,0 +1,334 @@
+---
+brand: Fennecs Sound Productions
+cc:
+  - description: Sets the frequency of the modulator.
+    max: 127
+    min: 0
+    name: "Ringmod: Tune"
+    value: 1
+    type: variable
+  - description: Sets the frequency of additional modulation.
+    max: 127
+    min: 0
+    name: "Ringmod: Rate"
+    value: 2
+    type: variable
+  - description: Sets the amount of additional modulation.
+    max: 127
+    min: 0
+    name: "Ringmod: Depth"
+    value: 3
+    type: variable
+  - description: Blends between two different analog simulations (transistor -> diode).
+    max: 127
+    min: 0
+    name: "Ringmod: Saturation"
+    value: 4
+    type: variable
+  - description: Sets the phase offset between the two stereo modulators.
+    max: 127
+    min: 0
+    name: "Ringmod: Spread"
+    value: 5
+    type: variable
+  - description: Sets the amount of post-processed noise-ring modulation.
+    max: 127
+    min: 0
+    name: "Ringmod: Noise"
+    value: 6
+    type: variable
+  - description: Sets the amount of pre-processed bit crushing.
+    max: 127
+    min: 0
+    name: "Ringmod: Bitcrush"
+    value: 7
+    type: variable
+  - description: Sets the level of the wet signal.
+    max: 127
+    min: 0
+    name: "Ringmod: Mix"
+    value: 8
+    type: variable
+  - description: Sets the waveform of additional modulation. 0 = Sine, 1 = Triangle,
+      2 = Sawtooth, 3 = Pulse, >= 4 = Random.
+    max: 4
+    min: 0
+    name: "Ringmod: Waveform"
+    value: 9
+    type: enum
+  - description: Sets the length of the individual grains.
+    max: 127
+    min: 0
+    name: "Granulator: Grainlength"
+    value: 21
+    type: variable
+  - description: Sets the density of grain appearance.
+    max: 127
+    min: 0
+    name: "Granulator: Density"
+    value: 22
+    type: variable
+  - description: Sets the randomness of some internal parameters.
+    max: 127
+    min: 0
+    name: "Granulator: Variation"
+    value: 23
+    type: variable
+  - description: Sets the pitch of the individual grains, no pitch change at 64.
+    max: 127
+    min: 0
+    name: "Granulator: Pitch"
+    value: 24
+    type: variable
+  - description: Sets the level and feedback amount of the post delay effect.
+    max: 127
+    min: 0
+    name: "Granulator: Delay"
+    value: 25
+    type: variable
+  - description: Sets the level of feedback.
+    max: 127
+    min: 0
+    name: "Granulator: Feedback"
+    value: 26
+    type: variable
+  - description: Sets the cutoff frequency of a high cut filter.
+    max: 127
+    min: 0
+    name: "Granulator: Highcut"
+    value: 27
+    type: variable
+  - description: Sets the level of the wet signal.
+    max: 127
+    min: 0
+    name: "Granulator: Mix"
+    value: 28
+    type: variable
+  - description: Sets the play direction of the individual grains. < 64 = OFF, >= 64 = ON.
+    max: 127
+    min: 0
+    name: "Granulator: Reverse"
+    value: 29
+    type: switch
+  - description: Sets the ratio between density and delay speed. 0 = 1:1, 1 = 1:2, 2
+      = 1:3, >= 3 = 1:4.
+    max: 3
+    min: 0
+    name: "Granulator: Delay Speed Ratio"
+    value: 30
+    type: enum
+  - description: Sets the amount of pitch modulation applied to each individual
+      grain, no glide at 64.
+    max: 127
+    min: 0
+    name: "Granulator: Glide"
+    value: 31
+    type: variable
+  - description: Sets the amount of resonance applied to the high cut filter.
+    max: 127
+    min: 0
+    name: "Granulator: Filter Resonance"
+    value: 32
+    type: variable
+  - description: Sets the steepness of the high cut filter. 0 = Moog Ladder (-24dB
+      per octave), 1 = Moog Half Ladder (-12dB per octave).
+    max: 1
+    min: 0
+    name: "Granulator: Filter Model"
+    value: 33
+    type: enum
+  - description: Sets the type of envelope applied to each individual grain. 0 =
+      Parabolic, 1 = Hann, >= 2 = Triangular.
+    max: 2
+    min: 0
+    name: "Granulator: Envelope Type"
+    value: 34
+    type: enum
+  - description: Sets the approximated decay time (RT60).
+    max: 127
+    min: 0
+    name: "Reverb: Decay"
+    value: 41
+    type: variable
+  - description: Sets the initial delay time.
+    max: 127
+    min: 0
+    name: "Reverb: Predelay"
+    value: 42
+    type: variable
+  - description: Sets the frequency of modulation.
+    max: 127
+    min: 0
+    name: "Reverb: Modulation Rate"
+    value: 43
+    type: variable
+  - description: Sets the amount of modulation.
+    max: 127
+    min: 0
+    name: "Reverb: Modulation Depth"
+    value: 44
+    type: variable
+  - description: Sets the spreading of the early reflections.
+    max: 127
+    min: 0
+    name: "Reverb: Size"
+    value: 45
+    type: variable
+  - description: Sets the amount of feedback applied to the early reflections.
+    max: 127
+    min: 0
+    name: "Reverb: Feedback"
+    value: 46
+    type: variable
+  - description: Sets the cutoff frequency of the high cut filter.
+    max: 127
+    min: 0
+    name: "Reverb: Highcut"
+    value: 47
+    type: variable
+  - description: Sets the level of the wet signal.
+    max: 127
+    min: 0
+    name: "Reverb: Mix"
+    value: 48
+    type: variable
+  - description: Sets the type of reverb. 0 = Church, 1 = Digital Vintage, 2 =
+      Seasick, >= 3 = Room.
+    max: 3
+    min: 0
+    name: "Reverb: Type"
+    value: 49
+    type: enum
+  - description: Sets the cutoff frequency of the low-cut filter.
+    max: 127
+    min: 0
+    name: "Reverb: Lowcut"
+    value: 50
+    type: variable
+  - description: Sets the frequency of the pre-processed peak equalizer.
+    max: 127
+    min: 0
+    name: "Reverb: Multiplier Frequency"
+    value: 51
+    type: variable
+  - description: Sets the gain of the pre-processed peak equalizer.
+    max: 127
+    min: 0
+    name: "Reverb: Multiplier Gain"
+    value: 52
+    type: variable
+  - description: Sets the global tempo.
+    max: 127
+    min: 0
+    name: "Global: Tempo"
+    value: 61
+    type: variable
+  - description: Engages/disengages the whole effect chain. < 64 = OFF, >= 64 = ON.
+    max: 127
+    min: 0
+    name: "Global: Bypass"
+    value: 62
+    type: switch
+  - description: Engages/disengages the Ringmodulator engine. < 64 = OFF, >= 64 = ON.
+    max: 127
+    min: 0
+    name: "Ringmod: Engaged"
+    value: 63
+    type: switch
+  - description: Engages/disengages the Granulator engine. < 64 = OFF, >= 64 = ON.
+    max: 127
+    min: 0
+    name: "Granulator: Engaged"
+    value: 64
+    type: switch
+  - description: Engages/disengages the Reverb engine. < 64 = OFF, >= 64 = ON.
+    max: 127
+    min: 0
+    name: "Reverb: Engaged"
+    value: 65
+    type: switch
+  - description: Sets the effect control focus. 0 = Ringmodulator focussed, 1 =
+      Granulator focussed, >= 2 = Reverb focussed.
+    max: 2
+    min: 0
+    name: "Routing: Effect Edit Focus"
+    value: 66
+    type: enum
+  - description: Sets the processing order of the three effect engines. 0 =
+      Ringmod(A)->Granulator(B)->Reverb(C), 1 = A|B|C (parallel), 2 = C->B->A, 3
+      = C->A->B, 4 = B->C->A, 5 = B->A->C, >= 6 = A->C->B.
+    max: 6
+    min: 0
+    name: "Routing: Effect Order"
+    value: 67
+    type: enum
+  - description: Defines whether the tempo button affects only the current effect or
+      all effects. 0 = Only the current effect, >= 1 = All effects.
+    max: 1
+    min: 0
+    name: "Global: Tempo Set"
+    value: 68
+    type: enum
+  - description: Sets the wet/dry level of the whole effect engine.
+    max: 127
+    min: 0
+    name: "Global: Mix"
+    value: 69
+    type: variable
+  - description: Recalls any preset with all effects engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall All Engaged"
+    value: 101
+    type: variable
+  - description: Recalls any preset with all effects bypassed.
+    max: 127
+    min: 0
+    name: "Preset: Recall All Bypassed"
+    value: 102
+    type: variable
+  - description: Recalls any preset with Ringmodulator engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Ringmod Engaged"
+    value: 103
+    type: variable
+  - description: Recalls any preset with Granulator engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Granulator Engaged"
+    value: 104
+    type: variable
+  - description: Recalls any preset with Reverb engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Reverb Engaged"
+    value: 105
+    type: variable
+  - description: Recalls any preset with Ringmod and Granulator engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Ringmod & Granulator Engaged"
+    value: 106
+    type: variable
+  - description: Recalls any preset with Ringmod and Reverb engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Ringmod & Reverb Engaged"
+    value: 107
+    type: variable
+  - description: Recalls any preset with Granulator and Reverb engaged.
+    max: 127
+    min: 0
+    name: "Preset: Recall Granulator & Reverb Engaged"
+    value: 108
+    type: variable
+pc:
+  description: ""
+device_name: Grainmother
+midi_channel:
+  instructions: ""
+midi_clock: ""
+midi_in: ""
+midi_thru: ""
+phantom_power: ""
