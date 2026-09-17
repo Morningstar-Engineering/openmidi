@@ -1,0 +1,714 @@
+---
+brand: ASM (Ashun Sound Machines)
+cc:
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Bank select MSB"
+    value: 0
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Modulation wheel"
+    value: 1
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: Noise Vol"
+    value: 3
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Voice: GlidTime"
+    value: 5
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Master Volume"
+    value: 7
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: Noise Pan"
+    value: 8
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: Ring Mod Vol"
+    value: 9
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: Ring Mod Pan"
+    value: 10
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Expression pedal"
+    value: 11
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Pre-fx: PRE-FX Param1"
+    value: 12
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Pre-fx: PRE-FX Param2"
+    value: 13
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Delay: Delay Feedback"
+    value: 14
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Delay: Delay Time"
+    value: 15
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 1"
+    value: 16
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 2"
+    value: 17
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 3"
+    value: 18
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 4"
+    value: 19
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 5"
+    value: 20
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 6"
+    value: 21
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 7"
+    value: 22
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Macros: Macro 8"
+    value: 23
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "OSC 1: OSC1 wavscan"
+    value: 24
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 4: ENV4 Attack"
+    value: 25
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "OSC 2: OSC2 WavScan"
+    value: 26
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 4: ENV4 Decay"
+    value: 27
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 2: LFO2 Gain"
+    value: 28
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 1: Mutator1 Ratio"
+    value: 29
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 1: Mutator1 Depth"
+    value: 30
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 1: Mutator1 Dry/Wet"
+    value: 31
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Bank select LSB"
+    value: 32
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 2: Mutator2 Ratio"
+    value: 33
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 2: Mutator2 Depth"
+    value: 34
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 2: Mutator2 Dry/Wet"
+    value: 35
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 3: Mutator3 Ratio"
+    value: 36
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 3: Mutator3 Depth"
+    value: 37
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 3: Mutator3 Dry/Wet"
+    value: 39
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 4: Mutator4 Ratio"
+    value: 40
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 4: Mutator4 Depth"
+    value: 41
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mutator 4: Mutator4 Dry/Wet"
+    value: 42
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: RM12 Depth"
+    value: 43
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC1 Vol"
+    value: 44
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC1 Pan"
+    value: 45
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC2 Vol"
+    value: 46
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC2 Pan"
+    value: 47
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC3 Vol"
+    value: 48
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC3 Pan"
+    value: 49
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 Drive"
+    value: 50
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 Keytrack"
+    value: 51
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 LFO1amt"
+    value: 52
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 Vel Env"
+    value: 53
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 ENV1amt"
+    value: 54
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Flt2 Cutoff"
+    value: 55
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Flt2 Res"
+    value: 56
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Flt2 Type"
+    value: 57
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Filter2 Keytrack"
+    value: 58
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Filter2 LFO1amt"
+    value: 59
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Filter2 Vel Env"
+    value: 60
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 2: Filter2 ENV1amt"
+    value: 61
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Amp: Amp LFO2amt"
+    value: 62
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Delay: Delay Wet tone"
+    value: 63
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: Sustain pedal"
+    value: 64
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Reverb: Reverb Time"
+    value: 65
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Voice: Glide"
+    value: 66
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Reverb: Reverb Tone"
+    value: 67
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Post-fx: POST-FX Param1"
+    value: 68
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Post-fx: POST-FX Param2"
+    value: 69
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 1: LFO1 Gain"
+    value: 70
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 Res"
+    value: 71
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 1: LFO1 Rate"
+    value: 72
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 2: LFO2 Rate"
+    value: 73
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Filter 1: Filter1 Cutoff"
+    value: 74
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 3: LFO3 Gain"
+    value: 75
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 3: LFO3 Rate"
+    value: 76
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 4: LFO4 Gain"
+    value: 77
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 4: LFO4 Rate"
+    value: 78
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 5: LFO5 Gain"
+    value: 79
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "LFO 5: LFO5 Rate"
+    value: 80
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 1: ENV1 Attack"
+    value: 81
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 1: ENV1 Decay"
+    value: 82
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 1: ENV1 Sustain"
+    value: 83
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 1: ENV1 Release"
+    value: 84
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 2: ENV2 Attack"
+    value: 85
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 2: ENV2 Decay"
+    value: 86
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 2: ENV2 Sustain"
+    value: 87
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 2: ENV2 Release"
+    value: 88
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 3: ENV3 Attack"
+    value: 89
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 3: ENV3 Decay"
+    value: 90
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Reverb: Reverb Dry/Wet"
+    value: 91
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Delay: Delay Dry/Wet"
+    value: 92
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Pre-fx: PRE-FX Mix"
+    value: 93
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Post-fx: POST FX Mix"
+    value: 94
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Voice: Detune"
+    value: 95
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 3: ENV3 Sustain"
+    value: 96
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 3: ENV3 Release"
+    value: 97
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 5: ENV5 Attack"
+    value: 102
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 5: ENV5 Decay"
+    value: 103
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 5: ENV5 Sustain"
+    value: 104
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 5: ENV5 Release"
+    value: 105
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Division"
+    value: 106
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Gate"
+    value: 107
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Mode"
+    value: 108
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Ratchet"
+    value: 109
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Chance"
+    value: 110
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "OSC 1: OSC1 Cent"
+    value: 111
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "OSC 2: OSC2 Cent"
+    value: 112
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "OSC 3: OSC3 Cent"
+    value: 113
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC3 FRate"
+    value: 114
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: Noise FRate"
+    value: 115
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: RM12 FRate"
+    value: 116
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Voice: StWidth"
+    value: 117
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC1 FRate"
+    value: 118
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "Mixer: OSC2 FRate"
+    value: 119
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Octave"
+    value: 120
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ARP: ARP Length"
+    value: 122
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "System: All notes off"
+    value: 123
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 4: ENV4 Release"
+    value: 124
+    type: variable
+  - description: ""
+    max: 127
+    min: 0
+    name: "ENV 4: ENV4 Sustain"
+    value: 125
+    type: variable
+device_name: Hydrasynth Explorer
+midi_channel:
+  instructions: ""
+midi_clock: ""
+midi_in: ""
+midi_thru: ""
+pc:
+  description: ""
+phantom_power: ""

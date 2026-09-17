@@ -155,6 +155,16 @@
       ]
     },
     {
+      "name": "ASM (Ashun Sound Machines)",
+      "value": "ashunsoundmachines",
+      "models": [
+        {
+          "name": "Hydrasynth Explorer",
+          "value": "hydrasynthexplorer"
+        }
+      ]
+    },
+    {
       "name": "Atomic",
       "value": "atomic",
       "models": [
@@ -923,6 +933,16 @@
       ]
     },
     {
+      "name": "Fennecs Sound Productions",
+      "value": "fennecssoundproductions",
+      "models": [
+        {
+          "name": "Grainmother",
+          "value": "grainmother"
+        }
+      ]
+    },
+    {
       "name": "Flower Pedals",
       "value": "flowerpedals",
       "models": [
@@ -1349,6 +1369,10 @@
         {
           "name": "Ms2000",
           "value": "ms2000"
+        },
+        {
+          "name": "SV1",
+          "value": "sv1"
         },
         {
           "name": "volca bass",
