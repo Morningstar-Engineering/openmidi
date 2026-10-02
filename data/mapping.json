@@ -651,6 +651,14 @@
       "value": "electronicaudioexperiments",
       "models": [
         {
+          "name": "Prismatic Wall",
+          "value": "prismaticwall"
+        },
+        {
+          "name": "Scattering",
+          "value": "scattering"
+        },
+        {
           "name": "Sending v2",
           "value": "sendingv2"
         },
@@ -1169,6 +1177,10 @@
         {
           "name": "ToneX",
           "value": "tonex"
+        },
+        {
+          "name": "Tonex Board",
+          "value": "tonexboard"
         },
         {
           "name": "ToneX One+",

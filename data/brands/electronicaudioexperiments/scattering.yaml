@@ -1,0 +1,219 @@
+brand: Electronic Audio Experiments
+name: Scattering
+midi_in: "Tip Active"
+midi_thru: "No"
+phantom_power: "No"
+midi_clock: "No"
+midi_channel: 2
+instructions: |+
+  To change the MIDI channel: Hold down the Aux button (not the footswitch) during startup to enter Configuration Mode. Send a PC message on your desired MIDI channel, and the pedal will update automatically. Hold the Aux button again to exit.
+description: |+
+  Stereo reverb built around a complex network of delay lines based on the MN3011 architecture. Includes dual LFO modulation, an onboard modulation matrix, and dynamic morphing capabilities.
+pc:
+  description: |+
+    Send PC 1-16 to load a corresponding preset (slots 4-16 are exclusive to MIDI). Send PC 0 to revert the pedal to the hardware control panel state. To save a preset to a specific slot remotely, send the desired PC number plus 64 (e.g., send PC 68 to save to preset slot 4).
+cc:
+  - name: "14 Bit Expression MSB"
+    value: 1
+    description: "Most Significant Bit for high-precision expression data."
+    type: "System"
+  - name: "Preamp"
+    value: 12
+    description: "Controls the stereo analog gain stage at the input."
+    type: "Parameter"
+  - name: "Mix"
+    value: 13
+    description: "Blends between input signal and reverb output (0=Dry, 127=100% Wet)."
+    type: "Parameter"
+  - name: "Filter"
+    value: 14
+    description: "Controls the cutoff frequency of the stereo analog low-pass filter."
+    type: "Parameter"
+  - name: "Dwell"
+    value: 15
+    description: "Applies feedback to the reverb taps to increase decay time."
+    type: "Parameter"
+  - name: "LFO Rate"
+    value: 16
+    description: "Adjusts the speed of the primary LFO."
+    type: "Parameter"
+  - name: "LFO Amount"
+    value: 17
+    description: "Adjusts the modulation intensity of the primary LFO."
+    type: "Parameter"
+  - name: "Space"
+    value: 18
+    description: "Sets the length of individual delay taps by changing the DSP sample rate."
+    type: "Parameter"
+  - name: "Mode"
+    value: 19
+    description: "Selects algorithm: 0-31 = X1, 32-63 = X2, 64-95 = Matrix, 96-127 = Nonlinear."
+    type: "Parameter"
+  - name: "Level"
+    value: 20
+    description: "Master volume output level."
+    type: "Parameter"
+  - name: "Dry Kill"
+    value: 21
+    description: "Mutes the dry signal entirely when value is greater than 63."
+    type: "System"
+  - name: "Morph Rise"
+    value: 22
+    description: "Sets the ramp-up time for the Morph function."
+    type: "Parameter"
+  - name: "Morph Fall"
+    value: 23
+    description: "Sets the ramp-down time for the Morph function."
+    type: "Parameter"
+  - name: "FM Rate"
+    value: 24
+    description: "Controls speed of the secondary LFO modulating the primary LFO."
+    type: "Parameter"
+  - name: "FM Amount"
+    value: 25
+    description: "Controls intensity of the secondary LFO modulating the primary LFO."
+    type: "Parameter"
+  - name: "Spread"
+    value: 26
+    description: "Changes the stereo width of the wet signal by panning delay taps."
+    type: "Parameter"
+  - name: "LFO Mode"
+    value: 27
+    description: "Selects primary LFO wave shape: 0-63 = Normal (Sine), 64-127 = Random."
+    type: "Parameter"
+  - name: "Preamp Mod"
+    value: 28
+    description: "Attenuverter for LFO modulation on Preamp. 63 = No modulation."
+    type: "Parameter"
+  - name: "Mix Mod"
+    value: 29
+    description: "Attenuverter for LFO modulation on Mix. 63 = No modulation."
+    type: "Parameter"
+  - name: "Filter Mod"
+    value: 30
+    description: "Attenuverter for LFO modulation on Filter. 63 = No modulation."
+    type: "Parameter"
+  - name: "Dwell Mod"
+    value: 31
+    description: "Attenuverter for LFO modulation on Dwell. 63 = No modulation."
+    type: "Parameter"
+  - name: "Space Mod"
+    value: 32
+    description: "Attenuverter for LFO modulation on Space. 63 = No modulation."
+    type: "Parameter"
+  - name: "14 Bit Expression LSB"
+    value: 33
+    description: "Least Significant Bit for high-precision expression data."
+    type: "System"
+  - name: "Preamp Exp MSB"
+    value: 34
+    description: "Expression mapping maximum boundary target for Preamp."
+    type: "Parameter"
+  - name: "Mix Exp MSB"
+    value: 35
+    description: "Expression mapping maximum boundary target for Mix."
+    type: "Parameter"
+  - name: "Filter Exp MSB"
+    value: 36
+    description: "Expression mapping maximum boundary target for Filter."
+    type: "Parameter"
+  - name: "Dwell Exp MSB"
+    value: 37
+    description: "Expression mapping maximum boundary target for Dwell."
+    type: "Parameter"
+  - name: "LFO Rate Exp MSB"
+    value: 38
+    description: "Expression mapping maximum boundary target for LFO Rate."
+    type: "Parameter"
+  - name: "LFO Amount Exp MSB"
+    value: 39
+    description: "Expression mapping maximum boundary target for LFO Amount."
+    type: "Parameter"
+  - name: "Space Exp MSB"
+    value: 40
+    description: "Expression mapping maximum boundary target for Space."
+    type: "Parameter"
+  - name: "Level Exp MSB"
+    value: 41
+    description: "Expression mapping maximum boundary target for Level."
+    type: "Parameter"
+  - name: "Preamp LSB"
+    value: 44
+    description: "14-bit fine control resolution for Preamp."
+    type: "Parameter"
+  - name: "Mix LSB"
+    value: 45
+    description: "14-bit fine control resolution for Mix."
+    type: "Parameter"
+  - name: "Filter LSB"
+    value: 46
+    description: "14-bit fine control resolution for Filter."
+    type: "Parameter"
+  - name: "Dwell LSB"
+    value: 47
+    description: "14-bit fine control resolution for Dwell."
+    type: "Parameter"
+  - name: "LFO Rate LSB"
+    value: 48
+    description: "14-bit fine control resolution for LFO Rate."
+    type: "Parameter"
+  - name: "LFO Amount LSB"
+    value: 49
+    description: "14-bit fine control resolution for LFO Amount."
+    type: "Parameter"
+  - name: "Space LSB"
+    value: 50
+    description: "14-bit fine control resolution for Space."
+    type: "Parameter"
+  - name: "Preamp Exp LSB"
+    value: 66
+    description: "14-bit expression resolution boundary for Preamp."
+    type: "Parameter"
+  - name: "Mix Exp LSB"
+    value: 67
+    description: "14-bit expression resolution boundary for Mix."
+    type: "Parameter"
+  - name: "Filter Exp LSB"
+    value: 68
+    description: "14-bit expression resolution boundary for Filter."
+    type: "Parameter"
+  - name: "Dwell Exp LSB"
+    value: 69
+    description: "14-bit expression resolution boundary for Dwell."
+    type: "Parameter"
+  - name: "LFO Rate Exp LSB"
+    value: 70
+    description: "14-bit expression resolution boundary for LFO Rate."
+    type: "Parameter"
+  - name: "LFO Amount Exp LSB"
+    value: 71
+    description: "14-bit expression resolution boundary for LFO Amount."
+    type: "Parameter"
+  - name: "Space Exp LSB"
+    value: 72
+    description: "14-bit expression resolution boundary for Space."
+    type: "Parameter"
+  - name: "Level Exp LSB"
+    value: 73
+    description: "14-bit expression resolution boundary for Level."
+    type: "Parameter"
+  - name: "Aux Footswitch"
+    value: 97
+    description: "Remotely triggers performance footswitch: 0-63 = Off, 64-127 = On."
+    type: "System"
+  - name: "Expression Value"
+    value: 100
+    description: "Direct control over current expression sweeping level (0-127)."
+    type: "System"
+  - name: "Bypass State"
+    value: 102
+    description: "Engages or bypasses the pedal: 0-63 = Bypass, 64-127 = Active."
+    type: "System"
+  - name: "Bypass Mode"
+    value: 103
+    description: "Selects routing: 0-63 = Standard Buffered, 64-127 = Trails Mode."
+    type: "System"
+  - name: "Pitch Bend Range"
+    value: 107
+    description: "Sets the range for tracking incoming MIDI pitch bend message sequences."
+    type: "System"
