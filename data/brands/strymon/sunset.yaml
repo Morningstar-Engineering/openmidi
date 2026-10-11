@@ -1,60 +1,126 @@
-midi_in: TRS
-midi_thru: No
-phantom_power: None
-midi_clock: No
-
+brand: strymon
+model: sunset
+brandName: Strymon
+modelName: Sunset
+device_type: midi_controller
+email: pdimarco58@gmail.com
+url: ''
 midi_channel:
-  instructions: |+
-    Press and hold the B footswitch while powering up the pedal. Once both LEDs flash, release the footswitch.
+  instructions: >+
+    Press and hold the B footswitch while powering up the pedal. Once both LEDs
+    flash, release the footswitch.
 
-    Turn the LEVEL knob on the A side to set the MIDI communication channel. The A LED will change color as the MIDI channel is changed.
+
+    Turn the LEVEL knob on the A side to set the MIDI communication channel. The
+    A LED will change color as the MIDI channel is changed.
+
     1 = GREEN (default)
+
     2 = AMBER
+
     3 = RED
+
     4-16 = BLUE (channel set by next MIDI message)
 
-    With this option, MIDI Channel is set to the channel of the next incoming MIDI Program Change message received.
+
+    With this option, MIDI Channel is set to the channel of the next incoming
+    MIDI Program Change message received.
+
 
     Press the B footswitch again to store the MIDI channel and begin.
 
-instructions:
-
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'No'
 pc:
-  description: |+
-    Sunset contains 300 preset locations, numbered sequentially from 0-299. Because MIDI Program Change messages have
-    a maximum number of 128 (0-127) the presets are grouped into three MIDI patch banks.
+  description: >
+    Sunset contains 300 preset locations, numbered sequentially from 0-299.
+    Because MIDI Program Change messages have
+
+    a maximum number of 128 (0-127) the presets are grouped into three MIDI
+    patch banks.
+
 
     - MIDI BANK 0 = PRESETS 0-127
+
     - MIDI BANK 1 = PRESETS 128-255
+
     - MIDI BANK 2 = PRESETS 256-299
 
-    Sunset always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets, simply send a
+
+    Sunset always powers up in MIDI Patch Bank 0, so if you plan to stay within
+    the first 127 presets, simply send a
+
     standard MIDI Program Change message to load a preset.
 
-    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
-    (MIDI CC# 0 with a value equal to the MIDI Bank#) before each MIDI Program Change.
 
-    Selecting bank 0, patch 127 will put Sunset into Manual mode. In this mode, the pedal will be set to the current
-    knob and switch settings. No preset data can be stored at this preset location.
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a
+    standard MIDI Bank Change message
+
+    (MIDI CC# 0 with a value equal to the MIDI Bank#) before each MIDI Program
+    Change.
+
+
+    Selecting bank 0, patch 127 will put Sunset into Manual mode. In this mode,
+    the pedal will be set to the current
+
+    knob and switch settings. No preset data can be stored at this preset
+    location.
 cc:
-  - name: A - Bypass
-    value: 10
-    description: 0=off, 1-127=on
+  - name: MIDI Patch Bank - Bank 1
+    value: 0
+    description: Bank 1 Presets
+    type: group
+    min: 0
+    max: '0'
+  - name: Actions MIDI Patch Bank - Bank 2
+    value: 0
+    description: Bank 2 Presets
+    type: group
+    min: '1'
+    max: '1'
+  - name: Actions MIDI Patch Bank - Bank 3
+    value: 0
+    description: Bank 3 Presets
+    type: group
+    min: '2'
+    max: '2'
+  - name: Volume Pedal
+    value: 7
+    description: ''
     type: variable
     min: 0
+    max: 127
+  - name: A - Bypass
+    value: 10
+    description: 'Off'
+    type: group
+    min: 0
     max: 0
+  - name: Circuit Select A - Ge
+    value: '10'
+    description: Germanium
+    type: group
+    min: '2'
+    max: '2'
+  - name: Circuit Select A - texas
+    value: '10'
+    description: Texas
+    type: group
+    min: '3'
+    max: '3'
   - name: A - Engage
     value: 10
-    description: 0=off, 1-127=on
-    type: variable
+    description: 'On'
+    type: group
     min: 127
     max: 127
-  - name: Circuit Select A
+  - name: Circuit Select A - Treble
     value: 11
-    description: 1=Treble, 2=Ge, 3=Texas
-    type: variable
+    description: Treble
+    type: group
     min: 1
-    max: 3
+    max: '1'
   - name: Level A
     value: 12
     description: ''
@@ -63,35 +129,46 @@ cc:
     max: 127
   - name: Drive A
     value: 13
-    description:
+    description: ''
     type: variable
     min: 0
     max: 127
   - name: Tone A
     value: 14
-    description:
+    description: ''
     type: variable
     min: 0
     max: 127
-
   - name: B - Bypass
     value: 15
-    description: 0=off, 1-127=on
-    type: variable
+    description: B - Off
+    type: group
     min: 0
     max: 0
   - name: B - Engage
     value: 15
-    description: 0=off, 1-127=on
-    type: variable
+    description: B - On
+    type: group
     min: 127
     max: 127
-  - name: Circuit Select B
+  - name: Circuit Select B - JFET
     value: 16
-    description: 1=Treble, 2=Ge, 3=Texas
-    type: variable
+    description: JFET
+    type: group
     min: 1
-    max: 3
+    max: '1'
+  - name: Circuit Select B - 2 Stage
+    value: '16'
+    description: 2 Stage
+    type: group
+    min: '2'
+    max: '2'
+  - name: Circuit Select B - Hard
+    value: '16'
+    description: Hard
+    type: group
+    min: '3'
+    max: '3'
   - name: Level B
     value: 17
     description: ''
@@ -100,74 +177,85 @@ cc:
     max: 127
   - name: Drive B
     value: 18
-    description:
+    description: ''
     type: variable
     min: 0
     max: 127
   - name: Tone B
     value: 19
-    description:
+    description: ''
     type: variable
     min: 0
     max: 127
-
-  - name: Config [A/B]
+  - name: 'Config [A/B] 1=A>B'
     value: 20
-    description: 1=A>B, 2=B>A, 3=A+B
-    type: variable
+    description: A to B Mix
+    type: group
     min: 1
-    max: 3
-  - name: Bright
+    max: '1'
+  - name: 'Config [A/B] 2=B>A'
+    value: '20'
+    description: B to A Mix
+    type: group
+    min: '2'
+    max: '2'
+  - name: 'Config [A/B] 3=A+B'
+    value: '20'
+    description: A+B Mix
+    type: group
+    min: '3'
+    max: '3'
+  - name: Brightness Up
     value: 21
-    description: 1 = +, 2 = =, 3 = middle
-    type: variable
+    description: Increase Brightness
+    type: group
     min: 1
-    max: 3
+    max: '1'
+  - name: Brightness Down
+    value: '21'
+    description: Decrease brightness
+    type: group
+    min: '2'
+    max: '2'
+  - name: Brightness - Middle
+    value: '21'
+    description: Default- Middle
+    type: group
+    min: '3'
+    max: '3'
   - name: Noise Gate
     value: 22
     description: 0=Off
     type: variable
     min: 0
     max: 127
-  - name: Bypass A and B
+  - name: 'Bypass A and B '
     value: 33
-    description:
-    type: variable
+    description: Both Channels Off
+    type: group
     min: 0
     max: 0
   - name: Engage A and B
     value: 33
-    description: ''
-    type: variable
+    description: Both Channels On
+    type: group
     min: 127
-    max: 127
-  - name: MIDI Patch Bank
-    value: 0
-    description: ''
-    type: variable
-    min: 0
-    max: 2
-  - name: Volume Pedal
-    value: 7
-    description:
-    type: variable
-    min: 0
     max: 127
   - name: MIDI Expression Off
     value: 60
-    description:
-    type: variable
+    description: ''
+    type: group
     min: 0
     max: 0
   - name: MIDI Expression On
     value: 60
-    description:
-    type: variable
+    description: ''
+    type: group
     min: 127
     max: 127
   - name: Expression Pedal
     value: 100
-    description:
+    description: ''
     type: variable
     min: 0
     max: 127
