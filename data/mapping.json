@@ -651,20 +651,20 @@
       "value": "electronicaudioexperiments",
       "models": [
         {
-          "name": "Sending v2",
-          "value": "sendingv2"
-        },
-        {
-          "name": "Sending v2 (Firmware 2.0)",
-          "value": "sendingv2firmware2-0"
-        },
-        {
           "name": "Prismatic Wall",
           "value": "prismaticwall"
         },
         {
           "name": "Scattering",
           "value": "scattering"
+        },
+        {
+          "name": "Sending v2",
+          "value": "sendingv2"
+        },
+        {
+          "name": "Sending v2 (Firmware 2.0)",
+          "value": "sendingv2firmware2-0"
         }
       ]
     },
@@ -1615,6 +1615,16 @@
         {
           "name": "Polymoon",
           "value": "polymoon"
+        }
+      ]
+    },
+    {
+      "name": "Mesa Boogie",
+      "value": "mesaboogie",
+      "models": [
+        {
+          "name": "Switch Track ABY Switcher",
+          "value": "switchtrackabyswitcher"
         }
       ]
     },
