@@ -1,0 +1,148 @@
+brand: Mesa Boogie
+model: Switch Track ABY Switcher
+device_type: others
+email: pdimarco58@gmail.com
+url: ''
+midi_channel:
+  instructions: Set by toggling through lights on footswitches light in a certain pattern.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: 'No'
+midi_mapping: Not Applicable
+cc:
+  - name: 'Out A Active/On, Out B Muted/Off'
+    value: '20'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: 'Out B Active/on, Out A Muted/Off'
+    value: '20'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: Both Function is Off
+    value: '21'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Both Function Is On
+    value: '21'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: Mute function is On
+    value: '22'
+    description: ''
+    type: fixed
+    min: '64'
+    max: '127'
+  - name: Mute function is Off
+    value: '22'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Out B phase is normal
+    value: '23'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Out B phase is Inverted (180 degrees)
+    value: '23'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: Out A Muted/Off
+    value: '24'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Out A Active/On
+    value: '24'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: Out B Muted/Off
+    value: '25'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Out B Active/On
+    value: '25'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: Out B Phase is normal
+    value: '26'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: Out B Phase is inverted (180 degrees)
+    value: '26'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: 'Out B Muted/Off, Phase is normal'
+    value: '27'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: 'Out B Active/On, Phase is normal'
+    value: '27'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: 'Out B Muted/Off, Phase is inverted (180 degrees)'
+    value: '28'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: 'Out B Active/On, Phase is inverted (180 degrees)'
+    value: '28'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: 'Outs A & B Muted Off, Phase is normal'
+    value: '29'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: 'Outs A & B Active/On, Phase is normal'
+    value: '29'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
+  - name: 'Outs A & B Muted Off, Phase is inverted (180 degrees)'
+    value: '30'
+    description: ''
+    type: fixed
+    min: 0
+    max: '63'
+  - name: 'Outs A & B Active/On, Phase is inverted (180 degrees)'
+    value: '30'
+    description: ''
+    type: fixed
+    min: '64'
+    max: 127
