@@ -2585,6 +2585,10 @@
           "value": "nemesis"
         },
         {
+          "name": "Pathways",
+          "value": "pathways"
+        },
+        {
           "name": "Programmable EQ",
           "value": "programmableeq"
         },

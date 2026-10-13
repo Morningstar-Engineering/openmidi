@@ -1,0 +1,208 @@
+brand: Source Audio
+model: Pathways
+device_type: guitar_processor
+email: mccartney007@gmail.com
+url: 'https://sourceaudio.net/products/pathways'
+midi_channel:
+  instructions: Neuro App
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Reverb Controls – Reverb Engine
+    value: 0
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Time
+    value: '1'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Diffusion
+    value: '2'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Mix
+    value: '3'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Mod Depth
+    value: '5'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Mod Rate
+    value: '6'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Delay Time
+    value: '7'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Dwell
+    value: '8'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Pre-Delay
+    value: '9'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Spring Size
+    value: '10'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Level
+    value: '12'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Tone
+    value: '13'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Controls – Bass
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Tremolo Type
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Depth
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Rate
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Boost
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Offset
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tap Tempo – Tap/Clock Beat Division
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Controls – Tremolo Engaged
+    value: '21'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: External Control – Reverb Send
+    value: '22'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Decrement
+    value: '80'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Increment
+    value: '82'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Remote Tap Main
+    value: '94'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Remote Expression
+    value: '100'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: External Control – Sync to MIDI Clock
+    value: '101'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: Reverb Controls – On/Off Status (MIDI Recall)
+    value: '102'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Recall Bypass
+    value: '103'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Recall Engage
+    value: '104'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Toggle Bypass
+    value: '105'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Increment
+    value: '106'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Decrement
+    value: '107'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
