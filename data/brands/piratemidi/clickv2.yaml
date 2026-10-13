@@ -1,0 +1,71 @@
+brand: Pirate MIDI
+model: CLiCK v2
+device_type: others
+url: 'https://docs.piratemidi.com/manuals/click-v2/'
+midi_thru: 'Yes'
+midi_inputs:
+  - name: MIDI IN
+    type: trs_type_a_3.5mm
+  - name: USB Device
+    type: usb_device
+midi_outputs:
+  - name: MIDI OUT (Type A by default, switchable to Type B or aux switch input)
+    type: trs_type_a_3.5mm
+  - name: USB Device
+    type: usb_device
+midi_channel:
+  instructions: |+
+    Omni out of the box (responds to any channel). Set a fixed channel in the web editor (edit.piratemidi.com), Global MIDI Settings.
+    Responds the same over 3.5 mm TRS, USB and wireless MIDI (Bluetooth LE or WiFi). MIDI Thru routing between inputs and outputs is set in Global MIDI Settings.
+pc:
+  description: |+
+    PC 0-127 goes to preset 0-127 (the manual's MIDI table calls it "Go to Bank x"; chapter 6 describes it as going to a preset).
+cc:
+  - name: Tip Relay
+    value: 1
+    description: '0 = off, 64 = toggle, 127 = on'
+    type: group
+    min: 0
+    max: 127
+  - name: Ring Relay
+    value: 2
+    description: '0 = off, 64 = toggle, 127 = on'
+    type: group
+    min: 0
+    max: 127
+  - name: Tip & Ring Relays
+    value: 3
+    description: '0 = off, 64 = toggle, 127 = on'
+    type: group
+    min: 0
+    max: 127
+  - name: Expression Emulation Position
+    value: 11
+    description: 'Position of the emulated expression pedal. Needs 9V DC power'
+    type: variable
+    min: 0
+    max: 127
+  - name: Save to Current Preset
+    value: 23
+    description: 'Any value. Saves the current relay states to the current preset'
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Up
+    value: 24
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Preset Down
+    value: 25
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Go to Preset
+    value: 26
+    description: 'Value = preset number (0-127)'
+    type: variable
+    min: 0
+    max: 127
