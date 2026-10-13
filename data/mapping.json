@@ -45,6 +45,16 @@
       ]
     },
     {
+      "name": "Alesis",
+      "value": "alesis",
+      "models": [
+        {
+          "name": "SR18",
+          "value": "sr18"
+        }
+      ]
+    },
+    {
       "name": "Alexander",
       "value": "alexander",
       "models": [
