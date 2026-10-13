@@ -2,16 +2,23 @@ brand: wamplerpedals
 model: terraform
 brandName: Wampler Pedals
 modelName: Terraform
-device_type: midi_controller
+device_type: effect
 email: filodichina@gmail.com
 url: 'https://www.wamplerpedals.com/products/modulation/terraform/'
 midi_channel:
-  instructions: ''
+  instructions: |+
+    Omni by default. To set a channel: power off, hold the preset switch, power on and release it.
+    The preset LEDs show the current channel in binary + 1 (no LEDs = channel 1, all four sweeping = omni).
+    Press the preset switch to step through the channels, then hold it for 5 seconds to save and restart.
 midi_inputs: []
 midi_outputs: []
 midi_thru: 'Yes'
 pc:
-  description: ''
+  description: |+
+    PC 0-127 loads the preset with the matching number (current firmware, see the 2023 addendum).
+    Older units have 8 presets; a PC is linked to one of them during saving (step 5 of Saving a Preset).
+    In preset-write mode (hold the preset switch until the preset LEDs blink), a PC saves the current settings to that preset number.
+    Bypass can be linked to a PC: enter preset-write mode, press the preset switch until all four preset LEDs blink, send the PC, then hold the preset switch.
 cc:
   - name: Tap Tempo
     value: 81
