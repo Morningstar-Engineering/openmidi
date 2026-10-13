@@ -7,8 +7,11 @@ instructions:
 
 midi_channel:
   instructions: |+
+    MIDI channel 1 by default. Change it in Settings View, page 8: MIDI Channel (1-16 or Omni).
 pc:
-  description:
+  description: |+
+    PC 000-127 load presets 000-127. Bank messages are ignored.
+    PC receive is on by default; turn it off in Settings View, page 8: MIDI PC Rx.
 cc:
   - name: Emulate ON switch
     value: '1'
@@ -155,6 +158,12 @@ cc:
     min: 0
     max: '127'
     type: variable
+  - name: Parameter 19
+    value: '40'
+    description: ''
+    min: 0
+    max: '127'
+    type: variable
   - name: Parameter 20
     value: '41'
     description: ''
@@ -224,7 +233,7 @@ cc:
     max: '127'
     type: variable
   - name: Looper PLAY ONCE
-    value: '63'
+    value: '62'
     description: " (note that values 0-63 do nothing)"
     min: '64'
     max: '127'
