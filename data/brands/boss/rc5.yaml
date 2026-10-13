@@ -1,0 +1,69 @@
+brand: Boss
+model: RC-5
+device_type: others
+url: 'https://www.boss.info/global/products/rc-5/'
+midi_in: TRS
+midi_thru: 'Yes'
+midi_clock: 'Yes'
+midi_channel:
+  instructions: |+
+    Set in SETUP > MIDI. Defaults: RX CTL CH 1 with OMNI ON (receives on all channels), RX NOTE CH 10 (drum sounds), TX CH = RX CTL.
+    MIDI IN/OUT are 3.5 mm TRS jacks (BOSS BMIDI-5-35 cable). MIDI THRU / USB THRU is OFF by default.
+    SYNC CLOCK AUTO (default) follows incoming MIDI clock; CLOCK OUT and PC OUT are ON by default.
+pc:
+  description: |+
+    PC 1-99 select memories 1-99. PC 100-128 are not received; Bank Select (CC 0, CC 32) is ignored.
+    The RC-5 also sends a PC when you switch memories (PC OUT).
+midi_mapping:
+  description: |+
+    The RC-5 has no default CC functions. CC 80-87 are the only CCs it responds to; each one gets a function in SETUP > CONTROL > CC#80 FUNC ... CC#87 FUNC
+    (track play/stop, clear, undo/redo, reverse, levels, tap tempo, rhythm play/stop, memory inc/dec and more).
+cc:
+  - name: CC#80 FUNC
+    value: 80
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#80 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#81 FUNC
+    value: 81
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#81 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#82 FUNC
+    value: 82
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#82 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#83 FUNC
+    value: 83
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#83 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#84 FUNC
+    value: 84
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#84 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#85 FUNC
+    value: 85
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#85 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#86 FUNC
+    value: 86
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#86 FUNC'
+    type: variable
+    min: 0
+    max: 127
+  - name: CC#87 FUNC
+    value: 87
+    description: 'User-assignable, no function by default. Set the function in SETUP > CONTROL > CC#87 FUNC'
+    type: variable
+    min: 0
+    max: 127
