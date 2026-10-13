@@ -12,6 +12,10 @@ midi_inputs:
 midi_outputs:
   - name: MIDI OUT
     type: trs_type_a_3.5mm
+  - name: Flexiport 1 (MIDI Out mode Type A, Type B, Tip Active or Ring Active; also exp, aux switch and clock modes)
+    type: trs_type_a_6.35mm
+  - name: Flexiport 2 (MIDI Out mode Type A, Type B, Tip Active or Ring Active; also exp, aux switch and clock modes)
+    type: trs_type_a_6.35mm
 midi_channel:
   instructions: |+
     Omni by default (responds to any channel). Set a fixed channel in Menu > Global > MIDI > Channel, e.g. 16 if other messages should pass thru without controlling the Bridge4.
