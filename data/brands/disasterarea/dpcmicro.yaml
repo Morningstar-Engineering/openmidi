@@ -5,12 +5,12 @@ midi_clock: No
 
 midi_channel:
   instructions: |+
-
+    MIDI channel 16 by default. To change it, enter MIDI configuration mode (power on, then once the LEDs start flashing hold footswitch C, or LOOP SEL on the NS version) and send a program change from your controller on the desired channel.
 
 cc:
   - name: Loop A
     value: '50'
-    description: 'Loop Off: 0-63, Loop On: 64-127'
+    description: 'Loop Off: 0-63, Loop On: 64-127. CCs 50-52 apply to Chain ID 0 (default); up to four units can share a channel with Chain IDs 0-3'
     min: 0
     max: 127
     type: variable
@@ -26,6 +26,63 @@ cc:
     min: 0
     max: 127
     type: variable
+  - name: Loop A (Chain ID 1)
+    value: '53'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 1'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop B (Chain ID 1)
+    value: '54'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 1'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop C (Chain ID 1)
+    value: '55'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 1'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop A (Chain ID 2)
+    value: '56'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 2'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop B (Chain ID 2)
+    value: '57'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 2'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop C (Chain ID 2)
+    value: '58'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 2'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop A (Chain ID 3)
+    value: '59'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 3'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop B (Chain ID 3)
+    value: '60'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 3'
+    min: 0
+    max: 127
+    type: variable
+  - name: Loop C (Chain ID 3)
+    value: '61'
+    description: 'Loop Off: 0-63, Loop On: 64-127. Used when the DPC Micro is set to MIDI Chain ID 3'
+    min: 0
+    max: 127
+    type: variable
 
 pc:
-  description: ''
+  description: |+
+    PC 0-119 load user presets (loop combinations saved to internal memory).
+    PC 120-127 select fixed loop combinations:
+    120: No loops, 121: A, 122: B, 123: A & B, 124: C, 125: A & C, 126: B & C, 127: A & B & C.
