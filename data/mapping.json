@@ -651,20 +651,20 @@
       "value": "electronicaudioexperiments",
       "models": [
         {
-          "name": "Sending v2",
-          "value": "sendingv2"
-        },
-        {
-          "name": "Sending v2 (Firmware 2.0)",
-          "value": "sendingv2firmware2-0"
-        },
-        {
           "name": "Prismatic Wall",
           "value": "prismaticwall"
         },
         {
           "name": "Scattering",
           "value": "scattering"
+        },
+        {
+          "name": "Sending v2",
+          "value": "sendingv2"
+        },
+        {
+          "name": "Sending v2 (Firmware 2.0)",
+          "value": "sendingv2firmware2-0"
         }
       ]
     },
@@ -1177,6 +1177,10 @@
         {
           "name": "ToneX",
           "value": "tonex"
+        },
+        {
+          "name": "Tonex Board",
+          "value": "tonexboard"
         },
         {
           "name": "ToneX One+",
