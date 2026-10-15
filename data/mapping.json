@@ -1623,6 +1623,16 @@
       ]
     },
     {
+      "name": "Mesa Boogie",
+      "value": "mesaboogie",
+      "models": [
+        {
+          "name": "Switch Track ABY Switcher",
+          "value": "switchtrackabyswitcher"
+        }
+      ]
+    },
+    {
       "name": "MFB",
       "value": "mfb",
       "models": [
