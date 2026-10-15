@@ -1,0 +1,32 @@
+brand: Alesis
+model: SR18
+device_type: drum_machine
+url: 'https://www.alesis.com/products/view/sr18'
+midi_in: DIN5
+midi_thru: 'Yes'
+midi_clock: 'Yes'
+midi_channel:
+  instructions: |+
+    Each instrument layer (Drums, Perc, Bass) has its own receive channel: SYSTEM SETUP page 1 (MIDI CH), 1-16 or 00 for Omni.
+    Save system settings with SAVE/COPY + REC (ENTER), otherwise they are lost.
+instructions: |+
+    Notes: receiving notes is switched per layer on SYSTEM SETUP page 2 (OFF, ON V1, ON V2). Pad note numbers are assigned on page 4; the Bass part is fixed, starting at C2 (048).
+    Clock: CLOCK IN (page 5) follows incoming MIDI clock, CLOCKOUT (page 6) sends it. MIDITHRU (page 7) merges MIDI IN into MIDI OUT.
+pc:
+  description: |+
+    Drum sets are selected by Program Change when SYSTEM SETUP page 8 (PRG CHNG) is ON. PC 00-99 with Bank Select:
+    Bank MSB 0 / LSB 0 = preset kits, Bank MSB 0 / LSB 1 = user kits (same numbers for drum, percussion and bass kits).
+    The manual's text also says PC 00 selects User Drum Set 00, and its MIDI Implementation Chart marks Program Change and notes as not recognized; both contradict the PRG CHNG page.
+cc:
+  - name: Bank Select MSB
+    value: 0
+    description: 'Always 0. Send before the Program Change'
+    type: fixed
+    min: 0
+    max: 0
+  - name: Bank Select LSB
+    value: 32
+    description: '0 = preset kits, 1 = user kits. Send before the Program Change'
+    type: variable
+    min: 0
+    max: 1
