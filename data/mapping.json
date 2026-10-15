@@ -2247,6 +2247,20 @@
       ]
     },
     {
+      "name": "Pirate MIDI",
+      "value": "piratemidi",
+      "models": [
+        {
+          "name": "Bridge4",
+          "value": "bridge4"
+        },
+        {
+          "name": "CLiCK v2",
+          "value": "clickv2"
+        }
+      ]
+    },
+    {
       "name": "Poly Effects",
       "value": "polyeffects",
       "models": [

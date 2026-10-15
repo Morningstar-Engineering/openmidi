@@ -1,0 +1,295 @@
+brand: Pirate MIDI
+model: Bridge4
+device_type: midi_controller
+url: 'https://learn.piratemidi.com/downloads/user-manuals'
+midi_clock: 'Yes'
+midi_thru: 'Yes'
+midi_inputs:
+  - name: MIDI IN
+    type: trs_type_a_3.5mm
+  - name: USB
+    type: usb_device
+midi_outputs:
+  - name: MIDI OUT
+    type: trs_type_a_3.5mm
+  - name: Flexiport 1 (MIDI Out mode Type A, Type B, Tip Active or Ring Active; also exp, aux switch and clock modes)
+    type: trs_type_a_6.35mm
+  - name: Flexiport 2 (MIDI Out mode Type A, Type B, Tip Active or Ring Active; also exp, aux switch and clock modes)
+    type: trs_type_a_6.35mm
+midi_channel:
+  instructions: |+
+    Omni by default (responds to any channel). Set a fixed channel in Menu > Global > MIDI > Channel, e.g. 16 if other messages should pass thru without controlling the Bridge4.
+pc:
+  description: |+
+    PC 0-99 goes to bank 0-99.
+cc:
+  - name: FS1 Action
+    value: 0
+    description: '0 = off, 127 = on, 64 = toggle, 3 = press action, 4 = release action, 5 = double press action, 6 = hold action, 7 = hold release action, 20/21/22/23 = sequential increment/decrement/next/reset, 30/31/32/33 = scrolling increment/decrement/next/reset'
+    type: group
+    min: 0
+    max: 127
+  - name: FS2 Action
+    value: 1
+    description: '0 = off, 127 = on, 64 = toggle, 3 = press action, 4 = release action, 5 = double press action, 6 = hold action, 7 = hold release action, 20/21/22/23 = sequential increment/decrement/next/reset, 30/31/32/33 = scrolling increment/decrement/next/reset'
+    type: group
+    min: 0
+    max: 127
+  - name: FS3 Action
+    value: 2
+    description: '0 = off, 127 = on, 64 = toggle, 3 = press action, 4 = release action, 5 = double press action, 6 = hold action, 7 = hold release action, 20/21/22/23 = sequential increment/decrement/next/reset, 30/31/32/33 = scrolling increment/decrement/next/reset'
+    type: group
+    min: 0
+    max: 127
+  - name: FS4 Action
+    value: 3
+    description: '0 = off, 127 = on, 64 = toggle, 3 = press action, 4 = release action, 5 = double press action, 6 = hold action, 7 = hold release action, 20/21/22/23 = sequential increment/decrement/next/reset, 30/31/32/33 = scrolling increment/decrement/next/reset'
+    type: group
+    min: 0
+    max: 127
+  - name: FS1 Emulated Press/Release
+    value: 10
+    description: '127 = press, 0 = release'
+    type: group
+    min: 0
+    max: 127
+  - name: FS2 Emulated Press/Release
+    value: 11
+    description: '127 = press, 0 = release'
+    type: group
+    min: 0
+    max: 127
+  - name: FS3 Emulated Press/Release
+    value: 12
+    description: '127 = press, 0 = release'
+    type: group
+    min: 0
+    max: 127
+  - name: FS4 Emulated Press/Release
+    value: 13
+    description: '127 = press, 0 = release'
+    type: group
+    min: 0
+    max: 127
+  - name: Bank Up
+    value: 20
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Bank Down
+    value: 21
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Go to Bank
+    value: 22
+    description: 'Value = bank number (0-99)'
+    type: variable
+    min: 0
+    max: 99
+  - name: Enter/Exit Menu
+    value: 23
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: UI Mode
+    value: 30
+    description: '0 = Simple UI, 127 = Standard UI, 64 = toggle'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 31)
+    value: 31
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 32)
+    value: 32
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 33)
+    value: 33
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 34)
+    value: 34
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 35)
+    value: 35
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 36)
+    value: 36
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 37)
+    value: 37
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Control (CC 38)
+    value: 38
+    description: '0 = off, 64 = toggle, 127 = on. CCs 31-38 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: group
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 43)
+    value: 43
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 44)
+    value: 44
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 45)
+    value: 45
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 46)
+    value: 46
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 47)
+    value: 47
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 48)
+    value: 48
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 49)
+    value: 49
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Brightness (CC 50)
+    value: 50
+    description: 'CCs 43-50 cover FS1 Primary to FS4 Secondary; the manual does not list the order'
+    type: variable
+    min: 0
+    max: 127
+  - name: LED Color Change Target
+    value: 55
+    description: 'Selects the LED (FS1 Primary to FS4 Secondary) that CCs 56-58 recolor. Overrides are temporary'
+    type: variable
+    min: 0
+    max: 7
+  - name: Red Channel Intensity
+    value: 56
+    description: 'For the LED selected with CC 55'
+    type: variable
+    min: 0
+    max: 127
+  - name: Green Channel Intensity
+    value: 57
+    description: 'For the LED selected with CC 55'
+    type: variable
+    min: 0
+    max: 127
+  - name: Blue Channel Intensity
+    value: 58
+    description: 'For the LED selected with CC 55'
+    type: variable
+    min: 0
+    max: 127
+  - name: Reset Target LED Values
+    value: 59
+    description: 'LED 0-7 (FS1 Primary to FS4 Secondary)'
+    type: variable
+    min: 0
+    max: 7
+  - name: Reset All LED Values
+    value: 60
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Clock Tempo Target
+    value: 73
+    description: '0 = Clock A 45-127 BPM, 1 = Clock A 128-240 BPM, 2 = Clock B 45-127 BPM, 3 = Clock B 128-240 BPM. Send before CC 74'
+    type: group
+    min: 0
+    max: 3
+  - name: Clock Tempo
+    value: 74
+    description: 'Low range: value = BPM (45-127). High range: BPM = 128 + value (up to 240)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Reset All Sequential Switches
+    value: 80
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Reset All Scrolling Switches
+    value: 81
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: All Primary Switches Off
+    value: 82
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: All Primary Switches On
+    value: 83
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Toggle All Primary Switches
+    value: 84
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: All Secondary Switches Off
+    value: 85
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: All Secondary Switches On
+    value: 86
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Toggle All Secondary Switches
+    value: 87
+    description: 'Any value'
+    type: variable
+    min: 0
+    max: 127
