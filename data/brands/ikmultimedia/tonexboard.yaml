@@ -1,0 +1,83 @@
+brand: IK Multimedia
+model: Tonex Board
+device_type: guitar_processor
+email: florian.seiz@me.com
+url: >-
+  https://g1.ikmultimedia.com/html/Manuals/TONEXBOARD/TONEX_Board_User_Manual_English.pdf
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Setlist Selection
+    value: 0
+    description: setlist 01 - setlist 12
+    type: variable
+    min: 0
+    max: '11'
+  - name: Footswitch A
+    value: '35'
+    description: '127: triggers footswitch A'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Footswitch B
+    value: '36'
+    description: '127: triggers footswitch B'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Footswitch C
+    value: '37'
+    description: '127: triggers footswitch C'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Sceneselector
+    value: '39'
+    description: '0: select Scene A, 1: select scene B, 2: select scene C'
+    type: variable
+    min: 0
+    max: '2'
+  - name: BPM-Tempo
+    value: '40'
+    description: '0-127: sets the BPM value'
+    type: variable
+    min: 0
+    max: 127
+  - name: Tuner
+    value: '41'
+    description: '0: tuner off, 127: tuner on'
+    type: fixed
+    min: 0
+    max: 127
+  - name: View Selector
+    value: '42'
+    description: '0: Home, 1: Edit, 2: Live'
+    type: variable
+    min: 0
+    max: '2'
+  - name: Mode Selector
+    value: '43'
+    description: '0: Preset, 1: Scene, 02: Stomp'
+    type: variable
+    min: 0
+    max: '2'
+  - name: Mode Cycle
+    value: '44'
+    description: '0: select previous mode, 127: select next mode'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: '45'
+    description: '127: Tap'
+    type: fixed
+    min: 0
+    max: 127
