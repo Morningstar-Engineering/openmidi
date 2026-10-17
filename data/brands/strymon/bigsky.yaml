@@ -1,10 +1,12 @@
-midi_in: DIN5
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
+brand: strymon
+model: bigsky
+brandName: Strymon
+modelName: Bigsky
+device_type: effect
+email: pdimarco58@gmail.com
+url: ''
 midi_channel:
-  instructions: |+
+  instructions: |
     Push and hold the Value knob to go into the Global Settings Menu.
 
     From there, turn the knob until you see MIDICH.
@@ -13,41 +15,579 @@ midi_channel:
 
     Turn the knob to your desired channel.
     Once done, press the Value knob again to save the channel.
-instructions:
-  -
-
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
-  description: |+
+  description: >
     BigSky presets are arranged in a grid of 100 numbered banks (00-99) with
+
     3 presets (A,B and C) within each bank for a total of 300 presets.
 
-    Because MIDI Program Change messages have a maximum number of 128 (0-127), the presets are grouped into 3 MIDI
+
+    Because MIDI Program Change messages have a maximum number of 128 (0-127),
+    the presets are grouped into 3 MIDI
+
     Patch Banks:
+
     MIDI BANK 0 = PRESETS 00A-42B
+
     MIDI BANK 1 = PRESETS 42C-85A
+
     MIDI BANK 2 = PRESETS 85B-99C
 
+
     The presets are numbered sequentially within each bank:
+
     PRESET 00A = MIDI program # 0
+
     PRESET 00B = MIDI program # 1
+
     PRESET 00C = MIDI program # 2
+
     PRESET 01A = MIDI program # 3
+
     PRESET 01B = MIDI program # 4 etc. up to #127...
 
-    BigSky always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets (00A-42B),
+
+    BigSky always powers up in MIDI Patch Bank 0, so if you plan to stay within
+    the first 127 presets (00A-42B),
+
     simply send a standard MIDI Program Change message to load a preset.
 
-    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a standard MIDI Bank Change message
-    [MIDI CC# 0 with a value equal to the MIDI Bank #] before each MIDI Program Change.
+
+    If you will be using MIDI Banks 1 and/or 2, it is advisable to send a
+    standard MIDI Bank Change message
+
+    [MIDI CC# 0 with a value equal to the MIDI Bank #] before each MIDI Program
+    Change.
 cc:
-  - name: Bloom - Feedback
-    value: 30
+  - name: 'MIDI Patch Bank #1'
+    value: 0
+    description: ' PRESETS 00A-42B'
+    type: group
+    min: 0
+    max: '0'
+  - name: 'MIDI Patch Bank #'
+    value: 0
+    description: PRESETS 42C-85A
+    type: group
+    min: '1'
+    max: '1'
+  - name: 'MIDI Patch Bank #3'
+    value: 0
+    description: PRESETS 85B-99C
+    type: group
+    min: '2'
+    max: '2'
+  - name: Tone
+    value: 3
     description: ''
     type: variable
     min: 0
-    max: 17
-  - name: Bloom - Length
-    value: 32
+    max: 127
+  - name: Param 1
+    value: 9
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mod
+    value: 14
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix
+    value: 15
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Param 2
+    value: 16
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Decay
+    value: 17
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Pre-Delay
+    value: 18
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Type Encoder - Room
+    value: 19
+    description: Room Engine
+    type: group
+    min: 0
+    max: '0'
+  - name: Type Encoder - Hall
+    value: '19'
+    description: Hall Engine
+    type: group
+    min: '1'
+    max: '1'
+  - name: Type Encoder - Plate
+    value: '19'
+    description: Plate Engine
+    type: group
+    min: '2'
+    max: '2'
+  - name: Type Encoder - Spring
+    value: '19'
+    description: Spring Engine
+    type: group
+    min: '3'
+    max: '3'
+  - name: Type Encoder - Swell
+    value: '19'
+    description: Swell Engine
+    type: group
+    min: '4'
+    max: '4'
+  - name: Type Encoder - Bloom
+    value: '19'
+    description: Bloom Engine
+    type: group
+    min: '5'
+    max: '5'
+  - name: Type Encoder - Cloud
+    value: '19'
+    description: Cloud Engine
+    type: group
+    min: '6'
+    max: '6'
+  - name: Type Encoder - Chorale
+    value: '19'
+    description: Chorale
+    type: group
+    min: '7'
+    max: '7'
+  - name: Type Encoder - Shimmer
+    value: '19'
+    description: Shimmer Engine
+    type: group
+    min: '8'
+    max: '8'
+  - name: Type Encoder - Magneto
+    value: '19'
+    description: Magneto Engine
+    type: group
+    min: '9'
+    max: '9'
+  - name: Type Encoder - Non-Linear
+    value: '19'
+    description: Non Linear Engine
+    type: group
+    min: '10'
+    max: '10'
+  - name: Type Encoder - Reflections
+    value: '19'
+    description: Reflections Engine
+    type: group
+    min: '11'
+    max: '11'
+  - name: Value Encoder
+    value: 20
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
+  - name: Persist On/Off
+    value: 22
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
+  - name: Boost
+    value: 23
+    description: ''
+    type: variable
+    min: 0
+    max: 60
+  - name: Shimmer - Low End
+    value: 24
+    description: ''
+    type: variable
+    min: 0
+    max: 20
+  - name: Shimmer - Shift 1 - --Octave
+    value: 25
+    description: Minus Octave
+    type: group
+    min: 0
+    max: '0'
+  - name: Shimmer - Shift 1 - --Major 7th
+    value: '25'
+    description: Minus Major 7th
+    type: group
+    min: '1'
+    max: '1'
+  - name: Shimmer - Shift 1 - --minor 7th
+    value: '25'
+    description: Minus minor 7th
+    type: group
+    min: '2'
+    max: '2'
+  - name: Shimmer - Shift 1 - --Major 6th
+    value: '25'
+    description: Minus Major 6th
+    type: group
+    min: '3'
+    max: '3'
+  - name: Shimmer - Shift 1 - --minor 6th
+    value: '25'
+    description: Minus minor 6th
+    type: group
+    min: '4'
+    max: '4'
+  - name: Shimmer - Shift 1 - --Perfect 5th
+    value: '25'
+    description: Minus Perfect 5th
+    type: group
+    min: '5'
+    max: '5'
+  - name: Shimmer - Shift 1 - --Tritone
+    value: '25'
+    description: Minus TriTone
+    type: group
+    min: '6'
+    max: '6'
+  - name: Shimmer - Shift 1 - --Perfect 4th
+    value: '25'
+    description: Minus Perfect 4th
+    type: group
+    min: '7'
+    max: '7'
+  - name: Shimmer - Shift 1 - --Major 3rd
+    value: '25'
+    description: Minus Major 3rd
+    type: group
+    min: '8'
+    max: '8'
+  - name: Shimmer - Shift 1 - --minor 3rd
+    value: '25'
+    description: Minus minor 3rd
+    type: group
+    min: '9'
+    max: '9'
+  - name: Shimmer - Shift 1 - --Major 2nd
+    value: '25'
+    description: Minus Major 2nd
+    type: group
+    min: '10'
+    max: '10'
+  - name: Shimmer - Shift 1 - --minor 2nd
+    value: '25'
+    description: Minus minor 2nd
+    type: group
+    min: '11'
+    max: '11'
+  - name: Shimmer - Shift 1 - --10 cents
+    value: '25'
+    description: Minus 10 cents
+    type: group
+    min: '12'
+    max: '12'
+  - name: Shimmer - Shift 1 - +10 cents
+    value: '25'
+    description: Plus 10 cents
+    type: group
+    min: '13'
+    max: '13'
+  - name: Shimmer - Shift 1 - +minor 2nd
+    value: '25'
+    description: Plus minor 2nd
+    type: group
+    min: '14'
+    max: '14'
+  - name: Shimmer - Shift 1 - +Major 2nd
+    value: '25'
+    description: Plus Major 2nd
+    type: group
+    min: '15'
+    max: '15'
+  - name: Shimmer - Shift 1 - +minor 3rd
+    value: '25'
+    description: Plus minor 3rd
+    type: group
+    min: '16'
+    max: '16'
+  - name: Shimmer - Shift 1 - +Major 3rd
+    value: '25'
+    description: Plus Major 3rd
+    type: group
+    min: '17'
+    max: '17'
+  - name: Shimmer - Shift 1 - +Perfect 4th
+    value: '25'
+    description: Plus Perfect 4th
+    type: group
+    min: '18'
+    max: '18'
+  - name: Shimmer - Shift 1 - +Tritone
+    value: '25'
+    description: ' Plus Tritone'
+    type: group
+    min: '19'
+    max: '19'
+  - name: Shimmer - Shift 1 - +Perfect 5th
+    value: '25'
+    description: Plus Perfect 5th
+    type: group
+    min: '20'
+    max: '20'
+  - name: Shimmer - Shift 1 - +minor 6th
+    value: '25'
+    description: Plus minor 6th
+    type: group
+    min: '21'
+    max: '21'
+  - name: Shimmer - Shift 1 - +Major 6th
+    value: '25'
+    description: Plus Major 6th
+    type: group
+    min: '22'
+    max: '22'
+  - name: Shimmer - Shift 1 - +minor 7th
+    value: '25'
+    description: Plus minor 7th
+    type: group
+    min: '23'
+    max: '23'
+  - name: Shimmer - Shift 1 - +Major 7th
+    value: '25'
+    description: Plus Major 7th
+    type: group
+    min: '24'
+    max: '24'
+  - name: Shimmer - Shift 1 - +Octave
+    value: '25'
+    description: Plus Octave
+    type: group
+    min: '25'
+    max: '25'
+  - name: Shimmer - Shift 1 - +Octave & 5th
+    value: '25'
+    description: Plus Octave & 5th
+    type: group
+    min: '26'
+    max: '26'
+  - name: Shimmer - Shift 1 - +2 Octaves
+    value: '25'
+    description: Plus 2 Octaves
+    type: group
+    min: '27'
+    max: '27'
+  - name: Shimmer - Shift 2 - Off
+    value: 26
+    description: 'Off'
+    type: group
+    min: 0
+    max: '0'
+  - name: Shimmer - Shift 2 - --Octave
+    value: '26'
+    description: Minus Octave
+    type: group
+    min: '1'
+    max: '1'
+  - name: Shimmer - Shift 2 - --Major 7th
+    value: '26'
+    description: Minus Major 7th
+    type: group
+    min: '2'
+    max: '2'
+  - name: Shimmer - Shift 2 - --minor 7th
+    value: '26'
+    description: Minus minor 7th
+    type: group
+    min: '3'
+    max: '3'
+  - name: Shimmer - Shift 2 - --Major 6th
+    value: '26'
+    description: Minus Major 6th
+    type: group
+    min: '4'
+    max: '4'
+  - name: Shimmer - Shift 2 - --minor 6th
+    value: '26'
+    description: Minus minor 6th
+    type: group
+    min: '5'
+    max: '5'
+  - name: Shimmer - Shift 2 - --Perfect 5th
+    value: '26'
+    description: Minus Perfect 5th
+    type: group
+    min: '6'
+    max: '6'
+  - name: Shimmer - Shift 2 - --Tritone
+    value: '26'
+    description: Minus Tritone
+    type: group
+    min: '7'
+    max: '7'
+  - name: Shimmer - Shift 2 - --Perfect 4th
+    value: '26'
+    description: Minus Perfect 4th
+    type: group
+    min: '8'
+    max: '8'
+  - name: Shimmer - Shift 2 - --Major 3rd
+    value: '26'
+    description: Minus Major 3rd
+    type: group
+    min: '9'
+    max: '9'
+  - name: Shimmer - Shift 2 - --minor 3rd
+    value: '26'
+    description: Minus minor 3rd
+    type: group
+    min: '10'
+    max: '10'
+  - name: Shimmer - Shift 2 - --Major 2nd
+    value: '26'
+    description: Minus Major 2nd
+    type: group
+    min: '11'
+    max: '11'
+  - name: Shimmer - Shift 2 - --minor 2nd
+    value: '26'
+    description: Minus minor 2nd
+    type: group
+    min: '12'
+    max: '12'
+  - name: Shimmer - Shift 2 - --10 cents
+    value: '26'
+    description: Minus 10 cents
+    type: group
+    min: '13'
+    max: '13'
+  - name: Shimmer - Shift 2 - +10 cents
+    value: '26'
+    description: Plus 10 cents
+    type: group
+    min: '14'
+    max: '14'
+  - name: Shimmer - Shift 2 +minor 2nd
+    value: '26'
+    description: Plus minor 2nd
+    type: group
+    min: '15'
+    max: '15'
+  - name: Shimmer - Shift 2 - +Major 2nd
+    value: '26'
+    description: Plus Major 2nd
+    type: group
+    min: '16'
+    max: '16'
+  - name: Shimmer - Shift 2 - +minor 3rd
+    value: '26'
+    description: Plus minor 3rd
+    type: group
+    min: '17'
+    max: '17'
+  - name: Shimmer - Shift 2 - +Major 3rd
+    value: '26'
+    description: Plus Major 3rd
+    type: group
+    min: '18'
+    max: '18'
+  - name: Shimmer - Shift 2 - +Perfect 4th
+    value: '26'
+    description: Plus Perfect 4th
+    type: group
+    min: '19'
+    max: '19'
+  - name: Shimmer - Shift 2 - +Tritone
+    value: '26'
+    description: Plus Tritone
+    type: group
+    min: '20'
+    max: '20'
+  - name: Shimmer - Shift 2 - +Perfect 5th
+    value: '26'
+    description: Plus Perfect 5th
+    type: group
+    min: '21'
+    max: '21'
+  - name: Shimmer - Shift 2 - +minor 6th
+    value: '26'
+    description: Plus minor 6th
+    type: group
+    min: '22'
+    max: '22'
+  - name: Shimmer - Shift 2 - +Major 6th
+    value: '26'
+    description: Plus Major 6th
+    type: group
+    min: '23'
+    max: '23'
+  - name: Shimmer - Shift 2 - +minor 7th
+    value: '26'
+    description: Plus minor 7th
+    type: group
+    min: '24'
+    max: '24'
+  - name: Shimmer - Shift 2 - +Major 7th
+    value: '26'
+    description: Plus Major 7th
+    type: group
+    min: '25'
+    max: '25'
+  - name: Shimmer - Shift 2 - +Octave
+    value: '26'
+    description: Plus Octave
+    type: group
+    min: '26'
+    max: '26'
+  - name: Shimmer - Shift 2 - +Octave & 5th
+    value: '26'
+    description: Plus Octave & 5th
+    type: group
+    min: '27'
+    max: '27'
+  - name: Shimmer - Shift 2 - 2 Octaves
+    value: '26'
+    description: Plus 2 Octaves
+    type: group
+    min: '28'
+    max: '28'
+  - name: Shimmer - Amount
+    value: 27
+    description: ''
+    type: variable
+    min: 0
+    max: 18
+  - name: Shimmer - Mode - Input
+    value: 28
+    description: Input
+    type: group
+    min: 0
+    max: '0'
+  - name: Shimmer - Mode - Regen
+    value: '28'
+    description: Regen Mode
+    type: group
+    min: '1'
+    max: '1'
+  - name: Shimmer - Mode - In + Regen
+    value: '28'
+    description: IN and Regen
+    type: group
+    min: '2'
+    max: '2'
+  - name: Bloom - Feedback
+    value: 30
     description: ''
     type: variable
     min: 0
@@ -58,34 +598,72 @@ cc:
     type: variable
     min: 0
     max: 20
-  - name: Boost
-    value: 23
+  - name: Bloom - Length
+    value: 32
     description: ''
     type: variable
     min: 0
-    max: 60
-  - name: Chorale - Reso
+    max: 17
+  - name: Chorale - Vowel - AAHHOO
+    value: '33'
+    description: AAHHOO
+    type: group
+    min: 0
+    max: '0'
+  - name: Chorale - Vowel - AAHH
+    value: '33'
+    description: AAHH
+    type: group
+    min: '1'
+    max: '1'
+  - name: Chorale - Vowel - AAHHOH
+    value: '33'
+    description: AAHHOH
+    type: group
+    min: '2'
+    max: '2'
+  - name: Chorale - Vowel - OH
+    value: '33'
+    description: OH
+    type: group
+    min: '3'
+    max: '3'
+  - name: Chorale - Vowel - OOOHO
+    value: '33'
+    description: OOOHO
+    type: group
+    min: '4'
+    max: '4'
+  - name: Chorale - Vowel - OOOO
+    value: '33'
+    description: OOOO
+    type: group
+    min: '5'
+    max: '5'
+  - name: Chorale - Vowel - Random
+    value: '33'
+    description: Random
+    type: group
+    min: '6'
+    max: '6'
+  - name: Chorale - Resonance - Mild
     value: 34
-    description: |+
-      Value 0 - Mild
-      Value 1 - Medium
-      Value 2 - High
-    type: variable
+    description: Mild Resonance
+    type: group
     min: 0
-    max: 2
-  - name: Chorale - Vowel
-    value: 33
-    description: |+
-      Value 0 - AAHHOO
-      Value 1 - AAHH
-      Value 2 - AAHHOH
-      Value 3 - OH
-      Value 4 - OOOHOH
-      Value 5 - OOOO
-      Value 6 - Random
-    type: variable
-    min: 0
-    max: 6
+    max: '0'
+  - name: Chorale - Resonance - Medium
+    value: '34'
+    description: Medium Resonance
+    type: group
+    min: '1'
+    max: '1'
+  - name: Chorale - Resonance - High
+    value: '34'
+    description: High Resonance
+    type: group
+    min: '2'
+    max: '2'
   - name: Cloud - Diffusion
     value: 37
     description: ''
@@ -98,94 +676,78 @@ cc:
     type: variable
     min: 0
     max: 20
-  - name: Decay
-    value: 17
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Exp On/Off
-    value: 60
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: Freeze/Infinite
-    value: 70
-    description: ''
-    type: variable
-    min: 0
-    max: 1
   - name: Hall - Low End
     value: 39
     description: ''
     type: variable
     min: 0
     max: 20
+  - name: Hall - Size - 1- Concert / 2- Arena
+    value: 40
+    description: ''
+    type: fixed
+    min: 0
+    max: '1'
   - name: Hall - Mid
     value: 42
     description: ''
     type: variable
     min: 0
     max: 20
-  - name: Hall - Size
-    value: 40
-    description: |+
-      Value 0 - Concert
-      Value 1 - Arena
+  - name: Nonlinear - Mod Speed
+    value: 43
+    description: ''
     type: variable
     min: 0
-    max: 1
-  - name: Magneto - Diffusion
-    value: 56
+    max: 17
+  - name: Nonlinear - Low End
+    value: 44
     description: ''
     type: variable
     min: 0
     max: 20
-  - name: Magneto - Heads
-    value: 57
-    description: ''
-    type: variable
-    min: 0
-    max: 2
-  - name: Magneto - Low End
-    value: 55
-    description: ''
-    type: variable
-    min: 0
-    max: 20
-  - name: Magneto - Spacing
-    value: 54
-    description: |+
-      Value 0 - Even
-      Value 1 - Uneven
-    type: variable
-    min: 0
-    max: 1
-  - name: MIDI Clock Off/On
-    value: 71
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: Mix
-    value: 15
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Mod
-    value: 14
-    description: ''
-    type: variable
-    min: 0
-    max: 127
   - name: Nonlinear - Diffusion
     value: 45
     description: ''
     type: variable
     min: 0
     max: 20
+  - name: Nonlinear - Shape - Swoosh
+    value: '46'
+    description: Swoosh creates a ‘backwards’ effect with different slope profiles.
+    type: group
+    min: 0
+    max: '0'
+  - name: Nonlinear - Shape - Reverse
+    value: '46'
+    description: Reverse creates a ‘backwards’ effect with different slope profiles.
+    type: group
+    min: '1'
+    max: '1'
+  - name: Nonlinear - Shape - Ramp
+    value: '46'
+    description: Ramp creates a ‘backwards’ effect with different slope profiles.
+    type: group
+    min: '2'
+    max: '2'
+  - name: Nonlinear - Shape - Gate
+    value: '46'
+    description: Gate generates an even amplitude profile with an abrupt cut-off.
+    type: group
+    min: '3'
+    max: '3'
+  - name: Nonlinear - Shape - Gauss
+    value: '46'
+    description: Gauss creates a ’bell curve’ profile.
+    type: group
+    min: '4'
+    max: '4'
+  - name: Nonlinear - Shape - Bounce
+    value: '46'
+    description: ' Bounce creates an ‘anti-bell’ shape.'
+    type: group
+    min: '5'
+    max: '5'
   - name: Nonlinear - Late Decay
     value: 47
     description: ''
@@ -198,68 +760,6 @@ cc:
     type: variable
     min: 0
     max: 18
-  - name: Nonlinear - Low End
-    value: 44
-    description: ''
-    type: variable
-    min: 0
-    max: 20
-  - name: Nonlinear - Mod Speed
-    value: 43
-    description: ''
-    type: variable
-    min: 0
-    max: 17
-  - name: Nonlinear - Shape
-    value: 46
-    description: |+
-      Value 0 - Swoosh
-      Value 1 - Reverse
-      Value 2 - Ramp
-      Value 3 - Gate
-      Value 4 - Gauss
-      Value 5 - Bounce
-    type: variable
-    min: 0
-    max: 5
-  - name: Param 1
-    value: 9
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Param 2
-    value: 16
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Persist On/Off
-    value: 22
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: Plate - Low End
-    value: 69
-    description: ''
-    type: variable
-    min: 0
-    max: 20
-  - name: Plate - Size
-    value: 68
-    description: |+
-      Value 0 - Small
-      Value 1 - Large
-    type: variable
-    min: 0
-    max: 1
-  - name: Pre-Delay
-    value: 18
-    description: ''
-    type: variable
-    min: 0
-    max: 127
   - name: Reflections - Loc X
     value: 49
     description: ''
@@ -272,147 +772,143 @@ cc:
     type: variable
     min: 0
     max: 6
+  - name: Reflections - Shape - Square
+    value: 51
+    description: Square
+    type: group
+    min: 0
+    max: '0'
+  - name: Reflections - Shape - Rectangular
+    value: '51'
+    description: Rectangular
+    type: group
+    min: '1'
+    max: '1'
+  - name: Reflections - Shape - Oblong
+    value: '51'
+    description: Oblong
+    type: group
+    min: '2'
+    max: '2'
   - name: Reflections - Low End
     value: 52
     description: ''
     type: variable
     min: 0
     max: 20
-  - name: Reflections - Shape
-    value: 51
-    description: |+
-      Value 0 - Square
-      Value 1 - Rectangle
-      Value 2 - Oblong
+  - name: Magneto - Spacing - Even / Uneven
+    value: 54
+    description: ' 0 - Even / 1 - Uneven'
+    type: fixed
+    min: 0
+    max: 1
+  - name: Magneto - Low End
+    value: 55
+    description: ''
     type: variable
     min: 0
-    max: 2
+    max: 20
+  - name: Magneto - Diffusion
+    value: 56
+    description: ''
+    type: variable
+    min: 0
+    max: 20
+  - name: Magneto - Heads - 3
+    value: 57
+    description: 3 heads
+    type: group
+    min: 0
+    max: '0'
+  - name: Magneto - Heads - 4
+    value: '57'
+    description: 4 heads
+    type: group
+    min: '1'
+    max: '1'
+  - name: Magneto - Heads - 6
+    value: '57'
+    description: 6 heads
+    type: group
+    min: '2'
+    max: '2'
   - name: Room - Diffusion
     value: 58
     description: ''
     type: variable
     min: 0
     max: 20
+  - name: Room - Size - Studio / Club
+    value: 59
+    description: 0 - Studio / 1 - Club
+    type: fixed
+    min: 0
+    max: 1
+  - name: Expression On/Off
+    value: 60
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
+  - name: Exp On/Off
+    value: 60
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
   - name: Room - Low End
     value: 61
     description: ''
     type: variable
     min: 0
     max: 20
-  - name: Room - Size
-    value: 59
-    description: |+
-      Value 0 - Studio
-      Value 1 - Club
-    type: variable
-    min: 0
-    max: 1
-  - name: Shimmer - Amount
-    value: 27
-    description: ''
-    type: variable
-    min: 0
-    max: 18
-  - name: Shimmer - Low End
-    value: 24
-    description: ''
-    type: variable
-    min: 0
-    max: 20
-  - name: Shimmer - Mode
-    value: 28
-    description: |+
-      Value 0 - Input
-      Value 1 - Regen
-      Value 2 - Input + Regen
-    type: variable
-    min: 0
-    max: 2
-  - name: Shimmer - Shift 1
-    value: 25
-    description: |+
-      Value 0 - -Octave
-      Value 1 - -Major 7th
-      Value 2 - -minor 7th
-      Value 3 - -Major 6th
-      Value 4 - -minor 6th
-      Value 5 - -Perfect 5th
-      Value 6 - -Tritone
-      Value 7 - -Perfect 4th
-      Value 8 - -Major 3rd
-      Value 9 - -minor 3rd
-      Value 10 - -Major 2nd
-      Value 11 - -minor 2nd
-      Value 12 - -10 cents
-      Value 13 - +10 cents
-      Value 14 - +minor 2nd
-      Value 15 - +Major 2nd
-      Value 16 - +minor 3rd
-      Value 17 - +Major 3rd
-      Value 18 - +Perfect 4th
-      Value 19 - +Tritone
-      Value 20 - +Perfect 5th
-      Value 21 - +minor 6th
-      Value 22 - +Major 6th
-      Value 23 - +minor 7th
-      Value 24 - +Major 7th
-      Value 25 - +Octave
-      Value 26 - +Octave & 5th
-      Value 27 - +2 Octaves
-    type: variable
-    min: 0
-    max: 27
-  - name: Shimmer - Shift 2
-    value: 26
-    description: |+
-      Value 0 - Off
-      Value 1 - -Octave
-      Value 2 - -Major 7th
-      Value 3 - -minor 7th
-      Value 4 - -Major 6th
-      Value 5 - -minor 6th
-      Value 6 - -Perfect 5th
-      Value 7 - -Tritone
-      Value 8 - -Perfect 4th
-      Value 9 - -Major 3rd
-      Value 10 - -minor 3rd
-      Value 11 - -Major 2nd
-      Value 12 - -minor 2nd
-      Value 13 - -10 cents
-      Value 14 - +10 cents
-      Value 15 - +minor 2nd
-      Value 16 - +Major 2nd
-      Value 17 - +minor 3rd
-      Value 18 - +Major 3rd
-      Value 19 - +Perfect 4th
-      Value 20 - +Tritone
-      Value 21 - +Perfect 5th
-      Value 22 - +minor 6th
-      Value 23 - +Major 6th
-      Value 24 - +minor 7th
-      Value 25 - +Major 7th
-      Value 26 - +Octave
-      Value 27 - +Octave & 5th
-      Value 28 - +2 Octaves
-    type: variable
-    min: 0
-    max: 28
-  - name: 'Spring - # Springs'
+  - name: Spring - Number of Springs - 1
     value: 62
-    description: ''
-    type: variable
+    description: 1 spring
+    type: group
     min: 0
-    max: 2
-  - name: Spring - Dwell
+    max: '0'
+  - name: Spring - Number of Springs - 2
+    value: '62'
+    description: 2 springs
+    type: group
+    min: '1'
+    max: '1'
+  - name: Spring - Number of Springs - 3
+    value: '62'
+    description: 3 springs
+    type: group
+    min: '2'
+    max: '2'
+  - name: Spring - Dwell - Clean
     value: 63
-    description: |+
-      Value 0 - Clean
-      Value 1 - Combo
-      Value 2 - Tube
-      Value 3 - Overdrive
-    type: variable
+    description: ' Clean for the cleanest spring tones.'
+    type: group
     min: 0
-    max: 3
+    max: '0'
+  - name: Spring - Dwell - Combo
+    value: '63'
+    description: >-
+      Combo setting adds more gain as was typical in  combo amps with onboard
+      spring reverb.
+    type: group
+    min: '1'
+    max: '1'
+  - name: Spring - Dwell - Tube
+    value: '63'
+    description: >-
+      The Tube selection increases the gain  further and increases the harmonic
+      components entering the spring tank, like  turning up the Dwell control in
+      an outboard spring reverb unit.
+    type: group
+    min: '2'
+    max: '2'
+  - name: Spring - Dwell - Overdrive
+    value: '63'
+    description: Overdrive  setting maximizes the preamp gain for maximum trashiness.
+    type: group
+    min: '3'
+    max: '3'
   - name: Spring - Low End
     value: 64
     description: ''
@@ -425,71 +921,172 @@ cc:
     type: variable
     min: 0
     max: 20
-  - name: Swell - Mode
+  - name: Swell - Rise - 0.08
+    value: 66
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Swell - Rise - 0.10
+    value: '66'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Swell - Rise - 0.12
+    value: '66'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Swell - Rise - 0.14
+    value: '66'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Swell - Rise - 0.17
+    value: '66'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Swell - Rise - 0.20
+    value: '66'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Swell - Rise - 0.25
+    value: '66'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Swell - Rise - 0.30
+    value: '66'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Swell - Rise - 0.35
+    value: '66'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Swell - Rise - 0.40
+    value: '66'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Swell - Rise - 0.50
+    value: '66'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Swell - Rise - 0.60
+    value: '66'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Swell - Rise - 0.70
+    value: '66'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Swell - Rise - 0.80
+    value: '66'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Swell - Rise - 0.90
+    value: '66'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Swell - Rise - 1.00
+    value: '66'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Swell - Rise - 1.20
+    value: '66'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Swell - Rise - 1.40
+    value: '66'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Swell - Rise - 1.70
+    value: '66'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Swell - Rise - 2.00
+    value: '66'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Swell - Rise - 2.50
+    value: '66'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Swell - Rise - 3.00
+    value: '66'
+    description: ''
+    type: group
+    min: '21'
+    max: '21'
+  - name: Swell - Rise - 4.00
+    value: '66'
+    description: ''
+    type: group
+    min: '22'
+    max: '22'
+  - name: Swell - Mode - Wet / Dry
     value: 67
-    description: |+
-      Value 0 - Wet
-      Value 1 - Dry
-    type: variable
+    description: Wet / Dry
+    type: fixed
     min: 0
     max: 1
-  - name: Swell - Rise
-    value: 66
-    description: |+
-      Value 0 - 0.08
-      Value 1 - 0.10
-      Value 2 - 0.12
-      Value 3 - 0.14
-      Value 4 - 0.17
-      Value 5 - 0.20
-      Value 6 - 0.25
-      Value 7 - 0.30
-      Value 8 - 0.35
-      Value 9 - 0.40
-      Value 10 - 0.50
-      Value 11 - 0.60
-      Value 12 - 0.70
-      Value 13 - 0.80
-      Value 14 - 0.90
-      Value 15 - 1.00
-      Value 16 - 1.20
-      Value 17 - 1.40
-      Value 18 - 1.70
-      Value 19 - 2.00
-      Value 20 - 2.50
-      Value 21 - 3.00
-      Value 22 - 4.00
-    type: variable
+  - name: Plate - Size -Small / Large
+    value: 68
+    description: Small / Large
+    type: fixed
     min: 0
-    max: 22
-  - name: Tone
-    value: 3
+    max: 1
+  - name: Plate - Low End
+    value: 69
     description: ''
     type: variable
     min: 0
-    max: 127
-  - name: Type Encoder
-    value: 19
-    description: |+
-      Value 0 - Room
-      Value 1 - Hall
-      Value 2 - Plate
-      Value 3 - Spring
-      Value 4 - Swell
-      Value 5 - Bloom
-      Value 6 - Cloud
-      Value 7 - Chorale
-      Value 8 - Shimmer
-      Value 9 - Magneto
-      Value 10 - NonLinear
-      Value 11 - Reflections
-    type: variable
-    min: 0
-    max: 11
-  - name: Value Encoder
-    value: 20
+    max: 20
+  - name: Freeze/Infinite
+    value: 70
     description: ''
-    type: variable
+    type: fixed
+    min: 0
+    max: 1
+  - name: MIDI Clock Off/On
+    value: 71
+    description: ''
+    type: fixed
     min: 0
     max: 1
   - name: A footswitch Press Down
@@ -500,18 +1097,6 @@ cc:
     max: 0
   - name: A footswitch Press Up
     value: 80
-    description: ''
-    type: variable
-    min: 127
-    max: 127
-  - name: B footswitch Press Down
-    value: 82
-    description: ''
-    type: variable
-    min: 0
-    max: 0
-  - name: B footswitch Press Up
-    value: 82
     description: ''
     type: variable
     min: 127
@@ -528,41 +1113,17 @@ cc:
     type: variable
     min: 127
     max: 127
-  - name: Bypass
-    value: 102
+  - name: B footswitch Press Down
+    value: 82
     description: ''
     type: variable
     min: 0
     max: 0
-  - name: Engage
-    value: 102
+  - name: B footswitch Press Up
+    value: 82
     description: ''
     type: variable
     min: 127
-    max: 127
-  - name: Expression Pedal
-    value: 100
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Expression On/Off
-    value: 60
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: MIDI Patch Bank
-    value: 0
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: Phase Reset
-    value: 125
-    description: ''
-    type: variable
-    min: 0
     max: 127
   - name: Remote TAP
     value: 93
@@ -572,7 +1133,25 @@ cc:
     max: 127
   - name: Press/Hold Switch
     value: 97
-    description: 'off=0 on=127'
+    description: off=0 on=127
+    type: fixed
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: 'Bypass / Engage '
+    value: 102
+    description: ''
+    type: fixed
+    min: 0
+    max: '127'
+  - name: Phase Reset
+    value: 125
+    description: ''
     type: variable
     min: 0
     max: 127
