@@ -1,88 +1,669 @@
-midi_in: DIN5
-midi_thru: Yes
-phantom_power: None
-midi_clock: Yes
-
+brand: strymon
+model: timeline
+brandName: Strymon
+modelName: Timeline
+device_type: midi_controller
+email: pdimarco58@gmail.com
+url: ''
 midi_channel:
-  instructions: |+
+  instructions: >
     Push and hold the Value knob to go into the Global Settings Menu.
-    From there, turn the knob until you see MIDICH. Press the Value knob to select that option. You will now be able
+
+    From there, turn the knob until you see MIDICH. Press the Value knob to
+    select that option. You will now be able
+
     to select the MIDI channel for your device.
 
-    Turn the knob to your desired channel. Once done, press the Value knob again to save the channel.
-instructions:
 
+    Turn the knob to your desired channel. Once done, press the Value knob again
+    to save the channel.
+midi_inputs:
+  - name: MIDI IN
+    type: 5pin
+midi_outputs: []
+midi_thru: 'Yes'
 pc:
-  description: |+
-    Timeline presets are arranged in a grid of 100 numbered Banks (00-99) with 2 presets (A and B) within each Bank for
-    a total of 200 presets. Because MIDI Program Change messages have a maximum number of 128 (0-127), the presets are
+  description: >
+    Timeline presets are arranged in a grid of 100 numbered Banks (00-99) with 2
+    presets (A and B) within each Bank for
+
+    a total of 200 presets. Because MIDI Program Change messages have a maximum
+    number of 128 (0-127), the presets are
+
     grouped into 2 MIDI
 
+
     Patch Banks:
+
     MIDI BANK 0 = PRESETS 00A-63B
+
     MIDI BANK 1 = PRESETS 64A-99B
 
+
     The presets are numbered sequentially within each bank:
+
     PRESET 00A = MIDI program # 0
+
     PRESET 00B = MIDI program # 1
+
     PRESET 01A = MIDI program # 2
+
     PRESET 01B = MIDI program # 3
+
     PRESET 02A = MIDI program # 4 etc. up to #127...
 
-    TimeLine always powers up in MIDI Patch Bank 0, so if you plan to stay within the first 127 presets (00A-63B),
+
+    TimeLine always powers up in MIDI Patch Bank 0, so if you plan to stay
+    within the first 127 presets (00A-63B),
+
     simply send a standard MIDI Program Change message to load a preset.
 
-    If you will be using MIDI Bank 1, it is advisable to send a standard MIDI Bank Change message [MIDI CC# 0 with a
+
+    If you will be using MIDI Bank 1, it is advisable to send a standard MIDI
+    Bank Change message [MIDI CC# 0 with a
+
     value equal to the MIDI B
 cc:
-  - name: Boost
-    value: 23
+  - name: MIDI Patch Bank 1
+    value: 0
+    description: Bank 1 Presets 00A-63B
+    type: group
+    min: 0
+    max: '0'
+  - name: Actions MIDI Patch Bank 2
+    value: 0
+    description: Bank 2 Presets 64A-99B
+    type: group
+    min: '1'
+    max: '1'
+  - name: Time
+    value: 3
     description: ''
     type: variable
     min: 0
-    max: 60
-  - name: dBucket - Range
-    value: 45
-    description: |+
-      Value 0 - Single
-      Value 1 - Double
+    max: 127
+  - name: Repeats
+    value: 9
+    description: ''
     type: variable
     min: 0
-    max: 1
+    max: 127
+  - name: Mix
+    value: 14
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter
+    value: 15
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Grit
+    value: 16
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Speed
+    value: 17
+    description: ''
+    type: variable
+    min: 0
+    max: 127
   - name: Depth
     value: 18
     description: ''
     type: variable
     min: 0
     max: 127
-  - name: Digital - Repeat Dynamics
-    value: 56
+  - name: Type Encoder - dTape
+    value: '19'
+    description: dTape Engine
+    type: group
+    min: 0
+    max: '0'
+  - name: Type Encoder - dBucket
+    value: '19'
+    description: dBucket Engine
+    type: group
+    min: '1'
+    max: '1'
+  - name: Type Encoder - Digital
+    value: '19'
+    description: Digital Engine
+    type: group
+    min: '2'
+    max: '2'
+  - name: Type Encoder - Dual
+    value: '19'
+    description: Dual Engine
+    type: group
+    min: '3'
+    max: '3'
+  - name: Type Encoder - Pattern
+    value: '19'
+    description: Pattern Engine
+    type: group
+    min: '4'
+    max: '4'
+  - name: Type Encoder - Reverse
+    value: '19'
+    description: Reverse Engine
+    type: group
+    min: '5'
+    max: '5'
+  - name: Type Encoder - Ice
+    value: '19'
+    description: Ice Engine
+    type: group
+    min: '6'
+    max: '6'
+  - name: Type Encoder - Duck
+    value: '19'
+    description: Duck Engine
+    type: group
+    min: '7'
+    max: '7'
+  - name: Type Encoder - Swell
+    value: '19'
+    description: Swell Engine
+    type: group
+    min: '8'
+    max: '8'
+  - name: Type Encoder - Trem
+    value: '19'
+    description: Trem Engine
+    type: group
+    min: '9'
+    max: '9'
+  - name: Type Encoder - Filter
+    value: '19'
+    description: Filter Engine
+    type: group
+    min: '10'
+    max: '10'
+  - name: Type Encoder - LoFi
+    value: '19'
+    description: LoFi Engine
+    type: group
+    min: '11'
+    max: '11'
+  - name: 'Tap Division - Quarter Notes '
+    value: 21
+    description: Default /Quarter Notes
+    type: group
+    min: 0
+    max: '0'
+  - name: Tap Division - Dotted 8th Notes
+    value: '21'
+    description: Dotted 8 Notes
+    type: group
+    min: '1'
+    max: '1'
+  - name: Tap Division - 8th Notes
+    value: '21'
+    description: 8th Notes
+    type: group
+    min: '2'
+    max: '2'
+  - name: Tap Division - Triplet
+    value: '21'
+    description: Triplet Notes
+    type: group
+    min: '3'
+    max: '3'
+  - name: Tap Division - 16th Notes
+    value: '21'
+    description: 16th Notes
+    type: group
+    min: '4'
+    max: '4'
+  - name: Persist On/Off
+    value: 22
     description: ''
     type: variable
     min: 0
     max: 1
-  - name: dTape - Low End
-    value: 59
+  - name: Boost
+    value: 23
+    description: ''
+    type: variable
+    min: 0
+    max: 60
+  - name: Ice - Blend
+    value: 25
     description: ''
     type: variable
     min: 0
     max: 20
-  - name: dTape - Tape Speed
-    value: 58
-    description: |+
-      Value 0 - Fast
-      Value 1 - Normal
-    type: variable
+  - name: Filter-LFO - +Triangle
+    value: '28'
+    description: Plus Triangle
+    type: group
     min: 0
-    max: 1
-  - name: Dual - Config
-    value: 36
-    description: |+
-      Value 0 - Series
-      Value 1 - Parallel
-    type: variable
+    max: '0'
+  - name: Filter-LFO - -Triangle
+    value: '28'
+    description: Minus Triangle
+    type: group
+    min: '1'
+    max: '1'
+  - name: Filter-LFO - +Square
+    value: '28'
+    description: Plus Square
+    type: group
+    min: '3'
+    max: '3'
+  - name: Filter-LFO - +Sine
+    value: '28'
+    description: Plus Sine
+    type: group
+    min: '4'
+    max: '4'
+  - name: Filter-LFO - -Sine
+    value: '28'
+    description: Minus Sine
+    type: group
+    min: '5'
+    max: '5'
+  - name: Filter-LFO - Ramp
+    value: '28'
+    description: Ramp
+    type: group
+    min: '6'
+    max: '6'
+  - name: Filter-LFO - Saw
+    value: '28'
+    description: Saw
+    type: group
+    min: '7'
+    max: '7'
+  - name: Filter-LFO - Random
+    value: '28'
+    description: Random
+    type: group
+    min: '8'
+    max: '8'
+  - name: 'Filter-LFO - Down '
+    value: '28'
+    description: Shape Down
+    type: group
+    min: '9'
+    max: '9'
+  - name: Filter-LFO - Up
+    value: '28'
+    description: Shapes Up
+    type: group
+    min: '10'
+    max: '10'
+  - name: Trem - LFO - Triangle
+    value: 29
+    description: Triangle Waveform
+    type: group
     min: 0
-    max: 1
+    max: '0'
+  - name: Trem - LFO - Square
+    value: '29'
+    description: Square Waveform
+    type: group
+    min: '1'
+    max: '1'
+  - name: Trem - LFO - Sine
+    value: '29'
+    description: Sine Waveform
+    type: group
+    min: '2'
+    max: '2'
+  - name: Trem - LFO - Ramp
+    value: '29'
+    description: Ramp Waveform
+    type: group
+    min: '3'
+    max: '3'
+  - name: Trem - LFO - Saw
+    value: '29'
+    description: Saw Waveform
+    type: group
+    min: '4'
+    max: '4'
+  - name: Ice - Interval - -Octave
+    value: 30
+    description: Minus Octave
+    type: group
+    min: 0
+    max: '0'
+  - name: Ice - Interval - Major 7th
+    value: '30'
+    description: Minus Major 7th
+    type: group
+    min: '1'
+    max: '1'
+  - name: Ice - Interval - -minor 7th
+    value: '30'
+    description: Minus minor 7th
+    type: group
+    min: '2'
+    max: '2'
+  - name: Ice - Interval - -Major 6th
+    value: '30'
+    description: Minus Major 6th
+    type: group
+    min: '3'
+    max: '3'
+  - name: Ice - Interval - -minor 6th
+    value: '30'
+    description: Minus minor 6th
+    type: group
+    min: '4'
+    max: '4'
+  - name: Ice - Interval - -Perfect 5th
+    value: '30'
+    description: Minus Perfect 5th
+    type: group
+    min: '5'
+    max: '5'
+  - name: Ice - Interval - Tritone
+    value: '30'
+    description: Tritone
+    type: group
+    min: '6'
+    max: '6'
+  - name: Ice - Interval - Perfect 4th
+    value: '30'
+    description: Minus Perfect 4th
+    type: group
+    min: '7'
+    max: '7'
+  - name: Ice - Interval - -Major 3rd
+    value: '30'
+    description: Minus Major 3rd
+    type: group
+    min: '8'
+    max: '8'
+  - name: Ice - Interval - -minor 3rd
+    value: '30'
+    description: Minus minor 3rd
+    type: group
+    min: '9'
+    max: '9'
+  - name: Ice - Interval - -Major 2nd
+    value: '30'
+    description: Minus Major 2nd
+    type: group
+    min: '10'
+    max: '10'
+  - name: Ice - Interval - -minor 2nd
+    value: '30'
+    description: Minus minor 2nd
+    type: group
+    min: '11'
+    max: '11'
+  - name: Ice - Interval - -50 cents
+    value: '30'
+    description: Minus 50 cents
+    type: group
+    min: '12'
+    max: '12'
+  - name: Ice - Interval - -25 cents
+    value: '30'
+    description: Minus 25 cents
+    type: group
+    min: '13'
+    max: '13'
+  - name: Ice - Interval - +25 cents
+    value: '30'
+    description: Plus 25 cents
+    type: group
+    min: '14'
+    max: '14'
+  - name: Ice - Interval - +50 cents
+    value: '30'
+    description: Plus 50 cents
+    type: group
+    min: '15'
+    max: '15'
+  - name: Ice - Interval - +minor 2nd
+    value: '30'
+    description: Plus minor 2nd
+    type: group
+    min: '16'
+    max: '16'
+  - name: Ice - Interval - +Major 2nd
+    value: '30'
+    description: Plus Major 2nd
+    type: group
+    min: '17'
+    max: '17'
+  - name: Ice - Interval - +minor 3rd
+    value: '30'
+    description: Plus minor 3rd
+    type: group
+    min: '18'
+    max: '18'
+  - name: Ice - Interval - +Major 3rd
+    value: '30'
+    description: Plus Major 3rd
+    type: group
+    min: '19'
+    max: '19'
+  - name: Ice - Interval - +Perfect 4th
+    value: '30'
+    description: Plus Perfect 4th
+    type: group
+    min: '20'
+    max: '20'
+  - name: Ice - Interval - +Tritone
+    value: '30'
+    description: Plus Tritons
+    type: group
+    min: '21'
+    max: '21'
+  - name: 'Ice - Interval - +Perfect '
+    value: '30'
+    description: Plus Perfect
+    type: group
+    min: '22'
+    max: '22'
+  - name: Ice - Interval - +minor 6th
+    value: '30'
+    description: Plus minor 6th
+    type: group
+    min: '23'
+    max: '23'
+  - name: Ice - Interval - +Major 6th
+    value: '30'
+    description: Plus Major 6th
+    type: group
+    min: '24'
+    max: '24'
+  - name: Ice - Interval - +minor 7th
+    value: '30'
+    description: Plus minor 7th
+    type: group
+    min: '25'
+    max: '25'
+  - name: Ice - Interval - +Major 7th
+    value: '30'
+    description: Plus Major 7th
+    type: group
+    min: '26'
+    max: '26'
+  - name: Ice - Interval - +Octave & 5th
+    value: '30'
+    description: Plus Octave & 5th
+    type: group
+    min: '28'
+    max: '28'
+  - name: Ice - Interval - +2 Octaves
+    value: '30'
+    description: Plus 2 Octaves
+    type: group
+    min: '29'
+    max: '29'
+  - name: Dual - Time 2 - 1/8
+    value: 32
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Dual - Time 2 - 1/7
+    value: '32'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Dual - Time 2 - 1/6
+    value: '32'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Dual - Time 2 - 1/5
+    value: '32'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Dual - Time 2 - 1/4
+    value: '32'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Dual - Time 2 - 1/3
+    value: '32'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Dual - Time 2 - 2/5
+    value: '32'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Dual - Time 2 - 1/2
+    value: '32'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Dual - Time 2 - 2/3
+    value: '32'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Dual - Time 2 - 3/4
+    value: '32'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Dual - Time 2 - 4/5
+    value: '32'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Dual - Time 2 - 5/6
+    value: '32'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Dual - Time 2 - 7/8
+    value: '32'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Dual - Time 2 - 1/1
+    value: '32'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Dual - Time 2 - 5/4
+    value: '32'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Dual - Time 2 - 4/3
+    value: '32'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Dual - Time 2 - 3/2
+    value: '32'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Dual - Time 2 - 5/3
+    value: '32'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Dual - Time 2 - 2/1
+    value: '32'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Dual - Time 2 - 5/2
+    value: '32'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Dual - Time 2 - 3/1
+    value: '32'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Dual - Time 2 - 7/2
+    value: '32'
+    description: ''
+    type: group
+    min: '21'
+    max: '21'
+  - name: Dual - Time 2 - 4/1
+    value: '32'
+    description: ''
+    type: group
+    min: '22'
+    max: '22'
+  - name: Dual - Time 2 - 5/1
+    value: '32'
+    description: ''
+    type: group
+    min: '23'
+    max: '23'
+  - name: Dual - Time 2 - 6/1
+    value: '32'
+    description: ''
+    type: group
+    min: '24'
+    max: '24'
+  - name: Dual - Time 2 - 7/1
+    value: '32'
+    description: ''
+    type: group
+    min: '25'
+    max: '25'
+  - name: Dual - Time 2 - 8/1
+    value: '32'
+    description: ''
+    type: group
+    min: '26'
+    max: '26'
   - name: Dual - Mix 2
     value: 33
     description: ''
@@ -95,316 +676,993 @@ cc:
     type: variable
     min: 0
     max: 18
-  - name: Dual - Time 2
-    value: 32
-    description: ''
-    type: variable
+  - name: Dual - Config - Series
+    value: 36
+    description: Series
+    type: group
     min: 0
-    max: 26
-  - name: Duck - Feedback
-    value: 54
-    description: |+
-      Value 0 - Normal
-      Value 1 - Gate
-    type: variable
-    min: 0
-    max: 1
-  - name: Duck - Release
-    value: 55
-    description: |+
-      Value 0 - 0.01s
-      Value 1 - 0.05s
-      Value 2 - 0.10s
-      Value 3 - 0.15s
-      Value 4 - 0.20s
-      Value 5 - 0.25s
-      Value 6 - 0.30s
-      Value 7 - 0.35s
-      Value 8 - 0.40s
-      Value 9 - 0.45s
-      Value 10 - 0.50s
-      Value 11 - 0.55s
-      Value 12 - 0.60s
-      Value 13 - 0.65s
-      Value 14 - 0.70s
-      Value 15 - 0.75s
-      Value 16 - 0.80s
-      Value 17 - 0.85s
-      Value 18 - 0.90s
-      Value 19 - 0.95s
-      Value 20 - 1.00s
-    type: variable
-    min: 0
-    max: 20
+    max: '0'
+  - name: Dual - Config - Parallel
+    value: '36'
+    description: Parallel
+    type: group
+    min: '1'
+    max: '1'
   - name: Duck - Sensitivity
     value: 37
     description: ''
     type: variable
     min: 0
     max: 17
-  - name: Exp On/Off
-    value: 60
+  - name: Smear
+    value: 38
     description: ''
     type: variable
     min: 0
-    max: 1
-  - name: Filter
-    value: 15
+    max: 18
+  - name: Pattern - Pattern 1
+    value: 39
     description: ''
-    type: variable
+    type: group
     min: 0
-    max: 127
+    max: '0'
+  - name: Pattern - Pattern 2
+    value: '39'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Pattern - Pattern 3
+    value: '39'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Pattern - Pattern 4
+    value: '39'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Pattern - Pattern 5
+    value: '39'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Pattern - Pattern 6
+    value: '39'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Pattern - Pattern 7
+    value: '39'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Pattern - Pattern 8
+    value: '39'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Pattern - Pattern 9
+    value: '39'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Pattern - Pattern 10
+    value: '39'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Pattern - Pattern 11
+    value: '39'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Pattern - Pattern 12
+    value: '39'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Pattern - Pattern 13
+    value: '39'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Pattern - Pattern 14
+    value: '39'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Pattern - Pattern 15
+    value: '39'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Pattern - Pattern 16
+    value: '39'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Filter - Q -0.5
+    value: 40
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Filter - Q -0.7
+    value: '40'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Filter - Q -1.0
+    value: '40'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Filter - Q -1.2
+    value: '40'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Filter - Q -1.5
+    value: '40'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Filter - Q - 2.0
+    value: '40'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Filter - Q -2.5
+    value: '40'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Filter - Q - 3.0
+    value: '40'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Filter - Q - 4.0
+    value: '40'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Filter - Q - 5.0
+    value: '40'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Filter - Q - 7.0
+    value: '40'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Filter - Q - 10.0
+    value: '40'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
   - name: Filter - Depth
     value: 41
     description: ''
     type: variable
     min: 0
     max: 18
-  - name: Filter - LFO
-    value: 28
-    description: |+
-      Value 0 - +Triangle
-      Value 1 - -Triangle
-      Value 2 - +Square
-      Value 3 - -Square
-      Value 4 - +Sine
-      Value 5 - -Sine
-      Value 6 - Ramp
-      Value 7 - Saw
-      Value 8 - Random
-      Value 9 - Down
-      Value 10 - Up
-    type: variable
-    min: 0
-    max: 10
-  - name: Filter - Location
-    value: 43
-    description: |+
-      Value 0 - Pre
-      Value 1 - Post
-    type: variable
-    min: 0
-    max: 1
-  - name: Filter - Q
-    value: 40
-    description: |+
-      Value 0 - 0.5
-      Value 1 - 0.7
-      Value 2 - 1.0
-      Value 3 - 1.2
-      Value 4 - 1.5
-      Value 5 - 2.0
-      Value 6 - 2.5
-      Value 7 - 3.0
-      Value 8 - 4.0
-      Value 9 - 5.0
-      Value 10 - 7.0
-      Value 11 - 10.0
-    type: variable
-    min: 0
-    max: 11
-  - name: Filter - Speed
+  - name: Filter - Speed - 1/32
     value: 42
-    description: |+
-      Value 0 - 1/32
-      Value 1 - 1/24
-      Value 2 - 1/18
-      Value 3 - 1/16
-      Value 4 - 1/12
-      Value 5 - 1/10
-      Value 6 - 1/9
-      Value 7 - 1/8
-      Value 8 - 1/7
-      Value 9 - 1/6
-      Value 10 - 1/5
-      Value 11 - 1/4
-      Value 12 - 1/3
-      Value 13 - 1/2
-      Value 14 - 2/3
-      Value 15 - 3/4
-      Value 16 - 1/1
-      Value 17 - 4/3
-      Value 18 - 3/2
-      Value 19 - 5/2
-      Value 20 - 3/1
-      Value 21 - 7/2
-      Value 22 - 4/1
-      Value 23 - 5/1
-      Value 24 - 6/1
-      Value 25 - 7/1
-      Value 26 - 8/1
-      Value 27 - 9/1
-      Value 28 - 10/1
-      Value 29 - 12/1
-      Value 30 - 16/1
-      Value 31 - 18/1
-      Value 32 - 24/1
-      Value 33 - 32/1
-    type: variable
-    min: 0
-    max: 33
-  - name: Full/Half Speed (toggle)
-    value: 95
     description: ''
-    type: variable
+    type: group
     min: 0
-    max: 127
-  - name: Grit
-    value: 16
+    max: '0'
+  - name: Filter - Speed - 1/24
+    value: '42'
     description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: High Pass
-    value: 47
-    description: |+
-      Value 0 - Off
-      Value 1 - 20Hz
-      Value 2 - 40Hz
-      Value 3 - 60Hz
-      Value 4 - 80Hz
-      Value 5 - 100Hz
-      Value 6 - 120Hz
-      Value 7 - 140Hz
-      Value 8 - 160Hz
-      Value 9 - 180Hz
-      Value 10 - 200Hz
-      Value 11 - 230Hz
-      Value 12 - 260Hz
-      Value 13 - 300Hz
-      Value 14 - 350Hz
-      Value 15 - 400Hz
-      Value 16 - 500Hz
-      Value 17 - 600Hz
-      Value 18 - 700Hz
-      Value 19 - 800Hz
-      Value 20 - 900Hz
-    type: variable
-    min: 0
-    max: 20
-  - name: Ice - Blend
-    value: 25
+    type: group
+    min: '1'
+    max: '1'
+  - name: Filter - Speed - 1/18
+    value: '42'
     description: ''
-    type: variable
+    type: group
+    min: '2'
+    max: '2'
+  - name: Filter - Speed - 1/16
+    value: '42'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Filter - Speed - 1/12
+    value: '42'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Filter - Speed - 1/10
+    value: '42'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Filter - Speed - 1/9
+    value: '42'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Filter - Speed - 1/8
+    value: '42'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Filter - Speed - 1/7
+    value: '42'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Filter - Speed - 1/6
+    value: '42'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Filter - Speed - 1/5
+    value: '42'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Filter - Speed - 1/4
+    value: '42'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Filter - Speed - 1/3
+    value: '42'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Filter - Speed - 1/2
+    value: '42'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Filter - Speed - 2/3
+    value: '42'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Filter - Speed - 3/4
+    value: '42'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Filter - Speed - 1/1
+    value: '42'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Filter - Speed - 4/3
+    value: '42'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Filter - Speed - 3/2
+    value: '42'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Filter - Speed - 5/2
+    value: '42'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Filter - Speed - 3/1
+    value: '42'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Filter - Speed - 7/2
+    value: '42'
+    description: ''
+    type: group
+    min: '22'
+    max: '22'
+  - name: Filter - Speed - 5/1
+    value: '42'
+    description: ''
+    type: group
+    min: '23'
+    max: '23'
+  - name: Filter - Speed - 6/1
+    value: '42'
+    description: ''
+    type: group
+    min: '24'
+    max: '24'
+  - name: Filter - Speed - 7/1
+    value: '42'
+    description: ''
+    type: group
+    min: '25'
+    max: '25'
+  - name: Filter - Speed - 8/1
+    value: '42'
+    description: ''
+    type: group
+    min: '26'
+    max: '26'
+  - name: Filter - Speed - 9/1
+    value: '42'
+    description: ''
+    type: group
+    min: '27'
+    max: '27'
+  - name: Filter - Speed - 10/1
+    value: '42'
+    description: ''
+    type: group
+    min: '28'
+    max: '28'
+  - name: Filter - Speed - 12/1
+    value: '42'
+    description: ''
+    type: group
+    min: '29'
+    max: '29'
+  - name: Filter - Speed - 16/1
+    value: '42'
+    description: ''
+    type: group
+    min: '30'
+    max: '30'
+  - name: Filter - Speed - 18/1
+    value: '42'
+    description: ''
+    type: group
+    min: '31'
+    max: '31'
+  - name: Filter - Speed - 24/1
+    value: '42'
+    description: ''
+    type: group
+    min: '32'
+    max: '32'
+  - name: Filter - Speed - 32/1
+    value: '42'
+    description: ''
+    type: group
+    min: '33'
+    max: '33'
+  - name: Filter - Location - Pre
+    value: 43
+    description: Pre
+    type: group
     min: 0
-    max: 20
-  - name: Ice - Interval
-    value: 30
-    description: |+
-      Value 0 - -Octave
-      Value 1 - -Major 7th
-      Value 2 - -minor 7th
-      Value 3 - -Major 6th
-      Value 4 - -minor 6th
-      Value 5 - -Perfect 5th
-      Value 6 - -Tritone
-      Value 7 - -Perfect 4th
-      Value 8 - -Major 3rd
-      Value 9 - -minor 3rd
-      Value 10 - -Major 2nd
-      Value 11 - -minor 2nd
-      Value 12 - -50 cents
-      Value 13 - -25 cents
-      Value 14 - +25 cents
-      Value 15 - +50 cents
-      Value 16 - +minor 2nd
-      Value 17 - +Major 2nd
-      Value 18 - +minor 3rd
-      Value 19 - +Major 3rd
-      Value 20 - +Perfect 4th
-      Value 21 - +Tritone
-      Value 22 - +Perfect 5th
-      Value 23 - +minor 6th
-      Value 24 - +Major 6th
-      Value 25 - +minor 7th
-      Value 26 - +Major 7th
-      Value 27 - +Octave
-      Value 28 - +Octave & 5th
-      Value 29 - +2 Octaves
-    type: variable
+    max: '0'
+  - name: Filter - Location - Post
+    value: '43'
+    description: Post
+    type: group
+    min: '1'
+    max: '1'
+  - name: Swell - Rise Time - 0.10
+    value: 44
+    description: ''
+    type: group
     min: 0
-    max: 29
-  - name: Ice - Slice
+    max: '0'
+  - name: Swell - Rise Time - 0.15
+    value: '44'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Swell - Rise Time - 0.20
+    value: '44'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Swell - Rise Time - 0.25
+    value: '44'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Swell - Rise Time - 0.30
+    value: '44'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Swell - Rise Time - 0.40
+    value: '44'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Swell - Rise Time - 0.50
+    value: '44'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Swell - Rise Time - 0.60
+    value: '44'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Swell - Rise Time - 0.70
+    value: '44'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Swell - Rise Time - 0.80
+    value: '44'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Swell - Rise Time - 0.90
+    value: '44'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Swell - Rise Time - 1.00
+    value: '44'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Swell - Rise Time - 1.10
+    value: '44'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Swell - Rise Time - 1.20
+    value: '44'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Swell - Rise Time - 1.30
+    value: '44'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Swell - Rise Time - 1.40
+    value: '44'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Swell - Rise Time - 1.50
+    value: '44'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Swell - Rise Time - 1.60
+    value: '44'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Swell - Rise Time - 1.70
+    value: '44'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Swell - Rise Time - 1.80
+    value: '44'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Swell - Rise Time - 1.90
+    value: '44'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Swell - Rise Time - 2.00
+    value: '44'
+    description: ''
+    type: group
+    min: '21'
+    max: '21'
+  - name: Swell - Rise Time - 2.20
+    value: '44'
+    description: ''
+    type: group
+    min: '22'
+    max: '22'
+  - name: Swell - Rise Time - 2.40
+    value: '44'
+    description: ''
+    type: group
+    min: '23'
+    max: '23'
+  - name: Swell - Rise Time - 2.60
+    value: '44'
+    description: ''
+    type: group
+    min: '24'
+    max: '24'
+  - name: Swell - Rise Time - 2.80
+    value: '44'
+    description: ''
+    type: group
+    min: '25'
+    max: '25'
+  - name: Swell - Rise Time - 3.00
+    value: '44'
+    description: ''
+    type: group
+    min: '26'
+    max: '26'
+  - name: Swell - Rise Time - 4.00
+    value: '44'
+    description: ''
+    type: group
+    min: '27'
+    max: '27'
+  - name: dBucket - Range - Single
+    value: 45
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: dBucket - Range - Double
+    value: '45'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Ice - Slice - Short
     value: 46
-    description: |+
-      Value 0 - Short
-      Value 1 - Medium
-      Value 2 - Long
-    type: variable
+    description: ''
+    type: group
     min: 0
-    max: 2
-  - name: Lo-Fi - Bit Depth
+    max: '0'
+  - name: Ice - Slice - Medium
+    value: '46'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Ice - Slice - Long
+    value: '46'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: High Pass - OFF
+    value: 47
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: High Pass - 20Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: High Pass - 40Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: High Pass - 60Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: High Pass - 80 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: High Pass - 100 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: High Pass - 120 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: High Pass - 140 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: High Pass - 160 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: High Pass - 180 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: High Pass - 200 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: High Pass - 230 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: High Pass - 260 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: High Pass - 300 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: High Pass - 350 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: High Pass - 400 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: High Pass - 500 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: High Pass - 600 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: High Pass - 700 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: High Pass - 800 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: High Pass - 900 Hz
+    value: '47'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Lo-Fi - Sample Rate - 750 HZ
+    value: 49
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Lo-Fi - Sample Rate - 1 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Lo-Fi - Sample Rate - 1.5 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Lo-Fi - Sample Rate - 2 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Lo-Fi - Sample Rate - 3 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Lo-Fi - Sample Rate - 4 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Lo-Fi - Sample Rate - 5 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Lo-Fi - Sample Rate - 6 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Lo-Fi - Sample Rate - 7 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Lo-Fi - Sample Rate - 8 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Lo-Fi - Sample Rate - 9 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Lo-Fi - Sample Rate - 10 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Lo-Fi - Sample Rate - 11 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Lo-Fi - Sample Rate - 13 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Lo-Fi - Sample Rate - 14 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Lo-Fi - Sample Rate - 16 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Lo-Fi - Sample Rate - 19 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Lo-Fi - Sample Rate - 24 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Lo-Fi - Sample Rate - 32 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Lo-Fi - Sample Rate - 48 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Lo-Fi - Sample Rate - 96 kHZ
+    value: '49'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Lo-Fi - Bit Depth - 4 Bit
     value: 50
-    description: |+
-      Value 0 - 4 bits
-      Value 1 - 4.5 bits
-      Value 2 - 5 bits
-      Value 3 - 5.5 bits
-      Value 4 - 6 bits
-      Value 5 - 6.5 bits
-      Value 6 - 7 bits
-      Value 7 - 7.5 bits
-      Value 8 - 8 bits
-      Value 9 - 9 bits
-      Value 10 - 10 bits
-      Value 11 - 11 bits
-      Value 12 - 12 bits
-      Value 13 - 13 bits
-      Value 14 - 14 bits
-      Value 15 - 15 bits
-      Value 16 - 16 bits
-      Value 17 - 18 bits
-      Value 18 - 20 bits
-      Value 19 - 24 bits
-      Value 20 - 32 bits
-    type: variable
+    description: ''
+    type: group
     min: 0
-    max: 20
-  - name: Lo-Fi - Filter
-    value: 53
-    description: |+
-      Value 0 - Off
-      Value 1 - Portable Vintage Amp
-      Value 2 - Victrola Phonograph
-      Value 3 - 70s Clock Radio
-      Value 4 - Bullhorn Megaphone
-      Value 5 - Cheerleader’s Plastic Megaphone
-      Value 6 - Antique Telephone Ear Piece
-      Value 7 - Cell Phone
-      Value 8 - Apartment Intercom
-    type: variable
-    min: 0
-    max: 8
+    max: '0'
+  - name: Lo-Fi - Bit Depth - 4.5 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Lo-Fi - Bit Depth - 5 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Lo-Fi - Bit Depth - 5.5 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Lo-Fi - Bit Depth - 6 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Lo-Fi - Bit Depth - 6.5 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Lo-Fi - Bit Depth - 7 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Lo-Fi - Bit Depth - 7.5 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Lo-Fi - Bit Depth - 8 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Lo-Fi - Bit Depth - 9 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Lo-Fi - Bit Depth - 10 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Lo-Fi - Bit Depth - 11 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Lo-Fi - Bit Depth - 12 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Lo-Fi - Bit Depth - 13 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Lo-Fi - Bit Depth - 14 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Lo-Fi - Bit Depth - 15 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Lo-Fi - Bit Depth - 16 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Lo-Fi - Bit Depth - 18 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Lo-Fi - Bit Depth - 20 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Lo-Fi - Bit Depth - 24 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Lo-Fi - Bit Depth - 32 Bit
+    value: '50'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
   - name: Lo-Fi - Mix
     value: 51
     description: ''
-    type: variable
-    min: 0
-    max: 20
-  - name: Lo-Fi - Sample Rate
-    value: 49
-    description: |+
-      Value 0 - 750Hz
-      Value 1 - 1kHz
-      Value 2 - 1.5kHz
-      Value 3 - 2kHz
-      Value 4 - 3kHz
-      Value 5 - 4kHz
-      Value 6 - 5kHz
-      Value 7 - 6kHz
-      Value 8 - 7kHz
-      Value 9 - 8kHz
-      Value 10 - 9kHz
-      Value 11 - 10kHz
-      Value 12 - 11kHz
-      Value 13 - 12kHz
-      Value 14 - 14kHz
-      Value 15 - 16kHz
-      Value 16 - 19kHz
-      Value 17 - 24kHz
-      Value 18 - 32kHz
-      Value 19 - 48kHz
-      Value 20 - 96kHz
     type: variable
     min: 0
     max: 20
@@ -414,217 +1672,444 @@ cc:
     type: variable
     min: 0
     max: 18
-  - name: Looper Level
-    value: 98
+  - name: Filter Shape - OFF
+    value: '53'
     description: ''
-    type: variable
+    type: group
     min: 0
-    max: 127
-  - name: MIDI Clock On/Off
-    value: 63
+    max: '0'
+  - name: Filter Shape - Portable Vintage Amp
+    value: '53'
     description: ''
-    type: variable
+    type: group
+    min: '1'
+    max: '1'
+  - name: Filter Shape - Victrola Phonograph
+    value: '53'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Filter Shape - 70s Clock Radio
+    value: '53'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Filter Shape - Bullhorn Megaphone
+    value: '53'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Filter Shape - Cheerleader’s Plastic Megaphone
+    value: '53'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Filter Shape - Antique Telephone Earpiece
+    value: '53'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Filter Shape - Cell Phone
+    value: '53'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Filter Shape - Apartment Intercom
+    value: '53'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Duck - Feedback - Normal
+    value: 54
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Duck - Feedback - Gate
+    value: '54'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Duck - Release Time - 0.01
+    value: 55
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Duck - Release Time - 0.05
+    value: '55'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Duck - Release Time - 0.10
+    value: '55'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Duck - Release Time - 0.15
+    value: '55'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Duck - Release Time - 0.20
+    value: '55'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Duck - Release Time - 0.25
+    value: '55'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Duck - Release Time - 0.30
+    value: '55'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Duck - Release Time - 0.35
+    value: '55'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Duck - Release Time - 0.40
+    value: '55'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Duck - Release Time - 0.45
+    value: '55'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Duck - Release Time - 0.50
+    value: '55'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Duck - Release Time - 0.55
+    value: '55'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Duck - Release Time - 0.60
+    value: '55'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Duck - Release Time - 0.65
+    value: '55'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Duck - Release Time - 0.70
+    value: '55'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Duck - Release Time - 0.75
+    value: '55'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Duck - Release Time - 0.80
+    value: '55'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Duck - Release Time - 0.85
+    value: '55'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Duck - Release Time - 0.90
+    value: '55'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Duck - Release Time - 0.95
+    value: '55'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Duck - Release Time - 1.00
+    value: '55'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Digital - Repeat Dynamics
+    value: 56
+    description: ''
+    type: fixed
     min: 0
     max: 1
-  - name: Mix
-    value: 14
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Pattern - Pattern
-    value: 39
-    description: ''
-    type: variable
-    min: 0
-    max: 15
-  - name: Persist On/Off
-    value: 22
-    description: ''
-    type: variable
-    min: 0
-    max: 1
-  - name: Play
-    value: 86
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Pre/Post (toggle)
-    value: 96
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Record
-    value: 87
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Redo
-    value: 90
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Repeats
-    value: 9
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Reverse (toggle)
-    value: 94
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Smear
-    value: 38
-    description: ''
-    type: variable
-    min: 0
-    max: 18
-  - name: Speed
-    value: 17
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Stop
-    value: 85
-    description: ''
-    type: variable
-    min: 0
-    max: 127
-  - name: Swell - Rise Time
-    value: 44
-    description: |+
-      Value 0 - 0.10s
-      Value 1 - 0.15s
-      Value 2 - 0.20s
-      Value 3 - 0.25s
-      Value 4 - 0.30s
-      Value 5 - 0.40s
-      Value 6 - 0.50s
-      Value 7 - 0.60s
-      Value 8 - 0.70s
-      Value 9 - 0.80s
-      Value 10 - 0.90s
-      Value 11 - 1.00s
-      Value 12 - 1.10s
-      Value 13 - 1.20s
-      Value 14 - 1.30s
-      Value 15 - 1.40s
-      Value 16 - 1.50s
-      Value 17 - 1.60s
-      Value 18 - 1.70s
-      Value 19 - 1.80s
-      Value 20 - 1.90s
-      Value 21 - 2.00s
-      Value 22 - 2.20s
-      Value 23 - 2.40s
-      Value 24 - 2.60s
-      Value 25 - 2.80s
-      Value 26 - 3.00s
-      Value 27 - 4.00s
-    type: variable
-    min: 0
-    max: 27
-  - name: Tap Division
-    value: 21
-    description: ''
-    type: variable
-    min: 0
-    max: 4
-  - name: Time
-    value: 3
-    description: ''
-    type: variable
-    min: 0
-    max: 127
   - name: Trem - Depth
     value: 57
     description: ''
     type: variable
     min: 0
     max: 18
-  - name: Trem - LFO
-    value: 29
-    description: |+
-      Value 0 - Triangle
-      Value 1 - Square
-      Value 2 - Sine
-      Value 3 - Ramp
-      Value 4 - Saw
-    type: variable
+  - name: dTape - Tape Speed - Fast
+    value: 58
+    description: ''
+    type: group
     min: 0
-    max: 4
-  - name: Trem - Speed
-    value: 61
-    description: |+
-      Value 0 - 1/32
-      Value 1 - 1/24
-      Value 2 - 1/18
-      Value 3 - 1/16
-      Value 4 - 1/12
-      Value 5 - 1/10
-      Value 6 - 1/9
-      Value 7 - 1/8
-      Value 8 - 1/7
-      Value 9 - 1/6
-      Value 10 - 1/5
-      Value 11 - 1/4
-      Value 12 - 1/3
-      Value 13 - 1/2
-      Value 14 - 2/3
-      Value 15 - 3/4
-      Value 16 - 1/1
-      Value 17 - 4/3
-      Value 18 - 3/2
-      Value 19 - 5/2
-      Value 20 - 3/1
-      Value 21 - 7/2
-      Value 22 - 4/1
-      Value 23 - 5/1
-      Value 24 - 6/1
-      Value 25 - 7/1
-      Value 26 - 8/1
-      Value 27 - 9/1
-      Value 28 - 10/1
-      Value 29 - 12/1
-      Value 30 - 16/1
-      Value 31 - 18/1
-      Value 32 - 24/1
-      Value 33 - 32/1
-    type: variable
-    min: 0
-    max: 33
-  - name: Type Encoder
-    value: 19
-    description: |+
-      Value 0 - dTape
-      Value 1 - dBucket
-      Value 2 - Digital
-      Value 3 - Dual
-      Value 4 - Pattern
-      Value 5 - Reverse
-      Value 6 - Ice
-      Value 7 - Duck
-      Value 8 - Swell
-      Value 9 - Trem
-      Value 10 - Filter
-      Value 11 - Lo-Fi
-    type: variable
-    min: 0
-    max: 11
-  - name: Undo (to initial loop)
-    value: 89
+    max: '0'
+  - name: dTape - Tape Speed - Normal
+    value: '58'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: dTape - Low End
+    value: 59
     description: ''
     type: variable
     min: 0
-    max: 127
+    max: 20
+  - name: Exp On/Off
+    value: 60
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
+  - name: Trem - Speed - 1/32
+    value: 61
+    description: ''
+    type: group
+    min: 0
+    max: '0'
+  - name: Trem - Speed - 1/24
+    value: '61'
+    description: ''
+    type: group
+    min: '1'
+    max: '1'
+  - name: Trem - Speed - 1/18
+    value: '61'
+    description: ''
+    type: group
+    min: '2'
+    max: '2'
+  - name: Trem - Speed - 1/16
+    value: '61'
+    description: ''
+    type: group
+    min: '3'
+    max: '3'
+  - name: Trem - Speed - 1/12
+    value: '61'
+    description: ''
+    type: group
+    min: '4'
+    max: '4'
+  - name: Trem - Speed - 1/10
+    value: '61'
+    description: ''
+    type: group
+    min: '5'
+    max: '5'
+  - name: Trem - Speed - 1/9
+    value: '61'
+    description: ''
+    type: group
+    min: '6'
+    max: '6'
+  - name: Trem - Speed - 1/8
+    value: '61'
+    description: ''
+    type: group
+    min: '7'
+    max: '7'
+  - name: Trem - Speed - 1/7
+    value: '61'
+    description: ''
+    type: group
+    min: '8'
+    max: '8'
+  - name: Trem - Speed - 1/6
+    value: '61'
+    description: ''
+    type: group
+    min: '9'
+    max: '9'
+  - name: Trem - Speed - 1/5
+    value: '61'
+    description: ''
+    type: group
+    min: '10'
+    max: '10'
+  - name: Trem - Speed - 1/4
+    value: '61'
+    description: ''
+    type: group
+    min: '11'
+    max: '11'
+  - name: Trem - Speed - 1/3
+    value: '61'
+    description: ''
+    type: group
+    min: '12'
+    max: '12'
+  - name: Trem - Speed - 1/2
+    value: '61'
+    description: ''
+    type: group
+    min: '13'
+    max: '13'
+  - name: Trem - Speed - 2/3
+    value: '61'
+    description: ''
+    type: group
+    min: '14'
+    max: '14'
+  - name: Trem - Speed - 3/4
+    value: '61'
+    description: ''
+    type: group
+    min: '15'
+    max: '15'
+  - name: Trem - Speed - 1/1
+    value: '61'
+    description: ''
+    type: group
+    min: '16'
+    max: '16'
+  - name: Trem - Speed - 4/3
+    value: '61'
+    description: ''
+    type: group
+    min: '17'
+    max: '17'
+  - name: Trem - Speed - 3/2
+    value: '61'
+    description: ''
+    type: group
+    min: '18'
+    max: '18'
+  - name: Trem - Speed - 5/2
+    value: '61'
+    description: ''
+    type: group
+    min: '19'
+    max: '19'
+  - name: Trem - Speed - 3/1
+    value: '61'
+    description: ''
+    type: group
+    min: '20'
+    max: '20'
+  - name: Trem - Speed - 7/2
+    value: '61'
+    description: ''
+    type: group
+    min: '21'
+    max: '21'
+  - name: Trem - Speed - 4/1
+    value: '61'
+    description: ''
+    type: group
+    min: '22'
+    max: '22'
+  - name: Trem - Speed - 5/1
+    value: '61'
+    description: ''
+    type: group
+    min: '23'
+    max: '23'
+  - name: Trem - Speed - 6/1
+    value: '61'
+    description: ''
+    type: group
+    min: '24'
+    max: '24'
+  - name: Trem - Speed - 7/1
+    value: '61'
+    description: ''
+    type: group
+    min: '25'
+    max: '25'
+  - name: Trem - Speed - 8/1
+    value: '61'
+    description: ''
+    type: group
+    min: '26'
+    max: '26'
+  - name: Trem - Speed - 9/1
+    value: '61'
+    description: ''
+    type: group
+    min: '27'
+    max: '27'
+  - name: Trem - Speed - 10/1
+    value: '61'
+    description: ''
+    type: group
+    min: '28'
+    max: '28'
+  - name: Trem - Speed - 12/1
+    value: '61'
+    description: ''
+    type: group
+    min: '29'
+    max: '29'
+  - name: Trem - Speed - 16/1
+    value: '61'
+    description: ''
+    type: group
+    min: '30'
+    max: '30'
+  - name: Trem - Speed - 18/1
+    value: '61'
+    description: ''
+    type: group
+    min: '31'
+    max: '31'
+  - name: Trem - Speed - 24/1
+    value: '61'
+    description: ''
+    type: group
+    min: '32'
+    max: '32'
+  - name: Trem - Speed - 32/1
+    value: '61'
+    description: ''
+    type: group
+    min: '33'
+    max: '33'
+  - name: MIDI Clock On/Off
+    value: 63
+    description: ''
+    type: fixed
+    min: 0
+    max: 1
   - name: A footswitch Press Down
     value: 80
     description: ''
@@ -633,6 +2118,18 @@ cc:
     max: 0
   - name: A footswitch Press Up
     value: 80
+    description: ''
+    type: variable
+    min: 127
+    max: 127
+  - name: TAP footswitch Off
+    value: 81
+    description: ''
+    type: variable
+    min: 0
+    max: 0
+  - name: TAP footswitch On
+    value: 81
     description: ''
     type: variable
     min: 127
@@ -649,32 +2146,32 @@ cc:
     type: variable
     min: 127
     max: 127
-  - name: Bypass
-    value: 102
-    description: ''
-    type: variable
-    min: 0
-    max: 0
-  - name: Engage
-    value: 102
-    description: ''
-    type: variable
-    min: 127
-    max: 127
-  - name: Expression Pedal
-    value: 100
+  - name: Stop
+    value: 85
     description: ''
     type: variable
     min: 0
     max: 127
-  - name: MIDI Patch Bank
-    value: 0
+  - name: Play
+    value: 86
     description: ''
     type: variable
     min: 0
-    max: 1
-  - name: Phase Reset
-    value: 125
+    max: 127
+  - name: Record
+    value: 87
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Undo (to initial loop)
+    value: 89
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Redo
+    value: 90
     description: ''
     type: variable
     min: 0
@@ -685,15 +2182,45 @@ cc:
     type: variable
     min: 0
     max: 127
-  - name: TAP footswitch Off
-    value: 81
+  - name: Reverse (toggle)
+    value: 94
     description: ''
     type: variable
     min: 0
-    max: 0
-  - name: TAP footswitch On
-    value: 81
+    max: 127
+  - name: Full/Half Speed (toggle)
+    value: 95
     description: ''
     type: variable
-    min: 127
+    min: 0
+    max: 127
+  - name: Pre/Post (toggle)
+    value: 96
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Looper Level
+    value: 98
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression Pedal
+    value: 100
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Bypass / Engage
+    value: 102
+    description: ''
+    type: fixed
+    min: 0
+    max: '127'
+  - name: Phase Reset
+    value: 125
+    description: ''
+    type: variable
+    min: 0
     max: 127
