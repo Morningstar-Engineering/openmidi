@@ -1,0 +1,558 @@
+brand: REAPER
+model: REALIVE
+device_type: daw_control_surface
+email: info@realive.fm
+url: realive.fm
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs:
+  - name: Port 1
+    type: usb_host
+midi_outputs: []
+midi_thru: Not Applicable
+pc:
+  description: Unknown
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Stop (Reset All Projects)
+    value: 1
+    description: Stops playback and resets all open Realive projects.
+    type: variable
+    min: 20
+    max: 20
+  - name: Stop/GoToPlayStart/GoToSongStart
+    value: 1
+    description: >-
+      Stops playback. Press again to return to the play start position, and
+      again to return to the song start.
+    type: variable
+    min: 127
+    max: 127
+  - name: Play/Stop
+    value: 2
+    description: Toggles playback on and off.
+    type: variable
+    min: 20
+    max: 20
+  - name: Play/Seek
+    value: 2
+    description: 'Starts playback, or seeks to the selected position if already playing.'
+    type: variable
+    min: 40
+    max: 40
+  - name: Play Only
+    value: 2
+    description: Starts playback
+    type: variable
+    min: 127
+    max: 127
+  - name: Seek (At RegionEnd)
+    value: 3
+    description: Jumps to the selected position when the current region ends.
+    type: variable
+    min: 20
+    max: 20
+  - name: Seek (With Region Offset)
+    value: 3
+    description: >-
+      Jumps to the selected position while keeping the current offset within the
+      region.
+    type: variable
+    min: 40
+    max: 40
+  - name: Seek (Immediately)
+    value: 3
+    description: Jumps to the selected position right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: Seek (At BarEnd)
+    value: 3
+    description: Jumps to the selected position at the end of the current bar.
+    type: variable
+    min: 127
+    max: 127
+  - name: Seek To Next Song (Immediately - Stop Current)
+    value: 4
+    description: Jumps to the next song right away and stops the current song.
+    type: variable
+    min: 20
+    max: 20
+  - name: Seek To Next Song (Immediately - Go to start)
+    value: 4
+    description: Jumps right away to the start of the next song.
+    type: variable
+    min: 40
+    max: 40
+  - name: Seek To Next Song (Immediately - Go to start - Stop Current)
+    value: 4
+    description: Jumps right away to the start of the next song and stops the current song.
+    type: variable
+    min: 60
+    max: 60
+  - name: Seek To Next Song (Immediately)
+    value: 4
+    description: Jumps to the next song right away.
+    type: variable
+    min: 127
+    max: 127
+  - name: Seek To Next Song (At Bar End - Stop Current)
+    value: 5
+    description: >-
+      Jumps to the next song at the end of the current bar and stops the current
+      song.
+    type: variable
+    min: 20
+    max: 20
+  - name: Seek To Next Song (At Bar End - Go to start)
+    value: 5
+    description: Jumps to the start of the next song at the end of the current bar.
+    type: variable
+    min: 40
+    max: 40
+  - name: Seek To Next Song (At Bar End - Go to start - Stop Current)
+    value: 5
+    description: >-
+      Jumps to the start of the next song at the end of the current bar and
+      stops the current song.
+    type: variable
+    min: 60
+    max: 60
+  - name: Seek To Next Song (At Bar End)
+    value: 5
+    description: Jumps to the next song at the end of the current bar.
+    type: variable
+    min: 127
+    max: 127
+  - name: Loop
+    value: 7
+    description: Toggles looping of the current region on and off.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'LineCheck: Play'
+    value: 8
+    description: Starts the line check to test audio outputs before a show.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'LineCheck: Play_ClickOnly'
+    value: 8
+    description: Starts the line check with the click only.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'LineCheck: Stop'
+    value: 8
+    description: Stops the line check.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Song [-]'
+    value: 10
+    description: Selects the previous song in the setlist.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Song [-] (Don''t stop current song)'
+    value: 10
+    description: >-
+      Selects the previous song in the setlist without stopping the song that is
+      playing.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'Song [+] (Don''t stop current song)'
+    value: 10
+    description: >-
+      Selects the next song in the setlist without stopping the song that is
+      playing.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'Song [+]'
+    value: 10
+    description: Selects the next song in the setlist.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Song [-] (Stop current song)'
+    value: 11
+    description: >-
+      Stops the song that is playing and selects the previous song in the
+      setlist.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Song [+] (Stop current song)'
+    value: 11
+    description: Stops the song that is playing and selects the next song in the setlist.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Change Song Order In List [-]'
+    value: 12
+    description: Moves the selected song one position up in the setlist.
+    type: variable
+    min: 20
+    max: 20
+  - name: Song (Add one new song)
+    value: 12
+    description: Adds a new song to the setlist.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'Change Song Order In List [+]'
+    value: 12
+    description: Moves the selected song one position down in the setlist.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Region [-]'
+    value: 20
+    description: Selects the previous region (song section).
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Region [-] (Force Seek)'
+    value: 20
+    description: Selects the previous region and jumps to it right away.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'Region [+] (Force Seek)'
+    value: 20
+    description: Selects the next region and jumps to it right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'Region [+]'
+    value: 20
+    description: Selects the next region (song section).
+    type: variable
+    min: 127
+    max: 127
+  - name: '1Bar [-] Tempo/Pitch/Pad'
+    value: 21
+    description: >-
+      Moves the selection back 1 bar. In the Tempo, Pitch or DronePad views,
+      decreases the selected value.
+    type: variable
+    min: 20
+    max: 20
+  - name: '1Bar [-] (Force Seek)'
+    value: 21
+    description: Moves back 1 bar and jumps there right away.
+    type: variable
+    min: 40
+    max: 40
+  - name: '1Bar [+] (Force Seek)'
+    value: 21
+    description: Moves forward 1 bar and jumps there right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: '1Bar [+] Tempo/Pitch/Pad'
+    value: 21
+    description: >-
+      Moves the selection forward 1 bar. In the Tempo, Pitch or DronePad views,
+      increases the selected value.
+    type: variable
+    min: 127
+    max: 127
+  - name: '4Bars [-]'
+    value: 22
+    description: Moves the selection back 4 bars.
+    type: variable
+    min: 20
+    max: 20
+  - name: '4Bars [-] (Force Seek)'
+    value: 22
+    description: Moves back 4 bars and jumps there right away.
+    type: variable
+    min: 40
+    max: 40
+  - name: '4Bars [+] (Force Seek)'
+    value: 22
+    description: Moves forward 4 bars and jumps there right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: '4Bars [+]'
+    value: 22
+    description: Moves the selection forward 4 bars.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Grid [-]'
+    value: 23
+    description: Moves the selection back one grid division.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Grid [-] (Force Seek)'
+    value: 23
+    description: Moves back one grid division and jumps there right away.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'Grid [+] (Force Seek)'
+    value: 23
+    description: Moves forward one grid division and jumps there right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'Grid [+]'
+    value: 23
+    description: Moves the selection forward one grid division.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'SoloClick: Bar_TempoTap'
+    value: 40
+    description: Solos the bar click (tempo tap).
+    type: variable
+    min: 20
+    max: 20
+  - name: 'SoloClick: Percs'
+    value: 40
+    description: Solos the percussion click.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'SoloClick: Cycle'
+    value: 40
+    description: Cycles through the solo click options.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'SoloClick: Beat'
+    value: 40
+    description: Solos the beat click.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'SoloClick: Running Click Bar'
+    value: 41
+    description: Solos the running click on every bar.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'SoloClick: Count In 1 Bar'
+    value: 41
+    description: Solos the click with a 1-bar count-in.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'SoloClick: Count In 2 Bars'
+    value: 41
+    description: Solos the click with a 2-bar count-in.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'SoloClick: Running Click Beat'
+    value: 41
+    description: Solos the running click on every beat.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Click: Mute Division'
+    value: 42
+    description: Mutes or unmutes the click subdivisions.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Click: Enable'
+    value: 42
+    description: Turns the click on and off.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'View: Pitch'
+    value: 50
+    description: Opens the Pitch view.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'View: Tempo'
+    value: 50
+    description: Opens the Tempo view.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'View: Live'
+    value: 50
+    description: Opens the Live view.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'View: Audio Routing Tab'
+    value: 50
+    description: Opens the Audio Routing tab.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'View: Live/Tempo/Pitch/DronePad'
+    value: 51
+    description: 'Cycles through the Live, Tempo, Pitch and DronePad views.'
+    type: variable
+    min: 20
+    max: 20
+  - name: 'View: Routing Assignments'
+    value: 51
+    description: Opens the Routing Assignments view.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'View: DronePad Show window'
+    value: 51
+    description: Shows the DronePad window.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'View: Live/Edit'
+    value: 51
+    description: Switches between the Live and Edit views.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Tempo/Pitch [-]'
+    value: 60
+    description: Decreases the tempo or pitch. Applied on the next seek.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Tempo/Pitch [-] (Apply immediately)'
+    value: 60
+    description: Decreases the tempo or pitch and applies it right away.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'Tempo/Pitch [+] (Apply immediately)'
+    value: 60
+    description: Increases the tempo or pitch and applies it right away.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'Tempo/Pitch [+]'
+    value: 60
+    description: Increases the tempo or pitch. Applied on the next seek.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'Tempo: Enter'
+    value: 61
+    description: Confirms the new tempo value.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'Tempo: Toggle WarpMode'
+    value: 61
+    description: Turns tempo warp mode on and off.
+    type: variable
+    min: 40
+    max: 40
+  - name: Tempo/Pitch Reset
+    value: 61
+    description: Resets tempo and pitch to the song's original values.
+    type: variable
+    min: 127
+    max: 127
+  - name: DronePad Change Sound
+    value: 70
+    description: Switches to the next DronePad sound.
+    type: variable
+    min: 20
+    max: 20
+  - name: DronePad TriggerNote
+    value: 70
+    description: Starts or stops the DronePad note.
+    type: variable
+    min: 127
+    max: 127
+  - name: 'DronePad ChangeNote [-] (Half step)'
+    value: 71
+    description: Lowers the DronePad note by a half step.
+    type: variable
+    min: 20
+    max: 20
+  - name: 'DronePad ChangeNote [-] (Octave)'
+    value: 71
+    description: Lowers the DronePad note by one octave.
+    type: variable
+    min: 40
+    max: 40
+  - name: 'DronePad ChangeNote [+] (Octave)'
+    value: 71
+    description: Raises the DronePad note by one octave.
+    type: variable
+    min: 60
+    max: 60
+  - name: 'DronePad ChangeNote [+] (Half step)'
+    value: 71
+    description: Raises the DronePad note by a half step.
+    type: variable
+    min: 127
+    max: 127
+  - name: Play Fade In
+    value: 72
+    description: Starts playback with a fade-in.
+    type: variable
+    min: 20
+    max: 20
+  - name: Stop Fade Out
+    value: 72
+    description: Stops playback with a fade-out.
+    type: variable
+    min: 40
+    max: 40
+  - name: Play Stop Fade InOut
+    value: 72
+    description: Fades in when starting playback and fades out when stopping.
+    type: variable
+    min: 127
+    max: 127
+  - name: AudioRouting_MuteVocalTrack
+    value: 80
+    description: Mutes or unmutes the vocal track.
+    type: variable
+    min: 20
+    max: 20
+  - name: AudioRouting_SoloOriginalTrack_Play
+    value: 80
+    description: Solos the original track and starts playback.
+    type: variable
+    min: 40
+    max: 40
+  - name: AudioRouting_MuteOriginalTrack
+    value: 80
+    description: Mutes or unmutes the original track.
+    type: variable
+    min: 127
+    max: 127
+  - name: ZoomOut_Horizontal
+    value: 90
+    description: Zooms out horizontally.
+    type: variable
+    min: 20
+    max: 20
+  - name: Zoom_Horizontal_ToProject
+    value: 90
+    description: Zooms out horizontally to show the whole project.
+    type: variable
+    min: 40
+    max: 40
+  - name: ZoomOutTemporarily
+    value: 90
+    description: 'Zooms out temporarily, then returns to the previous zoom.'
+    type: variable
+    min: 60
+    max: 60
+  - name: ZoomIn_Horizontal
+    value: 90
+    description: Zooms in horizontally.
+    type: variable
+    min: 127
+    max: 127
