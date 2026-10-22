@@ -2321,6 +2321,16 @@
       ]
     },
     {
+      "name": "REAPER",
+      "value": "reaper",
+      "models": [
+        {
+          "name": "REALIVE",
+          "value": "realive"
+        }
+      ]
+    },
+    {
       "name": "Red Panda",
       "value": "redpanda",
       "models": [
