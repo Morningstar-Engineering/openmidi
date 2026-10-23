@@ -55,7 +55,7 @@ cc:
     min: 0
     name: "Ringmod: Waveform"
     value: 9
-    type: enum
+    type: group
   - description: Sets the length of the individual grains.
     max: 127
     min: 0
@@ -116,7 +116,7 @@ cc:
     min: 0
     name: "Granulator: Delay Speed Ratio"
     value: 30
-    type: enum
+    type: group
   - description: Sets the amount of pitch modulation applied to each individual
       grain, no glide at 64.
     max: 127
@@ -136,14 +136,14 @@ cc:
     min: 0
     name: "Granulator: Filter Model"
     value: 33
-    type: enum
+    type: group
   - description: Sets the type of envelope applied to each individual grain. 0 =
       Parabolic, 1 = Hann, >= 2 = Triangular.
     max: 2
     min: 0
     name: "Granulator: Envelope Type"
     value: 34
-    type: enum
+    type: group
   - description: Sets the approximated decay time (RT60).
     max: 127
     min: 0
@@ -198,7 +198,7 @@ cc:
     min: 0
     name: "Reverb: Type"
     value: 49
-    type: enum
+    type: group
   - description: Sets the cutoff frequency of the low-cut filter.
     max: 127
     min: 0
@@ -253,7 +253,7 @@ cc:
     min: 0
     name: "Routing: Effect Edit Focus"
     value: 66
-    type: enum
+    type: group
   - description: Sets the processing order of the three effect engines. 0 =
       Ringmod(A)->Granulator(B)->Reverb(C), 1 = A|B|C (parallel), 2 = C->B->A, 3
       = C->A->B, 4 = B->C->A, 5 = B->A->C, >= 6 = A->C->B.
@@ -261,14 +261,14 @@ cc:
     min: 0
     name: "Routing: Effect Order"
     value: 67
-    type: enum
+    type: group
   - description: Defines whether the tempo button affects only the current effect or
       all effects. 0 = Only the current effect, >= 1 = All effects.
     max: 1
     min: 0
     name: "Global: Tempo Set"
     value: 68
-    type: enum
+    type: group
   - description: Sets the wet/dry level of the whole effect engine.
     max: 127
     min: 0
