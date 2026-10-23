@@ -109,7 +109,7 @@ cc:
     min: 0
     name: "Granulator: Reverse"
     value: 29
-    type: switch
+    type: group
   - description: Sets the ratio between density and delay speed. 0 = 1:1, 1 = 1:2, 2
       = 1:3, >= 3 = 1:4.
     max: 3
@@ -228,25 +228,25 @@ cc:
     min: 0
     name: "Global: Bypass"
     value: 62
-    type: switch
+    type: group
   - description: Engages/disengages the Ringmodulator engine. < 64 = OFF, >= 64 = ON.
     max: 127
     min: 0
     name: "Ringmod: Engaged"
     value: 63
-    type: switch
+    type: group
   - description: Engages/disengages the Granulator engine. < 64 = OFF, >= 64 = ON.
     max: 127
     min: 0
     name: "Granulator: Engaged"
     value: 64
-    type: switch
+    type: group
   - description: Engages/disengages the Reverb engine. < 64 = OFF, >= 64 = ON.
     max: 127
     min: 0
     name: "Reverb: Engaged"
     value: 65
-    type: switch
+    type: group
   - description: Sets the effect control focus. 0 = Ringmodulator focussed, 1 =
       Granulator focussed, >= 2 = Reverb focussed.
     max: 2
