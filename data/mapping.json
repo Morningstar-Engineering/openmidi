@@ -2311,6 +2311,16 @@
       ]
     },
     {
+      "name": "Quilter Labs",
+      "value": "quilterlabs",
+      "models": [
+        {
+          "name": "Elevate",
+          "value": "elevate"
+        }
+      ]
+    },
+    {
       "name": "Ramble FX",
       "value": "ramblefx",
       "models": [
