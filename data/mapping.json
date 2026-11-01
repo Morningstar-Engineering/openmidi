@@ -1087,6 +1087,20 @@
       ]
     },
     {
+      "name": "The GigRig",
+      "value": "gigrig",
+      "models": [
+        {
+          "name": "Guitar Tech",
+          "value": "guitartech"
+        },
+        {
+          "name": "Wet/Dry Machine",
+          "value": "wetdrymachine"
+        }
+      ]
+    },
+    {
       "name": "HeadRush",
       "value": "headrush",
       "models": [
