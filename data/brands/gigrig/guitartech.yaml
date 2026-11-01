@@ -1,0 +1,67 @@
+brand: The GigRig
+device_name: Guitar Tech
+midi_channel:
+  instructions: 'Use the white mini potentiometer on the back of the unit to set the MIDI channel. 1~9 selects channels 1~9, A~F selects MIDI channels 10~15.'
+midi_clock: 'No'
+midi_in: 'DIN5'
+midi_thru: 'Yes'
+pc:
+  description: |+
+    Program 1 activates Input 1 and deactivates all other inputs.
+    Program 2 activates Input 2 and deactivates all other inputs.
+    Program 3 activates Input 3 and deactivates all other inputs.
+    Program 4 activates Input 4 and deactivates all other inputs.
+    Program 5 deactivates all input channels.
+    Programs 10 through 25 activate or deactivate inputs according to a fixed binary pattern, allowing direct control of multiple inputs
+    simultaneously. The input states for each program number are as follows:
+    Program 10: Inputs 1, 2, 3 and 4 inactive
+    Program 11: Input 1 active, others inactive
+    Program 12: Input 2 active, others inactive
+    Program 13: Inputs 1 and 2 active
+    Program 14: Input 3 active, others inactive
+    Program 15: Inputs 1 and 3 active
+    Program 16: Inputs 2 and 3 active
+    Program 17: Inputs 1, 2 and 3 active
+    Program 18: Input 4 active, others inactive
+    Program 19: Inputs 1 and 4 active
+    Program 20: Inputs 2 and 4 active
+    Program 21: Inputs 1, 2 and 4 active
+    Program 22: Inputs 3 and 4 active
+    Program 23: Inputs 1, 3 and 4 active
+    Program 24: Inputs 2, 3 and 4 active
+    Program 25: Inputs 1, 2, 3 and 4 active
+    Program messages 10 through 25 override Flip/Flop mode. LED colours may not reflect Flip/Flop status when
+    these program messages are used.
+    All other MIDI messages are ignored. Messages received on other MIDI channels are also ignored.
+phantom_power: ''
+cc:
+  - name: Input 1
+    value: '80'
+    description: 64-127 activates the input, 63 and lower disables it.
+    min: 0
+    max: 127
+    type: variable
+  - name: Input 2
+    value: '81'
+    description: 64-127 activates the input, 63 and lower disables it.
+    min: 0
+    max: 127
+    type: variable
+  - name: Input 3
+    value: '82'
+    description: 64-127 activates the input, 63 and lower disables it.
+    min: 0
+    max: 127
+    type: variable
+  - name: Input 4
+    value: '83'
+    description: 64-127 activates the input, 63 and lower disables it.
+    min: 0
+    max: 127
+    type: variable
+  - name: All Controllers Off
+    value: '121'
+    description: Send any value to turn off all inputs.
+    min: 0
+    max: 127
+    type: variable
