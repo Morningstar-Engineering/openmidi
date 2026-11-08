@@ -2935,6 +2935,10 @@
       "value": "toneking",
       "models": [
         {
+          "name": "Imperial Preamp",
+          "value": "imperialpreamp"
+        },
+        {
           "name": "Imperial Tri-Tube Preamp",
           "value": "imperialtritubepreamp"
         }
