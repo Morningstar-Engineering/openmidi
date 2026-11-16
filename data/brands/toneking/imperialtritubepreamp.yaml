@@ -2,14 +2,14 @@ brand: toneking
 model: imperialtritubepreamp
 brandName: Tone King
 modelName: Imperial Tri-Tube Preamp
-device_type: midi_controller
-email: christian.kuhn@kuester-neuenkirchen.de
+device_type: effect
+email: pdimarco58@gmail.com
 url: ''
 midi_channel:
   instructions: ''
 midi_inputs: []
 midi_outputs: []
-midi_thru: 'Yes'
+midi_thru: 'No'
 pc:
   description: ''
 cc:
