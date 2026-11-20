@@ -1,0 +1,274 @@
+brand: Tone King
+model: Imperial Preamp
+device_type: others
+email: KJHOGAN@GMAIL.COM
+url: ''
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: Unknown
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Bypass On
+    value: 24
+    description: Pre-amp Bypassed
+    type: variable
+    min: 1
+    max: 1
+  - name: Bypass Off
+    value: 24
+    description: Pre-amp Engaged
+    type: variable
+    min: 0
+    max: 0
+  - name: Bypass Toggle
+    value: 24
+    description: Pre-amp Toggled
+    type: variable
+    min: 2
+    max: 2
+  - name: Rhythm Channel
+    value: 25
+    description: Rhythm Channel On
+    type: variable
+    min: 0
+    max: 0
+  - name: Lead Channel
+    value: 25
+    description: Lead Channel On
+    type: variable
+    min: 1
+    max: 1
+  - name: Channel Toggle
+    value: 25
+    description: Channel Toggle
+    type: variable
+    min: 2
+    max: 2
+  - name: Loop Bypass On
+    value: 26
+    description: Effects Loop Bypassed
+    type: variable
+    min: 1
+    max: 1
+  - name: Loop Bypass Off
+    value: 26
+    description: Effects Loop Engaged
+    type: variable
+    min: 0
+    max: 0
+  - name: Loop Bypass Toggle
+    value: 26
+    description: Effects Loop Toggle
+    type: variable
+    min: 2
+    max: 2
+  - name: IR Bypass On
+    value: 27
+    description: Speaker Impulse Response On
+    type: variable
+    min: 1
+    max: 1
+  - name: IR Bypass Off
+    value: 27
+    description: Speaker Impulse Response Off
+    type: variable
+    min: 0
+    max: 0
+  - name: IR Bypass Toggle
+    value: 27
+    description: Speaker IR Toggle
+    type: variable
+    min: 2
+    max: 2
+  - name: Cab 1
+    value: 28
+    description: Speaker Cab 1
+    type: variable
+    min: 0
+    max: 0
+  - name: Cab 2
+    value: 28
+    description: Speaker Cab 2
+    type: variable
+    min: 1
+    max: 1
+  - name: Cab 3
+    value: 28
+    description: Speaker Cab 3
+    type: variable
+    min: 2
+    max: 2
+  - name: HF Comp On
+    value: 29
+    description: High Frequency Compensation On
+    type: variable
+    min: 1
+    max: 1
+  - name: HF Comp Off
+    value: 29
+    description: High Frequency Compensation Off
+    type: variable
+    min: 0
+    max: 0
+  - name: Lowpass 1
+    value: 30
+    description: Lowpass Filter 15 KHz
+    type: variable
+    min: 0
+    max: 0
+  - name: Lowpass 2
+    value: 30
+    description: Lowpass Filter 10 KHz
+    type: variable
+    min: 1
+    max: 1
+  - name: Lowpass 3
+    value: 30
+    description: Lowpass Filter 5 KHz
+    type: variable
+    min: 2
+    max: 2
+  - name: Reverb On
+    value: 31
+    description: Reverb On
+    type: variable
+    min: 1
+    max: 1
+  - name: Reverb Off
+    value: 31
+    description: Reverb Off
+    type: variable
+    min: 0
+    max: 0
+  - name: Reverb Toggle
+    value: 31
+    description: Reverb Toggle
+    type: variable
+    min: 2
+    max: 2
+  - name: Tremolo On
+    value: 32
+    description: Tremolo On
+    type: variable
+    min: 1
+    max: 1
+  - name: Tremolo Off
+    value: 32
+    description: Tremolo Off
+    type: variable
+    min: 0
+    max: 0
+  - name: Tremolo Toggle
+    value: 32
+    description: Tremolo Toggle
+    type: variable
+    min: 2
+    max: 2
+  - name: Highpass Filter 40 Hz
+    value: 33
+    description: Highpass Filter 40 Hz
+    type: variable
+    min: 0
+    max: 0
+  - name: Highpass Filter 110 Hz
+    value: 33
+    description: Highpass Filter 110 Hz
+    type: variable
+    min: 1
+    max: 1
+  - name: Highpass Filter 5 KHz
+    value: 33
+    description: Highpass Filter 5 KHz
+    type: variable
+    min: 2
+    max: 2
+  - name: Reverb Kind Spring
+    value: 34
+    description: Reverb Kind Spring
+    type: variable
+    min: 0
+    max: 0
+  - name: Reverb Kind Ambient
+    value: 34
+    description: Reverb Kind Ambient
+    type: variable
+    min: 1
+    max: 1
+  - name: Reverb Kind Room
+    value: 34
+    description: Reverb Kind Room
+    type: variable
+    min: 2
+    max: 2
+  - name: Reverb Tone Low
+    value: 35
+    description: Reverb Tone Low
+    type: variable
+    min: 0
+    max: 0
+  - name: Reverb Tone Mid
+    value: 35
+    description: Reverb Tone Mid
+    type: variable
+    min: 1
+    max: 1
+  - name: Reverb Tone High
+    value: 35
+    description: Reverb Tone High
+    type: variable
+    min: 2
+    max: 2
+  - name: Tremolo Width Mono
+    value: 35
+    description: Tremolo Width Mono
+    type: variable
+    min: 0
+    max: 0
+  - name: Tremolo Width Low
+    value: 35
+    description: Tremolo Width Low
+    type: variable
+    min: 1
+    max: 1
+  - name: Tremolo Width Mid
+    value: 35
+    description: Tremolo Width Mid
+    type: variable
+    min: 2
+    max: 2
+  - name: Tremolo Width High
+    value: 35
+    description: Tremolo Width High
+    type: variable
+    min: 3
+    max: 3
+  - name: Reverb Level
+    value: 37
+    description: Reverb Level
+    type: variable
+    min: 0
+    max: 127
+  - name: Reverb Dwell
+    value: 38
+    description: Reverb Dwell
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Depth
+    value: 39
+    description: Tremolo Depth
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Speed
+    value: 40
+    description: Tremolo Speed
+    type: variable
+    min: 0
+    max: 127
