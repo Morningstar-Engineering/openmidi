@@ -1,0 +1,86 @@
+brand: Boss
+model: SY-200
+device_type: effect
+email: jtfreed@gmail.com
+url: 'https://static.roland.com/assets/media/pdf/SY-200_eng03_W.pdf'
+midi_channel:
+  instructions: MIDI channel can be set in the settings menu.
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: >-
+    MIDI PCs can be mapped in the pedal settings menu. Parameters shown are the
+    defaults.
+phantom_power: Unknown
+midi_mapping: >-
+  MIDI CCs can be mapped in the pedal settings menu. Parameters shown are the
+  defaults.
+cc:
+  - name: Expression
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Direct Level
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect Level
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 1
+    value: '20'
+    description: typically Tone (parameters vary by patch)
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 2
+    value: '21'
+    description: typically Resonance/Rate (parameters vary by patch)
+    type: variable
+    min: 0
+    max: 127
+  - name: Parameter 3
+    value: '22'
+    description: typically Depth (parameters vary by patch)
+    type: variable
+    min: 0
+    max: 127
+  - name: Effect On/Off
+    value: '27'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: On/Off switch emulation
+    value: '28'
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: CTL 2
+    value: '80'
+    description: Control 2 is user-selectable function defined in pedal settings menu
+    type: fixed
+    min: 0
+    max: 127
+  - name: CTL 3
+    value: '81'
+    description: Control 3 is user-selectable function defined in pedal settings menu
+    type: fixed
+    min: 0
+    max: 127
+  - name: CTL 1
+    value: '82'
+    description: Control 1 is user-selectable function defined in pedal settings menu
+    type: fixed
+    min: 0
+    max: 127
