@@ -363,6 +363,10 @@
         {
           "name": "Slicer SL-2",
           "value": "slicer-sl2"
+        },
+        {
+          "name": "SY-200",
+          "value": "sy-200"
         }
       ]
     },
