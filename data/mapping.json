@@ -2109,6 +2109,16 @@
       ]
     },
     {
+      "name": "Old Blood Noise",
+      "value": "oldbloodnoise",
+      "models": [
+        {
+          "name": "Iota",
+          "value": "iota"
+        }
+      ]
+    },
+    {
       "name": "Old Blood Noise Endeavors",
       "value": "oldbloodnoiseendeavors",
       "models": [
