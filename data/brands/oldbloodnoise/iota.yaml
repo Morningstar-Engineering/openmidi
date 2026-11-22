@@ -1,0 +1,223 @@
+brand: Old Blood Noise
+model: Iota
+device_type: synth
+email: 'https://oldbloodnoise.com/about-obne-contact'
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/6ae784196d86a6541fcc8ac6/1793557529562/IOTA+Instruction+Manual-compressed.pdf
+midi_channel:
+  instructions: 'Default = 1, use CC message to change'
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: 'No'
+midi_mapping: CC 102 with channel 1-16 as value
+cc:
+  - name: Volume
+    value: '7'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Expression
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Osc
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Skip
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Hold
+    value: '16'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Noise
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Bend
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Glide
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Swing
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Range
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivisions
+    value: '24'
+    description: >-
+      /4: 0-18, /3: 19-36, /2: 37-54, x1: 55-72, x2: 73-90, x3: 91-108, x4:
+      109-127
+    type: fixed
+    min: 0
+    max: 127
+  - name: Stereo spread
+    value: '25'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Bend Polarity
+    value: '26'
+    description: 'Downward: 0-63, Upward: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: On/Off Switch
+    value: '27'
+    description: 'OFF: 0-63, ON: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '28'
+    description: 'Tap Pulse: 0, (no response for 1-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Manual Trigger Switch
+    value: '29'
+    description: 'Trigger Note: 0, (no response for 1-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Root
+    value: '30'
+    description: >-
+      A: 0, A#: 1, B:2, C:3, C#:4, D: 5, D#: 6, E:7, F:8, F#:9, G:10, G#:11, (no
+      response 12-127)
+    type: fixed
+    min: 0
+    max: 127
+  - name: Scale (MSB)
+    value: '31'
+    description: >-
+      Sets notes 1-7 of the scale in binary, where each bit represents whether
+      the note is on (0-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: Scale (LSB)
+    value: '32'
+    description: >-
+      Sets notes 8-12 of the scale in binary, where each bit represents whether
+      the note is on (0-31, no response to 32-127)
+    type: variable
+    min: 0
+    max: 127
+  - name: Direction
+    value: '33'
+    description: 'Up: 0-42, Down: 43-85, Both: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Amp Shape
+    value: '34'
+    description: 'Falling: 0-42, Rising and Falling: 43-85, Full: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Amp Length
+    value: '35'
+    description: 'Quarter: 0-42, Half: 43-85, Full: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Octave
+    value: '36'
+    description: '1: 0-25, 2: 26-50, 3: 51-75, 4: 76-100, 5: 101-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Scramble
+    value: '37'
+    description: 'Scramble Off: 0-63, Scramble On: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Input Modes
+    value: '85'
+    description: >-
+      Clock and Note Listen Off: 0, Clock Listen On, Note Listen Off: 1, Clock
+      Listen Off, Note Listen On: 2, Clock Listen On, Note Listen On: 3.
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Output Modes
+    value: '86'
+    description: >-
+      Clock Off, Note Off, Exp Off: 0, Clock On, Note Off, Exp Off: 1, Clock
+      Off, Note On, Exp Off: 2, Clock On, Note On, Exp Off: 3, Clock Off, Note
+      Off, Exp On: 4, Clock On, Note Off, Exp On: 5, Clock Off, Note On, Exp On:
+      6, Clock On, Note On, Exp On: 7
+    type: variable
+    min: 0
+    max: 127
+  - name: Root Scale Preset Mode
+    value: '88'
+    description: 'Root: 0-42, Scale: 43-85, Preset: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Aux Footswitch Mode
+    value: '89'
+    description: 'Manual Trigger: 0-42, Tap Tempo: 43-85, Preset: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Preset Saving Switch
+    value: '90'
+    description: 'Cancel Save: 0-42, Start Save: 43-85, Confirm Save: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: 1-16
+    type: fixed
+    min: 0
+    max: 127
