@@ -1259,6 +1259,10 @@
         {
           "name": "Revelation Reverb 2.0",
           "value": "revelationreverb20"
+        },
+        {
+          "name": "Revelation Reverb V3",
+          "value": "revelationreverbv3"
         }
       ]
     },
