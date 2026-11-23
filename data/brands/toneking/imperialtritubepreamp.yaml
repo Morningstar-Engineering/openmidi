@@ -2,152 +2,284 @@ brand: toneking
 model: imperialtritubepreamp
 brandName: Tone King
 modelName: Imperial Tri-Tube Preamp
-device_type: midi_controller
-email: christian.kuhn@kuester-neuenkirchen.de
+device_type: effect
+email: pdimarco58@gmail.com
 url: ''
 midi_channel:
   instructions: ''
 midi_inputs: []
 midi_outputs: []
-midi_thru: 'Yes'
+midi_thru: 'No'
 pc:
   description: ''
 cc:
-  - name: Bypass On
-    value: '24'
+  - name: Bypass Off
+    value: 24
     description: Pre-amp Bypassed
-    type: variable
+    type: group
+    min: '0'
+    max: '0'
+  - name: Bypass On
+    value: 24
+    description: Pre-amp On
+    type: group
     min: '1'
     max: '1'
-  - name: Bypass Off
+  - name: Bypass Toggle
     value: '24'
-    description: Pre-amp Engaged
-    type: variable
-    min: 0
-    max: '0'
+    description: Pre-amp Toggle
+    type: group
+    min: '2'
+    max: '2'
   - name: Rhythm Channel
     value: '25'
     description: Rhythm Channel On
-    type: variable
+    type: group
     min: 0
     max: '0'
   - name: Lead Channel
     value: '25'
     description: Lead Channel On
-    type: variable
+    type: group
     min: '1'
     max: '1'
-  - name: Loop Bypass On
-    value: '26'
-    description: Effects Loop Bypassed
-    type: variable
-    min: '1'
-    max: '1'
+  - name: Channel Toggle
+    value: 25
+    description: 'Toggle Rhythm/Lead '
+    type: group
+    min: '2'
+    max: '2'
   - name: Loop Bypass Off
     value: '26'
     description: Effects Loop Engaged
-    type: variable
+    type: group
+    min: 0
+    max: '0'
+  - name: Loop Bypass On
+    value: '26'
+    description: Effects Loop Bypassed
+    type: group
+    min: '1'
+    max: '1'
+  - name: Loop Toggle
+    value: 26
+    description: Effects Loop Toggle
+    type: group
+    min: '2'
+    max: '2'
+  - name: IR Bypass Off
+    value: '27'
+    description: Speaker Impulse Response Engaged
+    type: group
     min: 0
     max: '0'
   - name: IR Bypass On
     value: '27'
     description: Speaker Impulse Response Bypassed
-    type: variable
-    min: '127'
-    max: 127
-  - name: IR Bypass Off
-    value: '27'
-    description: Speaker Impulse Response Engaged
-    type: variable
-    min: 0
-    max: '0'
+    type: group
+    min: '1'
+    max: '1'
+  - name: IR Toggle
+    value: 27
+    description: Impulse Response Toggle
+    type: group
+    min: '2'
+    max: '2'
   - name: Cab 1
     value: '28'
     description: Speaker Cab 1
-    type: variable
+    type: group
     min: 0
     max: '0'
   - name: Cab 2
     value: '28'
     description: Speaker Cab 2
-    type: variable
+    type: group
     min: '1'
     max: '1'
   - name: Cab 3
     value: '28'
     description: Speaker Cab 3
-    type: variable
+    type: group
     min: '2'
     max: '2'
-  - name: HF Comp On
-    value: '29'
-    description: High Frequency Compensation On
-    type: variable
-    min: '1'
-    max: '1'
   - name: HF Comp Off
     value: '29'
     description: High Frequency Compensation Off
-    type: variable
+    type: group
     min: 0
     max: '0'
-  - name: Lowpass 1
-    value: '30'
+  - name: HF Comp On
+    value: '29'
+    description: High Frequency Compensation On
+    type: group
+    min: '1'
+    max: '1'
+  - name: Lowpass 15 kHz
+    value: 30
     description: Lowpass Filter 1
-    type: variable
-    min: 0
+    type: group
+    min: '0'
     max: '0'
-  - name: Lowpass 2
+  - name: Lowpass 10 kHz
     value: '30'
     description: Lowpass Filter 2
-    type: variable
+    type: group
     min: '1'
     max: '1'
-  - name: Lowpass 3
+  - name: Lowpass 5 kHz
     value: '30'
     description: Lowpass Filter 3
-    type: variable
+    type: group
     min: '2'
     max: '2'
-  - name: Reverb On
-    value: '31'
-    description: Reverb On
-    type: variable
-    min: '1'
-    max: '1'
   - name: Reverb Off
     value: '31'
     description: Reverb Off
-    type: variable
+    type: group
     min: 0
+    max: '0'
+  - name: Reverb On
+    value: '31'
+    description: Reverb On
+    type: group
+    min: '1'
+    max: '1'
+  - name: Reverb Toggle
+    value: 31
+    description: Reverb Toggle
+    type: group
+    min: '2'
+    max: '2'
+  - name: Tremolo Off
+    value: 32
+    description: Tremolo Off
+    type: group
+    min: '0'
     max: '0'
   - name: Tremolo On
     value: '32'
     description: Tremolo On
-    type: variable
+    type: group
     min: '1'
     max: '1'
-  - name: Tremolo Off
-    value: '32'
-    description: Tremolo Off
-    type: variable
-    min: 0
-    max: '0'
-  - name: Highpass 1
-    value: '33'
-    description: Highpass Filter 1
-    type: variable
-    min: 0
-    max: '0'
-  - name: Highpass 2
-    value: '33'
-    description: Highpass Filter 2
-    type: variable
-    min: '1'
-    max: '1'
-  - name: Highpass 3
-    value: '33'
-    description: Highpass Filter 3
-    type: variable
+  - name: Tremolo Toggle
+    value: 32
+    description: Tremolo Toggle
+    type: group
     min: '2'
     max: '2'
+  - name: Highpass 40 Hz
+    value: '33'
+    description: Highpass Filter 1
+    type: group
+    min: 0
+    max: '0'
+  - name: Highpass 110 Hz
+    value: '33'
+    description: Highpass Filter 2
+    type: group
+    min: '1'
+    max: '1'
+  - name: Highpass 180 Hz
+    value: '33'
+    description: Highpass Filter 3
+    type: group
+    min: '2'
+    max: '2'
+  - name: Reverb Type - Spring
+    value: '34'
+    description: Spring Reverb
+    type: group
+    min: '0'
+    max: '0'
+  - name: Reverb Type - Ambient
+    value: 34
+    description: Ambient Reverb
+    type: group
+    min: '1'
+    max: '1'
+  - name: Reverb Type - Room
+    value: 34
+    description: Room Reverb
+    type: group
+    min: '2'
+    max: '2'
+  - name: Reverb Type - Plate
+    value: 34
+    description: Plate Reverb
+    type: group
+    min: '3'
+    max: '3'
+  - name: Reverb Type - Hybrid
+    value: 34
+    description: Hybrid Reverb
+    type: group
+    min: '4'
+    max: '4'
+  - name: Reverb Tone - Low
+    value: '35'
+    description: Low Reverb
+    type: group
+    min: '0'
+    max: '0'
+  - name: Reverb Tone - Mid
+    value: 35
+    description: Mid Reverb
+    type: group
+    min: '1'
+    max: '1'
+  - name: Reverb Tone - High
+    value: 35
+    description: High Reverb
+    type: group
+    min: '2'
+    max: '2'
+  - name: Tremolo Width - Mono
+    value: '36'
+    description: Mono Tremolo
+    type: group
+    min: '0'
+    max: '0'
+  - name: Tremolo Width - Low
+    value: 36
+    description: Low Tremolo
+    type: group
+    min: '1'
+    max: '1'
+  - name: Tremolo Width - Mid
+    value: 36
+    description: Mid Tremolo
+    type: group
+    min: '2'
+    max: '2'
+  - name: Tremolo Width - High
+    value: 36
+    description: High Tremolo
+    type: group
+    min: '3'
+    max: '3'
+  - name: Reverb Level
+    value: '37'
+    description: Expression Level Adjust
+    type: variable
+    min: '0'
+    max: '127'
+  - name: Reverb Dwell
+    value: '38'
+    description: Expression Level Adjust
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Depth
+    value: '39'
+    description: Expression Level Adjust
+    type: variable
+    min: 0
+    max: 127
+  - name: Tremolo Speed
+    value: '40'
+    description: Expression Level Adjust
+    type: variable
+    min: 0
+    max: 127

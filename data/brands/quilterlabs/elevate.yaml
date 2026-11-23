@@ -1,0 +1,120 @@
+brand: Quilter Labs
+model: Elevate
+device_type: effect
+email: firman@morningstarfx.com
+url: 'https://manuals.quilterlabs.com/en/Effects/Elevate'
+midi_channel:
+  instructions: 'Set in the Setup Menu '
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: 'No'
+midi_mapping: Not Applicable
+cc:
+  - name: List Select
+    value: 0
+    description: 'All Presets = 0, User List = 1-50'
+    type: group
+    min: 0
+    max: '50'
+  - name: Master Volume
+    value: '7'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: 'Expression Volume, Wah, Echo Mix or Reverb Mix'
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: A | B
+    value: '82'
+    description: 'A = 0-63, B = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: Bank Select for All Presets List
+    value: '32'
+    description: >-
+      preset 0-99 = 0, preset 100-199 = 1, preset 200-299 = 2, preset 300-399 =
+      3, preset 400-499 = 4
+    type: group
+    min: 0
+    max: '4'
+  - name: Main Bypass/Enable
+    value: '83'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: COMP Bypass/Enable
+    value: '102'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: PRE EQ Bypass/Enable
+    value: '103'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: GAIN Bypass/Enable
+    value: '104'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: POST EQ Bypass/Enable
+    value: '105'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: GATE Bypass/Enable
+    value: '106'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: MOD Bypass/Enable
+    value: '107'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: ECHO Bypass/Enable
+    value: '108'
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: 0
+    max: 127
+  - name: REVERB Bypass/Enable
+    value: 109
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: CAB Bypass/Enable
+    value: 110
+    description: 'bypass = 0-63, enable = 64-127'
+    type: group
+    min: '0'
+    max: 127
+  - name: Omni Mode Off
+    value: 124
+    description: ''
+    type: fixed
+    min: 0
+    max: 127
+  - name: Omni Mode On
+    value: 125
+    description: ''
+    type: fixed
+    min: 0
+    max: 127

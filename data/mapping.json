@@ -363,6 +363,10 @@
         {
           "name": "Slicer SL-2",
           "value": "slicer-sl2"
+        },
+        {
+          "name": "SY-200",
+          "value": "sy-200"
         }
       ]
     },
@@ -2109,6 +2113,16 @@
       ]
     },
     {
+      "name": "Old Blood Noise",
+      "value": "oldbloodnoise",
+      "models": [
+        {
+          "name": "Iota",
+          "value": "iota"
+        }
+      ]
+    },
+    {
       "name": "Old Blood Noise Endeavors",
       "value": "oldbloodnoiseendeavors",
       "models": [
@@ -2307,6 +2321,16 @@
         {
           "name": "Bias Rack",
           "value": "biasrack"
+        }
+      ]
+    },
+    {
+      "name": "Quilter Labs",
+      "value": "quilterlabs",
+      "models": [
+        {
+          "name": "Elevate",
+          "value": "elevate"
         }
       ]
     },
@@ -2934,6 +2958,10 @@
       "name": "Tone King",
       "value": "toneking",
       "models": [
+        {
+          "name": "Imperial Preamp",
+          "value": "imperialpreamp"
+        },
         {
           "name": "Imperial Tri-Tube Preamp",
           "value": "imperialtritubepreamp"
