@@ -2143,6 +2143,10 @@
           "value": "darkstarstereosoundscapereverb"
         },
         {
+          "name": "Float v2",
+          "value": "floatv2"
+        },
+        {
           "name": "MTET",
           "value": "mtet"
         },

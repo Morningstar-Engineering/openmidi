@@ -1,0 +1,205 @@
+brand: Old Blood Noise Endeavors
+model: Float v2
+device_type: midi_controller
+email: 'https://oldbloodnoise.com/about-obne-contact'
+url: >-
+  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/6ae7830ceb8bcf1ddf7d37b5/1793557260858/Float+Instruction+Manual-compressed.pdf
+midi_channel:
+  instructions: 'Default = 1, use CC message to change'
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'Yes'
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Send CC 102 with value of MIDI channel 1-16
+cc:
+  - name: Expression
+    value: '11'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate 1
+    value: '14'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Rate 2
+    value: '15'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Subdivisions 1
+    value: '16'
+    description: >-
+      /4: 0-18, /3: 19-36, /2: 37-54,  x1: 55-72, x2:73-90, x3: 91-108, x4:
+      109-127
+    type: fixed
+    min: 0
+    max: 127
+  - name: Subdivisions 2
+    value: '17'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth 1
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Depth 2
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Shape 1
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Shape 2
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Cutoff 1
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Cutoff 2
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Sens 1
+    value: '24'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Sens 2
+    value: '25'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Attack 1
+    value: '26'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Attack 2
+    value: '27'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Res 1
+    value: '28'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Res 2
+    value: '29'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Vol 1
+    value: '30'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Vol 2
+    value: '31'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter Mode 1
+    value: '32'
+    description: >-
+      1: LPF, 2: BPF, 3: LPF + BPF, 4: HPF, 5: HPF + LPF, 6: HPF + BPF, 7: LPF +
+      BPF + HPF, 0: 8-127: N/A
+    type: fixed
+    min: 0
+    max: 127
+  - name: Filter Mode 2
+    value: '33'
+    description: >-
+      1: LPF, 2: BPF, 3: LPF + BPF, 4: HPF, 5: HPF + LPF, 6: HPF + BPF, 7: LPF +
+      BPF + HPF, 0: 8-127: N/A
+    type: fixed
+    min: 0
+    max: 127
+  - name: Sync
+    value: '34'
+    description: 'Sync Off: 0-42, Sync On: 43-85, Hard Sync: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Filter 1 On/Off
+    value: '85'
+    description: 'OFF: 0-63, ON: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Filter 2 On/Off
+    value: '86'
+    description: 'OFF: 0-63, ON: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Tap Tempo Switch
+    value: '87'
+    description: 'Tap Pulse: 0 (no response for 1-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Preset Saving Switch
+    value: '89'
+    description: 'Cancel Save: 0-42, Start Save: 43-85, Confirm Save: 86-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: MIDI Channel
+    value: '102'
+    description: ''
+    type: variable
+    min: 0
+    max: '16'
+  - name: Stereo Setting
+    value: '104'
+    description: >-
+      Mono Parallel: 0-31, Mono In Stereo Out: 32-63, Stereo: 64-95, Mono
+      Series: 96-127
+    type: fixed
+    min: 0
+    max: 127
+  - name: Clock Mode
+    value: '105'
+    description: 'Clock Listen: 0-63, Clock Ignore: 64-127'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Footswitch Mode
+    value: '106'
+    description: 'Tap Tempo: 0-63, Preset Switching: 64-127'
+    type: fixed
+    min: 0
+    max: 127
