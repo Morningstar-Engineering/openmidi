@@ -1,0 +1,162 @@
+brand: Jet Pedals
+model: Revelation Reverb V3
+device_type: midi_controller
+email: mathias.bo00@gmail.com
+url: >-
+  https://docs.jetpedals.com/books/new-revelation-reverb/page/control-change-messages
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: 'No'
+pc:
+  description: Unknown
+phantom_power: Unknown
+midi_mapping: Not Applicable
+cc:
+  - name: Set Custom Mix Taper
+    value: '17'
+    description: >-
+      Any value between 0 & 42 sets the custom Mix Taper to 1. Any value between
+      43 & 85 sets the custom Mix Taper to 2. Any value between 86 & 127 sets
+      the custom Mix Taper to 3.
+    type: variable
+    min: 0
+    max: 127
+  - name: 'Set Pre-delay: 0 ms'
+    value: '18'
+    description: ''
+    type: variable
+    min: 0
+    max: '42'
+  - name: 'Set Pre-delay: 50 ms'
+    value: 18
+    description: ''
+    type: variable
+    min: '43'
+    max: '85'
+  - name: 'Set Pre-delay: 100 ms'
+    value: 18
+    description: ''
+    type: variable
+    min: '86'
+    max: '127'
+  - name: Mix Knob
+    value: '19'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Decay Knob
+    value: '20'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Filter Knob
+    value: '21'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Cntrl1 Knob
+    value: '22'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Bypass Pedal
+    value: '23'
+    description: ''
+    type: variable
+    min: 0
+    max: '63'
+  - name: Engage Pedal
+    value: '23'
+    description: ''
+    type: variable
+    min: '64'
+    max: 127
+  - name: 'Turn On: Preset Switch'
+    value: '24'
+    description: ''
+    type: variable
+    min: 0
+    max: '63'
+  - name: 'Turn Off: Preset Switch'
+    value: 24
+    description: ''
+    type: variable
+    min: '64'
+    max: '127'
+  - name: Increase Preset Number
+    value: '25'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: Decrease Preset Number
+    value: '26'
+    description: ''
+    type: variable
+    min: 0
+    max: 127
+  - name: 'Algorithm: Spring Reverb'
+    value: '27'
+    description: ''
+    type: variable
+    min: 0
+    max: '21'
+  - name: 'Algorithm: Room Reverb'
+    value: 27
+    description: ''
+    type: variable
+    min: '22'
+    max: '44'
+  - name: 'Algorithm: Plate Reverb'
+    value: 27
+    description: ''
+    type: variable
+    min: '45'
+    max: '66'
+  - name: 'Algorithm: Modulated Reverb'
+    value: 27
+    description: ''
+    type: variable
+    min: '67'
+    max: '88'
+  - name: 'Algorithm: Shimmer Reverb'
+    value: 27
+    description: ''
+    type: variable
+    min: '89'
+    max: '110'
+  - name: 'Algorithm: Anti-Shimmer Reverb'
+    value: 27
+    description: ''
+    type: variable
+    min: '111'
+    max: '127'
+  - name: Snapshot Capture
+    value: '28'
+    description: >-
+      This takes a snapshot of your current settings and stores it in permanent
+      memory at the appropriate preset location. An example would be to send CC
+      #28 Value 7, this stores a preset in the 7th slot and can be recalled
+      anytime by sending PC #7
+    type: variable
+    min: '7'
+    max: 127
+  - name: 'Turn On: Infinite Bloom'
+    value: '30'
+    description: ''
+    type: variable
+    min: 0
+    max: '63'
+  - name: 'Turn Off: Infinite Bloom'
+    value: '30'
+    description: ''
+    type: variable
+    min: '64'
+    max: 127
