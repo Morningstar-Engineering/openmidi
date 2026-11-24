@@ -1,19 +1,17 @@
-brand: Old Blood Noise
-model: Iota
+brand: oldbloodnoise
+model: iota
+brandName: Old Blood Noise
+modelName: Iota
 device_type: synth
-email: 'https://oldbloodnoise.com/about-obne-contact'
-url: >-
-  https://static1.squarespace.com/static/6467b64a7c9d9e5cdae9a3ea/t/6ae784196d86a6541fcc8ac6/1793557529562/IOTA+Instruction+Manual-compressed.pdf
+email: blakesmietanski@gmail.com
+url: Please change brand to Old Blood Noise Endeavors to match previous entries.
 midi_channel:
   instructions: 'Default = 1, use CC message to change'
-midi_clock: Unknown
 midi_inputs: []
 midi_outputs: []
 midi_thru: 'Yes'
 pc:
   description: Unknown
-phantom_power: 'No'
-midi_mapping: CC 102 with channel 1-16 as value
 cc:
   - name: Volume
     value: '7'
