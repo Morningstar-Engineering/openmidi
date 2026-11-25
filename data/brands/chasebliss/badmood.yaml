@@ -1,0 +1,411 @@
+brand: Chase Bliss
+model: Bad Mood
+device_type: effect
+email: marklarssen@gmail.com
+url: >-
+  https://static1.squarespace.com/static/622176a9b8d15d57ffbf5700/t/6a8869dd52cb3a0103d93a07/1787324896882/BAD+MOOD_MIDI+Manual_Chase+Bliss.pdf
+midi_channel:
+  instructions: Unknown
+midi_clock: Unknown
+midi_inputs: []
+midi_outputs: []
+midi_thru: Unknown
+pc:
+  description: Unknown
+phantom_power: Not Applicable
+midi_mapping: Not Applicable
+cc:
+  - name: Time
+    value: 14
+    description: 'Knobs: Time (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Mix
+    value: 15
+    description: 'Knobs: Mix (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Length
+    value: 16
+    description: 'Knobs: Length (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Modify (Wet Channel)
+    value: 17
+    description: 'Knobs: Wet Channel Modify (0-127; see Chord Selections in Flip mode)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Clock
+    value: 18
+    description: >-
+      Knobs: Clock (0-127; stepped values: 0-4=2k, 5-16=3k, 16-28=4k, 29-40=6k,
+      41-53=8k, 54-69=12k, 70-83=16k, 84-95=24k, 96-109=32k, 110-121=48k,
+      122-127=64k)
+    type: variable
+    min: 0
+    max: 127
+  - name: Modify (Micro-Looper)
+    value: 19
+    description: >-
+      Knobs: Micro-Looper Modify (0-127; Radio stations: 0=Tape, 32=Ambient,
+      63=Orchestral, 97=Shoegaze, 127=Dance)
+    type: variable
+    min: 0
+    max: 127
+  - name: Ramp Speed
+    value: 20
+    description: 'Knobs: Ramp Speed (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Wet Channel Toggle
+    value: 21
+    description: 'Toggles: Wet Channel (Soup = 0-1, Relay = 2, Flip = 3-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Routing Toggle
+    value: 22
+    description: 'Toggles: Routing (In = 0-1, Miso = 2, Spread = 3-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Micro-Looper Toggle
+    value: 23
+    description: 'Toggles: Micro-Looper (Burst = 0-1, Radio = 2, Mask = 3-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Cross
+    value: 24
+    description: 'Hidden Options: Cross (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Balance
+    value: 25
+    description: 'Hidden Options: Balance (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Fade
+    value: 26
+    description: 'Hidden Options: Fade (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: EQ
+    value: 27
+    description: 'Hidden Options: EQ (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Glue
+    value: 28
+    description: 'Hidden Options: Glue (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Blend
+    value: 29
+    description: 'Hidden Options: Blend (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Master Volume
+    value: 30
+    description: 'Hidden Options: Master Volume (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Sync (Hidden Option)
+    value: 31
+    description: 'Hidden Options: Sync (Sync = 0-1, No Sync = 2, Loop Sync = 3-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Spread (Hidden Option)
+    value: 32
+    description: >-
+      Hidden Options: Spread (Wet Only = 0-1, Both = 2, Micro-Looper Only =
+      3-127)
+    type: group
+    min: 0
+    max: 127
+  - name: Cross Input (Hidden Option)
+    value: 33
+    description: 'Hidden Options: Cross Input (Wet = 0-1, Input = 2, Micro-Looper = 3-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Wet Channel Bypass
+    value: 102
+    description: 'Footswitches: Wet Channel Bypass (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Micro-Looper Bypass
+    value: 103
+    description: 'Footswitches: Micro-Looper Bypass (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Hidden Options (Footswitch Hold)
+    value: 104
+    description: 'Footswitches: Hidden Options (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Freeze
+    value: 105
+    description: 'Footswitches: Freeze (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Overdub
+    value: 106
+    description: 'Footswitches: Overdub (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: MIDI Clock Ignore
+    value: 51
+    description: 'Misc / Random: MIDI Clock Ignore (Ignore = 0, Follow = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Stop Ramping
+    value: 52
+    description: 'Misc / Random: Stop Ramping (Stop = 0, Resume = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: True Bypass Mode
+    value: 55
+    description: 'Misc / Random: True Bypass Mode (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Factory Reset
+    value: 56
+    description: 'Misc / Random: Factory Reset (0-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: EQ Per Channel
+    value: 85
+    description: >-
+      Misc / Random: EQ Per Channel (Only Wet EQ = 0-1, Both EQ Default = 2,
+      Only Micro-Looper EQ = 3-127)
+    type: group
+    min: 0
+    max: 127
+  - name: Tap Tempo
+    value: 93
+    description: 'Misc / Random: Tap Tempo (0-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Expression Over MIDI
+    value: 100
+    description: 'Misc / Random: Expression Over MIDI (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: MIDI Reset
+    value: 110
+    description: >-
+      Misc / Random: MIDI Reset (0-127; resets Ignore MIDI clock OFF, Octave
+      transpose +3 octaves, Clock division quarter note, Portamento OFF, Gate
+      mode OFF - Saved Globally)
+    type: fixed
+    min: 0
+    max: 127
+  - name: Preset Save
+    value: 111
+    description: 'Misc / Random: Preset Save (0-122)'
+    type: variable
+    min: 0
+    max: 122
+  - name: Clock Division (Wet Channel)
+    value: 53
+    description: >-
+      Subdivisions: Clock Division 1 (0=32nd, 1=16th, 2=8th Triplet, 3=8th,
+      4=Quarter, 5=Half, 6=Dotted Half, 7=Whole, 8=Double Whole - Saved
+      Globally)
+    type: group
+    min: 0
+    max: 8
+  - name: Clock Division (Micro-Looper)
+    value: 54
+    description: >-
+      Subdivisions: Clock Division 2 (0=32nd, 1=16th, 2=8th Triplet, 3=8th,
+      4=Quarter, 5=Half, 6=Dotted Half, 7=Whole, 8=Double Whole - Saved
+      Globally)
+    type: group
+    min: 0
+    max: 8
+  - name: 'DIP Left 1: Time'
+    value: 61
+    description: 'DIP Switches Left Bank (Control): Time (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 2: Modify (Wet)'
+    value: 62
+    description: 'DIP Switches Left Bank (Control): Modify 1 (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 3: Clock'
+    value: 63
+    description: 'DIP Switches Left Bank (Control): Clock (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 4: Modify (Micro-Looper)'
+    value: 64
+    description: 'DIP Switches Left Bank (Control): Modify 2 (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 5: Length'
+    value: 65
+    description: 'DIP Switches Left Bank (Control): Length (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 6: Bounce'
+    value: 66
+    description: 'DIP Switches Left Bank (Control): Bounce (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 7: Sweep'
+    value: 67
+    description: 'DIP Switches Left Bank (Control): Sweep (Bottom = 0, Top = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Left 8: Polarity'
+    value: 68
+    description: 'DIP Switches Left Bank (Control): Polarity (Forward = 0, Reverse = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 1: MISO'
+    value: 71
+    description: 'DIP Switches Right Bank (Customize): MISO (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 2: Spread'
+    value: 72
+    description: 'DIP Switches Right Bank (Customize): Spread (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 3: Dry Kill'
+    value: 73
+    description: 'DIP Switches Right Bank (Customize): Dry Kill (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 4: Trails'
+    value: 74
+    description: 'DIP Switches Right Bank (Customize): Trails (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 5: Latch'
+    value: 75
+    description: 'DIP Switches Right Bank (Customize): Latch (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 6: Half'
+    value: 76
+    description: 'DIP Switches Right Bank (Customize): Half (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 7: Smooth'
+    value: 77
+    description: 'DIP Switches Right Bank (Customize): Smooth (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: 'DIP Right 8: Dry Glue'
+    value: 78
+    description: 'DIP Switches Right Bank (Customize): Dry Glue (Off = 0, On = 1-127)'
+    type: group
+    min: 0
+    max: 127
+  - name: Exit Synth Mode
+    value: 59
+    description: 'Synth Mode: Exit Synth Mode (0-127)'
+    type: fixed
+    min: 0
+    max: 127
+  - name: Output Type
+    value: 58
+    description: >-
+      Synth Mode: Output Type (Open = 0, On/Off = 1, ADSR = 2-127; manual prints
+      '1 OR >' on pg 9 and '2-127' on pg 13)
+    type: group
+    min: 0
+    max: 127
+  - name: Attack
+    value: 80
+    description: 'Synth Mode: Attack (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Decay
+    value: 81
+    description: 'Synth Mode: Decay (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Sustain
+    value: 82
+    description: 'Synth Mode: Sustain (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Release
+    value: 83
+    description: 'Synth Mode: Release (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Octave Transpose
+    value: 57
+    description: >-
+      Synth Mode: Octave Transpose (1=12 semitones, 2=24, 3=36, 4=48, 5=60,
+      6=72, 7=84, 8=96, 9=108)
+    type: group
+    min: 1
+    max: 9
+  - name: Portamento
+    value: 84
+    description: 'Synth Mode: Portamento (0-127)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Pitch Bend
+    value: 0
+    description: 'Synth Mode: Pitch Bend (0-127; Range +/- 4 semitones)'
+    type: variable
+    min: 0
+    max: 127
+  - name: Modulation Wheel
+    value: 1
+    description: 'Synth Mode: Modulation Wheel (0-127)'
+    type: variable
+    min: 0
+    max: 127
