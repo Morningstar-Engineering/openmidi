@@ -1,0 +1,466 @@
+---
+brand: Korg
+cc:
+  - description: Received only (not transmitted). Breath is Pedal Wah when Vox Wah
+      is selected.
+    max: 127
+    min: 0
+    name: "System: Modulation"
+    value: 1
+    type: variable
+  - description: Received only (not transmitted). Breath is Pedal Wah when Vox Wah
+      is selected.
+    max: 127
+    min: 0
+    name: "System: Breath"
+    value: 2
+    type: variable
+  - description: Received only (not transmitted). Data Entry MSB (used with RPN/NRPN).
+    max: 127
+    min: 0
+    name: "System: Data Entry MSB"
+    value: 6
+    type: variable
+  - description: Received only (not transmitted). Data Entry LSB (used with RPN/NRPN).
+    max: 127
+    min: 0
+    name: "System: Data Entry LSB"
+    value: 38
+    type: variable
+  - description: Transmitted and received.
+    max: 127
+    min: 0
+    name: "System: Volume"
+    value: 7
+    type: variable
+  - description: Transmitted and received.
+    max: 127
+    min: 0
+    name: "System: Expression"
+    value: 11
+    type: variable
+  - description: Transmitted and received.
+    max: 127
+    min: 0
+    name: "Pedal: Damper"
+    value: 64
+    type: variable
+  - description: Transmitted and received. Sostenuto is Rotary Slow/Fast when Rotary
+      is selected.
+    max: 127
+    min: 0
+    name: "Pedal: Sostenuto"
+    value: 66
+    type: variable
+  - description: Transmitted and received.
+    max: 127
+    min: 0
+    name: "Pedal: Soft"
+    value: 67
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Variation"
+    value: 70
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Resonance"
+    value: 71
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Release"
+    value: 72
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Attack"
+    value: 73
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Cutoff"
+    value: 74
+    type: variable
+  - description: Received only (not transmitted). Sound Controller.
+    max: 127
+    min: 0
+    name: "Sound: Decay"
+    value: 75
+    type: variable
+  - description: Received only (not transmitted). Vibrato Controller.
+    max: 127
+    min: 0
+    name: "Vibrato: Rate"
+    value: 76
+    type: variable
+  - description: Received only (not transmitted). Vibrato Controller.
+    max: 127
+    min: 0
+    name: "Vibrato: Depth"
+    value: 77
+    type: variable
+  - description: Received only (not transmitted). Vibrato Controller.
+    max: 127
+    min: 0
+    name: "Vibrato: Delay"
+    value: 78
+    type: variable
+  - description: Received only (not transmitted). Reverb/Delay Send.
+    max: 127
+    min: 0
+    name: "System: REV/DLY Send"
+    value: 91
+    type: variable
+  - description: Received only (not transmitted). NRPN LSB.
+    max: 127
+    min: 0
+    name: "System: NRPN LSB"
+    value: 98
+    type: variable
+  - description: Received only (not transmitted). NRPN MSB.
+    max: 127
+    min: 0
+    name: "System: NRPN MSB"
+    value: 99
+    type: variable
+  - description: Received only (not transmitted). RPN LSB.
+    max: 127
+    min: 0
+    name: "System: RPN LSB"
+    value: 100
+    type: variable
+  - description: Received only (not transmitted). RPN MSB.
+    max: 127
+    min: 0
+    name: "System: RPN MSB"
+    value: 101
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: EQ On/Off"
+    value: 102
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: Pre FX On/Off"
+    value: 103
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: Amp Model + Cabinet On/Off"
+    value: 104
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: Modulation On/Off"
+    value: 105
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: Reverb/Delay On/Off"
+    value: 106
+    type: variable
+  - description: Transmitted and received. Effect On/Off.
+    max: 127
+    min: 0
+    name: "Effect: Total FX On/Off"
+    value: 107
+    type: variable
+  - description: "Received only (not transmitted). Channel mode message: stops all
+      sounding notes."
+    max: 127
+    min: 0
+    name: "Aux: All Notes Off"
+    value: 123
+    type: variable
+  - description: "Received only (not transmitted). Channel mode message: Omni Off,
+      also triggers all-notes-off behavior on this device."
+    max: 127
+    min: 0
+    name: "Aux: Omni Off"
+    value: 124
+    type: variable
+pc:
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 1/6"
+    value: 0
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 2/6"
+    value: 1
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 3/6"
+    value: 2
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 4/6"
+    value: 3
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 5/6"
+    value: 4
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 1: 6/6"
+    value: 5
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 1/6"
+    value: 6
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 2/6"
+    value: 7
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 3/6"
+    value: 8
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 4/6"
+    value: 9
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 5/6"
+    value: 10
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "E.Piano 2: 6/6"
+    value: 11
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 1/6"
+    value: 12
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 2/6"
+    value: 13
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 3/6"
+    value: 14
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 4/6"
+    value: 15
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 5/6"
+    value: 16
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Clav: 6/6"
+    value: 17
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 1/6"
+    value: 18
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 2/6"
+    value: 19
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 3/6"
+    value: 20
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 4/6"
+    value: 21
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 5/6"
+    value: 22
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Piano: 6/6"
+    value: 23
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 1/6"
+    value: 24
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 2/6"
+    value: 25
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 3/6"
+    value: 26
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 4/6"
+    value: 27
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 5/6"
+    value: 28
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Organ: 6/6"
+    value: 29
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 1/6"
+    value: 30
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 2/6"
+    value: 31
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 3/6"
+    value: 32
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 4/6"
+    value: 33
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 5/6"
+    value: 34
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Other: 6/6"
+    value: 35
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 1/8"
+    value: 36
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 2/8"
+    value: 37
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 3/8"
+    value: 38
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 4/8"
+    value: 39
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 5/8"
+    value: 40
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 6/8"
+    value: 41
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 7/8"
+    value: 42
+    type: program_change
+  - description: ""
+    max: 127
+    min: 0
+    name: "Favorite: 8/8"
+    value: 43
+    type: program_change
+device_name: SV-1
+midi_channel:
+  instructions: ""
+midi_clock: ""
+midi_in: ""
+midi_thru: ""
+phantom_power: ""
